@@ -40,6 +40,14 @@ jobs:
       #- name: Scrape Newsletter Data
       #  run: python scrapers/newsletter.py || true
 
+      - name: Prepare Docs Folder
+        run: |
+            mkdir -p docs
+            rm -rf docs/*
+            cp -r json/. docs/
+            python folder.py || true
+            cp -r docs /tmp/docs
+
       - name: Deploy to gh-pages Branch
         run: |
             git config --global user.name "github-actions"
@@ -48,13 +56,6 @@ jobs:
             # 切換到 gh-pages 分支，若不存在則建立
             git fetch origin gh-pages || true
             git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
-            
-            # 清空舊的 JSON 資料
-            rm -rf docs/*
-            
-            # 確保 docs 目錄存在，並複製新的 JSON
-            mkdir -p docs
-            cp -r json/* docs/
             
             git add .
             git commit -m "action: Update scraped data" || echo "No changes to commit"
