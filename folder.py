@@ -17,7 +17,7 @@ def generate_file_list_html(base_path):
             file_path = os.path.join(root, file)
             # 轉換為相對於 docs 目錄的連結
             rel_file = os.path.relpath(file_path, base_path)
-            html += f'<li><a href="{base_path}/{rel_file}">{file}</a></li>\n'
+            html += f'<li><a href="{rel_file}">{file}</a></li>\n'
         if rel_root != ".":
             html += "</ul></li>\n"
     html += "</ul>\n</body></html>"
