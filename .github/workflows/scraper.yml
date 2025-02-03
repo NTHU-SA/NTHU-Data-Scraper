@@ -25,13 +25,20 @@ jobs:
         run: |
             pip install -r requirements.txt
 
-      - name: Run Scrapers
-        run: |
-            python scrapers/buses.py
-            python scrapers/dining.py
-            python scrapers/directory.py
-            python scrapers/maps.py
-            python scrapers/newsletter.py
+      - name: Scrape Bus Data
+        run: python scrapers/buses.py || true
+    
+      - name: Scrape Dining Data
+        run: python scrapers/dining.py || true
+
+      - name: Scrape Directory Data
+        run: python scrapers/directory.py || true
+
+      - name: Scrape Maps Data
+        run: python scrapers/maps.py || true
+
+      - name: Scrape Newsletter Data
+        run: python scrapers/newsletter.py || true
 
       - name: Deploy to gh-pages Branch
         run: |
