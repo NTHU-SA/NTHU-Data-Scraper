@@ -4,6 +4,9 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from loguru import logger
+from requests.adapters import HTTPAdapter, Retry
+
+FILE_PATH = "json/maps/"
 
 headers = {
     "accept": "*/*",
@@ -21,30 +24,48 @@ map_url = {
     "NandaEN": "https://campusmap.cc.nthu.edu.tw/sden",
 }
 
+# 設定 requests session，增加 retry 機制
+session = requests.Session()
+retries = Retry(
+    total=5,  # 總共重試 5 次
+    backoff_factor=1,  # 指數退避（1 秒、2 秒、4 秒…）
+    status_forcelist=[500, 502, 503, 504, 408],  # 針對這些 HTTP 錯誤碼進行重試
+)
+session.mount("https://", HTTPAdapter(max_retries=retries))
 
-def parse_html(res_text) -> json:
+
+def parse_html(res_text) -> dict:
+    """解析 HTML 並提取地圖座標資料"""
     soup = BeautifulSoup(res_text, "html.parser")
     options = soup.find_all("option")
     map_data = {}
     for option in options:
+        if not option.get("value"):
+            continue
         # 把經緯度分開並移除無謂的空格
-        option["value"] = [coord.strip() for coord in option["value"].split(",")]
-        location = {"latitude": option["value"][0], "longitude": option["value"][1]}
-        map_data[option.text.strip()] = location
+        coords = [coord.strip() for coord in option["value"].split(",")]
+        if len(coords) == 2:  # 確保有經緯度
+            location = {"latitude": coords[0], "longitude": coords[1]}
+            map_data[option.text.strip()] = location
     return map_data
 
 
 def scrape_map(path):
     os.makedirs(path, exist_ok=True)
     for name, url in map_url.items():
-        res_text = requests.get(url).text
-        logger.info(f"已取得 {name} 的資料")
-        map_data = parse_html(res_text)
-        logger.debug(map_data)
-        file_path = path + name + ".json"
-        logger.info(f'儲存 {name} 的資料到 "{file_path}"')
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(map_data, f, ensure_ascii=False, indent=4)
+        try:
+            res = session.get(url, headers=headers, timeout=10)  # 設定 10 秒超時
+            res.raise_for_status()  # 如果 HTTP 回應碼不是 200，拋出錯誤
+            logger.info(f"已取得 {name} 的資料")
+            map_data = parse_html(res.text)
+            logger.debug(map_data)
+            file_path = os.path.join(path, f"{name}.json")
+            logger.info(f'儲存 {name} 的資料到 "{file_path}"')
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(map_data, f, ensure_ascii=False, indent=4)
+        except requests.exceptions.RequestException as e:
+            logger.error(f"❌ 爬取 {name} 失敗: {e}")
 
 
-scrape_map("json/maps/")
+if __name__ == "__main__":
+    scrape_map(FILE_PATH)

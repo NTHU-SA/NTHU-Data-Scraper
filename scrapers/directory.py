@@ -5,221 +5,177 @@ import threading
 import requests
 from bs4 import BeautifulSoup
 from loguru import logger
+from requests.adapters import HTTPAdapter, Retry
 
 BASE_URL = "https://tel.net.nthu.edu.tw/nthusearch/"
 JSON_EXTENSION = ".json"
 
 # Define folder paths
 TEMP_FOLDER = "temp/directory"
-DEPT_FOLDER = TEMP_FOLDER + "/dept"
-COMBINED_FOLDER = TEMP_FOLDER + "/combined"
+DEPT_FOLDER = os.path.join(TEMP_FOLDER, "dept")
+COMBINED_FOLDER = os.path.join(TEMP_FOLDER, "combined")
 DEPT_FILE_NAME = "json/directory.json"
 
 headers = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
-    "accept-language": "zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,zh-CN;q=0.5",
+    "accept-language": "zh-TW,zh;q=0.9,en;q=0.8",
     "dnt": "1",
     "host": "tel.net.nthu.edu.tw",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
 }
 
+# 設定 requests session，增加 retry 機制
+session = requests.Session()
+retries = Retry(
+    total=5,  # 總共重試 5 次
+    backoff_factor=1,  # 指數退避（1 秒、2 秒、4 秒…）
+    status_forcelist=[500, 502, 503, 504, 408],  # 針對這些 HTTP 錯誤碼進行重試
+)
+session.mount("https://", HTTPAdapter(max_retries=retries))
 
-def get_response(url) -> str:
-    logger.info(f"取得 {url} 的 response")
-    response = requests.get(url, headers=headers)
-    response.encoding = "utf-8"
-    return response.text
+
+def get_response(url):
+    try:
+        logger.info(f"Fetching {url}")
+        response = session.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        response.encoding = "utf-8"
+        return response.text
+    except requests.exceptions.RequestException as e:
+        logger.error(f"❌ 爬取 {url} 失敗: {e}")
+        return ""
 
 
-def scrape_all_dept_url() -> list:
+def scrape_all_dept_url():
     text = get_response(f"{BASE_URL}index.php")
+    if not text:
+        return []
+
     soup = BeautifulSoup(text, "html.parser")
     departments = []
-    matches = soup.select("li a")
-    for match in matches:
-        url = BASE_URL + match.get("href")
+    for match in soup.select("li a"):
+        url = BASE_URL + match.get("href", "")
         name = match.text.strip()
-        departments.append({"name": name, "url": url})
-    with open(f"{TEMP_FOLDER}/departments.json", "w", encoding="UTF-8") as f:
+        if url and name:
+            departments.append({"name": name, "url": url})
+
+    os.makedirs(TEMP_FOLDER, exist_ok=True)
+    with open(
+        os.path.join(TEMP_FOLDER, "departments.json"), "w", encoding="utf-8"
+    ) as f:
         json.dump(departments, f, ensure_ascii=False, indent=4)
     return departments
 
 
-def get_dept_details(url) -> dict:
+def get_dept_details(url):
     text = get_response(url)
+    if not text:
+        return {}
+
     soup = BeautifulSoup(text, "html.parser")
     departments = []
-    try:
-        story_left = soup.select_one("div.story_left")
-        links = story_left.select("a") if story_left else []
-        for link in links:
-            dept_url = BASE_URL + link.get("href")
-            name = link.text.strip()
-            departments.append({"name": name, "url": dept_url})
-        story_max = soup.select_one("div.story_max")
-        tables = story_max.select("table") if story_max else []
-        contact = {}
-        people = []
+    contact, people = {}, []
+
+    story_left = soup.select_one("div.story_left")
+    if story_left:
+        departments = [
+            {"name": link.text.strip(), "url": BASE_URL + link.get("href", "")}
+            for link in story_left.select("a")
+            if link.text.strip()
+        ]
+
+    story_max = soup.select_one("div.story_max")
+    if story_max:
+        tables = story_max.select("table")
         if tables:
             contact = parse_contact_table(tables[0])
             if len(tables) > 1:
                 people = parse_people_table(tables[1])
-    except Exception as e:
-        logger.error(f"{url} 的 departments 失效，錯誤為 {e}")
 
     return {"departments": departments, "contact": contact, "people": people}
 
 
-def parse_contact_table(table) -> dict:
+def parse_contact_table(table):
     contact = {}
-    rows = table.select("tr")
-    for row in rows:
+    for row in table.select("tr"):
         cols = row.select("td")
         if len(cols) >= 2:
-            key = cols[0].text.strip().replace("　", "")
-            if key == "":
-                continue
-            value = cols[1].text.strip().replace(" ", "")
+            key, value = cols[0].text.strip(), cols[1].text.strip()
             if link := cols[1].select_one("a"):
-                if href := link.get("href"):
-                    value = (
-                        href if "mailto:" not in href else href.replace("mailto:", "")
-                    )
+                href = link.get("href", "")
+                value = href.replace("mailto:", "") if "mailto:" in href else href
             contact[key] = value
     return contact
 
 
-def parse_people_table(table) -> list:
+def parse_people_table(table):
     people = []
     rows = table.select("tr")
-    if not rows:
-        return people
-    headers = []
-    for th in rows[0].select("td"):
-        headers.append(th.text.strip().replace("　", ""))
-    for row in rows[1:]:
-        cols = row.select("td")
-        person = {}
-        for i, col in enumerate(cols):
-            text = col.text.strip().replace("\u3000", "")
-            if link := col.select_one("a"):
-                if href := link.get("href"):
-                    text = href.replace("mailto:", "") if "mailto:" in href else href
-            person[headers[i]] = text
-        people.append(person)
+    if rows:
+        headers = [th.text.strip() for th in rows[0].select("td")]
+        for row in rows[1:]:
+            cols = row.select("td")
+            person = {
+                headers[i]: (
+                    col.select_one("a").get("href", "").replace("mailto:", "")
+                    if col.select_one("a")
+                    else col.text.strip()
+                )
+                for i, col in enumerate(cols)
+            }
+            people.append(person)
     return people
 
 
-def get_all_dept_details(departments):
-    threads = []
-    for dept in departments:
-        t = threading.Thread(target=save_dept_details, args=(dept,))
-        threads.append(t)
-        t.start()
-    for t in threads:
-        t.join()
-
-
 def save_dept_details(dept):
+    os.makedirs(DEPT_FOLDER, exist_ok=True)
+    filename = os.path.join(DEPT_FOLDER, f"{dept['name'].replace('/', '_')}.json")
     result = get_dept_details(dept["url"])
-    filename = f"{DEPT_FOLDER}/{dept['name'].replace('/', '_')}.json"
-    with open(filename, "w", encoding="UTF-8") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=4)
 
 
-def get_sub_dept_details():
-    dept_files = [f for f in os.listdir(DEPT_FOLDER) if f.endswith(JSON_EXTENSION)]
-    threads = []
-    for dept_file in dept_files:
-        t = threading.Thread(target=process_sub_dept, args=(dept_file,))
-        threads.append(t)
+def get_all_dept_details(departments):
+    threads = [
+        threading.Thread(target=save_dept_details, args=(dept,)) for dept in departments
+    ]
+    for t in threads:
         t.start()
     for t in threads:
         t.join()
 
 
-def process_sub_dept(dept_file):
-    with open(f"{DEPT_FOLDER}/{dept_file}", "r", encoding="UTF-8") as f:
-        dept_data = json.load(f)
-    departments = dept_data.get("departments", [])
-    dept_name = os.path.splitext(dept_file)[0]
-    dept_path = f"{DEPT_FOLDER}/{dept_name.replace('/', '_')}"
-    if not os.path.isdir(dept_path):
-        os.mkdir(dept_path)
-    for sub_dept in departments:
-        result = get_dept_details(sub_dept["url"])
-        filename = f"{dept_path}/{sub_dept['name'].replace('/', '_')}.json"
-        with open(filename, "w", encoding="UTF-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=4)
-
-
-def combine_file():
-    if not os.path.isdir(COMBINED_FOLDER):
-        os.mkdir(COMBINED_FOLDER)
-    files = [f for f in os.listdir(DEPT_FOLDER) if f.endswith(JSON_EXTENSION)]
-    for dept_file in files:
-        with open(f"{DEPT_FOLDER}/{dept_file}", "r", encoding="utf-8") as f:
-            data = json.load(f)
-        dept_name = os.path.splitext(dept_file)[0]
-        dept_path = f"{DEPT_FOLDER}/{dept_name}"
-        if not os.path.isdir(dept_path):
-            continue
-        dept_files = [df for df in os.listdir(dept_path) if df.endswith(JSON_EXTENSION)]
-        for sub_file in dept_files:
-            with open(f"{dept_path}/{sub_file}", "r", encoding="utf-8") as f:
-                sub_data = json.load(f)
-            for k in data.get("departments", []):
-                if k["name"] == os.path.splitext(sub_file)[0]:
-                    k["details"] = sub_data
-        with open(f"{COMBINED_FOLDER}/{dept_file}", "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-
-
 def combine_json():
-    files = [f for f in os.listdir(COMBINED_FOLDER) if f.endswith(JSON_EXTENSION)]
-    final_data = []
-    for file in files:
-        with open(f"{COMBINED_FOLDER}/{file}", "r", encoding="utf-8") as f:
-            data = json.load(f)
-        dept_name = os.path.splitext(file)[0]
-        temp_data = {"name": dept_name, "details": data}
-        final_data.append(temp_data)
+    os.makedirs(COMBINED_FOLDER, exist_ok=True)
+    combined_data = []
+    for file in os.listdir(COMBINED_FOLDER):
+        if file.endswith(JSON_EXTENSION):
+            with open(os.path.join(COMBINED_FOLDER, file), "r", encoding="utf-8") as f:
+                data = json.load(f)
+            combined_data.append({"name": os.path.splitext(file)[0], "details": data})
     with open(DEPT_FILE_NAME, "w", encoding="utf-8") as f:
-        json.dump(final_data, f, ensure_ascii=False, indent=4)
-
-
-def combine_contact():
-    with open(f"{TEMP_FOLDER}/departments.json", "r", encoding="utf-8") as f:
-        contact_data = json.load(f)
-    with open(DEPT_FILE_NAME, "r", encoding="utf-8") as f:
-        dept_data = json.load(f)
-    for c in contact_data:
-        for d in dept_data:
-            if c["name"] == d["name"]:
-                d["url"] = c["url"]
-    with open(DEPT_FILE_NAME, "w", encoding="utf-8") as f:
-        json.dump(dept_data, f, ensure_ascii=False, indent=4)
+        json.dump(combined_data, f, ensure_ascii=False, indent=4)
 
 
 def scrape_newsletter():
     os.makedirs(TEMP_FOLDER, exist_ok=True)
     os.makedirs(DEPT_FOLDER, exist_ok=True)
     os.makedirs(COMBINED_FOLDER, exist_ok=True)
-    logger.info("開始爬取所有系所網址")
+
+    logger.info("Scraping all department URLs...")
     departments = scrape_all_dept_url()
-    logger.debug(departments)
-    logger.info("開始多執行緒爬取所有系所詳細資料")
+    if not departments:
+        logger.error("No departments found. Exiting.")
+        return
+
+    logger.info("Fetching all department details using multithreading...")
     get_all_dept_details(departments)
-    logger.info("開始多執行緒爬取所有子系所詳細資料")
-    get_sub_dept_details()
-    logger.info("開始合併所有系所資料")
-    combine_file()
-    logger.info("開始合併所有系所資料成一個檔案")
+
+    logger.info("Combining all department data...")
     combine_json()
-    logger.info("開始合併聯絡資訊")
-    combine_contact()
-    logger.info("所有爬蟲工作完成!")
+
+    logger.info("Scraping completed!")
 
 
 if __name__ == "__main__":

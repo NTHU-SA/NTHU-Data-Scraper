@@ -31,14 +31,14 @@ jobs:
       - name: Scrape Dining Data
         run: python scrapers/dining.py || true
 
-      - name: Scrape Directory Data
-        run: python scrapers/directory.py || true
+      #- name: Scrape Directory Data
+      #  run: python scrapers/directory.py || true
 
-      - name: Scrape Maps Data
-        run: python scrapers/maps.py || true
+      #- name: Scrape Maps Data
+      #  run: python scrapers/maps.py || true
 
-      - name: Scrape Newsletter Data
-        run: python scrapers/newsletter.py || true
+      #- name: Scrape Newsletter Data
+      #  run: python scrapers/newsletter.py || true
 
       - name: Deploy to gh-pages Branch
         run: |

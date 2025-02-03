@@ -1,0 +1,72 @@
+[
+    {
+        "time": "7:50",
+        "dep_stop": "校門",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "8:20",
+        "dep_stop": "校門",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "9:30",
+        "dep_stop": "校門",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "10:40",
+        "dep_stop": "校門",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "12:10",
+        "dep_stop": "校門",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "13:10",
+        "dep_stop": "校門",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "14:10",
+        "dep_stop": "校門",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "15:30",
+        "dep_stop": "校門",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "16:40",
+        "dep_stop": "校門",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "17:30",
+        "dep_stop": "校門",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    }
+]
