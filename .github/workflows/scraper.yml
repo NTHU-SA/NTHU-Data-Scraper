@@ -1,0 +1,55 @@
+name: Run Scraper and Deploy
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 00:00 執行
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # 手動觸發
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+            python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+            pip install -r requirements.txt
+
+      - name: Run Scrapers
+        run: |
+            python scrapers/buses.py
+            python scrapers/dining.py
+            python scrapers/directory.py
+            python scrapers/maps.py
+            python scrapers/newsletter.py
+
+      - name: Deploy to gh-pages Branch
+        run: |
+            git config --global user.name "github-actions"
+            git config --global user.email "github-actions@github.com"
+
+            # 切換到 gh-pages 分支，若不存在則建立
+            git fetch origin gh-pages || true
+            git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
+            
+            # 清空舊的 JSON 資料
+            rm -rf docs/*
+            
+            # 確保 docs 目錄存在，並複製新的 JSON
+            mkdir -p docs
+            cp -r json/* docs/
+            
+            git add .
+            git commit -m "action: Update scraped data" || echo "No changes to commit"
+            git push --force origin gh-pages
+    
