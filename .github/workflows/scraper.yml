@@ -2,7 +2,7 @@ name: Run Scraper and Deploy
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 00:00 執行
+    - cron: '0 16 * * *'  # 每天 UTC+8 的 00:00 執行（UTC 16:00 對應 UTC+8 00:00）
   push:
     branches:
       - main
@@ -22,8 +22,7 @@ jobs:
             python-version: '3.12'
 
       - name: Install Dependencies
-        run: |
-            pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Scrape Bus Data
         run: python scrapers/buses.py || true
@@ -40,6 +39,9 @@ jobs:
       #- name: Scrape Newsletter Data
       #  run: python scrapers/newsletter.py || true
 
+      - name: Combine JSON Files
+        run: python combine.py || true
+
       - name: Prepare Docs Folder
         run: |
             mkdir -p docs
@@ -53,9 +55,9 @@ jobs:
             git config --global user.name "github-actions"
             git config --global user.email "github-actions@github.com"
 
-            # 切換到 gh-pages 分支，若不存在則建立
-            git fetch origin gh-pages || true
-            git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
+            # 切換到 pages 分支，若不存在則建立
+            git fetch origin pages || true
+            git checkout pages 2>/dev/null || git checkout --orphan pages
             
             git add .
             git commit -m "action: Update scraped data" || echo "No changes to commit"
