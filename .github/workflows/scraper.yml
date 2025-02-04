@@ -39,6 +39,9 @@ jobs:
       #- name: Scrape Newsletter Data
       #  run: python scrapers/newsletter.py || true
 
+      - name: Scrape Course Data
+        run: python scrapers/courses.py || true
+
       - name: Combine JSON Files
         run: python combine.py || true
 
@@ -48,18 +51,24 @@ jobs:
             rm -rf docs/*
             cp -r json/. docs/
             python folder.py || true
-            cp -r docs /tmp/docs
 
       - name: Deploy to gh-pages Branch
         run: |
             git config --global user.name "github-actions"
             git config --global user.email "github-actions@github.com"
 
+            # 取得 main 分支最新狀態
+            git fetch origin main
+
             # 切換到 gh-pages 分支，若不存在則建立
-            git fetch origin gh-pages || true
             git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
-            
+
+            # 將 main 分支的變更合併進來，保留 gh-pages 的 commit history
+            git merge origin/main --no-edit || echo "Merge conflicts, please resolve manually"
+
+            # 將新產生的 docs 資料夾內容複製進來
+            cp -r docs/* .
+
             git add .
-            git commit -m "action: Update scraped data" || echo "No changes to commit"
-            git push --force origin gh-pages
-    
+            git commit -m "action: Update scraped docs" || echo "No changes to commit"
+            git push origin gh-pages

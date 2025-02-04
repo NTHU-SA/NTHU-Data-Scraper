@@ -51,6 +51,11 @@ def split_course_data(path, output_folder="json/courses/semesters"):
             json.dump(courses, f, ensure_ascii=False, indent=2)
 
 
-for key, value in course_data_url.items():
-    get_json_data_from_url(value, f"{folder}/{key}.json")
-    split_course_data(f"{folder}/{key}.json")
+if __name__ == "__main__":
+    # 獲取最新課程資料
+    get_json_data_from_url(course_data_url["lastest"], f"{folder}/lastest.json")
+    split_course_data(f"{folder}/lastest.json")
+
+# for key, value in course_data_url.items():
+#    get_json_data_from_url(value, f"{folder}/{key}.json")
+#    split_course_data(f"{folder}/{key}.json")
