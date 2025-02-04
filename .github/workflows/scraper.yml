@@ -50,7 +50,7 @@ jobs:
             python folder.py || true
             cp -r docs /tmp/docs
 
-      - name: Deploy to gh-pages Branch
+      - name: Deploy to pages Branch
         run: |
             git config --global user.name "github-actions"
             git config --global user.email "github-actions@github.com"
@@ -61,5 +61,5 @@ jobs:
             
             git add .
             git commit -m "action: Update scraped data" || echo "No changes to commit"
-            git push --force origin gh-pages
+            git push --force origin pages
     
