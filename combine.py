@@ -21,4 +21,4 @@ def combine_json_files(path, folder_list):
         print(f"{folder}.json 已合併！")
 
 
-combine_json_files("json", FOLDER_LIST)
+combine_json_files("docs", FOLDER_LIST)

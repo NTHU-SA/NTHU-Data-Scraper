@@ -1,24 +1,18 @@
 import json
-import os
 import re
+from pathlib import Path
+from typing import Any, Dict, List, Optional
 
 import requests
 from bs4 import BeautifulSoup
+from config import JSON_FOLDER
 from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
-FILE_PATH = "json/buses/"
+# --- 全域參數設定 ---
+OUTPUT_FOLDER: Path = Path(JSON_FOLDER) / "buses"
 
-# 設定 requests session 與 retry 機制
-session = requests.Session()
-retries = Retry(
-    total=5,  # 重試 5 次
-    backoff_factor=1,  # 指數退避：1秒、2秒、4秒...
-    status_forcelist=[500, 502, 503, 504, 408],
-)
-session.mount("https://", HTTPAdapter(max_retries=retries))
-
-headers = {
+HEADERS: Dict[str, str] = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,zh-CN;q=0.5",
@@ -27,7 +21,7 @@ headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
 }
 
-bus_url = {
+BUS_URL: Dict[str, Dict[str, Any]] = {
     "校本部公車": {
         "url": "https://affairs.site.nthu.edu.tw/p/412-1165-20978.php?Lang=zh-tw",
         "info": ["towardTSMCBuildingInfo", "towardMainGateInfo"],
@@ -50,20 +44,35 @@ bus_url = {
     },
 }
 
+# 設定 requests session 與 retry 機制
+session = requests.Session()
+retries = Retry(
+    total=5,  # 重試 5 次
+    backoff_factor=1,  # 指數退避：1秒、2秒、4秒...
+    status_forcelist=[500, 502, 503, 504, 408],
+)
+session.mount("https://", HTTPAdapter(max_retries=retries))
 
-def parse_campus_info(variable_string: str, res_text: str) -> dict:
+
+def parse_campus_info(variable_string: str, res_text: str) -> Optional[Dict[str, Any]]:
     """
     從網頁原始碼中解析指定變數（物件型資料），並處理部分欄位中 HTML 標籤。
+
+    參數:
+        variable_string (str): 要解析的變數名稱
+        res_text (str): 網頁原始碼內容
+
+    回傳:
+        dict 或 None: 解析後的資料，若解析失敗則回傳 None
     """
     regex_pattern = r"const " + re.escape(variable_string) + r" = (\{.*?\})"
     data_match = re.search(regex_pattern, res_text, re.S)
-    if data_match is not None:
-        data = data_match.group(1)
-    else:
+    if data_match is None:
         logger.error(f"找不到變數 {variable_string} 的資料")
         return None
 
-    # 使用替換技巧處理引號問題
+    data = data_match.group(1)
+    # 使用替換技巧處理引號問題：先將單引號暫存為其他符號，再統一換成雙引號
     data = data.replace("'", "|")
     data = data.replace('"', '\\"')
     data = data.replace("|", '"')
@@ -89,18 +98,26 @@ def parse_campus_info(variable_string: str, res_text: str) -> dict:
     return data_dict
 
 
-def parse_bus_schedule(variable_string: str, res_text: str) -> list:
+def parse_bus_schedule(
+    variable_string: str, res_text: str
+) -> Optional[List[Dict[str, Any]]]:
     """
     從網頁原始碼中解析指定變數（陣列型資料），並處理部分欄位資料。
+
+    參數:
+        variable_string (str): 要解析的變數名稱
+        res_text (str): 網頁原始碼內容
+
+    回傳:
+        list 或 None: 解析後的陣列資料，若解析失敗則回傳 None
     """
     regex_pattern = r"const " + re.escape(variable_string) + r" = (\[.*?\])"
     data_match = re.search(regex_pattern, res_text, re.S)
-    if data_match is not None:
-        data = data_match.group(1)
-    else:
+    if data_match is None:
         logger.error(f"找不到變數 {variable_string} 的資料")
         return None
 
+    data = data_match.group(1)
     data = data.replace("'", '"')
     data = data.replace("\n", "")
     data = data.replace("time", '"time"')
@@ -125,14 +142,17 @@ def parse_bus_schedule(variable_string: str, res_text: str) -> list:
     return data_list
 
 
-def scrape_buses(path):
+def scrape_buses(path: Path) -> None:
     """
     爬取校本部公車與南大區間車的相關資料，並將資料儲存為 JSON 檔案。
+
+    參數:
+        path (Path): 資料儲存的資料夾路徑
     """
-    os.makedirs(path, exist_ok=True)
-    for name, data in bus_url.items():
+    path.mkdir(parents=True, exist_ok=True)
+    for name, data in BUS_URL.items():
         try:
-            response = session.get(data["url"], headers=headers, timeout=10)
+            response = session.get(data["url"], headers=HEADERS, timeout=10)
             response.raise_for_status()
             res_text = response.text
             logger.info(f"成功取得 {name} 的資料")
@@ -144,11 +164,11 @@ def scrape_buses(path):
         for info in data["info"]:
             info_data = parse_campus_info(info, res_text)
             if info_data is not None:
-                file_path = os.path.join(path, f"{info}.json")
+                file_path = path / f"{info}.json"
                 logger.info(f'儲存 {info} 的資料到 "{file_path}"')
                 logger.debug(info_data)
                 try:
-                    with open(file_path, "w", encoding="utf-8") as f:
+                    with file_path.open("w", encoding="utf-8") as f:
                         json.dump(info_data, f, ensure_ascii=False, indent=4)
                 except IOError as e:
                     logger.error(f"儲存檔案失敗 {file_path}: {e}")
@@ -159,11 +179,11 @@ def scrape_buses(path):
         for schedule in data["schedule"]:
             schedule_data = parse_bus_schedule(schedule, res_text)
             if schedule_data is not None:
-                file_path = os.path.join(path, f"{schedule}.json")
+                file_path = path / f"{schedule}.json"
                 logger.info(f'儲存 {schedule} 的資料到 "{file_path}"')
                 logger.debug(schedule_data)
                 try:
-                    with open(file_path, "w", encoding="utf-8") as f:
+                    with file_path.open("w", encoding="utf-8") as f:
                         json.dump(schedule_data, f, ensure_ascii=False, indent=4)
                 except IOError as e:
                     logger.error(f"儲存檔案失敗 {file_path}: {e}")
@@ -172,4 +192,4 @@ def scrape_buses(path):
 
 
 if __name__ == "__main__":
-    scrape_buses(FILE_PATH)
+    scrape_buses(OUTPUT_FOLDER)

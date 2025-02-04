@@ -1,0 +1,43 @@
+name: Deploy to GitHub Pages from main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Run Python crawler (if needed)
+        run: |
+            # 執行 buses.py 與 dining.py，若失敗不會中斷流程（加上 || true）
+            python scripts/buses.py || true
+            python scripts/dining.py || true
+
+            # 有些爬蟲無法順利執行，先註解掉（學校好像有擋國外 IP）
+            # python scripts/directories.py || true
+            # python scripts/maps.py || true
+            # python scripts/newsletters.py || true
+
+            python scripts/courses.py || true
+
+      - name: Copy JSON files to docs folder
+        run: |
+          mkdir -p docs
+          cp -r json/* docs/
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./docs
+          # 將 force_orphan 設為 false，避免以 orphan commit 的方式覆寫原有歷史
+          force_orphan: false
+          commit_message: "Deploy from main: ${{ github.sha }}"

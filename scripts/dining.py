@@ -1,13 +1,17 @@
 import json
 import re
+from pathlib import Path
+from typing import Any, List
 
 import requests
+from config import JSON_FOLDER
 from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
-FILE_PATH = "json/dining.json"
+# --- 全域參數設定 ---
+OUTPUT_PATH = Path(JSON_FOLDER) / "dining.json"
 
-headers = {
+HEADERS = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,zh-CN;q=0.5",
@@ -25,22 +29,31 @@ retries = Retry(
 )
 session.mount("https://", HTTPAdapter(max_retries=retries))
 
+# 預先編譯正規表達式（改善效能與可讀性）
+DINING_REGEX = re.compile(r"const restaurantsData = (\[.*?)(?:\s+renderTabs)", re.S)
 
-def parse_html(res_text) -> list:
+
+def parse_html(res_text: str) -> List[Any]:
     """
-    解析網頁原始碼，提取餐廳資料 (JSON 格式)。
+    解析網頁原始碼，提取餐廳資料（JSON 格式）。
     若無法找到資料則回傳空列表。
+
+    參數:
+        res_text (str): 原始 HTML 內容
+
+    回傳:
+        List[Any]: 解析出的餐廳資料列表
     """
-    dining_data_match = re.search(
-        r"const restaurantsData = (\[.*?) {2}renderTabs", res_text, re.S
-    )
-    if dining_data_match is None:
+    match = DINING_REGEX.search(res_text)
+    if match is None:
         logger.error("找不到餐廳資料的內容")
         return []
-    dining_data = dining_data_match.group(1)
-    dining_data = dining_data.replace("'", '"')
-    dining_data = dining_data.replace("\n", "")
-    dining_data = re.sub(r",[ ]+?\]", "]", dining_data)  # 移除多餘的逗號
+
+    dining_data = match.group(1)
+    # 將單引號換成雙引號，並移除換行符號
+    dining_data = dining_data.replace("'", '"').replace("\n", "")
+    # 移除多餘的逗號，例如 "..., ]" 變成 "...]"
+    dining_data = re.sub(r",[ ]+?\]", "]", dining_data)
     try:
         data = json.loads(dining_data)
         return data
@@ -49,14 +62,17 @@ def parse_html(res_text) -> list:
         return []
 
 
-def scrape_dining(path):
+def scrape_dining(path: Path) -> None:
     """
     爬取餐廳及服務性廠商的資料，並儲存到指定的 JSON 檔案中。
+
+    參數:
+        path (Path): 儲存結果的檔案路徑
     """
     url = "https://ddfm.site.nthu.edu.tw/p/404-1494-256455.php?Lang=zh-tw"
     try:
         logger.info(f"正在從 {url} 獲取資料")
-        response = session.get(url, headers=headers, timeout=10)
+        response = session.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()  # 若 HTTP 狀態碼不為 200，則拋出異常
         response.encoding = "utf-8"
         logger.info("成功取得餐廳及服務性廠商的資料")
@@ -64,15 +80,15 @@ def scrape_dining(path):
         logger.error(f"爬取資料時發生錯誤: {e}")
         return
 
-    res_text = response.text
-    dining_data = parse_html(res_text)
+    dining_data = parse_html(response.text)
     if not dining_data:
         logger.error("未能解析到任何餐廳資料，將不進行儲存")
         return
 
     logger.debug(dining_data)
     try:
-        with open(path, "w", encoding="utf-8") as f:
+        # 使用 Pathlib 的 open() 方法
+        with path.open("w", encoding="utf-8") as f:
             json.dump(dining_data, f, ensure_ascii=False, indent=4)
         logger.info(f'成功將餐廳資料儲存到 "{path}"')
     except IOError as e:
@@ -80,4 +96,4 @@ def scrape_dining(path):
 
 
 if __name__ == "__main__":
-    scrape_dining(FILE_PATH)
+    scrape_dining(OUTPUT_PATH)
