@@ -1,0 +1,72 @@
+[
+    {
+        "time": "7:57",
+        "dep_stop": "台積館",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "8:27",
+        "dep_stop": "台積館",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "9:37",
+        "dep_stop": "台積館",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "10:47",
+        "dep_stop": "台積館",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "12:17",
+        "dep_stop": "台積館",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "13:17",
+        "dep_stop": "台積館",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "14:17",
+        "dep_stop": "台積館",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "15:37",
+        "dep_stop": "台積館",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "16:47",
+        "dep_stop": "台積館",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "17:37",
+        "dep_stop": "台積館",
+        "line": "green",
+        "description": "",
+        "route": "校園公車"
+    }
+]
