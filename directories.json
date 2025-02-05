@@ -691,26 +691,33 @@
         "details": {
             "departments": [],
             "contact": {
-                "分機": "62501",
-                "直撥電話": "5162501",
-                "傳真電話": "5162508",
-                "網頁": "https://president.site.nthu.edu.tw/p/404-1067-232755.php?Lang=zh-tw",
+                "分機": "62003",
+                "直撥電話": "03-5162003",
+                "傳真電話": "03-5162507",
+                "網頁": "https://president.site.nthu.edu.tw/p/404-1067-232754.php?Lang=zh-tw",
                 "": ""
             },
             "people": [
                 {
-                    "姓　名": "簡禎富",
+                    "姓　名": "戴念華",
                     "職稱/職責": "副校長",
-                    "分機": "62503",
+                    "分機": "31026",
                     "備註": "",
-                    "Email": "cfchien@mx.nthu.edu.tw"
+                    "Email": "nhtai@mx.nthu.edu.tw"
                 },
                 {
-                    "姓　名": "范宜芳",
-                    "職稱/職責": "助理管理師",
-                    "分機": "62501",
+                    "姓　名": "朱盈璇",
+                    "職稱/職責": "組員",
+                    "分機": "62003",
                     "備註": "",
-                    "Email": "yffan@mx.nthu.edu.tw"
+                    "Email": "chu.yh@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳雅慧",
+                    "職稱/職責": "",
+                    "分機": "62378",
+                    "備註": "",
+                    "Email": "chenyh2@mx.nthu.edu.tw"
                 }
             ]
         }
