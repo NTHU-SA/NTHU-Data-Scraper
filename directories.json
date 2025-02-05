@@ -1,0 +1,3777 @@
+[
+    {
+        "name": "主計室",
+        "details": {
+            "departments": [
+                {
+                    "name": "第一組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4901"
+                },
+                {
+                    "name": "第二組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4903"
+                },
+                {
+                    "name": "第三組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4905"
+                },
+                {
+                    "name": "第四組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4907"
+                }
+            ],
+            "contact": {
+                "分機": "62048",
+                "直撥電話": "03-5721245",
+                "傳真電話": "03-5722976",
+                "Email": "account@my.nthu.edu.tw",
+                "網頁": "https://account.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "楊淑蘭",
+                    "職稱/職責": "主任",
+                    "分機": "62233",
+                    "備註": "",
+                    "Email": "shulan@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林容朱",
+                    "職稱/職責": "專門委員",
+                    "分機": "62045",
+                    "備註": "",
+                    "Email": "linrj@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "事務性單位",
+        "details": {
+            "departments": [],
+            "contact": {
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "駕駛班",
+                    "職稱/職責": "",
+                    "分機": "31386 31387",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "外工班",
+                    "職稱/職責": "",
+                    "分機": "31377",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "電工班",
+                    "職稱/職責": "",
+                    "分機": "62235",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "木工班",
+                    "職稱/職責": "",
+                    "分機": "62237",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "泥工班",
+                    "職稱/職責": "",
+                    "分機": "62236",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "採購組議價室",
+                    "職稱/職責": "",
+                    "分機": "62044",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "行政大樓第一會議室",
+                    "職稱/職責": "",
+                    "分機": "35073",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "行政大樓第二會議室",
+                    "職稱/職責": "",
+                    "分機": "35006",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "行政大樓第三會議室",
+                    "職稱/職責": "",
+                    "分機": "33100",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "收發室",
+                    "職稱/職責": "",
+                    "分機": "31359",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "駐衛警察隊",
+                    "職稱/職責": "",
+                    "分機": "33333 35387",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "大門收費室",
+                    "職稱/職責": "",
+                    "分機": "35390",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "大門保全",
+                    "職稱/職責": "",
+                    "分機": "35900",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "東門警衛室",
+                    "職稱/職責": "",
+                    "分機": "35389",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "西門警衛室",
+                    "職稱/職責": "",
+                    "分機": "35392",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "南門警衛室",
+                    "職稱/職責": "",
+                    "分機": "33332",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "反應器警衛室",
+                    "職稱/職責": "",
+                    "分機": "35395",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "南大校區警衛室",
+                    "職稱/職責": "",
+                    "分機": "75800",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "大禮堂",
+                    "職稱/職責": "",
+                    "分機": "31383",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "學資中心國際會議廳",
+                    "職稱/職責": "",
+                    "分機": "31195",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "綜二八樓會議廳",
+                    "職稱/職責": "",
+                    "分機": "35273",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "清華會館",
+                    "職稱/職責": "傳真:03-5742195",
+                    "分機": "42100",
+                    "備註": "",
+                    "Email": "ghone@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "清齋10樓會館",
+                    "職稱/職責": "傳真:03-5162413",
+                    "分機": "62412",
+                    "備註": "",
+                    "Email": "ghc@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "學人宿舍管理員室",
+                    "職稱/職責": "",
+                    "分機": "35247",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "第二招待所一樓餐廳",
+                    "職稱/職責": "",
+                    "分機": "35245",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "自強樓一樓餐廳",
+                    "職稱/職責": "",
+                    "分機": "35289",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "莊敬樓",
+                    "職稱/職責": "",
+                    "分機": "35290",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "男單身宿舍",
+                    "職稱/職責": "",
+                    "分機": "35291 35292",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "女單身宿舍",
+                    "職稱/職責": "",
+                    "分機": "35295",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "兆豐銀行",
+                    "職稱/職責": "",
+                    "分機": "35296 35297",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "玉山銀行",
+                    "職稱/職責": "直撥:  03-5162455",
+                    "分機": "35298",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "水木書苑",
+                    "職稱/職責": "直撥:  03-5716800",
+                    "分機": "36705",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "人社院餐廳",
+                    "職稱/職責": "",
+                    "分機": "42788",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "水木洗衣部",
+                    "職稱/職責": "手機: 0915117809",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "水木眼鏡部",
+                    "職稱/職責": "直撥:  03-5727099",
+                    "分機": "36701",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "水木百貨",
+                    "職稱/職責": "直撥: 03- 5717838",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "水木二樓打字行",
+                    "職稱/職責": "直撥:03-5726848",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "水木二樓胖達咖啡屋",
+                    "職稱/職責": "直撥:03- 5722245",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "水木二樓理髮部",
+                    "職稱/職責": "直撥: 03- 5736438",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "小吃部 7-11 便利商店",
+                    "職稱/職責": "直撥:03- 5166254",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "清華水漾餐廳",
+                    "職稱/職責": "直撥:03- 5751584",
+                    "分機": "35276",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "紫荊小舖",
+                    "職稱/職責": "",
+                    "分機": "36706",
+                    "備註": "清華紀念品",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "綜四館全家便利商店金大店",
+                    "職稱/職責": "直撥:03- 5740218",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                }
+            ]
+        }
+    },
+    {
+        "name": "人事室",
+        "details": {
+            "departments": [
+                {
+                    "name": "第一組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4501"
+                },
+                {
+                    "name": "第二組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4503"
+                },
+                {
+                    "name": "第三組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4505"
+                }
+            ],
+            "contact": {
+                "分機": "33155",
+                "直撥電話": "03-5718343",
+                "傳真電話": "03-5722201",
+                "Email": "person@my.nthu.edu.tw",
+                "網頁": "https://person.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "謝政凱",
+                    "職稱/職責": "人事室主任 / 綜理人事業務",
+                    "分機": "31311",
+                    "備註": "",
+                    "Email": "hsieh-chengkai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王秀娥",
+                    "職稱/職責": "專門委員 / 襄理人事業務",
+                    "分機": "31318",
+                    "備註": "",
+                    "Email": "sewang@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "人文社會學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "中國文學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6311"
+                },
+                {
+                    "name": "外國語文學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6313"
+                },
+                {
+                    "name": "歷史研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6317"
+                },
+                {
+                    "name": "語言學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6319"
+                },
+                {
+                    "name": "人類學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6325"
+                },
+                {
+                    "name": "社會學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6321"
+                },
+                {
+                    "name": "哲學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6323"
+                },
+                {
+                    "name": "台灣文學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6327"
+                },
+                {
+                    "name": "台灣研究教師在職進修碩士學位班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6329"
+                },
+                {
+                    "name": "人文社會學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6315"
+                },
+                {
+                    "name": "亞際文化研究國際碩士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6331"
+                },
+                {
+                    "name": "華文文學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6337"
+                },
+                {
+                    "name": "華語文碩士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6341"
+                },
+                {
+                    "name": "亞太／文化研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6303"
+                },
+                {
+                    "name": "性別與社會研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6305"
+                },
+                {
+                    "name": "實作哲學中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6333"
+                },
+                {
+                    "name": "世界南島暨原住民族中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6335"
+                },
+                {
+                    "name": "文論研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6339"
+                },
+                {
+                    "name": "水下考古學暨水下文化資產研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6343"
+                }
+            ],
+            "contact": {
+                "分機": "42779",
+                "直撥電話": "03-5742779",
+                "傳真電話": "03-5723684",
+                "Email": "humansos@my.nthu.edu.tw",
+                "網頁": "http://www.hss.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "李卓穎",
+                    "職稱/職責": "院長",
+                    "分機": "34476",
+                    "備註": "",
+                    "Email": "cyli@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "李癸雲",
+                    "職稱/職責": "副院長",
+                    "分機": "80030",
+                    "備註": "",
+                    "Email": "kylee@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "盧素瑜",
+                    "職稱/職責": "專員 / 職務代理人",
+                    "分機": "42779",
+                    "備註": "",
+                    "Email": "suylu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "孫立梅",
+                    "職稱/職責": "管理師",
+                    "分機": "42779",
+                    "備註": "",
+                    "Email": "humansos@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林昆賢",
+                    "職稱/職責": "技士",
+                    "分機": "42783",
+                    "備註": "",
+                    "Email": "links@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "潘欣怡",
+                    "職稱/職責": "行政組員",
+                    "分機": "34331",
+                    "備註": "",
+                    "Email": "psyi@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "劉威志",
+                    "職稱/職責": "行政組員",
+                    "分機": "42784",
+                    "備註": "",
+                    "Email": "liuweichih@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "彭榮生",
+                    "職稱/職責": "工友",
+                    "分機": "42829",
+                    "備註": "",
+                    "Email": "peng@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "游宗仁",
+                    "職稱/職責": "約僱管理員",
+                    "分機": "34604",
+                    "備註": "",
+                    "Email": "you2@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林至軒",
+                    "職稱/職責": "研究助理",
+                    "分機": "42779",
+                    "備註": "",
+                    "Email": "ssnight0415@gmail.com"
+                },
+                {
+                    "姓　名": "楊釺玉",
+                    "職稱/職責": "研究助理",
+                    "分機": "34391",
+                    "備註": "",
+                    "Email": "cy.yang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "邱煜惟",
+                    "職稱/職責": "臨時人員",
+                    "分機": "34363",
+                    "備註": "",
+                    "Email": "chiuyw@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "全球事務處",
+        "details": {
+            "departments": [
+                {
+                    "name": "全球學術合作組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3301"
+                },
+                {
+                    "name": "全球招生組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3303"
+                },
+                {
+                    "name": "境外生服務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3305"
+                }
+            ],
+            "contact": {
+                "分機": "62456",
+                "直撥電話": "03-5162456",
+                "傳真電話": "03-5162467",
+                "Email": "oga@my.nthu.edu.tw",
+                "網頁": "http://oga.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "彭心儀",
+                    "職稱/職責": "全球長",
+                    "分機": "62458",
+                    "備註": "42428",
+                    "Email": "sypeng@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王翔郁",
+                    "職稱/職責": "副全球長",
+                    "分機": "62457",
+                    "備註": "綠能館 R608 分機：34243",
+                    "Email": "hywang@ess.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳穎幸",
+                    "職稱/職責": "專員 / 1.全球長行程安排及交辦之各項協調、聯繫、整\r\n合事宜\r\n2.全球處人事業務 (徵才、報到離退、考核、升\r\n遷、年終等)\r\n3.全球事務會議、全球處處會、主管會報\r\n4.大學國際學術聯盟、台聯大國際事務、國際組\r\n織窗口\r\n5.全球處預算編製及支出憑證代核\r\n6.彙整業務(人事、重要專案)\r\n7.全球處處信箱收件、轉發及相關後續\r\n8.全球處電子公文",
+                    "分機": "62471",
+                    "備註": "",
+                    "Email": "yswu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "溫雅雯",
+                    "職稱/職責": "行政組員 / 1.副全球長秘書\r\n2.全球處通識課安排\r\n3.國際化相關資料庫數據填報\r\n4.各單位資料彙整、週報\r\n5.全球處經費授權、核銷、決算\r\n6.校務評鑑、永續業務\r\n7.網頁管理\r\n8.實習生管理\r\n9.總務",
+                    "分機": "62456",
+                    "備註": "",
+                    "Email": "wenyw@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "袁孟憶",
+                    "職稱/職責": "研究助理 / 1.訪賓籌畫與接待、資料準備\r\n2.本校國際青年大使TIYA之相關業務\r\n3.國際組織AEARU、FICHET 年費收費相關\r\n4.資料彙整(活動論壇、校務年報、風險內控等)\r\n5.校務訊息登錄\r\n6.文宣禮品採買\r\n7.製作新進主管/同仁名牌/通訊錄\r\n8.會議訂餐、前置準備",
+                    "分機": "33267",
+                    "備註": "",
+                    "Email": "mengyiyuan@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "許哲豪",
+                    "職稱/職責": "專案",
+                    "分機": "35747",
+                    "備註": "",
+                    "Email": "syu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "劉詩穎",
+                    "職稱/職責": "研究助理 / 1. 優華語計劃案規劃、撰寫、執行、核銷及結案\r\n2. 優華語獎學金生接待與輔導\r\n3. 優華語校級學術交流合作備忘錄",
+                    "分機": "62469",
+                    "備註": "",
+                    "Email": "liu_sy@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃郁婷",
+                    "職稱/職責": "研究助理 / 1. 優華語計畫華師選送、聘任、安排訓練業務\r\n2. UAAT推動華語教育計畫規劃、撰寫、執行、核銷\r\n及結案\r\n3. UAAT推動華語教育獎學金生接待與輔導",
+                    "分機": "62452",
+                    "備註": "",
+                    "Email": "yutinghuang@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "其他單位",
+        "details": {
+            "departments": [
+                {
+                    "name": "自強基金會",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8901"
+                },
+                {
+                    "name": "張昭鼎基金會",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8903"
+                },
+                {
+                    "name": "核能資訊中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8905"
+                }
+            ],
+            "contact": {
+                "": ""
+            },
+            "people": []
+        }
+    },
+    {
+        "name": "副校長室",
+        "details": {
+            "departments": [],
+            "contact": {
+                "分機": "62003",
+                "直撥電話": "03-5162003",
+                "傳真電話": "03-5162507",
+                "網頁": "https://president.site.nthu.edu.tw/p/404-1067-232754.php?Lang=zh-tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "戴念華",
+                    "職稱/職責": "副校長",
+                    "分機": "31026",
+                    "備註": "",
+                    "Email": "nhtai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "朱盈璇",
+                    "職稱/職責": "組員",
+                    "分機": "62003",
+                    "備註": "",
+                    "Email": "chu.yh@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳雅慧",
+                    "職稱/職責": "",
+                    "分機": "62378",
+                    "備註": "",
+                    "Email": "chenyh2@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "助理副校長室",
+        "details": {
+            "departments": [],
+            "contact": {
+                "分機": "62378",
+                "直撥電話": "03-5162378",
+                "傳真電話": "03-5162507",
+                "網頁": "https://president.site.nthu.edu.tw/p/404-1067-272485.php?Lang=zh-tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "嚴大任",
+                    "職稱/職責": "助理副校長",
+                    "分機": "31250",
+                    "備註": "",
+                    "Email": "tjyen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林淑珍",
+                    "職稱/職責": "",
+                    "分機": "62497",
+                    "備註": "",
+                    "Email": "shuclin@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "半導體研究學院",
+        "details": {
+            "departments": [],
+            "contact": {
+                "分機": "42255",
+                "Email": "sr@my.nthu.edu.tw",
+                "網頁": "http://cosr.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "林本堅",
+                    "職稱/職責": "院長",
+                    "分機": "42206",
+                    "備註": "",
+                    "Email": "burnlin@ee.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "賴志煌",
+                    "職稱/職責": "副院長",
+                    "分機": "33822",
+                    "備註": "",
+                    "Email": "chlai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林崇榮",
+                    "職稱/職責": "元件部主任",
+                    "分機": "62182",
+                    "備註": "",
+                    "Email": "cjlin@ee.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "廖建能",
+                    "職稱/職責": "材料部部主任",
+                    "分機": "33843",
+                    "備註": "",
+                    "Email": "cnliao@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "劉靖家",
+                    "職稱/職責": "設計部主任",
+                    "分機": "62204",
+                    "備註": "",
+                    "Email": "jjliou@ee.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "高蔡勝",
+                    "職稱/職責": "製程部主任",
+                    "分機": "42207",
+                    "備註": "",
+                    "Email": "tsaisheng_kao@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "段興宇",
+                    "職稱/職責": "製程部副主任",
+                    "分機": "42509",
+                    "備註": "",
+                    "Email": "hytuan@che.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳力俊",
+                    "職稱/職責": "特聘研究講座教授",
+                    "分機": "31166",
+                    "備註": "",
+                    "Email": "ljchen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "李炯霆",
+                    "職稱/職責": "半導體特聘教授",
+                    "分機": "42482",
+                    "備註": "",
+                    "Email": "jtli@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "白田理一郎",
+                    "職稱/職責": "半導體特聘教授",
+                    "分機": "42483",
+                    "備註": "",
+                    "Email": "riichiro.shirota@gmail.com"
+                },
+                {
+                    "姓　名": "李宏仁",
+                    "職稱/職責": "專案執行長",
+                    "分機": "42484",
+                    "備註": "",
+                    "Email": "hjlee@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃健朝",
+                    "職稱/職責": "教授",
+                    "分機": "35925",
+                    "備註": "",
+                    "Email": "chienchaohuang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "楊惠婷",
+                    "職稱/職責": "秘書",
+                    "分機": "42206",
+                    "備註": "",
+                    "Email": "cosrnthu@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王盛麒",
+                    "職稱/職責": "專員",
+                    "分機": "42254",
+                    "備註": "",
+                    "Email": "scwang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "劉惠媛",
+                    "職稱/職責": "專員",
+                    "分機": "42502",
+                    "備註": "",
+                    "Email": "cosr_ip@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "彭凱筠",
+                    "職稱/職責": "專員",
+                    "分機": "42481",
+                    "備註": "",
+                    "Email": " cosr_ir@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "高廣玲",
+                    "職稱/職責": "專員",
+                    "分機": "42260",
+                    "備註": "",
+                    "Email": "cosr_ic@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "宋庭嘉",
+                    "職稱/職責": "專員",
+                    "分機": "42261",
+                    "備註": "",
+                    "Email": "sungtc@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林郁曄",
+                    "職稱/職責": "專員",
+                    "分機": "42262",
+                    "備註": "",
+                    "Email": "cosrfin@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃雅君",
+                    "職稱/職責": "專員",
+                    "分機": "42263",
+                    "備註": "",
+                    "Email": "hyjyun@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "原子科學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "工程與系統科學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6101"
+                },
+                {
+                    "name": "生醫工程與環境科學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6103"
+                },
+                {
+                    "name": "核子工程與科學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6105"
+                },
+                {
+                    "name": "原子科學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6107"
+                },
+                {
+                    "name": "分析與環境科學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6109"
+                },
+                {
+                    "name": "放射性廢棄物處置技術研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6113"
+                }
+            ],
+            "contact": {
+                "分機": "62033 34201",
+                "直撥電話": "03-5719773",
+                "傳真電話": "03-5716526",
+                "Email": "nuclear@my.nthu.edu.tw",
+                "網頁": "http://www.nucl.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "江啓勲",
+                    "職稱/職責": "院長",
+                    "分機": "35581",
+                    "備註": "",
+                    "Email": "cschiang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "翁美能",
+                    "職稱/職責": "專員 / 秘書",
+                    "分機": "62033",
+                    "備註": "",
+                    "Email": "nuclear@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "李柏儒",
+                    "職稱/職責": "行政助理",
+                    "分機": "34201",
+                    "備註": "",
+                    "Email": "pjlee@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林育仟",
+                    "職稱/職責": "約僱管理員",
+                    "分機": "62394",
+                    "備註": "",
+                    "Email": "l-yuchien@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "台北政經學院",
+        "details": {
+            "departments": [],
+            "contact": {
+                "分機": "43090",
+                "直撥電話": "03-5743090",
+                "傳真電話": "03-5743093",
+                "Email": "tse@my.nthu.edu.tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "黃朝熙",
+                    "職稱/職責": "代理院長",
+                    "分機": "42735",
+                    "備註": "",
+                    "Email": "ghuang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳添枝",
+                    "職稱/職責": "教授",
+                    "分機": "43090",
+                    "備註": "",
+                    "Email": "tainjy@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "葉創基",
+                    "職稱/職責": "TSE特聘教授",
+                    "分機": "35910",
+                    "備註": "",
+                    "Email": "chongkeeyip@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "蔡中民",
+                    "職稱/職責": "合聘教授/碩士班代理班主任",
+                    "分機": "35909",
+                    "備註": "",
+                    "Email": "cmtsai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "謝英哲",
+                    "職稱/職責": "招生執行長",
+                    "分機": "42417",
+                    "備註": "",
+                    "Email": "ych@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳智宏",
+                    "職稱/職責": "研究員/合聘教授",
+                    "分機": "35912",
+                    "備註": "",
+                    "Email": "cgcw@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王許裕民",
+                    "職稱/職責": "助理教授",
+                    "分機": "35916",
+                    "備註": "",
+                    "Email": "wanghy@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張力行",
+                    "職稱/職責": "專案經理",
+                    "分機": "43090",
+                    "備註": "",
+                    "Email": "tse@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張寶束",
+                    "職稱/職責": "研究助理",
+                    "分機": "43091",
+                    "備註": "",
+                    "Email": "bschang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "鄭淨云",
+                    "職稱/職責": "研究助理",
+                    "分機": "35903",
+                    "備註": "",
+                    "Email": "chingyun@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "許瑋庭",
+                    "職稱/職責": "專案經理",
+                    "分機": "43092",
+                    "備註": "",
+                    "Email": "tse.pg@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林雲龍",
+                    "職稱/職責": "研究助理",
+                    "分機": "35904",
+                    "備註": "",
+                    "Email": "chad@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "台灣聯合大學系統",
+        "details": {
+            "departments": [
+                {
+                    "name": "系統校長室(行政總部)",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1001"
+                },
+                {
+                    "name": "系統副校長室",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1003"
+                }
+            ],
+            "contact": {
+                "網頁": "https://www.ust.edu.tw/",
+                "": ""
+            },
+            "people": []
+        }
+    },
+    {
+        "name": "合校停招系所聯合辦事處（教務處支援）",
+        "details": {
+            "departments": [
+                {
+                    "name": "應用科學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8701"
+                },
+                {
+                    "name": "應用數學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8703"
+                },
+                {
+                    "name": "中國語文學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8705"
+                },
+                {
+                    "name": "人力資源與數位學習科技研究所辦公室",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8707"
+                }
+            ],
+            "contact": {
+                "分機": "72304",
+                "Email": "pswu@mx.nthu.edu.tw",
+                "網頁": "http://damc.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "巫勇賢",
+                    "職稱/職責": "教務長",
+                    "分機": "35055",
+                    "備註": "",
+                    "Email": "yunhwu@ess.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳佩珊",
+                    "職稱/職責": "研究助理",
+                    "分機": "72304",
+                    "備註": "",
+                    "Email": "pswu@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "國際產學營運總中心",
+        "details": {
+            "departments": [
+                {
+                    "name": "產學企畫組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3101"
+                },
+                {
+                    "name": "行政組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3107"
+                },
+                {
+                    "name": "智財技轉組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3105"
+                },
+                {
+                    "name": "創新育成中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3103"
+                },
+                {
+                    "name": "台積電-國立清華大學聯合研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3111"
+                },
+                {
+                    "name": "聯發科技-國立清華大學創新研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3109"
+                },
+                {
+                    "name": "HIWIN-國立清華大學聯合研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3113"
+                },
+                {
+                    "name": "欣興電子─國立清華大學聯合研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3117"
+                },
+                {
+                    "name": "光寶科技–國立清華大學聯合研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3115"
+                },
+                {
+                    "name": "台達電子-國立清華大學聯合研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3121"
+                },
+                {
+                    "name": "臻鼎科技-清華大學聯合研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3125"
+                },
+                {
+                    "name": "康舒科技-國立清華大學聯合研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3123"
+                },
+                {
+                    "name": "Daicel產學研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3127"
+                },
+                {
+                    "name": "台塑-清華聯合研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3129"
+                },
+                {
+                    "name": "大立光-清華聯合研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3131"
+                }
+            ],
+            "contact": {
+                "分機": "62301",
+                "直撥電話": "03-5162301",
+                "傳真電話": "03-5162275",
+                "Email": "ocic@my.nthu.edu.tw",
+                "網頁": "https://ocic.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "邱博文",
+                    "職稱/職責": "主任",
+                    "分機": "35007、34270",
+                    "備註": "",
+                    "Email": "pwchiu@ee.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林琮庸",
+                    "職稱/職責": "執行長",
+                    "分機": "34588",
+                    "備註": "",
+                    "Email": "tybruce.lin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林文瑜",
+                    "職稱/職責": "專員 / 秘書",
+                    "分機": "62301",
+                    "備註": "",
+                    "Email": "wylin@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "圖書館",
+        "details": {
+            "departments": [
+                {
+                    "name": "綜合館務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4101"
+                },
+                {
+                    "name": "採編組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4103"
+                },
+                {
+                    "name": "資訊系統組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4105"
+                },
+                {
+                    "name": "典閱組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4107"
+                },
+                {
+                    "name": "服務與創新組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4109"
+                },
+                {
+                    "name": "特藏組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4111"
+                },
+                {
+                    "name": "人社分館",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4113"
+                },
+                {
+                    "name": "南大分館",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4115"
+                }
+            ],
+            "contact": {
+                "分機": "42995",
+                "直撥電話": "03-5742995",
+                "傳真電話": "03-5162290",
+                "Email": "library@my.nthu.edu.tw",
+                "網頁": "http://www.lib.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "林登松",
+                    "職稱/職責": "館長 / 綜理圖書館業務",
+                    "分機": "42999",
+                    "備註": "",
+                    "Email": "dslin@phys.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "讀者服務專線",
+                    "職稱/職責": "",
+                    "分機": "03-5742995",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "館長室",
+                    "職稱/職責": "",
+                    "分機": "03-5742241",
+                    "備註": "",
+                    "Email": ""
+                }
+            ]
+        }
+    },
+    {
+        "name": "學務處",
+        "details": {
+            "departments": [
+                {
+                    "name": "職涯發展組(行政大樓3樓)",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2101"
+                },
+                {
+                    "name": "生活輔導組(水木生活中心2樓)",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2105"
+                },
+                {
+                    "name": "課外活動組(蒙民偉樓2樓)",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2107"
+                },
+                {
+                    "name": "衛生保健組(醫輔大樓1樓)",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2109"
+                },
+                {
+                    "name": "學生住宿組(水木生活中心1樓)",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2103"
+                },
+                {
+                    "name": "諮商中心(醫輔大樓2樓)",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2111"
+                }
+            ],
+            "contact": {
+                "分機": "34701、34702",
+                "直撥電話": "03-5715534",
+                "傳真電話": "03-5715032",
+                "Email": "student@my.nthu.edu.tw",
+                "網頁": "http://student.site.nthu.edu.tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "詹鴻霖",
+                    "職稱/職責": "學務長",
+                    "分機": "34700、42476",
+                    "備註": "行政大樓R303",
+                    "Email": "hlchan@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳順吉",
+                    "職稱/職責": "副學務長",
+                    "分機": "34304",
+                    "備註": "",
+                    "Email": "shunchi.wu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "余憶如",
+                    "職稱/職責": "簡任秘書兼執行組長",
+                    "分機": "34712、34762",
+                    "備註": "行政大樓R307",
+                    "Email": "iryu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃怡娜",
+                    "職稱/職責": "副管理師",
+                    "分機": "34701",
+                    "備註": "行政大樓R303",
+                    "Email": "ynhuang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "宋姿韻",
+                    "職稱/職責": "助理管理師",
+                    "分機": "34702",
+                    "備註": "行政大樓R303",
+                    "Email": "tzuyun@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "工學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "產學研合作聯盟",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5701"
+                },
+                {
+                    "name": "工學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5713"
+                },
+                {
+                    "name": "化學工程學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5703"
+                },
+                {
+                    "name": "動力機械工程學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5705"
+                },
+                {
+                    "name": "材料科學工程學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5707"
+                },
+                {
+                    "name": "工業工程與工程管理學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5709"
+                },
+                {
+                    "name": "奈米工程與微系統研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5711"
+                },
+                {
+                    "name": "生物醫學工程研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5715"
+                },
+                {
+                    "name": "全球營運管理碩士雙聯學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5717"
+                },
+                {
+                    "name": "前瞻功能材料產業博士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5719"
+                },
+                {
+                    "name": "太空工程研究所籌備處",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5721"
+                }
+            ],
+            "contact": {
+                "分機": "33600",
+                "直撥電話": "03- 5710521",
+                "傳真電話": "03- 5712670",
+                "Email": "engineer@my.nthu.edu.tw",
+                "網頁": "https://eng.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "胡育誠",
+                    "職稱/職責": "工學院代理院長",
+                    "分機": "33642",
+                    "備註": "",
+                    "Email": "ychu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃智永",
+                    "職稱/職責": "副院長兼國際化事務執行長&動機系主任",
+                    "分機": "42916 42676",
+                    "備註": "",
+                    "Email": "cyhuang@pme.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林鶴南",
+                    "職稱/職責": "副院長兼學士班主任",
+                    "分機": "33811",
+                    "備註": "",
+                    "Email": "hnlin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "侯建良",
+                    "職稱/職責": "副院長兼產學聯盟執行長",
+                    "分機": "42658",
+                    "備註": "",
+                    "Email": "adamhou@ie.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "鐘月梅",
+                    "職稱/職責": "秘書",
+                    "分機": "33600",
+                    "備註": "",
+                    "Email": "engineer@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "蔡吟萱",
+                    "職稱/職責": "研究助理",
+                    "分機": "33601",
+                    "備註": "休假中",
+                    "Email": "ytsai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林思薇",
+                    "職稱/職責": "職務代理人",
+                    "分機": "33601",
+                    "備註": "",
+                    "Email": "swlin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王佑欣",
+                    "職稱/職責": "行政組員",
+                    "分機": "33602",
+                    "備註": "",
+                    "Email": "wyh@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "紀佩育",
+                    "職稱/職責": "行政組員",
+                    "分機": "33701",
+                    "備註": "",
+                    "Email": "pychi@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "洪佑儒",
+                    "職稱/職責": "行政組員",
+                    "分機": "33702",
+                    "備註": "",
+                    "Email": "coeia@my.nthu.edu.tw                      "
+                },
+                {
+                    "姓　名": "杜涵宇",
+                    "職稱/職責": "研究助理",
+                    "分機": "33703",
+                    "備註": "",
+                    "Email": "hytu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "翁珮菁",
+                    "職稱/職責": "行政組員",
+                    "分機": "33704",
+                    "備註": "",
+                    "Email": "space@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "楊銘炎",
+                    "職稱/職責": "管理員",
+                    "分機": "33704",
+                    "備註": "",
+                    "Email": "young57330@yahoo.com.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "師資培育中心",
+        "details": {
+            "departments": [],
+            "contact": {
+                "分機": "42901",
+                "直撥電話": "03-5742901",
+                "傳真電話": "03-5739270",
+                "Email": "cfte@my.nthu.edu.tw",
+                "網頁": "http://cfte.web.nthu.edu.tw/bin/home.php",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "謝傳崇",
+                    "職稱/職責": "教授兼主任 / 綜理師資培育中心業務",
+                    "分機": "76200 73023",
+                    "備註": "",
+                    "Email": "hsieh3@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張俊一",
+                    "職稱/職責": "教授兼副主任",
+                    "分機": "76296 71508",
+                    "備註": "",
+                    "Email": "chang-chunyi@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林紀慧",
+                    "職稱/職責": "教授",
+                    "分機": "73014",
+                    "備註": "",
+                    "Email": "chihuilin@gapp.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃琇珍",
+                    "職稱/職責": "教授",
+                    "分機": "72756",
+                    "備註": "",
+                    "Email": "hsiuchen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "成虹飛",
+                    "職稱/職責": "教授兼華德福中心主任 / 綜理教育實驗組業務",
+                    "分機": "76253  73035",
+                    "備註": "",
+                    "Email": "hornfaycherng@gmail.com"
+                },
+                {
+                    "姓　名": "吳聲毅",
+                    "職稱/職責": "教授",
+                    "分機": "76214",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "吳睿純",
+                    "職稱/職責": "副教授兼副主任",
+                    "分機": "76715",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "陳復琴",
+                    "職稱/職責": "副教授",
+                    "分機": "72716",
+                    "備註": "",
+                    "Email": "edelgard@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "呂秀蓮",
+                    "職稱/職責": "副教授",
+                    "分機": "35122",
+                    "備註": "",
+                    "Email": "hllu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "薛曉華",
+                    "職稱/職責": "副教授",
+                    "分機": "76298",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "郭哲宇",
+                    "職稱/職責": "助理教授",
+                    "分機": "76215",
+                    "備註": "",
+                    "Email": "chkuo0108@gapp.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "洪瑞璇",
+                    "職稱/職責": "助理教授",
+                    "分機": "75706",
+                    "備註": "",
+                    "Email": "rashine@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王智弘",
+                    "職稱/職責": "約聘助理教授",
+                    "分機": "76252  72735",
+                    "備註": "",
+                    "Email": "ch.wang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "曾文鑑",
+                    "職稱/職責": "約聘助理研究員",
+                    "分機": "76216",
+                    "備註": "",
+                    "Email": "ttge23@gmail.com"
+                },
+                {
+                    "姓　名": "蔡寶桂",
+                    "職稱/職責": "約聘助理研究員",
+                    "分機": "72763",
+                    "備註": "",
+                    "Email": "bqtsay@gmail.com"
+                },
+                {
+                    "姓　名": "鍾欣穎",
+                    "職稱/職責": "約聘講師",
+                    "分機": "72734",
+                    "備註": "",
+                    "Email": "singingchung@gapp.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "趙素貞",
+                    "職稱/職責": "組長 / 綜理實習輔導組業務",
+                    "分機": "76280",
+                    "備註": "",
+                    "Email": "scchao@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "邱富源",
+                    "職稱/職責": "組長 / 綜理地方教育組業務",
+                    "分機": "76260  73214",
+                    "備註": "",
+                    "Email": "chiu.fy@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "戴瑩瑩",
+                    "職稱/職責": "組長 / 綜理課程組業務",
+                    "分機": "76272",
+                    "備註": "",
+                    "Email": "yingying@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "葛雅琴",
+                    "職稱/職責": "秘書 / 華德福教育相關業務",
+                    "分機": "76254",
+                    "備註": "",
+                    "Email": "ycko@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "鄭如芳",
+                    "職稱/職責": "專員 / 新生遴選、課程相關、學分證明製作(中教)",
+                    "分機": "42902",
+                    "備註": "",
+                    "Email": "jufang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃慧珊",
+                    "職稱/職責": "行政組員 / 實習輔導與教師資格考試審查業務",
+                    "分機": "76282",
+                    "備註": "",
+                    "Email": "huishan_huang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林禹真",
+                    "職稱/職責": "組員 / 地方教育輔導工作",
+                    "分機": "76261",
+                    "備註": "",
+                    "Email": "linyuchen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "曾惠淇",
+                    "職稱/職責": "行政組員 / 實習輔導/教師證書/國外教育見習實習史懷哲",
+                    "分機": "76262",
+                    "備註": "",
+                    "Email": "hctzeng@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "方孜娟",
+                    "職稱/職責": "專案助理 / 中心行政、獎學金及公費生業務",
+                    "分機": "76291",
+                    "備註": "",
+                    "Email": "tc_fang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "楊筑雅",
+                    "職稱/職責": "專案助理 / 新生遴選、課程相關、學分證明製作(小教、特教、\r\n幼教)",
+                    "分機": "76292",
+                    "備註": "",
+                    "Email": "chuya@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "羅宥騏",
+                    "職稱/職責": "研究助理 / 華德福中心業務",
+                    "分機": "76251",
+                    "備註": "",
+                    "Email": "youqiluo@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "沈瑋詩",
+                    "職稱/職責": "研究助理 / 幼教學士後學分班／(中教)學習護照",
+                    "分機": "42911",
+                    "備註": "",
+                    "Email": "shenws@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "馬霈瑀",
+                    "職稱/職責": "研究助理 / 雙分班業務/ 雙語教學研究中心",
+                    "分機": "76266",
+                    "備註": "",
+                    "Email": "py.ma@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "周文聿",
+                    "職稱/職責": "研究助理 / 特殊教育中心業務",
+                    "分機": "77203",
+                    "備註": "",
+                    "Email": "wychou@mx.nthu.edu.tw "
+                },
+                {
+                    "姓　名": "黃淑蓉",
+                    "職稱/職責": "研究助理 / 特殊教育中心業務",
+                    "分機": "77201",
+                    "備註": "",
+                    "Email": "hsr@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "洪吟嘉",
+                    "職稱/職責": "研究助理 / 特殊教育中心業務",
+                    "分機": "77207",
+                    "備註": "",
+                    "Email": "hung.yc@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "曾惠玉",
+                    "職稱/職責": "研究助理 / 大專情障自閉症試辦計畫業務",
+                    "分機": "77207",
+                    "備註": "",
+                    "Email": "thyu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "特殊教育中心",
+                    "職稱/職責": "",
+                    "分機": "77203",
+                    "備註": "",
+                    "Email": ""
+                }
+            ]
+        }
+    },
+    {
+        "name": "教務處",
+        "details": {
+            "departments": [
+                {
+                    "name": "綜合教務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1701"
+                },
+                {
+                    "name": "註冊組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1703"
+                },
+                {
+                    "name": "課務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1707"
+                },
+                {
+                    "name": "招生策略中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1705"
+                },
+                {
+                    "name": "推廣教育中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1709"
+                },
+                {
+                    "name": "教學發展中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1711"
+                },
+                {
+                    "name": "華語中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1719"
+                },
+                {
+                    "name": "金門教育中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1739"
+                },
+                {
+                    "name": "清華大學出版社",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1717"
+                },
+                {
+                    "name": "跨院國際碩博士班學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1723"
+                },
+                {
+                    "name": "智慧製造跨院高階主管碩士在職學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1743"
+                },
+                {
+                    "name": "智慧生醫博士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1747"
+                },
+                {
+                    "name": "藥品與醫材法規科學碩士在職學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1749"
+                },
+                {
+                    "name": "跨領域科學教育中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1725"
+                },
+                {
+                    "name": "認知與心智科學中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1729"
+                },
+                {
+                    "name": "印度中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1731"
+                },
+                {
+                    "name": "原住民族科學發展中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1741"
+                },
+                {
+                    "name": "竹松社區大學",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1737"
+                },
+                {
+                    "name": "英語教學精進中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1751"
+                }
+            ],
+            "contact": {
+                "分機": "35055、35056",
+                "直撥電話": "03-5719134",
+                "傳真電話": "03-5722713",
+                "Email": "academic@my.nthu.edu.tw",
+                "網頁": "http://academic.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "巫勇賢",
+                    "職稱/職責": "教務長",
+                    "分機": "35055",
+                    "備註": "",
+                    "Email": "yunhwu@ess.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "劉奕汶",
+                    "職稱/職責": "副教務長",
+                    "分機": "35077",
+                    "備註": "",
+                    "Email": "ywliu@ee.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳明君",
+                    "職稱/職責": "簡任秘書 / 綜合教務組執行組長",
+                    "分機": "35062",
+                    "備註": "",
+                    "Email": "micchen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "蘇郁欣",
+                    "職稱/職責": "專員 / 教務長行程等",
+                    "分機": "35055",
+                    "備註": "",
+                    "Email": "yhsu2@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王佑欣",
+                    "職稱/職責": "專案組員 / 教務處下設之教學單位院級業務",
+                    "分機": "35206",
+                    "備註": "",
+                    "Email": "wyh@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳佩珊",
+                    "職稱/職責": "專案組員 / 合校停招系所聯合辦事處業務",
+                    "分機": "35050",
+                    "備註": "",
+                    "Email": "pswu@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "校友服務及資源發展處",
+        "details": {
+            "departments": [
+                {
+                    "name": "校友中心、校友總會",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3401"
+                },
+                {
+                    "name": "財務發展組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3403"
+                }
+            ],
+            "contact": {
+                "分機": "62004",
+                "直撥電話": "03-5162004",
+                "傳真電話": "03-5162489",
+                "Email": "oasrd@my.nthu.edu.tw",
+                "網頁": "https://oasrd.site.nthu.edu.tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "林哲群",
+                    "職稱/職責": "校友服務及資源發展長",
+                    "分機": "62500",
+                    "備註": "",
+                    "Email": "chclin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "翁翊甯",
+                    "職稱/職責": "專員",
+                    "分機": "62004",
+                    "備註": "",
+                    "Email": "oasrd@my.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "校長室",
+        "details": {
+            "departments": [],
+            "contact": {
+                "分機": "62001",
+                "直撥電話": "03-5162001",
+                "傳真電話": "03-5162505",
+                "Email": "presid@my.nthu.edu.tw",
+                "網頁": "http://president.site.nthu.edu.tw/?Lang=zh-tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "高為元",
+                    "職稱/職責": "校長",
+                    "分機": "62001",
+                    "備註": "",
+                    "Email": "presid@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "葛雅珍",
+                    "職稱/職責": "",
+                    "分機": "62001",
+                    "備註": "",
+                    "Email": "ycke@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林燕君",
+                    "職稱/職責": "",
+                    "分機": "62379",
+                    "備註": "",
+                    "Email": "yenchun@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "永續學院",
+        "details": {
+            "departments": [],
+            "contact": {
+                "分機": "62003",
+                "Email": "cos@my.nthu.edu.tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "戴念華",
+                    "職稱/職責": "副校長兼代理院長",
+                    "分機": "31026",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "范建得",
+                    "職稱/職責": "副院長",
+                    "分機": "42426",
+                    "備註": "",
+                    "Email": "ctfan@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "董瑞安",
+                    "職稱/職責": "副院長",
+                    "分機": "33260",
+                    "備註": "",
+                    "Email": "radoong@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "朱盈璇",
+                    "職稱/職責": "",
+                    "分機": "62003",
+                    "備註": "",
+                    "Email": "chu.yh@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "清華學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "通識教育中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8601"
+                },
+                {
+                    "name": "體育室",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8605"
+                },
+                {
+                    "name": "語文中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8613"
+                },
+                {
+                    "name": "清華學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8616"
+                },
+                {
+                    "name": "住宿書院",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8617"
+                },
+                {
+                    "name": "實創中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8627"
+                },
+                {
+                    "name": "清華學院國際學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8623"
+                },
+                {
+                    "name": "科技藝術研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8619"
+                },
+                {
+                    "name": "區域創新中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8621"
+                },
+                {
+                    "name": "人文社會AI應用與發展研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=8625"
+                }
+            ],
+            "contact": {
+                "分機": "42900",
+                "直撥電話": "03-5734257",
+                "傳真電話": "03-5739254",
+                "Email": "thc@my.nthu.edu.tw",
+                "網頁": "https://thcollege.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "呂平江",
+                    "職稱/職責": "副校長兼院長",
+                    "分機": "62372",
+                    "備註": "",
+                    "Email": "pclyu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳志明",
+                    "職稱/職責": "執行副院長",
+                    "分機": "42905",
+                    "備註": "",
+                    "Email": "jmwuyun@gapp.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "巫勇賢",
+                    "職稱/職責": "教務長兼副院長",
+                    "分機": "35055",
+                    "備註": "",
+                    "Email": "yunhwu@ess.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "詹鴻霖",
+                    "職稱/職責": "學務長兼副院長",
+                    "分機": "34700/ 42476",
+                    "備註": "",
+                    "Email": "hlchan@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "曾欣如",
+                    "職稱/職責": "秘書",
+                    "分機": "42900",
+                    "備註": "",
+                    "Email": "hjtseng@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "郭育廷",
+                    "職稱/職責": "行政組員",
+                    "分機": "34555",
+                    "備註": "",
+                    "Email": "u932386@oz.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳英文",
+                    "職稱/職責": "約僱管理員",
+                    "分機": "42843",
+                    "備註": "",
+                    "Email": "yingwen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "余曼莉",
+                    "職稱/職責": "專案組員",
+                    "分機": "42455",
+                    "備註": "",
+                    "Email": "yumanli@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王智潁",
+                    "職稱/職責": "研究助理",
+                    "分機": "35281",
+                    "備註": "",
+                    "Email": "jhinyin_wang@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "清華緊急救護團隊",
+        "details": {
+            "departments": [
+                {
+                    "name": "北急區",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9303"
+                },
+                {
+                    "name": "西急區",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9305"
+                },
+                {
+                    "name": "南急區",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9307"
+                },
+                {
+                    "name": "南大區",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9309"
+                }
+            ],
+            "contact": {
+                "分機": "43000",
+                "直撥電話": "03-5743000",
+                "傳真電話": "03-5724140",
+                "Email": "clinic@my.nthu.edu.tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "李志良",
+                    "職稱/職責": "隊長 / 全區機動性任務",
+                    "分機": "31305",
+                    "備註": "駐衛警察隊",
+                    "Email": "cllee@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "許俊仁",
+                    "職稱/職責": "小隊長 / 全區機動性任務",
+                    "分機": "31305",
+                    "備註": "駐衛警察隊",
+                    "Email": "jrhsiu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "彭清誠",
+                    "職稱/職責": "全區急救員 / 機動性任務",
+                    "分機": "31304",
+                    "備註": "駐衛警察隊",
+                    "Email": "gcpeng@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "余憶如",
+                    "職稱/職責": "組長 / 全區機動性任務",
+                    "分機": "34762",
+                    "備註": "生活輔導組",
+                    "Email": "iryu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "周易行",
+                    "職稱/職責": "副組長 / 全區機動性任務",
+                    "分機": "34709",
+                    "備註": "生活輔導組",
+                    "Email": "ysjou@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳億婷",
+                    "職稱/職責": "組員 / 全區機動性任務",
+                    "分機": "34651",
+                    "備註": "生活輔導組",
+                    "Email": "yiting-chen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "蔡宜朋",
+                    "職稱/職責": "全區急救員 / 機動性任務",
+                    "分機": "62089",
+                    "備註": "衛生保健組",
+                    "Email": "yptsai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張淑悅",
+                    "職稱/職責": "全區急救員 / 機動性任務",
+                    "分機": "74401",
+                    "備註": "衛生保健組",
+                    "Email": "dovan@mail.nd.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "理學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "數學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5301"
+                },
+                {
+                    "name": "物理學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5303"
+                },
+                {
+                    "name": "化學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5305"
+                },
+                {
+                    "name": "統計與數據科學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5307"
+                },
+                {
+                    "name": "天文研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5309"
+                },
+                {
+                    "name": "理學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5311"
+                },
+                {
+                    "name": "先進光源科技學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5313"
+                },
+                {
+                    "name": "計算與建模科學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5315"
+                },
+                {
+                    "name": "量子科技曁尖端材料博士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5317"
+                }
+            ],
+            "contact": {
+                "分機": "42501",
+                "直撥電話": "886-3-5719039",
+                "傳真電話": "886-3-5723762",
+                "Email": "science@my.nthu.edu.tw",
+                "網頁": "http://science.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "牟中瑜",
+                    "職稱/職責": "院長",
+                    "分機": "42500",
+                    "備註": "",
+                    "Email": "mou@phys.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "蔡易州",
+                    "職稱/職責": "副院長",
+                    "分機": "33341",
+                    "備註": "",
+                    "Email": "yictsai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林美慧",
+                    "職稱/職責": "秘書",
+                    "分機": "42501",
+                    "備註": "",
+                    "Email": "mhlin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張維娟",
+                    "職稱/職責": "行政助理",
+                    "分機": "33099",
+                    "備註": "",
+                    "Email": "weichuan.chang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "劉娟瑛",
+                    "職稱/職責": "研究助理",
+                    "分機": "42425",
+                    "備註": "",
+                    "Email": "cy-liu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳浩業",
+                    "職稱/職責": "研究助理",
+                    "分機": "33040",
+                    "備註": "",
+                    "Email": "haoyeh@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "環境保護暨安全衛生中心",
+        "details": {
+            "departments": [
+                {
+                    "name": "環境保護組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2701"
+                },
+                {
+                    "name": "安全衛生組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2703"
+                },
+                {
+                    "name": "建安消安組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2705"
+                },
+                {
+                    "name": "生物安全組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2707"
+                }
+            ],
+            "contact": {
+                "分機": "62399",
+                "直撥電話": "03-5719163",
+                "傳真電話": "03-5752142",
+                "Email": "environ@my.nthu.edu.tw",
+                "網頁": "https://nesh.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "張祥光",
+                    "職稱/職責": "主任",
+                    "分機": "31097",
+                    "備註": "",
+                    "Email": "hkchang@phys.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "莊淳宇",
+                    "職稱/職責": "副主任",
+                    "分機": "31344",
+                    "備註": "",
+                    "Email": "cychuang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "游珞靈",
+                    "職稱/職責": "",
+                    "分機": "62280、62399",
+                    "備註": "",
+                    "Email": "llyu@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "生命科學暨醫學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "生命科學暨醫學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6501"
+                },
+                {
+                    "name": "生命科學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6503"
+                },
+                {
+                    "name": "醫學科學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6504"
+                },
+                {
+                    "name": "分子與細胞生物研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6505"
+                },
+                {
+                    "name": "分子醫學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6507"
+                },
+                {
+                    "name": "生物資訊與結構生物研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6509"
+                },
+                {
+                    "name": "生物科技研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6511"
+                },
+                {
+                    "name": "系統神經科學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6513"
+                },
+                {
+                    "name": "學士後醫學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6515"
+                },
+                {
+                    "name": "生技產業博士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6517"
+                },
+                {
+                    "name": "台聯大跨領域神經科學博士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6519"
+                },
+                {
+                    "name": "精準醫療博士學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6521"
+                }
+            ],
+            "contact": {
+                "分機": "42769 42468",
+                "直撥電話": "03-5751008",
+                "傳真電話": "03-5717237",
+                "Email": "life@my.nthu.edu.tw",
+                "網頁": "https://cls.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "高瑞和",
+                    "職稱/職責": "院長",
+                    "分機": "31040 42468",
+                    "備註": "",
+                    "Email": "rhkao@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "伍焜玉",
+                    "職稱/職責": "院士",
+                    "分機": "42753",
+                    "備註": "",
+                    "Email": "kkgo@nhri.org.tw"
+                },
+                {
+                    "姓　名": "系所聯合辦公室",
+                    "職稱/職責": "",
+                    "分機": "42770 42463 42745 42761 42044 42165",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "總務室",
+                    "職稱/職責": "",
+                    "分機": "42774 42477",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "文念慈生命科學圖書館",
+                    "職稱/職責": "",
+                    "分機": "33459",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "收發、教具室",
+                    "職稱/職責": "",
+                    "分機": "33204",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "教學實驗助教室",
+                    "職稱/職責": "",
+                    "分機": "35859",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "教育發展中心",
+                    "職稱/職責": "",
+                    "分機": "33197 62588",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "腦科學中心",
+                    "職稱/職責": "",
+                    "分機": "42478",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "生化分析儀器室",
+                    "職稱/職責": "",
+                    "分機": "42773",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "X光繞射儀器室",
+                    "職稱/職責": "",
+                    "分機": "42462",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "核磁共振儀器室",
+                    "職稱/職責": "",
+                    "分機": "35418",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "電子顯微鏡儀器室",
+                    "職稱/職責": "",
+                    "分機": "62241",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "洪雅雯",
+                    "職稱/職責": "專員 / 綜理院務",
+                    "分機": "42468",
+                    "備註": "",
+                    "Email": "ywhung@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "徐雅慧",
+                    "職稱/職責": "行政助理 / 院經費/圖書",
+                    "分機": "42769",
+                    "備註": "",
+                    "Email": "yhhsu@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張艾茄",
+                    "職稱/職責": "行政助理 / 伍焜玉院士助理",
+                    "分機": "42004",
+                    "備註": "",
+                    "Email": "aichiateo@gmail.com"
+                },
+                {
+                    "姓　名": "劉又禎",
+                    "職稱/職責": "助理員 / 醫科/院學士班系辦",
+                    "分機": "42761",
+                    "備註": "",
+                    "Email": "yucliu@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "楊雅婷",
+                    "職稱/職責": "助理管理師 / 生科系辦",
+                    "分機": "42770",
+                    "備註": "",
+                    "Email": "ytyang@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "葉怡君",
+                    "職稱/職責": "助理管理師 / 生資/生技所秘",
+                    "分機": "42745",
+                    "備註": "",
+                    "Email": "jessica@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林佳玲",
+                    "職稱/職責": "行政助理 / 分生所秘",
+                    "分機": "42463",
+                    "備註": "",
+                    "Email": "cllin@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "楊子儀",
+                    "職稱/職責": "行政助理 / 院友會",
+                    "分機": "42771",
+                    "備註": "",
+                    "Email": "show@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "謝蕙如",
+                    "職稱/職責": "行政助理 / 教學發展中心",
+                    "分機": "33197",
+                    "備註": "",
+                    "Email": "hjhsieh@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "李怡萱",
+                    "職稱/職責": "教學助理 / 教學實驗",
+                    "分機": "35859",
+                    "備註": "",
+                    "Email": "yhli@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "黃詩婷",
+                    "職稱/職責": "教學助理 / 教學實驗",
+                    "分機": "35859",
+                    "備註": "",
+                    "Email": "sthuang@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "周明玄",
+                    "職稱/職責": "教學助理 / 教學實驗",
+                    "分機": "35859",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "羅巧玲",
+                    "職稱/職責": "教學助理 / 教學實驗",
+                    "分機": "35859",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "吳芬薰",
+                    "職稱/職責": "技佐 / 儀器管理",
+                    "分機": "42773",
+                    "備註": "",
+                    "Email": "fswu@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "范綱銘",
+                    "職稱/職責": "技士 / 總務",
+                    "分機": "42477",
+                    "備註": "",
+                    "Email": "gmfan@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "李明軒",
+                    "職稱/職責": "技士  / 總務",
+                    "分機": "42774",
+                    "備註": "",
+                    "Email": "richardlee@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "許富銘",
+                    "職稱/職責": "技術助理 / 網路",
+                    "分機": "42772",
+                    "備註": "",
+                    "Email": "fmhsu@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林益洲",
+                    "職稱/職責": "副工程師 / 環安衛",
+                    "分機": "62588",
+                    "備註": "",
+                    "Email": "yclin@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張湘芳",
+                    "職稱/職責": "技正 / TEM&SEM",
+                    "分機": "62241",
+                    "備註": "",
+                    "Email": "sfchang@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳怡君",
+                    "職稱/職責": "行政助理 / NMR",
+                    "分機": "35418",
+                    "備註": "",
+                    "Email": "ycchen@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張聖航",
+                    "職稱/職責": "工友 / 收發",
+                    "分機": "33204",
+                    "備註": "",
+                    "Email": "shchang@life.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳威全",
+                    "職稱/職責": "工友",
+                    "分機": "33204",
+                    "備註": "",
+                    "Email": ""
+                }
+            ]
+        }
+    },
+    {
+        "name": "研究發展處",
+        "details": {
+            "departments": [
+                {
+                    "name": "研究倫理辦公室",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2947"
+                },
+                {
+                    "name": "綜合企畫組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2901"
+                },
+                {
+                    "name": "計畫管理組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2903"
+                },
+                {
+                    "name": "清華實驗室",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2959"
+                },
+                {
+                    "name": "原子科學技術發展中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2911"
+                },
+                {
+                    "name": "奈微與材料科技中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2913"
+                },
+                {
+                    "name": "台聯大奈科中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2915"
+                },
+                {
+                    "name": "科學儀器中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2917"
+                },
+                {
+                    "name": "生物醫學科技研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2919"
+                },
+                {
+                    "name": "電腦與通訊科技研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2921"
+                },
+                {
+                    "name": "前沿理論及計算研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2923"
+                },
+                {
+                    "name": "貴重儀器中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2925"
+                },
+                {
+                    "name": "積體電路設計技術研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2927"
+                },
+                {
+                    "name": "科技與社會中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2929"
+                },
+                {
+                    "name": "光電中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2931"
+                },
+                {
+                    "name": "清大/工研院聯合研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2933"
+                },
+                {
+                    "name": "當代中國研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2935"
+                },
+                {
+                    "name": "能源與環境研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2937"
+                },
+                {
+                    "name": "腦科學研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2939"
+                },
+                {
+                    "name": "人文社會研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2943"
+                },
+                {
+                    "name": "亞洲政策中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2945"
+                },
+                {
+                    "name": "物理研究推動中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2951"
+                },
+                {
+                    "name": "人工智慧研發中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2953"
+                },
+                {
+                    "name": "智慧製造與循環經濟研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2955"
+                },
+                {
+                    "name": "運動科技中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2957"
+                },
+                {
+                    "name": "硼中子捕獲治療中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2961"
+                },
+                {
+                    "name": "科技考古與文物鑑定研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2963"
+                },
+                {
+                    "name": "運動事業及政策中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2965"
+                }
+            ],
+            "contact": {
+                "分機": "35007",
+                "直撥電話": "03-5717470",
+                "傳真電話": "03-5729115",
+                "Email": "rd@my.nthu.edu.tw",
+                "網頁": "http://rd.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "邱博文",
+                    "職稱/職責": "研發長",
+                    "分機": "35007",
+                    "備註": "",
+                    "Email": "pwchiu@ee.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "胡尚秀",
+                    "職稱/職責": "副研發長",
+                    "分機": "31175",
+                    "備註": "",
+                    "Email": "shhu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "邱婉君",
+                    "職稱/職責": "簡任秘書兼綜企組執行組長",
+                    "分機": "35127",
+                    "備註": "",
+                    "Email": "wcchiu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王佩倫",
+                    "職稱/職責": "專員",
+                    "分機": "35007 35175",
+                    "備註": "",
+                    "Email": "peilun@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "何亭吟",
+                    "職稱/職責": "行政組員",
+                    "分機": "35175",
+                    "備註": "",
+                    "Email": "tingyinho@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "趙宛青",
+                    "職稱/職責": "專案組員",
+                    "分機": "35126",
+                    "備註": "",
+                    "Email": "wanching@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "李家駿",
+                    "職稱/職責": "",
+                    "分機": "35007",
+                    "備註": "",
+                    "Email": ""
+                }
+            ]
+        }
+    },
+    {
+        "name": "科技管理學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "EMBA高階經營管理碩士在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7101"
+                },
+                {
+                    "name": "EMBA高階經營管理境外碩士在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7145"
+                },
+                {
+                    "name": "Dual EMBA高階經營管理雙聯碩士在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7139"
+                },
+                {
+                    "name": "MBA經營管理在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7102"
+                },
+                {
+                    "name": "MFB財務金融在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7129"
+                },
+                {
+                    "name": "MPM公共政策與管理在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7131"
+                },
+                {
+                    "name": "HBA健康政策與經營管理碩士在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7137"
+                },
+                {
+                    "name": "IMBA國際專業管理碩士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7103"
+                },
+                {
+                    "name": "科技管理研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7105"
+                },
+                {
+                    "name": "科技法律研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7107"
+                },
+                {
+                    "name": "服務科學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7109"
+                },
+                {
+                    "name": "計量財務金融學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7111"
+                },
+                {
+                    "name": "經濟學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7113"
+                },
+                {
+                    "name": "科技管理學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7115"
+                },
+                {
+                    "name": "科技管理學院學士班國際學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7143"
+                },
+                {
+                    "name": "服務創新與分析研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7127"
+                },
+                {
+                    "name": "生物倫理與法律研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7123"
+                },
+                {
+                    "name": "科技政策研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7117"
+                },
+                {
+                    "name": "技術創新與創業研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7119"
+                },
+                {
+                    "name": "財務風險控管研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7125"
+                },
+                {
+                    "name": "區塊鏈法律與政策中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7133"
+                },
+                {
+                    "name": "安富金融工程研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7135"
+                },
+                {
+                    "name": "社會企業研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7141"
+                }
+            ],
+            "contact": {
+                "分機": "62100",
+                "直撥電話": "03-5162100",
+                "傳真電話": "03-5622456",
+                "Email": "ctm@my.nthu.edu.tw",
+                "網頁": "http://www.ctm.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "林哲群",
+                    "職稱/職責": "院長",
+                    "分機": "62100",
+                    "備註": "",
+                    "Email": "chclin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "祁玉蘭",
+                    "職稱/職責": "副院長",
+                    "分機": "42732",
+                    "備註": "",
+                    "Email": "ylchyi@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張焯然",
+                    "職稱/職責": "副院長",
+                    "分機": "42420",
+                    "備註": "",
+                    "Email": "jrchang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "俞明德",
+                    "職稱/職責": "專任教授",
+                    "分機": "42733",
+                    "備註": "",
+                    "Email": "mtyu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "盧妙卿",
+                    "職稱/職責": "編審 / 秘書",
+                    "分機": "62100",
+                    "備註": "",
+                    "Email": "ctm@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "易彤",
+                    "職稱/職責": "國際認證",
+                    "分機": "62101",
+                    "備註": "",
+                    "Email": "tyih@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林絢慧",
+                    "職稱/職責": "國際事務",
+                    "分機": "62516",
+                    "備註": "",
+                    "Email": "hhlin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林宜秀",
+                    "職稱/職責": "職涯發展",
+                    "分機": "62511",
+                    "備註": "",
+                    "Email": "careertm@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王天生",
+                    "職稱/職責": "技術組員",
+                    "分機": "62118",
+                    "備註": "",
+                    "Email": "tswang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "周鈺傑",
+                    "職稱/職責": "技術組員",
+                    "分機": "62117",
+                    "備註": "",
+                    "Email": "yc.chou@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "羅文憲",
+                    "職稱/職責": "管理員",
+                    "分機": "42252",
+                    "備註": "",
+                    "Email": "wclo@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林以婷",
+                    "職稱/職責": "計畫助理 / 新興科技與數位學習推動",
+                    "分機": "62527",
+                    "備註": "",
+                    "Email": "iting@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "彭美婷",
+                    "職稱/職責": "研究助理",
+                    "分機": "62112",
+                    "備註": "",
+                    "Email": "mtpeng@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "趙家瑜",
+                    "職稱/職責": "研究助理",
+                    "分機": "62113",
+                    "備註": "",
+                    "Email": "chaocy@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "詹士微",
+                    "職稱/職責": "研究助理 / EMI雙語化學習計畫",
+                    "分機": "62114",
+                    "備註": "",
+                    "Email": "swchan@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "葉曳芳",
+                    "職稱/職責": "研究助理",
+                    "分機": "62000",
+                    "備註": "",
+                    "Email": "yifang2@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "洪文進",
+                    "職稱/職責": "管理員",
+                    "分機": "42226",
+                    "備註": "",
+                    "Email": "wenchin_hung@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "學生職涯發展辦公室",
+                    "職稱/職責": "",
+                    "分機": "62511",
+                    "備註": "",
+                    "Email": "careertm@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "科管院國際事務辦公室",
+                    "職稱/職責": "科管院國際事務、國際認證相關業務",
+                    "分機": "62101",
+                    "備註": "",
+                    "Email": "oiactm@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "跨領域研究辦公室",
+                    "職稱/職責": "",
+                    "分機": "42944",
+                    "備註": "",
+                    "Email": ""
+                }
+            ]
+        }
+    },
+    {
+        "name": "秘書處",
+        "details": {
+            "departments": [
+                {
+                    "name": "綜合業務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1301"
+                },
+                {
+                    "name": "議事及法規組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1303"
+                },
+                {
+                    "name": "公共事務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1305"
+                },
+                {
+                    "name": "性別平等教育委員會",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1313"
+                },
+                {
+                    "name": "校務研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=1321"
+                }
+            ],
+            "contact": {
+                "分機": "62005",
+                "直撥電話": "03-5162005",
+                "傳真電話": "03-5162499",
+                "Email": "secretary@my.nthu.edu.tw",
+                "網頁": "https://secretary.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "葉秩光",
+                    "職稱/職責": "主任秘書",
+                    "分機": "31001",
+                    "備註": "",
+                    "Email": "ckyeh@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "邱雪蘭",
+                    "職稱/職責": "專門委員",
+                    "分機": "62485",
+                    "備註": "",
+                    "Email": "slchiou@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "葛雅珍",
+                    "職稱/職責": "",
+                    "分機": "62001",
+                    "備註": "",
+                    "Email": "ycke@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳宇穎",
+                    "職稱/職責": "",
+                    "分機": "62005",
+                    "備註": "",
+                    "Email": "yywu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳怡如",
+                    "職稱/職責": "稽核師",
+                    "分機": "62502",
+                    "備註": "",
+                    "Email": "yiju.chen@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林燕君",
+                    "職稱/職責": "",
+                    "分機": "62379",
+                    "備註": "",
+                    "Email": "yenchun@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "古小玫",
+                    "職稱/職責": "",
+                    "分機": "62504",
+                    "備註": "",
+                    "Email": "hmku@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "竹師教育學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "教育與學習科技學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7301"
+                },
+                {
+                    "name": "特殊教育學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7303"
+                },
+                {
+                    "name": "運動科學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7305"
+                },
+                {
+                    "name": "臺灣語言研究與教學研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7307"
+                },
+                {
+                    "name": "環境與文化資源學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7309"
+                },
+                {
+                    "name": "學習科學與科技研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7311"
+                },
+                {
+                    "name": "幼兒教育學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7313"
+                },
+                {
+                    "name": "教育心理與諮商學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7315"
+                },
+                {
+                    "name": "數理教育研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7317"
+                },
+                {
+                    "name": "英語教學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7319"
+                },
+                {
+                    "name": "竹師教育學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7323"
+                },
+                {
+                    "name": "學前特殊教育碩士在職學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7321"
+                },
+                {
+                    "name": "竹師教育學院跨領域STEAM教育碩士在職專班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7329"
+                },
+                {
+                    "name": "華德福教育碩士在職學位學程",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7331"
+                },
+                {
+                    "name": "竹師教育學院博士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7337"
+                },
+                {
+                    "name": "K-12 課程與師培研究發展中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7325"
+                },
+                {
+                    "name": "教育與心智科學研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7327"
+                },
+                {
+                    "name": "英語教育中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7333"
+                },
+                {
+                    "name": "性/別教育發展中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7335"
+                }
+            ],
+            "contact": {
+                "分機": "73009",
+                "傳真電話": "03- 5619475",
+                "Email": "education@my.nthu.edu.tw",
+                "網頁": "https://ec.site.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "王子華",
+                    "職稱/職責": "院長",
+                    "分機": "73002 / 73363",
+                    "備註": "",
+                    "Email": "tzuhuawang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "廖冠智",
+                    "職稱/職責": "副院長",
+                    "分機": "35166",
+                    "備註": "",
+                    "Email": "gzliao@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "王淳民",
+                    "職稱/職責": "副院長",
+                    "分機": "73042",
+                    "備註": "",
+                    "Email": "chunmin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "姚在府",
+                    "職稱/職責": "助理教授",
+                    "分機": "73015",
+                    "備註": "",
+                    "Email": "zfyao@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林靜明",
+                    "職稱/職責": "專員",
+                    "分機": "73009",
+                    "備註": "",
+                    "Email": "chingming@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "許禕芳",
+                    "職稱/職責": "行政組員",
+                    "分機": "73010",
+                    "備註": "",
+                    "Email": "yf0604@gapp.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "藍翊慈",
+                    "職稱/職責": "行政組員",
+                    "分機": "73004",
+                    "備註": "",
+                    "Email": "lan@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "鄭尹菀",
+                    "職稱/職責": "研究助理",
+                    "分機": "73003",
+                    "備註": "",
+                    "Email": "yinwan@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "藍翌瑄",
+                    "職稱/職責": "研究助理",
+                    "分機": "73016",
+                    "備註": "",
+                    "Email": "lanyh@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張智彥",
+                    "職稱/職責": "機電",
+                    "分機": "73027",
+                    "備註": "",
+                    "Email": "cy_chang@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "總務處",
+        "details": {
+            "departments": [
+                {
+                    "name": "文書組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2501"
+                },
+                {
+                    "name": "事務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2503"
+                },
+                {
+                    "name": "出納組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2505"
+                },
+                {
+                    "name": "保管組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2507"
+                },
+                {
+                    "name": "營繕組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2509"
+                },
+                {
+                    "name": "採購組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2511"
+                },
+                {
+                    "name": "駐衛警察隊",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2513"
+                },
+                {
+                    "name": "經營管理組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2521"
+                },
+                {
+                    "name": "南大校區 總務行政組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2519"
+                },
+                {
+                    "name": "校園規劃組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2512"
+                }
+            ],
+            "contact": {
+                "分機": "31087",
+                "直撥電話": "03-5714688",
+                "傳真電話": "03-5719177",
+                "Email": "general@my.nthu.edu.tw",
+                "網頁": "http://general.site.nthu.edu.tw/index.php",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "張祥光",
+                    "職稱/職責": "總務長",
+                    "分機": "31097",
+                    "備註": "",
+                    "Email": "hkchang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "劉先翔",
+                    "職稱/職責": "副總務長",
+                    "分機": "31089",
+                    "備註": "",
+                    "Email": "liuhh@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳依民",
+                    "職稱/職責": "簡任技正",
+                    "分機": "35265",
+                    "備註": "",
+                    "Email": "imin@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "李惠玲",
+                    "職稱/職責": "秘書 / 總務長行程、總務處經費管理",
+                    "分機": "31087",
+                    "備註": "",
+                    "Email": "general@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "陳昭如",
+                    "職稱/職責": "助理管理師 / 副總及簡正行程、梅園紀念品訂購",
+                    "分機": "31086",
+                    "備註": "",
+                    "Email": "nthugeneral@my.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林立平",
+                    "職稱/職責": "專案組員 / 教學單位電度及電費核算、單位登記桌",
+                    "分機": "31088",
+                    "備註": "",
+                    "Email": "linliping@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "總機 36161",
+        "details": {
+            "departments": [
+                {
+                    "name": "台灣聯合大學系統 校內分機免費互撥",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5201"
+                }
+            ],
+            "contact": {
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "總機",
+                    "職稱/職責": "分機查詢及報修",
+                    "分機": "36161",
+                    "備註": "",
+                    "Email": ""
+                }
+            ]
+        }
+    },
+    {
+        "name": "藝文總中心",
+        "details": {
+            "departments": [
+                {
+                    "name": "美術館",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4301"
+                },
+                {
+                    "name": "音樂廳",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4303"
+                },
+                {
+                    "name": "文物館",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4305"
+                }
+            ],
+            "contact": {
+                "分機": "62222、62223",
+                "直撥電話": "03- 5162222",
+                "傳真電話": "03- 5726819",
+                "Email": "cac@my.nthu.edu.tw",
+                "網頁": "https://cac.site.nthu.edu.tw/app/index.php",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "簡禎富",
+                    "職稱/職責": "副校長兼總中心主任",
+                    "分機": "62503",
+                    "備註": "",
+                    "Email": "cfchien@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "吳尚衡",
+                    "職稱/職責": "專案助理",
+                    "分機": "62222",
+                    "備註": "",
+                    "Email": "shanghengwu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "林甫珊",
+                    "職稱/職責": "視覺藝術企劃",
+                    "分機": "62015",
+                    "備註": "",
+                    "Email": "fslin@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "藝術學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "音樂學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7505"
+                },
+                {
+                    "name": "藝術與設計學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7501"
+                },
+                {
+                    "name": "藝術學院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7507"
+                },
+                {
+                    "name": "科技藝術研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=7509"
+                }
+            ],
+            "contact": {
+                "分機": "78801",
+                "傳真電話": "03-5619170",
+                "Email": "coa@my.nthu.edu.tw",
+                "網頁": "http://art.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "張芳宇",
+                    "職稱/職責": "院長",
+                    "分機": "78800",
+                    "備註": "",
+                    "Email": "fychang@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "邱誌勇",
+                    "職稱/職責": "副院長",
+                    "分機": "",
+                    "備註": "",
+                    "Email": ""
+                },
+                {
+                    "姓　名": "吳淑宜",
+                    "職稱/職責": "秘書",
+                    "分機": "78801",
+                    "備註": "",
+                    "Email": "shuyi-wu@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張積鳳",
+                    "職稱/職責": "研究助理",
+                    "分機": "78810",
+                    "備註": "",
+                    "Email": "chifeng@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "計算機與通訊中心",
+        "details": {
+            "departments": [
+                {
+                    "name": "網路系統組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3701"
+                },
+                {
+                    "name": "校務資訊組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3703"
+                },
+                {
+                    "name": "學習科技組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=3705"
+                }
+            ],
+            "contact": {
+                "分機": "31000",
+                "直撥電話": "03-5731000",
+                "傳真電話": "03-5710776",
+                "Email": "ccc@cc.nthu.edu.tw",
+                "網頁": "http://www.cc.nthu.edu.tw/",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "王俊堯",
+                    "職稱/職責": "中心主任",
+                    "分機": "31100",
+                    "備註": "",
+                    "Email": "wcyao@cs.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "周志遠",
+                    "職稱/職責": "中心副主任",
+                    "分機": "31102",
+                    "備註": "",
+                    "Email": "jchou@cs.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "郭柏蘭",
+                    "職稱/職責": "組員",
+                    "分機": "31113",
+                    "備註": "",
+                    "Email": "polankuo@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "鄭秀美",
+                    "職稱/職責": "行政組員",
+                    "分機": "31109",
+                    "備註": "",
+                    "Email": "smcheng@cc.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "張桂芳",
+                    "職稱/職責": "專案組員",
+                    "分機": "31138",
+                    "備註": "",
+                    "Email": "changkf@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
+        "name": "電機資訊學院",
+        "details": {
+            "departments": [
+                {
+                    "name": "電資院學士班",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6901"
+                },
+                {
+                    "name": "電機工程學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6905"
+                },
+                {
+                    "name": "資訊工程學系",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6907"
+                },
+                {
+                    "name": "電子工程研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6909"
+                },
+                {
+                    "name": "通訊工程研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6911"
+                },
+                {
+                    "name": "資訊系統與應用研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6913"
+                },
+                {
+                    "name": "光電工程研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6915"
+                },
+                {
+                    "name": "資訊安全研究所",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6917"
+                },
+                {
+                    "name": "資通訊安全中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6931"
+                },
+                {
+                    "name": "音樂、科技與健康研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6933"
+                },
+                {
+                    "name": "兆赫光電研究中心",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6935"
+                }
+            ],
+            "contact": {
+                "分機": "42897",
+                "直撥電話": "03-5734762",
+                "傳真電話": "03-5711484",
+                "Email": "eecs@my.nthu.edu.tw",
+                "網頁": "http://eecs.web.nthu.edu.tw",
+                "": ""
+            },
+            "people": [
+                {
+                    "姓　名": "徐碩鴻",
+                    "職稱/職責": "院長",
+                    "分機": "42896",
+                    "備註": "",
+                    "Email": "shhsu@ee.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "蔡淑薇",
+                    "職稱/職責": "秘書",
+                    "分機": "42897",
+                    "備註": "",
+                    "Email": "swtsai@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "袁婉芳",
+                    "職稱/職責": "行政助理",
+                    "分機": "42898",
+                    "備註": "",
+                    "Email": "wfyuan@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "朱明俊",
+                    "職稱/職責": "台達館管理員",
+                    "分機": "34168",
+                    "備註": "",
+                    "Email": "chumc@mx.nthu.edu.tw"
+                },
+                {
+                    "姓　名": "柯怡玟",
+                    "職稱/職責": "國際業務/EMI英語教學與學習",
+                    "分機": "33138",
+                    "備註": "",
+                    "Email": "ywko@mx.nthu.edu.tw"
+                }
+            ]
+        }
+    }
+]
