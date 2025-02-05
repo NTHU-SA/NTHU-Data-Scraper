@@ -45,6 +45,7 @@ jobs:
       - name: Copy both static and dynamic JSON files to docs folder
         run: |
           mkdir -p docs
+          cp -r data/static/* docs/
           cp -r data/dynamic/* docs/ || true
           # 文件處理
           python combine.py || true
@@ -58,4 +59,4 @@ jobs:
           publish_dir: ./docs
           # 將 force_orphan 設為 false，避免以 orphan commit 的方式覆寫原有歷史
           force_orphan: false
-          commit_message: "Scheduled update of JSON data [skip ci] - $(date)"
+          commit_message: "Scheduled update of JSON data [skip ci]"

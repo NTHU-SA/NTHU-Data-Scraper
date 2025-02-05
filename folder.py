@@ -8,6 +8,8 @@ def generate_file_list_html(base_path):
     html = "<html><head><meta charset='UTF-8'><title>檔案列表</title></head><body>\n"
     html += "<h1>檔案列表</h1>\n<ul>\n"
     for root, dirs, files in os.walk(base_path):
+        dirs.sort()  # 按字母升序排序子目錄
+        files.sort()  # 按字母升序排序檔案
         # 將路徑轉為相對路徑
         rel_root = os.path.relpath(root, base_path)
         # 如果不是根目錄，顯示資料夾名稱
@@ -26,6 +28,6 @@ def generate_file_list_html(base_path):
 
 if __name__ == "__main__":
     html_content = generate_file_list_html(docs_path)
-    with open(docs_path + "/" + output_file, "w", encoding="utf-8") as f:
+    with open(os.path.join(docs_path, output_file), "w", encoding="utf-8") as f:
         f.write(html_content)
     print(f"{output_file} 已生成！")

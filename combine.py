@@ -17,7 +17,7 @@ def combine_json_files(path, folder_list):
                     combined_data[file[:-5]] = data
         file_path = os.path.join(path, folder)
         with open(os.path.join(file_path + ".json"), "w", encoding="utf-8") as f:
-            json.dump(combined_data, f, ensure_ascii=False, indent=2)
+            json.dump(combined_data, f, ensure_ascii=False, indent=2, sort_keys=True)
         print(f"{folder}.json 已合併！")
 
 
