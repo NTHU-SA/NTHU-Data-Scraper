@@ -5,7 +5,6 @@ from typing import Any, Dict, List
 
 import requests
 from bs4 import BeautifulSoup
-from config import JSON_FOLDER
 from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
@@ -14,7 +13,7 @@ URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 
 TEMP_FOLDER = Path("temp/directories")
 TEMP_DEPT_FOLDER = TEMP_FOLDER / "dept"
-OUTPUT_PATH = Path(JSON_FOLDER) / "directories.json"
+OUTPUT_PATH = Path("data/static/directories.json")
 
 HEADERS = {
     "accept": "*/*",

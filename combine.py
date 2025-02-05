@@ -2,7 +2,7 @@ import json
 import os
 
 # 合併資料夾內的所有 json 至一個 json
-FOLDER_LIST = ["buses", "maps", "newsletters"]
+FOLDER_LIST = ["buses"]
 
 
 def combine_json_files(path, folder_list):

@@ -4,12 +4,11 @@ from typing import Dict
 
 import requests
 from bs4 import BeautifulSoup
-from config import JSON_FOLDER
 from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
-OUTPUT_PATH = Path(JSON_FOLDER) / "maps"
+OUTPUT_PATH = Path("data/static/maps")
 
 HEADERS = {
     "accept": "*/*",

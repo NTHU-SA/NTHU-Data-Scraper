@@ -7,7 +7,6 @@ from typing import Any, Dict, List
 
 import requests
 from bs4 import BeautifulSoup
-from config import JSON_FOLDER
 from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
@@ -21,8 +20,8 @@ HEADERS = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
 }
 
-OUTPUT_PATH = Path(JSON_FOLDER) / "newsletters"
-LIST_OUTPUT_PATH = Path(JSON_FOLDER) / "newsletters_list.json"
+OUTPUT_PATH = Path("data/static/newsletters")
+LIST_OUTPUT_PATH = Path("data/static/newsletters_list.json")
 URL_PREFIX = "https://newsletter.cc.nthu.edu.tw"
 
 # 設定 requests session，增加 retry 機制

@@ -5,12 +5,11 @@ from typing import Any, Dict, List, Optional
 
 import requests
 from bs4 import BeautifulSoup
-from config import JSON_FOLDER
 from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
-OUTPUT_FOLDER: Path = Path(JSON_FOLDER) / "buses"
+OUTPUT_FOLDER: Path = Path("data/dynamic/buses")
 
 HEADERS: Dict[str, str] = {
     "accept": "*/*",
