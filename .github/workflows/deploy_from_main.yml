@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build_and_deploy:
@@ -26,6 +27,10 @@ jobs:
             # python scripts/newsletters.py || true
 
             python scripts/courses.py || true
+
+            # 文件處理
+            python combine.py || true
+            python folder.py || true
 
       - name: Copy JSON files to docs folder
         run: |

@@ -3,15 +3,16 @@ name: Scheduled update of JSON data in gh-pages
 on:
   schedule:
     - cron: '0 * * * *'  # 每小時的第 0 分鐘執行
+  workflow_dispatch:
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout gh-pages branch
+      - name: Checkout main branch
         uses: actions/checkout@v3
         with:
-          ref: gh-pages
+          ref: main
 
       - name: Run Python update script
         run: |
@@ -26,19 +27,21 @@ jobs:
 
             python scripts/courses.py || true
 
-      - name: Copy updated JSON files to docs folder
+            # 文件處理
+            python combine.py || true
+            python folder.py || true
+
+      - name: Copy JSON files to docs folder
         run: |
           mkdir -p docs
           cp -r json/* docs/
 
-      - name: Commit and push updates
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Scheduled update of JSON data [skip ci] - $(date)"
-            git push origin gh-pages
-          else
-            echo "No changes to commit."
-          fi
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./docs
+          # 將 force_orphan 設為 false，避免以 orphan commit 的方式覆寫原有歷史
+          force_orphan: false
+          commit_message: "Scheduled update of JSON data [skip ci] - $(date)"
