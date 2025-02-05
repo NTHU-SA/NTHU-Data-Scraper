@@ -1,0 +1,258 @@
+{
+  "towardMainCampusInfo": {
+    "direction": "往校本部 (To Main Campus)",
+    "duration": "寒假期間 2024/12/23 ~ 2025/02/14",
+    "route": "南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口",
+    "routeEN": "The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Builing → General Building II→School North Gate"
+  },
+  "towardMainGateInfo": {
+    "direction": "往校門口 (To Main Gate)",
+    "duration": "寒假期間2024/12/23 ~ 2025/2/14",
+    "route": "(紅線)  台積館 →  南門停車場  →  奕園停車場  → 楓林小徑 → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院  → 楓林小徑 → 綜二館 → 北校門口",
+    "routeEN": "(Red Line)  TSMC Building →  South Gate Parking Lot  →  Yi Pavilion Parking Lot  → Maple Path → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → Maple Path → General Building II → North Main Gate"
+  },
+  "towardSouthCampusInfo": {
+    "direction": "往南大校區 (To Nanda Campus)",
+    "duration": "寒假期間 2024/12/23 ~ 2025/02/14",
+    "route": "北校門口 → 綜二館 → 人社院/生科館 → 台積館(經寶山路) → 南大校區校門口右側(食品路校牆邊)",
+    "routeEN": "School North Gate → General Building II → CHSS/CLS Building → TSMC Building(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road)"
+  },
+  "towardTSMCBuildingInfo": {
+    "direction": "往台積館 (To TSMC Building)",
+    "duration": "寒假期間2024/12/23 ~ 2025/2/14",
+    "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑 →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑 →  奕園停車場  →  南門停車場  → 台積館",
+    "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  South Gate Parking Lot  → TSMC Building"
+  },
+  "weekdayBusScheduleTowardMainCampus": [
+    {
+      "time": "7:33",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    },
+    {
+      "time": "8:00",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "12:00",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "12:23",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    },
+    {
+      "time": "14:00",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "15:18",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    },
+    {
+      "time": "17:00",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "18:43",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    }
+  ],
+  "weekdayBusScheduleTowardMainGate": [
+    {
+      "time": "7:57",
+      "dep_stop": "台積館",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "8:27",
+      "dep_stop": "台積館",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "9:37",
+      "dep_stop": "台積館",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "10:47",
+      "dep_stop": "台積館",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "12:17",
+      "dep_stop": "台積館",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "13:17",
+      "dep_stop": "台積館",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "14:17",
+      "dep_stop": "台積館",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "15:37",
+      "dep_stop": "台積館",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "16:47",
+      "dep_stop": "台積館",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "17:37",
+      "dep_stop": "台積館",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    }
+  ],
+  "weekdayBusScheduleTowardSouthCampus": [
+    {
+      "time": "7:30",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    },
+    {
+      "time": "8:30",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "12:30",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "12:40",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    },
+    {
+      "time": "14:30",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "15:45",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    },
+    {
+      "time": "17:30",
+      "description": "",
+      "route": "南大區間車"
+    },
+    {
+      "time": "19:00",
+      "description": "此為付費市區公車(83號公車直達兩校區)",
+      "route": "南大區間車"
+    }
+  ],
+  "weekdayBusScheduleTowardTSMCBuilding": [
+    {
+      "time": "7:50",
+      "dep_stop": "校門",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "8:20",
+      "dep_stop": "校門",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "9:30",
+      "dep_stop": "校門",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "10:40",
+      "dep_stop": "校門",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "12:10",
+      "dep_stop": "校門",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "13:10",
+      "dep_stop": "校門",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "14:10",
+      "dep_stop": "校門",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "15:30",
+      "dep_stop": "校門",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "16:40",
+      "dep_stop": "校門",
+      "line": "red",
+      "description": "",
+      "route": "校園公車"
+    },
+    {
+      "time": "17:30",
+      "dep_stop": "校門",
+      "line": "green",
+      "description": "",
+      "route": "校園公車"
+    }
+  ],
+  "weekendBusScheduleTowardMainCampus": [],
+  "weekendBusScheduleTowardMainGate": [],
+  "weekendBusScheduleTowardSouthCampus": [],
+  "weekendBusScheduleTowardTSMCBuilding": []
+}
