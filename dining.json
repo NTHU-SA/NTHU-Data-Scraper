@@ -100,6 +100,18 @@
             },
             {
                 "area": "小吃部",
+                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/S__4186435.jpg",
+                "name": "飯吃一點",
+                "note": "2/17正式營運。",
+                "phone": "0928-577-197",
+                "schedule": {
+                    "saturday": "11:00-20:00",
+                    "sunday": "11:00-20:00",
+                    "weekday": "11:00-20:00"
+                }
+            },
+            {
+                "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/174010305.jpg",
                 "name": "珈名鮮茶",
                 "note": "2月每週六暫停營業。",
