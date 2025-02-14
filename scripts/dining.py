@@ -76,7 +76,7 @@ def scrape_dining(path: Path) -> None:
         response = session.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()  # 若 HTTP 狀態碼不為 200，則拋出異常
         response.encoding = "utf-8"
-        logger.info("成功取得餐廳及服務性廠商的資料")
+        logger.success("成功取得餐廳及服務性廠商的資料")
     except requests.RequestException as e:
         logger.error(f"爬取資料時發生錯誤: {e}")
         return
@@ -90,7 +90,7 @@ def scrape_dining(path: Path) -> None:
     try:
         with path.open("w", encoding="utf-8") as f:
             json.dump(dining_data, f, ensure_ascii=False, indent=4)
-        logger.info(f'成功將餐廳資料儲存到 "{path}"')
+        logger.success(f'成功將餐廳資料儲存到 "{path}"')
     except IOError as e:
         logger.error(f"寫入檔案時發生錯誤: {e}")
 

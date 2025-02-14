@@ -41,26 +41,23 @@ def get_json_data_from_url(url: str, file_path: Path) -> None:
         response = session.get(url)
         response.raise_for_status()
         data = response.json()
-        logger.info(f"取得資料成功: {url}")
+        logger.success(f"取得資料成功: {url}")
         if isinstance(data, list):
             logger.info(f"資料筆數: {len(data)}")
         elif isinstance(data, dict):
             logger.info(f"資料包含 {len(data)} 個 key")
-        logger.info(f"即將儲存至: {file_path}")
     except requests.RequestException as e:
         logger.error(f"取得資料失敗: {e}")
-        return
 
     # 處理特殊格式：若資料為 dict 且包含 "工作表1"，則取出其中內容
     if isinstance(data, dict) and "工作表1" in data:
         data = data["工作表1"]
         logger.warning(f"發現特殊格式，取出 '工作表1' 資料並儲存至: {file_path}")
-
     try:
         file_path.parent.mkdir(parents=True, exist_ok=True)
         with file_path.open("w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        logger.info(f"成功儲存資料至: {file_path}")
+        logger.success(f"成功儲存資料至: {file_path}")
     except IOError as e:
         logger.error(f"寫入檔案時發生錯誤: {e}")
 
