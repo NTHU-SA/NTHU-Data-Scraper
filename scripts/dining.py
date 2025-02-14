@@ -47,7 +47,7 @@ def parse_html(res_text: str) -> List[Any]:
     """
     match = DINING_REGEX.search(res_text)
     if match is None:
-        logger.error("找不到餐廳資料的內容")
+        logger.error("❎ 找不到餐廳資料的內容")
         return []
 
     dining_data = match.group(1)
@@ -59,7 +59,7 @@ def parse_html(res_text: str) -> List[Any]:
         data = json.loads(dining_data)
         return data
     except json.JSONDecodeError as e:
-        logger.error(f"JSON 解碼錯誤: {e}")
+        logger.error(f"❎ JSON 解碼錯誤: {e}")
         return []
 
 
@@ -72,27 +72,27 @@ def scrape_dining(path: Path) -> None:
     """
     url = "https://ddfm.site.nthu.edu.tw/p/404-1494-256455.php?Lang=zh-tw"
     try:
-        logger.info(f"正在從 {url} 獲取資料")
+        logger.info(f"🔗 正在從 {url} 獲取資料")
         response = session.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()  # 若 HTTP 狀態碼不為 200，則拋出異常
         response.encoding = "utf-8"
-        logger.success("成功取得餐廳及服務性廠商的資料")
+        logger.success("✅ 成功取得餐廳及服務性廠商的資料")
     except requests.RequestException as e:
-        logger.error(f"爬取資料時發生錯誤: {e}")
+        logger.error(f"❎ 爬取資料時發生錯誤: {e}")
         return
 
     dining_data = parse_html(response.text)
     if not dining_data:
-        logger.error("未能解析到任何餐廳資料，將不進行儲存")
+        logger.error("❎ 未能解析到任何餐廳資料，將不進行儲存")
         return
-
     logger.debug(dining_data)
+
     try:
         with path.open("w", encoding="utf-8") as f:
             json.dump(dining_data, f, ensure_ascii=False, indent=4)
-        logger.success(f'成功將餐廳資料儲存到 "{path}"')
+        logger.success(f'✅ 成功將餐廳資料儲存到 "{path}"')
     except IOError as e:
-        logger.error(f"寫入檔案時發生錯誤: {e}")
+        logger.error(f"❎ 寫入檔案時發生錯誤: {e}")
 
 
 if __name__ == "__main__":

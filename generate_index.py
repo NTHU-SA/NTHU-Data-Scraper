@@ -95,8 +95,8 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
                 if last_commit and github_base_url
                 else "N/A"
             )
-            if directory == file_name:
-                file_path = Path(directory)
+            if directory == "root":
+                file_path = file_name
             else:
                 file_path = Path(directory) / file_name
             file_path_str = str(file_path)
