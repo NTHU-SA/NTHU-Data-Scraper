@@ -77,7 +77,7 @@ def parse_campus_info(variable_string: str, res_text: str) -> Optional[Dict[str,
     regex_pattern = r"const " + re.escape(variable_string) + r" = (\{.*?\})"
     data_match = re.search(regex_pattern, res_text, re.S)
     if data_match is None:
-        logger.error(f"找不到變數 {variable_string} 的資料")
+        logger.error(f"❎ 找不到變數 {variable_string} 的資料")
         return None
 
     data = data_match.group(1)
@@ -94,7 +94,7 @@ def parse_campus_info(variable_string: str, res_text: str) -> Optional[Dict[str,
     try:
         data_dict = json.loads(data)
     except json.JSONDecodeError as e:
-        logger.error(f"解析 {variable_string} JSON 失敗: {e}")
+        logger.error(f"❎ 解析 {variable_string} JSON 失敗: {e}")
         return None
 
     # 使用 BeautifulSoup 移除 route 與 routeEN 中的 <span> 標籤
@@ -123,7 +123,7 @@ def parse_bus_schedule(
     regex_pattern = r"const " + re.escape(variable_string) + r" = (\[.*?\])"
     data_match = re.search(regex_pattern, res_text, re.S)
     if data_match is None:
-        logger.error(f"找不到變數 {variable_string} 的資料")
+        logger.error(f"❎ 找不到變數 {variable_string} 的資料")
         return None
 
     data = data_match.group(1)
@@ -155,9 +155,9 @@ def save_json_data(file_path: Path, data: Any, desc: str) -> None:
     try:
         with file_path.open("w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
-        logger.success(f'儲存 {desc} 的資料到 "{file_path}"')
+        logger.success(f'✅ 儲存 {desc} 的資料到 "{file_path}"')
     except IOError as e:
-        logger.error(f"儲存檔案失敗 {file_path}: {e}")
+        logger.error(f"❎ 儲存檔案失敗 {file_path}: {e}")
 
 
 def scrape_buses(path: Path) -> Dict[str, Dict]:
@@ -167,13 +167,14 @@ def scrape_buses(path: Path) -> Dict[str, Dict]:
     path.mkdir(parents=True, exist_ok=True)
     all_data = {}
     for name, data in BUS_URL.items():
+        logger.info(f"🔗 正在處理：{data['url']}")
         try:
             response = session.get(data["url"], headers=HEADERS, timeout=10)
             response.raise_for_status()
             res_text = response.text
-            logger.success(f"成功取得 {name} 的資料")
+            logger.success(f"✅ 成功取得 {name} 的資料")
         except requests.RequestException as e:
-            logger.error(f"取得 {name} 資料失敗: {e}")
+            logger.error(f"❎ 取得 {name} 資料失敗: {e}")
             continue
 
         # 處理 info 與 schedule 資料
@@ -184,6 +185,7 @@ def scrape_buses(path: Path) -> Dict[str, Dict]:
             for item in data[key]:
                 parsed_data = parser(item, res_text)
                 if parsed_data is not None:
+                    logger.debug(parsed_data)
                     file_path = path / f"{item}.json"
                     all_data[item] = parsed_data
                     save_json_data(file_path, parsed_data, item)
@@ -202,7 +204,7 @@ def combine_bus_data(data, path: Path) -> None:
     """
     with (path / "buses.json").open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-    logger.success(f'成功將公車與南大區間車的資料儲存到 "{path / "buses.json"}"')
+    logger.success(f'✅ 成功將公車與南大區間車的資料儲存到 "{path / "buses.json"}"')
 
 
 def title_matches(title: str, groups: tuple) -> bool:
@@ -244,13 +246,13 @@ def extract_image_links(announcement_url: str) -> list:
                         )
                         image_links.append(image_url)
             else:
-                logger.warning(f"在 {announcement_url} 中找不到 .meditor 元素")
+                logger.warning(f"❎ 在 {announcement_url} 中找不到 .meditor 元素")
         else:
-            logger.warning(f"在 {announcement_url} 中找不到 .main 元素")
+            logger.warning(f"❎ 在 {announcement_url} 中找不到 .main 元素")
     except requests.RequestException as e:
-        logger.error(f"提取圖片連結失敗: {e}")
+        logger.error(f"❎ 提取圖片連結失敗: {e}")
     except AttributeError as e:
-        logger.error(f"解析 HTML 失敗: {e}，網頁結構可能已變更")
+        logger.error(f"❎ 解析 HTML 失敗: {e}，網頁結構可能已變更")
     return image_links
 
 
@@ -261,10 +263,10 @@ def download_image(url: str, img_path: Path) -> bool:
         # 確保目的資料夾存在
         img_path.parent.mkdir(parents=True, exist_ok=True)
         img_path.write_bytes(response.content)
-        logger.success(f"成功下載圖片至: {img_path}")
+        logger.success(f"✅ 成功下載圖片至: {img_path}")
         return True
     except requests.RequestException as e:
-        logger.error(f"下載圖片失敗: {e}")
+        logger.error(f"❎ 下載圖片失敗: {e}")
         return False
 
 
@@ -290,10 +292,11 @@ def scrape_bus_images(url: str, path: Path) -> None:
     for key, announcement_url in announcement_links.items():
         image_urls = extract_image_links(announcement_url)
         if not image_urls:
-            logger.warning(f"在 {key} 公告中找不到圖片。")
+            logger.warning(f"❎ 在 {key} 公告中找不到圖片。")
             continue
         for idx, image_url in enumerate(image_urls):
             image_path = path / f"{key}_{idx}.jpg"
+            logger.info(f"🔗 正在下載圖片：{image_url}")
             download_image(image_url, image_path)
 
 
