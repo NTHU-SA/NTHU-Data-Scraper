@@ -1,5 +1,37 @@
 {
   "file_details": {
+    "/": [
+      {
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "name": "directories.json"
+      },
+      {
+        "last_commit": "7423705e81bdda38e2881243107de38d7df17216",
+        "last_updated": "2025-02-14T23:54:23+08:00",
+        "name": "dining.json"
+      },
+      {
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "name": "buses.json"
+      },
+      {
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "name": "maps.json"
+      },
+      {
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "name": "newsletters.json"
+      },
+      {
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "name": "newsletters_list.json"
+      }
+    ],
     "buses": [
       {
         "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
@@ -101,8 +133,8 @@
         "name": "10910-11110.json"
       },
       {
-        "last_commit": "14aeadaf8d7eb45bb37114a65b89081728d4ab80",
-        "last_updated": "2025-02-15T03:37:45+08:00",
+        "last_commit": "ccd7011e389c13821b2596acf5950228a9a09f86",
+        "last_updated": "2025-02-15T04:57:10+08:00",
         "name": "latest.json"
       }
     ],
@@ -123,8 +155,8 @@
         "name": "10910.json"
       },
       {
-        "last_commit": "7423705e81bdda38e2881243107de38d7df17216",
-        "last_updated": "2025-02-14T23:54:23+08:00",
+        "last_commit": "ccd7011e389c13821b2596acf5950228a9a09f86",
+        "last_updated": "2025-02-15T04:57:10+08:00",
         "name": "11320.json"
       },
       {
@@ -386,39 +418,7 @@
         "last_updated": "2025-02-14T22:16:19+08:00",
         "name": "域報 Field Cast.json"
       }
-    ],
-    "root": [
-      {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
-        "name": "directories.json"
-      },
-      {
-        "last_commit": "7423705e81bdda38e2881243107de38d7df17216",
-        "last_updated": "2025-02-14T23:54:23+08:00",
-        "name": "dining.json"
-      },
-      {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
-        "name": "buses.json"
-      },
-      {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
-        "name": "maps.json"
-      },
-      {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
-        "name": "newsletters.json"
-      },
-      {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
-        "name": "newsletters_list.json"
-      }
     ]
   },
-  "last_updated": "2025-02-15T04:05:39.646072+08:00"
+  "last_updated": "2025-02-15T04:57:10.978721+08:00"
 }
