@@ -48,10 +48,11 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
     <style>
         body {{ font-family: 'Helvetica Neue', Arial, sans-serif; margin: 10px; color: #333; line-height: 1.6; background-color: #f8f8f8; }}
         h1 {{ color: #a783b7; font-weight: bold; margin-bottom: 10px; font-size: 2.2em; }}
+        h1 a {{ color: #a783b7; font-weight: bold; ; text-decoration: none; }}
         h2 {{ color: #007bff; border-bottom: 1px solid #ecf0f1; padding-bottom: 5px; margin-top: 15px; font-size: 1.6em; }}
         p {{ color: #555; margin-bottom: 8px; font-size: 1em; }}
         table {{ width: 100%; border-collapse: collapse; margin-top: 10px; box-shadow: 0 0 6px rgba(0,0,0,0.05); }}
-        th, td {{ border: 1px solid #ddd; padding: 8px; text-align: left; font-size: 0.95em; }}
+        th, td {{ border: 1px solid #ddd; padding: 8px; text-align: left; font-size: 0.95em; white-space: nowrap; word-break: break-word;}}
         th {{ background-color: #f2f2f2; color: #777; font-weight: bold; }}
         tr:nth-child(even) {{ background-color: #f9f9f9; }}
         a {{ color: #007bff; text-decoration: none; font-weight: 500; }}
@@ -64,19 +65,20 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
         .open-file-link {{ cursor: pointer; }}
         .license-copyright {{ margin-top: 20px; padding-top: 8px; border-top: 1px solid #eee; font-size: 0.8em; color: #888; text-align: center; }}
         .license-copyright a {{ color: #888; }}
+        /* 新增 table-container 對小螢幕添加水平滾動 */
+        .table-container {{ width: 100%; overflow-x: auto; }}
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>檔案更新詳情</h1>
+        <h1><u><a href="{github_base_url}">NTHU-DATA</a></u> 檔案更新詳情</h1>
         <p class="updated-time">最後更新時間: {last_updated}</p>
-
-        <h2>檔案列表</h2>
         <p>以下列出各目錄下的檔案及其最後更新時間與 Commit 連結 (Commit Hash)。</p>
     """
 
     for directory, files in file_details.items():
         html_content += f"<h2>{directory}</h2>\n"
+        html_content += "<div class='table-container'>\n"
         html_content += "<table>\n"
         html_content += "<thead><tr><th>檔案名稱</th><th>最後更新時間</th><th>Commit</th><th>開啟檔案</th></tr></thead>\n"
         html_content += "<tbody>\n"
@@ -95,13 +97,15 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
                 if last_commit and github_base_url
                 else "N/A"
             )
-            if directory == "root":
+            if directory == "/":
                 file_path = file_name
             else:
                 file_path = Path(directory) / file_name
             file_path_str = str(file_path)
 
-            open_file_button = f'<a href="{file_path_str}" download="{file_name}" class="open-file-link">開啟</a>'
+            open_file_button = (
+                f'<a href="{file_path_str}" class="open-file-link">開啟</a>'
+            )
 
             html_content += f"""
             <tr>
@@ -112,6 +116,7 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
             </tr>
             """
         html_content += "</tbody>\n</table>\n"
+        html_content += "</div>\n"
 
     html_content += f"""
         <div class="license-copyright">
