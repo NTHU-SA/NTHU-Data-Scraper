@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 from typing import Dict
 
@@ -8,7 +9,8 @@ from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
-OUTPUT_PATH = Path("data/static/maps")
+DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
+OUTPUT_PATH = Path(DATA_FOLDER + "/maps")
 
 HEADERS = {
     "accept": "*/*",
@@ -60,7 +62,7 @@ def parse_html(res_text: str) -> Dict[str, Dict[str, str]]:
     return map_data
 
 
-def scrape_map(path: Path) -> None:
+def scrape_map(path: Path) -> Dict[str, Dict]:
     """
     依據 MAP_URLS 中的 URL 抓取並儲存對應的地圖座標資料
 
@@ -68,12 +70,14 @@ def scrape_map(path: Path) -> None:
         path (Path): 儲存 JSON 資料的資料夾路徑
     """
     path.mkdir(parents=True, exist_ok=True)
+    all_data = {}
     for name, url in MAP_URLS.items():
         try:
             response = session.get(url, headers=HEADERS, timeout=10)
             response.raise_for_status()
             logger.info(f"已取得 {name} 的資料")
             map_data = parse_html(response.text)
+            all_data[name] = map_data
             logger.debug(map_data)
             file_path = path / f"{name}.json"
             logger.info(f'儲存 {name} 的資料到 "{file_path}"')
@@ -81,7 +85,22 @@ def scrape_map(path: Path) -> None:
                 json.dump(map_data, f, ensure_ascii=False, indent=4)
         except requests.exceptions.RequestException as e:
             logger.error(f"❌ 爬取 {name} 失敗: {e}")
+    return all_data
+
+
+def combine_map_data(data, path: Path) -> None:
+    """
+    結合地圖座標資料，並儲存為 JSON 檔案。
+
+    參數:
+        data (Dict[str, Any]): 地圖座標資料
+        path (Path): 資料儲存的資料夾路徑
+    """
+    with (path / "maps.json").open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+    logger.info(f'成功將地圖座標資料儲存到 "{path / "maps.json"}"')
 
 
 if __name__ == "__main__":
-    scrape_map(OUTPUT_PATH)
+    all_data = scrape_map(OUTPUT_PATH)
+    combine_map_data(all_data, Path(DATA_FOLDER))

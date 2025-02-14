@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from pathlib import Path
 from typing import Any, List
@@ -8,7 +9,8 @@ from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
-OUTPUT_PATH = Path("data/dynamic/dining.json")
+DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
+OUTPUT_PATH = Path(DATA_FOLDER + "/dining.json")
 
 HEADERS = {
     "accept": "*/*",
@@ -86,7 +88,6 @@ def scrape_dining(path: Path) -> None:
 
     logger.debug(dining_data)
     try:
-        # 使用 Pathlib 的 open() 方法
         with path.open("w", encoding="utf-8") as f:
             json.dump(dining_data, f, ensure_ascii=False, indent=4)
         logger.info(f'成功將餐廳資料儲存到 "{path}"')

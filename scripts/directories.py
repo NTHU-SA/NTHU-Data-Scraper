@@ -1,4 +1,5 @@
 import json
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Dict, List
@@ -9,12 +10,13 @@ from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
-URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
+DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
+OUTPUT_PATH = Path(DATA_FOLDER + "/directories.json")
 
 TEMP_FOLDER = Path("temp/directories")
 TEMP_DEPT_FOLDER = TEMP_FOLDER / "dept"
-OUTPUT_PATH = Path("data/static/directories.json")
 
+URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 HEADERS = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
@@ -224,4 +226,5 @@ def scrape_newsletter() -> None:
 
 
 if __name__ == "__main__":
+    scrape_newsletter()
     scrape_newsletter()
