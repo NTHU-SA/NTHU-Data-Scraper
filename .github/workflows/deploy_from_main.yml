@@ -51,8 +51,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
           git add $DATA_FOLDER
-          git commit -m "📝 Scheduled update of JSON data [skip ci]"
-          git push
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "📝 Scheduled update of JSON data [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
 
       - name: Generate index.html for gh-pages
         run: python generate_index.py --output="data/index.html"
