@@ -12,7 +12,7 @@ DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
 OUTPUT_PATH = Path(DATA_FOLDER + "/courses")
 
 COURSE_DATA_URL: Dict[str, str] = {
-    "lastest": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data.json",
+    "latest": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data.json",
     "11120-11220": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/474/11120-11220JSON.json",
     "10910-11110": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/474/unicode_1091_1111.json",
     "10820": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data_10820.json",
@@ -105,8 +105,8 @@ if __name__ == "__main__":
     OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
 
     # 獲取最新課程資料並儲存
-    latest_file = OUTPUT_PATH / "lastest.json"
-    get_json_data_from_url(COURSE_DATA_URL["lastest"], latest_file)
+    latest_file = OUTPUT_PATH / "latest.json"
+    get_json_data_from_url(COURSE_DATA_URL["latest"], latest_file)
 
     # 依據最新課程資料分學期儲存資料
     semesters_folder = OUTPUT_PATH / "semesters"
