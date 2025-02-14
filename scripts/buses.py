@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -9,7 +10,8 @@ from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
-OUTPUT_FOLDER: Path = Path("data/dynamic/buses")
+DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
+OUTPUT_FOLDER = Path(DATA_FOLDER + "/buses")
 
 HEADERS: Dict[str, str] = {
     "accept": "*/*",
@@ -141,14 +143,21 @@ def parse_bus_schedule(
     return data_list
 
 
-def scrape_buses(path: Path) -> None:
+def save_json_data(file_path: Path, data: Any, desc: str) -> None:
+    logger.info(f'儲存 {desc} 的資料到 "{file_path}"')
+    try:
+        with file_path.open("w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+    except IOError as e:
+        logger.error(f"儲存檔案失敗 {file_path}: {e}")
+
+
+def scrape_buses(path: Path) -> Dict[str, Dict]:
     """
     爬取校本部公車與南大區間車的相關資料，並將資料儲存為 JSON 檔案。
-
-    參數:
-        path (Path): 資料儲存的資料夾路徑
     """
     path.mkdir(parents=True, exist_ok=True)
+    all_data = {}
     for name, data in BUS_URL.items():
         try:
             response = session.get(data["url"], headers=HEADERS, timeout=10)
@@ -159,36 +168,35 @@ def scrape_buses(path: Path) -> None:
             logger.error(f"取得 {name} 資料失敗: {e}")
             continue
 
-        # 處理 info 資料
-        for info in data["info"]:
-            info_data = parse_campus_info(info, res_text)
-            if info_data is not None:
-                file_path = path / f"{info}.json"
-                logger.info(f'儲存 {info} 的資料到 "{file_path}"')
-                logger.debug(info_data)
-                try:
-                    with file_path.open("w", encoding="utf-8") as f:
-                        json.dump(info_data, f, ensure_ascii=False, indent=4)
-                except IOError as e:
-                    logger.error(f"儲存檔案失敗 {file_path}: {e}")
-            else:
-                logger.error(f"解析 {info} 資料失敗")
+        # 處理 info 與 schedule 資料
+        for key, parser in [
+            ("info", parse_campus_info),
+            ("schedule", parse_bus_schedule),
+        ]:
+            for item in data[key]:
+                parsed_data = parser(item, res_text)
+                if parsed_data is not None:
+                    file_path = path / f"{item}.json"
+                    all_data[item] = parsed_data
+                    save_json_data(file_path, parsed_data, item)
+                else:
+                    logger.error(f"解析 {item} 資料失敗")
+    return all_data
 
-        # 處理 schedule 資料
-        for schedule in data["schedule"]:
-            schedule_data = parse_bus_schedule(schedule, res_text)
-            if schedule_data is not None:
-                file_path = path / f"{schedule}.json"
-                logger.info(f'儲存 {schedule} 的資料到 "{file_path}"')
-                logger.debug(schedule_data)
-                try:
-                    with file_path.open("w", encoding="utf-8") as f:
-                        json.dump(schedule_data, f, ensure_ascii=False, indent=4)
-                except IOError as e:
-                    logger.error(f"儲存檔案失敗 {file_path}: {e}")
-            else:
-                logger.error(f"解析 {schedule} 資料失敗")
+
+def combine_bus_data(data, path: Path) -> None:
+    """
+    結合公車與南大區間車的資料，並儲存為 JSON 檔案。
+
+    參數:
+        data (Dict[str, Any]): 公車與南大區間車的資料
+        path (Path): 資料儲存的資料夾路徑
+    """
+    with (path / "buses.json").open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+    logger.info(f'成功將公車與南大區間車的資料儲存到 "{path / "buses.json"}"')
 
 
 if __name__ == "__main__":
-    scrape_buses(OUTPUT_FOLDER)
+    all_data = scrape_buses(OUTPUT_FOLDER)
+    combine_bus_data(all_data, Path(DATA_FOLDER))

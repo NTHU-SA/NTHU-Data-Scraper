@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -7,7 +8,8 @@ from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
-OUTPUT_PATH = Path("data/dynamic/courses")
+DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
+OUTPUT_PATH = Path(DATA_FOLDER + "/courses")
 
 COURSE_DATA_URL: Dict[str, str] = {
     "lastest": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data.json",
