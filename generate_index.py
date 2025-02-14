@@ -6,8 +6,13 @@ from pathlib import Path
 
 
 def format_datetime(iso_string: str) -> str:
-    """將 ISO 格式的時間字串轉換為 YYYY-MM-DD HH:MM:SS 時區格式。"""
-    dt = datetime.fromisoformat(iso_string.replace("Z", "+00:00"))
+    """將 ISO 格式的時間字串轉換為 YYYY-MM-DD 時區格式。"""
+    if not iso_string or iso_string == "N/A":
+        return "N/A"
+    try:
+        dt = datetime.fromisoformat(iso_string.replace("Z", "+00:00"))
+    except Exception:
+        return iso_string
     return dt.strftime("%Y-%m-%d %H:%M:%S %Z")
 
 
@@ -55,7 +60,8 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
         .container {{ max-width: 960px; margin: 20px auto; padding: 25px; background-color: #fff; border-radius: 5px; }}
         .github-link {{ margin-top: 15px; font-size: 0.9em; text-align: center; }}
         .github-link a {{ color: #27ae60; }}
-        .commit-link {{ font-family: monospace; }}
+        .commit-link {{ cursor: pointer; }}
+        .open-file-link {{ cursor: pointer; }}
         .license-copyright {{ margin-top: 20px; padding-top: 8px; border-top: 1px solid #eee; font-size: 0.8em; color: #888; text-align: center; }}
         .license-copyright a {{ color: #888; }}
     </style>
@@ -72,7 +78,7 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
     for directory, files in file_details.items():
         html_content += f"<h2>{directory}</h2>\n"
         html_content += "<table>\n"
-        html_content += "<thead><tr><th>檔案名稱</th><th>最後更新時間</th><th>Commit</th></tr></thead>\n"
+        html_content += "<thead><tr><th>檔案名稱</th><th>最後更新時間</th><th>Commit</th><th>開啟檔案</th></tr></thead>\n"
         html_content += "<tbody>\n"
         for file_info in files:
             file_name = file_info.get("name", "N/A")
@@ -89,12 +95,20 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
                 if last_commit and github_base_url
                 else "N/A"
             )
+            if directory == file_name:
+                file_path = Path(directory)
+            else:
+                file_path = Path(directory) / file_name
+            file_path_str = str(file_path)
+
+            open_file_button = f'<a href="{file_path_str}" download="{file_name}" class="open-file-link">開啟</a>'
 
             html_content += f"""
             <tr>
                 <td>{file_name}</td>
                 <td>{file_last_updated}</td>
                 <td>{commit_link_html}</td>
+                <td>{open_file_button}</td>
             </tr>
             """
         html_content += "</tbody>\n</table>\n"
@@ -103,7 +117,7 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
         <div class="license-copyright">
             <p>
                 License: <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a> |
-                Copyright © {current_year} <a href="https://nthusa.tw/" target="_blank">清華大學學生會( NTHUSA )  資訊處</a>. All rights reserved.
+                Copyright © {current_year} <a href="https://nthusa.tw/" target="_blank">清華大學學生會(NTHUSA) 資訊處</a>. All rights reserved.
             </p>
         </div>
         <div class="github-link">
@@ -123,7 +137,7 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="從 file_detail.json 生成檔案更新詳情 HTML 報告。"
+        description="從 file_detail.json 檔案生成檔案更新詳情 HTML 報告。"
     )
     parser.add_argument(
         "--json_path",

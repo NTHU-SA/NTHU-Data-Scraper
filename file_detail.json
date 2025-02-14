@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-02-14T23:50:27.683677+08:00",
+  "last_updated": "2025-02-14T23:54:59.488578+08:00",
   "file_details": {
     "buses.json": [
       {
@@ -13,13 +13,6 @@
         "name": "directories.json",
         "last_updated": "2025-02-14T22:16:19+08:00",
         "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
-      }
-    ],
-    "index.html": [
-      {
-        "name": "index.html",
-        "last_updated": null,
-        "last_commit": null
       }
     ],
     "maps.json": [
