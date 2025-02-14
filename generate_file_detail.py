@@ -94,9 +94,13 @@ def generate_file_detail_json(
         parts = relative_path.parts
 
         if parts:
-            folder_key = parts[0]
+            if len(parts) > 1:
+                folder_key = "/".join(parts[:-1])
+            else:
+                # 根目錄的 key 為 "root"
+                folder_key = "root"
         else:
-            folder_key = "files"
+            folder_key = "root"
 
         if exclude_folders and folder_key in exclude_folders:
             continue
@@ -122,7 +126,7 @@ def generate_file_detail_json(
     data_folder.mkdir(parents=True, exist_ok=True)
 
     with file_detail_json_path.open("w", encoding="utf-8") as f:
-        json.dump(detail_data, f, indent=2, ensure_ascii=False)
+        json.dump(detail_data, f, indent=2, ensure_ascii=False, sort_keys=True)
 
     print(f"{file_detail_json_path} 檔案已生成。")
 
