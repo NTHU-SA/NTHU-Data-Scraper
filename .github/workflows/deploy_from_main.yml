@@ -66,4 +66,4 @@ jobs:
           publish_dir: ${{ env.DATA_FOLDER }}
           user_name: GitHub Actions
           user_email: action@github.com
-          commit_message: "🚀 Deployed to gh-pages [skip ci]"
+          commit_message: "🚀 Deployed to gh-pages"
