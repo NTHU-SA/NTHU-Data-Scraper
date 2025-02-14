@@ -1,0 +1,410 @@
+{
+  "last_updated": "2025-02-14T23:50:27.683677+08:00",
+  "file_details": {
+    "buses.json": [
+      {
+        "name": "buses.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "directories.json": [
+      {
+        "name": "directories.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "index.html": [
+      {
+        "name": "index.html",
+        "last_updated": null,
+        "last_commit": null
+      }
+    ],
+    "maps.json": [
+      {
+        "name": "maps.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "newsletters.json": [
+      {
+        "name": "newsletters.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "newsletters_list.json": [
+      {
+        "name": "newsletters_list.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "buses": [
+      {
+        "name": "towardMainCampusInfo.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "towardMainGateInfo.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "towardSouthCampusInfo.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "towardTSMCBuildingInfo.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekdayBusScheduleTowardMainCampus.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekdayBusScheduleTowardMainGate.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekdayBusScheduleTowardSouthCampus.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekdayBusScheduleTowardTSMCBuilding.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekendBusScheduleTowardMainCampus.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekendBusScheduleTowardMainGate.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekendBusScheduleTowardSouthCampus.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "weekendBusScheduleTowardTSMCBuilding.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "courses": [
+      {
+        "name": "10820.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "10910-11110.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11120-11220.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "lastest.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "10820.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "10910.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "10920.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11010.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11020.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11110.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11120.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11210.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11220.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "11320.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "maps": [
+      {
+        "name": "MainEN.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "MainZH.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "NandaEN.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "NandaZH.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ],
+    "newsletters": [
+      {
+        "name": "eecs-students.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "NTHU-Division of Health Service.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "NTHU-Newsletter.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "主計室電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "人事室電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "人文社會學院電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "人社院學士班電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "住宿書院電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "台灣語言學通訊.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "國立清華大學動機系系友電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "國立清華大學圖書館-學生.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "國立清華大學學生會電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "國立清華大學校長遴選委員會.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "國立清華大學核工暨工科系友會電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "域報 Field Cast.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "學生事務報-學生.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "心諮系雙週例講座.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "愛慾電子報報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "教務處綜合教務組電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "教學發展中心電子報-教師.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "數學系電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "新聞剪輯電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "校長同意權人投票事務委員會.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "清華大學化學系電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "清華大學化工系友電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "清華大學工工系電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "清華大學科管院電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "清華校友總會會務訊息.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "清華校友電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "清華簡訊.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "研發處電子報-教職.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "科管院職涯電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "秘書處-全校教職員.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "築思脈動(Pulse of Education).json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "英語教學精進中心-研究生電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "藝術文化總中心電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "計中-教育訓練.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "語文中心電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "課務電子報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "諮商中心-心窩報報.json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      },
+      {
+        "name": "電機工程學系電子報(學生).json",
+        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e"
+      }
+    ]
+  }
+}
