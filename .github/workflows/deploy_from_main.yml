@@ -42,10 +42,6 @@ jobs:
           # python scripts/maps.py || true
           # python scripts/newsletters.py || true
 
-      - name: Update file_details.json
-        run: |
-          python generate_file_detail.py
-
       - name: Update Data in main branch
         run: |
           git config --local user.email "action@github.com"
@@ -59,7 +55,9 @@ jobs:
           fi
 
       - name: Generate index.html for gh-pages
-        run: python generate_index.py --output="data/index.html"
+        run: |
+          python generate_file_detail.py --data_folder=$DATA_FOLDER --json_path=$DATA_FOLDER/file_details.json
+          python generate_index.py --json_path=$DATA_FOLDER/file_details.json --output=$DATA_FOLDER/index.html
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
