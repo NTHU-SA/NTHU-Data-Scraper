@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages from main
+name: Crawl webpages and deploy to main branch
 
 on:
   push:
@@ -44,19 +44,9 @@ jobs:
 
           python scripts/courses.py || true
 
-      - name: Copy both static and dynamic JSON files to docs folder
+      - name: Update Data in main branch
         run: |
-          mkdir -p docs
-          cp -r data/* docs/
-          # 文件處理
-          python folder.py || true
-
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./docs
-          # 將 force_orphan 設為 false，避免以 orphan commit 的方式覆寫原有歷史
-          force_orphan: false
-          commit_message: "Scheduled update of JSON data [skip ci]"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add $DATA_FOLDER
+          git commit -m "📝 Scheduled update of JSON data [skip ci]"
