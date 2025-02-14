@@ -63,7 +63,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: $DATA_FOLDER
+          publish_dir: ${{ env.DATA_FOLDER }}
           user_name: GitHub Actions
           user_email: action@github.com
           commit_message: "🚀 Deployed to gh-pages [skip ci]"
