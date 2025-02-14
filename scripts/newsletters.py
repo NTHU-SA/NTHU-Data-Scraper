@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -11,6 +12,11 @@ from loguru import logger
 from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
+DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
+OUTPUT_PATH = Path(DATA_FOLDER + "/newsletters")
+LIST_OUTPUT_PATH = Path(DATA_FOLDER + "/newsletters_list.json")
+
+URL_PREFIX = "https://newsletter.cc.nthu.edu.tw"
 HEADERS = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
@@ -19,10 +25,6 @@ HEADERS = {
     "host": "newsletter.cc.nthu.edu.tw",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
 }
-
-OUTPUT_PATH = Path("data/static/newsletters")
-LIST_OUTPUT_PATH = Path("data/static/newsletters_list.json")
-URL_PREFIX = "https://newsletter.cc.nthu.edu.tw"
 
 # 設定 requests session，增加 retry 機制
 session = requests.Session()
@@ -200,4 +202,5 @@ def scrape_all_newsletters(file_folder: Path) -> None:
 
 
 if __name__ == "__main__":
+    scrape_all_newsletters(OUTPUT_PATH)
     scrape_all_newsletters(OUTPUT_PATH)
