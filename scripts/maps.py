@@ -75,14 +75,14 @@ def scrape_map(path: Path) -> Dict[str, Dict]:
         try:
             response = session.get(url, headers=HEADERS, timeout=10)
             response.raise_for_status()
-            logger.info(f"已取得 {name} 的資料")
+            logger.success(f"成功取得 {name} 的資料")
             map_data = parse_html(response.text)
             all_data[name] = map_data
             logger.debug(map_data)
             file_path = path / f"{name}.json"
-            logger.info(f'儲存 {name} 的資料到 "{file_path}"')
             with file_path.open("w", encoding="utf-8") as f:
                 json.dump(map_data, f, ensure_ascii=False, indent=4)
+            logger.success(f'成功將 {name} 的地圖座標資料儲存到 "{file_path}"')
         except requests.exceptions.RequestException as e:
             logger.error(f"❌ 爬取 {name} 失敗: {e}")
     return all_data
@@ -98,7 +98,7 @@ def combine_map_data(data, path: Path) -> None:
     """
     with (path / "maps.json").open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-    logger.info(f'成功將地圖座標資料儲存到 "{path / "maps.json"}"')
+    logger.success(f'成功將地圖座標資料儲存到 "{path / "maps.json"}"')
 
 
 if __name__ == "__main__":
