@@ -97,10 +97,10 @@ def generate_file_detail_json(
             if len(parts) > 1:
                 folder_key = "/".join(parts[:-1])
             else:
-                # 根目錄的 key 為 "root"
-                folder_key = "root"
+                # 根目錄的 key 為 "/"
+                folder_key = "/"
         else:
-            folder_key = "root"
+            folder_key = "/"
 
         if exclude_folders and folder_key in exclude_folders:
             continue
