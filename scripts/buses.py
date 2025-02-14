@@ -45,6 +45,14 @@ BUS_URL: Dict[str, Dict[str, Any]] = {
     },
 }
 
+BUS_ANNOUCEMENT_URL = "https://affairs.site.nthu.edu.tw/p/403-1165-127-1.php"
+BUS_ANNOUCEMENT_ROUTE_IMAGE_KEYWORD = {
+    "main": ("校園公車"),
+    "nanda": ("南大", "區間車"),
+}
+BUS_ANNOUCEMENT_SCHEDULE_IMAGE_KEYWORD = "時刻表"
+API_URL = "https://api.nthusa.tw/scrapers/rpage/announcements/"
+
 # 設定 requests session 與 retry 機制
 session = requests.Session()
 retries = Retry(
@@ -69,7 +77,7 @@ def parse_campus_info(variable_string: str, res_text: str) -> Optional[Dict[str,
     regex_pattern = r"const " + re.escape(variable_string) + r" = (\{.*?\})"
     data_match = re.search(regex_pattern, res_text, re.S)
     if data_match is None:
-        logger.error(f"找不到變數 {variable_string} 的資料")
+        logger.error(f"❎ 找不到變數 {variable_string} 的資料")
         return None
 
     data = data_match.group(1)
@@ -86,7 +94,7 @@ def parse_campus_info(variable_string: str, res_text: str) -> Optional[Dict[str,
     try:
         data_dict = json.loads(data)
     except json.JSONDecodeError as e:
-        logger.error(f"解析 {variable_string} JSON 失敗: {e}")
+        logger.error(f"❎ 解析 {variable_string} JSON 失敗: {e}")
         return None
 
     # 使用 BeautifulSoup 移除 route 與 routeEN 中的 <span> 標籤
@@ -115,7 +123,7 @@ def parse_bus_schedule(
     regex_pattern = r"const " + re.escape(variable_string) + r" = (\[.*?\])"
     data_match = re.search(regex_pattern, res_text, re.S)
     if data_match is None:
-        logger.error(f"找不到變數 {variable_string} 的資料")
+        logger.error(f"❎ 找不到變數 {variable_string} 的資料")
         return None
 
     data = data_match.group(1)
@@ -144,12 +152,12 @@ def parse_bus_schedule(
 
 
 def save_json_data(file_path: Path, data: Any, desc: str) -> None:
-    logger.info(f'儲存 {desc} 的資料到 "{file_path}"')
     try:
         with file_path.open("w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
+        logger.success(f'✅ 儲存 {desc} 的資料到 "{file_path}"')
     except IOError as e:
-        logger.error(f"儲存檔案失敗 {file_path}: {e}")
+        logger.error(f"❎ 儲存檔案失敗 {file_path}: {e}")
 
 
 def scrape_buses(path: Path) -> Dict[str, Dict]:
@@ -159,13 +167,14 @@ def scrape_buses(path: Path) -> Dict[str, Dict]:
     path.mkdir(parents=True, exist_ok=True)
     all_data = {}
     for name, data in BUS_URL.items():
+        logger.info(f"🔗 正在處理：{data['url']}")
         try:
             response = session.get(data["url"], headers=HEADERS, timeout=10)
             response.raise_for_status()
             res_text = response.text
-            logger.info(f"成功取得 {name} 的資料")
+            logger.success(f"✅ 成功取得 {name} 的資料")
         except requests.RequestException as e:
-            logger.error(f"取得 {name} 資料失敗: {e}")
+            logger.error(f"❎ 取得 {name} 資料失敗: {e}")
             continue
 
         # 處理 info 與 schedule 資料
@@ -176,6 +185,7 @@ def scrape_buses(path: Path) -> Dict[str, Dict]:
             for item in data[key]:
                 parsed_data = parser(item, res_text)
                 if parsed_data is not None:
+                    logger.debug(parsed_data)
                     file_path = path / f"{item}.json"
                     all_data[item] = parsed_data
                     save_json_data(file_path, parsed_data, item)
@@ -194,9 +204,106 @@ def combine_bus_data(data, path: Path) -> None:
     """
     with (path / "buses.json").open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-    logger.info(f'成功將公車與南大區間車的資料儲存到 "{path / "buses.json"}"')
+    logger.success(f'✅ 成功將公車與南大區間車的資料儲存到 "{path / "buses.json"}"')
+
+
+def title_matches(title: str, groups: tuple) -> bool:
+    """檢查 title 是否同時包含 groups 裡每組關鍵字的任一關鍵字"""
+    return all(
+        any(keyword in title for keyword in BUS_ANNOUCEMENT_IMAGE_KEYWORD[group])
+        for group in groups
+    )
+
+
+def extract_image_links(announcement_url: str) -> list:
+    """
+    從公告頁面中提取圖片連結。
+
+    參數:
+        announcement_url (str): 公告頁面的 URL
+
+    返回:
+        list: 圖片連結列表，如果提取失敗則返回空列表
+    """
+    image_links = []
+    try:
+        response = session.get(announcement_url, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        main_content = soup.find("div", class_="main")
+        if main_content:
+            meditor_content = main_content.find("div", class_="meditor")
+            if meditor_content:
+                images = meditor_content.find_all("img")
+                for image in images:
+                    image_url = image.get("src", "")
+                    if image_url:
+                        # 確保圖片連結是絕對路徑
+                        image_url = (
+                            "https://affairs.site.nthu.edu.tw" + image_url
+                            if not image_url.startswith("http")
+                            else image_url
+                        )
+                        image_links.append(image_url)
+            else:
+                logger.warning(f"❎ 在 {announcement_url} 中找不到 .meditor 元素")
+        else:
+            logger.warning(f"❎ 在 {announcement_url} 中找不到 .main 元素")
+    except requests.RequestException as e:
+        logger.error(f"❎ 提取圖片連結失敗: {e}")
+    except AttributeError as e:
+        logger.error(f"❎ 解析 HTML 失敗: {e}，網頁結構可能已變更")
+    return image_links
+
+
+def download_image(url: str, img_path: Path) -> bool:
+    try:
+        response = session.get(url, timeout=10)
+        response.raise_for_status()
+        # 確保目的資料夾存在
+        img_path.parent.mkdir(parents=True, exist_ok=True)
+        img_path.write_bytes(response.content)
+        logger.success(f"✅ 成功下載圖片至: {img_path}")
+        return True
+    except requests.RequestException as e:
+        logger.error(f"❎ 下載圖片失敗: {e}")
+        return False
+
+
+def scrape_bus_images(url: str, path: Path) -> None:
+    # 確保圖片存放路徑存在
+    path.mkdir(parents=True, exist_ok=True)
+
+    # 取得公告頁面
+    response = session.get(f"{API_URL}{url}", timeout=10)
+    announcements = response.json()
+
+    announcement_links = {}
+    for item in announcements:
+        title = item.get("title", "")
+        # 先判斷是否包含時刻表關鍵字
+        if not any(kw in title for kw in BUS_ANNOUCEMENT_SCHEDULE_IMAGE_KEYWORD):
+            continue
+        # 判斷路由關鍵字
+        for key, keywords in BUS_ANNOUCEMENT_ROUTE_IMAGE_KEYWORD.items():
+            if key not in announcement_links and any(kw in title for kw in keywords):
+                announcement_links[key] = item.get("link", "")
+
+    for key, announcement_url in announcement_links.items():
+        image_urls = extract_image_links(announcement_url)
+        if not image_urls:
+            logger.warning(f"❎ 在 {key} 公告中找不到圖片。")
+            continue
+        for idx, image_url in enumerate(image_urls):
+            image_path = path / f"{key}_{idx}.jpg"
+            logger.info(f"🔗 正在下載圖片：{image_url}")
+            download_image(image_url, image_path)
 
 
 if __name__ == "__main__":
     all_data = scrape_buses(OUTPUT_FOLDER)
     combine_bus_data(all_data, Path(DATA_FOLDER))
+    scrape_bus_images(
+        BUS_ANNOUCEMENT_URL,
+        OUTPUT_FOLDER / "images",
+    )

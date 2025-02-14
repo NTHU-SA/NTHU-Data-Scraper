@@ -45,7 +45,7 @@ def parse_newsletter_list_html(res_text: str) -> List[Dict[str, Any]]:
     newsletter_list = []
 
     if gallery is None:
-        logger.error("找不到電子報列表")
+        logger.error("❌ 找不到電子報列表")
         return []
 
     for li in gallery.find_all("li"):
@@ -75,7 +75,7 @@ def scrape_newsletters_list(path: Path = LIST_OUTPUT_PATH) -> List[Dict[str, Any
     爬取電子報清單並存入 JSON 檔案，返回電子報列表
     """
     url = URL_PREFIX + "/nthu-list/search.html"
-    logger.info(f"取得 {url} 的 response")
+    logger.info(f"正在處理：{url}")
     try:
         response = session.get(url, headers=HEADERS, timeout=10)
         response.encoding = "big5"
@@ -83,12 +83,12 @@ def scrape_newsletters_list(path: Path = LIST_OUTPUT_PATH) -> List[Dict[str, Any
         logger.debug(newsletter_list)
 
         path.parent.mkdir(parents=True, exist_ok=True)
-        logger.info(f'儲存 newsletter 的資料到 "{path}"')
         with path.open("w", encoding="utf-8") as f:
             json.dump(newsletter_list, f, ensure_ascii=False, indent=4)
+        logger.success(f'✅ 成功儲存電子報清單至 "{path}"')
 
     except requests.exceptions.RequestException as e:
-        logger.error(f"無法爬取電子報清單: {e}")
+        logger.error(f"❌ 無法爬取電子報清單: {e}")
         return []
 
     return newsletter_list
@@ -155,7 +155,7 @@ def scrape_selected_newsletter(url: str, name: str) -> None:
     爬取指定電子報的內容並儲存為 JSON 檔案
     """
     try:
-        logger.info(f"取得 {url} 的 response")
+        logger.info(f"🔗 正在處理：{name}:{url}")
         response = session.get(url, headers=HEADERS, timeout=10)
         response.encoding = "utf-8"
         newsletter_articles = parse_selected_newsletter(response.text)
@@ -167,12 +167,11 @@ def scrape_selected_newsletter(url: str, name: str) -> None:
         safe_name = name.replace("/", "-")
         file_path = OUTPUT_PATH / f"{safe_name}.json"
         OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
-        logger.info(f'儲存「{name}」的資料到 "{file_path}"')
         with file_path.open("w", encoding="utf-8") as f:
             json.dump(newsletter_articles, f, ensure_ascii=False, indent=4)
-
+        logger.success(f'✅ 成功儲存 {name} 的內容至 "{file_path}"')
     except requests.exceptions.RequestException as e:
-        logger.error(f"無法抓取 {name} ({url})，錯誤為 {e}")
+        logger.error(f"❌ 無法抓取 {name} ({url})，錯誤為 {e}")
 
 
 def scrape_all_newsletters(file_folder: Path) -> None:
@@ -198,9 +197,8 @@ def scrape_all_newsletters(file_folder: Path) -> None:
             try:
                 future.result()
             except Exception as e:
-                logger.error(f"爬取電子報時發生錯誤: {e}")
+                logger.error(f"❌ 爬取電子報時發生錯誤: {e}")
 
 
 if __name__ == "__main__":
-    scrape_all_newsletters(OUTPUT_PATH)
     scrape_all_newsletters(OUTPUT_PATH)

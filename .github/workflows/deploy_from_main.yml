@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -66,4 +67,4 @@ jobs:
           publish_dir: ${{ env.DATA_FOLDER }}
           user_name: GitHub Actions
           user_email: action@github.com
-          commit_message: "🚀 Deployed to gh-pages [skip ci]"
+          commit_message: "🚀 Deployed to gh-pages"
