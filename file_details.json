@@ -91,11 +91,6 @@
         "name": "10820.json"
       },
       {
-        "last_commit": "7423705e81bdda38e2881243107de38d7df17216",
-        "last_updated": "2025-02-14T23:54:23+08:00",
-        "name": "lastest.json"
-      },
-      {
         "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
         "last_updated": "2025-02-14T22:16:19+08:00",
         "name": "11120-11220.json"
@@ -104,6 +99,11 @@
         "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
         "last_updated": "2025-02-14T22:16:19+08:00",
         "name": "10910-11110.json"
+      },
+      {
+        "last_commit": "14aeadaf8d7eb45bb37114a65b89081728d4ab80",
+        "last_updated": "2025-02-15T03:37:45+08:00",
+        "name": "latest.json"
       }
     ],
     "courses/semesters": [
@@ -420,5 +420,5 @@
       }
     ]
   },
-  "last_updated": "2025-02-15T03:04:54.404765+08:00"
+  "last_updated": "2025-02-15T03:37:45.658972+08:00"
 }
