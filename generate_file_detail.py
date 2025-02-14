@@ -124,7 +124,7 @@ def generate_file_detail_json(
     with file_detail_json_path.open("w", encoding="utf-8") as f:
         json.dump(detail_data, f, indent=2, ensure_ascii=False)
 
-    print(f"已生成 {file_detail_json_path}")
+    print(f"{file_detail_json_path} 檔案已生成。")
 
 
 if __name__ == "__main__":
