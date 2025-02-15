@@ -121,6 +121,9 @@ def generate_file_detail_json(
             }
         )
 
+    for folder in file_details:
+        file_details[folder].sort(key=lambda f: f["name"])
+
     detail_data = {"last_updated": current_time_iso, "file_details": file_details}
 
     data_folder.mkdir(parents=True, exist_ok=True)
