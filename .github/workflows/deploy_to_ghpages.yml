@@ -20,6 +20,11 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.2
+
       - name: Generate file details and index.html
         run: |
           python generate_file_detail.py --data_folder=$DATA_FOLDER --json_path=$DATA_FOLDER/file_details.json
