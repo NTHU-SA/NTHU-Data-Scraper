@@ -1,0 +1,40 @@
+name: Deploy to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy:
+    if: ${{ github.actor == 'github-actions' }}
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Taipei
+      DATA_FOLDER: data
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.2
+
+      - name: Generate file details and index.html
+        run: |
+          python generate_file_detail.py --data_folder=$DATA_FOLDER --json_path=$DATA_FOLDER/file_details.json
+          python generate_index.py --json_path=$DATA_FOLDER/file_details.json --output=$DATA_FOLDER/index.html
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.DATA_FOLDER }}
+          user_name: GitHub Actions
+          user_email: action@github.com
+          commit_message: "🚀 Deployed to gh-pages"

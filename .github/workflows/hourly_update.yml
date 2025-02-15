@@ -1,9 +1,6 @@
-name: Crawl webpages and deploy to main & gh-pages
+name: Crawl buses, dining, and courses data
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "0 * * * *" # 每小時的第 0 分鐘執行
   workflow_dispatch:
@@ -19,12 +16,11 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.13
+          python-version: 3.13.2
           cache: "pip"
 
       - name: Install dependencies
@@ -38,33 +34,14 @@ jobs:
           python scripts/dining.py || true
           python scripts/courses.py || true
 
-          # 有些爬蟲無法順利執行，先註解掉（學校好像有擋國外 IP）
-          # python scripts/directories.py || true
-          # python scripts/maps.py || true
-          # python scripts/newsletters.py || true
-
       - name: Update Data in main branch
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
           git add $DATA_FOLDER
           if ! git diff-index --quiet HEAD --; then
-            git commit -m "📝 Scheduled update of JSON data [skip ci]"
+            git commit -m "📝 Scheduled update of JSON data"
             git push
           else
             echo "No changes to commit."
           fi
-
-      - name: Generate index.html for gh-pages
-        run: |
-          python generate_file_detail.py --data_folder=$DATA_FOLDER --json_path=$DATA_FOLDER/file_details.json
-          python generate_index.py --json_path=$DATA_FOLDER/file_details.json --output=$DATA_FOLDER/index.html
-
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ env.DATA_FOLDER }}
-          user_name: GitHub Actions
-          user_email: action@github.com
-          commit_message: "🚀 Deployed to gh-pages"
