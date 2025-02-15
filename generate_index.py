@@ -101,11 +101,8 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
                 file_path = file_name
             else:
                 file_path = Path(directory) / file_name
-            file_path_str = str(file_path)
 
-            open_file_button = (
-                f'<a href="{file_path_str}" class="open-file-link">開啟</a>'
-            )
+            open_file_button = f'<a href="{file_path}" class="open-file-link">開啟</a>'
 
             html_content += f"""
             <tr>
