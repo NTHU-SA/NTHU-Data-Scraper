@@ -45,12 +45,12 @@ BUS_URL: Dict[str, Dict[str, Any]] = {
     },
 }
 
+# 公告頁面關鍵字設定
 BUS_ANNOUCEMENT_URL = "https://affairs.site.nthu.edu.tw/p/403-1165-127-1.php"
-BUS_ANNOUCEMENT_ROUTE_IMAGE_KEYWORD = {
-    "main": ("校園公車"),
-    "nanda": ("南大", "區間車"),
-}
-BUS_ANNOUCEMENT_SCHEDULE_IMAGE_KEYWORD = "時刻表"
+MAIN_ROUTE_IMAGE_KEYWORD = ["校本部", "校園公車"]
+NANDA_ROUTE_IMAGE_KEYWORD = ["南大", "區間車"]
+SCHEDULE_IMAGE_KEYWORD = ["時刻表"]
+
 API_URL = "https://api.nthusa.tw/scrapers/rpage/announcements/"
 
 # 設定 requests session 與 retry 機制
@@ -207,14 +207,6 @@ def combine_bus_data(data, path: Path) -> None:
     logger.success(f'✅ 成功將公車與南大區間車的資料儲存到 "{path / "buses.json"}"')
 
 
-def title_matches(title: str, groups: tuple) -> bool:
-    """檢查 title 是否同時包含 groups 裡每組關鍵字的任一關鍵字"""
-    return all(
-        any(keyword in title for keyword in BUS_ANNOUCEMENT_IMAGE_KEYWORD[group])
-        for group in groups
-    )
-
-
 def extract_image_links(announcement_url: str) -> list:
     """
     從公告頁面中提取圖片連結。
@@ -270,6 +262,13 @@ def download_image(url: str, img_path: Path) -> bool:
         return False
 
 
+def check_keyword_in_title(title: str, keywords: List[str]) -> bool:
+    for keyword in keywords:
+        if keyword in title:
+            return True
+    return False
+
+
 def scrape_bus_images(url: str, path: Path) -> None:
     # 確保圖片存放路徑存在
     path.mkdir(parents=True, exist_ok=True)
@@ -277,17 +276,26 @@ def scrape_bus_images(url: str, path: Path) -> None:
     # 取得公告頁面
     response = session.get(f"{API_URL}{url}", timeout=10)
     announcements = response.json()
-
-    announcement_links = {}
+    announcement_links = {"main": "", "nanda": ""}
     for item in announcements:
         title = item.get("title", "")
         # 先判斷是否包含時刻表關鍵字
-        if not any(kw in title for kw in BUS_ANNOUCEMENT_SCHEDULE_IMAGE_KEYWORD):
+        if not check_keyword_in_title(title, SCHEDULE_IMAGE_KEYWORD):
             continue
-        # 判斷路由關鍵字
-        for key, keywords in BUS_ANNOUCEMENT_ROUTE_IMAGE_KEYWORD.items():
-            if key not in announcement_links and any(kw in title for kw in keywords):
-                announcement_links[key] = item.get("link", "")
+        # 判斷校本部公車
+        if (
+            check_keyword_in_title(title, MAIN_ROUTE_IMAGE_KEYWORD)
+            and not announcement_links["main"]
+        ):
+            announcement_links["main"] = item.get("link", "")
+        # 判斷南大區間車
+        if (
+            check_keyword_in_title(title, NANDA_ROUTE_IMAGE_KEYWORD)
+            and not announcement_links["nanda"]
+        ):
+            announcement_links["nanda"] = item.get("link", "")
+    logger.success("✅ 成功抓取含有公車圖片的公告")
+    logger.debug(announcement_links)
 
     for key, announcement_url in announcement_links.items():
         image_urls = extract_image_links(announcement_url)
