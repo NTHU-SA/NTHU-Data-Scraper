@@ -11,10 +11,7 @@ from requests.adapters import HTTPAdapter, Retry
 
 # --- 全域參數設定 ---
 DATA_FOLDER = os.getenv("DATA_FOLDER", "temp")
-OUTPUT_PATH = Path(DATA_FOLDER + "/directories.json")
-
-TEMP_FOLDER = Path("temp/directories")
-TEMP_DEPT_FOLDER = TEMP_FOLDER / "dept"
+OUTPUT_PATH = Path(DATA_FOLDER) / "directories.json"
 
 URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 HEADERS = {
@@ -30,7 +27,7 @@ HEADERS = {
 session = requests.Session()
 retries = Retry(
     total=5,  # 總共重試 5 次
-    backoff_factor=1,  # 指數退避（1 秒、2 秒、4 秒…）
+    backoff_factor=1,  # 指數退避機制
     status_forcelist=[500, 502, 503, 504, 408],
 )
 session.mount("https://", HTTPAdapter(max_retries=retries))
@@ -41,7 +38,7 @@ def get_response(url: str) -> str:
     取得指定 URL 的回應文字內容
     """
     try:
-        logger.info(f"Fetching {url}")
+        logger.info(f"取得回應：{url}")
         response = session.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()
         response.encoding = "utf-8"
@@ -53,7 +50,7 @@ def get_response(url: str) -> str:
 
 def scrape_all_dept_url() -> List[Dict[str, str]]:
     """
-    取得首頁所有系所的 URL 與名稱，並儲存至 temp/departments.json
+    取得首頁所有系所的 URL 與名稱
     """
     text = get_response(f"{URL_PREFIX}index.php")
     if not text:
@@ -67,18 +64,12 @@ def scrape_all_dept_url() -> List[Dict[str, str]]:
         if href and name:
             dept_url = URL_PREFIX + href
             departments.append({"name": name, "url": dept_url})
-
-    # 儲存系所清單至 temp/departments.json
-    TEMP_FOLDER.mkdir(parents=True, exist_ok=True)
-    departments_file = TEMP_FOLDER / "departments.json"
-    with departments_file.open("w", encoding="utf-8") as f:
-        json.dump(departments, f, ensure_ascii=False, indent=4)
     return departments
 
 
 def parse_contact_table(table: Any) -> Dict[str, str]:
     """
-    解析聯絡資訊表格
+    解析聯絡資訊表格，回傳聯絡資訊字典
     """
     contact = {}
     for row in table.select("tr"):
@@ -96,7 +87,7 @@ def parse_contact_table(table: Any) -> Dict[str, str]:
 
 def parse_people_table(table: Any) -> List[Dict[str, str]]:
     """
-    解析人員資訊表格
+    解析人員資訊表格，回傳人員資料列表
     """
     people = []
     rows = table.select("tr")
@@ -136,7 +127,6 @@ def get_dept_details(url: str) -> Dict[str, Any]:
             for link in story_left.select("a")
             if link.text.strip()
         ]
-
     story_max = soup.select_one("div.story_max")
     if story_max:
         tables = story_max.select("table")
@@ -144,87 +134,59 @@ def get_dept_details(url: str) -> Dict[str, Any]:
             contact = parse_contact_table(tables[0])
             if len(tables) > 1:
                 people = parse_people_table(tables[1])
-
     return {"departments": departments, "contact": contact, "people": people}
 
 
-def save_dept_details(dept: Dict[str, str]) -> None:
+def fetch_all_details(departments: List[Dict[str, str]]) -> List[Dict[str, Any]]:
     """
-    取得單一系所詳細資訊後存檔至 TEMP_DEPT_FOLDER/{dept_name}.json
+    利用多執行緒並行取得各系所的詳細資訊，
+    回傳包含系所名稱與詳細資料的列表
     """
-    TEMP_DEPT_FOLDER.mkdir(parents=True, exist_ok=True)
-    # 將系所名稱中的 '/' 轉成 '_' 避免路徑問題
-    safe_name = dept["name"].replace("/", "_")
-    filename = TEMP_DEPT_FOLDER / f"{safe_name}.json"
-    details = get_dept_details(dept["url"])
-    with filename.open("w", encoding="utf-8") as f:
-        json.dump(details, f, ensure_ascii=False, indent=4)
-    logger.info(f"Saved details for department: {dept['name']}")
-
-
-def get_all_dept_details(departments: List[Dict[str, str]]) -> None:
-    """
-    使用多執行緒並行取得所有系所詳細資料
-    """
+    results = []
     with ThreadPoolExecutor(max_workers=10) as executor:
         future_to_dept = {
-            executor.submit(save_dept_details, dept): dept for dept in departments
+            executor.submit(get_dept_details, dept["url"]): dept for dept in departments
         }
         for future in as_completed(future_to_dept):
             dept = future_to_dept[future]
             try:
-                future.result()
+                details = future.result()
+                results.append({"name": dept["name"], "details": details})
             except Exception as exc:
                 logger.error(f"❌ 系所 {dept['name']} 發生錯誤: {exc}")
+    return results
 
 
-def combine_json() -> None:
+def save_directories_json(data: List[Dict[str, Any]]) -> None:
     """
-    將所有系所的詳細 JSON 檔案合併成一個檔案，存放於 OUTPUT_PATH
+    將所有系所資料儲存到一個 JSON 檔案中
     """
-    combined_data = []
-    # 改為從 TEMP_DEPT_FOLDER 讀取各系所資料
-    if not TEMP_DEPT_FOLDER.exists():
-        logger.error("系所資料資料夾不存在，請先執行抓取程序。")
-        return
-
-    for file in TEMP_DEPT_FOLDER.glob("*.json"):
-        with file.open("r", encoding="utf-8") as f:
-            data = json.load(f)
-        combined_data.append({"name": file.stem, "details": data})
-
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
-        json.dump(combined_data, f, ensure_ascii=False, indent=4)
-    logger.info(f"Combined JSON saved to {OUTPUT_PATH}")
+        json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=True)
+    logger.info(f"已儲存所有系所資料至 {OUTPUT_PATH}")
 
 
-def scrape_newsletter() -> None:
+def scrape_directories() -> None:
     """
     主流程：
-        1. 建立所需資料夾
-        2. 抓取所有系所的 URL 清單
-        3. 並行取得各系所詳細資訊
-        4. 合併各系所 JSON 資料
+        1. 抓取所有系所 URL
+        2. 並行取得各系所詳細資訊
+        3. 將結果儲存至 directories.json 文件
     """
-    for folder in [TEMP_FOLDER, TEMP_DEPT_FOLDER]:
-        folder.mkdir(parents=True, exist_ok=True)
-
-    logger.info("Scraping all department URLs...")
+    logger.info("開始抓取系所 URL...")
     departments = scrape_all_dept_url()
     if not departments:
-        logger.error("No departments found. Exiting.")
+        logger.error("未取得任何系所資料，結束程式。")
         return
 
-    logger.info("Fetching all department details using multithreading...")
-    get_all_dept_details(departments)
+    logger.info("開始並行抓取各系所詳細資訊...")
+    details_list = fetch_all_details(departments)
 
-    logger.info("Combining all department data...")
-    combine_json()
-
-    logger.info("Scraping completed!")
+    logger.info("開始儲存至 JSON 文件...")
+    save_directories_json(details_list)
+    logger.info("抓取完成！")
 
 
 if __name__ == "__main__":
-    scrape_newsletter()
-    scrape_newsletter()
+    scrape_directories()
