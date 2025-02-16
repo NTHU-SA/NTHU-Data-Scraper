@@ -1,0 +1,95 @@
+name: Crawl and update data
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *" # 每小時的第 0 分鐘執行
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Taipei
+  DATA_FOLDER: data
+
+jobs:
+  update_data:
+    strategy:
+      matrix:
+        runner: [ubuntu-latest, self-hosted]
+    name: Update data on ${{ matrix.runner }}
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.2
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run crawlers based on runner
+        run: |
+          if [[ "${{ matrix.runner }}" == "ubuntu-latest" ]]; then
+            python scripts/buses.py
+            python scripts/dining.py
+            python scripts/courses.py
+          elif [[ "${{ matrix.runner }}" == "self-hosted" ]]; then
+            python scripts/directories.py
+            python scripts/maps.py
+            python scripts/newsletters.py
+          fi
+        continue-on-error: true
+
+      - name: Deploy to main branch
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add $DATA_FOLDER
+          if ! git diff-index --quiet HEAD --; then
+            echo "Changes detected. Committing and pushing..."
+            git commit -m "📝 Scheduled update of JSON data [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+  deploy_to_github:
+    needs:
+      - update_data
+    name: Deploy data to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch (full history)
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.2
+
+      - name: Generate file details
+        run: python generate_file_detail.py --data_folder=$DATA_FOLDER --json_path=$DATA_FOLDER/file_details.json
+
+      - name: Generate index.html
+        run: python generate_index.py --json_path=$DATA_FOLDER/file_details.json --output=$DATA_FOLDER/index.html
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.DATA_FOLDER }}
+          user_name: GitHub Actions
+          user_email: action@github.com
+          commit_message: "🚀 Deployed to gh-pages"
