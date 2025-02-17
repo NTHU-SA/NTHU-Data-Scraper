@@ -82,9 +82,9 @@ def generate_file_detail_json(
     """
     now_utc = datetime.datetime.now(datetime.timezone.utc)
     now_taipei = now_utc.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
-    current_time_iso = now_taipei.isoformat()
 
     file_details = {}
+    latest_commit_datetime = None  # 用來儲存最新檔案的 commit 時間
 
     for path in data_folder.rglob("*"):
         if not path.is_file() or path.name == file_detail_json_path.name:
@@ -113,6 +113,15 @@ def generate_file_detail_json(
 
         last_commit_sha, last_updated = get_file_last_commit_info(path)
 
+        # 更新 latest_commit_datetime
+        if last_updated is not None:
+            try:
+                dt = datetime.datetime.fromisoformat(last_updated)
+                if latest_commit_datetime is None or dt > latest_commit_datetime:
+                    latest_commit_datetime = dt
+            except ValueError:
+                pass
+
         file_details[folder_key].append(
             {
                 "name": path.name,
@@ -123,6 +132,13 @@ def generate_file_detail_json(
 
     for folder in file_details:
         file_details[folder].sort(key=lambda f: f["name"])
+
+    # 如果有最新 commit 時間，則用它，否則以目前台北時間為準
+    current_time_iso = (
+        latest_commit_datetime.isoformat()
+        if latest_commit_datetime is not None
+        else now_taipei.isoformat()
+    )
 
     detail_data = {"last_updated": current_time_iso, "file_details": file_details}
 
