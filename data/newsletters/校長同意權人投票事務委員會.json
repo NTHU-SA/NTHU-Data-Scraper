@@ -1,27 +1,37 @@
-[
-    {
-        "title": "[公告]校長遴選同意權人投票結果",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1262-?tmpl=component&tmpl=component",
-        "date": "2021-11-01"
+{
+    "name": "校長同意權人投票事務委員會",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-80-",
+    "table": {
+        "管理者": "黃怡溱",
+        "管理單位": "秘書處議事及法規組",
+        "電子信箱": "voting@my.nthu.edu.tw",
+        "聯絡電話": "62484"
     },
-    {
-        "title": "報名觀看11/1(一)下午1:30校長遴選同意投票開票",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1252-11-1-1-30?tmpl=component&tmpl=component",
-        "date": "2021-10-26"
-    },
-    {
-        "title": "國立清華大學校長遴選同意投票通知",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1245-?tmpl=component&tmpl=component",
-        "date": "2021-10-25"
-    },
-    {
-        "title": "國立清華大學校長遴選同意投票通知",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1244-?tmpl=component&tmpl=component",
-        "date": "2021-10-25"
-    },
-    {
-        "title": "預告：國立清華大學校長遴選同意投票",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1238-1101022-1?tmpl=component&tmpl=component",
-        "date": "2021-10-22"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1262-?tmpl=component&tmpl=component",
+            "title": "[公告]校長遴選同意權人投票結果",
+            "date": "2021-11-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1252-11-1-1-30?tmpl=component&tmpl=component",
+            "title": "報名觀看11/1(一)下午1:30校長遴選同意投票開票",
+            "date": "2021-10-26"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1245-?tmpl=component&tmpl=component",
+            "title": "國立清華大學校長遴選同意投票通知",
+            "date": "2021-10-25"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1244-?tmpl=component&tmpl=component",
+            "title": "國立清華大學校長遴選同意投票通知",
+            "date": "2021-10-25"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1238-1101022-1?tmpl=component&tmpl=component",
+            "title": "預告：國立清華大學校長遴選同意投票",
+            "date": "2021-10-22"
+        }
+    ]
+}

@@ -1,57 +1,67 @@
-[
-    {
-        "title": "111學年度數學系系友分享座談會- 2023.04.27-杜宏章教授(74級)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2633-111-2023-04-27-74?tmpl=component&tmpl=component",
-        "date": "2023-04-07"
+{
+    "name": "數學系電子報",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-27-",
+    "table": {
+        "管理者": "洪雅婷",
+        "管理單位": "數學系",
+        "電子信箱": "ythung@math.nthu.edu.tw",
+        "聯絡電話": "33010"
     },
-    {
-        "title": "2023校慶活動-60週年系慶暨系友回娘家活動（校慶活動日： 2023 年 4月 23日）",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2480-2023-60-2023-4-23?tmpl=component&tmpl=component",
-        "date": "2023-02-18"
-    },
-    {
-        "title": "歡迎您投稿黃乃寬學長紀念文集（截稿時間：2023年2月15日）",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2456-2023-2-15?tmpl=component&tmpl=component",
-        "date": "2023-02-09"
-    },
-    {
-        "title": "黃乃寬校友紀念音樂會謹訂於112年2月18日 (六) 上午10點於本校名人堂舉行",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2454-112-2-18-10?tmpl=component&tmpl=component",
-        "date": "2023-02-08"
-    },
-    {
-        "title": "2023校慶活動-60週年系慶暨系友回娘家活動（校慶活動日： 2023 年 4月 23日）",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2375-2023-60-2023-4-23?tmpl=component&tmpl=component",
-        "date": "2022-12-30"
-    },
-    {
-        "title": "111學年度數學系系友分享座談會- 2022.11.09-宋武峰理事長(73級)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2196-111-2022-11-09-73?tmpl=component&tmpl=component",
-        "date": "2022-10-28"
-    },
-    {
-        "title": "國立清華大學北美基金會焦點校友訪談系列 - 從星際戰爭到市場大爆炸-黃乃寬博士 (數學 75級)（台灣時間10月8日上午九點線上訪談）",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2142-75-10-8?tmpl=component&tmpl=component",
-        "date": "2022-10-03"
-    },
-    {
-        "title": "【重要通知】校慶-數學系系友回娘家 活動取消通知",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-1725-?tmpl=component&tmpl=component",
-        "date": "2022-04-22"
-    },
-    {
-        "title": "【邀請函】2022校慶活動-系友回娘家之系友分享座談會（活動日改訂於 2022 年 5月 1日舉辦）",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-1637-2022-2022-5-1?tmpl=component&tmpl=component",
-        "date": "2022-03-17"
-    },
-    {
-        "title": "國立清華大學北美基金會 Spotlight 活動預告-孔祥重教授 (數學系68級)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-110-spotlight-68?tmpl=component&tmpl=component",
-        "date": "2020-09-09"
-    },
-    {
-        "title": "109學年度系友分享座談會(2020.09.17-朱家杰教授(00級、碩03))",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-86-109-2020-09-17-00-03?tmpl=component&tmpl=component",
-        "date": "2020-09-02"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2633-111-2023-04-27-74?tmpl=component&tmpl=component",
+            "title": "111學年度數學系系友分享座談會- 2023.04.27-杜宏章教授(74級)",
+            "date": "2023-04-07"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2480-2023-60-2023-4-23?tmpl=component&tmpl=component",
+            "title": "2023校慶活動-60週年系慶暨系友回娘家活動（校慶活動日： 2023 年 4月 23日）",
+            "date": "2023-02-18"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2456-2023-2-15?tmpl=component&tmpl=component",
+            "title": "歡迎您投稿黃乃寬學長紀念文集（截稿時間：2023年2月15日）",
+            "date": "2023-02-09"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2454-112-2-18-10?tmpl=component&tmpl=component",
+            "title": "黃乃寬校友紀念音樂會謹訂於112年2月18日 (六) 上午10點於本校名人堂舉行",
+            "date": "2023-02-08"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2375-2023-60-2023-4-23?tmpl=component&tmpl=component",
+            "title": "2023校慶活動-60週年系慶暨系友回娘家活動（校慶活動日： 2023 年 4月 23日）",
+            "date": "2022-12-30"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2196-111-2022-11-09-73?tmpl=component&tmpl=component",
+            "title": "111學年度數學系系友分享座談會- 2022.11.09-宋武峰理事長(73級)",
+            "date": "2022-10-28"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2142-75-10-8?tmpl=component&tmpl=component",
+            "title": "國立清華大學北美基金會焦點校友訪談系列 - 從星際戰爭到市場大爆炸-黃乃寬博士 (數學 75級)（台灣時間10月8日上午九點線上訪談）",
+            "date": "2022-10-03"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-1725-?tmpl=component&tmpl=component",
+            "title": "【重要通知】校慶-數學系系友回娘家 活動取消通知",
+            "date": "2022-04-22"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-1637-2022-2022-5-1?tmpl=component&tmpl=component",
+            "title": "【邀請函】2022校慶活動-系友回娘家之系友分享座談會（活動日改訂於 2022 年 5月 1日舉辦）",
+            "date": "2022-03-17"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-110-spotlight-68?tmpl=component&tmpl=component",
+            "title": "國立清華大學北美基金會 Spotlight 活動預告-孔祥重教授 (數學系68級)",
+            "date": "2020-09-09"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-86-109-2020-09-17-00-03?tmpl=component&tmpl=component",
+            "title": "109學年度系友分享座談會(2020.09.17-朱家杰教授(00級、碩03))",
+            "date": "2020-09-02"
+        }
+    ]
+}

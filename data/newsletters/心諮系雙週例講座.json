@@ -1,102 +1,112 @@
-[
-    {
-        "title": "[心諮講座] 心諮系 2025 春季雙週例講座 (更新)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4465-25s-2rev2?tmpl=component&tmpl=component",
-        "date": "2025-02-07"
+{
+    "name": "心諮系雙週例講座",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-67-",
+    "table": {
+        "管理者": "張硯評",
+        "管理單位": "心諮系",
+        "電子信箱": "yenpingchang@mx.nthu.edu.tw",
+        "聯絡電話": "73814"
     },
-    {
-        "title": "[心諮講座] 心諮系 2025 春季雙週例講座 (修正)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4459-25s-2rev?tmpl=component&tmpl=component",
-        "date": "2025-02-04"
-    },
-    {
-        "title": "[心諮講座] 心諮系 2025 春季雙週例講座",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4399-25s-2?tmpl=component&tmpl=component",
-        "date": "2025-02-01"
-    },
-    {
-        "title": "[心諮講座] 心諮系 2025 春季雙週例講座",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4400-25s-1?tmpl=component&tmpl=component",
-        "date": "2025-01-05"
-    },
-    {
-        "title": "[心諮講座] 11/22 Work-Eldercare Interface during the Pandemic: In Search for Silver Lining",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4157-11-22?tmpl=component&tmpl=component",
-        "date": "2024-11-17"
-    },
-    {
-        "title": "[心諮講座] 11/8 諮商新手知多少：到底有誰第一次諮商就上手？！",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4158-11-08?tmpl=component&tmpl=component",
-        "date": "2024-11-03"
-    },
-    {
-        "title": "[心諮講座] 10/25 原住民族的照顧很難懂嗎？泰雅族文化觀點的身心照顧",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4159-10-25?tmpl=component&tmpl=component",
-        "date": "2024-10-21"
-    },
-    {
-        "title": "[ 清華心諮 ] 2024 春季雙週例演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4156-2024?tmpl=component&tmpl=component",
-        "date": "2024-10-21"
-    },
-    {
-        "title": "【清華心諮】112學年度第2學期第15-16週教育心理與諮商系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3753-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2024-05-24"
-    },
-    {
-        "title": "【清華心諮】112學年度第2學期第13-14週教育心理與諮商系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3713-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2024-05-10"
-    },
-    {
-        "title": "【清華心諮】112學年度第2學期第11-12週教育心理與諮商系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3677-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2024-04-26"
-    },
-    {
-        "title": "【清華心諮】112學年度第2學期第9-10週教育心理與諮商系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3563-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2024-04-12"
-    },
-    {
-        "title": "【清華心諮】112學年度第2學期第3-4週書報討論系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3524-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2024-03-07"
-    },
-    {
-        "title": "【清華心諮】112學年度第2學期第1-2週書報討論系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3468-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2024-02-17"
-    },
-    {
-        "title": "【清華心諮】112學年度第2學期書報討論演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3405-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2024-01-18"
-    },
-    {
-        "title": "【清華心諮】112學年度第1學期第15-16週系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3293-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2023-12-15"
-    },
-    {
-        "title": "【更新地點】【清華心諮】112學年度第13-14週系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3263-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2023-12-01"
-    },
-    {
-        "title": "【清華心諮】112學年度第13-14週系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3255-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2023-12-01"
-    },
-    {
-        "title": "【更改地點】【清華心諮】112學年度第11-12週系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3214-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2023-11-17"
-    },
-    {
-        "title": "【更新日期】【清華心諮】112學年度第9-10週系列專題學術演講",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3183-111-1-10-11?tmpl=component&tmpl=component",
-        "date": "2023-11-06"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4465-25s-2rev2?tmpl=component&tmpl=component",
+            "title": "[心諮講座] 心諮系 2025 春季雙週例講座 (更新)",
+            "date": "2025-02-07"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4459-25s-2rev?tmpl=component&tmpl=component",
+            "title": "[心諮講座] 心諮系 2025 春季雙週例講座 (修正)",
+            "date": "2025-02-04"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4399-25s-2?tmpl=component&tmpl=component",
+            "title": "[心諮講座] 心諮系 2025 春季雙週例講座",
+            "date": "2025-02-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4400-25s-1?tmpl=component&tmpl=component",
+            "title": "[心諮講座] 心諮系 2025 春季雙週例講座",
+            "date": "2025-01-05"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4157-11-22?tmpl=component&tmpl=component",
+            "title": "[心諮講座] 11/22 Work-Eldercare Interface during the Pandemic: In Search for Silver Lining",
+            "date": "2024-11-17"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4158-11-08?tmpl=component&tmpl=component",
+            "title": "[心諮講座] 11/8 諮商新手知多少：到底有誰第一次諮商就上手？！",
+            "date": "2024-11-03"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4159-10-25?tmpl=component&tmpl=component",
+            "title": "[心諮講座] 10/25 原住民族的照顧很難懂嗎？泰雅族文化觀點的身心照顧",
+            "date": "2024-10-21"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-4156-2024?tmpl=component&tmpl=component",
+            "title": "[ 清華心諮 ] 2024 春季雙週例演講",
+            "date": "2024-10-21"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3753-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第2學期第15-16週教育心理與諮商系列專題學術演講",
+            "date": "2024-05-24"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3713-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第2學期第13-14週教育心理與諮商系列專題學術演講",
+            "date": "2024-05-10"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3677-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第2學期第11-12週教育心理與諮商系列專題學術演講",
+            "date": "2024-04-26"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3563-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第2學期第9-10週教育心理與諮商系列專題學術演講",
+            "date": "2024-04-12"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3524-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第2學期第3-4週書報討論系列專題學術演講",
+            "date": "2024-03-07"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3468-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第2學期第1-2週書報討論系列專題學術演講",
+            "date": "2024-02-17"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3405-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第2學期書報討論演講",
+            "date": "2024-01-18"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3293-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第1學期第15-16週系列專題學術演講",
+            "date": "2023-12-15"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3263-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【更新地點】【清華心諮】112學年度第13-14週系列專題學術演講",
+            "date": "2023-12-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3255-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【清華心諮】112學年度第13-14週系列專題學術演講",
+            "date": "2023-12-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3214-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【更改地點】【清華心諮】112學年度第11-12週系列專題學術演講",
+            "date": "2023-11-17"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3183-111-1-10-11?tmpl=component&tmpl=component",
+            "title": "【更新日期】【清華心諮】112學年度第9-10週系列專題學術演講",
+            "date": "2023-11-06"
+        }
+    ]
+}

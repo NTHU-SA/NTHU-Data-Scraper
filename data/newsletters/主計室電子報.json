@@ -1,102 +1,112 @@
-[
-    {
-        "title": "【重要通知】114/2/14起網路請購系統暫停服務",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4485-114-2-14?tmpl=component&tmpl=component",
-        "date": "2025-02-13"
+{
+    "name": "主計室電子報",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-19-",
+    "table": {
+        "管理者": "王映茹",
+        "管理單位": "主計室",
+        "電子信箱": "acc4@my.nthu.edu.tw",
+        "聯絡電話": "62046"
     },
-    {
-        "title": "【重要通知】本校領據專家系統於114/1/3修改更新",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4384-114-1-3?tmpl=component&tmpl=component",
-        "date": "2025-01-03"
-    },
-    {
-        "title": "急！！！113年度「經常支出」，將於114年1月2日關帳，請同仁儘速將相關憑證送達主計室，完成報支程序。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4379-113-114-1-2?tmpl=component&tmpl=component",
-        "date": "2024-12-31"
-    },
-    {
-        "title": "最後1天！！本（113）年度「資本支出」，請依限儘速完成報支程序。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4343-1-113?tmpl=component&tmpl=component",
-        "date": "2024-12-19"
-    },
-    {
-        "title": "重要提醒！！本（113）年度即將終了，請同仁儘速將相關收支憑證送達主計室，完成報支程序，以免影響權益。相關注意及配合辦理事項，請詳閱附件(113.11.29清主字第1139009735號書函)。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4326-113-113-11-29-1139009735?tmpl=component&tmpl=component",
-        "date": "2024-12-12"
-    },
-    {
-        "title": "【主計室】因應請購系統資料庫資通安全設定,請購系統將於113/11/14(四)下午15:00起暫時停止服務",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4216-113-11-14-15-00?tmpl=component&tmpl=component",
-        "date": "2024-11-11"
-    },
-    {
-        "title": "提醒: 依據「113年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之設備費，11 月底前應完成發包簽約，未完成者收回學校統籌運用。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4191-113-11?tmpl=component&tmpl=component",
-        "date": "2024-11-04"
-    },
-    {
-        "title": "主計室113年度經費報支說明講習訓練講義歡迎自行下載或列印",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4079-113?tmpl=component&tmpl=component",
-        "date": "2024-09-24"
-    },
-    {
-        "title": "主計室於113年09月25日(星期三)辦理經費報支說明講習",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4055-113-09-25?tmpl=component&tmpl=component",
-        "date": "2024-09-13"
-    },
-    {
-        "title": "依據「113年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之(T類)資本門，截至8月底經費執行率應達40%。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3924-113-t-8-40?tmpl=component&tmpl=component",
-        "date": "2024-08-01"
-    },
-    {
-        "title": "網路請購主機113/8/2下午17：00至8/5早上8:30暫停服務公告",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3914-113-8-2-17-00-8-5-8-30?tmpl=component&tmpl=component",
-        "date": "2024-07-29"
-    },
-    {
-        "title": "113年國科會專題研究計畫結案經費報支注意事項",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3862-113?tmpl=component&tmpl=component",
-        "date": "2024-07-01"
-    },
-    {
-        "title": "急！！！112年度「經常支出」，將於113年1月2日關帳，請同仁儘速將相關憑證送達主計室，完成報支程序。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3346-112-113-1-2?tmpl=component&tmpl=component",
-        "date": "2023-12-29"
-    },
-    {
-        "title": "最後1天！！本（112）年度「資本支出」，請依限儘速完成報支程序。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3306-1-112?tmpl=component&tmpl=component",
-        "date": "2023-12-19"
-    },
-    {
-        "title": "重要提醒！！本（112）年度即將終了，請同仁儘速將相關收支憑證送達主計室，完成報支程序，以免影響權益。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3287-112?tmpl=component&tmpl=component",
-        "date": "2023-12-12"
-    },
-    {
-        "title": "主計室112年度經費報支說明講習訓練講義歡迎自行下載或列印",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3068-112?tmpl=component&tmpl=component",
-        "date": "2023-09-26"
-    },
-    {
-        "title": "主計室於112年09月27日(星期三)辦理經費報支說明講習",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3040-112-09-27?tmpl=component&tmpl=component",
-        "date": "2023-09-19"
-    },
-    {
-        "title": "提醒: 依據「112年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之(T類)資本門，截至8月底經費執行率應達40%。",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2924-112-t-8-40?tmpl=component&tmpl=component",
-        "date": "2023-08-02"
-    },
-    {
-        "title": "112年國科會專題研究計畫結案經費報支注意事項",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2868-112?tmpl=component&tmpl=component",
-        "date": "2023-07-03"
-    },
-    {
-        "title": "【重要通知】網路請購系統新版密碼規範將於112/05/10實施",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2639-112-05-10?tmpl=component&tmpl=component",
-        "date": "2023-04-11"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4485-114-2-14?tmpl=component&tmpl=component",
+            "title": "【重要通知】114/2/14起網路請購系統暫停服務",
+            "date": "2025-02-13"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4384-114-1-3?tmpl=component&tmpl=component",
+            "title": "【重要通知】本校領據專家系統於114/1/3修改更新",
+            "date": "2025-01-03"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4379-113-114-1-2?tmpl=component&tmpl=component",
+            "title": "急！！！113年度「經常支出」，將於114年1月2日關帳，請同仁儘速將相關憑證送達主計室，完成報支程序。",
+            "date": "2024-12-31"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4343-1-113?tmpl=component&tmpl=component",
+            "title": "最後1天！！本（113）年度「資本支出」，請依限儘速完成報支程序。",
+            "date": "2024-12-19"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4326-113-113-11-29-1139009735?tmpl=component&tmpl=component",
+            "title": "重要提醒！！本（113）年度即將終了，請同仁儘速將相關收支憑證送達主計室，完成報支程序，以免影響權益。相關注意及配合辦理事項，請詳閱附件(113.11.29清主字第1139009735號書函)。",
+            "date": "2024-12-12"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4216-113-11-14-15-00?tmpl=component&tmpl=component",
+            "title": "【主計室】因應請購系統資料庫資通安全設定,請購系統將於113/11/14(四)下午15:00起暫時停止服務",
+            "date": "2024-11-11"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4191-113-11?tmpl=component&tmpl=component",
+            "title": "提醒: 依據「113年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之設備費，11 月底前應完成發包簽約，未完成者收回學校統籌運用。",
+            "date": "2024-11-04"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4079-113?tmpl=component&tmpl=component",
+            "title": "主計室113年度經費報支說明講習訓練講義歡迎自行下載或列印",
+            "date": "2024-09-24"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4055-113-09-25?tmpl=component&tmpl=component",
+            "title": "主計室於113年09月25日(星期三)辦理經費報支說明講習",
+            "date": "2024-09-13"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3924-113-t-8-40?tmpl=component&tmpl=component",
+            "title": "依據「113年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之(T類)資本門，截至8月底經費執行率應達40%。",
+            "date": "2024-08-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3914-113-8-2-17-00-8-5-8-30?tmpl=component&tmpl=component",
+            "title": "網路請購主機113/8/2下午17：00至8/5早上8:30暫停服務公告",
+            "date": "2024-07-29"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3862-113?tmpl=component&tmpl=component",
+            "title": "113年國科會專題研究計畫結案經費報支注意事項",
+            "date": "2024-07-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3346-112-113-1-2?tmpl=component&tmpl=component",
+            "title": "急！！！112年度「經常支出」，將於113年1月2日關帳，請同仁儘速將相關憑證送達主計室，完成報支程序。",
+            "date": "2023-12-29"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3306-1-112?tmpl=component&tmpl=component",
+            "title": "最後1天！！本（112）年度「資本支出」，請依限儘速完成報支程序。",
+            "date": "2023-12-19"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3287-112?tmpl=component&tmpl=component",
+            "title": "重要提醒！！本（112）年度即將終了，請同仁儘速將相關收支憑證送達主計室，完成報支程序，以免影響權益。",
+            "date": "2023-12-12"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3068-112?tmpl=component&tmpl=component",
+            "title": "主計室112年度經費報支說明講習訓練講義歡迎自行下載或列印",
+            "date": "2023-09-26"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3040-112-09-27?tmpl=component&tmpl=component",
+            "title": "主計室於112年09月27日(星期三)辦理經費報支說明講習",
+            "date": "2023-09-19"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2924-112-t-8-40?tmpl=component&tmpl=component",
+            "title": "提醒: 依據「112年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之(T類)資本門，截至8月底經費執行率應達40%。",
+            "date": "2023-08-02"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2868-112?tmpl=component&tmpl=component",
+            "title": "112年國科會專題研究計畫結案經費報支注意事項",
+            "date": "2023-07-03"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2639-112-05-10?tmpl=component&tmpl=component",
+            "title": "【重要通知】網路請購系統新版密碼規範將於112/05/10實施",
+            "date": "2023-04-11"
+        }
+    ]
+}

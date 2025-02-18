@@ -1,0 +1,39 @@
+{
+    "index": "6901",
+    "name": "電資院學士班",
+    "parent_name": "電機資訊學院",
+    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=6901",
+    "details": {
+        "departments": [],
+        "contact": {
+            "分機": "42209",
+            "直撥電話": "03-5742209",
+            "傳真電話": "03-5750084",
+            "Email": "eecs@ee.nthu.edu.tw",
+            "網頁": "http://u-eecs.web.nthu.edu.tw/"
+        },
+        "people": [
+            {
+                "姓　名": "劉奕汶",
+                "職稱/職責": "班主任",
+                "分機": "62205",
+                "備註": "N/A",
+                "Email": "ywliu@ee.nthu.edu.tw"
+            },
+            {
+                "姓　名": "張簡依慧",
+                "職稱/職責": "行政助理 / 招生/排課/班辦業務；網頁維護；公文管理；學生\r\n活動業務協辦。",
+                "分機": "42209",
+                "備註": "N/A",
+                "Email": "yihui@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "沈世敏",
+                "職稱/職責": "國際組相關業務",
+                "分機": "33136",
+                "備註": "N/A",
+                "Email": "smsen@mx.nthu.edu.tw"
+            }
+        ]
+    }
+}

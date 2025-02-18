@@ -1,102 +1,112 @@
-[
-    {
-        "title": "【外牆募款專案】1/17募款進度報告",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4432-1-17?tmpl=component&tmpl=component",
-        "date": "2025-01-17"
+{
+    "name": "清華大學化學系電子報",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-48-",
+    "table": {
+        "管理者": "涂曼琳",
+        "管理單位": "化學系",
+        "電子信箱": "chemtest@my.nthu.edu.tw",
+        "聯絡電話": "33616"
     },
-    {
-        "title": "新年祝福與化學館外牆募款專案進度",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4385-?tmpl=component&tmpl=component",
-        "date": "2025-01-03"
-    },
-    {
-        "title": "【捐款認領】捐款很久一直沒有收到收據嗎？請看這篇！",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4356-?tmpl=component&tmpl=component",
-        "date": "2024-12-24"
-    },
-    {
-        "title": "【募款更新】預祝各位系友新年快樂！",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4350-?tmpl=component&tmpl=component",
-        "date": "2024-12-20"
-    },
-    {
-        "title": "化學系-捐款相關提醒",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4333-?tmpl=component&tmpl=component",
-        "date": "2024-12-13"
-    },
-    {
-        "title": "【系主任的信】募款專案說明",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4304-?tmpl=component&tmpl=component",
-        "date": "2024-12-05"
-    },
-    {
-        "title": "募款開始：化學館外牆修整與室內整治專案，暨節稅提醒",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4283-?tmpl=component&tmpl=component",
-        "date": "2024-11-29"
-    },
-    {
-        "title": "化學系館外牆修整，募款意願調查中！",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4189-?tmpl=component&tmpl=component",
-        "date": "2024-11-04"
-    },
-    {
-        "title": "【賀】化學系72級系友校慶代表致詞 - 四系聯合齊心捐助清華賀校慶",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1753-72?tmpl=component&tmpl=component",
-        "date": "2022-05-03"
-    },
-    {
-        "title": "【重要通知】化學系友回娘家取消，延後擇期舉辦",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1724-?tmpl=component&tmpl=component",
-        "date": "2022-04-22"
-    },
-    {
-        "title": "【歡迎報名】2022清華化學系系慶系友回娘家",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1695-2022?tmpl=component&tmpl=component",
-        "date": "2022-04-12"
-    },
-    {
-        "title": "2022化學系系友回娘家~活動報名開始了",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1634-2022?tmpl=component&tmpl=component",
-        "date": "2022-03-18"
-    },
-    {
-        "title": "轉發【第18清華盃重要提醒】參賽成績證明書下載截止日至111/1月底，詳見網站公告",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1505-18-111-1?tmpl=component&tmpl=component",
-        "date": "2022-01-24"
-    },
-    {
-        "title": "轉發【清華盃】個人獲獎名單及參賽成績證明書下載，詳見網站公告",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1293-?tmpl=component&tmpl=component",
-        "date": "2021-11-10"
-    },
-    {
-        "title": "轉發【清華盃】第18屆清華盃測驗成績開放查詢，詳見網站公告",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1269-18?tmpl=component&tmpl=component",
-        "date": "2021-11-04"
-    },
-    {
-        "title": "轉發【清華盃】提醒您！10/30上午10時線上測驗，重要提醒(必看！)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1243-10-30-10?tmpl=component&tmpl=component",
-        "date": "2021-10-29"
-    },
-    {
-        "title": "【化】不多說，快來報名4/25化學系系友回娘家",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-717-4-25?tmpl=component&tmpl=component",
-        "date": "2021-04-13"
-    },
-    {
-        "title": "2021/4/25(日)化學系系慶~邀您返系歡聚",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-695-2021?tmpl=component&tmpl=component",
-        "date": "2021-03-31"
-    },
-    {
-        "title": "2021化學系系友回娘家~活動報名開始了",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-649-2021?tmpl=component&tmpl=component",
-        "date": "2021-03-17"
-    },
-    {
-        "title": "【清華盃】第17屆筆試初賽參賽證明下載截止日(110/1/31止)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-490-17-110-1-31?tmpl=component&tmpl=component",
-        "date": "2021-01-22"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4432-1-17?tmpl=component&tmpl=component",
+            "title": "【外牆募款專案】1/17募款進度報告",
+            "date": "2025-01-17"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4385-?tmpl=component&tmpl=component",
+            "title": "新年祝福與化學館外牆募款專案進度",
+            "date": "2025-01-03"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4356-?tmpl=component&tmpl=component",
+            "title": "【捐款認領】捐款很久一直沒有收到收據嗎？請看這篇！",
+            "date": "2024-12-24"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4350-?tmpl=component&tmpl=component",
+            "title": "【募款更新】預祝各位系友新年快樂！",
+            "date": "2024-12-20"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4333-?tmpl=component&tmpl=component",
+            "title": "化學系-捐款相關提醒",
+            "date": "2024-12-13"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4304-?tmpl=component&tmpl=component",
+            "title": "【系主任的信】募款專案說明",
+            "date": "2024-12-05"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4283-?tmpl=component&tmpl=component",
+            "title": "募款開始：化學館外牆修整與室內整治專案，暨節稅提醒",
+            "date": "2024-11-29"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4189-?tmpl=component&tmpl=component",
+            "title": "化學系館外牆修整，募款意願調查中！",
+            "date": "2024-11-04"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1753-72?tmpl=component&tmpl=component",
+            "title": "【賀】化學系72級系友校慶代表致詞 - 四系聯合齊心捐助清華賀校慶",
+            "date": "2022-05-03"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1724-?tmpl=component&tmpl=component",
+            "title": "【重要通知】化學系友回娘家取消，延後擇期舉辦",
+            "date": "2022-04-22"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1695-2022?tmpl=component&tmpl=component",
+            "title": "【歡迎報名】2022清華化學系系慶系友回娘家",
+            "date": "2022-04-12"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1634-2022?tmpl=component&tmpl=component",
+            "title": "2022化學系系友回娘家~活動報名開始了",
+            "date": "2022-03-18"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1505-18-111-1?tmpl=component&tmpl=component",
+            "title": "轉發【第18清華盃重要提醒】參賽成績證明書下載截止日至111/1月底，詳見網站公告",
+            "date": "2022-01-24"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1293-?tmpl=component&tmpl=component",
+            "title": "轉發【清華盃】個人獲獎名單及參賽成績證明書下載，詳見網站公告",
+            "date": "2021-11-10"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1269-18?tmpl=component&tmpl=component",
+            "title": "轉發【清華盃】第18屆清華盃測驗成績開放查詢，詳見網站公告",
+            "date": "2021-11-04"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1243-10-30-10?tmpl=component&tmpl=component",
+            "title": "轉發【清華盃】提醒您！10/30上午10時線上測驗，重要提醒(必看！)",
+            "date": "2021-10-29"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-717-4-25?tmpl=component&tmpl=component",
+            "title": "【化】不多說，快來報名4/25化學系系友回娘家",
+            "date": "2021-04-13"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-695-2021?tmpl=component&tmpl=component",
+            "title": "2021/4/25(日)化學系系慶~邀您返系歡聚",
+            "date": "2021-03-31"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-649-2021?tmpl=component&tmpl=component",
+            "title": "2021化學系系友回娘家~活動報名開始了",
+            "date": "2021-03-17"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-490-17-110-1-31?tmpl=component&tmpl=component",
+            "title": "【清華盃】第17屆筆試初賽參賽證明下載截止日(110/1/31止)",
+            "date": "2021-01-22"
+        }
+    ]
+}

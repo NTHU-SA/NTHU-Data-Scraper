@@ -1,22 +1,32 @@
-[
-    {
-        "title": "[活動資訊]第一屆大學生優質SDGs實踐成果展",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-115-sdgs?tmpl=component&tmpl=component",
-        "date": "2020-09-10"
+{
+    "name": "住宿書院電子報",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-20-",
+    "table": {
+        "管理者": "吳明芳",
+        "管理單位": "住宿書院",
+        "電子信箱": "rcollege@my.nthu.edu.tw",
+        "聯絡電話": "62566"
     },
-    {
-        "title": "[活動資訊]大學生優質SDGs實踐成果展",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-90-sdgs?tmpl=component&tmpl=component",
-        "date": "2020-09-03"
-    },
-    {
-        "title": "[活動資訊]第一屆SDGs專題論文海報競賽",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-82-sdgs?tmpl=component&tmpl=component",
-        "date": "2020-09-01"
-    },
-    {
-        "title": "[住宿書院活動資訊]第一屆清華大學SDGs專題論文海報競賽",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-65-sdgs?tmpl=component&tmpl=component",
-        "date": "2020-08-20"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-115-sdgs?tmpl=component&tmpl=component",
+            "title": "[活動資訊]第一屆大學生優質SDGs實踐成果展",
+            "date": "2020-09-10"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-90-sdgs?tmpl=component&tmpl=component",
+            "title": "[活動資訊]大學生優質SDGs實踐成果展",
+            "date": "2020-09-03"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-82-sdgs?tmpl=component&tmpl=component",
+            "title": "[活動資訊]第一屆SDGs專題論文海報競賽",
+            "date": "2020-09-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-65-sdgs?tmpl=component&tmpl=component",
+            "title": "[住宿書院活動資訊]第一屆清華大學SDGs專題論文海報競賽",
+            "date": "2020-08-20"
+        }
+    ]
+}

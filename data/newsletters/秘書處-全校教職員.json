@@ -1,72 +1,82 @@
-[
-    {
-        "title": "校園安全緊急通告",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2606-?tmpl=component&tmpl=component",
-        "date": "2023-03-28"
+{
+    "name": "秘書處-全校教職員",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-57-",
+    "table": {
+        "管理者": "李逸君",
+        "管理單位": "秘書處",
+        "電子信箱": "secreta5@my.nthu.edu.tw",
+        "聯絡電話": "62379"
     },
-    {
-        "title": "校園安全緊急通報",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2600-?tmpl=component&tmpl=component",
-        "date": "2023-03-27"
-    },
-    {
-        "title": "高為元校長的新年祝福",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2407-?tmpl=component&tmpl=component",
-        "date": "2023-01-16"
-    },
-    {
-        "title": "校長敬祝全清華園的母親-母親節快樂",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-1761-?tmpl=component&tmpl=component",
-        "date": "2022-05-06"
-    },
-    {
-        "title": "校長敬祝全體同仁佳節快樂",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-1144-?tmpl=component&tmpl=component",
-        "date": "2021-09-17"
-    },
-    {
-        "title": "賀陳弘校長寫給全校教職員工生的一封信 / A letter from President Hocheng",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-860-a-letter-from-president-hocheng?tmpl=component&tmpl=component",
-        "date": "2021-05-19"
-    },
-    {
-        "title": "1100518國立清華大學防疫措施Q&A及體溫量測站縮減說明/NTHU Pandemic Precaution Q&A _English",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-846-1100518-q-a-nthu-pandemic-precaution-q-a-english?tmpl=component&tmpl=component",
-        "date": "2021-05-18"
-    },
-    {
-        "title": "因應疫情升級，禁止校外人車入校的措施將提前自5/16起實施 / Entrance control of NTHU (starting from 5/16)",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-835-5-16-entrance-control-of-nthu-starting-from-5-16?tmpl=component&tmpl=component",
-        "date": "2021-05-15"
-    },
-    {
-        "title": "1100512最新防疫訊息",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-823-1100512?tmpl=component&tmpl=component",
-        "date": "2021-05-12"
-    },
-    {
-        "title": "1100512防疫訊息",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-817-1100512?tmpl=component&tmpl=component",
-        "date": "2021-05-12"
-    },
-    {
-        "title": "校長敬祝全清華園的母親-母親節快樂",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-790-?tmpl=component&tmpl=component",
-        "date": "2021-05-07"
-    },
-    {
-        "title": "＠清華防疫小組訊息一把報[1100111] / @NTHU COVID-19 Bulletin Board【1100111】",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-454-1100111-nthu-covid-19-bulletin-board-1100111?tmpl=component&tmpl=component",
-        "date": "2021-01-11"
-    },
-    {
-        "title": "代發教師會活動訊息～歡迎全校同仁踴躍參加！",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-333-?tmpl=component&tmpl=component",
-        "date": "2020-12-01"
-    },
-    {
-        "title": "代發教師會活動訊息～歡迎全校教師同仁踴躍參加！",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-330-?tmpl=component&tmpl=component",
-        "date": "2020-11-30"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2606-?tmpl=component&tmpl=component",
+            "title": "校園安全緊急通告",
+            "date": "2023-03-28"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2600-?tmpl=component&tmpl=component",
+            "title": "校園安全緊急通報",
+            "date": "2023-03-27"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2407-?tmpl=component&tmpl=component",
+            "title": "高為元校長的新年祝福",
+            "date": "2023-01-16"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-1761-?tmpl=component&tmpl=component",
+            "title": "校長敬祝全清華園的母親-母親節快樂",
+            "date": "2022-05-06"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-1144-?tmpl=component&tmpl=component",
+            "title": "校長敬祝全體同仁佳節快樂",
+            "date": "2021-09-17"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-860-a-letter-from-president-hocheng?tmpl=component&tmpl=component",
+            "title": "賀陳弘校長寫給全校教職員工生的一封信 / A letter from President Hocheng",
+            "date": "2021-05-19"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-846-1100518-q-a-nthu-pandemic-precaution-q-a-english?tmpl=component&tmpl=component",
+            "title": "1100518國立清華大學防疫措施Q&A及體溫量測站縮減說明/NTHU Pandemic Precaution Q&A _English",
+            "date": "2021-05-18"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-835-5-16-entrance-control-of-nthu-starting-from-5-16?tmpl=component&tmpl=component",
+            "title": "因應疫情升級，禁止校外人車入校的措施將提前自5/16起實施 / Entrance control of NTHU (starting from 5/16)",
+            "date": "2021-05-15"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-823-1100512?tmpl=component&tmpl=component",
+            "title": "1100512最新防疫訊息",
+            "date": "2021-05-12"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-817-1100512?tmpl=component&tmpl=component",
+            "title": "1100512防疫訊息",
+            "date": "2021-05-12"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-790-?tmpl=component&tmpl=component",
+            "title": "校長敬祝全清華園的母親-母親節快樂",
+            "date": "2021-05-07"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-454-1100111-nthu-covid-19-bulletin-board-1100111?tmpl=component&tmpl=component",
+            "title": "＠清華防疫小組訊息一把報[1100111] / @NTHU COVID-19 Bulletin Board【1100111】",
+            "date": "2021-01-11"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-333-?tmpl=component&tmpl=component",
+            "title": "代發教師會活動訊息～歡迎全校同仁踴躍參加！",
+            "date": "2020-12-01"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-330-?tmpl=component&tmpl=component",
+            "title": "代發教師會活動訊息～歡迎全校教師同仁踴躍參加！",
+            "date": "2020-11-30"
+        }
+    ]
+}

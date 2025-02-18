@@ -1,17 +1,27 @@
-[
-    {
-        "title": "每日清華新聞剪輯 2022-08-08",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-1986-2022-08-08?tmpl=component&tmpl=component",
-        "date": "2022-08-08"
+{
+    "name": "新聞剪輯電子報",
+    "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-10-",
+    "table": {
+        "管理者": "林燕君",
+        "管理單位": "秘書處公共事務組",
+        "電子信箱": "dpa@my.nthu.edu.tw",
+        "聯絡電話": "62008"
     },
-    {
-        "title": "每日清華新聞剪輯 2021-04-23",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-758-2021-04-23?tmpl=component&tmpl=component",
-        "date": "2021-04-23"
-    },
-    {
-        "title": "每日清華新聞剪輯 2021-01-26",
-        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-502-2021-01-26?tmpl=component&tmpl=component",
-        "date": "2021-01-26"
-    }
-]
+    "articles": [
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-1986-2022-08-08?tmpl=component&tmpl=component",
+            "title": "每日清華新聞剪輯 2022-08-08",
+            "date": "2022-08-08"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-758-2021-04-23?tmpl=component&tmpl=component",
+            "title": "每日清華新聞剪輯 2021-04-23",
+            "date": "2021-04-23"
+        },
+        {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-502-2021-01-26?tmpl=component&tmpl=component",
+            "title": "每日清華新聞剪輯 2021-01-26",
+            "date": "2021-01-26"
+        }
+    ]
+}
