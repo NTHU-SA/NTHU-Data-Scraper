@@ -1,0 +1,101 @@
+{
+    "index": "25",
+    "name": "總務處",
+    "parent_name": null,
+    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=25",
+    "details": {
+        "departments": [
+            {
+                "name": "文書組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2501"
+            },
+            {
+                "name": "事務組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2503"
+            },
+            {
+                "name": "出納組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2505"
+            },
+            {
+                "name": "保管組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2507"
+            },
+            {
+                "name": "營繕組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2509"
+            },
+            {
+                "name": "採購組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2511"
+            },
+            {
+                "name": "駐衛警察隊",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2513"
+            },
+            {
+                "name": "經營管理組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2521"
+            },
+            {
+                "name": "南大校區 總務行政組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2519"
+            },
+            {
+                "name": "校園規劃組",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=2512"
+            }
+        ],
+        "contact": {
+            "分機": "31087",
+            "直撥電話": "03-5714688",
+            "傳真電話": "03-5719177",
+            "Email": "general@my.nthu.edu.tw",
+            "網頁": "http://general.site.nthu.edu.tw/index.php"
+        },
+        "people": [
+            {
+                "姓　名": "張祥光",
+                "職稱/職責": "總務長",
+                "分機": "31097",
+                "備註": "N/A",
+                "Email": "hkchang@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "劉先翔",
+                "職稱/職責": "副總務長",
+                "分機": "31089",
+                "備註": "N/A",
+                "Email": "liuhh@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "陳依民",
+                "職稱/職責": "簡任技正",
+                "分機": "35265",
+                "備註": "N/A",
+                "Email": "imin@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "李惠玲",
+                "職稱/職責": "秘書 / 總務長行程、總務處經費管理",
+                "分機": "31087",
+                "備註": "N/A",
+                "Email": "general@my.nthu.edu.tw"
+            },
+            {
+                "姓　名": "陳昭如",
+                "職稱/職責": "助理管理師 / 副總及簡正行程、梅園紀念品訂購",
+                "分機": "31086",
+                "備註": "N/A",
+                "Email": "nthugeneral@my.nthu.edu.tw"
+            },
+            {
+                "姓　名": "林立平",
+                "職稱/職責": "專案組員 / 教學單位電度及電費核算、單位登記桌",
+                "分機": "31088",
+                "備註": "N/A",
+                "Email": "linliping@mx.nthu.edu.tw"
+            }
+        ]
+    }
+}

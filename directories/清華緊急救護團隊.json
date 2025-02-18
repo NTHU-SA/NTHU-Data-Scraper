@@ -1,0 +1,90 @@
+{
+    "index": "93",
+    "name": "清華緊急救護團隊",
+    "parent_name": null,
+    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=93",
+    "details": {
+        "departments": [
+            {
+                "name": "北急區",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9303"
+            },
+            {
+                "name": "西急區",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9305"
+            },
+            {
+                "name": "南急區",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9307"
+            },
+            {
+                "name": "南大區",
+                "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=9309"
+            }
+        ],
+        "contact": {
+            "分機": "43000",
+            "直撥電話": "03-5743000",
+            "傳真電話": "03-5724140",
+            "Email": "clinic@my.nthu.edu.tw"
+        },
+        "people": [
+            {
+                "姓　名": "李志良",
+                "職稱/職責": "駐警隊隊長 / 全區機動性任務",
+                "分機": "31304",
+                "備註": "駐警隊",
+                "Email": "cllee@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "許俊仁",
+                "職稱/職責": "駐警隊小隊長 / 全區機動性任務",
+                "分機": "31305",
+                "備註": "駐警隊",
+                "Email": "jrhsiu@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "彭清誠",
+                "職稱/職責": "駐警隊隊員 / 全區機動性任務",
+                "分機": "35387",
+                "備註": "駐警隊",
+                "Email": "gcpeng@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "余憶如",
+                "職稱/職責": "生輔組組長 / 全區機動性任務",
+                "分機": "34762",
+                "備註": "水木生活中心",
+                "Email": "iryu@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "周易行",
+                "職稱/職責": "生輔組副組長 / 全區機動性任務",
+                "分機": "34709",
+                "備註": "水木生活中心",
+                "Email": "ysjou@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "陳億婷",
+                "職稱/職責": "生輔組組員 / 全區機動性任務",
+                "分機": "34651",
+                "備註": "水木生活中心",
+                "Email": "yiting-chen@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "蔡宜朋",
+                "職稱/職責": "衛保組組長 / 全區機動性任務",
+                "分機": "62089",
+                "備註": "醫輔大樓",
+                "Email": "yptsai@mx.nthu.edu.tw"
+            },
+            {
+                "姓　名": "張淑悅",
+                "職稱/職責": "衛保組組員 / 全區機動性任務",
+                "分機": "35547",
+                "備註": "醫輔大樓",
+                "Email": "dovan@mail.nd.nthu.edu.tw"
+            }
+        ]
+    }
+}
