@@ -22,7 +22,7 @@ class DiningItem(scrapy.Item):
     data = scrapy.Field()
 
 
-class NTHUDiningSpider(scrapy.Spider):
+class DiningSpider(scrapy.Spider):
     """
     清華大學餐廳資訊爬蟲
     """

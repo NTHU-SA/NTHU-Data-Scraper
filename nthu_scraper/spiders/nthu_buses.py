@@ -56,7 +56,7 @@ class BusInfo(scrapy.Item):
     data = scrapy.Field()  # 資訊內容 (字典或列表)
 
 
-class NTHUBusSpider(scrapy.Spider):
+class BusesSpider(scrapy.Spider):
     """
     清華大學公車資訊爬蟲。
     """
