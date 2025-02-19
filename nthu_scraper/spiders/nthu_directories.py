@@ -99,7 +99,7 @@ class DepartmentItem(scrapy.Item):
     details = scrapy.Field()
 
 
-class NTHUSpider(scrapy.Spider):
+class DirectoriesSpider(scrapy.Spider):
     """
     清華大學系所資訊爬蟲。
     """

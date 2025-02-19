@@ -28,7 +28,7 @@ class MapItem(scrapy.Item):
     data = scrapy.Field()
 
 
-class NTHUMapSpider(scrapy.Spider):
+class MapSpider(scrapy.Spider):
     """
     清華大學地圖資訊爬蟲
     """
