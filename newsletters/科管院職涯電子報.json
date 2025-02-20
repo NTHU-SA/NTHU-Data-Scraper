@@ -9,6 +9,11 @@
     },
     "articles": [
         {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4509-2025-02-20?tmpl=component&tmpl=component",
+            "title": "2025.02.20職涯電子報",
+            "date": "2025-02-20"
+        },
+        {
             "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4499-2025-02-18?tmpl=component&tmpl=component",
             "title": "2025.02.18職涯電子報",
             "date": "2025-02-18"
@@ -102,11 +107,6 @@
             "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4170-2024-10-28?tmpl=component&tmpl=component",
             "title": "2024.10.28職涯電子報",
             "date": "2024-10-28"
-        },
-        {
-            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4167-2024-10-24?tmpl=component&tmpl=component",
-            "title": "2024.10.24職涯電子報",
-            "date": "2024-10-24"
         }
     ]
 }
