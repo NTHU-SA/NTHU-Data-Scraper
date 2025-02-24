@@ -37,7 +37,6 @@ class MapSpider(scrapy.Spider):
     allowed_domains = ["campusmap.cc.nthu.edu.tw"]
     start_urls = list(MAP_URLS.values())  # 從 MAP_URLS 取值作為起始網址
     custom_settings = {
-        "LOG_LEVEL": "INFO",
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_maps.JsonMapPipeline": 1},
     }
 

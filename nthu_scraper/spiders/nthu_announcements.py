@@ -146,7 +146,6 @@ class AnnouncementsSpider(scrapy.Spider):
 
     name = "nthu_announcements"
     custom_settings = {
-        "LOG_LEVEL": "INFO",
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_announcements.JsonPipeline": 1},
     }
 

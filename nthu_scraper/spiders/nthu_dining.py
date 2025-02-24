@@ -31,7 +31,6 @@ class DiningSpider(scrapy.Spider):
     allowed_domains = ["ddfm.site.nthu.edu.tw"]
     start_urls = ["https://ddfm.site.nthu.edu.tw/p/404-1494-256455.php?Lang=zh-tw"]
     custom_settings = {
-        "LOG_LEVEL": "INFO",
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_dining.JsonDiningPipeline": 1},
     }
 

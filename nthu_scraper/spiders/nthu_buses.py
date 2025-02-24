@@ -65,7 +65,6 @@ class BusesSpider(scrapy.Spider):
     allowed_domains = ["affairs.site.nthu.edu.tw", "api.nthusa.tw"]
     start_urls = [BUS_URL["校本部公車"]["url"], BUS_URL["南大區間車"]["url"]]
     custom_settings = {
-        "LOG_LEVEL": "INFO",
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_buses.JsonBusPipeline": 1},
     }
 

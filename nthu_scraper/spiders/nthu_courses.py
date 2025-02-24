@@ -24,7 +24,6 @@ class CoursesSpider(scrapy.Spider):
     name = "nthu_courses"
     allowed_domains = ["www.ccxp.nthu.edu.tw", "curricul.site.nthu.edu.tw"]
     custom_settings = {
-        "LOG_LEVEL": "INFO",
         "ROBOTSTXT_OBEY": False,
     }
 
