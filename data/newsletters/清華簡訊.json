@@ -9,6 +9,11 @@
     },
     "articles": [
         {
+            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4517-1391?tmpl=component&tmpl=component",
+            "title": "清華簡訊1391期",
+            "date": "2025-02-24"
+        },
+        {
             "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4494-1390?tmpl=component&tmpl=component",
             "title": "清華簡訊1390期",
             "date": "2025-02-17"
@@ -102,11 +107,6 @@
             "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4106-1372?tmpl=component&tmpl=component",
             "title": "清華簡訊1372期",
             "date": "2024-10-07"
-        },
-        {
-            "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4092-1371?tmpl=component&tmpl=component",
-            "title": "清華簡訊1371期",
-            "date": "2024-09-30"
         }
     ]
 }
