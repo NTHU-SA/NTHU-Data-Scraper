@@ -7,8 +7,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "fe4c12d5e036a8a2e015ebf0402be20f13d47db2",
-        "last_updated": "2025-02-24T10:28:24+08:00",
+        "last_commit": "407e9b84b79f6473fe32ba62c91181b1c7ed6fa6",
+        "last_updated": "2025-02-24T14:05:33+08:00",
         "name": "dining.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "c1277654526b30535b2b1ab84b2c80dc6e63f914",
-        "last_updated": "2025-02-24T12:05:25+08:00",
+        "last_commit": "4f27946604433b1eae86b694dcc6e26d9201a18d",
+        "last_updated": "2025-02-24T14:06:01+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -1896,8 +1896,8 @@
         "name": "課務電子報.json"
       },
       {
-        "last_commit": "394ce63362bbb1bb70b44ed7c0eeeab264e0e27d",
-        "last_updated": "2025-02-19T05:59:32+08:00",
+        "last_commit": "4f27946604433b1eae86b694dcc6e26d9201a18d",
+        "last_updated": "2025-02-24T14:06:01+08:00",
         "name": "諮商中心-心窩報報.json"
       },
       {
@@ -1907,5 +1907,5 @@
       }
     ]
   },
-  "last_updated": "2025-02-24T12:05:25+08:00"
+  "last_updated": "2025-02-24T14:06:01+08:00"
 }
