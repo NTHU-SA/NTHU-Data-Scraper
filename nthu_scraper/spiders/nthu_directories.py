@@ -7,7 +7,6 @@ import scrapy
 
 # --- 全域參數設定 ---
 DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
-OUTPUT_FOLDER = DATA_FOLDER / "directories"
 COMBINED_JSON_FILE = DATA_FOLDER / "directories.json"
 URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 
@@ -283,7 +282,6 @@ class JsonPipeline:
         """
         Spider 開啟時執行，建立必要的資料夾。
         """
-        OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
         COMBINED_JSON_FILE.parent.mkdir(parents=True, exist_ok=True)
         self.combined_data = []
         # 新增用來計數重複名稱的字典
@@ -293,31 +291,11 @@ class JsonPipeline:
         """
         處理每一個 Item，儲存系所詳細資料到 JSON 檔案。
         """
-        # 生成初始 safe name
-        base_name = item["name"].replace("/", "_")
-        if item.get("parent_name"):
-            base_name = f"{item['parent_name'].replace('/', '_')}_{base_name}"  # 如果有 parent name, 加上去
-        if base_name not in self.name_counts:
-            self.name_counts[base_name] = 0
-            safe_name = base_name
-        else:
-            self.name_counts[base_name] += 1
-            safe_name = f"{base_name}_{self.name_counts[base_name]}"
         serializable_item = dict(item)
         if hasattr(serializable_item.get("details"), "to_dict"):
             serializable_item["details"] = serializable_item["details"].to_dict()
-
-        filename = OUTPUT_FOLDER / f"{safe_name}.json"
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(
-                serializable_item,
-                f,
-                ensure_ascii=False,
-                indent=4,
-            )
-        spider.logger.info(f'✅ 成功儲存【{item['name']}】資料至 "{safe_name}.json"')
+        spider.logger.info(f"✅ 成功儲存【{item['name']}】")
         self.combined_data.append(serializable_item)
-
         return item
 
     def close_spider(self, spider):
