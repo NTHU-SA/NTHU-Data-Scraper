@@ -22,8 +22,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "4f27946604433b1eae86b694dcc6e26d9201a18d",
-        "last_updated": "2025-02-24T14:06:01+08:00",
+        "last_commit": "bc7371d7d0426f9df0ce361e56347778a7ada89a",
+        "last_updated": "2025-02-24T16:06:00+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -1851,8 +1851,8 @@
         "name": "清華簡訊.json"
       },
       {
-        "last_commit": "c6a7d01465fda75f9d7496eeb7ecf99e5771c261",
-        "last_updated": "2025-02-21T12:05:26+08:00",
+        "last_commit": "bc7371d7d0426f9df0ce361e56347778a7ada89a",
+        "last_updated": "2025-02-24T16:06:00+08:00",
         "name": "研發處電子報-教職.json"
       },
       {
@@ -1907,5 +1907,5 @@
       }
     ]
   },
-  "last_updated": "2025-02-24T14:06:01+08:00"
+  "last_updated": "2025-02-24T16:06:00+08:00"
 }
