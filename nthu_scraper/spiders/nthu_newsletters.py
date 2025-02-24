@@ -48,7 +48,6 @@ class NewsletterSpider(scrapy.Spider):
     allowed_domains = ["newsletter.cc.nthu.edu.tw"]
     start_urls = [f"{URL_PREFIX}/nthu-list/search.html"]
     custom_settings = {
-        "LOG_LEVEL": "INFO",
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_newsletters.JsonPipeline": 1},
     }
 

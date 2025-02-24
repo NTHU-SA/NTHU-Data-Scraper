@@ -108,7 +108,6 @@ class DirectoriesSpider(scrapy.Spider):
     allowed_domains = ["tel.net.nthu.edu.tw"]
     start_urls = [URL_PREFIX + "index.php"]
     custom_settings = {
-        "LOG_LEVEL": "INFO",
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_directories.JsonPipeline": 1},
         "AUTOTHROTTLE_ENABLED": True,
     }
