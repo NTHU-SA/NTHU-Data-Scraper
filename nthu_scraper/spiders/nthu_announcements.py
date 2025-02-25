@@ -191,7 +191,7 @@ class AnnouncementsSpider(scrapy.Spider):
         language = response.meta.get("language")
         if response.css("div.tab-content"):
             self.logger.info(
-                f"在 {department} ({language}) 找到 tab 模組: {response.url}"
+                f"🔗 在 {department} ({language}) 找到 tab 模組: {response.url}"
             )
             yield from self.parse_tab_content(response, response.meta)
 
@@ -212,7 +212,7 @@ class AnnouncementsSpider(scrapy.Spider):
             relative_url = a.css("::attr(href)").get()
             if relative_url:
                 self.logger.info(
-                    f"在 {department} ({language}) 找到新的公告: {relative_url}"
+                    f"🔗 在 {department} ({language}) 找到新的公告: {relative_url}"
                 )
                 absolute_url = response.urljoin(relative_url)
                 # 更新動態載入的連結以包含語言查詢參數
