@@ -2,7 +2,7 @@
     {
         "name": "NTHU-Division of Health Service",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-14-nthu-division-of-health-service",
-        "table": {
+        "details": {
             "管理者": "任俊豪",
             "管理單位": "衛生保健組",
             "電子信箱": "clinic@my.nthu.edu.tw",
@@ -13,7 +13,7 @@
     {
         "name": "NTHU-Newsletter",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-15-nthu-newsletter",
-        "table": {
+        "details": {
             "管理者": "陳雅慧",
             "管理單位": "副校長室",
             "電子信箱": "newsletter-team@my.nthu.edu.tw",
@@ -44,7 +44,7 @@
     {
         "name": "eecs-students",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-36-eecs-students",
-        "table": {
+        "details": {
             "管理者": "袁婉芳",
             "管理單位": "電資院",
             "電子信箱": "eecs@my.nthu.edu.tw",
@@ -156,7 +156,7 @@
     {
         "name": "主計室電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-19-",
-        "table": {
+        "details": {
             "管理者": "王映茹",
             "管理單位": "主計室",
             "電子信箱": "acc4@my.nthu.edu.tw",
@@ -268,7 +268,7 @@
     {
         "name": "人事室電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-34-",
-        "table": {
+        "details": {
             "管理者": "王怡婷",
             "管理單位": "人事室",
             "電子信箱": "person@my.nthu.edu.tw",
@@ -380,7 +380,7 @@
     {
         "name": "人文社會學院電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-53-",
-        "table": {
+        "details": {
             "管理者": "陳彤伊",
             "管理單位": "人文社會學院",
             "電子信箱": "humansos@my.nthu.edu.tw",
@@ -492,7 +492,7 @@
     {
         "name": "人社院學士班電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-11-",
-        "table": {
+        "details": {
             "管理者": "蘇家瑩",
             "管理單位": "人文社會學院學士班",
             "電子信箱": "dhss@my.nthu.edu.tw",
@@ -514,7 +514,7 @@
     {
         "name": "住宿書院電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-20-",
-        "table": {
+        "details": {
             "管理者": "吳明芳",
             "管理單位": "住宿書院",
             "電子信箱": "rcollege@my.nthu.edu.tw",
@@ -546,7 +546,7 @@
     {
         "name": "台灣語言學通訊",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-43-",
-        "table": {
+        "details": {
             "管理者": "謝豐帆",
             "管理單位": "語言所",
             "電子信箱": "lingtw@my.nthu.edu.tw",
@@ -658,7 +658,7 @@
     {
         "name": "國立清華大學動機系系友電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-47-",
-        "table": {
+        "details": {
             "管理者": "黃裕容",
             "管理單位": "動機系",
             "電子信箱": "yj-huang@mx.nthu.edu.tw",
@@ -710,7 +710,7 @@
     {
         "name": "國立清華大學圖書館-學生",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-18-",
-        "table": {
+        "details": {
             "管理者": "傅巧芸",
             "管理單位": "國立清華大學圖書館-服務與創新組",
             "電子信箱": "ref@my.nthu.edu.tw",
@@ -822,7 +822,7 @@
     {
         "name": "國立清華大學學生會電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-44-",
-        "table": {
+        "details": {
             "管理者": "楊子緣",
             "管理單位": "學生會",
             "電子信箱": "nthusa.president@gmail.com",
@@ -934,7 +934,7 @@
     {
         "name": "國立清華大學校長遴選委員會",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-71-",
-        "table": {
+        "details": {
             "管理者": "丘雪蘭",
             "管理單位": "秘書處",
             "電子信箱": "presid-search@my.nthu.edu.tw",
@@ -1011,7 +1011,7 @@
     {
         "name": "國立清華大學核工暨工科系友會電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-46-",
-        "table": {
+        "details": {
             "管理者": "劉佳慧",
             "管理單位": "核工所",
             "電子信箱": "nes@my.nthu.edu.tw",
@@ -1123,7 +1123,7 @@
     {
         "name": "域報 Field Cast",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-84-",
-        "table": {
+        "details": {
             "管理者": "章郡榕",
             "管理單位": "區域創新中心",
             "電子信箱": "cjung@mx.nthu.edu.tw",
@@ -1140,7 +1140,7 @@
     {
         "name": "學生事務報-學生",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-28-",
-        "table": {
+        "details": {
             "管理者": "宋姿韻",
             "電子信箱": "student@my.nthu.edu.tw",
             "管理單位": "學生事務處",
@@ -1252,7 +1252,7 @@
     {
         "name": "心諮系雙週例講座",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-67-",
-        "table": {
+        "details": {
             "管理者": "張硯評",
             "管理單位": "心諮系",
             "電子信箱": "yenpingchang@mx.nthu.edu.tw",
@@ -1364,7 +1364,7 @@
     {
         "name": "愛慾電子報報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-61-",
-        "table": {
+        "details": {
             "管理者": "孫孟群",
             "管理單位": "愛慾實務社",
             "電子信箱": "s108096703@m108.nthu.edu.tw",
@@ -1476,7 +1476,7 @@
     {
         "name": "教務處綜合教務組電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-52-",
-        "table": {
+        "details": {
             "管理者": "林嘉怡",
             "管理單位": "教務處綜教組",
             "電子信箱": "chyilin@mx.nthu.edu.tw",
@@ -1540,7 +1540,7 @@
     {
         "name": "教學發展中心電子報-教師",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-56-",
-        "table": {
+        "details": {
             "管理者": "吳孟芬",
             "管理單位": "教學發展中心",
             "電子信箱": "ctld@my.nthu.edu.tw",
@@ -1652,7 +1652,7 @@
     {
         "name": "數學系電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-27-",
-        "table": {
+        "details": {
             "管理者": "洪雅婷",
             "管理單位": "數學系",
             "電子信箱": "ythung@math.nthu.edu.tw",
@@ -1719,7 +1719,7 @@
     {
         "name": "新聞剪輯電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-10-",
-        "table": {
+        "details": {
             "管理者": "林燕君",
             "管理單位": "秘書處公共事務組",
             "電子信箱": "dpa@my.nthu.edu.tw",
@@ -1746,7 +1746,7 @@
     {
         "name": "校長同意權人投票事務委員會",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-80-",
-        "table": {
+        "details": {
             "管理者": "黃怡溱",
             "管理單位": "秘書處議事及法規組",
             "電子信箱": "voting@my.nthu.edu.tw",
@@ -1783,7 +1783,7 @@
     {
         "name": "清華大學化學系電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-48-",
-        "table": {
+        "details": {
             "管理者": "涂曼琳",
             "管理單位": "化學系",
             "電子信箱": "chemtest@my.nthu.edu.tw",
@@ -1895,7 +1895,7 @@
     {
         "name": "清華大學化工系友電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-45-",
-        "table": {
+        "details": {
             "管理者": "林麗萍",
             "管理單位": "化工系",
             "電子信箱": "liping@mx.nthu.edu.tw",
@@ -1906,7 +1906,7 @@
     {
         "name": "清華大學工工系電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-39-",
-        "table": {
+        "details": {
             "管理者": "謝委紋",
             "管理單位": "工工系",
             "電子信箱": "wwshieh@mx.nthu.edu.tw",
@@ -2018,7 +2018,7 @@
     {
         "name": "清華校友總會會務訊息",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-69-",
-        "table": {
+        "details": {
             "管理者": "王思齊",
             "管理單位": "校友中心",
             "電子信箱": "nthuaa@my.nthu.edu.tw",
@@ -2085,7 +2085,7 @@
     {
         "name": "清華校友電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-8-",
-        "table": {
+        "details": {
             "管理者": "林昱渟",
             "管理單位": "校友中心",
             "電子信箱": "alumni@my.nthu.edu.tw",
@@ -2197,7 +2197,7 @@
     {
         "name": "清華簡訊",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-9-",
-        "table": {
+        "details": {
             "管理者": "蔡季芬",
             "管理單位": "秘書處公共事務組",
             "電子信箱": "dpa@my.nthu.edu.tw",
@@ -2309,7 +2309,7 @@
     {
         "name": "研發處電子報-教職",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-33-",
-        "table": {
+        "details": {
             "管理者": "曹雅鈞",
             "管理單位": "研發處",
             "電子信箱": "rd@my.nthu.edu.tw",
@@ -2421,13 +2421,18 @@
     {
         "name": "科管院職涯電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-35-",
-        "table": {
+        "details": {
             "管理者": "林宜秀",
             "管理單位": "科管院",
             "電子信箱": "careertm@my.nthu.edu.tw",
             "聯絡電話": "62511"
         },
         "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4519-2025-02-25?tmpl=component&tmpl=component",
+                "title": "2025.02.25職涯電子報",
+                "date": "2025-02-25"
+            },
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4509-2025-02-20?tmpl=component&tmpl=component",
                 "title": "2025.02.20職涯電子報",
@@ -2522,18 +2527,13 @@
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4196-2024-11-04?tmpl=component&tmpl=component",
                 "title": "2024.11.04職涯電子報",
                 "date": "2024-11-04"
-            },
-            {
-                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4170-2024-10-28?tmpl=component&tmpl=component",
-                "title": "2024.10.28職涯電子報",
-                "date": "2024-10-28"
             }
         ]
     },
     {
         "name": "秘書處-全校教職員",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-57-",
-        "table": {
+        "details": {
             "管理者": "李逸君",
             "管理單位": "秘書處",
             "電子信箱": "secreta5@my.nthu.edu.tw",
@@ -2615,7 +2615,7 @@
     {
         "name": "築思脈動(Pulse of Education)",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-68-",
-        "table": {
+        "details": {
             "管理者": "方孜娟",
             "管理單位": "竹師教育學院",
             "電子信箱": "tc_fang@mx.nthu.edu.tw",
@@ -2626,7 +2626,7 @@
     {
         "name": "英語教學精進中心-研究生電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-112",
-        "table": {
+        "details": {
             "管理者": "黃玉婷",
             "管理單位": "英語教學精進中心",
             "電子信箱": "yt.huang@mx.nthu.edu.tw",
@@ -2648,7 +2648,7 @@
     {
         "name": "藝術文化總中心電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-85-",
-        "table": {
+        "details": {
             "管理者": "陳若怡",
             "管理單位": "藝術文化總中心",
             "電子信箱": "cac@my.nthu.edu.tw",
@@ -2659,7 +2659,7 @@
     {
         "name": "計中-教育訓練",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-7-",
-        "table": {
+        "details": {
             "管理者": "江佩如",
             "管理單位": "學習科技組",
             "電子信箱": "pjchiang@mx.nthu.edu.tw",
@@ -2686,7 +2686,7 @@
     {
         "name": "語文中心電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-38-",
-        "table": {
+        "details": {
             "管理者": "曾詩涵",
             "管理單位": "語文中心",
             "電子信箱": "language@my.nthu.edu.tw",
@@ -2697,7 +2697,7 @@
     {
         "name": "課務電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-40-",
-        "table": {
+        "details": {
             "管理者": "胡慧文",
             "管理單位": "教務處課務組",
             "電子信箱": "curricul@my.nthu.edu.tw",
@@ -2809,7 +2809,7 @@
     {
         "name": "諮商中心-心窩報報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-16-",
-        "table": {
+        "details": {
             "管理者": "謝慧馨",
             "管理單位": "諮商中心",
             "電子信箱": "counsel@my.nthu.edu.tw",
@@ -2921,7 +2921,7 @@
     {
         "name": "電機工程學系電子報(學生)",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-25-",
-        "table": {
+        "details": {
             "管理者": "詹瑞芳",
             "管理單位": "電機系",
             "電子信箱": "eecsee@my.nthu.edu.tw",
