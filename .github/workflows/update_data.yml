@@ -42,8 +42,9 @@ jobs:
             scrapy crawl nthu_buses
             scrapy crawl nthu_dining
             scrapy crawl nthu_courses
+            scrapy crawl nthu_announcements
           elif [[ "${{ matrix.runner }}" == "self-hosted" ]]; then
-            # scrapy crawl nthu_directories
+            scrapy crawl nthu_directories
             scrapy crawl nthu_maps
             scrapy crawl nthu_newsletters
           fi
