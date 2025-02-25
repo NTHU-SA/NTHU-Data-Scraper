@@ -418,7 +418,8 @@ class JsonPipeline:
         """
         Spider 關閉時執行，合併所有公告資料到 JSON 總合檔案。
         """
-        sorted_data = self.combined_data
+        # 使用 link 排序
+        sorted_data = sorted(self.combined_data, key=lambda x: x["link"])
 
         with open(COMBINED_JSON_FILE, "w", encoding="utf-8") as f:
             json.dump(sorted_data, f, ensure_ascii=False, indent=4)  # 直接 dump 列表
