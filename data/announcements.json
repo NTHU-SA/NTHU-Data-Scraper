@@ -4358,6 +4358,13 @@
     },
     {
         "title": "招待所公告",
+        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=en",
+        "language": "en",
+        "department": "餐廳營業時間表",
+        "articles": []
+    },
+    {
+        "title": "招待所公告",
         "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "經營管理組",
@@ -4393,6 +4400,13 @@
                 "date": "2021-10-01"
             }
         ]
+    },
+    {
+        "title": "餐廳公告",
+        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8304-1.php?Lang=en",
+        "language": "en",
+        "department": "餐廳營業時間表",
+        "articles": []
     },
     {
         "title": "餐廳公告",
@@ -14385,53 +14399,53 @@
             },
             {
                 "title": "【運動訓練班招生】2025 週日清華大學雙語足球養成班",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283138,r11.php",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283138,r11.php?Lang=zh-tw",
                 "date": "2025-02-13"
             },
             {
                 "title": "【游泳池公告】二二八和平紀念日2月28日(五)開放時間",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283158,r11.php",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283158,r11.php?Lang=zh-tw",
                 "date": "2025-02-17"
             },
             {
+                "title": "【校友體育館】啦啦隊加練3/01（六）上午10:00-下午02:00借用韻律教室，場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283779,r11.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
+            {
+                "title": "【校友體育館】校隊加強練3/01（六）下午06:00-晚上10:00借用羽球場（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283777,r11.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
+            {
+                "title": "【體育館】男排系際盃3/03（一）-6/09（五）借用體育館2F（#2 3 球場），以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283775,r11.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
+            {
+                "title": "【體育館】女排系際盃3/03（一）-6/09（五）借用體育館2F（#1 球場），以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283774,r11.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
+            {
+                "title": "【體育館】排球隊加練3/02（日）-6/08（日）每週日下午06:00-晚上10:00借用體育館2F（#2 3球場），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283773,r11.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
+            {
+                "title": "【體育館】排球隊加練3/02（日）上午08:00-中午12:00借用體育館2F（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283772,r11.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
+            {
                 "title": "【校友體育館】2025全國大專院校「北區」社會暨社會工作相關科系聯合羽毛球盃賽3/08（六）上午8:00-下午5:00借用羽球場(# 5 6 7 8 球場)，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283859,r11.php",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283859,r11.php?Lang=zh-tw",
                 "date": "2025-02-25"
             },
             {
                 "title": "【校友體育館】EMBA羽球社社課3/08（六）下午4:00-晚上8:00借用羽球場(# 1 2 3球場)，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283858,r11.php",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283858,r11.php?Lang=zh-tw",
                 "date": "2025-02-25"
-            },
-            {
-                "title": "【室外網球場】EMBA網球社社課3/08（六）下午5:00-晚上7:00借用室外網球場(# 3 4球場)，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283857,r11.php",
-                "date": "2025-02-25"
-            },
-            {
-                "title": "【舞蹈教室】EMBA瑜珈社社課3/08（六）下午5:00-下午6:00借用舞蹈教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283856,r11.php",
-                "date": "2025-02-25"
-            },
-            {
-                "title": "【體育館】大專排球聯賽男生一般組複賽3/08（六）-3/09（日）上午8:00-晚上10:00借用體育館2F（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283855,r11.php",
-                "date": "2025-02-25"
-            },
-            {
-                "title": "【室外網球場】乙已梅竹賽於3/01（六）上午6:30-晚上10:00借用室外網球場，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283845,r11.php",
-                "date": "2025-02-25"
-            },
-            {
-                "title": "【游泳池公告】新竹市中小學游泳錦標賽2/21（五）-2/23（日）借用游泳池（全），以下時段場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-282194,r11.php",
-                "date": "2025-02-06"
-            },
-            {
-                "title": "【體育館】梅竹火力班集訓2/20（四）-2/26（三）下午05:00-晚上09:00借用體育館2F看台區。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-283695,r11.php",
-                "date": "2025-02-21"
             }
         ]
     },
@@ -14441,6 +14455,11 @@
         "language": "zh-tw",
         "department": "國立清華大學學生會",
         "articles": [
+            {
+                "title": "2025-02-25【行政中心】CASIO新生特約團購取貨公告",
+                "link": "https://nthusa.site.nthu.edu.tw/p/406-1438-283897,r10782.php?Lang=zh-tw",
+                "date": null
+            },
             {
                 "title": "2025-02-15【學生議會】打開議會｜議會資訊指南",
                 "link": "https://nthusa.site.nthu.edu.tw/p/406-1438-283280,r10782.php?Lang=zh-tw",
@@ -14494,11 +14513,6 @@
             {
                 "title": "2024-10-05【學生議會】組織介紹｜今天來認識學生議會！",
                 "link": "https://nthusa.site.nthu.edu.tw/p/406-1438-276239,r10782.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "2024-09-28【學生議會】校園議題懶人包",
-                "link": "https://nthusa.site.nthu.edu.tw/p/406-1438-276237,r10782.php?Lang=zh-tw",
                 "date": null
             }
         ]
