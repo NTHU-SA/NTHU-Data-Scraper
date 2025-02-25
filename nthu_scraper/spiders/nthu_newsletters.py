@@ -22,7 +22,7 @@ class NewsletterItem(scrapy.Item):
 
     name = scrapy.Field()
     link = scrapy.Field()
-    table = scrapy.Field()
+    details = scrapy.Field()
     articles = scrapy.Field()
 
 
@@ -100,7 +100,7 @@ class NewsletterSpider(scrapy.Spider):
             newsletter = NewsletterItem()
             newsletter["name"] = name
             newsletter["link"] = link
-            newsletter["table"] = table_data
+            newsletter["details"] = table_data
             newsletter["articles"] = []
 
             # 如果連結已經在處理清單中，跳過
