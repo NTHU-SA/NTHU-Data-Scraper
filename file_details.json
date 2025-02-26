@@ -12,8 +12,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "cbff3c1a82504c738b01d128415113bead60d464",
-        "last_updated": "2025-02-25T16:54:01+08:00",
+        "last_commit": "1409c2368fe0ef66cfe40ff95d9fba0f71d9609e",
+        "last_updated": "2025-02-26T12:05:52+08:00",
         "name": "dining.json"
       },
       {
@@ -27,8 +27,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "46d48bbb7a63d5f02f5681ea24ba61279df41ec6",
-        "last_updated": "2025-02-25T16:50:15+08:00",
+        "last_commit": "fbc14ed534d7eb9c6d5eb7a48c65f88701fd192c",
+        "last_updated": "2025-02-26T12:06:45+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -223,5 +223,5 @@
       }
     ]
   },
-  "last_updated": "2025-02-26T11:11:13+08:00"
+  "last_updated": "2025-02-26T12:06:45+08:00"
 }
