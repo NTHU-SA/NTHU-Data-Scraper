@@ -2067,6 +2067,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學圖書館徵求職務代理人1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283223,r5075.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
+            {
                 "title": "【徵才】運動科學系邱文信教授徵聘行政助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-277023,r5075.php?Lang=zh-tw",
                 "date": "2025-02-26"
@@ -2120,11 +2125,6 @@
                 "title": "114年國立清華大學華語中心誠徵專題計畫約用助理一名",
                 "link": "https://clc-cc.vm.nthu.edu.tw/home/index.php/news/page/2/1157",
                 "date": "2025-02-24"
-            },
-            {
-                "title": "清華電機_李祈均教授  BIIC Lab  誠徵⾏政助理1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283691,r5075.php?Lang=zh-tw",
-                "date": "2025-02-21"
             }
         ]
     },
@@ -2134,6 +2134,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學圖書館徵求職務代理人1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283223,r5081.php?Lang=zh-tw",
+                "date": "2025-02-26"
+            },
             {
                 "title": "【徵才】運動科學系邱文信教授徵聘行政助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-277023,r5081.php?Lang=zh-tw",
@@ -2187,11 +2192,6 @@
             {
                 "title": "國立臺灣海洋大學海洋法律與政策學院公開徵求院長",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283791,r5081.php?Lang=zh-tw",
-                "date": "2025-02-25"
-            },
-            {
-                "title": "國立臺北科技大學人文與社會科學學院徵求院長",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283790,r5081.php?Lang=zh-tw",
                 "date": "2025-02-25"
             }
         ]
@@ -4358,6 +4358,13 @@
     },
     {
         "title": "招待所公告",
+        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=en",
+        "language": "en",
+        "department": "餐廳營業時間表",
+        "articles": []
+    },
+    {
+        "title": "招待所公告",
         "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "經營管理組",
@@ -4393,6 +4400,13 @@
                 "date": "2021-10-01"
             }
         ]
+    },
+    {
+        "title": "餐廳公告",
+        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8304-1.php?Lang=en",
+        "language": "en",
+        "department": "餐廳營業時間表",
+        "articles": []
     },
     {
         "title": "餐廳公告",
