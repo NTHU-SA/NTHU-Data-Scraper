@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d321e0ded3b5a6f49eded1381da2fc4716ffc068",
-        "last_updated": "2025-02-26T19:05:08+08:00",
+        "last_commit": "51742d72f0706918f5b7493b340f7769ecf1e263",
+        "last_updated": "2025-02-26T20:47:48+08:00",
         "name": "announcements.json"
       },
       {
@@ -17,8 +17,8 @@
         "name": "dining.json"
       },
       {
-        "last_commit": "b6ca5383010f931c116ec9ae979a60506690d1f3",
-        "last_updated": "2025-02-26T09:32:41+08:00",
+        "last_commit": "72010201b96f5398d914a1299ea76a6198562aa4",
+        "last_updated": "2025-02-26T19:51:59+08:00",
         "name": "directories.json"
       },
       {
@@ -223,5 +223,5 @@
       }
     ]
   },
-  "last_updated": "2025-02-26T19:05:08+08:00"
+  "last_updated": "2025-02-26T20:47:48+08:00"
 }
