@@ -712,6 +712,11 @@
         "department": "招生策略中心",
         "articles": [
             {
+                "title": "114學年度學士後醫學系單獨招生報名人數統計表",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-283899,r6125.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "114學年度學士後醫學系單獨招生公告（含招生簡章電子檔)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-280426,r6125.php?Lang=zh-tw",
                 "date": null
@@ -764,11 +769,6 @@
             {
                 "title": "112學年度學士後醫學系單獨招生考試初試合格名單公告及第二階段報名圖文說明",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-247050,r6125.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "112學年度學士後醫學系單獨招生考試-答案疑義釋疑結果",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-246843,r6125.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -4358,6 +4358,13 @@
     },
     {
         "title": "招待所公告",
+        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=en",
+        "language": "en",
+        "department": "餐廳營業時間表",
+        "articles": []
+    },
+    {
+        "title": "招待所公告",
         "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "經營管理組",
@@ -4393,6 +4400,13 @@
                 "date": "2021-10-01"
             }
         ]
+    },
+    {
+        "title": "餐廳公告",
+        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8304-1.php?Lang=en",
+        "language": "en",
+        "department": "餐廳營業時間表",
+        "articles": []
     },
     {
         "title": "餐廳公告",
@@ -4469,6 +4483,11 @@
         "department": "教育與學習科技學系",
         "articles": [
             {
+                "title": "本校師培中心113學年度「口語表達工作坊暨檢定」開放報名",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-283900,r1.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "113學年度本系傑出系友遴選推薦，請踴躍推薦合宜人選，期限為 5月15日前。",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-283306,r1.php?Lang=zh-tw",
                 "date": null
@@ -4521,11 +4540,6 @@
             {
                 "title": "【轉知】國科會「114年度大專學生研究計畫」申請案，申請截止2/21(五)下午1點",
                 "link": "https://rd.nthu.edu.tw/News-4061.html",
-                "date": null
-            },
-            {
-                "title": "1/15(三)邀請蒞臨彭煥勝教授新書發表暨系友回娘家活動(南大校區教學大樓1樓)",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-280609,r1.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -13701,6 +13715,11 @@
         "department": "奈米工程與微系統研究所",
         "articles": [
             {
+                "title": "【Congratulations】Congratulations to Prof. Cheng-Hsien Liu, 2024 NSTC Outstanding Research Awards.",
+                "link": "https://nems.site.nthu.edu.tw/p/406-1302-283881,r7054.php?Lang=en",
+                "date": "2025-02-25"
+            },
+            {
                 "title": "Congratulations to Prof. Wei-Chih Wang for being promoted to SPIE Fellow.",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-281364,r7054.php?Lang=en",
                 "date": "2025-01-14"
@@ -13754,11 +13773,6 @@
                 "title": "Congratulations!! Prof.Da-Jeng Yao was appointed Deputy Director,  Mechanical and Mechatronics System Lab Industrial Technology Research Institute",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-211543,r7054.php?Lang=en",
                 "date": "2021-08-16"
-            },
-            {
-                "title": "Congratulations to Professor Da-Jeng Yao for MOST Outstanding Research Award!!!",
-                "link": "https://nems.site.nthu.edu.tw/p/406-1302-175923,r7054.php?Lang=en",
-                "date": "2020-03-20"
             }
         ]
     },
