@@ -4358,13 +4358,6 @@
     },
     {
         "title": "招待所公告",
-        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=en",
-        "language": "en",
-        "department": "餐廳營業時間表",
-        "articles": []
-    },
-    {
-        "title": "招待所公告",
         "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "經營管理組",
@@ -4400,13 +4393,6 @@
                 "date": "2021-10-01"
             }
         ]
-    },
-    {
-        "title": "餐廳公告",
-        "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8304-1.php?Lang=en",
-        "language": "en",
-        "department": "餐廳營業時間表",
-        "articles": []
     },
     {
         "title": "餐廳公告",
@@ -7524,6 +7510,11 @@
         "department": "性/別教育發展中心",
         "articles": [
             {
+                "title": "3/22（六）國立清華大學「113年性別平等教育優良教學方案甄選活動頒獎典禮暨課程觀摩發表會」報名開始！歡迎老師踴躍報名參加！",
+                "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-283799,r11.php",
+                "date": null
+            },
+            {
                 "title": "114/03/22（六）活動預告！－「113年性別平等教育優良教學方案甄選活動頒獎暨課程觀摩發表會」 敬請預留時間參加",
                 "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-282340,r11.php",
                 "date": null
@@ -7576,11 +7567,6 @@
             {
                 "title": "113/1/6（六）「幼兒園性別平等教育-繪本的選擇與運用」即日起開放報名！歡迎老師報名參加！",
                 "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-260451,r11.php",
-                "date": null
-            },
-            {
-                "title": "歡迎大家踴躍報名─ 性別教育論壇  12/8（五）13:30-15:30在清大竹師教育學院舉行",
-                "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-259381,r11.php",
                 "date": null
             }
         ]
