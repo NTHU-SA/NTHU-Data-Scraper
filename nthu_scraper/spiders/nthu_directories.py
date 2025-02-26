@@ -10,6 +10,37 @@ DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
 COMBINED_JSON_FILE = DATA_FOLDER / "directories.json"
 URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 
+# --- 中英文對照字典 ---
+DEPARTMENT_TRANSLATION = {
+    "分機": "extension",
+    "直撥電話": "phone",
+    "傳真電話": "fax",
+    "Email": "email",
+    "網頁": "website",
+    "姓名": "name",
+    "職稱/職責": "title",
+    "備註": "note",
+}
+
+
+# --- 輔助函式 ---
+def _translate_key(key: str) -> str:
+    """
+    將中文 key 轉換為英文 key。
+
+    Args:
+        key (str): 中文 key。
+
+    Returns:
+        str: 英文 key。
+    """
+    key = key.strip().replace("　", "")  # 移除空白
+    if key in DEPARTMENT_TRANSLATION:
+        return DEPARTMENT_TRANSLATION[key]
+    else:
+        print(f"❌ 未知的 key: {key}")
+        return key
+
 
 # --- 資料結構定義 ---
 class ContactInfo:
@@ -17,7 +48,7 @@ class ContactInfo:
     聯絡資訊資料結構。
     """
 
-    def __init__(self, data: Dict[str, str]):
+    def __init__(self, data: Dict[str, str | None]):
         """
         初始化 ContactInfo 物件。
 
@@ -35,7 +66,7 @@ class Person:
     人員資料結構。
     """
 
-    def __init__(self, data: Dict[str, str]):
+    def __init__(self, data: Dict[str, str | None]):
         """
         初始化 Person 物件。
 
@@ -107,6 +138,7 @@ class DirectoriesSpider(scrapy.Spider):
     allowed_domains = ["tel.net.nthu.edu.tw"]
     start_urls = [URL_PREFIX + "index.php"]
     custom_settings = {
+        "LOG_LEVEL": "INFO",
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_directories.JsonPipeline": 1},
         "AUTOTHROTTLE_ENABLED": True,
     }
@@ -221,9 +253,10 @@ class DirectoriesSpider(scrapy.Spider):
                 key_selector = cols[0].css("::text")
                 value_selector = cols[1]
 
-                key = key_selector.get().strip()
+                key = key_selector.get().strip() if key_selector else ""
                 if key == "":
                     continue
+                key = _translate_key(key)  # 將中文 key 轉換為英文 key
 
                 link = value_selector.css("a::attr(href)").get()
                 value_text = value_selector.css("::text").get()  # 先取得 text
@@ -261,6 +294,7 @@ class DirectoriesSpider(scrapy.Spider):
                 for i, col in enumerate(cols):
                     if i < len(headers):  # 確保 header 存在
                         header = headers[i]
+                        header = _translate_key(header)  # 將中文 key 轉換為英文 key
                         link = col.css("a::attr(href)").get()
                         col_text = col.css("::text").get()  # 先取得 text
                         if link:
@@ -268,7 +302,7 @@ class DirectoriesSpider(scrapy.Spider):
                         elif col_text:
                             person[header] = col_text.strip()
                         else:
-                            person[header] = "N/A"  # 預設 person value
+                            person[header] = None
                 people.append(person)
         return people
 
@@ -284,8 +318,6 @@ class JsonPipeline:
         """
         COMBINED_JSON_FILE.parent.mkdir(parents=True, exist_ok=True)
         self.combined_data = []
-        # 新增用來計數重複名稱的字典
-        self.name_counts = {}
 
     def process_item(self, item, spider):
         """
