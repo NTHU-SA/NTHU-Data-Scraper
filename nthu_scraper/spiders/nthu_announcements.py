@@ -10,7 +10,7 @@ import scrapy
 DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
 COMBINED_JSON_FILE = DATA_FOLDER / "announcements.json"
 
-DIRECTORIES_PATH = Path("data/directories.json")  # 單位資料 JSON 檔案的路徑
+DIRECTORY_PATH = Path("data/directory.json")  # 單位資料 JSON 檔案的路徑
 
 LANGUAGES = ["zh-tw", "en"]  # 支援的語言列表
 LANGUAGE_QUERY_PARAM = "Lang"  # 語言查詢參數名
@@ -106,24 +106,24 @@ def build_lang_urls(original_url: str) -> dict[str, str] | None:
     return lang_urls
 
 
-def load_rpage_urls_from_directories(
-    directories_path: Path,
+def load_rpage_urls_from_directory(
+    directory_path: Path,
 ) -> dict[str, dict[str, str]]:
     """
     從 JSON 檔案讀取單位資料並建立 Rpage URL 字典。
 
     Args:
-        directories_path: 單位資料 JSON 檔案的路徑。
+        directory_path: 單位資料 JSON 檔案的路徑。
 
     Returns:
         一個字典，鍵為單位名稱，值為包含各語言版本 URL 的字典。
         如果載入或處理過程中發生錯誤，則回傳空字典。
     """
     rpage_urls = {}
-    with open(directories_path, "r", encoding="UTF-8") as f:
-        directories = json.load(f)
+    with open(directory_path, "r", encoding="UTF-8") as f:
+        directory = json.load(f)
 
-    for department in directories:
+    for department in directory:
         try:
             dept_name = department["name"]
             department_url = department["details"]["contact"]["網頁"]
@@ -156,7 +156,7 @@ class AnnouncementsSpider(scrapy.Spider):
         super().__init__(*args, **kwargs)
         self.rpage_urls = {}
         # 從檔案載入
-        self.rpage_urls = load_rpage_urls_from_directories(DIRECTORIES_PATH)
+        self.rpage_urls = load_rpage_urls_from_directory(DIRECTORY_PATH)
         # 加入其他資料
         self.rpage_urls.update(other_data)
 

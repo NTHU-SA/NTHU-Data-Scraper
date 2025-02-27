@@ -7,7 +7,7 @@ import scrapy
 
 # --- 全域參數設定 ---
 DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
-COMBINED_JSON_FILE = DATA_FOLDER / "directories.json"
+COMBINED_JSON_FILE = DATA_FOLDER / "directory.json"
 URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 
 # --- 中英文對照字典 ---
@@ -129,17 +129,17 @@ class DepartmentItem(scrapy.Item):
     details = scrapy.Field()
 
 
-class DirectoriesSpider(scrapy.Spider):
+class DirectorySpider(scrapy.Spider):
     """
     清華大學系所資訊爬蟲。
     """
 
-    name = "nthu_directories"
+    name = "nthu_directory"
     allowed_domains = ["tel.net.nthu.edu.tw"]
     start_urls = [URL_PREFIX + "index.php"]
     custom_settings = {
         "LOG_LEVEL": "INFO",
-        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_directories.JsonPipeline": 1},
+        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_directory.JsonPipeline": 1},
         "AUTOTHROTTLE_ENABLED": True,
     }
 
