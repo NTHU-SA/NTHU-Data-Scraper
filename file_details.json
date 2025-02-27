@@ -22,9 +22,9 @@
         "name": "dining.json"
       },
       {
-        "last_commit": "d40ce1c7d5780a56cd1000b2e6b003140d56e6ed",
-        "last_updated": "2025-02-27T16:06:26+08:00",
-        "name": "directories.json"
+        "last_commit": "79eb49be0098e1a23cdabb54514050865927f421",
+        "last_updated": "2025-02-27T20:01:09+08:00",
+        "name": "directory.json"
       },
       {
         "last_commit": "394ce63362bbb1bb70b44ed7c0eeeab264e0e27d",
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-02-27T18:05:59+08:00"
+  "last_updated": "2025-02-27T20:01:09+08:00"
 }
