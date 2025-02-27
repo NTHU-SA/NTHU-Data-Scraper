@@ -4345,7 +4345,7 @@
                 {
                     "name": "游珞靈",
                     "title": null,
-                    "extension": "62280、62399",
+                    "extension": "62280 62399",
                     "note": null,
                     "email": "llyu@mx.nthu.edu.tw"
                 }
@@ -7938,6 +7938,20 @@
                     "email": "chclin@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "呂明諺",
+                    "title": "副校資長",
+                    "extension": "31248",
+                    "note": null,
+                    "email": "mylu@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "張焯然",
+                    "title": "副校資長",
+                    "extension": "42420",
+                    "note": null,
+                    "email": "jrchang@mx.nthu.edu.tw"
+                },
+                {
                     "name": "翁翊甯",
                     "title": "專員",
                     "extension": "62004",
@@ -8515,13 +8529,6 @@
                     "extension": "31136",
                     "note": null,
                     "email": "fmliu@cc.nthu.edu.tw"
-                },
-                {
-                    "name": "朱彌綸",
-                    "title": null,
-                    "extension": "31135",
-                    "note": "休假",
-                    "email": "mlchu@cc.nthu.edu.tw"
                 }
             ]
         }
@@ -23238,6 +23245,13 @@
                     "extension": "73050",
                     "note": null,
                     "email": "yanghc@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "何奕慧",
+                    "title": "合聘助理教授",
+                    "extension": "73053",
+                    "note": null,
+                    "email": "chunchih65@gmail.com"
                 },
                 {
                     "name": "陳淑卿",
