@@ -126,7 +126,7 @@ def load_rpage_urls_from_directory(
     for department in directory:
         try:
             dept_name = department["name"]
-            department_url = department["details"]["contact"]["網頁"]
+            department_url = department["details"]["contact"]["website"]
         except KeyError:
             print(f"單位【{department.get('name', '未知')}】缺少必要資訊，跳過。")
             continue
