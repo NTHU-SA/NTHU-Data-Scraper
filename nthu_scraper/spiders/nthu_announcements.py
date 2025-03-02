@@ -268,6 +268,9 @@ class AnnouncementsSpider(scrapy.Spider):
         announcement_item["language"] = response.meta.get("language")
         announcement_item["department"] = response.meta.get("department_name")
         announcement_item["articles"] = self.process_content(response)
+        if announcement_item["articles"] == []:
+            self.logger.warning(f"❎ 在 {response.url} 找不到公告文章。")
+            return
         yield announcement_item
 
     def process_title(self, response):
@@ -313,6 +316,10 @@ class AnnouncementsSpider(scrapy.Spider):
             ".row.listBS"
         )  # 選取每個公告的 row
 
+        if not announcements:
+            # 可能是用表格的頁面
+            announcements = announcement_list_container.css("tr")
+
         articles = []
 
         for announcement in announcements:
@@ -329,6 +336,8 @@ class AnnouncementsSpider(scrapy.Spider):
             article["link"] = response.urljoin(relative_link) if relative_link else None
             # 提取日期
             date_selector = announcement.css(".mdate::text").get()
+            if not date_selector:
+                date_selector = announcement.css(".d-txt::text").get()
             article["date"] = self.process_date(date_selector)
 
             # 只有當文章有標題和單位時才加入列表
@@ -350,7 +359,7 @@ class AnnouncementsSpider(scrapy.Spider):
         Returns:
             str | None: 處理後的日期字串，或 None。
         """
-        if date_text is None:
+        if date_text is None or date_text.strip() == "":
             return None
         return date_text.strip()
 
