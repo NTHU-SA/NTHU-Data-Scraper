@@ -39,10 +39,10 @@ jobs:
       - name: Run crawlers based on runner
         run: |
           if [[ "${{ matrix.runner }}" == "ubuntu-latest" ]]; then
-            scrapy crawl nthu_buses
-            scrapy crawl nthu_dining
-            scrapy crawl nthu_courses
             scrapy crawl nthu_announcements
+            scrapy crawl nthu_buses
+            scrapy crawl nthu_courses
+            scrapy crawl nthu_dining
           elif [[ "${{ matrix.runner }}" == "self-hosted" ]]; then
             scrapy crawl nthu_directory
             scrapy crawl nthu_maps

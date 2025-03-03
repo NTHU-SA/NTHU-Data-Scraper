@@ -107,7 +107,7 @@ def build_lang_urls(original_url: str) -> dict[str, str] | None:
 
 
 def load_rpage_urls_from_directory(
-    directory_path: Path,
+    directory_path: Path, other_data: dict[str, dict[str, str]] = {}
 ) -> dict[str, dict[str, str]]:
     """
     從 JSON 檔案讀取單位資料並建立 Rpage URL 字典。
@@ -120,6 +120,11 @@ def load_rpage_urls_from_directory(
         如果載入或處理過程中發生錯誤，則回傳空字典。
     """
     rpage_urls = {}
+    if directory_path is None or not directory_path.exists():
+        if other_data:
+            return other_data
+        return rpage_urls
+
     with open(directory_path, "r", encoding="UTF-8") as f:
         directory = json.load(f)
 
@@ -133,6 +138,9 @@ def load_rpage_urls_from_directory(
         lang_urls = build_lang_urls(department_url)
         if dept_name and lang_urls:
             rpage_urls[dept_name] = lang_urls
+
+    if other_data:
+        rpage_urls.update(other_data)
     return rpage_urls
 
 
@@ -156,9 +164,7 @@ class AnnouncementsSpider(scrapy.Spider):
         super().__init__(*args, **kwargs)
         self.rpage_urls = {}
         # 從檔案載入
-        self.rpage_urls = load_rpage_urls_from_directory(DIRECTORY_PATH)
-        # 加入其他資料
-        self.rpage_urls.update(other_data)
+        self.rpage_urls = load_rpage_urls_from_directory(DIRECTORY_PATH, other_data)
 
     def start_requests(self):
         """
