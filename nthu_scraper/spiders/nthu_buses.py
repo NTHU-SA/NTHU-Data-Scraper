@@ -434,12 +434,8 @@ class JsonBusPipeline:
             return item  # 如果不是 BusInfo Item 則直接放行
 
         item_dict = dict(item)  # 將 Item 轉換成字典方便處理
-        route_type = item_dict["route_type"]
         item_name = item_dict["item_name"]
-
-        if route_type not in self.bus_data:
-            self.bus_data[route_type] = {}
-        self.bus_data[route_type][item_name] = item_dict["data"]
+        self.bus_data[item_name] = item_dict["data"]
 
         file_path = OUTPUT_FOLDER / f"{item_name}.json"  # 儲存檔案名稱改為 item_name
         with open(file_path, "w", encoding="utf-8") as f:
