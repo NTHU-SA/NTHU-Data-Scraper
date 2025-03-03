@@ -2,13 +2,13 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "86b74defdede535fb139487735c612548f1314b8",
-        "last_updated": "2025-03-03T15:05:38+08:00",
+        "last_commit": "d39904577297eca9ea489b73f09f4196d21811cb",
+        "last_updated": "2025-03-03T15:32:45+08:00",
         "name": "announcements.json"
       },
       {
-        "last_commit": "3752587aa220b9db2e0a70e76c43bd3046ab3f79",
-        "last_updated": "2025-02-25T05:03:51+08:00",
+        "last_commit": "d39904577297eca9ea489b73f09f4196d21811cb",
+        "last_updated": "2025-03-03T15:32:45+08:00",
         "name": "buses.json"
       },
       {
@@ -32,21 +32,21 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "285a03fefd79c9a66dbdd76b7401d7187e2a117e",
-        "last_updated": "2025-03-03T12:06:44+08:00",
+        "last_commit": "7eb46597b7d4da7efb3d68ca0917c504511a6f38",
+        "last_updated": "2025-03-03T15:33:10+08:00",
         "name": "newsletters.json"
       }
     ],
     "buses": [
       {
-        "last_commit": "394ce63362bbb1bb70b44ed7c0eeeab264e0e27d",
-        "last_updated": "2025-02-19T05:59:32+08:00",
-        "name": "main_images.json"
+        "last_commit": "d2d94aaf26a7ea0fc49843f2e9fb6ead96e69c7d",
+        "last_updated": "2025-03-03T15:15:29+08:00",
+        "name": "main_schedule_images.json"
       },
       {
-        "last_commit": "394ce63362bbb1bb70b44ed7c0eeeab264e0e27d",
-        "last_updated": "2025-02-19T05:59:32+08:00",
-        "name": "nanda_images.json"
+        "last_commit": "d2d94aaf26a7ea0fc49843f2e9fb6ead96e69c7d",
+        "last_updated": "2025-03-03T15:15:29+08:00",
+        "name": "nanda_schedule_images.json"
       },
       {
         "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-03-03T15:05:59+08:00"
+  "last_updated": "2025-03-03T15:33:10+08:00"
 }
