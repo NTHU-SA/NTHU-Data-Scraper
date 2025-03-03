@@ -2128,6 +2128,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學台灣文學研究所誠徵所長候選人",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-284099,r5075.php?Lang=zh-tw",
+                "date": "2025-03-03"
+            },
+            {
                 "title": "【徵才】國立清華大學外國語文學系 徵求EMI雙語化學習計畫兼任助理數名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283990,r5075.php?Lang=zh-tw",
                 "date": "2025-02-27"
@@ -2180,11 +2185,6 @@
             {
                 "title": "【誠徵工讀生】原科中心(綠能館) 徵求 114.3.1~114.6.14 工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283780,r5075.php?Lang=zh-tw",
-                "date": "2025-02-24"
-            },
-            {
-                "title": "【誠徵】國立清華大學英語教學精進中心 徵 博士後研究員一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-282420,r5075.php?Lang=zh-tw",
                 "date": "2025-02-24"
             }
         ]
@@ -3356,6 +3356,16 @@
         "department": "通識教育中心",
         "articles": [
             {
+                "title": "【課程】113下京劇新美學課程演講，3/10(一) 13:20-15:20，地點：教育館109教室，歡迎踴躍參與，演講訊息請點入參閱。",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-284101,r11.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【課程】113下京劇新美學課程演講，3/17(一)、4/7(一)、4/21(一)及5/19(一) 13:20-15:20，地點：圖書館1F清沙龍，歡迎踴躍參與，演講訊息請點入參閱。",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-284100,r11.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【講座】2025顧獻樑教授紀念通識講座 Professor Hsien-Liang Koo Memorial Lecture for the Center of General Education",
                 "link": "https://cge.site.nthu.edu.tw/p/404-1573-283835.php?Lang=zh-tw",
                 "date": null
@@ -3403,16 +3413,6 @@
             {
                 "title": "【課程】113(下)通識旅讀系列課程：「旅讀上海：城市的傳統、現在與未來」招生說明會(12/18)",
                 "link": "https://cge.site.nthu.edu.tw/p/406-1573-279153,r11.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【課程】113(下)通識選修課程「京劇新美學：探索體驗」，歡迎各位同學參考與選修。",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-279136,r11.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【講座】歡迎參加「清華校園景觀的現在與未來 - 與建築師們的座談」，講座訊息請點入閱讀。",
-                "link": "https://cge.site.nthu.edu.tw/p/404-1573-278686.php",
                 "date": null
             }
         ]
@@ -5122,12 +5122,22 @@
         "department": "教育與學習科技學系",
         "articles": [
             {
+                "title": "【公告】本系114學年度碩士班【課程與教學組】考試入學面試時間(考生請務必詳閱)",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-284092,r1.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【公告】本系114學年度碩士班【行政與評鑑組】考試入學面試時間(考生請務必詳閱)",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-284090,r1.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "本校師培中心113學年度「口語表達工作坊暨檢定」開放報名",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-283900,r1.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "113學年度本系傑出系友遴選推薦，請踴躍推薦合宜人選，期限為 5月15日前。",
+                "title": "113學年度本系傑出系友遴選推薦，請踴躍推薦合宜人選，期限為 4月18日前。",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-283306,r1.php?Lang=zh-tw",
                 "date": null
             },
@@ -5169,16 +5179,6 @@
             {
                 "title": "【公告】114學年度教科系碩士在職專班（初試榜單公告、複試通知）",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-280914,r1.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【徵才】本系誠徵專任專案組員乙名(長聘缺)",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-280808,r1.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【轉知】國科會「114年度大專學生研究計畫」申請案，申請截止2/21(五)下午1點",
-                "link": "https://rd.nthu.edu.tw/News-4061.html",
                 "date": null
             }
         ]
@@ -7339,7 +7339,7 @@
         "department": "工學院",
         "articles": [
             {
-                "title": "(Open for Online Application) 📣 2025 Summer Research Program at College of Engineering, National Tsing Hua University, Taiwan",
+                "title": "(Application, due by Feb 28th, 2025) 📣 2025 Summer Research Program at College of Engineering, National Tsing Hua University, Taiwan",
                 "link": "https://eng-en.site.nthu.edu.tw/p/404-1060-281472.php",
                 "date": "2025-01-20"
             },
@@ -7349,13 +7349,18 @@
                 "date": "2025-02-19"
             },
             {
-                "title": "【工學院英文書報討論】Microfluidic Advanced Process for Chemical and Biological Applications  - 黃振煌教授／國立清華大學化學工程學系",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-283582,r3361.php?Lang=zh-tw",
+                "title": "【工學院開始受理】工學院「出國逐夢」獎助金 - 113學年度下學期之申請　*03月31日（一）截止",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-283616,r3361.php?Lang=zh-tw",
                 "date": "2025-02-20"
             },
             {
-                "title": "【工學院開始受理】工學院「出國逐夢」獎助金 - 113學年度下學期之申請　*03月31日（一）截止",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-283616,r3361.php?Lang=zh-tw",
+                "title": "【工學院英文書報討論】Materials and Electrode Design for Practical Electrolysis  - 潘詠庭教授／國立清華大學化學工程學系",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-284097,r3361.php?Lang=zh-tw",
+                "date": "2025-02-28"
+            },
+            {
+                "title": "【工學院英文書報討論】Microfluidic Advanced Process for Chemical and Biological Applications  - 黃振煌教授／國立清華大學化學工程學系",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-283582,r3361.php?Lang=zh-tw",
                 "date": "2025-02-20"
             },
             {
@@ -7382,11 +7387,6 @@
                 "title": "【工學院開始受理】工學院大立光電工讀助學金 - 113學年度之申請　*12月20日（五）截止",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-278880,r3361.php?Lang=zh-tw",
                 "date": "2024-11-20"
-            },
-            {
-                "title": "【工學院英文書報討論】Blue Light Hazards and Methods of Resolution - 周卓煇教授／國立清華大學材料科學工程學系",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-276802,r3361.php?Lang=zh-tw",
-                "date": "2024-10-11"
             }
         ]
     },
@@ -8397,6 +8397,39 @@
             {
                 "title": "榮譽榜",
                 "link": "https://gimse.site.nthu.edu.tw/p/406-1115-10511,r1.php?Lang=en",
+                "date": null
+            }
+        ]
+    },
+    {
+        "title": "最新消息",
+        "link": "https://gimse.site.nthu.edu.tw/p/403-1115-1-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "數理教育研究所",
+        "articles": [
+            {
+                "title": "114年2、3月份論文計畫發表暨學位考試場次",
+                "link": "https://gimse.site.nthu.edu.tw/p/406-1115-22964,r1.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "學生研討室的學生私人物品請於114年3月底前清空",
+                "link": "https://gimse.site.nthu.edu.tw/p/406-1115-277191,r1.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "International Conference on “Sustainable Science Education: Shaping a Brighter Future”",
+                "link": "https://gcaser2025.com/",
+                "date": null
+            },
+            {
+                "title": "114學年度招生資訊",
+                "link": "https://gimse.site.nthu.edu.tw/p/406-1115-269414,r1.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "114學年度碩士在職專班放榜",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-283811,r8557.php?Lang=zh-tw",
                 "date": null
             }
         ]
