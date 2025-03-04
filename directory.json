@@ -23991,7 +23991,7 @@
         "details": {
             "departments": [],
             "contact": {
-                "extension": "73203、73202",
+                "extension": "73203 73202",
                 "fax": "03-5264014",
                 "email": "gdece@my.nthu.edu.tw",
                 "website": "http://www.gdece.nthu.edu.tw"
@@ -24000,9 +24000,23 @@
                 {
                     "name": "辛靜婷",
                     "title": "教授/系主任",
-                    "extension": "73225、73200",
+                    "extension": "73225 73200",
                     "note": null,
                     "email": "cthsin@gapp.nthu.edu.tw"
+                },
+                {
+                    "name": "謝明芳",
+                    "title": "教授",
+                    "extension": "73224",
+                    "note": null,
+                    "email": "mf.hsieh@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "孫良誠",
+                    "title": "教授",
+                    "extension": "73231",
+                    "note": null,
+                    "email": "lcsun@mx.nthu.edu.tw"
                 },
                 {
                     "name": "鐘梅菁",
@@ -24026,32 +24040,11 @@
                     "email": "ding2020@gapp.nthu.edu.tw"
                 },
                 {
-                    "name": "陳文玲",
-                    "title": "副教授",
-                    "extension": "73226",
-                    "note": null,
-                    "email": "wenling@mx.nthu.edu.tw"
-                },
-                {
                     "name": "劉淑英",
                     "title": "副教授",
                     "extension": "73222",
                     "note": null,
                     "email": "danceliu88@gmail.com"
-                },
-                {
-                    "name": "謝明芳",
-                    "title": "副教授",
-                    "extension": "73224",
-                    "note": null,
-                    "email": "mf.hsieh@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "孫良誠",
-                    "title": "副教授",
-                    "extension": "73231",
-                    "note": null,
-                    "email": "lcsun@mx.nthu.edu.tw"
                 },
                 {
                     "name": "陳湘淳",
@@ -24082,6 +24075,13 @@
                     "email": "yt.tsou@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "陳文玲",
+                    "title": "退休副教授",
+                    "extension": "73226",
+                    "note": null,
+                    "email": "wenling@mx.nthu.edu.tw"
+                },
+                {
                     "name": "羅郁琦",
                     "title": "行政組員",
                     "extension": "77300",
@@ -24089,11 +24089,11 @@
                     "email": "yuchi@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "蔣瑋瓴",
+                    "name": "沈昭伶",
                     "title": "專案助理",
                     "extension": "73201",
                     "note": null,
-                    "email": "wl_chiang@mx.nthu.edu.tw"
+                    "email": "chaoling@mx.nthu.edu.tw"
                 },
                 {
                     "name": "曾筱茜",
@@ -24105,7 +24105,7 @@
                 {
                     "name": "幼兒教育中心",
                     "title": "",
-                    "extension": "77301、77305",
+                    "extension": "77301 77305",
                     "note": "",
                     "email": "nthuchildcare@gmail.com"
                 }
@@ -24997,7 +24997,7 @@
                 {
                     "name": "高榮禧",
                     "title": "退休副教授",
-                    "extension": "72920",
+                    "extension": "",
                     "note": null,
                     "email": "jhkao@mx.nthu.edu.tw"
                 },
