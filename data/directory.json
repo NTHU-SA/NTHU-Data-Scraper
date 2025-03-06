@@ -1280,39 +1280,18 @@
                     "email": "thtsai@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "王慧菁",
-                    "title": "學習促進與研究規劃組組長",
-                    "extension": "35052   42069",
-                    "note": null,
-                    "email": "lilywang@life.nthu.edu.tw"
-                },
-                {
                     "name": "郭孟倫",
-                    "title": "助理研究員",
-                    "extension": "35403",
-                    "note": "R210",
+                    "title": "學習促進與研究規劃組組長",
+                    "extension": "35052",
+                    "note": null,
                     "email": "tonny@gapp.nthu.edu.tw"
                 },
                 {
-                    "name": "謝秀伶",
-                    "title": "行政組員",
-                    "extension": "35090",
-                    "note": "R205",
-                    "email": "hsiuling@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "林宜珊",
-                    "title": "研究助理",
-                    "extension": "35092",
-                    "note": "R205",
-                    "email": "yishan2@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "鄭阡妤",
-                    "title": "研究助理",
-                    "extension": "35054",
-                    "note": "R205",
-                    "email": "chengchienyu@mx.nthu.edu.tw"
+                    "name": "高千惠",
+                    "title": "博士研究助理",
+                    "extension": "35403",
+                    "note": "R210",
+                    "email": "chienhuikao@gapp.nthu.edu.tw"
                 },
                 {
                     "name": "吳孟芬",
@@ -1329,6 +1308,41 @@
                     "email": "yhtseng@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "黃卿如",
+                    "title": "行政組員",
+                    "extension": "35053",
+                    "note": "R205",
+                    "email": "cjhuang@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "謝秀伶",
+                    "title": "行政組員",
+                    "extension": "35090",
+                    "note": "R205",
+                    "email": "hsiuling@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "林宜珊",
+                    "title": "專案組員",
+                    "extension": "35092",
+                    "note": "R205",
+                    "email": "yishan2@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "鄭阡妤",
+                    "title": "專案組員",
+                    "extension": "35054",
+                    "note": "R205",
+                    "email": "chengchienyu@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "陳怡妤",
+                    "title": "研究助理",
+                    "extension": "35208",
+                    "note": "R205",
+                    "email": "iyu@mx.nthu.edu.tw"
+                },
+                {
                     "name": "莊森堯",
                     "title": "研究助理 / 影音製作人",
                     "extension": "35057",
@@ -1341,20 +1355,6 @@
                     "extension": "35058",
                     "note": "R230",
                     "email": "chinhang@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "黃卿如",
-                    "title": "行政組員",
-                    "extension": "35053",
-                    "note": "R205",
-                    "email": "cjhuang@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "陳怡妤",
-                    "title": "研究助理",
-                    "extension": "35208",
-                    "note": "R205",
-                    "email": "iyu@mx.nthu.edu.tw"
                 }
             ]
         }
@@ -21538,6 +21538,13 @@
                     "email": "chaocy@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "李昱岑",
+                    "title": "研究助理 / EMI 雙語化學習計畫",
+                    "extension": "62114",
+                    "note": null,
+                    "email": "yh-lee@mx.nthu.edu.tw"
+                },
+                {
                     "name": "葉曳芳",
                     "title": "研究助理",
                     "extension": "62000",
@@ -21758,7 +21765,7 @@
                 },
                 {
                     "name": "王振源",
-                    "title": "副教授",
+                    "title": "教授",
                     "extension": "42442",
                     "note": null,
                     "email": "wcy@mx.nthu.edu.tw"
@@ -21793,7 +21800,7 @@
                 },
                 {
                     "name": "錢克瑄",
-                    "title": "助理教授",
+                    "title": "副教授",
                     "extension": "62537",
                     "note": null,
                     "email": "chienkh@mx.nthu.edu.tw"
@@ -21804,6 +21811,13 @@
                     "extension": "62159",
                     "note": null,
                     "email": "py.chien@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "李柏毅",
+                    "title": "助理教授",
+                    "extension": "42418",
+                    "note": null,
+                    "email": "bylee@mx.nthu.edu.tw"
                 },
                 {
                     "name": "廖珮汝",
