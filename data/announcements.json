@@ -2440,6 +2440,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "數位發展部辦理之「亞太網路治理學院—臺灣研習營」活動",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-284383,r5084.php?Lang=zh-tw",
+                "date": "2025-03-06"
+            },
+            {
                 "title": "國立高雄師範大學《校刊》出刊，歡迎上網點閱轉知",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-274189,r5084.php?Lang=zh-tw",
                 "date": "2025-03-05"
@@ -2493,11 +2498,6 @@
                 "title": "國立臺中教育大學檢送《高等教育研究紀要》徵稿訊息，請踴躍投稿",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-148982,r5084.php?Lang=zh-tw",
                 "date": "2025-02-20"
-            },
-            {
-                "title": "國立臺北科技大學教學實踐研究計畫北區基地辦理「教學實踐研究-AI文本、簡報、繪圖、影音工具融入教學」工作坊（114/03/03）",
-                "link": "https://tpr.site.nthu.edu.tw/p/406-1150-283503,r6748.php?Lang=zh-tw",
-                "date": "2025-02-19"
             }
         ]
     },
@@ -2507,6 +2507,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "數位發展部辦理之「亞太網路治理學院—臺灣研習營」活動",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-284383,r5085.php?Lang=zh-tw",
+                "date": "2025-03-06"
+            },
             {
                 "title": "【華語中心課程】第35期華語師資培訓｜120小時假日班 (4/12~6/29 )，清大在校生享學費折抵1萬元！",
                 "link": "https://clc-cc.vm.nthu.edu.tw/home/index.php/teacher_training/course_page/65",
@@ -2561,11 +2566,6 @@
                 "title": "【歡迎參加】美光職場伴跑計畫",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-280363,r5085.php?Lang=zh-tw",
                 "date": "2024-12-18"
-            },
-            {
-                "title": "【國立清華大學全球化經濟研究中心】2025年大專生研究計畫，歡迎本校同學申請",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-280246,r5085.php?Lang=zh-tw",
-                "date": "2024-12-16"
             }
         ]
     },
@@ -11554,6 +11554,16 @@
                 "date": null
             },
             {
+                "title": "【校外】 台積電(TSMC)實體|就業博覽會► 2025/03/22(六) 10:00-16:00 清華大學，台積電攤位：E55.E56.E57.E58",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-284381,r772.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【校外】 台積電(TSMC)實體|徵才說明會► 2025/03/12(三) 19:10-20清華大學，地點：清華名人堂",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-284380,r772.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【校內】清華-加州大學柏克萊分校UC Berkeley「3+1+X學碩計畫-3/28中午清沙龍",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-284303,r772.php?Lang=zh-tw",
                 "date": null
@@ -11576,16 +11586,6 @@
             {
                 "title": "【大學入學】111學年度申請入學筆試暨互動式面談注意事項",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-226795,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【大學入學】110學年度工學院學士班個人申請筆試暨互動式面談資訊",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-198438,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【學業資訊】113-2加退選截止時間2/28 上午09:00、校際選課2/27下午05:00截止!",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-282422,r7797.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -13583,7 +13583,7 @@
                 "date": null
             },
             {
-                "title": "【報名即將截止!!!】113學年第二學期工作坊：第一梯次03.10起",
+                "title": "【報名已截止】113學年第二學期工作坊：第一梯次03.10起",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-281352,r6822.php?Lang=zh-tw",
                 "date": null
             },
@@ -15307,6 +15307,16 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "(轉知)國立基隆高級中學98週年傑出校友遴選，請踴躍推薦參加。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-284377,r2506.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "(轉知)聖約翰科技大學114年傑出校友遴選，請踴躍推薦參加。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-284375,r2506.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "(轉知)中央研究院書函，114年「知識饗宴－王世杰院長科普講座」，請同仁踴躍報名",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-284073,r2506.php?Lang=zh-tw",
                 "date": null
@@ -15354,16 +15364,6 @@
             {
                 "title": "(轉知)中央研究院書函，114年「知識饗宴－蔡元培院長科普講座」，請同仁踴躍報名",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-280801,r2506.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "(轉知)國立中興大學第29屆傑出校友遴選，請踴躍推薦參加。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-279419,r2506.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "[轉知]舉辦「2025第33屆教師生命成長營」，請踴躍推薦參加。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-278247,r2506.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -17696,6 +17696,11 @@
                 "date": "2024-04-25"
             },
             {
+                "title": "113學年度第一次齋長聯席會議記錄",
+                "link": "https://sthousing.site.nthu.edu.tw/p/412-1254-21770.php?Lang=zh-tw",
+                "date": "2025-03-06"
+            },
+            {
                 "title": "3/4～3/26 暫停113學年度下學期研究所舊生床位異動公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-284119,r1538.php?Lang=zh-tw",
                 "date": "2025-03-03"
@@ -17729,11 +17734,6 @@
                 "title": "3/11、3/12、3/13學生宿舍消毒公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-283465,r1538.php?Lang=zh-tw",
                 "date": "2025-02-18"
-            },
-            {
-                "title": "114年宿舍區消防安全設備年度檢修行程表",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-281975,r1538.php?Lang=zh-tw",
-                "date": "2025-02-03"
             }
         ]
     },
