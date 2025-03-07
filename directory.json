@@ -7909,7 +7909,7 @@
                 }
             ],
             "contact": {
-                "extension": "62004",
+                "extension": "62374",
                 "phone": "03-5162004",
                 "fax": "03-5162489",
                 "email": "oasrd@my.nthu.edu.tw",
@@ -8030,6 +8030,13 @@
             },
             "people": [
                 {
+                    "name": "翁翊甯",
+                    "title": "代理組長",
+                    "extension": "62374",
+                    "note": null,
+                    "email": "oasrd@my.nthu.edu.tw"
+                },
+                {
                     "name": "杜玟玲",
                     "title": "經理",
                     "extension": "62371",
@@ -8053,7 +8060,7 @@
                 {
                     "name": "黃淑婷",
                     "title": "助理管理師",
-                    "extension": "62374",
+                    "extension": "62377",
                     "note": null,
                     "email": "shuting@mx.nthu.edu.tw"
                 },
@@ -22745,7 +22752,7 @@
                 {
                     "name": "黃淑婷",
                     "title": "助理",
-                    "extension": "62374",
+                    "extension": "62377",
                     "note": null,
                     "email": "shuting@mx.nthu.edu.tw"
                 }
@@ -27676,7 +27683,7 @@
                 {
                     "name": "黃淑婷",
                     "title": "校友服務及資源發展處 / (綠)三級優先 現場處理不送醫",
-                    "extension": "62374",
+                    "extension": "62377",
                     "note": "學習資源中心",
                     "email": "shuting@mx.nthu.edu.tw"
                 },
