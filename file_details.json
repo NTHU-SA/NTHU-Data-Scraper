@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ae6c268679cb235cb30bab89d23a4ead01826fce",
-        "last_updated": "2025-03-12T16:06:23+08:00",
+        "last_commit": "997e29fbd07de4e055a9a783d6e269ddf4b34ba6",
+        "last_updated": "2025-03-12T17:05:33+08:00",
         "name": "announcements.json"
       },
       {
@@ -32,8 +32,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "f025876bf6d55ac6d207e5ec723b8f7a91c604f0",
-        "last_updated": "2025-03-12T12:06:24+08:00",
+        "last_commit": "756e0a03ba7fd1027625801e97870ab11679725a",
+        "last_updated": "2025-03-12T17:05:46+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-03-12T16:06:23+08:00"
+  "last_updated": "2025-03-12T17:05:46+08:00"
 }
