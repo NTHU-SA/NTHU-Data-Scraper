@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d0cb2e6aa1660887a24b6423db345d18d29e31c5",
-        "last_updated": "2025-03-13T15:05:20+08:00",
+        "last_commit": "34b1a6ef28f873c1b0e85a884a80bc3b152c7422",
+        "last_updated": "2025-03-13T17:05:41+08:00",
         "name": "announcements.json"
       },
       {
@@ -17,13 +17,13 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "d0cb2e6aa1660887a24b6423db345d18d29e31c5",
-        "last_updated": "2025-03-13T15:05:20+08:00",
+        "last_commit": "34b1a6ef28f873c1b0e85a884a80bc3b152c7422",
+        "last_updated": "2025-03-13T17:05:41+08:00",
         "name": "dining.json"
       },
       {
-        "last_commit": "eaa1798f448fdbd2737e66358485542e37f04907",
-        "last_updated": "2025-03-13T12:06:36+08:00",
+        "last_commit": "fd7446ca02e8d68c764c405ca5259cedad281706",
+        "last_updated": "2025-03-13T16:06:28+08:00",
         "name": "directory.json"
       },
       {
@@ -32,8 +32,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "eaa1798f448fdbd2737e66358485542e37f04907",
-        "last_updated": "2025-03-13T12:06:36+08:00",
+        "last_commit": "c728b87d69d18d6e0ab75f5247b6df944ad8d31d",
+        "last_updated": "2025-03-13T17:05:49+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-03-13T15:05:20+08:00"
+  "last_updated": "2025-03-13T17:05:49+08:00"
 }
