@@ -841,6 +841,16 @@
         "department": "事務組",
         "articles": [
             {
+                "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2025.03.17~2025.04.20.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-284893,r127.php?Lang=en",
+                "date": "2025-03-13"
+            },
+            {
+                "title": "NTHU Shuttle Bus Timetable 2025.03.17~2025.04.19.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-284892,r127.php?Lang=en",
+                "date": "2025-03-13"
+            },
+            {
                 "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service on 2025/02/28-2025/03/02(228 National Holidays).",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-283267,r127.php?Lang=en",
                 "date": "2025-02-17"
@@ -889,16 +899,6 @@
                 "title": "Renew Nanda <-> Main Campus Shuttle Bus Timetable 2024/11/4~2024/12/22.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-277524,r127.php?Lang=en",
                 "date": "2024-10-29"
-            },
-            {
-                "title": "NTHU Shuttle Bus and Nanda-Main Campus Shuttle Bus Timetable will be changed on Nov. 6.(Sports Day)",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-277525,r127.php?Lang=en",
-                "date": "2024-10-29"
-            },
-            {
-                "title": "NTHU Shuttle Bus Timetable 2024/11/4~2024/12/21.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-277522,r127.php?Lang=en",
-                "date": "2024-10-29"
             }
         ]
     },
@@ -908,6 +908,16 @@
         "language": "zh-tw",
         "department": "事務組",
         "articles": [
+            {
+                "title": "3/17(一)~4/20(日)南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-284893,r127.php?Lang=zh-tw",
+                "date": "2025-03-13"
+            },
+            {
+                "title": "3/17(一)~4/19(六)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-284892,r127.php?Lang=zh-tw",
+                "date": "2025-03-13"
+            },
             {
                 "title": "114年清明連假垃圾清運時間調整公告",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-284838,r127.php?Lang=zh-tw",
@@ -957,16 +967,6 @@
                 "title": "【公告】校園環境消毒作業 Environmental Disinfection Announcement",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-282147,r127.php?Lang=zh-tw",
                 "date": "2025-02-06"
-            },
-            {
-                "title": "校園公車台積館至北校門下山路線，擬自114年2月17日起取消女宿前站點",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-282142,r127.php?Lang=zh-tw",
-                "date": "2025-02-06"
-            },
-            {
-                "title": "【公告】旺宏館114年春節閉館時間",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-281679,r127.php?Lang=zh-tw",
-                "date": "2025-01-20"
             }
         ]
     },
@@ -11340,6 +11340,11 @@
         "department": "工學院學士班",
         "articles": [
             {
+                "title": "【大學入學】114學年度工學院學士班-大學申請入學第二階段甄選日程表",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-284890,r11156.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【大學入學】114學年度大學申請入學第二階段各學系甄選日程表",
                 "link": "https://adms.site.nthu.edu.tw/p/404-1207-282146.php?Lang=zh-tw",
                 "date": null
@@ -11392,11 +11397,6 @@
             {
                 "title": "【獎助】110年IPE海外研修獎助金甄選簡章-110.5/24(一)12:00截止。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-206221,r11156.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【獎助】111年IPE海外研修獎助金甄選簡章-111.2/15(二)12:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-222195,r11156.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -14231,6 +14231,11 @@
         "department": "奈米工程與微系統研究所",
         "articles": [
             {
+                "title": "Seminar of Inst. NanoEngineering and MicroSystems, March 24, 2025",
+                "link": "https://nems.site.nthu.edu.tw/p/406-1302-284891,r1495.php?Lang=en",
+                "date": "2025-03-13"
+            },
+            {
                 "title": "【專題演講】 03/21（Fri.）Mini-Workshop for Polymer Science and Biomaterials",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-284647,r1495.php?Lang=en",
                 "date": "2025-03-10"
@@ -14284,11 +14289,6 @@
                 "title": "Seminar of Inst. NanoEngineering and MicroSystems, October 21, 2024",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-276655,r1495.php?Lang=en",
                 "date": "2024-10-15"
-            },
-            {
-                "title": "Seminar of Inst. NanoEngineering and MicroSystems, October 14, 2024",
-                "link": "https://nems.site.nthu.edu.tw/p/406-1302-276327,r1495.php?Lang=en",
-                "date": "2024-10-08"
             }
         ]
     },
@@ -14298,6 +14298,11 @@
         "language": "zh-tw",
         "department": "奈米工程與微系統研究所",
         "articles": [
+            {
+                "title": "奈米工程與微系統研究所114年3月24日書報討論",
+                "link": "https://nems.site.nthu.edu.tw/p/406-1302-284891,r1495.php?Lang=zh-tw",
+                "date": "2025-03-13"
+            },
             {
                 "title": "【專題演講】 03/21（五）Mini-Workshop for Polymer Science and Biomaterials",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-284645,r1495.php?Lang=zh-tw",
@@ -14352,11 +14357,6 @@
                 "title": "奈米工程與微系統研究所113年10月28日書報討論",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-277171,r1495.php?Lang=zh-tw",
                 "date": "2024-10-24"
-            },
-            {
-                "title": "奈米工程與微系統研究所113年10月21日書報討論",
-                "link": "https://nems.site.nthu.edu.tw/p/406-1302-276655,r1495.php?Lang=zh-tw",
-                "date": "2024-10-15"
             }
         ]
     },
