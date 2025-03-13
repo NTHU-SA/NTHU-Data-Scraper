@@ -2,13 +2,13 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
+        "last_updated": "2025-03-13T10:30:36+08:00",
         "name": "announcements.json"
       },
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
+        "last_updated": "2025-03-13T10:30:36+08:00",
         "name": "buses.json"
       },
       {
@@ -49,23 +49,23 @@
         "name": "nanda_schedule_images.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
+        "last_updated": "2025-03-13T10:30:36+08:00",
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
+        "last_updated": "2025-03-13T10:30:36+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
+        "last_updated": "2025-03-13T10:30:36+08:00",
         "name": "towardSouthCampusInfo.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
+        "last_updated": "2025-03-13T10:30:36+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-03-13T09:32:59+08:00"
+  "last_updated": "2025-03-13T10:30:36+08:00"
 }

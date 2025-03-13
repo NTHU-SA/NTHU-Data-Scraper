@@ -9,25 +9,25 @@
     ],
     "towardMainCampusInfo": {
         "direction": "往校本部 (To Main Campus)",
-        "duration": "2025/02/17 ~ 2025/03/16",
+        "duration": "2025/02/17 ~ 2025/04/20",
         "route": "南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口",
         "routeEN": "The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Builing → General Building II→School North Gate"
     },
     "towardMainGateInfo": {
         "direction": "往校門口 (To Main Gate)",
-        "duration": "2025/02/17 ~ 2025/03/15",
+        "duration": "2025/02/17 ~ 2025/04/19",
         "route": "(紅線)  台積館 →  南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院 → 綜二館 → 北校門口",
         "routeEN": "(Red Line)  TSMC Building →  South Gate Parking Lot  →  Yi Pavilion Parking Lot  → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → General Building II → North Main Gate"
     },
     "towardSouthCampusInfo": {
         "direction": "往南大校區 (To Nanda Campus)",
-        "duration": "2025/02/17 ~ 2025/03/16",
+        "duration": "2025/02/17 ~ 2025/04/20",
         "route": "北校門口 → 綜二館 → 人社院/生科館 → 台積館(經寶山路) → 南大校區校門口右側(食品路校牆邊)",
         "routeEN": "School North Gate → General Building II → CHSS/CLS Building → TSMC Building(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road)"
     },
     "towardTSMCBuildingInfo": {
         "direction": "往台積館 (To TSMC Building)",
-        "duration": "2025/02/17 ~ 2025/03/15",
+        "duration": "2025/02/17 ~ 2025/04/19",
         "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑 →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑 →  奕園停車場  →  南門停車場  → 台積館",
         "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  South Gate Parking Lot  → TSMC Building"
     },
