@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fd84d47984a4d651df69a022fbf3e533c193b4c4",
-        "last_updated": "2025-03-15T23:05:01+08:00",
+        "last_commit": "f7c4c75464c0c9bd6b412f22047d890df418d931",
+        "last_updated": "2025-03-23T00:05:10+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,18 +12,18 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "b67d430cea7b7fbb594efc26b7a164e73d5aeec9",
-        "last_updated": "2025-03-15T05:05:20+08:00",
+        "last_commit": "9a23069d0e9488de1d4931a4ba44dd7265bb98c9",
+        "last_updated": "2025-03-22T05:04:58+08:00",
         "name": "courses.json"
       },
       {
-        "last_commit": "f63a7ef285e1fdf585e3a7643537a457ab0b9fb6",
-        "last_updated": "2025-03-14T10:29:31+08:00",
+        "last_commit": "903bd831b1ad039ca5e103491ffe9fd67273fa99",
+        "last_updated": "2025-03-21T09:32:31+08:00",
         "name": "dining.json"
       },
       {
-        "last_commit": "fd7446ca02e8d68c764c405ca5259cedad281706",
-        "last_updated": "2025-03-13T16:06:28+08:00",
+        "last_commit": "23e18e36f6453c7563d2cb945b0c75b6bfa76e52",
+        "last_updated": "2025-03-23T05:03:57+08:00",
         "name": "directory.json"
       },
       {
@@ -32,8 +32,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "a4070b2a0eb920f2314fab08b4474ab02c4fbbba",
-        "last_updated": "2025-03-15T12:06:01+08:00",
+        "last_commit": "23e18e36f6453c7563d2cb945b0c75b6bfa76e52",
+        "last_updated": "2025-03-23T05:03:57+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -148,8 +148,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "b67d430cea7b7fbb594efc26b7a164e73d5aeec9",
-        "last_updated": "2025-03-15T05:05:20+08:00",
+        "last_commit": "9a23069d0e9488de1d4931a4ba44dd7265bb98c9",
+        "last_updated": "2025-03-22T05:04:58+08:00",
         "name": "latest.json"
       }
     ],
@@ -200,8 +200,8 @@
         "name": "11220.json"
       },
       {
-        "last_commit": "b67d430cea7b7fbb594efc26b7a164e73d5aeec9",
-        "last_updated": "2025-03-15T05:05:20+08:00",
+        "last_commit": "9a23069d0e9488de1d4931a4ba44dd7265bb98c9",
+        "last_updated": "2025-03-22T05:04:58+08:00",
         "name": "11320.json"
       }
     ],
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-03-15T23:05:01+08:00"
+  "last_updated": "2025-03-23T05:03:57+08:00"
 }
