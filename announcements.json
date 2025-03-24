@@ -841,6 +841,16 @@
         "department": "事務組",
         "articles": [
             {
+                "title": "Both \"NTHU Shuttle Bus\" and \"Nanda <-> Main Campus Shuttle Bus\" will be out of service on 2025/04/02-2024/04/06 (Tomb Sweeping Festival and Children's Day).",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285812,r127.php?Lang=en",
+                "date": "2025-03-24"
+            },
+            {
+                "title": "The Academia Sinica Shuttle Bus will be out of service on 2025/04/03-2025/04/06.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285811,r127.php?Lang=en",
+                "date": "2025-03-24"
+            },
+            {
                 "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2025.03.17~2025.04.20.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-284893,r127.php?Lang=en",
                 "date": "2025-03-13"
@@ -889,16 +899,6 @@
                 "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2024.12.23~2025.2.14.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-280341,r127.php?Lang=en",
                 "date": "2024-12-18"
-            },
-            {
-                "title": "NTHU Shuttle Bus Timetable  2024.12.23~2025.2.14.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-280340,r127.php?Lang=en",
-                "date": "2024-12-18"
-            },
-            {
-                "title": "Renew Nanda <-> Main Campus Shuttle Bus Timetable 2024/11/4~2024/12/22.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-277524,r127.php?Lang=en",
-                "date": "2024-10-29"
             }
         ]
     },
@@ -912,6 +912,21 @@
                 "title": "114/5/25畢業典禮光復路北大門花卉零售等設攤申請",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285124,r127.php?Lang=zh-tw",
                 "date": "2025-03-14"
+            },
+            {
+                "title": "4/2(三)停課一日，校園公車及南大校區區間車時刻表異動",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285813,r127.php?Lang=zh-tw",
+                "date": "2025-03-24"
+            },
+            {
+                "title": "清明連假4/3(四)~4/6(日)校園公車及區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285812,r127.php?Lang=zh-tw",
+                "date": "2025-03-24"
+            },
+            {
+                "title": "4月3日(四)~ 4月6日(日)中研院區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285811,r127.php?Lang=zh-tw",
+                "date": "2025-03-24"
             },
             {
                 "title": "【114年3月24-28日旺宏館沉思者雕像修復工程】",
@@ -952,21 +967,6 @@
                 "title": "114年228國定假日垃圾清運時間表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-283440,r127.php?Lang=zh-tw",
                 "date": "2025-02-18"
-            },
-            {
-                "title": "2月28日(五)~3月2日(日)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-283267,r127.php?Lang=zh-tw",
-                "date": "2025-02-17"
-            },
-            {
-                "title": "2/17(一)~3/16(日)南大校區區間車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-282378,r127.php?Lang=zh-tw",
-                "date": "2025-02-11"
-            },
-            {
-                "title": "2/17(一)~3/15(六)校園公車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-282377,r127.php?Lang=zh-tw",
-                "date": "2025-02-11"
             }
         ]
     },
@@ -2440,6 +2440,21 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "亞東科技大學《亞東學報》徵稿訊息，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-253694,r5084.php?Lang=zh-tw",
+                "date": "2025-03-24"
+            },
+            {
+                "title": "國立勤益科技大學檢送《台日法政研究.》徵稿，敬請踴躍賜稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-233214,r5084.php?Lang=zh-tw",
+                "date": "2025-03-24"
+            },
+            {
+                "title": "景文科技大學檢送「景文學報」徵稿訊息，請踴躍投稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-142052,r5084.php?Lang=zh-tw",
+                "date": "2025-03-24"
+            },
+            {
                 "title": "國立彰化師範大學檢送「彰化師大體育學報」徵稿訊息，歡迎師生踴躍投稿。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-108885,r5084.php?Lang=zh-tw",
                 "date": "2025-03-19"
@@ -2483,21 +2498,6 @@
                 "title": "【演講公告】3/14(下午)13:20-16:20講座: 韓國首爾大學韓崇熙教授(Zombies, Viruses,and Vaccines - The Urgency of Critical Education in the World Politics Undermining Democracy)",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-284834,r1.php?Lang=zh-tw",
                 "date": "2025-03-12"
-            },
-            {
-                "title": "大葉大學「科學與工程技術期刊」徵稿，歡迎本校師生踴躍投稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-121044,r5084.php?Lang=zh-tw",
-                "date": "2025-03-07"
-            },
-            {
-                "title": "國立屏東科技大學發行《人文社會科學研究》，請踴躍投稿",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-258566,r5084.php?Lang=zh-tw",
-                "date": "2025-03-07"
-            },
-            {
-                "title": "國立屏東科技大學發行《人文社會科學研究：教育類》，請踴躍投稿",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-146473,r5084.php?Lang=zh-tw",
-                "date": "2025-03-07"
             }
         ]
     },
