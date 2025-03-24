@@ -24164,9 +24164,16 @@
                 {
                     "name": "趙軒甫",
                     "title": "教授兼系主任",
-                    "extension": "73800、73811",
+                    "extension": "73800 73811",
                     "note": null,
                     "email": "hfchao@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "朱惠瓊",
+                    "title": "教授",
+                    "extension": "73812",
+                    "note": null,
+                    "email": "hcchu@mx.nthu.edu.tw"
                 },
                 {
                     "name": "林旖旎",
@@ -24223,13 +24230,6 @@
                     "extension": "42903",
                     "note": null,
                     "email": "chenghongliu@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "朱惠瓊",
-                    "title": "副教授",
-                    "extension": "73812",
-                    "note": null,
-                    "email": "hcchu@mx.nthu.edu.tw"
                 },
                 {
                     "name": "江旭新",
@@ -24289,14 +24289,14 @@
                 },
                 {
                     "name": "張淑婷",
-                    "title": "行政助理",
+                    "title": "行政組員",
                     "extension": "73801",
                     "note": null,
                     "email": "st.chang@mx.nthu.edu.tw"
                 },
                 {
                     "name": "陳莉婷",
-                    "title": "行政助理",
+                    "title": "行政組員",
                     "extension": "73802",
                     "note": null,
                     "email": "liting@mx.nthu.edu.tw"
@@ -24307,6 +24307,27 @@
                     "extension": "73803",
                     "note": null,
                     "email": "wt.huang@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "江佩蓉",
+                    "title": "研究助理",
+                    "extension": "73829",
+                    "note": "李昆樺老師助理",
+                    "email": null
+                },
+                {
+                    "name": "陳彥如",
+                    "title": "研究助理",
+                    "extension": "73829",
+                    "note": "李昆樺老師助理",
+                    "email": null
+                },
+                {
+                    "name": "龍佳欣",
+                    "title": "研究助理",
+                    "extension": "73829",
+                    "note": "趙軒甫老師助理",
+                    "email": null
                 },
                 {
                     "name": "計畫助理辦公室",
