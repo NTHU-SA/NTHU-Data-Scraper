@@ -1,5 +1,47 @@
 [
     {
+        "name": "NTHU-Division of Health Service",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-14-nthu-division-of-health-service",
+        "details": {
+            "管理者": "任俊豪",
+            "管理單位": "衛生保健組",
+            "電子信箱": "clinic@my.nthu.edu.tw",
+            "聯絡電話": "43000"
+        },
+        "articles": []
+    },
+    {
+        "name": "NTHU-Newsletter",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-15-nthu-newsletter",
+        "details": {
+            "管理者": "陳雅慧",
+            "管理單位": "副校長室",
+            "電子信箱": "newsletter-team@my.nthu.edu.tw",
+            "聯絡電話": "62004"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-15/mailid-1579-2022-newsletter-no-1?tmpl=component&tmpl=component",
+                "title": "NTHU Newsletter 2022 No. 1",
+                "date": "2022-02-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-15/mailid-1087-2021-newsletter-no-3?tmpl=component&tmpl=component",
+                "title": "NTHU Newsletter 2021 No. 3",
+                "date": "2021-08-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-15/mailid-759-2021-newsletter-no-2?tmpl=component&tmpl=component",
+                "title": "NTHU Newsletter 2021 No. 2",
+                "date": "2021-06-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-15/mailid-255-2021-newsletter-no-2?tmpl=component&tmpl=component",
+                "title": "Newsletter"
+            }
+        ]
+    },
+    {
         "name": "eecs-students",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-36-eecs-students",
         "details": {
@@ -108,6 +150,118 @@
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-36/mailid-216-online-workshop-oct-30-nov-1-augmented-intelligent-and-interaction-aii-workshop-4th?tmpl=component&tmpl=component",
                 "title": "免費線上研討會 Free Online workshop(Oct.30-Nov.1)--Augmented Intelligent and Interaction (AII) Workshop(4th)",
                 "date": "2020-10-23"
+            }
+        ]
+    },
+    {
+        "name": "主計室電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-19-",
+        "details": {
+            "管理者": "王映茹",
+            "管理單位": "主計室",
+            "電子信箱": "acc4@my.nthu.edu.tw",
+            "聯絡電話": "62046"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4485-114-2-14?tmpl=component&tmpl=component",
+                "title": "【重要通知】114/2/14起網路請購系統暫停服務",
+                "date": "2025-02-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4384-114-1-3?tmpl=component&tmpl=component",
+                "title": "【重要通知】本校領據專家系統於114/1/3修改更新",
+                "date": "2025-01-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4379-113-114-1-2?tmpl=component&tmpl=component",
+                "title": "急！！！113年度「經常支出」，將於114年1月2日關帳，請同仁儘速將相關憑證送達主計室，完成報支程序。",
+                "date": "2024-12-31"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4343-1-113?tmpl=component&tmpl=component",
+                "title": "最後1天！！本（113）年度「資本支出」，請依限儘速完成報支程序。",
+                "date": "2024-12-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4326-113-113-11-29-1139009735?tmpl=component&tmpl=component",
+                "title": "重要提醒！！本（113）年度即將終了，請同仁儘速將相關收支憑證送達主計室，完成報支程序，以免影響權益。相關注意及配合辦理事項，請詳閱附件(113.11.29清主字第1139009735號書函)。",
+                "date": "2024-12-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4216-113-11-14-15-00?tmpl=component&tmpl=component",
+                "title": "【主計室】因應請購系統資料庫資通安全設定,請購系統將於113/11/14(四)下午15:00起暫時停止服務",
+                "date": "2024-11-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4191-113-11?tmpl=component&tmpl=component",
+                "title": "提醒: 依據「113年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之設備費，11 月底前應完成發包簽約，未完成者收回學校統籌運用。",
+                "date": "2024-11-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4079-113?tmpl=component&tmpl=component",
+                "title": "主計室113年度經費報支說明講習訓練講義歡迎自行下載或列印",
+                "date": "2024-09-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-4055-113-09-25?tmpl=component&tmpl=component",
+                "title": "主計室於113年09月25日(星期三)辦理經費報支說明講習",
+                "date": "2024-09-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3924-113-t-8-40?tmpl=component&tmpl=component",
+                "title": "依據「113年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之(T類)資本門，截至8月底經費執行率應達40%。",
+                "date": "2024-08-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3914-113-8-2-17-00-8-5-8-30?tmpl=component&tmpl=component",
+                "title": "網路請購主機113/8/2下午17：00至8/5早上8:30暫停服務公告",
+                "date": "2024-07-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3862-113?tmpl=component&tmpl=component",
+                "title": "113年國科會專題研究計畫結案經費報支注意事項",
+                "date": "2024-07-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3346-112-113-1-2?tmpl=component&tmpl=component",
+                "title": "急！！！112年度「經常支出」，將於113年1月2日關帳，請同仁儘速將相關憑證送達主計室，完成報支程序。",
+                "date": "2023-12-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3306-1-112?tmpl=component&tmpl=component",
+                "title": "最後1天！！本（112）年度「資本支出」，請依限儘速完成報支程序。",
+                "date": "2023-12-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3287-112?tmpl=component&tmpl=component",
+                "title": "重要提醒！！本（112）年度即將終了，請同仁儘速將相關收支憑證送達主計室，完成報支程序，以免影響權益。",
+                "date": "2023-12-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3068-112?tmpl=component&tmpl=component",
+                "title": "主計室112年度經費報支說明講習訓練講義歡迎自行下載或列印",
+                "date": "2023-09-26"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-3040-112-09-27?tmpl=component&tmpl=component",
+                "title": "主計室於112年09月27日(星期三)辦理經費報支說明講習",
+                "date": "2023-09-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2924-112-t-8-40?tmpl=component&tmpl=component",
+                "title": "提醒: 依據「112年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之(T類)資本門，截至8月底經費執行率應達40%。",
+                "date": "2023-08-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2868-112?tmpl=component&tmpl=component",
+                "title": "112年國科會專題研究計畫結案經費報支注意事項",
+                "date": "2023-07-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-19/mailid-2639-112-05-10?tmpl=component&tmpl=component",
+                "title": "【重要通知】網路請購系統新版密碼規範將於112/05/10實施",
+                "date": "2023-04-11"
             }
         ]
     },
@@ -224,6 +378,878 @@
         ]
     },
     {
+        "name": "人文社會學院電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-53-",
+        "details": {
+            "管理者": "陳彤伊",
+            "管理單位": "人文社會學院",
+            "電子信箱": "humansos@my.nthu.edu.tw",
+            "聯絡電話": "42783"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4584-502-2025-03-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報502期】2025.03.15",
+                "date": "2025-03-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4540-501-2025-03-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第501期】2025.03.01",
+                "date": "2025-03-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4493-500-2025-02-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第500期】2025.02.15",
+                "date": "2025-02-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4447-499-2025-02-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第499期】2025.02.01",
+                "date": "2025-02-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4424-498-2025-01-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第498期】2025.01.15",
+                "date": "2025-01-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4382-497-2025-01-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第497期】2025.01.01",
+                "date": "2025-01-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4336-496-2024-12-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第496期】2024.12.15",
+                "date": "2024-12-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4286-495-2024-12-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第495期】2024.12.01",
+                "date": "2024-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4245-494-2024-11-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第494期】2024.11.15",
+                "date": "2024-11-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4187-493-2024-11-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第493期】2024.11.01",
+                "date": "2024-11-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4135-492-2024-10-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第492期】2024.10.15",
+                "date": "2024-10-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4098-491-2024-10-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第491期】2024.10.01",
+                "date": "2024-10-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4061-490-2024-09-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第490期】2024.09.15",
+                "date": "2024-09-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4015-489-2024-09-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第489期】2024.09.01",
+                "date": "2024-09-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-3967-488-2024-08-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第488期】2024.0.15",
+                "date": "2024-08-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-3923-487-2024-08-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第487期】2024.08.01",
+                "date": "2024-08-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-3886-486-2024-07-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第486期】2024.07.15",
+                "date": "2024-07-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-3863-485-2024-07-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第485期】2024.07.01",
+                "date": "2024-07-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-3821-484-2024-06-15?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第484期】2024.06.15",
+                "date": "2024-06-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-3781-483-2024-06-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第483期】2024.06.01",
+                "date": "2024-06-02"
+            }
+        ]
+    },
+    {
+        "name": "人社院學士班電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-11-",
+        "details": {
+            "管理者": "蘇家瑩",
+            "管理單位": "人文社會學院學士班",
+            "電子信箱": "dhss@my.nthu.edu.tw",
+            "聯絡電話": "34592"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-11/mailid-323-?tmpl=component&tmpl=component",
+                "title": "國立清華大學人文社會學院學士班電子報・第二期",
+                "date": "2020-11-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-11/mailid-280-?tmpl=component&tmpl=component",
+                "title": "國立清華大學人文社會學院學士班電子報・第一期",
+                "date": "2020-11-13"
+            }
+        ]
+    },
+    {
+        "name": "住宿書院電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-20-",
+        "details": {
+            "管理者": "吳明芳",
+            "管理單位": "住宿書院",
+            "電子信箱": "rcollege@my.nthu.edu.tw",
+            "聯絡電話": "62566"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-115-sdgs?tmpl=component&tmpl=component",
+                "title": "[活動資訊]第一屆大學生優質SDGs實踐成果展",
+                "date": "2020-09-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-90-sdgs?tmpl=component&tmpl=component",
+                "title": "[活動資訊]大學生優質SDGs實踐成果展",
+                "date": "2020-09-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-82-sdgs?tmpl=component&tmpl=component",
+                "title": "[活動資訊]第一屆SDGs專題論文海報競賽",
+                "date": "2020-09-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-20/mailid-65-sdgs?tmpl=component&tmpl=component",
+                "title": "[住宿書院活動資訊]第一屆清華大學SDGs專題論文海報競賽",
+                "date": "2020-08-20"
+            }
+        ]
+    },
+    {
+        "name": "台灣語言學通訊",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-43-",
+        "details": {
+            "管理者": "謝豐帆",
+            "管理單位": "語言所",
+            "電子信箱": "lingtw@my.nthu.edu.tw",
+            "聯絡電話": "34633"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4538-2025-2-3-1?tmpl=component&tmpl=component",
+                "title": "2025年第2期台灣語言學通訊(3/1)",
+                "date": "2025-03-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4516-2025-1-2-23?tmpl=component&tmpl=component",
+                "title": "2025年第1期台灣語言學通訊(2/23)",
+                "date": "2025-02-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4287-2024-19-12-1?tmpl=component&tmpl=component",
+                "title": "2024年第19期台灣語言學通訊(12/1)",
+                "date": "2024-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4188-2024-18-11-3?tmpl=component&tmpl=component",
+                "title": "2024年第18期台灣語言學通訊(11/3)",
+                "date": "2024-11-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4173-2024-17-10-27?tmpl=component&tmpl=component",
+                "title": "2024年第17期台灣語言學通訊(10/27)",
+                "date": "2024-10-27"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4151-2024-16-10-18?tmpl=component&tmpl=component",
+                "title": "2024年第16期台灣語言學通訊(10/18)",
+                "date": "2024-10-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4104-2024-15-10-4?tmpl=component&tmpl=component",
+                "title": "2024年第15期台灣語言學通訊(10/4)",
+                "date": "2024-10-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-4038-024-14-9-8?tmpl=component&tmpl=component",
+                "title": "024年第14期台灣語言學通訊(9/8)",
+                "date": "2024-09-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3994-2024-13-8-25?tmpl=component&tmpl=component",
+                "title": "2024年第13期台灣語言學通訊(8/25)",
+                "date": "2024-08-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3873-2024-12-7-7?tmpl=component&tmpl=component",
+                "title": "2024年第12期台灣語言學通訊(7/7)",
+                "date": "2024-07-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3841-2024-11-6-23?tmpl=component&tmpl=component",
+                "title": "2024年第11期台灣語言學通訊(6/23)",
+                "date": "2024-06-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3784-2024-10-6-1?tmpl=component&tmpl=component",
+                "title": "2024年第10期台灣語言學通訊(6/1)",
+                "date": "2024-06-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3717-2024-9-5-11?tmpl=component&tmpl=component",
+                "title": "2024年第9期台灣語言學通訊(5/11)",
+                "date": "2024-05-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3683-2024-8-4-27?tmpl=component&tmpl=component",
+                "title": "2024年第8期台灣語言學通訊(4/27)",
+                "date": "2024-04-27"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3661-2024-7-4-22?tmpl=component&tmpl=component",
+                "title": "2024年第7期台灣語言學通訊(4/22)",
+                "date": "2024-04-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3637-2024-6-4-15?tmpl=component&tmpl=component",
+                "title": "2024年第6期台灣語言學通訊(4/15)",
+                "date": "2024-04-14"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3507-2024-5-3-3?tmpl=component&tmpl=component",
+                "title": "2024年第5期台灣語言學通訊(3/3)",
+                "date": "2024-03-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3473-2024-4-2-18?tmpl=component&tmpl=component",
+                "title": "2024年第4期台灣語言學通訊(2/18)",
+                "date": "2024-02-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3443-2024-3-2-4?tmpl=component&tmpl=component",
+                "title": "2024年第3期台灣語言學通訊(2/4)",
+                "date": "2024-02-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-43/mailid-3408-2024-2-1-20?tmpl=component&tmpl=component",
+                "title": "2024年第2期台灣語言學通訊(1/20)",
+                "date": "2024-01-20"
+            }
+        ]
+    },
+    {
+        "name": "國立清華大學動機系系友電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-47-",
+        "details": {
+            "管理者": "黃裕容",
+            "管理單位": "動機系",
+            "電子信箱": "yj-huang@mx.nthu.edu.tw",
+            "聯絡電話": "33771"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-3552-pme-alumni?tmpl=component&tmpl=component",
+                "title": "又到春暖花開時節~2024清華校慶暨動機系友回娘家與您有約!",
+                "date": "2024-03-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-1759-50-92?tmpl=component&tmpl=component",
+                "title": "清華動機50週年慶祝大會暨92講堂啟用精采照片分享~",
+                "date": "2022-05-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-1692-pme50-s-party-notice-50-4-15?tmpl=component&tmpl=component",
+                "title": "PME50's Party Notice~4/24動機50週年慶祝大會暨系友回娘家活動異動，參加調查通知4/15止",
+                "date": "2022-04-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-1606-back-to-pme50-s-party-2022-50?tmpl=component&tmpl=component",
+                "title": "~Back to PME50's Party~2022清華校慶系友回娘家暨動機50週年慶祝大會報名開始囉!",
+                "date": "2022-03-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-753-pme-alumni?tmpl=component&tmpl=component",
+                "title": "距離動機系友回娘家~還有2天，我們不見不散!!",
+                "date": "2021-04-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-663-pme-alumni?tmpl=component&tmpl=component",
+                "title": "一場與老朋友相約的時刻~「動見足機」2021清華校慶暨動機系友回娘家報名開始!!",
+                "date": "2021-03-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-536-pme-alumni?tmpl=component&tmpl=component",
+                "title": "國立清華大學動機系友會~祝福各位學長姐牛轉新機，牛運亨通!!",
+                "date": "2021-02-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-47/mailid-406-pme-alumni?tmpl=component&tmpl=component",
+                "title": "2020倒數10天!!!動機系敬邀您一同來支持智慧製造教學實驗室~共同培育「實用的AI人才」!",
+                "date": "2020-12-21"
+            }
+        ]
+    },
+    {
+        "name": "國立清華大學圖書館-學生",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-18-",
+        "details": {
+            "管理者": "傅巧芸",
+            "管理單位": "國立清華大學圖書館-服務與創新組",
+            "電子信箱": "ref@my.nthu.edu.tw",
+            "聯絡電話": "42394"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3367-8-20-23?tmpl=component&tmpl=component",
+                "title": "1月13日(六)總統副總統立法委員選舉日，總圖書館及各分館閉館一日",
+                "date": "2024-01-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3256-8-20-23?tmpl=component&tmpl=component",
+                "title": "圖書館月｜電子書嘉年華 in NTHU 旺宏館穿堂，歡迎參加！",
+                "date": "2023-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3218-8-20-23?tmpl=component&tmpl=component",
+                "title": "圖書館月｜悅讀十年，圖書館精采萬分！系列活動開跑，歡迎參加！",
+                "date": "2023-11-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3173-8-20-23?tmpl=component&tmpl=component",
+                "title": "亂度中的哲學-高熵合金之父葉均蔚主題講座｜11/7「材料奇緣與先進高熵設計法 」歡迎參加！",
+                "date": "2023-11-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3134-8-20-23?tmpl=component&tmpl=component",
+                "title": "亂度中的哲學-高熵合金之父葉均蔚-主題講座，歡迎報名！",
+                "date": "2023-10-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3090-8-20-23?tmpl=component&tmpl=component",
+                "title": "總圖書館｜李歐梵院士著作暨手稿展｜總圖書館1樓",
+                "date": "2023-10-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3056-8-20-23?tmpl=component&tmpl=component",
+                "title": "總圖書館｜「清新・視野-清華校景建築新風貌」特展4F清華故事牆，歡迎參觀！",
+                "date": "2023-09-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-3012-8-20-23?tmpl=component&tmpl=component",
+                "title": "【青春放映室】2023圖書館新生系列活動09.18-09.22｜總圖書館3F視聽中心",
+                "date": "2023-09-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2949-8-20-23?tmpl=component&tmpl=component",
+                "title": "【讀字生存法則／閱讀亂世｜亂世閱讀】2023.08.02-10.23｜總圖書館1樓知識集",
+                "date": "2023-08-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2914-8-20-23?tmpl=component&tmpl=component",
+                "title": "8月5日(週六)至8日(週二) 總圖書館與各分館部分日期閉館及服務暫停公告",
+                "date": "2023-07-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2888-8-20-23?tmpl=component&tmpl=component",
+                "title": "轉角書桌-本期作家吳念真，總圖書館一樓歡迎參觀！",
+                "date": "2023-07-14"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2864-8-20-23?tmpl=component&tmpl=component",
+                "title": "「點亮黑夜繁星－徐遐生校長紀念展」06.16起｜總圖書館1樓知識集",
+                "date": "2023-06-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2814-8-20-23?tmpl=component&tmpl=component",
+                "title": "服務異動｜本校考試期間，總圖書館閱覽服務調整",
+                "date": "2023-06-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2749-8-20-23?tmpl=component&tmpl=component",
+                "title": "田家秀樹贈藏展｜日本流行音樂CD主題網頁「歌隨世、世隨歌」上線囉！",
+                "date": "2023-05-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2703-8-20-23?tmpl=component&tmpl=component",
+                "title": "轉角書桌主題書展｜本期作家-謝哲青，總圖書館一樓～歡迎參觀！",
+                "date": "2023-05-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2668-8-20-23?tmpl=component&tmpl=component",
+                "title": "校慶活動日04.23(日)，圖書館Open House、定時導覽，歡迎參觀！",
+                "date": "2023-04-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2628-8-20-23?tmpl=component&tmpl=component",
+                "title": "服務異動｜4.06(四)-4.16(日)為本校考試期間，總圖書館閱覽服務調整",
+                "date": "2023-04-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2589-8-20-23?tmpl=component&tmpl=component",
+                "title": "服務異動｜兒童節與清明節假期，總圖書館與各分館閉館三日",
+                "date": "2023-03-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2545-8-20-23?tmpl=component&tmpl=component",
+                "title": "臺灣急診之父~胡勝川「急診人文：迷失與真象」｜總圖書館1F清沙龍，歡迎參加！",
+                "date": "2023-03-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-18/mailid-2474-8-20-23?tmpl=component&tmpl=component",
+                "title": "不只是醫師、不只是攝影師~黃伯驥醫師攝影展｜總圖書館1F知識集",
+                "date": "2023-02-17"
+            }
+        ]
+    },
+    {
+        "name": "國立清華大學學生會電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-44-",
+        "details": {
+            "管理者": "楊子緣",
+            "管理單位": "學生會",
+            "電子信箱": "nthusa.president@gmail.com",
+            "聯絡電話": "0910518063"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-4296-33?tmpl=component&tmpl=component",
+                "title": "【 第三十三屆第二任學生議員暨學生代表選舉｜投票開始 】National Tsing Hua University 33rd-Second Term Student Councilors Election - Voting Begins",
+                "date": "2024-12-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-4073-33?tmpl=component&tmpl=component",
+                "title": "【2024 NTHU社團博覽會｜回饋表單】",
+                "date": "2024-09-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3993-33?tmpl=component&tmpl=component",
+                "title": "【#南大校區未來規劃與搬遷影響｜學生調查】",
+                "date": "2024-08-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3957-33?tmpl=component&tmpl=component",
+                "title": "【113學年度學生會校務會議學生代表人才募集】",
+                "date": "2024-08-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3840-33?tmpl=component&tmpl=component",
+                "title": "【 第 33 屆國立清華大學學生會文官徵才開始啦】",
+                "date": "2024-06-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3770-national-tsing-hua-university-33rd-first-term-student-councilor-and-student-representatives-election-voting-begins?tmpl=component&tmpl=component",
+                "title": "【 第三十三屆第一任學生議員暨學生代表選舉　投票開始 National Tsing Hua University 33rd-First Term Student Councilor and Student Representatives Election - Voting Begins】",
+                "date": "2024-05-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3459-32?tmpl=component&tmpl=component",
+                "title": "【 學生會第 32 屆行政中心｜徵才資訊 】",
+                "date": "2024-02-14"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3352-national-tsing-hua-university-32nd-second-term-student-councilor-election-voting-begins?tmpl=component&tmpl=component",
+                "title": "【 第三十二屆第二任學生議員選舉　投票開始 】National Tsing Hua University 32nd-Second Term Student Councilor Election - Voting Begins",
+                "date": "2024-01-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3281-?tmpl=component&tmpl=component",
+                "title": "【第三十二屆第二任學生議員選舉　登記開始】",
+                "date": "2023-12-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3280-12-15?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】12/15（五）月經議題系列講座",
+                "date": "2023-12-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-3222-?tmpl=component&tmpl=component",
+                "title": "【停電議題座談會｜最後延長報名】",
+                "date": "2023-11-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2872-32?tmpl=component&tmpl=component",
+                "title": "【第 32 屆學生會】行政中心 & 學生議會徵才",
+                "date": "2023-07-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2825-31-the-31st-nthu-student-association-governance-feedback-drink-distribution?tmpl=component&tmpl=component",
+                "title": "【 第 31 屆清大學生會｜施政意見回饋＆飲料發放 】The 31st NTHU Student Association — Governance Feedback & Drink Distribution",
+                "date": "2023-06-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2778-?tmpl=component&tmpl=component",
+                "title": "你投票了嗎？【第三十二屆第一任學生議員暨學生代表選舉】",
+                "date": "2023-05-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2771-?tmpl=component&tmpl=component",
+                "title": "【第三十二屆第一任學生議員暨學生代表選舉　投票開始】",
+                "date": "2023-05-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2765-05-25?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】05/25（四）教育設計：從美感教科書開始",
+                "date": "2023-05-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2763-32?tmpl=component&tmpl=component",
+                "title": "【第32屆第一任學生代表選舉　選舉公報】",
+                "date": "2023-05-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2756-?tmpl=component&tmpl=component",
+                "title": "【第三十二屆第一任學生代表暨議員選舉　參選登記倒數一天！】",
+                "date": "2023-05-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2716-5-11?tmpl=component&tmpl=component",
+                "title": "【活動資訊】5/11（四）光之影--清大性平影展",
+                "date": "2023-05-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-44/mailid-2685-?tmpl=component&tmpl=component",
+                "title": "【與校長有約】活動報名",
+                "date": "2023-04-27"
+            }
+        ]
+    },
+    {
+        "name": "國立清華大學校長遴選委員會",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-71-",
+        "details": {
+            "管理者": "丘雪蘭",
+            "管理單位": "秘書處",
+            "電子信箱": "presid-search@my.nthu.edu.tw",
+            "聯絡電話": "62481"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1277-110?tmpl=component&tmpl=component",
+                "title": "110年校長遴選委員會完成遴選公告(第九次)",
+                "date": "2021-11-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1241-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第八次)",
+                "date": "2021-10-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1224-?tmpl=component&tmpl=component",
+                "title": "校長候選人說明會流程及注意事項",
+                "date": "2021-10-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1204-110-10-20-1-30-5-00?tmpl=component&tmpl=component",
+                "title": "歡迎參加校長候選人說明會110.10.20(三)下午1:30至5:00",
+                "date": "2021-10-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1203-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第七次)",
+                "date": "2021-10-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1191-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第六次)",
+                "date": "2021-10-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1115-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第五次)",
+                "date": "2021-09-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-1006-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第四次)",
+                "date": "2021-07-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-976-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第三次)",
+                "date": "2021-07-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-921-110-6-11-2?tmpl=component&tmpl=component",
+                "title": "校長遴選委員會座談會110年6月11日(五)下午2時舉行",
+                "date": "2021-06-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-895-6-11?tmpl=component&tmpl=component",
+                "title": "6/11校長遴選委員會與教職員工生及校友座談會公告",
+                "date": "2021-05-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-864-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第二次)",
+                "date": "2021-05-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-71/mailid-816-110?tmpl=component&tmpl=component",
+                "title": "公告110年校長遴選作業進程(第一次)",
+                "date": "2021-05-11"
+            }
+        ]
+    },
+    {
+        "name": "國立清華大學核工暨工科系友會電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-46-",
+        "details": {
+            "管理者": "劉佳慧",
+            "管理單位": "核工所",
+            "電子信箱": "nes@my.nthu.edu.tw",
+            "聯絡電話": "34267"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-4446-202501?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202501期",
+                "date": "2025-01-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-4294-202411?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202411期",
+                "date": "2024-12-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-4093-202409?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202409期",
+                "date": "2024-10-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-3939-202407?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202407期",
+                "date": "2024-08-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-3780-202405?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202405期",
+                "date": "2024-06-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-3613-202403?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202403期",
+                "date": "2024-04-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-3457-202401?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202401期",
+                "date": "2024-02-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-3265-202311?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202311期",
+                "date": "2023-12-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-3074-202309?tmpl=component&tmpl=component",
+                "title": "（更新Nuclear Now特映會日期為2023/10/19）國立清華大學核工暨工科系友會電子報~202309期",
+                "date": "2023-10-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-2920-202307?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202307期",
+                "date": "2023-08-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-2770-202305?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202305期",
+                "date": "2023-05-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-2621-202303?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202303期",
+                "date": "2023-04-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-2425-202301?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202301期",
+                "date": "2023-01-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-2288-2211?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202211期",
+                "date": "2022-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-2129-2209?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202209期",
+                "date": "2022-10-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-1970-202207?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202207期",
+                "date": "2022-08-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-1826-202205?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202205期",
+                "date": "2022-06-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-1656-202203?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202203期",
+                "date": "2022-03-31"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-1511-202201?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202201期",
+                "date": "2022-01-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-46/mailid-1346-202111?tmpl=component&tmpl=component",
+                "title": "國立清華大學核工暨工科系友會電子報~202111期",
+                "date": "2021-11-30"
+            }
+        ]
+    },
+    {
+        "name": "域報 Field Cast",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-84-",
+        "details": {
+            "管理者": "章郡榕",
+            "管理單位": "區域創新中心",
+            "電子信箱": "cjung@mx.nthu.edu.tw",
+            "聯絡電話": "33320"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-84/mailid-1633-fieldcast?tmpl=component&tmpl=component",
+                "title": "《域報》2022 二月號",
+                "date": "2022-03-16"
+            }
+        ]
+    },
+    {
+        "name": "學生事務報-學生",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-28-",
+        "details": {
+            "管理者": "宋姿韻",
+            "電子信箱": "student@my.nthu.edu.tw",
+            "管理單位": "學生事務處",
+            "聯絡電話": "34702"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-3658-2024-who-s-for-lunch-a-lunch-meeting-with-the-president?tmpl=component&tmpl=component",
+                "title": "校長有約 2024 Who's for lunch - a lunch Meeting with the President",
+                "date": "2024-04-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-3061-we-want-you-the-recruitment-of-2024-meichu-competition-meichu-working-group-and-meichu-cheerleading-club-has-started?tmpl=component&tmpl=component",
+                "title": "WE WANT YOU！《甲辰梅竹工作會與火力班徵才! 即刻開始~ 不容錯過 ! 》《The Recruitment of 2024 Meichu Competition, Meichu Working Group and Meichu Cheerleading Club Has Started.》",
+                "date": "2023-09-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-2110-?tmpl=component&tmpl=component",
+                "title": "《癸卯梅竹籌備委員會徵才即刻開始》",
+                "date": "2022-09-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1578-2022-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2022 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2022-02-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1459-2022-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2022 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2022-01-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1367-2021-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2021 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2021-12-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1273-2021-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2021 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2021-11-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1174-2021-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2021 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2021-09-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1160-we-want-you-the-recruitment-of-2022-meichu-competition-meichu-working-group-and-meichu-cheerleading-club-has-started?tmpl=component&tmpl=component",
+                "title": "WE WANT YOU!《壬寅梅竹籌備委員會、梅竹工作會與清大梅竹火力班徵才即刻開始啦》 《The Recruitment of 2022 Meichu Competition, Meichu Working Group and Meichu Cheerleading Club Has Started.》",
+                "date": "2021-09-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1141-1000?tmpl=component&tmpl=component",
+                "title": "【職涯發展中心】近期職涯活動彙整，歡迎踴躍報名(內有抽$1000禮券活動)",
+                "date": "2021-09-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-1100-2021-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2021 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2021-08-31"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-919-questionnaire-5-28-6-20?tmpl=component&tmpl=component",
+                "title": "導師問卷Questionnaire歡迎學生填寫抽贈品!5月28日到6月20日止",
+                "date": "2021-06-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-856-letter-from-the-nthu-counseling-center-in-response-to-the-covid-19-outbreak?tmpl=component&tmpl=component",
+                "title": "清華大學學務處諮商中心因應新冠肺炎疫情應變措施說明信Letter from the NTHU Counseling Center in Response to the COVID-19 Outbreak",
+                "date": "2021-05-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-750-?tmpl=component&tmpl=component",
+                "title": "校慶系列活動區域車輛、腳踏車停車格禁停公告",
+                "date": "2021-04-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-641-2021-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2021 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2021-03-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-446-2021-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐 2021 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2021-01-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-400-109-12-18-1-10?tmpl=component&tmpl=component",
+                "title": "最新!!歡迎全校學生填寫!!即日起至110年1月10日止",
+                "date": "2020-12-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-275-2020-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐2020 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2020-11-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-272-?tmpl=component&tmpl=component",
+                "title": "給全校學生的期中關懷信",
+                "date": "2020-11-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-28/mailid-186-2020-guess-who-nthu-a-lunch-meet-with-the-president?tmpl=component&tmpl=component",
+                "title": "誰來午餐2020 Guess Who NTHU- A Lunch Meet with the President",
+                "date": "2020-10-07"
+            }
+        ]
+    },
+    {
         "name": "心諮系雙週例講座",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-67-",
         "details": {
@@ -332,6 +1358,976 @@
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-67/mailid-3468-111-1-10-11?tmpl=component&tmpl=component",
                 "title": "【清華心諮】112學年度第2學期第1-2週書報討論系列專題學術演講",
                 "date": "2024-02-17"
+            }
+        ]
+    },
+    {
+        "name": "愛慾電子報報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-61-",
+        "details": {
+            "管理者": "孫孟群",
+            "管理單位": "愛慾實務社",
+            "電子信箱": "s108096703@m108.nthu.edu.tw",
+            "聯絡電話": "0966101893"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-3750-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】愛慾實務社繩縛工作坊",
+                "date": "2024-05-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-3714-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】肛肛好就好：身體探索與開發",
+                "date": "2024-05-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-3687-nthu-campus-hiv-screening-day?tmpl=component&tmpl=component",
+                "title": "【活動推廣】清華大學校園愛滋快篩日 NTHU Campus HIV Screening Day",
+                "date": "2024-05-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-3686-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】性愛中的真實與幻想：情慾催眠",
+                "date": "2024-04-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-3636-?tmpl=component&tmpl=component",
+                "title": "【更新】清大愛慾實務社講座「時尚？紀念？理想的自己！—人體改造的實務與安全」",
+                "date": "2024-04-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2638-sex-salon?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】留學生的Sex Salon",
+                "date": "2023-04-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2607-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】大學生必修的「護膚」課程",
+                "date": "2023-03-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2522-bdsm?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】BDSM的法律風險",
+                "date": "2023-03-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2464-?tmpl=component&tmpl=component",
+                "title": "111下期初規劃出來啦",
+                "date": "2023-02-14"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2292-?tmpl=component&tmpl=component",
+                "title": "【活動宣傳】敏感帶探索工作坊",
+                "date": "2022-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2248-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】繩縛工作坊",
+                "date": "2022-11-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2224-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】月經工作坊就在下周一！！！",
+                "date": "2022-11-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2180-by-della?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】BDSM 基礎介紹",
+                "date": "2022-10-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2172-?tmpl=component&tmpl=component",
+                "title": "跟愛慾實務社一起走同志遊行     開始報名~~",
+                "date": "2022-10-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2088-?tmpl=component&tmpl=component",
+                "title": "【期初講座宣傳】關於自己的身體與性的探索",
+                "date": "2022-09-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-2038-111?tmpl=component&tmpl=component",
+                "title": "111學年上學期課程規劃來了！",
+                "date": "2022-08-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-1642-bdsm?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】怎麼看待『BDSM是什麼』？身份、社群、與文化",
+                "date": "2022-03-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-1602-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】分手以外的另一種可能：開放式關係",
+                "date": "2022-03-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-1573-110?tmpl=component&tmpl=component",
+                "title": "【110下】學期活動介紹 & 期初講座宣傳",
+                "date": "2022-02-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-61/mailid-1377-?tmpl=component&tmpl=component",
+                "title": "【講座宣傳】你的異物 我的義務 玩具中的性教育與國家權力",
+                "date": "2021-12-04"
+            }
+        ]
+    },
+    {
+        "name": "教務處綜合教務組電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-52-",
+        "details": {
+            "管理者": "林嘉怡",
+            "管理單位": "教務處綜教組",
+            "電子信箱": "chyilin@mx.nthu.edu.tw",
+            "聯絡電話": "35056"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-4601-113?tmpl=component&tmpl=component",
+                "title": "【報名通知】國立清華大學113學年度畢業典禮",
+                "date": "2025-03-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-4596-?tmpl=component&tmpl=component",
+                "title": "跟上校傑出教學教師票選活動了嗎？快來投票",
+                "date": "2025-03-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-4563-113?tmpl=component&tmpl=component",
+                "title": "跟上校傑出教學教師票選活動了嗎？快來投票",
+                "date": "2025-03-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-3532-112?tmpl=component&tmpl=component",
+                "title": "完成112學年度的校傑出教師票選 可領取教務處限定限量小禮物一個",
+                "date": "2024-03-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-2742-111?tmpl=component&tmpl=component",
+                "title": "敬邀參加國立清華大學111學年度畢業典禮(大學部場)",
+                "date": "2023-05-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-2737-111?tmpl=component&tmpl=component",
+                "title": "敬邀參加國立清華大學111學年度畢業典禮(研究生場)",
+                "date": "2023-05-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-1835-6-11?tmpl=component&tmpl=component",
+                "title": "歡迎觀賞6月11日清華大學畢業典禮直播",
+                "date": "2022-05-31"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-1615-110?tmpl=component&tmpl=component",
+                "title": "【有禮物就支持】完成110學年度的傑出教師票選 可領取教務處限定限量零錢證件小物收納包一個",
+                "date": "2022-03-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-628-109?tmpl=component&tmpl=component",
+                "title": "【有禮物就支持】完成109學年度的傑出教師票選 可領取教務處限定限量環保玻璃吸管組一個",
+                "date": "2021-03-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-627-109?tmpl=component&tmpl=component",
+                "title": "【有禮物就支持】完成109學年度的傑出教師票選 可領取教務處限定限量環保玻璃吸管組一個",
+                "date": "2021-03-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-163-?tmpl=component&tmpl=component",
+                "title": "教師節快樂暨教務相關訊息說明",
+                "date": "2020-09-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-3633-?tmpl=component&tmpl=component",
+                "title": "測試"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-2538-111?tmpl=component&tmpl=component",
+                "title": "完成111學年度的傑出教師票選 可領取教務處限定限量小禮物一個"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-52/mailid-159-?tmpl=component&tmpl=component",
+                "title": "教師節快樂暨教務相關訊息說明"
+            }
+        ]
+    },
+    {
+        "name": "教學發展中心電子報-教師",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-56-",
+        "details": {
+            "管理者": "吳孟芬",
+            "管理單位": "教學發展中心",
+            "電子信箱": "ctld@my.nthu.edu.tw",
+            "聯絡電話": "35401"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4586-114-3-4?tmpl=component&tmpl=component",
+                "title": "【114年3-4月教師專業成長系列研習】歡迎教師及博士生踴躍參加！",
+                "date": "2025-03-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4568-ios-vision-os?tmpl=component&tmpl=component",
+                "title": "【教師增能講座】「iOS及Vision OS的開發與應用」，歡迎各位老師踴躍參加!",
+                "date": "2025-03-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4553-?tmpl=component&tmpl=component",
+                "title": "經濟部智財局宣導資料-教師授課著作權錦囊，敬請老師參閱，謝謝!",
+                "date": "2025-03-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4503-2025?tmpl=component&tmpl=component",
+                "title": "2025教學實務工作坊-「重塑教室：素養導向課程設計」（歡迎教師及博班生參加）",
+                "date": "2025-02-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4474-futurelearn?tmpl=component&tmpl=component",
+                "title": "搶先體驗全球學習資源：立即加入 FutureLearn！",
+                "date": "2025-02-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4308-1-13-113-2-center-for-teaching-and-learning-development-apply-now-grant-for-innovative-teaching-and-grant-for-interdisciplinary-teachers-community-programs?tmpl=component&tmpl=component",
+                "title": "【教學發展中心~至1/13截止】歡迎申請113-2「教師創新教學補助」與「跨域富學社群補助」計畫！【Center for Teaching and Learning Development】Apply Now! \"Grant for Innovative Teaching\" and \"Grant for Interdisciplinary Teachers' Community\" programs!",
+                "date": "2025-01-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4324-113-2-114-2-13-2-14-2-3?tmpl=component&tmpl=component",
+                "title": "113學年度第2學期教學助理研習營-114/2/13-2/14 教學助理研習營敬邀您的熱情參與 !!! (報名至2/3截止)(限本校學生參加)",
+                "date": "2024-12-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4228-114?tmpl=component&tmpl=component",
+                "title": "【敬邀專任教師申請114年教育部教學實踐研究計畫】（即日起至113年12月5日中午12時止）",
+                "date": "2024-11-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4257-2024-ai?tmpl=component&tmpl=component",
+                "title": "2024教師數位增能講座「生物醫學領域使用AI工具協助研究教學: 撰寫研究計劃、閱讀論文及製作教學簡報」",
+                "date": "2024-11-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4193-2024-ai-ai?tmpl=component&tmpl=component",
+                "title": "2024教師數位增能講座: 當AI的虛擬知識進入大學教育──以本校普物課程AI虛擬助教為例",
+                "date": "2024-11-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4091-113-10-18?tmpl=component&tmpl=component",
+                "title": "錯過絕對可惜！踏上教學實踐的新旅程：113/10/18 教學實踐實作工作坊",
+                "date": "2024-10-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-4028-113-09-27?tmpl=component&tmpl=component",
+                "title": "【教學發展中心誠摯邀請】113/09/27「未來大學論壇：彈性學制─學習的多重樣貌」",
+                "date": "2024-09-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3943-emi-empowering-nthu-emi-courses-with-professional-development?tmpl=component&tmpl=component",
+                "title": "專業成長讓清華EMI課程更臻完美 Empowering NTHU EMI courses with Professional Development",
+                "date": "2024-08-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3920-8-14-113-1-center-for-teaching-and-learning-development-apply-now-grant-for-co-learning-circle-program?tmpl=component&tmpl=component",
+                "title": "【教學發展中心~8/14截止】歡迎申請113-1「共學圈圈計畫」！【Center for Teaching and Learning Development】Apply Now! \"Grant for Co-Learning Circle Program\"!",
+                "date": "2024-07-31"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3919-8-14-113-1-center-for-teaching-and-learning-development-apply-now-grant-for-innovative-teaching-and-grant-for-interdisciplinary-teachers-community-programs?tmpl=component&tmpl=component",
+                "title": "【教學發展中心~至8/14截止】歡迎申請113-1「教師創新教學補助」與「跨域富學社群補助」計畫！【Center for Teaching and Learning Development】Apply Now! \"Grant for Innovative Teaching\" and \"Grant for Interdisciplinary Teachers' Community\" programs!",
+                "date": "2024-07-31"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3896-113-1-center-for-teaching-and-learning-development-apply-now-grant-for-innovative-teaching-and-grant-for-interdisciplinary-teachers-community-programs?tmpl=component&tmpl=component",
+                "title": "【教學發展中心】歡迎申請113-1「教師創新教學補助」與「跨域富學社群補助」計畫！【Center for Teaching and Learning Development】Apply Now! \"Grant for Innovative Teaching\" and \"Grant for Interdisciplinary Teachers' Community\" programs!",
+                "date": "2024-07-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3803-113-06-21?tmpl=component&tmpl=component",
+                "title": "【教學發展中心期末暖心邀約】113/06/21 啟動未來學習力：國際視野教出新人才研討會",
+                "date": "2024-06-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3707-6-21?tmpl=component&tmpl=component",
+                "title": "【誠摯邀請】113/06/21 國立清華大學「第八屆大學教師創新教學研討會」",
+                "date": "2024-05-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3539-ai-ai?tmpl=component&tmpl=component",
+                "title": "學會AI有方法！【轉知】「人文社會課程之生成式AI指令集」種子範例",
+                "date": "2024-03-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-56/mailid-3538-emi-briefing-for-nthu-emi-mentoring-professional-development-program-spring-2024?tmpl=component&tmpl=component",
+                "title": "勇敢邁出第一步 EMI伴飛計畫說明會 Briefing for NTHU EMI Mentoring Professional Development Program (Spring 2024)",
+                "date": "2024-03-12"
+            }
+        ]
+    },
+    {
+        "name": "數學系電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-27-",
+        "details": {
+            "管理者": "洪雅婷",
+            "管理單位": "數學系",
+            "電子信箱": "ythung@math.nthu.edu.tw",
+            "聯絡電話": "33010"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2633-111-2023-04-27-74?tmpl=component&tmpl=component",
+                "title": "111學年度數學系系友分享座談會- 2023.04.27-杜宏章教授(74級)",
+                "date": "2023-04-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2480-2023-60-2023-4-23?tmpl=component&tmpl=component",
+                "title": "2023校慶活動-60週年系慶暨系友回娘家活動（校慶活動日： 2023 年 4月 23日）",
+                "date": "2023-02-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2456-2023-2-15?tmpl=component&tmpl=component",
+                "title": "歡迎您投稿黃乃寬學長紀念文集（截稿時間：2023年2月15日）",
+                "date": "2023-02-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2454-112-2-18-10?tmpl=component&tmpl=component",
+                "title": "黃乃寬校友紀念音樂會謹訂於112年2月18日 (六) 上午10點於本校名人堂舉行",
+                "date": "2023-02-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2375-2023-60-2023-4-23?tmpl=component&tmpl=component",
+                "title": "2023校慶活動-60週年系慶暨系友回娘家活動（校慶活動日： 2023 年 4月 23日）",
+                "date": "2022-12-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2196-111-2022-11-09-73?tmpl=component&tmpl=component",
+                "title": "111學年度數學系系友分享座談會- 2022.11.09-宋武峰理事長(73級)",
+                "date": "2022-10-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-2142-75-10-8?tmpl=component&tmpl=component",
+                "title": "國立清華大學北美基金會焦點校友訪談系列 - 從星際戰爭到市場大爆炸-黃乃寬博士 (數學 75級)（台灣時間10月8日上午九點線上訪談）",
+                "date": "2022-10-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-1725-?tmpl=component&tmpl=component",
+                "title": "【重要通知】校慶-數學系系友回娘家 活動取消通知",
+                "date": "2022-04-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-1637-2022-2022-5-1?tmpl=component&tmpl=component",
+                "title": "【邀請函】2022校慶活動-系友回娘家之系友分享座談會（活動日改訂於 2022 年 5月 1日舉辦）",
+                "date": "2022-03-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-110-spotlight-68?tmpl=component&tmpl=component",
+                "title": "國立清華大學北美基金會 Spotlight 活動預告-孔祥重教授 (數學系68級)",
+                "date": "2020-09-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-27/mailid-86-109-2020-09-17-00-03?tmpl=component&tmpl=component",
+                "title": "109學年度系友分享座談會(2020.09.17-朱家杰教授(00級、碩03))",
+                "date": "2020-09-02"
+            }
+        ]
+    },
+    {
+        "name": "新聞剪輯電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-10-",
+        "details": {
+            "管理者": "林燕君",
+            "管理單位": "秘書處公共事務組",
+            "電子信箱": "dpa@my.nthu.edu.tw",
+            "聯絡電話": "62008"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-1986-2022-08-08?tmpl=component&tmpl=component",
+                "title": "每日清華新聞剪輯 2022-08-08",
+                "date": "2022-08-08"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-758-2021-04-23?tmpl=component&tmpl=component",
+                "title": "每日清華新聞剪輯 2021-04-23",
+                "date": "2021-04-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-10/mailid-502-2021-01-26?tmpl=component&tmpl=component",
+                "title": "每日清華新聞剪輯 2021-01-26",
+                "date": "2021-01-26"
+            }
+        ]
+    },
+    {
+        "name": "校長同意權人投票事務委員會",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-80-",
+        "details": {
+            "管理者": "黃怡溱",
+            "管理單位": "秘書處議事及法規組",
+            "電子信箱": "voting@my.nthu.edu.tw",
+            "聯絡電話": "62484"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-4508-?tmpl=component&tmpl=component",
+                "title": "[公告]校長續任同意權人投票結果",
+                "date": "2025-03-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-4505-3-19-1-30?tmpl=component&tmpl=component",
+                "title": "[報名觀看] : 3/19(三)下午1:30校長續任同意投票開票",
+                "date": "2025-03-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1262-?tmpl=component&tmpl=component",
+                "title": "[公告]校長遴選同意權人投票結果",
+                "date": "2021-11-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1252-11-1-1-30?tmpl=component&tmpl=component",
+                "title": "報名觀看11/1(一)下午1:30校長遴選同意投票開票",
+                "date": "2021-10-26"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1245-?tmpl=component&tmpl=component",
+                "title": "國立清華大學校長遴選同意投票通知",
+                "date": "2021-10-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1244-?tmpl=component&tmpl=component",
+                "title": "國立清華大學校長遴選同意投票通知",
+                "date": "2021-10-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-80/mailid-1238-1101022-1?tmpl=component&tmpl=component",
+                "title": "預告：國立清華大學校長遴選同意投票",
+                "date": "2021-10-22"
+            }
+        ]
+    },
+    {
+        "name": "清華大學化學系電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-48-",
+        "details": {
+            "管理者": "涂曼琳",
+            "管理單位": "化學系",
+            "電子信箱": "chemtest@my.nthu.edu.tw",
+            "聯絡電話": "33616"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4573-?tmpl=component&tmpl=component",
+                "title": "【系慶】報名進行中！同場加映外館外牆募款計畫",
+                "date": "2025-03-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4546-?tmpl=component&tmpl=component",
+                "title": "協助轉發：【歡迎報名】化學系運動會",
+                "date": "2025-03-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4528-?tmpl=component&tmpl=component",
+                "title": "【化學系友回娘家】開始報名囉！",
+                "date": "2025-03-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4432-1-17?tmpl=component&tmpl=component",
+                "title": "【外牆募款專案】1/17募款進度報告",
+                "date": "2025-01-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4385-?tmpl=component&tmpl=component",
+                "title": "新年祝福與化學館外牆募款專案進度",
+                "date": "2025-01-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4356-?tmpl=component&tmpl=component",
+                "title": "【捐款認領】捐款很久一直沒有收到收據嗎？請看這篇！",
+                "date": "2024-12-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4350-?tmpl=component&tmpl=component",
+                "title": "【募款更新】預祝各位系友新年快樂！",
+                "date": "2024-12-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4333-?tmpl=component&tmpl=component",
+                "title": "化學系-捐款相關提醒",
+                "date": "2024-12-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4304-?tmpl=component&tmpl=component",
+                "title": "【系主任的信】募款專案說明",
+                "date": "2024-12-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4283-?tmpl=component&tmpl=component",
+                "title": "募款開始：化學館外牆修整與室內整治專案，暨節稅提醒",
+                "date": "2024-11-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-4189-?tmpl=component&tmpl=component",
+                "title": "化學系館外牆修整，募款意願調查中！",
+                "date": "2024-11-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1753-72?tmpl=component&tmpl=component",
+                "title": "【賀】化學系72級系友校慶代表致詞 - 四系聯合齊心捐助清華賀校慶",
+                "date": "2022-05-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1724-?tmpl=component&tmpl=component",
+                "title": "【重要通知】化學系友回娘家取消，延後擇期舉辦",
+                "date": "2022-04-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1695-2022?tmpl=component&tmpl=component",
+                "title": "【歡迎報名】2022清華化學系系慶系友回娘家",
+                "date": "2022-04-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1634-2022?tmpl=component&tmpl=component",
+                "title": "2022化學系系友回娘家~活動報名開始了",
+                "date": "2022-03-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1505-18-111-1?tmpl=component&tmpl=component",
+                "title": "轉發【第18清華盃重要提醒】參賽成績證明書下載截止日至111/1月底，詳見網站公告",
+                "date": "2022-01-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1293-?tmpl=component&tmpl=component",
+                "title": "轉發【清華盃】個人獲獎名單及參賽成績證明書下載，詳見網站公告",
+                "date": "2021-11-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1269-18?tmpl=component&tmpl=component",
+                "title": "轉發【清華盃】第18屆清華盃測驗成績開放查詢，詳見網站公告",
+                "date": "2021-11-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-1243-10-30-10?tmpl=component&tmpl=component",
+                "title": "轉發【清華盃】提醒您！10/30上午10時線上測驗，重要提醒(必看！)",
+                "date": "2021-10-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-48/mailid-717-4-25?tmpl=component&tmpl=component",
+                "title": "【化】不多說，快來報名4/25化學系系友回娘家",
+                "date": "2021-04-13"
+            }
+        ]
+    },
+    {
+        "name": "清華大學化工系友電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-45-",
+        "details": {
+            "管理者": "林麗萍",
+            "管理單位": "化工系",
+            "電子信箱": "liping@mx.nthu.edu.tw",
+            "聯絡電話": "33614"
+        },
+        "articles": []
+    },
+    {
+        "name": "清華大學工工系電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-39-",
+        "details": {
+            "管理者": "謝委紋",
+            "管理單位": "工工系",
+            "電子信箱": "wwshieh@mx.nthu.edu.tw",
+            "聯絡電話": "42935"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-4443-?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】祝福您 新年快樂",
+                "date": "2025-01-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-4053-?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】祝福您 中秋節快樂",
+                "date": "2024-09-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-4011-93?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第93期",
+                "date": "2024-08-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3801-?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】祝福您 聖誕節快樂",
+                "date": "2024-06-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3793-92?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第92期",
+                "date": "2024-06-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3576-50?tmpl=component&tmpl=component",
+                "title": "【工工五十　堅若磐石】清華大學工工系50週年系慶活動開始報名！",
+                "date": "2024-04-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3551-fb?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】FB打卡活動：全球清華工工人\"讚\"出來",
+                "date": "2024-03-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3448-?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】新年快樂 龍年大發",
+                "date": "2024-02-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3434-91?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第91期",
+                "date": "2024-02-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3320-?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】祝福您 聖誕節快樂",
+                "date": "2023-12-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3262-90?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第90期",
+                "date": "2023-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3219-x?tmpl=component&tmpl=component",
+                "title": "【工工系友會】113/1/27 日月潭風景遊湖一日遊活動開始報名囉!",
+                "date": "2023-11-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3008-88?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第89期",
+                "date": "2023-10-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-3027-?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】祝福您 中秋節快樂",
+                "date": "2023-09-27"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-2866-87?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第88期",
+                "date": "2023-07-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-2830-?tmpl=component&tmpl=component",
+                "title": "【清華大學工工系】祝福您 端午節快樂",
+                "date": "2023-06-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-2704-87?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第87期",
+                "date": "2023-05-05"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-2616-49?tmpl=component&tmpl=component",
+                "title": "【工工四九　長長久久】清華大學工工系49週年系慶活動開始報名！",
+                "date": "2023-04-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-2521-86?tmpl=component&tmpl=component",
+                "title": "清華大學工工系電子報第86期",
+                "date": "2023-03-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-39/mailid-2505-3-19?tmpl=component&tmpl=component",
+                "title": "工工系友會 『真誠感謝，一路上有你』　3/19(日)新春品酒會",
+                "date": "2023-02-24"
+            }
+        ]
+    },
+    {
+        "name": "清華校友總會會務訊息",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-69-",
+        "details": {
+            "管理者": "王思齊",
+            "管理單位": "校友中心",
+            "電子信箱": "nthuaa@my.nthu.edu.tw",
+            "聯絡電話": "31245"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-3383-2024?tmpl=component&tmpl=component",
+                "title": "【歡迎報名】月涵學校-2024年清華特色企業領袖前瞻學習班",
+                "date": "2024-01-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-3101-2023?tmpl=component&tmpl=component",
+                "title": "【歡迎報名】2023年桃竹苗校友會年度大會與南部校友會年會",
+                "date": "2023-10-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-2646-?tmpl=component&tmpl=component",
+                "title": "清華校慶高峰論壇：跟隨郭泓志、運彩總經理、魔獸來台推手，探索運動產業的未來！",
+                "date": "2023-04-14"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-2418-2023?tmpl=component&tmpl=component",
+                "title": "【歡迎報名】2023月涵學校第四期／清華大學創業車庫團隊熱烈招募中",
+                "date": "2023-01-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-2148-?tmpl=component&tmpl=component",
+                "title": "【歡迎報名】南部校友會年會與桃竹苗校友會成立大會",
+                "date": "2022-10-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-1694-follow-4-23-nft?tmpl=component&tmpl=component",
+                "title": "【Follow時下最夯議題】歡迎報名4/23校慶高峰論壇：NFT帶來的機會與挑戰",
+                "date": "2022-04-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-1628-2022-x?tmpl=component&tmpl=component",
+                "title": "【歡迎報名】2022校慶活動─清紫野餐派對x草地音樂會",
+                "date": "2022-03-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-1477-2022?tmpl=component&tmpl=component",
+                "title": "【歡迎報名】2022全球清華人線上新春拜年會／清華特色企業領袖前瞻學習班",
+                "date": "2022-01-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-1418-2021?tmpl=component&tmpl=component",
+                "title": "《2021年清華永續論壇》論壇影片",
+                "date": "2021-12-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-1374-2021?tmpl=component&tmpl=component",
+                "title": "【敬邀蒞臨】2021《清華永續論壇：國際淨零排碳趨勢與台灣綠色產業供應鏈之挑戰與契機》",
+                "date": "2021-12-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-69/mailid-1264-?tmpl=component&tmpl=component",
+                "title": "【活動資訊】歡迎參加《薩勒姆風暴》歌劇音樂會／清紫秋風健行趣",
+                "date": "2021-11-02"
+            }
+        ]
+    },
+    {
+        "name": "清華校友電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-8-",
+        "details": {
+            "管理者": "林昱渟",
+            "管理單位": "校友中心",
+            "電子信箱": "alumni@my.nthu.edu.tw",
+            "聯絡電話": "31246"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-4608-2025-02-28?tmpl=component&tmpl=component",
+                "title": "高為元校長致全體清華人的一封信",
+                "date": "2025-03-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-4594-155-2025-03-18?tmpl=component&tmpl=component",
+                "title": "NTHU & I 校慶精彩活動陸續開跑（清華校友電子報155期-2025-03-18）",
+                "date": "2025-03-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-4537-2025-02-28?tmpl=component&tmpl=component",
+                "title": "校長的一封信",
+                "date": "2025-02-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-4436-154-2025-01-22?tmpl=component&tmpl=component",
+                "title": "金蛇賀歲揚喜氣 第26屆傑出校友遴選結果出爐（清華校友電子報154期-2025-01-22）",
+                "date": "2025-01-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-4321-153-2024-12-11?tmpl=component&tmpl=component",
+                "title": "校友總會邁入第十屆 威剛科技陳立白董事長接任理事長（清華校友電子報第153期-2024-12-11）",
+                "date": "2024-12-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-4049-152-2024-09-13?tmpl=component&tmpl=component",
+                "title": "清華湖畔爵士嘉年華　歡迎校友回母校同樂（清華校友電子報第152期-2024-09-13）",
+                "date": "2024-09-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-3830-151-2024-06-20?tmpl=component&tmpl=component",
+                "title": "清華越南校友會正式成立　凝聚全球校友向心力（清華校友電子報第151期-2024-06-20）",
+                "date": "2024-06-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-3630-113-150-2024-04-12?tmpl=component&tmpl=component",
+                "title": "歡慶清華113週年校慶　精彩活動陸續開跑（清華校友電子報第150期-2024-04-12）",
+                "date": "2024-04-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-3610-?tmpl=component&tmpl=component",
+                "title": "致各地清華校友之地震慰問信",
+                "date": "2024-04-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-3545-149-2024-03-15?tmpl=component&tmpl=component",
+                "title": "清華新能量　精彩活動陸續開跑迎校慶（清華校友電子報第149期-2024-03-15）",
+                "date": "2024-03-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-3399-25-148-2023-01-17?tmpl=component&tmpl=component",
+                "title": "金龍獻瑞喜報春　第25屆傑出校友遴選結果出爐（清華校友電子報第148期-2023-01-17）",
+                "date": "2024-01-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-3296-147-2023-12-15?tmpl=component&tmpl=component",
+                "title": "清華創下全新里程碑　成立印度校友會（清華校友電子報第147期-2023-12-15）",
+                "date": "2023-12-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-3072-?tmpl=component&tmpl=component",
+                "title": "敬祝中秋佳節快樂",
+                "date": "2023-09-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-2945-2-0-146-2023-08-11?tmpl=component&tmpl=component",
+                "title": "合勤演藝廳2.0工程即將啟動　升級設備打造新藝文空間（清華校友電子報第146期-2023-08-11）",
+                "date": "2023-08-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-2840-145-2023-06-21?tmpl=component&tmpl=component",
+                "title": "清華成功湖整治完工　嶄新樣貌清新亮麗（清華校友電子報第145期-2023-06-21）",
+                "date": "2023-06-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-2627-144-2023-04-07?tmpl=component&tmpl=component",
+                "title": "清華校慶系列活動開跑　歡迎校友們回母校同樂（清華校友電子報第144期-2023-04-07）",
+                "date": "2023-04-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-2556-143-2023-03-15?tmpl=component&tmpl=component",
+                "title": "癸卯梅竹賽精彩落幕　清華蟬聯冠軍寶座（清華校友電子報第143期-2023-03-15）",
+                "date": "2023-03-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-2419-24-142-2023-01-18?tmpl=component&tmpl=component",
+                "title": "玉兔迎春添新象　第24屆傑出校友遴選結果出爐（清華校友電子報第142期-2023-01-18）",
+                "date": "2023-01-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-2324-141-2022-12-13?tmpl=component&tmpl=component",
+                "title": "清華勇奪世界級競賽冠軍　睽違十年再創亮眼佳績（清華校友電子報第141期-2022-12-13）",
+                "date": "2022-12-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-8/mailid-2247-140-2022-11-16?tmpl=component&tmpl=component",
+                "title": "高為元校長首率團出訪海外　帶領清華品牌走向國際（清華校友電子報第140期-2022-11-16）",
+                "date": "2022-11-16"
+            }
+        ]
+    },
+    {
+        "name": "清華簡訊",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-9-",
+        "details": {
+            "管理者": "蔡季芬",
+            "管理單位": "秘書處公共事務組",
+            "電子信箱": "dpa@my.nthu.edu.tw",
+            "聯絡電話": "62010"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4612-1395?tmpl=component&tmpl=component",
+                "title": "清華簡訊1395期",
+                "date": "2025-03-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4587-1393?tmpl=component&tmpl=component",
+                "title": "清華簡訊1394期",
+                "date": "2025-03-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4559-1393?tmpl=component&tmpl=component",
+                "title": "清華簡訊1393期",
+                "date": "2025-03-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4542-1392?tmpl=component&tmpl=component",
+                "title": "清華簡訊1392期",
+                "date": "2025-03-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4517-1391?tmpl=component&tmpl=component",
+                "title": "清華簡訊1391期",
+                "date": "2025-02-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4494-1390?tmpl=component&tmpl=component",
+                "title": "清華簡訊1390期",
+                "date": "2025-02-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4470-1389?tmpl=component&tmpl=component",
+                "title": "清華簡訊1389期",
+                "date": "2025-02-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4448-1388?tmpl=component&tmpl=component",
+                "title": "清華簡訊1388期",
+                "date": "2025-02-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4433-1387?tmpl=component&tmpl=component",
+                "title": "清華簡訊1387期",
+                "date": "2025-01-20"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4417-1386?tmpl=component&tmpl=component",
+                "title": "清華簡訊1386期",
+                "date": "2025-01-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4401-1385?tmpl=component&tmpl=component",
+                "title": "清華簡訊1385期",
+                "date": "2025-01-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4373-1384?tmpl=component&tmpl=component",
+                "title": "清華簡訊1384期",
+                "date": "2024-12-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4353-1383?tmpl=component&tmpl=component",
+                "title": "清華簡訊1383期",
+                "date": "2024-12-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4334-1382?tmpl=component&tmpl=component",
+                "title": "清華簡訊1382期",
+                "date": "2024-12-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4315-1381?tmpl=component&tmpl=component",
+                "title": "清華簡訊1381期",
+                "date": "2024-12-09"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4288-1380?tmpl=component&tmpl=component",
+                "title": "清華簡訊1380期",
+                "date": "2024-12-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4268-1379?tmpl=component&tmpl=component",
+                "title": "清華簡訊1379期",
+                "date": "2024-11-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4247-1378?tmpl=component&tmpl=component",
+                "title": "清華簡訊1378期",
+                "date": "2024-11-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4215-1377?tmpl=component&tmpl=component",
+                "title": "清華簡訊1377期",
+                "date": "2024-11-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-9/mailid-4194-1376?tmpl=component&tmpl=component",
+                "title": "清華簡訊1376期",
+                "date": "2024-11-04"
             }
         ]
     },
@@ -560,6 +2556,99 @@
         ]
     },
     {
+        "name": "秘書處-全校教職員",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-57-",
+        "details": {
+            "管理者": "李逸君",
+            "管理單位": "秘書處",
+            "電子信箱": "secreta5@my.nthu.edu.tw",
+            "聯絡電話": "62379"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2606-?tmpl=component&tmpl=component",
+                "title": "校園安全緊急通告",
+                "date": "2023-03-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2600-?tmpl=component&tmpl=component",
+                "title": "校園安全緊急通報",
+                "date": "2023-03-27"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-2407-?tmpl=component&tmpl=component",
+                "title": "高為元校長的新年祝福",
+                "date": "2023-01-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-1761-?tmpl=component&tmpl=component",
+                "title": "校長敬祝全清華園的母親-母親節快樂",
+                "date": "2022-05-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-1144-?tmpl=component&tmpl=component",
+                "title": "校長敬祝全體同仁佳節快樂",
+                "date": "2021-09-17"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-860-a-letter-from-president-hocheng?tmpl=component&tmpl=component",
+                "title": "賀陳弘校長寫給全校教職員工生的一封信 / A letter from President Hocheng",
+                "date": "2021-05-19"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-846-1100518-q-a-nthu-pandemic-precaution-q-a-english?tmpl=component&tmpl=component",
+                "title": "1100518國立清華大學防疫措施Q&A及體溫量測站縮減說明/NTHU Pandemic Precaution Q&A _English",
+                "date": "2021-05-18"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-835-5-16-entrance-control-of-nthu-starting-from-5-16?tmpl=component&tmpl=component",
+                "title": "因應疫情升級，禁止校外人車入校的措施將提前自5/16起實施 / Entrance control of NTHU (starting from 5/16)",
+                "date": "2021-05-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-823-1100512?tmpl=component&tmpl=component",
+                "title": "1100512最新防疫訊息",
+                "date": "2021-05-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-817-1100512?tmpl=component&tmpl=component",
+                "title": "1100512防疫訊息",
+                "date": "2021-05-12"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-790-?tmpl=component&tmpl=component",
+                "title": "校長敬祝全清華園的母親-母親節快樂",
+                "date": "2021-05-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-454-1100111-nthu-covid-19-bulletin-board-1100111?tmpl=component&tmpl=component",
+                "title": "＠清華防疫小組訊息一把報[1100111] / @NTHU COVID-19 Bulletin Board【1100111】",
+                "date": "2021-01-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-333-?tmpl=component&tmpl=component",
+                "title": "代發教師會活動訊息～歡迎全校同仁踴躍參加！",
+                "date": "2020-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-57/mailid-330-?tmpl=component&tmpl=component",
+                "title": "代發教師會活動訊息～歡迎全校教師同仁踴躍參加！",
+                "date": "2020-11-30"
+            }
+        ]
+    },
+    {
+        "name": "築思脈動(Pulse of Education)",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-68-",
+        "details": {
+            "管理者": "方孜娟",
+            "管理單位": "竹師教育學院",
+            "電子信箱": "tc_fang@mx.nthu.edu.tw",
+            "聯絡電話": "73003"
+        },
+        "articles": []
+    },
+    {
         "name": "英語教學精進中心-研究生電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-112",
         "details": {
@@ -598,6 +2687,33 @@
         "articles": []
     },
     {
+        "name": "計中-教育訓練",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-7-",
+        "details": {
+            "管理者": "江佩如",
+            "管理單位": "學習科技組",
+            "電子信箱": "pjchiang@mx.nthu.edu.tw",
+            "聯絡電話": "31231"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-7/mailid-3758-2024-matlab-day-5-28?tmpl=component&tmpl=component",
+                "title": "【活動通知】2024 MATLAB® Day 人工智慧校園研討會-5/28清大場",
+                "date": "2024-05-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-7/mailid-175-matlab?tmpl=component&tmpl=component",
+                "title": "(清大計中)MATLAB開課時間調查",
+                "date": "2020-09-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-7/mailid-60-9-1?tmpl=component&tmpl=component",
+                "title": "計中【資安講座】9/1-行動裝置資安訓練與面對社交工程的思維",
+                "date": "2020-08-19"
+            }
+        ]
+    },
+    {
         "name": "語文中心電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-38-",
         "details": {
@@ -607,5 +2723,266 @@
             "聯絡電話": "31008"
         },
         "articles": []
+    },
+    {
+        "name": "課務電子報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-40-",
+        "details": {
+            "管理者": "胡慧文",
+            "管理單位": "教務處課務組",
+            "電子信箱": "curricul@my.nthu.edu.tw",
+            "聯絡電話": "31395"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-4524-final-reminder-course-add-drop-period-ending-soon?tmpl=component&tmpl=component",
+                "title": "加退選即將結束！請務必確認選課，超低修、加簽問題盡快處理 Final Reminder: Course Add/Drop Period Ending Soon!",
+                "date": "2025-02-26"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-4471-2-13-2-17?tmpl=component&tmpl=component",
+                "title": "加簽、加退選2/13 開始，準備迎接2/17開學 Important Course Selection Dates & Deadlines",
+                "date": "2025-02-11"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-4314-113-taica?tmpl=component&tmpl=component",
+                "title": "113下課程查詢開放！選課、TAICA課程及教學意見調查重要提醒  2025 Spring Course Schedule Now Available – Don’t Miss These Key Updates!\"",
+                "date": "2024-12-10"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-4282-teaching-feedback-survey-claim-your-awesome-gift?tmpl=component&tmpl=component",
+                "title": "教學意見調查填卷小禮 \"真的超讚，有圖有真相！\" Course evaluation: Claim Your Awesome Gift!",
+                "date": "2024-11-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-4178-application-for-course-withdrawal-oct-28-nov-15?tmpl=component&tmpl=component",
+                "title": "覺得喘不過氣？停修申請開始了！Application for Course Withdrawal Oct.28～ Nov.15",
+                "date": "2024-10-29"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-4058-course-enrollment-confirmation?tmpl=component&tmpl=component",
+                "title": "選課截止倒數！請立即確認您的課程安排 Course Enrollment Confirmation",
+                "date": "2024-09-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-4001-key-points-from-curriculum-office?tmpl=component&tmpl=component",
+                "title": "開學前的必備清單：課務組重要事項一覽 Key points from Curriculum Office",
+                "date": "2024-08-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-3988-3-8-26-8-27?tmpl=component&tmpl=component",
+                "title": "3選只有兩天8/26-27 3rd Course Selection: Available Aug. 26-27",
+                "date": "2024-08-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-3807-6-13-17?tmpl=component&tmpl=component",
+                "title": "6/13~17選課黃金週",
+                "date": "2024-06-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-3506-pls-check-the-outcomes-of-your-course-selection-online?tmpl=component&tmpl=component",
+                "title": "加退選即將截止,切記\"三不一沒有\" Please review the outcomes of your course selection online.",
+                "date": "2024-03-03"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-3454-important-messages-before-the-start-of-the-2024-spring-semester?tmpl=component&tmpl=component",
+                "title": "開學前選課二三事Important messages before the start of the 2024 spring semester",
+                "date": "2024-02-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-3363-1-2?tmpl=component&tmpl=component",
+                "title": "選課開始，填卷倒數，雙料任務同時完成",
+                "date": "2024-01-04"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-3062-please-check-the-outcomes-of-your-course-selection-online?tmpl=component&tmpl=component",
+                "title": "選課提醒：別成為選課最後一哩路的遺珠！ Please check the outcomes of your course selection online.",
+                "date": "2023-09-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-3001-course-registration-reminders-before-the-start-of-the-semester?tmpl=component&tmpl=component",
+                "title": "開學前選課事項提醒 Course Registration Reminders Before the Start of the Semester",
+                "date": "2023-09-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-2782-6-1-12-00-go-for-it-from-12-00-noon-on-1-june-go-for-your-dream-course?tmpl=component&tmpl=component",
+                "title": "6月1日中午12:00起，go for your dream course!",
+                "date": "2023-05-30"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-2500-?tmpl=component&tmpl=component",
+                "title": "(((重要))) 請不要等到加退選截止，才驚喊「不敢相信!」",
+                "date": "2023-02-23"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-2438-add-or-drop-selection-2-9-12-00?tmpl=component&tmpl=component",
+                "title": "【開學前最大條】加退選Add-or-Drop Selection 2/9中午12:00開始",
+                "date": "2023-02-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-2341-1?tmpl=component&tmpl=component",
+                "title": "‎第1次選課即將登場 1st course selection  Dec.22~26",
+                "date": "2022-12-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-2189-10-31-11-28-111?tmpl=component&tmpl=component",
+                "title": "停修 Course Withdrawal (10/31~11/28)--線上申請/簽核",
+                "date": "2022-10-27"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-40/mailid-2117-27-9-00?tmpl=component&tmpl=component",
+                "title": "加退選截止時間步步進逼(９/27(周二）早上9:00)，是該確認選課結果的時候了！",
+                "date": "2022-09-24"
+            }
+        ]
+    },
+    {
+        "name": "諮商中心-心窩報報",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-16-",
+        "details": {
+            "管理者": "謝慧馨",
+            "管理單位": "諮商中心",
+            "電子信箱": "counsel@my.nthu.edu.tw",
+            "聯絡電話": "31299"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-4518-no-195?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.195【戀愛腦】",
+                "date": "2025-02-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-4369-no-194?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.194【世界越快心則慢】",
+                "date": "2024-12-27"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-4271-no-193?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.193【愛的距離】",
+                "date": "2024-11-26"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-4164-no-192?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.192【鍛鍊心理韌性】",
+                "date": "2024-10-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-3669-no-191?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.191【愛的語言】",
+                "date": "2024-04-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-3483-no-190?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.190【數位社交焦慮】",
+                "date": "2024-02-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-3248-no-189?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.189【情緒性進食】",
+                "date": "2023-11-28"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-3149-no-188?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.188【拖延心理學：現在就看，別再拖了】",
+                "date": "2023-10-26"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-2800-no-187?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.187【人際關係】",
+                "date": "2023-06-06"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-2676-no-186?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.186【「關係」和「情緒」】",
+                "date": "2023-04-25"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-2555-no-185?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.185【心理自癒力】",
+                "date": "2023-03-13"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-2364-no-184?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.184【情緒界限】",
+                "date": "2022-12-27"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-2295-no-183-heart-gym?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.183【Heart Gym】",
+                "date": "2022-12-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-2113-no-182?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.182【健心俱樂部】",
+                "date": "2022-09-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-1917-no-181?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.181【負能量療癒力】",
+                "date": "2022-07-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-1848-no-180?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.180【疫情中的自我療癒】",
+                "date": "2022-06-02"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-1790-no-179?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.179【疫情期間的安心劑】",
+                "date": "2022-05-16"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-1626-no-178?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.178【心情調色盤】",
+                "date": "2022-03-14"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-1570-no-177?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.177【新口味焦糖瑪奇朵】",
+                "date": "2022-02-21"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-16/mailid-1535-no-176?tmpl=component&tmpl=component",
+                "title": "心窩報報NO.176【守護心理界線】",
+                "date": "2022-02-10"
+            }
+        ]
+    },
+    {
+        "name": "電機工程學系電子報(學生)",
+        "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/home-zh-tw/listid-25-",
+        "details": {
+            "管理者": "詹瑞芳",
+            "管理單位": "電機系",
+            "電子信箱": "eecsee@my.nthu.edu.tw",
+            "聯絡電話": "62197"
+        },
+        "articles": [
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-25/mailid-2805-219?tmpl=component&tmpl=component",
+                "title": "【系計中】即日起台達219室作為大電機系所組電腦教室使用，同學可由前門自由進出",
+                "date": "2023-06-07"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-25/mailid-2025-8-25-1-30-4-30?tmpl=component&tmpl=component",
+                "title": "[訊息] 本週四(8/25)下午 電機系辦公室暫停辦公，有洽公需求之同學(特別是辦理畢業離校手續者)請務必留意。",
+                "date": "2022-08-24"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-25/mailid-1949-8-3-cad-tool?tmpl=component&tmpl=component",
+                "title": "【系計中】請於8/3(三)前自行確認工作站個人帳號使用空間，避免無法執行CAD Tool",
+                "date": "2022-07-22"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-25/mailid-833-tsri-cadence-license?tmpl=component&tmpl=component",
+                "title": "TSRI Cadence License伺服器資訊已更新",
+                "date": "2021-05-15"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-25/mailid-146-?tmpl=component&tmpl=component",
+                "title": "電機系工作站常見問題說明",
+                "date": "2020-09-22"
+            }
+        ]
     }
 ]
