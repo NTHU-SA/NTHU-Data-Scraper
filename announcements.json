@@ -4340,6 +4340,11 @@
                 "date": "2025-02-20"
             },
             {
+                "title": "5/10 AM2:00~8:00 First High Voltage Station  Power Outage Notice",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-285860,r7725.php?Lang=en",
+                "date": "2025-03-25"
+            },
+            {
                 "title": "3/17~3/26 Education Building signs preparation project",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-285109,r7725.php?Lang=en",
                 "date": "2025-03-14"
@@ -4383,11 +4388,6 @@
                 "title": "Emergency Repair Notification for the First High Voltage Station (D Circuit) Affected Buildings (Ya, Hui, Jing, Wen Halls, and Engineering Building)",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-281024,r7725.php?Lang=en",
                 "date": "2025-01-06"
-            },
-            {
-                "title": "Emergency Power Outage Notification for the First High Voltage Station (ABCD Circuit)",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-281019,r7725.php?Lang=en",
-                "date": "2025-01-06"
             }
         ]
     },
@@ -4406,6 +4406,16 @@
                 "title": "114年南大校區高壓變電站年度大保養停電通知單",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-283574,r992.php?Lang=zh-tw",
                 "date": "2025-02-20"
+            },
+            {
+                "title": "3/26~3/30 北校門高壓總變電站MOF1至電工房電纜線汰換工程施工公告",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-285864,r992.php?Lang=zh-tw",
+                "date": "2025-03-25"
+            },
+            {
+                "title": "5/10 AM2:00~8:00第一高壓站停電通知",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-285857,r992.php?Lang=zh-tw",
+                "date": "2025-03-25"
             },
             {
                 "title": "3/17~3/26 教育館前人行道告示牌復原工程",
@@ -4445,16 +4455,6 @@
             {
                 "title": "0120南大校區11.4KV總站緊急停電已復電通知",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-281700,r992.php?Lang=zh-tw",
-                "date": "2025-01-20"
-            },
-            {
-                "title": "0120南大校區11.4KV總站緊急停電修復時程通知",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-281666,r992.php?Lang=zh-tw",
-                "date": "2025-01-20"
-            },
-            {
-                "title": "南大校區11.4KV總站緊急停電通知",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-281642,r992.php?Lang=zh-tw",
                 "date": "2025-01-20"
             }
         ]
@@ -7041,8 +7041,23 @@
         "department": "英語教學精進中心",
         "articles": [
             {
+                "title": "【教師英語教學(EMI)研習】國立嘉義大學規劃辦理 辦理「教師英語教學(EMI)研習」講座，惠請公告周知，並鼓勵所屬人員踴躍參加。",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285865,r10652.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【英語授課知能工作坊】國立臺灣師範大學教務處教學發展中心於114年4月2日(星期三)辦理113學年度第2學期「英語授課知能工作坊」活動，惠請公告周知，並鼓勵所屬教職員踴躍參加。",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285863,r10652.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【跨校公開觀議課】國立臺灣師範大學EMI教學資源中心與多校EMI中心共同辦理《跨校公開觀議課》之資訊，詳如說明 ，惠請公告周知，並鼓勵所屬教師踴躍參加。",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-285856,r10652.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【教師講座資訊】國立中興大學EMI教學資源中心與國立臺中教育大學合作辦理之「如何運用「深度討論（Quality Talk)」教學法於大一英文課堂中」，惠請公告周知，並鼓勵所屬教師踴躍參加。",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285862,r10652.php?Lang=zh-tw",
                 "date": null
             },
             {
@@ -7083,21 +7098,6 @@
             {
                 "title": "【EMI教師分享會】國立陽明交通大學雙語教育與學習於114年03月19日與3月26日星期三下午辦理EMI教師分享會，EMI教學工具經驗與Studio D-ID實作研討，惠請公告周知，並鼓勵所屬教師踴躍參加。",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-284850,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI教師工作坊】國立中興大學EMI與大葉大學合作辦理2場跨校聯合EMI教師工作坊，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-284851,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "東吳大學規劃辦理「專業領域全英語授課（EMI）工作坊」活動訊息，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-284833,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立台灣大學EMI規劃辦理 「跨校EMI教師成長社群計畫」，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-284832,r10652.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -9426,6 +9426,11 @@
                 "date": "2025-02-10"
             },
             {
+                "title": "114年4月實驗室借用公告",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-285859,r2714.php?Lang=zh-tw",
+                "date": "2025-03-25"
+            },
+            {
                 "title": "工工系紫荊季_流程表 (114.3.16,日,上午)",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-285161,r2714.php?Lang=zh-tw",
                 "date": "2025-03-14"
@@ -9474,11 +9479,6 @@
                 "title": "工工系徵求2025年暑期課程師資",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-281399,r2714.php?Lang=zh-tw",
                 "date": "2025-01-15"
-            },
-            {
-                "title": "114春節農曆年期間預計封館時間1/24(五)18:00 ~ 2/3(一)07:00",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-280925,r2714.php?Lang=zh-tw",
-                "date": "2025-01-03"
             }
         ]
     },
@@ -17119,6 +17119,11 @@
         "department": "華文文學研究所",
         "articles": [
             {
+                "title": "【錄取名單】2025 第十四屆國立清華大學、國立屏東大學、臺北市立大學、國立臺東大學中國語文學系、華語文學系研究生論文聯合發表會摘要通過名單",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-285861,r6386.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【114考試招生報到】華文所考試入學錄取名單 歡迎新生 加入華文所的行列 ~~正取生報到時間：114年3月11日上午10：00起至3月13日17:00止。",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-284426,r6386.php?Lang=zh-tw",
                 "date": null
@@ -17172,11 +17177,6 @@
                 "title": "【演講公告】11/13上午9:00～12:00 講題：當年，王默人周安儀為什麼要出走？",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-277377,r6386.php?Lang=zh-tw",
                 "date": null
-            },
-            {
-                "title": "【演講公告】10/29下午16:30～18:30講題：碩士論文研究路上的歷程分享",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-277376,r6386.php?Lang=zh-tw",
-                "date": null
             }
         ]
     },
@@ -17186,6 +17186,11 @@
         "language": "zh-tw",
         "department": "華文文學研究所",
         "articles": [
+            {
+                "title": "【錄取名單】2025 第十四屆國立清華大學、國立屏東大學、臺北市立大學、國立臺東大學中國語文學系、華語文學系研究生論文聯合發表會摘要通過名單",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-285861,r6387.php?Lang=zh-tw",
+                "date": null
+            },
             {
                 "title": "【錄取名單】2024湛華國際華文研究生及大學生學術研討會",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-265956,r6387.php?Lang=zh-tw",
@@ -17239,11 +17244,6 @@
             {
                 "title": "【工作坊】4/28(五)、5/19(五)大眾文學工作坊",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-245448,r6387.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【工作坊】2023年春季現代詩工作坊-跨域、傳播與混搭：4/19、5/17、6/14星期三上午10:00~12:00",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-244484,r6387.php?Lang=zh-tw",
                 "date": null
             }
         ]
