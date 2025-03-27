@@ -665,6 +665,11 @@
         "department": "招生策略中心",
         "articles": [
             {
+                "title": "114學年度碩士在職專班第1次備取遞補名單(含報到須知)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-286039,r6106.php?Lang=zh-tw",
+                "date": "2025-03-27"
+            },
+            {
                 "title": "114學年度境外碩士在職專班招生公告",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-284080,r6106.php?Lang=zh-tw",
                 "date": "2025-03-04"
@@ -758,11 +763,6 @@
                 "title": "111學年竹師教育學院心理與諮商碩士新加坡境外在職專班春季班錄取名單(含報到須知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-242670,r6106.php?Lang=zh-tw",
                 "date": "2023-01-19"
-            },
-            {
-                "title": "112學年度碩士在職專班報名人數統計表",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-241724,r6106.php?Lang=zh-tw",
-                "date": "2022-12-28"
             }
         ]
     },
@@ -841,13 +841,13 @@
         "department": "事務組",
         "articles": [
             {
-                "title": "The NTHU Shuttle Bus and Nanda-Main Campus Shuttle Bus timetable will be changed on Apr. 2th.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285813,r127.php?Lang=en",
+                "title": "Both \"NTHU Shuttle Bus\" and \"Nanda <-> Main Campus Shuttle Bus\" will be out of service on 2025/04/03-2025/04/06 (Tomb Sweeping Festival and Children's Day).",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285812,r127.php?Lang=en",
                 "date": "2025-03-24"
             },
             {
-                "title": "Both \"NTHU Shuttle Bus\" and \"Nanda <-> Main Campus Shuttle Bus\" will be out of service on 2025/04/02-2024/04/06 (Tomb Sweeping Festival and Children's Day).",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285812,r127.php?Lang=en",
+                "title": "The NTHU Shuttle Bus and Nanda-Main Campus Shuttle Bus timetable will be changed on Apr. 2th.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285813,r127.php?Lang=en",
                 "date": "2025-03-24"
             },
             {
@@ -4829,8 +4829,13 @@
                 "date": null
             },
             {
-                "title": "113-1 Austronesian Related Courses",
-                "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-269041,r6295.php?Lang=en",
+                "title": "113-2  Austronesian Related Courses",
+                "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-286045,r6295.php?Lang=en",
+                "date": null
+            },
+            {
+                "title": "Military Settlements, Settler Village, and Headhunting: Rethinking the History of Migration and Reclamation in the Feifeng Hills (1788-1855)",
+                "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-286043,r6295.php?Lang=en",
                 "date": null
             },
             {
@@ -4872,11 +4877,6 @@
                 "title": "2025 Library Nanda Branch 2F Book Fair by The Center for World Austronesia ane Indigenous Peoples",
                 "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-281788,r6295.php?Lang=en",
                 "date": null
-            },
-            {
-                "title": "2025 CWAIP Recrument",
-                "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-278109,r6295.php?Lang=en",
-                "date": null
             }
         ]
     },
@@ -4904,6 +4904,11 @@
             {
                 "title": "113學年度下學期南島相關課程",
                 "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-279048,r6295.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "屯隘、墾庄與獵首：再思飛鳳丘陵移墾史（1788-1855）",
+                "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-286042,r6295.php?Lang=zh-tw",
                 "date": null
             },
             {
@@ -4939,11 +4944,6 @@
             {
                 "title": "南大校區 世界南島暨原住民族中心書展（2025/02/17-2025/04/30）",
                 "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-281789,r6295.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "世界南島暨原住民族跨領域學分學程推廣展（2025/02/17-2025/03/17）",
-                "link": "https://cwaip.site.nthu.edu.tw/p/406-1407-281781,r6295.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -16451,6 +16451,11 @@
         "department": "住宿書院",
         "articles": [
             {
+                "title": "【厚德書院】吳濁流主題繪本創作工作坊 3/31 (一) 18:30 @實齋講堂",
+                "link": "https://rcollege.site.nthu.edu.tw/p/404-1103-286041.php",
+                "date": "2025-03-27"
+            },
+            {
                 "title": "【天下書院】東南亞娘惹活動「椰絲球手作工作坊」4/22(二) 19:00 @實齋廚房",
                 "link": "https://rcollege.site.nthu.edu.tw/p/404-1103-285926.php",
                 "date": "2025-03-26"
@@ -16519,11 +16524,6 @@
                 "title": "【天下書院】SDGs：Legal Victories in Climate Litigation",
                 "link": "https://www.facebook.com/nthuglobalprogram/posts/pfbid0VunNhnsNEdJxrRn5nXRxhLPqYZzoiRW2rdz1coZKRvHuF33BpL9CpjvLND4Yxtigl",
                 "date": "2025-02-10"
-            },
-            {
-                "title": "【載物書院】114學年度高年級院生統一甄選 開放申請至2025/1/6 23:59",
-                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-280358,r6160.php?Lang=zh-tw",
-                "date": "2024-12-18"
             }
         ]
     },
