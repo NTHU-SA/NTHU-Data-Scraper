@@ -7558,7 +7558,8 @@
         "details": {
             "departments": [],
             "contact": {
-                "extension": "33722"
+                "extension": "33722",
+                "email": "largan-nthu@my.nthu.edu.tw"
             },
             "people": [
                 {
@@ -7567,13 +7568,6 @@
                     "extension": "33730",
                     "note": null,
                     "email": "hytsai@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "王培仁",
-                    "title": "副主任",
-                    "extension": "33789",
-                    "note": null,
-                    "email": "pjwang@pme.nthu.edu.tw "
                 },
                 {
                     "name": "李明蒼",
@@ -7587,7 +7581,7 @@
                     "title": "助理",
                     "extension": "33722",
                     "note": null,
-                    "email": "largan-nthu@my.nthu.edu.tw"
+                    "email": "yhsin@gapp.nthu.edu.tw"
                 }
             ]
         }
@@ -21894,11 +21888,11 @@
             },
             "people": [
                 {
-                    "name": "蔡昌憲",
-                    "title": "教授兼所長",
-                    "extension": "62144",
+                    "name": "林勤富",
+                    "title": "教授",
+                    "extension": "62535",
                     "note": null,
-                    "email": "chstsai@mx.nthu.edu.tw"
+                    "email": "chingfulin@mx.nthu.edu.tw"
                 },
                 {
                     "name": "陳仲嶙",
@@ -21929,18 +21923,18 @@
                     "email": "itic.adhoc@gmail.com"
                 },
                 {
+                    "name": "蔡昌憲",
+                    "title": "教授兼所長",
+                    "extension": "62144",
+                    "note": null,
+                    "email": "chstsai@mx.nthu.edu.tw"
+                },
+                {
                     "name": "高銘志",
                     "title": "教授",
                     "extension": "42430",
                     "note": null,
                     "email": "antongao@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "林勤富",
-                    "title": "教授",
-                    "extension": "62535",
-                    "note": null,
-                    "email": "chingfulin@mx.nthu.edu.tw"
                 },
                 {
                     "name": "黃忠正",
@@ -21999,11 +21993,32 @@
                     "email": null
                 },
                 {
+                    "name": "黃若翔",
+                    "title": "助理教授",
+                    "extension": "62531",
+                    "note": null,
+                    "email": "johsiang@gapp.nthu.edu.tw"
+                },
+                {
+                    "name": "李淙源",
+                    "title": "助理教授",
+                    "extension": "62157",
+                    "note": null,
+                    "email": null
+                },
+                {
                     "name": "吳立姸",
                     "title": "行政組員 / 綜理科法所行政事務",
                     "extension": "42427",
                     "note": null,
                     "email": "lst@my.nthu.edu.tw"
+                },
+                {
+                    "name": "曾煊雅",
+                    "title": "研究助理 / 綜理科法所行政事務",
+                    "extension": "42427",
+                    "note": null,
+                    "email": null
                 }
             ]
         }
