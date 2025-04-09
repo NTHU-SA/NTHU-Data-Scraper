@@ -2178,6 +2178,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學化學系誠徵技術組員(實驗助教)1名 (至5/18)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286579,r5075.php?Lang=zh-tw",
+                "date": "2025-04-09"
+            },
+            {
                 "title": "【徵才】國立清華大學淨零綠領人才培育中心 誠徵專任助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286568,r5075.php?Lang=zh-tw",
                 "date": "2025-04-09"
@@ -2231,11 +2236,6 @@
                 "title": "【誠徵】國立清華大學英語教學系徵專案組員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286026,r5075.php?Lang=zh-tw",
                 "date": "2025-03-27"
-            },
-            {
-                "title": "【誠徵】教發中心誠徵影音剪輯工讀生（3名）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-285975,r5075.php?Lang=zh-tw",
-                "date": "2025-03-26"
             }
         ]
     },
@@ -3406,6 +3406,11 @@
         "department": "通識教育中心",
         "articles": [
             {
+                "title": "【徵才】通識教育中心李姝慧老師徵求114(上)「探索心智與行為：當代心理學」課程助教，徵才訊息請點入閱讀。",
+                "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/881168216.pdf",
+                "date": null
+            },
+            {
                 "title": "【活動】歡迎參加：5/13 紀錄片《我父英風》觀賞",
                 "link": "https://docs.google.com/forms/d/e/1FAIpQLSe92_Luxl2b5HsnX2PcKfrnOZYPuoBUZxWvaJlPSq8RfJwSwA/viewform",
                 "date": null
@@ -3458,11 +3463,6 @@
             {
                 "title": "【課程】113(下)「教學助理研習營」114/2/13(四)~2/14(五)，詳情請見教發中心網頁。",
                 "link": "https://ctld.site.nthu.edu.tw/p/406-1217-279924,r6814.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【講座】2024白先勇清華文學講座「文學改編電影──從《玉卿嫂》改編講起」，歡迎校內教職員及非修課同學們報名共襄盛舉！",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-280009,r11.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -15188,11 +15188,6 @@
                 "date": "2025-04-08"
             },
             {
-                "title": "【暑期夏令營招生】114年清華大學_暑期運動樂活夏令營  簡章&報名",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286567,r11.php",
-                "date": "2025-04-09"
-            },
-            {
                 "title": "【棒球場】113適應體育計畫-盲人棒球活動4/12（六）-4/13（日）借用棒球場，以下時段，場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286512,r11.php",
                 "date": "2025-04-08"
@@ -15230,6 +15225,11 @@
             {
                 "title": "【校友體育館】EMBA羽球社社課4/12（六）下午05:00-晚上09:00借用羽球場（#6-8），場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286502,r11.php",
+                "date": "2025-04-08"
+            },
+            {
+                "title": "【室外籃球場】材料系運動會4/13（日）上午08:00-下午06:00借用室外籃球場（#1 & 2 & 3球場），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286501,r11.php",
                 "date": "2025-04-08"
             }
         ]
