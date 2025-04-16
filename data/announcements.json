@@ -2178,6 +2178,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學 議事及法規組 誠徵行政組員（原行政助理）一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286989,r5075.php?Lang=zh-tw",
+                "date": "2025-04-16"
+            },
+            {
                 "title": "【誠徵】國立清華大學工科系辦之工讀徵求(分兩種期間:自即日起至114/06/06止、以及暑假自114/06/09至114/08/29止，為勞僱型簽約)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-241354,r5075.php?Lang=zh-tw",
                 "date": "2025-04-15"
@@ -2231,11 +2236,6 @@
                 "title": "誠徵《專案研究助理》國立清華大學 醫環系葉秩光教授",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286649,r5075.php?Lang=zh-tw",
                 "date": "2025-04-09"
-            },
-            {
-                "title": "【誠徵博士後研究】醫環系葉秩光教授 超音波實驗室",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286647,r5075.php?Lang=zh-tw",
-                "date": "2025-04-09"
             }
         ]
     },
@@ -2245,6 +2245,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學 議事及法規組 誠徵行政組員（原行政助理）一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286989,r5081.php?Lang=zh-tw",
+                "date": "2025-04-16"
+            },
             {
                 "title": "【徵才】駐警隊徵專案組員2名（114.6.1到職）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-285666,r5081.php?Lang=zh-tw",
@@ -2298,11 +2303,6 @@
             {
                 "title": "國立政治大學徵求X實驗學院院長候選人",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286758,r5081.php?Lang=zh-tw",
-                "date": "2025-04-11"
-            },
-            {
-                "title": "國立政治大學徵求國際事務學院院長",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-204006,r5081.php?Lang=zh-tw",
                 "date": "2025-04-11"
             }
         ]
@@ -3914,11 +3914,6 @@
                 "date": "2025-01-10"
             },
             {
-                "title": "國立清華大學生命科學暨醫學院公開徵求院長候選人啟事",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-280826,r7381.php?Lang=zh-tw",
-                "date": "2025-01-02"
-            },
-            {
                 "title": "清華大學研發細胞運輸定身術 可阻病毒入侵",
                 "link": "https://www.nthu.edu.tw/hotNews/content/1202",
                 "date": "2025-01-02"
@@ -3952,6 +3947,11 @@
                 "title": "【公告】113-2學期生活助學金申請",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-278761,r7381.php?Lang=zh-tw",
                 "date": "2024-11-18"
+            },
+            {
+                "title": "國立清華大學114學年度碩士班考試入學招生公告，",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-278088,r7381.php?Lang=zh-tw",
+                "date": "2024-11-08"
             }
         ]
     },
@@ -4302,23 +4302,23 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "第十一屆生技產業論壇-代謝醫療創新與市場趨勢",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286600,r8085.php?Lang=zh-tw",
+                "title": "2025生物科技明日之星校園徵才",
+                "link": "https://2025jobfair.life.nthu.edu.tw/",
                 "date": null
             },
             {
-                "title": "113學年度碩/博士生 申請口試離校流程",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-270294,r8085.php?Lang=zh-tw",
+                "title": "2025.5.25(日)敬邀參加國立清華大學生命科學暨醫學院113學年度畢業禮讚",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286261,r8085.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "新進教師專訪：陳韋靜助理教授",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-243678,r8085.php?Lang=zh-tw",
+                "title": "伍焜玉院士學術講座",
+                "link": "https://sites.google.com/view/kkwuliterature/homepage?authuser=0",
                 "date": null
             },
             {
-                "title": "生命科學暨醫學院永續發展",
-                "link": "https://sdgs.nthu.edu.tw/college/LSCO",
+                "title": "新進教師專訪：謝琬甄助理教授",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-243131,r8085.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -15193,6 +15193,11 @@
                 "date": "2025-04-09"
             },
             {
+                "title": "【全校游泳賽公告】114全校游泳賽 / SUP立式划槳競賽，報名至5/2(五)截止",
+                "link": "https://peo.nthu.edu.tw/2025swim/",
+                "date": "2025-04-16"
+            },
+            {
                 "title": "【游泳池】游泳池因過濾桶濾材流失，導致水質異常，自4/14（一）-4/16（三），場地不開放。開放時間若有異動，則再另行通知。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286909,r11.php",
                 "date": "2025-04-14"
@@ -15235,11 +15240,6 @@
             {
                 "title": "【室外網球場】EMBA網球社社課4/12（六）下午05:00-下午07:00借用室外網球場（#3 4球場），場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286503,r11.php",
-                "date": "2025-04-08"
-            },
-            {
-                "title": "【校友體育館】EMBA羽球社社課4/12（六）下午05:00-晚上09:00借用羽球場（#6-8），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286502,r11.php",
                 "date": "2025-04-08"
             }
         ]
@@ -16859,13 +16859,13 @@
                 "date": null
             },
             {
-                "title": "轉知：114年5月12日(一)彰化師範大學舉辦114年度「研究倫理工作坊(三)」線上課程",
-                "link": "https://rec.site.nthu.edu.tw/p/406-1233-286191,r3334.php?Lang=zh-tw",
+                "title": "轉知：114年5月17日(六)秀傳紀念醫院舉辦「人體試驗研究倫理講習班」",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-286986,r3334.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "轉知：114年5/17、5/24醫學研究倫理基金會辦理「人體試驗研究倫理講習班~GCP」",
-                "link": "https://rec.site.nthu.edu.tw/p/406-1233-285794,r3334.php?Lang=zh-tw",
+                "title": "轉知：114年4月29日(二)臺灣大學舉辦「114年度臺灣大學暨北區聯盟研究倫理教育訓練」",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-286985,r3334.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -17875,11 +17875,6 @@
         "department": "學生住宿組(水木生活中心1樓)",
         "articles": [
             {
-                "title": "Announcement on the Adjustment of Student Housing Policy for the 2025 Academic Year",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286417,r1538.php?Lang=en",
-                "date": "2025-04-07"
-            },
-            {
                 "title": "【Current Student】The results of the 2025 academic year dormitory",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286378,r1538.php?Lang=en",
                 "date": "2025-04-02"
@@ -17888,6 +17883,16 @@
                 "title": "Application of the waiting list for all students 2025",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286209,r1538.php?Lang=en",
                 "date": "2025-03-31"
+            },
+            {
+                "title": "Schedule of Housing Application 2025",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-281750,r1538.php?Lang=en",
+                "date": "2025-01-21"
+            },
+            {
+                "title": "Announcement on the Adjustment of Student Housing Policy for the 2025 Academic Year",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286417,r1538.php?Lang=en",
+                "date": "2025-04-07"
             },
             {
                 "title": "【Division of Physical Facility】April 8~11 Mowing Announcement",
@@ -17943,11 +17948,6 @@
                 "title": "【Current Graduate】Announcement of Housing Application for Graduate Students 2025",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-283862,r1538.php?Lang=en",
                 "date": "2025-02-25"
-            },
-            {
-                "title": "【Current Undergraduate】Announcement of Housing Application for Undergraduate Students 2025",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-283861,r1538.php?Lang=en",
-                "date": "2025-02-25"
             }
         ]
     },
@@ -17968,11 +17968,6 @@
                 "date": "2025-04-10"
             },
             {
-                "title": "114學年學生住宿政策調整說明",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286417,r1538.php?Lang=zh-tw",
-                "date": "2025-04-07"
-            },
-            {
                 "title": "【舊生】114學年度齋舍公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286378,r1538.php?Lang=zh-tw",
                 "date": "2025-04-02"
@@ -17983,9 +17978,19 @@
                 "date": "2025-03-31"
             },
             {
+                "title": "114年宿舍申請時程表",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-281750,r1538.php?Lang=zh-tw",
+                "date": "2025-01-21"
+            },
+            {
                 "title": "113學年度下學期教育部住宿補貼說明",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286902,r1538.php?Lang=zh-tw",
                 "date": "2025-04-14"
+            },
+            {
+                "title": "114學年學生住宿政策調整說明",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286417,r1538.php?Lang=zh-tw",
+                "date": "2025-04-07"
             },
             {
                 "title": "【轉事務組公告】4/8~4/11校本部男女宿舍區割草公告",
@@ -18025,11 +18030,6 @@
             {
                 "title": "【舊生】114學年度舊生宿舍申請流程",
                 "link": "https://sthousing.site.nthu.edu.tw/var/file/254/1254/img/4413/221743598.pdf",
-                "date": "2025-03-14"
-            },
-            {
-                "title": "【舊生】114學年度舊生其他優先住宿資格申請名單公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-285160,r1538.php?Lang=zh-tw",
                 "date": "2025-03-14"
             }
         ]
