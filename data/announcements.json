@@ -841,6 +841,16 @@
         "department": "事務組",
         "articles": [
             {
+                "title": "NTHU Shuttle Bus Timetable on 2025.04.27.(NTHU Anniversary Celebrations)",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-287005,r127.php?Lang=en",
+                "date": "2025-04-16"
+            },
+            {
+                "title": "Both \"NTHU Shuttle Bus\" and \"Nanda <-> Main Campus Shuttle Bus\" will be out of service on 2025/5/30-2025/6/1(Dragon Boat Festival Holiday).",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-287004,r127.php?Lang=en",
+                "date": "2025-04-16"
+            },
+            {
                 "title": "NTHU Shuttle Bus Timetable 2025.04.21~2025.06.07.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-287002,r127.php?Lang=en",
                 "date": "2025-04-16"
@@ -889,16 +899,6 @@
                 "title": "NTHU Shuttle Bus Timetable 2025.02.17~2025.03.15.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-282377,r127.php?Lang=en",
                 "date": "2025-02-11"
-            },
-            {
-                "title": "NTHU Shuttle Bus Stop Cancel Notification (from 2025-02-17)",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-282142,r127.php?Lang=en",
-                "date": "2025-02-06"
-            },
-            {
-                "title": "Both \"NTHU Shuttle Bus\" and \"Nanda <-> Main Campus Shuttle Bus\" will be out of service on 2025/1/25-2025/2/2(The Chinese New Year).",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-281214,r127.php?Lang=en",
-                "date": "2025-01-09"
             }
         ]
     },
@@ -912,6 +912,11 @@
                 "title": "114/5/25畢業典禮光復路北大門花卉零售等設攤申請",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285124,r127.php?Lang=zh-tw",
                 "date": "2025-03-14"
+            },
+            {
+                "title": "114/4/27(日)校慶校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-287005,r127.php?Lang=zh-tw",
+                "date": "2025-04-16"
             },
             {
                 "title": "端午節連續假期5/30(五)~6/1(日)校園公車及南大校區區間車停駛",
@@ -962,11 +967,6 @@
                 "title": "4月3日(四)~ 4月6日(日)中研院區間車停駛",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285811,r127.php?Lang=zh-tw",
                 "date": "2025-03-24"
-            },
-            {
-                "title": "【114年3月24-28日旺宏館沉思者雕像修復工程】",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-285605,r127.php?Lang=zh-tw",
-                "date": "2025-03-20"
             }
         ]
     },
@@ -2566,7 +2566,7 @@
                 "date": "2025-04-16"
             },
             {
-                "title": "【轉知】Adobe Creative Cloud學生限定專案，清大學生優惠價格，可登記到5月5日。",
+                "title": "【轉知】Adobe Creative Cloud學生限定專案，清大學生優惠價格，可登記到5月9日。",
                 "link": "https://forms.office.com/r/aHgUvviDQQ",
                 "date": "2025-04-15"
             },
@@ -2629,7 +2629,7 @@
         "department": "清華公佈欄",
         "articles": [
             {
-                "title": "【轉知】Adobe Creative Cloud學生限定專案，清大學生優惠價格，可登記到5月5日。",
+                "title": "【轉知】Adobe Creative Cloud學生限定專案，清大學生優惠價格，可登記到5月9日。",
                 "link": "https://forms.office.com/r/aHgUvviDQQ",
                 "date": "2025-04-15"
             },
