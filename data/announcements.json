@@ -2289,6 +2289,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "馬偕學校財團法人馬偕醫學院徵求馬偕醫學院高齡福祉科技研究所所長",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287227,r5081.php?Lang=zh-tw",
+                "date": "2025-04-18"
+            },
+            {
+                "title": "國立臺北科技大學電資學院徵求院長",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-230860,r5081.php?Lang=zh-tw",
+                "date": "2025-04-18"
+            },
+            {
                 "title": "【徵才】國立清華大學永續學院 誠徵行政組員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287055,r5081.php?Lang=zh-tw",
                 "date": "2025-04-17"
@@ -2336,16 +2346,6 @@
             {
                 "title": "【徵才】國立清華大學數學系誠徵專任計畫助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-281178,r5081.php?Lang=zh-tw",
-                "date": "2025-04-11"
-            },
-            {
-                "title": "大同大學電機工程學系誠聘專案助理教授",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286760,r5081.php?Lang=zh-tw",
-                "date": "2025-04-11"
-            },
-            {
-                "title": "國家科學及技術委員會新竹科學園區管理局辦理就業歧視評議暨性別平等工作委員會委員任期屆滿改選事宜，惠請推薦專家學者",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-286759,r5081.php?Lang=zh-tw",
                 "date": "2025-04-11"
             }
         ]
@@ -4499,6 +4499,210 @@
                 "title": "3/26~3/30 北校門高壓總變電站MOF1至電工房電纜線汰換工程施工公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-285864,r992.php?Lang=zh-tw",
                 "date": "2025-03-25"
+            }
+        ]
+    },
+    {
+        "title": "test最新消息",
+        "link": "https://cosr.site.nthu.edu.tw/p/403-1536-11272-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "半導體研究學院",
+        "articles": [
+            {
+                "title": "【獎項公告】TPCA2025電路板學生優秀論文獎",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-286670,r11272.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【演講暨研討會公告】114年4月28日(一)演講【面對茫茫的未來，如何找到自己的天命：新時代、新挑戰、新思維】",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-286552,r11272.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【活動暨競賽公告】【TEL海外參訪】探索科技最前線！TEL日本工廠參訪，開啟半導體職涯之旅",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-286024,r11272.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新聞媒體】學術交流基金會IEA訪團 與明新科大、清華、陽明交大交流半導體科技、華語教育",
+                "link": "https://money.udn.com/money/story/5635/8619217",
+                "date": null
+            },
+            {
+                "title": "【演講暨研討會公告】3/17 (一) 13:20 - 15:10（林御專教授） Synthesis, Doping, and Encapsulation of 2D Transition Metal Dichalcogenides",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-284945,r11272.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【招生公告】【博班招生】113學年度第二次辦理逕行修讀半導體研究學院博士學位作業，即日起開始接受申請至114.04.07 (星期一)17:00止",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-284324,r11272.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【袍服借用】 113 學年度碩士畢業生學位袍服團體借用作業通知",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-284191,r11272.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【冷氣清潔公告】半導體學院綜三館公共區域冷氣清潔保養，敬請配合。",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-282021,r11272.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新聞媒體】清華大學Dr. Fab團隊榮獲美光半導體創新應用競賽第一名金美獎",
+                "link": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000691313_RCU44OO00B5ENA4R5TP5C",
+                "date": null
+            },
+            {
+                "title": "【新聞媒體】清大攜美光競賽「總獎金136萬」",
+                "link": "https://udn.com/news/story/6928/8479458",
+                "date": null
+            },
+            {
+                "title": "【新聞媒體】清大攜美光推半導體競賽　獎金136萬獲獎者享求職優先",
+                "link": "https://money.udn.com/money/story/5612/8479906",
+                "date": null
+            },
+            {
+                "title": "【活動暨競賽公告】2026春赴海外交換計畫開放申請(不含陸、港、澳)至2/25(二)中午止",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-281359,r11272.php?Lang=zh-tw",
+                "date": null
+            }
+        ]
+    },
+    {
+        "title": "test徵才公告",
+        "link": "https://cosr.site.nthu.edu.tw/p/403-1536-11274-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "半導體研究學院",
+        "articles": [
+            {
+                "title": "【合作企業徵才實習】114學年度【台積電學長姐交心計畫‧三月場次】 03/12 (三) 10:30 - 16:30",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-284276,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2025聯發科技 | Girls Tech! 聯發程式女孩_3/22 清華大學場",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-283748,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2025 【UMC Overseas Summer Internship Program】聯電海外暑期實習計劃",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-282206,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2024清華創業日＿新創實習媒合會 暨 實習獎學金申請說明",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-281011,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2024【 聯電PTP暨研發替代役說明會】10/08(二) & 10/28(一)免費報名！名額有限，會後備有精美餐點~",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-276074,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2024.09.25美光徵才應援咖啡車  ＠蒙民偉樓旁停車格",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-275511,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2025台積電預辦登積計畫 | 預聘暨研發替代役校園徵才系列活動",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-275559,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2024.09.25南科追夢·北青「南漂」二部曲   @陽明交大",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-274268,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】ASML Female mentorship program 女性企業導師計畫",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-273633,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2024美光應屆畢業生 | 新鮮人徵才",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-269977,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2024  CakeResume 校園大使計畫 現正招募中！",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-261809,r11274.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【合作企業徵才實習】2023校園徵才說明會【台積電子公司－ #采鈺科技】",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-244639,r11274.php?Lang=zh-tw",
+                "date": null
+            }
+        ]
+    },
+    {
+        "title": "test新生專區",
+        "link": "https://cosr.site.nthu.edu.tw/p/403-1536-11277-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "半導體研究學院",
+        "articles": [
+            {
+                "title": "【新生專區】國立清華大學碩、博士學位考試細則：111.12.22 修正新增「學位論文符合學術倫理聲明書」繳交說明",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-286701,r11277.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新生專區】半導體研究學院學生信箱櫃啟用暨注意事項通告",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-283435,r11277.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新生專區】半導體研究學院博士班資格考試實施細則(適用114學年度(含)以後入學)",
+                "link": "https://cosr.site.nthu.edu.tw/var/file/536/1536/img/309247453.pdf",
+                "date": null
+            },
+            {
+                "title": "【新生專區】教師招生資訊",
+                "link": "https://cosr.site.nthu.edu.tw/p/412-1536-21814.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新生專區】個人信件收件地址填寫方法",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-277164,r11277.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新生專區】半導體研究學院學分抵免辦法 & 說明",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-273358,r11277.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新生專區】半導體研究學院博士班修讀辦法(適用113學年度起入學)",
+                "link": "https://cosr.site.nthu.edu.tw/var/file/536/1536/img/5037/266328645.pdf",
+                "date": null
+            },
+            {
+                "title": "【新生專區】半導體研究學院碩士班修讀辦法(適用113學年度起入學)",
+                "link": "https://cosr.site.nthu.edu.tw/var/file/536/1536/img/523073084.pdf",
+                "date": null
+            },
+            {
+                "title": "【新生專區】半導體研究學院博士班英語能力認定標準 English Proficiency Standards for the Ph.D. Program",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-233427,r11277.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新生專區】研究學院碩博士生跨部、跨校院系所修課申請表",
+                "link": "https://cosr.site.nthu.edu.tw/var/file/536/1536/img/5097/905881548.pdf",
+                "date": null
+            },
+            {
+                "title": "【新生專區】半導體研究學院碩博士班指導教授同意書Advisor Consent Form",
+                "link": "https://cosr.site.nthu.edu.tw/p/405-1536-271773,c19791.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【新生專區】學術研究倫理教育課程線上修習方式說明",
+                "link": "https://cosr.site.nthu.edu.tw/var/file/536/1536/img/349507078.pdf",
+                "date": null
             }
         ]
     },
@@ -7054,6 +7258,26 @@
         "department": "英語教學精進中心",
         "articles": [
             {
+                "title": "國立成功大學檢送財團法人台南市至善教育基金會委託本校辦理114年「漢學英語授課教師專業發展計畫」，惠請公告周知，並鼓勵所屬教師踴躍參加。",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287228,r10652.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【ESP/EMI教師】國立臺灣科技大學EMI教學資源中心與國立臺北科技大學雙語中心共同辦理「ESP專業英文師資增能認證」相關資訊，惠請公告周知，並鼓勵所屬ESP/EMI教師踴躍參加。",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287226,r10652.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【EMI教師研習】亞洲大學語文教學研究發展中心於本(114)年5月9日辦理「教師英語教學(EMI)研習」，惠請公告周知，並鼓勵所屬教師踴躍參加。",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287225,r10652.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【EMI教師講座】國立中興大學EMI教學資源中心與大葉大學合作辦理之「EMI: from the Perspective of a Native Speaker」教師講座資訊，惠請公告周知，並鼓勵所屬教師踴躍參加。",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287224,r10652.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【EMI 教師分享會】國立陽明交通大學規劃辦理114年04月21日星期一中午12:10~13:00辦理EMI教師分享會，講題：「重建與探索:我的EMI教學之旅」，惠請公告周知，並鼓勵所屬教師踴躍參加。",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-287222,r10652.php?Lang=zh-tw",
                 "date": null
@@ -7091,26 +7315,6 @@
             {
                 "title": "【EMI相關講座】國立屏東大學 EMI發展中心辦理 113學年度第2學期「EMI教學增能與數位教材製作」系列講座，惠請公告周知，並鼓勵所屬教職員生踴躍參加。",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-286109,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【教師英語教學(EMI)研習】國立嘉義大學規劃辦理 辦理「教師英語教學(EMI)研習」講座，惠請公告周知，並鼓勵所屬人員踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285865,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【英語授課知能工作坊】國立臺灣師範大學教務處教學發展中心於114年4月2日(星期三)辦理113學年度第2學期「英語授課知能工作坊」活動，惠請公告周知，並鼓勵所屬教職員踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285863,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【跨校公開觀議課】國立臺灣師範大學EMI教學資源中心與多校EMI中心共同辦理《跨校公開觀議課》之資訊，詳如說明 ，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285856,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【教師講座資訊】國立中興大學EMI教學資源中心與國立臺中教育大學合作辦理之「如何運用「深度討論（Quality Talk)」教學法於大一英文課堂中」，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285862,r10652.php?Lang=zh-tw",
                 "date": null
             }
         ]
