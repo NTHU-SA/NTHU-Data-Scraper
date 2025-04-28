@@ -2221,6 +2221,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才資訊】典閱組誠徵暑期櫃台工讀生",
+                "link": "https://www.lib.nthu.edu.tw/news/default.html#rss_news.xml!1580",
+                "date": "2025-04-28"
+            },
+            {
                 "title": "【誠徵】大立光電-清華大學聯合研發中心 專案計畫學士/碩士/博士級兼任助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287741,r5075.php?Lang=zh-tw",
                 "date": "2025-04-28"
@@ -2274,11 +2279,6 @@
                 "title": "【徵才】國立清華大學永續學院 誠徵行政組員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287055,r5075.php?Lang=zh-tw",
                 "date": "2025-04-17"
-            },
-            {
-                "title": "【徵才】國立清華大學動力機械工程學系徵聘專任教師",
-                "link": "https://pme.site.nthu.edu.tw/p/406-1308-241678,r4642.php?Lang=zh-tw",
-                "date": "2025-04-16"
             }
         ]
     },
@@ -3897,6 +3897,11 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
+                "title": "恭賀林玉俊教授、王翊青副教授及林愷悌副教授獲113學年度本院教師傑出論文獎，恭賀黃建銘助理教授獲113學年度本院新進教師研究獎",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-287677,r7381.php?Lang=zh-tw",
+                "date": "2025-04-27"
+            },
+            {
                 "title": "114生醫學院專案組員招聘廣告",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-286356,r7381.php?Lang=zh-tw",
                 "date": "2025-04-27"
@@ -3990,11 +3995,6 @@
                 "title": "【公告】113-2學期生活助學金申請",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-278761,r7381.php?Lang=zh-tw",
                 "date": "2024-11-18"
-            },
-            {
-                "title": "國立清華大學114學年度碩士班考試入學招生公告，",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-278088,r7381.php?Lang=zh-tw",
-                "date": "2024-11-08"
             }
         ]
     },
@@ -4053,44 +4053,44 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "恭喜生資所楊立威老師發表論文於 Nature Methods:The need to implement FAIR principles in biomolecular simulations",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-287053,r8083.php?Lang=zh-tw",
+                "title": "恭賀林玉俊教授、王翊青副教授及林愷悌副教授獲113學年度本院教師傑出論文獎，恭賀黃建銘助理教授獲113學年度本院新進教師研究獎",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-287677,r8083.php?Lang=zh-tw",
+                "date": "2025-04-27"
+            },
+            {
+                "title": "恭喜 本院分醫所 林玉俊教授之傑出研究成果Glutamylation of centrosomes ensures their functionby recruiting microtubule nucleation factors發表於國際頂尖期刊 The EMBO journal (2025 April)",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-287059,r8083.php?Lang=zh-tw",
                 "date": "2025-04-17"
             },
             {
-                "title": "恭賀本院高茂傑教授榮獲113學年度「第十七屆傑出導師獎」",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286584,r8083.php?Lang=zh-tw",
-                "date": "2025-04-09"
-            },
-            {
-                "title": "恭喜本院學生參加第39屆生物醫學聯合學術年會獲獎",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286299,r8083.php?Lang=zh-tw",
+                "title": "恭喜 本院 王慧菁、孫玉珠教授之傑出研究成果 KIF2C promotes paclitaxel resistance by depolymerizing polyglutamylated microtubules 發表於國際頂尖期刊 Developmental Cell (2025 March)",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286329,r8083.php?Lang=zh-tw",
                 "date": "2025-04-01"
             },
             {
-                "title": "恭喜本院分生所博士生王昱仁(黃貞祥教授指導)  榮獲2025年基因體學、演化與生物多樣性國際研討會 海報競賽第二名",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-285219,r8083.php?Lang=zh-tw",
-                "date": "2025-03-17"
+                "title": "恭賀本院分醫所陳韋靜助理教授及系神所郭崇涵副教授榮獲113學年度生醫學院教學績優獎",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286260,r8083.php?Lang=zh-tw",
+                "date": "2025-03-31"
             },
             {
-                "title": "《賀》醫科系-分醫所(5年一貫)李育棠同學（指導教授陳令儀）榮獲化學年會 范道南藥物化學研究論文獎佳作 (大專生論文獎)",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-285209,r8083.php?Lang=zh-tw",
-                "date": "2025-03-17"
+                "title": "善良是可以教出來的 清華大學研究新發現 登上國際期刊 《行為與大腦功能》(Behavioral and Brain Functions)",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-285189,r8083.php?Lang=zh-tw",
+                "date": "2025-03-14"
             },
             {
-                "title": "恭喜 生技所 譚兆麟博士生 (黃智興老師指導、汪宏達老師共同指導) 榮獲甄選類國科會研究獎學金！",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-284339,r8083.php?Lang=zh-tw",
+                "title": "恭喜本院學生參加114年寄生蟲學術研討會 獲獎",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-284326,r8083.php?Lang=zh-tw",
                 "date": "2025-03-05"
             },
             {
-                "title": "恭喜 生技所/生科系邱于芯老師與國衛院生藥所謝興邦所長的團隊合作計畫成果發表於國際頂尖期刊Advanced Science (2024 Dec.)！",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281269,r8083.php?Lang=zh-tw",
-                "date": "2025-01-10"
+                "title": "恭喜 下列老師榮獲清大113年度傑出人才發展基金學術研究獎勵",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281827,r8083.php?Lang=zh-tw",
+                "date": "2025-01-23"
             },
             {
-                "title": "恭喜本院吳芬薰小姐 榮獲114清大績優公務人員",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281280,r8083.php?Lang=zh-tw",
-                "date": "2025-01-10"
+                "title": "《恭喜》本院研究生參加 第30屆細胞及分子生物新知研討會暨30屆慶祝活動 獲獎",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281340,r8083.php?Lang=zh-tw",
+                "date": "2025-01-14"
             }
         ]
     },
@@ -15855,6 +15855,11 @@
                 "date": "2025-04-23"
             },
             {
+                "title": "114年公務人員特種考試司法人員、法務部調查局調查人員、海岸巡防人員等考試即將開始報名",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-287768,r875.php?Lang=zh-tw",
+                "date": "2025-04-28"
+            },
+            {
                 "title": "〔轉知〕國人赴陸風險實際案例及公務員赴陸程序規範與注意事項",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-275455,r875.php?Lang=zh-tw",
                 "date": "2024-09-24"
@@ -15903,11 +15908,6 @@
                 "title": "114年績優工友選拔當選名單",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-283469,r875.php?Lang=zh-tw",
                 "date": "2025-02-18"
-            },
-            {
-                "title": "114年度傑出人才發展基金行政績優人員",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-283470,r875.php?Lang=zh-tw",
-                "date": "2025-02-17"
             }
         ]
     },
@@ -18345,6 +18345,11 @@
                 "date": "2025-01-21"
             },
             {
+                "title": "114年03月學生宿舍區水電瓦斯度數",
+                "link": "https://sthousing.site.nthu.edu.tw/var/file/254/1254/img/1946/UtilityMeterReadings20250428.xls",
+                "date": "2025-04-28"
+            },
+            {
                 "title": "5/7 i清華APP、學生請假系統及學生宿舍系統主機維護作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287658,r1538.php?Lang=zh-tw",
                 "date": "2025-04-25"
@@ -18373,11 +18378,6 @@
                 "title": "【轉事務組公告】4/8~4/11校本部男女宿舍區割草公告",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-286466,r127.php?Lang=zh-tw",
                 "date": "2025-04-07"
-            },
-            {
-                "title": "【舊生】114學年齋舍互換說明",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286376,r1538.php?Lang=zh-tw",
-                "date": "2025-04-02"
             }
         ]
     },
