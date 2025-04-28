@@ -2561,6 +2561,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【歡迎參加】雪の森株式會社(日商雪之森股份有限公司台灣分公司)企業實習說明會",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287792,r5085.php?Lang=zh-tw",
+                "date": "2025-04-28"
+            },
+            {
                 "title": "【科技桃花源 X 沙龍】講座：從營運到資本：長照IPO實戰與策略布局",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287626,r5085.php?Lang=zh-tw",
                 "date": "2025-04-25"
@@ -2614,11 +2619,6 @@
                 "title": "【歡迎報名】《文組的另類職涯——百萬MA與創業之路》",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-285227,r5085.php?Lang=zh-tw",
                 "date": "2025-03-17"
-            },
-            {
-                "title": "【徵才】國立清華大學外國語文學系 徵求EMI雙語化學習計畫兼任助理數名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283990,r5085.php?Lang=zh-tw",
-                "date": "2025-02-27"
             }
         ]
     },
@@ -2628,6 +2628,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【歡迎參加】雪の森株式會社(日商雪之森股份有限公司台灣分公司)企業實習說明會",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287792,r5086.php?Lang=zh-tw",
+                "date": "2025-04-28"
+            },
             {
                 "title": "【傑出校友】竹師教育學院第6屆傑出校友遴選推薦作業至114年5月23日!",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-285954,r70.php?Lang=zh-tw",
@@ -2682,11 +2687,6 @@
                 "title": "【誠徵】2025畢業典禮工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-241432,r5086.php?Lang=zh-tw",
                 "date": "2025-04-09"
-            },
-            {
-                "title": "【徵求】竹師教育學院第6屆傑出校友遴選推薦作業至114年5月23日!",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-285954,r70.php?Lang=zh-tw",
-                "date": "2025-04-07"
             }
         ]
     },
@@ -5440,7 +5440,7 @@
         "title": "招待所公告",
         "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8128-1.php?Lang=zh-tw",
         "language": "zh-tw",
-        "department": "經營管理組",
+        "department": "餐廳營業時間表",
         "articles": [
             {
                 "title": "住宿新方案同步上線-會館早餐114年5月起恢復供應",
@@ -5483,7 +5483,7 @@
         "title": "餐廳公告",
         "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8304-1.php?Lang=zh-tw",
         "language": "zh-tw",
-        "department": "經營管理組",
+        "department": "餐廳營業時間表",
         "articles": [
             {
                 "title": "小吃部契約屆期櫃位滿意度調查",
@@ -7809,6 +7809,11 @@
                 "date": "2025-02-19"
             },
             {
+                "title": "【工學院英文書報討論】Modeling Vortex Shedding Using Discrete Vortex Method - 張敬教授／國立清華大學動力機械工程學系",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-287791,r3361.php?Lang=zh-tw",
+                "date": "2025-04-25"
+            },
+            {
                 "title": "【工學院英文書報討論】Advancing Neuromorphic Computing for Future Sensory Memory Systems - 王超鴻教授／國立成功大學敏求智慧運算學院",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-287307,r3361.php?Lang=zh-tw",
                 "date": "2025-04-18"
@@ -7842,11 +7847,6 @@
                 "title": "工學院「出國逐夢」獎助金 - 113學年度上學期申請結果與獲獎名單",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-280311,r3361.php?Lang=zh-tw",
                 "date": "2024-12-17"
-            },
-            {
-                "title": "【工學院英文書報討論】Achieving Net-Zero Emission by CO2 Capture  - 林育正教授／國立清華大學化學工程學系",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-280241,r3361.php?Lang=zh-tw",
-                "date": "2024-12-13"
             }
         ]
     },
