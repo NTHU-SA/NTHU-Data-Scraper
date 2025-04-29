@@ -2289,6 +2289,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】清華大學圖書館誠徵館藏資料整理維護臨時人員一名",
+                "link": "https://www.lib.nthu.edu.tw/news/default.html#rss_news.xml!1576",
+                "date": "2025-04-29"
+            },
+            {
                 "title": "【徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287490,r5081.php?Lang=zh-tw",
                 "date": "2025-04-28"
@@ -2341,11 +2346,6 @@
             {
                 "title": "國立臺南大學人文學院文化與自然資源學系徵求系主任",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287750,r5081.php?Lang=zh-tw",
-                "date": "2025-04-28"
-            },
-            {
-                "title": "中原大學半導體產業學院公開徵求院長",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287749,r5081.php?Lang=zh-tw",
                 "date": "2025-04-28"
             }
         ]
@@ -4451,6 +4451,11 @@
                 "date": "2025-02-20"
             },
             {
+                "title": "5/1起逾15萬元以上採購案由使用單位出具採購單公告",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-287772,r992.php?Lang=zh-tw",
+                "date": "2025-04-28"
+            },
+            {
                 "title": "4/29 藝術大樓混凝土澆置公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-287733,r992.php?Lang=zh-tw",
                 "date": "2025-04-28"
@@ -4494,11 +4499,6 @@
                 "title": "4/8 藝術大樓混凝土澆置公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-286413,r992.php?Lang=zh-tw",
                 "date": "2025-04-07"
-            },
-            {
-                "title": "4/7~4/11 物理館前人行道修復工程",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-286366,r992.php?Lang=zh-tw",
-                "date": "2025-04-02"
             }
         ]
     },
@@ -5133,11 +5133,6 @@
                 "date": null
             },
             {
-                "title": "Withdrawal Process Instructions for Spring 2025 AIA-Related Courses",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-279832,r7982.php?Lang=en",
-                "date": null
-            },
-            {
                 "title": "The 2025 summer class schedule will be announced gradually from May 26-30",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-165835,r7993.php?Lang=en",
                 "date": null
@@ -5145,6 +5140,11 @@
             {
                 "title": "Course Announcement for Fall 2025:  28 May 2025",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-284350,r7982.php?Lang=en",
+                "date": null
+            },
+            {
+                "title": "Withdrawal Process Instructions for Spring 2025 AIA-Related Courses",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-279832,r7982.php?Lang=en",
                 "date": null
             },
             {
@@ -7355,7 +7355,7 @@
                 "date": null
             },
             {
-                "title": "114.05.02(五) EMI x 工學院 英語角落活動",
+                "title": "【EMI英語角】114.05.02(五) EMI x 工學院 英語角落活動",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-287378,r10647.php?Lang=zh-tw",
                 "date": null
             },
@@ -7451,7 +7451,7 @@
                 "date": null
             },
             {
-                "title": "敬邀參與「Fulbright X CertPT EMI師培研習經驗分享會｣ : 5/16 (Fri) 下午12:00-14:00 在綜四館221教室",
+                "title": "【EMI師培研習分享會】敬邀參與「Fulbright X CertPT EMI師培研習經驗分享會｣ : 5/16 (Fri) 下午12:00-14:00 在綜四館221教室",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-287373,r10666.php?Lang=zh-tw",
                 "date": null
             },
@@ -7519,13 +7519,13 @@
                 "date": null
             },
             {
-                "title": "【EMI學生工作坊】 🔍 從心開始：掌握演講的關鍵心態 Starting from Within: Mastering the Mindset of Public Speaking💡",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287384,r10667.php?Lang=zh-tw",
+                "title": "【EMI英語角】114.05.02(五) EMI x 工學院 英語角落活動",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287378,r10667.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "114.05.02(五) EMI x 工學院 英語角落活動",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287378,r10667.php?Lang=zh-tw",
+                "title": "【EMI學生工作坊】 🔍 從心開始：掌握演講的關鍵心態 Starting from Within: Mastering the Mindset of Public Speaking💡",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287384,r10667.php?Lang=zh-tw",
                 "date": null
             },
             {
@@ -15530,9 +15530,19 @@
         "department": "體育室",
         "articles": [
             {
+                "title": "【運動發展基金補助申請公告】114年國立清華大學運動發展基金補助申請通知（申請期間：即日起至5/23）及申請方式說明",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287201,r11.php",
+                "date": "2025-04-29"
+            },
+            {
                 "title": "【全校游泳賽公告】114全校游泳賽 / SUP立式划槳競賽，報名至5/2(五)截止",
                 "link": "https://peo.nthu.edu.tw/2025swim/",
                 "date": "2025-04-16"
+            },
+            {
+                "title": "國立清華大學114學年度學士班運動績優學生招生委員會 聯合招生缺額流用公告",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287803,r11.php",
+                "date": "2025-04-29"
             },
             {
                 "title": "【暑期夏令營招生】114年清華大學_暑期運動樂活夏令營  簡章&報名",
@@ -15577,16 +15587,6 @@
             {
                 "title": "【棒球場】2025 老梅竹棒球賽 4/26（六）中午12:00-下午06:00借用棒球場，場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287636,r11.php",
-                "date": "2025-04-25"
-            },
-            {
-                "title": "【校友體育館】2025 老梅竹羽球賽 4/26（六）中午12:00-下午06:00借用羽球場（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287635,r11.php",
-                "date": "2025-04-25"
-            },
-            {
-                "title": "【田徑場】114年校慶環校路跑 4/26（六）上午07:00-中午12:00田徑場，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287634,r11.php",
                 "date": "2025-04-25"
             }
         ]
