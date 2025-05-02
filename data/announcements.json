@@ -841,6 +841,16 @@
         "department": "事務組",
         "articles": [
             {
+                "title": "NTHU Shuttle Bus Timetable of 2025 Commencement (5/25)",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-288015,r127.php?Lang=en",
+                "date": "2025-05-02"
+            },
+            {
+                "title": "Nanda-Main Campus Shuttle Bus Timetable of 2025 Commencement (5/25)",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-288016,r127.php?Lang=en",
+                "date": "2025-05-02"
+            },
+            {
                 "title": "NTHU Shuttle Bus Route Change Notification (May 6)",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-287929,r127.php?Lang=en",
                 "date": "2025-05-01"
@@ -889,16 +899,6 @@
                 "title": "NTHU Shuttle Bus Timetable 2025.03.17~2025.04.19.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-284892,r127.php?Lang=en",
                 "date": "2025-03-13"
-            },
-            {
-                "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service on 2025/02/28-2025/03/02(228 National Holidays).",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-283267,r127.php?Lang=en",
-                "date": "2025-02-17"
-            },
-            {
-                "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2025.02.17~2025.03.16.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-282378,r127.php?Lang=en",
-                "date": "2025-02-11"
             }
         ]
     },
@@ -912,6 +912,11 @@
                 "title": "114年5月25日畢業典禮光復路北大門花攤抽籤結果【請中籤廠商於4/25(五)前完成繳費】",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-287284,r127.php?Lang=zh-tw",
                 "date": "2025-04-18"
+            },
+            {
+                "title": "5/25(日)畢業典禮專車/南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-288016,r127.php?Lang=zh-tw",
+                "date": "2025-05-02"
             },
             {
                 "title": "5/25(日)畢業典禮專車/校園公車時刻表",
@@ -962,11 +967,6 @@
                 "title": "114/4/8~4/11校本部男女宿舍區割草公告",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-286466,r127.php?Lang=zh-tw",
                 "date": "2025-04-07"
-            },
-            {
-                "title": "【114年4月3日(四)~ 4月4日(五)旺宏館玻璃帷幕及天溝清潔暨名人堂玻璃清洗】",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-286053,r127.php?Lang=zh-tw",
-                "date": "2025-03-27"
             }
         ]
     },
@@ -2221,6 +2221,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】工研院全職實習（配合清華大學「創業管理」課程）",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288021,r5075.php?Lang=zh-tw",
+                "date": "2025-05-02"
+            },
+            {
                 "title": "【徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287490,r5075.php?Lang=zh-tw",
                 "date": "2025-05-02"
@@ -2274,11 +2279,6 @@
                 "title": "【誠徵】大立光電-清華大學聯合研發中心 專案計畫學士/碩士/博士級兼任助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287741,r5075.php?Lang=zh-tw",
                 "date": "2025-04-28"
-            },
-            {
-                "title": "【誠徵】大立光電-清華大學聯合研發中心 專案計畫學士/碩士級專任助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-278432,r5075.php?Lang=zh-tw",
-                "date": "2025-04-28"
             }
         ]
     },
@@ -2288,6 +2288,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】工研院全職實習（配合清華大學「創業管理」課程）",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288021,r5081.php?Lang=zh-tw",
+                "date": "2025-05-02"
+            },
             {
                 "title": "【徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287490,r5081.php?Lang=zh-tw",
@@ -2341,11 +2346,6 @@
             {
                 "title": "【誠徵】大立光電-清華大學聯合研發中心 專案計畫學士/碩士級專任助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-278432,r5081.php?Lang=zh-tw",
-                "date": "2025-04-28"
-            },
-            {
-                "title": "國立臺南大學英語學系誠徵助理教授以上專任教師",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287752,r5081.php?Lang=zh-tw",
                 "date": "2025-04-28"
             }
         ]
@@ -17494,6 +17494,11 @@
         "department": "註冊組",
         "articles": [
             {
+                "title": "2025 Spring semester Notification of Entering and Grade Submission",
+                "link": "https://registra.site.nthu.edu.tw/p/406-1211-288007,r219.php?Lang=en",
+                "date": "2025-05-02"
+            },
+            {
                 "title": "Application for Department Transfer in Academic Year 2025",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-287860,r219.php?Lang=en",
                 "date": "2025-04-30"
@@ -17547,11 +17552,6 @@
                 "title": "2023 Fall semester Notification of Entering and Grade Submission",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-260434,r219.php?Lang=en",
                 "date": "2023-12-11"
-            },
-            {
-                "title": "The deadline for the refund of 2/3 tuition fee for graduating students this semester has been extended to October 27th, 2023",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-257356,r219.php?Lang=zh-tw",
-                "date": "2023-10-20"
             }
         ]
     },
@@ -17570,6 +17570,11 @@
                 "title": "寒假期間暫停派員至南大註冊組辦公室駐點，113學年度第2學期開學後維持每週二及四駐點提供諮詢。",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-279379,r219.php?Lang=zh-tw",
                 "date": "2024-11-28"
+            },
+            {
+                "title": "113學年度第2學期教師成績繳送注意事項通知",
+                "link": "https://registra.site.nthu.edu.tw/p/406-1211-288006,r219.php?Lang=zh-tw",
+                "date": "2025-05-02"
             },
             {
                 "title": "114學年度轉系、所申請公告",
@@ -17615,11 +17620,6 @@
                 "title": "113學年度第二學期復學通知",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-280858,r219.php?Lang=zh-tw",
                 "date": "2025-01-02"
-            },
-            {
-                "title": "113學年度第一次辦理逕行修讀博士學位核准名單",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-279055,r219.php?Lang=zh-tw",
-                "date": "2024-11-22"
             }
         ]
     },
