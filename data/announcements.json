@@ -157,6 +157,11 @@
         "department": "主計室",
         "articles": [
             {
+                "title": "網路請購主機114/5/09(五)下午16：30至114/5/12(一)早上8:30暫停服務公告",
+                "link": "https://account.site.nthu.edu.tw/p/406-1054-206683,r1160.php?Lang=zh-tw",
+                "date": "2025-05-05"
+            },
+            {
                 "title": "【重要提醒】列印支出憑證黏存單前，請務必輸入聯絡人資訊，以方便後續連繫",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-282333,r1160.php?Lang=zh-tw",
                 "date": "2025-02-10"
@@ -210,11 +215,6 @@
                 "title": "因應科技部改制，本校黏存單及表件更新，請使用新版表單送件。",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-232933,r1160.php?Lang=zh-tw",
                 "date": "2022-08-02"
-            },
-            {
-                "title": "111年科技部專題研究計畫結案經費報支注意事項",
-                "link": "https://account.site.nthu.edu.tw/p/406-1054-231441,r1160.php?Lang=zh-tw",
-                "date": "2022-07-01"
             }
         ]
     },
@@ -2324,11 +2324,6 @@
                 "date": "2025-04-28"
             },
             {
-                "title": "國立臺南大學通識教育中心誠徵助理教授以上專任教師",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287757,r5081.php?Lang=zh-tw",
-                "date": "2025-04-28"
-            },
-            {
                 "title": "國立臺灣師範大學設計學系誠徵專任(案)助理教授",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287754,r5081.php?Lang=zh-tw",
                 "date": "2025-04-28"
@@ -2346,6 +2341,11 @@
             {
                 "title": "【誠徵】大立光電-清華大學聯合研發中心 專案計畫學士/碩士級專任助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-278432,r5081.php?Lang=zh-tw",
+                "date": "2025-04-28"
+            },
+            {
+                "title": "國立臺南大學英語學系誠徵助理教授以上專任教師",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287752,r5081.php?Lang=zh-tw",
                 "date": "2025-04-28"
             }
         ]
@@ -15473,7 +15473,7 @@
         "articles": [
             {
                 "title": "【運動發展基金補助申請公告】114年國立清華大學運動發展基金補助申請通知（申請期間：即日起至5/23）及申請方式說明",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287201,r11.php",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287201,r11.php?Lang=zh-tw",
                 "date": "2025-04-29"
             },
             {
@@ -15483,12 +15483,12 @@
             },
             {
                 "title": "【招生公告】國立清華大學114學年度學士班運動績優學生招生委員會 聯合招生缺額流用公告",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287803,r11.php",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287803,r11.php?Lang=zh-tw",
                 "date": "2025-04-29"
             },
             {
                 "title": "【暑期夏令營招生】114年清華大學_暑期運動樂活夏令營  簡章&報名",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286567,r11.php",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286567,r11.php?Lang=zh-tw",
                 "date": "2025-04-09"
             },
             {
@@ -15497,39 +15497,39 @@
                 "date": "2025-01-22"
             },
             {
-                "title": "【校友體育館】EMBA羽球社社課5/10（六）下午04:00-晚上10:00借用羽球場（#1-3），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287838,r11.php",
-                "date": "2025-04-29"
+                "title": "【棒球場】113適應體育計畫-盲人棒球活動5/10（六）-5/11（日）借用棒球場，以下時段，場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287845,r11.php?Lang=zh-tw",
+                "date": "2025-05-05"
             },
             {
-                "title": "【校友體育館】EMBA羽球社社課5/03（六）下午04:00-晚上10:00借用羽球場（#6-8），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287837,r11.php",
-                "date": "2025-04-29"
+                "title": "【校友體育館】清交理工學院 小梅竹羽球賽 5/11（日）下午01:00-下午05:00借用羽球場（#5-8球場），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287844,r11.php?Lang=zh-tw",
+                "date": "2025-05-05"
             },
             {
-                "title": "【校友體育館】國際學士班運動會5/04（日）上午10:00-下午02:00借用羽球場（#5 - 8球場），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287836,r11.php",
-                "date": "2025-04-29"
+                "title": "【體育館】動機外文排球泡芙盃 5/10（六）上午08:00-晚上05:00借用體育館2F（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287843,r11.php?Lang=zh-tw",
+                "date": "2025-05-05"
             },
             {
-                "title": "【足球場】國際學士班運動會5/03（六）上午10:00-下午04:00借用PU五人足球場，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287834,r11.php",
-                "date": "2025-04-29"
+                "title": "【桌球館】工學院小梅竹桌球賽5/09（五）-下午06:00-晚上10:00借用桌球館（#1-4球桌），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287842,r11.php?Lang=zh-tw",
+                "date": "2025-05-05"
             },
             {
-                "title": "【室外網球場】EMBA網球社社課5/03（六）下午05:00-下午07:00借用室外網球場（#3 4球場），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287833,r11.php",
-                "date": "2025-04-29"
+                "title": "【桌球館】桌球系際盃5/05（一）-5/08（四）每日下午06:30-晚上10:00借用桌球館（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287841,r11.php?Lang=zh-tw",
+                "date": "2025-05-05"
             },
             {
-                "title": "【體育館】EMBA 瑜珈社社課5/03（六）下午05:00-下午06:00借用舞蹈教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287832,r11.php",
-                "date": "2025-04-29"
+                "title": "【校友體育館】大專排球聯賽女生一般組決賽5/05（一）-5/08（四）每日上午08:00-晚上10:00借用羽球場（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287840,r11.php?Lang=zh-tw",
+                "date": "2025-05-05"
             },
             {
-                "title": "【體育館】全國大專院校體育聯賽大工盃--籃球賽5/03（六）-5/04（日）借用體育館2F（全），以下時段不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287831,r11.php",
-                "date": "2025-04-29"
+                "title": "【體育館】大專排球聯賽女生一般組決賽5/06（二）-5/09（五）每日上午08:00-晚上10:00借用體育館2F（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287839,r11.php?Lang=zh-tw",
+                "date": "2025-05-05"
             }
         ]
     },
