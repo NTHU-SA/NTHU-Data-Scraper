@@ -2221,6 +2221,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5075.php?Lang=zh-tw",
+                "date": "2025-05-06"
+            },
+            {
                 "title": "【招募公告】2025科法所小畢典工讀生（即日起至5/13中午截止）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287830,r5075.php?Lang=zh-tw",
                 "date": "2025-05-06"
@@ -2274,11 +2279,6 @@
                 "title": "【徵才】竹師教育學院_誠徵專題計畫約用人員一名",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-286993,r70.php?Lang=zh-tw",
                 "date": "2025-04-28"
-            },
-            {
-                "title": "【徵才】清華大學圖書館徵館藏資料整理維護臨時人員一名",
-                "link": "https://www.lib.nthu.edu.tw/news/default.html#rss_news.xml!1576",
-                "date": "2025-04-28"
             }
         ]
     },
@@ -2288,6 +2288,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5081.php?Lang=zh-tw",
+                "date": "2025-05-06"
+            },
             {
                 "title": "國立臺北科技大學徵求第十五任校長候選人",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288131,r5081.php?Lang=zh-tw",
@@ -2341,11 +2346,6 @@
             {
                 "title": "元智大學徵求醫護學院院長",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287762,r5081.php?Lang=zh-tw",
-                "date": "2025-04-28"
-            },
-            {
-                "title": "國立虎尾科技大學徵求工程學院院長",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287760,r5081.php?Lang=zh-tw",
                 "date": "2025-04-28"
             }
         ]
@@ -4508,6 +4508,11 @@
         "language": "zh-tw",
         "department": "半導體研究學院",
         "articles": [
+            {
+                "title": "【活動公告】【TEL 2025年海外參訪錄取名單】探索科技最前線！TEL日本工廠參訪名單公布嚕！",
+                "link": "https://cosr.site.nthu.edu.tw/var/file/536/1536/img/5233/354640742.pdf",
+                "date": null
+            },
             {
                 "title": "【活動公告】【台積電博士獎學金-學長姐談心室】報名即日起至2025/5/6(二) 18:00 止",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-288092,r11272.php?Lang=zh-tw",
@@ -17566,7 +17571,7 @@
         "department": "研究倫理辦公室",
         "articles": [
             {
-                "title": "[辦公室搬遷公告]研究倫理辦公室將於6/26(三)起於舊育成中心1樓-R116為您服務",
+                "title": "[辦公室搬遷公告]研究倫理辦公室將於113/6/26(三)起於舊育成中心1樓-R116為您服務",
                 "link": "https://rec.site.nthu.edu.tw/p/406-1233-270780,r9072.php?Lang=zh-tw",
                 "date": null
             },
