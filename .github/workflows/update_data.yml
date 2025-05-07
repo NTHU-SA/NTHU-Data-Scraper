@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 * * * *" # 每小時的第 0 分鐘執行
+    - cron: "0 */2 * * *" # 每兩小時執行一次
   workflow_dispatch:
 
 env:
@@ -13,60 +13,108 @@ env:
   DATA_FOLDER: data
 
 jobs:
-  update_data:
-    strategy:
-      matrix:
-        runner: [ubuntu-latest, self-hosted]
-    name: Update data on ${{ matrix.runner }}
-    runs-on: ${{ matrix.runner }}
+  crawl_ubuntu:
+    name: Crawl on ubuntu-latest
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.2
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run ubuntu spiders
+        run: |
+          scrapy crawl nthu_announcements
+          scrapy crawl nthu_buses
+          scrapy crawl nthu_courses
+          scrapy crawl nthu_dining
+        continue-on-error: true
+      - name: Cache ubuntu data
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.DATA_FOLDER }}
+          key: ubuntu-data-${{ github.run_id }}
+
+  crawl_self_hosted:
+    name: Crawl on self-hosted
+    runs-on: self-hosted
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.2
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run self-hosted spiders
+        run: |
+          scrapy crawl nthu_directory
+          scrapy crawl nthu_maps
+          scrapy crawl nthu_newsletters
+        continue-on-error: true
+      - name: Cache self-hosted data
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.DATA_FOLDER }}
+          key: self-hosted-data-${{ github.run_id }}
+
+  commit_changes:
+    needs: [crawl_ubuntu]
+    name: Commit JSON updates
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v3
         with:
           ref: main
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+          fetch-depth: 0
+      - name: Restore ubuntu data cache
+        uses: actions/cache@v3
         with:
-          python-version: 3.13.2
-          cache: "pip"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run crawlers based on runner
-        run: |
-          if [[ "${{ matrix.runner }}" == "ubuntu-latest" ]]; then
-            scrapy crawl nthu_announcements
-            scrapy crawl nthu_buses
-            scrapy crawl nthu_courses
-            scrapy crawl nthu_dining
-          elif [[ "${{ matrix.runner }}" == "self-hosted" ]]; then
-            scrapy crawl nthu_directory
-            scrapy crawl nthu_maps
-            scrapy crawl nthu_newsletters
-          fi
+          path: ${{ env.DATA_FOLDER }}
+          key: ubuntu-data-${{ github.run_id }}
+          restore-keys: |
+            ubuntu-data-${{ github.run_id }}
         continue-on-error: true
-
-      - name: Deploy to main branch
+      - name: Restore self-hosted data cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.DATA_FOLDER }}
+          key: self-hosted-data-${{ github.run_id }}
+          restore-keys: |
+            self-hosted-data-${{ github.run_id }}
+        continue-on-error: true
+      - name: Configure Git
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Actions"
+          git config user.name "GitHub Actions"
+          git config user.email "action@github.com"
+      - name: Commit data updates
+        run: |
           git add $DATA_FOLDER
-          if ! git diff-index --quiet HEAD --; then
-            echo "Changes detected. Committing and pushing..."
-            git commit -m "📝 Scheduled update of JSON data [skip ci]"
-            git pull --rebase
+          changed=$(git diff --cached --name-only "$DATA_FOLDER")
+          if [[ -n "$changed" ]]; then
+            cats=$(echo "$changed" \
+              | sed "s|^$DATA_FOLDER/||" \
+              | cut -d '/' -f1 \
+              | sed 's/\.json$//' \
+              | sort -u \
+              | paste -sd ",")
+            git commit -m "📝 Scheduled update of JSON data [$cats] [skip ci]"
             git push
           else
-            echo "No changes to commit."
+            echo "No data changes."
           fi
 
   deploy_to_github:
-    needs:
-      - update_data
+    needs: commit_changes
     name: Deploy data to GitHub Pages
     runs-on: ubuntu-latest
     steps:
