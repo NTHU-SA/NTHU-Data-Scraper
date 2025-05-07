@@ -2,28 +2,28 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "14c4c6c09cbd62220e32bd63e162db9dac99f36a",
-        "last_updated": "2025-04-12T11:16:21+08:00",
+        "last_commit": "857c1f5508dbf414199f0e72d4d457edf12a4eb9",
+        "last_updated": "2025-05-07T16:07:18+08:00",
         "name": "announcements.json"
       },
       {
-        "last_commit": "0e6ad8f2f60023e6ca9281596e2c6b81ece6ea18",
-        "last_updated": "2025-03-24T14:06:39+08:00",
+        "last_commit": "8157d3dc67b456de3f197c0cb01c5c5b15ef28a7",
+        "last_updated": "2025-05-02T12:06:30+08:00",
         "name": "buses.json"
       },
       {
-        "last_commit": "42708b25985c0e7ff7e15213fc19a2792a37a9c3",
-        "last_updated": "2025-04-12T05:04:55+08:00",
+        "last_commit": "4654eeee8cb3441ba652137f6d3d64fc24d98a2a",
+        "last_updated": "2025-05-07T05:05:19+08:00",
         "name": "courses.json"
       },
       {
-        "last_commit": "8b19f0e5b5ce3493e7e78de77709b10c9d581356",
-        "last_updated": "2025-04-09T08:17:02+08:00",
+        "last_commit": "f12c8e093e1dcaca657900d664033648d2bf5b4d",
+        "last_updated": "2025-05-07T14:06:55+08:00",
         "name": "dining.json"
       },
       {
-        "last_commit": "5f3b11524d81e4fe54710486d4a26b727e45f1c7",
-        "last_updated": "2025-04-11T17:05:55+08:00",
+        "last_commit": "7052aead6ab868946506fcc1800658947ed6505c",
+        "last_updated": "2025-05-07T17:26:14+08:00",
         "name": "directory.json"
       },
       {
@@ -32,40 +32,40 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "4c9f01e77464011c313516e4abca56107b272bad",
-        "last_updated": "2025-04-11T18:05:49+08:00",
+        "last_commit": "7052aead6ab868946506fcc1800658947ed6505c",
+        "last_updated": "2025-05-07T17:26:14+08:00",
         "name": "newsletters.json"
       }
     ],
     "buses": [
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "722047f40be39c7bfd4df0116e5b531949ef4162",
+        "last_updated": "2025-04-16T11:19:56+08:00",
         "name": "main_schedule_images.json"
       },
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "722047f40be39c7bfd4df0116e5b531949ef4162",
+        "last_updated": "2025-04-16T11:19:56+08:00",
         "name": "nanda_schedule_images.json"
       },
       {
-        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
-        "last_updated": "2025-03-13T10:30:36+08:00",
+        "last_commit": "b669797a066cc95f24cb3a05e0e8086494babed6",
+        "last_updated": "2025-04-16T17:05:38+08:00",
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
-        "last_updated": "2025-03-13T10:30:36+08:00",
+        "last_commit": "b669797a066cc95f24cb3a05e0e8086494babed6",
+        "last_updated": "2025-04-16T17:05:38+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
-        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
-        "last_updated": "2025-03-13T10:30:36+08:00",
+        "last_commit": "b669797a066cc95f24cb3a05e0e8086494babed6",
+        "last_updated": "2025-04-16T17:05:38+08:00",
         "name": "towardSouthCampusInfo.json"
       },
       {
-        "last_commit": "10e119b83cf622a309493ebd4d258e623f7d12cb",
-        "last_updated": "2025-03-13T10:30:36+08:00",
+        "last_commit": "b669797a066cc95f24cb3a05e0e8086494babed6",
+        "last_updated": "2025-04-16T17:05:38+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
@@ -111,23 +111,23 @@
     ],
     "buses/images": [
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "722047f40be39c7bfd4df0116e5b531949ef4162",
+        "last_updated": "2025-04-16T11:19:56+08:00",
         "name": "main_0.jpg"
       },
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "722047f40be39c7bfd4df0116e5b531949ef4162",
+        "last_updated": "2025-04-16T11:19:56+08:00",
         "name": "main_1.jpg"
       },
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "722047f40be39c7bfd4df0116e5b531949ef4162",
+        "last_updated": "2025-04-16T11:19:56+08:00",
         "name": "nanda_0.jpg"
       },
       {
-        "last_commit": "13c9c657c20fd988e11cabd46973df2d7307c5f8",
-        "last_updated": "2025-03-13T09:32:36+08:00",
+        "last_commit": "722047f40be39c7bfd4df0116e5b531949ef4162",
+        "last_updated": "2025-04-16T11:19:56+08:00",
         "name": "nanda_1.jpg"
       }
     ],
@@ -148,8 +148,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "42708b25985c0e7ff7e15213fc19a2792a37a9c3",
-        "last_updated": "2025-04-12T05:04:55+08:00",
+        "last_commit": "4654eeee8cb3441ba652137f6d3d64fc24d98a2a",
+        "last_updated": "2025-05-07T05:05:19+08:00",
         "name": "latest.json"
       }
     ],
@@ -200,8 +200,8 @@
         "name": "11220.json"
       },
       {
-        "last_commit": "42708b25985c0e7ff7e15213fc19a2792a37a9c3",
-        "last_updated": "2025-04-12T05:04:55+08:00",
+        "last_commit": "4654eeee8cb3441ba652137f6d3d64fc24d98a2a",
+        "last_updated": "2025-05-07T05:05:19+08:00",
         "name": "11320.json"
       }
     ],
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-04-12T11:16:21+08:00"
+  "last_updated": "2025-05-07T17:26:14+08:00"
 }
