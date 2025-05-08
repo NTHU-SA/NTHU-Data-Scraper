@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "040432a126ec17b8bcb9820efb5cd4b6a7829ae4",
-        "last_updated": "2025-05-08T04:10:31+08:00",
+        "last_commit": "4454aaef1b1a18aee6ea33189f80b4f46dd97ebd",
+        "last_updated": "2025-05-08T18:10:08+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,13 +12,13 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "4654eeee8cb3441ba652137f6d3d64fc24d98a2a",
-        "last_updated": "2025-05-07T05:05:19+08:00",
+        "last_commit": "4454aaef1b1a18aee6ea33189f80b4f46dd97ebd",
+        "last_updated": "2025-05-08T18:10:08+08:00",
         "name": "courses.json"
       },
       {
-        "last_commit": "f12c8e093e1dcaca657900d664033648d2bf5b4d",
-        "last_updated": "2025-05-07T14:06:55+08:00",
+        "last_commit": "4454aaef1b1a18aee6ea33189f80b4f46dd97ebd",
+        "last_updated": "2025-05-08T18:10:08+08:00",
         "name": "dining.json"
       },
       {
@@ -148,8 +148,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "4654eeee8cb3441ba652137f6d3d64fc24d98a2a",
-        "last_updated": "2025-05-07T05:05:19+08:00",
+        "last_commit": "4454aaef1b1a18aee6ea33189f80b4f46dd97ebd",
+        "last_updated": "2025-05-08T18:10:08+08:00",
         "name": "latest.json"
       }
     ],
@@ -200,8 +200,8 @@
         "name": "11220.json"
       },
       {
-        "last_commit": "4654eeee8cb3441ba652137f6d3d64fc24d98a2a",
-        "last_updated": "2025-05-07T05:05:19+08:00",
+        "last_commit": "4454aaef1b1a18aee6ea33189f80b4f46dd97ebd",
+        "last_updated": "2025-05-08T18:10:08+08:00",
         "name": "11320.json"
       }
     ],
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-05-08T16:12:21+08:00"
+  "last_updated": "2025-05-08T18:10:08+08:00"
 }
