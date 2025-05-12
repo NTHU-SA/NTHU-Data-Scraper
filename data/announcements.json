@@ -157,11 +157,6 @@
         "department": "主計室",
         "articles": [
             {
-                "title": "網路請購主機114/5/09(五)下午16：30至114/5/12(一)早上8:30暫停服務公告",
-                "link": "https://account.site.nthu.edu.tw/p/406-1054-206683,r1160.php?Lang=zh-tw",
-                "date": "2025-05-05"
-            },
-            {
                 "title": "【重要提醒】列印支出憑證黏存單前，請務必輸入聯絡人資訊，以方便後續連繫",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-282333,r1160.php?Lang=zh-tw",
                 "date": "2025-02-10"
@@ -215,6 +210,11 @@
                 "title": "因應科技部改制，本校黏存單及表件更新，請使用新版表單送件。",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-232933,r1160.php?Lang=zh-tw",
                 "date": "2022-08-02"
+            },
+            {
+                "title": "111年科技部專題研究計畫結案經費報支注意事項",
+                "link": "https://account.site.nthu.edu.tw/p/406-1054-231441,r1160.php?Lang=zh-tw",
+                "date": "2022-07-01"
             }
         ]
     },
@@ -9081,11 +9081,6 @@
                 "date": null
             },
             {
-                "title": "【公費生】114學年度師資培育乙案公費生甄選簡章",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-286867,r48.php?Lang=zh-tw",
-                "date": null
-            },
-            {
                 "title": "有關學生研討室使用期限，並請於6/15前歸還鑰匙。",
                 "link": "https://gimse.site.nthu.edu.tw/p/406-1115-287424,r1.php?Lang=zh-tw",
                 "date": null
@@ -12086,6 +12081,11 @@
                 "date": "2024-10-28"
             },
             {
+                "title": "Application for Department Transfer in the 2025/2026 Academic Year is open until June 11.",
+                "link": "https://ipe.site.nthu.edu.tw/p/404-1300-246987.php?Lang=en",
+                "date": "2025-05-13"
+            },
+            {
                 "title": "Accepting applications for Credit Transfer for the 2025 Spring Semester until February 17.",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-280265,r809.php?Lang=en",
                 "date": "2025-01-17"
@@ -12133,11 +12133,6 @@
             {
                 "title": "Accepting applications for Co-Study Groups until September 29.",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-274098,r809.php?Lang=en",
-                "date": "2024-09-03"
-            },
-            {
-                "title": "Accepting applications for Single-Course Learning Assistant until September 20.",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-274100,r809.php?Lang=en",
                 "date": "2024-09-03"
             }
         ]
@@ -17659,11 +17654,6 @@
                 "date": "2024-07-02"
             },
             {
-                "title": "2024 Fall semester Student Registration Procedures & Guidelines(for Foreign Students)",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-269052,r219.php?Lang=en",
-                "date": "2024-05-21"
-            },
-            {
                 "title": "2024 Spring semester Notification of Entering and Grade Submission",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-268905,r219.php?Lang=en",
                 "date": "2024-05-17"
@@ -17677,6 +17667,11 @@
                 "title": "Application for Direct Pursuit of PhD Degree in 112 Academic Year",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-256160,r219.php?Lang=en",
                 "date": "2024-02-21"
+            },
+            {
+                "title": "2023 Fall semester Notification of Entering and Grade Submission",
+                "link": "https://registra.site.nthu.edu.tw/p/406-1211-260434,r219.php?Lang=en",
+                "date": "2023-12-11"
             }
         ]
     },
