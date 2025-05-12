@@ -18,7 +18,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/493860069.jpg",
                 "name": "麥當勞",
-                "note": "5/10調整至9:00開始營業。",
+                "note": "",
                 "phone": "(03)5727801",
                 "schedule": {
                     "saturday": "7:00-24:00",
@@ -30,7 +30,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/181736273.jpg",
                 "name": "比司多",
-                "note": "每週日暫停營業。5/10調整至8點開始營業。5/25暫停營業。",
+                "note": "每週日暫停營業。5/25暫停營業。",
                 "phone": "0987-650-554",
                 "schedule": {
                     "saturday": "7:00-14:00",
@@ -66,7 +66,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/353914610.jpg",
                 "name": "一番快餐",
-                "note": "5月每週日暫停營業。5/10晚餐、5/25、5/30、5/31暫停營業。",
+                "note": "5月每週日暫停營業。5/25、5/30、5/31暫停營業。",
                 "phone": "0933-511-522",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -352,7 +352,7 @@
                 "area": "風雲1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/674952613.jpg",
                 "name": "水木書苑",
-                "note": "每週日暫停營業。5/9咖啡廳暫停營業。",
+                "note": "每週日暫停營業。",
                 "phone": "校內分機36705，(03)571-6800，0958-137-850",
                 "schedule": {
                     "saturday": "週一至週五9:30-19:00、週六及寒暑假10:30-19:00",
@@ -400,7 +400,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/916188017.jpg",
                 "name": "禾米餐食",
-                "note": "5月每週日暫停營業。5/10暫停營業。",
+                "note": "5月每週日暫停營業。",
                 "phone": "0909-787-069",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-19:30",
@@ -424,7 +424,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/113200637.jpg",
                 "name": "茗釀茶品",
-                "note": "5月每週日暫停營業。5/10、5/23暫停營業",
+                "note": "5月每週日暫停營業。5/23暫停營業",
                 "phone": "0987-003-821",
                 "schedule": {
                     "saturday": "10:00-20:00",
@@ -448,7 +448,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/776829651.jpg",
                 "name": "風雲牛肉麵",
-                "note": "5月每週日暫停營業。5/9晚餐、5/10暫停營業。",
+                "note": "5月每週日暫停營業。",
                 "phone": "0976-475-300",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -472,7 +472,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/518002961.jpg",
                 "name": "碳烤小姐",
-                "note": "5月每週日暫停營業。5/9晚餐、5/10暫停營業。",
+                "note": "5月每週日暫停營業。",
                 "phone": "0976-475-300",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -532,7 +532,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/461802499.jpg",
                 "name": "珍御品粥麵館",
-                "note": "5月每週日暫停營業。5/10暫停營業。",
+                "note": "5月每週日暫停營業。",
                 "phone": "0937-135-706，0911-892-772",
                 "schedule": {
                     "saturday": "10:30-20:00",
