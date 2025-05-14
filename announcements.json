@@ -562,6 +562,11 @@
                 "date": "2024-11-28"
             },
             {
+                "title": "台聯大系統114學年度碩士班招生 第9次備取遞補名單 (含報到須知)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-288799,r323.php?Lang=zh-tw",
+                "date": "2025-05-14"
+            },
+            {
                 "title": "114學年度碩士班考試第8次備取遞補名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-288639,r323.php?Lang=zh-tw",
                 "date": "2025-05-12"
@@ -650,11 +655,6 @@
                 "title": "國立清華大學114學年度碩士班招生複試錄取名單(含報到須知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-285646,r323.php?Lang=zh-tw",
                 "date": "2025-03-20"
-            },
-            {
-                "title": "114學年度碩士班考試第1次備取遞補名單更正，請以此公告為主",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-285242,r323.php?Lang=zh-tw",
-                "date": "2025-03-17"
             }
         ]
     },
@@ -773,6 +773,11 @@
         "department": "招生策略中心",
         "articles": [
             {
+                "title": "114學年度學士後醫學系單獨招生錄取名單及報到須知",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-288706,r6125.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "114學年度學士後醫學系單獨招生考試初試合格名單公告及第二階段報名圖文說明",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-286444,r6125.php?Lang=zh-tw",
                 "date": null
@@ -825,11 +830,6 @@
             {
                 "title": "113學年度學士後醫學系單獨招生考試(初試)試場分配公告",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-265695,r6125.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "113學年度學士後醫學系單獨招生報名人數統計表",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-264281,r6125.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -2221,6 +2221,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學服務科學研究所 - 徵求兼任助理1名(長期)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288843,r5075.php?Lang=zh-tw",
+                "date": "2025-05-14"
+            },
+            {
+                "title": "【徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名(長期)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287490,r5075.php?Lang=zh-tw",
+                "date": "2025-05-14"
+            },
+            {
                 "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5075.php?Lang=zh-tw",
                 "date": "2025-05-13"
@@ -2256,11 +2266,6 @@
                 "date": "2025-05-13"
             },
             {
-                "title": "【徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名(長期)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287490,r5075.php?Lang=zh-tw",
-                "date": "2025-05-12"
-            },
-            {
                 "title": "【徵才】創新育成中心誠徵數名工讀生(暑期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288675,r5075.php?Lang=zh-tw",
                 "date": "2025-05-12"
@@ -2274,11 +2279,6 @@
                 "title": "【徵才】圖書館-服務與創新組徵求工讀生",
                 "link": "https://www.lib.nthu.edu.tw/news/default.html#rss_news.xml!1589",
                 "date": "2025-05-12"
-            },
-            {
-                "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5075.php?Lang=zh-tw",
-                "date": "2025-05-12"
             }
         ]
     },
@@ -2288,6 +2288,16 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學服務科學研究所 - 徵求兼任助理1名(長期)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288843,r5081.php?Lang=zh-tw",
+                "date": "2025-05-14"
+            },
+            {
+                "title": "【徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名(長期)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287490,r5081.php?Lang=zh-tw",
+                "date": "2025-05-14"
+            },
             {
                 "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5081.php?Lang=zh-tw",
@@ -2319,11 +2329,6 @@
                 "date": "2025-05-13"
             },
             {
-                "title": "【徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名(長期)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287490,r5081.php?Lang=zh-tw",
-                "date": "2025-05-12"
-            },
-            {
                 "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5081.php?Lang=zh-tw",
                 "date": "2025-05-12"
@@ -2341,11 +2346,6 @@
             {
                 "title": "國立陽明交通大學徵求工程生物科學學院院長",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288130,r5081.php?Lang=zh-tw",
-                "date": "2025-05-05"
-            },
-            {
-                "title": "南亞科技學校財團法人南亞技術學院幼兒保育系誠徵專任副教授",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288128,r5081.php?Lang=zh-tw",
                 "date": "2025-05-05"
             }
         ]
@@ -7137,6 +7137,11 @@
                 "date": null
             },
             {
+                "title": "轉知_114/6/2(一)以實證為基礎的教學研究設計工作坊：統合分析的實務應用",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-288831,r4.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "竹師教育學院教師AI素養培育",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-287471,r4.php?Lang=zh-tw",
                 "date": null
@@ -7184,11 +7189,6 @@
             {
                 "title": "【研究空間】113學年度竹師教育學院全職博士生研究座位第二階段申請至113年9月20日止(第二階段隨到隨審)",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-273410,r4.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【徵求摘要】「2024第十五屆教育創新國際學術研討會」徵求摘要至9/20",
-                "link": "https://icei.ce.nthu.edu.tw/announcements/show/11",
                 "date": null
             }
         ]
@@ -13097,6 +13097,11 @@
         "department": "光電工程研究所",
         "articles": [
             {
+                "title": "【活動訊息】2025/05/25(日)3:00光電小梅竹交流賽_清大 × 交大光電羽球交流賽@清大校友體育館",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-288838,r10063.php",
+                "date": null
+            },
+            {
                 "title": "【活動訊息】2025/04/27(日)9:00電機系所所友回娘家，歡迎系所友回母校走走@台達館２Ｆ",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-287159,r10063.php",
                 "date": null
@@ -13149,11 +13154,6 @@
             {
                 "title": "【活動訊息】2023/12/12(二)15:30光電所所學會活動_冬至取暖大會@台達館210",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-260078,r10063.php",
-                "date": null
-            },
-            {
-                "title": "【活動訊息】2023/07/20光電技術軟體實作營-LabVIEW基礎教學@台達館215室",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-253321,r10063.php",
                 "date": null
             }
         ]
@@ -13369,33 +13369,38 @@
         "department": "光電工程研究所",
         "articles": [
             {
+                "title": "【校園徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名(長期)",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-288840,r10068.php",
+                "date": null
+            },
+            {
                 "title": "【校園徵才】台灣應用材料公司-新鮮人徵才計畫開跑！",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-277130,r10068.php?Lang=zh-tw",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-277130,r10068.php",
                 "date": null
             },
             {
                 "title": "【實習徵才】NII International Internship Program, Japan",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-274216,r10068.php?Lang=zh-tw",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-274216,r10068.php",
                 "date": null
             },
             {
                 "title": "【校園徵才】美光科技公司招募訊息",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-265116,r10068.php?Lang=zh-tw",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-265116,r10068.php",
                 "date": null
             },
             {
                 "title": "【校園徵才】中華電信徵才訊息",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-257170,r10068.php?Lang=zh-tw",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-257170,r10068.php",
                 "date": null
             },
             {
                 "title": "【校園徵才】聯電徵才訊息",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-253322,r10068.php?Lang=zh-tw",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-253322,r10068.php",
                 "date": null
             },
             {
                 "title": "【校內徵才】『誠徵 110學年度下學期 常微分方程 課程助教 二名』---限碩/博士生",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-253146,r10068.php?Lang=zh-tw",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-253146,r10068.php",
                 "date": null
             }
         ]
@@ -15675,6 +15680,11 @@
                 "date": "2025-05-09"
             },
             {
+                "title": "【暑期夏令營招生】114年清華大學_暑期運動樂活夏令營  簡章&報名",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286567,r11.php",
+                "date": "2025-04-09"
+            },
+            {
                 "title": "【棒球場】配合資訊工程系舉辦第二階段入學申請之筆試與面試活動，於下述時間場地封場不開放：",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288439,r11.php",
                 "date": "2025-05-12"
@@ -15712,11 +15722,6 @@
             {
                 "title": "【室外網球場】網球系際盃5/17（六）-5/18（日）借用室外網球場（#1 2球場），以下時段不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288428,r11.php",
-                "date": "2025-05-12"
-            },
-            {
-                "title": "【室外網球場】EMBA網球社社課5/17（六）下午05:00-下午07:00借用室外網球場（#3 4球場），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288426,r11.php",
                 "date": "2025-05-12"
             }
         ]
