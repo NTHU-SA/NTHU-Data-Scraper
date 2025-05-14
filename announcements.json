@@ -2493,6 +2493,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "國立中山大學檢送《中山人文學報》徵稿訊息，敬請踴躍賜稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-242554,r5084.php?Lang=zh-tw",
+                "date": "2025-05-14"
+            },
+            {
                 "title": "致理科技大學《致理學報》徵稿，請踴躍投稿",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-194947,r5084.php?Lang=zh-tw",
                 "date": "2025-05-13"
@@ -2545,11 +2550,6 @@
             {
                 "title": "國立臺灣大學《臺大體育學報》徵文中，敬請踴躍賜稿。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-197552,r5084.php?Lang=zh-tw",
-                "date": "2025-04-29"
-            },
-            {
-                "title": "國立臺灣大學《臺大體育》徵文中，敬請踴躍賜稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-246979,r5084.php?Lang=zh-tw",
                 "date": "2025-04-29"
             }
         ]
@@ -2629,6 +2629,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "好康報報！國家衛生研究院2025人文思學講堂（免費報名參加）",
+                "link": "https://forms.gle/rLFujKm3FWeBp1rZ8",
+                "date": "2025-05-14"
+            },
+            {
                 "title": "【徵才】國立清華大學運動科技中心誠徵專任行政助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-265738,r5086.php?Lang=zh-tw",
                 "date": "2025-05-13"
@@ -2681,11 +2686,6 @@
             {
                 "title": "【清華大學X產業新尖兵】數位行銷與AI創新應用專業人才培訓班~補助培訓",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287064,r5086.php?Lang=zh-tw",
-                "date": "2025-04-17"
-            },
-            {
-                "title": "【徵才】國立清華大學永續學院 誠徵行政組員一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287055,r5086.php?Lang=zh-tw",
                 "date": "2025-04-17"
             }
         ]
@@ -8965,6 +8965,11 @@
         "department": "總務處",
         "articles": [
             {
+                "title": "113學年度第2次交通委員會會議紀錄",
+                "link": "https://general.site.nthu.edu.tw/var/file/4/1004/img/3842/369526248.pdf",
+                "date": null
+            },
+            {
                 "title": "113學年度第1次駐衛警察評審委員會會議紀錄",
                 "link": "https://general.site.nthu.edu.tw/var/file/4/1004/img/3844/503980723.pdf",
                 "date": null
@@ -9017,11 +9022,6 @@
             {
                 "title": "112學年度第1次交通委員會會議紀錄",
                 "link": "https://general.site.nthu.edu.tw/var/file/4/1004/img/3842/699590688.pdf",
-                "date": null
-            },
-            {
-                "title": "112學年度第1次駐衛警察評審委員會會議紀錄",
-                "link": "https://general.site.nthu.edu.tw/var/file/4/1004/img/3844/135306845.pdf",
                 "date": null
             }
         ]
@@ -12325,8 +12325,13 @@
         "department": "跨院國際碩博士班學位學程",
         "articles": [
             {
-                "title": "【研究補助】賀博士生Arshad Khan干亞德獲國科會補助赴美國加州舊金山參加國際研討會發表論文",
+                "title": "【研究補助】賀博士生Arshad Khan(干亞德)獲國科會補助赴加拿大蒙特婁參加國際研討會發表論文",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-288848,r10847.php?Lang=zh-tw",
+                "date": "2025-05-14"
+            },
+            {
+                "title": "【研究補助】賀博士生Kuldeep Kaswan(庫爾迪普)同學獲本校全球處補助至加拿大蒙特婁參加國際研討會發表論文",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-288860,r10847.php?Lang=zh-tw",
                 "date": "2025-05-14"
             },
             {
@@ -12417,11 +12422,6 @@
             {
                 "title": "【恭賀】人工智慧組林士智同學獲得第三十七屆電腦視覺，圖學暨影像處理研討會黃俊雄優良論文獎",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-274199,r10847.php?Lang=zh-tw",
-                "date": "2024-09-04"
-            },
-            {
-                "title": "【研究補助】賀博士生杜清藍獲國科會補助赴澳洲墨爾本參加國際研討會發表論文",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-274200,r10847.php?Lang=zh-tw",
                 "date": "2024-09-04"
             }
         ]
@@ -17175,7 +17175,7 @@
         "department": "住宿書院",
         "articles": [
             {
-                "title": "開往清大的慢車：EP29｜【書院篇】相聲小組來啦～來聽聽謙謙二人組與相聲的故事！",
+                "title": "開往清大的慢車：EP30｜【書院篇】相聲小組來啦～來聽聽謙謙二人組與相聲的故事！",
                 "link": "https://open.spotify.com/episode/1HHG2IjGSJPegHewaFqaNr",
                 "date": "2025-05-07"
             },
