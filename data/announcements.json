@@ -2153,6 +2153,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】清大生倫中心-誠徵暑假工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-230436,r5074.php?Lang=zh-tw",
+                "date": "2025-05-15"
+            },
+            {
                 "title": "「教育部辦理獨立學院申請改名為大學審查作業規定」，名稱修正為「教育部辦理獨立學院申請改名為一般大學審查作業規定」，茲檢送發布令影本及行政規則修正規定各1份，請查照。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288925,r5074.php?Lang=zh-tw",
                 "date": "2025-05-15"
@@ -2206,11 +2211,6 @@
                 "title": "【傑出校友】竹師教育學院第6屆傑出校友遴選推薦作業至114年5月23日!",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-285954,r70.php?Lang=zh-tw",
                 "date": "2025-04-28"
-            },
-            {
-                "title": "【徵才】竹師教育學院_誠徵專題計畫約用人員一名",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-286993,r70.php?Lang=zh-tw",
-                "date": "2025-04-28"
             }
         ]
     },
@@ -2220,6 +2220,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【誠徵】清大生倫中心-誠徵暑假工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-230436,r5075.php?Lang=zh-tw",
+                "date": "2025-05-15"
+            },
             {
                 "title": "【徵才】國立清華大學服務科學研究所 - 徵求兼任助理1名(長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288843,r5075.php?Lang=zh-tw",
@@ -2273,11 +2278,6 @@
             {
                 "title": "【誠徵國科會計畫 兼任研究助理】",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-288658,r11274.php?Lang=zh-tw",
-                "date": "2025-05-12"
-            },
-            {
-                "title": "【徵才】圖書館-服務與創新組徵求工讀生",
-                "link": "https://www.lib.nthu.edu.tw/news/default.html#rss_news.xml!1589",
                 "date": "2025-05-12"
             }
         ]
@@ -3333,8 +3333,8 @@
         "department": "通識教育中心",
         "articles": [
             {
-                "title": "2025.04.22 通識人物「蔣渭水」系列演講－戴寶村教授「一個渭水 多重意象—蔣渭水的歷史相」",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-288931,r10095.php?Lang=zh-tw",
+                "title": "2025.04.29 通識人物「蔣渭水」系列演講－黃煌雄董事長「蔣渭水的歷史畫像—從「民族正氣」和「台灣精神」談起」",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-288936,r10095.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -7727,7 +7727,7 @@
         "department": "英語教學精進中心",
         "articles": [
             {
-                "title": "​​​​​​​ 決賽日倒數！ 2025 NTHU 3MT 就是下周三5/21！",
+                "title": "堅強評審陣容出爐！齊聚 2025 NTHU 3MT！",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-288932,r10667.php?Lang=zh-tw",
                 "date": null
             },
@@ -7795,6 +7795,11 @@
         "department": "英語教學精進中心",
         "articles": [
             {
+                "title": "Introducing Our All-Star NTHU 3MT Judges!",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-288932,r10937.php?Lang=en",
+                "date": null
+            },
+            {
                 "title": "【NTHU 3MT】Three Minute Thesis Competition – Finalist Announcement",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-288103,r10937.php?Lang=en",
                 "date": null
@@ -7847,11 +7852,6 @@
             {
                 "title": "NTHU English Corner 5 series: 10.15-12.5, Limited Slot 40/event",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-276146,r10937.php?Lang=en",
-                "date": null
-            },
-            {
-                "title": "EECS Brown Bag Series 電資學院午餐分享會：10/25-11/28, Limited Slot 30/event",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-277091,r10937.php?Lang=en",
                 "date": null
             }
         ]
@@ -7954,6 +7954,11 @@
         "department": "英語教學精進中心",
         "articles": [
             {
+                "title": "Introducing Our All-Star NTHU 3MT Judges!",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-288932,r10944.php?Lang=en",
+                "date": null
+            },
+            {
                 "title": "【NTHU 3MT】Three Minute Thesis Competition – Finalist Announcement",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-288103,r10944.php?Lang=en",
                 "date": null
@@ -8006,11 +8011,6 @@
             {
                 "title": "114年2月21日清華大學與中華大學合辦EMI International Conference，歡迎教師踴躍報名參加",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-281211,r10944.php?Lang=en",
-                "date": null
-            },
-            {
-                "title": "2024 NTHU 3MT Final Winners 第三屆清華大學三分鐘英語研究簡報決賽得獎者名單",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-270543,r10944.php?Lang=en",
                 "date": null
             }
         ]
@@ -15681,62 +15681,62 @@
         "articles": [
             {
                 "title": "【全校游泳比賽 公告】114全校游泳賽 / SUP立式划槳競賽 秩序冊、競賽時間表。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288733,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288733,r11.php",
                 "date": "2025-05-13"
             },
             {
                 "title": "【游泳池】運動科學與智慧實作課程4/20（日）-6/08（日）借用游泳池（全），以下時段場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287149,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-287149,r11.php",
                 "date": "2025-04-17"
             },
             {
                 "title": "【游泳池】全校游泳比賽5/14（三）下午01:00-晚上10:00借用游泳池（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288436,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288436,r11.php",
                 "date": "2025-05-09"
             },
             {
                 "title": "【暑期夏令營招生】114年清華大學_暑期運動樂活夏令營  簡章&報名",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286567,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-286567,r11.php",
                 "date": "2025-04-09"
             },
             {
-                "title": "【體育館】114年梅竹賽/大專聯賽暨全大運校隊表揚大會5/19（一）下午01:00-5/20（二）下午02:00借用體育館2F（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288440,r11.php?Lang=zh-tw",
+                "title": "【113學年度暑假】教職員瑜珈班活動簡章",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288904,r11.php",
+                "date": "2025-05-15"
+            },
+            {
+                "title": "【113學年度暑假】教職員有氧舞蹈班活動簡章",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288903,r11.php",
+                "date": "2025-05-15"
+            },
+            {
+                "title": "【體育館】114年梅竹賽/大專聯賽暨全大運校隊表揚大會5/26（一）下午01:00-5/27（二）下午02:00借用體育館2F（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288440,r11.php",
                 "date": "2025-05-15"
             },
             {
                 "title": "【棒球場】配合資訊工程系舉辦第二階段入學申請之筆試與面試活動，於下述時間場地封場不開放：",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288439,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288439,r11.php",
                 "date": "2025-05-12"
             },
             {
                 "title": "【室外籃球場】配合資訊工程系舉辦第二階段入學申請之筆試與面試活動，於下述時間場地封場不開放：",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288438,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288438,r11.php",
                 "date": "2025-05-12"
             },
             {
                 "title": "【校友體育館】教職員羽球賽5/16（五）下午06:00-晚上10:00羽球場（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288421,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288421,r11.php",
                 "date": "2025-05-12"
             },
             {
                 "title": "【校友體育館】啦啦隊加練5/16（五） & 5/23（五）晚上07:00-晚上10:00借用韻律教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288420,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288420,r11.php",
                 "date": "2025-05-12"
             },
             {
                 "title": "【足球場】泡泡足球賽5/17（六）中午12:00-下午05:00借用足球場，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288433,r11.php?Lang=zh-tw",
-                "date": "2025-05-12"
-            },
-            {
-                "title": "【田徑場】恐龍賽跑大賽5/17（六）下午01:00-下午06:00借用田徑場跑道區，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288430,r11.php?Lang=zh-tw",
-                "date": "2025-05-12"
-            },
-            {
-                "title": "【室內網球場】網球系際盃5/17（六）-5/18（日）借用室內網球場（#1球場），以下時段不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288429,r11.php?Lang=zh-tw",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288433,r11.php",
                 "date": "2025-05-12"
             }
         ]
@@ -17054,6 +17054,11 @@
                 "date": "2025-04-28"
             },
             {
+                "title": "【天下書院】西北大學一日語伴交流活動，6/18 (三) 2:00~4:00pm @實齋講堂",
+                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-288938,r6160.php?Lang=zh-tw",
+                "date": "2025-05-15"
+            },
+            {
                 "title": "【清華書院】113學年度「清華書院傑出院生榮譽獎」獲獎名單",
                 "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-288869,r6160.php?Lang=zh-tw",
                 "date": "2025-05-14"
@@ -17116,11 +17121,6 @@
             {
                 "title": "【天下書院】大使講座：前駐法大使吳志中，2025/5/21（三）13:00-15:00 @清大名人堂",
                 "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-286895,r6160.php?Lang=zh-tw",
-                "date": "2025-04-14"
-            },
-            {
-                "title": "【天下書院】黃色情人節與提拉米蘇體驗，2025/05/14 (三) 7:00 p.m. @實齋交誼廳",
-                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-286864,r6160.php?Lang=zh-tw",
                 "date": "2025-04-14"
             }
         ]
