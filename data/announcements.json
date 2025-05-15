@@ -2153,6 +2153,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "「教育部辦理獨立學院申請改名為大學審查作業規定」，名稱修正為「教育部辦理獨立學院申請改名為一般大學審查作業規定」，茲檢送發布令影本及行政規則修正規定各1份，請查照。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288925,r5074.php?Lang=zh-tw",
+                "date": "2025-05-15"
+            },
+            {
                 "title": "【徵才】國立清華大學運動科技中心誠徵專任行政助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-265738,r5074.php?Lang=zh-tw",
                 "date": "2025-05-13"
@@ -2205,11 +2210,6 @@
             {
                 "title": "【徵才】竹師教育學院_誠徵專題計畫約用人員一名",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-286993,r70.php?Lang=zh-tw",
-                "date": "2025-04-28"
-            },
-            {
-                "title": "【誠徵】大立光電-清華大學聯合研發中心 專案計畫學士/碩士/博士級兼任助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287741,r5074.php?Lang=zh-tw",
                 "date": "2025-04-28"
             }
         ]
@@ -3333,8 +3333,8 @@
         "department": "通識教育中心",
         "articles": [
             {
-                "title": "2024.11.14 通識人物「林獻堂」系列演講活動：許雪姬特聘研究員「灌園林獻堂先生的志業—由政治、文化面談起」",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-278647,r10095.php?Lang=zh-tw",
+                "title": "2025.04.22 通識人物「蔣渭水」系列演講－戴寶村教授「一個渭水 多重意象—蔣渭水的歷史相」",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-288931,r10095.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -5767,6 +5767,11 @@
         "department": "教育與學習科技學系",
         "articles": [
             {
+                "title": "【轉知】教育部補助114學年度第1學期大學校院學生出國參加國際性學術技藝能競賽受理申請(敬請於5月19日中午前備齊申請文件送研發處)",
+                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-287402,r9940.php",
+                "date": null
+            },
+            {
                 "title": "5/27中午12.00-13.00本系優秀畢業生江乙容-國外名校研究所申請經驗分享",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-288721,r1.php?Lang=zh-tw",
                 "date": null
@@ -5820,11 +5825,6 @@
                 "title": "【演講公告】3/21（五）13:20-16:20講座: 臺師大教育系鄭英傑副教授(可採計畢業門檻時數3小時)",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-285455,r1.php?Lang=zh-tw",
                 "date": null
-            },
-            {
-                "title": "113-2本系與師培中心合辦-國際學術研討會：教師能動性與教師改革，歡迎教科系師生踴躍參加！",
-                "link": "https://sites.google.com/view/waconf2025/%E9%A6%96%E9%A0%81",
-                "date": null
             }
         ]
     },
@@ -5834,6 +5834,11 @@
         "language": "zh-tw",
         "department": "教育與學習科技學系",
         "articles": [
+            {
+                "title": "【轉知】教育部補助114學年度第1學期大學校院學生出國參加國際性學術技藝能競賽受理申請(敬請於5月19日中午前備齊申請文件送研發處)",
+                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-287402,r9940.php",
+                "date": null
+            },
             {
                 "title": "天下雜誌教育基金會辦理2025「永續台灣創意教案」徵選活動",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-288434,r2.php?Lang=zh-tw",
@@ -5887,11 +5892,6 @@
             {
                 "title": "師培中心執行教育部113年海外見習及實習計畫，歡迎同學踴躍申請。",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-281972,r2.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "新北市政府教育局辦理「學習扶助」國小非現職教師暨大專院校增能18小時認證研習活動",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-280279,r2.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -7568,18 +7568,18 @@
                 "date": null
             },
             {
-                "title": "【EMI 資源申請】Tutor ABC 一對四口說課程報名!!!",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287637,r10647.php?Lang=zh-tw",
+                "title": "【EMI學生工作坊】 🔍English Resume/Career Writing – How hard can it be??💡",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287941,r10647.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "【EMI學生工作坊】 🔍 從心開始：掌握演講的關鍵心態 Starting from Within: Mastering the Mindset of Public Speaking💡",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287384,r10647.php?Lang=zh-tw",
+                "title": "【EMI英語角】114.05.02(五) EMI x 工學院 英語角落活動",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287378,r10647.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "【NTHU 3MT】2025 第四屆 研究簡報競賽 | 決賽5/21登場",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-286314,r10647.php?Lang=zh-tw",
+                "title": "【EMI TA培訓講座】4/28 關於 EMI TA 的二三事 & 5/6 EMI 助教的溝通與引導技巧 報名!!!",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-286938,r10647.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -7727,6 +7727,11 @@
         "department": "英語教學精進中心",
         "articles": [
             {
+                "title": "​​​​​​​ 決賽日倒數！ 2025 NTHU 3MT 就是下周三5/21！",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-288932,r10667.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【EMI TA 獎勵申請】請於5/9(五)中午12點前完成申請!!!!",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-288223,r10667.php?Lang=zh-tw",
                 "date": null
@@ -7779,11 +7784,6 @@
             {
                 "title": "【誠徵工讀生】EMI 3MT活動!!!",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-285889,r10667.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI學生工作坊】 🔍 破解AI迷思：學術寫作、求職簡報與資訊辨識的智慧應用 💡",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-285380,r10667.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -18503,6 +18503,11 @@
                 "date": "2025-01-21"
             },
             {
+                "title": "May 15～May 30 Air-conditioner Drainage Pipe Renewal for Dorm Ming and Ping",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288927,r1538.php?Lang=en",
+                "date": "2025-05-15"
+            },
+            {
                 "title": "Repairing of Student Dormitory Fire-Fighting Equipment 2025",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288809,r1538.php?Lang=en",
                 "date": "2025-05-13"
@@ -18541,11 +18546,6 @@
                 "title": "【Current Student】The results of the 2025 academic year dormitory",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286378,r1538.php?Lang=en",
                 "date": "2025-04-02"
-            },
-            {
-                "title": "Apr. 1～Apr. 16 Fan and window frame cleaning (Hua, Ming, Ping, Shan)",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-286102,r1538.php?Lang=en",
-                "date": "2025-03-28"
             }
         ]
     },
@@ -18601,6 +18601,11 @@
                 "date": "2025-01-21"
             },
             {
+                "title": "5/15～5/30 明平齋冷氣排水管更新作業",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288927,r1538.php?Lang=zh-tw",
+                "date": "2025-05-15"
+            },
+            {
                 "title": "114年學生宿舍消防設備維修",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288809,r1538.php?Lang=zh-tw",
                 "date": "2025-05-13"
@@ -18624,11 +18629,6 @@
                 "title": "【舊生】 114學年度及114年暑期床位公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287644,r1538.php?Lang=zh-tw",
                 "date": "2025-04-25"
-            },
-            {
-                "title": "5/7 i清華APP、學生請假系統及學生宿舍系統主機維護作業",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287658,r1538.php?Lang=zh-tw",
-                "date": "2025-04-25"
             }
         ]
     },
@@ -18638,6 +18638,11 @@
         "language": "en",
         "department": "學生住宿組(水木生活中心1樓)",
         "articles": [
+            {
+                "title": "May 15～May 30 Air-conditioner Drainage Pipe Renewal for Dorm Ming and Ping",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288927,r2223.php?Lang=en",
+                "date": "2025-05-15"
+            },
             {
                 "title": "Repairing of Student Dormitory Fire-Fighting Equipment 2025",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288809,r2223.php?Lang=en",
@@ -18707,11 +18712,6 @@
                 "title": "Feb. 5 ~ Feb. 21 Dormitory Huei, Jing, Ya air conditioner cleaning",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-281822,r2223.php?Lang=en",
                 "date": "2025-01-23"
-            },
-            {
-                "title": "【Division of Construction & Maintenance】Emergency Power Outage Repair Schedule Notification for the 11.4KV Main Station at Nanda CampusPower Outage",
-                "link": "https://construc.site.nthu.edu.tw/p/404-1167-281667.php?Lang=en",
-                "date": "2025-01-20"
             }
         ]
     },
@@ -18721,6 +18721,11 @@
         "language": "zh-tw",
         "department": "學生住宿組(水木生活中心1樓)",
         "articles": [
+            {
+                "title": "5/15～5/30 明平齋冷氣排水管更新作業",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288927,r2223.php?Lang=zh-tw",
+                "date": "2025-05-15"
+            },
             {
                 "title": "114年學生宿舍消防設備維修",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288809,r2223.php?Lang=zh-tw",
@@ -18790,11 +18795,6 @@
                 "title": "3/11、3/12、3/13學生宿舍消毒公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-283465,r2223.php?Lang=zh-tw",
                 "date": "2025-02-18"
-            },
-            {
-                "title": "114年宿舍區消防安全設備年度檢修行程表",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-281975,r2223.php?Lang=zh-tw",
-                "date": "2025-02-03"
             }
         ]
     },
