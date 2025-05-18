@@ -2980,6 +2980,11 @@
         "department": "出納組",
         "articles": [
             {
+                "title": "兆豐銀行滿意度調查(114年5月19日至6月02日止)",
+                "link": "https://cashier.site.nthu.edu.tw/p/406-1166-289058,r47.php?Lang=zh-tw",
+                "date": "2025-05-19"
+            },
+            {
                 "title": "「轉知」國稅局宣導113年度個人綜合所得稅申報事宜",
                 "link": "https://cashier.site.nthu.edu.tw/p/406-1166-288340,r47.php?Lang=zh-tw",
                 "date": "2025-05-08"
@@ -3033,11 +3038,6 @@
                 "title": "配合基本工資調升，民國114年1月1日起同步調升非居住者應扣繳18%稅額之所得金額",
                 "link": "https://cashier.site.nthu.edu.tw/p/406-1166-279314,r47.php?Lang=zh-tw",
                 "date": "2024-11-28"
-            },
-            {
-                "title": "【重要訊息】配合113年度結帳及決算作業及年度所得結算，各類所得發放作業將提前辦理，請注意作業時間。",
-                "link": "https://cashier.site.nthu.edu.tw/p/406-1166-279276,r47.php?Lang=zh-tw",
-                "date": "2024-11-27"
             }
         ]
     },
@@ -14132,11 +14132,6 @@
                 "date": null
             },
             {
-                "title": "【轉知】國立台中科技大學與泰國朱拉隆功大學合作辦理泰語能力檢定，歡迎報考。",
-                "link": "https://language.site.nthu.edu.tw/p/406-1212-286004,r6822.php?Lang=zh-tw",
-                "date": null
-            },
-            {
                 "title": "【轉知】財團法人語言訓練測驗中心「日本語能力試驗（JLPT）」（報名資訊）  說明：",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-284448,r6822.php?Lang=zh-tw",
                 "date": null
@@ -14149,6 +14144,11 @@
             {
                 "title": "【已截止】語文中心2025寒假工作坊第二週：01.13~01.17",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-279909,r6822.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【已截止】語文中心2025寒假工作坊第一週：01.06~01.10",
+                "link": "https://language.site.nthu.edu.tw/p/406-1212-279676,r6822.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -15710,6 +15710,21 @@
                 "date": "2025-05-15"
             },
             {
+                "title": "【游泳池】114年端午節連假開放時間資訊",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288445,r11.php",
+                "date": "2025-05-19"
+            },
+            {
+                "title": "【桌球館】113學年度畢業典禮5/22（四）-5/25（日）借用體育館2F（全），以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288442,r11.php",
+                "date": "2025-05-19"
+            },
+            {
+                "title": "【體育館】113學年度畢業典禮5/21（三）-5/25（日）借用體育館2F（全），以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288441,r11.php",
+                "date": "2025-05-19"
+            },
+            {
                 "title": "【校友體育館】啦啦隊加練5/16（五） & 5/23（五）晚上07:00-晚上10:00借用韻律教室，場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288420,r11.php",
                 "date": "2025-05-12"
@@ -15728,21 +15743,6 @@
                 "title": "【體育館】全國大專院校體育聯賽大工盃—排球賽5/17（六）-5/18（日）借用體育館2F（全），以下時段不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288422,r11.php",
                 "date": "2025-05-12"
-            },
-            {
-                "title": "【體育館】114年梅竹賽/大專聯賽暨全大運校隊表揚大會5/26（一）下午01:00-5/27（二）下午02:00借用體育館2F（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288440,r11.php",
-                "date": "2025-05-15"
-            },
-            {
-                "title": "【全校游泳比賽 公告】114全校游泳賽 / SUP立式划槳競賽 秩序冊、競賽時間表。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288733,r11.php",
-                "date": "2025-05-13"
-            },
-            {
-                "title": "【游泳池】全校游泳比賽5/14（三）下午01:00-晚上10:00借用游泳池（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288436,r11.php",
-                "date": "2025-05-09"
             }
         ]
     },
