@@ -557,11 +557,6 @@
         "department": "招生策略中心",
         "articles": [
             {
-                "title": "114碩士班錄取生至境外交換之延遲繳交報到資料切結書",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-279374,r323.php?Lang=zh-tw",
-                "date": "2024-11-28"
-            },
-            {
                 "title": "114學年度碩士班考試第9次備取遞補名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-289053,r323.php?Lang=zh-tw",
                 "date": "2025-05-19"
@@ -654,6 +649,11 @@
             {
                 "title": "114學年度碩士班考試第2次備取遞補名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-285787,r323.php?Lang=zh-tw",
+                "date": "2025-03-25"
+            },
+            {
+                "title": "台灣聯合大學系統114學年度碩士班招生榜單(含報到相關資訊)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-285220,r323.php?Lang=zh-tw",
                 "date": "2025-03-25"
             }
         ]
@@ -3257,13 +3257,18 @@
         "department": "運動事業及政策中心",
         "articles": [
             {
+                "title": "Basketball Without Borders in Hsinchu 2025 Virtual Technical Meeting",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/426-1498-39.php?Lang=en",
+                "date": null
+            },
+            {
                 "title": "Do runners support sustainable events? The first study between Japan And Taiwan on environmental issues of running race is released!",
                 "link": "https://cfsbp.site.nthu.edu.tw/p/406-1498-287305,r11.php?Lang=en",
                 "date": null
             },
             {
                 "title": "Basketball Without Borders in Hsinchu 2025 Competition Regulations",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/426-1498-32.php?Lang=en",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/426-1498-38.php?Lang=en",
                 "date": null
             },
             {
@@ -3309,11 +3314,6 @@
             {
                 "title": "The second initiative about road running race.",
                 "link": "https://www.linkedin.com/posts/taiwan-green-running-race-alliance_the-second-initiative-about-road-running-activity-7159001952628944896-GOLs?utm_source=share&utm_medium=member_desktop",
-                "date": null
-            },
-            {
-                "title": "Establishment Background and Main Objectives of the Taiwan Green Running Race Alliance",
-                "link": "https://www.linkedin.com/pulse/introduction-our-team-taiwan-green-running-race-alliance-fww4c/?trackingId=5kBKrH6tQBbzazFCFVeV1w%3D%3D",
                 "date": null
             }
         ]
@@ -12418,6 +12418,11 @@
         "department": "跨院國際碩博士班學位學程",
         "articles": [
             {
+                "title": "【研究補助】賀博士生于曉晨獲國科會補助赴美國舊金山參加國際研討會發表論文",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-289374,r10847.php?Lang=zh-tw",
+                "date": "2025-05-21"
+            },
+            {
                 "title": "【研究補助】賀博士生Arshad Khan(干亞德)獲國科會補助赴加拿大蒙特婁參加國際研討會發表論文",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-288848,r10847.php?Lang=zh-tw",
                 "date": "2025-05-14"
@@ -12511,11 +12516,6 @@
                 "title": "【恭賀】陳鴻文助理教授獲113年衛生福利部防疫績優公務類個人獎",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-275558,r10847.php?Lang=zh-tw",
                 "date": "2024-09-25"
-            },
-            {
-                "title": "【恭賀】人工智慧組林士智同學獲得第三十七屆電腦視覺，圖學暨影像處理研討會黃俊雄優良論文獎",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-274199,r10847.php?Lang=zh-tw",
-                "date": "2024-09-04"
             }
         ]
     },
@@ -15773,6 +15773,11 @@
                 "date": "2025-04-09"
             },
             {
+                "title": "【室外網球場】EMBA網球社社課5/24（六）下午05:00-下午07:00借用室外網球場（#3 4球場），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-289369,r11.php",
+                "date": "2025-05-21"
+            },
+            {
                 "title": "【校友體育館】梅竹小光盃-羽球雙打賽5/25（日）下午03:00-晚上07:00借用羽球場（# 5 6 7 8），場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-289368,r11.php",
                 "date": "2025-05-21"
@@ -15810,11 +15815,6 @@
             {
                 "title": "【體育館】113學年度畢業典禮5/21（三）-5/25（日）借用體育館2F（全），以下時段場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288441,r11.php",
-                "date": "2025-05-19"
-            },
-            {
-                "title": "【桌球館】113學年度畢業典禮5/22（四）-5/25（日）借用桌球館（全），以下時段場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-288442,r11.php",
                 "date": "2025-05-19"
             }
         ]
