@@ -557,6 +557,11 @@
         "department": "招生策略中心",
         "articles": [
             {
+                "title": "台聯大系統114學年度碩士班招生 第11次備取遞補名單-本次備取遞補名單暫無缺額",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-289420,r323.php?Lang=zh-tw",
+                "date": "2025-05-22"
+            },
+            {
                 "title": "114學年度碩士班考試第9次備取遞補名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-289053,r323.php?Lang=zh-tw",
                 "date": "2025-05-19"
@@ -649,11 +654,6 @@
             {
                 "title": "114學年度碩士班考試第2次備取遞補名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-285787,r323.php?Lang=zh-tw",
-                "date": "2025-03-25"
-            },
-            {
-                "title": "台灣聯合大學系統114學年度碩士班招生榜單(含報到相關資訊)",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-285220,r323.php?Lang=zh-tw",
                 "date": "2025-03-25"
             }
         ]
@@ -2294,9 +2294,19 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學化學系誠徵技術組員(實驗助教)1名 (至7/20)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289424,r5075.php?Lang=zh-tw",
+                "date": "2025-05-22"
+            },
+            {
                 "title": "【誠徵】校務研究中心工讀生一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289381,r5075.php?Lang=zh-tw",
                 "date": "2025-05-21"
+            },
+            {
+                "title": "【誠徵】國立清華大學人事室 [校聘] 行政組員一名11405",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289423,r5075.php?Lang=zh-tw",
+                "date": "2025-05-20"
             },
             {
                 "title": "【誠徵】 國立清華大學全球事務處專案組員1名(長期缺)",
@@ -2342,16 +2352,6 @@
                 "title": "【徵才】國立清華大學教育與學習科技學系徵聘約聘教師",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288754,r5075.php?Lang=zh-tw",
                 "date": "2025-05-13"
-            },
-            {
-                "title": "【徵才】清華電機_李祈均教授BIIC Lab 誠徵行政助理1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288774,r5075.php?Lang=zh-tw",
-                "date": "2025-05-13"
-            },
-            {
-                "title": "【徵才】國立清華大學 工業工程與工程管理學系 徵聘專任教師(收件截止日:2025/07/31)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288763,r5075.php?Lang=zh-tw",
-                "date": "2025-05-13"
             }
         ]
     },
@@ -2365,6 +2365,11 @@
                 "title": "【誠徵】校務研究中心工讀生一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289381,r5081.php?Lang=zh-tw",
                 "date": "2025-05-21"
+            },
+            {
+                "title": "【誠徵】國立清華大學人事室 [校聘] 行政組員一名11405",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289423,r5081.php?Lang=zh-tw",
+                "date": "2025-05-20"
             },
             {
                 "title": "【誠徵】 國立清華大學全球事務處專案組員1名(長期缺)",
@@ -2414,11 +2419,6 @@
             {
                 "title": "【徵才】國立清華大學教育與學習科技學系徵聘專任教師(收件截止日:114/08/31)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288735,r5081.php?Lang=zh-tw",
-                "date": "2025-05-13"
-            },
-            {
-                "title": "【徵才】國立清華大學運動科技中心誠徵專任行政助理一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-265738,r5081.php?Lang=zh-tw",
                 "date": "2025-05-13"
             }
         ]
@@ -5127,21 +5127,6 @@
         "department": "諮商中心(醫輔大樓2樓)",
         "articles": [
             {
-                "title": "20250512-0516中午【拜拖延所「寺」- 許下不同的自己】-諮商中心志工團窩心組校園推廣體驗活動",
-                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-288100,r6624.php",
-                "date": null
-            },
-            {
-                "title": "20250512-0522在線*聊聊",
-                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-287735,r6624.php",
-                "date": null
-            },
-            {
-                "title": "20250516 NTHU Counseling Center, One Day English Workshop",
-                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-286221,r6624.php",
-                "date": null
-            },
-            {
                 "title": "20250509-0526 【實體解憂雜貨店】-諮商中心志工團互動體驗展",
                 "link": "https://counsel.site.nthu.edu.tw/p/406-1250-288152,r6624.php",
                 "date": null
@@ -5264,6 +5249,21 @@
             {
                 "title": "20250508線上講座【ChatGPT陪你聊聊-談Ai輔助自我照顧，可以如何應用網路資源】",
                 "link": "https://counsel.site.nthu.edu.tw/p/406-1250-283143,r6624.php",
+                "date": null
+            },
+            {
+                "title": "20250512-0516中午【拜拖延所「寺」- 許下不同的自己】-諮商中心志工團窩心組校園推廣體驗活動",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-288100,r6624.php",
+                "date": null
+            },
+            {
+                "title": "20250512-0522在線*聊聊",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-287735,r6624.php",
+                "date": null
+            },
+            {
+                "title": "20250516 NTHU Counseling Center, One Day English Workshop",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-286221,r6624.php",
                 "date": null
             }
         ]
@@ -13122,6 +13122,11 @@
         "department": "光電工程研究所",
         "articles": [
             {
+                "title": "光電所 書報討論 2025/5/23 14:20-16:30 台達R217",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-289421,r10062.php",
+                "date": null
+            },
+            {
                 "title": "光電所 書報討論 2025/5/9 14:20-16:30 台達R217",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-288054,r10062.php",
                 "date": null
@@ -13174,11 +13179,6 @@
             {
                 "title": "【演講資訊】2025/01/10 (五)10:00 @台達館R302 / Speaker: Professor NTan, Howe-Siang from Nanyang Technological University Singapore",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-280223,r10062.php",
-                "date": null
-            },
-            {
-                "title": "光電所 書報討論 2024/11/22 14:20-16:30 台達R217",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-278791,r10062.php",
                 "date": null
             }
         ]
@@ -13462,8 +13462,8 @@
         "department": "光電工程研究所",
         "articles": [
             {
-                "title": "【校園徵才】國立清華大學光電工程研究所 誠徵所聘行政助理一名(長期)",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-288840,r10068.php",
+                "title": "【實習徵才】台灣英飛凌在學學生實習計畫開跑嘍！",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-289422,r10068.php",
                 "date": null
             },
             {
@@ -13641,6 +13641,21 @@
         "department": "光電工程研究所",
         "articles": [
             {
+                "title": "【2025-03】賀!! 光電所學生王柏涵同學榮獲114年度「中華民國斐陶斐榮譽學會」榮譽會員 指導教授：李瑞光教授",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-289426,r10321.php",
+                "date": null
+            },
+            {
+                "title": "【2025-03】賀!! 光電所學生黃朝欽同學榮獲114年度「中華民國斐陶斐榮譽學會」榮譽會員 指導教授：洪毓玨教授",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-289427,r10321.php",
+                "date": null
+            },
+            {
+                "title": "【2025-03】賀!! 光電所學生李威慶同學榮獲114年度「中華民國斐陶斐榮譽學會」榮譽會員 指導教授：劉昌樺教授",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-289425,r10321.php",
+                "date": null
+            },
+            {
                 "title": "【2024-12】賀!! 光電所學生蕭宏佾同學榮獲【中華民國光電學會】舉辦之OPTIC 2024「光電技術研討會」獲得Oral Best student paper award ，指導教授：陳國平教授",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-281255,r10321.php",
                 "date": null
@@ -13683,21 +13698,6 @@
             {
                 "title": "【2024-08】賀!! 光電所學生周嘉鴻同學榮獲113學年「教育部博士生獎學金」 指導教授：陳鴻文教授",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-278276,r10321.php",
-                "date": null
-            },
-            {
-                "title": "【2024-08】賀!! 光電所學生施博升同學榮獲113學年「教育部博士生獎學金」 指導教授：陳國平教授",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-278275,r10321.php",
-                "date": null
-            },
-            {
-                "title": "【2024-08】賀!! 光電所學生王韋恩同學榮獲113學年「教育部博士生獎學金」 指導教授：洪毓玨教授",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-278274,r10321.php",
-                "date": null
-            },
-            {
-                "title": "【2024-08】賀!! 光電所學生郭境同學榮獲113學年「國科會博士生研究獎學金」 指導教授：劉昌樺教授",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-278272,r10321.php",
                 "date": null
             }
         ]
@@ -17341,14 +17341,14 @@
                 "date": "2024-10-14"
             },
             {
-                "title": "【天下書院】黃色情人節與提拉米蘇體驗",
-                "link": "https://www.facebook.com/nthuglobalprogram/posts/pfbid033Zekv5ZivpcqbJhLmWynt8C7gD7m8TtTSkpYneF92hy3P9QbAPuWQK72Qs5CccnFl",
-                "date": "2025-05-21"
-            },
-            {
                 "title": "【天下書院】台灣在太空產業的發展與外交事務─太空世代王安棣理事長與蔡志群理事",
                 "link": "https://www.facebook.com/nthuglobalprogram/posts/pfbid03434dzx19x2iWKcivDAfjXr2BwDVdkNMqSbnNrRs2wtb3CfjaDyNC2Yng15k9jRcRl",
                 "date": "2025-05-22"
+            },
+            {
+                "title": "【天下書院】黃色情人節與提拉米蘇體驗",
+                "link": "https://www.facebook.com/nthuglobalprogram/posts/pfbid033Zekv5ZivpcqbJhLmWynt8C7gD7m8TtTSkpYneF92hy3P9QbAPuWQK72Qs5CccnFl",
+                "date": "2025-05-21"
             },
             {
                 "title": "【清華創業日】站上生成式AI的創業浪頭：解密創新趨勢與機會",
@@ -18304,7 +18304,7 @@
         "department": "華文文學研究所",
         "articles": [
             {
-                "title": "論文學位口試公告：113年5～7月洪敬媛（5/30）、莊怡萱（6/19）、劉紋安（6/25）、陳敬鴻（7/31）、蔡佩伶（7/10）",
+                "title": "論文學位口試公告：113年5～7月洪敬媛（5/30）、莊怡萱（6/19）、劉紋安（6/25）、蔡佩伶（7/10）、蕭淳薇（7/18）、陳敬鴻（7/31）",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-277414,r8879.php?Lang=zh-tw",
                 "date": null
             },
@@ -18372,7 +18372,7 @@
         "department": "華文文學研究所",
         "articles": [
             {
-                "title": "論文計畫審查口試公告：114年4、5月郭艷（4/10）、田明玉（5/6）",
+                "title": "論文計畫審查口試公告：114年7月陳世御（7/18）",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-287939,r9280.php?Lang=zh-tw",
                 "date": null
             },
