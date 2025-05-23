@@ -2294,6 +2294,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】國立清華大學音樂廳專案組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289505,r5075.php?Lang=zh-tw",
+                "date": "2025-05-23"
+            },
+            {
+                "title": "【徵才】計財系誠徵114學年度上學期系辦工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289502,r5075.php?Lang=zh-tw",
+                "date": "2025-05-23"
+            },
+            {
                 "title": "【誠徵】校資處財務發展組暑期工讀",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289485,r5075.php?Lang=zh-tw",
                 "date": "2025-05-22"
@@ -2342,16 +2352,6 @@
                 "title": "【誠徵】清大生倫中心-誠徵暑假工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-230436,r5075.php?Lang=zh-tw",
                 "date": "2025-05-15"
-            },
-            {
-                "title": "【誠徵】教發中心誠徵影音剪輯工讀生（2名）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288768,r5075.php?Lang=zh-tw",
-                "date": "2025-05-13"
-            },
-            {
-                "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5075.php?Lang=zh-tw",
-                "date": "2025-05-13"
             }
         ]
     },
@@ -2361,6 +2361,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】計財系誠徵114學年度上學期系辦工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289502,r5081.php?Lang=zh-tw",
+                "date": "2025-05-23"
+            },
             {
                 "title": "【徵才】駐警隊徵專案組員2名（114.7.1到職）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-285666,r5081.php?Lang=zh-tw",
@@ -2414,11 +2419,6 @@
             {
                 "title": "【徵才】國立清華大學 工業工程與工程管理學系 徵聘專任教師(收件截止日:2025/07/31)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288763,r5081.php?Lang=zh-tw",
-                "date": "2025-05-13"
-            },
-            {
-                "title": "【徵才】國立清華大學教育與學習科技學系徵聘專任教師(收件截止日:114/08/31)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-288735,r5081.php?Lang=zh-tw",
                 "date": "2025-05-13"
             }
         ]
@@ -4174,6 +4174,16 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
+                "title": "Department Seminar (Colloquium) Schedule of 2025 Spring",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281317,r8084.php?Lang=en",
+                "date": "2025-01-13"
+            },
+            {
+                "title": "(Department Seminar)2025.5.29, Prof. Shih-Chieh Lin, \"Tailing\" stories about the enzalutamide-resistant prostate cancer",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-289503,r8084.php?Lang=en",
+                "date": "2025-05-23"
+            },
+            {
                 "title": "Guidelines for Colloquium (Spring 2021)",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-192469,r8084.php?Lang=en",
                 "date": "2021-03-06"
@@ -4262,16 +4272,6 @@
                 "title": "(Lecture) Rab37-mediated exocytosis and its niche for cancer therapy",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-192463,r8084.php?Lang=en",
                 "date": "2020-09-18"
-            },
-            {
-                "title": "(Lecture) Toward a Successful Graduate Career: the Why, the Stakes, and Some Ropes",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-192462,r8084.php?Lang=en",
-                "date": "2020-09-14"
-            },
-            {
-                "title": "(Lecture) Empirical dynamic modeling toward mechanistical understanding of dynamical systems",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-192461,r8084.php?Lang=en",
-                "date": "2020-06-04"
             }
         ]
     },
@@ -4285,6 +4285,11 @@
                 "title": "113學年度第2學期專題演講時間表",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-281317,r8084.php?Lang=zh-tw",
                 "date": "2025-01-13"
+            },
+            {
+                "title": "(專題演講)114.5.29 林世杰副教授 \"Tailing\" stories about the enzalutamide-resistant prostate cancer",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-289503,r8084.php?Lang=zh-tw",
+                "date": "2025-05-23"
             },
             {
                 "title": "(專題演講)114.5.8 永井健治教授 Toward Paradigm Innovation through Biological Researches Focusing on Rare Elements",
@@ -4375,11 +4380,6 @@
                 "title": "(專題演講)113.11.28朱麗安副教授 Thirst-driven hygrosensory suppression promotes water seeking in Drosophila",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-279072,r8084.php?Lang=zh-tw",
                 "date": "2024-11-22"
-            },
-            {
-                "title": "(專題演講)113.11.21 黃怡萱研究員 Translational control in memory and metabolism",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-278700,r8084.php?Lang=zh-tw",
-                "date": "2024-11-18"
             }
         ]
     },
@@ -4809,6 +4809,11 @@
         "language": "zh-tw",
         "department": "半導體研究學院",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學半導體研究學院 誠徵專任教師",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-289513,r11274.php?Lang=zh-tw",
+                "date": null
+            },
             {
                 "title": "【企業徵才實習】2025美商_科林研發|製程(濕蝕刻)實習開放申請中！",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-288811,r11274.php?Lang=zh-tw",
@@ -14803,6 +14808,11 @@
         "department": "奈米工程與微系統研究所",
         "articles": [
             {
+                "title": "Seminar of Inst. NanoEngineering and MicroSystems, May 26, 2025",
+                "link": "https://nems.site.nthu.edu.tw/p/406-1302-289491,r1495.php?Lang=en",
+                "date": "2025-05-23"
+            },
+            {
                 "title": "Seminar of Inst. NanoEngineering and MicroSystems, May 19, 2025",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-288561,r1495.php?Lang=en",
                 "date": "2025-05-09"
@@ -14856,11 +14866,6 @@
                 "title": "Seminar of Inst. NanoEngineering and MicroSystems, March 3, 2025",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-283675,r1495.php?Lang=en",
                 "date": "2025-02-21"
-            },
-            {
-                "title": "Seminar of Inst. NanoEngineering and MicroSystems, February 24, 2025",
-                "link": "https://nems.site.nthu.edu.tw/p/406-1302-283572,r1495.php?Lang=en",
-                "date": "2025-02-20"
             }
         ]
     },
@@ -14870,6 +14875,11 @@
         "language": "zh-tw",
         "department": "奈米工程與微系統研究所",
         "articles": [
+            {
+                "title": "奈米工程與微系統研究所114年5月26日書報討論",
+                "link": "https://nems.site.nthu.edu.tw/p/406-1302-289491,r1495.php?Lang=zh-tw",
+                "date": "2025-05-23"
+            },
             {
                 "title": "奈米工程與微系統研究所114年5月19日書報討論",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-288561,r1495.php?Lang=zh-tw",
@@ -14924,11 +14934,6 @@
                 "title": "奈米工程與微系統研究所114年3月10日書報討論",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-284213,r1495.php?Lang=zh-tw",
                 "date": "2025-03-04"
-            },
-            {
-                "title": "奈米工程與微系統研究所114年3月3日書報討論",
-                "link": "https://nems.site.nthu.edu.tw/p/406-1302-283675,r1495.php?Lang=zh-tw",
-                "date": "2025-02-21"
             }
         ]
     },
