@@ -12,8 +12,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "d4fb3c08b3923cefb7fdf2135d42fc0e914e2951",
-        "last_updated": "2025-05-21T06:09:07+08:00",
+        "last_commit": "bd08ceb0c8e4519900c871b717495182ef7398cd",
+        "last_updated": "2025-05-27T06:08:53+08:00",
         "name": "courses.json"
       },
       {
@@ -148,8 +148,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "d4fb3c08b3923cefb7fdf2135d42fc0e914e2951",
-        "last_updated": "2025-05-21T06:09:07+08:00",
+        "last_commit": "bd08ceb0c8e4519900c871b717495182ef7398cd",
+        "last_updated": "2025-05-27T06:08:53+08:00",
         "name": "latest.json"
       }
     ],
@@ -200,8 +200,8 @@
         "name": "11220.json"
       },
       {
-        "last_commit": "d4fb3c08b3923cefb7fdf2135d42fc0e914e2951",
-        "last_updated": "2025-05-21T06:09:07+08:00",
+        "last_commit": "bd08ceb0c8e4519900c871b717495182ef7398cd",
+        "last_updated": "2025-05-27T06:08:53+08:00",
         "name": "11320.json"
       }
     ],
@@ -228,5 +228,5 @@
       }
     ]
   },
-  "last_updated": "2025-05-27T00:10:17+08:00"
+  "last_updated": "2025-05-27T06:08:53+08:00"
 }
