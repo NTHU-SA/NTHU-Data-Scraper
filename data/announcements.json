@@ -380,6 +380,74 @@
         ]
     },
     {
+        "title": "NEWS",
+        "link": "http://registra.site.nthu.edu.tw/p/403-1211-219-1.php?Lang=en",
+        "language": "en",
+        "department": "註冊組",
+        "articles": [
+            {
+                "title": "Application for Direct Pursuit of PhD Degree in 113 Academic Year (3rd time)",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-289663,r219.php?Lang=en",
+                "date": "2025-05-26"
+            },
+            {
+                "title": "2025 Fall semester Student Registration Procedures & Guidelines(for Foreign Students)",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-269052,r219.php?Lang=en",
+                "date": "2025-05-14"
+            },
+            {
+                "title": "2025 Spring semester Notification of Entering and Grade Submission",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-288007,r219.php?Lang=en",
+                "date": "2025-05-02"
+            },
+            {
+                "title": "Application for Department Transfer in Academic Year 2025",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-287860,r219.php?Lang=en",
+                "date": "2025-04-30"
+            },
+            {
+                "title": "Notice of NTHU Resumption 2025 Spring Semester",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-280859,r219.php?Lang=en",
+                "date": "2025-01-02"
+            },
+            {
+                "title": "2025 Spring semester Student Registration Procedures & Guidelines(for Foreign Students)",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-278723,r219.php?Lang=en",
+                "date": "2024-11-18"
+            },
+            {
+                "title": "2024 Fall semester Notification of Entering and Grade Submission",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-278680,r219.php?Lang=en",
+                "date": "2024-11-18"
+            },
+            {
+                "title": "Application for Direct Pursuit of PhD Degree in 113 Academic Year",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-275083,r219.php?Lang=en",
+                "date": "2024-09-19"
+            },
+            {
+                "title": "During Summer Break, No Staff at Nanda Campus Office; Service Available Every Tuesday and Thursday from New Semester On",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-271343,r219.php?Lang=en",
+                "date": "2024-07-02"
+            },
+            {
+                "title": "2024 Spring semester Notification of Entering and Grade Submission",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-268905,r219.php?Lang=en",
+                "date": "2024-05-17"
+            },
+            {
+                "title": "Application for Department Transfer in Academic Year 2024",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-267638,r219.php?Lang=en",
+                "date": "2024-04-30"
+            },
+            {
+                "title": "Application for Direct Pursuit of PhD Degree in 112 Academic Year",
+                "link": "http://registra.site.nthu.edu.tw/p/406-1211-256160,r219.php?Lang=en",
+                "date": "2024-02-21"
+            }
+        ]
+    },
+    {
         "title": "最新消息",
         "link": "https://academic.site.nthu.edu.tw/p/403-1007-1504-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -2383,6 +2451,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學生醫工程與環境科學系2025徵聘專任教師，自即日起收件至114年8月5日止",
+                "link": "https://bmes.site.nthu.edu.tw/p/406-1360-290098,r6565.php?Lang=zh-tw",
+                "date": "2025-06-03"
+            },
+            {
                 "title": "【誠徵碩士級專任研究助理】國立清華大學教科系 陳淑敏老師研究室",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290075,r5074.php?Lang=zh-tw",
                 "date": "2025-06-03"
@@ -2436,11 +2509,6 @@
                 "title": "【誠徵】校資處財務發展組暑期工讀",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289485,r5074.php?Lang=zh-tw",
                 "date": "2025-05-22"
-            },
-            {
-                "title": "【誠徵】校務研究中心工讀生一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289381,r5074.php?Lang=zh-tw",
-                "date": "2025-05-21"
             }
         ]
     },
@@ -2450,6 +2518,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學生醫工程與環境科學系2025徵聘專任教師，自即日起收件至114年8月5日止",
+                "link": "https://bmes.site.nthu.edu.tw/p/406-1360-290098,r6565.php?Lang=zh-tw",
+                "date": "2025-06-03"
+            },
             {
                 "title": "【誠徵】本校科技法律研究所林勤富老師研究室誠徵專題生若干名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290076,r5075.php?Lang=zh-tw",
@@ -2504,11 +2577,6 @@
                 "title": "【徵才】國立清華大學圖書館服務與創新組誠徵專案組員1名",
                 "link": "https://www.lib.nthu.edu.tw/news/default.html#rss_news.xml!1612",
                 "date": "2025-05-28"
-            },
-            {
-                "title": "【徵才】國立清華大學圖書館採編組誠徵專案組員1名",
-                "link": "https://www.lib.nthu.edu.tw/news/default.html#rss_news.xml!1611",
-                "date": "2025-05-28"
             }
         ]
     },
@@ -2518,6 +2586,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學生醫工程與環境科學系2025徵聘專任教師，自即日起收件至114年8月5日止",
+                "link": "https://bmes.site.nthu.edu.tw/p/406-1360-290098,r6565.php?Lang=zh-tw",
+                "date": "2025-06-03"
+            },
             {
                 "title": "【誠徵碩士級專任研究助理】國立清華大學教科系 陳淑敏老師研究室",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290075,r5081.php?Lang=zh-tw",
@@ -2571,11 +2644,6 @@
             {
                 "title": "【誠徵】國立清華大學化學工程學系專任助理教授、副教授或教授1-3名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289579,r5081.php?Lang=zh-tw",
-                "date": "2025-05-23"
-            },
-            {
-                "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5081.php?Lang=zh-tw",
                 "date": "2025-05-23"
             }
         ]
@@ -17745,74 +17813,6 @@
         ]
     },
     {
-        "title": "NEWS",
-        "link": "https://registra.site.nthu.edu.tw/p/403-1211-219-1.php?Lang=en",
-        "language": "en",
-        "department": "註冊組",
-        "articles": [
-            {
-                "title": "Application for Direct Pursuit of PhD Degree in 113 Academic Year (3rd time)",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-289663,r219.php?Lang=en",
-                "date": "2025-05-26"
-            },
-            {
-                "title": "2025 Fall semester Student Registration Procedures & Guidelines(for Foreign Students)",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-269052,r219.php?Lang=en",
-                "date": "2025-05-14"
-            },
-            {
-                "title": "2025 Spring semester Notification of Entering and Grade Submission",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-288007,r219.php?Lang=en",
-                "date": "2025-05-02"
-            },
-            {
-                "title": "Application for Department Transfer in Academic Year 2025",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-287860,r219.php?Lang=en",
-                "date": "2025-04-30"
-            },
-            {
-                "title": "Notice of NTHU Resumption 2025 Spring Semester",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-280859,r219.php?Lang=en",
-                "date": "2025-01-02"
-            },
-            {
-                "title": "2025 Spring semester Student Registration Procedures & Guidelines(for Foreign Students)",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-278723,r219.php?Lang=en",
-                "date": "2024-11-18"
-            },
-            {
-                "title": "2024 Fall semester Notification of Entering and Grade Submission",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-278680,r219.php?Lang=en",
-                "date": "2024-11-18"
-            },
-            {
-                "title": "Application for Direct Pursuit of PhD Degree in 113 Academic Year",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-275083,r219.php?Lang=en",
-                "date": "2024-09-19"
-            },
-            {
-                "title": "During Summer Break, No Staff at Nanda Campus Office; Service Available Every Tuesday and Thursday from New Semester On",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-271343,r219.php?Lang=en",
-                "date": "2024-07-02"
-            },
-            {
-                "title": "2024 Spring semester Notification of Entering and Grade Submission",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-268905,r219.php?Lang=en",
-                "date": "2024-05-17"
-            },
-            {
-                "title": "Application for Department Transfer in Academic Year 2024",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-267638,r219.php?Lang=en",
-                "date": "2024-04-30"
-            },
-            {
-                "title": "Application for Direct Pursuit of PhD Degree in 112 Academic Year",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-256160,r219.php?Lang=en",
-                "date": "2024-02-21"
-            }
-        ]
-    },
-    {
         "title": "最新消息",
         "link": "https://registra.site.nthu.edu.tw/p/403-1211-219-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -18076,6 +18076,16 @@
         "department": "華文文學研究所",
         "articles": [
             {
+                "title": "【華野之間三】6/8（日）14:00-16:00 詩人白靈，線上講題｜庶民詩時代中的AI詩圖互動",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-290096,r6386.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【華野之間二】6/1（日）14:00–16:00講者：王宗仁，線上講題：散文為肉詩當骨--我看散文詩的本質與形變",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-290093,r6386.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【演講公告】5/19(一)10:00-張堂錡教授（政治大學中文系）於南大校區第一會議室演講，講題：從「詩的澳門」到「澳門的詩」──我們如何聆聽一座城市的語言突圍？",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-288647,r6386.php?Lang=zh-tw",
                 "date": null
@@ -18124,16 +18134,6 @@
                 "title": "【演講公告】4/25(五)下午13:30-18:00人社院D201教室，講題：擬想，兼論台灣科幻寫作",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-286871,r6386.php?Lang=zh-tw",
                 "date": null
-            },
-            {
-                "title": "先來相遇——清華華文所 2025 年首場新生迎新會4月26日（六）上午10:00",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-286762,r6386.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【錄取名單】2025湛華國際華文研究生及大學生學術研討會",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-286148,r6386.php?Lang=zh-tw",
-                "date": null
             }
         ]
     },
@@ -18143,6 +18143,16 @@
         "language": "zh-tw",
         "department": "華文文學研究所",
         "articles": [
+            {
+                "title": "【華野之間三】6/8（日）14:00-16:00 詩人白靈，線上講題｜庶民詩時代中的AI詩圖互動",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-290096,r6387.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【華野之間二】6/1（日）14:00–16:00講者：王宗仁，線上講題：散文為肉詩當骨--我看散文詩的本質與形變",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-290093,r6387.php?Lang=zh-tw",
+                "date": null
+            },
             {
                 "title": "【演講公告】5/19(一)10:00-張堂錡教授（政治大學中文系）於南大校區第一會議室演講，講題：從「詩的澳門」到「澳門的詩」──我們如何聆聽一座城市的語言突圍？",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-288647,r6387.php?Lang=zh-tw",
@@ -18191,16 +18201,6 @@
             {
                 "title": "【火種演講】11/14(二)下午14:20-17:20\"台灣客家話的語音特徵及次方言差異\" 主講：范文芳教授 地點：南大校區2104教室",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-257662,r6387.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【火種演講】10/31(二)14:20~17:20\" 新竹地區語言區的彤塑與世居居民祖籍分布之關聯性研究\"主講：韋煙灶教授 地點：南大校區2104教室",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-257522,r6387.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【演講】10/11上午10:00-12:00 講題：跨疆界、跨領域的文學研究新視線——從新竹到亞洲 講座：黃美娥教授",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-256441,r6387.php?Lang=zh-tw",
                 "date": null
             }
         ]
