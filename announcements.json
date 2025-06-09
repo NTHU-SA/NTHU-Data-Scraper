@@ -2424,6 +2424,11 @@
         "department": "教育與學習科技學系",
         "articles": [
             {
+                "title": "「Educational Big Data」線上研究論壇（7/1）歡迎大家報名參加",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-290279,r1.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "[轉知] 2025秋交換生家族輔導員招募及線上說明會公告",
                 "link": "https://oga.site.nthu.edu.tw/p/406-1524-290167,r9308.php?Lang=zh-tw",
                 "date": null
@@ -2476,11 +2481,6 @@
             {
                 "title": "【演講公告】5/16（五）13:20-16:20講座:本系優秀博士生宋雨柔及曾莉婷(可採計畢業門檻時數3小時)",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-288157,r1.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "教科系114學年度大學申請入學第二階段面試重要說明",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-287793,r1.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -2638,6 +2638,11 @@
                 "date": null
             },
             {
+                "title": "「Educational Big Data」線上研究論壇（7/1）歡迎大家報名參加",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-290279,r25.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【演講公告】5/23（五）13:20-16:20講座: 國立陽明交通大學教育研究所孫之元特聘教授 (可採計畢業門檻時數3小時)",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-289271,r25.php?Lang=zh-tw",
                 "date": null
@@ -2720,11 +2725,6 @@
             {
                 "title": "【轉知】教育部／「113學年度大專院校教師媒體素養教案設計競賽計畫」及「113學年度大專校院媒體素養課程學生短影音競賽計畫」",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-278672,r25.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "2025-01-11(六)【國立臺中教育大學／新時代志業良師之挑戰與展望研討會＆徵稿】",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-278659,r25.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -7581,38 +7581,56 @@
     },
     {
         "title": "banner",
+        "link": "https://imcb.site.nthu.edu.tw/p/403-1471-9134-1.php?Lang=en",
+        "language": "en",
+        "department": "分子與細胞生物研究所",
+        "articles": [
+            {
+                "title": "《Congratulations》Associate Prof. Gene Ng has been awarded the NTHU Outstanding Teaching Award",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-290283,r9134.php?Lang=en",
+                "date": null
+            },
+            {
+                "title": "清華百蕨園 保育珍稀瀕危蕨類",
+                "link": "https://www.nthu.edu.tw/hotNews/content/1002",
+                "date": null
+            }
+        ]
+    },
+    {
+        "title": "banner",
         "link": "https://imcb.site.nthu.edu.tw/p/403-1471-9134-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "分子與細胞生物研究所",
         "articles": [
             {
-                "title": "恭喜本所參加清大第二屆BME day 李昭仁生醫工程發展基金海報競賽獲獎",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-288193,r9134.php?Lang=zh-tw",
+                "title": "恭喜本所黃貞祥副教授榮獲113學年度傑出教學獎",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-290283,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜 本所郭立園副教授之傑出研究成果A DNA barcode reference of Asian ferns with expert-identified voucher specimens and DNA samples 發表於國際頂尖期刊 Scientific Data (2024 Dec)",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-287396,r9134.php?Lang=zh-tw",
+                "title": "恭喜 本所王雯靜教授之傑出研究成果Helicobacter pylori PldA modulates TNFR1-mediated p38 signaling pathways to regulate macrophage responses for its survival 發表於國際頂尖期刊 Gut Microbes (2024 Oct)",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-287397,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜 本院 王慧菁、孫玉珠教授之傑出研究成果 KIF2C promotes paclitaxel resistance by depolymerizing polyglutamylated microtubules 發表於國際頂尖期刊 Developmental Cell (2025 March)",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-286328,r9134.php?Lang=zh-tw",
+                "title": "恭喜 本所王歐力教授之傑出研究成果UNC-10/SYD-2 links kinesin-3 to RAB-3-containing vesicles in the absence of the motor’s PH domain 發表於國際頂尖期刊 Neurobiology of Disease (2025 Jan)",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-287395,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜本院分生所博士生王昱仁(黃貞祥教授指導)  榮獲2025年基因體學、演化與生物多樣性國際研討會 海報競賽第二名",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-285218,r9134.php?Lang=zh-tw",
+                "title": "恭喜本院學生參加第39屆生物醫學聯合學術年會獲獎",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-286301,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "《恭喜》本所研究生參加 第30屆細胞及分子生物新知研討會暨30屆慶祝活動 獲獎",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-281553,r9134.php?Lang=zh-tw",
+                "title": "恭喜分生所研究生參加114年寄生蟲學術研討會 獲獎",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-284325,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜 分生所包原韶, 潘昱辰, 趙明鴻, 李庭慧, 張語軒同學(王慧菁教授指導) 榮獲 2024耳目醫新全國生醫創新創業競賽 優選",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-278649,r9134.php?Lang=zh-tw",
+                "title": "主旨: 恭喜本院同學參加2024生化秋令營獲獎",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-280204,r9134.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -7965,6 +7983,16 @@
                 "date": null
             },
             {
+                "title": "【校內】114學年度學生實習心得故事競賽(投稿日期7/14-9/15)",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-290287,r772.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【校內】【奈微所專題演講】114年06月10日～12日共三場，上午10:00~12:00，Shinsuke (Shin) Shimojo, Ph.D.。",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-290284,r772.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【校外】威固精密_敬請協助公告赴馬來西亞駐廠 FAE／維修工程師職缺",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-290165,r772.php?Lang=zh-tw",
                 "date": null
@@ -7987,16 +8015,6 @@
             {
                 "title": "【校內】產學座談會-漢翔工業/馬萬鈞總經理(動機00D系友)",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-286664,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【校內】半導體學院四天三夜亞洲最大半導體設備商TEL日本工廠參訪之旅",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-286388,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【獎助】教育部補助114-1學生出國參加國際性學術技藝能競賽受理申請-IPE114.05/09(五)中午12:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-287344,r772.php?Lang=zh-tw",
                 "date": null
             }
         ]
