@@ -758,6 +758,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】人事室徵求工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-279001,r5075.php?Lang=zh-tw",
+                "date": "2025-06-09"
+            },
+            {
+                "title": "【徵才】校務研究中心工讀生乙名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290273,r5075.php?Lang=zh-tw",
+                "date": "2025-06-09"
+            },
+            {
                 "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5075.php?Lang=zh-tw",
                 "date": "2025-06-09"
@@ -765,11 +775,6 @@
             {
                 "title": "【徵才】國立清華大學 工業工程與工程管理學系 徵約僱管理員一名 (收件截止日:114/06/12)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290290,r5075.php?Lang=zh-tw",
-                "date": "2025-06-09"
-            },
-            {
-                "title": "【徵才】校務研究中心工讀生乙名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290273,r5075.php?Lang=zh-tw",
                 "date": "2025-06-09"
             },
             {
@@ -811,11 +816,6 @@
                 "title": "【誠徵】本校科技法律研究所林勤富老師研究室誠徵專題生若干名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290076,r5075.php?Lang=zh-tw",
                 "date": "2025-06-03"
-            },
-            {
-                "title": "【誠徵】探索學習中心暑期工讀",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290083,r5075.php?Lang=zh-tw",
-                "date": "2025-06-03"
             }
         ]
     },
@@ -826,6 +826,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】校務研究中心工讀生乙名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290273,r5081.php?Lang=zh-tw",
+                "date": "2025-06-09"
+            },
+            {
                 "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5081.php?Lang=zh-tw",
                 "date": "2025-06-09"
@@ -833,11 +838,6 @@
             {
                 "title": "【徵才】國立清華大學 工業工程與工程管理學系 徵約僱管理員一名 (收件截止日:114/06/12)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290290,r5081.php?Lang=zh-tw",
-                "date": "2025-06-09"
-            },
-            {
-                "title": "【徵才】校務研究中心工讀生乙名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290273,r5081.php?Lang=zh-tw",
                 "date": "2025-06-09"
             },
             {
@@ -1166,13 +1166,13 @@
         "department": "清華公佈欄",
         "articles": [
             {
-                "title": "【轉知】114年資訊月「傑出資訊人才獎」選拔活動",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290276,r5086.php?Lang=zh-tw",
+                "title": "【徵才】校務研究中心工讀生乙名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290273,r5086.php?Lang=zh-tw",
                 "date": "2025-06-09"
             },
             {
-                "title": "【徵才】校務研究中心工讀生乙名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290273,r5086.php?Lang=zh-tw",
+                "title": "【轉知】114年資訊月「傑出資訊人才獎」選拔活動",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290276,r5086.php?Lang=zh-tw",
                 "date": "2025-06-09"
             },
             {
@@ -4614,39 +4614,39 @@
         "department": "工學院",
         "articles": [
             {
-                "title": "恭喜材料系簡朝和校友、工學院學士班孫宗德校友榮獲國立清華大學第二十六屆傑出校友。",
+                "title": "恭喜動機系田孟軒教授、材料系陳盈潔教授與工工系林東盈教授榮獲113學年度國立清華大學傑出教學獎。",
+                "link": "https://dgaa.site.nthu.edu.tw/p/406-1209-290253,r207.php?Lang=zh-tw",
+                "date": "2025-06-09"
+            },
+            {
+                "title": "恭喜材料系簡朝和校友、工學院學士班孫宗德校友榮獲國立清華大學第26屆傑出校友。",
                 "link": "https://archives.lib.nthu.edu.tw/history/people/alumni.html",
                 "date": "2025-05-23"
             },
             {
-                "title": "恭喜動機系蔡進步校友獲頒清華大學名譽博士！",
-                "link": "https://www.nthu.edu.tw/hotNews/content/1215",
+                "title": "恭喜動機系蔡進步校友獲頒國立清華大學名譽博士！",
+                "link": "https://archives.lib.nthu.edu.tw/history/people/hd_044.html",
                 "date": "2025-05-08"
             },
             {
-                "title": "恭喜化工系蔡禎祥校友、動機系馬萬鈞校友、材料系徐明志校友及工工系黃裕峰校友獲選本院第26屆傑出校友！",
+                "title": "恭喜化工系劉英麟教授及衛子健教授、動機系林昭安教授及劉承賢教授、工工系吳建瑋教授榮獲113年度國科會傑出研究獎。",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-284233,r3399.php?Lang=zh-tw",
+                "date": "2025-03-04"
+            },
+            {
+                "title": "恭喜化工系八島榮次教授榮獲德國洪堡研究獎！",
+                "link": "https://www.che.nthu.edu.tw/zh_tw/dcenews/honornew/%E6%81%AD%E5%96%9C%E5%85%AB%E5%B3%B6%E6%95%99%E6%8E%88%E6%A6%AE%E7%8D%B2%E5%BE%B7%E5%9C%8B%E6%B4%AA%E5%A0%A1%E5%9F%BA%E9%87%91%E6%9C%83%E9%A0%92%E7%99%BC%E7%9A%84%E6%B4%AA%E5%A0%A1%E7%A0%94%E7%A9%B6%E7%8D%8E-65284130",
+                "date": "2025-05-23"
+            },
+            {
+                "title": "恭喜材料系闕郁倫教授榮獲113年度清華-清鏡傑出人才講座。",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-287357,r3399.php?Lang=zh-tw",
+                "date": "2025-04-25"
+            },
+            {
+                "title": "恭喜化工系蔡禎祥校友、動機系馬萬鈞校友、材料系徐明志校友及工工系黃裕峰校友獲選工學院第26屆傑出校友！",
                 "link": "https://eng.site.nthu.edu.tw/p/404-1284-287692.php?Lang=zh-tw",
                 "date": "2025-04-27"
-            },
-            {
-                "title": "恭喜化工系黃振煌教授、工工系吳建瑋教授榮獲113學年度工學院傑出導師獎。",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-279999,r3399.php?Lang=zh-tw",
-                "date": "2025-04-18"
-            },
-            {
-                "title": "恭喜動機系覺元彙教授、材料系林姿瑩教授、工工系陳建良教授、奈微所森川響二朗教授、醫工所黃玠誠教授榮獲113學年度工學院傑出教學獎。",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-287070,r3399.php?Lang=zh-tw",
-                "date": "2025-04-18"
-            },
-            {
-                "title": "恭喜化工系林育正教授、工工系林裕訓教授榮獲113學年度工學院新進人員研究獎。",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-279992,r3399.php?Lang=zh-tw",
-                "date": "2025-04-18"
-            },
-            {
-                "title": "恭喜化工系周鶴修教授、奈微所劉承賢教授、醫工所鄭兆珉教授榮獲113學年度工學院傑出產學研究獎。",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-287072,r3399.php?Lang=zh-tw",
-                "date": "2025-04-18"
             }
         ]
     },
@@ -6939,6 +6939,74 @@
                 "title": "Congratulations to Prof.Chih Hsing Chu received Honourable Mention Award of 2015 IEEE International Conference on IEEM",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-97008,r3168.php?Lang=en",
                 "date": "2015-12-22"
+            }
+        ]
+    },
+    {
+        "title": "工工榮譽榜",
+        "link": "https://ieem.site.nthu.edu.tw/p/403-1310-3168-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "工業工程與工程管理學系",
+        "articles": [
+            {
+                "title": "恭喜本系林東盈教授榮獲校傑出教學獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-290322,r3168.php?Lang=zh-tw",
+                "date": "2025-06-09"
+            },
+            {
+                "title": "恭喜本系學生雲聿加(指導教授：陳建良教授)參加韓國 ICIEA 研討會榮獲最佳報告獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-288772,r3168.php?Lang=zh-tw",
+                "date": "2025-05-13"
+            },
+            {
+                "title": "恭喜本系學生呂心瑋(指導教授：陳建良教授)參加韓國 ICIEA 研討會榮獲最佳報告獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-288771,r3168.php?Lang=zh-tw",
+                "date": "2025-05-13"
+            },
+            {
+                "title": "恭喜本系學生許誼亭(指導教授：陳建良教授)參加韓國 ICIEA 研討會榮獲最佳報告獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-288770,r3168.php?Lang=zh-tw",
+                "date": "2025-05-13"
+            },
+            {
+                "title": "恭喜本系學生趙子嫣(指導教授：林東盈教授)參加韓國 ICIEA 研討會榮獲最佳報告獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-288112,r3168.php?Lang=zh-tw",
+                "date": "2025-05-05"
+            },
+            {
+                "title": "恭喜本系學生陳巧怡(指導教授：林東盈教授)參加韓國 ICIEA 研討會榮獲最佳報告獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-288111,r3168.php?Lang=zh-tw",
+                "date": "2025-05-05"
+            },
+            {
+                "title": "恭喜本系學生張芷瑄、陳藝尹(指導老師：邱銘傳教授)榮獲 2025 永續性產品與產業管理研討會 最佳論文獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-287552,r3168.php?Lang=zh-tw",
+                "date": "2025-04-24"
+            },
+            {
+                "title": "恭喜本系學生鄭亦筑(指導老師：邱銘傳教授)榮獲 2025 永續性產品與產業管理研討會 最佳論文獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-287448,r3168.php?Lang=zh-tw",
+                "date": "2025-04-22"
+            },
+            {
+                "title": "恭喜本系學生許嫚軒(指導老師：邱銘傳教授)榮獲 2025 永續性產品與產業管理研討會 最佳論文獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-287389,r3168.php?Lang=zh-tw",
+                "date": "2025-04-21"
+            },
+            {
+                "title": "恭喜本系林裕訓助理教授榮獲工學院新進人員研究獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-286853,r3168.php?Lang=zh-tw",
+                "date": "2025-04-14"
+            },
+            {
+                "title": "恭喜本系張國浩特聘教授獲得工學院推薦到校競爭校傑出教學獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-286119,r3168.php?Lang=zh-tw",
+                "date": "2025-03-28"
+            },
+            {
+                "title": "恭喜本系陳建良教授獲得院傑出教學獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-286118,r3168.php?Lang=zh-tw",
+                "date": "2025-03-28"
             }
         ]
     },
@@ -10559,6 +10627,11 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "本校教職員具師範校院結業生並分發至私立學校實習之實習教師年資，得於10年(即124年6月5日)內申請補繳退撫基金費用，併計退休年資。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-290321,r875.php?Lang=zh-tw",
+                "date": "2025-06-09"
+            },
+            {
                 "title": "訂閱《清華員工福利電子報》，精彩福利不漏接！(非詐騙)",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-290060,r875.php?Lang=zh-tw",
                 "date": "2025-06-03"
@@ -10611,11 +10684,6 @@
             {
                 "title": "[轉知]「客家委員會補助全國公務人員、教育人員及軍警人員參加114年度客語能力認證報名費實施計畫」修正",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-284440,r875.php?Lang=zh-tw",
-                "date": "2025-03-03"
-            },
-            {
-                "title": "114年公務人員特種考試警察人員、一般警察人員、國家安全局國家安全情報人員、移民行政人員考試即將開始報名",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-284145,r875.php?Lang=zh-tw",
                 "date": "2025-03-03"
             }
         ]
