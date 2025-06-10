@@ -49,6 +49,13 @@
         "route": "校園公車"
     },
     {
+        "time": "10:07",
+        "dep_stop": "台積館",
+        "line": "red",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
         "time": "10:47",
         "dep_stop": "台積館",
         "line": "green",
