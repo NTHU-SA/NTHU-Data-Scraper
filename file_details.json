@@ -2,13 +2,13 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "257fbf62468eff21ca3c9255625a18c2f38376a8",
-        "last_updated": "2025-06-09T18:10:14+08:00",
+        "last_commit": "0c199b1ddacb18f403a3d2e097c4339c225a9b21",
+        "last_updated": "2025-06-10T10:40:29+08:00",
         "name": "announcements.json"
       },
       {
-        "last_commit": "8157d3dc67b456de3f197c0cb01c5c5b15ef28a7",
-        "last_updated": "2025-05-02T12:06:30+08:00",
+        "last_commit": "0c199b1ddacb18f403a3d2e097c4339c225a9b21",
+        "last_updated": "2025-06-10T10:40:29+08:00",
         "name": "buses.json"
       },
       {
@@ -54,8 +54,8 @@
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "b669797a066cc95f24cb3a05e0e8086494babed6",
-        "last_updated": "2025-04-16T17:05:38+08:00",
+        "last_commit": "0c199b1ddacb18f403a3d2e097c4339c225a9b21",
+        "last_updated": "2025-06-10T10:40:29+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
@@ -64,8 +64,8 @@
         "name": "towardSouthCampusInfo.json"
       },
       {
-        "last_commit": "b669797a066cc95f24cb3a05e0e8086494babed6",
-        "last_updated": "2025-04-16T17:05:38+08:00",
+        "last_commit": "0c199b1ddacb18f403a3d2e097c4339c225a9b21",
+        "last_updated": "2025-06-10T10:40:29+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
@@ -74,8 +74,8 @@
         "name": "weekdayBusScheduleTowardMainCampus.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "0c199b1ddacb18f403a3d2e097c4339c225a9b21",
+        "last_updated": "2025-06-10T10:40:29+08:00",
         "name": "weekdayBusScheduleTowardMainGate.json"
       },
       {
@@ -84,8 +84,8 @@
         "name": "weekdayBusScheduleTowardSouthCampus.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "0c199b1ddacb18f403a3d2e097c4339c225a9b21",
+        "last_updated": "2025-06-10T10:40:29+08:00",
         "name": "weekdayBusScheduleTowardTSMCBuilding.json"
       },
       {
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_updated": "2025-06-10T06:09:10+08:00"
+  "last_updated": "2025-06-10T10:40:29+08:00"
 }
