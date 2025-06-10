@@ -1,7 +1,7 @@
 {
     "towardMainCampusInfo": {
         "direction": "往校本部 (To Main Campus)",
-        "duration": "2025/02/17 ~ 2025/06/08",
+        "duration": "暑假期間 2025/06/09 ~ 2025/08/22",
         "route": "南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口",
         "routeEN": "The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Builing → General Building II→School North Gate"
     },
@@ -13,7 +13,7 @@
     },
     "towardSouthCampusInfo": {
         "direction": "往南大校區 (To Nanda Campus)",
-        "duration": "2025/02/17 ~ 2025/06/08",
+        "duration": "暑假期間 2025/06/09 ~ 2025/08/22",
         "route": "北校門口 → 綜二館 → 人社院/生科館 → 台積館(經寶山路) → 南大校區校門口右側(食品路校牆邊)",
         "routeEN": "School North Gate → General Building II → CHSS/CLS Building → TSMC Building(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road)"
     },
@@ -24,11 +24,6 @@
         "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  South Gate Parking Lot  → TSMC Building"
     },
     "weekdayBusScheduleTowardMainCampus": [
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "7:20"
-        },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
             "route": "南大區間車",
@@ -42,37 +37,7 @@
         {
             "description": "",
             "route": "南大區間車",
-            "time": "8:40"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "9:40"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "9:50"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "9:55"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "11:30"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:05"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:15"
+            "time": "12:00"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
@@ -82,42 +47,7 @@
         {
             "description": "",
             "route": "南大區間車",
-            "time": "12:35"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:55"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "13:00"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
             "time": "14:00"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "14:50"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "15:00"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "15:05"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "15:15"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
@@ -127,67 +57,12 @@
         {
             "description": "",
             "route": "南大區間車",
-            "time": "15:40"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "16:55"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "17:30"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "17:50"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "18:10"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "18:30"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "18:40"
+            "time": "17:00"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
             "route": "南大區間車",
             "time": "18:43"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "19:40"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "20:40"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "21:10"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "21:40"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "22:20"
         }
     ],
     "weekdayBusScheduleTowardMainGate": [
@@ -239,6 +114,13 @@
             "line": "red",
             "route": "校園公車",
             "time": "9:52"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "10:07"
         },
         {
             "dep_stop": "台積館",
@@ -362,52 +244,12 @@
         {
             "description": "",
             "route": "南大區間車",
-            "time": "7:40"
+            "time": "8:30"
         },
         {
             "description": "",
             "route": "南大區間車",
-            "time": "8:20"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "9:30"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "9:55"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "10:25"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "10:55"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:10"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "12:15"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:25"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:35"
+            "time": "12:30"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
@@ -417,42 +259,7 @@
         {
             "description": "",
             "route": "南大區間車",
-            "time": "12:55"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "13:10"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "13:20"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "14:25"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "15:00"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "15:10"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "15:15"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "15:20"
+            "time": "14:30"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
@@ -462,62 +269,12 @@
         {
             "description": "",
             "route": "南大區間車",
-            "time": "16:30"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "17:25"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "18:00"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "18:15"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "18:30"
+            "time": "17:30"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
             "route": "南大區間車",
             "time": "19:00"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "19:10"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "20:00"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "20:55"
-        },
-        {
-            "description": "週五停駛",
-            "route": "南大區間車",
-            "time": "21:25"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "21:55"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "22:55"
         }
     ],
     "weekdayBusScheduleTowardTSMCBuilding": [
@@ -688,50 +445,6 @@
             "line": "green",
             "route": "校園公車",
             "time": "22:20"
-        }
-    ],
-    "weekendBusScheduleTowardMainCampus": [
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "8:00"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:00"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "14:00"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "17:00"
-        }
-    ],
-    "weekendBusScheduleTowardSouthCampus": [
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "8:30"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "12:30"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "14:30"
-        },
-        {
-            "description": "",
-            "route": "南大區間車",
-            "time": "17:30"
         }
     ]
 }
