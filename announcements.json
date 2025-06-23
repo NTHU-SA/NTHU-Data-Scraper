@@ -6,6 +6,11 @@
         "department": "主計室",
         "articles": [
             {
+                "title": "114年國科會專題研究計畫結案經費報支注意事項",
+                "link": "https://account.site.nthu.edu.tw/p/406-1054-290945,r1160.php?Lang=zh-tw",
+                "date": "2025-06-23"
+            },
+            {
                 "title": "【重要提醒】列印支出憑證黏存單前，請務必輸入聯絡人資訊，以方便後續連繫",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-282333,r1160.php?Lang=zh-tw",
                 "date": "2025-02-10"
@@ -59,11 +64,6 @@
                 "title": "因應科技部改制，本校黏存單及表件更新，請使用新版表單送件。",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-232933,r1160.php?Lang=zh-tw",
                 "date": "2022-08-02"
-            },
-            {
-                "title": "111年科技部專題研究計畫結案經費報支注意事項",
-                "link": "https://account.site.nthu.edu.tw/p/406-1054-231441,r1160.php?Lang=zh-tw",
-                "date": "2022-07-01"
             }
         ]
     },
@@ -2570,13 +2570,13 @@
                 "date": null
             },
             {
-                "title": "113學年度本系黃建一教授紀念獎學金獲獎名單：大四張述帆",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-288616,r24.php?Lang=zh-tw",
+                "title": "【公告】113學年度本系李春榮先生紀念獎學金獲獎名單(共4位)",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-288418,r24.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "【公告】113學年度本系李春榮先生紀念獎學金獲獎名單(共4位)",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-288418,r24.php?Lang=zh-tw",
+                "title": "113學年度本系黃建一教授紀念獎學金獲獎名單：大四張述帆",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-288616,r24.php?Lang=zh-tw",
                 "date": null
             },
             {
@@ -11363,9 +11363,14 @@
         "department": "採購組",
         "articles": [
             {
-                "title": "《轉捩年代: 甲午戰爭與浮世繪(暫定)》圖錄設計編排印製圖錄設計編排印製(案號：SL-112020)樣書規格參考及素材。",
+                "title": "《轉捩年代: 甲午戰爭與浮世繪(暫定)》圖錄設計編排印製圖錄設計編排印製(案號：SL-114054)樣書規格參考及素材。",
                 "link": "https://purchase.site.nthu.edu.tw/p/406-1171-290778,r88.php?Lang=zh-tw",
                 "date": "2025-06-18"
+            },
+            {
+                "title": "「因公赴國外出差或返國述職人員綜合保險」(標案案號：MOFA114040CE)，業簽署共同供應契約，可供各機關利用，請查照。",
+                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-290940,r88.php?Lang=zh-tw",
+                "date": "2025-06-23"
             },
             {
                 "title": "行政院公共工程委員會訂定「採購契約範本附記條款特別聲明」，轉請查照。",
@@ -11416,11 +11421,6 @@
                 "title": "文化部為落實藝文採購及著作權保障等相關法規，舉辦四場藝文採購及著作權線上研討說明會，請視業務需求派員參加，請查照。",
                 "link": "https://purchase.site.nthu.edu.tw/p/406-1171-283905,r88.php?Lang=zh-tw",
                 "date": "2025-02-26"
-            },
-            {
-                "title": "社團法人中華專業人才協會函，舉辦《財物勞務採購、開審決標》培訓計畫，歡迎薦派相關職責業務同仁參訓。",
-                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-283193,r88.php?Lang=zh-tw",
-                "date": "2025-02-14"
             }
         ]
     },
@@ -12079,19 +12079,9 @@
         "department": "學生住宿組(水木生活中心1樓)",
         "articles": [
             {
-                "title": "【Current Student】The Bed Allocation Result of Summer Waiting List 2025",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290181,r1538.php?Lang=en",
-                "date": "2025-06-05"
-            },
-            {
-                "title": "2025 Summer Payment of Student Housing",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287826,r1538.php?Lang=en",
-                "date": "2025-04-29"
-            },
-            {
-                "title": "2025 Spring Semester Dormitory Check-out",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287494,r1538.php?Lang=en",
-                "date": "2025-04-23"
+                "title": "Student Dormitory Service Center Business Adjustment Notice",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290396,r1538.php?Lang=en",
+                "date": "2025-06-10"
             },
             {
                 "title": "2025 Summer Dorm Check-in",
@@ -12139,9 +12129,9 @@
                 "date": "2025-06-13"
             },
             {
-                "title": "Student Dormitory Service Center Business Adjustment Notice",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290396,r1538.php?Lang=en",
-                "date": "2025-06-10"
+                "title": "【Current Student】The Bed Allocation Result of Summer Waiting List 2025",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290181,r1538.php?Lang=en",
+                "date": "2025-06-05"
             },
             {
                 "title": "June 4~22 Designated location for centralized disposal of large waste items.",
@@ -12152,6 +12142,16 @@
                 "title": "Housing Rates for Fall Semester, 2025",
                 "link": "https://sthousing.site.nthu.edu.tw/var/file/254/1254/img/1020/11410HousingRates.pdf",
                 "date": "2025-06-02"
+            },
+            {
+                "title": "June 2 ~ July 26 Upgrade of access card readers at student dormitories  (June 11 update)",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-289903,r1538.php?Lang=en",
+                "date": "2025-05-29"
+            },
+            {
+                "title": "2025 Luggage placement measure for residents during summer",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-289481,r1538.php?Lang=en",
+                "date": "2025-05-22"
             }
         ]
     },
@@ -12167,19 +12167,14 @@
                 "date": "2025-06-19"
             },
             {
-                "title": "6/4～6/22 大型廢棄物集中放置地點",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290125,r1538.php?Lang=zh-tw",
-                "date": "2025-06-04"
+                "title": "學生宿舍服務中心業務調整說明",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290396,r1538.php?Lang=zh-tw",
+                "date": "2025-06-10"
             },
             {
                 "title": "114年學生搬遷宿舍汽機車入校方式",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-289428,r1538.php?Lang=zh-tw",
                 "date": "2025-05-23"
-            },
-            {
-                "title": "114年暑假行李放置規劃公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-289481,r1538.php?Lang=zh-tw",
-                "date": "2025-05-22"
             },
             {
                 "title": "【關懷寢室】114學年關懷寢室住宿申請作業",
@@ -12192,9 +12187,9 @@
                 "date": "2025-04-23"
             },
             {
-                "title": "113學年退宿作業",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287494,r1538.php?Lang=zh-tw",
-                "date": "2025-04-23"
+                "title": "114學年空床位異動說明",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287392,r1538.php?Lang=zh-tw",
+                "date": "2025-04-21"
             },
             {
                 "title": "114年候補住宿申請",
@@ -12232,9 +12227,14 @@
                 "date": "2025-06-11"
             },
             {
-                "title": "學生宿舍服務中心業務調整說明",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290396,r1538.php?Lang=zh-tw",
-                "date": "2025-06-10"
+                "title": "【轉事務組通知】6/9-6/12宿舍區割草作業",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290245,r1538.php?Lang=zh-tw",
+                "date": "2025-06-06"
+            },
+            {
+                "title": "【研究所新生】114年研究所（本國新生）住宿床位公告",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290182,r1538.php?Lang=zh-tw",
+                "date": "2025-06-05"
             }
         ]
     },
