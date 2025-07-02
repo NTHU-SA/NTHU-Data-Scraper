@@ -758,6 +758,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】人事室徵求工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-279001,r5075.php?Lang=zh-tw",
+                "date": "2025-07-02"
+            },
+            {
                 "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5075.php?Lang=zh-tw",
                 "date": "2025-07-02"
@@ -811,11 +816,6 @@
                 "title": "【徵才】清華大學人事室誠徵研究助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-258530,r5075.php?Lang=zh-tw",
                 "date": "2025-06-26"
-            },
-            {
-                "title": "【誠徵】國立清華大學科技法律研究所誠徵專案組員1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291049,r5075.php?Lang=zh-tw",
-                "date": "2025-06-25"
             }
         ]
     },
@@ -1516,7 +1516,7 @@
         ]
     },
     {
-        "title": "Latest Product",
+        "title": "Latest News",
         "link": "https://cfsbp.site.nthu.edu.tw/p/403-1498-11-1.php?Lang=en",
         "language": "en",
         "department": "運動事業及政策中心",
