@@ -778,11 +778,6 @@
                 "date": "2025-07-01"
             },
             {
-                "title": "【徵才】通識教育中心林文源老師徵求114(上)「科技與社會」核心通識課程助教，徵才訊息請點入閱讀。",
-                "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/377697450.pdf",
-                "date": "2025-06-30"
-            },
-            {
                 "title": "【徵才】國立清華大學醫學資訊碩士學位學程徵聘專任教師公告 (2025年08月31日收件截止)",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-270224,r8085.php?Lang=zh-tw",
                 "date": "2025-06-27"
@@ -816,6 +811,11 @@
                 "title": "【徵才】清華大學人事室誠徵研究助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-258530,r5075.php?Lang=zh-tw",
                 "date": "2025-06-26"
+            },
+            {
+                "title": "【誠徵】國立清華大學科技法律研究所誠徵專案組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291049,r5075.php?Lang=zh-tw",
+                "date": "2025-06-25"
             }
         ]
     },
@@ -1797,11 +1797,6 @@
                 "date": null
             },
             {
-                "title": "【徵才】通識教育中心林文源老師徵求114(上)「科技與社會」核心通識課程助教，徵才訊息請點入閱讀。",
-                "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/377697450.pdf",
-                "date": null
-            },
-            {
                 "title": "【徵才】通識教育中心馬孟晶老師徵求114(上)「認識藝術：視覺藝術」核心通識課程助教，徵才訊息請點入閱讀。",
                 "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/803831412.pdf",
                 "date": null
@@ -1844,6 +1839,11 @@
             {
                 "title": "【活動】2025通識旅讀系列課程招生說明會(5/15)",
                 "link": "https://cge.site.nthu.edu.tw/p/406-1573-287640,r11.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【活動】5/8(四) 19:00 紀錄片《種土》清大公播場，歡迎報名參加。",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-287215,r11.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -2119,14 +2119,14 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "恭喜 生科系 李庭慧同學(王慧菁教授指導)及陳彥臻同學(郭立園教授指導)  及生命科學暨醫學院學士班 陳昱文同學(汪宏達教授指導)  榮獲113年度國科會大專學生研究創作獎！",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-291459,r8083.php?Lang=zh-tw",
-                "date": "2025-07-01"
+                "title": "國衛院清大積極開發抗癌藥物 三陰性乳癌患者找到希望",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-291644,r8083.php?Lang=zh-tw",
+                "date": "2025-07-04"
             },
             {
-                "title": "《恭喜》\u000b本院江安世教授、羅中泉教授、強敬哲博士生之傑出研究成果\u000b\"Hybrid neural networks in the mushroom body drive olfactory preference in Drosophila\"發表於 國際頂尖期刊 Science Advances(2025 May)",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-290394,r8083.php?Lang=zh-tw",
-                "date": "2025-06-10"
+                "title": "恭賀分醫所高茂傑教授自114學年度起獲聘為本校特聘教授",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-291356,r8083.php?Lang=zh-tw",
+                "date": "2025-06-29"
             },
             {
                 "title": "恭喜本院生資所博士生王勝嘉同學(孫玉珠教授指導)於生物物理年會海報比賽獲獎",
@@ -2142,21 +2142,6 @@
                 "title": "恭喜 本院參加清大第二屆BME day 李昭仁生醫工程發展基金海報競賽獲獎",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-288188,r8083.php?Lang=zh-tw",
                 "date": "2025-05-06"
-            },
-            {
-                "title": "恭喜生資所楊立威老師發表論文於 Nature Methods:The need to implement FAIR principles in biomolecular simulations",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-287053,r8083.php?Lang=zh-tw",
-                "date": "2025-04-17"
-            },
-            {
-                "title": "恭賀本院高茂傑教授榮獲113學年度「第十七屆傑出導師獎」",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286584,r8083.php?Lang=zh-tw",
-                "date": "2025-04-09"
-            },
-            {
-                "title": "恭喜本院學生參加第39屆生物醫學聯合學術年會獲獎",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-286299,r8083.php?Lang=zh-tw",
-                "date": "2025-04-01"
             }
         ]
     },
@@ -7808,33 +7793,33 @@
         "department": "分子與細胞生物研究所",
         "articles": [
             {
-                "title": "恭喜本所黃貞祥副教授榮獲113學年度傑出教學獎",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-290283,r9134.php?Lang=zh-tw",
+                "title": "國衛院清大積極開發抗癌藥物 三陰性乳癌患者找到希望",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-291648,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜 本所王雯靜教授之傑出研究成果Helicobacter pylori PldA modulates TNFR1-mediated p38 signaling pathways to regulate macrophage responses for its survival 發表於國際頂尖期刊 Gut Microbes (2024 Oct)",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-287397,r9134.php?Lang=zh-tw",
+                "title": "恭喜本所參加清大第二屆BME day 李昭仁生醫工程發展基金海報競賽獲獎",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-288193,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜 本所王歐力教授之傑出研究成果UNC-10/SYD-2 links kinesin-3 to RAB-3-containing vesicles in the absence of the motor’s PH domain 發表於國際頂尖期刊 Neurobiology of Disease (2025 Jan)",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-287395,r9134.php?Lang=zh-tw",
+                "title": "恭喜 本所郭立園副教授之傑出研究成果A DNA barcode reference of Asian ferns with expert-identified voucher specimens and DNA samples 發表於國際頂尖期刊 Scientific Data (2024 Dec)",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-287396,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜本院學生參加第39屆生物醫學聯合學術年會獲獎",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-286301,r9134.php?Lang=zh-tw",
+                "title": "恭喜 本院 王慧菁、孫玉珠教授之傑出研究成果 KIF2C promotes paclitaxel resistance by depolymerizing polyglutamylated microtubules 發表於國際頂尖期刊 Developmental Cell (2025 March)",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-286328,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "恭喜分生所研究生參加114年寄生蟲學術研討會 獲獎",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-284325,r9134.php?Lang=zh-tw",
+                "title": "恭喜本院分生所博士生王昱仁(黃貞祥教授指導)  榮獲2025年基因體學、演化與生物多樣性國際研討會 海報競賽第二名",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-285218,r9134.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "主旨: 恭喜本院同學參加2024生化秋令營獲獎",
-                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-280204,r9134.php?Lang=zh-tw",
+                "title": "《恭喜》\u000b本所研究生參加 \u000b第30屆細胞及分子生物新知\u000b研討會暨30屆慶祝活動\u000b 獲獎",
+                "link": "https://imcb.site.nthu.edu.tw/p/406-1471-281553,r9134.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -9125,6 +9110,11 @@
         "department": "文物館",
         "articles": [
             {
+                "title": "🎧 全新 Podcast 《文物館不打烊》即將上線啦！",
+                "link": "https://museum.site.nthu.edu.tw/p/406-1153-291651,r11.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【活動】實作工作坊即日起開放報名！",
                 "link": "https://museum.site.nthu.edu.tw/p/406-1153-285276,r11.php?Lang=zh-tw",
                 "date": null
@@ -9177,11 +9167,6 @@
             {
                 "title": "【公告】 誠徵工讀生",
                 "link": "https://museum.site.nthu.edu.tw/p/406-1153-252287,r11.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【活動訊息】清代書生升學路—竹塹舊城走讀｜竹塹故事特展系列活動",
-                "link": "https://museum.site.nthu.edu.tw/p/406-1153-251640,r11.php?Lang=zh-tw",
                 "date": null
             }
         ]
