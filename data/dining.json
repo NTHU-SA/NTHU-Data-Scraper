@@ -90,7 +90,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/830467715.jpg",
                 "name": "品嘉日式料理",
-                "note": "7月每週六暫停營業。7/4晚餐暫停營業。",
+                "note": "7月每週六暫停營業。",
                 "phone": "0976-618-715",
                 "schedule": {
                     "saturday": "11:00-20:00",
@@ -388,7 +388,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/552232961.jpg",
                 "name": "五全丼食所",
-                "note": "7月每週日暫停營業。7/4暫停營業。",
+                "note": "7月每週日暫停營業。",
                 "phone": "0909-787-069",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-19:30",
@@ -435,8 +435,8 @@
             {
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/776829651.jpg",
-                "name": "風雲牛肉麵",
-                "note": "7月每週日暫停營業，6/30-7/5暫停營業。",
+                "name": "米麵研究所",
+                "note": "7月每週日暫停營業。",
                 "phone": "0976-475-300",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -520,7 +520,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/461802499.jpg",
                 "name": "珍御品粥麵館",
-                "note": "7月每週日暫停營業。7/7暫停營業。",
+                "note": "7月每週日暫停營業。",
                 "phone": "0937-135-706，0911-892-772",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -614,7 +614,7 @@
                 "area": "百齡堂",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/316188717.jpg",
                 "name": "清華水漾餐廳",
-                "note": "7/6暫停營業。",
+                "note": "",
                 "phone": "(03)575-1584，0936-394-535",
                 "schedule": {
                     "saturday": "9:30-21:00",
