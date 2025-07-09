@@ -758,6 +758,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "國立清華大學學士後醫學系誠徵系主任候選人啟事",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-292036,r5075.php?Lang=zh-tw",
+                "date": "2025-07-09"
+            },
+            {
                 "title": "清華大學化工系生醫材料實驗室徵博士後研究員1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291671,r5075.php?Lang=zh-tw",
                 "date": "2025-07-04"
@@ -811,11 +816,6 @@
                 "title": "【誠徵】國立清華大學科技法律研究所誠徵專案組員1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291049,r5075.php?Lang=zh-tw",
                 "date": "2025-06-25"
-            },
-            {
-                "title": "【徵才】國立清華大學通識教育中心誠徵「國際關係 」、「資通訊傳媒 」及「政治思想」領域專長之專任及專案教師",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291045,r5075.php?Lang=zh-tw",
-                "date": "2025-06-25"
             }
         ]
     },
@@ -825,6 +825,16 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵聘專任教師公告】國立清華大學生命科學暨醫學院徵聘專任教師 (2025年08月31日收件截止)",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-270224,r8085.php?Lang=zh-tw",
+                "date": "2025-07-09"
+            },
+            {
+                "title": "國立清華大學學士後醫學系誠徵系主任候選人啟事",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-292036,r5081.php?Lang=zh-tw",
+                "date": "2025-07-09"
+            },
             {
                 "title": "【徵才】國立清華大學原住民族科學發展中心 誠徵研究助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291212,r5081.php?Lang=zh-tw",
@@ -874,16 +884,6 @@
                 "title": "【徵才】國立清華大學醫學資訊碩士學位學程徵聘專任教師公告 (2025年08月31日收件截止)",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-270224,r8085.php?Lang=zh-tw",
                 "date": "2025-06-27"
-            },
-            {
-                "title": "【徵才】國立清華大學出版社 誠徵總編輯一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291243,r5081.php?Lang=zh-tw",
-                "date": "2025-06-26"
-            },
-            {
-                "title": "【徵才】清華大學人事室誠徵研究助理一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-258530,r5081.php?Lang=zh-tw",
-                "date": "2025-06-26"
             }
         ]
     },
@@ -12137,6 +12137,11 @@
                 "date": "2025-01-21"
             },
             {
+                "title": "Dormitory deposit deducted list for 2025 Spring Semester Dormitory withdrawal",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292035,r1538.php?Lang=en",
+                "date": "2025-07-09"
+            },
+            {
                 "title": "【Computer & Communication Center】Power System Maintenance for Equipment Rooms in Tsing Dorm areas A, B, C, D, E and Cheng Dorm – Summer Vacation 2025 (July 4th)",
                 "link": "https://net.nthu.edu.tw/netsys/en:mailing:announcement:20250630_02",
                 "date": "2025-06-30"
@@ -12170,11 +12175,6 @@
                 "title": "【Current Student】The Bed Allocation Result of Summer Waiting List 2025",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290181,r1538.php?Lang=en",
                 "date": "2025-06-05"
-            },
-            {
-                "title": "June 4~22 Designated location for centralized disposal of large waste items.",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290125,r1538.php?Lang=en",
-                "date": "2025-06-04"
             }
         ]
     },
@@ -12225,6 +12225,11 @@
                 "date": "2025-02-20"
             },
             {
+                "title": "113學年度學生宿舍退宿扣款名單公告",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292035,r1538.php?Lang=zh-tw",
+                "date": "2025-07-09"
+            },
+            {
                 "title": "【轉計中公告】114年暑期學生宿舍清齋、誠齋網路機房電力系統維護工程(2025/07/04)",
                 "link": "https://net.nthu.edu.tw/netsys/mailing:announcement:20250630_02 ",
                 "date": "2025-06-30"
@@ -12253,11 +12258,6 @@
                 "title": "【轉計中公告】6/23～6/26 114年暑期校本部學生宿舍區網路機房(全區)電力系統維護工程",
                 "link": "https://net.nthu.edu.tw/netsys/mailing:announcement:20250612_05",
                 "date": "2025-06-13"
-            },
-            {
-                "title": "【轉事務組公告】114.06.04清華大學水質檢驗結果",
-                "link": "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/748458228.pdf",
-                "date": "2025-06-11"
             }
         ]
     },
