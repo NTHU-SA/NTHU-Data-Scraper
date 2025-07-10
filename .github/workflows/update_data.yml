@@ -35,7 +35,8 @@ jobs:
           scrapy crawl nthu_dining
         continue-on-error: true
       - name: Cache ubuntu data
-        uses: actions/cache@v3
+        uses: actions/cache/save@v3
+        if: always()
         with:
           path: ${{ env.DATA_FOLDER }}
           key: ubuntu-data-${{ github.run_id }}
@@ -61,7 +62,8 @@ jobs:
           scrapy crawl nthu_newsletters
         continue-on-error: true
       - name: Cache self-hosted data
-        uses: actions/cache@v3
+        uses: actions/cache/save@v3
+        if: always()
         with:
           path: ${{ env.DATA_FOLDER }}
           key: self-hosted-data-${{ github.run_id }}
@@ -79,18 +81,27 @@ jobs:
           fetch-depth: 0
       - name: Restore ubuntu data cache
         if: needs.crawl_ubuntu.result == 'success'
-        uses: actions/cache@v3
+        uses: actions/cache/restore@v3
         with:
           path: ${{ env.DATA_FOLDER }}
           key: ubuntu-data-${{ github.run_id }}
         continue-on-error: true
       - name: Restore self-hosted data cache
         if: needs.crawl_self_hosted.result == 'success'
-        uses: actions/cache@v3
+        uses: actions/cache/restore@v3
         with:
           path: ${{ env.DATA_FOLDER }}
           key: self-hosted-data-${{ github.run_id }}
         continue-on-error: true
+      - name: Merge data folders
+        run: |
+          mkdir -p ${{ env.DATA_FOLDER }}
+          if [ -d "ubuntu-data" ]; then
+            cp -r ubuntu-data/* ${{ env.DATA_FOLDER }}/ 2>/dev/null || true
+          fi
+          if [ -d "self-hosted-data" ]; then
+            cp -r self-hosted-data/* ${{ env.DATA_FOLDER }}/ 2>/dev/null || true
+          fi
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions"
