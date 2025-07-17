@@ -3386,7 +3386,7 @@
                 "date": null
             },
             {
-                "title": "【交換計畫】2026秋-2027春交換計劃 (系收件至8/20 17:00止)",
+                "title": "【交換計畫】2026秋-2027春交換計劃 (系收件至8/12 17:00止)",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-291225,r8119.php?Lang=zh-tw",
                 "date": null
             },
@@ -3590,7 +3590,7 @@
                 "date": null
             },
             {
-                "title": "【交換計畫】2026秋-2027春交換計劃 (系收件至8/20 17:00止)",
+                "title": "【交換計畫】2026秋-2027春交換計劃 (系收件至8/12 17:00止)",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-291225,r9330.php?Lang=zh-tw",
                 "date": null
             },
@@ -3993,6 +3993,11 @@
         "department": "EMBA高階經營管理境外碩士在職專班",
         "articles": [
             {
+                "title": "【榜單】114學年度(2025年) EMBA境外班(深圳/亞太)錄取名單&報到須知",
+                "link": "https://embaos.site.nthu.edu.tw/p/406-1489-292419,r7749.php",
+                "date": "2025-07-17"
+            },
+            {
                 "title": "【2025招生】114學年度(2025年) EMBA境外班（深圳/亞太地區馬來西亞）初試榜單&複試通知",
                 "link": "https://embaos.site.nthu.edu.tw/p/406-1489-291329,r7749.php",
                 "date": "2025-06-27"
@@ -4026,11 +4031,6 @@
                 "title": "【2024招生】高階經營管理「亞太地區馬來西亞」境外碩士在職專班　熱烈招生中！！",
                 "link": "https://embaos.site.nthu.edu.tw/p/406-1489-266463,r7749.php",
                 "date": "2024-03-08"
-            },
-            {
-                "title": "【榜單】112學年度(2023年) EMBA境外班（深圳/亞太地區馬來西亞）錄取名單&報到須知",
-                "link": "https://embaos.site.nthu.edu.tw/p/406-1489-252383,r7749.php",
-                "date": "2023-07-21"
             }
         ]
     },
@@ -4040,6 +4040,11 @@
         "language": "zh-tw",
         "department": "EMBA高階經營管理境外碩士在職專班",
         "articles": [
+            {
+                "title": "【榜單】114學年度(2025年) EMBA境外班(深圳/亞太)錄取名單&報到須知",
+                "link": "https://embaos.site.nthu.edu.tw/p/406-1489-292419,r7750.php",
+                "date": "2025-07-17"
+            },
             {
                 "title": "【2025招生】114學年度(2025年) EMBA境外班（深圳/亞太地區馬來西亞）初試榜單&複試通知",
                 "link": "https://embaos.site.nthu.edu.tw/p/406-1489-291329,r7750.php",
@@ -4074,11 +4079,6 @@
                 "title": "【榜單】111學年度(2022年) EMBA境外班（深圳/亞太地區馬來西亞）初試合格名單",
                 "link": "https://embaos.site.nthu.edu.tw/p/406-1489-232133,r7750.php",
                 "date": "2022-07-15"
-            },
-            {
-                "title": "【榜單】110學年度(2021年) EMBA境外班（深圳/亞太地區馬來西亞）錄取名單",
-                "link": "https://embaos.site.nthu.edu.tw/p/406-1489-210754,r7750.php",
-                "date": "2021-07-30"
             }
         ]
     },
@@ -8807,8 +8807,8 @@
         "department": "語文中心",
         "articles": [
             {
-                "title": "【公告】推廣班報名系統維護中，網頁暫時無法使用。",
-                "link": "https://language.site.nthu.edu.tw/p/406-1212-292175,r6823.php?Lang=zh-tw",
+                "title": "【維護完成公告】推廣班報名網頁已恢復正常運作，歡迎舊雨新知多加利用。",
+                "link": "https://language.site.nthu.edu.tw/p/406-1212-292423,r6823.php?Lang=zh-tw",
                 "date": null
             },
             {
@@ -11136,6 +11136,16 @@
         "department": "教育心理與諮商學系",
         "articles": [
             {
+                "title": "【轉知】蔣建白先生獎學金，歡迎踴躍申請",
+                "link": "https://year.guidance.org.tw/measure_02.php",
+                "date": "2025-07-17"
+            },
+            {
+                "title": "【轉知】台灣輔導與諮商學會2025年會暨「思辨、實踐、重塑：輔導與諮商專業價值的反思」學術研討會，敬請踴躍報名參加",
+                "link": "https://year.guidance.org.tw/yearcallforpaper.php",
+                "date": "2025-07-17"
+            },
+            {
                 "title": "【轉知】國立臺北護理健康大學生死與健康心理諮商系「從『破．地獄』電影中看殯葬儀式之悲傷撫慰」公益講座活動資訊~歡迎踴躍報名",
                 "link": "https://forms.gle/GMjhP7d7cXmCFu2g7",
                 "date": "2025-06-16"
@@ -11174,16 +11184,6 @@
                 "title": "【轉知】台灣遊戲治療學會將於114年6月14、15日、8月23、24日舉辦【台灣遊戲治療師認證積分課程】~遊戲不只是遊戲~兒童遊戲治療初階課程（中部場）",
                 "link": "https://www.atpt.org.tw/course-id-199",
                 "date": "2025-02-17"
-            },
-            {
-                "title": "【轉知】將於114年3月8日、9日、22日及23日舉辦【台灣遊戲治療師認證積分課程】玩出心關係—兒童遊戲治療入門工作坊（北部場）~歡迎踴躍報名參加",
-                "link": "https://www.atpt.org.tw/course-id-198",
-                "date": "2025-01-10"
-            },
-            {
-                "title": "歡迎參加 113學年度第2學 畢業專題發表會-114/06/06",
-                "link": "https://psy.site.nthu.edu.tw/p/406-1135-289581,r4.php?Lang=zh-tw",
-                "date": "2024-11-20"
             }
         ]
     },
@@ -12147,6 +12147,11 @@
         "department": "學生住宿組(水木生活中心1樓)",
         "articles": [
             {
+                "title": "【大學部轉學生】114學年度（上）轉學生住宿申請公告",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292420,r1538.php?Lang=zh-tw",
+                "date": "2025-07-17"
+            },
+            {
                 "title": "【研究所新生】114學年研究所新生（境外生）住宿申請作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292254,r1538.php?Lang=zh-tw",
                 "date": "2025-07-15"
@@ -12215,11 +12220,6 @@
                 "title": "114年暑期研究所新生宿舍門禁",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290869,r1538.php?Lang=zh-tw",
                 "date": "2025-06-19"
-            },
-            {
-                "title": "114年暑期研究所新生、關懷寢室及暑期候補住宿繳費名單公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290706,r1538.php?Lang=zh-tw",
-                "date": "2025-06-17"
             }
         ]
     },
@@ -12479,6 +12479,11 @@
         "department": "學生住宿組(水木生活中心1樓)",
         "articles": [
             {
+                "title": "【大學部轉學生】114學年度（上）轉學生住宿申請公告",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292420,r8956.php?Lang=zh-tw",
+                "date": "2025-07-17"
+            },
+            {
                 "title": "【研究所新生】114學年研究所新生（境外生）住宿申請作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292254,r8956.php?Lang=zh-tw",
                 "date": "2025-07-15"
@@ -12547,11 +12552,6 @@
                 "title": "【關懷寢室】114學年關懷寢室住宿申請作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-288181,r8956.php?Lang=zh-tw",
                 "date": "2025-05-06"
-            },
-            {
-                "title": "114年暑期住宿繳費作業說明",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287826,r8956.php?Lang=zh-tw",
-                "date": "2025-04-29"
             }
         ]
     },
