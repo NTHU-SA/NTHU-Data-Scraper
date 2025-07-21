@@ -758,6 +758,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】科管院職涯辦公室{暑期延續至學期}工讀生數名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-292615,r5075.php?Lang=zh-tw",
+                "date": "2025-07-21"
+            },
+            {
                 "title": "【徵才】清大材料系誠徵研究助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-292576,r5075.php?Lang=zh-tw",
                 "date": "2025-07-21"
@@ -811,11 +816,6 @@
                 "title": "【📣徵才📣】清大台北政經學院誠徵開學後工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-292094,r5075.php?Lang=zh-tw",
                 "date": "2025-07-10"
-            },
-            {
-                "title": "國立清華大學學士後醫學系誠徵系主任候選人啟事",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-292036,r5075.php?Lang=zh-tw",
-                "date": "2025-07-09"
             }
         ]
     },
@@ -4142,8 +4142,28 @@
                 "date": null
             },
             {
+                "title": "Trinity CertPT國際認證師資培訓盛會現場直擊",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-292516,r10647.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【教學助理研習營】114學年度第1學期教學助理研習營-114/8/18(一)~8/19(二)(限本校學生參加)",
+                "link": "https://ctld.site.nthu.edu.tw/p/404-1217-140846.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【誠徵】114暑期工讀生報名 Part-time Student Application",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-289710,r10647.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【EMI助教獎勵】113下獎勵英語授課教學助理計劃申請截止日為114.5.9",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-286936,r10647.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【EMI TA 獎勵申請】請於5/9(五)中午12點前完成申請!!!!",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-288223,r10647.php?Lang=zh-tw",
                 "date": null
             },
             {
@@ -4152,212 +4172,28 @@
                 "date": null
             },
             {
-                "title": "【EMI師培研習分享會】敬邀參與「Fulbright X CertPT EMI師培研習經驗分享會｣ : 5/16 (Fri) 下午12:00-14:00 在綜四館221教室",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287373,r10647.php?Lang=zh-tw",
-                "date": null
-            }
-        ]
-    },
-    {
-        "title": "校外訊息",
-        "link": "https://emi.site.nthu.edu.tw/p/403-1594-10652-1.php?Lang=zh-tw",
-        "language": "zh-tw",
-        "department": "英語教學精進中心",
-        "articles": [
-            {
-                "title": "國立中興大學EMI教學資源中心教師全英語教學知能培訓課程，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-292121,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立政治大學英語教學資源中心與美國在台協會（AIT）合作辦理為期五週之「EMI Pedagogical Framework and Teaching Techniques」線上課程，惠請公告周知，並鼓勵所屬教職員及博士生踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-291725,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立成功大學檢送財團法人台南市至善教育基金會委託本校辦理114年「漢學英語授課教師專業發展課程」第二班及第三班之報名簡章1份，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-291208,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立中山大學提供英語教學輔助軟體Kahoot及Padlet帳號使用權限給全國大專校院，自即日起受理申請，額滿為止，惠請公告周知，並鼓勵所屬人員踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290851,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立雲林科技大學於114年6月28日（星期六）舉辦「2025 雲科大跨校卓越 EMI 教學實踐線上研討會」，惠請公告周知，並鼓勵所屬教職員生踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290850,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立高雄科技大學規劃辦理 「人工智慧 X 全英語教學：任務性導向學習效能」EMI線上工作坊相關資訊，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290847,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立雲林科技大學於114年6月11日（星期三）舉辦EMI工作坊，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290499,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "亞洲大學規劃辦理 舉辦「跨域教學・專業表達：EMI 實踐工作坊」，惠請公告周知，並鼓勵所屬教師踴躍參加",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290498,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立台灣師範大學於114年6月13日辦理「打造多元共融的EMI課堂：跨語言實踐、教育平權與批判性全球化視野」專題講座，詳如說明，惠請公告周知，並鼓勵所屬教職員與學生踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290497,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立中興大學於114年6月27日(五)舉辦「國立中興大學工程領域創新教育論壇—雙語教育與跨域實踐」活動，惠請公告周知，並鼓勵所屬教職員踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290496,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立台灣師範大學規劃辦理成果發表會暨論壇宣傳海報及議程各乙份，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290495,r10652.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "國立成功大學規劃辦理 教育部補助之「大學雙語教師專業發展中心」114年第四梯次開課訊息，惠請公告周知，並鼓勵所屬教師踴躍參加。",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-290494,r10652.php?Lang=zh-tw",
-                "date": null
-            }
-        ]
-    },
-    {
-        "title": "教師活動",
-        "link": "https://emi.site.nthu.edu.tw/p/403-1594-10666-1.php?Lang=zh-tw",
-        "language": "zh-tw",
-        "department": "英語教學精進中心",
-        "articles": [
-            {
-                "title": "2025 清華×政大領英計畫：精彩回顧上線！ The 2025 NTHU-NCCU Joint EMI CertPT Workshop: A Journey Worth Revisiting!",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-292511,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "Trinity CertPT國際認證師資培訓盛會現場直擊",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-292516,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI X 永續 X 創新教學 線上研討會】歡迎報名6/6 (五) 清大第九屆大學教師創新教學線上研討會",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287986,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【教學助理研習營】114學年度第1學期教學助理研習營-114/8/18(一)~8/19(二)(限本校學生參加)",
-                "link": "https://ctld.site.nthu.edu.tw/p/404-1217-140846.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI師培研習分享會】敬邀參與「Fulbright X CertPT EMI師培研習經驗分享會｣ : 5/16 (Fri) 下午12:00-14:00 在綜四館221教室",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287373,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI 資源申請】Tutor ABC 一對四口說課程報名!!!",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287637,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI TA獎勵辦法+活動時程說明】",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-284872,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI 國際認證師培研習】 2025 NTHU-NCCU Joint EMI CertPT Workshop 清華政大領英計畫 (6/9-6/13)",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-284109,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI教師增能工作坊日】 EMI Faculty Members Development Workshop Day (3/29)",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-283550,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI中心時程】113下學期時程",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-282589,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【清華英語授課專業成長伴飛計畫】114年3月17日(一) 報名截止，歡迎清大教師報名參加 ! NTHU EMI Professional Development Mentoring Program for faculty members | Deadline: 3/17 (Mon)",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-282223,r10666.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "台師大敬邀參與 3/3(一)-5/16 (五) EMI教學增能課程(2/19報名截止)",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-282115,r10666.php?Lang=zh-tw",
-                "date": null
-            }
-        ]
-    },
-    {
-        "title": "學生與助教活動",
-        "link": "https://emi.site.nthu.edu.tw/p/403-1594-10667-1.php?Lang=zh-tw",
-        "language": "zh-tw",
-        "department": "英語教學精進中心",
-        "articles": [
-            {
-                "title": "【教學助理研習營】114學年度第1學期教學助理研習營-114/8/18(一)~8/19(二)(限本校學生參加)",
-                "link": "https://ctld.site.nthu.edu.tw/p/404-1217-140846.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【誠徵】114暑期工讀生報名 Part-time Student Application",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-289710,r10667.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【NTHU 3MT】三分鐘研究簡報競賽 – 得獎者公告",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-289484,r10667.php?Lang=zh-tw",
-                "date": null
-            },
-            {
                 "title": "堅強評審陣容出爐！齊聚 2025 NTHU 3MT！",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-288932,r10667.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI TA 獎勵申請】請於5/9(五)中午12點前完成申請!!!!",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-288223,r10667.php?Lang=zh-tw",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-288932,r10647.php?Lang=zh-tw",
                 "date": null
             },
             {
                 "title": "【EMI學生工作坊】 🔍English Resume/Career Writing – How hard can it be??💡",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287941,r10667.php?Lang=zh-tw",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287941,r10647.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "【EMI 資源申請】Tutor ABC 一對四口說課程報名!!!",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287637,r10667.php?Lang=zh-tw",
+                "title": "【EMI師培研習分享會】敬邀參與「Fulbright X CertPT EMI師培研習經驗分享會｣ : 5/16 (Fri) 下午12:00-14:00 在綜四館221教室",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287373,r10647.php?Lang=zh-tw",
                 "date": null
             },
             {
                 "title": "【EMI英語角】114.05.02(五) EMI x 工學院 英語角落活動",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287378,r10667.php?Lang=zh-tw",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287378,r10647.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "【EMI學生工作坊】 🔍 從心開始：掌握演講的關鍵心態 Starting from Within: Mastering the Mindset of Public Speaking💡",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287384,r10667.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI助教獎勵】113下獎勵英語授課教學助理計劃申請截止日為114.5.9",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-286936,r10667.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【EMI TA培訓講座】4/28 關於 EMI TA 的二三事 & 5/6 EMI 助教的溝通與引導技巧 報名!!!",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-286938,r10667.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【NTHU 3MT】2025 第四屆 研究簡報競賽 | 決賽5/21登場",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-286314,r10667.php?Lang=zh-tw",
+                "title": "【EMI 資源申請】Tutor ABC 一對四口說課程報名!!!",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-287637,r10647.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -5015,7 +4851,7 @@
                 "date": null
             },
             {
-                "title": "清華大學創業車庫 NTHU Garage 第十七屆團隊進駐名單",
+                "title": "清華大學創業車庫 NTHU Garage 第十18屆團隊招募中！",
                 "link": "https://garage.site.nthu.edu.tw/p/406-1468-281471,r7421.php",
                 "date": null
             },
@@ -7269,6 +7105,16 @@
         "department": "學習科學與科技研究所",
         "articles": [
             {
+                "title": "清大學科所LOGO",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292613,r9506.php?Lang=zh-tw",
+                "date": "2025-07-21"
+            },
+            {
+                "title": "<歡迎旁聽> 114年7月碩士學位論文考試畢業口試公告 - 陳彥蓉",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292611,r9506.php?Lang=zh-tw",
+                "date": "2025-07-21"
+            },
+            {
                 "title": "<歡迎旁聽> 114年7月碩士學位論文考試畢業口試公告 - 楊偉宏",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292113,r9506.php?Lang=zh-tw",
                 "date": "2025-07-11"
@@ -7357,16 +7203,6 @@
                 "title": "<歡迎旁聽> 114年5月碩士學位論文考試畢業口試公告 -張庭芸",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-289482,r9506.php?Lang=zh-tw",
                 "date": "2025-05-22"
-            },
-            {
-                "title": "113學年度學科所小畢典流程",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-289446,r9506.php?Lang=zh-tw",
-                "date": "2025-05-22"
-            },
-            {
-                "title": "給考生的信",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-272859,r9506.php?Lang=zh-tw",
-                "date": "2024-08-07"
             }
         ]
     },
@@ -7707,6 +7543,16 @@
                 "date": null
             },
             {
+                "title": "清大學科所LOGO",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292613,r9756.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "<歡迎旁聽> 114年7月碩士學位論文考試畢業口試公告 - 陳彥蓉",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292611,r9756.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "<歡迎旁聽> 114年7月碩士學位論文考試畢業口試公告 -黃毓婷",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292107,r9756.php?Lang=zh-tw",
                 "date": null
@@ -7749,16 +7595,6 @@
             {
                 "title": "<歡迎旁聽> 114年6月碩士學位論文考試畢業口試公告 -曾凱琳",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-290369,r9756.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "<歡迎旁聽> 114年6月碩士學位論文考試畢業口試公告 -邱子庭",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-290370,r9756.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "<歡迎旁聽> 114年6月碩士學位論文考試畢業口試公告 -蔡郁蘋",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-290371,r9756.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -8550,7 +8386,7 @@
                 "date": null
             },
             {
-                "title": "【報導】實驗教育畢業學長 吳承澐 Charlie Wu 睽違兩年推出全新創作單曲《童年的笑容》，用旋律召喚心中最純真的自己",
+                "title": "【報導】吳承澐系友睽違兩年推出全新創作單曲《童年的笑容》，用旋律召喚心中最純真的自己",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-291564,r9940.php",
                 "date": null
             },
