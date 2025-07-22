@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "bb0c24754ab445a9f78762373405ae570376fe1e",
-        "last_updated": "2025-07-22T08:46:10+08:00",
+        "last_commit": "0e51c98195a818b8c1ea9f50da214c36209c7cfe",
+        "last_updated": "2025-07-22T14:22:00+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "dining.json"
       },
       {
-        "last_commit": "651f424f5b73db6ffa2969fdb342feb3ec277906",
-        "last_updated": "2025-07-22T10:47:36+08:00",
+        "last_commit": "df96c564f3b2f62fa7592802124cc955da69439c",
+        "last_updated": "2025-07-22T16:12:56+08:00",
         "name": "directory.json"
       },
       {
@@ -32,8 +32,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "f2219b8679e28dc6fc19984e22c1dd4109ad65e9",
-        "last_updated": "2025-07-21T10:52:45+08:00",
+        "last_commit": "df96c564f3b2f62fa7592802124cc955da69439c",
+        "last_updated": "2025-07-22T16:12:56+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_updated": "2025-07-22T10:47:36+08:00"
+  "last_updated": "2025-07-22T16:12:56+08:00"
 }
