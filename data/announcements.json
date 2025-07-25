@@ -1590,6 +1590,11 @@
         "department": "運動事業及政策中心",
         "articles": [
             {
+                "title": "[報導] (運動視界) 奔向永續的最速賽道——芝加哥馬拉松的永續之路",
+                "link": "https://www.sportsv.net/articles/121191",
+                "date": "2025-07-24"
+            },
+            {
                 "title": "[報導] (don1don) 台灣路跑永續論壇首度前往花蓮開講！8/18前免費報名中",
                 "link": "https://www.don1don.com/archives/226797/%E5%8F%B0%E7%81%A3%E8%B7%AF%E8%B7%91%E6%B0%B8%E7%BA%8C%E8%AB%96%E5%A3%87%E9%A6%96%E5%BA%A6%E5%89%8D%E5%BE%80%E8%8A%B1%E8%93%AE%E9%96%8B%E8%AC%9B%EF%BC%818-18%E5%89%8D%E5%85%8D%E8%B2%BB%E5%A0%B1",
                 "date": "2025-07-09"
@@ -1642,11 +1647,6 @@
             {
                 "title": "[報導] (好報新聞網) 清大6/7~8舉辦大新竹移工籃球賽 展現永續與文化融合力",
                 "link": "https://www.hbnews.com.tw/Report/News/f010050l1ob7",
-                "date": "2025-05-08"
-            },
-            {
-                "title": "[報導] (yahoo新聞) 清大6/7起一連2天辦移工籃球賽 盼促文化融合",
-                "link": "https://tw.news.yahoo.com/%E6%B8%85%E5%A4%A76-7%E8%B5%B7-%E9%80%A32%E5%A4%A9%E8%BE%A6%E7%A7%BB%E5%B7%A5%E7%B1%83%E7%90%83%E8%B3%BD-%E7%9B%BC%E4%BF%83%E6%96%87%E5%8C%96%E8%9E%8D%E5%90%88-042018942.html",
                 "date": "2025-05-08"
             }
         ]
@@ -6360,6 +6360,11 @@
         "department": "工業工程與工程管理學系",
         "articles": [
             {
+                "title": "Plastic Recycling Fueled with Blockchain-Driven Tokenization: ESG Optimization and Implications Speaker: 時均民教授 (Jim Shi)",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-292871,r2715.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "智慧醫療之法規趨勢概述 講者：李崇僖 院長(臺北醫學大學 人文暨社會科學院)",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-288762,r2715.php?Lang=zh-tw",
                 "date": null
@@ -6412,11 +6417,6 @@
             {
                 "title": "Vector Representation for Phylogenetic Trees 講者 : Dr. Louxin Zhang(Department of Mathematics, National University of Singapore)",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-279514,r2715.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "Reinforcement Learning for Smart Production Planning and Scheduling 演講者：陳子立 教授 (國立台灣科技大學)",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-279475,r2715.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -10856,6 +10856,11 @@
         "department": "教育心理與諮商學系",
         "articles": [
             {
+                "title": "2025工商心理研究所校際聯合說明會",
+                "link": "https://psy.site.nthu.edu.tw/p/406-1135-273508,r1.php?Lang=zh-tw",
+                "date": "2025-07-25"
+            },
+            {
                 "title": "歡迎參加 113學年度第2學 畢業專題發表會-114/06/06",
                 "link": "https://psy.site.nthu.edu.tw/p/406-1135-289581,r1.php?Lang=zh-tw",
                 "date": "2024-11-20"
@@ -10899,11 +10904,6 @@
                 "title": "轉知【113年畢業生流向問卷】填卷拿早鳥好禮，最後還可再抽INSTA360 GO 3S 相機(共3名)－自8/20起至11/4止",
                 "link": "https://ccd.nthu.edu.tw/news/295",
                 "date": "2024-08-20"
-            },
-            {
-                "title": "1122深耕計畫講座時間與主題",
-                "link": "https://psy.site.nthu.edu.tw/p/406-1135-265123,r1.php?Lang=zh-tw",
-                "date": "2019-08-13"
             }
         ]
     },
@@ -10972,6 +10972,11 @@
         "department": "教育心理與諮商學系",
         "articles": [
             {
+                "title": "2025工商心理研究所校際聯合說明會",
+                "link": "https://psy.site.nthu.edu.tw/p/406-1135-273508,r4.php?Lang=zh-tw",
+                "date": "2025-07-25"
+            },
+            {
                 "title": "【台灣心理學會】擴編徵求學生幹部",
                 "link": "https://www.tpa-tw.org/post/%E8%87%BA%E7%81%A3%E5%BF%83%E7%90%86%E5%AD%B8%E6%9C%83-%E5%AD%B8%E7%94%9F%E7%99%BC%E5%B1%95%E5%B0%8F%E7%B5%84-%E7%AC%AC%E4%B8%89%E5%B1%86%E5%B9%B9%E9%83%A8%E6%88%90%E5%93%A1%E6%93%B4%E7%B7%A8%E6%8B%9B%E5%8B%9F%E4%B8%AD%EF%BC%81",
                 "date": "2025-07-22"
@@ -11015,11 +11020,6 @@
                 "title": "【轉知】2025亞太生涯發展學會（APCDA）年會~歡迎踴躍報名參加",
                 "link": "https://asiapacificcda.org/2025-apcda-hybrid-conference/",
                 "date": "2025-04-01"
-            },
-            {
-                "title": "【轉知】財團法人中華民國對外貿易發展協會辦理之「114年度ITI國際企業經營班(國企班)」歡迎踴躍報名參加",
-                "link": "https://ibap2025.iti.org.tw/",
-                "date": "2025-02-21"
             }
         ]
     },
