@@ -758,6 +758,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "114年暑期學生宿舍網路經理招募(2025/08/31)",
+                "link": "https://net.nthu.edu.tw/netsys/mailing:announcement:20250728_01",
+                "date": "2025-07-28"
+            },
+            {
                 "title": "【徵才】國立清華大學動力機械工程學系徵聘專任教師",
                 "link": "https://pme.site.nthu.edu.tw/p/406-1308-241678,r4642.php?Lang=zh-tw",
                 "date": "2025-07-23"
@@ -811,11 +816,6 @@
                 "title": "【誠徵】科技法律研究所114學年度第1學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-280550,r5075.php?Lang=zh-tw",
                 "date": "2025-07-15"
-            },
-            {
-                "title": "【徵聘公告】竹師教育學院學士班徵聘專任助理教授(含以上)教師1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-290488,r5075.php?Lang=zh-tw",
-                "date": "2025-07-14"
             }
         ]
     },
@@ -3726,6 +3726,11 @@
                 "date": null
             },
             {
+                "title": "賀!本院傅麗玉教授榮獲114年度教育部師鐸獎",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-292932,r4.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【徵求摘要】「2025第十六屆教育創新國際學術研討會」徵求摘要至9/5",
                 "link": "https://icei.ce.nthu.edu.tw/conference/36d38e0c1587a1ad5533f64ad4850a27/invite-info",
                 "date": null
@@ -3774,11 +3779,6 @@
                 "title": "【傑出校友】竹師教育學院第6屆傑出校友遴選推薦作業至114年5月23日!",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-285954,r4.php?Lang=zh-tw",
                 "date": null
-            },
-            {
-                "title": "【徵件】114年國立清華大學竹師教育學院英語短影音徵件比賽報名簡章",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-284558,r4.php?Lang=zh-tw",
-                "date": null
             }
         ]
     },
@@ -3791,6 +3791,11 @@
             {
                 "title": "【新大樓】竹師教育學院新大樓專區",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-267019,r70.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "賀!本院傅麗玉教授榮獲114年度教育部師鐸獎",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-292932,r70.php?Lang=zh-tw",
                 "date": null
             },
             {
@@ -3842,11 +3847,6 @@
                 "title": "【獎勵補助】第二屆 國立清華大學竹師教育學院培育跨領域教育領袖獎勵 徵件",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-287437,r70.php?Lang=zh-tw",
                 "date": null
-            },
-            {
-                "title": "【徵才】教育學院專題計畫約用人員(1140411公告) 延長至5/10 隨到隨審",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-286993,r70.php?Lang=zh-tw",
-                "date": null
             }
         ]
     },
@@ -3856,6 +3856,11 @@
         "language": "zh-tw",
         "department": "竹師教育學院",
         "articles": [
+            {
+                "title": "賀!本院傅麗玉教授榮獲114年度教育部師鐸獎",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-292932,r7226.php?Lang=zh-tw",
+                "date": null
+            },
             {
                 "title": "【113年度校傑出教學獎】恭喜幼教系陳湘淳副教授、特教系翁嘉遜助理教授獲獎!",
                 "link": "https://dgaa.site.nthu.edu.tw/p/406-1209-290253,r207.php?Lang=zh-tw",
@@ -3909,11 +3914,6 @@
             {
                 "title": "111學年度院傑出導師獎得獎名單公告",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-242833,r7226.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "111學年度學院教師傑出教學獎及教學優良教師得獎名單公告",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-236566,r7226.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -7930,7 +7930,7 @@
                 "date": null
             },
             {
-                "title": "【海外學習】學生海外經驗學習畢業門檻符合進度(114.07.24版)",
+                "title": "【海外學習】學生海外經驗學習畢業門檻符合進度(114.07.28版)",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-291254,r772.php?Lang=zh-tw",
                 "date": null
             },
