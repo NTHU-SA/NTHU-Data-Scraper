@@ -12,8 +12,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "8c051905b0951f97dbf1e0a3b91b3071e244e337",
-        "last_updated": "2025-07-26T08:44:50+08:00",
+        "last_commit": "b868b96cac76db3e3e1df6f9204d139c35f0db46",
+        "last_updated": "2025-07-29T06:09:39+08:00",
         "name": "courses.json"
       },
       {
@@ -32,8 +32,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "d70bc23a7d87a9e0d68525977f14c6f9db96f641",
-        "last_updated": "2025-07-28T14:14:56+08:00",
+        "last_commit": "8390ad13ca31d03a6e3affe7cbddd18538f2e959",
+        "last_updated": "2025-07-29T08:41:05+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -148,8 +148,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "8c051905b0951f97dbf1e0a3b91b3071e244e337",
-        "last_updated": "2025-07-26T08:44:50+08:00",
+        "last_commit": "b868b96cac76db3e3e1df6f9204d139c35f0db46",
+        "last_updated": "2025-07-29T06:09:39+08:00",
         "name": "latest.json"
       }
     ],
@@ -205,8 +205,8 @@
         "name": "11320.json"
       },
       {
-        "last_commit": "8c051905b0951f97dbf1e0a3b91b3071e244e337",
-        "last_updated": "2025-07-26T08:44:50+08:00",
+        "last_commit": "b868b96cac76db3e3e1df6f9204d139c35f0db46",
+        "last_updated": "2025-07-29T06:09:39+08:00",
         "name": "11410.json"
       }
     ],
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_updated": "2025-07-28T18:19:26+08:00"
+  "last_updated": "2025-07-29T08:41:05+08:00"
 }
