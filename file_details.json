@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2ba4cf9ee3d7d3deb5ecc9aa9acaa4e94a0485d3",
-        "last_updated": "2025-07-28T18:19:26+08:00",
+        "last_commit": "2760e365dcef792055bbb6b19f5a96a11823cfcb",
+        "last_updated": "2025-07-29T11:03:29+08:00",
         "name": "announcements.json"
       },
       {
@@ -17,13 +17,13 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "3fcc9e3152bdd63a1c878ba82b3454ecc7d91ab0",
-        "last_updated": "2025-07-28T12:35:17+08:00",
+        "last_commit": "2760e365dcef792055bbb6b19f5a96a11823cfcb",
+        "last_updated": "2025-07-29T11:03:29+08:00",
         "name": "dining.json"
       },
       {
-        "last_commit": "5a62f03669d8a3697ca06f9e9349c9785de19881",
-        "last_updated": "2025-07-25T14:13:24+08:00",
+        "last_commit": "268e5d959bafec9afb08c07f8d0703ae0f6c3ed8",
+        "last_updated": "2025-07-29T12:27:52+08:00",
         "name": "directory.json"
       },
       {
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_updated": "2025-07-29T08:41:05+08:00"
+  "last_updated": "2025-07-29T12:27:52+08:00"
 }

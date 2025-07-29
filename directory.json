@@ -11603,7 +11603,7 @@
                 },
                 {
                     "name": "王育恒",
-                    "title": "助理教授",
+                    "title": "副教授",
                     "extension": "33391",
                     "note": null,
                     "email": "wangyh2@mx.nthu.edu.tw"
@@ -11621,6 +11621,13 @@
                     "extension": "31287",
                     "note": null,
                     "email": "cclin66@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "林哲仁",
+                    "title": "助理教授",
+                    "extension": "33373",
+                    "note": null,
+                    "email": "chejen@mx.nthu.edu.tw"
                 },
                 {
                     "name": "林嘉和",
@@ -11743,7 +11750,7 @@
                 },
                 {
                     "name": "劉瑞雄",
-                    "title": "教授",
+                    "title": "合聘教授",
                     "extension": "33385",
                     "note": null,
                     "email": "rsliu@mx.nthu.edu.tw"
@@ -11754,20 +11761,6 @@
                     "extension": "33412",
                     "note": null,
                     "email": "jrhwu@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "游靜惠",
-                    "title": "退休教授",
-                    "extension": "62080",
-                    "note": null,
-                    "email": "chyu@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "余靖",
-                    "title": "退休教授",
-                    "extension": "33353",
-                    "note": null,
-                    "email": "cyu.nthu@gmail.com"
                 },
                 {
                     "name": "韓建中",
@@ -11784,25 +11777,11 @@
                     "email": "bjuang@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "季昀",
-                    "title": "退休教授",
-                    "extension": "33373",
-                    "note": null,
-                    "email": "ychi@mx.nthu.edu.tw"
-                },
-                {
                     "name": "凌永健",
                     "title": "退休教授",
                     "extension": "33393",
                     "note": null,
                     "email": "ycling@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "陳秋炳",
-                    "title": "退休教授",
-                    "extension": "33367",
-                    "note": null,
-                    "email": "cpcheng@mx.nthu.edu.tw"
                 },
                 {
                     "name": "廖俊臣",
@@ -11817,13 +11796,6 @@
                     "extension": "33381",
                     "note": null,
                     "email": "chcheng@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "沙晋康",
-                    "title": "退休教授",
-                    "extension": "33349",
-                    "note": null,
-                    "email": "cksha@mx.nthu.edu.tw"
                 },
                 {
                     "name": "張永青",
@@ -22831,7 +22803,7 @@
         "details": {
             "departments": [],
             "contact": {
-                "extension": "62004",
+                "extension": "35150",
                 "email": "aife@gapp.nthu.edu.tw",
                 "website": "http://aife.site.nthu.edu.tw/"
             },
@@ -22874,7 +22846,7 @@
                 {
                     "name": "黃淑婷",
                     "title": "助理",
-                    "extension": "62377",
+                    "extension": "35150",
                     "note": null,
                     "email": "shuting@mx.nthu.edu.tw"
                 }
@@ -27855,7 +27827,7 @@
                 {
                     "name": "黃淑婷",
                     "title": "校友服務及資源發展處 / (綠)三級優先 現場處理不送醫",
-                    "extension": "62377",
+                    "extension": "35150",
                     "note": "學習資源中心",
                     "email": "shuting@mx.nthu.edu.tw"
                 },
