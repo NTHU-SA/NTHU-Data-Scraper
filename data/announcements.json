@@ -690,7 +690,7 @@
         "department": "清華公佈欄",
         "articles": [
             {
-                "title": "【快來投稿！】115年校慶「未來由我 Future by Us」標章徵選活動，即日起收件，114年9月30日截止。",
+                "title": "【快來投稿！】115年校慶「未來由我 Future by Us」標章徵選活動，即日起收件，114年9月30日截止",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293040,r5074.php?Lang=zh-tw",
                 "date": "2025-07-30"
             },
@@ -826,6 +826,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學出版社 誠徵編輯一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291284,r5081.php?Lang=zh-tw",
+                "date": "2025-07-30"
+            },
+            {
                 "title": "【誠徵】國立清華大學生活輔導組資訊系統研發與導入研究助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293038,r5081.php?Lang=zh-tw",
                 "date": "2025-07-30"
@@ -838,11 +843,6 @@
             {
                 "title": "【徵才】國立清華大學材料科學工程學系徵聘專任教師",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293037,r5081.php?Lang=zh-tw",
-                "date": "2025-07-30"
-            },
-            {
-                "title": "【徵才】國立清華大學出版社 誠徵編輯一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-291284,r5081.php?Lang=zh-tw",
                 "date": "2025-07-30"
             },
             {
@@ -1098,7 +1098,7 @@
         "department": "清華公佈欄",
         "articles": [
             {
-                "title": "【快來投稿！】115年校慶「未來由我 Future by Us」標章徵選活動，即日起收件，114年9月30日截止。",
+                "title": "【快來投稿！】115年校慶「未來由我 Future by Us」標章徵選活動，即日起收件，114年9月30日截止",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293040,r5085.php?Lang=zh-tw",
                 "date": "2025-07-30"
             },
@@ -1295,18 +1295,18 @@
         "department": "藝文總中心",
         "articles": [
             {
-                "title": "【捷英蒔光——文物館從藍圖到新章】",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-287935,r9475.php?Lang=zh-tw",
+                "title": "【文物館不打烊】全新 Podcast 上線！",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-293056,r9475.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "【是河不是河】鹽池 吳有容、顏鈺恬 / 【Not a river】Crystallize Object Wu Yu Jung & Yen Yu Tien",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-285776,r9475.php?Lang=zh-tw",
+                "title": "【人皆尋夢】 巫雲鳳 彭賢祥 雙個展 /【Not only a dream】Wu Yun-Feng & Peng Hsien-Hsiang Dual Solo Exhibits",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-286404,r9475.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "【歡迎踴躍報名】：113/12/12(四) 15:20-17:30 清華大學文物館-故宮文物的南遷故事講座",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-279877,r9475.php?Lang=zh-tw",
+                "title": "【100小怪物】 許自貴個展 / 【100 little monsters】 Hsu Tzu-kuey  Solo Exhibition",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-281285,r9475.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -8951,7 +8951,7 @@
         "department": "文物館",
         "articles": [
             {
-                "title": "🎧 全新 Podcast 《文物館不打烊》即將上線啦！",
+                "title": "🎧 全新 Podcast 《文物館不打烊》上線啦！",
                 "link": "https://museum.site.nthu.edu.tw/p/406-1153-291651,r11.php?Lang=zh-tw",
                 "date": null
             },
