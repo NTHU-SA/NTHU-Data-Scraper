@@ -295,6 +295,11 @@
                 "date": "2025-07-01"
             },
             {
+                "title": "台聯大系統114學年度碩士班招生 第25次備取遞補名單 (含報到須知)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-293165,r323.php?Lang=zh-tw",
+                "date": "2025-08-02"
+            },
+            {
                 "title": "台聯大系統114學年度碩士班招生 第24次備取遞補名單 (含報到須知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-292947,r323.php?Lang=zh-tw",
                 "date": "2025-07-29"
@@ -383,11 +388,6 @@
                 "title": "114學年度碩、博士班甄試 招生公告(含簡章下載)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-272528,r323.php?Lang=zh-tw",
                 "date": "2024-09-12"
-            },
-            {
-                "title": "台聯大系統114學年度碩士班招生 第14次備取遞補名單 (含報到須知)",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-290781,r323.php?Lang=zh-tw",
-                "date": "2025-06-18"
             }
         ]
     },
@@ -1245,6 +1245,21 @@
         "department": "藝文總中心",
         "articles": [
             {
+                "title": "【歡迎踴躍申請】臺中市文化局115年上半年「視覺藝術類活動」補助受理申請 (114.08.01公告)",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-293229,r9700.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【歡迎踴躍參加】歲月留聲‧2025金曲再現音樂會 (114.08.01公告)",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-293227,r9700.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【歡迎踴躍申請】苗栗縣政府文化觀光局「115年上半年視覺藝術展覽徵選計畫」(114.08.01公告)",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-293228,r9700.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【歡迎踴躍報名】2025國立高雄科技大學青藝獎 (114.07.04公告)",
                 "link": "https://cac.site.nthu.edu.tw/p/406-1549-291697,r9700.php?Lang=zh-tw",
                 "date": null
@@ -1287,21 +1302,6 @@
             {
                 "title": "【歡迎踴躍報名】國立高雄科技大學「2025高科大青藝獎典藏徵件比賽」(114.06.27公告)",
                 "link": "https://cac.site.nthu.edu.tw/p/406-1549-291346,r9700.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【歡迎踴躍參加】「威廉‧透納特展：崇高的迴響 英國泰德美術館典藏展」(114.06.27公告)",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-291345,r9700.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【歡迎踴躍投稿】2025年 逐域──藝術史暨視覺文化研究生聯合發表會 (114.06.02公告)",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-290010,r9700.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【歡迎踴躍報名】花蓮縣文化局「花蓮美術館115年新銳策展徵件計畫」 (114.05.24公告)",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-289587,r9700.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -9892,11 +9892,6 @@
                 "date": "2025-07-25"
             },
             {
-                "title": "【台灣心理學會】擴編徵求學生幹部",
-                "link": "https://www.tpa-tw.org/post/%E8%87%BA%E7%81%A3%E5%BF%83%E7%90%86%E5%AD%B8%E6%9C%83-%E5%AD%B8%E7%94%9F%E7%99%BC%E5%B1%95%E5%B0%8F%E7%B5%84-%E7%AC%AC%E4%B8%89%E5%B1%86%E5%B9%B9%E9%83%A8%E6%88%90%E5%93%A1%E6%93%B4%E7%B7%A8%E6%8B%9B%E5%8B%9F%E4%B8%AD%EF%BC%81",
-                "date": "2025-07-22"
-            },
-            {
                 "title": "【轉知】蔣建白先生獎學金，歡迎踴躍申請",
                 "link": "https://year.guidance.org.tw/measure_02.php",
                 "date": "2025-07-17"
@@ -9930,6 +9925,11 @@
                 "title": "【轉知】114年「爺奶機智生活—高齡樂活創意方案手冊」徵件簡章，歡迎踴躍徵稿",
                 "link": "https://www.oldpeople.org.tw/pop/pages/8fe34228a71a4698adef4a6d8dff8367",
                 "date": "2025-04-21"
+            },
+            {
+                "title": "【轉知】2025亞太生涯發展學會（APCDA）年會~歡迎踴躍報名參加",
+                "link": "https://asiapacificcda.org/2025-apcda-hybrid-conference/",
+                "date": "2025-04-01"
             }
         ]
     },
