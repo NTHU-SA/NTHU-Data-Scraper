@@ -7738,11 +7738,11 @@
             },
             "people": [
                 {
-                    "name": "彭心儀",
+                    "name": "徐茉莉",
                     "title": "全球長",
                     "extension": "62458",
-                    "note": "42428",
-                    "email": "sypeng@mx.nthu.edu.tw"
+                    "note": null,
+                    "email": "galit.shmueli@iss.nthu.edu.tw"
                 },
                 {
                     "name": "王翔郁",
@@ -25675,18 +25675,18 @@
                     "email": "cnliao@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "高蔡勝",
-                    "title": "製程部主任",
-                    "extension": "42207",
+                    "name": "沈昌宏",
+                    "title": "教授 / 製程部主任",
+                    "extension": "35927",
                     "note": null,
-                    "email": "tsaisheng_kao@mx.nthu.edu.tw"
+                    "email": "chshen@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "段興宇",
-                    "title": "製程部副主任",
-                    "extension": "42509",
+                    "name": "李宏仁",
+                    "title": "教授 / 製程部副主任",
+                    "extension": "42484",
                     "note": null,
-                    "email": "hytuan@che.nthu.edu.tw"
+                    "email": "hjlee@mx.nthu.edu.tw"
                 },
                 {
                     "name": "陳力俊",
@@ -25694,6 +25694,13 @@
                     "extension": "31166",
                     "note": null,
                     "email": "ljchen@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "高蔡勝",
+                    "title": "半導體特聘教授",
+                    "extension": "42207",
+                    "note": null,
+                    "email": "tsaisheng_kao@mx.nthu.edu.tw"
                 },
                 {
                     "name": "李炯霆",
@@ -25717,25 +25724,11 @@
                     "email": "rsliu@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "李宏仁",
-                    "title": "教授",
-                    "extension": "42484",
-                    "note": null,
-                    "email": "hjlee@mx.nthu.edu.tw"
-                },
-                {
                     "name": "黃健朝",
                     "title": "教授",
                     "extension": "35925",
                     "note": null,
                     "email": "chienchaohuang@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "沈昌宏",
-                    "title": "教授",
-                    "extension": "35927",
-                    "note": null,
-                    "email": "chshen@mx.nthu.edu.tw"
                 },
                 {
                     "name": "蘇韋",
@@ -25759,6 +25752,20 @@
                     "email": "gautham@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "吳心如",
+                    "title": "博士後研究員",
+                    "extension": null,
+                    "note": null,
+                    "email": "hrwu@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "蔡明憲",
+                    "title": "博士後研究員",
+                    "extension": null,
+                    "note": null,
+                    "email": "mingshian.tsai@gapp.nthu.edu.tw"
+                },
+                {
                     "name": "秦聖基",
                     "title": "專案經理",
                     "extension": "35928",
@@ -25766,60 +25773,60 @@
                     "email": "Chin.shengchi@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "楊惠婷",
-                    "title": "秘書",
-                    "extension": "42206",
-                    "note": null,
-                    "email": "cosrnthu@my.nthu.edu.tw"
-                },
-                {
                     "name": "王盛麒",
-                    "title": "諮詢顧問",
+                    "title": "諮詢專家",
                     "extension": "42254",
                     "note": null,
                     "email": "scwang@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "楊惠婷",
+                    "title": "半導體秘書 / 院長行程安排",
+                    "extension": "42206",
+                    "note": null,
+                    "email": "cosrnthu@my.nthu.edu.tw"
+                },
+                {
                     "name": "劉惠媛",
-                    "title": "專員",
+                    "title": "半導體秘書 / 管監會辦理",
                     "extension": "42502",
                     "note": null,
                     "email": "cosr_ip@my.nthu.edu.tw"
                 },
                 {
                     "name": "彭凱筠",
-                    "title": "專員",
+                    "title": "半導體秘書 / 外國學生、國科會計畫",
                     "extension": "42481",
                     "note": null,
                     "email": "cosr_ir@my.nthu.edu.tw"
                 },
                 {
                     "name": "高廣玲",
-                    "title": "專員",
+                    "title": "半導體專員 / 企業相關",
                     "extension": "42260",
                     "note": null,
                     "email": "cosr_ic@my.nthu.edu.tw"
                 },
                 {
-                    "name": "宋庭嘉",
-                    "title": "專員",
-                    "extension": "42261",
-                    "note": null,
-                    "email": "cosr_adms@my.nthu.edu.tw"
-                },
-                {
                     "name": "林郁曄",
-                    "title": "專員",
+                    "title": "半導體專員 / 財務總務",
                     "extension": "42262",
                     "note": null,
                     "email": "cosrfin@my.nthu.edu.tw"
                 },
                 {
                     "name": "黃雅君",
-                    "title": "專員",
+                    "title": "半導體專案組員 / 課程相關、場地管理",
                     "extension": "42263",
                     "note": null,
                     "email": "cosr_curricul@my.nthu.edu.tw"
+                },
+                {
+                    "name": "宋庭嘉",
+                    "title": "半導體專案組員 / 招生入學、畢業口試",
+                    "extension": "42261",
+                    "note": null,
+                    "email": "cosr_adms@my.nthu.edu.tw"
                 }
             ]
         }
@@ -25847,6 +25854,20 @@
                     "extension": "42426",
                     "note": null,
                     "email": "ctfan@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "周秀專",
+                    "title": "副院長",
+                    "extension": "35486、35521",
+                    "note": null,
+                    "email": "chouhc@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "林建宏",
+                    "title": "教授",
+                    "extension": "31272",
+                    "note": null,
+                    "email": "chienhung@mx.nthu.edu.tw"
                 },
                 {
                     "name": "羅揚銘",
