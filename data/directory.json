@@ -541,6 +541,13 @@
                     "extension": "62010",
                     "note": null,
                     "email": "yutung.shiue@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "喬柔瑾",
+                    "title": "專案組員",
+                    "extension": "62316",
+                    "note": null,
+                    "email": "chyau@mx.nthu.edu.tw"
                 }
             ]
         }
@@ -12534,7 +12541,7 @@
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5719"
                 },
                 {
-                    "name": "太空工程研究所籌備處",
+                    "name": "太空工程研究所",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5721"
                 }
             ],
@@ -12555,24 +12562,24 @@
                 },
                 {
                     "name": "黃智永",
-                    "title": "副院長兼國際化事務執行長&動機系主任",
+                    "title": "副院長兼國際化事務執行長",
                     "extension": "42916 42676",
                     "note": null,
                     "email": "cyhuang@pme.nthu.edu.tw"
                 },
                 {
-                    "name": "林鶴南",
+                    "name": "廖建能",
                     "title": "副院長兼學士班主任",
-                    "extension": "33811",
+                    "extension": "33843 33860",
                     "note": null,
-                    "email": "hnlin@mx.nthu.edu.tw"
+                    "email": "cnliao@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "侯建良",
+                    "name": "吳建瑋",
                     "title": "副院長兼產學聯盟執行長",
-                    "extension": "42658",
+                    "extension": "45657",
                     "note": null,
-                    "email": "adamhou@ie.nthu.edu.tw"
+                    "email": "cweiwu@ie.nthu.edu.tw"
                 },
                 {
                     "name": "鐘月梅",
@@ -12617,13 +12624,6 @@
                     "email": "hytu@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "翁珮菁",
-                    "title": "行政組員",
-                    "extension": "33704",
-                    "note": null,
-                    "email": "space@my.nthu.edu.tw"
-                },
-                {
                     "name": "楊銘炎",
                     "title": "管理員",
                     "extension": "33704",
@@ -12649,11 +12649,11 @@
             },
             "people": [
                 {
-                    "name": "侯建良",
+                    "name": "吳建瑋",
                     "title": "副院長兼產學聯盟執行長",
-                    "extension": "42658",
+                    "extension": "45657",
                     "note": null,
-                    "email": "adamhou@ie.nthu.edu.tw"
+                    "email": "cweiwu@ie.nthu.edu.tw"
                 },
                 {
                     "name": "蔡吟萱",
@@ -13967,7 +13967,7 @@
                     "title": "研究助理 / 闕郁倫教授LAB",
                     "extension": null,
                     "note": null,
-                    "email": "owanwei1003@gmail.com"
+                    "email": "cwlai979979@gmail.com"
                 },
                 {
                     "name": "賴元泰",
@@ -14472,11 +14472,11 @@
             },
             "people": [
                 {
-                    "name": "林鶴南",
+                    "name": "廖建能",
                     "title": "副院長兼學士班主任",
-                    "extension": "33602",
+                    "extension": "33843 33860",
                     "note": null,
-                    "email": "hnlin@mx.nthu.edu.tw"
+                    "email": "cnliao@mx.nthu.edu.tw"
                 },
                 {
                     "name": "王佑欣",
@@ -14583,11 +14583,11 @@
             },
             "people": [
                 {
-                    "name": "侯建良",
-                    "title": "學程主任",
-                    "extension": "42658",
+                    "name": "吳建瑋",
+                    "title": "副院長兼產學聯盟執行長",
+                    "extension": "45657",
                     "note": null,
-                    "email": "adamhou@ie.nthu.edu.tw"
+                    "email": "cweiwu@ie.nthu.edu.tw"
                 },
                 {
                     "name": "蔡吟萱",
@@ -14630,7 +14630,7 @@
     },
     {
         "index": "5721",
-        "name": "太空工程研究所籌備處",
+        "name": "太空工程研究所",
         "parent_name": "工學院",
         "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=5721",
         "details": {
@@ -14644,7 +14644,7 @@
             "people": [
                 {
                     "name": "林昭安",
-                    "title": "籌備處主任",
+                    "title": "所長",
                     "extension": "42602",
                     "note": null,
                     "email": "calin@pme.nthu.edu.tw"
@@ -18140,13 +18140,6 @@
                     "email": "lwyang@life.nthu.edu.tw"
                 },
                 {
-                    "name": "吳文桂",
-                    "title": "教授",
-                    "extension": "42752 33454",
-                    "note": null,
-                    "email": "wgwu@life.nthu.edu.tw"
-                },
-                {
                     "name": "呂平江",
                     "title": "教授兼副校長",
                     "extension": "42762 33489",
@@ -18155,7 +18148,7 @@
                 },
                 {
                     "name": "孫玉珠",
-                    "title": "教授兼副院長",
+                    "title": "教授",
                     "extension": "42486 33452",
                     "note": null,
                     "email": "yjsun@life.nthu.edu.tw"
@@ -18176,7 +18169,7 @@
                 },
                 {
                     "name": "蘇士哲",
-                    "title": "教授兼學士班主任",
+                    "title": "教授",
                     "extension": "42025 33485",
                     "note": null,
                     "email": "scsue@life.nthu.edu.tw"
@@ -18190,7 +18183,7 @@
                 },
                 {
                     "name": "劉姿吟",
-                    "title": "副教授",
+                    "title": "教授兼任學士班主任",
                     "extension": "42096 33494",
                     "note": null,
                     "email": "tzliu@life.nthu.edu.tw"
@@ -18264,7 +18257,7 @@
                 },
                 {
                     "name": "周裕珽",
-                    "title": "教授",
+                    "title": "教授兼任精準醫療博士學位學程主任",
                     "extension": "42471 42113",
                     "note": null,
                     "email": "ytchou@life.nthu.edu.tw"
@@ -18278,7 +18271,7 @@
                 },
                 {
                     "name": "桑自剛",
-                    "title": "教授",
+                    "title": "教授兼任系神所所長",
                     "extension": "42474 33470",
                     "note": null,
                     "email": "tksang@life.nthu.edu.tw"
@@ -18313,7 +18306,7 @@
                 },
                 {
                     "name": "王翊青",
-                    "title": "副教授",
+                    "title": "教授",
                     "extension": "42003 42103",
                     "note": null,
                     "email": "icwang@life.nthu.edu.tw"
@@ -18327,7 +18320,7 @@
                 },
                 {
                     "name": "邱于芯",
-                    "title": "助理教授",
+                    "title": "副教授",
                     "extension": "42757 33206",
                     "note": null,
                     "email": "yhchiu@life.nthu.edu.tw"
