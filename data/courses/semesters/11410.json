@@ -4186,7 +4186,7 @@
     "class_room_and_time": "MXIC旺宏懷樸 M3M4W1W2",
     "classroom": "MXIC旺宏懷樸",
     "time": "M3M4W1W2",
-    "note": "普化一及普化乙不同,不能互抵 (含實中科學班).每週150分鐘,限170人",
+    "note": "普化一及普化乙不同,不能互抵。每週150分鐘,限170人。含實中科學班",
     "suspend": "",
     "limit_note": "工學院學士班大學部1年級,化學系大學部1年級,理學院學士班大學部1年級優先，第3次選課起開放全校修習",
     "freshman_reservation": "163",
@@ -15813,7 +15813,7 @@
     "time": "U1",
     "note": "密集課",
     "suspend": "",
-    "limit_note": "限EMBA專班,EMBA雙聯,健康經管專班,公共政策與管理碩士專班",
+    "limit_note": "限EMBA專班,EMBA雙聯,健康經管專班,MBA專班,公共政策與管理碩士專班",
     "freshman_reservation": "15",
     "object": "",
     "ge_type": "",
@@ -15822,7 +15822,7 @@
     "expertise": "",
     "program": "",
     "no_extra_selection": "",
-    "required_optional_note": "EMBA專班114P  選修 EMBA雙聯114P  選修 健康經管專班114P  選修 公共政策與管理碩士專班114P  選修"
+    "required_optional_note": "EMBA專班114P  選修 EMBA雙聯114P  選修 健康經管專班114P  選修 MBA專班114P  選修 公共政策與管理碩士專班114P  選修"
   },
   {
     "id": "11410EMD 500000",
@@ -27761,7 +27761,7 @@
     "class_room_and_time": "HSS人Ｃ403A T6T7T8",
     "classroom": "HSS人Ｃ403A",
     "time": "T6T7T8",
-    "note": "HSS歷史學程。本課程不接受停修申請。三次點名未到且未請假，成績0分計算。",
+    "note": "HSS歷史學程。本課程不接受停修申請。",
     "suspend": "",
     "limit_note": "",
     "freshman_reservation": "0",
@@ -39381,7 +39381,7 @@
     "credit": "3",
     "size_limit": "30",
     "student_count": "",
-    "lecturer": "游師柔 YU, SHIH-JOU",
+    "lecturer": "聘任中",
     "language": "中",
     "class_room_and_time": "COE教院306 F5F6F7",
     "classroom": "COE教院306",
@@ -57008,9 +57008,9 @@
     "student_count": "",
     "lecturer": "周文德 CHOW, WEN-TEH",
     "language": "中",
-    "class_room_and_time": "TSMC台積903 U7U8",
+    "class_room_and_time": "TSMC台積903 U4U7",
     "classroom": "TSMC台積903",
-    "time": "U7U8",
+    "time": "U4U7",
     "note": "周日課程，密集授課",
     "suspend": "",
     "limit_note": "限MBA專班專班",
@@ -57033,12 +57033,12 @@
     "student_count": "",
     "lecturer": "劉玉雯 LIU, YUWEN",
     "language": "中",
-    "class_room_and_time": "TSMC台積903 U5U6",
+    "class_room_and_time": "TSMC台積903 U1U2",
     "classroom": "TSMC台積903",
-    "time": "U5U6",
+    "time": "U1U2",
     "note": "密集授課，本課程請假流程請依在職專班請假單辦理。",
     "suspend": "",
-    "limit_note": "限MBA專班專班",
+    "limit_note": "限MBA專班專班2年級",
     "freshman_reservation": "0",
     "object": "",
     "ge_type": "",
@@ -57108,9 +57108,9 @@
     "student_count": "",
     "lecturer": "洪世章 HUNG, SHIH-CHANG 余士迪 YU, SHIH-TI",
     "language": "中",
-    "class_room_and_time": "TSMC台積903 U3U4",
+    "class_room_and_time": "TSMC台積903 U3U8",
     "classroom": "TSMC台積903",
-    "time": "U3U4",
+    "time": "U3U8",
     "note": "週日課程，密集授課",
     "suspend": "",
     "limit_note": "限MBA專班專班2年級3年級4年級",
@@ -71333,8 +71333,8 @@
     "student_count": "",
     "lecturer": "陳復琴 CHEN, FU-CHIN",
     "language": "英",
-    "class_room_and_time": "COE教院102 F3F4",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院202 F3F4",
+    "classroom": "COE教院202",
     "time": "F3F4",
     "note": "必修，「雙語教學次專長課程」。",
     "suspend": "",
@@ -71383,8 +71383,8 @@
     "student_count": "",
     "lecturer": "張俊一 CHANG, CHUN-YI",
     "language": "中",
-    "class_room_and_time": "COE教院102 R5R6",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院204 R5R6",
+    "classroom": "COE教院204",
     "time": "R5R6",
     "note": "",
     "suspend": "",
@@ -71633,8 +71633,8 @@
     "student_count": "",
     "lecturer": "黃小芳 HUANG, SHIAO-FANG",
     "language": "中",
-    "class_room_and_time": "COE教院102 T8T9",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院204 T8T9",
+    "classroom": "COE教院204",
     "time": "T8T9",
     "note": "必修，113學年度含以前師資生修習國民小學國語教材教法先修課程；修習國語文得採為口語表達包含國音及說話",
     "suspend": "",
@@ -71733,8 +71733,8 @@
     "student_count": "",
     "lecturer": "吳聲毅 WU, SHENG-YI",
     "language": "中",
-    "class_room_and_time": "COE教院102 M7M8",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院117 M7M8",
+    "classroom": "COE教院117",
     "time": "M7M8",
     "note": "",
     "suspend": "",
@@ -71858,8 +71858,8 @@
     "student_count": "",
     "lecturer": "吳聲毅 WU, SHENG-YI 李秉諺 LEE，PINGYEN",
     "language": "英",
-    "class_room_and_time": "COE教院102 T1T2T3T4",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院118 T1T2T3T4",
+    "classroom": "COE教院118",
     "time": "T1T2T3T4",
     "note": "必修，學期課，須修過國民小學國語、數學教材教法先修課，「雙語教學次專長課程」。",
     "suspend": "",
@@ -71883,8 +71883,8 @@
     "student_count": "",
     "lecturer": "洪瑞璇 HUNG, JUI-HSUAN 胡齊隆 HU,CI-LONG",
     "language": "英",
-    "class_room_and_time": "COE教院102 R1R2R3R4",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院117 R1R2R3R4",
+    "classroom": "COE教院117",
     "time": "R1R2R3R4",
     "note": "必修，學期課，須修過國民小學國語、數學教材教法先修課，「雙語教學次專長課程」",
     "suspend": "",
@@ -71908,8 +71908,8 @@
     "student_count": "",
     "lecturer": "邱蘭婷 CHIU, LAN-TING 師培中心",
     "language": "英",
-    "class_room_and_time": "COE教院102 W1W2W3W4",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院208 W1W2W3W4",
+    "classroom": "COE教院208",
     "time": "W1W2W3W4",
     "note": "必修，學期課，須修過國民小學國語、數學教材教法先修課，「雙語教學次專長課程」。授課教師：何奕慧老師。",
     "suspend": "",
@@ -72083,8 +72083,8 @@
     "student_count": "",
     "lecturer": "倪進誠 NI, CHIN-CHENG",
     "language": "中",
-    "class_room_and_time": "COE教院102 W5W6",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院208 W5W6",
+    "classroom": "COE教院208",
     "time": "W5W6",
     "note": "",
     "suspend": "",
@@ -72208,8 +72208,8 @@
     "student_count": "",
     "lecturer": "林裕仁 LIN, YU-REN",
     "language": "英",
-    "class_room_and_time": "COE教院102 T5T6",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院204 T5T6",
+    "classroom": "COE教院204",
     "time": "T5T6",
     "note": "「雙語教學次專長課程」",
     "suspend": "",
@@ -72258,8 +72258,8 @@
     "student_count": "",
     "lecturer": "左思謙 TSUO, SZU-CHIEN",
     "language": "英",
-    "class_room_and_time": "COE教院102 W7W8",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院208 W7W8",
+    "classroom": "COE教院208",
     "time": "W7W8",
     "note": "「雙語教學次專長課程」。",
     "suspend": "",
@@ -72408,8 +72408,8 @@
     "student_count": "",
     "lecturer": "蔡寶桂 TSAT,PAO-KUEI",
     "language": "中",
-    "class_room_and_time": "COE教院102 M1M2",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院117 M1M2",
+    "classroom": "COE教院117",
     "time": "M1M2",
     "note": "",
     "suspend": "",
@@ -72433,8 +72433,8 @@
     "student_count": "",
     "lecturer": "吳聲毅 WU, SHENG-YI",
     "language": "中",
-    "class_room_and_time": "COE教院102 M5M6",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院117 M5M6",
+    "classroom": "COE教院117",
     "time": "M5M6",
     "note": "111學年度前師資生修習本課程得逕採認為教學媒體與運用。",
     "suspend": "",
@@ -72508,8 +72508,8 @@
     "student_count": "",
     "lecturer": "蔡寶桂 TSAT,PAO-KUEI",
     "language": "中",
-    "class_room_and_time": "COE教院102 M3M4",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院117 M3M4",
+    "classroom": "COE教院117",
     "time": "M3M4",
     "note": "",
     "suspend": "",
@@ -72533,8 +72533,8 @@
     "student_count": "",
     "lecturer": "陳復琴 CHEN, FU-CHIN",
     "language": "英",
-    "class_room_and_time": "COE教院102 F5F6",
-    "classroom": "COE教院102",
+    "class_room_and_time": "COE教院202 F5F6",
+    "classroom": "COE教院202",
     "time": "F5F6",
     "note": "「雙語教學次專長課程」。",
     "suspend": "",
@@ -73471,7 +73471,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73496,7 +73496,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73521,7 +73521,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73546,7 +73546,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "(跨領域)基礎醫學學分學程",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73571,7 +73571,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "(跨領域)基礎醫學學分學程",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73596,7 +73596,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "(跨領域)基礎醫學學分學程",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73621,7 +73621,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73646,7 +73646,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73696,7 +73696,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  必修"
   },
   {
@@ -73721,7 +73721,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  選修"
   },
   {
@@ -73746,7 +73746,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  選修"
   },
   {
@@ -73771,7 +73771,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系114X  選修"
   },
   {
@@ -73846,7 +73846,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系113X  必修"
   },
   {
@@ -73871,7 +73871,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系113X  必修"
   },
   {
@@ -73896,7 +73896,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系113X  必修"
   },
   {
@@ -73921,7 +73921,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系113X  必修"
   },
   {
@@ -73946,7 +73946,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系113X  必修"
   },
   {
@@ -73971,7 +73971,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系113X  必修"
   },
   {
@@ -73996,7 +73996,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系113X  必修"
   },
   {
@@ -74046,7 +74046,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74071,7 +74071,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74096,7 +74096,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74121,7 +74121,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74146,7 +74146,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74171,7 +74171,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74196,7 +74196,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74221,7 +74221,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  必修"
   },
   {
@@ -74246,7 +74246,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  選修"
   },
   {
@@ -74271,7 +74271,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系112X  選修"
   },
   {
@@ -74296,7 +74296,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74321,7 +74321,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74346,7 +74346,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74371,7 +74371,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74396,7 +74396,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74421,7 +74421,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74446,7 +74446,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74496,7 +74496,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  必修"
   },
   {
@@ -74521,7 +74521,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74546,7 +74546,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74571,7 +74571,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74596,7 +74596,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74621,7 +74621,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74646,7 +74646,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74671,7 +74671,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74696,7 +74696,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74721,7 +74721,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74746,7 +74746,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74771,7 +74771,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74796,7 +74796,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
@@ -74821,7 +74821,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": "醫學系111X  選修"
   },
   {
