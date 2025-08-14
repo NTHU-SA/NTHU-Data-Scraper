@@ -100,6 +100,18 @@
             },
             {
                 "area": "小吃部",
+                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/apple.jpg",
+                "name": "Straight A",
+                "note": "週六至週日及國定假日暫停營業。8/14、8/20暫停營業。 ",
+                "phone": "(03)571-4647",
+                "schedule": {
+                    "saturday": "週一至週五11:00-19:00",
+                    "sunday": "週一至週五11:00-19:00",
+                    "weekday": "週一至週五11:00-19:00"
+                }
+            },
+            {
+                "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/174010305.jpg",
                 "name": "珈名鮮茶",
                 "note": "8月每週六暫停營業。8/17、8/24暫停營業。",
@@ -349,18 +361,6 @@
                 }
             },
             {
-                "area": "風雲1樓",
-                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/straightA.jpg",
-                "name": "Straight A",
-                "note": "週六至週日及國定假日暫停營業。8/8-8/14暫停營業。8/20暫停營業。 ",
-                "phone": "(03)571-4647",
-                "schedule": {
-                    "saturday": "週一至週五11:00-19:00",
-                    "sunday": "週一至週五11:00-19:00",
-                    "weekday": "週一至週五11:00-19:00"
-                }
-            },
-            {
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/touchcafe.jpg",
                 "name": "Touch Cafe",
@@ -436,7 +436,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/688599712.jpg",
                 "name": "米麵研究所",
-                "note": "8月每週六暫停營業。",
+                "note": "8月每週六暫停營業。8/17暫停營業。",
                 "phone": "0976-475-300",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
