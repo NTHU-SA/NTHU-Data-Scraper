@@ -536,6 +536,13 @@
                     "email": "kueiyun@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "鍾怡婷",
+                    "title": "技術組員",
+                    "extension": "62009",
+                    "note": null,
+                    "email": "yt_chung@mx.nthu.edu.tw"
+                },
+                {
                     "name": "薛宇彤",
                     "title": "職務代理人",
                     "extension": "62010",
@@ -1224,7 +1231,7 @@
                 {
                     "name": "劉孫菱",
                     "title": "行政組員",
-                    "extension": "72204",
+                    "extension": "34437",
                     "note": null,
                     "email": "sunling@mx.nthu.edu.tw"
                 },
@@ -1238,14 +1245,14 @@
                 {
                     "name": "劉盈妘",
                     "title": "組員",
-                    "extension": "72201、34438",
+                    "extension": "34438",
                     "note": null,
                     "email": "yingyun@mx.nthu.edu.tw"
                 },
                 {
                     "name": "謝紅敏",
                     "title": "組員",
-                    "extension": "72206、34439",
+                    "extension": "34439",
                     "note": null,
                     "email": "hmhsieh@mx.nthu.edu.tw"
                 }
@@ -5154,6 +5161,13 @@
                     "email": "ckhuang@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "賴柏辰",
+                    "title": null,
+                    "extension": "42862",
+                    "note": null,
+                    "email": "pclai@mx.nthu.edu.tw"
+                },
+                {
                     "name": "控制室",
                     "title": "",
                     "extension": "31038",
@@ -7224,8 +7238,6 @@
         "details": {
             "departments": [],
             "contact": {
-                "extension": "34398",
-                "fax": "03-5622904",
                 "email": "tsc@my.nthu.edu.tw"
             },
             "people": [
@@ -7237,11 +7249,11 @@
                     "email": "chhan@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "林峻霆",
-                    "title": "企畫營運長",
-                    "extension": "34399",
+                    "name": "楊仲榮",
+                    "title": "協理",
+                    "extension": "62298",
                     "note": null,
-                    "email": "chunting@mx.nthu.edu.tw"
+                    "email": "jryang@mx.nthu.edu.tw"
                 },
                 {
                     "name": "李佳玲",
@@ -7270,6 +7282,13 @@
                     "extension": "34576",
                     "note": null,
                     "email": "fujulee@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "周淑眉",
+                    "title": "專員",
+                    "extension": "62305",
+                    "note": null,
+                    "email": "hsumei_chou@mx.nthu.edu.tw"
                 },
                 {
                     "name": "歐宇芳",
@@ -8181,7 +8200,7 @@
                 },
                 {
                     "name": "陳美娟",
-                    "title": "副理",
+                    "title": "經理",
                     "extension": "62474",
                     "note": null,
                     "email": "royee1019@gapp.nthu.edu.tw"
@@ -8236,7 +8255,7 @@
                 "phone": "03-5742901",
                 "fax": "03-5739270",
                 "email": "cfte@my.nthu.edu.tw",
-                "website": "http://cfte.web.nthu.edu.tw/bin/home.php"
+                "website": "https://cfte.site.nthu.edu.tw/?Lang=zh-tw"
             },
             "people": [
                 {
@@ -8269,45 +8288,31 @@
                 },
                 {
                     "name": "成虹飛",
-                    "title": "教授兼華德福中心主任 / 綜理教育實驗組業務",
+                    "title": "教授兼華德福中心主任",
                     "extension": "76253  73035",
                     "note": null,
                     "email": "hornfaycherng@gmail.com"
                 },
                 {
                     "name": "吳聲毅",
-                    "title": "教授",
+                    "title": "教授兼教育實驗組組長 / 綜理教育實驗組業務",
                     "extension": "76214",
                     "note": null,
                     "email": "wu.sy@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "吳睿純",
-                    "title": "副教授兼副主任",
-                    "extension": "76715",
-                    "note": null,
-                    "email": null
-                },
-                {
                     "name": "陳復琴",
-                    "title": "副教授",
+                    "title": "副教授兼地方教育組組長 / 綜理地方教育組業務",
                     "extension": "72716",
                     "note": null,
                     "email": "edelgard@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "呂秀蓮",
-                    "title": "副教授",
-                    "extension": "35122",
-                    "note": null,
-                    "email": "hllu@mx.nthu.edu.tw"
                 },
                 {
                     "name": "薛曉華",
                     "title": "副教授",
                     "extension": "76298",
                     "note": null,
-                    "email": null
+                    "email": "hsiaohua@mx.nthu.edu.tw"
                 },
                 {
                     "name": "郭哲宇",
@@ -8325,21 +8330,21 @@
                 },
                 {
                     "name": "王智弘",
-                    "title": "約聘助理教授",
+                    "title": "約聘助理教授兼華德福中心副主任",
                     "extension": "76252  72735",
                     "note": null,
                     "email": "ch.wang@mx.nthu.edu.tw"
                 },
                 {
                     "name": "曾文鑑",
-                    "title": "約聘助理研究員",
+                    "title": "合聘助理教授",
                     "extension": "76216",
                     "note": null,
                     "email": "ttge23@gmail.com"
                 },
                 {
                     "name": "蔡寶桂",
-                    "title": "約聘助理研究員",
+                    "title": "合聘助理教授",
                     "extension": "72763",
                     "note": null,
                     "email": "bqtsay@gmail.com"
@@ -8359,13 +8364,6 @@
                     "email": "scchao@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "邱富源",
-                    "title": "組長 / 綜理地方教育組業務",
-                    "extension": "76260  73214",
-                    "note": null,
-                    "email": "chiu.fy@mx.nthu.edu.tw"
-                },
-                {
                     "name": "戴瑩瑩",
                     "title": "組長 / 綜理課程組業務",
                     "extension": "76272",
@@ -8374,7 +8372,7 @@
                 },
                 {
                     "name": "葛雅琴",
-                    "title": "秘書 / 華德福教育相關業務",
+                    "title": "秘書 / 辦理教育實驗及創新業務",
                     "extension": "76254",
                     "note": null,
                     "email": "ycko@mx.nthu.edu.tw"
@@ -8409,28 +8407,28 @@
                 },
                 {
                     "name": "方孜娟",
-                    "title": "專案助理 / 中心行政、獎學金及公費生業務",
+                    "title": "專案組員 / 中心行政、獎學金及公費生業務",
                     "extension": "76291",
                     "note": null,
                     "email": "tc_fang@mx.nthu.edu.tw"
                 },
                 {
                     "name": "楊筑雅",
-                    "title": "專案助理 / 新生遴選、課程相關、學分證明製作(小教、特教、\r\n幼教)",
+                    "title": "專案組員 / 新生遴選、課程相關、學分證明製作(小教、特教、\r\n幼教)",
                     "extension": "76292",
                     "note": null,
                     "email": "chuya@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "羅宥騏",
+                    "name": "朱彥柔",
                     "title": "研究助理 / 華德福中心業務",
                     "extension": "76251",
                     "note": null,
-                    "email": "youqiluo@mx.nthu.edu.tw"
+                    "email": "yjchu@mx.nthu.edu.tw"
                 },
                 {
                     "name": "沈瑋詩",
-                    "title": "研究助理 / 幼教學士後學分班／(中教)學習護照",
+                    "title": "專案組員 / 幼教學士後學分班／(中教)學習護照",
                     "extension": "42911",
                     "note": null,
                     "email": "shenws@mx.nthu.edu.tw"
@@ -8996,31 +8994,35 @@
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4101"
                 },
                 {
-                    "name": "採編組",
+                    "name": "採訪編目組",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4103"
                 },
                 {
-                    "name": "資訊系統組",
+                    "name": "數位發展組",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4105"
                 },
                 {
-                    "name": "典閱組",
+                    "name": "典藏閱覽組",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4107"
                 },
                 {
-                    "name": "服務與創新組",
+                    "name": "服務推廣組",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4109"
                 },
                 {
-                    "name": "特藏組",
+                    "name": "校史與特藏組",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4111"
+                },
+                {
+                    "name": "學習研究服務組",
+                    "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4112"
                 },
                 {
                     "name": "人社分館",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4113"
                 },
                 {
-                    "name": "南大分館",
+                    "name": "南大工作團隊",
                     "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4115"
                 }
             ],
@@ -9132,7 +9134,7 @@
     },
     {
         "index": "4103",
-        "name": "採編組",
+        "name": "採訪編目組",
         "parent_name": "圖書館",
         "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4103",
         "details": {
@@ -9140,7 +9142,6 @@
             "contact": {
                 "extension": "42989",
                 "phone": "03-5742989",
-                "fax": "03-5162292",
                 "email": "acq@my.nthu.edu.tw",
                 "website": "http://www.lib.nthu.edu.tw/"
             },
@@ -9160,13 +9161,6 @@
                     "email": "jhwang@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "梁素瑜",
-                    "title": "專員 / 資料庫徵集及管理",
-                    "extension": "42991",
-                    "note": null,
-                    "email": "syliang@lib.nthu.edu.tw"
-                },
-                {
                     "name": "萬立馨",
                     "title": "組員 / 西文圖書媒體編目分類",
                     "extension": "42242",
@@ -9182,7 +9176,7 @@
                 },
                 {
                     "name": "趙美君",
-                    "title": "助理管理師 / 圖書採購",
+                    "title": "助理管理師 / 圖書、電子書與視聽媒體採購",
                     "extension": "42992",
                     "note": null,
                     "email": "mcchao@lib.nthu.edu.tw"
@@ -9210,22 +9204,29 @@
                 },
                 {
                     "name": "陳育穎",
-                    "title": "專案組員 / 中文圖書媒體編目分類",
+                    "title": "專案組員 / 中日文圖書媒體編目分類",
                     "extension": "42390",
                     "note": null,
                     "email": "yychen@lib.nthu.edu.tw"
                 },
                 {
                     "name": "張儷馨",
-                    "title": "專案組員 / 視聽媒體、資料庫及電子書採購、西文媒體編目分\r\n類",
+                    "title": "行政組員 / 資料庫及聯盟電子書採購",
                     "extension": "42238",
                     "note": null,
                     "email": "changlh@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "彭于軒",
+                    "title": "專案組員 / 西文圖書與視聽媒體編目分類",
+                    "extension": "35757",
+                    "note": null,
+                    "email": "yxpeng@lib.nthu.edu.tw"
+                },
+                {
                     "name": "杜全婷",
                     "title": "約僱管理員 / 圖書媒體期刊加工移送",
-                    "extension": "42243",
+                    "extension": "35760",
                     "note": null,
                     "email": "cttu@lib.nthu.edu.tw"
                 }
@@ -9234,7 +9235,7 @@
     },
     {
         "index": "4105",
-        "name": "資訊系統組",
+        "name": "數位發展組",
         "parent_name": "圖書館",
         "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4105",
         "details": {
@@ -9249,7 +9250,7 @@
             "people": [
                 {
                     "name": "周澍來",
-                    "title": "組長 / 圖書館資訊系統業務",
+                    "title": "組長 / 圖書館數位發展業務",
                     "extension": "42993",
                     "note": null,
                     "email": "sljou@lib.nthu.edu.tw"
@@ -9301,7 +9302,7 @@
     },
     {
         "index": "4107",
-        "name": "典閱組",
+        "name": "典藏閱覽組",
         "parent_name": "圖書館",
         "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4107",
         "details": {
@@ -9329,11 +9330,11 @@
                     "email": "ylchiou@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "鍾彩雲",
-                    "title": "組員 / 圖書館典藏業務",
+                    "name": "洪筱雯",
+                    "title": "行政組員 / 圖書館期刊管理",
                     "extension": "31030",
                     "note": null,
-                    "email": "tychung@lib.nthu.edu.tw "
+                    "email": "hwhung@lib.nthu.edu.tw"
                 },
                 {
                     "name": "韓文惠",
@@ -9378,18 +9379,11 @@
                     "email": "yhhuang@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "林美玲",
-                    "title": "助理管理師 / 圖書館期刊管理",
-                    "extension": "42986",
-                    "note": null,
-                    "email": "mllin@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "卓瓊娟",
+                    "name": "李佩真",
                     "title": "約僱管理員 / 圖書館書庫管理",
                     "extension": "35352",
                     "note": null,
-                    "email": "cccho@lib.nthu.edu.tw"
+                    "email": "pcli@lib.nthu.edu.tw"
                 },
                 {
                     "name": "楊白雪",
@@ -9417,74 +9411,66 @@
     },
     {
         "index": "4109",
-        "name": "服務與創新組",
+        "name": "服務推廣組",
         "parent_name": "圖書館",
         "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4109",
         "details": {
             "departments": [],
             "contact": {
-                "extension": "42995",
-                "phone": "03-5742995",
-                "fax": "03-5162295",
+                "extension": "42984",
+                "phone": "03-5742984",
                 "email": "ref@my.nthu.edu.tw",
                 "website": "http://www.lib.nthu.edu.tw/"
             },
             "people": [
                 {
                     "name": "陳姿臻",
-                    "title": "組長  / 綜理服務與創新組業務",
+                    "title": "組長  / 綜理服務推廣組業務",
                     "extension": "42984",
                     "note": null,
                     "email": "zcchen@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "趙慶芬",
-                    "title": "組員 / 策展與參考服務",
-                    "extension": "42389",
+                    "name": "翁瑩禎",
+                    "title": "組員 / 館藏推廣、策展活動",
+                    "extension": "42395",
                     "note": null,
-                    "email": "cfchao@lib.nthu.edu.tw"
+                    "email": "ycweng@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "陳宣萱",
-                    "title": "組員 / 教師指定參考書與參考服務",
+                    "name": "劉采靈",
+                    "title": "助理管理師 / 讀者信箱回覆、導覽統籌、策展活動",
+                    "extension": "42883",
+                    "note": null,
+                    "email": "tlliou@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "馬兆園",
+                    "title": "專案組員 / 美術設計、策展與推廣活動",
+                    "extension": "42389",
+                    "note": null,
+                    "email": "zybeh@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "莊翊鈞",
+                    "title": "專案組員 / 行銷宣傳、策展與推廣活動",
                     "extension": "42244",
                     "note": null,
-                    "email": "hhchen@lib.nthu.edu.tw"
+                    "email": "ycchuang@lib.nthu.edu.tw"
                 },
                 {
                     "name": "傅巧芸",
-                    "title": "行政組員 / 推廣宣傳與參考服務",
+                    "title": "助理管理師 / 導覽、推廣宣傳與參考服務",
                     "extension": "42394",
                     "note": null,
                     "email": "candyfu@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "劉致妤",
-                    "title": "專案組員 / 館際合作、導覽與參考服務",
-                    "extension": "42994",
-                    "note": null,
-                    "email": "cyliu@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "陳思潔",
-                    "title": "專案組員 / 研發成果分析、研究支援服務",
-                    "extension": "42883",
-                    "note": null,
-                    "email": "sjchen@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "參考諮詢台",
-                    "title": "",
-                    "extension": "42995",
-                    "note": "",
-                    "email": "ref@my.nthu.edu.tw"
                 }
             ]
         }
     },
     {
         "index": "4111",
-        "name": "特藏組",
+        "name": "校史與特藏組",
         "parent_name": "圖書館",
         "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4111",
         "details": {
@@ -9492,7 +9478,6 @@
             "contact": {
                 "extension": "42988",
                 "phone": "03-5742988",
-                "fax": "03-5162296",
                 "email": "special@my.nthu.edu.tw",
                 "website": "https://www.lib.nthu.edu.tw/"
             },
@@ -9510,13 +9495,6 @@
                     "extension": "42988",
                     "note": null,
                     "email": "ycchiang@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "劉采靈",
-                    "title": "助理管理師",
-                    "extension": "42387",
-                    "note": null,
-                    "email": "tlliou@lib.nthu.edu.tw"
                 },
                 {
                     "name": "洪素萱",
@@ -9543,6 +9521,98 @@
         }
     },
     {
+        "index": "4112",
+        "name": "學習研究服務組",
+        "parent_name": "圖書館",
+        "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4112",
+        "details": {
+            "departments": [],
+            "contact": {
+                "extension": "62292",
+                "phone": "03-5162292"
+            },
+            "people": [
+                {
+                    "name": "張淑華",
+                    "title": "組長 / 綜理學研組業務",
+                    "extension": "62292",
+                    "note": null,
+                    "email": "shchang@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "梁素瑜",
+                    "title": "專員 / 期刊與資料庫徵集評估、電子資源統計分析異常狀況\r\n處理",
+                    "extension": "42991",
+                    "note": null,
+                    "email": "syliang@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "陳宣萱",
+                    "title": "組員 / 學術投稿服務、英語利用指導",
+                    "extension": "42239",
+                    "note": null,
+                    "email": "hhchen@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "賴怡萱",
+                    "title": "組員 / 學科指南服務、圖書館利用指導課程",
+                    "extension": "42243",
+                    "note": null,
+                    "email": "yhlai@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "李宿逸",
+                    "title": "行政組員 / 教師指定參考書、考古題",
+                    "extension": "62295",
+                    "note": null,
+                    "email": "syli@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "陳思潔",
+                    "title": "專案組員 / 研發成果分析、研究支援服務",
+                    "extension": "62387",
+                    "note": null,
+                    "email": "sjchen@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "參考諮詢台",
+                    "title": "",
+                    "extension": "42995",
+                    "note": "",
+                    "email": null
+                },
+                {
+                    "name": "學術投稿服務",
+                    "title": "",
+                    "extension": null,
+                    "note": "",
+                    "email": "scholar@my.nthu.edu.tw"
+                },
+                {
+                    "name": "資料庫業務",
+                    "title": "",
+                    "extension": null,
+                    "note": "",
+                    "email": "database@my.nthu.edu.tw"
+                },
+                {
+                    "name": "研發成果報告申請",
+                    "title": "",
+                    "extension": null,
+                    "note": "",
+                    "email": "ras@my.nthu.edu.tw"
+                },
+                {
+                    "name": "館際合作服務",
+                    "title": "",
+                    "extension": "42994",
+                    "note": "",
+                    "email": "ill@my.nthu.edu.tw"
+                }
+            ]
+        }
+    },
+    {
         "index": "4113",
         "name": "人社分館",
         "parent_name": "圖書館",
@@ -9559,55 +9629,55 @@
             "people": [
                 {
                     "name": "李欣怡",
-                    "title": "分館主任 / 分館行政與讀者服務",
+                    "title": "主任 / 綜理人社分館業務",
                     "extension": "42815",
                     "note": null,
                     "email": "sylii@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "賴怡萱",
-                    "title": "助理員 / 參考服務",
-                    "extension": "42811",
-                    "note": null,
-                    "email": "yhlai@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "曾淑玲",
-                    "title": "行政組員 / 流通服務",
+                    "name": "楊雅芬",
+                    "title": "行政組員 / 流通櫃台、典藏、閱覽業務",
                     "extension": "62382",
                     "note": null,
-                    "email": "sltzeng@lib.nthu.edu.tw"
+                    "email": "yfyang@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "李宿逸",
-                    "title": "行政組員 / 期刊業務",
+                    "name": "趙慶芬",
+                    "title": "組員 / 期刊、參考&珍藏室、展覽推廣業務",
                     "extension": "62381",
                     "note": null,
-                    "email": "syli@lib.nthu.edu.tw"
+                    "email": "cfchao@lib.nthu.edu.tw"
+                },
+                {
+                    "name": "鄭致遠",
+                    "title": "行政組員 / 學術研究服務、教師指定參考書業務",
+                    "extension": "42811",
+                    "note": null,
+                    "email": "cycheng@lib.nthu.edu.tw"
                 },
                 {
                     "name": "吳沛筠",
-                    "title": "約僱管理員 / 典藏業務",
+                    "title": "約僱管理員 / 館際合作、書庫管理業務",
                     "extension": "42816",
                     "note": null,
                     "email": "pywu@lib.nthu.edu.tw"
                 },
                 {
                     "name": "陳文志",
-                    "title": "工友",
+                    "title": "工友 / 館舍維護清潔、公文郵件傳送",
                     "extension": "62384",
                     "note": null,
                     "email": "wjchen@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "借還書櫃檯",
+                    "name": "流通櫃檯",
                     "title": "",
                     "extension": "42813",
                     "note": "",
                     "email": null
                 },
                 {
-                    "name": "參考諮詢檯",
+                    "name": "參考櫃檯",
                     "title": "",
                     "extension": "42814",
                     "note": "",
@@ -9618,7 +9688,7 @@
     },
     {
         "index": "4115",
-        "name": "南大分館",
+        "name": "南大工作團隊",
         "parent_name": "圖書館",
         "url": "https://tel.net.nthu.edu.tw/nthusearch/dept.php?dd=4115",
         "details": {
@@ -9632,38 +9702,17 @@
             "people": [
                 {
                     "name": "張淑華",
-                    "title": "主任 / 規劃督導南大分館所屬業務",
-                    "extension": "76341",
+                    "title": "組長  / 規劃督導南大分館所屬業務",
+                    "extension": "62292",
                     "note": null,
                     "email": "shchang@lib.nthu.edu.tw"
                 },
                 {
-                    "name": "林婉琪",
-                    "title": "組員 / 閱覽空間及環境清潔管理、期刊及報紙管理及臺聯\r\n大代借代還服務、推廣活動。",
-                    "extension": "76332",
-                    "note": null,
-                    "email": "wclin@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "鄭致遠",
-                    "title": "行政組員 / 流通櫃檯業務及工讀生管理、南大校區二學院學科\r\n館員。",
-                    "extension": "76323",
-                    "note": null,
-                    "email": "cycheng@lib.nthu.edu.tw"
-                },
-                {
                     "name": "林宜政",
-                    "title": "行政組員 / 南大校區學生論文上傳審查及視聽資料區管理",
+                    "title": "行政組員 / 南大分館閱覽及環境安全管理。",
                     "extension": "76357",
                     "note": null,
                     "email": "yiclin@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "洪筱雯",
-                    "title": "專案組員  / 南大分館書目編修及書庫管理",
-                    "extension": "76343",
-                    "note": null,
-                    "email": "hwhung@lib.nthu.edu.tw"
                 },
                 {
                     "name": "李宗玉",
@@ -9674,17 +9723,10 @@
                 },
                 {
                     "name": "高淑瓊",
-                    "title": "約僱管理員 / 期刊登錄及圖書加工作業",
+                    "title": "約僱管理員 / 流通櫃檯及圖書報廢處理",
                     "extension": "76313",
                     "note": null,
                     "email": "sckao@lib.nthu.edu.tw"
-                },
-                {
-                    "name": "吳語庭",
-                    "title": "組員 / 閱覽設備及環境安全管理、書庫典藏及管理、校內\r\n代借代還服務、南大分館圖書報廢處理。",
-                    "extension": "76312",
-                    "note": null,
-                    "email": "ytwu@lib.nthu.edu.tw"
                 }
             ]
         }
@@ -12952,8 +12994,8 @@
             "people": [
                 {
                     "name": "黃智永",
-                    "title": "主任",
-                    "extension": "42916   42676",
+                    "title": null,
+                    "extension": "42916",
                     "note": null,
                     "email": "cyhuang@pme.nthu.edu.tw"
                 },
@@ -13000,13 +13042,6 @@
                     "email": "knchiang@pme.nthu.edu.tw"
                 },
                 {
-                    "name": "王培仁",
-                    "title": null,
-                    "extension": "42917",
-                    "note": null,
-                    "email": "pjwang@pme.nthu.edu.tw"
-                },
-                {
                     "name": "陳榮順",
                     "title": null,
                     "extension": "42596",
@@ -13050,7 +13085,7 @@
                 },
                 {
                     "name": "白明憲",
-                    "title": "副主任",
+                    "title": null,
                     "extension": "42915",
                     "note": null,
                     "email": "msbai@pme.nthu.edu.tw"
@@ -13092,14 +13127,14 @@
                 },
                 {
                     "name": "李昌駿",
-                    "title": null,
-                    "extension": "62410",
+                    "title": "主任",
+                    "extension": "62410 42676",
                     "note": null,
                     "email": "cclee@pme.nthu.edu.tw"
                 },
                 {
                     "name": "李明蒼",
-                    "title": null,
+                    "title": "副主任",
                     "extension": "42497",
                     "note": null,
                     "email": "mtlee@pme.nthu.edu.tw"
@@ -13126,13 +13161,6 @@
                     "email": "mhtien@pme.nthu.edu.tw"
                 },
                 {
-                    "name": "黃琮暉",
-                    "title": null,
-                    "extension": "33731",
-                    "note": null,
-                    "email": "thhuang@mx.nthu.edu.tw"
-                },
-                {
                     "name": "楊佩良",
                     "title": null,
                     "extension": "62098",
@@ -13145,13 +13173,6 @@
                     "extension": "42919",
                     "note": null,
                     "email": "c.chang@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "覺元彙",
-                    "title": null,
-                    "extension": "33754",
-                    "note": null,
-                    "email": "yhchueh@mx.nthu.edu.tw"
                 },
                 {
                     "name": "孟嘉祥",
@@ -13259,6 +13280,13 @@
                     "email": "morikawa@pme.nthu.edu.tw"
                 },
                 {
+                    "name": "佐藤隆昭",
+                    "title": null,
+                    "extension": "33731",
+                    "note": null,
+                    "email": "takaakis@pme.nthu.edu.tw"
+                },
+                {
                     "name": "石昭明",
                     "title": null,
                     "extension": "33792",
@@ -13266,123 +13294,11 @@
                     "email": "shiha@umich.edu"
                 },
                 {
-                    "name": "王志宏",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "jhwang@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "陳理定",
-                    "title": null,
-                    "extension": "33707",
-                    "note": null,
-                    "email": null
-                },
-                {
-                    "name": "彭明輝",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": null
-                },
-                {
-                    "name": "葉銘泉",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "mcyip@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "吳隆庸",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "liwu@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "蔣小偉",
-                    "title": null,
-                    "extension": "33707",
-                    "note": null,
-                    "email": "hwchiang@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "陳文華",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "whchen@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "李雄略",
-                    "title": null,
-                    "extension": "33732",
-                    "note": null,
-                    "email": "sllee@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "蔣長榮",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "crchiang@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "左培倫",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "pltso@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "范龍生",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "lsfan@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "蕭德瑛",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "dishaw@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "葉孟考",
-                    "title": null,
-                    "extension": null,
-                    "note": null,
-                    "email": "mkyeh@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "洪哲文",
-                    "title": null,
-                    "extension": "33752",
-                    "note": null,
-                    "email": "cwhong@pme.nthu.edu.tw"
-                },
-                {
                     "name": "賀陳弘",
                     "title": null,
                     "extension": "62097",
                     "note": null,
                     "email": "hocheng@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "林士傑",
-                    "title": null,
-                    "extension": "42920",
-                    "note": null,
-                    "email": "sclin@pme.nthu.edu.tw"
-                },
-                {
-                    "name": "宋震國",
-                    "title": null,
-                    "extension": "42918",
-                    "note": null,
-                    "email": "cksung@pme.nthu.edu.tw"
                 },
                 {
                     "name": "梁玉琴",
@@ -13474,6 +13390,97 @@
                     "extension": "33778",
                     "note": null,
                     "email": "kc.hsueh@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "駱妍汝",
+                    "title": null,
+                    "extension": "33794",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "鄭又仁",
+                    "title": null,
+                    "extension": "33712",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "林思廷",
+                    "title": null,
+                    "extension": "33785",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "林金慧",
+                    "title": null,
+                    "extension": "42494",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "呂思穎",
+                    "title": null,
+                    "extension": "33730",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "羅珮瑄",
+                    "title": null,
+                    "extension": "33720",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "呂瑄宜",
+                    "title": null,
+                    "extension": "33756",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "黃郁萍",
+                    "title": null,
+                    "extension": "33737",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "彭佳華",
+                    "title": null,
+                    "extension": "33787",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "林達",
+                    "title": null,
+                    "extension": "80626",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "井上楓",
+                    "title": null,
+                    "extension": "80632",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "李宛諭",
+                    "title": null,
+                    "extension": "33973",
+                    "note": null,
+                    "email": null
+                },
+                {
+                    "name": "楊淨淳",
+                    "title": null,
+                    "extension": "33790",
+                    "note": null,
+                    "email": null
                 }
             ]
         }
@@ -13722,14 +13729,14 @@
                     "title": "助理教授",
                     "extension": null,
                     "note": null,
-                    "email": null
+                    "email": "cshuang@mx.nthu.edu.tw"
                 },
                 {
                     "name": "何柏勳",
                     "title": "助理教授",
                     "extension": null,
                     "note": null,
-                    "email": null
+                    "email": "pohsunho@mx.nthu.edu.tw"
                 },
                 {
                     "name": "張士欽",
@@ -13859,10 +13866,17 @@
                 },
                 {
                     "name": "范樂平",
-                    "title": "專案組員 / 大學部招生入學、系友會業務、業界導師、D組教師 \r\n計畫",
+                    "title": "行政組員 / 大學部招生入學、系友會業務、業界導師、D組教師 \r\n計畫",
                     "extension": "33832",
                     "note": null,
                     "email": "lp.fan@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "周玟醇",
+                    "title": "專案組員 / 前瞻產博及境外生之招生及學生業務、國際化學生相\r\n關、獎學金及工讀金、場地及門禁等。",
+                    "extension": "35363",
+                    "note": null,
+                    "email": "chouwc@mx.nthu.edu.tw"
                 },
                 {
                     "name": "吳柏欣",
@@ -14636,8 +14650,8 @@
         "details": {
             "departments": [],
             "contact": {
-                "extension": "33704",
-                "phone": "03- 5710521",
+                "extension": "43050",
+                "phone": "03- 5743050",
                 "fax": "03- 5712670",
                 "email": "space@my.nthu.edu.tw"
             },
@@ -15286,60 +15300,11 @@
                     "email": "rjsheu@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "王翔郁",
-                    "title": "教授",
-                    "extension": "34243",
-                    "note": null,
-                    "email": "hywang@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "江啓勲",
-                    "title": "教授",
-                    "extension": "35581",
-                    "note": null,
-                    "email": "cschiang@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "李敏",
-                    "title": "教授",
-                    "extension": "34316",
-                    "note": null,
-                    "email": "mlee@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "李志浩",
-                    "title": "教授",
-                    "extension": "34281",
-                    "note": null,
-                    "email": "chlee@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "吳永俊",
-                    "title": "教授",
-                    "extension": "34287",
-                    "note": null,
-                    "email": "ycwu@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "俞鐘山",
-                    "title": "教授",
-                    "extension": "35582",
-                    "note": null,
-                    "email": "csyu@mx.nthu.edu.tw"
-                },
-                {
                     "name": "陳紹文",
-                    "title": "教授兼所長",
+                    "title": "教授",
                     "extension": "34169",
                     "note": null,
                     "email": "chensw@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "陳燦耀",
-                    "title": "教授",
-                    "extension": "34271",
-                    "note": null,
-                    "email": "tsanyao@mx.nthu.edu.tw"
                 },
                 {
                     "name": "梁正宏",
@@ -15349,53 +15314,11 @@
                     "email": "jhliang@ess.nthu.edu.tw"
                 },
                 {
-                    "name": "張廖貴術",
-                    "title": "教授",
-                    "extension": "42674",
-                    "note": null,
-                    "email": "lkschang@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "馮玉明",
-                    "title": "教授",
-                    "extension": "34289",
-                    "note": null,
-                    "email": "ymferng@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "葉宗洸",
-                    "title": "教授",
-                    "extension": "42373",
-                    "note": null,
-                    "email": "tkyeh@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "葉秩光",
-                    "title": "教授",
-                    "extension": "34240",
-                    "note": null,
-                    "email": "ckyeh@mx.nthu.edu.tw"
-                },
-                {
                     "name": "蔡惠予",
-                    "title": "教授",
+                    "title": "教授兼所長",
                     "extension": "34236",
                     "note": null,
                     "email": "huiyutsai@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "蕭百沂",
-                    "title": "教授",
-                    "extension": "62247",
-                    "note": null,
-                    "email": "pyhsiao@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "吳順吉",
-                    "title": "副教授",
-                    "extension": "34304",
-                    "note": null,
-                    "email": "shunchi.wu@mx.nthu.edu.tw "
                 },
                 {
                     "name": "林明緯",
@@ -16105,7 +16028,7 @@
                 },
                 {
                     "name": "李書雨",
-                    "title": "助理教授",
+                    "title": "副教授",
                     "extension": "42714",
                     "note": null,
                     "email": "shuyulee@mx.nthu.edu.tw"
@@ -16838,25 +16761,11 @@
                     "email": "yingchienyang@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "吳瑞媛",
-                    "title": "退休副教授",
-                    "extension": "42724",
-                    "note": "退休",
-                    "email": "rywu@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "趙之振",
-                    "title": "退休副教授",
+                    "name": "康少璞",
+                    "title": "助理教授",
                     "extension": "42725",
-                    "note": "退休",
-                    "email": "ccchiu@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "張旺山",
-                    "title": "榮譽退休教授",
-                    "extension": "42726",
-                    "note": "退休",
-                    "email": "wschang@mx.nthu.edu.tw"
+                    "note": null,
+                    "email": "spkang@mx.nthu.edu.tw"
                 },
                 {
                     "name": "劉秋宜",
@@ -21576,25 +21485,25 @@
             },
             "people": [
                 {
-                    "name": "林哲群",
+                    "name": "彭心儀",
                     "title": "院長",
                     "extension": "62100",
                     "note": null,
-                    "email": "chclin@mx.nthu.edu.tw"
+                    "email": "sypeng@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "祁玉蘭",
+                    "name": "吳世英",
                     "title": "副院長",
-                    "extension": "42732",
+                    "extension": "62031",
                     "note": null,
-                    "email": "ylchyi@mx.nthu.edu.tw"
+                    "email": "wus@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "張焯然",
+                    "name": "劉玉雯",
                     "title": "副院長",
-                    "extension": "42420",
+                    "extension": "42246",
                     "note": null,
-                    "email": "jrchang@mx.nthu.edu.tw"
+                    "email": "ywliu@mx.nthu.edu.tw"
                 },
                 {
                     "name": "俞明德",
@@ -22283,6 +22192,13 @@
                     "email": "pohsuanhsu@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "蔡子晧",
+                    "title": "教授",
+                    "extension": "62163",
+                    "note": null,
+                    "email": "thtsai@mx.nthu.edu.tw"
+                },
+                {
                     "name": "韓傳祥",
                     "title": "副教授",
                     "extension": "42224",
@@ -22295,13 +22211,6 @@
                     "extension": "42223",
                     "note": null,
                     "email": "lcso@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "蔡子晧",
-                    "title": "副教授",
-                    "extension": "62163",
-                    "note": null,
-                    "email": "thtsai@mx.nthu.edu.tw"
                 },
                 {
                     "name": "謝佩芳",
@@ -22364,18 +22273,18 @@
             },
             "people": [
                 {
-                    "name": "廖肇寧",
+                    "name": "趙相科",
                     "title": "教授兼系主任",
-                    "extension": "62138",
+                    "extension": "42722",
                     "note": null,
-                    "email": "liaocn@mx.nthu.edu.tw"
+                    "email": "hkchao@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "郭俊宏",
+                    "name": "李翎帆",
                     "title": "副教授兼副系主任",
-                    "extension": "42728",
+                    "extension": "42891",
                     "note": null,
-                    "email": "kuoch@mx.nthu.edu.tw"
+                    "email": "lilf@mx.nthu.edu.tw "
                 },
                 {
                     "name": "朱筱蕾",
@@ -22427,25 +22336,11 @@
                     "email": "phfung@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "黃朝熙",
+                    "name": "廖肇寧",
                     "title": "教授",
-                    "extension": "42735",
+                    "extension": "62138",
                     "note": null,
-                    "email": "ghuang@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "趙相科",
-                    "title": "教授",
-                    "extension": "42722",
-                    "note": null,
-                    "email": "hkchao@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "劉瑞華",
-                    "title": "教授",
-                    "extension": "42731",
-                    "note": null,
-                    "email": "rhliu@mx.nthu.edu.tw"
+                    "email": "liaocn@mx.nthu.edu.tw"
                 },
                 {
                     "name": "王惠貞",
@@ -22469,13 +22364,6 @@
                     "email": "ylee@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "李翎帆",
-                    "title": "副教授",
-                    "extension": "42891",
-                    "note": null,
-                    "email": "lilf@mx.nthu.edu.tw "
-                },
-                {
                     "name": "周嗣文",
                     "title": "副教授",
                     "extension": "62032",
@@ -22497,11 +22385,25 @@
                     "email": "jhtang@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "郭俊宏",
+                    "title": "副教授",
+                    "extension": "42728",
+                    "note": null,
+                    "email": "kuoch@mx.nthu.edu.tw"
+                },
+                {
                     "name": "黃賀寶",
                     "title": "副教授",
                     "extension": "42736",
                     "note": null,
                     "email": "hpwong@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "蔡璧涵",
+                    "title": "副教授",
+                    "extension": "42890",
+                    "note": null,
+                    "email": "pihantsai@mx.nthu.edu.tw"
                 },
                 {
                     "name": "盧姝璇",
@@ -22511,11 +22413,18 @@
                     "email": "sslu@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "蔡璧涵",
-                    "title": "副教授",
-                    "extension": "42890",
+                    "name": "陳語寬",
+                    "title": "助理教授",
+                    "extension": "42892",
                     "note": null,
-                    "email": "pihantsai@mx.nthu.edu.tw"
+                    "email": "ykchen@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "陳惠鈞",
+                    "title": "助理教授",
+                    "extension": "42730",
+                    "note": null,
+                    "email": "huijunchen@mx.nthu.edu.tw"
                 },
                 {
                     "name": "蘇盈如",
@@ -22526,7 +22435,7 @@
                 },
                 {
                     "name": "車佩琴",
-                    "title": "行政助理",
+                    "title": "行政組員",
                     "extension": "34640",
                     "note": null,
                     "email": "econ@my.nthu.edu.tw"
