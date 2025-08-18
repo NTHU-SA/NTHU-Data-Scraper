@@ -690,6 +690,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】外語系114學年度第1學期教學助理(TA)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293848,r5074.php?Lang=zh-tw",
+                "date": "2025-08-18"
+            },
+            {
                 "title": "【 徵才 】清華大學材料科學工程學系誠徵研究助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293837,r5074.php?Lang=zh-tw",
                 "date": "2025-08-18"
@@ -742,11 +747,6 @@
             {
                 "title": "【快來投稿！】115年校慶「未來由我 Future by Us」標章徵選活動，即日起收件，114年9月30日截止",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293040,r5074.php?Lang=zh-tw",
-                "date": "2025-07-30"
-            },
-            {
-                "title": "【誠徵】國立清華大學生活輔導組資訊系統研發與導入研究助理1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293038,r5074.php?Lang=zh-tw",
                 "date": "2025-07-30"
             }
         ]
@@ -1449,6 +1449,11 @@
         "department": "師資培育中心",
         "articles": [
             {
+                "title": "【轉知】光華國中誠徵數學生物代課老師",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-293854,r157.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【轉知】教育部體育署委託國立臺灣師範大學辦理114年度「戶外探索:體驗參與、挑戰樂趣、跨域創新計畫」師資增能研習活動",
                 "link": "https://cfte.site.nthu.edu.tw/var/file/275/1275/img/293039757.pdf",
                 "date": null
@@ -1501,11 +1506,6 @@
             {
                 "title": "【轉知】國立師大附中國中部114學年度兼課教師徵選",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-291672,r157.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【轉知】財團法人民間公民與法治教育基金會辦理「2025-26年全國公民行動方案種子教師工作坊」",
-                "link": "https://www.lre.org.tw/news/1004",
                 "date": null
             }
         ]
@@ -6743,6 +6743,74 @@
         ]
     },
     {
+        "title": "跨領域學習相關報導",
+        "link": "https://ipe.site.nthu.edu.tw/p/403-1300-4234-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "工學院學士班",
+        "articles": [
+            {
+                "title": "跨領域思考，擁有邁向未來的能力",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-234802,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "跨領域相關報導：5大國際趨勢解讀，撞出創新火花",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-140701,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "從電機到法律，我的尋夢之旅──寫給迷惘的你：當全世界都在談「追夢」，你知道自己的夢想是什麼嗎？",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-127222,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "努力跳脫舒適圈，通才比專才更吃香",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-102140,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "清大推「多專長」套餐課 128個畢業學分搞定免延畢（媒體報導）",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-99597,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "打破學籍藩籬 清大推跨院系學士學位（媒體報導）",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-99497,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "未來領袖必須具備的特質：跨領域創新思維",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-91705,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "連5歲小孩都會：英國將寫程式列為中小學必修，台灣卻連大學生都不想學",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-91703,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "史丹佛　這樣教創新",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-91701,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "打造雙專長 跨領域報考發燒",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-91139,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "33歲台灣人　被Google找去改變十億人",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-71674,r4234.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "演員 張鈞甯：多開幾扇「門」，大學每一步都不浪費",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-70532,r4234.php?Lang=zh-tw",
+                "date": null
+            }
+        ]
+    },
+    {
         "title": "校內外訊息",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-772-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -7147,6 +7215,11 @@
         "department": "語文中心",
         "articles": [
             {
+                "title": "【轉知】財團法人語言訓練測驗中心「日本語能力試驗（JLPT）」報名資訊",
+                "link": "https://language.site.nthu.edu.tw/p/406-1212-293858,r6822.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【轉知】陽交大語言中心開設2025秋季外語進修班：",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-293716,r6822.php?Lang=zh-tw",
                 "date": null
@@ -7199,11 +7272,6 @@
             {
                 "title": "【轉知】國立中山大學外國語文教學中心「2025夏季外語進修課程」招生資訊：",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-287667,r6822.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【轉知】財團法人語言訓練測驗中心「全民英檢」(GEPT)高級聽讀測驗級報名資訊",
-                "link": "https://language.site.nthu.edu.tw/p/406-1212-287506,r6822.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -9988,11 +10056,6 @@
                 "date": "2025-07-31"
             },
             {
-                "title": "【New Undergraduate】Applications for 2025 New Undergraduate Students",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293083,r1538.php?Lang=en",
-                "date": "2025-07-30"
-            },
-            {
                 "title": "【Graduate】Application for the waiting list of single room of the Main Campus and for suite of the Nanda Campus (Academic Year 2025)",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292250,r1538.php?Lang=en",
                 "date": "2025-07-15"
@@ -10031,6 +10094,11 @@
                 "title": "Temporary QR Code for Dorm Access (New Students and Exchange Students)",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293251,r1538.php?Lang=en",
                 "date": "2025-08-04"
+            },
+            {
+                "title": "【New Undergraduate】Applications for 2025 New Undergraduate Students",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293083,r1538.php?Lang=en",
+                "date": "2025-07-30"
             },
             {
                 "title": "Aug. 1~14 Dormitory Card Reader Rate Update",
@@ -10081,11 +10149,6 @@
                 "date": "2025-07-31"
             },
             {
-                "title": "【大學部新生】114學年大學部新生宿舍申請公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293083,r1538.php?Lang=zh-tw",
-                "date": "2025-07-30"
-            },
-            {
                 "title": "114學年上學期進住作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-290637,r1538.php?Lang=zh-tw",
                 "date": "2025-06-16"
@@ -10119,6 +10182,11 @@
                 "title": "【轉營繕組公告】8/20 南大校區主變壓器汰換停電通知",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-293441,r992.php?Lang=zh-tw",
                 "date": "2025-08-07"
+            },
+            {
+                "title": "學生宿舍門禁臨時QR Code使用說明 （新生、轉學生、交換生）",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293251,r1538.php?Lang=zh-tw",
+                "date": "2025-08-04"
             }
         ]
     },

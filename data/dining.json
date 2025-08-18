@@ -66,7 +66,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/353914610.jpg",
                 "name": "一番快餐",
-                "note": "8月每週六暫停營業。8/10~8/17暫停營業、8/11~8/30晚餐暫停營業。",
+                "note": "8月每週六暫停營業。8/18~8/30晚餐暫停營業。",
                 "phone": "0933-511-522",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -102,7 +102,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/apple.jpg",
                 "name": "Straight A",
-                "note": "週六至週日及國定假日暫停營業。8/14、8/20暫停營業。 ",
+                "note": "週六至週日及國定假日暫停營業。8/20暫停營業。 ",
                 "phone": "(03)571-4647",
                 "schedule": {
                     "saturday": "週一至週五11:00-19:00",
@@ -114,7 +114,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/174010305.jpg",
                 "name": "珈名鮮茶",
-                "note": "8月每週六暫停營業。8/17、8/20、8/24暫停營業。",
+                "note": "8月每週六暫停營業。8/20、8/24暫停營業。",
                 "phone": "0952-173-353，0953-173-353",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -167,7 +167,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/330917353.jpg",
                 "name": "朕在嚐粉",
-                "note": "每週六、日暫停營業。8/15晚餐暫停營業",
+                "note": "每週六、日暫停營業。",
                 "phone": "0920-742-168",
                 "schedule": {
                     "saturday": "11:15-13:30, 16:30-18:45",
@@ -251,7 +251,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/597459635.jpg",
                 "name": "弘謙食堂",
-                "note": "8月每周日暫停營業。8/15營業至15:30。",
+                "note": "8月每周日暫停營業。",
                 "phone": "0973-633-683",
                 "schedule": {
                     "saturday": "11:00-19:30",
@@ -311,7 +311,7 @@
                 "area": "水木生活中心2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/557083824.jpg",
                 "name": "胖達咖啡",
-                "note": "每週六暫停營業。8/14；8/15暫停營業。",
+                "note": "每週六暫停營業。",
                 "phone": "(03)572-2245，0933-601-323",
                 "schedule": {
                     "saturday": "週一至週五11:00-20:00、週日12:00-18:00",
@@ -376,7 +376,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/445210944.jpg",
                 "name": "鼎盛蔬食(自助餐)",
-                "note": "8月每週六暫停營業。8/14暫停營業。",
+                "note": "8月每週六暫停營業。",
                 "phone": "0908-018-900",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-19:30",
@@ -412,7 +412,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/113200637.jpg",
                 "name": "茗釀茶品",
-                "note": "8月每週六暫停營業。8/15、8/22暫停營業。",
+                "note": "8月每週六暫停營業。8/22暫停營業。",
                 "phone": "0987-003-821",
                 "schedule": {
                     "saturday": "10:00-20:00",
@@ -436,7 +436,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/688599712.jpg",
                 "name": "米麵研究所",
-                "note": "8月每週六暫停營業。8/17暫停營業。",
+                "note": "8月每週六暫停營業。",
                 "phone": "0976-475-300",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -496,7 +496,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/482487586.jpg",
                 "name": "牛肉先生",
-                "note": "8月每週六暫停營業。8/15暫停營業。",
+                "note": "8月每週六暫停營業。",
                 "phone": "0928-885-666",
                 "schedule": {
                     "saturday": "11:00-19:30",
@@ -520,7 +520,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/461802499.jpg",
                 "name": "珍御品粥麵館",
-                "note": "8月每週六暫停營業。8/15、8/17、8/28、9/6暫停營業。",
+                "note": "8月每週六暫停營業。8/28、9/6暫停營業。",
                 "phone": "0937-135-706，0911-892-772",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -556,7 +556,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/103504156.jpg",
                 "name": "完顏南洋料理",
-                "note": "8月每週六暫停營業。",
+                "note": "8月每週六暫停營業。8/18暫停營業。",
                 "phone": "0911-901-509",
                 "schedule": {
                     "saturday": "11:00-19:30",
