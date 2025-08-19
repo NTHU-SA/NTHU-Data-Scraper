@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8c2a8297f04ad36e2b17038b1c0a595b93904c3d",
-        "last_updated": "2025-08-19T04:18:50+08:00",
+        "last_commit": "0c78bf34addeed8330f270bdfb83ebc55b0c4832",
+        "last_updated": "2025-08-19T16:20:45+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "9638f340082d2f17544a302a73aded95b35cf6e5",
-        "last_updated": "2025-08-16T06:17:43+08:00",
+        "last_commit": "c4be2ccd2b49ea8e026cb90f70395d75d43aa44e",
+        "last_updated": "2025-08-19T12:19:49+08:00",
         "name": "courses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "dining.json"
       },
       {
-        "last_commit": "26ead961c6701519df1db09ad75afa928aca12e9",
-        "last_updated": "2025-08-19T10:38:58+08:00",
+        "last_commit": "c16262e4cc4590e7cbb934871240eef6fdf7e620",
+        "last_updated": "2025-08-19T18:09:59+08:00",
         "name": "directory.json"
       },
       {
@@ -32,8 +32,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "c741460db5302f49efa0bb77b18961a4d60cbe49",
-        "last_updated": "2025-08-18T12:23:44+08:00",
+        "last_commit": "c16262e4cc4590e7cbb934871240eef6fdf7e620",
+        "last_updated": "2025-08-19T18:09:59+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -148,8 +148,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "9638f340082d2f17544a302a73aded95b35cf6e5",
-        "last_updated": "2025-08-16T06:17:43+08:00",
+        "last_commit": "c4be2ccd2b49ea8e026cb90f70395d75d43aa44e",
+        "last_updated": "2025-08-19T12:19:49+08:00",
         "name": "latest.json"
       }
     ],
@@ -205,8 +205,8 @@
         "name": "11320.json"
       },
       {
-        "last_commit": "9638f340082d2f17544a302a73aded95b35cf6e5",
-        "last_updated": "2025-08-16T06:17:43+08:00",
+        "last_commit": "c4be2ccd2b49ea8e026cb90f70395d75d43aa44e",
+        "last_updated": "2025-08-19T12:19:49+08:00",
         "name": "11410.json"
       }
     ],
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_updated": "2025-08-19T10:38:58+08:00"
+  "last_updated": "2025-08-19T18:09:59+08:00"
 }
