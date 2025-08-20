@@ -446,7 +446,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "(跨領域)人工智慧與應用進階學分學程/(跨領域)人工智慧與應用基礎學分學程/(TAICA)人工智慧視覺技術學分學程/(TAICA)人工智慧工業應用學分學程",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": ""
   },
   {
@@ -521,7 +521,7 @@
     "prerequisite": "",
     "expertise": "",
     "program": "(跨領域)人工智慧與應用進階學分學程/(跨領域)人工智慧與應用基礎學分學程/(TAICA)人工智慧自然語言技術學分學程",
-    "no_extra_selection": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
     "required_optional_note": ""
   },
   {
@@ -16346,8 +16346,8 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
-    "required_optional_note": "EMBA亞太馬國境外專班114P  必修"
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": "EMBA亞太馬國境外專班114P  必修 EMBA深圳境外專班114P  選修"
   },
   {
     "id": "11410EMM 601200",
@@ -16371,8 +16371,8 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
-    "required_optional_note": "EMBA亞太馬國境外專班114P  選修"
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": "EMBA亞太馬國境外專班114P  選修 EMBA深圳境外專班114P  選修"
   },
   {
     "id": "11410EMM 609900",
@@ -16421,8 +16421,8 @@
     "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過行銷管理  上述條件一定要有，則不擋修。</div>",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
-    "required_optional_note": "EMBA深圳境外專班114P  必修"
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": "EMBA亞太馬國境外專班114P  選修 EMBA深圳境外專班114P  必修"
   },
   {
     "id": "11410EMS 500200",
@@ -16446,8 +16446,8 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
-    "required_optional_note": "EMBA深圳境外專班114P  選修"
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": "EMBA亞太馬國境外專班114P  選修 EMBA深圳境外專班114P  選修"
   },
   {
     "id": "11410EMS 500400",
@@ -16468,11 +16468,11 @@
     "object": "",
     "ge_type": "",
     "ge_category": "",
-    "prerequisite": "",
+    "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過策略  上述條件一定要有，則不擋修。</div>",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
-    "required_optional_note": "EMBA深圳境外專班114P  必修"
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": "EMBA亞太馬國境外專班114P  選修 EMBA深圳境外專班114P  必修"
   },
   {
     "id": "11410EMS 501300",
@@ -16496,8 +16496,8 @@
     "prerequisite": "",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
-    "required_optional_note": "EMBA深圳境外專班114P  必修"
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": "EMBA亞太馬國境外專班114P  選修 EMBA深圳境外專班114P  必修"
   },
   {
     "id": "11410EMS 502000",
@@ -16521,8 +16521,8 @@
     "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過法律、創新與公司治理 未修過企業社會責任與管理  上述條件一定要有，則不擋修。</div>",
     "expertise": "",
     "program": "",
-    "no_extra_selection": "",
-    "required_optional_note": "EMBA深圳境外專班114P  選修"
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": "EMBA亞太馬國境外專班114P  選修 EMBA深圳境外專班114P  選修"
   },
   {
     "id": "11410EMS 509900",
@@ -27883,9 +27883,9 @@
     "student_count": "",
     "lecturer": "莊仁傑 CHONG, HENRY REN JIE",
     "language": "中",
-    "class_room_and_time": "HSS人Ｃ403A T6T7T8",
+    "class_room_and_time": "HSS人Ｃ403A W3W4Wn",
     "classroom": "HSS人Ｃ403A",
-    "time": "T6T7T8",
+    "time": "W3W4Wn",
     "note": "HSS歷史學程。本課程不接受停修申請。",
     "suspend": "",
     "limit_note": "",
@@ -30581,7 +30581,7 @@
     "credit": "3",
     "size_limit": "25",
     "student_count": "",
-    "lecturer": "許智強 HSU, CHI-TZIANG 陳鼎元 CHEN, DING-YUAN",
+    "lecturer": "陳鼎元 CHEN, DING-YUAN",
     "language": "英",
     "class_room_and_time": "TSMC台積428 R6R7R8",
     "classroom": "TSMC台積428",
@@ -31112,7 +31112,7 @@
     "classroom": "TSMC台積121",
     "time": "W5W6W7",
     "note": "Priority for intl.IBBA students. Open to all from the 3rd selection round.",
-    "suspend": "",
+    "suspend": "停開",
     "limit_note": "科管院學士班大學部2年級3年級4年級,外籍生優先，第3次選課起開放全校修習",
     "freshman_reservation": "0",
     "object": "",
@@ -33586,7 +33586,7 @@
     "class_room_and_time": "Nanda南大8209 M7M8M9",
     "classroom": "Nanda南大8209",
     "time": "M7M8M9",
-    "note": "設計組必修，單號學生，(原為下學期課程，申請必修課程時間異動中)",
+    "note": "設計組必修，單號學生.",
     "suspend": "",
     "limit_note": "藝設系大學部1年級,單號優先，第3次選課起開放全校修習",
     "freshman_reservation": "0",
@@ -33611,7 +33611,7 @@
     "class_room_and_time": "Nanda南大8109 M7M8M9",
     "classroom": "Nanda南大8109",
     "time": "M7M8M9",
-    "note": "設計組必修，雙號學生。(原為下學期課程，申請必修課程時間異動中)",
+    "note": "設計組必修，雙號學生.",
     "suspend": "",
     "limit_note": "藝設系大學部1年級,雙號優先，第3次選課起開放全校修習",
     "freshman_reservation": "0",
@@ -46833,10 +46833,10 @@
     "student_count": "",
     "lecturer": "張惟翔 CHANG, WEI-HSIANG",
     "language": "中",
-    "class_room_and_time": "PEC柔道教室 T3T4",
-    "classroom": "PEC柔道教室",
+    "class_room_and_time": "alum Gym校友PE館 T3T4",
+    "classroom": "alum Gym校友PE館",
     "time": "T3T4",
-    "note": "患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。",
+    "note": "患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助. 上課地點:校友體育館3F韻律教室",
     "suspend": "",
     "limit_note": "運科系大學部3年級優先，第3次選課起開放全校修習",
     "freshman_reservation": "0",
@@ -55604,7 +55604,7 @@
     "chinese_title": "憲法專題研究：未列舉權",
     "english_title": "Constitutional Law Seminar: Unenumerated Rights",
     "credit": "2",
-    "size_limit": "18",
+    "size_limit": "30",
     "student_count": "",
     "lecturer": "陳仲嶙 CHEN, CHUNG-LIN",
     "language": "中",
@@ -55783,8 +55783,8 @@
     "student_count": "",
     "lecturer": "李紀寬 LI, GI-KUEN",
     "language": "英",
-    "class_room_and_time": "TSMC台積733 T7T8",
-    "classroom": "TSMC台積733",
+    "class_room_and_time": "TSMC台積203 T7T8",
+    "classroom": "TSMC台積203",
     "time": "T7T8",
     "note": "",
     "suspend": "",
@@ -56054,7 +56054,7 @@
     "chinese_title": "微積分Ａ一",
     "english_title": "Calculus (I)",
     "credit": "4",
-    "size_limit": "105",
+    "size_limit": "101",
     "student_count": "",
     "lecturer": "王信華 WANG, SHIN-HWA",
     "language": "中",
@@ -76286,7 +76286,7 @@
     "class_room_and_time": "HSS人社A309 R2R3R4",
     "classroom": "HSS人社A309",
     "time": "R2R3R4",
-    "note": "IACS論文研究方法多選一，選課前需先經授課老師同意",
+    "note": "亞際文化碩士學程生選此課可認抵必修「論文研究方法」，但選課前需先經授課老師同意。",
     "suspend": "",
     "limit_note": "",
     "freshman_reservation": "0",
