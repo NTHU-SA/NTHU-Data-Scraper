@@ -12,8 +12,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "c4be2ccd2b49ea8e026cb90f70395d75d43aa44e",
-        "last_updated": "2025-08-19T12:19:49+08:00",
+        "last_commit": "892511f66c1cc4982020c3858cf7368eacf182ed",
+        "last_updated": "2025-08-20T08:42:27+08:00",
         "name": "courses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "dining.json"
       },
       {
-        "last_commit": "c16262e4cc4590e7cbb934871240eef6fdf7e620",
-        "last_updated": "2025-08-19T18:09:59+08:00",
+        "last_commit": "af84805fbde3ad331891794169299a8c8940677e",
+        "last_updated": "2025-08-20T10:38:34+08:00",
         "name": "directory.json"
       },
       {
@@ -32,8 +32,8 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "c16262e4cc4590e7cbb934871240eef6fdf7e620",
-        "last_updated": "2025-08-19T18:09:59+08:00",
+        "last_commit": "af84805fbde3ad331891794169299a8c8940677e",
+        "last_updated": "2025-08-20T10:38:34+08:00",
         "name": "newsletters.json"
       }
     ],
@@ -148,8 +148,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "c4be2ccd2b49ea8e026cb90f70395d75d43aa44e",
-        "last_updated": "2025-08-19T12:19:49+08:00",
+        "last_commit": "892511f66c1cc4982020c3858cf7368eacf182ed",
+        "last_updated": "2025-08-20T08:42:27+08:00",
         "name": "latest.json"
       }
     ],
@@ -205,8 +205,8 @@
         "name": "11320.json"
       },
       {
-        "last_commit": "c4be2ccd2b49ea8e026cb90f70395d75d43aa44e",
-        "last_updated": "2025-08-19T12:19:49+08:00",
+        "last_commit": "892511f66c1cc4982020c3858cf7368eacf182ed",
+        "last_updated": "2025-08-20T08:42:27+08:00",
         "name": "11410.json"
       }
     ],
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_updated": "2025-08-20T00:19:28+08:00"
+  "last_updated": "2025-08-20T10:38:34+08:00"
 }
