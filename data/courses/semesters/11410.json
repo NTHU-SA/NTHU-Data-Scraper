@@ -14529,7 +14529,7 @@
     "chinese_title": "計算機結構",
     "english_title": "Computer Architecture",
     "credit": "3",
-    "size_limit": "90",
+    "size_limit": "35",
     "student_count": "",
     "lecturer": "呂仁碩 LIU, REN-SHUO",
     "language": "中",
@@ -18054,7 +18054,7 @@
     "chinese_title": "材料分析與檢測",
     "english_title": "Inspection and Analysis for Materials",
     "credit": "3",
-    "size_limit": "",
+    "size_limit": "180",
     "student_count": "",
     "lecturer": "陳健群 CHEN, CHIEN-CHUN",
     "language": "中",
@@ -21611,7 +21611,7 @@
     "class_room_and_time": "VC虛擬教室 T4",
     "classroom": "VC虛擬教室",
     "time": "T4",
-    "note": "須先於選課系統完成選課,再登入清華磨課師平台修讀。",
+    "note": "X-Class。須先於選課系統完成選課，再登入清華磨課師平台修讀。",
     "suspend": "",
     "limit_note": "限大學部",
     "freshman_reservation": "0",
@@ -27886,7 +27886,7 @@
     "class_room_and_time": "HSS人Ｃ403A W3W4Wn",
     "classroom": "HSS人Ｃ403A",
     "time": "W3W4Wn",
-    "note": "HSS歷史學程。本課程不接受停修申請。",
+    "note": "HSS歷史學程",
     "suspend": "",
     "limit_note": "",
     "freshman_reservation": "0",
@@ -33122,7 +33122,7 @@
     "expertise": "",
     "program": "",
     "no_extra_selection": "",
-    "required_optional_note": "藝設系114BA 必修 藝設系114BB 必修 藝術學院學士班114B  必修 音樂系114B  必修"
+    "required_optional_note": "藝設系114BA 必修 藝術學院學士班114B  必修 音樂系114B  必修"
   },
   {
     "id": "11410JAC 100102",
@@ -33147,7 +33147,7 @@
     "expertise": "",
     "program": "",
     "no_extra_selection": "",
-    "required_optional_note": "藝設系114BA 必修 藝設系114BB 必修 藝術學院學士班114B  必修 音樂系114B  必修"
+    "required_optional_note": "藝設系114BA 必修 藝術學院學士班114B  必修 音樂系114B  必修"
   },
   {
     "id": "11410JAC 100103",
@@ -33172,7 +33172,7 @@
     "expertise": "",
     "program": "",
     "no_extra_selection": "",
-    "required_optional_note": "藝設系114BA 必修 藝設系114BB 必修 藝術學院學士班114B  必修 音樂系114B  必修"
+    "required_optional_note": "藝設系114BA 必修 藝術學院學士班114B  必修 音樂系114B  必修"
   },
   {
     "id": "11410JAC 100500",
@@ -33483,9 +33483,9 @@
     "student_count": "",
     "lecturer": "劉紀汎 LIU,CHI-FAN",
     "language": "中",
-    "class_room_and_time": "Nanda南大8601 R5R6",
+    "class_room_and_time": "Nanda南大8601 R7R8",
     "classroom": "Nanda南大8601",
-    "time": "R5R6",
+    "time": "R7R8",
     "note": "創作組選修",
     "suspend": "",
     "limit_note": "藝設系優先，第3次選課起開放全校修習",
@@ -53522,7 +53522,7 @@
     "expertise": "",
     "program": "",
     "no_extra_selection": "",
-    "required_optional_note": ""
+    "required_optional_note": "醫科系114B  選修 生醫學院學士班114B  選修 生科系114B  選修"
   },
   {
     "id": "11410LSC 110100",
@@ -56000,6 +56000,31 @@
     "required_optional_note": "科法所114D  必修"
   },
   {
+    "id": "11410MATH100000",
+    "chinese_title": "微積分預備課程",
+    "english_title": "Precalculus",
+    "credit": "1",
+    "size_limit": "150",
+    "student_count": "",
+    "lecturer": "蓋茲米斯 GEZMIS OGUZ",
+    "language": "英",
+    "class_room_and_time": "GEN IV綜四224 R4",
+    "classroom": "GEN IV綜四224",
+    "time": "R4",
+    "note": "If you meet the prerequisites but are blocked from registering, please email curricul@my.nthu.edu.tw",
+    "suspend": "",
+    "limit_note": "限外籍生",
+    "freshman_reservation": "0",
+    "object": "",
+    "ge_type": "",
+    "ge_category": "",
+    "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過微積分Ａ一 未修過微積分Ｂ一 未修過微積分Ｂ二 未修過微積分一(數學系) 未修過微積分二(數學系) 未修過微積分Ａ二 未修過微積分一(AP先修課程)  上述條件一定要有，則不擋修。</div>",
+    "expertise": "",
+    "program": "",
+    "no_extra_selection": "《不接受加簽 No extra selection》",
+    "required_optional_note": ""
+  },
+  {
     "id": "11410MATH101001",
     "chinese_title": "微積分一(數學系)",
     "english_title": "Calculus (I)",
@@ -56383,9 +56408,9 @@
     "student_count": "",
     "lecturer": "蓋茲米斯 GEZMIS OGUZ",
     "language": "英",
-    "class_room_and_time": "GEN IV綜四224 T3T4R3R4",
+    "class_room_and_time": "GEN IV綜四224 T3T4R3",
     "classroom": "GEN IV綜四224",
-    "time": "T3T4R3R4",
+    "time": "T3T4R3",
     "note": "Recitation courses in EDU 109,114,115,116, 7-9 pm every Wed. 地點:大門口全家Family Mart 樓上",
     "suspend": "",
     "limit_note": "限大學部1年級,外籍生",
@@ -59333,9 +59358,9 @@
     "student_count": "",
     "lecturer": "何柏勳 HO, PO-HSUN",
     "language": "英",
-    "class_room_and_time": "DELTA台達B09 T2T3T4",
+    "class_room_and_time": "DELTA台達B09 R2R3R4",
     "classroom": "DELTA台達B09",
-    "time": "T2T3T4",
+    "time": "R2R3R4",
     "note": "本課程適合具備半導體物理基礎的學生選修。內容涵蓋半導體概論及製程技術，從基礎原理到產業應用皆有涉及。",
     "suspend": "",
     "limit_note": "",
