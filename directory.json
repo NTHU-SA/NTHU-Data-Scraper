@@ -21650,25 +21650,25 @@
             },
             "people": [
                 {
-                    "name": "林世昌",
-                    "title": "職專班執行長兼EMBA主任",
-                    "extension": "42729",
+                    "name": "王俊程",
+                    "title": "在職專班執行長",
+                    "extension": "42247",
                     "note": null,
-                    "email": "slin@mx.nthu.edu.tw"
+                    "email": "jcwang@iss.nthu.edu.tw"
+                },
+                {
+                    "name": "蔡昌憲",
+                    "title": "主任",
+                    "extension": "62144",
+                    "note": null,
+                    "email": "chstsai@mx.nthu.edu.tw"
                 },
                 {
                     "name": "王淑貞",
-                    "title": "行政助理 / EMBA專班業務",
+                    "title": "行政組員 / EMBA專班業務 / 校友會",
                     "extension": "62512",
                     "note": null,
                     "email": "emba@my.nthu.edu.tw"
-                },
-                {
-                    "name": "潘素瓊",
-                    "title": "行政助理 / 學生社團、校友會",
-                    "extension": "42250",
-                    "note": null,
-                    "email": "scpan@mx.nthu.edu.tw"
                 }
             ]
         }
@@ -21689,25 +21689,32 @@
             },
             "people": [
                 {
-                    "name": "張元杰",
+                    "name": "歐怡君",
                     "title": "主任",
-                    "extension": "42251",
+                    "extension": "62515",
                     "note": null,
-                    "email": "yucchang@mx.nthu.edu.tw"
+                    "email": "ycou@iss.nthu.edu.tw"
                 },
                 {
-                    "name": "許裴舫",
+                    "name": "錢克瑄",
                     "title": "主任",
-                    "extension": "42221",
+                    "extension": "62537",
                     "note": null,
-                    "email": "pfhsu@mx.nthu.edu.tw"
+                    "email": "chienkh@mx.nthu.edu.tw"
                 },
                 {
                     "name": "程郁霖",
-                    "title": "研究助理 / 新竹MBA班",
+                    "title": "研究助理 / 新竹MBA班/校友會",
                     "extension": "42253",
                     "note": null,
                     "email": "mba@my.nthu.edu.tw"
+                },
+                {
+                    "name": "陳曼雲",
+                    "title": "研究助理 / 金門MBA班",
+                    "extension": null,
+                    "note": null,
+                    "email": "mba2@mx.nthu.edu.tw"
                 }
             ]
         }
@@ -22684,13 +22691,6 @@
             },
             "people": [
                 {
-                    "name": "索樂晴",
-                    "title": "主任",
-                    "extension": "42223",
-                    "note": null,
-                    "email": "lcso@mx.nthu.edu.tw"
-                },
-                {
                     "name": "洪柔媙",
                     "title": "研究助理",
                     "extension": "62104",
@@ -22716,11 +22716,11 @@
             },
             "people": [
                 {
-                    "name": "趙相科",
+                    "name": "林靜儀",
                     "title": "主任",
-                    "extension": "42722",
+                    "extension": "62142",
                     "note": null,
-                    "email": "hkchao@mx.nthu.edu.tw"
+                    "email": "lincy@mx.nthu.edu.tw"
                 },
                 {
                     "name": "黃群庭",
@@ -22841,11 +22841,11 @@
             },
             "people": [
                 {
-                    "name": "蔡昌憲",
+                    "name": "林勤富",
                     "title": "主任",
-                    "extension": "62144",
+                    "extension": "62535",
                     "note": null,
-                    "email": "chstsai@mx.nthu.edu.tw"
+                    "email": "chingfulin@mx.nthu.edu.tw"
                 },
                 {
                     "name": "葉霈籈",
@@ -22871,11 +22871,11 @@
             },
             "people": [
                 {
-                    "name": "林世昌",
+                    "name": "蔡昌憲",
                     "title": "主任",
-                    "extension": "42729",
+                    "extension": "62144",
                     "note": null,
-                    "email": "slin@mx.nthu.edu.tw"
+                    "email": "chstsai@mx.nthu.edu.tw"
                 },
                 {
                     "name": "嚴友淳",
@@ -22964,18 +22964,25 @@
             },
             "people": [
                 {
-                    "name": "劉玉雯",
+                    "name": "吳清炎",
                     "title": "主任",
-                    "extension": "42246",
+                    "extension": "62139",
                     "note": null,
-                    "email": "ywliu@mx.nthu.edu.tw"
+                    "email": "wuchingyan@mx.nthu.edu.tw"
                 },
                 {
                     "name": "王玉梅",
-                    "title": "行政助理 / 負責深圳班、亞太地區馬來西亞業務",
+                    "title": "行政組員 / 在職專班執行長秘書/負責EMBA深圳班、亞太地區馬\r\n來西亞班學務相關",
                     "extension": "42447",
                     "note": null,
                     "email": "emba3@my.nthu.edu.tw"
+                },
+                {
+                    "name": "陳曼雲",
+                    "title": "研究助理 / EMBA深圳班、亞太地區馬來西亞班課務相關",
+                    "extension": null,
+                    "note": null,
+                    "email": "manyunchen@mx.nthu.edu.tw"
                 }
             ]
         }
