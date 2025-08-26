@@ -1,27 +1,27 @@
 {
     "towardMainCampusInfo": {
         "direction": "往校本部 (To Main Campus)",
-        "duration": "暑假期間 2025/06/09 ~ 2025/08/22",
+        "duration": "暑假期間 2025/08/25 ~ 2025/08/29",
         "route": "南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口",
         "routeEN": "The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Builing → General Building II→School North Gate"
     },
     "towardMainGateInfo": {
         "direction": "往校門口 (To Main Gate)",
-        "duration": "暑假期間2025/06/09 ~ 2025/08/22",
-        "route": "(紅線)  台積館 →  南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院  → 綜二館 → 北校門口",
-        "routeEN": "(Red Line)  TSMC Building →  South Gate Parking Lot  →  Yi Pavilion Parking Lot  → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → General Building II → North Main Gate"
+        "duration": "暑假期間2025/08/25 ~ 2025/8/29",
+        "route": "(紅線)  台積館 →  教育學院大樓/南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院  → 綜二館 → 北校門口",
+        "routeEN": "(Red Line)  TSMC Building →  COE Building/South Gate Parking Lot  →  Yi Pavilion Parking Lot  → Maple Path → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → Maple Path → General Building II → North Main Gate"
     },
     "towardSouthCampusInfo": {
         "direction": "往南大校區 (To Nanda Campus)",
-        "duration": "暑假期間 2025/06/09 ~ 2025/08/22",
+        "duration": "暑假期間 2025/08/25 ~ 2025/08/29",
         "route": "北校門口 → 綜二館 → 人社院/生科館 → 台積館(經寶山路) → 南大校區校門口右側(食品路校牆邊)",
         "routeEN": "School North Gate → General Building II → CHSS/CLS Building → TSMC Building(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road)"
     },
     "towardTSMCBuildingInfo": {
         "direction": "往台積館 (To TSMC Building)",
-        "duration": "暑假期間2025/06/09 ~ 2025/08/22",
-        "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑 →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑 →  奕園停車場  →  南門停車場  → 台積館",
-        "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  South Gate Parking Lot  → TSMC Building"
+        "duration": "暑假期間2025/08/25 ~ 2025/8/29",
+        "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑 →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑 →  奕園停車場  →  教育學院大樓/南門停車場  → 台積館",
+        "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  COE Building/South Gate Parking Lot  → TSMC Building"
     },
     "weekdayBusScheduleTowardMainCampus": [
         {
@@ -37,12 +37,27 @@
         {
             "description": "",
             "route": "南大區間車",
+            "time": "9:00"
+        },
+        {
+            "description": "",
+            "route": "南大區間車",
+            "time": "10:00"
+        },
+        {
+            "description": "",
+            "route": "南大區間車",
             "time": "12:00"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
             "route": "南大區間車",
             "time": "12:23"
+        },
+        {
+            "description": "",
+            "route": "南大區間車",
+            "time": "13:00"
         },
         {
             "description": "",
@@ -125,6 +140,13 @@
         {
             "dep_stop": "台積館",
             "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "10:27"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
             "line": "green",
             "route": "校園公車",
             "time": "10:47"
@@ -134,7 +156,21 @@
             "description": "",
             "line": "red",
             "route": "校園公車",
-            "time": "11:47"
+            "time": "11:07"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "11:27"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "11:52"
         },
         {
             "dep_stop": "台積館",
@@ -148,7 +184,21 @@
             "description": "",
             "line": "red",
             "route": "校園公車",
-            "time": "12:57"
+            "time": "12:32"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "12:47"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "13:02"
         },
         {
             "dep_stop": "台積館",
@@ -156,6 +206,13 @@
             "line": "red",
             "route": "校園公車",
             "time": "13:17"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "13:32"
         },
         {
             "dep_stop": "台積館",
@@ -181,9 +238,51 @@
         {
             "dep_stop": "台積館",
             "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "14:32"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
             "line": "green",
             "route": "校園公車",
-            "time": "15:37"
+            "time": "14:47"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "15:07"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "15:27"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "15:47"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "16:07"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "16:27"
         },
         {
             "dep_stop": "台積館",
@@ -195,9 +294,16 @@
         {
             "dep_stop": "台積館",
             "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "17:07"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
             "line": "green",
             "route": "校園公車",
-            "time": "17:17"
+            "time": "17:22"
         },
         {
             "dep_stop": "台積館",
@@ -205,6 +311,20 @@
             "line": "red",
             "route": "校園公車",
             "time": "17:37"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "17:52"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "18:07"
         },
         {
             "dep_stop": "台積館",
@@ -219,6 +339,13 @@
             "line": "green",
             "route": "校園公車",
             "time": "19:37"
+        },
+        {
+            "dep_stop": "台積館",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "20:37"
         },
         {
             "dep_stop": "台積館",
@@ -249,12 +376,27 @@
         {
             "description": "",
             "route": "南大區間車",
+            "time": "9:30"
+        },
+        {
+            "description": "",
+            "route": "南大區間車",
+            "time": "10:30"
+        },
+        {
+            "description": "",
+            "route": "南大區間車",
             "time": "12:30"
         },
         {
             "description": "此為付費市區公車(83號公車直達兩校區)",
             "route": "南大區間車",
             "time": "12:40"
+        },
+        {
+            "description": "",
+            "route": "南大區間車",
+            "time": "13:30"
         },
         {
             "description": "",
@@ -337,6 +479,13 @@
         {
             "dep_stop": "校門",
             "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "10:20"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
             "line": "green",
             "route": "校園公車",
             "time": "10:40"
@@ -346,7 +495,21 @@
             "description": "",
             "line": "red",
             "route": "校園公車",
-            "time": "11:40"
+            "time": "11:00"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "11:20"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "11:45"
         },
         {
             "dep_stop": "校門",
@@ -360,7 +523,21 @@
             "description": "",
             "line": "red",
             "route": "校園公車",
-            "time": "12:50"
+            "time": "12:25"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "12:40"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "12:55"
         },
         {
             "dep_stop": "校門",
@@ -368,6 +545,13 @@
             "line": "red",
             "route": "校園公車",
             "time": "13:10"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "13:25"
         },
         {
             "dep_stop": "校門",
@@ -393,9 +577,51 @@
         {
             "dep_stop": "校門",
             "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "14:25"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
             "line": "green",
             "route": "校園公車",
-            "time": "15:30"
+            "time": "14:40"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "15:00"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "15:20"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "15:40"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "16:00"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "16:20"
         },
         {
             "dep_stop": "校門",
@@ -407,9 +633,16 @@
         {
             "dep_stop": "校門",
             "description": "",
+            "line": "red",
+            "route": "校園公車",
+            "time": "17:00"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
             "line": "green",
             "route": "校園公車",
-            "time": "17:10"
+            "time": "17:15"
         },
         {
             "dep_stop": "校門",
@@ -417,6 +650,20 @@
             "line": "red",
             "route": "校園公車",
             "time": "17:30"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "17:45"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "18:00"
         },
         {
             "dep_stop": "校門",
@@ -431,6 +678,13 @@
             "line": "green",
             "route": "校園公車",
             "time": "19:30"
+        },
+        {
+            "dep_stop": "校門",
+            "description": "",
+            "line": "green",
+            "route": "校園公車",
+            "time": "20:30"
         },
         {
             "dep_stop": "校門",

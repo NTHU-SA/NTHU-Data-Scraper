@@ -10,6 +10,16 @@
         "route": "南大區間車"
     },
     {
+        "time": "9:00",
+        "description": "",
+        "route": "南大區間車"
+    },
+    {
+        "time": "10:00",
+        "description": "",
+        "route": "南大區間車"
+    },
+    {
         "time": "12:00",
         "description": "",
         "route": "南大區間車"
@@ -17,6 +27,11 @@
     {
         "time": "12:23",
         "description": "此為付費市區公車(83號公車直達兩校區)",
+        "route": "南大區間車"
+    },
+    {
+        "time": "13:00",
+        "description": "",
         "route": "南大區間車"
     },
     {
