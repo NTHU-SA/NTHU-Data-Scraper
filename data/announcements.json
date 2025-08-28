@@ -563,6 +563,11 @@
         "department": "師資培育中心",
         "articles": [
             {
+                "title": "【轉知】國立臺南大辦理「114年度精進師資素質及特色發展計畫成果發表會」",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-294377,r157.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【轉知】國立彰化師範大學與國立台中教育大學合辦「探究與實作在各層級教學的應用」學術講座",
                 "link": "https://cfte.site.nthu.edu.tw/p/450-1275-294301,c0.php?Lang=zh-tw",
                 "date": null
@@ -615,11 +620,6 @@
             {
                 "title": "【轉知】新科國中正在招募114學年度英語科及數學科代理教師各一名(大學畢業、無教師證可)",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-293649,r157.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【轉知】114年度國民小學教育階段雙語教學教案設計競賽簡章",
-                "link": "https://cfte.site.nthu.edu.tw/p/450-1275-293412,c0.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -1198,9 +1198,14 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "Department Seminar (Colloquium) Schedule of 2025 Spring",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281317,r8084.php?Lang=en",
-                "date": "2025-01-13"
+                "title": "Department Seminar (Colloquium) Schedule of 2025 Fall",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-294363,r8084.php?Lang=en",
+                "date": "2025-08-28"
+            },
+            {
+                "title": "(Colloquium)114.9.4 Prof. Jwo-Huei Jou 工程倫理(專業倫理)–從諾貝爾獎得主中村修二博士的個案談起",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-294361,r8084.php?Lang=en",
+                "date": "2025-08-28"
             },
             {
                 "title": "Congratulations to Our Award Recipients at ISEGB 2025!",
@@ -1211,6 +1216,11 @@
                 "title": "(Department Seminar)2025.5.29, Prof. Shih-Chieh Lin, \"Tailing\" stories about the enzalutamide-resistant prostate cancer",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-289503,r8084.php?Lang=en",
                 "date": "2025-05-23"
+            },
+            {
+                "title": "Department Seminar (Colloquium) Schedule of 2025 Spring",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281317,r8084.php?Lang=en",
+                "date": "2025-01-13"
             },
             {
                 "title": "Guidelines for Colloquium (Spring 2021)",
@@ -1286,16 +1296,6 @@
                 "title": "(Lecture) Regulation of longevity by HSF-1: the expected and unexpected mechanisms",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-192466,r8084.php?Lang=en",
                 "date": "2020-10-29"
-            },
-            {
-                "title": "(Lecture) Studying host-pathogen interactions: Proteomic, functional genomic, and phenotypic screening approaches",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-192465,r8084.php?Lang=en",
-                "date": "2020-10-26"
-            },
-            {
-                "title": "(Lecture) 蘭花基因體及蘭花演化 Orchid genomes and orchid evolution",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-192464,r8084.php?Lang=en",
-                "date": "2020-10-08"
             }
         ]
     },
@@ -1306,9 +1306,14 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "113學年度第2學期專題演講時間表",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281317,r8084.php?Lang=zh-tw",
-                "date": "2025-01-13"
+                "title": "114學年度第1學期專題演講時間表",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-294363,r8084.php?Lang=zh-tw",
+                "date": "2025-08-28"
+            },
+            {
+                "title": "(專題演講)114.9.4 周卓煇特聘教授 工程倫理(專業倫理)–從諾貝爾獎得主中村修二博士的個案談起",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-294361,r8084.php?Lang=zh-tw",
+                "date": "2025-08-28"
             },
             {
                 "title": "(特別演講) 114.8.15 吳謂勝教授 Development of a Database for Identifying Epitopes with Potential to Induce Molecular Mimicry and Autoimmune Diseases",
@@ -1386,9 +1391,9 @@
                 "date": "2025-02-07"
             },
             {
-                "title": "113學年度第1學期專題演講時間表",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-272343,r8084.php?Lang=zh-tw",
-                "date": "2024-07-26"
+                "title": "113學年度第2學期專題演講時間表",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281317,r8084.php?Lang=zh-tw",
+                "date": "2025-01-13"
             },
             {
                 "title": "(專題演講)113.12.19 莊曜宇教授 Future Trends and Application of Smart Healthcare",
@@ -1399,11 +1404,6 @@
                 "title": "(專題演講)113.12.12 陳俊賓醫師 The Updated Progress of the Life-threatening Epidermal Necrolysis",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-279814,r8084.php?Lang=zh-tw",
                 "date": "2024-12-06"
-            },
-            {
-                "title": "(專題演講)113.12.5 Prof. Steffen Backert, Helicobacter pylori – role of genetic polymorphisms and SNPs in gastric cancer",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-279403,r8084.php?Lang=zh-tw",
-                "date": "2024-11-29"
             }
         ]
     },
@@ -4745,6 +4745,16 @@
                 "date": null
             },
             {
+                "title": "【校內】【獎助學金】徐道寧教授數學教育與人文關懷實踐獎助 申請公告(114/09/01-09/30)",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294375,r772.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【校外】【tsmc秋季校園徵才系列活動】2026預聘暨研發替代役_人才招募",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294371,r772.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【校外】TAIROA活動通知_第二屆「復盛盃流體機械永續創意大賽」正式開跑！",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294225,r772.php?Lang=zh-tw",
                 "date": null
@@ -4777,16 +4787,6 @@
             {
                 "title": "【海外】2026春加州大學柏克萊分校UC Berkeley3+1+X計畫申請開放-IPE 114.09.03(三)中午12:00截止。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-293780,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【校內】「清華大學學生實習故事心得競賽」現正徵件中",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-293698,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【校外】梅竹黑客松報名開始-114.08.24 (日) 20:00截止",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-293593,r772.php?Lang=zh-tw",
                 "date": null
             }
         ]
