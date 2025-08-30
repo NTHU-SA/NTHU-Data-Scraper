@@ -1,57 +1,290 @@
 [
     {
+        "time": "7:20",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
         "time": "7:33",
+        "line": "route1",
         "description": "此為付費市區公車(83號公車直達兩校區)",
-        "route": "南大區間車"
+        "route": "校園公車"
     },
     {
         "time": "8:00",
+        "line": "route1",
         "description": "",
-        "route": "南大區間車"
+        "route": "校園公車"
     },
     {
-        "time": "9:00",
+        "time": "8:35",
+        "line": "route2",
         "description": "",
-        "route": "南大區間車"
+        "route": "校園公車"
+    },
+    {
+        "time": "8:40",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "8:45",
+        "line": "route2",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "9:20",
+        "line": "route2",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "9:40",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "9:50",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "9:55",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
     },
     {
         "time": "10:00",
+        "line": "route2",
         "description": "",
-        "route": "南大區間車"
+        "route": "校園公車"
     },
     {
-        "time": "12:00",
+        "time": "11:10",
+        "line": "route2",
         "description": "",
-        "route": "南大區間車"
+        "route": "校園公車"
+    },
+    {
+        "time": "11:30",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "12:05",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "12:15",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "12:20",
+        "line": "route2",
+        "description": " ",
+        "route": "校園公車"
     },
     {
         "time": "12:23",
+        "line": "route1",
         "description": "此為付費市區公車(83號公車直達兩校區)",
-        "route": "南大區間車"
+        "route": "校園公車"
+    },
+    {
+        "time": "12:35",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "12:50",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
     },
     {
         "time": "13:00",
+        "line": "route1",
         "description": "",
-        "route": "南大區間車"
+        "route": "校園公車"
+    },
+    {
+        "time": "13:30",
+        "line": "route2",
+        "description": "",
+        "route": "校園公車"
     },
     {
         "time": "14:00",
+        "line": "route1",
         "description": "",
-        "route": "南大區間車"
+        "route": "校園公車"
+    },
+    {
+        "time": "14:50",
+        "line": "route1",
+        "description": "週五停駛",
+        "route": "校園公車"
+    },
+    {
+        "time": "15:00",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "15:05",
+        "line": "route1",
+        "description": "週五停駛",
+        "route": "校園公車"
+    },
+    {
+        "time": "15:10",
+        "line": "route2",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "15:15",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
     },
     {
         "time": "15:18",
+        "line": "route1",
         "description": "此為付費市區公車(83號公車直達兩校區)",
-        "route": "南大區間車"
+        "route": "校園公車"
     },
     {
-        "time": "17:00",
+        "time": "15:40",
+        "line": "route1",
         "description": "",
-        "route": "南大區間車"
+        "route": "校園公車"
+    },
+    {
+        "time": "16:30",
+        "line": "route2",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "16:55",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "17:25",
+        "line": "route2",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "17:30",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "17:50",
+        "line": "route1",
+        "description": "週五停駛",
+        "route": "校園公車"
+    },
+    {
+        "time": "18:10",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "18:20",
+        "line": "route2",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "18:30",
+        "line": "route1",
+        "description": "週五停駛",
+        "route": "校園公車"
+    },
+    {
+        "time": "18:40",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
     },
     {
         "time": "18:43",
+        "line": "route1",
         "description": "此為付費市區公車(83號公車直達兩校區)",
-        "route": "南大區間車"
+        "route": "校園公車"
+    },
+    {
+        "time": "19:10",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "19:40",
+        "line": "route1",
+        "description": "週五停駛",
+        "route": "校園公車"
+    },
+    {
+        "time": "20:15",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "20:40",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "21:10",
+        "line": "route1",
+        "description": "週五停駛",
+        "route": "校園公車"
+    },
+    {
+        "time": "21:40",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "22:10",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "22:40",
+        "line": "route1",
+        "description": "",
+        "route": "校園公車"
+    },
+    {
+        "time": "23:10",
+        "line": "route1",
+        "description": "週五停駛",
+        "route": "校園公車"
     }
 ]
