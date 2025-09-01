@@ -230,25 +230,25 @@
         "details": {
             "departments": [],
             "contact": {
-                "extension": "62473",
-                "phone": "03-5162473",
-                "fax": "03-5162509",
+                "extension": "62501",
+                "phone": "03-5162501",
+                "fax": "03-5162508",
                 "website": "https://www.ust.edu.tw/"
             },
             "people": [
                 {
-                    "name": "呂平江",
+                    "name": "張祥光",
                     "title": "副校長",
-                    "extension": "62372",
+                    "extension": "62503",
                     "note": null,
-                    "email": "pclyu@mx.nthu.edu.tw"
+                    "email": "hkchang@phys.nthu.edu.tw"
                 },
                 {
-                    "name": "詹佳惠",
-                    "title": "組員",
-                    "extension": "62473",
+                    "name": "范宜芳",
+                    "title": "助理管理師",
+                    "extension": "62501",
                     "note": null,
-                    "email": "chchan@mx.nthu.edu.tw"
+                    "email": "yffan@mx.nthu.edu.tw"
                 }
             ]
         }
