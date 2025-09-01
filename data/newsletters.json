@@ -388,6 +388,11 @@
         },
         "articles": [
             {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-5020-513-2025-09-01?tmpl=component&tmpl=component",
+                "title": "【人社院電子報第513期】2025.09.01",
+                "date": "2025-09-01"
+            },
+            {
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4985-512-2025-08-15?tmpl=component&tmpl=component",
                 "title": "【人社院電子報第512期】2025.08.15",
                 "date": "2025-08-15"
@@ -481,11 +486,6 @@
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4245-494-2024-11-15?tmpl=component&tmpl=component",
                 "title": "【人社院電子報第494期】2024.11.15",
                 "date": "2024-11-15"
-            },
-            {
-                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-53/mailid-4187-493-2024-11-01?tmpl=component&tmpl=component",
-                "title": "【人社院電子報第493期】2024.11.01",
-                "date": "2024-11-03"
             }
         ]
     },
@@ -2427,9 +2427,14 @@
         },
         "articles": [
             {
-                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-5006-?tmpl=component&tmpl=component",
-                "title": "【第六屆企業導師領航計畫】開始報名",
-                "date": "2025-08-26"
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-5018-2025-09-01?tmpl=component&tmpl=component",
+                "title": "2025.09.01 職涯電子報",
+                "date": "2025-09-01"
+            },
+            {
+                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-5006-09-02-8?tmpl=component&tmpl=component",
+                "title": "明天09/02上午8點報名截止【第六屆企業導師領航計畫】開始報名",
+                "date": "2025-09-01"
             },
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-5002-2025-08-25?tmpl=component&tmpl=component",
@@ -2520,11 +2525,6 @@
                 "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4661-2025-04-14?tmpl=component&tmpl=component",
                 "title": "2025.04.14 職涯電子報",
                 "date": "2025-04-14"
-            },
-            {
-                "link": "https://newsletter.cc.nthu.edu.tw/nthu-list/index.php/zh/listid-35/mailid-4652-2025-04-11?tmpl=component&tmpl=component",
-                "title": "2025.04.11 職涯電子報",
-                "date": "2025-04-11"
             }
         ]
     },
