@@ -1836,7 +1836,7 @@
         "department": "英語教學精進中心",
         "articles": [
             {
-                "title": "【EMI TA培訓】【歡迎報名!!!】114.09.10(三)中午12:20-13:00 EMI TA說明會!!",
+                "title": "【EMI TA培訓】【已截止】114.09.10(三)中午12:20-13:00 EMI TA說明會!!",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-294675,r10647.php?Lang=zh-tw",
                 "date": null
             },
@@ -4281,6 +4281,11 @@
         "department": "工業工程與工程管理學系",
         "articles": [
             {
+                "title": "恭喜本系林裕訓助理教授榮獲校新進人員研究獎",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-294762,r3168.php?Lang=zh-tw",
+                "date": "2025-09-03"
+            },
+            {
                 "title": "恭喜本系張國浩特聘教授獲聘美光講座教授",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-294664,r3168.php?Lang=zh-tw",
                 "date": "2025-09-02"
@@ -4334,11 +4339,6 @@
                 "title": "恭喜本系學生張芷瑄、陳藝尹(指導老師：邱銘傳教授)榮獲 2025 永續性產品與產業管理研討會 最佳論文獎",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-287552,r3168.php?Lang=zh-tw",
                 "date": "2025-04-24"
-            },
-            {
-                "title": "恭喜本系學生鄭亦筑(指導老師：邱銘傳教授)榮獲 2025 永續性產品與產業管理研討會 最佳論文獎",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-287448,r3168.php?Lang=zh-tw",
-                "date": "2025-04-22"
             }
         ]
     },
@@ -4839,7 +4839,7 @@
         "department": "工學院學士班",
         "articles": [
             {
-                "title": "【系上】海外學習畢業門檻符合進度(114.9.1版)",
+                "title": "【系上】海外學習畢業門檻符合進度(114.9.3版)",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-291254,r772.php?Lang=zh-tw",
                 "date": null
             },
@@ -6082,43 +6082,18 @@
         "department": "英語教育中心",
         "articles": [
             {
-                "title": "114學年度第1學期大學部課程加簽流程說明 Course Enrollment Announcement for Undergraduates (Effective from Fall 2025)",
-                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-293690,r9154.php",
-                "date": null
-            },
-            {
-                "title": "114學年度第1學期研究所課程加簽流程說明 Course Enrollment Announcement for Graduates (Effective from Fall 2025)",
+                "title": "【公告】114學年度第1學期研究所課程加簽流程說明 Course Enrollment Announcement for Graduates (Effective from Fall 2025)",
                 "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-293692,r9154.php",
                 "date": null
             },
             {
-                "title": "【已截止】113學年度第2學期大學部課程加簽流程說明 Course Enrollment Announcement for Undergraduates (Effective from Spring 2025)",
-                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-280840,r9154.php",
-                "date": null
-            },
-            {
-                "title": "【已截止】113學年度第2學期研究所課程加簽流程說明 Course Enrollment Announcement for Graduates (Effective from Spring 2025)",
-                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-280841,r9154.php",
-                "date": null
-            },
-            {
-                "title": "【公告】英文領域轉級申請(申請時間：2024年12月23日至2025年1月3日止)",
-                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-277797,r9154.php",
+                "title": "【公告】114學年度第1學期大學部課程加簽流程說明 Course Enrollment Announcement for Undergraduates (Effective from Fall 2025)",
+                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-293690,r9154.php",
                 "date": null
             },
             {
                 "title": "【公告】113.9.27 (五) EMI學習工作坊-專題一：激發你的英語潛力：從心理障礙到流利表達",
                 "link": "https://nthu-english.site.nthu.edu.tw/p/450-1532-275171,c0.php",
-                "date": null
-            },
-            {
-                "title": "【公告】113學年度起大學部課程加簽流程說明 Course Enrollment Announcement for Undergraduates (Effective from Fall 2024)",
-                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-273850,r9154.php",
-                "date": null
-            },
-            {
-                "title": "【公告】113學年度起研究所課程加簽流程說明 Course Enrollment Announcement for Graduates (Effective from Fall 2024)",
-                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-273851,r9154.php",
                 "date": null
             },
             {
@@ -6137,8 +6112,33 @@
                 "date": null
             },
             {
-                "title": "【公告】112學年度起大學部課程加簽流程說明 Course Enrollment Announcement for Undergraduates (Effective from spring 2024)",
-                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-249610,r9154.php",
+                "title": "【公告】112學年度第2學期大學部轉學生抵免申請說明",
+                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-262062,r9154.php",
+                "date": null
+            },
+            {
+                "title": "【公告】修課後《大一英文分級》轉級申請流程，有需要申請絕對要先看哦!",
+                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-258501,r9154.php",
+                "date": null
+            },
+            {
+                "title": "【公告】112學年度第1學期大學部轉學生抵免申請說明",
+                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-252871,r9154.php",
+                "date": null
+            },
+            {
+                "title": "【2023.02.23 公告】中高級/中級選讀英文尚有名額，欲修習者，請自行進系統選課！",
+                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-244325,r9154.php",
+                "date": null
+            },
+            {
+                "title": "【公告】111學年度第2學期大學部轉學生抵免申請說明",
+                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-242648,r9154.php",
+                "date": null
+            },
+            {
+                "title": "【公告】111學年度第2學期研究所課程加簽流程說明",
+                "link": "https://nthu-english.site.nthu.edu.tw/p/406-1532-242214,r9154.php",
                 "date": null
             }
         ]
@@ -6149,6 +6149,11 @@
         "language": "zh-tw",
         "department": "台積電-國立清華大學聯合研發中心",
         "articles": [
+            {
+                "title": "半導體學程說明會又來了！",
+                "link": "https://nthu-tsmc.site.nthu.edu.tw/p/406-1578-294767,r11.php?Lang=zh-tw",
+                "date": null
+            },
             {
                 "title": "【tsmc秋季校園徵才系列活動】2026預聘暨研發替代役_人才招募",
                 "link": "https://nthu-tsmc.site.nthu.edu.tw/p/406-1578-294378,r11.php?Lang=zh-tw",
@@ -6202,11 +6207,6 @@
             {
                 "title": "【台積電 2025預辦登積計畫】- 校園代表說明會專場 (線上)，請同學把握機會參加~ 即日起開放報名至10/15(二)",
                 "link": "https://nthu-tsmc.site.nthu.edu.tw/p/406-1578-276058,r11.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【2024台積電設備卓越成果展】 歡迎報名參加!  即日起開放報名至10/13(日）",
-                "link": "https://nthu-tsmc.site.nthu.edu.tw/p/406-1578-276057,r11.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -6747,6 +6747,44 @@
         ]
     },
     {
+        "title": "線上審查系統公告",
+        "link": "https://rec.site.nthu.edu.tw/p/403-1233-10590-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "研究倫理辦公室",
+        "articles": [
+            {
+                "title": "國立清華大學研究倫理線上審查系統",
+                "link": "https://rec.site.nthu.edu.tw/p/450-1233-261268,c0.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "*重要*[辦公室公告]113年起本校研究倫理審查-新案採線上送審(更新V4_11407)",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-261219,r10590.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "[eREC]審查系統帳號申請表V4_11311版",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-261260,r10590.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "[停機預告]114.09.03(三)中午11時30分~13時30分[eREC線上審查系統]進行更版作業，請使用者勿上傳、更新資料❌。",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-294760,r10590.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "[FAQ系統]如何確認eREC系統案件已送出審查？",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-280063,r10590.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "[eREC]審查系統使用教學手冊-計畫主持人",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-261259,r10590.php?Lang=zh-tw",
+                "date": null
+            }
+        ]
+    },
+    {
         "title": "研究倫理最新消息公告",
         "link": "https://rec.site.nthu.edu.tw/p/403-1233-3334-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -6803,13 +6841,13 @@
                 "date": null
             },
             {
-                "title": "轉知：114年9月20日(六)醫學研究倫理基金會辦理「人體試驗研究倫理講習班~GCP」視訊課程",
-                "link": "https://rec.site.nthu.edu.tw/p/406-1233-294615,r3334.php?Lang=zh-tw",
+                "title": "[停機預告]114.09.03(三)中午11時30分~13時30分[eREC線上審查系統]進行更版作業，請使用者勿上傳、更新資料❌。",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-294760,r3334.php?Lang=zh-tw",
                 "date": null
             },
             {
-                "title": "轉知：114年9月6日(六)「2025台北醫學會研討會-臨床試驗新趨勢」",
-                "link": "https://rec.site.nthu.edu.tw/p/406-1233-294614,r3334.php?Lang=zh-tw",
+                "title": "轉知：114年9月20日(六)醫學研究倫理基金會辦理「人體試驗研究倫理講習班~GCP」視訊課程",
+                "link": "https://rec.site.nthu.edu.tw/p/406-1233-294615,r3334.php?Lang=zh-tw",
                 "date": null
             }
         ]
