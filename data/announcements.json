@@ -2131,7 +2131,12 @@
         "department": "工學院",
         "articles": [
             {
-                "title": "(06/05 Update!) 📣 2025 Summer Research Program at College of Engineering, National Tsing Hua University, Taiwan",
+                "title": "【工學院英語小聚】Chat Over Everything - 2025 Fall Series",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-294816,r3361.php?Lang=zh-tw",
+                "date": "2025-09-04"
+            },
+            {
+                "title": "(Concluded) 2025 Summer Research Program at College of Engineering, National Tsing Hua University, Taiwan",
                 "link": "https://eng.site.nthu.edu.tw/p/450-1284-281646,c0.php?Lang=zh-tw",
                 "date": "2025-01-20"
             },
@@ -2174,11 +2179,6 @@
                 "title": "【工學院英文書報討論】Advancing Neuromorphic Computing for Future Sensory Memory Systems - 王超鴻教授／國立成功大學敏求智慧運算學院",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-287307,r3361.php?Lang=zh-tw",
                 "date": "2025-04-18"
-            },
-            {
-                "title": "【工學院英文書報討論】From Clinical Needs to Research and Development: The Innovation Path of POCT - 陳正翰醫師／臺北榮民總醫院",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-285169,r3361.php?Lang=zh-tw",
-                "date": "2025-03-14"
             }
         ]
     },
@@ -4869,6 +4869,16 @@
                 "date": null
             },
             {
+                "title": "【校內】 [工學院] 英語小聚．2025 秋季活動開放報名 / Registration Open for 2025 Fall English Corner",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294873,r772.php?Lang=zh-tw",
+                "date": null
+            },
+            {
+                "title": "【校外】第14屆 TBSA 全國大專創新企劃競賽",
+                "link": "https://ipe.site.nthu.edu.tw/p/450-1300-294842,c0.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【校內】清大資料科學社第二屆社員招募",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294822,r772.php?Lang=zh-tw",
                 "date": null
@@ -4886,16 +4896,6 @@
             {
                 "title": "【校內】輝容社福慈善基金會精英學生獎學金-IPE114.09.15(一)中午12:00截止。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294642,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【校外】台灣電力公司114學年度大學及研究所獎學金甄選資訊，9/19(五)17:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294519,r772.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【校內】諮商中心心窩志工招募中",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-294457,r772.php?Lang=zh-tw",
                 "date": null
             }
         ]
@@ -6672,9 +6672,9 @@
         "department": "藥品與醫材法規科學碩士在職學位學程",
         "articles": [
             {
-                "title": "【徵才】國立清華大學藥品與醫材法規科學碩士在職學位學程誠徵專任助理教授(含)以上教師(114/9/5截止)",
-                "link": "https://radmd.site.nthu.edu.tw/p/406-1565-281244,r11.php",
-                "date": "2025-07-01"
+                "title": "學程遠距課程公告",
+                "link": "https://radmd.site.nthu.edu.tw/p/406-1565-294840,r11.php",
+                "date": "2025-09-04"
             }
         ]
     },
