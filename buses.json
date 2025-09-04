@@ -211,6 +211,12 @@
             "time": "17:30"
         },
         {
+            "description": "",
+            "line": "route1",
+            "route": "校園公車",
+            "time": "17:40"
+        },
+        {
             "description": "週五停駛",
             "line": "route1",
             "route": "校園公車",
@@ -221,6 +227,12 @@
             "line": "route1",
             "route": "校園公車",
             "time": "18:10"
+        },
+        {
+            "description": "",
+            "line": "route1",
+            "route": "校園公車",
+            "time": "18:20"
         },
         {
             "description": "",
