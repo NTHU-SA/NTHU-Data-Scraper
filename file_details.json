@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "67c209af7ce257ff514c6e944f7e025f509b1cb2",
-        "last_updated": "2025-09-05T12:19:11+08:00",
+        "last_commit": "ac105c6a86260f1f1a6a3fa8767b191a25b73bd1",
+        "last_updated": "2025-09-05T18:18:06+08:00",
         "name": "announcements.json"
       },
       {
@@ -27,8 +27,8 @@
         "name": "directory.json"
       },
       {
-        "last_commit": "86a8484f19f84736d5445e24cade7ef02827db3c",
-        "last_updated": "2025-09-05T16:11:53+08:00",
+        "last_commit": "6f2e9d66126bda33455e2fa937d5f377c0807297",
+        "last_updated": "2025-09-06T00:11:02+08:00",
         "name": "maps.json"
       },
       {
@@ -217,8 +217,8 @@
         "name": "MainEN.json"
       },
       {
-        "last_commit": "86a8484f19f84736d5445e24cade7ef02827db3c",
-        "last_updated": "2025-09-05T16:11:53+08:00",
+        "last_commit": "6f2e9d66126bda33455e2fa937d5f377c0807297",
+        "last_updated": "2025-09-06T00:11:02+08:00",
         "name": "MainZH.json"
       },
       {
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_updated": "2025-09-05T16:11:53+08:00"
+  "last_updated": "2025-09-06T00:11:02+08:00"
 }
