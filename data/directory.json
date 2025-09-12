@@ -14874,20 +14874,6 @@
                     "email": "fyouyang@ess.nthu.edu.tw"
                 },
                 {
-                    "name": "李志浩",
-                    "title": "教授",
-                    "extension": "34281",
-                    "note": null,
-                    "email": "chlee@mx.nthu.edu.tw"
-                },
-                {
-                    "name": "李敏",
-                    "title": "教授",
-                    "extension": "34316",
-                    "note": null,
-                    "email": "mlee@ess.nthu.edu.tw"
-                },
-                {
                     "name": "黃嘉宏",
                     "title": "教授",
                     "extension": "34274",
@@ -14907,13 +14893,6 @@
                     "extension": "42674",
                     "note": null,
                     "email": "lkschang@ess.nthu.edu.tw"
-                },
-                {
-                    "name": "柳克強",
-                    "title": "教授",
-                    "extension": "42378",
-                    "note": null,
-                    "email": "kcleou@ess.nthu.edu.tw"
                 },
                 {
                     "name": "葉宗洸",
@@ -15012,6 +14991,20 @@
                     "extension": "42372",
                     "note": null,
                     "email": "wangpc@ess.nthu.edu.tw"
+                },
+                {
+                    "name": "盧志文",
+                    "title": "教授",
+                    "extension": "34305",
+                    "note": null,
+                    "email": "cwlu@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "楊小青",
+                    "title": "教授",
+                    "extension": "35255",
+                    "note": null,
+                    "email": "yanghc@ess.nthu.edu.tw"
                 },
                 {
                     "name": "林明緯",
@@ -15154,6 +15147,27 @@
                     "email": "yhu@mx.nthu.edu.tw"
                 },
                 {
+                    "name": "李志浩",
+                    "title": "榮譽退休教授",
+                    "extension": "34281",
+                    "note": null,
+                    "email": "chlee@mx.nthu.edu.tw"
+                },
+                {
+                    "name": "李敏",
+                    "title": "榮譽退休教授",
+                    "extension": "34316",
+                    "note": null,
+                    "email": "mlee@ess.nthu.edu.tw"
+                },
+                {
+                    "name": "柳克強",
+                    "title": "榮譽退休教授",
+                    "extension": "42378",
+                    "note": null,
+                    "email": "kcleou@ess.nthu.edu.tw"
+                },
+                {
                     "name": "李思娟",
                     "title": "助理管理師",
                     "extension": "34277",
@@ -15196,11 +15210,11 @@
                     "email": "ccchien@mx.nthu.edu.tw"
                 },
                 {
-                    "name": "劉麗珍",
+                    "name": "陳威全",
                     "title": "管理員",
                     "extension": "62245",
                     "note": null,
-                    "email": "liu@ess.nthu.edu.tw"
+                    "email": "cwchuan@mx.nthu.edu.tw"
                 }
             ]
         }
