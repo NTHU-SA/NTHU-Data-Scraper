@@ -66,7 +66,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/353914610.jpg",
                 "name": "一番快餐",
-                "note": "9月每週日暫停營業。9/20晚餐暫停營業。",
+                "note": "9月每週日暫停營業。",
                 "phone": "0933-511-522",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -78,7 +78,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/777124117.jpg",
                 "name": "快來速飯桶",
-                "note": "每週五、六、日暫停營業。9/29、10/6、12/25、115/1/1暫停營業。",
+                "note": "每週五、六、日、國定假日暫停營業。",
                 "phone": "0916-314-578",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-19:00",
@@ -460,7 +460,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/518002961.jpg",
                 "name": "碳烤小姐",
-                "note": "9月每週日暫停營業。9/16暫停營業。",
+                "note": "9月每週日暫停營業。",
                 "phone": "0976-475-300",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -484,7 +484,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/362318621.jpg",
                 "name": "喜番咖哩",
-                "note": "9月每週五晚餐、周日暫停營業。9/20晚餐、9/27、9/29暫停營業。",
+                "note": "9月每週五晚餐、周日暫停營業。9/27、9/29暫停營業。",
                 "phone": "0922-870-206",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -614,7 +614,7 @@
                 "area": "百齡堂",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/316188717.jpg",
                 "name": "清華水漾餐廳",
-                "note": "",
+                "note": "9/30結束營業。",
                 "phone": "(03)575-1584，0936-394-535",
                 "schedule": {
                     "saturday": "9:30-21:00",
