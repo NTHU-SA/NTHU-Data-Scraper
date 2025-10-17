@@ -495,6 +495,26 @@
         "department": "運動事業及政策中心",
         "articles": [
             {
+                "title": "[報導] (青年日報) 4賽事加入 路跑環境永續聯盟成員倍數成長",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297217,c0.php?Lang=zh-tw",
+                "date": "2025-10-16"
+            },
+            {
+                "title": "[報導] (聯合新聞網) 路跑／四賽事加入 環境永續聯盟持續壯大",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297218,c0.php?Lang=zh-tw",
+                "date": "2025-10-16"
+            },
+            {
+                "title": "[報導](運動筆記)【綠色賽事】路跑賽事環境永續聯盟成員倍數成長!!!",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297215,c0.php?Lang=zh-tw",
+                "date": "2025-10-16"
+            },
+            {
+                "title": "[報導] (don1don) 「路跑賽事環境永續聯盟」成員正以倍數成長",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297213,c0.php?Lang=zh-tw",
+                "date": "2025-10-16"
+            },
+            {
                 "title": "[報導] (運動視界) 淺談台美日三級學校棒球賽事現況(上)：應當規劃合宜的賽季與賽事制度才有利於發展健康的運動生態",
                 "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297083,c0.php?Lang=zh-tw",
                 "date": "2025-10-14"
@@ -532,26 +552,6 @@
             {
                 "title": "[報導] (花蓮視新聞) 結合運動 × 教育 × 淨灘　跑者用腳步守護海岸永續",
                 "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-294699,c0.php?Lang=zh-tw",
-                "date": "2025-09-02"
-            },
-            {
-                "title": "[報導] (花蓮視新聞) 台灣路跑永續論壇首度移師花蓮登場 探討地方如何靠運動活動創造影響力",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-294697,c0.php?Lang=zh-tw",
-                "date": "2025-09-02"
-            },
-            {
-                "title": "[報導] (花蓮電子報) 路跑永續論壇花蓮登場",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-294693,c0.php?Lang=zh-tw",
-                "date": "2025-09-02"
-            },
-            {
-                "title": "[報導] (花蓮縣政府) 路跑永續論壇花蓮登場",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-294692,c0.php?Lang=zh-tw",
-                "date": "2025-09-02"
-            },
-            {
-                "title": "[報導] (麗台運動) 路跑》路跑永續論壇首度前進東台灣　四大亮點盼打造國際視野花蓮",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-294690,c0.php?Lang=zh-tw",
                 "date": "2025-09-02"
             }
         ]
@@ -671,14 +671,14 @@
                 "date": "2025-07-02"
             },
             {
+                "title": "114學年度第一學期課程設計能力檢定暨競賽",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-297209,r48.php?Lang=zh-tw",
+                "date": "2025-10-16"
+            },
+            {
                 "title": "師培中心114年度教檢系列工作坊，歡迎轉知並踴躍參加！",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-295352,r48.php?Lang=zh-tw",
                 "date": "2025-09-12"
-            },
-            {
-                "title": "【面試公告】2026國立清華大學光罩國際師資培育計畫",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-296925,r48.php?Lang=zh-tw",
-                "date": "2025-10-13"
             }
         ]
     },
@@ -1311,6 +1311,16 @@
                 "date": "2025-08-28"
             },
             {
+                "title": "(特別演講)114.10.21, 11:00 石清華 Staff Scientist, Department of Biomedical Genetics and the Wilmot Cancer Institute, University of Rochester Medical Center",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-297216,r8084.php?Lang=zh-tw",
+                "date": "2025-10-16"
+            },
+            {
+                "title": "(特別演講)114.10.21, 10:00 王子元研究技師, 透過螢火蟲發光圖譜與影像追蹤來解讀螢火蟲的夜間活動與生殖行為",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-297214,r8084.php?Lang=zh-tw",
+                "date": "2025-10-16"
+            },
+            {
                 "title": "(專題討論)114.10.16全以祖副教授 Reprogramming T Cell Responses: From Autoimmunity to Cancer Immunity",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-296876,r8084.php?Lang=zh-tw",
                 "date": "2025-10-09"
@@ -1394,16 +1404,6 @@
                 "title": "(專題演講)114.3.20 李政昇助理教授 Regulation of DNA Double-strand Break Repair by Cohesin-mediated Loop Extrusion of Chromosome",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-285307,r8084.php?Lang=zh-tw",
                 "date": "2025-03-17"
-            },
-            {
-                "title": "(專題演講)114.3.13 羅世皓特聘研究員 Focal Adhesions in Human Diseases",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-284519,r8084.php?Lang=zh-tw",
-                "date": "2025-03-07"
-            },
-            {
-                "title": "(專題演講)114.3.6 陳蕾惠研究員 Lipid unsaturation for proteostasis, lipid homeostasis, and membrane dynamics",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-284037,r8084.php?Lang=zh-tw",
-                "date": "2025-02-27"
             }
         ]
     },
@@ -5372,6 +5372,11 @@
                 "date": null
             },
             {
+                "title": "【轉知】陽交大語言中心開設2025秋季外語進修班(11-12月)：",
+                "link": "https://language.site.nthu.edu.tw/p/406-1212-297210,r6822.php?Lang=zh-tw",
+                "date": null
+            },
+            {
                 "title": "【轉知】財團法人語言訓練測驗中心「全民英檢」2026各級測驗報名資訊",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-296467,r6822.php?Lang=zh-tw",
                 "date": null
@@ -5414,11 +5419,6 @@
             {
                 "title": "【轉知】財團法人語言訓練測驗中心「全民英檢」各級別測驗報名資訊",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-293566,r6822.php?Lang=zh-tw",
-                "date": null
-            },
-            {
-                "title": "【轉知】國立高雄大學與泰國朱拉隆功大學合作辦理泰語能力檢定CU-TFL，歡迎報考。",
-                "link": "https://language.site.nthu.edu.tw/p/406-1212-293428,r6822.php?Lang=zh-tw",
                 "date": null
             }
         ]
