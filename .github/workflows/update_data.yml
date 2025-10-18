@@ -16,10 +16,10 @@ jobs:
   crawl_ubuntu:
     name: Crawl on ubuntu-latest
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -28,26 +28,27 @@ jobs:
         run: |
           pip install -r requirements.txt
       - name: Run ubuntu spiders
+        id: ubuntu_crawl
+        shell: bash
+        env:
+          DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: |
-          scrapy crawl nthu_announcements
-          scrapy crawl nthu_buses
-          scrapy crawl nthu_courses
-          scrapy crawl nthu_dining
-        continue-on-error: true
-      - name: Cache ubuntu data
-        uses: actions/cache/save@v3
-        if: always()
+          bash ./crawl.sh --group ubuntu
+      - name: Upload ubuntu dataset
+        if: ${{ success() }}
+        uses: actions/upload-artifact@v4
         with:
+          name: ubuntu-data
           path: ${{ env.DATA_FOLDER }}
-          key: ubuntu-data-${{ github.run_id }}
+          if-no-files-found: error
 
   crawl_self_hosted:
     name: Crawl on self-hosted
     runs-on: self-hosted
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -56,59 +57,70 @@ jobs:
         run: |
           pip install -r requirements.txt
       - name: Run self-hosted spiders
+        id: self_hosted_crawl
+        shell: bash
+        env:
+          DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: |
-          scrapy crawl nthu_directory
-          scrapy crawl nthu_maps
-          scrapy crawl nthu_newsletters
-        continue-on-error: true
-      - name: Cache self-hosted data
-        uses: actions/cache/save@v3
-        if: always()
+          bash ./crawl.sh --group self-hosted
+      - name: Upload self-hosted dataset
+        if: ${{ success() }}
+        uses: actions/upload-artifact@v4
         with:
+          name: self-hosted-data
           path: ${{ env.DATA_FOLDER }}
-          key: self-hosted-data-${{ github.run_id }}
+          if-no-files-found: error
 
   commit_changes:
     needs: [crawl_ubuntu, crawl_self_hosted]
-    if: always()
+    if: ${{ always() }}
     name: Commit JSON updates
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
-      - name: Restore ubuntu data cache
-        if: needs.crawl_ubuntu.result == 'success'
-        uses: actions/cache/restore@v3
-        with:
-          path: ${{ env.DATA_FOLDER }}
-          key: ubuntu-data-${{ github.run_id }}
-        continue-on-error: true
-      - name: Restore self-hosted data cache
-        if: needs.crawl_self_hosted.result == 'success'
-        uses: actions/cache/restore@v3
-        with:
-          path: ${{ env.DATA_FOLDER }}
-          key: self-hosted-data-${{ github.run_id }}
-        continue-on-error: true
-      - name: Merge data folders
+      - name: Verify crawl availability
+        id: crawl_guard
+        env:
+          UB_SUCCESS: ${{ needs.crawl_ubuntu.result == 'success' }}
+          SH_SUCCESS: ${{ needs.crawl_self_hosted.result == 'success' }}
         run: |
-          mkdir -p ${{ env.DATA_FOLDER }}
-          if [ -d "ubuntu-data" ]; then
-            cp -r ubuntu-data/* ${{ env.DATA_FOLDER }}/ 2>/dev/null || true
+          if [ "${UB_SUCCESS}" != "true" ] && [ "${SH_SUCCESS}" != "true" ]; then
+            echo "No crawl job succeeded; aborting." >&2
+            exit 1
           fi
-          if [ -d "self-hosted-data" ]; then
-            cp -r self-hosted-data/* ${{ env.DATA_FOLDER }}/ 2>/dev/null || true
-          fi
+      - name: Download ubuntu dataset
+        if: ${{ needs.crawl_ubuntu.result == 'success' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: ubuntu-data
+          path: ubuntu-data
+      - name: Download self-hosted dataset
+        if: ${{ needs.crawl_self_hosted.result == 'success' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: self-hosted-data
+          path: self-hosted-data
+      - name: Merge data artifacts
+        shell: bash
+        run: |
+          mkdir -p "${DATA_FOLDER}"
+          for source in ubuntu-data self-hosted-data; do
+            if [ -d "$source/${DATA_FOLDER}" ]; then
+              rsync -a "$source/${DATA_FOLDER}/" "${DATA_FOLDER}/"
+            fi
+          done
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions"
           git config user.email "action@github.com"
       - name: Commit data updates
+        shell: bash
         run: |
-          git add $DATA_FOLDER
+          git add "$DATA_FOLDER"
           changed=$(git diff --cached --name-only "$DATA_FOLDER")
           if [[ -n "$changed" ]]; then
             cats=$(echo "$changed" \
@@ -129,7 +141,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch (full history)
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
