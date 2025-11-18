@@ -1,2228 +1,2558 @@
 {
-    "towardMainGateInfo": {
-        "direction": "往校門口 (To Main Gate)",
-        "duration": "2025/09/30 ~ 2025/11/01",
-        "route": "(紅線)  台積館 →  教育學院大樓/南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院 → 綜二館 → 北校門口",
-        "routeEN": "(Red Line)  TSMC Building →  COE Building/South Gate Parking Lot  →  Yi Pavilion Parking Lot  → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → General Building II → North Main Gate"
-    },
     "towardTSMCBuildingInfo": {
         "direction": "往台積館 (To TSMC Building)",
-        "duration": "2025/09/30 ~ 2025/11/01",
+        "duration": "2025/09/30 ~ 2025/12/20",
         "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑(女舍) →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑(女舍) →  奕園停車場  →  教育學院大樓/南門停車場  → 台積館",
         "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  COE Building/South Gate Parking Lot  → TSMC Building"
     },
-    "weekdayBusScheduleTowardMainCampus": [
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "7:20"
-        },
-        {
-            "description": "此為付費市區公車(83號公車直達兩校區)",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "7:33"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "8:00"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "8:35"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "8:40"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "8:45"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "9:20"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "9:40"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "9:50"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "9:55"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "10:00"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "11:10"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "11:30"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "12:05"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "12:15"
-        },
-        {
-            "description": " ",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "12:20"
-        },
-        {
-            "description": "此為付費市區公車(83號公車直達兩校區)",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "12:23"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "12:35"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "12:50"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "13:00"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "13:30"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "14:00"
-        },
-        {
-            "description": "週五停駛",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "14:50"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "15:00"
-        },
-        {
-            "description": "週五停駛",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "15:05"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "15:10"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "15:15"
-        },
-        {
-            "description": "此為付費市區公車(83號公車直達兩校區)",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "15:18"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "15:40"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "16:30"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "16:55"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "17:25"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "17:30"
-        },
-        {
-            "description": "週五停駛",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "17:50"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "18:10"
-        },
-        {
-            "description": "",
-            "line": "route2",
-            "route": "校園公車",
-            "time": "18:20"
-        },
-        {
-            "description": "週五停駛",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "18:30"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "18:40"
-        },
-        {
-            "description": "此為付費市區公車(83號公車直達兩校區)",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "18:43"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "19:10"
-        },
-        {
-            "description": "週五停駛",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "19:40"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "20:15"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "20:40"
-        },
-        {
-            "description": "週五停駛",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "21:10"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "21:40"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "22:10"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "22:40"
-        },
-        {
-            "description": "週五停駛",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "23:10"
-        }
-    ],
-    "weekdayBusScheduleTowardMainGate": [
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "7:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "7:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "7:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "8:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:47"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "8:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士、週六有行駛",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "8:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "9:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "9:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "9:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "9:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "9:47"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:47"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "9:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "9:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "9:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "10:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "10:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "10:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "10:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "10:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "10:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "10:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "10:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "10:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "10:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "11:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "11:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "11:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "週六有行駛",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:37"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:37"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:47"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:47"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "週六有行駛",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "14:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "14:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "14:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "14:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "14:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "14:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "14:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "14:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "14:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:37"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "16:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "週六有行駛",
-            "line": "green",
-            "route": "校園公車",
-            "time": "16:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "16:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "16:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "16:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "17:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "17:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "17:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "17:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "17:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "17:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "17:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "17:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "17:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "18:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "18:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "18:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "18:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:22"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:27"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "18:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "18:37"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "18:42"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "19:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "19:37"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "20:02"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "20:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "20:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "21:12"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "21:32"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "21:52"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "22:07"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "22:27"
-        }
-    ],
+    "towardMainGateInfo": {
+        "direction": "往校門口 (To Main Gate)",
+        "duration": "2025/09/30 ~ 2025/12/20",
+        "route": "(紅線)  台積館 →  教育學院大樓/南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院 → 綜二館 → 北校門口",
+        "routeEN": "(Red Line)  TSMC Building →  COE Building/South Gate Parking Lot  →  Yi Pavilion Parking Lot  → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → General Building II → North Main Gate"
+    },
     "weekdayBusScheduleTowardTSMCBuilding": [
         {
-            "dep_stop": "校門",
+            "time": "7:20",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "7:20"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "7:45",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "7:45"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "7:50",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "7:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "8:05",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "8:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "8:15",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "8:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "8:25",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "8:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "8:35",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "8:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "8:35",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "8:35"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
+            "time": "8:40",
+            "description": "大型巴士, 週六有行駛",
+            "line": "red",
             "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:45",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:45",
+            "description": "",
+            "line": "green",
+            "dep_stop": "綜二",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:50",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "8:40"
-        },
-        {
             "dep_stop": "校門",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:45"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "8:50",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "8:45"
-        },
-        {
-            "dep_stop": "校門",
-            "description": "大巴士、週六有行駛",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:50"
-        },
-        {
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "8:50"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "8:55",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "8:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "8:55",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "8:55"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:00",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:00"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:05",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "9:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:15",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:25",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "9:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "9:25",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:25"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:35",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "9:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "9:35",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:35"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:40",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "9:40"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "9:40",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:40"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:45",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "9:45"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "9:45",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:45"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:50",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "9:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "9:50",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:50"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "9:55",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "9:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "9:55",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "9:55"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "10:00",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "10:00"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "10:00",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "10:00"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "10:05",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "10:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "10:05",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "10:05"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "10:10",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "10:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "10:10",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "10:10"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "10:20",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "10:20"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "10:35",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "10:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "10:55",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "10:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "11:15",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "11:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "11:35",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "11:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "11:55",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "11:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "11:55",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "11:55"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:00",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:00"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "12:00",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "12:00"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:05",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "12:05",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "12:05"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:10",
             "description": "週六有行駛",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "12:10",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "12:10"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:15",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "12:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:30",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:30"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "12:30",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "12:30"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:40",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:40"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "12:40",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "12:40"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:50",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "12:50",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "12:50"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:55",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "13:00",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "13:00"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "13:00",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "13:00"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "13:05",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "13:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "13:05",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "13:05"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "13:10",
             "description": "週六有行駛",
             "line": "red",
-            "route": "校園公車",
-            "time": "13:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "13:10",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "13:10"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "13:15",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "13:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "13:15",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:20",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:25",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "13:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "13:35",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "13:20"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "13:45",
+            "description": "",
+            "line": "red",
             "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:45",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "13:25"
-        },
-        {
-            "dep_stop": "校門",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:35"
-        },
-        {
-            "dep_stop": "校門",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:45"
-        },
-        {
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:45"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "13:55",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "13:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "13:55",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "13:55"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:00",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "14:00"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:05",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "14:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:10",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "14:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:15",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "14:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:25",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "14:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:35",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "14:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:45",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "14:45"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "14:55",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "14:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "14:55",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:00",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:05",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:05",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "14:55"
-        },
-        {
-            "dep_stop": "校門",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:00"
-        },
-        {
-            "dep_stop": "校門",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "15:05"
-        },
-        {
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "15:05"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "15:10",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "15:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "15:10",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "15:10"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "15:15",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "15:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "15:15",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "15:15"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "15:20",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "15:20"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "15:20",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "15:20"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "15:25",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "15:25"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "15:25",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "15:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "15:30",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "15:30"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "15:35",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "15:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "15:50",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "15:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "16:10",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "16:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "16:20",
             "description": "週六有行駛",
             "line": "green",
-            "route": "校園公車",
-            "time": "16:20"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "16:25",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "16:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "16:35",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "16:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "16:50",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "16:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "17:05",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "17:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "17:05",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "17:05"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "17:15",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "17:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "17:15",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:20",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:25",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:25",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "17:15"
-        },
-        {
-            "dep_stop": "校門",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "17:20"
-        },
-        {
-            "dep_stop": "校門",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "17:25"
-        },
-        {
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "17:25"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "17:35",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "17:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "17:45",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "17:45"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "17:55",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "17:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:00",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "18:00"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:05",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "18:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:10",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "18:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:15",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "18:15"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "18:15",
+            "description": "大型巴士",
+            "line": "green",
             "dep_stop": "綜二 ",
-            "description": "大型巴士",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:15"
+            "route": "南大區間車"
         },
         {
+            "time": "18:20",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:20"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:25",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "18:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
+            "time": "18:25",
+            "description": "",
+            "line": "green",
             "dep_stop": "綜二",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "18:25"
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:30",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "18:30"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:35",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "18:35"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "18:50",
             "description": "大型巴士",
             "line": "green",
-            "route": "校園公車",
-            "time": "18:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "19:05",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "19:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "19:30",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "19:30"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "19:55",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "19:55"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "20:25",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "20:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "20:50",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "20:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "21:05",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "21:05"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "21:25",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "21:25"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "21:45",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "21:45"
-        },
-        {
             "dep_stop": "校門",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "22:00"
+            "route": "南大區間車"
         },
         {
+            "time": "22:00",
+            "description": "",
+            "line": "green",
             "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "22:20",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "22:20"
-        }
-    ],
-    "weekendBusScheduleTowardMainCampus": [
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "8:30"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "12:00"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "14:00"
-        },
-        {
-            "description": "",
-            "line": "route1",
-            "route": "校園公車",
-            "time": "15:00"
-        }
-    ],
-    "weekendBusScheduleTowardMainGate": [
-        {
-            "dep_stop": "台積館",
-            "description": "大型巴士",
-            "line": "red",
-            "route": "校園公車",
-            "time": "8:57"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "12:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "red",
-            "route": "校園公車",
-            "time": "13:17"
-        },
-        {
-            "dep_stop": "台積館",
-            "description": "",
-            "line": "green",
-            "route": "校園公車",
-            "time": "16:27"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         }
     ],
     "weekendBusScheduleTowardTSMCBuilding": [
         {
-            "dep_stop": "校門",
+            "time": "8:50",
             "description": "大型巴士",
             "line": "red",
-            "route": "校園公車",
-            "time": "8:50"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "12:10",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "12:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "校門",
+            "time": "13:10",
             "description": "",
             "line": "red",
-            "route": "校園公車",
-            "time": "13:10"
+            "dep_stop": "校門",
+            "route": "南大區間車"
         },
         {
-            "dep_stop": "綜二",
+            "time": "16:20",
             "description": "",
             "line": "green",
-            "route": "校園公車",
-            "time": "16:20"
+            "dep_stop": "綜二",
+            "route": "南大區間車"
+        }
+    ],
+    "weekdayBusScheduleTowardMainGate": [
+        {
+            "time": "7:27",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "7:52",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "7:57",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:12",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:22",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:42",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:42",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:47",
+            "description": "大型巴士, 週六有行駛",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:52",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:52",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:57",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:57",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:02",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:02",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:07",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:12",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:22",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:32",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:42",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:42",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:47",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:47",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:52",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:52",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:57",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:57",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:02",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:02",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:07",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:07",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:12",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:17",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:17",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:27",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:42",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:02",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:22",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:42",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:02",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:02",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:07",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:07",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:12",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:17",
+            "description": "週六有行駛",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:17",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:22",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:37",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:37",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:47",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:47",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:57",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:57",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:02",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:07",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:07",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:12",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:17",
+            "description": "週六有行駛",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:17",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:22",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:22",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:27",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:32",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:42",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:52",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:52",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:02",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:02",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:07",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:12",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:17",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:22",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:32",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:42",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:52",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:02",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:02",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:07",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:12",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:17",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:17",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:22",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:22",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:27",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:27",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:32",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:37",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:42",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:57",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:17",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:27",
+            "description": "週六有行駛",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:42",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:57",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:12",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:22",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:22",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:27",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:32",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:42",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:52",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:02",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:07",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:17",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:22",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:22",
+            "description": "大型巴士",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:27",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:32",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:37",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:42",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:57",
+            "description": "大型巴士",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "19:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "19:37",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:02",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:32",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:57",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "21:12",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "21:32",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "21:52",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "22:07",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "22:27",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        }
+    ],
+    "weekendBusScheduleTowardMainGate": [
+        {
+            "time": "8:57",
+            "description": "大型巴士",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:17",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:17",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:27",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        }
+    ],
+    "towardNandaInfo": {
+        "direction": "往南大校區 (To Nanda Campus)",
+        "duration": "2025/09/30 ~ 2025/12/21",
+        "route": "(路線一)  北校門口 → 綜二館 → 人社院/生科館 → 台積館(經寶山路) → 南大校區校門口右側(食品路校牆邊) (路線二)  北校門口 → 綜二館 → 奕園停車場 → 教育學院大樓/南門停車場(經寶山路) → 南大校區校門口右側(食品路校牆邊)",
+        "routeEN": "(Route I)  North Main Gate → General Building II → CHSS/CLS Building → TSMC Building(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road) (Route II)  North Main Gate → General Building II → Yi Pavilion Parking Lot → COE Building/South Gate Parking Lot(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road)",
+        "weekendSchedule": "南大校區發車：8:30、12:00、14:00、17:00<br/>校本部發車：9:00、12:30、14:30、17:30"
+    },
+    "towardMainCampusInfo": {
+        "direction": "往校本部 (To Main Campus)",
+        "duration": "2025/09/30 ~ 2025/12/21",
+        "route": "(路線一)  南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口 (路線二)  南大校區校門口右側(食品路校牆邊) → 教育學院大樓/南門停車場(經寶山路) → 奕園停車場 → 綜二館 → 北校門口",
+        "routeEN": "(Route I)  The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Building → General Building II → North Main Gate (Route II)  The right side of NandaCampus front gate(Shipin Road) → COE Building/South Gate Parking Lot(Baoshan Rd.) → Yi Pavilion Parking Lot → General Building II → North Main Gate",
+        "weekendSchedule": "南大校區發車：8:30、12:00、14:00、17:00<br/>校本部發車：9:00、12:30、14:30、17:30"
+    },
+    "weekdayBusScheduleTowardNanda": [
+        {
+            "time": "7:30",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "7:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:20",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:00",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:40",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:55",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:25",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:55",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:30",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:05",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:10",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:15",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:20",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:25",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:35",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:40",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:50",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:00",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:10",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:20",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:00",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:25",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:00",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:10",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:15",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:20",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:25",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:45",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:50",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:00",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:15",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:50",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "19:00",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "19:10",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "19:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:00",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:55",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "21:25",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "21:55",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "22:25",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "22:55",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "23:25",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        }
+    ],
+    "weekendBusScheduleTowardNanda": [
+        {
+            "time": "9:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        }
+    ],
+    "weekdayBusScheduleTowardMainCampus": [
+        {
+            "time": "7:20",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "7:33",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:35",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "8:45",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:20",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:50",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "9:55",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "10:00",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:10",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:05",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:15",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:20",
+            "description": " ",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:23",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:35",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:50",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:30",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:50",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:05",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:10",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:15",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:18",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:30",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:55",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:25",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:50",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:10",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:20",
+            "description": "",
+            "line": "route2",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:30",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:43",
+            "description": "此為付費市區公車(83號公車直達兩校區)",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "19:10",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "19:40",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:15",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "21:10",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "21:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "22:10",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "22:40",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "23:10",
+            "description": "週五停駛",
+            "line": "route1",
+            "route": "南大區間車"
+        }
+    ],
+    "weekendBusScheduleTowardMainCampus": [
+        {
+            "time": "8:30",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:00",
+            "description": "",
+            "line": "route1",
+            "route": "南大區間車"
         }
     ]
 }

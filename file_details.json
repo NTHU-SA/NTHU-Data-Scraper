@@ -2,28 +2,33 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5950786a3f7e9792437a958c6acc614610c12c26",
-        "last_updated": "2025-10-18T17:03:51+08:00",
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
         "name": "announcements.json"
       },
       {
-        "last_commit": "3490b297618e416cb32c923b60c6a3a4dab5808b",
-        "last_updated": "2025-10-01T10:32:56+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "announcements_list.json"
+      },
+      {
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
         "name": "buses.json"
       },
       {
-        "last_commit": "32052fee5cfb7614b9e7a97d9d9e563754f79010",
-        "last_updated": "2025-10-18T17:33:10+08:00",
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
         "name": "courses.json"
       },
       {
-        "last_commit": "3e1a8f0316e6f7f19da508c16caedbf25feaa7f1",
-        "last_updated": "2025-10-18T16:10:41+08:00",
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
         "name": "dining.json"
       },
       {
-        "last_commit": "d7281d79d6a237281fa14aba4982284f2fbc6e65",
-        "last_updated": "2025-09-19T12:12:07+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "directory.json"
       },
       {
@@ -32,9 +37,1819 @@
         "name": "maps.json"
       },
       {
-        "last_commit": "dffee5a401d249a7e63e468fc68e38048ccff1fa",
-        "last_updated": "2025-09-20T16:10:51+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "newsletters.json"
+      }
+    ],
+    "announcements/主計室": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "資訊分類清單_zh-tw.json"
+      }
+    ],
+    "announcements/人事室": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校外活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "法規宣導_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "重大消息_zh-tw.json"
+      }
+    ],
+    "announcements/人文社會學院世界南島暨原住民族中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告 Latest News_zh-tw.json"
+      }
+    ],
+    "announcements/人文社會學院文論研究中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告_zh-tw.json"
+      }
+    ],
+    "announcements/人文社會學院水下考古學暨水下文化資產研究中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Related Events_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Related Exhibitions_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "研究成果－教育推廣－演講資訊_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "研究成果－教育推廣－相關展覽_zh-tw.json"
+      }
+    ],
+    "announcements/人文社會學院華文文學研究所": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Thesis Defense_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Thesis Proposal Review_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系所消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "論文學位考試_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "論文計畫審查_zh-tw.json"
+      }
+    ],
+    "announcements/半導體研究學院": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Job Openings_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest News_en.json"
+      }
+    ],
+    "announcements/原子科學技術發展中心反應器業務": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "BNCT治療現況_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Introduction_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/合校停招系所聯合辦事處（教務處支援）": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/合校停招系所聯合辦事處（教務處支援）中國語文學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽榜_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系所消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "資訊分類清單_zh-tw.json"
+      }
+    ],
+    "announcements/合校停招系所聯合辦事處（教務處支援）應用數學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "重要公告_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "重要公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "首頁內容_zh-tw.json"
+      }
+    ],
+    "announcements/合校停招系所聯合辦事處（教務處支援）應用科學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系所公告_zh-tw.json"
+      }
+    ],
+    "announcements/國立清華大學學生會": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "選委會_zh-tw.json"
+      }
+    ],
+    "announcements/國際產學營運總中心NVIDIA-國立清華大學聯合創新中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/國際產學營運總中心台積電-國立清華大學聯合研發中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/國際產學營運總中心聯發科技-國立清華大學創新研究中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息與活動_zh-tw.json"
+      }
+    ],
+    "announcements/學務處": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/學務處學生住宿組(水木生活中心1樓)": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Application_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Maintenance_Construction_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "其他_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "宣導_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "宿舍施工公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動_會議_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "申請_zh-tw.json"
+      }
+    ],
+    "announcements/學務處衛生保健組(醫輔大樓1樓)": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "公告_宣導_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "公告_活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "公告_計畫_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "公告_防疫_zh-tw.json"
+      }
+    ],
+    "announcements/學務處課外活動組(蒙民偉樓2樓)": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      }
+    ],
+    "announcements/學務處諮商中心(醫輔大樓2樓)": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "中心公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校園輔導活動-本學期_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校園輔導活動-歷年_zh-tw.json"
+      }
+    ],
+    "announcements/工學院": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽榜_zh-tw.json"
+      }
+    ],
+    "announcements/工學院奈米工程與微系統研究所": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Lecture_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "iNEMS Honors_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "奈微所榮譽_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "徵才資訊_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "所友(學)會_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "演講訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "碩博士考生資訊_zh-tw.json"
+      },
+      {
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
+        "name": "系所公告_zh-tw.json"
+      }
+    ],
+    "announcements/工學院工學院學士班": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_Announcements  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_CAMPUS News  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽榜_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "跨領域學習相關報導_zh-tw.json"
+      }
+    ],
+    "announcements/工學院工業工程與工程管理學系": [
+      {
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
+        "name": "Honors_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Lecture_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "工工榮譽榜_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "演講公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系辦公告_zh-tw.json"
+      }
+    ],
+    "announcements/師資培育中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "徵才_研習_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "資訊分類清單_zh-tw.json"
+      }
+    ],
+    "announcements/教務處": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "因應新型冠狀病毒肺炎：教務相關公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/教務處招生策略中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "僑外生最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "博士班最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學士後最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學士班最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "碩士專班最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "碩士班最新公告_zh-tw.json"
+      }
+    ],
+    "announcements/教務處推廣教育中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "國內大學交換生(含台聯大全時選讀生)_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "推廣教育_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "補助課程_zh-tw.json"
+      }
+    ],
+    "announcements/教務處智慧生醫博士學位學程": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Common information_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Graduation Process_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "修業規定_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "入學申請_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "常用資訊_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/教務處智慧製造跨院高階主管碩士在職學位學程": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "【首頁】師長祝福與勉勵  - AIMS Fellows_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "【首頁】招生訊息  - AIMS Fellows_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "【首頁】最新消息  - AIMS Fellows_zh-tw.json"
+      }
+    ],
+    "announcements/教務處清華大學出版社": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "What's New_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "新書展示_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/教務處綜合教務組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "訊息公告_zh-tw.json"
+      }
+    ],
+    "announcements/教務處英語教學精進中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest news_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Off-campus information_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Student Activities_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Teacher and teaching assistant activities_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/教務處註冊組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "NEWS_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Search_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Statistics_en.json"
+      }
+    ],
+    "announcements/教務處課務組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告_zh-tw.json"
+      }
+    ],
+    "announcements/教務處跨院國際碩博士班學位學程": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "About Program_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "國際交流_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "師生榮譽_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動報導_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系所公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "補助申請_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "資格考及學位考試_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "關於學程_zh-tw.json"
+      }
+    ],
+    "announcements/教務處金門教育中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/校友服務及資源發展處校友中心、校友總會": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Alumni News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校友榮譽_zh-tw.json"
+      }
+    ],
+    "announcements/校長室": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Information Category Menu_en.json"
+      }
+    ],
+    "announcements/清華公佈欄": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Announcements_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Events_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "其他公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學生活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學術活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校內徵才_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校外徵才_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "藝文活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "行政公告_zh-tw.json"
+      }
+    ],
+    "announcements/清華學院": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動剪影_zh-tw.json"
+      }
+    ],
+    "announcements/清華學院住宿書院": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "導師分享  - 清華書院_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生專區  - 清華書院_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告  - 清華書院_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動回顧  - 清華書院_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "院生分享  - 清華書院_zh-tw.json"
+      }
+    ],
+    "announcements/清華學院實創中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "車庫新鮮事_zh-tw.json"
+      }
+    ],
+    "announcements/清華學院清華學院學士班": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "創新學制專區_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "影音新聞_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽榜_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "訊息公告_zh-tw.json"
+      }
+    ],
+    "announcements/清華學院語文中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "中心最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "推廣班課程最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/清華學院通識教育中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "演講訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "近期活動精選_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "通識二三事_zh-tw.json"
+      }
+    ],
+    "announcements/清華學院體育室": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息 NEWS_zh-tw.json"
+      }
+    ],
+    "announcements/理學院物理學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "All seminar_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "honor_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "office news_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "physnews_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "所有演講_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新榮譽_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系辦公告_zh-tw.json"
+      }
+    ],
+    "announcements/環境保護暨安全衛生中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "E-system related issues_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Related Links_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "環安衛相關教育訓練專區_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "相關連結_zh-tw.json"
+      }
+    ],
+    "announcements/生命科學暨醫學院": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Recent Activities_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "banner_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "banner_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/生命科學暨醫學院分子與細胞生物研究所": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "banner_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "banner_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_zh-tw.json"
+      }
+    ],
+    "announcements/生命科學暨醫學院分子醫學研究所": [
+      {
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
+        "name": "banner_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_zh-tw.json"
+      }
+    ],
+    "announcements/生命科學暨醫學院學士後醫學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Recent Activities_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學系動態_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學系動態_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "相關中心_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "醫學系：新聞_zh-tw.json"
+      }
+    ],
+    "announcements/生命科學暨醫學院精準醫療博士學位學程": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/生命科學暨醫學院系統神經科學研究所": [
+      {
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
+        "name": "banner_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "news_zh-tw.json"
+      }
+    ],
+    "announcements/研究發展處光電中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動資訊_zh-tw.json"
+      }
+    ],
+    "announcements/研究發展處當代中國研究中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "資訊分類清單_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "通訊即時報導_zh-tw.json"
+      }
+    ],
+    "announcements/研究發展處研究倫理辦公室": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "IACUC審查事項公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "IACUC最新消息公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "研究倫理審查事項公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "研究倫理最新消息公告_zh-tw.json"
+      }
+    ],
+    "announcements/研究發展處硼中子捕獲治療中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "【最新消息】_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "媒體新聞_zh-tw.json"
+      }
+    ],
+    "announcements/研究發展處科技考古與文物鑑定研究中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/研究發展處運動事業及政策中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest Product_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "訊息分類_zh-tw.json"
+      }
+    ],
+    "announcements/科技管理學院HBA健康政策與經營管理碩士在職專班": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "在校生專區_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動訊息_zh-tw.json"
+      }
+    ],
+    "announcements/科技管理學院安富金融工程研究中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "中心消息 News_zh-tw.json"
+      }
+    ],
+    "announcements/秘書處性別平等教育委員會": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "公文函示_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "新聞專區_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動訊息_zh-tw.json"
+      }
+    ],
+    "announcements/秘書處校務研究中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院學習科學與科技研究所": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學科人物誌 前傳_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學科所 _ 學科所友社群_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學科所 _ 師生榮譽_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學科所 _ 所辦公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學科所 _ 最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學科所 _ 演講公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學科所 _ 研究徵才_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學術研究資訊_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "有梗學習研究資訊_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院幼兒教育學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "快速搜尋_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院性_別教育發展中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院教育心理與諮商學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學術訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "徵才訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "心諮科普_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校內活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系務公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "賀榜_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院教育與學習科技學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學術活動／研討會資訊_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "徵才訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽榜_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系務公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "轉知訊息_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院數理教育研究所": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學術活動_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學術活動_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院竹師教育學院博士班": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "General_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "一般公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生公告_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院竹師教育學院跨領域STEAM教育碩士在職專班": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "本班公告_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院臺灣語言研究與教學研究所": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "學術訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "徵才訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "所務公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽榜_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院英語教育中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "中心最新消息 NEWS_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院華德福教育碩士在職學位學程": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/竹師教育學院運動科學系": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Activities_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Admissions_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Department Announcement_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Latest News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Other Sports Video News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Recruitment_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Scholarship & Exchange Program_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Special Report_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "「獎學金_交換計劃」_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "實習_徵才訊息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生及放榜資訊_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "系務公告_zh-tw.json"
+      }
+    ],
+    "announcements/總務處": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "General News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/總務處事務組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校園公車暨巡迴公車公告_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "校園公車暨巡迴公車公告_zh-tw.json"
+      }
+    ],
+    "announcements/總務處保管組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/總務處出納組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "一般公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/總務處南大校區 總務行政組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "News!_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/總務處採購組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/總務處文書組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "轉知檔案應用訊息_zh-tw.json"
+      }
+    ],
+    "announcements/總務處校園規劃組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "已完成規劃案件_zh-tw.json"
+      }
+    ],
+    "announcements/總務處營繕組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "NEWS_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/總務處經營管理組": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招待所公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "餐廳公告_zh-tw.json"
+      }
+    ],
+    "announcements/總務處駐衛警察隊": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
+    "announcements/藝文總中心": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "Center Announcement_en.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "中心公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "轉知公告_zh-tw.json"
+      }
+    ],
+    "announcements/藝文總中心文物館": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "媒體報導_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "最新訊息_zh-tw.json"
+      }
+    ],
+    "announcements/電機資訊學院光電工程研究所": [
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "一般公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "博班公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "實習徵才公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "招生公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽公告-學生_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "榮譽公告-教授_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "活動競賽公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "演講公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "獎學金資訊公告_zh-tw.json"
+      },
+      {
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "碩班公告_zh-tw.json"
       }
     ],
     "buses": [
@@ -49,63 +1864,63 @@
         "name": "nanda_schedule_images.json"
       },
       {
-        "last_commit": "9bbbbfc1b041eee733c1de162f17d49df48a8011",
-        "last_updated": "2025-08-26T10:47:31+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "3490b297618e416cb32c923b60c6a3a4dab5808b",
-        "last_updated": "2025-10-01T10:32:56+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
-        "last_commit": "9bbbbfc1b041eee733c1de162f17d49df48a8011",
-        "last_updated": "2025-08-26T10:47:31+08:00",
-        "name": "towardSouthCampusInfo.json"
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "towardNandaInfo.json"
       },
       {
-        "last_commit": "3490b297618e416cb32c923b60c6a3a4dab5808b",
-        "last_updated": "2025-10-01T10:32:56+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
-        "last_commit": "67c209af7ce257ff514c6e944f7e025f509b1cb2",
-        "last_updated": "2025-09-05T12:19:11+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "weekdayBusScheduleTowardMainCampus.json"
       },
       {
-        "last_commit": "3490b297618e416cb32c923b60c6a3a4dab5808b",
-        "last_updated": "2025-10-01T10:32:56+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "weekdayBusScheduleTowardMainGate.json"
       },
       {
-        "last_commit": "9bbbbfc1b041eee733c1de162f17d49df48a8011",
-        "last_updated": "2025-08-26T10:47:31+08:00",
-        "name": "weekdayBusScheduleTowardSouthCampus.json"
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "weekdayBusScheduleTowardNanda.json"
       },
       {
-        "last_commit": "3490b297618e416cb32c923b60c6a3a4dab5808b",
-        "last_updated": "2025-10-01T10:32:56+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "weekdayBusScheduleTowardTSMCBuilding.json"
       },
       {
-        "last_commit": "99590ac895c136cabbc410c1fa01a615c9bb2526",
-        "last_updated": "2025-08-30T10:42:07+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "weekendBusScheduleTowardMainCampus.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "weekendBusScheduleTowardMainGate.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
-        "name": "weekendBusScheduleTowardSouthCampus.json"
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
+        "name": "weekendBusScheduleTowardNanda.json"
       },
       {
-        "last_commit": "23b7385e7f8186d18468552d1dcdf23c338fb955",
-        "last_updated": "2025-02-19T05:54:33+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "weekendBusScheduleTowardTSMCBuilding.json"
       }
     ],
@@ -148,8 +1963,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "32052fee5cfb7614b9e7a97d9d9e563754f79010",
-        "last_updated": "2025-10-18T17:33:10+08:00",
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
         "name": "latest.json"
       }
     ],
@@ -205,33 +2020,33 @@
         "name": "11320.json"
       },
       {
-        "last_commit": "32052fee5cfb7614b9e7a97d9d9e563754f79010",
-        "last_updated": "2025-10-18T17:33:10+08:00",
+        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
+        "last_updated": "2025-11-18T14:46:28+08:00",
         "name": "11410.json"
       }
     ],
     "maps": [
       {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "MainEN.json"
       },
       {
-        "last_commit": "6f2e9d66126bda33455e2fa937d5f377c0807297",
-        "last_updated": "2025-09-06T00:11:02+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "MainZH.json"
       },
       {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "NandaEN.json"
       },
       {
-        "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
-        "last_updated": "2025-02-14T22:16:19+08:00",
+        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
+        "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "NandaZH.json"
       }
     ]
   },
-  "last_updated": "2025-10-18T17:33:10+08:00"
+  "last_updated": "2025-11-18T14:46:28+08:00"
 }
