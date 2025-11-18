@@ -6,178 +6,83 @@ on:
       - main
   schedule:
     - cron: "0 */2 * * *" # 每兩小時執行一次
-  workflow_dispatch:
-    inputs:
-      run_self_hosted:
-        description: 'Run self-hosted crawler'
-        required: false
-        type: boolean
-        default: false
+  workflow_dispatch: # 允許手動觸發
 
 env:
   TZ: Asia/Taipei
   DATA_FOLDER: data
 
 jobs:
-  crawl_ubuntu:
-    name: Crawl on ubuntu-latest
+  crawl_and_update:
+    name: Crawl, Commit, and Deploy
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 確保有完整的 git 歷史
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: 3.13.2
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      - name: Run ubuntu spiders
-        id: ubuntu_crawl
+
+      - name: Run spiders
+        id: crawl
         shell: bash
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: |
-          # 先執行公告列表爬蟲
-          # python -m scrapy crawl nthu_announcements_list
-          # 然後執行公告內容爬蟲
           python -m scrapy crawl nthu_announcements_item
-          # 執行其他爬蟲
           python -m scrapy crawl nthu_buses
           python -m scrapy crawl nthu_courses
           python -m scrapy crawl nthu_dining
-      - name: Upload ubuntu dataset
-        if: ${{ success() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: ubuntu-data
-          path: ${{ env.DATA_FOLDER }}
-          if-no-files-found: error
 
-  crawl_self_hosted:
-    name: Crawl on self-hosted
-    runs-on: self-hosted
-    timeout-minutes: 15
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_self_hosted == true }}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.13.2
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-      - name: Run self-hosted spiders
-        id: self_hosted_crawl
-        shell: bash
-        env:
-          DATA_FOLDER: ${{ env.DATA_FOLDER }}
-        run: |
-          python -m scrapy crawl nthu_directory
-          python -m scrapy crawl nthu_maps
-          python -m scrapy crawl nthu_newsletters
-      - name: Upload self-hosted dataset
-        if: ${{ success() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: self-hosted-data
-          path: ${{ env.DATA_FOLDER }}
-          if-no-files-found: error
-
-  commit_changes:
-    needs: [crawl_ubuntu, crawl_self_hosted]
-    if: ${{ always() }}
-    name: Commit JSON updates
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-      - name: Verify crawl availability
-        id: crawl_guard
-        env:
-          UB_SUCCESS: ${{ needs.crawl_ubuntu.result == 'success' }}
-          SH_SUCCESS: ${{ needs.crawl_self_hosted.result == 'success' }}
-        run: |
-          if [ "${UB_SUCCESS}" != "true" ] && [ "${SH_SUCCESS}" != "true" ]; then
-            echo "No crawl job succeeded; aborting." >&2
-            exit 1
-          fi
-      - name: Download ubuntu dataset
-        if: ${{ needs.crawl_ubuntu.result == 'success' }}
-        uses: actions/download-artifact@v4
-        with:
-          name: ubuntu-data
-          path: ubuntu-data
-      - name: Download self-hosted dataset
-        if: ${{ needs.crawl_self_hosted.result == 'success' }}
-        uses: actions/download-artifact@v4
-        with:
-          name: self-hosted-data
-          path: self-hosted-data
-      - name: Merge data artifacts
-        shell: bash
-        run: |
-          mkdir -p "${DATA_FOLDER}"
-          for source in ubuntu-data self-hosted-data; do
-            if [ -d "$source/${DATA_FOLDER}" ]; then
-              rsync -a "$source/${DATA_FOLDER}/" "${DATA_FOLDER}/"
-            fi
-          done
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions"
           git config user.email "action@github.com"
+
       - name: Commit data updates
         shell: bash
         run: |
-          git add "$DATA_FOLDER"
-          changed=$(git diff --cached --name-only "$DATA_FOLDER")
-          if [[ -n "$changed" ]]; then
-            cats=$(echo "$changed" \
+          git add -A "$DATA_FOLDER"
+          
+          # 使用 git status 檢查是否有實際的檔案變更
+          if [[ -n "$(git status --porcelain "$DATA_FOLDER")" ]]; then
+            echo "Data changes detected. Committing..."
+            
+            # 從變更的檔案路徑產生 commit 訊息
+            cats=$(git status --porcelain "$DATA_FOLDER" \
+              | awk '{print $2}' \
               | sed "s|^$DATA_FOLDER/||" \
               | cut -d '/' -f1 \
               | sed 's/\.json$//' \
               | sort -u \
               | paste -sd ",")
+              
             git commit -m "📝 Scheduled update of JSON data [$cats] [skip ci]"
             git push
           else
             echo "No data changes."
           fi
 
-  deploy_to_github:
-    needs: commit_changes
-    name: Deploy data to GitHub Pages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main branch (full history)
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.13.2
-
-      - name: Generate file details
+      - name: Generate file details for Pages
         run: python generate_file_detail.py --data_folder=$DATA_FOLDER --json_path=$DATA_FOLDER/file_details.json
 
-      - name: Generate index.html
+      - name: Generate index.html for Pages
         run: python generate_index.py --json_path=$DATA_FOLDER/file_details.json --output=$DATA_FOLDER/index.html
 
-      - name: Deploy to gh-pages branch
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ${{ env.DATA_FOLDER }}
-          user_name: GitHub Actions
-          user_email: action@github.com
-          commit_message: "🚀 Deployed to gh-pages"
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "🚀 Deploy updated data to gh-pages"
