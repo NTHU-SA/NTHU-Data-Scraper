@@ -42,7 +42,7 @@ BUS_CONFIG = {
 
 # 公告關鍵字配置
 SCHEDULE_IMAGE_KEYWORDS = {
-    "main": ["校本部", "校園公車", "時刻表"],
+    "main": ["校園公車", "時刻表"],
     "nanda": ["南大", "區間車", "時刻表"],
 }
 
@@ -86,9 +86,9 @@ class BusesSpider(scrapy.Spider):
 
         for announcement in announcements:
             if (
-                announcement.get("department") == "事務組"
+                announcement.get("department") == "總務處事務組"
                 and announcement.get("language") == "zh-tw"
-                and announcement.get("title") == "最新公告"
+                and announcement.get("title") == "校園公車暨巡迴公車公告"
             ):
                 self._extract_image_links(announcement.get("articles", []))
                 break

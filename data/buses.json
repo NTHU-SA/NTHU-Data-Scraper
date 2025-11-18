@@ -2554,5 +2554,13 @@
             "line": "route1",
             "route": "南大區間車"
         }
+    ],
+    "main_schedule_images": [
+        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/966801870.jpg",
+        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/190777198.jpg"
+    ],
+    "nanda_schedule_images": [
+        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/747269443.jpg",
+        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/121304361.jpg"
     ]
 }
