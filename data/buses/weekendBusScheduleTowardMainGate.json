@@ -1,30 +1,30 @@
 [
     {
         "time": "8:57",
-        "dep_stop": "台積館",
-        "line": "red",
         "description": "大型巴士",
-        "route": "校園公車"
+        "line": "red",
+        "dep_stop": "台積館",
+        "route": "南大區間車"
     },
     {
         "time": "12:17",
-        "dep_stop": "台積館",
-        "line": "red",
         "description": "",
-        "route": "校園公車"
+        "line": "red",
+        "dep_stop": "台積館",
+        "route": "南大區間車"
     },
     {
         "time": "13:17",
-        "dep_stop": "台積館",
-        "line": "red",
         "description": "",
-        "route": "校園公車"
+        "line": "red",
+        "dep_stop": "台積館",
+        "route": "南大區間車"
     },
     {
         "time": "16:27",
-        "dep_stop": "台積館",
-        "line": "green",
         "description": "",
-        "route": "校園公車"
+        "line": "green",
+        "dep_stop": "台積館",
+        "route": "南大區間車"
     }
 ]

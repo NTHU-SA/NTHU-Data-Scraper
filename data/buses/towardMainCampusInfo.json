@@ -1,6 +1,7 @@
 {
     "direction": "往校本部 (To Main Campus)",
-    "duration": "暑假期間 2025/08/25 ~ 2025/08/29",
-    "route": "南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口",
-    "routeEN": "The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Builing → General Building II→School North Gate"
+    "duration": "2025/09/30 ~ 2025/12/21",
+    "route": "(路線一)  南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口 (路線二)  南大校區校門口右側(食品路校牆邊) → 教育學院大樓/南門停車場(經寶山路) → 奕園停車場 → 綜二館 → 北校門口",
+    "routeEN": "(Route I)  The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Building → General Building II → North Main Gate (Route II)  The right side of NandaCampus front gate(Shipin Road) → COE Building/South Gate Parking Lot(Baoshan Rd.) → Yi Pavilion Parking Lot → General Building II → North Main Gate",
+    "weekendSchedule": "南大校區發車：8:30、12:00、14:00、17:00<br/>校本部發車：9:00、12:30、14:30、17:30"
 }

@@ -7,6 +7,8 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+from nthu_scraper.utils.request_utils import get_default_headers
+
 BOT_NAME = "nthu_scraper"
 
 SPIDER_MODULES = ["nthu_scraper.spiders"]
@@ -38,10 +40,8 @@ ROBOTSTXT_OBEY = True
 # TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-# DEFAULT_REQUEST_HEADERS = {
-#    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-#    "Accept-Language": "en",
-# }
+# Reuse a shared user-agent so every spider impersonates a real browser.
+DEFAULT_REQUEST_HEADERS = get_default_headers()
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
