@@ -1,5 +1,4 @@
 import json
-import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -8,8 +7,10 @@ from typing import Set
 import scrapy
 from scrapy.http import Response
 
+from nthu_scraper.utils.constants import DATA_FOLDER
+from nthu_scraper.utils.file_utils import save_json
+
 # --- 全域參數設定 ---
-DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
 COMBINED_JSON_FILE = DATA_FOLDER / "newsletters.json"
 URL_PREFIX = "https://newsletter.cc.nthu.edu.tw"
 
@@ -242,6 +243,7 @@ class JsonPipeline:
         Spider 關閉時執行，合併所有電子報 JSON 檔案。
         """
         sorted_data = sorted(self.combined_data, key=lambda x: x["name"])
-        with open(COMBINED_JSON_FILE, "w", encoding="utf-8") as f:
-            json.dump(sorted_data, f, ensure_ascii=False, indent=4)
-        spider.logger.info(f'✅ 成功儲存電子報資料至 "{COMBINED_JSON_FILE}"')
+        if save_json(sorted_data, COMBINED_JSON_FILE):
+            spider.logger.info(f'✅ 成功儲存電子報資料至 "{COMBINED_JSON_FILE}"')
+        else:
+            spider.logger.error(f'❌ 儲存電子報資料失敗 "{COMBINED_JSON_FILE}"')

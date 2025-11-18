@@ -1,12 +1,13 @@
 import json
-import os
 from pathlib import Path
 from typing import Dict
 
 import scrapy
 
+from nthu_scraper.utils.constants import DATA_FOLDER
+from nthu_scraper.utils.file_utils import save_json
+
 # --- 全域參數設定 ---
-DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
 OUTPUT_PATH = DATA_FOLDER / "maps"
 COMBINED_JSON_FILE = DATA_FOLDER / "maps.json"
 
@@ -108,26 +109,26 @@ class JsonMapPipeline:
             item_dict = dict(item)
             map_type = item_dict["map_type"]
             map_data = item_dict["data"]
+            map_data = dict(sorted(map_data.items()))  # 對地點名稱排序
 
             self.all_map_data[map_type] = map_data  # 收集所有地圖資料
 
             file_path = OUTPUT_PATH / f"{map_type}.json"
-            try:
-                with file_path.open("w", encoding="utf-8") as f:
-                    json.dump(map_data, f, ensure_ascii=False, indent=4)
+            if save_json(map_data, file_path):
                 spider.logger.info(
                     f'✅ 成功儲存 {map_type} 的地圖座標資料至 "{file_path}"'
                 )
-            except IOError as e:
-                spider.logger.error(f"❎ 寫入檔案 {file_path} 時發生錯誤: {e}")
+            else:
+                spider.logger.error(f"❌ 儲存檔案 {file_path} 失敗")
         return item
 
     def close_spider(self, spider):
         """
         Spider 關閉時執行，將所有地圖資料合併儲存為 JSON 檔案。
         """
-        with COMBINED_JSON_FILE.open("w", encoding="utf-8") as f:
-            json.dump(
-                self.all_map_data, f, ensure_ascii=False, indent=4, sort_keys=True
-            )
-        spider.logger.info(f"✅ 成功儲存地圖資料至 {COMBINED_JSON_FILE}")
+        # Sort keys before saving
+        sorted_data = dict(sorted(self.all_map_data.items()))
+        if save_json(sorted_data, COMBINED_JSON_FILE):
+            spider.logger.info(f"✅ 成功儲存地圖資料至 {COMBINED_JSON_FILE}")
+        else:
+            spider.logger.error(f"❌ 儲存地圖資料失敗 {COMBINED_JSON_FILE}")

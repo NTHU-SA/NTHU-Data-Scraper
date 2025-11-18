@@ -7,6 +7,12 @@ on:
   schedule:
     - cron: "0 */2 * * *" # 每兩小時執行一次
   workflow_dispatch:
+    inputs:
+      run_self_hosted:
+        description: 'Run self-hosted crawler'
+        required: false
+        type: boolean
+        default: false
 
 env:
   TZ: Asia/Taipei
@@ -33,7 +39,14 @@ jobs:
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: |
-          bash ./crawl.sh --group ubuntu
+          # 先執行公告列表爬蟲
+          # python -m scrapy crawl nthu_announcements_list
+          # 然後執行公告內容爬蟲
+          python -m scrapy crawl nthu_announcements_item
+          # 執行其他爬蟲
+          python -m scrapy crawl nthu_buses
+          python -m scrapy crawl nthu_courses
+          python -m scrapy crawl nthu_dining
       - name: Upload ubuntu dataset
         if: ${{ success() }}
         uses: actions/upload-artifact@v4
@@ -46,6 +59,7 @@ jobs:
     name: Crawl on self-hosted
     runs-on: self-hosted
     timeout-minutes: 15
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_self_hosted == true }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -62,7 +76,9 @@ jobs:
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: |
-          bash ./crawl.sh --group self-hosted
+          python -m scrapy crawl nthu_directory
+          python -m scrapy crawl nthu_maps
+          python -m scrapy crawl nthu_newsletters
       - name: Upload self-hosted dataset
         if: ${{ success() }}
         uses: actions/upload-artifact@v4

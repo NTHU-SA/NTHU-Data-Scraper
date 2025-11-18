@@ -1,12 +1,13 @@
 import json
-import os
 from pathlib import Path
 from typing import Any, Dict, List
 
 import scrapy
 
+from nthu_scraper.utils.constants import DATA_FOLDER
+from nthu_scraper.utils.file_utils import save_json
+
 # --- 全域參數設定 ---
-DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
 COMBINED_JSON_FILE = DATA_FOLDER / "directory.json"
 URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 
@@ -335,6 +336,7 @@ class JsonPipeline:
         Spider 關閉時執行，合併所有系所 JSON 檔案。
         """
         self.combined_data.sort(key=lambda x: x.get("index", ""))
-        with open(COMBINED_JSON_FILE, "w", encoding="utf-8") as f:
-            json.dump(self.combined_data, f, ensure_ascii=False, indent=4)
-        spider.logger.info(f'✅ 成功儲存通訊錄資料至 "{COMBINED_JSON_FILE}"')
+        if save_json(self.combined_data, COMBINED_JSON_FILE):
+            spider.logger.info(f'✅ 成功儲存通訊錄資料至 "{COMBINED_JSON_FILE}"')
+        else:
+            spider.logger.error(f'❌ 儲存通訊錄資料失敗 "{COMBINED_JSON_FILE}"')

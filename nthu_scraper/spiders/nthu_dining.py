@@ -1,17 +1,15 @@
 import json
-import os
 import re
-from pathlib import Path
 from typing import Any, List
 
 import scrapy
 
-# --- 全域參數設定 ---
-DATA_FOLDER = Path(os.getenv("DATA_FOLDER", "temp"))
-OUTPUT_PATH = DATA_FOLDER / "dining.json"
+from nthu_scraper.utils.constants import DATA_FOLDER
+from nthu_scraper.utils.file_utils import save_json
 
 # 預先編譯正規表達式（改善效能與可讀性）
 DINING_REGEX = re.compile(r"const restaurantsData = (\[.*?)(?:\s+renderTabs)", re.S)
+OUTPUT_PATH = DATA_FOLDER / "dining.json"
 
 
 class DiningItem(scrapy.Item):
@@ -84,14 +82,15 @@ class JsonDiningPipeline:
         """
         Spider 開啟時執行，建立必要的資料夾。
         """
-        DATA_FOLDER.mkdir(parents=True, exist_ok=True)
+        OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     def process_item(self, item, spider):
         """
         處理每一個 DiningItem，儲存餐廳資料到 JSON 檔案。
         """
         if isinstance(item, DiningItem):
-            with OUTPUT_PATH.open("w", encoding="utf-8") as f:
-                json.dump(item["data"], f, ensure_ascii=False, indent=4)
-            spider.logger.info(f'✅ 成功儲存餐廳資料至 "{OUTPUT_PATH}"')
+            if save_json(item["data"], OUTPUT_PATH):
+                spider.logger.info(f'✅ 成功儲存餐廳資料至 "{OUTPUT_PATH}"')
+            else:
+                spider.logger.error(f'❌ 儲存餐廳資料失敗 "{OUTPUT_PATH}"')
         return item
