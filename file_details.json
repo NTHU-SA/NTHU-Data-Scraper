@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
-        "last_updated": "2025-11-19T08:35:30+08:00",
+        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
+        "last_updated": "2025-11-19T10:39:42+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
-        "last_updated": "2025-11-19T08:35:30+08:00",
+        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
+        "last_updated": "2025-11-19T10:39:42+08:00",
         "name": "dining.json"
       },
       {
@@ -699,13 +699,13 @@
     ],
     "announcements/教務處註冊組": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
+        "last_updated": "2025-11-19T10:39:42+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
+        "last_updated": "2025-11-19T10:39:42+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1280,8 +1280,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
-        "last_updated": "2025-11-19T08:35:30+08:00",
+        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
+        "last_updated": "2025-11-19T10:39:42+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -1704,13 +1704,13 @@
     ],
     "announcements/總務處南大校區 總務行政組": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
+        "last_updated": "2025-11-19T10:39:42+08:00",
         "name": "News!_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
+        "last_updated": "2025-11-19T10:39:42+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2048,5 +2048,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-19T08:35:30+08:00"
+  "last_updated": "2025-11-19T10:39:42+08:00"
 }
