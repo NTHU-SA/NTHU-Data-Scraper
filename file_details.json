@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
-        "last_updated": "2025-11-19T10:39:42+08:00",
+        "last_commit": "1f07414f450d67754f2ba1b96e657f74ebabfe62",
+        "last_updated": "2025-11-19T12:11:48+08:00",
         "name": "announcements.json"
       },
       {
@@ -381,8 +381,8 @@
     ],
     "announcements/工學院": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1f07414f450d67754f2ba1b96e657f74ebabfe62",
+        "last_updated": "2025-11-19T12:11:48+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1509,13 +1509,13 @@
     ],
     "announcements/竹師教育學院竹師教育學院博士班": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1f07414f450d67754f2ba1b96e657f74ebabfe62",
+        "last_updated": "2025-11-19T12:11:48+08:00",
         "name": "General_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1f07414f450d67754f2ba1b96e657f74ebabfe62",
+        "last_updated": "2025-11-19T12:11:48+08:00",
         "name": "一般公告_zh-tw.json"
       },
       {
@@ -1680,8 +1680,8 @@
     ],
     "announcements/總務處保管組": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1f07414f450d67754f2ba1b96e657f74ebabfe62",
+        "last_updated": "2025-11-19T12:11:48+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2048,5 +2048,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-19T10:39:42+08:00"
+  "last_updated": "2025-11-19T12:11:48+08:00"
 }
