@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "48e6cb049c71b53097335656fa7583573801e70c",
-        "last_updated": "2025-11-19T00:11:20+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
-        "last_updated": "2025-11-18T14:46:28+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "dining.json"
       },
       {
@@ -288,13 +288,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -313,8 +313,8 @@
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "活動_會議_zh-tw.json"
       },
       {
@@ -455,8 +455,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -721,8 +721,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "0744f4b1d6bd36b07d133a6fee1844410a0ad1f1",
-        "last_updated": "2025-11-18T22:09:33+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -836,8 +836,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -851,8 +851,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "47b11db8606fff64a4b785b72ca287874905b004",
-        "last_updated": "2025-11-18T18:10:59+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1280,8 +1280,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "fcdaa2123c0246e69b3792030b120e40639c79fc",
-        "last_updated": "2025-11-19T06:09:11+08:00",
+        "last_commit": "1030fbdd2425fb60d985a5d0fd648078cd22ed68",
+        "last_updated": "2025-11-19T08:35:30+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2048,5 +2048,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-19T06:09:11+08:00"
+  "last_updated": "2025-11-19T08:35:30+08:00"
 }
