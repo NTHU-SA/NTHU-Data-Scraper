@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "5c06a50b18d5b48d8af5d9b250fc53de7322f78b",
-        "last_updated": "2025-11-18T15:02:38+08:00",
+        "last_commit": "62a6c9560087bc3b7fa1a3ff022d9cf87111c2fb",
+        "last_updated": "2025-11-19T14:12:54+08:00",
         "name": "buses.json"
       },
       {
@@ -1894,8 +1894,8 @@
         "name": "weekdayBusScheduleTowardMainGate.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "62a6c9560087bc3b7fa1a3ff022d9cf87111c2fb",
+        "last_updated": "2025-11-19T14:12:54+08:00",
         "name": "weekdayBusScheduleTowardNanda.json"
       },
       {
@@ -2048,5 +2048,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-19T12:11:48+08:00"
+  "last_updated": "2025-11-19T14:12:54+08:00"
 }
