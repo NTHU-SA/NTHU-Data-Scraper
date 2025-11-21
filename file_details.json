@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "37e4ef2bcb51c79cc3e7b1252130d3fd2d6fd6b6",
-        "last_updated": "2025-11-21T12:10:52+08:00",
+        "last_commit": "6d2419b41a0da031447abaef7a5bde8832a6bb14",
+        "last_updated": "2025-11-21T14:13:25+08:00",
         "name": "announcements.json"
       },
       {
@@ -721,8 +721,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "37e4ef2bcb51c79cc3e7b1252130d3fd2d6fd6b6",
-        "last_updated": "2025-11-21T12:10:52+08:00",
+        "last_commit": "6d2419b41a0da031447abaef7a5bde8832a6bb14",
+        "last_updated": "2025-11-21T14:13:25+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -1066,8 +1066,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "9bed9d9e074176be0a817e73fb7a9ce693e84326",
-        "last_updated": "2025-11-20T00:11:34+08:00",
+        "last_commit": "6d2419b41a0da031447abaef7a5bde8832a6bb14",
+        "last_updated": "2025-11-21T14:13:25+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -2048,5 +2048,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-21T12:10:52+08:00"
+  "last_updated": "2025-11-21T14:13:25+08:00"
 }
