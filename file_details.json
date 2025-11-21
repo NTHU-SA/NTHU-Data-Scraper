@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6d2419b41a0da031447abaef7a5bde8832a6bb14",
-        "last_updated": "2025-11-21T14:13:25+08:00",
+        "last_commit": "ba8554816140a9f8a2c711ef9b0207c403018dcd",
+        "last_updated": "2025-11-21T16:12:37+08:00",
         "name": "announcements.json"
       },
       {
@@ -173,8 +173,8 @@
         "name": "Introduction_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "ba8554816140a9f8a2c711ef9b0207c403018dcd",
+        "last_updated": "2025-11-21T16:12:37+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -364,13 +364,13 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "ba8554816140a9f8a2c711ef9b0207c403018dcd",
+        "last_updated": "2025-11-21T16:12:37+08:00",
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "ba8554816140a9f8a2c711ef9b0207c403018dcd",
+        "last_updated": "2025-11-21T16:12:37+08:00",
         "name": "校園輔導活動-本學期_zh-tw.json"
       },
       {
@@ -553,8 +553,8 @@
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "bd19083716f3afa5a2d8bb8b47fe6b24b2392fca",
-        "last_updated": "2025-11-20T16:12:40+08:00",
+        "last_commit": "ba8554816140a9f8a2c711ef9b0207c403018dcd",
+        "last_updated": "2025-11-21T16:12:37+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
@@ -2048,5 +2048,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-21T14:13:25+08:00"
+  "last_updated": "2025-11-21T16:12:37+08:00"
 }
