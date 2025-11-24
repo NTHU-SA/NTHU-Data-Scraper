@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "be2054138113f2536ceaa3c7c76468e73b00e4dd",
-        "last_updated": "2025-11-24T16:13:21+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "announcements.json"
       },
       {
@@ -816,43 +816,43 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "6375b862466227c038f34f52a6c69c09e76a46bd",
-        "last_updated": "2025-11-24T12:19:20+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "001613163fd299f01ff1b66d6f1d421048a2f8a4",
-        "last_updated": "2025-11-19T16:12:22+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "d6fb5ac32afbcb3ad94ac221442e5392421d4d04",
-        "last_updated": "2025-11-24T14:13:59+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "e42b3da1c9c93ea60c4b550cfb5331d2fe2364ab",
-        "last_updated": "2025-11-24T10:44:14+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "e42b3da1c9c93ea60c4b550cfb5331d2fe2364ab",
-        "last_updated": "2025-11-24T10:44:14+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
-        "last_commit": "001613163fd299f01ff1b66d6f1d421048a2f8a4",
-        "last_updated": "2025-11-19T16:12:22+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "029feb0f6789fa04463175762b6a7204bd8f85d1",
-        "last_updated": "2025-11-24T00:09:19+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1280,8 +1280,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "d6fb5ac32afbcb3ad94ac221442e5392421d4d04",
-        "last_updated": "2025-11-24T14:13:59+08:00",
+        "last_commit": "12c3db17fb356ecd4a5773789b1c9ecfb2176ad7",
+        "last_updated": "2025-11-24T18:10:53+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2048,5 +2048,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-24T16:13:21+08:00"
+  "last_updated": "2025-11-24T18:10:53+08:00"
 }
