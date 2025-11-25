@@ -52,15 +52,17 @@ jobs:
         shell: bash
         run: |
           git add -A "$DATA_FOLDER"
-          
           # 使用 git status 檢查是否有實際的檔案變更
           if [[ -n "$(git status --porcelain "$DATA_FOLDER")" ]]; then
             echo "Data changes detected. Committing..."
             
-            # 從變更的檔案路徑產生 commit 訊息
+            # 1. 預處理：移除 DATA_FOLDER 變數尾端可能多餘的斜線，避免路徑比對失敗
+            CLEAN_FOLDER="${DATA_FOLDER%/}"
+            
+            # 2. 產生 commit 訊息
             cats=$(git status --porcelain "$DATA_FOLDER" \
               | awk '{print $2}' \
-              | sed "s|^$DATA_FOLDER/||" \
+              | sed -E "s|^(\./)?$CLEAN_FOLDER/||" \
               | cut -d '/' -f1 \
               | sed 's/\.json$//' \
               | sort -u \
