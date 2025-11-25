@@ -2,13 +2,13 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
-        "last_updated": "2025-11-25T19:40:17+08:00",
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
         "name": "announcements.json"
       },
       {
-        "last_commit": "90bf8dc1fff92c1f22d1c09606f3b753048f1944",
-        "last_updated": "2025-11-25T19:37:18+08:00",
+        "last_commit": "2be467a32418ec3d06b9403f7b54827e746267f9",
+        "last_updated": "2025-11-25T19:49:33+08:00",
         "name": "announcements_list.json"
       },
       {
@@ -27,8 +27,8 @@
         "name": "dining.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "2be467a32418ec3d06b9403f7b54827e746267f9",
+        "last_updated": "2025-11-25T19:49:33+08:00",
         "name": "directory.json"
       },
       {
@@ -524,6 +524,30 @@
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
+    "announcements/師資培育中心特殊教育中心": [
+      {
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
+        "name": "最新消息_zh-tw.json"
+      },
+      {
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
+        "name": "相關連結_zh-tw.json"
+      },
+      {
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
+        "name": "研習公告_zh-tw.json"
+      }
+    ],
+    "announcements/師資培育中心華德福教育中心": [
+      {
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
     "announcements/教務處": [
       {
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
@@ -817,6 +841,11 @@
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
         "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "Information Category Menu_en.json"
+      },
+      {
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
+        "name": "校長專訪_zh-tw.json"
       }
     ],
     "announcements/清華公佈欄": [
@@ -1044,6 +1073,11 @@
         "name": "E-system related issues_en.json"
       },
       {
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
+        "name": "E化系統相關問題_zh-tw.json"
+      },
+      {
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
         "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "Related Links_en.json"
@@ -1052,6 +1086,11 @@
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
         "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "最新公告_zh-tw.json"
+      },
+      {
+        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
+        "last_updated": "2025-11-25T19:51:41+08:00",
+        "name": "環安衛相關問題_zh-tw.json"
       },
       {
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
@@ -2075,5 +2114,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-25T19:40:17+08:00"
+  "last_updated": "2025-11-25T19:51:41+08:00"
 }

@@ -1482,6 +1482,12 @@
         "department": "環境保護暨安全衛生中心"
     },
     {
+        "title": "環安衛相關問題",
+        "link": "https://nesh.site.nthu.edu.tw/p/407-1009-2789-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "環境保護暨安全衛生中心"
+    },
+    {
         "title": "環安衛相關教育訓練專區",
         "link": "https://nesh.site.nthu.edu.tw/p/407-1009-2909-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -1491,6 +1497,12 @@
         "title": "E-system related issues",
         "link": "https://nesh.site.nthu.edu.tw/p/407-1009-419-1.php?Lang=en",
         "language": "en",
+        "department": "環境保護暨安全衛生中心"
+    },
+    {
+        "title": "E化系統相關問題",
+        "link": "https://nesh.site.nthu.edu.tw/p/407-1009-419-1.php?Lang=zh-tw",
+        "language": "zh-tw",
         "department": "環境保護暨安全衛生中心"
     },
     {
@@ -1647,6 +1659,12 @@
         "title": "Information Category Menu",
         "link": "https://president.site.nthu.edu.tw/p/403-1067-11589-1.php?Lang=en",
         "language": "en",
+        "department": "校長室"
+    },
+    {
+        "title": "校長專訪",
+        "link": "https://president.site.nthu.edu.tw/p/403-1067-9912-1.php?Lang=zh-tw",
+        "language": "zh-tw",
         "department": "校長室"
     },
     {
@@ -1860,6 +1878,24 @@
         "department": "人文社會學院華文文學研究所"
     },
     {
+        "title": "最新消息",
+        "link": "https://spec.site.nthu.edu.tw/p/403-1247-7151-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "師資培育中心特殊教育中心"
+    },
+    {
+        "title": "研習公告",
+        "link": "https://spec.site.nthu.edu.tw/p/403-1247-7153-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "師資培育中心特殊教育中心"
+    },
+    {
+        "title": "相關連結",
+        "link": "https://spec.site.nthu.edu.tw/p/407-1247-38-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "師資培育中心特殊教育中心"
+    },
+    {
         "title": "本班公告",
         "link": "https://steam.site.nthu.edu.tw/p/403-1519-11-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -1996,5 +2032,11 @@
         "link": "https://thup.site.nthu.edu.tw/p/403-1210-778-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "教務處清華大學出版社"
+    },
+    {
+        "title": "最新消息",
+        "link": "https://waldorf.site.nthu.edu.tw/p/403-1123-142-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "師資培育中心華德福教育中心"
     }
 ]
