@@ -2,13 +2,13 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "82ebc303948f8cef845fc1341c5b8f29483fea90",
-        "last_updated": "2025-11-25T16:12:38+08:00",
+        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
+        "last_updated": "2025-11-25T19:40:17+08:00",
         "name": "announcements.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "90bf8dc1fff92c1f22d1c09606f3b753048f1944",
+        "last_updated": "2025-11-25T19:37:18+08:00",
         "name": "announcements_list.json"
       },
       {
@@ -132,6 +132,16 @@
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
         "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "Thesis Proposal Review_en.json"
+      },
+      {
+        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
+        "last_updated": "2025-11-25T19:40:17+08:00",
+        "name": "學術活動_zh-tw.json"
+      },
+      {
+        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
+        "last_updated": "2025-11-25T19:40:17+08:00",
+        "name": "榜單_榮譽榜_zh-tw.json"
       },
       {
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
@@ -595,6 +605,11 @@
         "last_commit": "001613163fd299f01ff1b66d6f1d421048a2f8a4",
         "last_updated": "2025-11-19T16:12:22+08:00",
         "name": "News_en.json"
+      },
+      {
+        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
+        "last_updated": "2025-11-25T19:40:17+08:00",
+        "name": "Scholarship_en.json"
       },
       {
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
@@ -1800,6 +1815,18 @@
         "name": "最新訊息_zh-tw.json"
       }
     ],
+    "announcements/計算機與通訊中心校務資訊組": [
+      {
+        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
+        "last_updated": "2025-11-25T19:40:17+08:00",
+        "name": "News_en.json"
+      },
+      {
+        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
+        "last_updated": "2025-11-25T19:40:17+08:00",
+        "name": "最新消息_zh-tw.json"
+      }
+    ],
     "announcements/電機資訊學院光電工程研究所": [
       {
         "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
@@ -2048,5 +2075,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-25T18:11:11+08:00"
+  "last_updated": "2025-11-25T19:40:17+08:00"
 }
