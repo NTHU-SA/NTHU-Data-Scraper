@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "c40bde06df7c1c21d6fd980366095d3a352a4a42",
-        "last_updated": "2025-11-25T18:11:11+08:00",
+        "last_commit": "bd7c3a04bd08d4046d3b73383e9f76f00b4b60af",
+        "last_updated": "2025-11-25T20:32:20+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2012,6 +2012,66 @@
         "name": "nanda_1.jpg"
       }
     ],
+    "calendars/111": [
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "en.pdf"
+      },
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "zh-tw.pdf"
+      }
+    ],
+    "calendars/112": [
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "en.pdf"
+      },
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "zh-tw.pdf"
+      }
+    ],
+    "calendars/113": [
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "en.pdf"
+      },
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "zh-tw.pdf"
+      }
+    ],
+    "calendars/114": [
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "en.pdf"
+      },
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "zh-tw.pdf"
+      }
+    ],
+    "calendars/lastest": [
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "en.pdf"
+      },
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "zh-tw.pdf"
+      }
+    ],
     "courses": [
       {
         "last_commit": "da1aaac03e01179a52415ec507dc24c98931802e",
@@ -2112,7 +2172,24 @@
         "last_updated": "2025-11-18T14:06:14+08:00",
         "name": "NandaZH.json"
       }
+    ],
+    "maps/images": [
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "NTHU_road.jpg"
+      },
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "google_nanda.jpg"
+      },
+      {
+        "last_commit": "552a093a9161b818f0346b56fc9773bf3b973131",
+        "last_updated": "2025-11-25T20:30:26+08:00",
+        "name": "google_nthu.jpg"
+      }
     ]
   },
-  "last_updated": "2025-11-25T19:51:41+08:00"
+  "last_updated": "2025-11-25T20:32:20+08:00"
 }
