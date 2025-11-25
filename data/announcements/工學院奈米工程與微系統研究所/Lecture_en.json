@@ -5,6 +5,11 @@
     "department": "工學院奈米工程與微系統研究所",
     "articles": [
         {
+            "title": "Seminar of Inst. NanoEngineering and MicroSystems, December 1, 2025",
+            "link": "https://nems.site.nthu.edu.tw/p/406-1302-299413,r1495.php?Lang=en",
+            "date": "2025-11-25"
+        },
+        {
             "title": "Seminar of Inst. NanoEngineering and MicroSystems, November 24, 2025",
             "link": "https://nems.site.nthu.edu.tw/p/406-1302-298923,r1495.php?Lang=en",
             "date": "2025-11-17"
@@ -58,11 +63,6 @@
             "title": "Seminar of Inst. NanoEngineering and MicroSystems, September  8, 2025",
             "link": "https://nems.site.nthu.edu.tw/p/406-1302-295004,r1495.php?Lang=en",
             "date": "2025-09-08"
-        },
-        {
-            "title": "Packaging for MEMS Sensor",
-            "link": "https://nems.site.nthu.edu.tw/p/406-1302-293817,r1495.php?Lang=en",
-            "date": "2025-08-18"
         }
     ]
 }
