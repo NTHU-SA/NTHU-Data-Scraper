@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "54fdf00890d349ba7bc7ce223f4acdbd1d87a165",
-        "last_updated": "2025-11-26T12:13:35+08:00",
+        "last_commit": "9a28944ce1f598e205b48b4bda209075932d35c0",
+        "last_updated": "2025-11-26T14:13:41+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "e42b3da1c9c93ea60c4b550cfb5331d2fe2364ab",
-        "last_updated": "2025-11-24T10:44:14+08:00",
+        "last_commit": "9a28944ce1f598e205b48b4bda209075932d35c0",
+        "last_updated": "2025-11-26T14:13:41+08:00",
         "name": "dining.json"
       },
       {
@@ -379,8 +379,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "be2054138113f2536ceaa3c7c76468e73b00e4dd",
-        "last_updated": "2025-11-24T16:13:21+08:00",
+        "last_commit": "9a28944ce1f598e205b48b4bda209075932d35c0",
+        "last_updated": "2025-11-26T14:13:41+08:00",
         "name": "校園輔導活動-本學期_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-26T12:13:35+08:00"
+  "last_updated": "2025-11-26T14:13:41+08:00"
 }
