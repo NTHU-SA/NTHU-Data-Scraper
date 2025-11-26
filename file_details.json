@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9a28944ce1f598e205b48b4bda209075932d35c0",
-        "last_updated": "2025-11-26T14:13:41+08:00",
+        "last_commit": "c1b5e01722bd0999b9a858b8153be763e8f2b952",
+        "last_updated": "2025-11-26T16:12:31+08:00",
         "name": "announcements.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "9b58be21cbc00d3d79f7266e39ca03ba3a4b128a",
-        "last_updated": "2025-11-26T10:40:43+08:00",
+        "last_commit": "c1b5e01722bd0999b9a858b8153be763e8f2b952",
+        "last_updated": "2025-11-26T16:12:31+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "9b58be21cbc00d3d79f7266e39ca03ba3a4b128a",
-        "last_updated": "2025-11-26T10:40:43+08:00",
+        "last_commit": "c1b5e01722bd0999b9a858b8153be763e8f2b952",
+        "last_updated": "2025-11-26T16:12:31+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-26T14:13:41+08:00"
+  "last_updated": "2025-11-26T16:12:31+08:00"
 }
