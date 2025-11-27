@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "7072976d4fc1e3490ca518a098c9c78cd75d7ff3",
-        "last_updated": "2025-11-27T10:39:55+08:00",
+        "last_commit": "89f247655a3f15235e21dfde36b1d5e855d83c2c",
+        "last_updated": "2025-11-27T12:11:58+08:00",
         "name": "announcements.json"
       },
       {
@@ -281,8 +281,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "9b58be21cbc00d3d79f7266e39ca03ba3a4b128a",
-        "last_updated": "2025-11-26T10:40:43+08:00",
+        "last_commit": "89f247655a3f15235e21dfde36b1d5e855d83c2c",
+        "last_updated": "2025-11-27T12:11:58+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -924,8 +924,8 @@
         "name": "招生專區  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "c869594e906e6b7a5a30d3537eb085bb5a13b091",
-        "last_updated": "2025-11-21T10:39:49+08:00",
+        "last_commit": "89f247655a3f15235e21dfde36b1d5e855d83c2c",
+        "last_updated": "2025-11-27T12:11:58+08:00",
         "name": "最新公告  - 清華書院_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "0a92c8ab7ed1c53f27c23a9fcab5d03f488ab736",
-        "last_updated": "2025-11-25T10:40:52+08:00",
+        "last_commit": "89f247655a3f15235e21dfde36b1d5e855d83c2c",
+        "last_updated": "2025-11-27T12:11:58+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-27T10:39:55+08:00"
+  "last_updated": "2025-11-27T12:11:58+08:00"
 }
