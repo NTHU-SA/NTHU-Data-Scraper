@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "40e5017cdd5b417cc43f89a3d19cc33afc160e5d",
-        "last_updated": "2025-11-27T08:34:47+08:00",
+        "last_commit": "7072976d4fc1e3490ca518a098c9c78cd75d7ff3",
+        "last_updated": "2025-11-27T10:39:55+08:00",
         "name": "announcements.json"
       },
       {
@@ -144,8 +144,8 @@
         "name": "榜單_榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "7072976d4fc1e3490ca518a098c9c78cd75d7ff3",
+        "last_updated": "2025-11-27T10:39:55+08:00",
         "name": "系所消息_zh-tw.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "d4e22c8755f7b06155bbbd75f55c4f37fe1f9171",
-        "last_updated": "2025-11-20T12:10:42+08:00",
+        "last_commit": "7072976d4fc1e3490ca518a098c9c78cd75d7ff3",
+        "last_updated": "2025-11-27T10:39:55+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -1110,8 +1110,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "7072976d4fc1e3490ca518a098c9c78cd75d7ff3",
+        "last_updated": "2025-11-27T10:39:55+08:00",
         "name": "Recent Activities_en.json"
       },
       {
@@ -1135,8 +1135,8 @@
         "name": "news_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "7072976d4fc1e3490ca518a098c9c78cd75d7ff3",
+        "last_updated": "2025-11-27T10:39:55+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1813,8 +1813,8 @@
         "name": "招待所公告_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "7072976d4fc1e3490ca518a098c9c78cd75d7ff3",
+        "last_updated": "2025-11-27T10:39:55+08:00",
         "name": "餐廳公告_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-27T08:34:47+08:00"
+  "last_updated": "2025-11-27T10:39:55+08:00"
 }
