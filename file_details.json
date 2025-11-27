@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c79b773fa94e0cd2cd200f6bd60286ce52579aaf",
-        "last_updated": "2025-11-27T16:12:45+08:00",
+        "last_commit": "61560c634577ec69dba33d21eaccda2237926a5a",
+        "last_updated": "2025-11-27T18:10:13+08:00",
         "name": "announcements.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "2992ed4dee6312c751b7d65395cb876d1984b175",
-        "last_updated": "2025-11-27T06:09:00+08:00",
+        "last_commit": "61560c634577ec69dba33d21eaccda2237926a5a",
+        "last_updated": "2025-11-27T18:10:13+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -1770,8 +1770,8 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "61560c634577ec69dba33d21eaccda2237926a5a",
+        "last_updated": "2025-11-27T18:10:13+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-27T16:12:45+08:00"
+  "last_updated": "2025-11-27T18:10:13+08:00"
 }
