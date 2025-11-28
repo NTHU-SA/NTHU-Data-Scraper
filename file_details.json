@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "49e43f73fc3a07828e8fd8288864dd81b98de15b",
-        "last_updated": "2025-11-28T14:13:32+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "49e43f73fc3a07828e8fd8288864dd81b98de15b",
-        "last_updated": "2025-11-28T14:13:32+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "dining.json"
       },
       {
@@ -374,8 +374,8 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "be2054138113f2536ceaa3c7c76468e73b00e4dd",
-        "last_updated": "2025-11-24T16:13:21+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "中心公告_zh-tw.json"
       },
       {
@@ -668,8 +668,8 @@
         "name": "【首頁】招生訊息  - AIMS Fellows_zh-tw.json"
       },
       {
-        "last_commit": "82ebc303948f8cef845fc1341c5b8f29483fea90",
-        "last_updated": "2025-11-25T16:12:38+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "【首頁】最新消息  - AIMS Fellows_zh-tw.json"
       }
     ],
@@ -797,8 +797,8 @@
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "49e43f73fc3a07828e8fd8288864dd81b98de15b",
-        "last_updated": "2025-11-28T14:13:32+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "49f11aeda461645e1f4edde9b16fa703655df6d6",
-        "last_updated": "2025-11-28T12:11:42+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "c79b773fa94e0cd2cd200f6bd60286ce52579aaf",
-        "last_updated": "2025-11-27T16:12:45+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "49e43f73fc3a07828e8fd8288864dd81b98de15b",
-        "last_updated": "2025-11-28T14:13:32+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -1497,8 +1497,8 @@
         "name": "校內活動_zh-tw.json"
       },
       {
-        "last_commit": "1b7813c30bf7b775c94a15281f7b8fb5e7399d00",
-        "last_updated": "2025-11-21T22:09:46+08:00",
+        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
+        "last_updated": "2025-11-28T16:12:45+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-28T14:13:32+08:00"
+  "last_updated": "2025-11-28T16:12:45+08:00"
 }
