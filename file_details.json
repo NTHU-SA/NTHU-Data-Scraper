@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
-        "last_updated": "2025-11-28T16:12:45+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
-        "last_updated": "2025-11-28T16:12:45+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "dining.json"
       },
       {
@@ -243,8 +243,8 @@
     ],
     "announcements/國立清華大學學生會": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -860,18 +860,18 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "856eb2a4546ab9aa281280df13191494aa5469a7",
-        "last_updated": "2025-11-25T14:13:36+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "856eb2a4546ab9aa281280df13191494aa5469a7",
-        "last_updated": "2025-11-25T14:13:36+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "856eb2a4546ab9aa281280df13191494aa5469a7",
-        "last_updated": "2025-11-25T14:13:36+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -885,8 +885,8 @@
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "8dd893d1b036a67f49034866434954a46afe9db6",
-        "last_updated": "2025-11-28T16:12:45+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "c79b773fa94e0cd2cd200f6bd60286ce52579aaf",
-        "last_updated": "2025-11-27T16:12:45+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1409,8 +1409,8 @@
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "49e43f73fc3a07828e8fd8288864dd81b98de15b",
-        "last_updated": "2025-11-28T14:13:32+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -1529,8 +1529,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "001613163fd299f01ff1b66d6f1d421048a2f8a4",
-        "last_updated": "2025-11-19T16:12:22+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -1837,8 +1837,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "37e4ef2bcb51c79cc3e7b1252130d3fd2d6fd6b6",
-        "last_updated": "2025-11-21T12:10:52+08:00",
+        "last_commit": "a76741cf0dc8fe8f9ffe5616212680f74d987305",
+        "last_updated": "2025-11-28T18:10:01+08:00",
         "name": "轉知公告_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-28T16:12:45+08:00"
+  "last_updated": "2025-11-28T18:10:01+08:00"
 }
