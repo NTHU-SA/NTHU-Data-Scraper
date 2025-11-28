@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3e70b766e2b5d84fe62cfda90486d42c83abab32",
-        "last_updated": "2025-11-29T00:10:36+08:00",
+        "last_commit": "193cc2021f8edb322d332c6474615260c5879f6c",
+        "last_updated": "2025-11-29T04:09:51+08:00",
         "name": "announcements.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "3e70b766e2b5d84fe62cfda90486d42c83abab32",
-        "last_updated": "2025-11-29T00:10:36+08:00",
+        "last_commit": "193cc2021f8edb322d332c6474615260c5879f6c",
+        "last_updated": "2025-11-29T04:09:51+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -1436,13 +1436,13 @@
         "name": "學科所 _ 所辦公告_zh-tw.json"
       },
       {
-        "last_commit": "978d5f2c2241a9ece9cb71f35a8b6163afae2a9e",
-        "last_updated": "2025-11-20T20:15:08+08:00",
+        "last_commit": "193cc2021f8edb322d332c6474615260c5879f6c",
+        "last_updated": "2025-11-29T04:09:51+08:00",
         "name": "學科所 _ 最新消息_zh-tw.json"
       },
       {
-        "last_commit": "89ed0b00891c62599fecb516757c2ebec521e320",
-        "last_updated": "2025-11-20T18:10:01+08:00",
+        "last_commit": "193cc2021f8edb322d332c6474615260c5879f6c",
+        "last_updated": "2025-11-29T04:09:51+08:00",
         "name": "學科所 _ 演講公告_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-29T00:10:36+08:00"
+  "last_updated": "2025-11-29T04:09:51+08:00"
 }
