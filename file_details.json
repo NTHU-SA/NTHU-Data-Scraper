@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "19d1a631dbd6295f382130995a5898b078e1a3ea",
-        "last_updated": "2025-11-28T02:12:06+08:00",
+        "last_commit": "cbc67e4b374b7a30993de9c1cff6e081e40f5ebc",
+        "last_updated": "2025-11-28T08:34:12+08:00",
         "name": "announcements.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "cbc67e4b374b7a30993de9c1cff6e081e40f5ebc",
+        "last_updated": "2025-11-28T08:34:12+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-28T02:12:06+08:00"
+  "last_updated": "2025-11-28T08:34:12+08:00"
 }
