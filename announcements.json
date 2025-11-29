@@ -2724,11 +2724,6 @@
                 "date": "2025-11-17"
             },
             {
-                "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297762,r5081.php?Lang=zh-tw",
-                "date": "2025-11-17"
-            },
-            {
                 "title": "【誠徵】國立清華大學師培中心誠徵專任教師1名(含)以上-即日起至115年1月31日收件",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298787,r5081.php?Lang=zh-tw",
                 "date": "2025-11-13"
@@ -2741,6 +2736,11 @@
             {
                 "title": "奈米工程與微系統研究所 王玉麟教授實驗室誠徵博士後研究員",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298748,r5081.php?Lang=zh-tw",
+                "date": "2025-11-12"
+            },
+            {
+                "title": "【徵才】國立清華大學科技法律研究所誠徵專任教師（截止日：2026年2月1日）",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298675,r5081.php?Lang=zh-tw",
                 "date": "2025-11-12"
             }
         ]
@@ -3074,14 +3074,14 @@
                 "date": "2025-11-04"
             },
             {
-                "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5086.php?Lang=zh-tw",
-                "date": "2025-11-01"
-            },
-            {
                 "title": "🔥 大三限定｜填問卷＝拿小禮＋抽 Apple Watch！",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-295561,r5086.php?Lang=zh-tw",
                 "date": "2025-10-31"
+            },
+            {
+                "title": "【轉知】「當教育遇見永續：一場從教室開始的改變」—永續教育實踐成果展活動資訊",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297857,r5086.php?Lang=zh-tw",
+                "date": "2025-10-30"
             }
         ]
     },
@@ -8461,9 +8461,9 @@
                 "date": "2025-11-07"
             },
             {
-                "title": "【開放報名】2025 清華工學院天下為工一日營！＊報名至11月5日截止＊",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-296559,r3361.php?Lang=zh-tw",
-                "date": "2025-10-02"
+                "title": "【工學院英文書報討論】The Human-Centric Framework Integrating Knowledge Distillation Architecture with Fine-Tuning Mechanism for Equipment Health Monitoring - 鄧志峰教授／國立台灣科技大學智慧製造科技研究所",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-298093,r3361.php?Lang=zh-tw",
+                "date": "2025-10-31"
             }
         ]
     },
@@ -18153,11 +18153,6 @@
                 "date": "2025-11-12"
             },
             {
-                "title": "(轉知)新竹市政府辦理115年模範勞工表揚選拔作業，請踴躍推薦參加。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-298682,r2506.php?Lang=zh-tw",
-                "date": "2025-11-12"
-            },
-            {
                 "title": "(轉知)行政院人事行政總處114年度精進人事業務建議獎勵得獎名單",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-298331,r2506.php?Lang=zh-tw",
                 "date": "2025-11-06"
@@ -18196,6 +18191,11 @@
                 "title": "(轉知)社團法人中華專業人才協會辦理【職場實務與法律風險18小時培訓計畫】",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-294645,r2506.php?Lang=zh-tw",
                 "date": "2025-09-02"
+            },
+            {
+                "title": "(轉知)中華醫事科技大學函辦理傑出校友遴選，請踴躍推薦參加。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-294508,r2506.php?Lang=zh-tw",
+                "date": "2025-09-01"
             }
         ]
     },
@@ -21705,9 +21705,9 @@
                 "date": "2025-09-10"
             },
             {
-                "title": "Dormitory deposit deducted list for 2025 Summer Dormitory withdrawal",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-294932,r1538.php?Lang=en",
-                "date": "2025-09-05"
+                "title": "Application for Refrigerator Placement in Dorm Room for Fall Semester 2025",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-294106,r1538.php?Lang=en",
+                "date": "2025-08-24"
             }
         ]
     },
@@ -21809,11 +21809,6 @@
                 "title": "【新生】114年宿舍臨時門禁QR Code停用通知",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-295513,r1542.php?Lang=zh-tw",
                 "date": "2025-09-15"
-            },
-            {
-                "title": "114年暑期學生宿舍退宿扣款名單公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-294932,r1542.php?Lang=zh-tw",
-                "date": "2025-09-05"
             },
             {
                 "title": "114學年度上學期教育部住宿補貼說明",
@@ -22342,11 +22337,6 @@
                 "date": ""
             },
             {
-                "title": "【衛保組】114學年度第1學期新生健康檢查注意事項",
-                "link": "https://student.site.nthu.edu.tw/p/450-1509-293595,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
                 "title": "【學務處】確保求職安全，請牢記重要原則",
                 "link": "https://student.site.nthu.edu.tw/p/406-1509-285350,r209.php?Lang=zh-tw",
                 "date": ""
@@ -22379,6 +22369,11 @@
             {
                 "title": "【學務處】學生資訊平台App新增功能-校園公車時刻表、學校餐廳、我的課表",
                 "link": "https://student.site.nthu.edu.tw/p/406-1509-257825,r209.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【學務處】清華學生資訊平台App上架了!",
+                "link": "https://student.site.nthu.edu.tw/p/406-1509-254210,r209.php?Lang=zh-tw",
                 "date": ""
             }
         ]
