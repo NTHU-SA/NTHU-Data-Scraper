@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "193cc2021f8edb322d332c6474615260c5879f6c",
-        "last_updated": "2025-11-29T04:09:51+08:00",
+        "last_commit": "a6f0a1fb8786f3a6d6c00d3abf499cd1ae72d69d",
+        "last_updated": "2025-11-29T12:10:55+08:00",
         "name": "announcements.json"
       },
       {
@@ -1524,8 +1524,8 @@
         "name": "徵才訊息_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "a6f0a1fb8786f3a6d6c00d3abf499cd1ae72d69d",
+        "last_updated": "2025-11-29T12:10:55+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-29T06:08:32+08:00"
+  "last_updated": "2025-11-29T12:10:55+08:00"
 }
