@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a0fc830cc5ccb72cafc4888797a913e96baebeea",
-        "last_updated": "2025-11-30T14:12:49+08:00",
+        "last_commit": "3b99bf3cb29c3f4d95dfa853f5e952aa06957eff",
+        "last_updated": "2025-11-30T18:08:57+08:00",
         "name": "announcements.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "5e5fc9eae08a4b0e0c802b1e61f45dafc1857c25",
-        "last_updated": "2025-11-28T10:39:54+08:00",
+        "last_commit": "3b99bf3cb29c3f4d95dfa853f5e952aa06957eff",
+        "last_updated": "2025-11-30T18:08:57+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "2ace80d971c5333cfc7eacd19131d7bef1bd020d",
-        "last_updated": "2025-11-30T16:10:38+08:00",
+        "last_commit": "3b99bf3cb29c3f4d95dfa853f5e952aa06957eff",
+        "last_updated": "2025-11-30T18:08:57+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-30T16:10:38+08:00"
+  "last_updated": "2025-11-30T18:08:57+08:00"
 }
