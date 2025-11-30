@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9aff389d59b27a582853088a9517c1ae1c47d706",
-        "last_updated": "2025-11-30T00:09:28+08:00",
+        "last_commit": "a0fc830cc5ccb72cafc4888797a913e96baebeea",
+        "last_updated": "2025-11-30T14:12:49+08:00",
         "name": "announcements.json"
       },
       {
@@ -1169,8 +1169,8 @@
     ],
     "announcements/生命科學暨醫學院分子醫學研究所": [
       {
-        "last_commit": "34f9d2f900661b8c12477646289862cd0a8f497d",
-        "last_updated": "2025-11-18T14:46:28+08:00",
+        "last_commit": "a0fc830cc5ccb72cafc4888797a913e96baebeea",
+        "last_updated": "2025-11-30T14:12:49+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-11-30T10:47:04+08:00"
+  "last_updated": "2025-11-30T14:12:49+08:00"
 }
