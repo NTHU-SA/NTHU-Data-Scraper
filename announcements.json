@@ -2616,6 +2616,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】國立清華大學學生住宿組約僱管理員1名（114年12月19日前）",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-299795,r5075.php?Lang=zh-tw",
+                "date": "2025-12-01"
+            },
+            {
                 "title": "【徵才】駐警隊徵專案組員1名（115.1.1到職）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298828,r5075.php?Lang=zh-tw",
                 "date": "2025-12-01"
@@ -2669,11 +2674,6 @@
                 "title": "【徵才】國立清華大學圖書館典閱組誠徵114學年寒假工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-299235,r5075.php?Lang=zh-tw",
                 "date": "2025-11-20"
-            },
-            {
-                "title": "【招募課程助教】企業領航微學分課程 (台灣美光)，即日起至12月12日止",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-299113,c0.php?Lang=zh-tw",
-                "date": "2025-11-19"
             }
         ]
     },
@@ -2683,6 +2683,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "新竹市政府為成立「115年度新竹市非都市土地使用分區及使用地變更審查作業專責審議小組」，敬邀各單位推薦代表",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-299789,r5081.php?Lang=zh-tw",
+                "date": "2025-12-01"
+            },
             {
                 "title": "【徵才】駐警隊徵專案組員1名（115.1.1到職）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298828,r5081.php?Lang=zh-tw",
@@ -2736,11 +2741,6 @@
             {
                 "title": "奈米工程與微系統研究所 王玉麟教授實驗室誠徵博士後研究員",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298748,r5081.php?Lang=zh-tw",
-                "date": "2025-11-12"
-            },
-            {
-                "title": "【徵才】國立清華大學科技法律研究所誠徵專任教師（截止日：2026年2月1日）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298675,r5081.php?Lang=zh-tw",
                 "date": "2025-11-12"
             }
         ]
@@ -4136,6 +4136,11 @@
         "department": "清華學院通識教育中心",
         "articles": [
             {
+                "title": "【課程】歡迎參加～114(下)全新課程「旅溯九州」招生說明會（12/10)",
+                "link": "https://forms.gle/Vs2Q2nVVfNwSuaN96",
+                "date": ""
+            },
+            {
                 "title": "【課程】114(下)通識選修課程「京劇新美學：唱唸作表」，歡迎各位同學參考與選修。",
                 "link": "https://cge.site.nthu.edu.tw/p/406-1573-299709,r11.php?Lang=zh-tw",
                 "date": ""
@@ -4188,11 +4193,6 @@
             {
                 "title": "【徵才】周子欽老師徵求114(上)「全球金融政治與亞太金融合作」通識課程助教，徵才訊息請點入閱讀。",
                 "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/567192857.pdf",
-                "date": ""
-            },
-            {
-                "title": "【Recruitment】The Center for General Education at National Tsing Hua University is seeking full-time and contract faculty positions specializing in International Relations, Information and Communication Media, and Political Thought.",
-                "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/326455816.pdf",
                 "date": ""
             }
         ]
@@ -6125,7 +6125,7 @@
                 "date": ""
             },
             {
-                "title": "2025新竹市環保咖活動開跑囉",
+                "title": "2025新竹市環保咖活動開跑囉(已結束)",
                 "link": "https://ddfm.site.nthu.edu.tw/p/406-1494-289992,r8304.php?Lang=zh-tw",
                 "date": ""
             },
@@ -9447,6 +9447,11 @@
         "department": "竹師教育學院性/別教育發展中心",
         "articles": [
             {
+                "title": "114/12/02(二) (性別教育專題研究-課程講座) 幼兒園性別平等教育",
+                "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-299784,r11.php",
+                "date": ""
+            },
+            {
                 "title": "114/11/26(三) 性別定義與婦女權益座談會",
                 "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-298098,r11.php",
                 "date": ""
@@ -9499,11 +9504,6 @@
             {
                 "title": "113/07/06（六）「幼兒園性別平等教育-繪本的選擇與運用」錄取名單公告",
                 "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-271176,r11.php",
-                "date": ""
-            },
-            {
-                "title": "113/7/6（六）113學年「幼兒園性別平等教育-繪本的選擇與運用」(第二場次) 即日起開放報名！歡迎老師報名參加！",
-                "link": "https://genderedu.site.nthu.edu.tw/p/406-1521-268903,r11.php",
                 "date": ""
             }
         ]
@@ -13247,11 +13247,6 @@
                 "date": ""
             },
             {
-                "title": "115學年度碩士班甄試招生入學公告",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-295758,r9756.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
                 "title": "【人文與科技講座】12/04(四) 柯沛寧/沛德國際教育機構執行長: 7個習慣教出優秀的孩子-自我領導力教育",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-299744,r9756.php?Lang=zh-tw",
                 "date": ""
@@ -13299,6 +13294,11 @@
             {
                 "title": "【人文與科技講座】10/09(四) 陳偉誠/REWOOD木酢達人創辦人：森林循環，林業創生",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-296675,r9756.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【所友社群】10/14(二) 陳立亨、黃郁喬 ：從研究到實踐的兩條航線",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-298272,r9756.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -13899,6 +13899,11 @@
         "department": "教務處跨院國際碩博士班學位學程",
         "articles": [
             {
+                "title": "【學位考試】115 年 1 月 9 日謝竣博同學舉行博士學位考試",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-299788,r10846.php?Lang=zh-tw",
+                "date": "2025-12-01"
+            },
+            {
                 "title": "【學生事務】114學年度第2學期跨院國際博士班資格考試初審(博士論文計畫考試)申請公告",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-299715,r10846.php?Lang=zh-tw",
                 "date": "2025-11-28"
@@ -13992,11 +13997,6 @@
                 "title": "【資格考試】 114年7月22日Arshad Khan 干亞德同學舉行資格考試",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-292033,r10846.php?Lang=zh-tw",
                 "date": "2025-07-09"
-            },
-            {
-                "title": "【資格考試】 114年6月18日鄒長志同學舉行資格考試",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-290541,r10846.php?Lang=zh-tw",
-                "date": "2025-06-12"
             }
         ]
     },
@@ -17931,9 +17931,19 @@
                 "date": "2025-10-23"
             },
             {
-                "title": "【室外場地】室外場地因天氣不佳下雨11/30(日)，場地不開放",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-299753,r11.php",
-                "date": "2025-11-30"
+                "title": "【校友體育館】運動科學系12/02（二）上午11:00-下午01:00借用羽球場（#7-8），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-299780,r11.php",
+                "date": "2025-12-01"
+            },
+            {
+                "title": "【體育館】2025年大專--排球 男生一般組12/05（五）-12/07（日）借用體育館2F （全），以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-299636,r11.php",
+                "date": "2025-12-01"
+            },
+            {
+                "title": "【體育館】114學年度籃球運動聯賽12/02（二）-12/05（五）借用體育館2F （全），以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-299635,r11.php",
+                "date": "2025-12-01"
             },
             {
                 "title": "【校友體育館】EMBA羽球社社課12/06（六）下午04:00-晚上08:00借用羽球場（#1 2 3），場地不開放。",
@@ -17954,16 +17964,6 @@
                 "title": "【桌球館】EMBA 桌球社12/06（六）下午03:00-下午06:00借用桌球館（#1-5），場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-299641,r11.php",
                 "date": "2025-12-01"
-            },
-            {
-                "title": "【體育館】EMBA 瑜珈社12/06（六）下午05:00-下午06:00借用舞蹈教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-299638,r11.php",
-                "date": "2025-12-01"
-            },
-            {
-                "title": "【桌球館】交大盃賽前加練（桌球隊）11/28（五）晚上07:00-晚上10:00借用桌球館（＃1-9），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-299631,r11.php",
-                "date": "2025-11-27"
             }
         ]
     },
