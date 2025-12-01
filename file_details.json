@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8084eb08fe1a5a4a99e82ffc7a6c13d53628ecd3",
-        "last_updated": "2025-12-01T12:29:05+08:00",
+        "last_commit": "629105c5f5de1345efed556592bcb9d18d0865f9",
+        "last_updated": "2025-12-01T14:14:35+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "611c94c4673b6e63b0bf121e239ace665271937f",
-        "last_updated": "2025-12-01T08:43:11+08:00",
+        "last_commit": "629105c5f5de1345efed556592bcb9d18d0865f9",
+        "last_updated": "2025-12-01T14:14:35+08:00",
         "name": "dining.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "6375b862466227c038f34f52a6c69c09e76a46bd",
-        "last_updated": "2025-11-24T12:19:20+08:00",
+        "last_commit": "629105c5f5de1345efed556592bcb9d18d0865f9",
+        "last_updated": "2025-12-01T14:14:35+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-01T12:29:05+08:00"
+  "last_updated": "2025-12-01T14:14:35+08:00"
 }
