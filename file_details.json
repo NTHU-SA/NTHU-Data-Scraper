@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3615705cc7522c4467d5b40d70b0c8375905a92f",
-        "last_updated": "2025-12-01T00:09:31+08:00",
+        "last_commit": "eed73645da1b331eb0fe995beacc757d0abf52a8",
+        "last_updated": "2025-12-01T10:55:19+08:00",
         "name": "announcements.json"
       },
       {
@@ -403,8 +403,8 @@
     ],
     "announcements/工學院奈米工程與微系統研究所": [
       {
-        "last_commit": "5a9ed5100efe44ff217a097d3cda8abd87f5145d",
-        "last_updated": "2025-11-25T12:14:07+08:00",
+        "last_commit": "eed73645da1b331eb0fe995beacc757d0abf52a8",
+        "last_updated": "2025-12-01T10:55:19+08:00",
         "name": "Lecture_en.json"
       },
       {
@@ -433,8 +433,8 @@
         "name": "所友(學)會_zh-tw.json"
       },
       {
-        "last_commit": "5a9ed5100efe44ff217a097d3cda8abd87f5145d",
-        "last_updated": "2025-11-25T12:14:07+08:00",
+        "last_commit": "eed73645da1b331eb0fe995beacc757d0abf52a8",
+        "last_updated": "2025-12-01T10:55:19+08:00",
         "name": "演講訊息_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-01T08:43:11+08:00"
+  "last_updated": "2025-12-01T10:55:19+08:00"
 }
