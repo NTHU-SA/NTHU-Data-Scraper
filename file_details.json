@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9703e75a8e7179d921a2bbb627a11ff92f29d903",
-        "last_updated": "2025-12-03T18:10:34+08:00",
+        "last_commit": "105d514cc87c9904ce4abc02fc7b3b0db2225412",
+        "last_updated": "2025-12-04T00:12:22+08:00",
         "name": "announcements.json"
       },
       {
@@ -1021,8 +1021,8 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "f2a739c95efb9626955e33fa951ba484e01d5ee0",
-        "last_updated": "2025-12-03T00:11:37+08:00",
+        "last_commit": "105d514cc87c9904ce4abc02fc7b3b0db2225412",
+        "last_updated": "2025-12-04T00:12:22+08:00",
         "name": "All seminar_en.json"
       },
       {
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "f2a739c95efb9626955e33fa951ba484e01d5ee0",
-        "last_updated": "2025-12-03T00:11:37+08:00",
+        "last_commit": "105d514cc87c9904ce4abc02fc7b3b0db2225412",
+        "last_updated": "2025-12-04T00:12:22+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "b6365f10bbb32b81ae685de4d99d2d734086bf8f",
-        "last_updated": "2025-12-03T22:10:32+08:00",
+        "last_commit": "105d514cc87c9904ce4abc02fc7b3b0db2225412",
+        "last_updated": "2025-12-04T00:12:22+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -1482,8 +1482,8 @@
         "name": "學術訊息_zh-tw.json"
       },
       {
-        "last_commit": "6e5377174e9c1c14c4ae3cdf5eb4c6f9041a1b60",
-        "last_updated": "2025-11-20T14:13:05+08:00",
+        "last_commit": "105d514cc87c9904ce4abc02fc7b3b0db2225412",
+        "last_updated": "2025-12-04T00:12:22+08:00",
         "name": "徵才訊息_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-03T22:10:32+08:00"
+  "last_updated": "2025-12-04T00:12:22+08:00"
 }
