@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a1da8a60f95e9f8f9565eaceeb70e2c5fe949241",
-        "last_updated": "2025-12-05T10:42:16+08:00",
+        "last_commit": "b05011460b2683a700e2c6061a048aa8ea726af3",
+        "last_updated": "2025-12-05T14:13:41+08:00",
         "name": "announcements.json"
       },
       {
@@ -992,8 +992,8 @@
     ],
     "announcements/清華學院通識教育中心": [
       {
-        "last_commit": "409fdd2c786ca4781a111ea3196f13e33beac33f",
-        "last_updated": "2025-12-02T12:16:05+08:00",
+        "last_commit": "b05011460b2683a700e2c6061a048aa8ea726af3",
+        "last_updated": "2025-12-05T14:13:41+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-05T12:15:59+08:00"
+  "last_updated": "2025-12-05T14:13:41+08:00"
 }
