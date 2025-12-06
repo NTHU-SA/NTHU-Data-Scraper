@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "be9b51d0f05c447e37ad56146b59595853c5d66f",
-        "last_updated": "2025-12-06T00:10:43+08:00",
+        "last_commit": "f3f1698eef47e764ac0c47fb35ed175e208d0074",
+        "last_updated": "2025-12-07T00:10:03+08:00",
         "name": "announcements.json"
       },
       {
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "49f11aeda461645e1f4edde9b16fa703655df6d6",
-        "last_updated": "2025-11-28T12:11:42+08:00",
+        "last_commit": "f3f1698eef47e764ac0c47fb35ed175e208d0074",
+        "last_updated": "2025-12-07T00:10:03+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -1614,8 +1614,8 @@
     ],
     "announcements/竹師教育學院英語教育中心": [
       {
-        "last_commit": "e42b3da1c9c93ea60c4b550cfb5331d2fe2364ab",
-        "last_updated": "2025-11-24T10:44:14+08:00",
+        "last_commit": "f3f1698eef47e764ac0c47fb35ed175e208d0074",
+        "last_updated": "2025-12-07T00:10:03+08:00",
         "name": "中心最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-06T18:09:11+08:00"
+  "last_updated": "2025-12-07T00:10:03+08:00"
 }
