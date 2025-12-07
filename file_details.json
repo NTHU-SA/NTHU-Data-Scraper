@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "299dad4c9b48167d6eb27384d33c600309578bd2",
-        "last_updated": "2025-12-08T00:09:16+08:00",
+        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
+        "last_updated": "2025-12-08T02:11:31+08:00",
         "name": "announcements.json"
       },
       {
@@ -1105,8 +1105,8 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_commit": "299dad4c9b48167d6eb27384d33c600309578bd2",
-        "last_updated": "2025-12-08T00:09:16+08:00",
+        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
+        "last_updated": "2025-12-08T02:11:31+08:00",
         "name": "Latest News_en.json"
       },
       {
@@ -1115,13 +1115,13 @@
         "name": "Recent Activities_en.json"
       },
       {
-        "last_commit": "299dad4c9b48167d6eb27384d33c600309578bd2",
-        "last_updated": "2025-12-08T00:09:16+08:00",
+        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
+        "last_updated": "2025-12-08T02:11:31+08:00",
         "name": "banner_en.json"
       },
       {
-        "last_commit": "299dad4c9b48167d6eb27384d33c600309578bd2",
-        "last_updated": "2025-12-08T00:09:16+08:00",
+        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
+        "last_updated": "2025-12-08T02:11:31+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "299dad4c9b48167d6eb27384d33c600309578bd2",
-        "last_updated": "2025-12-08T00:09:16+08:00",
+        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
+        "last_updated": "2025-12-08T02:11:31+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "19e20dbce49315723df694cd8f4d500b9f8b729e",
-        "last_updated": "2025-12-07T20:13:31+08:00",
+        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
+        "last_updated": "2025-12-08T02:11:31+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-08T00:09:16+08:00"
+  "last_updated": "2025-12-08T02:11:31+08:00"
 }
