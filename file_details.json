@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6d05107a8ea00aaa7a5b5d7021a2f6b5a879d8a2",
-        "last_updated": "2025-12-08T12:18:16+08:00",
+        "last_commit": "f4ef3aec527197354d7cd510b8507ddc461c6954",
+        "last_updated": "2025-12-08T14:15:00+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "a1da8a60f95e9f8f9565eaceeb70e2c5fe949241",
-        "last_updated": "2025-12-05T10:42:16+08:00",
+        "last_commit": "f4ef3aec527197354d7cd510b8507ddc461c6954",
+        "last_updated": "2025-12-08T14:15:00+08:00",
         "name": "dining.json"
       },
       {
@@ -1502,8 +1502,8 @@
         "name": "系務公告_zh-tw.json"
       },
       {
-        "last_commit": "89ed0b00891c62599fecb516757c2ebec521e320",
-        "last_updated": "2025-11-20T18:10:01+08:00",
+        "last_commit": "f4ef3aec527197354d7cd510b8507ddc461c6954",
+        "last_updated": "2025-12-08T14:15:00+08:00",
         "name": "賀榜_zh-tw.json"
       }
     ],
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-08T12:18:16+08:00"
+  "last_updated": "2025-12-08T14:15:00+08:00"
 }
