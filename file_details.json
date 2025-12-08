@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
-        "last_updated": "2025-12-08T02:11:31+08:00",
+        "last_commit": "d02d509a626e96c1fa6ec01877cf3fd859d6578c",
+        "last_updated": "2025-12-08T08:37:06+08:00",
         "name": "announcements.json"
       },
       {
@@ -582,8 +582,8 @@
         "name": "學士班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "d02d509a626e96c1fa6ec01877cf3fd859d6578c",
+        "last_updated": "2025-12-08T08:37:06+08:00",
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-08T02:11:31+08:00"
+  "last_updated": "2025-12-08T08:37:06+08:00"
 }
