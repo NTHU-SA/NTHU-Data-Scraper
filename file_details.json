@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "dcf6d01703ee36ca6f66336666fa87ebe5e9ca73",
-        "last_updated": "2025-12-09T12:15:10+08:00",
+        "last_commit": "007c3b51fc1bccfde4f2d28d301161bdbcfccc82",
+        "last_updated": "2025-12-09T14:13:52+08:00",
         "name": "announcements.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "f323c4cc17e50efad506be349ded8501732d080a",
-        "last_updated": "2025-12-08T10:42:58+08:00",
+        "last_commit": "007c3b51fc1bccfde4f2d28d301161bdbcfccc82",
+        "last_updated": "2025-12-09T14:13:52+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "434d87833c10cbe4dc27a80ad6527a90e7d8a5d7",
-        "last_updated": "2025-12-09T00:11:21+08:00",
+        "last_commit": "007c3b51fc1bccfde4f2d28d301161bdbcfccc82",
+        "last_updated": "2025-12-09T14:13:52+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1211,8 +1211,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "007c3b51fc1bccfde4f2d28d301161bdbcfccc82",
+        "last_updated": "2025-12-09T14:13:52+08:00",
         "name": "最新訊息_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-09T12:15:10+08:00"
+  "last_updated": "2025-12-09T14:13:52+08:00"
 }
