@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "007c3b51fc1bccfde4f2d28d301161bdbcfccc82",
-        "last_updated": "2025-12-09T14:13:52+08:00",
+        "last_commit": "84cf774504dba51622cc22191ed4410841e98ce6",
+        "last_updated": "2025-12-09T16:12:54+08:00",
         "name": "announcements.json"
       },
       {
@@ -953,13 +953,13 @@
     ],
     "announcements/清華學院清華學院學士班": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "84cf774504dba51622cc22191ed4410841e98ce6",
+        "last_updated": "2025-12-09T16:12:54+08:00",
         "name": "創新學制專區_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "84cf774504dba51622cc22191ed4410841e98ce6",
+        "last_updated": "2025-12-09T16:12:54+08:00",
         "name": "影音新聞_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "299dad4c9b48167d6eb27384d33c600309578bd2",
-        "last_updated": "2025-12-08T00:09:16+08:00",
+        "last_commit": "84cf774504dba51622cc22191ed4410841e98ce6",
+        "last_updated": "2025-12-09T16:12:54+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "dcf6d01703ee36ca6f66336666fa87ebe5e9ca73",
-        "last_updated": "2025-12-09T12:15:10+08:00",
+        "last_commit": "84cf774504dba51622cc22191ed4410841e98ce6",
+        "last_updated": "2025-12-09T16:12:54+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -1529,8 +1529,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "6d05107a8ea00aaa7a5b5d7021a2f6b5a879d8a2",
-        "last_updated": "2025-12-08T12:18:16+08:00",
+        "last_commit": "84cf774504dba51622cc22191ed4410841e98ce6",
+        "last_updated": "2025-12-09T16:12:54+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -2191,5 +2191,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-09T14:13:52+08:00"
+  "last_updated": "2025-12-09T16:12:54+08:00"
 }
