@@ -5,11 +5,6 @@
     "department": "計算機與通訊中心校務資訊組",
     "articles": [
         {
-            "title": "【系統公告】校務資訊系統網路設備維護，預計維護時間為11/5(二)上午10:00~中午12:00，維護期間會有短暫無法連線至校務資訊系統相關服務",
-            "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-277745,r747.php?Lang=zh-tw",
-            "date": ""
-        },
-        {
             "title": "【系統公告】校務資訊系統網路設備維護，預計維護時間為8/12(一)上午10:00~中午12:00，維護期間會有短暫無法連線至校務資訊系統相關服務",
             "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-272740,r747.php?Lang=zh-tw",
             "date": ""
@@ -62,6 +57,11 @@
         {
             "title": "【行政事務公告】因綜二館火災影響，校務資訊組電話線路不通，請循其他方式先行聯繫。",
             "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-163599,r747.php?Lang=zh-tw",
+            "date": ""
+        },
+        {
+            "title": "【系統公告】2018/01/11(四) 22:00「校務資訊系統」將因系統維護暫停服務",
+            "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-130738,r747.php?Lang=zh-tw",
             "date": ""
         }
     ]
