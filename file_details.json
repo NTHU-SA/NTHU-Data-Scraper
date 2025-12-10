@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "49a9ba82ab4bec0d12a4901ae5a02891af84a7e8",
-        "last_updated": "2025-12-10T10:43:13+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "dcf6d01703ee36ca6f66336666fa87ebe5e9ca73",
-        "last_updated": "2025-12-09T12:15:10+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -303,8 +303,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "a1da8a60f95e9f8f9565eaceeb70e2c5fe949241",
-        "last_updated": "2025-12-05T10:42:16+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -1115,13 +1115,13 @@
         "name": "Recent Activities_en.json"
       },
       {
-        "last_commit": "7383f3404a8a18060491154751bd6268fd3ae672",
-        "last_updated": "2025-12-08T02:11:31+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "banner_en.json"
       },
       {
-        "last_commit": "434d87833c10cbe4dc27a80ad6527a90e7d8a5d7",
-        "last_updated": "2025-12-09T00:11:21+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1211,8 +1211,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "007c3b51fc1bccfde4f2d28d301161bdbcfccc82",
-        "last_updated": "2025-12-09T14:13:52+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "最新訊息_zh-tw.json"
       },
       {
@@ -1717,8 +1717,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "5854498036d13a1950566627918364dfc6666702",
-        "last_updated": "2025-12-02T14:13:52+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -1727,8 +1727,8 @@
         "name": "校園公車暨巡迴公車公告_en.json"
       },
       {
-        "last_commit": "37e4ef2bcb51c79cc3e7b1252130d3fd2d6fd6b6",
-        "last_updated": "2025-11-21T12:10:52+08:00",
+        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
+        "last_updated": "2025-12-10T12:17:57+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-10T10:43:13+08:00"
+  "last_updated": "2025-12-10T12:17:57+08:00"
 }
