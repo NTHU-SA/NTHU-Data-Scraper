@@ -341,6 +341,11 @@
         "department": "教務處招生策略中心",
         "articles": [
             {
+                "title": "115學年度學士班特殊選才(拾穗計畫)錄取名單",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-300334,r1132.php?Lang=zh-tw",
+                "date": "2025-12-12"
+            },
+            {
                 "title": "國立清華大學115學年度清華學院學士班特殊選才(拾穗計畫)招生複試順序及相關事項 (正式版)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-299831,r1132.php?Lang=zh-tw",
                 "date": "2025-12-02"
@@ -434,11 +439,6 @@
                 "title": "114學年度大學「繁星推薦」入學錄取結果查詢(含錄取通知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-284927,r1132.php?Lang=zh-tw",
                 "date": "2025-03-18"
-            },
-            {
-                "title": "114學年度申請入學旭日招生(甲、乙、丙、丁組)_ 學習檔案(含就讀志願表)與推薦信表格下載",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-283839,r1132.php?Lang=zh-tw",
-                "date": "2025-02-25"
             }
         ]
     },
@@ -3269,6 +3269,16 @@
         "department": "藝文總中心",
         "articles": [
             {
+                "title": "【歡迎踴躍參加】國立澎湖科技大學藝文中心「菊島‧植藝」-迎風藝術群多媒體創作展 (114.12.12)",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-300364,r9700.php?Lang=zh-tw",
+                "date": "2025-12-12"
+            },
+            {
+                "title": "【歡迎踴躍申請】教育部「補助辦理藝術教育活動」(114.12.12)",
+                "link": "https://cac.site.nthu.edu.tw/p/406-1549-300365,r9700.php?Lang=zh-tw",
+                "date": "2025-12-12"
+            },
+            {
                 "title": "【歡迎踴躍參加】宜蘭縣政府文化局「悍圖方舟：13艙景的視覺符碼」(114.11.28 公告)",
                 "link": "https://cac.site.nthu.edu.tw/p/406-1549-299737,r9700.php?Lang=zh-tw",
                 "date": "2025-11-28"
@@ -3317,16 +3327,6 @@
                 "title": "【歡迎踴躍申請】文化部科技藝術創作發展補助 (114.11.14 公告)",
                 "link": "https://cac.site.nthu.edu.tw/p/406-1549-298861,r9700.php?Lang=zh-tw",
                 "date": "2025-11-14"
-            },
-            {
-                "title": "【歡迎踴躍申請】文化部115年度臺灣藝術研究補助申請 (114.11.14 公告)",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-298860,r9700.php?Lang=zh-tw",
-                "date": "2025-11-14"
-            },
-            {
-                "title": "【歡迎踴躍入場】《羅密歐與茱麗葉》(114.11.06 公告)",
-                "link": "https://cac.site.nthu.edu.tw/p/406-1549-298298,r9700.php?Lang=zh-tw",
-                "date": "2025-11-06"
             }
         ]
     },
@@ -4793,6 +4793,11 @@
                 "date": "2025-08-28"
             },
             {
+                "title": "(Colloquium)114.12.18 Dr. Cheng-Ta Hsieh, TBI Insights from the Operating Room: Guiding Basic Research Directions",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300354,r8084.php?Lang=en",
+                "date": "2025-12-12"
+            },
+            {
                 "title": "(Colloauium)114.12.11 Dr. Sheng-Hong Chen, Being-towards-death —  a lesson from ferroptotic trigger waves",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-300065,r8084.php?Lang=en",
                 "date": "2025-12-05"
@@ -4881,11 +4886,6 @@
                 "title": "Congratulations to Our Award Recipients at ISEGB 2025!",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-289527,r8084.php?Lang=en",
                 "date": "2025-05-23"
-            },
-            {
-                "title": "(Department Seminar)2025.5.29, Prof. Shih-Chieh Lin, Tailing stories about the enzalutamide-resistant prostate cancer",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-289503,r8084.php?Lang=en",
-                "date": "2025-05-23"
             }
         ]
     },
@@ -4899,6 +4899,11 @@
                 "title": "114學年度第1學期專題演講時間表",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-294363,r8084.php?Lang=zh-tw",
                 "date": "2025-08-28"
+            },
+            {
+                "title": "(專題演講)114.12.18謝政達助理教授 TBI Insights from the Operating Room: Guiding Basic Research Directions",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300354,r8084.php?Lang=zh-tw",
+                "date": "2025-12-12"
             },
             {
                 "title": "(專題演講)114.12.11 陳昇宏副研究員 Being-towards-death —  a lesson from ferroptotic trigger waves向死而生— 細胞鐵死亡波的啟示",
@@ -4989,11 +4994,6 @@
                 "title": "(特別演講) 114.8.15 吳謂勝教授 Development of a Database for Identifying Epitopes with Potential to Induce Molecular Mimicry and Autoimmune Diseases",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-293267,r8084.php?Lang=zh-tw",
                 "date": "2025-08-04"
-            },
-            {
-                "title": "(專題演講)114.6.5 吳偉愷助理教授 The potential of gut microbiome research for applications in translational medicine and precision health",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-289950,r8084.php?Lang=zh-tw",
-                "date": "2025-05-29"
             }
         ]
     },
@@ -5599,7 +5599,12 @@
                 "date": ""
             },
             {
-                "title": "【TAICA活動資訊】115/1/7 共創未來：學生 × 課程經驗交流工作坊",
+                "title": "【TAICA活動資訊：教師場】115/1/6 跨域重塑：理解問題與方案設計工作坊",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-300350,r7797.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【TAICA活動資訊：學生場】115/1/7 共創未來：學生 × 課程經驗交流工作坊",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-300275,r7797.php?Lang=zh-tw",
                 "date": ""
             },
@@ -5686,11 +5691,6 @@
             {
                 "title": "【活動】8月9日 TACIA 跨校 AI 課程交流會議－歡迎已修／欲修學生參加",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-292414,r7797.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "📢  因丹娜絲颱風影響，7月7日（星期一）全校停課",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-291708,r7797.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -6148,6 +6148,11 @@
         "department": "竹師教育學院教育與學習科技學系",
         "articles": [
             {
+                "title": "2026赴UCLA暑期課程-招生說明會將於12/18召開（線上線下同步）",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-300362,r1.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "臺韓教育學術論壇  徵稿中！ Taiwan-Korea Education Academic Forum--call for paper!",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-300335,r1.php?Lang=zh-tw",
                 "date": ""
@@ -6200,11 +6205,6 @@
             {
                 "title": "115學年度碩士班課程組考試入學(日間上課,114年12月2日-12月9日網路報名)",
                 "link": "https://delt.site.nthu.edu.tw/p/450-1129-298231,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "(訊息轉知)清華教育講座：國際學者系列第3場及第4場",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-298119,r1.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18274,6 +18274,11 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "有關公務人員考績法第3條、第11條及第12條業經總統114年11 月19日華總一義字第11400117191號令修正公布一案",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-300347,r3174.php?Lang=zh-tw",
+                "date": "2025-12-12"
+            },
+            {
                 "title": "客家委員會訂定「客家委員會補助全國公務人員、教育人員及軍警人員參加客語能力認證報名費作業要點」規定，並自114年12月4日生效一案",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-300287,r3174.php?Lang=zh-tw",
                 "date": "2025-12-11"
@@ -18327,11 +18332,6 @@
                 "title": "關於各機關適用醫事人員人事條例職務一覽表，業經考試院會同行政院修正發布",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-292136,r3174.php?Lang=zh-tw",
                 "date": "2025-07-11"
-            },
-            {
-                "title": "「後備軍人轉任公職複審俸給作業要點」自114年6月26日起停止適用",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-291726,r3174.php?Lang=zh-tw",
-                "date": "2025-07-08"
             }
         ]
     },
@@ -18665,7 +18665,7 @@
                 "date": ""
             },
             {
-                "title": "恭賀 褚志崧 教授 所帶領的研究團隊(彭書涵、李承聰、郭煥承、蔡竣同) 榮獲  「OPTIC 2025光電教具創作競賽」(主辦單位：中華民國光電學會)，獲得「銀牌獎」",
+                "title": "恭賀 褚志崧 教授 所帶領的研究團隊(彭書涵、李承聰、郭煥承、蔡竣同、施彥安、蔡雨彤、廖德瑋) 榮獲  「OPTIC 2025光電教具創作競賽」(主辦單位：中華民國光電學會)，獲得「銀牌獎」",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-300181,r3569.php?Lang=zh-tw",
                 "date": ""
             },
