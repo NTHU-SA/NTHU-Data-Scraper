@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "edda53164b4363e734569e2fc620f44ac06669dc",
-        "last_updated": "2025-12-12T14:13:52+08:00",
+        "last_commit": "4bd550f3b7066a28d758eb348baed922fcd3b527",
+        "last_updated": "2025-12-12T16:13:12+08:00",
         "name": "announcements.json"
       },
       {
@@ -303,8 +303,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "a6c7d159ad476fc4e67d4d91db8014cc153b95a5",
-        "last_updated": "2025-12-10T12:17:57+08:00",
+        "last_commit": "4bd550f3b7066a28d758eb348baed922fcd3b527",
+        "last_updated": "2025-12-12T16:13:12+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -318,8 +318,8 @@
         "name": "宣導_zh-tw.json"
       },
       {
-        "last_commit": "3615705cc7522c4467d5b40d70b0c8375905a92f",
-        "last_updated": "2025-12-01T00:09:31+08:00",
+        "last_commit": "4bd550f3b7066a28d758eb348baed922fcd3b527",
+        "last_updated": "2025-12-12T16:13:12+08:00",
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "89f4bc2d949d851c2b24a1bd735206491b635387",
-        "last_updated": "2025-12-10T14:13:49+08:00",
+        "last_commit": "4bd550f3b7066a28d758eb348baed922fcd3b527",
+        "last_updated": "2025-12-12T16:13:12+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "1675043b23c34826966f71869d318af63ae26247",
-        "last_updated": "2025-12-09T18:11:31+08:00",
+        "last_commit": "4bd550f3b7066a28d758eb348baed922fcd3b527",
+        "last_updated": "2025-12-12T16:13:12+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1801,8 +1801,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "b4b1e711bc6204fd960e75e5728baa5a56e07bd9",
-        "last_updated": "2025-12-04T18:10:54+08:00",
+        "last_commit": "4bd550f3b7066a28d758eb348baed922fcd3b527",
+        "last_updated": "2025-12-12T16:13:12+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-12T14:13:52+08:00"
+  "last_updated": "2025-12-12T16:13:12+08:00"
 }
