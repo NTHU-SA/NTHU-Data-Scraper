@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "38de77f7ca7852122e06a6767b7ef60e89e9f5d7",
-        "last_updated": "2025-12-12T12:18:57+08:00",
+        "last_commit": "edda53164b4363e734569e2fc620f44ac06669dc",
+        "last_updated": "2025-12-12T14:13:52+08:00",
         "name": "announcements.json"
       },
       {
@@ -44,8 +44,8 @@
     ],
     "announcements/主計室": [
       {
-        "last_commit": "ee307f2674ac9617a5414e6324bc54a660a27550",
-        "last_updated": "2025-11-28T00:10:32+08:00",
+        "last_commit": "edda53164b4363e734569e2fc620f44ac06669dc",
+        "last_updated": "2025-12-12T14:13:52+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "ff5234d7bfcef57e1394ff42885a11b3ae0edf1f",
-        "last_updated": "2025-12-11T18:10:29+08:00",
+        "last_commit": "edda53164b4363e734569e2fc620f44ac06669dc",
+        "last_updated": "2025-12-12T14:13:52+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "68a4a8f19b83284b2f5ec16728b399f909128941",
-        "last_updated": "2025-12-12T10:43:43+08:00",
+        "last_commit": "edda53164b4363e734569e2fc620f44ac06669dc",
+        "last_updated": "2025-12-12T14:13:52+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-12T12:18:57+08:00"
+  "last_updated": "2025-12-12T14:13:52+08:00"
 }
