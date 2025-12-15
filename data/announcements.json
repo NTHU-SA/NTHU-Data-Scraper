@@ -952,11 +952,6 @@
         "department": "總務處事務組",
         "articles": [
             {
-                "title": "12/13(六)至12/14(日)設置人社院臨時公車站牌公告",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300229,r1065.php?Lang=zh-tw",
-                "date": "2025-12-10"
-            },
-            {
                 "title": "更新11/3(一)~12/20(六)校園公車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297757,r1065.php?Lang=zh-tw",
                 "date": "2025-10-29"
@@ -990,6 +985,11 @@
                 "title": "中研院區間車(中央清大線及陽明交大清大線)114學年度時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-294233,r1065.php?Lang=zh-tw",
                 "date": "2025-08-26"
+            },
+            {
+                "title": "12/13(六)至12/14(日)設置人社院臨時公車站牌公告",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300229,r1065.php?Lang=zh-tw",
+                "date": "2025-12-10"
             },
             {
                 "title": "因應11/20(四)上午台積館進行空調設備吊掛作業，將設置台積館臨時公車站牌等候區",
@@ -1524,6 +1524,11 @@
         "department": "校友服務及資源發展處校友中心、校友總會",
         "articles": [
             {
+                "title": "【清華Oh！麻吉】虎克翔琪檸檬茶｜從新埔走向世界的在地檸檬茶品牌",
+                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-299985,r4272.php?Lang=zh-tw",
+                "date": "2025-12-04"
+            },
+            {
                 "title": "賀！本校陳若文校友（物理系 88B）接任甲骨文 (Oracle) 執行副總裁暨供應鏈執行長！",
                 "link": "https://alumni.site.nthu.edu.tw/p/450-1346-299487,c0.php?Lang=zh-tw",
                 "date": "2025-11-26"
@@ -1567,11 +1572,6 @@
                 "title": "【歡迎報名】2025秋季校友活動─清華湖畔森活節-親子森活大冒險",
                 "link": "https://alumni.site.nthu.edu.tw/p/406-1346-294757,r4272.php?Lang=zh-tw",
                 "date": "2025-09-11"
-            },
-            {
-                "title": "【重要公告】體育室場地預約、會員辦證及入場購票服務，已全面改由自動系統辦理。",
-                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-295139,r4272.php?Lang=zh-tw",
-                "date": "2025-09-09"
             }
         ]
     },
@@ -3813,6 +3813,26 @@
         "department": "研究發展處運動事業及政策中心",
         "articles": [
             {
+                "title": "[報導] (經濟日報) 推競技運動全民化　清大培訓師資扎根射箭",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-300479,c0.php?Lang=zh-tw",
+                "date": "2025-12-15"
+            },
+            {
+                "title": "[報導] (聯合新聞網) 清大攜手企業推「頑箭動動」培訓種子教師 首波鎖定國小課後社團推廣",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-300478,c0.php?Lang=zh-tw",
+                "date": "2025-12-15"
+            },
+            {
+                "title": "[報導] (亞太新聞網) 風城射箭運動推廣新紀元　 頑箭動動創意十足",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-300477,c0.php?Lang=zh-tw",
+                "date": "2025-12-15"
+            },
+            {
+                "title": "[報導] (東台灣新聞網) 風城射箭運動推廣新紀元　 頑箭動動創意十足",
+                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-300476,c0.php?Lang=zh-tw",
+                "date": "2025-12-15"
+            },
+            {
                 "title": "[報導] (台灣好新聞) 清華「頑箭動動」種子教師培訓營　提供更多元豐富價值",
                 "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-300475,c0.php?Lang=zh-tw",
                 "date": "2025-12-15"
@@ -3851,26 +3871,6 @@
                 "title": "[報導] (青年日報) 4賽事加入 路跑環境永續聯盟成員倍數成長",
                 "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297217,c0.php?Lang=zh-tw",
                 "date": "2025-10-16"
-            },
-            {
-                "title": "[報導] (聯合新聞網) 路跑／四賽事加入 環境永續聯盟持續壯大",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297218,c0.php?Lang=zh-tw",
-                "date": "2025-10-16"
-            },
-            {
-                "title": "[報導](運動筆記)【綠色賽事】路跑賽事環境永續聯盟成員倍數成長!!!",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297215,c0.php?Lang=zh-tw",
-                "date": "2025-10-16"
-            },
-            {
-                "title": "[報導] (don1don) 「路跑賽事環境永續聯盟」成員正以倍數成長",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297213,c0.php?Lang=zh-tw",
-                "date": "2025-10-16"
-            },
-            {
-                "title": "[報導] (運動視界) 淺談台美日三級學校棒球賽事現況(上)：應當規劃合宜的賽季與賽事制度才有利於發展健康的運動生態",
-                "link": "https://cfsbp.site.nthu.edu.tw/p/450-1498-297083,c0.php?Lang=zh-tw",
-                "date": "2025-10-14"
             }
         ]
     },
@@ -4141,6 +4141,11 @@
                 "date": ""
             },
             {
+                "title": "【徵才】何尼克老師徵求114(下)「衝突考古學」選修通識課程助教，徵才訊息請點入閱讀。",
+                "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/820980125.pdf",
+                "date": ""
+            },
+            {
                 "title": "【課程】114(上)「京劇新美學：表演入門」課程成果發表將於12/15(一)15:30 在蒙民偉樓102演講廳登場。本次將演出京劇《春草闖堂．行路》一折，歡迎師生自由入場觀賞！",
                 "link": "https://cge.site.nthu.edu.tw/p/406-1573-299826,r11.php?Lang=zh-tw",
                 "date": ""
@@ -4188,11 +4193,6 @@
             {
                 "title": "【徵才】張琳老師徵求114(上)「藝術經典：西洋風景名畫賞析」通識課程助教，徵才訊息請點入閱讀。",
                 "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/537082979.pdf",
-                "date": ""
-            },
-            {
-                "title": "【徵才】簡立易老師徵求114(上)「媒體影響與社會問題」通識課程助教，徵才訊息請點入閱讀。",
-                "link": "https://cge.site.nthu.edu.tw/var/file/573/1573/img/4914/135033477.pdf",
                 "date": ""
             }
         ]
@@ -13924,13 +13924,13 @@
                 "date": "2025-12-01"
             },
             {
-                "title": "【學生事務】114學年度第2學期跨院國際博士班資格考試初審(博士論文計畫考試)申請公告",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-299715,r10846.php?Lang=zh-tw",
+                "title": "【學生事務】跨院國際博士班學位學程學位考試資格初審公告(114學年度第2學期)",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-299722,r10846.php?Lang=zh-tw",
                 "date": "2025-11-28"
             },
             {
-                "title": "【學生事務】跨院國際博士班學位學程學位考試資格初審公告(114學年度第2學期)",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-299722,r10846.php?Lang=zh-tw",
+                "title": "【學生事務】114學年度第2學期跨院國際博士班資格考試初審(博士論文計畫考試)申請公告",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-299715,r10846.php?Lang=zh-tw",
                 "date": "2025-11-28"
             },
             {
@@ -18337,6 +18337,11 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "115年大專院校獎助生團體保險共同供應契約案，公告說明。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-300137,r875.php?Lang=zh-tw",
+                "date": "2025-12-15"
+            },
+            {
                 "title": "【人事室問卷調查】115年員工子女托育需求調查",
                 "link": "https://person.site.nthu.edu.tw/p/450-1066-300224,c0.php?Lang=zh-tw",
                 "date": "2025-12-10"
@@ -18390,11 +18395,6 @@
                 "title": "法務部廉政署設置公益揭弊者保護法律諮詢專線",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-294948,r875.php?Lang=zh-tw",
                 "date": "2025-09-05"
-            },
-            {
-                "title": "國安宣導短片「捍衛國家安全，全民一起來」",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-294616,r875.php?Lang=zh-tw",
-                "date": "2025-09-01"
             }
         ]
     },
