@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "cee1e2218a438ac08e218e2b3fabba364bf9cd53",
-        "last_updated": "2025-12-15T14:15:39+08:00",
+        "last_commit": "321b0c91d977e0108d0b183aba89d70e3dd594e3",
+        "last_updated": "2025-12-15T16:14:35+08:00",
         "name": "announcements.json"
       },
       {
@@ -497,8 +497,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "49a9ba82ab4bec0d12a4901ae5a02891af84a7e8",
-        "last_updated": "2025-12-10T10:43:13+08:00",
+        "last_commit": "321b0c91d977e0108d0b183aba89d70e3dd594e3",
+        "last_updated": "2025-12-15T16:14:35+08:00",
         "name": "工工榮譽榜_zh-tw.json"
       },
       {
@@ -760,8 +760,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "38de77f7ca7852122e06a6767b7ef60e89e9f5d7",
-        "last_updated": "2025-12-12T12:18:57+08:00",
+        "last_commit": "321b0c91d977e0108d0b183aba89d70e3dd594e3",
+        "last_updated": "2025-12-15T16:14:35+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "5964afceb18407f8467eb6660757d3e45f3bbae2",
-        "last_updated": "2025-12-15T00:10:09+08:00",
+        "last_commit": "321b0c91d977e0108d0b183aba89d70e3dd594e3",
+        "last_updated": "2025-12-15T16:14:35+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1327,8 +1327,8 @@
         "name": "Latest Product_en.json"
       },
       {
-        "last_commit": "9cdfac089775c5c4e9ca06fd10c850e3f039a410",
-        "last_updated": "2025-12-05T22:09:47+08:00",
+        "last_commit": "321b0c91d977e0108d0b183aba89d70e3dd594e3",
+        "last_updated": "2025-12-15T16:14:35+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-15T14:15:39+08:00"
+  "last_updated": "2025-12-15T16:14:35+08:00"
 }
