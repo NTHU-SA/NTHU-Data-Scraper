@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "da9bcc1a5c903f24104865a7f581b3c33b464667",
-        "last_updated": "2025-12-16T22:11:01+08:00",
+        "last_commit": "1d9b0f7861000b6e5b44f7865db30ecc348881ba",
+        "last_updated": "2025-12-17T08:35:48+08:00",
         "name": "announcements.json"
       },
       {
@@ -760,8 +760,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "321b0c91d977e0108d0b183aba89d70e3dd594e3",
-        "last_updated": "2025-12-15T16:14:35+08:00",
+        "last_commit": "1d9b0f7861000b6e5b44f7865db30ecc348881ba",
+        "last_updated": "2025-12-17T08:35:48+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "16a06d246b6f6b40aaec8a66a051c19b10011e22",
-        "last_updated": "2025-12-16T16:13:40+08:00",
+        "last_commit": "1d9b0f7861000b6e5b44f7865db30ecc348881ba",
+        "last_updated": "2025-12-17T08:35:48+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "16a06d246b6f6b40aaec8a66a051c19b10011e22",
-        "last_updated": "2025-12-16T16:13:40+08:00",
+        "last_commit": "1d9b0f7861000b6e5b44f7865db30ecc348881ba",
+        "last_updated": "2025-12-17T08:35:48+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "52f6a555f4f6c554f0e510e212172d28082efe4a",
-        "last_updated": "2025-12-16T10:44:27+08:00",
+        "last_commit": "1d9b0f7861000b6e5b44f7865db30ecc348881ba",
+        "last_updated": "2025-12-17T08:35:48+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "007c3b51fc1bccfde4f2d28d301161bdbcfccc82",
-        "last_updated": "2025-12-09T14:13:52+08:00",
+        "last_commit": "1d9b0f7861000b6e5b44f7865db30ecc348881ba",
+        "last_updated": "2025-12-17T08:35:48+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-17T06:09:25+08:00"
+  "last_updated": "2025-12-17T08:35:48+08:00"
 }
