@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a0e70b3f866daaca696bd4cb997fe75739a7435a",
-        "last_updated": "2025-12-18T08:33:28+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "announcements.json"
       },
       {
@@ -44,8 +44,8 @@
     ],
     "announcements/主計室": [
       {
-        "last_commit": "edda53164b4363e734569e2fc620f44ac06669dc",
-        "last_updated": "2025-12-12T14:13:52+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -335,8 +335,8 @@
     ],
     "announcements/學務處衛生保健組(醫輔大樓1樓)": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "News_en.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "afdbf37a7dee9bf54a869d1c5912be35398c9f11",
-        "last_updated": "2025-12-17T18:11:02+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -797,8 +797,8 @@
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "f08dae5cf9d36cf258a421b78f5d76f77b562ab3",
-        "last_updated": "2025-12-15T18:11:58+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "7a5ead65f2924dad467b38d3b08379238ac266d4",
-        "last_updated": "2025-12-16T12:20:16+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "796ab303b9a1566a3ca0e74a563e269685276cfe",
-        "last_updated": "2025-12-17T12:17:46+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1056,13 +1056,13 @@
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "78f46b75327e49445efda0248a8f265f5c5450b9",
-        "last_updated": "2025-12-02T16:13:04+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "78f46b75327e49445efda0248a8f265f5c5450b9",
-        "last_updated": "2025-12-02T16:13:04+08:00",
+        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
+        "last_updated": "2025-12-18T10:42:28+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-18T08:33:28+08:00"
+  "last_updated": "2025-12-18T10:42:28+08:00"
 }
