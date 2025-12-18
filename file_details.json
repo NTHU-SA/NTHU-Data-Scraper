@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "12847bf48edd6a51b1d97e1e7d9cd930d0f09503",
-        "last_updated": "2025-12-18T12:17:49+08:00",
+        "last_commit": "4d0871ce1920264d147f414edec322e7c346a46d",
+        "last_updated": "2025-12-18T14:13:57+08:00",
         "name": "announcements.json"
       },
       {
@@ -731,8 +731,8 @@
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
       {
-        "last_commit": "fd7bc3935bf87ea8cd9792a1cd46c37a6c9c8191",
-        "last_updated": "2025-12-05T16:12:23+08:00",
+        "last_commit": "4d0871ce1920264d147f414edec322e7c346a46d",
+        "last_updated": "2025-12-18T14:13:57+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-18T12:17:49+08:00"
+  "last_updated": "2025-12-18T14:13:57+08:00"
 }
