@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b0a7be2d526c69e1a412162d96b8e9d9bb2d007c",
-        "last_updated": "2025-12-19T12:19:39+08:00",
+        "last_commit": "ac5a0d5b10cc89f5e312eb0c246884db7b262cb9",
+        "last_updated": "2025-12-19T14:13:25+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "82ab03932720ba6e10a9ab3b217470a44ddbfe7d",
-        "last_updated": "2025-12-19T10:44:00+08:00",
+        "last_commit": "ac5a0d5b10cc89f5e312eb0c246884db7b262cb9",
+        "last_updated": "2025-12-19T14:13:25+08:00",
         "name": "dining.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "82ab03932720ba6e10a9ab3b217470a44ddbfe7d",
-        "last_updated": "2025-12-19T10:44:00+08:00",
+        "last_commit": "ac5a0d5b10cc89f5e312eb0c246884db7b262cb9",
+        "last_updated": "2025-12-19T14:13:25+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "b0a7be2d526c69e1a412162d96b8e9d9bb2d007c",
-        "last_updated": "2025-12-19T12:19:39+08:00",
+        "last_commit": "ac5a0d5b10cc89f5e312eb0c246884db7b262cb9",
+        "last_updated": "2025-12-19T14:13:25+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-19T12:19:39+08:00"
+  "last_updated": "2025-12-19T14:13:25+08:00"
 }
