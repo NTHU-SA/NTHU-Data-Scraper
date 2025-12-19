@@ -1909,6 +1909,9 @@
             "route": "南大區間車"
         }
     ],
+    "main_schedule_images": [
+        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/275451719.jpg"
+    ],
     "towardNandaInfo": {
         "direction": "往南大校區 (To Nanda Campus)",
         "duration": "2025/09/30 ~ 2025/12/21",
@@ -2554,9 +2557,6 @@
             "line": "route1",
             "route": "南大區間車"
         }
-    ],
-    "main_schedule_images": [
-        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/275451719.jpg"
     ],
     "nanda_schedule_images": [
         "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/842775956.jpg"
