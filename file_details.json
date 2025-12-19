@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8186926701184c6f42db2c767142572929cded32",
-        "last_updated": "2025-12-19T20:15:30+08:00",
+        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
+        "last_updated": "2025-12-20T00:10:38+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "7fd6c5b6815eda5b7771b8cab093624677fc21e2",
-        "last_updated": "2025-12-17T10:42:28+08:00",
+        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
+        "last_updated": "2025-12-20T00:10:38+08:00",
         "name": "buses.json"
       },
       {
@@ -668,8 +668,8 @@
         "name": "【首頁】招生訊息  - AIMS Fellows_zh-tw.json"
       },
       {
-        "last_commit": "16a06d246b6f6b40aaec8a66a051c19b10011e22",
-        "last_updated": "2025-12-16T16:13:40+08:00",
+        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
+        "last_updated": "2025-12-20T00:10:38+08:00",
         "name": "【首頁】最新消息  - AIMS Fellows_zh-tw.json"
       }
     ],
@@ -865,13 +865,13 @@
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "0b0be4061b7c2e3ec611b6ad9dce31df7f16ef30",
-        "last_updated": "2025-12-18T16:12:50+08:00",
+        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
+        "last_updated": "2025-12-20T00:10:38+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "e8ec1a167b7c417a83d704fd0e4113c491490411",
-        "last_updated": "2025-12-18T18:10:15+08:00",
+        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
+        "last_updated": "2025-12-20T00:10:38+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "7e3bb47f9498f6b1fb3c58487ec83fa319595f16",
-        "last_updated": "2025-12-19T16:12:53+08:00",
+        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
+        "last_updated": "2025-12-20T00:10:38+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1482,8 +1482,8 @@
         "name": "學術訊息_zh-tw.json"
       },
       {
-        "last_commit": "60c586562b65aec01145a6a45d5bc130e71ce24f",
-        "last_updated": "2025-12-12T00:12:41+08:00",
+        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
+        "last_updated": "2025-12-20T00:10:38+08:00",
         "name": "徵才訊息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-19T20:15:30+08:00"
+  "last_updated": "2025-12-20T00:10:38+08:00"
 }
