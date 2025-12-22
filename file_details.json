@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "accf8152cfc77aa44af253e58c07010e4c54b804",
-        "last_updated": "2025-12-22T12:25:00+08:00",
+        "last_commit": "c3a5decb080655f003f0bcd1c26cafa27aca345a",
+        "last_updated": "2025-12-22T14:14:54+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "accf8152cfc77aa44af253e58c07010e4c54b804",
-        "last_updated": "2025-12-22T12:25:00+08:00",
+        "last_commit": "c3a5decb080655f003f0bcd1c26cafa27aca345a",
+        "last_updated": "2025-12-22T14:14:54+08:00",
         "name": "dining.json"
       },
       {
@@ -255,8 +255,8 @@
     ],
     "announcements/國際產學營運總中心NVIDIA-國立清華大學聯合創新中心": [
       {
-        "last_commit": "16a06d246b6f6b40aaec8a66a051c19b10011e22",
-        "last_updated": "2025-12-16T16:13:40+08:00",
+        "last_commit": "c3a5decb080655f003f0bcd1c26cafa27aca345a",
+        "last_updated": "2025-12-22T14:14:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "accf8152cfc77aa44af253e58c07010e4c54b804",
-        "last_updated": "2025-12-22T12:25:00+08:00",
+        "last_commit": "c3a5decb080655f003f0bcd1c26cafa27aca345a",
+        "last_updated": "2025-12-22T14:14:54+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-22T12:25:00+08:00"
+  "last_updated": "2025-12-22T14:14:54+08:00"
 }
