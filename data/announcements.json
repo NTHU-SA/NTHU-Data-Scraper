@@ -962,16 +962,6 @@
                 "date": "2025-12-17"
             },
             {
-                "title": "更新11/3(一)~12/20(六)校園公車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297757,r1065.php?Lang=zh-tw",
-                "date": "2025-10-29"
-            },
-            {
-                "title": "11/3(一)~12/21(日)南大校區區間車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297756,r1065.php?Lang=zh-tw",
-                "date": "2025-10-29"
-            },
-            {
                 "title": "校園公車服務意見調查表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-275753,r1065.php?Lang=zh-tw",
                 "date": "2024-09-27"
@@ -995,6 +985,16 @@
                 "title": "中研院區間車(中央清大線及陽明交大清大線)114學年度時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-294233,r1065.php?Lang=zh-tw",
                 "date": "2025-08-26"
+            },
+            {
+                "title": "更新11/3(一)~12/20(六)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297757,r1065.php?Lang=zh-tw",
+                "date": "2025-10-29"
+            },
+            {
+                "title": "11/3(一)~12/21(日)南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297756,r1065.php?Lang=zh-tw",
+                "date": "2025-10-29"
             },
             {
                 "title": "12/13(六)至12/14(日)設置人社院臨時公車站牌公告",
@@ -15898,7 +15898,7 @@
                 "date": ""
             },
             {
-                "title": "【報名中】2026寒假工作坊第一週：01.05~01.09",
+                "title": "【報名倒數一週】2026寒假工作坊第一週：01.05~01.09",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-300123,r6822.php?Lang=zh-tw",
                 "date": ""
             },
@@ -18158,6 +18158,11 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "(轉知)國立中興大學函，辦理傑出校友遴選，請踴躍推薦參加。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-300821,r2506.php?Lang=zh-tw",
+                "date": "2025-12-22"
+            },
+            {
                 "title": "(轉知)臺北市私立靜修高級中學函，辦理傑出校友遴選，請踴躍推薦參加。",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-300310,r2506.php?Lang=zh-tw",
                 "date": "2025-12-11"
@@ -18211,11 +18216,6 @@
                 "title": "(轉知)行政院人事行政總處114年度精進人事業務建議獎勵得獎名單",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-298331,r2506.php?Lang=zh-tw",
                 "date": "2025-11-06"
-            },
-            {
-                "title": "(轉知)客家委員會修正「客家委員會客家貢獻獎頒給要點」第6點、第10點，並自中華民國114年10月2日生效。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-297551,r2506.php?Lang=zh-tw",
-                "date": "2025-10-23"
             }
         ]
     },
@@ -18453,6 +18453,11 @@
                 "date": ""
             },
             {
+                "title": "【學海築夢】2027暑期赴日本大阪大學實習計畫徵選(系申請截止1/5)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-300819,r3567.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "歡迎系內同學報考！【114下博士班資格考｜2026 Spring Doctoral Qualifying Examination】",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-300740,r3567.php?Lang=zh-tw",
                 "date": ""
@@ -18465,11 +18470,6 @@
             {
                 "title": "【學生暑期計畫】2026兩岸暑期專題交流開放申請(系申請截止:115/1/23)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-300675,r3567.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【暑期實習申請】2026赴芝加哥大學暑期交換研究計畫(系申請截止：12/29,上午9:00前)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-299855,r3567.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18534,6 +18534,11 @@
                 "date": ""
             },
             {
+                "title": "【學海築夢】2027暑期赴日本大阪大學實習計畫徵選(系申請截止1/5)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-300819,r3568.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "歡迎系內同學報考！【114下博士班資格考｜2026 Spring Doctoral Qualifying Examination】",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-300740,r3568.php?Lang=zh-tw",
                 "date": ""
@@ -18581,11 +18586,6 @@
             {
                 "title": "【招生公告】辦理113學年度第三次逕行修讀博士學位申請(6/16截止)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-289665,r3568.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【通知】物理學系五年學碩士學位申請公告",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-283980,r3568.php?Lang=zh-tw",
                 "date": ""
             }
         ]
