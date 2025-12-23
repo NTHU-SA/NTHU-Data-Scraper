@@ -366,11 +366,6 @@
                 "date": "2025-10-28"
             },
             {
-                "title": "115學年度學士班特殊選才(拾穗計畫)_推薦作業延長至10月21日中午12時截止",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-297351,r1132.php?Lang=zh-tw",
-                "date": "2025-10-20"
-            },
-            {
                 "title": "115學年度特殊選才(拾穗計畫)網路報名、審查資料上傳系統操作圖文說明",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-296690,r1132.php?Lang=zh-tw",
                 "date": "2025-10-07"
@@ -439,6 +434,11 @@
                 "title": "114學年度大學「繁星推薦」入學錄取結果查詢(含錄取通知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-284927,r1132.php?Lang=zh-tw",
                 "date": "2025-03-18"
+            },
+            {
+                "title": "114學年度申請入學旭日招生(甲、乙、丙、丁組)_ 學習檔案(含就讀志願表)與推薦信表格下載",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-283839,r1132.php?Lang=zh-tw",
+                "date": "2025-02-25"
             }
         ]
     },
@@ -457,11 +457,6 @@
                 "title": "115學年度博士班甄試第二梯次放榜錄取名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-298790,r1134.php?Lang=zh-tw",
                 "date": "2025-11-13"
-            },
-            {
-                "title": "「台灣國際研究生學程」（TIGP）招生說明",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-298531,r1134.php?Lang=zh-tw",
-                "date": "2025-11-10"
             },
             {
                 "title": "因應颱風來襲，115學年度碩博士班甄試複試作業應變措施",
@@ -547,6 +542,11 @@
                 "title": "113學年度碩、博士班甄試核定報名人數統計表",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-257342,r1134.php?Lang=zh-tw",
                 "date": "2023-10-20"
+            },
+            {
+                "title": "113學年度碩、博士班甄試 招生公告(含簡章下載)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-254002,r1134.php?Lang=zh-tw",
+                "date": "2023-09-14"
             }
         ]
     },
@@ -2888,6 +2888,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "世新大學檢送《人文社會學報》徵稿說明，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-149719,r5084.php?Lang=zh-tw",
+                "date": "2025-12-23"
+            },
+            {
+                "title": "國防大學「通識教育學報」徵稿，請踴躍投稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-219736,r5084.php?Lang=zh-tw",
+                "date": "2025-12-23"
+            },
+            {
                 "title": "中研院115年1月16日(五)舉辦國內院士季會第73次會議-黃彥男特聘研究員專題演講",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-300723,r5084.php?Lang=zh-tw",
                 "date": "2025-12-18"
@@ -2936,16 +2946,6 @@
                 "title": "南臺科技大學《南臺學報工程科學類》與《南臺學報社會科學類》全年徵稿，請踴躍投稿",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-145626,r5084.php?Lang=zh-tw",
                 "date": "2025-12-04"
-            },
-            {
-                "title": "【活動轉知】114「綠領人才領航永續新世代」線上說明會",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-299935,r5084.php?Lang=zh-tw",
-                "date": "2025-12-03"
-            },
-            {
-                "title": "國立臺灣大學《臺大體育學報》徵文中，敬請踴躍賜稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-197552,r5084.php?Lang=zh-tw",
-                "date": "2025-12-02"
             }
         ]
     },
@@ -15630,6 +15630,11 @@
                 "date": ""
             },
             {
+                "title": "【公告】國科會115年度大專學生研究計畫申請案 校內截止日為115年2月23日(一)中午12:00",
+                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-300887,r9940.php",
+                "date": ""
+            },
+            {
                 "title": "【公告】2026兩岸暑期專題交流開放申請",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-300737,r9940.php",
                 "date": ""
@@ -15677,11 +15682,6 @@
             {
                 "title": "【報導】清華拾穗計畫十週年，師生齊聚，共譜未來願景！ 見證創新教育十年成果——清華拾穗計畫十週年慶典盛大舉行",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-293314,r9940.php",
-                "date": ""
-            },
-            {
-                "title": "【報導】吳承澐系友睽違兩年推出全新創作單曲《童年的笑容》，用旋律召喚心中最純真的自己",
-                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-291564,r9940.php",
                 "date": ""
             }
         ]
@@ -18458,6 +18458,11 @@
                 "date": ""
             },
             {
+                "title": "【實習申請】2026赴德國馬克思普朗克(Max Planck)研究院實習申請案(系申請截止：115/1/16)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-300889,r3567.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【學海築夢】2027暑期赴日本大阪大學實習計畫徵選(系申請截止1/5)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-300819,r3567.php?Lang=zh-tw",
                 "date": ""
@@ -18470,11 +18475,6 @@
             {
                 "title": "【交換計畫】115學年度上學期(2026秋)赴陸港澳交換開放申請(系申請截止：115/1/23)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-300674,r3567.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【學生暑期計畫】2026兩岸暑期專題交流開放申請(系申請截止:115/1/23)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-300675,r3567.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18539,6 +18539,11 @@
                 "date": ""
             },
             {
+                "title": "【實習申請】2026赴德國馬克思普朗克(Max Planck)研究院實習申請案(系申請截止：115/1/16)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-300889,r3568.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【學海築夢】2027暑期赴日本大阪大學實習計畫徵選(系申請截止1/5)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-300819,r3568.php?Lang=zh-tw",
                 "date": ""
@@ -18586,11 +18591,6 @@
             {
                 "title": "機械工場更換門禁卡",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-294998,r3568.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【招生公告】辦理113學年度第三次逕行修讀博士學位申請(6/16截止)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-289665,r3568.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -22585,14 +22585,14 @@
                 "date": "2022-11-24"
             },
             {
+                "title": "本業務實驗室115年1月份輪值表",
+                "link": "https://thor.site.nthu.edu.tw/p/406-1192-300891,r56.php?Lang=zh-tw",
+                "date": "2025-12-23"
+            },
+            {
                 "title": "本業務實驗室114年12月份輪值表",
                 "link": "https://thor.site.nthu.edu.tw/p/406-1192-299270,r56.php?Lang=zh-tw",
                 "date": "2025-11-21"
-            },
-            {
-                "title": "本業務實驗室114年11月份輪值表",
-                "link": "https://thor.site.nthu.edu.tw/p/406-1192-297393,r56.php?Lang=zh-tw",
-                "date": "2025-10-21"
             },
             {
                 "title": "清華大學停車繳費網址",

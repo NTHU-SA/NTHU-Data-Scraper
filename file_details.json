@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3773773e3d860ae5e6d409fd87f9d4d0ec2769bf",
-        "last_updated": "2025-12-23T08:36:59+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "256fb6c88f7b8d293ed3be3c0585102f85862c0a",
-        "last_updated": "2025-12-22T08:39:48+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "buses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "8b525c0f15ded66d675e14c0c743341e67d59a2d",
-        "last_updated": "2025-12-22T16:13:49+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "dining.json"
       },
       {
@@ -183,8 +183,8 @@
         "name": "Introduction_en.json"
       },
       {
-        "last_commit": "ba8554816140a9f8a2c711ef9b0207c403018dcd",
-        "last_updated": "2025-11-21T16:12:37+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -567,8 +567,8 @@
         "name": "僑外生最新公告_zh-tw.json"
       },
       {
-        "last_commit": "3615705cc7522c4467d5b40d70b0c8375905a92f",
-        "last_updated": "2025-12-01T00:09:31+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "博士班最新公告_zh-tw.json"
       },
       {
@@ -577,8 +577,8 @@
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "f278fff10c3e7e6068cb78b1661c2eeeb96c8b65",
-        "last_updated": "2025-12-15T10:48:18+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "98d6d861ffd631bf2d46979984bdbf7919368dc8",
-        "last_updated": "2025-12-20T00:10:38+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -973,8 +973,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "82ab03932720ba6e10a9ab3b217470a44ddbfe7d",
-        "last_updated": "2025-12-19T10:44:00+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "訊息公告_zh-tw.json"
       }
     ],
@@ -1056,13 +1056,13 @@
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "27140c197286bcf7eded25c0f4c841c87a01aa1e",
-        "last_updated": "2025-12-22T10:49:31+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "27140c197286bcf7eded25c0f4c841c87a01aa1e",
-        "last_updated": "2025-12-22T10:49:31+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "3773773e3d860ae5e6d409fd87f9d4d0ec2769bf",
-        "last_updated": "2025-12-23T08:36:59+08:00",
+        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
+        "last_updated": "2025-12-23T10:45:40+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-23T08:36:59+08:00"
+  "last_updated": "2025-12-23T10:45:40+08:00"
 }
