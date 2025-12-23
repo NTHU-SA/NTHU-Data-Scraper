@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0cf869211281d253f0ff6a9477ded07e9c8c44ab",
-        "last_updated": "2025-12-23T16:13:14+08:00",
+        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
+        "last_updated": "2025-12-23T18:10:50+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "f5639ae73f6434f28de3a76662818ae77d9b14b4",
-        "last_updated": "2025-12-22T00:10:06+08:00",
+        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
+        "last_updated": "2025-12-23T18:10:50+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "0cf869211281d253f0ff6a9477ded07e9c8c44ab",
-        "last_updated": "2025-12-23T16:13:14+08:00",
+        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
+        "last_updated": "2025-12-23T18:10:50+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "0cf869211281d253f0ff6a9477ded07e9c8c44ab",
-        "last_updated": "2025-12-23T16:13:14+08:00",
+        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
+        "last_updated": "2025-12-23T18:10:50+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "8282002565219af833286d2ccc963d18ba999f89",
-        "last_updated": "2025-12-23T00:11:05+08:00",
+        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
+        "last_updated": "2025-12-23T18:10:50+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "92f7f18649262b56717644187b31a83fa59c2a21",
-        "last_updated": "2025-12-23T12:22:20+08:00",
+        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
+        "last_updated": "2025-12-23T18:10:50+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "0cf869211281d253f0ff6a9477ded07e9c8c44ab",
-        "last_updated": "2025-12-23T16:13:14+08:00",
+        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
+        "last_updated": "2025-12-23T18:10:50+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-23T16:13:14+08:00"
+  "last_updated": "2025-12-23T18:10:50+08:00"
 }
