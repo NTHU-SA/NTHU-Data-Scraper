@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
-        "last_updated": "2025-12-23T10:45:40+08:00",
+        "last_commit": "92f7f18649262b56717644187b31a83fa59c2a21",
+        "last_updated": "2025-12-23T12:22:20+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
-        "last_updated": "2025-12-23T10:45:40+08:00",
+        "last_commit": "92f7f18649262b56717644187b31a83fa59c2a21",
+        "last_updated": "2025-12-23T12:22:20+08:00",
         "name": "buses.json"
       },
       {
@@ -567,8 +567,8 @@
         "name": "僑外生最新公告_zh-tw.json"
       },
       {
-        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
-        "last_updated": "2025-12-23T10:45:40+08:00",
+        "last_commit": "92f7f18649262b56717644187b31a83fa59c2a21",
+        "last_updated": "2025-12-23T12:22:20+08:00",
         "name": "博士班最新公告_zh-tw.json"
       },
       {
@@ -577,8 +577,8 @@
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
-        "last_updated": "2025-12-23T10:45:40+08:00",
+        "last_commit": "92f7f18649262b56717644187b31a83fa59c2a21",
+        "last_updated": "2025-12-23T12:22:20+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "ab635bb689a3fb078c752c0d6f0f6bf270c2bd56",
-        "last_updated": "2025-12-19T18:10:38+08:00",
+        "last_commit": "92f7f18649262b56717644187b31a83fa59c2a21",
+        "last_updated": "2025-12-23T12:22:20+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-23T10:45:40+08:00"
+  "last_updated": "2025-12-23T12:22:20+08:00"
 }
