@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "354dc57a2c8278757a396ed7bb8b28c1bed6ca52",
-        "last_updated": "2025-12-24T08:37:25+08:00",
+        "last_commit": "79298b2d90e39c9cb5cd7441e2495c95178cfa51",
+        "last_updated": "2025-12-24T10:43:52+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "3927677207c188efbd87db1001c60ae6874c67bc",
-        "last_updated": "2025-12-22T18:10:31+08:00",
+        "last_commit": "79298b2d90e39c9cb5cd7441e2495c95178cfa51",
+        "last_updated": "2025-12-24T10:43:52+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
-        "last_updated": "2025-12-23T18:10:50+08:00",
+        "last_commit": "79298b2d90e39c9cb5cd7441e2495c95178cfa51",
+        "last_updated": "2025-12-24T10:43:52+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "0fa980275a0e2987e31c6acc1cc44494b4227ccf",
-        "last_updated": "2025-12-23T18:10:50+08:00",
+        "last_commit": "79298b2d90e39c9cb5cd7441e2495c95178cfa51",
+        "last_updated": "2025-12-24T10:43:52+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1206,8 +1206,8 @@
         "name": "學系動態_zh-tw.json"
       },
       {
-        "last_commit": "0b0be4061b7c2e3ec611b6ad9dce31df7f16ef30",
-        "last_updated": "2025-12-18T16:12:50+08:00",
+        "last_commit": "79298b2d90e39c9cb5cd7441e2495c95178cfa51",
+        "last_updated": "2025-12-24T10:43:52+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1614,8 +1614,8 @@
     ],
     "announcements/竹師教育學院英語教育中心": [
       {
-        "last_commit": "78c011dff563326f41600fec187b310f5c23b6b1",
-        "last_updated": "2025-12-11T12:19:53+08:00",
+        "last_commit": "79298b2d90e39c9cb5cd7441e2495c95178cfa51",
+        "last_updated": "2025-12-24T10:43:52+08:00",
         "name": "中心最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-24T08:37:25+08:00"
+  "last_updated": "2025-12-24T10:43:52+08:00"
 }
