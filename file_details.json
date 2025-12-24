@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "896b2b4510ce2cef949a586c7bdb58e140164782",
-        "last_updated": "2025-12-24T22:09:11+08:00",
+        "last_commit": "cc1e6e965f65306ae1a72ecf81984b3dc12f7e84",
+        "last_updated": "2025-12-25T00:11:10+08:00",
         "name": "announcements.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "11da6f1c5d1164a53adb08dfd8211db3c3981b7a",
-        "last_updated": "2025-12-17T16:12:54+08:00",
+        "last_commit": "cc1e6e965f65306ae1a72ecf81984b3dc12f7e84",
+        "last_updated": "2025-12-25T00:11:10+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-24T22:09:11+08:00"
+  "last_updated": "2025-12-25T00:11:10+08:00"
 }
