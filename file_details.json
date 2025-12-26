@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "7965463682732e917c7503987b76f9deacfc8110",
-        "last_updated": "2025-12-26T00:11:02+08:00",
+        "last_commit": "3604237b0d3f5423506bef7cf87a75340778c650",
+        "last_updated": "2025-12-26T10:44:52+08:00",
         "name": "announcements.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "b60a21fa4ee76c707425c0d3d2632f82a93e0905",
-        "last_updated": "2025-12-18T10:42:28+08:00",
+        "last_commit": "3604237b0d3f5423506bef7cf87a75340778c650",
+        "last_updated": "2025-12-26T10:44:52+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -755,13 +755,13 @@
     ],
     "announcements/教務處課務組": [
       {
-        "last_commit": "4c55beebd304652a317c4e59e2e0ce2762441c63",
-        "last_updated": "2025-12-21T22:08:30+08:00",
+        "last_commit": "3604237b0d3f5423506bef7cf87a75340778c650",
+        "last_updated": "2025-12-26T10:44:52+08:00",
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "896b2b4510ce2cef949a586c7bdb58e140164782",
-        "last_updated": "2025-12-24T22:09:11+08:00",
+        "last_commit": "3604237b0d3f5423506bef7cf87a75340778c650",
+        "last_updated": "2025-12-26T10:44:52+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -1597,8 +1597,8 @@
         "name": "學術訊息_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "3604237b0d3f5423506bef7cf87a75340778c650",
+        "last_updated": "2025-12-26T10:44:52+08:00",
         "name": "徵才訊息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-26T08:37:30+08:00"
+  "last_updated": "2025-12-26T10:44:52+08:00"
 }
