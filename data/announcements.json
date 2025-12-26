@@ -5594,6 +5594,11 @@
         "department": "教務處課務組",
         "articles": [
             {
+                "title": "第1次選課結果公布 | 第2次選課時程提醒（1/5–1/7）",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-301026,r7797.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "期末考結束啦！第一次選課準備出發",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-300811,r7797.php?Lang=zh-tw",
                 "date": ""
@@ -5687,11 +5692,6 @@
                 "title": "新生選課結果已公布，後續還有第3次選課、加簽暨加退選",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-294029,r7797.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "新生選課即將於8/18中午12:00展開 — 請務必參閱選課指引！",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-293271,r7797.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -5701,6 +5701,11 @@
         "language": "en",
         "department": "教務處課務組",
         "articles": [
+            {
+                "title": "1st Course Selection Results Announced | 2nd Selection Period Reminder (Jan 5–7)",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-301027,r7982.php?Lang=en",
+                "date": ""
+            },
             {
                 "title": "Finals Over, First Course Selection Begins!",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-300816,r7982.php?Lang=en",
@@ -5754,11 +5759,6 @@
             {
                 "title": "2026 Fall AIA-related courses",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-294743,r7982.php?Lang=en",
-                "date": ""
-            },
-            {
-                "title": "Explanation of “COE教院” on the Class Schedule",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-294528,r7982.php?Lang=en",
                 "date": ""
             }
         ]
@@ -9904,6 +9904,11 @@
         "department": "竹師教育學院臺灣語言研究與教學研究所",
         "articles": [
             {
+                "title": "國家教育研究院「以本土語言標注臺灣地名計畫(第3期)」誠徵專案助理2名",
+                "link": "https://gitll.site.nthu.edu.tw/p/406-1137-301023,r83.php?Lang=zh-tw",
+                "date": "2025-12-26"
+            },
+            {
                 "title": "中央研究院語言學研究所誠徵兼任助理/按件計酬人員",
                 "link": "https://gitll.site.nthu.edu.tw/p/406-1137-296157,r83.php?Lang=zh-tw",
                 "date": "2025-09-25"
@@ -9917,11 +9922,6 @@
                 "title": "桃園市楊梅國中誠徵【閩南語】兼課教師",
                 "link": "https://gitll.site.nthu.edu.tw/p/406-1137-292247,r83.php?Lang=zh-tw",
                 "date": "2025-07-15"
-            },
-            {
-                "title": "【徵聘公告】國立清華大學臺灣語言研究與教學研究所 徵聘 專任師資1-2名",
-                "link": "https://gitll.site.nthu.edu.tw/p/406-1137-287663,r83.php?Lang=zh-tw",
-                "date": "2025-04-25"
             }
         ]
     },
@@ -13783,16 +13783,6 @@
                 "date": ""
             },
             {
-                "title": "【校內】2026秋加州大學爾灣分校UC Irvine3+2計畫申請開始-IPE114.12/22(一)中午12:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-300281,r772.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【校內】2026年清華大學-芝加哥大學暑期交換研究計畫公告、審查--IPE114.12/23(二)中午12:00截止",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-299844,r772.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
                 "title": "【校內】115年度教育部學海惜珠計畫-選送勵學優秀學生出國交換-IPE115.1/7(三)中午12:00截止",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-300631,r772.php?Lang=zh-tw",
                 "date": ""
@@ -13825,6 +13815,16 @@
             {
                 "title": "【系上】114-1IPE海外學習【課程免修】第2次審查申請-115.2/6(三)中午12:00截止。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-298624,r772.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【校內】2026秋加州大學爾灣分校UC Irvine3+2計畫申請開始-IPE114.12/22(一)中午12:00截止。",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-300281,r772.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【校內】2026年清華大學-芝加哥大學暑期交換研究計畫公告、審查--IPE114.12/23(二)中午12:00截止",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-299844,r772.php?Lang=zh-tw",
                 "date": ""
             },
             {
