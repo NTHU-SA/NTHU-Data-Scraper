@@ -5,8 +5,13 @@
     "department": "總務處事務組",
     "articles": [
         {
-            "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service on 2026/01/01. (New Year's Day).元旦115年1月1日(四)校園公車及南大校區區間車停駛",
+            "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service on 2026/01/01(New Year's Day).",
             "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301094,r1065.php?Lang=en",
+            "date": ""
+        },
+        {
+            "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service on 2026/2/14-2026/2/22(The Chinese New Year).",
+            "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301095,r1065.php?Lang=en",
             "date": ""
         },
         {
@@ -57,11 +62,6 @@
         {
             "title": "Renew Nanda <-> Main Campus Shuttle Bus Timetable 2025/9/30~2025/11/2.",
             "link": "https://affairs.site.nthu.edu.tw/p/406-1165-296251,r1065.php?Lang=en",
-            "date": ""
-        },
-        {
-            "title": "Renew NTHU Shuttle Bus Timetable 2025/9/30~2025/11/1.",
-            "link": "https://affairs.site.nthu.edu.tw/p/406-1165-296254,r1065.php?Lang=en",
             "date": ""
         }
     ]
