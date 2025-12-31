@@ -3677,13 +3677,13 @@
         "department": "研究發展處當代中國研究中心",
         "articles": [
             {
-                "title": "39期[香港研究走向全球國際研討會] 總結討論",
-                "link": "https://cfcc.site.nthu.edu.tw/p/406-1203-301196,r7197.php?Lang=zh-tw",
+                "title": "39期[香港研究走向全球國際研討會] 主題演講側記--去殖還是解殖？這是問題所在",
+                "link": "https://cfcc.site.nthu.edu.tw/p/406-1203-301112,r7197.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "39期[香港研究走向全球國際研討會] 主題演講側記--去殖還是解殖？這是問題所在",
-                "link": "https://cfcc.site.nthu.edu.tw/p/406-1203-301112,r7197.php?Lang=zh-tw",
+                "title": "39期[香港研究走向全球國際研討會] 總結討論",
+                "link": "https://cfcc.site.nthu.edu.tw/p/406-1203-301196,r7197.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -10460,6 +10460,11 @@
         "language": "zh-tw",
         "department": "學務處衛生保健組(醫輔大樓1樓)",
         "articles": [
+            {
+                "title": "酒少一分 健康十分",
+                "link": "https://health.site.nthu.edu.tw/p/406-1001-301238,r7468.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "禁止攜帶電子煙或加熱菸入境",
                 "link": "https://health.site.nthu.edu.tw/p/406-1001-289845,r7468.php?Lang=zh-tw",
@@ -18289,6 +18294,11 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "公務人員保障暨培訓委員會（以下簡稱保訓會）修正之「公務人員訓練進修協調會報設置及實施要點」第4點及相關附件",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-301239,r3174.php?Lang=zh-tw",
+                "date": "2025-12-31"
+            },
+            {
                 "title": "各機關適用醫事人員人事條例職務一覽表，業經考試院會同行政院修正發布",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-301062,r3174.php?Lang=zh-tw",
                 "date": "2025-12-28"
@@ -18342,11 +18352,6 @@
                 "title": "公務人員領有勳章獎章發給獎勵金實施要點修正案。",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-294292,r3174.php?Lang=zh-tw",
                 "date": "2025-08-27"
-            },
-            {
-                "title": "修正公告「師鐸獎評選及表揚活動實施要點」",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-293820,r3174.php?Lang=zh-tw",
-                "date": "2025-08-18"
             }
         ]
     },
@@ -20274,23 +20279,13 @@
         "department": "人文社會學院水下考古學暨水下文化資產研究中心",
         "articles": [
             {
-                "title": "【展覽資訊】海之道—波濤的歷史印記",
+                "title": "《湛藍十三：水下考古永續傳承展》新北市立十三行博物館",
+                "link": "https://rcuah.site.nthu.edu.tw/p/406-1558-301245,r10163.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "[已結束]《海之道—波濤的歷史印記》國立清華大學圖書館",
                 "link": "https://rcuah.site.nthu.edu.tw/p/406-1558-271711,r10163.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "東引蘇布倫號展覽",
-                "link": "https://rcuah.site.nthu.edu.tw/p/406-1558-234431,r10163.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【展覽資訊】《水下探奇-水下文化資產主題展》文化部文化資產局",
-                "link": "https://rcuah.site.nthu.edu.tw/p/450-1558-247177,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【展覽資訊】《水下探索號-認識世界的水下文化資產》澎湖舊郵便局、馬公水上警察官吏派出所",
-                "link": "https://rcuah.site.nthu.edu.tw/p/450-1558-247176,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -20299,13 +20294,18 @@
                 "date": ""
             },
             {
-                "title": "《海中奧秘－水下考古展暨水下考古虛擬實境》新北市立十三行博物館",
+                "title": "[已結束]《海中奧秘－水下考古展暨水下考古虛擬實境》新北市立十三行博物館",
                 "link": "https://rcuah.site.nthu.edu.tw/p/450-1558-247186,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "【展覽資訊】[已結束]《藏水覓趣－水下文化資產多媒體互動特展》全臺巡迴展",
+                "title": "[已結束]《藏水覓趣－水下文化資產多媒體互動特展》全臺巡迴展",
                 "link": "https://rcuah.site.nthu.edu.tw/p/450-1558-247190,c0.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【展覽資訊】《水下探奇-水下文化資產主題展》文化部文化資產局",
+                "link": "https://rcuah.site.nthu.edu.tw/p/450-1558-247177,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -20326,6 +20326,11 @@
             {
                 "title": "[已結束]《潛行探索臺灣－水下文化資產特展》國立科學工藝博物館",
                 "link": "https://rcuah.site.nthu.edu.tw/p/406-1558-247175,r10163.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "[已結束]《水下探索號-認識世界的水下文化資產》澎湖舊郵便局、馬公水上警察官吏派出所",
+                "link": "https://rcuah.site.nthu.edu.tw/p/450-1558-247176,c0.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -20362,7 +20367,7 @@
                 "date": ""
             },
             {
-                "title": "【展覽資訊】海之道—波濤的歷史印記",
+                "title": "[已結束]《海之道—波濤的歷史印記》國立清華大學圖書館",
                 "link": "https://rcuah.site.nthu.edu.tw/p/406-1558-271711,r9804.php?Lang=zh-tw",
                 "date": ""
             },
@@ -20884,6 +20889,11 @@
         "department": "人文社會學院華文文學研究所",
         "articles": [
             {
+                "title": "【115考試入學口試時間表公告】115學年度碩、博士班考試招生 華文文學研究所口試名單暨時間表",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-301249,r6386.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【考試公告】115學年度碩士班考試入學招生簡章已公告，114/12/02上午10點 ～ 114/12/09下午5點，歡迎報考~",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-298730,r6386.php?Lang=zh-tw",
                 "date": ""
@@ -20936,11 +20946,6 @@
             {
                 "title": "【榮譽榜】恭賀本所蔣興立副教授 甫獲清華大學人社院教學優良教師推薦",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-296406,r6386.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【演講公告】10/1(三)&10/8(三)09:00-12:00 劉宜君老師（清華大學中文系兼任助理教授）於文學館303研討室演講，講題：華語文教育研究趨勢之現況分析、華語文教育之研究設計實踐",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-296096,r6386.php?Lang=zh-tw",
                 "date": ""
             }
         ]
