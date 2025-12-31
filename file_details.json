@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "111e293d42fd54e70e1b322ec2adf0023c85f09c",
-        "last_updated": "2025-12-31T12:22:40+08:00",
+        "last_commit": "b1b75c40d495c8044d4b113a7b8b46114263128d",
+        "last_updated": "2025-12-31T14:14:11+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "69c9355e7e584300e82ba3a3ae1c34c55d00766d",
-        "last_updated": "2025-12-30T18:10:36+08:00",
+        "last_commit": "b1b75c40d495c8044d4b113a7b8b46114263128d",
+        "last_updated": "2025-12-31T14:14:11+08:00",
         "name": "dining.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "faab683d4749ab6bbc2c6879ab2bab00601a7084",
-        "last_updated": "2025-12-30T12:23:23+08:00",
+        "last_commit": "b1b75c40d495c8044d4b113a7b8b46114263128d",
+        "last_updated": "2025-12-31T14:14:11+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -738,13 +738,13 @@
     ],
     "announcements/教務處註冊組": [
       {
-        "last_commit": "5964afceb18407f8467eb6660757d3e45f3bbae2",
-        "last_updated": "2025-12-15T00:10:09+08:00",
+        "last_commit": "b1b75c40d495c8044d4b113a7b8b46114263128d",
+        "last_updated": "2025-12-31T14:14:11+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "d6fb5ac32afbcb3ad94ac221442e5392421d4d04",
-        "last_updated": "2025-11-24T14:13:59+08:00",
+        "last_commit": "b1b75c40d495c8044d4b113a7b8b46114263128d",
+        "last_updated": "2025-12-31T14:14:11+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "d0bf1a98e39c71b1a3d1a35208484d5e80e05291",
-        "last_updated": "2025-12-31T10:46:10+08:00",
+        "last_commit": "b1b75c40d495c8044d4b113a7b8b46114263128d",
+        "last_updated": "2025-12-31T14:14:11+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2025-12-31T12:22:40+08:00"
+  "last_updated": "2025-12-31T14:14:11+08:00"
 }
