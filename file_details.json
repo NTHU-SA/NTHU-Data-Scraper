@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "15df30c82577343d33d60942fc4010632b90f652",
-        "last_updated": "2026-01-02T18:10:08+08:00",
+        "last_commit": "44f4b2bb1a55113d84d6d39076e70a7941171141",
+        "last_updated": "2026-01-03T20:14:30+08:00",
         "name": "announcements.json"
       },
       {
@@ -134,8 +134,8 @@
         "name": "Thesis Proposal Review_en.json"
       },
       {
-        "last_commit": "0d711d9989ab156c65f5cd28c2dd8a610b474ac7",
-        "last_updated": "2025-11-25T19:40:17+08:00",
+        "last_commit": "44f4b2bb1a55113d84d6d39076e70a7941171141",
+        "last_updated": "2026-01-03T20:14:30+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -144,8 +144,8 @@
         "name": "榜單_榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "d0bf1a98e39c71b1a3d1a35208484d5e80e05291",
-        "last_updated": "2025-12-31T10:46:10+08:00",
+        "last_commit": "44f4b2bb1a55113d84d6d39076e70a7941171141",
+        "last_updated": "2026-01-03T20:14:30+08:00",
         "name": "系所消息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-03T14:12:42+08:00"
+  "last_updated": "2026-01-03T20:14:30+08:00"
 }
