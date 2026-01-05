@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "de7dd51c1125a7444ad902ef394b168d7b72fa1e",
-        "last_updated": "2026-01-05T14:17:17+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "announcements.json"
       },
       {
@@ -293,18 +293,18 @@
         "name": "Application_en.json"
       },
       {
-        "last_commit": "f1af08cbc5ea7f1d3974e061dda942b126c2ece6",
-        "last_updated": "2026-01-01T00:11:21+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "51e6e9e441d65c32fd85a956efe89126c0111a66",
-        "last_updated": "2026-01-05T08:41:41+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "51e6e9e441d65c32fd85a956efe89126c0111a66",
-        "last_updated": "2026-01-05T08:41:41+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -318,8 +318,8 @@
         "name": "宣導_zh-tw.json"
       },
       {
-        "last_commit": "f1af08cbc5ea7f1d3974e061dda942b126c2ece6",
-        "last_updated": "2026-01-01T00:11:21+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
@@ -755,8 +755,8 @@
     ],
     "announcements/教務處課務組": [
       {
-        "last_commit": "3604237b0d3f5423506bef7cf87a75340778c650",
-        "last_updated": "2025-12-26T10:44:52+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "Latest News_en.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "111e293d42fd54e70e1b322ec2adf0023c85f09c",
-        "last_updated": "2025-12-31T12:22:40+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -973,8 +973,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
-        "last_updated": "2025-12-23T10:45:40+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "訊息公告_zh-tw.json"
       }
     ],
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "de7dd51c1125a7444ad902ef394b168d7b72fa1e",
-        "last_updated": "2026-01-05T14:17:17+08:00",
+        "last_commit": "a2e9f1aed3f5d961042c86e5db756a247dc97d9c",
+        "last_updated": "2026-01-05T16:14:28+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-05T14:17:17+08:00"
+  "last_updated": "2026-01-05T16:14:28+08:00"
 }

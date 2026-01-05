@@ -2888,6 +2888,21 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "弘光科技大學檢送《弘光學報》徵稿說明，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-194257,r5084.php?Lang=zh-tw",
+                "date": "2026-01-05"
+            },
+            {
+                "title": "國立臺灣師範大學《教育科學研究期刊》徵稿訊息，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-142769,r5084.php?Lang=zh-tw",
+                "date": "2026-01-05"
+            },
+            {
+                "title": "朝陽科技大學「朝陽商管評論」（Chaoyang Business and Management Review）徵稿中，請踴躍投稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-99467,r5084.php?Lang=zh-tw",
+                "date": "2026-01-05"
+            },
+            {
                 "title": "2026通識旅讀系列課程「旅溯九州：臺灣與東亞世界」～開始招生囉！",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-301250,c0.php?Lang=zh-tw",
                 "date": "2025-12-31"
@@ -2931,21 +2946,6 @@
                 "title": "國防大學「通識教育學報」徵稿，請踴躍投稿。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-219736,r5084.php?Lang=zh-tw",
                 "date": "2025-12-23"
-            },
-            {
-                "title": "中研院115年1月16日(五)舉辦國內院士季會第73次會議-黃彥男特聘研究員專題演講",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-300723,r5084.php?Lang=zh-tw",
-                "date": "2025-12-18"
-            },
-            {
-                "title": "康寧大學「康大學報」徵稿，請踴躍投稿",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-148839,r5084.php?Lang=zh-tw",
-                "date": "2025-12-17"
-            },
-            {
-                "title": "東吳大學舉辦「2026從課室到社會永續：教學實踐與跨域創新研討會」(115/01/07)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-300516,c0.php?Lang=zh-tw",
-                "date": "2025-12-16"
             }
         ]
     },
@@ -5702,6 +5702,11 @@
         "department": "教務處課務組",
         "articles": [
             {
+                "title": "Course Selection for 2026 Spring New Graduate Students",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-301354,r7982.php?Lang=en",
+                "date": ""
+            },
+            {
                 "title": "1st Course Selection Results Announced | 2nd Selection Period Reminder (Jan 5–7)",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-301027,r7982.php?Lang=en",
                 "date": ""
@@ -5754,11 +5759,6 @@
             {
                 "title": "Course Add/Drop Countdown! Check Results, Forms & Credit Load",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-295277,r7982.php?Lang=en",
-                "date": ""
-            },
-            {
-                "title": "2026 Fall AIA-related courses",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-294743,r7982.php?Lang=en",
                 "date": ""
             }
         ]
@@ -15635,6 +15635,16 @@
         "department": "清華學院清華學院學士班",
         "articles": [
             {
+                "title": "【報導】實驗教育方案讓土地公與戲曲一起登上清華校園舞台",
+                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-301385,r9940.php",
+                "date": ""
+            },
+            {
+                "title": "【報導】星光齊聚、閃耀歲末——114年實驗教育方案歲末聯歡溫暖落幕！",
+                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-301394,r9940.php",
+                "date": ""
+            },
+            {
                 "title": "【報導】清華實驗教育方案推動文化與體育外交，讓友邦青年以行動認識台灣",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-298813,r9940.php",
                 "date": ""
@@ -15682,16 +15692,6 @@
             {
                 "title": "【公告】【台聯大交換計畫】115年度台灣聯大交換學生計畫(I)-申請公告",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-296847,r9940.php",
-                "date": ""
-            },
-            {
-                "title": "【公告】已開始受理114學年度行健獎-系辦收件截止日：114年10月31日",
-                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-296433,r9940.php",
-                "date": ""
-            },
-            {
-                "title": "【報導】清華拾穗計畫十週年，師生齊聚，共譜未來願景！ 見證創新教育十年成果——清華拾穗計畫十週年慶典盛大舉行",
-                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-293314,r9940.php",
                 "date": ""
             }
         ]
@@ -21720,6 +21720,11 @@
                 "date": "2025-03-21"
             },
             {
+                "title": "Jan. 7-29 Dormitory Access Control System Transition",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-301384,r1538.php?Lang=en",
+                "date": "2026-01-05"
+            },
+            {
                 "title": "Housing Rates for Spring Semester, 2026",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-301282,c0.php?Lang=en",
                 "date": "2025-12-31"
@@ -21768,11 +21773,6 @@
                 "title": "Oct. 30-31 Dormitory ShuTe and ChungShan Elevator Cable Replacement",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-297653,r1538.php?Lang=en",
                 "date": "2025-10-27"
-            },
-            {
-                "title": "2026 Head Resident Election Notice",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-297544,r1538.php?Lang=en",
-                "date": "2025-10-23"
             }
         ]
     },
@@ -21806,6 +21806,11 @@
                 "title": "114學年度住宿時程暨學年、暑期進退宿作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-285723,r1538.php?Lang=zh-tw",
                 "date": "2025-03-21"
+            },
+            {
+                "title": "1/7–1/29宿舍門禁系統轉移",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-301384,r1538.php?Lang=zh-tw",
+                "date": "2026-01-05"
             },
             {
                 "title": "114學年下學期住宿費收費比例表",
@@ -21851,11 +21856,6 @@
                 "title": "2025年學生宿舍管理問卷結果及問卷獎名單",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-299114,r1538.php?Lang=zh-tw",
                 "date": "2025-11-19"
-            },
-            {
-                "title": "115年齋長改選第三次延長登記(學齋)",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-299026,r1538.php?Lang=zh-tw",
-                "date": "2025-11-18"
             }
         ]
     },
@@ -21888,6 +21888,11 @@
         "language": "en",
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
+            {
+                "title": "Jan. 7-29 Dormitory Access Control System Transition",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-301384,r2223.php?Lang=en",
+                "date": "2026-01-05"
+            },
             {
                 "title": "Jan. 5 ～ Jan. 23 Dormitory air conditioner filter cleaning",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-300525,r2223.php?Lang=en",
@@ -21941,6 +21946,11 @@
         "language": "zh-tw",
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
+            {
+                "title": "1/7–1/29宿舍門禁系統轉移",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-301384,r2223.php?Lang=zh-tw",
+                "date": "2026-01-05"
+            },
             {
                 "title": "1/5～1/23 寢室冷氣機濾網清洗工程（南大、三區）",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-300525,r2223.php?Lang=zh-tw",
