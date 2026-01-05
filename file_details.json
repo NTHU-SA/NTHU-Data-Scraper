@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a5307c5ed9c3b7f48d27c187de613bd6d81aea57",
-        "last_updated": "2026-01-05T10:56:44+08:00",
+        "last_commit": "abec34929a0768fd0a16e86e45cdba2ca8a85f1a",
+        "last_updated": "2026-01-05T12:33:11+08:00",
         "name": "announcements.json"
       },
       {
@@ -941,8 +941,8 @@
     ],
     "announcements/清華學院實創中心": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "abec34929a0768fd0a16e86e45cdba2ca8a85f1a",
+        "last_updated": "2026-01-05T12:33:11+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-05T10:56:44+08:00"
+  "last_updated": "2026-01-05T12:33:11+08:00"
 }
