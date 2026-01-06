@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a0b8f7aadbb02b5bdbb72c61ab97821561f33f06",
-        "last_updated": "2026-01-06T00:11:43+08:00",
+        "last_commit": "503198a3a0c8b0677d17e974a1428d70eba6694c",
+        "last_updated": "2026-01-06T08:38:06+08:00",
         "name": "announcements.json"
       },
       {
@@ -497,8 +497,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "1c39602f72f614d460f183fdf01194fdee749ca1",
-        "last_updated": "2025-12-30T16:13:19+08:00",
+        "last_commit": "503198a3a0c8b0677d17e974a1428d70eba6694c",
+        "last_updated": "2026-01-06T08:38:06+08:00",
         "name": "工工榮譽榜_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-06T06:09:18+08:00"
+  "last_updated": "2026-01-06T08:38:06+08:00"
 }
