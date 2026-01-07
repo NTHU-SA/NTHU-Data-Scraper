@@ -5060,6 +5060,11 @@
         "department": "總務處營繕組",
         "articles": [
             {
+                "title": "2/27 TSMC Building Power Outage Notice",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-301525,r7725.php?Lang=en",
+                "date": "2026-01-07"
+            },
+            {
                 "title": "12/25 TSMC Building Power Outage Notice",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-300826,r7725.php?Lang=en",
                 "date": "2025-12-22"
@@ -5113,11 +5118,6 @@
                 "title": "9/27 8:00-12:00Power Outage Announcement of Nanda Campus-Continuing Education Building",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-295960,r7725.php?Lang=en",
                 "date": "2025-09-22"
-            },
-            {
-                "title": "9/20 School Stop Supplying Gas Notification",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-295699,r7725.php?Lang=en",
-                "date": "2025-09-17"
             }
         ]
     },
@@ -5131,6 +5131,11 @@
                 "title": "5/1起逾15萬元以上採購案由使用單位出具採購單公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-287772,r992.php?Lang=zh-tw",
                 "date": "2025-04-28"
+            },
+            {
+                "title": "2/27台積館停電通知",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-301524,r992.php?Lang=zh-tw",
+                "date": "2026-01-07"
             },
             {
                 "title": "1/12~2/28行政大樓外牆維護作業公告",
@@ -5181,11 +5186,6 @@
                 "title": "12/14下午22:00至12/15上午6:00 校本部瓦斯停氣公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-299921,r992.php?Lang=zh-tw",
                 "date": "2025-12-03"
-            },
-            {
-                "title": "12/4~12/30 文物館吊掛作業公告",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-299857,r992.php?Lang=zh-tw",
-                "date": "2025-12-02"
             }
         ]
     },
@@ -6078,6 +6078,11 @@
         "department": "竹師教育學院教育與學習科技學系",
         "articles": [
             {
+                "title": "【公告】115學年度教科系碩士在職專班（初試榜單公告、複試通知）",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-301527,r1.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "114學年度(第2學期)教育學推廣教育碩士學分班 (線上授課)｜2025-12-17公告&報名",
                 "link": "https://delt.site.nthu.edu.tw/p/450-1129-300648,c0.php?Lang=zh-tw",
                 "date": ""
@@ -6130,11 +6135,6 @@
             {
                 "title": "徵工讀生-1/16.1/17.1/18在職專班複試",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-298401,r1.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【公告】本系辦理115學年度博士班甄試入學通過初試名單",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-298369,r1.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -8046,6 +8046,11 @@
         "department": "教務處英語教學精進中心",
         "articles": [
             {
+                "title": "114學年度第2學期教學助理研習營-115/2/9(一)~2/10(二)(限本校學生參加)TA Workshop",
+                "link": "https://emi.site.nthu.edu.tw/p/450-1594-301523,c0.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "114大學生學術海報競賽得獎者",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-299986,r10647.php?Lang=zh-tw",
                 "date": ""
@@ -8098,11 +8103,6 @@
             {
                 "title": "EMI數位服務發展補助試行方案 開放本校教師申請至11/12止",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-297232,r10647.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【EMI TA培訓】【歡迎報名!!!】114.10.17(五)10:30-12:30 EMI TA培訓!!! EMI TA Play Lab",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-296792,r10647.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -12618,7 +12618,7 @@
                 "date": ""
             },
             {
-                "title": "賀！本所馬萁蔚同學與其團隊參加教育部「114年Young飛全球行動計畫」榮獲「Young飛夢想實踐家獎」",
+                "title": "賀！本所馬萁蔚同學帶領護耆盾團隊參加教育部「114年Young飛全球行動計畫」榮獲「Young飛夢想實踐家獎」",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-301488,r9502.php?Lang=zh-tw",
                 "date": ""
             },
