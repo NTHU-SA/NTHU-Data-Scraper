@@ -5,6 +5,11 @@
     "department": "總務處營繕組",
     "articles": [
         {
+            "title": "2/27 TSMC Building Power Outage Notice",
+            "link": "https://construc.site.nthu.edu.tw/p/406-1167-301525,r7725.php?Lang=en",
+            "date": "2026-01-07"
+        },
+        {
             "title": "12/25 TSMC Building Power Outage Notice",
             "link": "https://construc.site.nthu.edu.tw/p/406-1167-300826,r7725.php?Lang=en",
             "date": "2025-12-22"
@@ -58,11 +63,6 @@
             "title": "9/27 8:00-12:00Power Outage Announcement of Nanda Campus-Continuing Education Building",
             "link": "https://construc.site.nthu.edu.tw/p/406-1167-295960,r7725.php?Lang=en",
             "date": "2025-09-22"
-        },
-        {
-            "title": "9/20 School Stop Supplying Gas Notification",
-            "link": "https://construc.site.nthu.edu.tw/p/406-1167-295699,r7725.php?Lang=en",
-            "date": "2025-09-17"
         }
     ]
 }
