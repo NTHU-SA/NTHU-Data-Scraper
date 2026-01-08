@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5a3619bc2a070e15255260b2a6a83d66698b1d27",
-        "last_updated": "2026-01-08T20:16:25+08:00",
+        "last_commit": "51109af8ad71d4bbd9fdbbe5e5d141f130495b92",
+        "last_updated": "2026-01-09T02:12:08+08:00",
         "name": "announcements.json"
       },
       {
@@ -119,8 +119,8 @@
     ],
     "announcements/人文社會學院華文文學研究所": [
       {
-        "last_commit": "e57c29b6b33b1e1a5fdb74b0d512dde3b6285d49",
-        "last_updated": "2026-01-08T16:13:04+08:00",
+        "last_commit": "51109af8ad71d4bbd9fdbbe5e5d141f130495b92",
+        "last_updated": "2026-01-09T02:12:08+08:00",
         "name": "News_en.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-08T20:16:25+08:00"
+  "last_updated": "2026-01-09T02:12:08+08:00"
 }
