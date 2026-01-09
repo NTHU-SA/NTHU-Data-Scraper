@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fe87c79b181aa4329b1c22e8de7551ec59089fb4",
-        "last_updated": "2026-01-09T10:47:32+08:00",
+        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
+        "last_updated": "2026-01-09T12:24:27+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "24cdbe21ae88a5da9140be4495ccc53c40e67385",
-        "last_updated": "2026-01-06T10:47:08+08:00",
+        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
+        "last_updated": "2026-01-09T12:24:27+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "30e800b46611c761fe409c52fa2ca5146d975147",
-        "last_updated": "2026-01-09T08:37:46+08:00",
+        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
+        "last_updated": "2026-01-09T12:24:27+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "5a3619bc2a070e15255260b2a6a83d66698b1d27",
-        "last_updated": "2026-01-08T20:16:25+08:00",
+        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
+        "last_updated": "2026-01-09T12:24:27+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "30e800b46611c761fe409c52fa2ca5146d975147",
-        "last_updated": "2026-01-09T08:37:46+08:00",
+        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
+        "last_updated": "2026-01-09T12:24:27+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1056,13 +1056,13 @@
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "295b4215bb782689ea0318f8296273ef8139c879",
-        "last_updated": "2025-12-23T10:45:40+08:00",
+        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
+        "last_updated": "2026-01-09T12:24:27+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "a0b8f7aadbb02b5bdbb72c61ab97821561f33f06",
-        "last_updated": "2026-01-06T00:11:43+08:00",
+        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
+        "last_updated": "2026-01-09T12:24:27+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-09T10:47:32+08:00"
+  "last_updated": "2026-01-09T12:24:27+08:00"
 }
