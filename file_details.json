@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "498830f09042a6f08dafe75ec8f72da6a905e919",
-        "last_updated": "2026-01-09T12:24:27+08:00",
+        "last_commit": "8d0dfe2299a4301717bee7a44b0129af95b3f8be",
+        "last_updated": "2026-01-09T14:14:31+08:00",
         "name": "announcements.json"
       },
       {
@@ -173,8 +173,8 @@
     ],
     "announcements/原子科學技術發展中心反應器業務": [
       {
-        "last_commit": "89271554af39ef6399ce5a79ea96216c21162b79",
-        "last_updated": "2025-12-26T18:10:20+08:00",
+        "last_commit": "8d0dfe2299a4301717bee7a44b0129af95b3f8be",
+        "last_updated": "2026-01-09T14:14:31+08:00",
         "name": "BNCT治療現況_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-09T12:24:27+08:00"
+  "last_updated": "2026-01-09T14:14:31+08:00"
 }
