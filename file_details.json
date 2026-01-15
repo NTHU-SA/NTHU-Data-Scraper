@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5a483a01f4f92455db5480f7c9015e0ae70eae20",
-        "last_updated": "2026-01-15T18:10:26+08:00",
+        "last_commit": "68853a78a009375ee949da065b8add8a39f1f0e7",
+        "last_updated": "2026-01-16T00:15:54+08:00",
         "name": "announcements.json"
       },
       {
@@ -663,13 +663,13 @@
         "name": "【首頁】師長祝福與勉勵  - AIMS Fellows_zh-tw.json"
       },
       {
-        "last_commit": "58e3a172d9f1b04f8837ff0a778237349507e185",
-        "last_updated": "2026-01-13T10:46:41+08:00",
+        "last_commit": "68853a78a009375ee949da065b8add8a39f1f0e7",
+        "last_updated": "2026-01-16T00:15:54+08:00",
         "name": "【首頁】招生訊息  - AIMS Fellows_zh-tw.json"
       },
       {
-        "last_commit": "58e3a172d9f1b04f8837ff0a778237349507e185",
-        "last_updated": "2026-01-13T10:46:41+08:00",
+        "last_commit": "68853a78a009375ee949da065b8add8a39f1f0e7",
+        "last_updated": "2026-01-16T00:15:54+08:00",
         "name": "【首頁】最新消息  - AIMS Fellows_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "99822782f0573e8983043179d4ef60cd562c1993",
-        "last_updated": "2026-01-14T18:10:50+08:00",
+        "last_commit": "68853a78a009375ee949da065b8add8a39f1f0e7",
+        "last_updated": "2026-01-16T00:15:54+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-15T18:10:26+08:00"
+  "last_updated": "2026-01-16T00:15:54+08:00"
 }
