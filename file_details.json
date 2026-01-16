@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "4aec3cd851e1c1beb6df08312b412c15e7bb4f82",
-        "last_updated": "2026-01-16T10:48:46+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "d9418500be1d7699c73a11713bceaf211428b7b0",
-        "last_updated": "2026-01-16T08:38:40+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "dining.json"
       },
       {
@@ -1130,8 +1130,8 @@
         "name": "news_en.json"
       },
       {
-        "last_commit": "4aec3cd851e1c1beb6df08312b412c15e7bb4f82",
-        "last_updated": "2026-01-16T10:48:46+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "news_zh-tw.json"
       },
       {
@@ -1712,23 +1712,23 @@
     ],
     "announcements/總務處事務組": [
       {
-        "last_commit": "d522ac6c67056a74f1e8fd3ca8756d535d206f5c",
-        "last_updated": "2025-12-29T16:14:12+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "58e3a172d9f1b04f8837ff0a778237349507e185",
-        "last_updated": "2026-01-13T10:46:41+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
-        "last_commit": "d522ac6c67056a74f1e8fd3ca8756d535d206f5c",
-        "last_updated": "2025-12-29T16:14:12+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "校園公車暨巡迴公車公告_en.json"
       },
       {
-        "last_commit": "58e3a172d9f1b04f8837ff0a778237349507e185",
-        "last_updated": "2026-01-13T10:46:41+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json"
       }
     ],
@@ -1837,8 +1837,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "aa1ffb344bfd4813556ea093abbab9df42b14c11",
-        "last_updated": "2026-01-09T16:13:21+08:00",
+        "last_commit": "261f51255a1003c3757cd9f11048abe6c832b6c0",
+        "last_updated": "2026-01-16T12:24:04+08:00",
         "name": "轉知公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-16T10:48:46+08:00"
+  "last_updated": "2026-01-16T12:24:04+08:00"
 }
