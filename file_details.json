@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "321ecd81496aab7d662447214a1c7aae11a6c3ae",
-        "last_updated": "2026-01-21T18:12:07+08:00",
+        "last_commit": "ba130fe1b029019172fe839ed7663a35f99bc943",
+        "last_updated": "2026-01-21T22:15:48+08:00",
         "name": "announcements.json"
       },
       {
@@ -1120,8 +1120,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "1269bfacf6c74368f2c8f7a923f21736d3b7c397",
-        "last_updated": "2026-01-20T22:15:52+08:00",
+        "last_commit": "ba130fe1b029019172fe839ed7663a35f99bc943",
+        "last_updated": "2026-01-21T22:15:48+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-21T18:12:07+08:00"
+  "last_updated": "2026-01-21T22:15:48+08:00"
 }
