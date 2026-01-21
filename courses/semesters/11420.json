@@ -2654,7 +2654,7 @@
         "chinese_title": "質能均衡",
         "english_title": "Material and Energy Balance",
         "credit": "3",
-        "size_limit": "35",
+        "size_limit": "40",
         "student_count": "",
         "lecturer": "沈若樸 SHEN, CLAIRE-ROAPU",
         "language": "英",
@@ -4258,8 +4258,8 @@
         "student_count": "",
         "lecturer": "游景晴 YU, CHING-CHING",
         "language": "中",
-        "class_room_and_time": "CHEM化  121 M3M4W2",
-        "classroom": "CHEM化  121",
+        "class_room_and_time": "CHEM化   125 M3M4W2",
+        "classroom": "CHEM化   125",
         "time": "M3M4W2",
         "note": "",
         "suspend": "",
@@ -4608,8 +4608,8 @@
         "student_count": "",
         "lecturer": "廖文&#23791; LIAW, WEN-FENG",
         "language": "英",
-        "class_room_and_time": "CHEM化   125 M3M4W2",
-        "classroom": "CHEM化   125",
+        "class_room_and_time": "CHEM化  121 M3M4W2",
+        "classroom": "CHEM化  121",
         "time": "M3M4W2",
         "note": "",
         "suspend": "",
@@ -9251,8 +9251,8 @@
     },
     {
         "id": "11420COS 500500",
-        "chinese_title": "循環經濟專題",
-        "english_title": "Circular Economy Capstone (Project-Based Seminar)",
+        "chinese_title": "循環經濟",
+        "english_title": "Circular Economy",
         "credit": "3",
         "size_limit": "15",
         "student_count": "",
@@ -12981,7 +12981,7 @@
         "credit": "0",
         "size_limit": "",
         "student_count": "",
-        "lecturer": "馮炳萱 FUNG, PING-HSUAN",
+        "lecturer": "周嗣文 CHOU, SZU-WEN 馮炳萱 FUNG, PING-HSUAN",
         "language": "中",
         "class_room_and_time": "TSMC台積905 T5T6",
         "classroom": "TSMC台積905",
@@ -13304,7 +13304,7 @@
         "chinese_title": "近代物理",
         "english_title": "Modern Physics",
         "credit": "3",
-        "size_limit": "90",
+        "size_limit": "100",
         "student_count": "",
         "lecturer": "陳明彰 CHEN, MING-CHANG",
         "language": "英",
@@ -28271,7 +28271,7 @@
         "prerequisite": "",
         "expertise": "資訊工程(第二專長) 電機工程(第二專長) 工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系113B  必修"
     },
     {
@@ -28321,7 +28321,7 @@
         "prerequisite": "",
         "expertise": "工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "(跨領域)創新設計學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -28346,7 +28346,7 @@
         "prerequisite": "",
         "expertise": "工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -28371,7 +28371,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修 工工系114B  選修"
     },
     {
@@ -28421,7 +28421,7 @@
         "prerequisite": "",
         "expertise": "工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "(跨領域)半導體工程與台灣創新全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系113B  必修"
     },
     {
@@ -28446,7 +28446,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)生物科技管理學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修"
     },
     {
@@ -28471,7 +28471,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修"
     },
     {
@@ -28496,7 +28496,7 @@
         "prerequisite": "",
         "expertise": "工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系113B  必修"
     },
     {
@@ -28521,7 +28521,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修"
     },
     {
@@ -28546,7 +28546,7 @@
         "prerequisite": "",
         "expertise": "資訊工程(第二專長) 數據科學(第一專長) 數據科學(第二專長)",
         "program": "(跨領域)積體電路設計學分學程/(跨領域)數據科學學分學程/(跨領域)人工智慧與應用基礎學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修"
     },
     {
@@ -28571,7 +28571,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修"
     },
     {
@@ -28596,7 +28596,7 @@
         "prerequisite": "",
         "expertise": "生物工程(第一專長)",
         "program": "(跨領域)數據科學學分學程/(跨領域)人工智慧與應用進階學分學程/(跨領域)人工智慧與應用基礎學分學程/(跨領域)神經科學學分學程/(TAICA)人工智慧視覺技術學分學程/(TAICA)人工智慧工業應用學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系111B  選修 工工系112B  選修"
     },
     {
@@ -28621,7 +28621,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)創新創業學分學程/(跨領域)創新設計學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系111B  選修 工工系112B  選修"
     },
     {
@@ -28646,7 +28646,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系111B  選修 工工系112B  選修"
     },
     {
@@ -28671,7 +28671,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)資訊傳媒學分學程/(跨領域)創新創業學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系111B  選修 工工系112B  選修"
     },
     {
@@ -28746,7 +28746,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  必修 工工系114MA 必修 工工系114MB 選修"
     },
     {
@@ -28771,7 +28771,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -28796,7 +28796,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -28821,7 +28821,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 必修 工工系114MB 選修"
     },
     {
@@ -28846,7 +28846,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -28871,7 +28871,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -28896,7 +28896,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  必修 工工系114MA 選修 工工系114MB 選修 太空所114M  必修"
     },
     {
@@ -28921,7 +28921,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 必修 工工系114MB 選修"
     },
     {
@@ -28946,7 +28946,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 必修 工工系114MB 選修"
     },
     {
@@ -28971,7 +28971,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(TAICA)人工智慧工業應用學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -28996,7 +28996,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)創新創業學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 必修"
     },
     {
@@ -29021,7 +29021,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)奈米與光電半導體產業學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -29046,7 +29046,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)創新創業學分學程/(跨領域)創新設計學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 必修"
     },
     {
@@ -29096,7 +29096,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -29121,7 +29121,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114D  選修 工工系114MA 選修 工工系114MB 選修"
     },
     {
@@ -29986,7 +29986,7 @@
         "class_room_and_time": "GEN II綜二205 S3S4Sn",
         "classroom": "GEN II綜二205",
         "time": "S3S4Sn",
-        "note": "國際密集課程，上課日期、地點：2026/04/22 (三) 圖書館清沙龍 & 2026/04/25 (六)  綜二205",
+        "note": "密集課程，上課日期、地點：2026/04/22 (三) 圖書館清沙龍 & 2026/04/25 (六) 綜二205",
         "suspend": "",
         "limit_note": "跨院國際碩士,跨院國際博士優先，第3次選課起開放全校修習",
         "freshman_reservation": "0",
@@ -40356,7 +40356,7 @@
         "credit": "2",
         "size_limit": "20",
         "student_count": "",
-        "lecturer": "薛曉華 HSUEH, HSIAO-HUA 成虹飛 CHERNG, HORN-FAY",
+        "lecturer": "薛曉華 HSUEH, HSIAO-HUA",
         "language": "中",
         "class_room_and_time": "COE教院229 F7F8",
         "classroom": "COE教院229",
@@ -46356,7 +46356,7 @@
         "credit": "2",
         "size_limit": "20",
         "student_count": "",
-        "lecturer": "王智弘 WANG,CHIH-HUNG 薛曉華 HSUEH, HSIAO-HUA 成虹飛 CHERNG, HORN-FAY",
+        "lecturer": "王智弘 WANG,CHIH-HUNG 薛曉華 HSUEH, HSIAO-HUA",
         "language": "中",
         "class_room_and_time": "COE教院229 S3S4",
         "classroom": "COE教院229",
@@ -53979,7 +53979,7 @@
         "chinese_title": "微積分Ａ二",
         "english_title": "Calculus (II)",
         "credit": "4",
-        "size_limit": "117",
+        "size_limit": "100",
         "student_count": "",
         "lecturer": "王信華 WANG, SHIN-HWA",
         "language": "中",
@@ -54279,7 +54279,7 @@
         "chinese_title": "微積分Ｂ二",
         "english_title": "Calculus II",
         "credit": "3",
-        "size_limit": "150",
+        "size_limit": "140",
         "student_count": "",
         "lecturer": "蓋茲米斯 GEZMIS OGUZ",
         "language": "英",
@@ -56021,7 +56021,7 @@
         "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過實證研究方法一  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "健康經管專班114P  必修 公共政策與管理碩士專班114P  必修"
     },
     {
@@ -56046,7 +56046,7 @@
         "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過總體經濟分析  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "公共政策與管理碩士專班114P  必修"
     },
     {
@@ -56071,7 +56071,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "EMBA專班114P  選修 健康經管專班114P  選修 MBA專班114P  選修 財金專班114P  選修 公共政策與管理碩士專班114P  選修"
     },
     {
@@ -56096,7 +56096,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "公共政策與管理碩士專班114P  必修"
     },
     {
@@ -56121,7 +56121,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "公共政策與管理碩士專班114P  選修"
     },
     {
@@ -56146,7 +56146,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "EMBA專班114P  選修 健康經管專班114P  選修 MBA專班114P  選修 財金專班114P  選修 公共政策與管理碩士專班114P  選修"
     },
     {
@@ -60006,7 +60006,7 @@
         "credit": "0",
         "size_limit": "40",
         "student_count": "",
-        "lecturer": "劉雅甄 Ya-Chen,Liu",
+        "lecturer": "劉雅甄 YA-CHEN,LIU",
         "language": "中",
         "class_room_and_time": "Gym體適能室 W1W2",
         "classroom": "Gym體適能室",
@@ -60056,7 +60056,7 @@
         "credit": "0",
         "size_limit": "40",
         "student_count": "",
-        "lecturer": "劉雅甄 Ya-Chen,Liu",
+        "lecturer": "劉雅甄 YA-CHEN,LIU",
         "language": "中",
         "class_room_and_time": "Gym體適能室 W3W4",
         "classroom": "Gym體適能室",
@@ -70231,7 +70231,7 @@
         "credit": "2",
         "size_limit": "30",
         "student_count": "",
-        "lecturer": "薛曉華 HSUEH, HSIAO-HUA 成虹飛 CHERNG, HORN-FAY",
+        "lecturer": "薛曉華 HSUEH, HSIAO-HUA",
         "language": "中",
         "class_room_and_time": "COE教院229 F5F6",
         "classroom": "COE教院229",
@@ -70981,7 +70981,7 @@
         "credit": "1",
         "size_limit": "24",
         "student_count": "",
-        "lecturer": "蔡博方 TSAI,PO-FANG 張兆良 CHANG, CHAW-LIANG 常善媚 CHANG, SHAN-MEI 王瑛玫 YING-MEI WANG",
+        "lecturer": "蔡博方 TSAI,PO-FANG 林明燈 LIN, MING-TENG 張兆良 CHANG, CHAW-LIANG 常善媚 CHANG, SHAN-MEI 康曉妍 KANG, HSIAO-YEN 王瑛玫 YING-MEI WANG",
         "language": "中",
         "class_room_and_time": "",
         "classroom": "",
@@ -71106,7 +71106,7 @@
         "credit": "5",
         "size_limit": "25",
         "student_count": "",
-        "lecturer": "蔡博方 TSAI,PO-FANG 劉懿璇 LIU, YI-SHIUAN 黃千瑜 HUANG, CHIEN-YU 李孟霖 LEE, MENG-LIN 聘任中  彭偉豪 PENG, WEI-HAO 蒲啟明 PU, CHI-MING 段立珩 TUAN, LI-HENG 莊永仁 CHUANG, YUNG-JEN 陳子福 TAN, CHOO HOCK 黃&#21843;宏 HUANG CHI-HUNG 林育聖 LIN YUSHENG 陳泰&#24312; CHEN, TAI-DI 林佳濱 CHIA-PIN LIN 吳家棟 CHIA-TUNG WU 陳俊吉 CHEN,CHUN-CHI 陳世杰 CHEN, SHIH-CHIEH",
+        "lecturer": "蔡博方 TSAI,PO-FANG 劉懿璇 LIU, YI-SHIUAN 黃千瑜 HUANG, CHIEN-YU 李孟霖 LEE, MENG-LIN 聘任中  蒲啟明 PU, CHI-MING 段立珩 TUAN, LI-HENG 莊永仁 CHUANG, YUNG-JEN 彭明德 PERNG, MING-DER 陳子福 TAN, CHOO HOCK 黃&#21843;宏 HUANG CHI-HUNG 林育聖 LIN YUSHENG 吳家棟 CHIA-TUNG WU 陳泰&#24312; CHEN, TAI-DI 林佳濱 CHIA-PIN LIN 陳俊吉 CHEN,CHUN-CHI 陳世杰 CHEN, SHIH-CHIEH",
         "language": "中",
         "class_room_and_time": "CII育成319 R3R4R5R6R7",
         "classroom": "CII育成319",
