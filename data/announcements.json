@@ -1098,19 +1098,14 @@
                 "date": "2025-12-31"
             },
             {
-                "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301095,r127.php?Lang=zh-tw",
-                "date": "2025-12-29"
-            },
-            {
                 "title": "元旦115年1月1日(四)校園公車及南大校區區間車停駛",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301094,r127.php?Lang=zh-tw",
                 "date": "2025-12-29"
             },
             {
-                "title": "行憲紀念日12/25(四)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300822,r127.php?Lang=zh-tw",
-                "date": "2025-12-22"
+                "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301095,r127.php?Lang=zh-tw",
+                "date": "2025-12-29"
             },
             {
                 "title": "114/12/22(一)~115/2/13(五)寒假期間南大校區區間車時刻表",
@@ -1121,6 +1116,11 @@
                 "title": "114/12/22(一)~115/2/13(五)寒假期間校園公車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300563,r127.php?Lang=zh-tw",
                 "date": "2025-12-17"
+            },
+            {
+                "title": "行憲紀念日12/25(四)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300822,r127.php?Lang=zh-tw",
+                "date": "2025-12-22"
             },
             {
                 "title": "12/13(六)至12/14(日)設置人社院臨時公車站牌公告",
@@ -3405,6 +3405,11 @@
         "department": "總務處出納組",
         "articles": [
             {
+                "title": "115年銀行駐點服務處兌換新鈔服務",
+                "link": "https://cashier.site.nthu.edu.tw/p/406-1166-302309,r47.php?Lang=zh-tw",
+                "date": "2026-01-22"
+            },
+            {
                 "title": "「重要訊息」請於115年1月9日前核對114年度全年所得",
                 "link": "https://cashier.site.nthu.edu.tw/p/406-1166-301289,r47.php?Lang=zh-tw",
                 "date": "2025-12-31"
@@ -3458,11 +3463,6 @@
                 "title": "8/20(三)南大校區下午停電通知。南大校區出納組現金繳納收費時間改為上午8:30~11:30。",
                 "link": "https://cashier.site.nthu.edu.tw/p/406-1166-293666,r47.php?Lang=zh-tw",
                 "date": "2025-08-13"
-            },
-            {
-                "title": "114學年度第1學期學雜費繳費公告",
-                "link": "https://cashier.site.nthu.edu.tw/p/406-1166-292553,r47.php?Lang=zh-tw",
-                "date": "2025-07-21"
             }
         ]
     },
@@ -3472,6 +3472,11 @@
         "language": "en",
         "department": "總務處出納組",
         "articles": [
+            {
+                "title": "2026 Bank Announcement of Exchanging New Bills",
+                "link": "https://cashier.site.nthu.edu.tw/p/406-1166-302310,r7546.php?Lang=en",
+                "date": "2026-01-22"
+            },
             {
                 "title": "2025 Academic Year Second Semester Tuition Payment Notification: Payment Period: January 21, 2026 - February 23, 2026.",
                 "link": "https://cashier.site.nthu.edu.tw/p/406-1166-301066,r7546.php?Lang=en",
@@ -3526,11 +3531,6 @@
                 "title": "2024 Academic Year Second Semester Tuition Payment Notification:  Payment Period: January 22, 2025 - February 17, 2025.",
                 "link": "https://cashier.site.nthu.edu.tw/p/406-1166-280728,r7546.php?Lang=en",
                 "date": "2024-12-30"
-            },
-            {
-                "title": "Mega Bank 2024 Teachers’ Day Presents",
-                "link": "https://cashier.site.nthu.edu.tw/p/406-1166-275185,r7546.php?Lang=en",
-                "date": "2024-09-20"
             }
         ]
     },
@@ -8318,6 +8318,11 @@
         "department": "工學院",
         "articles": [
             {
+                "title": "(OPEN for online application till Feb.28) 📣 2026 Summer Research Program at College of Engineering, National Tsing Hua University, Taiwan",
+                "link": "https://eng.site.nthu.edu.tw/p/450-1284-302307,c0.php?Lang=zh-tw",
+                "date": "2026-01-14"
+            },
+            {
                 "title": "【工學院活動】12/18(四) 中午｜〈工程科技英文閱讀與溝通〉期末成果展 × 海報人氣投票活動（已開獎）",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-300664,r3361.php?Lang=zh-tw",
                 "date": "2025-12-17"
@@ -8361,11 +8366,6 @@
                 "title": "【工學院英文書報討論】Microfluidics and Nanofluidics Engineering from Basic Science to Social Implementation  - 陳致真教授／國立清華大學奈米工程與微系統研究所",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-298705,r3361.php?Lang=zh-tw",
                 "date": "2025-11-14"
-            },
-            {
-                "title": "【工學院英文書報討論】Micro-Nano Tribology Opened Up by MEMS Technology - 佐藤隆昭教授／國立清華大學動力機械工程學系",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-298519,r3361.php?Lang=zh-tw",
-                "date": "2025-11-07"
             }
         ]
     },
