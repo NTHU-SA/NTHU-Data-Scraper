@@ -2146,7 +2146,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)能源科技與永續社會學分學程/(跨領域)永續發展與環境管理學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -2804,7 +2804,7 @@
         "chinese_title": "程序控制",
         "english_title": "Process Control",
         "credit": "3",
-        "size_limit": "33",
+        "size_limit": "35",
         "student_count": "",
         "lecturer": "姚遠 YAO, YUAN",
         "language": "中",
@@ -2829,7 +2829,7 @@
         "chinese_title": "程序控制",
         "english_title": "Process Control",
         "credit": "3",
-        "size_limit": "33",
+        "size_limit": "36",
         "student_count": "",
         "lecturer": "陳靖天 CHEN, CHING-TIEN",
         "language": "英",
@@ -3521,7 +3521,7 @@
         "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   曾修普通化學一  上述條件一定要有，則不擋修。</div>",
         "expertise": "前瞻材料(第一專長) 化學(第一專長) 物理(第一專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "化學系114B  必修 工學院學士班114B  必修 原科院學士班114B  必修 理學院學士班114B  必修"
     },
     {
@@ -3554,7 +3554,7 @@
         "chinese_title": "普通化學二",
         "english_title": "General Chemistry (II)",
         "credit": "3",
-        "size_limit": "160",
+        "size_limit": "170",
         "student_count": "",
         "lecturer": "黃國柱 HWANG, KUO-CHU",
         "language": "中",
@@ -15054,7 +15054,7 @@
         "chinese_title": "實作專題一",
         "english_title": "Special Topic on Implementation (I)",
         "credit": "1",
-        "size_limit": "50",
+        "size_limit": "0",
         "student_count": "",
         "lecturer": "指導教授",
         "language": "中",
@@ -15079,7 +15079,7 @@
         "chinese_title": "實作專題二",
         "english_title": "Special Topic on Implementation (II)",
         "credit": "2",
-        "size_limit": "30",
+        "size_limit": "0",
         "student_count": "",
         "lecturer": "指導教授",
         "language": "中",
@@ -22379,7 +22379,7 @@
         "chinese_title": "恐怖主義與反恐",
         "english_title": "Terrorism and Anti-Terrorism",
         "credit": "2",
-        "size_limit": "0",
+        "size_limit": "50",
         "student_count": "",
         "lecturer": "侍建宇 SHIH, CHIEN-YU",
         "language": "中",
@@ -25846,7 +25846,7 @@
         "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過世界文明史  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "(跨領域)觀光旅遊學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "人社院學士班114BA 選修 人社院學士班114BB 選修"
     },
     {
@@ -26271,7 +26271,7 @@
         "prerequisite": "",
         "expertise": "歷史(第二專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "人社院學士班112BA 選修 人社院學士班112BB 選修"
     },
     {
@@ -26296,7 +26296,7 @@
         "prerequisite": "",
         "expertise": "歷史(第二專長)",
         "program": "(跨領域)創新創業學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "人社院學士班112BA 選修 人社院學士班112BB 選修"
     },
     {
@@ -28321,7 +28321,7 @@
         "prerequisite": "",
         "expertise": "工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "(跨領域)創新設計學分學程",
-        "no_extra_selection": "《不接受加簽 No extra selection》",
+        "no_extra_selection": "",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -29221,7 +29221,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工在職班114P  必修"
     },
     {
@@ -29246,7 +29246,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工在職班114P  必修"
     },
     {
@@ -29271,7 +29271,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工在職班114P  必修"
     },
     {
@@ -29296,7 +29296,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工在職班114P  必修"
     },
     {
@@ -30036,7 +30036,7 @@
         "class_room_and_time": "GEN II綜二205 S8S9Sa",
         "classroom": "GEN II綜二205",
         "time": "S8S9Sa",
-        "note": "Instructor: Aviva L.Wolff (Weill Cornell Medicine),Intensive Class, Class date and time: TBA",
+        "note": "Instructor: Aviva L.Wolff, Intensive Class, Class date and time: April 19-20, 09:00-18:00",
         "suspend": "",
         "limit_note": "跨院國際碩士,跨院國際博士優先，第3次選課起開放全校修習",
         "freshman_reservation": "0",
@@ -45458,9 +45458,9 @@
         "student_count": "",
         "lecturer": "邱文信 CHIU, WEN-HSIN",
         "language": "中",
-        "class_room_and_time": "Nanda南大A309 W2W3W4",
+        "class_room_and_time": "Nanda南大A309 WnW5W6",
         "classroom": "Nanda南大A309",
-        "time": "W2W3W4",
+        "time": "WnW5W6",
         "note": "",
         "suspend": "",
         "limit_note": "運科系碩士班優先，第3次選課起開放全校修習",
@@ -68154,7 +68154,7 @@
         "chinese_title": "時間序列分析",
         "english_title": "Time Series Analysis",
         "credit": "3",
-        "size_limit": "",
+        "size_limit": "50",
         "student_count": "",
         "lecturer": "銀慶剛 CHING-KANG YIN",
         "language": "中",
