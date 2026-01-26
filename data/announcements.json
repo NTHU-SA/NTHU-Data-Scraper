@@ -2548,6 +2548,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】計通中心-校務資訊組 徵求114學年度第2學期工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283549,r5074.php?Lang=zh-tw",
+                "date": "2026-01-26"
+            },
+            {
+                "title": "【誠徵】經營管理組誠徵工讀生[2月23日起聘]",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302404,r5074.php?Lang=zh-tw",
+                "date": "2026-01-26"
+            },
+            {
                 "title": "【誠徵】總務處營繕組114學年度第2學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302227,r5074.php?Lang=zh-tw",
                 "date": "2026-01-21"
@@ -2596,16 +2606,6 @@
                 "title": "【徵才】科管院在職專班徵114-2平日、夜間、假日工讀生(2026/02/23~2026/06/14)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-293453,r5074.php?Lang=zh-tw",
                 "date": "2026-01-07"
-            },
-            {
-                "title": "【誠徵】114(下)計通中心遠距教室工讀生",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-274317,r5074.php?Lang=zh-tw",
-                "date": "2026-01-06"
-            },
-            {
-                "title": "【 徵才 】國立清華大學運動科技中心誠徵計畫助理1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-301339,r5074.php?Lang=zh-tw",
-                "date": "2026-01-02"
             }
         ]
     },
@@ -2615,6 +2615,16 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【誠徵】計通中心-校務資訊組 徵求114學年度第2學期工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283549,r5075.php?Lang=zh-tw",
+                "date": "2026-01-26"
+            },
+            {
+                "title": "【誠徵】經營管理組誠徵工讀生[2月23日起聘]",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302404,r5075.php?Lang=zh-tw",
+                "date": "2026-01-26"
+            },
             {
                 "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5075.php?Lang=zh-tw",
@@ -2664,16 +2674,6 @@
                 "title": "【徵才】國立清華大學蝴蝶園誠徵網站維護工程師兼任助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302000,r5075.php?Lang=zh-tw",
                 "date": "2026-01-15"
-            },
-            {
-                "title": "【誠徵】國立清華大學國家量子資訊科學與工程頂尖研究中心研究助理一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297425,r5075.php?Lang=zh-tw",
-                "date": "2026-01-15"
-            },
-            {
-                "title": "【誠徵】國立清華大學韌性研究中心誠徵【專案專員】一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-301788,r5075.php?Lang=zh-tw",
-                "date": "2026-01-13"
             }
         ]
     },
@@ -17863,34 +17863,34 @@
                 "date": "2026-01-23"
             },
             {
-                "title": "【桌球館】桌球冬令營1/26（一）-1/30（五）每下午02:00-04:00借用桌球館（#2），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302342,r11.php",
+                "title": "【體育館】女籃加練1/31（六）下午01:00-下午05:00借用體育館2（#3），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302402,r11.php",
                 "date": "2026-01-26"
             },
             {
-                "title": "【桌球館】桌球冬令營1/26（一）-1/30（五）每上午09:00-12:00借用桌球館（#1-4），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302340,r11.php",
+                "title": "【室外網球場】EMBA 網球社1/31（六）下午03:00-下午05:00借用室外網球場（#3 4），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302401,r11.php",
                 "date": "2026-01-26"
             },
             {
-                "title": "【體育館】清大男籃友賽1/31（六）下午01:00-下午05:00借用體育館2（#1），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302339,r11.php",
+                "title": "【校友體育館】EMBA 羽球社1/31（六）下午02:00-下午05:00借用羽球場（#4-6），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302400,r11.php",
                 "date": "2026-01-26"
             },
             {
-                "title": "【體育館】籃球足球冬令營1/26（一） & 1/27（二）08:00-17:00借用柔道教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302338,r11.php",
+                "title": "【校友體育館】羽球冬令營推廣班營隊1/26（一）-1/30（五）借用瑜珈教室，以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302399,r11.php",
                 "date": "2026-01-26"
             },
             {
-                "title": "【體育館】一級籃球大專盃1/23（五）-1/27（二）借用交誼室，以下時段場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302337,r11.php",
-                "date": "2026-01-23"
+                "title": "【校友體育館】羽球冬令營推廣班營隊1/26（一）-1/30（五）借用羽球場（#1-4），以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302398,r11.php",
+                "date": "2026-01-26"
             },
             {
-                "title": "【體育館】一級籃球大專盃1/23（五）-1/27（二）借用會議室，以下時段場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302336,r11.php",
-                "date": "2026-01-23"
+                "title": "【體育館】多元體育活動推廣營隊1/26（一）-1/30（五）借用舞蹈教室，以下時段場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302397,r11.php",
+                "date": "2026-01-26"
             }
         ]
     },
