@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b3b77082415c33e38227991f153202e74ca8c084",
-        "last_updated": "2026-01-29T14:23:34+08:00",
+        "last_commit": "0f349b56b0f4092529fcbaad6cbdf76f063b961c",
+        "last_updated": "2026-01-29T16:18:24+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "cd23349ddab16a4001a620e78877f115661b53a2",
-        "last_updated": "2026-01-28T10:50:45+08:00",
+        "last_commit": "0f349b56b0f4092529fcbaad6cbdf76f063b961c",
+        "last_updated": "2026-01-29T16:18:24+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "cd23349ddab16a4001a620e78877f115661b53a2",
-        "last_updated": "2026-01-28T10:50:45+08:00",
+        "last_commit": "0f349b56b0f4092529fcbaad6cbdf76f063b961c",
+        "last_updated": "2026-01-29T16:18:24+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "2474742e1834c47efdade4461cbc3e24cd834f88",
-        "last_updated": "2026-01-26T14:16:21+08:00",
+        "last_commit": "0f349b56b0f4092529fcbaad6cbdf76f063b961c",
+        "last_updated": "2026-01-29T16:18:24+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -1296,8 +1296,8 @@
         "name": "研究倫理審查事項公告_zh-tw.json"
       },
       {
-        "last_commit": "2b18eb38392adba02f1b7b2ea02bf45b74420661",
-        "last_updated": "2026-01-27T10:53:15+08:00",
+        "last_commit": "0f349b56b0f4092529fcbaad6cbdf76f063b961c",
+        "last_updated": "2026-01-29T16:18:24+08:00",
         "name": "研究倫理最新消息公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-29T14:23:34+08:00"
+  "last_updated": "2026-01-29T16:18:24+08:00"
 }
