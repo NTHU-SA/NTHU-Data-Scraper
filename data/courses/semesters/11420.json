@@ -4281,12 +4281,12 @@
         "credit": "1",
         "size_limit": "",
         "student_count": "",
-        "lecturer": "聘任中",
+        "lecturer": "魏佑臣 WEI, YU-CHEN",
         "language": "中",
         "class_room_and_time": "CHEM II化二 223 F7F8",
         "classroom": "CHEM II化二 223",
         "time": "F7F8",
-        "note": "教師:魏佑臣老師",
+        "note": "",
         "suspend": "",
         "limit_note": "限化學系",
         "freshman_reservation": "0",
@@ -11106,12 +11106,12 @@
         "credit": "3",
         "size_limit": "40",
         "student_count": "",
-        "lecturer": "聘任中",
+        "lecturer": "劉重希 LIU, CHUNG-SHI",
         "language": "中",
         "class_room_and_time": "GEN III綜三LRA W2W3W4",
         "classroom": "GEN III綜三LRA",
         "time": "W2W3W4",
-        "note": "授課教師:劉重希",
+        "note": "",
         "suspend": "",
         "limit_note": "",
         "freshman_reservation": "0",
@@ -14206,12 +14206,12 @@
         "credit": "3",
         "size_limit": "50",
         "student_count": "",
-        "lecturer": "聘任中",
+        "lecturer": "洪聖昕 HUNG,SHENG-HSI",
         "language": "中",
         "class_room_and_time": "C.L.Liu炯朗106 T3T4R3",
         "classroom": "C.L.Liu炯朗106",
         "time": "T3T4R3",
-        "note": "非常態開設課程，新聘教師洪聖昕老師授課。",
+        "note": "非常態開設課程",
         "suspend": "",
         "limit_note": "",
         "freshman_reservation": "0",
@@ -18806,7 +18806,7 @@
         "credit": "2",
         "size_limit": "16",
         "student_count": "",
-        "lecturer": "周寶齡",
+        "lecturer": "林雅瓊 LIM, NGA-KHING",
         "language": "英",
         "class_room_and_time": "HSS人社C205 R5R6",
         "classroom": "HSS人社C205",
@@ -21246,7 +21246,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)藝術學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -21646,7 +21646,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)藝術學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -21671,7 +21671,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)藝術學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -21721,7 +21721,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)能源科技與永續社會學分學程/(跨領域)永續發展與環境管理學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -21921,7 +21921,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -21971,7 +21971,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -22046,7 +22046,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)藝術學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -22071,7 +22071,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)藝術學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -22321,7 +22321,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)資訊傳媒學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -22946,7 +22946,7 @@
         "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過莊子選讀  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -24046,7 +24046,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -24071,7 +24071,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -24821,7 +24821,7 @@
         "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過詩經選讀  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -24846,7 +24846,7 @@
         "prerequisite": "<div>   擋修對象 : 全校     先修科目 :   未修過論孟選讀 未修過東方思想經典：《論》《孟》選讀 未修過東方思想經典：《孟子》選讀 未修過東方思想經典:《論》《孟》思想與現代生活 未修過思想經典：《孟子》選讀 未修過思想經典：《論》《孟》思想與現代生活  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -24971,7 +24971,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -28481,7 +28481,7 @@
         "credit": "3",
         "size_limit": "70",
         "student_count": "",
-        "lecturer": "李欣怡 LEE, HSIN-I",
+        "lecturer": "李欣怡 LEE, AMY HSIN-I",
         "language": "中",
         "class_room_and_time": "ENG I工一 103 F7F8F9",
         "classroom": "ENG I工一 103",
@@ -28858,9 +28858,9 @@
         "student_count": "",
         "lecturer": "李昀儒 LEE, YUN-JU",
         "language": "中",
-        "class_room_and_time": "ENG I工一 901 T2T3T4",
-        "classroom": "ENG I工一 901",
-        "time": "T2T3T4",
+        "class_room_and_time": "ENG I工一203 R2R3R4",
+        "classroom": "ENG I工一203",
+        "time": "R2R3R4",
         "note": "",
         "suspend": "",
         "limit_note": "工工系碩士班博士班專班,工工在職班碩士班博士班專班優先，第3次選課起開放全校修習",
@@ -56081,7 +56081,7 @@
         "credit": "2",
         "size_limit": "40",
         "student_count": "",
-        "lecturer": "吳世英 WU, SHIH-YING",
+        "lecturer": "劉瑞華 LIU, RUEY-HUA 吳世英 WU, SHIH-YING",
         "language": "中",
         "class_room_and_time": "TSMC台積905 S8S9",
         "classroom": "TSMC台積905",
@@ -56108,8 +56108,8 @@
         "student_count": "",
         "lecturer": "廖肇寧 LIAO, CHAO-NING 趙相科 CHAO, HSIANG-KE 余朝恩 YU, CHAO-EN",
         "language": "中",
-        "class_room_and_time": "TSMC台積430 S5S6S7",
-        "classroom": "TSMC台積430",
+        "class_room_and_time": "TSMC台積428 S5S6S7",
+        "classroom": "TSMC台積428",
         "time": "S5S6S7",
         "note": "本課程請假流程請依在職專班請假單辦理",
         "suspend": "",
@@ -73821,7 +73821,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  必修"
     },
     {
@@ -73846,7 +73846,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  必修"
     },
     {
@@ -73871,7 +73871,7 @@
         "prerequisite": "<div>   擋修對象 : 政經學院台北政經學院政治經濟碩士碩士班     先修科目 :   經濟學導論-成績需B-以上  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  必修"
     },
     {
@@ -73896,7 +73896,7 @@
         "prerequisite": "<div>   擋修對象 : 政經學院台北政經學院政治經濟碩士碩士班     先修科目 :   數量方法導論-成績需B-以上  上述條件一定要有，則不擋修。</div>",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  必修"
     },
     {
@@ -73921,7 +73921,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -73946,7 +73946,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -73971,7 +73971,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -73996,7 +73996,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -74021,7 +74021,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程/(跨領域)半導體工程與台灣創新全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -74046,7 +74046,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -74071,7 +74071,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -74096,7 +74096,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -74121,7 +74121,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -74146,7 +74146,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
@@ -74171,7 +74171,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)地緣政治與企業經營全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  選修"
     },
     {
