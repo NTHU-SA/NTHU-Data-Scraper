@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "06099344af1567fdaa9bc7483406eac668016ace",
-        "last_updated": "2026-01-30T16:18:02+08:00",
+        "last_commit": "a7645f92a998e0d2aff7780302e46b03cbca6920",
+        "last_updated": "2026-01-30T18:16:07+08:00",
         "name": "announcements.json"
       },
       {
@@ -391,8 +391,8 @@
     ],
     "announcements/工學院": [
       {
-        "last_commit": "d52023101ee916d33e5d1ccea826fe2bf59c503a",
-        "last_updated": "2026-01-22T14:14:21+08:00",
+        "last_commit": "a7645f92a998e0d2aff7780302e46b03cbca6920",
+        "last_updated": "2026-01-30T18:16:07+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -587,8 +587,8 @@
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "0fcf2843f664cc69183ec5823288f3a5bcce5009",
-        "last_updated": "2026-01-29T12:39:19+08:00",
+        "last_commit": "a7645f92a998e0d2aff7780302e46b03cbca6920",
+        "last_updated": "2026-01-30T18:16:07+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
@@ -1796,13 +1796,13 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_commit": "f50f20523090c3f1ac6cb76c9ff372d8462f9ebe",
-        "last_updated": "2026-01-07T18:10:49+08:00",
+        "last_commit": "a7645f92a998e0d2aff7780302e46b03cbca6920",
+        "last_updated": "2026-01-30T18:16:07+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "a42bfe87ebb7a90a1d6246b018163e41f6194f55",
-        "last_updated": "2026-01-30T00:19:25+08:00",
+        "last_commit": "a7645f92a998e0d2aff7780302e46b03cbca6920",
+        "last_updated": "2026-01-30T18:16:07+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-30T16:18:02+08:00"
+  "last_updated": "2026-01-30T18:16:07+08:00"
 }
