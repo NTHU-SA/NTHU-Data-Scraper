@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a42bfe87ebb7a90a1d6246b018163e41f6194f55",
-        "last_updated": "2026-01-30T00:19:25+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "announcements.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "1e1b46b71d83b20b33b97dd70447778b3f9b16d9",
-        "last_updated": "2026-01-27T12:27:30+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "a42bfe87ebb7a90a1d6246b018163e41f6194f55",
-        "last_updated": "2026-01-30T00:19:25+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "a42bfe87ebb7a90a1d6246b018163e41f6194f55",
-        "last_updated": "2026-01-30T00:19:25+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "0fcf2843f664cc69183ec5823288f3a5bcce5009",
-        "last_updated": "2026-01-29T12:39:19+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "bafcb799ffa626926446ead060b7c29934cb58d0",
-        "last_updated": "2026-01-27T18:12:07+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "8feeda96515c3b56605d41e951f266d562060768",
-        "last_updated": "2026-01-24T08:37:13+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1370,13 +1370,13 @@
         "name": "公文函示_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "新聞專區_zh-tw.json"
       },
       {
-        "last_commit": "36e11477f75764cb1d00b38d9835f6a955fcd55c",
-        "last_updated": "2025-12-31T00:11:10+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1524,8 +1524,8 @@
         "name": "徵才訊息_zh-tw.json"
       },
       {
-        "last_commit": "9c975a5e6181913725c4cc8d463b20516d103564",
-        "last_updated": "2026-01-21T16:13:57+08:00",
+        "last_commit": "4fde813bd84ba6d1cb1079f272b8c668f65ba5ef",
+        "last_updated": "2026-01-30T11:04:50+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-01-30T08:43:36+08:00"
+  "last_updated": "2026-01-30T11:04:50+08:00"
 }
