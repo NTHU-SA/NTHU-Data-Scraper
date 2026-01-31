@@ -3881,11 +3881,6 @@
         "department": "師資培育中心",
         "articles": [
             {
-                "title": "【誠徵】國立清華大學師培中心誠徵專任教師1名(含)以上-即日起至115年1月31日收件",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-298785,r157.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
                 "title": "【轉知】新竹縣立東興國中114-2誠徵生物科代理教師",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-302562,r157.php?Lang=zh-tw",
                 "date": ""
@@ -3939,6 +3934,11 @@
                 "title": "【轉知】國立新竹高商誠徵114學年度第九次代理、代課教師甄選",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-301373,r157.php?Lang=zh-tw",
                 "date": ""
+            },
+            {
+                "title": "【轉知】第四屆 KIST 新星師培計畫（K:star）",
+                "link": "https://cfte.site.nthu.edu.tw/p/450-1275-301268,c0.php?Lang=zh-tw",
+                "date": ""
             }
         ]
     },
@@ -3984,11 +3984,6 @@
                 "date": "2025-12-22"
             },
             {
-                "title": "【誠徵】國立清華大學師培中心誠徵專任教師1名(含)以上-即日起至115年1月31日收件",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-298785,r48.php?Lang=zh-tw",
-                "date": "2025-11-13"
-            },
-            {
                 "title": "【徵件公告】115年教育部領域教材教法教學實踐研究計畫(第二類：學術論文獎勵)，敬請有符合參加資格者踴躍報名",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-301123,r48.php?Lang=zh-tw",
                 "date": "2025-12-29"
@@ -3997,6 +3992,11 @@
                 "title": "115年國民小學師資類科學科知能評量，鼓勵本校師資生踴躍參與",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-301100,r48.php?Lang=zh-tw",
                 "date": "2025-12-29"
+            },
+            {
+                "title": "1141各師資類科資格移轉、放棄教育學程、中教任教科目轉科申請",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-299918,r48.php?Lang=zh-tw",
+                "date": "2025-12-03"
             }
         ]
     },
@@ -18215,14 +18215,14 @@
                 "date": "2025-10-23"
             },
             {
-                "title": "(轉知)國立中央大學函辦理傑出校友遴選，請踴躍推薦參加。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-296797,r2506.php?Lang=zh-tw",
-                "date": "2025-10-08"
-            },
-            {
                 "title": "(轉知)檢送修正「中華民國大專校院114年度教職員工橋藝錦標賽」競賽規程乙份，敬請踴躍報名參賽",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-296732,r2506.php?Lang=zh-tw",
                 "date": "2025-10-07"
+            },
+            {
+                "title": "(轉知)台灣人工智慧學校辦理「2025台灣人工智慧年會」",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-295068,r2506.php?Lang=zh-tw",
+                "date": "2025-09-09"
             }
         ]
     },
@@ -22101,29 +22101,14 @@
                 "date": "2025-10-27"
             },
             {
-                "title": "【Division of Construction & Maintenance    】Water Supply Suspension (Nanda Campus, Oct. 28–29)",
-                "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-297506,c0.php?Lang=en",
-                "date": "2025-10-23"
-            },
-            {
                 "title": "Notice of Student Dormitory Disinfection on September 16, 17, and 18, 2025",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-295213,r2223.php?Lang=en",
                 "date": "2025-09-10"
             },
             {
-                "title": "Aug.13 ~ Aug. 27 Dorms public water tower cleaning project",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293463,r2223.php?Lang=en",
-                "date": "2025-08-08"
-            },
-            {
                 "title": "Aug. 1~14 Dormitory Card Reader Rate Update",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292471,r2223.php?Lang=en",
                 "date": "2025-07-18"
-            },
-            {
-                "title": "7/21～7/29 Dorms public water tower cleaning project",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292281,r2223.php?Lang=en",
-                "date": "2025-07-15"
             },
             {
                 "title": "May 7 Maintenance for iNTHU APP, Student Leave System, and Student Dormitory System",
@@ -22194,11 +22179,6 @@
                 "date": "2025-10-27"
             },
             {
-                "title": "【轉營繕組公告】10/28-10/29停水公告-南大校區",
-                "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-297506,c0.php?Lang=zh-tw",
-                "date": "2025-10-23"
-            },
-            {
                 "title": "【轉事務組公告】114.10.08清華大學水質檢驗結果",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-297397,c0.php?Lang=zh-tw",
                 "date": "2025-10-21"
@@ -22214,9 +22194,14 @@
                 "date": "2025-09-10"
             },
             {
-                "title": "8/13～8/27 學生宿舍水塔清洗日程表",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293463,r2223.php?Lang=zh-tw",
-                "date": "2025-08-08"
+                "title": "8/1～8/14 學生宿舍寢室讀卡機費率更新",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292471,r2223.php?Lang=zh-tw",
+                "date": "2025-07-18"
+            },
+            {
+                "title": "5/7 i清華APP、學生請假系統及學生宿舍系統主機維護作業",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-287658,r2223.php?Lang=zh-tw",
+                "date": "2025-04-25"
             }
         ]
     },
@@ -22257,24 +22242,9 @@
                 "date": "2025-11-17"
             },
             {
-                "title": "Application for Refrigerator Placement in Dorm Room for Fall Semester 2025",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-294106,r8956.php?Lang=en",
-                "date": "2025-08-24"
-            },
-            {
-                "title": "【Graduate】Application result for the waiting list of single room of the Main Campus and for suite of the Nanda Campus (2025 fall semester and 2026 spring semester)",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293797,r8956.php?Lang=en",
-                "date": "2025-08-15"
-            },
-            {
                 "title": "【Computer and Communication Center】Application for student dormitory network in 114 Semester",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-293563,c0.php?Lang=en",
                 "date": "2025-08-11"
-            },
-            {
-                "title": "【Graduate】Application for the waiting list of single room of the Main Campus and for suite of the Nanda Campus (Academic Year 2025)",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292250,r8956.php?Lang=en",
-                "date": "2025-07-15"
             }
         ]
     },
@@ -22325,24 +22295,9 @@
                 "date": "2025-11-17"
             },
             {
-                "title": "114學年度上學期學生宿舍寢室冰箱放置申請公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-294106,r8956.php?Lang=zh-tw",
-                "date": "2025-08-24"
-            },
-            {
-                "title": "【研究所】114學年度研究所校本部單人房/南大校區套房候補亂數結果",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-293797,r8956.php?Lang=zh-tw",
-                "date": "2025-08-15"
-            },
-            {
                 "title": "【轉計中公告】114學年度學生宿舍網路申請",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-293563,c0.php?Lang=zh-tw",
                 "date": "2025-08-11"
-            },
-            {
-                "title": "【研究所】114學年研究所「校本部單人房/南大套房」候補申請公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-292250,r8956.php?Lang=zh-tw",
-                "date": "2025-07-15"
             }
         ]
     },
@@ -22411,11 +22366,6 @@
                 "title": "114學年度第二次齋長聯席會議記錄",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-297458,c0.php?Lang=zh-tw",
                 "date": "2025-10-22"
-            },
-            {
-                "title": "114學年度第一次齋長聯席會議記錄",
-                "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-297154,c0.php?Lang=zh-tw",
-                "date": "2025-10-16"
             }
         ]
     },
