@@ -4933,8 +4933,8 @@
         "student_count": "",
         "lecturer": "林俊成 LIN, CHUN-CHENG",
         "language": "中",
-        "class_room_and_time": "CHEM化   326 T7T8",
-        "classroom": "CHEM化   326",
+        "class_room_and_time": "CHEM II化二 223 T7T8",
+        "classroom": "CHEM II化二 223",
         "time": "T7T8",
         "note": "T9Ta 為彈性時間",
         "suspend": "",
@@ -5258,8 +5258,8 @@
         "student_count": "",
         "lecturer": "林俊成 LIN, CHUN-CHENG",
         "language": "中",
-        "class_room_and_time": "CHEM化   326 T9Ta",
-        "classroom": "CHEM化   326",
+        "class_room_and_time": "CHEM II化二 223 T9Ta",
+        "classroom": "CHEM II化二 223",
         "time": "T9Ta",
         "note": "T7T8 為彈性時間",
         "suspend": "",
@@ -10261,9 +10261,9 @@
         "class_room_and_time": "C.L.Liu炯朗224 T5T6T7",
         "classroom": "C.L.Liu炯朗224",
         "time": "T5T6T7",
-        "note": "加簽：經授課教師同意後可加簽。",
+        "note": "",
         "suspend": "",
-        "limit_note": "限資工系碩士班博士班",
+        "limit_note": "",
         "freshman_reservation": "0",
         "object": "",
         "ge_type": "",
@@ -10271,7 +10271,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "資工系114D  選修 資工系114M  選修"
     },
     {
@@ -15161,7 +15161,7 @@
         "class_room_and_time": "DELTA台達104 T2T3T4",
         "classroom": "DELTA台達104",
         "time": "T2T3T4",
-        "note": "其他年級及外院學生請以加簽方式選課。",
+        "note": "外院學生請以加簽方式選課。",
         "suspend": "",
         "limit_note": "限電資院",
         "freshman_reservation": "0",
@@ -15779,14 +15779,14 @@
         "chinese_title": "數位科技與法律",
         "english_title": "Digital Technology and Law",
         "credit": "2",
-        "size_limit": "55",
+        "size_limit": "0",
         "student_count": "",
         "lecturer": "彭心儀 PENG, SHIN-YI",
         "language": "中",
         "class_room_and_time": "TSMC台積901 MaMb",
         "classroom": "TSMC台積901",
         "time": "MaMb",
-        "note": "密集授課(不可停修)，本課程請假流程請依在職專班請假單辦理",
+        "note": "密集授課(不可停修，加簽事宜由系&#36775;統一處理)，本課程請假流程請依在職專班請假單辦理",
         "suspend": "",
         "limit_note": "限EMBA專班,EMBA雙聯,EMBA亞太馬國境外專班,EMBA深圳境外專班,健康經管專班,MBA專班,財金專班,公共政策與管理碩士專班",
         "freshman_reservation": "0",
@@ -15796,7 +15796,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "EMBA專班114P  選修 EMBA亞太馬國境外專班114P  選修 EMBA深圳境外專班114P  選修 健康經管專班114P  選修 MBA專班114P  選修 MBA專班114PA 選修 財金專班114P  選修 公共政策與管理碩士專班114P  選修"
     },
     {
@@ -41204,7 +41204,7 @@
         "chinese_title": "使用者體驗設計",
         "english_title": "User Experience Design",
         "credit": "3",
-        "size_limit": "17",
+        "size_limit": "0",
         "student_count": "",
         "lecturer": "許有真 HSU, YU-CHEN",
         "language": "中",
@@ -58521,7 +58521,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -58671,7 +58671,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -59721,7 +59721,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -59921,7 +59921,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": ""
     },
     {
@@ -66133,8 +66133,8 @@
         "student_count": "",
         "lecturer": "洪健中 HONG, CHIEN-CHONG",
         "language": "中",
-        "class_room_and_time": "ENG I工一 434 M2M3M4",
-        "classroom": "ENG I工一 434",
+        "class_room_and_time": "ENG I工一 215 M2M3M4",
+        "classroom": "ENG I工一 215",
         "time": "M2M3M4",
         "note": "動機系碩士班生醫系統組必選科目",
         "suspend": "",
@@ -74246,7 +74246,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟博士114D  必修"
     },
     {
@@ -74296,7 +74296,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟博士114D  必修"
     },
     {
@@ -74321,7 +74321,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟博士114D  必修"
     },
     {
@@ -74346,7 +74346,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟博士114D  必修"
     },
     {
@@ -74371,7 +74371,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "台北政經學院政治經濟碩士114M  選修 台北政經學院政治經濟博士114D  必修"
     }
 ]
