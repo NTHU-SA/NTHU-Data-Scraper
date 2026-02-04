@@ -341,6 +341,11 @@
         "department": "教務處招生策略中心",
         "articles": [
             {
+                "title": "115學年度大學申請入學第二階段各學系甄選日程表",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-302748,r1132.php?Lang=zh-tw",
+                "date": "2026-02-04"
+            },
+            {
                 "title": "115學年度學士班運動績優學生單獨招生簡章勘誤事項公告",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-302719,r1132.php?Lang=zh-tw",
                 "date": "2026-02-03"
@@ -349,6 +354,11 @@
                 "title": "115學年度紫荊一日營活動開始報名(個別報名)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-302663,r1132.php?Lang=zh-tw",
                 "date": "2026-02-02"
+            },
+            {
+                "title": "115學年度大學申請入學審查資料準備指引",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-302295,r1132.php?Lang=zh-tw",
+                "date": "2026-01-22"
             },
             {
                 "title": "115學年度大學申請入學旭日各組_審查資料準備指引",
@@ -429,16 +439,6 @@
                 "title": "114學年度大學申請入學統一分發結果查詢及相關注意事項",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-290458,r1132.php?Lang=zh-tw",
                 "date": "2025-06-12"
-            },
-            {
-                "title": "114學年度學士班運動績優學生單獨招生第1次備取遞補名單(含報到須知)",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-290126,r1132.php?Lang=zh-tw",
-                "date": "2025-06-04"
-            },
-            {
-                "title": "114學年度大學申請入學錄取名單",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-289519,r1132.php?Lang=zh-tw",
-                "date": "2025-05-29"
             }
         ]
     },
@@ -2548,6 +2548,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學分環所誠徵計畫助理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302761,r5074.php?Lang=zh-tw",
+                "date": "2026-02-04"
+            },
+            {
+                "title": "【徵才】竹師教育學院 華德福教育中心誠徵專案組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302747,r5074.php?Lang=zh-tw",
+                "date": "2026-02-04"
+            },
+            {
                 "title": "【誠徵】國立清華大學全球事務處行政組員(機關/學校行政經驗佳)(收件至2/5)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302494,r5074.php?Lang=zh-tw",
                 "date": "2026-02-03"
@@ -2596,16 +2606,6 @@
                 "title": "【誠徵】國立清華大學學士後醫學系徵求大體老師防腐技術研究助理 乙名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-302430,c0.php?Lang=zh-tw",
                 "date": "2026-01-26"
-            },
-            {
-                "title": "【誠徵】國立清華大學資訊工程學系徵求專案組員1名 (聘期至 115/12/31止)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302413,r5074.php?Lang=zh-tw",
-                "date": "2026-01-26"
-            },
-            {
-                "title": "【誠徵】總務處營繕組114學年度第2學期工讀生",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302227,r5074.php?Lang=zh-tw",
-                "date": "2026-01-21"
             }
         ]
     },
@@ -2615,6 +2615,16 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學分環所誠徵計畫助理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302761,r5075.php?Lang=zh-tw",
+                "date": "2026-02-04"
+            },
+            {
+                "title": "【徵才】竹師教育學院 華德福教育中心誠徵專案組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302747,r5075.php?Lang=zh-tw",
+                "date": "2026-02-04"
+            },
             {
                 "title": "【誠徵】國立清華大學全球事務處行政組員(機關/學校行政經驗佳)(收件至2/5)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302494,r5075.php?Lang=zh-tw",
@@ -2664,16 +2674,6 @@
                 "title": "【徵才】清華大學 醫環系 葉秩光老師 誠徵專職研究助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302501,r5075.php?Lang=zh-tw",
                 "date": "2026-01-28"
-            },
-            {
-                "title": "【徵才】清華大學醫環系超音波影像實驗室 徵博士後研究",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302500,r5075.php?Lang=zh-tw",
-                "date": "2026-01-28"
-            },
-            {
-                "title": "【徵才】國立清華大學藝術學院學士班誠徵行政組員(南大校區 收件截止日2/13)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302477,r5075.php?Lang=zh-tw",
-                "date": "2026-01-28"
             }
         ]
     },
@@ -2683,6 +2683,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】竹師教育學院 華德福教育中心誠徵專案組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302747,r5081.php?Lang=zh-tw",
+                "date": "2026-02-04"
+            },
             {
                 "title": "【誠徵】國立清華大學全球事務處行政組員(機關/學校行政經驗佳)(收件至2/5)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302494,r5081.php?Lang=zh-tw",
@@ -2737,11 +2742,6 @@
                 "title": "【徵才】國立清華大學藝術學院學士班誠徵行政組員(南大校區 收件截止日2/13)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302477,r5081.php?Lang=zh-tw",
                 "date": "2026-01-28"
-            },
-            {
-                "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297762,r5081.php?Lang=zh-tw",
-                "date": "2026-01-27"
             }
         ]
     },
@@ -3337,6 +3337,11 @@
         "department": "研究發展處科技考古與文物鑑定研究中心",
         "articles": [
             {
+                "title": "【公告】國立清華大學科技考古與文物鑑定研究中心傑出研究貢獻獎獲獎名單",
+                "link": "https://casa.site.nthu.edu.tw/p/406-1508-302752,r11.php",
+                "date": "2026-02-04"
+            },
+            {
                 "title": "【開課訊息】一個清華老師的最後七堂課─黃一農院士",
                 "link": "https://casa.site.nthu.edu.tw/p/406-1508-301456,r11.php",
                 "date": "2026-01-06"
@@ -3390,11 +3395,6 @@
                 "title": "【李亦園院士榮譽講座】解密太平洋威尼斯：一個消逝中的古文明 / 沈川洲教授",
                 "link": "https://casa.site.nthu.edu.tw/p/406-1508-260583,r11.php",
                 "date": "2023-12-13"
-            },
-            {
-                "title": "【新聞剪報】Diving into the cultural past, owing to the use of big data",
-                "link": "https://casa.site.nthu.edu.tw/p/406-1508-257901,r11.php",
-                "date": "2023-10-30"
             }
         ]
     },
@@ -12522,6 +12522,11 @@
         "department": "工學院工業工程與工程管理學系",
         "articles": [
             {
+                "title": "恭賀葉維彰講座教授成為 NVIDIA DLI 校園大使",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-302756,r3168.php?Lang=zh-tw",
+                "date": "2026-02-04"
+            },
+            {
                 "title": "恭喜本系系友易玥文教授（Prof. Yuehwern Yih)日前榮獲美國工程學院（National Academy of Engineering)院士的榮譽",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-301327,r3168.php?Lang=zh-tw",
                 "date": "2026-01-02"
@@ -12574,11 +12579,6 @@
             {
                 "title": "恭喜本系許嘉裕教授榮獲中國工業工程學會陳樹勛先生紀念講座",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-299817,r3168.php?Lang=zh-tw",
-                "date": "2025-12-02"
-            },
-            {
-                "title": "恭喜本系林裕訓助理教授榮獲中國工業工程學會張保隆先生紀念論文獎",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-299814,r3168.php?Lang=zh-tw",
                 "date": "2025-12-02"
             }
         ]
@@ -18233,59 +18233,49 @@
         "department": "人事室",
         "articles": [
             {
-                "title": "〔法規〕行政院人事行政總處編印「工友管理法規釋例彙編」電子檔，歡迎下載運用。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-240874,r2575.php?Lang=zh-tw",
-                "date": "1"
-            },
-            {
                 "title": "新修正本校校聘人員升級評分標準表",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-301779,r2575.php?Lang=zh-tw",
-                "date": "2"
-            },
-            {
-                "title": "【重要訊息】配合本校臨時人員(114)年12月份保險作業時程及115年聘僱案，請注意作業時間。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-260208,r2575.php?Lang=zh-tw",
-                "date": "3"
+                "date": "1"
             },
             {
                 "title": "國立清華大學專任人員線上離職流程及離職申請書",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-280702,r2575.php?Lang=zh-tw",
-                "date": "4"
+                "date": "2"
             },
             {
                 "title": "差勤系統新增「差勤異常鎖定」及「請假佐證資料」等功能",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-280677,r2575.php?Lang=zh-tw",
-                "date": "5"
+                "date": "3"
             },
             {
                 "title": "教師聘書及晉薪通知書下載操作手冊",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-255146,r2575.php?Lang=zh-tw",
-                "date": "6"
+                "date": "4"
             },
             {
                 "title": "【重要通知】遞延休假功能調整與休假結算提醒",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-237622,r2575.php?Lang=zh-tw",
-                "date": "7"
+                "date": "5"
             },
             {
                 "title": "人事室人員處理表系統操作手冊",
                 "link": "https://person.site.nthu.edu.tw/p/450-1066-129017,c0.php?Lang=zh-tw",
-                "date": "8"
+                "date": "6"
             },
             {
                 "title": "助理登錄系統操作說明",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-129330,r2575.php?Lang=zh-tw",
-                "date": "9"
+                "date": "7"
             },
             {
                 "title": "計畫主持人系統授權設定",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-8204,r2575.php?Lang=zh-tw",
-                "date": "10"
+                "date": "8"
             },
             {
                 "title": "本校例休調整相關資料",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-116220,r2575.php?Lang=zh-tw",
-                "date": "11"
+                "date": "9"
             }
         ]
     },
@@ -18295,6 +18285,11 @@
         "language": "zh-tw",
         "department": "人事室",
         "articles": [
+            {
+                "title": "〔法規〕行政院人事行政總處編印「工友管理法規釋例彙編」電子檔，歡迎下載運用。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-240874,r3174.php?Lang=zh-tw",
+                "date": "2026-02-03"
+            },
             {
                 "title": "教育部修正「教育部與所屬機關（構）學校模範公務人員選拔作業要點」，並自115年1月1日生效。",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-302461,r3174.php?Lang=zh-tw",
@@ -18439,11 +18434,6 @@
                 "title": "行政院修正「各機關學校公教員工地域加給合理化調整方案」，並自115年1月1日生效",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-288740,r3174.php?Lang=zh-tw",
                 "date": "2025-05-13"
-            },
-            {
-                "title": "教育部函，有關「農業部林業及自然保育署阿里山林業鐵路及文化資產管理處從業人員福利精進措施」一案。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-286307,r3174.php?Lang=zh-tw",
-                "date": "2025-03-31"
             }
         ]
     },
@@ -22454,6 +22444,11 @@
         "department": "學務處",
         "articles": [
             {
+                "title": "【課外組】114學年梅貽琦紀念獎章即日起申請至3/3（二）",
+                "link": "https://student.site.nthu.edu.tw/p/450-1509-302757,c0.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【生輔組】114學年度下學期兼任行政助理錄取名單",
                 "link": "https://student.site.nthu.edu.tw/p/450-1509-301185,c0.php?Lang=zh-tw",
                 "date": ""
@@ -22461,6 +22456,11 @@
             {
                 "title": "【住宿組】115年宿舍申請時程表",
                 "link": "https://student.site.nthu.edu.tw/p/450-1509-293704,c0.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【課外組】114-1學期「社團職務」開放登錄至2/26（四）",
+                "link": "https://student.site.nthu.edu.tw/p/450-1509-302759,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -22501,16 +22501,6 @@
             {
                 "title": "【學務處】學生資訊平台App新增功能-校園公車時刻表、學校餐廳、我的課表",
                 "link": "https://student.site.nthu.edu.tw/p/406-1509-257825,r209.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【學務處】清華學生資訊平台App上架了!",
-                "link": "https://student.site.nthu.edu.tw/p/406-1509-254210,r209.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【職發中心】《公職／證照／外語考試調查》2022/08-迄今考取或通過者，請填寫表單",
-                "link": "https://student.site.nthu.edu.tw/p/450-1509-190621,c0.php?Lang=zh-tw",
                 "date": ""
             }
         ]
