@@ -202,21 +202,21 @@
             {
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
-                "name": "Coming soon",
-                "note": " ",
-                "phone": " ",
+                "name": "朕豪自助餐",
+                "note": "即將開業。",
+                "phone": "0925-036-160",
                 "schedule": {
                     "saturday": "9:00-19:30",
                     "sunday": "9:00-19:30",
-                    "weekday": "9:00-19:30"
+                    "weekday": "11:00-13:30,16:30-19:30"
                 }
             },
             {
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
-                "name": "Coming soon",
-                "note": " ",
-                "phone": " ",
+                "name": "A華加湯滷味",
+                "note": "即將開業。",
+                "phone": "0917-523-901",
                 "schedule": {
                     "saturday": "11:00-19:30",
                     "sunday": "11:00-19:30",
@@ -226,9 +226,21 @@
             {
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
-                "name": "Coming soon",
-                "note": " ",
-                "phone": " ",
+                "name": "四海遊龍",
+                "note": "即將開業。",
+                "phone": "0903-179-666",
+                "schedule": {
+                    "saturday": "11:00-19:30",
+                    "sunday": "11:00-19:30",
+                    "weekday": "10:30-20:00"
+                }
+            },
+            {
+                "area": "水木生活中心1樓",
+                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
+                "name": "利竫和食",
+                "note": "即將開業。",
+                "phone": "0955-520-634",
                 "schedule": {
                     "saturday": "11:00-19:30",
                     "sunday": "11:00-19:30",
@@ -238,25 +250,25 @@
             {
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
-                "name": "Coming soon",
-                "note": " ",
-                "phone": " ",
-                "schedule": {
-                    "saturday": "11:00-19:30",
-                    "sunday": "11:00-19:30",
-                    "weekday": "11:00-19:30"
-                }
-            },
-            {
-                "area": "水木生活中心1樓",
-                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
-                "name": "Coming soon",
-                "note": " ",
-                "phone": " ",
+                "name": "奕川香",
+                "note": "即將開業。",
+                "phone": "0973-633-683",
                 "schedule": {
                     "saturday": "6:30-14:00",
                     "sunday": "6:30-14:00",
-                    "weekday": "6:30-14:00"
+                    "weekday": "11:00-19:30"
+                }
+            },
+            {
+                "area": "水木生活中心1樓",
+                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
+                "name": "丘森茶室",
+                "note": "即將開業。",
+                "phone": "0965-705-813",
+                "schedule": {
+                    "saturday": "11:00-19:00",
+                    "sunday": "11:00-19:00",
+                    "weekday": "11:00-19:30"
                 }
             },
             {
@@ -274,25 +286,13 @@
             {
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
-                "name": "comingsoon",
-                "note": " ",
-                "phone": " ",
+                "name": "翔羚食堂",
+                "note": "即將開業。",
+                "phone": "0958-231-084 ",
                 "schedule": {
                     "saturday": "11:00-19:00",
                     "sunday": "11:00-19:00",
-                    "weekday": "11:00-19:00"
-                }
-            },
-            {
-                "area": "水木生活中心1樓",
-                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/comingsoon.png",
-                "name": "comingsoon",
-                "note": " ",
-                "phone": " ",
-                "schedule": {
-                    "saturday": "11:00-19:00",
-                    "sunday": "11:00-19:00",
-                    "weekday": "11:00-19:00"
+                    "weekday": "11:00-13:30,16:30-19:30"
                 }
             },
             {
