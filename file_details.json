@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c93d29bd16b568327f630f086f7b1d47c1185757",
-        "last_updated": "2026-02-05T20:21:55+08:00",
+        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
+        "last_updated": "2026-02-06T06:12:11+08:00",
         "name": "announcements.json"
       },
       {
@@ -17,8 +17,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "aeb952974952155609d02dd1ea30a0cd2274f243",
-        "last_updated": "2026-02-05T06:11:31+08:00",
+        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
+        "last_updated": "2026-02-06T06:12:11+08:00",
         "name": "courses.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "c5bbeadce38384d4f933cd8d20c8977da7264969",
-        "last_updated": "2026-02-05T12:41:20+08:00",
+        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
+        "last_updated": "2026-02-06T06:12:11+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1179,8 +1179,8 @@
         "name": "news_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
+        "last_updated": "2026-02-06T06:12:11+08:00",
         "name": "news_zh-tw.json"
       }
     ],
@@ -2089,8 +2089,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "aeb952974952155609d02dd1ea30a0cd2274f243",
-        "last_updated": "2026-02-05T06:11:31+08:00",
+        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
+        "last_updated": "2026-02-06T06:12:11+08:00",
         "name": "latest.json"
       }
     ],
@@ -2151,8 +2151,8 @@
         "name": "11410.json"
       },
       {
-        "last_commit": "aeb952974952155609d02dd1ea30a0cd2274f243",
-        "last_updated": "2026-02-05T06:11:31+08:00",
+        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
+        "last_updated": "2026-02-06T06:12:11+08:00",
         "name": "11420.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-05T20:21:55+08:00"
+  "last_updated": "2026-02-06T06:12:11+08:00"
 }
