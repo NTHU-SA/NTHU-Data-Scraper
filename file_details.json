@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
-        "last_updated": "2026-02-06T06:12:11+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "747791ddec5355e43603104cca2f9ba261063019",
-        "last_updated": "2026-02-05T16:21:05+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "dining.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "54ef10bd6b8862e3170fc6e0e4fc37e72520f51d",
-        "last_updated": "2026-02-02T16:21:37+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "d93c105ef87d606d5978a7cfb01f70aead77f1cb",
-        "last_updated": "2026-02-05T11:07:49+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "740ffd17c749c7155ecaa2d13ae5bdee4aa120d4",
-        "last_updated": "2026-02-03T16:19:01+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "e0f706c8cf235a44e4b5a25493d8f7b7eb196478",
-        "last_updated": "2026-02-05T18:21:42+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1206,8 +1206,8 @@
         "name": "學系動態_zh-tw.json"
       },
       {
-        "last_commit": "5fb664d1e435dcc189d148918e8c888d183ad768",
-        "last_updated": "2026-01-23T10:49:03+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1668,8 +1668,8 @@
         "name": "Special Report_en.json"
       },
       {
-        "last_commit": "04499c3a514ce3e6755447e2cc5d0271d400a091",
-        "last_updated": "2026-01-14T16:12:47+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "「獎學金_交換計劃」_zh-tw.json"
       },
       {
@@ -1683,8 +1683,8 @@
         "name": "招生及放榜資訊_zh-tw.json"
       },
       {
-        "last_commit": "b3b77082415c33e38227991f153202e74ca8c084",
-        "last_updated": "2026-01-29T14:23:34+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1693,8 +1693,8 @@
         "name": "活動公告_zh-tw.json"
       },
       {
-        "last_commit": "b3b77082415c33e38227991f153202e74ca8c084",
-        "last_updated": "2026-01-29T14:23:34+08:00",
+        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
+        "last_updated": "2026-02-06T11:06:41+08:00",
         "name": "系務公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-06T06:12:11+08:00"
+  "last_updated": "2026-02-06T11:06:41+08:00"
 }
