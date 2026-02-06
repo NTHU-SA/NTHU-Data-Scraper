@@ -341,11 +341,6 @@
         "department": "教務處招生策略中心",
         "articles": [
             {
-                "title": "115學年度大學申請入學第二階段各學系甄選日程表",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-302748,r1132.php?Lang=zh-tw",
-                "date": "2026-02-04"
-            },
-            {
                 "title": "115學年度學士班運動績優學生單獨招生簡章勘誤事項公告",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-302719,r1132.php?Lang=zh-tw",
                 "date": "2026-02-03"
@@ -439,6 +434,11 @@
                 "title": "114學年度大學申請入學統一分發結果查詢及相關注意事項",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-290458,r1132.php?Lang=zh-tw",
                 "date": "2025-06-12"
+            },
+            {
+                "title": "114學年度學士班運動績優學生單獨招生第1次備取遞補名單(含報到須知)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-290126,r1132.php?Lang=zh-tw",
+                "date": "2025-06-04"
             }
         ]
     },
@@ -1088,6 +1088,11 @@
         "department": "總務處事務組",
         "articles": [
             {
+                "title": "115年2月16日(一)至 2月23日(一)春節期間垃圾清運時程通知",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302912,r127.php?Lang=zh-tw",
+                "date": "2026-02-06"
+            },
+            {
                 "title": "2/23(一)~3/22(日)南大校區區間車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r127.php?Lang=zh-tw",
                 "date": "2026-02-06"
@@ -1098,9 +1103,9 @@
                 "date": "2026-02-06"
             },
             {
-                "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r127.php?Lang=zh-tw",
-                "date": "2026-01-16"
+                "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301095,r127.php?Lang=zh-tw",
+                "date": "2025-12-29"
             },
             {
                 "title": "115年1/1元旦國定假日，本校垃圾清運時刻調整公告",
@@ -1108,13 +1113,13 @@
                 "date": "2025-12-31"
             },
             {
-                "title": "元旦115年1月1日(四)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301094,r127.php?Lang=zh-tw",
-                "date": "2025-12-29"
+                "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r127.php?Lang=zh-tw",
+                "date": "2026-01-16"
             },
             {
-                "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301095,r127.php?Lang=zh-tw",
+                "title": "元旦115年1月1日(四)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301094,r127.php?Lang=zh-tw",
                 "date": "2025-12-29"
             },
             {
@@ -1140,11 +1145,6 @@
             {
                 "title": "【徵才】清華大學總務處事務組誠徵專案組員1名",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298957,r127.php?Lang=zh-tw",
-                "date": "2025-11-17"
-            },
-            {
-                "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員1名",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298964,r127.php?Lang=zh-tw",
                 "date": "2025-11-17"
             }
         ]
@@ -6876,7 +6876,7 @@
                 "date": ""
             },
             {
-                "title": "【獎章申請】國立清華大學梅貽琦紀念獎章申請(限大學部就讀滿三年學生)，系收件截止日期為3/3(二)17:00",
+                "title": "【獎章申請】國立清華大學梅貽琦紀念獎章申請(限大學部就讀滿三年學生)，系收件截止日期為3/2(一)17:00",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-302867,r6.php?Lang=zh-tw",
                 "date": ""
             },
@@ -6896,7 +6896,7 @@
                 "date": ""
             },
             {
-                "title": "【學生交換計畫】115學年度上學期(2026秋)赴陸港澳學期交換開放申請(申請至115.2.4))",
+                "title": "【學生交換計畫】115學年度上學期(2026秋)赴陸港澳學期交換開放申請(申請至115.2.4)",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-300735,r6.php?Lang=zh-tw",
                 "date": ""
             },
@@ -7148,7 +7148,7 @@
                 "date": ""
             },
             {
-                "title": "【獎章申請】國立清華大學梅貽琦紀念獎章申請(限大學部就讀滿三年學生)，系收件截止日期為3/3(二)17:00",
+                "title": "【獎章申請】國立清華大學梅貽琦紀念獎章申請(限大學部就讀滿三年學生)，系收件截止日期為3/2(一)17:00",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-302867,r8119.php?Lang=zh-tw",
                 "date": ""
             },
@@ -7168,7 +7168,7 @@
                 "date": ""
             },
             {
-                "title": "【學生交換計畫】115學年度上學期(2026秋)赴陸港澳學期交換開放申請(申請至115.2.4))",
+                "title": "【學生交換計畫】115學年度上學期(2026秋)赴陸港澳學期交換開放申請(申請至115.2.4)",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-300735,r8119.php?Lang=zh-tw",
                 "date": ""
             },
@@ -7365,7 +7365,7 @@
                 "date": ""
             },
             {
-                "title": "【獎章申請】國立清華大學梅貽琦紀念獎章申請(限大學部就讀滿三年學生)，系收件截止日期為3/3(二)17:00",
+                "title": "【獎章申請】國立清華大學梅貽琦紀念獎章申請(限大學部就讀滿三年學生)，系收件截止日期為3/2(一)17:00",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-302867,r9330.php?Lang=zh-tw",
                 "date": ""
             },
@@ -7375,7 +7375,7 @@
                 "date": ""
             },
             {
-                "title": "【學生交換計畫】115學年度上學期(2026秋)赴陸港澳學期交換開放申請(申請至115.2.4))",
+                "title": "【學生交換計畫】115學年度上學期(2026秋)赴陸港澳學期交換開放申請(申請至115.2.4)",
                 "link": "https://dpe.site.nthu.edu.tw/p/406-1144-300735,r9330.php?Lang=zh-tw",
                 "date": ""
             },
@@ -7690,6 +7690,21 @@
         "department": "竹師教育學院",
         "articles": [
             {
+                "title": "【獎學金】114學年度梅貽琦獎章申請資訊",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-302914,r70.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【獎學金】114學年度梅貽琦校長紀念獎學金申請資訊",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-302900,r70.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【獎學金】115年朱順一合勤獎學金申請資訊",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-302899,r70.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "恭賀！114年度傑出人才發展基金學術研究獎勵",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-302599,r70.php?Lang=zh-tw",
                 "date": ""
@@ -7732,21 +7747,6 @@
             {
                 "title": "頂尖學者講座 : 國際學者系列 Professor Timothy Teo",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-299092,r70.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "🌟COE English Corner | 竹師教育學院英語角🌟",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-298832,r70.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "清華教育講座：國際學者系列第4場｜Dr. Wee Keng Neo, Lynda（11/26–11/28）",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-298112,r70.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "清華教育講座：國際學者系列第3場｜Prof. Masato Kawabata（11/12–11/14）",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-298111,r70.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -12600,6 +12600,11 @@
         "department": "竹師教育學院學習科學與科技研究所",
         "articles": [
             {
+                "title": "恭禧本所陳政煥副教授榮獲「國立清華大學傑出人才發展基金」學術研究獎勵，且獲頒「114年度清華-清鏡傑出年輕學者」學術研究榮銜",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-302907,r9502.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "恭賀本所陳政煥副教授、唐文華教授、區國良教授及林秋斌教授榮獲本校114年度「傑出人才發展基金」學術研究獎勵",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-301941,r9502.php?Lang=zh-tw",
                 "date": ""
@@ -12652,11 +12657,6 @@
             {
                 "title": "恭禧本所傅麗玉教授榮獲「教育部114年師鐸獎」",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292654,r9502.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "恭禧本所陳政煥副教授指導學習與沉浸科技研究室學生周士玟發表論文榮獲最佳論文獎(TWELF 2025)",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-285198,r9502.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -13179,6 +13179,11 @@
                 "date": ""
             },
             {
+                "title": "恭禧本所陳政煥副教授榮獲「國立清華大學傑出人才發展基金」學術研究獎勵，且獲頒「114年度清華-清鏡傑出年輕學者」學術研究榮銜",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-302907,r9756.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "恭賀本所陳政煥副教授、唐文華教授、區國良教授及林秋斌教授榮獲本校114年度「傑出人才發展基金」學術研究獎勵",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-301941,r9756.php?Lang=zh-tw",
                 "date": ""
@@ -13221,11 +13226,6 @@
             {
                 "title": "115學年碩士班甄試入學 複試錄取名單",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-299236,r9756.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【人文與科技講座】11/20(四) 陳茻/地表最強國文課員工、摯友或顧問：AI時代的讀寫教育",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-298932,r9756.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -17878,6 +17878,11 @@
                 "date": "2026-02-06"
             },
             {
+                "title": "【體育室公告】2/06(五)室外場地因天氣不佳下雨/濕滑，場地不開放",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302911,r11.php",
+                "date": "2026-02-06"
+            },
+            {
                 "title": "【游泳池】校隊加強練習2/10（二）下午02:00-下午04:00借用游泳池（全），場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302879,r11.php",
                 "date": "2026-02-06"
@@ -17895,11 +17900,6 @@
             {
                 "title": "【校友體育館】清羽盃2/07（六）-2/08（日）借用羽球場（全），以下時段場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302845,r11.php",
-                "date": "2026-02-05"
-            },
-            {
-                "title": "【體育館】EMBA 瑜珈社2/07（六）下午04:00-下午05:00借用舞蹈教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302844,r11.php",
                 "date": "2026-02-05"
             }
         ]
@@ -18650,6 +18650,11 @@
                 "date": ""
             },
             {
+                "title": "【誠徵】高培計畫徵求實驗助教一名",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-302906,r3567.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "恭賀陳若文校友（物理系88B）榮獲第27屆傑出校友",
                 "link": "https://phys.site.nthu.edu.tw/p/450-1335-302727,c0.php?Lang=zh-tw",
                 "date": ""
@@ -18662,11 +18667,6 @@
             {
                 "title": "【雙聯計畫】2026秋加州大學柏克萊分校UC Berkeley3+1+X計畫(系截止：1/30)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-301901,r3567.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【交換計畫】2027春赴海外交換計畫開放申請(自費-無獎學金，不含陸、港、澳)  系收件截止：2/23",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-301899,r3567.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18731,6 +18731,11 @@
                 "date": ""
             },
             {
+                "title": "【誠徵】高培計畫徵求實驗助教一名",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-302906,r3568.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【雙聯計畫】115學年度赴香港科技大學修讀雙聯學士學位案(系收件截止日:3/6)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-302478,r3568.php?Lang=zh-tw",
                 "date": ""
@@ -18778,11 +18783,6 @@
             {
                 "title": "【招生公告】辦理113學年度第三次逕行修讀博士學位申請(6/16截止)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-289665,r3568.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【通知】物理學系五年學碩士學位申請公告",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-283980,r3568.php?Lang=zh-tw",
                 "date": ""
             }
         ]
