@@ -884,6 +884,16 @@
         "department": "總務處事務組",
         "articles": [
             {
+                "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2026/02/23~2026/03/22.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r1065.php?Lang=en",
+                "date": ""
+            },
+            {
+                "title": "NTHU Shuttle Bus Timetable 2026/02/23~2026/03/21.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302891,r1065.php?Lang=en",
+                "date": ""
+            },
+            {
                 "title": "NTHU Shuttle Bus Timetable of the Master’s Program Exam for the 2026 Academic Year (2/2, 2/4, 2/5)",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r1065.php?Lang=en",
                 "date": ""
@@ -932,16 +942,6 @@
                 "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service during 2025/10/24-2025/10/26(Taiwan Restoration Day).",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297264,r1065.php?Lang=en",
                 "date": ""
-            },
-            {
-                "title": "​​​​​​​Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service during 2025/10/10-2025/10/12 (Double Tenth Day).",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-296339,r1065.php?Lang=en",
-                "date": ""
-            },
-            {
-                "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service during 2025/10/4-2025/10/6 (Moon Festival).",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-296338,r1065.php?Lang=en",
-                "date": ""
             }
         ]
     },
@@ -952,9 +952,14 @@
         "department": "總務處事務組",
         "articles": [
             {
-                "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r1065.php?Lang=zh-tw",
-                "date": "2026-01-16"
+                "title": "2/23(一)~3/22(日)南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r1065.php?Lang=zh-tw",
+                "date": "2026-02-06"
+            },
+            {
+                "title": "2/23(一)~3/21(六)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302891,r1065.php?Lang=zh-tw",
+                "date": "2026-02-06"
             },
             {
                 "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
@@ -997,19 +1002,14 @@
                 "date": "2025-08-26"
             },
             {
+                "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r1065.php?Lang=zh-tw",
+                "date": "2026-01-16"
+            },
+            {
                 "title": "元旦115年1月1日(四)校園公車及南大校區區間車停駛",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301094,r1065.php?Lang=zh-tw",
                 "date": "2025-12-29"
-            },
-            {
-                "title": "行憲紀念日12/25(四)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300822,r1065.php?Lang=zh-tw",
-                "date": "2025-12-22"
-            },
-            {
-                "title": "更新11/3(一)~12/20(六)校園公車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297757,r1065.php?Lang=zh-tw",
-                "date": "2025-10-29"
             }
         ]
     },
@@ -1019,6 +1019,16 @@
         "language": "en",
         "department": "總務處事務組",
         "articles": [
+            {
+                "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2026/02/23~2026/03/22.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r127.php?Lang=en",
+                "date": "2026-02-06"
+            },
+            {
+                "title": "NTHU Shuttle Bus Timetable 2026/02/23~2026/03/21.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302891,r127.php?Lang=en",
+                "date": "2026-02-06"
+            },
             {
                 "title": "NTHU Shuttle Bus Timetable of the Master’s Program Exam for the 2026 Academic Year (2/2, 2/4, 2/5)",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r127.php?Lang=en",
@@ -1068,16 +1078,6 @@
                 "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service during 2025/10/24-2025/10/26(Taiwan Restoration Day).",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297264,r127.php?Lang=en",
                 "date": "2025-10-17"
-            },
-            {
-                "title": "​​​​​​​Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service during 2025/10/10-2025/10/12 (Double Tenth Day).",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-296339,r127.php?Lang=en",
-                "date": "2025-09-30"
-            },
-            {
-                "title": "Both NTHU Shuttle Bus and Nanda <-> Main Campus Shuttle Bus will be out of service during 2025/10/4-2025/10/6 (Moon Festival).",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-296338,r127.php?Lang=en",
-                "date": "2025-09-30"
             }
         ]
     },
@@ -1087,6 +1087,16 @@
         "language": "zh-tw",
         "department": "總務處事務組",
         "articles": [
+            {
+                "title": "2/23(一)~3/22(日)南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r127.php?Lang=zh-tw",
+                "date": "2026-02-06"
+            },
+            {
+                "title": "2/23(一)~3/21(六)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302891,r127.php?Lang=zh-tw",
+                "date": "2026-02-06"
+            },
             {
                 "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r127.php?Lang=zh-tw",
@@ -1136,16 +1146,6 @@
                 "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員1名",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298964,r127.php?Lang=zh-tw",
                 "date": "2025-11-17"
-            },
-            {
-                "title": "因應11/20(四)上午台積館進行空調設備吊掛作業，將設置台積館臨時公車站牌等候區",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298960,r127.php?Lang=zh-tw",
-                "date": "2025-11-17"
-            },
-            {
-                "title": "11/12(三)運動會停課一日，調整校園公車及南大校區區間車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298502,r127.php?Lang=zh-tw",
-                "date": "2025-11-10"
             }
         ]
     },
@@ -2616,6 +2616,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】國際產學營運總中心 徵求下學期工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-198174,r5075.php?Lang=zh-tw",
+                "date": "2026-02-06"
+            },
+            {
                 "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5075.php?Lang=zh-tw",
                 "date": "2026-02-05"
@@ -2668,11 +2673,6 @@
             {
                 "title": "【徵才】清華大學醫環系超音波影像實驗室 徵全職研究助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302502,r5075.php?Lang=zh-tw",
-                "date": "2026-01-28"
-            },
-            {
-                "title": "【徵才】清華大學 醫環系 葉秩光老師 誠徵專職研究助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302501,r5075.php?Lang=zh-tw",
                 "date": "2026-01-28"
             }
         ]
@@ -5138,6 +5138,11 @@
                 "date": "2025-04-28"
             },
             {
+                "title": "115年度消防安全設備檢修申報檢查預定排程表",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-302045,r992.php?Lang=zh-tw",
+                "date": "2026-01-16"
+            },
+            {
                 "title": "2/7 材料實驗館、合金實驗館、棒球場、籃球場及室內網球場停電通知",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-302612,r992.php?Lang=zh-tw",
                 "date": "2026-01-30"
@@ -5161,11 +5166,6 @@
                 "title": "1/20~3/1 宿舍區電力手孔提升作業施工公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-302122,r992.php?Lang=zh-tw",
                 "date": "2026-01-20"
-            },
-            {
-                "title": "115年度消防安全設備檢修申報檢查預定排程表",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-302045,r992.php?Lang=zh-tw",
-                "date": "2026-01-16"
             },
             {
                 "title": "1/16 藝術大樓物料清運吊掛作業公告",
@@ -17873,9 +17873,9 @@
                 "date": "2025-12-19"
             },
             {
-                "title": "【游泳池】1/26（一）~ 2/12（四）舉辦游泳冬令營活動，借用場地(大池及兒童池水道各1條)，活動時段，大池水道將暫時縮減開放；兒童池僅供活動使用(其餘時段不開放)，時間資訊如下",
+                "title": "【游泳池】2/9（一）~ 2/12（四）舉辦游泳冬令營活動`,時間資訊如下",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302369,r11.php",
-                "date": "2026-01-23"
+                "date": "2026-02-06"
             },
             {
                 "title": "【游泳池】校隊加強練習2/10（二）下午02:00-下午04:00借用游泳池（全），場地不開放。",
