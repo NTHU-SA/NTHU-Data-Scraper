@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "55cfefb013580cf56c4b4a6b22590fa7e8007351",
-        "last_updated": "2026-02-07T18:10:46+08:00",
+        "last_commit": "bccd7ff14133be76adceb5feecf40f86db2c798c",
+        "last_updated": "2026-02-09T00:12:36+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
-        "last_updated": "2026-02-06T11:06:41+08:00",
+        "last_commit": "bccd7ff14133be76adceb5feecf40f86db2c798c",
+        "last_updated": "2026-02-09T00:12:36+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -626,8 +626,8 @@
         "name": "Graduation Process_en.json"
       },
       {
-        "last_commit": "001613163fd299f01ff1b66d6f1d421048a2f8a4",
-        "last_updated": "2025-11-19T16:12:22+08:00",
+        "last_commit": "bccd7ff14133be76adceb5feecf40f86db2c798c",
+        "last_updated": "2026-02-09T00:12:36+08:00",
         "name": "News_en.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "55cfefb013580cf56c4b4a6b22590fa7e8007351",
-        "last_updated": "2026-02-07T18:10:46+08:00",
+        "last_commit": "bccd7ff14133be76adceb5feecf40f86db2c798c",
+        "last_updated": "2026-02-09T00:12:36+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-08T06:10:51+08:00"
+  "last_updated": "2026-02-09T00:12:36+08:00"
 }
