@@ -2621,6 +2621,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】清華大學總務處事務組誠徵專案組員一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298961,r5075.php?Lang=zh-tw",
+                "date": "2026-02-09"
+            },
+            {
+                "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297762,r5075.php?Lang=zh-tw",
+                "date": "2026-02-09"
+            },
+            {
                 "title": "【誠徵】國際產學營運總中心 徵求下學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-198174,r5075.php?Lang=zh-tw",
                 "date": "2026-02-06"
@@ -2669,16 +2679,6 @@
                 "title": "《徵才》國立清華大學半導體研究學院誠徵行政助理1名(收件截止日至2/24)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302522,r5075.php?Lang=zh-tw",
                 "date": "2026-01-29"
-            },
-            {
-                "title": "【徵才】國立清華大學永續科技碩士學位學程 專任教師職缺公告（收件至 2026 年 2 月 23 日）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-301087,r5075.php?Lang=zh-tw",
-                "date": "2026-01-29"
-            },
-            {
-                "title": "【徵才】清華大學醫環系超音波影像實驗室 徵全職研究助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302502,r5075.php?Lang=zh-tw",
-                "date": "2026-01-28"
             }
         ]
     },
@@ -2688,6 +2688,16 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】清華大學總務處事務組誠徵專案組員一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298961,r5081.php?Lang=zh-tw",
+                "date": "2026-02-09"
+            },
+            {
+                "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297762,r5081.php?Lang=zh-tw",
+                "date": "2026-02-09"
+            },
             {
                 "title": "【誠徵】國立清華大學服創中心 誠徵系統諮詢工讀生 (長期)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-249938,r5081.php?Lang=zh-tw",
@@ -2736,16 +2746,6 @@
             {
                 "title": "【徵才】清華大學 醫環系 葉秩光老師 誠徵專職研究助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302501,r5081.php?Lang=zh-tw",
-                "date": "2026-01-28"
-            },
-            {
-                "title": "【徵才】清華大學醫環系超音波影像實驗室 徵博士後研究",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302500,r5081.php?Lang=zh-tw",
-                "date": "2026-01-28"
-            },
-            {
-                "title": "【徵才】國立清華大學藝術學院學士班誠徵行政組員(南大校區 收件截止日2/13)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302477,r5081.php?Lang=zh-tw",
                 "date": "2026-01-28"
             }
         ]
@@ -22820,13 +22820,13 @@
         "department": "教務處清華大學出版社",
         "articles": [
             {
-                "title": "轉捩年代：甲午戰爭與浮世繪",
-                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302937,r764.php?Lang=en",
+                "title": "「興」的闡釋：感受、類推與寄託",
+                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302938,r764.php?Lang=en",
                 "date": ""
             },
             {
-                "title": "「興」的闡釋：感受、類推與寄託",
-                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302938,r764.php?Lang=en",
+                "title": "E考據與文史研究",
+                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302935,r764.php?Lang=en",
                 "date": ""
             },
             {
@@ -22858,13 +22858,13 @@
         "department": "教務處清華大學出版社",
         "articles": [
             {
-                "title": "轉捩年代：甲午戰爭與浮世繪",
-                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302937,r764.php?Lang=zh-tw",
+                "title": "「興」的闡釋：感受、類推與寄託",
+                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302938,r764.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "「興」的闡釋：感受、類推與寄託",
-                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302938,r764.php?Lang=zh-tw",
+                "title": "E考據與文史研究",
+                "link": "https://thup.site.nthu.edu.tw/p/406-1210-302935,r764.php?Lang=zh-tw",
                 "date": ""
             },
             {
