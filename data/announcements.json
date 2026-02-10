@@ -2553,6 +2553,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "清大生倫中心誠徵114下學期工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-186245,r5074.php?Lang=zh-tw",
+                "date": "2026-02-10"
+            },
+            {
                 "title": "【活動快訊】 2025清華永續玻璃工作坊 (第二梯次)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303001,r5074.php?Lang=zh-tw",
                 "date": "2026-02-10"
@@ -2606,11 +2611,6 @@
                 "title": "【誠徵】國立清華大學資訊工程學系徵求行政組員1名 (收件截止日 2/11)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302463,r5074.php?Lang=zh-tw",
                 "date": "2026-01-27"
-            },
-            {
-                "title": "【誠徵】國立清華大學EMI中心徵求114學年度第2學期工讀生",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302436,r5074.php?Lang=zh-tw",
-                "date": "2026-01-27"
             }
         ]
     },
@@ -2620,6 +2620,16 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "國立清華大學華文文學研究所徵求所長候選人啟事",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303009,r5075.php?Lang=zh-tw",
+                "date": "2026-02-10"
+            },
+            {
+                "title": "清大生倫中心誠徵114下學期工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-186245,r5075.php?Lang=zh-tw",
+                "date": "2026-02-10"
+            },
             {
                 "title": "【誠徵】114-2 學期IBBA 辦公室工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-283507,r5075.php?Lang=zh-tw",
@@ -2669,16 +2679,6 @@
                 "title": "【徵才】國立清華大學分環所誠徵計畫助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302761,r5075.php?Lang=zh-tw",
                 "date": "2026-02-04"
-            },
-            {
-                "title": "【徵才】竹師教育學院 華德福教育中心誠徵專案組員1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302747,r5075.php?Lang=zh-tw",
-                "date": "2026-02-04"
-            },
-            {
-                "title": "【誠徵】國立清華大學全球事務處行政組員(學校經驗佳)(收件延長2/6)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302494,r5075.php?Lang=zh-tw",
-                "date": "2026-02-03"
             }
         ]
     },
@@ -2688,6 +2688,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "國立清華大學華文文學研究所徵求所長候選人啟事",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303009,r5081.php?Lang=zh-tw",
+                "date": "2026-02-10"
+            },
             {
                 "title": "【徵才】清華大學跨院國際博士學位學程 專任行政人員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302997,r5081.php?Lang=zh-tw",
@@ -2741,11 +2746,6 @@
             {
                 "title": "《徵才》國立清華大學半導體研究學院誠徵行政助理1名(收件截止日至2/24)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302522,r5081.php?Lang=zh-tw",
-                "date": "2026-01-29"
-            },
-            {
-                "title": "【徵才】國立清華大學永續科技碩士學位學程 專任教師職缺公告（收件至 2026 年 2 月 23 日）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-301087,r5081.php?Lang=zh-tw",
                 "date": "2026-01-29"
             }
         ]
@@ -15893,6 +15893,11 @@
         "department": "清華學院語文中心",
         "articles": [
             {
+                "title": "【最新!!!】54期開課資訊",
+                "link": "https://language.site.nthu.edu.tw/p/406-1212-303004,r6823.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "語文中心「54期」推廣課程簡章正式上線！12/22(一)起開放報名！",
                 "link": "https://language.site.nthu.edu.tw/p/450-1212-300558,c0.php?Lang=zh-tw",
                 "date": ""
@@ -15945,11 +15950,6 @@
             {
                 "title": "語文中心 第50期 推廣課程開課附件",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-263088,r6823.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【報名中】語文中心 50期 推廣課程【報名已截止】",
-                "link": "https://language.site.nthu.edu.tw/p/450-1212-260943,c0.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -17853,9 +17853,9 @@
         "department": "清華學院體育室",
         "articles": [
             {
-                "title": "【寒假營隊招生】2026年國立清華大學運動營隊足球、羽球、桌球、籃球Ｘ足球冬令營",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-298166,r11.php",
-                "date": "2025-11-04"
+                "title": "【系統維護公告】為提昇系統服務品質，本校體育室將進行「門禁暨票券系統系統」維護作業，期間系統將暫停使用。相關時程如下",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303011,r11.php",
+                "date": "2026-02-10"
             },
             {
                 "title": "【運動訓練班招生】國立清華大學足球、桌球、羽球運動訓練班招生",
@@ -17888,6 +17888,21 @@
                 "date": "2026-02-06"
             },
             {
+                "title": "【寒假營隊招生】2026年國立清華大學運動營隊足球、羽球、桌球、籃球Ｘ足球冬令營",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-298166,r11.php",
+                "date": "2025-11-04"
+            },
+            {
+                "title": "【游泳池】因應 115 年春節假期期間（2/14 & 2/22 & 2/23）游泳池照常開放，購票請至校友體育館自動購票機進行購票。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303012,r11.php",
+                "date": "2026-02-10"
+            },
+            {
+                "title": "【室外排球場】室外排球場（全）整地施工及養護工程2/12（四）-3/27（五），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303010,r11.php",
+                "date": "2026-02-10"
+            },
+            {
                 "title": "【體育館】多元體育活動推廣營隊2/10（二）下午01:30-下午03:30借用舞蹈教室，場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302926,r11.php",
                 "date": "2026-02-09"
@@ -17895,21 +17910,6 @@
             {
                 "title": "【棒球場】建功國小棒球練習2/09（一）-2/12（四）借用棒球場，以下時段場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302925,r11.php",
-                "date": "2026-02-09"
-            },
-            {
-                "title": "【體育館】校隊加強練習2/10（二）下午02:00-下午04:00借用體育館2F（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302882,r11.php",
-                "date": "2026-02-09"
-            },
-            {
-                "title": "【田徑場】校隊加強練習2/10（二）下午02:00-下午04:00借用田徑場，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302881,r11.php",
-                "date": "2026-02-09"
-            },
-            {
-                "title": "【桌球館】校隊加強練習2/10（二）下午02:00-下午04:00借用桌球館（全），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-302880,r11.php",
                 "date": "2026-02-09"
             }
         ]
@@ -21111,6 +21111,11 @@
         "department": "人文社會學院華文文學研究所",
         "articles": [
             {
+                "title": "國立清華大學華文文學研究所徵求所長候選人啟事",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-303008,r6386.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【研討會徵稿】2026年11月14日「第七屆竹塹學國際研討會：知識、文化與信仰的交織與共融」",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-301789,r6386.php?Lang=zh-tw",
                 "date": ""
@@ -21163,11 +21168,6 @@
             {
                 "title": "【研討會公告】10/25(六)於人社院A202人文講堂舉辦「儒學的跨域傳佈與歷史流行國際學術研討會」",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-296505,r6386.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【榮譽榜】恭賀本所鄭芳均所友 甫獲2025浯島文學獎 新詩組 優等",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-296409,r6386.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -21985,6 +21985,11 @@
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
             {
+                "title": "【舊生】115學年度舊生其他優先住宿資格申請公告",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-302982,r1538.php?Lang=zh-tw",
+                "date": "2026-02-10"
+            },
+            {
                 "title": "【大學部】114學年度（下）轉學生床位公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-302272,r1538.php?Lang=zh-tw",
                 "date": "2026-01-21"
@@ -22013,11 +22018,6 @@
                 "title": "114學年度住宿時程暨學年、暑期進退宿作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-285723,r1538.php?Lang=zh-tw",
                 "date": "2025-03-21"
-            },
-            {
-                "title": "【舊生】115學年度舊生其他優先住宿資格申請公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-302982,r1538.php?Lang=zh-tw",
-                "date": "2026-02-10"
             },
             {
                 "title": "1/29～2/5 寢室冷氣機濾網清洗工程",
