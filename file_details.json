@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ef14b65854ef7f99f433fa8542fd4a1a5c025b06",
-        "last_updated": "2026-02-10T00:27:40+08:00",
+        "last_commit": "ada7c53cf7367569960ad79a332da6fbf619f3e5",
+        "last_updated": "2026-02-10T08:52:12+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "fd576ffc8db47b2b8572e34dbf500dcafaf80015",
-        "last_updated": "2026-02-09T16:24:28+08:00",
+        "last_commit": "ada7c53cf7367569960ad79a332da6fbf619f3e5",
+        "last_updated": "2026-02-10T08:52:12+08:00",
         "name": "dining.json"
       },
       {
@@ -1668,8 +1668,8 @@
         "name": "Special Report_en.json"
       },
       {
-        "last_commit": "59751135bdffaffab5bf5e71738d602f5ca3eeec",
-        "last_updated": "2026-02-06T16:21:01+08:00",
+        "last_commit": "ada7c53cf7367569960ad79a332da6fbf619f3e5",
+        "last_updated": "2026-02-10T08:52:12+08:00",
         "name": "「獎學金_交換計劃」_zh-tw.json"
       },
       {
@@ -1683,8 +1683,8 @@
         "name": "招生及放榜資訊_zh-tw.json"
       },
       {
-        "last_commit": "59751135bdffaffab5bf5e71738d602f5ca3eeec",
-        "last_updated": "2026-02-06T16:21:01+08:00",
+        "last_commit": "ada7c53cf7367569960ad79a332da6fbf619f3e5",
+        "last_updated": "2026-02-10T08:52:12+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1693,8 +1693,8 @@
         "name": "活動公告_zh-tw.json"
       },
       {
-        "last_commit": "59751135bdffaffab5bf5e71738d602f5ca3eeec",
-        "last_updated": "2026-02-06T16:21:01+08:00",
+        "last_commit": "ada7c53cf7367569960ad79a332da6fbf619f3e5",
+        "last_updated": "2026-02-10T08:52:12+08:00",
         "name": "系務公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-10T06:18:15+08:00"
+  "last_updated": "2026-02-10T08:52:12+08:00"
 }
