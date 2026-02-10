@@ -5,6 +5,11 @@
     "department": "總務處出納組",
     "articles": [
         {
+            "title": "<停電通知>2/13(五)南大校區上午8:40~16:20停電。",
+            "link": "https://cashier.site.nthu.edu.tw/p/406-1166-302985,r47.php?Lang=zh-tw",
+            "date": "2026-02-10"
+        },
+        {
             "title": "115年銀行駐點服務處兌換新鈔服務",
             "link": "https://cashier.site.nthu.edu.tw/p/406-1166-302309,r47.php?Lang=zh-tw",
             "date": "2026-01-22"
@@ -58,11 +63,6 @@
             "title": "「申請開立收據-已匯入款」系統於114年9月1日上線使用 (捐款不適用此系統)",
             "link": "https://cashier.site.nthu.edu.tw/p/406-1166-294438,r47.php?Lang=zh-tw",
             "date": "2025-08-29"
-        },
-        {
-            "title": "8/20(三)南大校區下午停電通知。南大校區出納組現金繳納收費時間改為上午8:30~11:30。",
-            "link": "https://cashier.site.nthu.edu.tw/p/406-1166-293666,r47.php?Lang=zh-tw",
-            "date": "2025-08-13"
         }
     ]
 }
