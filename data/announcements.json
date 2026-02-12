@@ -2621,6 +2621,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】國際產學營運總中心 徵求下學期工讀生",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-198174,r5075.php?Lang=zh-tw",
+                "date": "2026-02-12"
+            },
+            {
                 "title": "【徵才】本校永續科技碩士學位學程林建宏教授實驗室【誠徵學士/碩士級專任研究助理】",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303126,r5075.php?Lang=zh-tw",
                 "date": "2026-02-12"
@@ -2673,11 +2678,6 @@
             {
                 "title": "【誠徵】國立清華大學化學工程學系專任教師",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-302986,c0.php?Lang=zh-tw",
-                "date": "2026-02-10"
-            },
-            {
-                "title": "【誠徵】國際產學營運總中心 徵求下學期工讀生",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-198174,r5075.php?Lang=zh-tw",
                 "date": "2026-02-10"
             }
         ]
@@ -5449,6 +5449,56 @@
         "language": "zh-tw",
         "department": "學務處諮商中心(醫輔大樓2樓)",
         "articles": [
+            {
+                "title": "20260319線上講座【在權力與關係之間：師生互動的心理界線與自我照顧】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303152,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260323-0511團體【我的戀愛守則-愛情探索團體】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303151,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260324-0512團體【紓壓百寶帳篷-壓力共處與自我探索成長團體】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303150,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260325-0513團體【人生指南針-生涯探索支持團體】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303149,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260325-0513團體【鏡子前的 Me Time：看見自己的美-容貌焦慮與自我探索團體】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303148,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260410工作坊【水苔球製作 × 正念紓壓園藝療癒工作坊】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303147,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260428工作坊【繡一下，人生好Chill-靜心紓壓手作工作坊】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303145,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260428線上講座【賺錢之前，先安頓好自己-投資心理與情緒調適】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303143,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260501工作坊【尋嘗日工作坊】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303142,r6624.php",
+                "date": ""
+            },
+            {
+                "title": "20260508線上講座【為什麼我們這麼努力，卻不一定快樂？】",
+                "link": "https://counsel.site.nthu.edu.tw/p/406-1250-303141,r6624.php",
+                "date": ""
+            },
             {
                 "title": "清大諮商中心線上課程，開放選修囉！",
                 "link": "https://counsel.site.nthu.edu.tw/p/406-1250-290112,r6624.php",
