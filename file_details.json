@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "435de7efc17b460ae632c302f12575e00bfc3cc8",
-        "last_updated": "2026-02-13T14:30:40+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "31c68e6a6d49d1aa3c787c33648b85b644485113",
-        "last_updated": "2026-02-06T14:26:55+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "buses.json"
       },
       {
@@ -66,8 +66,8 @@
         "name": "法規宣導_zh-tw.json"
       },
       {
-        "last_commit": "87e2aca77ea23ec1c372d6bf3cbbf4de66799dd5",
-        "last_updated": "2026-02-13T11:12:24+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "重大消息_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "87e2aca77ea23ec1c372d6bf3cbbf4de66799dd5",
-        "last_updated": "2026-02-13T11:12:24+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1110,8 +1110,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "68a4a8f19b83284b2f5ec16728b399f909128941",
-        "last_updated": "2025-12-12T10:43:43+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "Recent Activities_en.json"
       },
       {
@@ -1135,8 +1135,8 @@
         "name": "news_zh-tw.json"
       },
       {
-        "last_commit": "68a4a8f19b83284b2f5ec16728b399f909128941",
-        "last_updated": "2025-12-12T10:43:43+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1502,8 +1502,8 @@
         "name": "系務公告_zh-tw.json"
       },
       {
-        "last_commit": "397e48e7fbe3a73e12796583b8898b82f14bdc17",
-        "last_updated": "2026-02-04T12:39:11+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "賀榜_zh-tw.json"
       }
     ],
@@ -1930,48 +1930,48 @@
         "name": "nanda_schedule_images.json"
       },
       {
-        "last_commit": "256fb6c88f7b8d293ed3be3c0585102f85862c0a",
-        "last_updated": "2025-12-22T08:39:48+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "256fb6c88f7b8d293ed3be3c0585102f85862c0a",
-        "last_updated": "2025-12-22T08:39:48+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "towardNandaInfo.json"
       },
       {
-        "last_commit": "256fb6c88f7b8d293ed3be3c0585102f85862c0a",
-        "last_updated": "2025-12-22T08:39:48+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
-        "last_commit": "256fb6c88f7b8d293ed3be3c0585102f85862c0a",
-        "last_updated": "2025-12-22T08:39:48+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "weekdayBusScheduleTowardMainCampus.json"
       },
       {
-        "last_commit": "256fb6c88f7b8d293ed3be3c0585102f85862c0a",
-        "last_updated": "2025-12-22T08:39:48+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "weekdayBusScheduleTowardMainGate.json"
       },
       {
-        "last_commit": "001613163fd299f01ff1b66d6f1d421048a2f8a4",
-        "last_updated": "2025-11-19T16:12:22+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "weekdayBusScheduleTowardNanda.json"
       },
       {
-        "last_commit": "256fb6c88f7b8d293ed3be3c0585102f85862c0a",
-        "last_updated": "2025-12-22T08:39:48+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "weekdayBusScheduleTowardTSMCBuilding.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
+        "last_updated": "2026-02-13T18:21:18+08:00",
         "name": "weekendBusScheduleTowardMainCampus.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-13T14:30:40+08:00"
+  "last_updated": "2026-02-13T18:21:18+08:00"
 }
