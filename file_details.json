@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "4fe244b895f11cd76eb39c0f21acda57ea4ce9eb",
+        "last_updated": "2026-02-13T20:21:29+08:00",
         "name": "buses.json"
       },
       {
@@ -1935,8 +1935,8 @@
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "4fe244b895f11cd76eb39c0f21acda57ea4ce9eb",
+        "last_updated": "2026-02-13T20:21:29+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
@@ -1945,8 +1945,8 @@
         "name": "towardNandaInfo.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "4fe244b895f11cd76eb39c0f21acda57ea4ce9eb",
+        "last_updated": "2026-02-13T20:21:29+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-13T18:21:18+08:00"
+  "last_updated": "2026-02-13T20:21:29+08:00"
 }
