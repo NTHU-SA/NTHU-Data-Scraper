@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b754b3c5243289786ff40f49cee524ce05a142c8",
-        "last_updated": "2026-02-23T18:25:44+08:00",
+        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
+        "last_updated": "2026-02-24T00:26:16+08:00",
         "name": "announcements.json"
       },
       {
@@ -276,8 +276,8 @@
     ],
     "announcements/學務處": [
       {
-        "last_commit": "f8cf74505181307268080e0268f920f4463c2a99",
-        "last_updated": "2026-02-09T08:47:28+08:00",
+        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
+        "last_updated": "2026-02-24T00:26:16+08:00",
         "name": "News_en.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "37eb89ee77f126b76ab3b670a1871bd15335c662",
-        "last_updated": "2026-02-12T18:23:47+08:00",
+        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
+        "last_updated": "2026-02-24T00:26:16+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "22e707238e88ca2c1ef79e2aef0a941e1f542d88",
-        "last_updated": "2026-02-23T16:22:53+08:00",
+        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
+        "last_updated": "2026-02-24T00:26:16+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "0ba06571140537d8181752a7014eb6c41794de51",
-        "last_updated": "2026-02-23T11:11:50+08:00",
+        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
+        "last_updated": "2026-02-24T00:26:16+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "22e707238e88ca2c1ef79e2aef0a941e1f542d88",
-        "last_updated": "2026-02-23T16:22:53+08:00",
+        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
+        "last_updated": "2026-02-24T00:26:16+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-23T18:25:44+08:00"
+  "last_updated": "2026-02-24T00:26:16+08:00"
 }
