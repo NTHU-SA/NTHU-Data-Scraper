@@ -2603,14 +2603,14 @@
                 "date": "2026-02-10"
             },
             {
-                "title": "【公告】旺宏館115年春節閉館公告",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302981,r5074.php?Lang=zh-tw",
-                "date": "2026-02-10"
-            },
-            {
                 "title": "【徵才】國立清華大學分環所誠徵計畫助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302761,r5074.php?Lang=zh-tw",
                 "date": "2026-02-04"
+            },
+            {
+                "title": "【誠徵】國立清華大學全球事務處行政組員(學校經驗佳)(收件延長2/6)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302494,r5074.php?Lang=zh-tw",
+                "date": "2026-02-03"
             }
         ]
     },
@@ -2661,11 +2661,6 @@
                 "date": "2026-02-19"
             },
             {
-                "title": "【誠徵】國際產學營運總中心 徵求下學期工讀生",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-198174,r5075.php?Lang=zh-tw",
-                "date": "2026-02-12"
-            },
-            {
                 "title": "【徵才】本校永續科技碩士學位學程林建宏教授實驗室【誠徵學士/碩士級專任研究助理】",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303126,r5075.php?Lang=zh-tw",
                 "date": "2026-02-12"
@@ -2678,6 +2673,11 @@
             {
                 "title": "【徵才】駐警隊徵專案組員1名（115.4.1到職）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303063,r5075.php?Lang=zh-tw",
+                "date": "2026-02-11"
+            },
+            {
+                "title": "【徵才】竹師教育學院 華德福教育中心誠徵專案組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302747,r5075.php?Lang=zh-tw",
                 "date": "2026-02-11"
             }
         ]
@@ -3059,11 +3059,6 @@
                 "date": "2026-02-03"
             },
             {
-                "title": "【徵才】國立清華大學永續科技碩士學位學程 專任教師職缺公告（收件至 2026 年 2 月 23 日）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-301087,r5086.php?Lang=zh-tw",
-                "date": "2026-01-29"
-            },
-            {
                 "title": "【誠徵】國立清華大學EMI中心徵求114學年度第2學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302436,r5086.php?Lang=zh-tw",
                 "date": "2026-01-27"
@@ -3087,6 +3082,11 @@
                 "title": "【已更新表單連結】【工讀生】秘書處公共事務組誠徵114學年下學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-302121,c0.php?Lang=zh-tw",
                 "date": "2026-01-19"
+            },
+            {
+                "title": "【徵才】國立清華大學蝴蝶園誠徵網站維護工程師兼任助理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302000,r5086.php?Lang=zh-tw",
+                "date": "2026-01-15"
             }
         ]
     },
@@ -19057,19 +19057,6 @@
         ]
     },
     {
-        "title": "All seminar",
-        "link": "https://phys.site.nthu.edu.tw/p/403-1335-5959-1.php?Lang=en",
-        "language": "en",
-        "department": "理學院物理學系",
-        "articles": [
-            {
-                "title": "2/23  王昭元博士   國立清華大學物理系--Nonlocal Cancellation of Optical Rotations in Fructose Solutions(PHYS 620)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-303286,r5959.php?Lang=en",
-                "date": ""
-            }
-        ]
-    },
-    {
         "title": "所有演講",
         "link": "https://phys.site.nthu.edu.tw/p/403-1335-5959-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -19083,11 +19070,6 @@
             {
                 "title": "Mar 03 Application of Quantic tensor train in solving Gross-Pitaevskii Equation, Prof. Chia-Min Chung [鍾佳民], NYCU",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-303299,r5959.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "2/23  王昭元博士   國立清華大學物理系--Nonlocal Cancellation of Optical Rotations in Fructose Solutions(PHYS 620)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-303286,r5959.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -22597,16 +22579,6 @@
         "department": "學務處",
         "articles": [
             {
-                "title": "The DSA managed venues will be closed during the Lunar New Year holiday in 2026.",
-                "link": "https://student.site.nthu.edu.tw/p/450-1509-302921,c0.php?Lang=en",
-                "date": ""
-            },
-            {
-                "title": "Announcement of the Dormitories during Lunar New Year in 2026",
-                "link": "https://student.site.nthu.edu.tw/p/450-1509-299513,c0.php?Lang=en",
-                "date": ""
-            },
-            {
                 "title": "Housing Period from 2025 Fall semester to 2026 spring semester",
                 "link": "https://student.site.nthu.edu.tw/p/450-1509-299516,c0.php?Lang=en",
                 "date": ""
@@ -22654,6 +22626,16 @@
             {
                 "title": "Alert of Epidemic raises to level 3. Please abide the epidemic prevention regulations.",
                 "link": "https://student.site.nthu.edu.tw/p/450-1509-207144,c0.php?Lang=en",
+                "date": ""
+            },
+            {
+                "title": "Guess Who NTHU- A Lunch Meet with the President(QA)(2019.10.09-2020.11.25)",
+                "link": "https://student.site.nthu.edu.tw/p/450-1509-207141,c0.php?Lang=en",
+                "date": ""
+            },
+            {
+                "title": "Notification and prevention about the spread of COVID-19",
+                "link": "https://student.site.nthu.edu.tw/p/450-1509-207068,c0.php?Lang=en",
                 "date": ""
             }
         ]
