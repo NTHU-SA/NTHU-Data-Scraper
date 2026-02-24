@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
-        "last_updated": "2026-02-24T00:26:16+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "90c1430b3cc0e34e8a3bfa8bbd912127ac6d5ebb",
-        "last_updated": "2026-02-11T18:25:13+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -526,8 +526,8 @@
     ],
     "announcements/師資培育中心特殊教育中心": [
       {
-        "last_commit": "c309206827aaccf712b98f80d1b87a73be548401",
-        "last_updated": "2026-02-02T14:33:53+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
-        "last_updated": "2026-02-24T00:26:16+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "22e707238e88ca2c1ef79e2aef0a941e1f542d88",
-        "last_updated": "2026-02-23T16:22:53+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
-        "last_updated": "2026-02-24T00:26:16+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "0ba06571140537d8181752a7014eb6c41794de51",
-        "last_updated": "2026-02-23T11:11:50+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -1014,15 +1014,15 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "dd87aba5fd10b002f2feb8856e1b9b354221187a",
-        "last_updated": "2026-02-23T00:11:47+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "22e707238e88ca2c1ef79e2aef0a941e1f542d88",
-        "last_updated": "2026-02-23T16:22:53+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "All seminar_en.json"
       },
       {
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "1aacef82bbf3b656024d771c50b3aa030dee6ad7",
-        "last_updated": "2026-02-24T00:26:16+08:00",
+        "last_commit": "5b979d73fe853c7cc0bc23f136a0ec0905650c62",
+        "last_updated": "2026-02-24T11:09:02+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-24T08:43:06+08:00"
+  "last_updated": "2026-02-24T11:09:02+08:00"
 }
