@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0021ddd0ed1e6a2141991b3a61c1136bf4f65768",
-        "last_updated": "2026-02-25T11:09:46+08:00",
+        "last_commit": "a8627d3557bbff988860598104b5fe95156b2ef7",
+        "last_updated": "2026-02-25T14:33:18+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "2c3618aabd4b7873b68f1ad6689275f7241a14c2",
-        "last_updated": "2026-02-25T00:30:38+08:00",
+        "last_commit": "a8627d3557bbff988860598104b5fe95156b2ef7",
+        "last_updated": "2026-02-25T14:33:18+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -870,13 +870,13 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "0021ddd0ed1e6a2141991b3a61c1136bf4f65768",
-        "last_updated": "2026-02-25T11:09:46+08:00",
+        "last_commit": "a8627d3557bbff988860598104b5fe95156b2ef7",
+        "last_updated": "2026-02-25T14:33:18+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
-        "last_commit": "3ca88a560e6500bd4d96f6177a0bbe12571ebe27",
-        "last_updated": "2026-01-15T00:12:40+08:00",
+        "last_commit": "a8627d3557bbff988860598104b5fe95156b2ef7",
+        "last_updated": "2026-02-25T14:33:18+08:00",
         "name": "招生公告_zh-tw.json"
       },
       {
@@ -890,8 +890,8 @@
         "name": "校外徵才_zh-tw.json"
       },
       {
-        "last_commit": "199c03c2e44d33fc4e00f5a62d92ecbfafcbe026",
-        "last_updated": "2026-02-10T16:23:56+08:00",
+        "last_commit": "a8627d3557bbff988860598104b5fe95156b2ef7",
+        "last_updated": "2026-02-25T14:33:18+08:00",
         "name": "藝文活動_zh-tw.json"
       },
       {
@@ -1614,8 +1614,8 @@
     ],
     "announcements/竹師教育學院英語教育中心": [
       {
-        "last_commit": "747791ddec5355e43603104cca2f9ba261063019",
-        "last_updated": "2026-02-05T16:21:05+08:00",
+        "last_commit": "a8627d3557bbff988860598104b5fe95156b2ef7",
+        "last_updated": "2026-02-25T14:33:18+08:00",
         "name": "中心最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-25T12:44:13+08:00"
+  "last_updated": "2026-02-25T14:33:18+08:00"
 }
