@@ -952,6 +952,11 @@
         "department": "總務處事務組",
         "articles": [
             {
+                "title": "2/27(五)~3/1(日)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r1065.php?Lang=zh-tw",
+                "date": "2026-02-25"
+            },
+            {
                 "title": "2/23(一)~3/22(日)南大校區區間車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r1065.php?Lang=zh-tw",
                 "date": "2026-02-06"
@@ -960,21 +965,6 @@
                 "title": "2/23(一)~3/21(六)校園公車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302891,r1065.php?Lang=zh-tw",
                 "date": "2026-02-06"
-            },
-            {
-                "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301095,r1065.php?Lang=zh-tw",
-                "date": "2025-12-29"
-            },
-            {
-                "title": "114/12/22(一)~115/2/13(五)寒假期間校園公車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300563,r1065.php?Lang=zh-tw",
-                "date": "2025-12-17"
-            },
-            {
-                "title": "114/12/22(一)~115/2/13(五)寒假期間南大校區區間車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300564,r1065.php?Lang=zh-tw",
-                "date": "2025-12-17"
             },
             {
                 "title": "校園公車服務意見調查表",
@@ -1002,9 +992,19 @@
                 "date": "2025-08-26"
             },
             {
-                "title": "2/27(五)~3/1(日)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r1065.php?Lang=zh-tw",
-                "date": "2026-02-25"
+                "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301095,r1065.php?Lang=zh-tw",
+                "date": "2025-12-29"
+            },
+            {
+                "title": "114/12/22(一)~115/2/13(五)寒假期間校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300563,r1065.php?Lang=zh-tw",
+                "date": "2025-12-17"
+            },
+            {
+                "title": "114/12/22(一)~115/2/13(五)寒假期間南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300564,r1065.php?Lang=zh-tw",
+                "date": "2025-12-17"
             },
             {
                 "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
@@ -1088,13 +1088,13 @@
         "department": "總務處事務組",
         "articles": [
             {
-                "title": "115年228國定假日垃圾清運時間表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303437,r127.php?Lang=zh-tw",
+                "title": "2/27(五)~3/1(日)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r127.php?Lang=zh-tw",
                 "date": "2026-02-25"
             },
             {
-                "title": "2/27(五)~3/1(日)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r127.php?Lang=zh-tw",
+                "title": "115年228國定假日垃圾清運時間表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303437,r127.php?Lang=zh-tw",
                 "date": "2026-02-25"
             },
             {
@@ -2893,6 +2893,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "慈濟學校財團法人慈濟大學《慈大人文社會科學研究論叢》徵稿，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289839,r5084.php?Lang=zh-tw",
+                "date": "2026-02-26"
+            },
+            {
                 "title": "【教學精進研習】115/05/21斜槓教學法—從教室到生活，轉換思維激發學習熱情 （歡迎校內教師、博班生報名）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303521,c0.php?Lang=zh-tw",
                 "date": "2026-02-26"
@@ -2946,11 +2951,6 @@
                 "title": "高雄醫學大學檢送《高醫通識教育學報》徵稿啟事，請踴躍投稿。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-101714,r5084.php?Lang=zh-tw",
                 "date": "2026-01-27"
-            },
-            {
-                "title": "高雄市政府青年局檢送「永續高雄：青年創業挑戰賽」徵件資訊，歡迎投件。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302299,r5084.php?Lang=zh-tw",
-                "date": "2026-01-22"
             }
         ]
     },
@@ -6125,6 +6125,11 @@
         "department": "竹師教育學院教育與學習科技學系",
         "articles": [
             {
+                "title": "【公告】114學年度本系「李春榮先生紀念獎學金」歡迎已考試的應屆畢業生踴躍申請(審畢業論文，請指導教授推薦後，5/1前提出申請)",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-303552,r1.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【教科系師資生預檢核】請預計於今(115)年6月參加教師資格考試或於本學期修畢小教師資職前教育課程之教科系師資生辦理預檢核",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-303450,r1.php?Lang=zh-tw",
                 "date": ""
@@ -6177,11 +6182,6 @@
             {
                 "title": "115學年度碩士在職專班招生公告（網路報名114/12/09-114/12/18)",
                 "link": "https://delt.site.nthu.edu.tw/p/450-1129-300193,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "教科系1142師資生遞補作業，申請時間即日起至114/12/5。",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-299732,r1.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -17923,6 +17923,16 @@
                 "date": "2026-02-13"
             },
             {
+                "title": "【室內網球場】男網校隊加練3/07（六）上午09:00-上午11:00，借用室內網球場（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303550,r11.php",
+                "date": "2026-02-26"
+            },
+            {
+                "title": "【室內網球場】女網校隊加練3/07（六）上午07:00-上午08:00，借用室內網球場（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303549,r11.php",
+                "date": "2026-02-26"
+            },
+            {
                 "title": "【棒球場公告】棒球場整地施工及草皮養護工程3/07（六）-3/08（日），場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303507,r11.php",
                 "date": "2026-02-25"
@@ -17950,16 +17960,6 @@
             {
                 "title": "【體適能教室公告】丙午梅竹賽3/08（日）上午08:00-3/08（日）晚上12:00，借用體適能教室，場地不開放。",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303407,r11.php",
-                "date": "2026-02-24"
-            },
-            {
-                "title": "【舞蹈教室公告】丙午梅竹賽3/08（日）上午08:00-3/08（日）晚上12:00，借用舞蹈教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303406,r11.php",
-                "date": "2026-02-24"
-            },
-            {
-                "title": "【柔道教室公告】丙午梅竹賽3/08（日）上午08:00-3/08（日）晚上12:00，借用柔道教室，場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-303405,r11.php",
                 "date": "2026-02-24"
             }
         ]
