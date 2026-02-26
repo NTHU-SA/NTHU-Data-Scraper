@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e6779b0891bb73c845935d2b3559dbafb9546120",
-        "last_updated": "2026-02-26T18:23:30+08:00",
+        "last_commit": "46d8b6516d967c37c417ed789cbbc88657728d2a",
+        "last_updated": "2026-02-27T00:26:24+08:00",
         "name": "announcements.json"
       },
       {
@@ -281,8 +281,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "f161bc05ea79b3afa015c0648336af5b0c9a1ddc",
-        "last_updated": "2026-02-22T00:11:11+08:00",
+        "last_commit": "46d8b6516d967c37c417ed789cbbc88657728d2a",
+        "last_updated": "2026-02-27T00:26:24+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "3ce479aa7c6cf8945f7f363aea91dc4a505f1c5e",
-        "last_updated": "2026-02-25T08:48:23+08:00",
+        "last_commit": "46d8b6516d967c37c417ed789cbbc88657728d2a",
+        "last_updated": "2026-02-27T00:26:24+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-26T18:23:30+08:00"
+  "last_updated": "2026-02-27T00:26:24+08:00"
 }
