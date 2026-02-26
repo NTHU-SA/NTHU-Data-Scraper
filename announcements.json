@@ -2553,11 +2553,6 @@
         "department": "清華公佈欄",
         "articles": [
             {
-                "title": "【徵才】主計室一組誠徵工讀生一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303530,c0.php?Lang=zh-tw",
-                "date": "2026-02-26"
-            },
-            {
                 "title": "【徵才】清大性平會誠徵114年下學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303519,r5074.php?Lang=zh-tw",
                 "date": "2026-02-26"
@@ -2611,6 +2606,11 @@
                 "title": "【徵才】于乃明老師徵求114(下)「日本歷史與文化」通識課程助教1名，徵才訊息請點入閱讀。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303030,c0.php?Lang=zh-tw",
                 "date": "2026-02-11"
+            },
+            {
+                "title": "【徵才】全球事務處行政組員(機關經驗佳)(延長收件2/25)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303014,r5074.php?Lang=zh-tw",
+                "date": "2026-02-10"
             }
         ]
     },
@@ -2620,11 +2620,6 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
-            {
-                "title": "【徵才】主計室一組誠徵工讀生一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303530,c0.php?Lang=zh-tw",
-                "date": "2026-02-26"
-            },
             {
                 "title": "【徵才】清大性平會誠徵114年下學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303519,r5075.php?Lang=zh-tw",
@@ -2678,6 +2673,11 @@
             {
                 "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297762,r5075.php?Lang=zh-tw",
+                "date": "2026-02-23"
+            },
+            {
+                "title": "【誠徵】「大哥哥大姐姐來幫你！」新竹高中自主學習課程-諮詢志工招募中",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-301686,c0.php?Lang=zh-tw",
                 "date": "2026-02-23"
             }
         ]
@@ -3692,6 +3692,11 @@
         "department": "研究發展處當代中國研究中心",
         "articles": [
             {
+                "title": "39期 【學程活動】「社會變遷中的青年發展」：廈門大學—台灣清華大學社會學研討會",
+                "link": "https://cfcc.site.nthu.edu.tw/p/406-1203-303539,r7197.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "39期[特邀] 日本正當擺脫「和平麻木」的時刻--阿古智子",
                 "link": "https://cfcc.site.nthu.edu.tw/p/450-1203-301648,c0.php?Lang=zh-tw",
                 "date": ""
@@ -3744,11 +3749,6 @@
             {
                 "title": "39期[師生田野紀要] 跨越邊境的香火——台商、宮廟主委與兩岸宗教的民間媒介",
                 "link": "https://cfcc.site.nthu.edu.tw/p/406-1203-298695,r7197.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "39期[師生田野紀要]「台南新芽」的地方政治觀察：從地方派系走向中國統戰",
-                "link": "https://cfcc.site.nthu.edu.tw/p/406-1203-298300,r7197.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -8945,7 +8945,7 @@
         "department": "清華學院實創中心",
         "articles": [
             {
-                "title": "清華大學創業車庫 NTHU Garage 第十九屆團隊 招募中！",
+                "title": "清華大學創業車庫 NTHU Garage 第十九屆團隊 複試名單公布！",
                 "link": "https://garage.site.nthu.edu.tw/p/406-1468-281471,r7421.php",
                 "date": ""
             },
