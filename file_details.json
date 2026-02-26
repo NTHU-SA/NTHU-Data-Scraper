@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "aa5b08f9464d0f95d12cf5c9f9effee4a478564a",
-        "last_updated": "2026-02-26T12:42:07+08:00",
+        "last_commit": "b3ff5cd5dd6790e998cf485b39459d8dc260ea96",
+        "last_updated": "2026-02-26T14:30:28+08:00",
         "name": "announcements.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "856acb168da85adb2d9744a137f5395370b5dcf5",
-        "last_updated": "2026-02-26T11:06:58+08:00",
+        "last_commit": "b3ff5cd5dd6790e998cf485b39459d8dc260ea96",
+        "last_updated": "2026-02-26T14:30:28+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "c7fcedb9c8d6e72494848e9ee0b79a1c3b4a7bd7",
-        "last_updated": "2026-02-25T18:25:20+08:00",
+        "last_commit": "b3ff5cd5dd6790e998cf485b39459d8dc260ea96",
+        "last_updated": "2026-02-26T14:30:28+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1529,8 +1529,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "0021ddd0ed1e6a2141991b3a61c1136bf4f65768",
-        "last_updated": "2026-02-25T11:09:46+08:00",
+        "last_commit": "b3ff5cd5dd6790e998cf485b39459d8dc260ea96",
+        "last_updated": "2026-02-26T14:30:28+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -1717,8 +1717,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "0021ddd0ed1e6a2141991b3a61c1136bf4f65768",
-        "last_updated": "2026-02-25T11:09:46+08:00",
+        "last_commit": "b3ff5cd5dd6790e998cf485b39459d8dc260ea96",
+        "last_updated": "2026-02-26T14:30:28+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -1727,8 +1727,8 @@
         "name": "校園公車暨巡迴公車公告_en.json"
       },
       {
-        "last_commit": "3ce479aa7c6cf8945f7f363aea91dc4a505f1c5e",
-        "last_updated": "2026-02-25T08:48:23+08:00",
+        "last_commit": "b3ff5cd5dd6790e998cf485b39459d8dc260ea96",
+        "last_updated": "2026-02-26T14:30:28+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-02-26T12:42:07+08:00"
+  "last_updated": "2026-02-26T14:30:28+08:00"
 }
