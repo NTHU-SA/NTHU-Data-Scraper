@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c1edb488c2e9e8939d2bd48b9e99549cf7bded19",
-        "last_updated": "2026-03-01T20:16:46+08:00",
+        "last_commit": "ca7060436ffdfedded71e7784fa2a8b01063d358",
+        "last_updated": "2026-03-02T00:11:19+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,13 +51,13 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "e6779b0891bb73c845935d2b3559dbafb9546120",
-        "last_updated": "2026-02-26T18:23:30+08:00",
+        "last_commit": "ca7060436ffdfedded71e7784fa2a8b01063d358",
+        "last_updated": "2026-03-02T00:11:19+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "1d5e017ab547ec7c8bcff42ee2e9759fba46005b",
-        "last_updated": "2026-02-28T00:18:24+08:00",
+        "last_commit": "ca7060436ffdfedded71e7784fa2a8b01063d358",
+        "last_updated": "2026-03-02T00:11:19+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -1130,8 +1130,8 @@
         "name": "news_en.json"
       },
       {
-        "last_commit": "c1edb488c2e9e8939d2bd48b9e99549cf7bded19",
-        "last_updated": "2026-03-01T20:16:46+08:00",
+        "last_commit": "ca7060436ffdfedded71e7784fa2a8b01063d358",
+        "last_updated": "2026-03-02T00:11:19+08:00",
         "name": "news_zh-tw.json"
       },
       {
@@ -1813,8 +1813,8 @@
         "name": "招待所公告_zh-tw.json"
       },
       {
-        "last_commit": "199c03c2e44d33fc4e00f5a62d92ecbfafcbe026",
-        "last_updated": "2026-02-10T16:23:56+08:00",
+        "last_commit": "ca7060436ffdfedded71e7784fa2a8b01063d358",
+        "last_updated": "2026-03-02T00:11:19+08:00",
         "name": "餐廳公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-01T20:16:46+08:00"
+  "last_updated": "2026-03-02T00:11:19+08:00"
 }
