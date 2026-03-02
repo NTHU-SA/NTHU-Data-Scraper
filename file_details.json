@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0c1d5667e3daf2756acc36807ca430818a69be7e",
-        "last_updated": "2026-03-02T08:45:10+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "0c1d5667e3daf2756acc36807ca430818a69be7e",
-        "last_updated": "2026-03-02T08:45:10+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "dining.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "ca7060436ffdfedded71e7784fa2a8b01063d358",
-        "last_updated": "2026-03-02T00:11:19+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "e6779b0891bb73c845935d2b3559dbafb9546120",
-        "last_updated": "2026-02-26T18:23:30+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "e6779b0891bb73c845935d2b3559dbafb9546120",
-        "last_updated": "2026-02-26T18:23:30+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "e6779b0891bb73c845935d2b3559dbafb9546120",
-        "last_updated": "2026-02-26T18:23:30+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "856acb168da85adb2d9744a137f5395370b5dcf5",
-        "last_updated": "2026-02-26T11:06:58+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "b3ff5cd5dd6790e998cf485b39459d8dc260ea96",
-        "last_updated": "2026-02-26T14:30:28+08:00",
+        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
+        "last_updated": "2026-03-02T11:08:14+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-02T08:45:10+08:00"
+  "last_updated": "2026-03-02T11:08:14+08:00"
 }
