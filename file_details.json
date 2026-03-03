@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
-        "last_updated": "2026-03-03T12:40:37+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "ca7060436ffdfedded71e7784fa2a8b01063d358",
-        "last_updated": "2026-03-02T00:11:19+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -66,8 +66,8 @@
         "name": "法規宣導_zh-tw.json"
       },
       {
-        "last_commit": "6dcab7ae6ed5e615ac76fc66871fd0441daa3e6f",
-        "last_updated": "2026-03-01T16:14:10+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "重大消息_zh-tw.json"
       }
     ],
@@ -555,8 +555,8 @@
         "name": "因應新型冠狀病毒肺炎：教務相關公告_zh-tw.json"
       },
       {
-        "last_commit": "c023525dbb160881f20d57eceec470b944c14fb8",
-        "last_updated": "2026-03-02T18:24:04+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -663,13 +663,13 @@
         "name": "【首頁】師長祝福與勉勵  - AIMS Fellows_zh-tw.json"
       },
       {
-        "last_commit": "ed77e1d39227a32742a81c8966240310a8cd6339",
-        "last_updated": "2026-02-07T00:21:17+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "【首頁】招生訊息  - AIMS Fellows_zh-tw.json"
       },
       {
-        "last_commit": "ed77e1d39227a32742a81c8966240310a8cd6339",
-        "last_updated": "2026-02-07T00:21:17+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "【首頁】最新消息  - AIMS Fellows_zh-tw.json"
       }
     ],
@@ -797,8 +797,8 @@
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "856acb168da85adb2d9744a137f5395370b5dcf5",
-        "last_updated": "2026-02-26T11:06:58+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
-        "last_updated": "2026-03-03T12:40:37+08:00",
+        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
+        "last_updated": "2026-03-03T14:25:58+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-03T12:40:37+08:00"
+  "last_updated": "2026-03-03T14:25:58+08:00"
 }
