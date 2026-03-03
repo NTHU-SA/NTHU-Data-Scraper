@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
-        "last_updated": "2026-03-03T14:25:58+08:00",
+        "last_commit": "3a7f462aadf804d1c9422b44d5705ba227664386",
+        "last_updated": "2026-03-03T16:19:51+08:00",
         "name": "announcements.json"
       },
       {
@@ -470,8 +470,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "3a7f462aadf804d1c9422b44d5705ba227664386",
+        "last_updated": "2026-03-03T16:19:51+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
@@ -997,8 +997,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "22e707238e88ca2c1ef79e2aef0a941e1f542d88",
-        "last_updated": "2026-02-23T16:22:53+08:00",
+        "last_commit": "3a7f462aadf804d1c9422b44d5705ba227664386",
+        "last_updated": "2026-03-03T16:19:51+08:00",
         "name": "演講訊息_zh-tw.json"
       },
       {
@@ -1206,8 +1206,8 @@
         "name": "學系動態_zh-tw.json"
       },
       {
-        "last_commit": "9814f3681ff299039fc19a6197d9d3835f48edcf",
-        "last_updated": "2026-02-06T11:06:41+08:00",
+        "last_commit": "3a7f462aadf804d1c9422b44d5705ba227664386",
+        "last_updated": "2026-03-03T16:19:51+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1286,8 +1286,8 @@
         "name": "IACUC審查事項公告_zh-tw.json"
       },
       {
-        "last_commit": "226c9d00ca1d7128abe20acedc790ffc9a6ed059",
-        "last_updated": "2026-01-05T18:11:33+08:00",
+        "last_commit": "3a7f462aadf804d1c9422b44d5705ba227664386",
+        "last_updated": "2026-03-03T16:19:51+08:00",
         "name": "IACUC最新消息公告_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-03T14:25:58+08:00"
+  "last_updated": "2026-03-03T16:19:51+08:00"
 }
