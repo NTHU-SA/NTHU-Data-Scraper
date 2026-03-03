@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "989a7ee0c68d5c066ce080e67dd9074ca1ad606e",
-        "last_updated": "2026-03-03T11:09:42+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "announcements.json"
       },
       {
@@ -288,23 +288,23 @@
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
       {
-        "last_commit": "a29b174f46c45b7a1a527b2fa98b1ac09f2f7dff",
-        "last_updated": "2026-03-01T00:10:58+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "Application_en.json"
       },
       {
-        "last_commit": "a29b174f46c45b7a1a527b2fa98b1ac09f2f7dff",
-        "last_updated": "2026-03-01T00:10:58+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "a29b174f46c45b7a1a527b2fa98b1ac09f2f7dff",
-        "last_updated": "2026-03-01T00:10:58+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "a29b174f46c45b7a1a527b2fa98b1ac09f2f7dff",
-        "last_updated": "2026-03-01T00:10:58+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -318,8 +318,8 @@
         "name": "宣導_zh-tw.json"
       },
       {
-        "last_commit": "a29b174f46c45b7a1a527b2fa98b1ac09f2f7dff",
-        "last_updated": "2026-03-01T00:10:58+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
@@ -328,8 +328,8 @@
         "name": "活動_會議_zh-tw.json"
       },
       {
-        "last_commit": "a29b174f46c45b7a1a527b2fa98b1ac09f2f7dff",
-        "last_updated": "2026-03-01T00:10:58+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "申請_zh-tw.json"
       }
     ],
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "989a7ee0c68d5c066ce080e67dd9074ca1ad606e",
-        "last_updated": "2026-03-03T11:09:42+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "989a7ee0c68d5c066ce080e67dd9074ca1ad606e",
-        "last_updated": "2026-03-03T11:09:42+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "d3f9aa9350883da57f5bf53cd65f32b7736843fe",
-        "last_updated": "2026-03-02T11:08:14+08:00",
+        "last_commit": "d2a5e3f9369626f0f5a9f86d0f452cf243485e62",
+        "last_updated": "2026-03-03T12:40:37+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-03T11:09:42+08:00"
+  "last_updated": "2026-03-03T12:40:37+08:00"
 }
