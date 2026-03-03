@@ -6,6 +6,11 @@
         "department": "教務處",
         "articles": [
             {
+                "title": "114學年度傑出教學教師票選活動，自3/5開放領取限量「收納彈片包」或限量「識別證套」(二擇一)",
+                "link": "https://academic.site.nthu.edu.tw/p/406-1007-303700,r1504.php?Lang=zh-tw",
+                "date": "2026-03-03"
+            },
+            {
                 "title": "114學年度畢業生致詞代表甄選（即日起開始收件）",
                 "link": "https://academic.site.nthu.edu.tw/p/450-1007-303647,c0.php?Lang=zh-tw",
                 "date": "2026-03-02"
@@ -74,11 +79,6 @@
                 "title": "112學年度傑出教學教師票選活動，自3/6開放領取限量「精美資料夾」或限量「原色帆布提袋」(二擇一)",
                 "link": "https://academic.site.nthu.edu.tw/p/406-1007-264085,r1504.php?Lang=zh-tw",
                 "date": "2024-03-01"
-            },
-            {
-                "title": "歡迎參加2/26(一)晚上19:00調整學期上課週數16週方案學生說明會(自由參加免報名)",
-                "link": "https://academic.site.nthu.edu.tw/p/406-1007-263474,r1504.php?Lang=zh-tw",
-                "date": "2024-02-20"
             }
         ]
     },
@@ -1317,11 +1317,6 @@
                 "date": "2025-09-12"
             },
             {
-                "title": "【榜單】115學年度AIMS Fellows 錄取名單",
-                "link": "https://aimsfellows.site.nthu.edu.tw/p/406-1160-297698,r11.php?Lang=zh-tw",
-                "date": "2026-02-07"
-            },
-            {
                 "title": "【招生】115學年度第六屆跨院國際博士iPhD「智慧製造與數位決策組」｜10月14日(二)17:00截止",
                 "link": "https://aimsfellows.site.nthu.edu.tw/p/406-1160-295945,r11.php?Lang=zh-tw",
                 "date": "2025-09-22"
@@ -1330,6 +1325,11 @@
                 "title": "【恭賀】AIMS第四屆 彭金郎學長 榮獲 2025 TSC 第十八屆崇越論文大賞：AI應用論文競賽「碩士組特優獎項」！",
                 "link": "https://aimsfellows.site.nthu.edu.tw/p/450-1160-294161,c0.php?Lang=zh-tw",
                 "date": "2025-08-25"
+            },
+            {
+                "title": "【招生】「智慧工廠模擬與統計決策科學碩士學分班」@高雄｜10月06日(一) 17:00截止",
+                "link": "https://aimsfellows.site.nthu.edu.tw/p/406-1160-294067,r11.php?Lang=zh-tw",
+                "date": "2025-08-22"
             }
         ]
     },
@@ -1348,11 +1348,6 @@
                 "title": "【招生】115學年度報考文件下載處｜報名時間至12月18日(四)17:00截止",
                 "link": "https://aimsfellows.site.nthu.edu.tw/p/450-1160-294667,c0.php?Lang=zh-tw",
                 "date": "2025-09-12"
-            },
-            {
-                "title": "【榜單】115學年度AIMS Fellows 錄取名單",
-                "link": "https://aimsfellows.site.nthu.edu.tw/p/406-1160-297698,r9933.php?Lang=zh-tw",
-                "date": "2026-02-07"
             },
             {
                 "title": "【招生】115學年度第六屆跨院國際博士iPhD「智慧製造與數位決策組」｜10月14日(二)17:00截止",
@@ -1388,6 +1383,11 @@
                 "title": "【招生】敬邀報名113學年度第六屆智慧製造跨院高階主管碩士在職學位學程",
                 "link": "https://aimsfellows.site.nthu.edu.tw/p/406-1160-258591,r9933.php?Lang=zh-tw",
                 "date": "2023-11-09"
+            },
+            {
+                "title": "【榜單】112學年度AIMS Fellows 錄取名單",
+                "link": "https://aimsfellows.site.nthu.edu.tw/p/406-1160-244201,r9933.php?Lang=zh-tw",
+                "date": "2023-02-22"
             }
         ]
     },
@@ -2893,6 +2893,36 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "嶺東科技大學發行之《嶺東學報》徵稿，敬請踴躍投稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-91297,r5084.php?Lang=zh-tw",
+                "date": "2026-03-03"
+            },
+            {
+                "title": "大葉大學「科學與工程技術期刊」徵稿，歡迎本校師生踴躍投稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-121044,r5084.php?Lang=zh-tw",
+                "date": "2026-03-03"
+            },
+            {
+                "title": "國立陽明交通大學檢送該校「交大體育學刊」投稿須知及相關附件，歡迎師生踴躍投稿。",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-109420,r5084.php?Lang=zh-tw",
+                "date": "2026-03-03"
+            },
+            {
+                "title": "國立高雄師範大學《高雄師大學報-人文與藝術類》徵稿，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-143798,r5084.php?Lang=zh-tw",
+                "date": "2026-03-03"
+            },
+            {
+                "title": "國立高雄師範大學《高雄師大學報-自然科學與科技類》徵稿，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-143799,r5084.php?Lang=zh-tw",
+                "date": "2026-03-03"
+            },
+            {
+                "title": "國立高雄師範大學《高雄師大學報-教育與社會科學類》徵稿，請踴躍投稿",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-143796,r5084.php?Lang=zh-tw",
+                "date": "2026-03-03"
+            },
+            {
                 "title": "【活動宣傳】ESG永續金融論壇2026/03/31(二) 報名至3/30(一)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303690,c0.php?Lang=zh-tw",
                 "date": "2026-03-03"
@@ -2921,36 +2951,6 @@
                 "title": "樹德科技大學發行之《樹德通識教育專刊》徵稿，敬請踴躍賜稿。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-94001,r5084.php?Lang=zh-tw",
                 "date": "2026-02-25"
-            },
-            {
-                "title": "臺中教育大學語文教育學系《語文教育學報》徵稿，歡迎踴躍投稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-121203,r5084.php?Lang=zh-tw",
-                "date": "2026-02-25"
-            },
-            {
-                "title": "國立臺北科技大學教學實踐研究計畫北區基地辦理「創新教學成果分享會」及「AI精準簡報/資訊圖表生成工作流」線上工作坊（115/03/03、03/04）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303116,c0.php?Lang=zh-tw",
-                "date": "2026-02-12"
-            },
-            {
-                "title": "國立屏東科技大學「休閒觀光與運動健康學報」期刊全年徵稿，請踴躍投稿",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-148984,r5084.php?Lang=zh-tw",
-                "date": "2026-02-11"
-            },
-            {
-                "title": "中原華語文教學研究檢送《中原華語文教學研究》徵稿啟事，請踴躍投稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302977,r5084.php?Lang=zh-tw",
-                "date": "2026-02-10"
-            },
-            {
-                "title": "國立臺中教育大學檢送《融合教育發展期刊》徵稿啟事，請踴躍投稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-302976,r5084.php?Lang=zh-tw",
-                "date": "2026-02-10"
-            },
-            {
-                "title": "南投縣政府「南投縣115年度南投特教半年刊第41期實施計畫」徵文啟事，請惠予踴躍投稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-223766,r5084.php?Lang=zh-tw",
-                "date": "2026-01-29"
             }
         ]
     },
@@ -13901,13 +13901,13 @@
                 "date": "2026-02-26"
             },
             {
-                "title": "【資格考試】115年2月7日鄭幸萊同學舉行資格考試",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-302654,r10846.php?Lang=zh-tw",
+                "title": "【學生事務】114學年度第2學期跨院國際博士班資格考試初審 (博士論文計畫考試)申請公告【置頂】",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-302638,r10846.php?Lang=zh-tw",
                 "date": "2026-02-02"
             },
             {
-                "title": "【學生事務】114學年度第2學期跨院國際博士班資格考試初審 (博士論文計畫考試)申請公告【置頂】",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-302638,r10846.php?Lang=zh-tw",
+                "title": "【資格考試】115年2月7日鄭幸萊同學舉行資格考試",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-302654,r10846.php?Lang=zh-tw",
                 "date": "2026-02-02"
             },
             {
@@ -18308,13 +18308,13 @@
                 "date": "1"
             },
             {
-                "title": "【115年新春團拜專區】",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-303246,r2575.php?Lang=zh-tw",
+                "title": "【115年新春團拜得獎名單】",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-303013,r2575.php?Lang=zh-tw",
                 "date": "2"
             },
             {
-                "title": "【115年新春團拜得獎名單】",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-303013,r2575.php?Lang=zh-tw",
+                "title": "【115年新春團拜專區】",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-303246,r2575.php?Lang=zh-tw",
                 "date": "3"
             },
             {
@@ -18529,6 +18529,11 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "【115年新春團拜得獎名單】",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-303013,r875.php?Lang=zh-tw",
+                "date": "2026-02-28"
+            },
+            {
                 "title": "(通知)114學年度第二學期子女教育補助費，請於115年3月20日(五)前至校務資訊系統線上申請。",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-292925,r875.php?Lang=zh-tw",
                 "date": "2026-02-23"
@@ -18537,11 +18542,6 @@
                 "title": "[公告]114年度推動職技人員數位學習Go!Go!Go!,競賽結果名單公告。",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-303109,r875.php?Lang=zh-tw",
                 "date": "2026-02-12"
-            },
-            {
-                "title": "【115年新春團拜得獎名單】",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-303013,r875.php?Lang=zh-tw",
-                "date": "2026-02-10"
             },
             {
                 "title": "【轉知】科學園區實驗中學115學年度國中部、國小部、幼兒園部新生、國中部及國小部轉學生，請依規定時程辦理。",
