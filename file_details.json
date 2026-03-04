@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c1945a1f83568f277b6c529d8540d263befb0e4a",
-        "last_updated": "2026-03-04T08:43:41+08:00",
+        "last_commit": "77d7f9a7e59f805647c21244e78c71c8f6a9f395",
+        "last_updated": "2026-03-04T11:04:44+08:00",
         "name": "announcements.json"
       },
       {
@@ -507,8 +507,8 @@
         "name": "演講公告_zh-tw.json"
       },
       {
-        "last_commit": "856acb168da85adb2d9744a137f5395370b5dcf5",
-        "last_updated": "2026-02-26T11:06:58+08:00",
+        "last_commit": "77d7f9a7e59f805647c21244e78c71c8f6a9f395",
+        "last_updated": "2026-03-04T11:04:44+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -787,8 +787,8 @@
         "name": "活動報導_zh-tw.json"
       },
       {
-        "last_commit": "e6779b0891bb73c845935d2b3559dbafb9546120",
-        "last_updated": "2026-02-26T18:23:30+08:00",
+        "last_commit": "77d7f9a7e59f805647c21244e78c71c8f6a9f395",
+        "last_updated": "2026-03-04T11:04:44+08:00",
         "name": "系所公告_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-04T08:43:41+08:00"
+  "last_updated": "2026-03-04T11:04:44+08:00"
 }
