@@ -341,14 +341,19 @@
         "department": "教務處招生策略中心",
         "articles": [
             {
-                "title": "115學年度申請入學旭日招生(甲、乙、丙、丁組)_學習檔案(含就讀志願表)與推薦信表格下載",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-303622,r1132.php?Lang=zh-tw",
-                "date": "2026-03-02"
-            },
-            {
                 "title": "115學年度大學申請入學第二階段各學系甄選日程表",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-302748,r1132.php?Lang=zh-tw",
                 "date": "2026-02-04"
+            },
+            {
+                "title": "115學年度大學申請入學「校內聯合分發」相關說明",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-303779,r1132.php?Lang=zh-tw",
+                "date": "2026-03-04"
+            },
+            {
+                "title": "115學年度申請入學旭日招生(甲、乙、丙、丁組)_學習檔案(含就讀志願表)與推薦信表格下載",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-303622,r1132.php?Lang=zh-tw",
+                "date": "2026-03-02"
             },
             {
                 "title": "115學年度學士班運動績優學生單獨招生簡章勘誤事項公告",
@@ -434,11 +439,6 @@
                 "title": "台灣聯合大學系統114學年度學士班轉學考試錄取名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-292767,r1132.php?Lang=zh-tw",
                 "date": "2025-07-23"
-            },
-            {
-                "title": "114學年度申請入學- 旭日招生甲、乙、丙、丁組錄取名單 第2次學系分發結果",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-290533,r1132.php?Lang=zh-tw",
-                "date": "2025-06-12"
             }
         ]
     },
@@ -5047,18 +5047,18 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "114學年度碩/博士生 申請口試離校流程",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-270294,r8085.php?Lang=zh-tw",
+                "title": "Meet with Dr. Kobilka  \u000b 諾貝爾獎大師交流活動",
+                "link": "https://cls.site.nthu.edu.tw/p/450-1469-303590,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "院學會專區",
-                "link": "https://cls.site.nthu.edu.tw/p/450-1469-169121,c0.php?Lang=zh-tw",
+                "title": "生醫學院學輔老師值班時間",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-274818,r8085.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "伍焜玉院士學術講座",
-                "link": "https://cls.site.nthu.edu.tw/p/450-1469-203701,c0.php?Lang=zh-tw",
+                "title": "本院教師傑出研究介紹",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-291054,r8085.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -14240,7 +14240,7 @@
                 "date": "2026-02-02"
             },
             {
-                "title": "論文審核與上傳作業網路環境說明",
+                "title": "論文上傳與繳交Dissertation Uploading and Submission【置頂】",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-303774,r10849.php?Lang=zh-tw",
                 "date": "2026-03-04"
             },
