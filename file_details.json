@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a3d0f8e8aec1acc52972bc4c8d66165e07a9efe0",
-        "last_updated": "2026-03-04T18:18:05+08:00",
+        "last_commit": "508b759661da3945c518d0c74aaad118440cf281",
+        "last_updated": "2026-03-04T20:21:15+08:00",
         "name": "announcements.json"
       },
       {
@@ -1668,8 +1668,8 @@
         "name": "Special Report_en.json"
       },
       {
-        "last_commit": "e1d5613e7959f96fff6038b7e9ff4eaed4af2bc5",
-        "last_updated": "2026-02-10T12:52:38+08:00",
+        "last_commit": "508b759661da3945c518d0c74aaad118440cf281",
+        "last_updated": "2026-03-04T20:21:15+08:00",
         "name": "「獎學金_交換計劃」_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-04T18:18:05+08:00"
+  "last_updated": "2026-03-04T20:21:15+08:00"
 }
