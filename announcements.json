@@ -952,11 +952,6 @@
         "department": "總務處事務組",
         "articles": [
             {
-                "title": "2/27(五)~3/1(日)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r1065.php?Lang=zh-tw",
-                "date": "2026-02-25"
-            },
-            {
                 "title": "2/23(一)~3/22(日)南大校區區間車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r1065.php?Lang=zh-tw",
                 "date": "2026-02-06"
@@ -977,19 +972,24 @@
                 "date": "2024-09-27"
             },
             {
-                "title": "校巴楓林小徑站牌候車，請於人行道上排隊上車以維安全",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297019,r1065.php?Lang=zh-tw",
-                "date": "2025-10-14"
-            },
-            {
                 "title": "搭乘校巴資訊及維護搭乘秩序宣導",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-219016,r1065.php?Lang=zh-tw",
                 "date": "2021-11-29"
             },
             {
+                "title": "校巴楓林小徑站牌候車，請於人行道上排隊上車以維安全",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297019,r1065.php?Lang=zh-tw",
+                "date": "2025-10-14"
+            },
+            {
                 "title": "中研院區間車(中央清大線及陽明交大清大線)114學年度時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-294233,r1065.php?Lang=zh-tw",
                 "date": "2025-08-26"
+            },
+            {
+                "title": "2/27(五)~3/1(日)校園公車及南大校區區間車停駛",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r1065.php?Lang=zh-tw",
+                "date": "2026-02-25"
             },
             {
                 "title": "農曆春節連假2/14(六)至2/22(日)校園公車及南大校區區間車停駛",
@@ -2553,6 +2553,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【誠徵】半導體研究學院 Plasma Application Research Lab 誠徵大學部兼任研究助理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-304174,c0.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
+            {
                 "title": "【誠徵】清大圖書館特藏組誠徵校史業務(專案)工讀生（4月起）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-304011,r5074.php?Lang=zh-tw",
                 "date": "2026-03-06"
@@ -2606,11 +2611,6 @@
                 "title": "【誠徵】國立清華大學師培中心誠徵專任教師1名(含)以上-長期徵聘(隨到隨審)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303273,r5074.php?Lang=zh-tw",
                 "date": "2026-02-23"
-            },
-            {
-                "title": "【徵才】國立清華大學永續學院 徵聘計畫研究助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303264,r5074.php?Lang=zh-tw",
-                "date": "2026-02-23"
             }
         ]
     },
@@ -2620,6 +2620,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【誠徵】半導體研究學院 Plasma Application Research Lab 誠徵大學部兼任研究助理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-304174,c0.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
             {
                 "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297762,r5075.php?Lang=zh-tw",
@@ -2674,11 +2679,6 @@
                 "title": "國立清華大學學習科學與科技研究所徵求所長啟事(115/3/12下午4:00截止)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303565,c0.php?Lang=zh-tw",
                 "date": "2026-02-26"
-            },
-            {
-                "title": "【徵才】清大藝文總中心美術館專案組員職代",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303472,r5075.php?Lang=zh-tw",
-                "date": "2026-02-25"
             }
         ]
     },
@@ -3901,6 +3901,11 @@
                 "date": ""
             },
             {
+                "title": "【轉知】教育部檢送「113年各級學校校園安全及災害事件分析報告」1份，請本校師培課程教師參酌運用。",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-304193,r157.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【轉知】國立臺北教育大學辦理「第十四屆師資培育國際學術研討會」徵稿活動",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-304161,r157.php?Lang=zh-tw",
                 "date": ""
@@ -3948,11 +3953,6 @@
             {
                 "title": "【轉知】114學年度普通型高級中等學校課程推動工作圈辦理「SEL 研究與教學實務座談會」",
                 "link": "https://cfte.site.nthu.edu.tw/p/450-1275-303023,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【轉知】「114學年度國小雙語教案設計競賽線上表揚暨獲獎作品發表會」",
-                "link": "https://cfte.site.nthu.edu.tw/p/450-1275-302934,c0.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -5163,6 +5163,11 @@
                 "date": "2026-02-26"
             },
             {
+                "title": "3/12 靜齋後方圍牆倒塌整地作業、大禮堂旁沙堆清除作業",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-304197,r992.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
+            {
                 "title": "3/6~3/23 化工館前管線開挖作業施工公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-303991,r992.php?Lang=zh-tw",
                 "date": "2026-03-05"
@@ -5200,11 +5205,6 @@
             {
                 "title": "2/7 材料實驗館、合金實驗館、棒球場、籃球場及室內網球場停電通知",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-302612,r992.php?Lang=zh-tw",
-                "date": "2026-01-30"
-            },
-            {
-                "title": "公開「國立清華大學桃園醫療暨教育研發園區新建營運移轉案」招商文件＆相關參考資料",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-302514,r992.php?Lang=zh-tw",
                 "date": "2026-01-30"
             }
         ]
@@ -8408,6 +8408,11 @@
                 "date": "2026-03-05"
             },
             {
+                "title": "【工學院英語小聚】Chat Over Everything - 2026 Spring Series",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-304188,r3361.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
+            {
                 "title": "工學院「出國逐夢」獎助金 - 114學年度上學期申請結果與獲獎名單",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-302616,r3361.php?Lang=zh-tw",
                 "date": "2026-01-30"
@@ -8441,11 +8446,6 @@
                 "title": "【工學院英文書報討論】Amphiphilic Polymer Conetworks for Light Harvesting  - 黃捷思教授／美國密西根州立大學計算數學科學與工程學系",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-299743,r3361.php?Lang=zh-tw",
                 "date": "2025-11-28"
-            },
-            {
-                "title": "【活動流程&錄取名單】2025清華工學院天下為工一日營~錄取名單已公布！",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-298544,r3361.php?Lang=zh-tw",
-                "date": "2025-11-10"
             }
         ]
     },
@@ -12665,6 +12665,11 @@
         "department": "竹師教育學院學習科學與科技研究所",
         "articles": [
             {
+                "title": "恭禧本所區國良教授指導學生林佳妤及曾韋瑄發表論文榮獲最佳論文獎(TWELF 2026)",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-304176,r9502.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "恭禧本所陳政煥副教授榮獲「國立清華大學傑出人才發展基金」學術研究獎勵，且獲頒「114年度清華-清鏡傑出年輕學者」學術研究榮銜",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-302907,r9502.php?Lang=zh-tw",
                 "date": ""
@@ -12718,11 +12723,6 @@
                 "title": "恭喜徐憶萍老師獲114年度教育實習績優獎合作團體優良獎!!",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-294153,r9502.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "恭禧本所傅麗玉教授榮獲「教育部114年師鐸獎」",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-292654,r9502.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -12732,6 +12732,11 @@
         "language": "zh-tw",
         "department": "竹師教育學院學習科學與科技研究所",
         "articles": [
+            {
+                "title": "【人文與科技講座】2026/3/12（四）王佑哲/ USPACE 共同創辦人及營運長：積極的迷惘人",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-304187,r9503.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "【人文與科技講座】3/5(四)溫怡玲/人工智慧科技基金會執行長: AI Reshaped Education, Who Reshapes the Learner?",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-303651,r9503.php?Lang=zh-tw",
@@ -12785,11 +12790,6 @@
             {
                 "title": "【人文與科技講座】09/25(四) 吳佳雯/美國西北大學學習科學博士候選人：讓決策落地-有效參與才能改變現實",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-295984,r9503.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【午茶GPT工作坊】10/2(二)：ILST Globalization",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-298273,r9503.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -13249,6 +13249,16 @@
                 "date": ""
             },
             {
+                "title": "【人文與科技講座】2026/3/12（四）王佑哲/ USPACE 共同創辦人及營運長：積極的迷惘人",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-304187,r9756.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "恭禧本所區國良教授指導學生林佳妤及曾韋瑄發表論文榮獲最佳論文獎(TWELF 2026)",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-304176,r9756.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "115學年碩士班考試入學  複試(口試)名單及口試相關須知",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-304006,r9756.php?Lang=zh-tw",
                 "date": ""
@@ -13281,16 +13291,6 @@
             {
                 "title": "【恭賀】卓江 榮譽退休教授 榮登 2025年全球前 2% 頂尖科學家",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-301581,r9756.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "2025有梗學習獎得獎名單",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-301522,r9756.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "賀！本所馬萁蔚同學帶領護耆盾團隊參加教育部「114年Young飛全球行動計畫」榮獲「Young飛夢想實踐家獎」",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-301488,r9756.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -13629,6 +13629,11 @@
         "department": "工學院工學院學士班",
         "articles": [
             {
+                "title": "賀! 111/26級 大四同學升學與就職戰況~~~",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-304195,r2669.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "狂賀本班陳安楷同學與物理系以及陽交大同學組隊參與國際黑客松大賽，從全球609支隊伍、超過3000次模型上傳中脫穎而出，勇奪全球第二名佳績！",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-285778,r2669.php?Lang=zh-tw",
                 "date": ""
@@ -13681,11 +13686,6 @@
             {
                 "title": "賀!本班20級蕭伊婷同學榮獲清華第三屆行健獎",
                 "link": "https://ipe.site.nthu.edu.tw/p/450-1300-180870,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "賀!本班畢業生何秉倫校友(14級材料＋物理)同時獲牛津大學、瑞士蘇黎世聯邦理工學院等國外多所知名大學博士班入學許可及獎學金",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-140103,r2669.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -16016,6 +16016,11 @@
         "department": "生命科學暨醫學院學士後醫學系",
         "articles": [
             {
+                "title": "「醫師法施行細則」部分條文修正發布",
+                "link": "https://med.site.nthu.edu.tw/p/450-1551-304186,c0.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
+            {
                 "title": "國立清華大學學士後醫學系 誠徵-大體老師防腐技術研究助理 乙名",
                 "link": "https://med.site.nthu.edu.tw/p/406-1551-302066,r7381.php?Lang=zh-tw",
                 "date": "2026-01-17"
@@ -16109,11 +16114,6 @@
                 "title": "學生學習歷程製作競賽_得獎名單",
                 "link": "https://med.site.nthu.edu.tw/p/406-1551-279675,r7381.php?Lang=zh-tw",
                 "date": "2024-12-04"
-            },
-            {
-                "title": "台北市醫師公會獎助學金辦法和申請資訊",
-                "link": "https://med.site.nthu.edu.tw/p/406-1551-276479,r7381.php?Lang=zh-tw",
-                "date": "2024-10-09"
             }
         ]
     },
@@ -16123,6 +16123,11 @@
         "language": "zh-tw",
         "department": "生命科學暨醫學院學士後醫學系",
         "articles": [
+            {
+                "title": "Handover Ceremony for the Chair of the School of Medicine, January 22, 2026",
+                "link": "https://med.site.nthu.edu.tw/p/406-1551-304107,r8084.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
             {
                 "title": "演講「我的國際衛生經驗 從非洲到美國」",
                 "link": "https://med.site.nthu.edu.tw/p/406-1551-303985,r8084.php?Lang=zh-tw",
@@ -16217,11 +16222,6 @@
                 "title": "演講活動「我的國際衛生經驗 從非洲到美國」",
                 "link": "https://med.site.nthu.edu.tw/p/406-1551-283340,r8084.php?Lang=zh-tw",
                 "date": "2025-02-18"
-            },
-            {
-                "title": "生醫院第二屆「厚德醫學講座」報名開始！(本活動備有午餐)",
-                "link": "https://med.site.nthu.edu.tw/p/406-1551-282266,r8084.php?Lang=zh-tw",
-                "date": "2025-02-07"
             }
         ]
     },
@@ -16734,6 +16734,11 @@
         "department": "工學院奈米工程與微系統研究所",
         "articles": [
             {
+                "title": "Seminar of Inst. NanoEngineering and MicroSystems, March 16, 2026",
+                "link": "https://nems.site.nthu.edu.tw/p/406-1302-304185,r1495.php?Lang=en",
+                "date": "2026-03-09"
+            },
+            {
                 "title": "Seminar of Inst. NanoEngineering and MicroSystems, March 2, 2026",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-303792,r1495.php?Lang=en",
                 "date": "2026-03-04"
@@ -16787,11 +16792,6 @@
                 "title": "Seminar of Inst. NanoEngineering and MicroSystems, October 20, 2025",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-297365,r1495.php?Lang=en",
                 "date": "2025-10-21"
-            },
-            {
-                "title": "Seminar of Inst. NanoEngineering and MicroSystems, October 13, 2025",
-                "link": "https://nems.site.nthu.edu.tw/p/406-1302-296848,r1495.php?Lang=en",
-                "date": "2025-10-09"
             }
         ]
     },
@@ -16801,6 +16801,11 @@
         "language": "zh-tw",
         "department": "工學院奈米工程與微系統研究所",
         "articles": [
+            {
+                "title": "奈米工程與微系統研究所115年3月16日書報討論",
+                "link": "https://nems.site.nthu.edu.tw/p/406-1302-304185,r1495.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
             {
                 "title": "奈米工程與微系統研究所115年3月2日書報討論",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-303793,r1495.php?Lang=zh-tw",
@@ -16855,11 +16860,6 @@
                 "title": "奈米工程與微系統研究所114年10月20日書報討論",
                 "link": "https://nems.site.nthu.edu.tw/p/406-1302-297365,r1495.php?Lang=zh-tw",
                 "date": "2025-10-21"
-            },
-            {
-                "title": "奈米工程與微系統研究所114年10月13日書報討論",
-                "link": "https://nems.site.nthu.edu.tw/p/406-1302-296848,r1495.php?Lang=zh-tw",
-                "date": "2025-10-09"
             }
         ]
     },
@@ -19949,6 +19949,16 @@
         "department": "清華學院住宿書院",
         "articles": [
             {
+                "title": "【天下書院】3/18 聖派翠克節文化體驗",
+                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-304189,r6160.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
+            {
+                "title": "【清華創業日】挺清大創業團隊，抽SONY降噪耳機！",
+                "link": "https://rcollege.site.nthu.edu.tw/p/450-1103-304180,c0.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
+            {
                 "title": "【天下書院】3/12 宏都拉斯文化分享",
                 "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-303466,r6160.php?Lang=zh-tw",
                 "date": "2026-02-25"
@@ -20012,16 +20022,6 @@
                 "title": "【協助宣傳】文化部語言友善環境及創作應用與推廣補助作業要點115年第1次公告受理申請",
                 "link": "https://rcollege.site.nthu.edu.tw/p/450-1103-297448,c0.php?Lang=zh-tw",
                 "date": "2025-10-22"
-            },
-            {
-                "title": "【清華創業日｜競賽開放報名】創業競賽最高補助22萬，快來實現你的創業夢！活動簡章",
-                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-297386,r6160.php?Lang=zh-tw",
-                "date": "2025-10-21"
-            },
-            {
-                "title": "【清華創業日｜講座開放報名】從日常靈感到世界級專利：陳博士的創新思維實戰",
-                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-297169,r6160.php?Lang=zh-tw",
-                "date": "2025-10-16"
             }
         ]
     },
@@ -21801,6 +21801,11 @@
                 "date": "2025-03-21"
             },
             {
+                "title": "Student Dormitory Housing Fee Adjustment Briefing",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-304172,r1538.php?Lang=en",
+                "date": "2026-03-09"
+            },
+            {
                 "title": "【Division of Construction & Maintenance】3/5~10/2 Accessibility Improvement Works for Jen Dormitory and Shyr Dormitory",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-303693,c0.php?Lang=en",
                 "date": "2026-03-03"
@@ -21854,11 +21859,6 @@
                 "title": "2025 Student Housing Management Questionnaire Results and Prize Winners",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-299114,r1538.php?Lang=en",
                 "date": "2025-11-19"
-            },
-            {
-                "title": "Third Extended Registration for the 2026 Head Resident Election (Dorm Shiue)",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-299026,r1538.php?Lang=en",
-                "date": "2025-11-18"
             }
         ]
     },
@@ -21887,6 +21887,11 @@
                 "title": "114學年度住宿時程暨學年、暑期進退宿作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-285723,r1538.php?Lang=zh-tw",
                 "date": "2025-03-21"
+            },
+            {
+                "title": "學生宿舍住宿費調整說明會",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-304172,r1538.php?Lang=zh-tw",
+                "date": "2026-03-09"
             },
             {
                 "title": "【轉營繕組公告】3/5~3/7 學生宿舍區自來水水錶更換作業停水通知",
@@ -21937,11 +21942,6 @@
                 "title": "【轉事務組公告】115.01.07清華大學水質檢驗結果",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-301967,c0.php?Lang=zh-tw",
                 "date": "2026-01-15"
-            },
-            {
-                "title": "【轉營繕組公告】1/21~1/22 南大校區（樹德樓、崇德樓）電梯纜線更新工程",
-                "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-301946,c0.php?Lang=zh-tw",
-                "date": "2026-01-14"
             }
         ]
     },
@@ -22259,6 +22259,11 @@
         "language": "zh-tw",
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
+            {
+                "title": "學生宿舍住宿費調整說明會",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-304172,r8958.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
             {
                 "title": "校本部宿舍區仁、實齋紅外線門禁啟用公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-299197,r8958.php?Lang=zh-tw",
