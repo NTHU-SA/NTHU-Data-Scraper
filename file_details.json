@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a19e6e171f3356babc301a7b7f35ca579975d6cc",
-        "last_updated": "2026-03-09T11:10:36+08:00",
+        "last_commit": "b234f0553cb3ffb49a036f531c6c1fe136f59f56",
+        "last_updated": "2026-03-09T12:43:13+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "a19e6e171f3356babc301a7b7f35ca579975d6cc",
-        "last_updated": "2026-03-09T11:10:36+08:00",
+        "last_commit": "b234f0553cb3ffb49a036f531c6c1fe136f59f56",
+        "last_updated": "2026-03-09T12:43:13+08:00",
         "name": "dining.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "1c9ee3ea68d338f1543a3d9cb5b79d30fc432418",
-        "last_updated": "2026-02-26T16:22:21+08:00",
+        "last_commit": "b234f0553cb3ffb49a036f531c6c1fe136f59f56",
+        "last_updated": "2026-03-09T12:43:13+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1497,8 +1497,8 @@
         "name": "校內活動_zh-tw.json"
       },
       {
-        "last_commit": "e4f099923b7af1d1319498cd7775948acad161a7",
-        "last_updated": "2026-03-06T11:06:19+08:00",
+        "last_commit": "b234f0553cb3ffb49a036f531c6c1fe136f59f56",
+        "last_updated": "2026-03-09T12:43:13+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-09T11:10:36+08:00"
+  "last_updated": "2026-03-09T12:43:13+08:00"
 }
