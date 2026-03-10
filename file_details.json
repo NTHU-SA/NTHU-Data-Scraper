@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e88ab4e967bf667efb1b54bdbb58990d2d04a806",
-        "last_updated": "2026-03-11T00:29:12+08:00",
+        "last_commit": "d24104567ec7decccb0897812b8916a51e9e7e17",
+        "last_updated": "2026-03-11T02:25:41+08:00",
         "name": "announcements.json"
       },
       {
@@ -680,13 +680,13 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "6e439c84450906916ba56043e8544828a16331a2",
-        "last_updated": "2026-02-27T02:24:01+08:00",
+        "last_commit": "d24104567ec7decccb0897812b8916a51e9e7e17",
+        "last_updated": "2026-03-11T02:25:41+08:00",
         "name": "What's New_en.json"
       },
       {
-        "last_commit": "6e439c84450906916ba56043e8544828a16331a2",
-        "last_updated": "2026-02-27T02:24:01+08:00",
+        "last_commit": "d24104567ec7decccb0897812b8916a51e9e7e17",
+        "last_updated": "2026-03-11T02:25:41+08:00",
         "name": "新書展示_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-11T00:29:12+08:00"
+  "last_updated": "2026-03-11T02:25:41+08:00"
 }
