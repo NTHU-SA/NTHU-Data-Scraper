@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2b30a041331b72878a86aea28686a3a21fee8ce4",
-        "last_updated": "2026-03-12T12:40:55+08:00",
+        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
+        "last_updated": "2026-03-12T16:21:42+08:00",
         "name": "announcements.json"
       },
       {
@@ -391,8 +391,8 @@
     ],
     "announcements/工學院": [
       {
-        "last_commit": "1972b72345cba21c4f0903f95391325e0f520a4b",
-        "last_updated": "2026-03-09T16:22:27+08:00",
+        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
+        "last_updated": "2026-03-12T16:21:42+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "5d8afa77edb66acc96eba0856ee94e8e803c153f",
-        "last_updated": "2026-03-11T11:04:45+08:00",
+        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
+        "last_updated": "2026-03-12T16:21:42+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1191,8 +1191,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "74c8d389ae3d0ef8ac2a506297a768f943786df6",
-        "last_updated": "2026-03-09T18:24:04+08:00",
+        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
+        "last_updated": "2026-03-12T16:21:42+08:00",
         "name": "Recent Activities_en.json"
       },
       {
@@ -1206,8 +1206,8 @@
         "name": "學系動態_zh-tw.json"
       },
       {
-        "last_commit": "7ace0ed6cc8691a2ece05b2b63777dae8ac28f78",
-        "last_updated": "2026-03-10T18:20:45+08:00",
+        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
+        "last_updated": "2026-03-12T16:21:42+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1221,8 +1221,8 @@
         "name": "相關中心_zh-tw.json"
       },
       {
-        "last_commit": "7ace0ed6cc8691a2ece05b2b63777dae8ac28f78",
-        "last_updated": "2026-03-10T18:20:45+08:00",
+        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
+        "last_updated": "2026-03-12T16:21:42+08:00",
         "name": "醫學系：新聞_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-12T14:27:19+08:00"
+  "last_updated": "2026-03-12T16:21:42+08:00"
 }
