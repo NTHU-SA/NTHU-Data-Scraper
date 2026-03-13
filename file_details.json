@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d2e94a86deef9dfe163fbd7c17e3bce7a07a3aff",
-        "last_updated": "2026-03-13T12:40:23+08:00",
+        "last_commit": "bb839bf483622c180e0ab95b9f65777ebb0c52b0",
+        "last_updated": "2026-03-13T14:26:38+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "89119667603f0703642a1ebd51a05c60e30a459b",
-        "last_updated": "2026-03-12T14:27:19+08:00",
+        "last_commit": "bb839bf483622c180e0ab95b9f65777ebb0c52b0",
+        "last_updated": "2026-03-13T14:26:38+08:00",
         "name": "dining.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
-        "last_updated": "2026-03-12T16:21:42+08:00",
+        "last_commit": "bb839bf483622c180e0ab95b9f65777ebb0c52b0",
+        "last_updated": "2026-03-13T14:26:38+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "b410f732b3a7815a469c059d311bba6f7b89d786",
-        "last_updated": "2026-03-12T11:08:23+08:00",
+        "last_commit": "bb839bf483622c180e0ab95b9f65777ebb0c52b0",
+        "last_updated": "2026-03-13T14:26:38+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "b410f732b3a7815a469c059d311bba6f7b89d786",
-        "last_updated": "2026-03-12T11:08:23+08:00",
+        "last_commit": "bb839bf483622c180e0ab95b9f65777ebb0c52b0",
+        "last_updated": "2026-03-13T14:26:38+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-13T12:40:23+08:00"
+  "last_updated": "2026-03-13T14:26:38+08:00"
 }
