@@ -5,6 +5,11 @@
     "department": "總務處採購組",
     "articles": [
         {
+            "title": "[重要]近期出現假冒清大名義進行招標詢問郵件，請注意非本校發出之信件。",
+            "link": "https://purchase.site.nthu.edu.tw/p/406-1171-304678,r88.php?Lang=zh-tw",
+            "date": "2026-03-16"
+        },
+        {
             "title": "「國立清華大學科學技術研究發展採購作業實施要點」部份修正案已完成修訂，自114年01月01日起開始實施，請查照。",
             "link": "https://purchase.site.nthu.edu.tw/p/406-1171-280759,r88.php?Lang=zh-tw",
             "date": "2025-07-01"
@@ -58,11 +63,6 @@
             "title": "教育部函，檢送「運用AI辦理高風險廠商採購案件專案稽核」之精進態樣及改善建議",
             "link": "https://purchase.site.nthu.edu.tw/p/406-1171-301397,r88.php?Lang=zh-tw",
             "date": "2026-01-05"
-        },
-        {
-            "title": "數位發展部數位產業署函，擬調查115年第2次電腦軟體共同供應契約採購-雲端服務之需求品項，請查照。",
-            "link": "https://purchase.site.nthu.edu.tw/p/406-1171-300583,r88.php?Lang=zh-tw",
-            "date": "2025-12-17"
         }
     ]
 }
