@@ -153,6 +153,18 @@
             },
             {
                 "area": "水木生活中心1樓",
+                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/430369110.png",
+                "name": "芝芝越南料理",
+                "note": "3月每周六暫停營業。即將開業。",
+                "phone": "0960-903-800",
+                "schedule": {
+                    "saturday": "11:00-19:00",
+                    "sunday": "11:00-19:00",
+                    "weekday": "10:30-19:30"
+                }
+            },
+            {
+                "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/475541756.png",
                 "name": "韓棧鍋物",
                 "note": "3月每周六暫停營業。",
