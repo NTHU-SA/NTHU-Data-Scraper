@@ -2621,6 +2621,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學光電工程研究所 誠徵專案助理一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303098,r5075.php?Lang=zh-tw",
+                "date": "2026-03-16"
+            },
+            {
                 "title": "【徵才】國立清華大學科技管理學院誠徵國際認證專案經理 1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-304644,r5075.php?Lang=zh-tw",
                 "date": "2026-03-16"
@@ -2674,11 +2679,6 @@
                 "title": "【徵才】清華大學總務處事務組誠徵專案組員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298961,r5075.php?Lang=zh-tw",
                 "date": "2026-03-09"
-            },
-            {
-                "title": "【誠徵】清大圖書館特藏組誠徵校史業務(專案)工讀生（4月起）",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-304011,r5075.php?Lang=zh-tw",
-                "date": "2026-03-06"
             }
         ]
     },
@@ -2688,6 +2688,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學光電工程研究所 誠徵專案助理一名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303098,r5081.php?Lang=zh-tw",
+                "date": "2026-03-16"
+            },
             {
                 "title": "【徵才】國立清華大學科技管理學院誠徵國際認證專案經理 1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-304644,r5081.php?Lang=zh-tw",
@@ -2742,11 +2747,6 @@
                 "title": "【誠徵】資應所教育部計畫-專題計畫助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297272,r5081.php?Lang=zh-tw",
                 "date": "2026-03-02"
-            },
-            {
-                "title": "國立清華大學學習科學與科技研究所徵求所長啟事(115/3/12下午4:00截止)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-303565,c0.php?Lang=zh-tw",
-                "date": "2026-02-26"
             }
         ]
     },
@@ -8113,7 +8113,7 @@
                 "date": ""
             },
             {
-                "title": "115/3/12 EMI教師增能工作坊_活動紀錄",
+                "title": "【EMI教師增能工作坊】115.03.12 活動紀錄搶先看",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-304658,r10647.php?Lang=zh-tw",
                 "date": ""
             },
@@ -8148,7 +8148,7 @@
                 "date": ""
             },
             {
-                "title": "【3/12 EMI教師增能工作坊_資工系陳宜欣教授主講】3/10前報名 - NTHU EMI Faculty PD Workshop scheduled on 3/12",
+                "title": "【EMI教師增能工作坊】115.03.12 _資工系陳宜欣教授主講，3/10前報名 - NTHU EMI Faculty PD Workshop scheduled on 3/12",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-302866,r10647.php?Lang=zh-tw",
                 "date": ""
             },
@@ -10021,52 +10021,52 @@
         "articles": [
             {
                 "title": "【公告】115學年度碩士班在職專班放榜錄取名單(含報到須知)",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-303998,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-303998,r11.php?Lang=zh-tw",
                 "date": "2026-03-05"
             },
             {
                 "title": "【公告】115學年度初試合格名單",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-302136,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-302136,r11.php?Lang=zh-tw",
                 "date": "2026-01-21"
             },
             {
                 "title": "【115學年度】招生簡章，開始下載囉！",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-297813,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-297813,r11.php?Lang=zh-tw",
                 "date": "2025-11-04"
             },
             {
                 "title": "恭賀!!!DUAL EMBA(25級)  82歲 方英彥獲雙碩士!!!",
-                "link": "https://hba.site.nthu.edu.tw/p/450-1516-290879,c0.php",
+                "link": "https://hba.site.nthu.edu.tw/p/450-1516-290879,c0.php?Lang=zh-tw",
                 "date": "2025-06-19"
             },
             {
                 "title": "【公告】最新！114學年度碩士在職專班錄取名單",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-284074,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-284074,r11.php?Lang=zh-tw",
                 "date": "2025-03-03"
             },
             {
                 "title": "【114學年度學雜費調整公告】",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-283437,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-283437,r11.php?Lang=zh-tw",
                 "date": "2025-02-18"
             },
             {
                 "title": "【公告】114學年度初試合格名單",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-281797,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-281797,r11.php?Lang=zh-tw",
                 "date": "2025-01-22"
             },
             {
                 "title": "【公告】114學年度學雜費調整公聽會",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-281420,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-281420,r11.php?Lang=zh-tw",
                 "date": "2025-01-15"
             },
             {
                 "title": "【公告】👍114學年度招生簡章及考生資料表，開始下載囉！",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-278175,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-278175,r11.php?Lang=zh-tw",
                 "date": "2024-11-08"
             },
             {
                 "title": "【招生說明會】👍114學年度清華科管院在職專班招生說明會資訊",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-277486,r11.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-277486,r11.php?Lang=zh-tw",
                 "date": "2024-10-29"
             }
         ]
@@ -10079,62 +10079,62 @@
         "articles": [
             {
                 "title": "【公告】115學年度碩士班在職專班放榜錄取名單(含報到須知)",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-303998,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-303998,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【115學年度】招生簡章，開始下載囉！",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-297813,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-297813,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【公告】最新！114學年度碩士在職專班錄取名單",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-284074,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-284074,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【114學年度學雜費調整公告】",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-283437,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-283437,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【招生說明會】👍114學年度清華科管院在職專班招生說明會資訊",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-277486,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-277486,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【公告】最新！113學年度碩士在職專班錄取名單",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-264149,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-264149,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【公告】112學年度招生說明會-新竹場",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-238844,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-238844,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【公告】112學年度招生說明會-台北場",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-238847,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-238847,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【孫運璿科技講座演講】2022/4/28邀請到慈濟大學公共衛生學系葉金川榮譽教授，蒞臨分享健康與長壽議題，歡迎踴躍報名參加！",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-227417,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-227417,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【活動】110學年度<團隊建立與管理>課堂照片",
-                "link": "https://hba.site.nthu.edu.tw/p/450-1516-205626,c0.php",
+                "link": "https://hba.site.nthu.edu.tw/p/450-1516-205626,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【活動】110學年度招生說明會順利完成",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-193677,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-193677,r8721.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "【公告】110學年度招生說明會-台北場資訊",
-                "link": "https://hba.site.nthu.edu.tw/p/406-1516-188005,r8721.php",
+                "link": "https://hba.site.nthu.edu.tw/p/406-1516-188005,r8721.php?Lang=zh-tw",
                 "date": ""
             }
         ]
