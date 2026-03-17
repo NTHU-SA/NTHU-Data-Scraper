@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0a1f40f6ee969223db6704120e6ba956810ddd9c",
-        "last_updated": "2026-03-17T18:24:14+08:00",
+        "last_commit": "e4326f6ac2e93c310c5a81172206ad4a12442d61",
+        "last_updated": "2026-03-17T20:27:22+08:00",
         "name": "announcements.json"
       },
       {
@@ -1120,8 +1120,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "5fb664d1e435dcc189d148918e8c888d183ad768",
-        "last_updated": "2026-01-23T10:49:03+08:00",
+        "last_commit": "e4326f6ac2e93c310c5a81172206ad4a12442d61",
+        "last_updated": "2026-03-17T20:27:22+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1152,8 +1152,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "24cdbe21ae88a5da9140be4495ccc53c40e67385",
-        "last_updated": "2026-01-06T10:47:08+08:00",
+        "last_commit": "e4326f6ac2e93c310c5a81172206ad4a12442d61",
+        "last_updated": "2026-03-17T20:27:22+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-17T18:24:14+08:00"
+  "last_updated": "2026-03-17T20:27:22+08:00"
 }
