@@ -2825,6 +2825,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【活動快訊】客家電視台細細山路私密達校園放映會-新竹場次 國立清華大學教育館310視聽教室 3/19（四）19:00~21:00",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-304859,c0.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
+            {
                 "title": "【歡迎報名科技桃花源x沙龍】與AI共譜：貝多芬在21世紀×科技新樂章",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-303456,r5083.php?Lang=zh-tw",
                 "date": "2026-02-25"
@@ -2878,11 +2883,6 @@
                 "title": "歡迎報名【電影公播｜造山者－世紀的賭注】🎬",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297533,r5083.php?Lang=zh-tw",
                 "date": "2025-10-23"
-            },
-            {
-                "title": "2025 跨領域最佳化應用工作坊 CSR Workshop",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-296585,r5083.php?Lang=zh-tw",
-                "date": "2025-10-03"
             }
         ]
     },
@@ -6349,6 +6349,11 @@
                 "date": ""
             },
             {
+                "title": "【演講公告】3/27（五）13:20-16:20講座: 宋雨柔博士(講題:研究生國內外SSCI/SCI/TSSCI 期刊論文投稿寫作經驗分享)",
+                "link": "https://delt.site.nthu.edu.tw/p/406-1129-304854,r25.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【開放報名】國際學者講座 International Scholar Series : Dr. Benedek Kurdi",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-304760,r25.php?Lang=zh-tw",
                 "date": ""
@@ -6431,11 +6436,6 @@
             {
                 "title": "【演講公告】5/19（一）13:00-16:00講座:塞浦路斯大學教育系副教授 (本系碩士班可採計畢業門檻時數3小時)",
                 "link": "https://delt.site.nthu.edu.tw/p/406-1129-287886,r25.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【演講公告】4/25（五）13:20-16:20講座: 國立中山大學師資培育中心張宇慧助理教授(本系碩士班可採計畢業門檻時數3小時)",
-                "link": "https://delt.site.nthu.edu.tw/p/406-1129-287409,r25.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -8108,6 +8108,11 @@
                 "date": ""
             },
             {
+                "title": "114學年度名人講座：《語言出發，發覺跨領域的無限可能!》",
+                "link": "https://emi.site.nthu.edu.tw/p/406-1594-304856,r10647.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "英語文說寫能力檢測平台TEEMI 帳號申請",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-304846,r10647.php?Lang=zh-tw",
                 "date": ""
@@ -8155,11 +8160,6 @@
             {
                 "title": "【EMI教師增能工作坊】115.03.12 _資工系陳宜欣教授主講，3/10前報名 - NTHU EMI Faculty PD Workshop scheduled on 3/12",
                 "link": "https://emi.site.nthu.edu.tw/p/406-1594-302866,r10647.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【Off-site to UT Austin】2026 年暑期選送教師出國移地 EMI 培訓計畫",
-                "link": "https://emi.site.nthu.edu.tw/p/406-1594-302245,r10647.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -12056,6 +12056,11 @@
         "department": "工學院工業工程與工程管理學系",
         "articles": [
             {
+                "title": "人因工程在軍事訓練與後勤之應用-從實驗室到現地 演講者：石裕川教授 (國防大學運籌管理學系)",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-304858,r2715.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "深度強化學習於智慧製造之應用及方法延伸 演講者:洪子晏助理教授(臺北科技大學)",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-303807,r2715.php?Lang=zh-tw",
                 "date": ""
@@ -12108,11 +12113,6 @@
             {
                 "title": "IQ+ platform: Essential patent/IP landscaping tools with AI-driven semantic analysis engine 演講者：杜欣穎 產品協理 (涵堂資訊)",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-295792,r2715.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "智慧夾爪於非破壞檢測與感測辨識之應用 演講者：蔡佳宏 教授(國立陽明交通大學)",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-294943,r2715.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18917,6 +18917,11 @@
         "language": "zh-tw",
         "department": "理學院物理學系",
         "articles": [
+            {
+                "title": "Mar 25 @ 1:30 PM in L124, Diffuse Interface Description, Phase Field Method toward Image-Based Simulations of Material Microstructures-Applications in Battery Electrode Design, Prof. Hui-Chia Yu, Michigan State University",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-303644,r5959.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "Mar 20 at 14:30  Dr. Ariane Trudeau (ASIAA)--- A deep plunge into clusters and their galaxies(R521, Institute of Astronomy)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-304635,r5959.php?Lang=zh-tw",
