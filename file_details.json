@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a7d6f14d98ecac6dd79c3f3dca376c91159d847a",
-        "last_updated": "2026-03-18T08:47:07+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "235955e84de7250460cfd2ba581221998ef1c13b",
-        "last_updated": "2026-03-09T22:27:16+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "buses.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "d2e94a86deef9dfe163fbd7c17e3bce7a07a3aff",
-        "last_updated": "2026-03-13T12:40:23+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -577,8 +577,8 @@
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "ba2c019b331be051152c2823ba6e5b2067946014",
-        "last_updated": "2026-03-13T11:06:34+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "2605d6b757dd7a893e8db84e5e4815e09e00b5e2",
-        "last_updated": "2026-03-17T16:24:20+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1380,8 +1380,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "36e11477f75764cb1d00b38d9835f6a955fcd55c",
-        "last_updated": "2025-12-31T00:11:10+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "活動訊息_zh-tw.json"
       }
     ],
@@ -1399,8 +1399,8 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "3993a85efd9afc71867a03ae6abffc5774c2db2c",
-        "last_updated": "2026-03-17T12:42:51+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
@@ -1409,8 +1409,8 @@
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "3993a85efd9afc71867a03ae6abffc5774c2db2c",
-        "last_updated": "2026-03-17T12:42:51+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -1712,23 +1712,23 @@
     ],
     "announcements/總務處事務組": [
       {
-        "last_commit": "3ce479aa7c6cf8945f7f363aea91dc4a505f1c5e",
-        "last_updated": "2026-02-25T08:48:23+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "1292775949f8d8d26a182e1664bac1e4b70c9943",
-        "last_updated": "2026-03-05T12:40:25+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
-        "last_commit": "3ce479aa7c6cf8945f7f363aea91dc4a505f1c5e",
-        "last_updated": "2026-02-25T08:48:23+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "校園公車暨巡迴公車公告_en.json"
       },
       {
-        "last_commit": "1972b72345cba21c4f0903f95391325e0f520a4b",
-        "last_updated": "2026-03-09T16:22:27+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json"
       }
     ],
@@ -1920,13 +1920,13 @@
     ],
     "buses": [
       {
-        "last_commit": "31c68e6a6d49d1aa3c787c33648b85b644485113",
-        "last_updated": "2026-02-06T14:26:55+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "main_schedule_images.json"
       },
       {
-        "last_commit": "31c68e6a6d49d1aa3c787c33648b85b644485113",
-        "last_updated": "2026-02-06T14:26:55+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "nanda_schedule_images.json"
       },
       {
@@ -1935,8 +1935,8 @@
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "4fe244b895f11cd76eb39c0f21acda57ea4ce9eb",
-        "last_updated": "2026-02-13T20:21:29+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
@@ -1945,8 +1945,8 @@
         "name": "towardNandaInfo.json"
       },
       {
-        "last_commit": "4fe244b895f11cd76eb39c0f21acda57ea4ce9eb",
-        "last_updated": "2026-02-13T20:21:29+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
@@ -1992,23 +1992,23 @@
     ],
     "buses/images": [
       {
-        "last_commit": "31c68e6a6d49d1aa3c787c33648b85b644485113",
-        "last_updated": "2026-02-06T14:26:55+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "main_0.jpg"
       },
       {
-        "last_commit": "31c68e6a6d49d1aa3c787c33648b85b644485113",
-        "last_updated": "2026-02-06T14:26:55+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "main_1.jpg"
       },
       {
-        "last_commit": "31c68e6a6d49d1aa3c787c33648b85b644485113",
-        "last_updated": "2026-02-06T14:26:55+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "nanda_0.jpg"
       },
       {
-        "last_commit": "31c68e6a6d49d1aa3c787c33648b85b644485113",
-        "last_updated": "2026-02-06T14:26:55+08:00",
+        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
+        "last_updated": "2026-03-18T11:12:21+08:00",
         "name": "nanda_1.jpg"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-18T08:47:07+08:00"
+  "last_updated": "2026-03-18T11:12:21+08:00"
 }

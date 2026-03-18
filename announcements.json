@@ -346,6 +346,11 @@
                 "date": "2026-02-04"
             },
             {
+                "title": "115學年度大學「繁星推薦」入學錄取結果查詢(含錄取通知)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-304545,r1132.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
+            {
                 "title": "115學年度學士班運動績優學生單獨招生報名人數統計表",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-304440,r1132.php?Lang=zh-tw",
                 "date": "2026-03-12"
@@ -434,11 +439,6 @@
                 "title": "115學年度大學「繁星推薦」、「申請入學」、「分發入學」簡章公告",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-298167,r1132.php?Lang=zh-tw",
                 "date": "2025-11-04"
-            },
-            {
-                "title": "115學年度學士班特殊選才(拾穗計畫)報名人數統計表",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-297694,r1132.php?Lang=zh-tw",
-                "date": "2025-10-28"
             }
         ]
     },
@@ -884,6 +884,11 @@
         "department": "總務處事務組",
         "articles": [
             {
+                "title": "NTHU Shuttle Bus Timetable 2026/03/23~2026/04/25.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-304823,r1065.php?Lang=en",
+                "date": ""
+            },
+            {
                 "title": "The Campus Shuttle Bus will be out of service on 2/27～3/1.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r1065.php?Lang=en",
                 "date": ""
@@ -937,11 +942,6 @@
                 "title": "Renew NTHU Shuttle Bus Timetable 2025/11/3~2025/12/20.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297757,r1065.php?Lang=en",
                 "date": ""
-            },
-            {
-                "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2025/11/3~2025/12/21.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297756,r1065.php?Lang=en",
-                "date": ""
             }
         ]
     },
@@ -951,6 +951,16 @@
         "language": "zh-tw",
         "department": "總務處事務組",
         "articles": [
+            {
+                "title": "更新3/23(一)~4/26(日)南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-304826,r1065.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
+            {
+                "title": "3/23(一)~4/25(六)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-304823,r1065.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
             {
                 "title": "2/23(一)~3/22(日)南大校區區間車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302893,r1065.php?Lang=zh-tw",
@@ -1000,16 +1010,6 @@
                 "title": "114/12/22(一)~115/2/13(五)寒假期間校園公車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300563,r1065.php?Lang=zh-tw",
                 "date": "2025-12-17"
-            },
-            {
-                "title": "114/12/22(一)~115/2/13(五)寒假期間南大校區區間車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300564,r1065.php?Lang=zh-tw",
-                "date": "2025-12-17"
-            },
-            {
-                "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r1065.php?Lang=zh-tw",
-                "date": "2026-01-16"
             }
         ]
     },
@@ -1019,6 +1019,16 @@
         "language": "en",
         "department": "總務處事務組",
         "articles": [
+            {
+                "title": "Renew Nanda <-> Main Campus Shuttle Bus Timetable 2026/3/23~2026/4/26.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-304826,r127.php?Lang=en",
+                "date": "2026-03-18"
+            },
+            {
+                "title": "NTHU Shuttle Bus Timetable 2026/03/23~2026/04/25.",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-304823,r127.php?Lang=en",
+                "date": "2026-03-18"
+            },
             {
                 "title": "The Campus Shuttle Bus will be out of service on 2/27～3/1.",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303427,r127.php?Lang=en",
@@ -1068,16 +1078,6 @@
                 "title": "The Campus Shuttle Bus will be changed on 11/12(Sports Day).",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298502,r127.php?Lang=en",
                 "date": "2025-11-10"
-            },
-            {
-                "title": "Renew NTHU Shuttle Bus Timetable 2025/11/3~2025/12/20.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297757,r127.php?Lang=en",
-                "date": "2025-10-29"
-            },
-            {
-                "title": "Nanda <-> Main Campus Shuttle Bus Timetable 2025/11/3~2025/12/21.",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-297756,r127.php?Lang=en",
-                "date": "2025-10-29"
             }
         ]
     },
@@ -1087,6 +1087,16 @@
         "language": "zh-tw",
         "department": "總務處事務組",
         "articles": [
+            {
+                "title": "更新3/23(一)~4/26(日)南大校區區間車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-304826,r127.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
+            {
+                "title": "3/23(一)~4/25(六)校園公車時刻表",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-304823,r127.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
             {
                 "title": "115/5/30畢業典禮光復路北大門花卉零售等設攤申請",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-303930,r127.php?Lang=zh-tw",
@@ -1136,16 +1146,6 @@
                 "title": "115學年度碩士班考試2/2(一)、2/4(三)及2/5(四)校園公車時刻表",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302042,r127.php?Lang=zh-tw",
                 "date": "2026-01-16"
-            },
-            {
-                "title": "元旦115年1月1日(四)校園公車及南大校區區間車停駛",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-301094,r127.php?Lang=zh-tw",
-                "date": "2025-12-29"
-            },
-            {
-                "title": "114/12/22(一)~115/2/13(五)寒假期間南大校區區間車時刻表",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-300564,r127.php?Lang=zh-tw",
-                "date": "2025-12-17"
             }
         ]
     },
@@ -1524,6 +1524,11 @@
         "department": "校友服務及資源發展處校友中心、校友總會",
         "articles": [
             {
+                "title": "【免費索票】超越115-清華校慶音樂會 衛武營國家音樂廳登場",
+                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-304831,r4272.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
+            {
                 "title": "【歡迎報名】在世界變動中創造未來——清華創校115週年跨界對話論壇",
                 "link": "https://alumni.site.nthu.edu.tw/p/406-1346-303637,r4272.php?Lang=zh-tw",
                 "date": "2026-03-16"
@@ -1544,6 +1549,16 @@
                 "date": "2026-03-11"
             },
             {
+                "title": "【歡迎參加】水木清韻–2026 校友合唱團校慶音樂會–憶我清華",
+                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-304152,r4272.php?Lang=zh-tw",
+                "date": "2026-03-09"
+            },
+            {
+                "title": "2026值年校友專屬紀念品兌換活動",
+                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-303900,r4272.php?Lang=zh-tw",
+                "date": "2026-03-05"
+            },
+            {
                 "title": "賀！本校徐明志校友（材料系80B）升任聯電總經理暨營運長，並成為董事會成員",
                 "link": "https://alumni.site.nthu.edu.tw/p/450-1346-303512,c0.php?Lang=zh-tw",
                 "date": "2026-02-26"
@@ -1557,21 +1572,6 @@
                 "title": "賀！本校蕭菊貞校友（經濟系 94B）榮獲第13屆楊士琪紀念獎！",
                 "link": "https://alumni.site.nthu.edu.tw/p/450-1346-302798,c0.php?Lang=zh-tw",
                 "date": "2026-02-05"
-            },
-            {
-                "title": "駿馬奔騰迎新歲 第27屆傑出校友名單揭曉（清華校友電子報第160期-2026-01-23）",
-                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-302103,r4272.php?Lang=zh-tw",
-                "date": "2026-01-23"
-            },
-            {
-                "title": "【清華人故事館】從電路板到無甲醛環保材料  工研院技術長林顯光的探索與堅持",
-                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-301326,r4272.php?Lang=zh-tw",
-                "date": "2026-01-23"
-            },
-            {
-                "title": "【清華Oh！麻吉】Hello World 脆脆燕麥專賣店｜把理工的細節，做成一口燕麥向世界問好",
-                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-302134,r4272.php?Lang=zh-tw",
-                "date": "2026-01-20"
             }
         ]
     },
@@ -3964,6 +3964,11 @@
         "department": "師資培育中心",
         "articles": [
             {
+                "title": "【教師資格考試】115年臺師大辦理教師資格考試試題及試務線上宣導說明會報名公告",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-265622,r48.php?Lang=zh-tw",
+                "date": "2026-03-18"
+            },
+            {
                 "title": "115年學術研討會徵稿公告：即日起至 4 月 17 日止",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-302050,r48.php?Lang=zh-tw",
                 "date": "2026-01-20"
@@ -4006,11 +4011,6 @@
             {
                 "title": "【海外見習】114年度  「雙」軌並進，「伊」探究STEAM新境：美國幼兒園教育見習計畫徵選公告",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-303233,r48.php?Lang=zh-tw",
-                "date": "2026-02-13"
-            },
-            {
-                "title": "【海外見習】114年度「日」新輝光:師資生日本大阪中華學校見習計畫徵選公告",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-303226,r48.php?Lang=zh-tw",
                 "date": "2026-02-13"
             }
         ]
@@ -7697,6 +7697,11 @@
                 "date": ""
             },
             {
+                "title": "【竹師教育學院】2026 Fall 韓國春川教育大學出國交換計畫",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-304830,r4.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【開放教師報名】3/19 國際學者午餐交流會｜Networking Lunch ✨",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-304757,r4.php?Lang=zh-tw",
                 "date": ""
@@ -7740,11 +7745,6 @@
                 "title": "交換生分享午餐會｜Exchange Student Lunch Sharing",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-299716,r4.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "頂尖學者講座 : 國際學者系列 Professor Timothy Teo",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-299092,r4.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -7754,6 +7754,11 @@
         "language": "zh-tw",
         "department": "竹師教育學院",
         "articles": [
+            {
+                "title": "【竹師教育學院】2026 Fall 韓國春川教育大學出國交換計畫",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-304830,r70.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "【開放教師報名】3/19 國際學者午餐交流會｜Networking Lunch ✨",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-304757,r70.php?Lang=zh-tw",
@@ -7807,11 +7812,6 @@
             {
                 "title": "【竹師教育學院】2026 Fall 日本早稻田大學社會科學總合學術院出國交換計畫",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-303308,r70.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "🌕 Lantern Festival English Exchange Gathering 元宵節英語交流活動",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-303298,r70.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -9391,6 +9391,11 @@
         "department": "秘書處性別平等教育委員會",
         "articles": [
             {
+                "title": "【活動轉知】高雄女權會研發《性別平等求好籤》桌遊教具",
+                "link": "https://gencom.site.nthu.edu.tw/p/406-1344-304819,r863.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【活動轉知】凝視與欲望的性別政治：日泰BL劇中的男性親密關係的再現比較",
                 "link": "https://gencom.site.nthu.edu.tw/p/406-1344-297938,r863.php?Lang=zh-tw",
                 "date": ""
@@ -9443,11 +9448,6 @@
             {
                 "title": "【活動宣傳】108/4/22(一)、4/24(三) 性x愛x暴力 - 性暴力主題講座",
                 "link": "https://gencom.site.nthu.edu.tw/p/406-1344-155834,r863.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【活動轉知】4/13-4/14【打破沉默，揭發隱匿--面對校園性犯罪之台日經驗交流】",
-                "link": "https://gencom.site.nthu.edu.tw/p/406-1344-154850,r863.php?Lang=zh-tw",
                 "date": ""
             }
         ]
