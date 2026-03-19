@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "baf95a038a578feef19b951d48beb5e81b25375e",
-        "last_updated": "2026-03-19T12:46:18+08:00",
+        "last_commit": "908ac5a464d6ef4ee5019a9db9fcf49476c6509d",
+        "last_updated": "2026-03-19T14:30:36+08:00",
         "name": "announcements.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "d3e3fcfe0d9d4e7b401fc538898fa2b6b4c32a8c",
-        "last_updated": "2026-03-18T14:33:52+08:00",
+        "last_commit": "908ac5a464d6ef4ee5019a9db9fcf49476c6509d",
+        "last_updated": "2026-03-19T14:30:36+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -953,8 +953,8 @@
     ],
     "announcements/清華學院清華學院學士班": [
       {
-        "last_commit": "b410f732b3a7815a469c059d311bba6f7b89d786",
-        "last_updated": "2026-03-12T11:08:23+08:00",
+        "last_commit": "908ac5a464d6ef4ee5019a9db9fcf49476c6509d",
+        "last_updated": "2026-03-19T14:30:36+08:00",
         "name": "創新學制專區_zh-tw.json"
       },
       {
@@ -1758,13 +1758,13 @@
     ],
     "announcements/總務處南大校區 總務行政組": [
       {
-        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
-        "last_updated": "2025-11-19T10:39:42+08:00",
+        "last_commit": "908ac5a464d6ef4ee5019a9db9fcf49476c6509d",
+        "last_updated": "2026-03-19T14:30:36+08:00",
         "name": "News!_en.json"
       },
       {
-        "last_commit": "1c7be7a3d046695d814fa9ff455e01f932eafbdf",
-        "last_updated": "2025-11-19T10:39:42+08:00",
+        "last_commit": "908ac5a464d6ef4ee5019a9db9fcf49476c6509d",
+        "last_updated": "2026-03-19T14:30:36+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-19T12:46:18+08:00"
+  "last_updated": "2026-03-19T14:30:36+08:00"
 }
