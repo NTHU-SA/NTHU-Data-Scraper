@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
-        "last_updated": "2026-03-18T11:12:21+08:00",
+        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
+        "last_updated": "2026-03-23T08:49:08+08:00",
         "name": "buses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "f05c9eae1f693ed44553963b27cbe1c9536695f0",
-        "last_updated": "2026-03-20T14:28:21+08:00",
+        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
+        "last_updated": "2026-03-23T08:49:08+08:00",
         "name": "dining.json"
       },
       {
@@ -1930,8 +1930,8 @@
         "name": "nanda_schedule_images.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
+        "last_updated": "2026-03-23T08:49:08+08:00",
         "name": "towardMainCampusInfo.json"
       },
       {
@@ -1940,8 +1940,8 @@
         "name": "towardMainGateInfo.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
+        "last_updated": "2026-03-23T08:49:08+08:00",
         "name": "towardNandaInfo.json"
       },
       {
@@ -1950,8 +1950,8 @@
         "name": "towardTSMCBuildingInfo.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
+        "last_updated": "2026-03-23T08:49:08+08:00",
         "name": "weekdayBusScheduleTowardMainCampus.json"
       },
       {
@@ -1960,8 +1960,8 @@
         "name": "weekdayBusScheduleTowardMainGate.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
+        "last_updated": "2026-03-23T08:49:08+08:00",
         "name": "weekdayBusScheduleTowardNanda.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-23T00:12:25+08:00"
+  "last_updated": "2026-03-23T08:49:08+08:00"
 }
