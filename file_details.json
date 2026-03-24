@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ac52b196205a5b95146e8d77ee4569c6b1f976f4",
-        "last_updated": "2026-03-24T16:23:58+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "dfee69e825d104e033b0993470e50f4b53acfc6d",
-        "last_updated": "2026-03-24T14:33:24+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "dining.json"
       },
       {
@@ -587,8 +587,8 @@
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "cacd73628d1b7261700acabb296e3445aa2b9934",
-        "last_updated": "2026-03-24T11:09:25+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "81c51c9ecd0e18eba5ec516c8003f8c5eeafc3b9",
-        "last_updated": "2026-03-21T00:21:34+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "cacd73628d1b7261700acabb296e3445aa2b9934",
-        "last_updated": "2026-03-24T11:09:25+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "cacd73628d1b7261700acabb296e3445aa2b9934",
-        "last_updated": "2026-03-24T11:09:25+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "cacd73628d1b7261700acabb296e3445aa2b9934",
-        "last_updated": "2026-03-24T11:09:25+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -968,8 +968,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "8d630c6d047ef8b29898d2d8b906980462293eab",
-        "last_updated": "2026-01-15T12:24:51+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
@@ -1120,8 +1120,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "ea2c1a22aa5185086f7357c1568dbe2234fc723e",
-        "last_updated": "2026-03-23T18:28:52+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "561dd28467d8caf513fe4c5780a7e0ff3f834f4c",
-        "last_updated": "2026-03-20T11:07:18+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1152,8 +1152,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "e4326f6ac2e93c310c5a81172206ad4a12442d61",
-        "last_updated": "2026-03-17T20:27:22+08:00",
+        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
+        "last_updated": "2026-03-24T18:24:44+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-24T16:23:58+08:00"
+  "last_updated": "2026-03-24T18:24:44+08:00"
 }
