@@ -18,7 +18,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/493860069.jpg",
                 "name": "麥當勞",
-                "note": "3/24早餐、午餐暫停營業。",
+                "note": "",
                 "phone": "(03)572-7801",
                 "schedule": {
                     "saturday": "7:00-24:00",
@@ -95,7 +95,7 @@
                 "schedule": {
                     "saturday": "11:00-20:00",
                     "sunday": "11:00-20:00",
-                    "weekday": "11:00-140:00,17:00-20:00"
+                    "weekday": "11:00-14:00,17:00-20:00"
                 }
             },
             {
@@ -155,7 +155,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/430369110.png",
                 "name": "芝芝越南料理",
-                "note": "3月每周六暫停營業。即將開業。",
+                "note": "3月每周六暫停營業，3/29(日)正式營運。",
                 "phone": "0960-903-800",
                 "schedule": {
                     "saturday": "10:30-20:00",
