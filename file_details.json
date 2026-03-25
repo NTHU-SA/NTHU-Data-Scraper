@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e51806cc9e3c37bf0494fad5c18830422b6a07c3",
-        "last_updated": "2026-03-25T18:24:27+08:00",
+        "last_commit": "fc216f91c646649c0115579c52fc11ed36783c0c",
+        "last_updated": "2026-03-26T00:34:29+08:00",
         "name": "announcements.json"
       },
       {
@@ -902,8 +902,8 @@
     ],
     "announcements/清華學院": [
       {
-        "last_commit": "640f078817dd6ead003953aa90c3cb7a105205dd",
-        "last_updated": "2026-03-20T00:26:49+08:00",
+        "last_commit": "fc216f91c646649c0115579c52fc11ed36783c0c",
+        "last_updated": "2026-03-26T00:34:29+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "cacd73628d1b7261700acabb296e3445aa2b9934",
-        "last_updated": "2026-03-24T11:09:25+08:00",
+        "last_commit": "fc216f91c646649c0115579c52fc11ed36783c0c",
+        "last_updated": "2026-03-26T00:34:29+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "b3df4ae09f147b82ebbf1fdbbdf8c8c743ea795f",
-        "last_updated": "2026-03-25T00:31:09+08:00",
+        "last_commit": "fc216f91c646649c0115579c52fc11ed36783c0c",
+        "last_updated": "2026-03-26T00:34:29+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-25T18:24:27+08:00"
+  "last_updated": "2026-03-26T00:34:29+08:00"
 }
