@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fc5244159df4b6214ce745f5b85b03d58f124d54",
-        "last_updated": "2026-03-27T00:34:23+08:00",
+        "last_commit": "885ae8b61e2d5fd3de732b6a868f05d6ded275c2",
+        "last_updated": "2026-03-27T08:50:23+08:00",
         "name": "announcements.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "63f3311b8053355d6ee353922c21af693cc278c3",
-        "last_updated": "2026-03-25T12:45:35+08:00",
+        "last_commit": "885ae8b61e2d5fd3de732b6a868f05d6ded275c2",
+        "last_updated": "2026-03-27T08:50:23+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-27T06:12:11+08:00"
+  "last_updated": "2026-03-27T08:50:23+08:00"
 }
