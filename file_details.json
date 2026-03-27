@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3bd1c1e598dd454c22079ffbd9a821ee1fc4cb9f",
-        "last_updated": "2026-03-27T11:14:10+08:00",
+        "last_commit": "94300c0853319c21627c94932f43a1f3bf90581f",
+        "last_updated": "2026-03-27T12:54:24+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "1980ea3c8c7adceedadd23462a6557000eb4f3f1",
-        "last_updated": "2026-03-26T14:35:57+08:00",
+        "last_commit": "94300c0853319c21627c94932f43a1f3bf90581f",
+        "last_updated": "2026-03-27T12:54:24+08:00",
         "name": "dining.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "3bd1c1e598dd454c22079ffbd9a821ee1fc4cb9f",
-        "last_updated": "2026-03-27T11:14:10+08:00",
+        "last_commit": "94300c0853319c21627c94932f43a1f3bf90581f",
+        "last_updated": "2026-03-27T12:54:24+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "3bd1c1e598dd454c22079ffbd9a821ee1fc4cb9f",
-        "last_updated": "2026-03-27T11:14:10+08:00",
+        "last_commit": "94300c0853319c21627c94932f43a1f3bf90581f",
+        "last_updated": "2026-03-27T12:54:24+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-27T11:14:10+08:00"
+  "last_updated": "2026-03-27T12:54:24+08:00"
 }
