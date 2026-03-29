@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c716b0228f727689ba7bb6f760badc670fa7ae3d",
-        "last_updated": "2026-03-29T00:14:24+08:00",
+        "last_commit": "c7d589e3867f73b0b2158fa6a3f7bb56c6842b26",
+        "last_updated": "2026-03-29T11:14:01+08:00",
         "name": "announcements.json"
       },
       {
@@ -1334,8 +1334,8 @@
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
       {
-        "last_commit": "0fcf66134a5e3d755038c5fa9b59246cdf15d9bc",
-        "last_updated": "2026-03-28T04:17:13+08:00",
+        "last_commit": "c7d589e3867f73b0b2158fa6a3f7bb56c6842b26",
+        "last_updated": "2026-03-29T11:14:01+08:00",
         "name": "訊息分類_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-29T00:14:24+08:00"
+  "last_updated": "2026-03-29T11:14:01+08:00"
 }
