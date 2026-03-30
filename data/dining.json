@@ -18,7 +18,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/493860069.jpg",
                 "name": "麥當勞",
-                "note": "3/28早餐、午餐暫停營業。",
+                "note": "",
                 "phone": "(03)572-7801",
                 "schedule": {
                     "saturday": "7:00-24:00",
@@ -30,7 +30,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/181736273.jpg",
                 "name": "比司多早午餐",
-                "note": "每週日暫停營業。3/28、4/4、4/26暫停營業。",
+                "note": "每週日暫停營業。4/4、4/26暫停營業。",
                 "phone": "0987-650-554",
                 "schedule": {
                     "saturday": "7:00-14:00",
@@ -42,7 +42,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/123484737.jpg",
                 "name": "漢城異國美食",
-                "note": "3月每周日暫停營業。3/28午餐暫停營業。",
+                "note": "3月每周日暫停營業",
                 "phone": "0911-684-701",
                 "schedule": {
                     "saturday": "11:00-20:00",
@@ -66,7 +66,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/353914610.jpg",
                 "name": "一番快餐",
-                "note": "3月每周日暫停營業。3/28暫停營業。",
+                "note": "3月每周日暫停營業",
                 "phone": "0933-511-522",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -114,7 +114,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/174010305.jpg",
                 "name": "珈名鮮茶",
-                "note": "3月每周日暫停營業。3/28暫停營業。",
+                "note": "3月每周日暫停營業",
                 "phone": "0952-173-353，0953-173-353",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -388,7 +388,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/552232961.jpg",
                 "name": "五全丼食所",
-                "note": "3月每周日暫停營業。3/28暫停營業。",
+                "note": "3月每周日暫停營業",
                 "phone": "0916-325-189(可外送)",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-19:30",
@@ -424,7 +424,7 @@
                 "area": "風雲2樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/659126159.jpg",
                 "name": "友記快餐館",
-                "note": "3月每周日暫停營業。3/27晚餐、4/2暫停營業。",
+                "note": "3月每周日暫停營業。4/2暫停營業。",
                 "phone": "0918-609-833",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -520,7 +520,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/461802499.jpg",
                 "name": "珍御品粥麵館",
-                "note": "3月每周日暫停營業。3/27、4/2-4/5暫停營業。",
+                "note": "3月每周日暫停營業。4/2-4/5暫停營業。",
                 "phone": "0937-135-706，0911-892-772",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -544,7 +544,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/399145684.jpg",
                 "name": "瑪尼卡巴",
-                "note": "3月每周日暫停營業。3/28，4/2-4/5暫停營業。",
+                "note": "3月每周日暫停營業。4/2-4/5暫停營業。",
                 "phone": "0915-934-275",
                 "schedule": {
                     "saturday": "11:30-14:30, 16:30-19:30",
