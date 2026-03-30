@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c6eaedc9f6b9d46524609d2d7a7a0e5bf3dcb642",
-        "last_updated": "2026-03-30T20:30:59+08:00",
+        "last_commit": "1a6eaae5fc975133ed83257e2b32e6ac364ca338",
+        "last_updated": "2026-03-30T22:40:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -391,8 +391,8 @@
     ],
     "announcements/工學院": [
       {
-        "last_commit": "c6eaedc9f6b9d46524609d2d7a7a0e5bf3dcb642",
-        "last_updated": "2026-03-30T20:30:59+08:00",
+        "last_commit": "1a6eaae5fc975133ed83257e2b32e6ac364ca338",
+        "last_updated": "2026-03-30T22:40:26+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-30T20:30:59+08:00"
+  "last_updated": "2026-03-30T22:40:26+08:00"
 }
