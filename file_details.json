@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1a6eaae5fc975133ed83257e2b32e6ac364ca338",
-        "last_updated": "2026-03-30T22:40:26+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,13 +51,13 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "94300c0853319c21627c94932f43a1f3bf90581f",
-        "last_updated": "2026-03-27T12:54:24+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "d34003274a46465b37eab669c240f4049a878e47",
-        "last_updated": "2026-03-26T08:49:54+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -626,8 +626,8 @@
         "name": "Graduation Process_en.json"
       },
       {
-        "last_commit": "82007260d25e0bc5864796ba4eefa2600c6d3526",
-        "last_updated": "2026-03-30T14:49:23+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "News_en.json"
       },
       {
@@ -865,8 +865,8 @@
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "4ed3db7d12ea9c7f31b1d6f53dcd6bb5a62f08c9",
-        "last_updated": "2026-03-30T16:42:36+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
@@ -890,8 +890,8 @@
         "name": "校外徵才_zh-tw.json"
       },
       {
-        "last_commit": "d3e3fcfe0d9d4e7b401fc538898fa2b6b4c32a8c",
-        "last_updated": "2026-03-18T14:33:52+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "藝文活動_zh-tw.json"
       },
       {
@@ -1021,8 +1021,8 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "82007260d25e0bc5864796ba4eefa2600c6d3526",
-        "last_updated": "2026-03-30T14:49:23+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "All seminar_en.json"
       },
       {
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "62e2039aaa4cc50e38769e40d28a619fee1528bd",
-        "last_updated": "2026-03-30T18:37:03+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -1482,8 +1482,8 @@
         "name": "學術訊息_zh-tw.json"
       },
       {
-        "last_commit": "cd6e3b04ee85accb6a5722941f75e9b8f0f7656b",
-        "last_updated": "2026-03-18T12:47:09+08:00",
+        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
+        "last_updated": "2026-03-31T00:29:54+08:00",
         "name": "徵才訊息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-30T22:40:26+08:00"
+  "last_updated": "2026-03-31T00:29:54+08:00"
 }
