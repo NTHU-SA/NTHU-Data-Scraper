@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "4ed3db7d12ea9c7f31b1d6f53dcd6bb5a62f08c9",
-        "last_updated": "2026-03-30T16:42:36+08:00",
+        "last_commit": "62e2039aaa4cc50e38769e40d28a619fee1528bd",
+        "last_updated": "2026-03-30T18:37:03+08:00",
         "name": "announcements.json"
       },
       {
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "82007260d25e0bc5864796ba4eefa2600c6d3526",
-        "last_updated": "2026-03-30T14:49:23+08:00",
+        "last_commit": "62e2039aaa4cc50e38769e40d28a619fee1528bd",
+        "last_updated": "2026-03-30T18:37:03+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -1529,8 +1529,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "ea2c1a22aa5185086f7357c1568dbe2234fc723e",
-        "last_updated": "2026-03-23T18:28:52+08:00",
+        "last_commit": "62e2039aaa4cc50e38769e40d28a619fee1528bd",
+        "last_updated": "2026-03-30T18:37:03+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-30T16:42:36+08:00"
+  "last_updated": "2026-03-30T18:37:03+08:00"
 }
