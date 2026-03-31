@@ -30,7 +30,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/181736273.jpg",
                 "name": "比司多早午餐",
-                "note": "每週日暫停營業。4/4、4/26暫停營業。",
+                "note": "每週日暫停營業。4/4-4/5、4/26暫停營業。",
                 "phone": "0987-650-554",
                 "schedule": {
                     "saturday": "7:00-14:00",
@@ -42,7 +42,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/123484737.jpg",
                 "name": "漢城異國美食",
-                "note": "3月每周日暫停營業",
+                "note": "3月每周日暫停營業，4/3-4/4暫停營業。",
                 "phone": "0911-684-701",
                 "schedule": {
                     "saturday": "11:00-20:00",
@@ -54,7 +54,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/714004706.jpg",
                 "name": "蘇記牛肉麵",
-                "note": "3月每周六暫停營業。",
+                "note": "3月每周六暫停營業。4/5-4/6暫停營業。",
                 "phone": "0911-333-292",
                 "schedule": {
                     "saturday": "11:00-14:00, 17:00-20:00",
@@ -90,7 +90,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/209038273.png",
                 "name": "好富熟成黑咖哩.台式蓋飯",
-                "note": "3月每周六暫停營業。 即將開業。",
+                "note": "3月每周六暫停營業，4/5-4/6暫停營業。 ",
                 "phone": "0985-999-527 ",
                 "schedule": {
                     "saturday": "11:00-20:00",
@@ -102,7 +102,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/apple.jpg",
                 "name": "Straight A",
-                "note": "週六至週日及國定假日暫停營業",
+                "note": "週六至週日及國定假日暫停營業，4/3-4/6暫停營業。",
                 "phone": "(03)571-4647",
                 "schedule": {
                     "saturday": "週一至週五11:00-19:00",
@@ -114,7 +114,7 @@
                 "area": "小吃部",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/174010305.jpg",
                 "name": "珈名鮮茶",
-                "note": "3月每周日暫停營業",
+                "note": "3月每周日暫停營業，4/3-4/6暫停營業。",
                 "phone": "0952-173-353，0953-173-353",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -131,7 +131,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/682936518.jpg",
                 "name": "全家便利商店",
-                "note": "",
+                "note": "4/3-4/6營業時間:8:00-22:00",
                 "phone": "0938-857-197",
                 "schedule": {
                     "saturday": "7:00-24:00",
@@ -143,7 +143,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/695790078.jpg",
                 "name": "蓉城吳抄手",
-                "note": "3月每周六暫停營業。",
+                "note": "3月每周六暫停營業。4/5-4/6暫停營業。",
                 "phone": "0910034519、0918850520",
                 "schedule": {
                     "saturday": "10:30-19:30",
@@ -155,7 +155,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/430369110.png",
                 "name": "芝芝越南料理",
-                "note": "3月每周六暫停營業，",
+                "note": "3月每周六暫停營業，4/5-4/6暫停營業。",
                 "phone": "0960-903-800",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -167,7 +167,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/475541756.png",
                 "name": "韓棧鍋物",
-                "note": "3月每周六暫停營業。",
+                "note": "3月每周六暫停營業。4/5-4/6暫停營業。",
                 "phone": "0936-904-478(可外送)",
                 "schedule": {
                     "saturday": "11:00-13:45,16:00-19:45",
@@ -191,7 +191,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img//small/S__130465795.jpg",
                 "name": "朕豪自助餐",
-                "note": "每週六、日暫停營業。",
+                "note": "每週六、日暫停營業。4/5-4/6暫停營業。",
                 "phone": "0911-928-367",
                 "schedule": {
                     "saturday": "10:30-13:15,16:30-19:15",
@@ -203,7 +203,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/899436445.jpg",
                 "name": "A華加湯滷味",
-                "note": "3月星期六暫停營業",
+                "note": "3月星期六暫停營業。4/5-4/6暫停營業。",
                 "phone": "0917-523-901",
                 "schedule": {
                     "saturday": "11:00-21:00",
@@ -215,7 +215,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/317593041.jpg",
                 "name": "四海遊龍",
-                "note": "3月每周六暫停營業。4/2午餐暫停營業。",
+                "note": "3月每周六暫停營業。4/2午餐、4/5-4/6暫停營業。",
                 "phone": "0903-179-666",
                 "schedule": {
                     "saturday": "10:30-20:00",
@@ -227,7 +227,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/S__53248010.jpg",
                 "name": "利竫和食",
-                "note": " 3月星期六暫停營業。",
+                "note": " 3月星期六暫停營業。4/5-4/6暫停營業。",
                 "phone": "0955-520-634",
                 "schedule": {
                     "saturday": "11:00-19:30",
@@ -239,7 +239,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/S__129736711_0.jpg",
                 "name": "奕川香",
-                "note": "3月星期六暫停營業。",
+                "note": "3月星期六暫停營業。4/5-4/6暫停營業。",
                 "phone": "0973-633-683",
                 "schedule": {
                     "saturday": "11:00-19:30",
@@ -251,7 +251,7 @@
                 "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/390038617.jpg",
                 "name": "丘森茶室",
-                "note": "3月每周六暫停營業。",
+                "note": "3月每周六暫停營業。4/5-4/6暫停營業。",
                 "phone": "0965-705-813",
                 "schedule": {
                     "saturday": "11:00-19:30",
