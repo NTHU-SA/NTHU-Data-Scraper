@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8df796f8b6df11601e3c5e58e8045ecd95f937a5",
-        "last_updated": "2026-03-31T18:29:17+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
-        "last_updated": "2026-03-31T00:29:54+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -288,13 +288,13 @@
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
       {
-        "last_commit": "233e0d30d000729b52fbf33ac6d9f23908cef10e",
-        "last_updated": "2026-03-31T14:39:43+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "Application_en.json"
       },
       {
-        "last_commit": "38f593a7fd7b4f1ed5670b76d358bed3ec68ce31",
-        "last_updated": "2026-03-10T11:05:30+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "Maintenance_Construction_en.json"
       },
       {
@@ -318,18 +318,18 @@
         "name": "宣導_zh-tw.json"
       },
       {
-        "last_commit": "38f593a7fd7b4f1ed5670b76d358bed3ec68ce31",
-        "last_updated": "2026-03-10T11:05:30+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
-        "last_commit": "1292775949f8d8d26a182e1664bac1e4b70c9943",
-        "last_updated": "2026-03-05T12:40:25+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "活動_會議_zh-tw.json"
       },
       {
-        "last_commit": "233e0d30d000729b52fbf33ac6d9f23908cef10e",
-        "last_updated": "2026-03-31T14:39:43+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "申請_zh-tw.json"
       }
     ],
@@ -367,8 +367,8 @@
     ],
     "announcements/學務處課外活動組(蒙民偉樓2樓)": [
       {
-        "last_commit": "c5bbeadce38384d4f933cd8d20c8977da7264969",
-        "last_updated": "2026-02-05T12:41:20+08:00",
+        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
+        "last_updated": "2026-04-01T00:30:17+08:00",
         "name": "News_en.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-31T18:29:17+08:00"
+  "last_updated": "2026-04-01T00:30:17+08:00"
 }
