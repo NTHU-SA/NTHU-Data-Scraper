@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "afeb54fb42105c4692625e38d2439447f15b81eb",
-        "last_updated": "2026-03-31T16:33:23+08:00",
+        "last_commit": "8df796f8b6df11601e3c5e58e8045ecd95f937a5",
+        "last_updated": "2026-03-31T18:29:17+08:00",
         "name": "announcements.json"
       },
       {
@@ -173,8 +173,8 @@
     ],
     "announcements/原子科學技術發展中心反應器業務": [
       {
-        "last_commit": "2d58dfbf7e88386f39bd372e21fcb8d39c4d97af",
-        "last_updated": "2026-01-16T14:14:41+08:00",
+        "last_commit": "8df796f8b6df11601e3c5e58e8045ecd95f937a5",
+        "last_updated": "2026-03-31T18:29:17+08:00",
         "name": "BNCT治療現況_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "233e0d30d000729b52fbf33ac6d9f23908cef10e",
-        "last_updated": "2026-03-31T14:39:43+08:00",
+        "last_commit": "8df796f8b6df11601e3c5e58e8045ecd95f937a5",
+        "last_updated": "2026-03-31T18:29:17+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-03-31T16:33:23+08:00"
+  "last_updated": "2026-03-31T18:29:17+08:00"
 }
