@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e7e2777a2cb368a01cc0a4e19e491deb9f22a841",
-        "last_updated": "2026-04-02T12:51:35+08:00",
+        "last_commit": "234cb956ffb82ce9997bd302a5c7f23af3a31652",
+        "last_updated": "2026-04-02T14:37:48+08:00",
         "name": "announcements.json"
       },
       {
@@ -102,8 +102,8 @@
         "name": "Related Exhibitions_en.json"
       },
       {
-        "last_commit": "b195d5aee59b0abd4ab6a087e527dc0c357d0b64",
-        "last_updated": "2026-01-06T18:10:28+08:00",
+        "last_commit": "234cb956ffb82ce9997bd302a5c7f23af3a31652",
+        "last_updated": "2026-04-02T14:37:48+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -507,8 +507,8 @@
         "name": "演講公告_zh-tw.json"
       },
       {
-        "last_commit": "796691ee9e40039e752d4a77b4dd5c231e454a50",
-        "last_updated": "2026-03-31T11:14:08+08:00",
+        "last_commit": "234cb956ffb82ce9997bd302a5c7f23af3a31652",
+        "last_updated": "2026-04-02T14:37:48+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -697,8 +697,8 @@
     ],
     "announcements/教務處綜合教務組": [
       {
-        "last_commit": "c023525dbb160881f20d57eceec470b944c14fb8",
-        "last_updated": "2026-03-02T18:24:04+08:00",
+        "last_commit": "234cb956ffb82ce9997bd302a5c7f23af3a31652",
+        "last_updated": "2026-04-02T14:37:48+08:00",
         "name": "訊息公告_zh-tw.json"
       }
     ],
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "3b84f3eea5ae8b971cc100ee22f150f1fa938da7",
-        "last_updated": "2026-04-02T08:48:02+08:00",
+        "last_commit": "234cb956ffb82ce9997bd302a5c7f23af3a31652",
+        "last_updated": "2026-04-02T14:37:48+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -1056,8 +1056,8 @@
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "9117a4901d3ab709c054cbf35c04d6ee781e616d",
-        "last_updated": "2026-04-01T14:46:31+08:00",
+        "last_commit": "234cb956ffb82ce9997bd302a5c7f23af3a31652",
+        "last_updated": "2026-04-02T14:37:48+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
-        "last_updated": "2026-03-24T18:24:44+08:00",
+        "last_commit": "234cb956ffb82ce9997bd302a5c7f23af3a31652",
+        "last_updated": "2026-04-02T14:37:48+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-02T12:51:35+08:00"
+  "last_updated": "2026-04-02T14:37:48+08:00"
 }
