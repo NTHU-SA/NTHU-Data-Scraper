@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3b84f3eea5ae8b971cc100ee22f150f1fa938da7",
-        "last_updated": "2026-04-02T08:48:02+08:00",
+        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
+        "last_updated": "2026-04-02T11:13:33+08:00",
         "name": "announcements.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "3b84f3eea5ae8b971cc100ee22f150f1fa938da7",
-        "last_updated": "2026-04-02T08:48:02+08:00",
+        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
+        "last_updated": "2026-04-02T11:13:33+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "3b84f3eea5ae8b971cc100ee22f150f1fa938da7",
-        "last_updated": "2026-04-02T08:48:02+08:00",
+        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
+        "last_updated": "2026-04-02T11:13:33+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -313,8 +313,8 @@
         "name": "其他_zh-tw.json"
       },
       {
-        "last_commit": "8625077019441639d605a5d1e45a04cf91ee9824",
-        "last_updated": "2026-03-11T12:40:22+08:00",
+        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
+        "last_updated": "2026-04-02T11:13:33+08:00",
         "name": "宣導_zh-tw.json"
       },
       {
@@ -502,8 +502,8 @@
         "name": "工工榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "9e7c91bbfced6d30edd1d86edc691dc59ce2db19",
-        "last_updated": "2026-03-26T11:13:41+08:00",
+        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
+        "last_updated": "2026-04-02T11:13:33+08:00",
         "name": "演講公告_zh-tw.json"
       },
       {
@@ -787,8 +787,8 @@
         "name": "活動報導_zh-tw.json"
       },
       {
-        "last_commit": "ea2c1a22aa5185086f7357c1568dbe2234fc723e",
-        "last_updated": "2026-03-23T18:28:52+08:00",
+        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
+        "last_updated": "2026-04-02T11:13:33+08:00",
         "name": "系所公告_zh-tw.json"
       },
       {
@@ -797,8 +797,8 @@
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "82007260d25e0bc5864796ba4eefa2600c6d3526",
-        "last_updated": "2026-03-30T14:49:23+08:00",
+        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
+        "last_updated": "2026-04-02T11:13:33+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-02T08:48:02+08:00"
+  "last_updated": "2026-04-02T11:13:33+08:00"
 }
