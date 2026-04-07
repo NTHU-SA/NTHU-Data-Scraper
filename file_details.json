@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "27e3e7770210afbea5ca25b277371c4596459b61",
-        "last_updated": "2026-04-07T11:13:51+08:00",
+        "last_commit": "eda932ef28b7c6a1e83c3fd44f41d0d77f69cbcb",
+        "last_updated": "2026-04-07T12:55:38+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,13 +51,13 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
-        "last_updated": "2026-03-31T00:29:54+08:00",
+        "last_commit": "eda932ef28b7c6a1e83c3fd44f41d0d77f69cbcb",
+        "last_updated": "2026-04-07T12:55:38+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
-        "last_updated": "2026-04-01T00:30:17+08:00",
+        "last_commit": "eda932ef28b7c6a1e83c3fd44f41d0d77f69cbcb",
+        "last_updated": "2026-04-07T12:55:38+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -1849,8 +1849,8 @@
         "name": "媒體報導_zh-tw.json"
       },
       {
-        "last_commit": "27e3e7770210afbea5ca25b277371c4596459b61",
-        "last_updated": "2026-04-07T11:13:51+08:00",
+        "last_commit": "eda932ef28b7c6a1e83c3fd44f41d0d77f69cbcb",
+        "last_updated": "2026-04-07T12:55:38+08:00",
         "name": "最新訊息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-07T11:13:51+08:00"
+  "last_updated": "2026-04-07T12:55:38+08:00"
 }
