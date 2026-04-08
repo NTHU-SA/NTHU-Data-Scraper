@@ -1118,11 +1118,6 @@
                 "date": "2026-03-05"
             },
             {
-                "title": "【徵才】清華大學總務處事務組誠徵行政組員1名",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298957,r127.php?Lang=zh-tw",
-                "date": "2026-04-07"
-            },
-            {
                 "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員1名",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-298964,r127.php?Lang=zh-tw",
                 "date": "2026-04-07"
@@ -1146,6 +1141,11 @@
                 "title": "【公告】旺宏館115年春節閉館公告",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302983,r127.php?Lang=zh-tw",
                 "date": "2026-02-10"
+            },
+            {
+                "title": "115年2月16日(一)至 2月23日(一)春節期間垃圾清運時程通知",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-302912,r127.php?Lang=zh-tw",
+                "date": "2026-02-06"
             }
         ]
     },
@@ -2352,11 +2352,6 @@
                 "title": "【入學資訊】外國學生、僑生及港澳生",
                 "link": "https://bai.site.nthu.edu.tw/p/450-1523-272336,c0.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【學經歷表範本】適用所有學生",
-                "link": "https://bai.site.nthu.edu.tw/p/450-1523-305776,c0.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -2586,11 +2581,6 @@
                 "date": "2026-04-07"
             },
             {
-                "title": "【徵才】清華大學總務處事務組誠徵行政組員一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298961,r5075.php?Lang=zh-tw",
-                "date": "2026-04-07"
-            },
-            {
                 "title": "【徵才】國立清華大學總務處事務組誠徵約僱管理員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-297762,r5075.php?Lang=zh-tw",
                 "date": "2026-04-07"
@@ -2608,6 +2598,11 @@
             {
                 "title": "國立清華大學 資訊工程學系 電腦視覺實驗室 誠徵 博士後研究員 1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-305959,r5075.php?Lang=zh-tw",
+                "date": "2026-04-02"
+            },
+            {
+                "title": "國立清華大學永續學院 威剛中心 徵聘計畫研究助理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-305956,r5075.php?Lang=zh-tw",
                 "date": "2026-04-02"
             }
         ]
@@ -2631,11 +2626,6 @@
             {
                 "title": "115年國立清華大學華語中心 正規班儲備教師甄選公告",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-306058,c0.php?Lang=zh-tw",
-                "date": "2026-04-07"
-            },
-            {
-                "title": "【徵才】清華大學總務處事務組誠徵行政組員一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298961,r5081.php?Lang=zh-tw",
                 "date": "2026-04-07"
             },
             {
@@ -2677,6 +2667,11 @@
                 "title": "國立清華大學秘書處校務研究中心 誠徵專案組員一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-305710,r5081.php?Lang=zh-tw",
                 "date": "2026-03-31"
+            },
+            {
+                "title": "【徵才】國立清華大學科技管理學院誠徵國際認證專案經理 1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-304644,r5081.php?Lang=zh-tw",
+                "date": "2026-03-30"
             }
         ]
     },
@@ -3831,6 +3826,11 @@
                 "date": ""
             },
             {
+                "title": "【轉知】「教育部跨領域美感教育卓越領航計畫(113-115年)」115學年度師資培育暨合作大學招募簡章」及辦理招募說明會",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-306146,r157.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【轉知】「國中數學學習扶助雲端共備研習」簡章1份",
                 "link": "https://cfte.site.nthu.edu.tw/p/450-1275-306138,c0.php?Lang=zh-tw",
                 "date": ""
@@ -3878,11 +3878,6 @@
             {
                 "title": "【轉知】「素養導向評量閱卷室」系列專題講座",
                 "link": "https://cfte.site.nthu.edu.tw/p/450-1275-304228,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【轉知】教育部檢送「113年各級學校校園安全及災害事件分析報告」1份，請本校師培課程教師參酌運用。",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-304193,r157.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -3952,18 +3947,18 @@
         "department": "清華學院通識教育中心",
         "articles": [
             {
-                "title": "114(下)通識主題座談會「人文社會與AI的協作創新」",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-301503,r10094.php?Lang=zh-tw",
+                "title": "[課堂演講] 排灣族文化：從死亡談起",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-306144,r10094.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "[講座] 清華任務日誌：校園的另一種打開方式",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-297738,r10094.php?Lang=zh-tw",
+                "title": "[Tea Time] 從通識課到文學散步：跨界設計地方導覽的實踐之路",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-298048,r10094.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "[講座] 築城這件事：由道光淡水廳城建城二百談起",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-288559,r10094.php?Lang=zh-tw",
+                "title": "[工作坊] 2025青年作家培力",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-294909,r10094.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -4431,6 +4426,11 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
+                "title": "Congratulations to the Faculty Members of the College on Receiving the Academic Year 114 College of Life Sciences and Medicine Outstanding Teaching Award",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-306148,r7381.php?Lang=en",
+                "date": "2026-04-08"
+            },
+            {
                 "title": "Handover Ceremony for the Chair of the School of Medicine, January 22, 2026",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-302328,r7381.php?Lang=en",
                 "date": "2026-01-23"
@@ -4524,11 +4524,6 @@
                 "title": "Congratulations to the faculty members of the College of Life Sciences and Medicine for receiving the Outstanding Paper Award for Faculty and the New Faculty Research Award",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-288069,r7381.php?Lang=en",
                 "date": "2025-05-04"
-            },
-            {
-                "title": "[Wanted] CLSM Teaching Assistants for 2025 spring term",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-281557,r7381.php?Lang=en",
-                "date": "2025-01-17"
             }
         ]
     },
@@ -4538,6 +4533,11 @@
         "language": "zh-tw",
         "department": "生命科學暨醫學院",
         "articles": [
+            {
+                "title": "恭賀本院教師榮獲  114學年度生命科學暨醫學院教學績優獎",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-306148,r7381.php?Lang=zh-tw",
+                "date": "2026-04-08"
+            },
             {
                 "title": "【申請公告】「生醫學院補助大學部學生參與國際學術活動」經費申請",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-305932,r7381.php?Lang=zh-tw",
@@ -4632,11 +4632,6 @@
                 "title": "《賀》醫學科學系陳令儀教授團隊獲第二十二屆國家新創獎  (主題：NTHU-3促進腦傷後神經修復及功能回復)",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-299687,r7381.php?Lang=zh-tw",
                 "date": "2025-11-28"
-            },
-            {
-                "title": "【公告】114-2學期生活助學金申請",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-299360,r7381.php?Lang=zh-tw",
-                "date": "2025-11-24"
             }
         ]
     },
@@ -4647,44 +4642,44 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "Handover Ceremony for the Chair of the School of Medicine, January 22, 2026",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-302328,r8083.php?Lang=en",
-                "date": "2026-01-23"
+                "title": "Congratulations to the Faculty Members of the College on Receiving the Academic Year 114 College of Life Sciences and Medicine Outstanding Teaching Award",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-306148,r8083.php?Lang=en",
+                "date": "2026-04-08"
             },
             {
-                "title": "Congrats Dr. Tsan-Jan Chen (the postdoc in Prof. Wen-Ching Wang's lab), winning the Rising Star Award from 2025 AsCA",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300650,r8083.php?Lang=en",
-                "date": "2025-12-17"
+                "title": "NTHU Study Identifies Vulnerability in Cancer Cells: Dual Strategy Induces Ferroptosis: Adapt from NTHU official website",
+                "link": "https://cls.site.nthu.edu.tw/p/450-1469-302183,c0.php?Lang=en",
+                "date": "2026-01-20"
             },
             {
-                "title": "Congrat Dr. Yen-Hung Lin (the postdoc in Dr. Horng-Dar Wang's lab) winning the Poster Presentation Award from 2025 Joint Annual Conference",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300121,r8083.php?Lang=en",
-                "date": "2025-12-08"
+                "title": "Congratulations to the Faculty Members of the College for Receiving the 5th College Outstanding Mentor Award:  Professor Linyi Chen and Assistant Professor Tzu-Sheng Hsu",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300238,r8083.php?Lang=en",
+                "date": "2025-12-10"
             },
             {
-                "title": "Congrat Mr. Hsiang Tung from Department of Life Science won the second place in the NTHU 2025 Student Academic Poster Competition!",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300114,r8083.php?Lang=en",
+                "title": "Congrat Miss Lo-Cheuh Chu from Department of Life Science wins the Third Place in the 2025 National Three-minutes Flash Talk competition!",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300117,r8083.php?Lang=en",
                 "date": "2025-12-07"
             },
             {
-                "title": "Congratulations to Mr. Li-Zhong Guo from the Institute of Bioinformatics and Structural Biology for receiving the Poster Award at the 2025 MOPM Joint Conference on Multiomics and Precision Medicine!",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-299111,r8083.php?Lang=en",
-                "date": "2025-11-18"
+                "title": "Congratulations to Mr. Hui-Fang Lung, received the Award of Excellence in the poster competition at the 2025 Annual Meeting of the Botanical Society",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-299179,r8083.php?Lang=en",
+                "date": "2025-11-19"
             },
             {
-                "title": "Research Project of Professor Linyi Chen of the College: USE OF ISORHOIFOLIN DERIVATIVES ON REGENERATION OF INJURED NEURONS Recipient of the 2025 Future Tech Award",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-294931,r8083.php?Lang=en",
-                "date": "2025-09-05"
+                "title": "(October 1, 2025) We sincerely thank CALIWAY BIOPHARMACEUTICALS CO., LTD. for its generous donation to support the renovation of the library space in the College of Life Sciences and Medicine.",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-296551,r8083.php?Lang=en",
+                "date": "2025-10-02"
             },
             {
-                "title": "Congratulations to our faculty member on their promotion, effective August 1, 2025.",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-293167,r8083.php?Lang=en",
-                "date": "2025-08-01"
+                "title": "Eat or Flee? NTHU Decodes the Olfactory Code of the Fruit Fly Brain",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-293445,r8083.php?Lang=en",
+                "date": "2025-08-07"
             },
             {
-                "title": "Congratulations to our faculty members for receiving the Outstanding Teaching Award for the 113th Academic Year",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-290256,r8083.php?Lang=en",
-                "date": "2025-06-08"
+                "title": "Congratulations to Professor Mao-Chieh Kao of the Institute of Molecular Medicine on being appointed as a Distinguished Professor of our university, effective from the 2025 academic year.",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-291357,r8083.php?Lang=en",
+                "date": "2025-06-29"
             }
         ]
     },
@@ -4695,44 +4690,44 @@
         "department": "生命科學暨醫學院",
         "articles": [
             {
-                "title": "恭喜分生所研究生參加第40屆生物醫學聯合學術年會獲獎",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-305242,r8083.php?Lang=zh-tw",
-                "date": "2026-03-24"
+                "title": "恭賀本院教師榮獲  114學年度生命科學暨醫學院教學績優獎",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-306148,r8083.php?Lang=zh-tw",
+                "date": "2026-04-08"
             },
             {
-                "title": "恭喜本院學生參加115年寄生蟲學術研討會 獲獎",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-304986,r8083.php?Lang=zh-tw",
-                "date": "2026-03-20"
+                "title": "Meeting with Dr. Kobilka 諾貝爾獎大師交流活動",
+                "link": "https://cls.site.nthu.edu.tw/p/450-1469-305152,c0.php?Lang=zh-tw",
+                "date": "2026-03-23"
             },
             {
-                "title": "2026.1.22 辦理學士後醫學系系主任交接典禮",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-302328,r8083.php?Lang=zh-tw",
-                "date": "2026-01-23"
+                "title": "恭喜 分生所碩士畢業生吳亦烜 獲得2026年台灣植物分類學會年會 最佳碩士論文獎 (指導教授郭立園)",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-304801,r8083.php?Lang=zh-tw",
+                "date": "2026-03-17"
             },
             {
-                "title": "清華研究破解癌細胞弱點 雙重打擊誘發「鐵死亡」- 轉載自清華大學官網 首頁故事",
-                "link": "https://cls.site.nthu.edu.tw/p/450-1469-302183,c0.php?Lang=zh-tw",
-                "date": "2026-01-20"
+                "title": "恭喜本院教師114年度「傑出人才發展基金」學術研究獎勵獲頒學術研究榮銜",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-302288,r8083.php?Lang=zh-tw",
+                "date": "2026-01-21"
             },
             {
-                "title": "恭喜 生技所畢業生吳靖則博士論文獲得 2025崇越論文大獎: AI應用論文競賽 (指導教授張壯榮)",
-                "link": "https://cls.site.nthu.edu.tw/p/450-1469-300721,c0.php?Lang=zh-tw",
-                "date": "2025-12-18"
+                "title": "恭賀分生所王慧菁教授指導-醫莉鎂生醫團隊，榮獲 2025全國大專院校精準健康產業創新創業競賽金獎 環球生技報導",
+                "link": "https://cls.site.nthu.edu.tw/p/450-1469-301227,c0.php?Lang=zh-tw",
+                "date": "2025-12-30"
             },
             {
-                "title": "恭賀本院教師榮獲第五屆生醫學院傑出導師獎:  陳令儀教授(醫科系/分醫所推薦)  徐子勝助理教授(分生所推薦)",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300238,r8083.php?Lang=zh-tw",
-                "date": "2025-12-10"
+                "title": "恭喜 分生所陳粲然博士(王雯靜教授實驗室) 榮獲第19屆亞洲結晶學會議(AsCA 2025) - Rising Star Award",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300650,r8083.php?Lang=zh-tw",
+                "date": "2025-12-17"
             },
             {
-                "title": "恭喜 生科系 董翔 同學 榮獲 清大2025大學生學術海報競賽第二名！",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300114,r8083.php?Lang=zh-tw",
+                "title": "恭喜 生技所 林彥宏博士 (汪宏達實驗室) 榮獲2025年度三會 (TSSCR x TES x TSDB) 聯合研討會：「揭開老化之謎：幹細胞、表觀遺傳、與發育生物學到臨床突破」- Poster Presentation Award！",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300121,r8083.php?Lang=zh-tw",
+                "date": "2025-12-08"
+            },
+            {
+                "title": "恭喜 生科系朱珞駃 (Lo-Cheuh Chu) 同學 榮獲 2025三分鐘生科論文口說競賽全國總決賽榮獲第三名！",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-300117,r8083.php?Lang=zh-tw",
                 "date": "2025-12-07"
-            },
-            {
-                "title": "《賀》醫學科學系陳令儀教授團隊獲第二十二屆國家新創獎  (主題：NTHU-3促進腦傷後神經修復及功能回復)",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-299687,r8083.php?Lang=zh-tw",
-                "date": "2025-11-28"
             }
         ]
     },
