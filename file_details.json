@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "f75cc9f31a08dd4e4845f7fecb58e3284b9c9d11",
-        "last_updated": "2026-04-08T08:51:18+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "announcements.json"
       },
       {
@@ -66,8 +66,8 @@
         "name": "法規宣導_zh-tw.json"
       },
       {
-        "last_commit": "15f680974cc54beee1b8397e7633016ebbcde17f",
-        "last_updated": "2026-04-02T00:28:13+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "重大消息_zh-tw.json"
       }
     ],
@@ -514,13 +514,13 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "796691ee9e40039e752d4a77b4dd5c231e454a50",
-        "last_updated": "2026-03-31T11:14:08+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "4ed3db7d12ea9c7f31b1d6f53dcd6bb5a62f08c9",
-        "last_updated": "2026-03-30T16:42:36+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -582,8 +582,8 @@
         "name": "學士班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "8625077019441639d605a5d1e45a04cf91ee9824",
-        "last_updated": "2026-03-11T12:40:22+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "83538ad64ce05480a0412dd25b38837ff415a6d2",
-        "last_updated": "2026-04-07T16:36:53+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "8683a8f0cdf9ddb6dc8fb16f39f1df737ae8e8a3",
-        "last_updated": "2026-04-07T14:41:46+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -924,8 +924,8 @@
         "name": "招生專區  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "f75cc9f31a08dd4e4845f7fecb58e3284b9c9d11",
-        "last_updated": "2026-04-08T08:51:18+08:00",
+        "last_commit": "603a6212c8f5928309fdb362ef29b781db885572",
+        "last_updated": "2026-04-08T11:14:19+08:00",
         "name": "最新公告  - 清華書院_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-08T08:51:18+08:00"
+  "last_updated": "2026-04-08T11:14:19+08:00"
 }
