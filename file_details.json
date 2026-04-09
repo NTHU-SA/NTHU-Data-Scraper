@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1457647d2ad170496511e4b057a01c99c680d5e7",
-        "last_updated": "2026-04-09T16:41:27+08:00",
+        "last_commit": "9f829e7569397036c00e8ea45fed55a2a0e5620b",
+        "last_updated": "2026-04-09T18:33:15+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "eda932ef28b7c6a1e83c3fd44f41d0d77f69cbcb",
-        "last_updated": "2026-04-07T12:55:38+08:00",
+        "last_commit": "9f829e7569397036c00e8ea45fed55a2a0e5620b",
+        "last_updated": "2026-04-09T18:33:15+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-09T16:41:27+08:00"
+  "last_updated": "2026-04-09T18:33:15+08:00"
 }
