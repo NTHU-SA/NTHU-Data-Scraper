@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8d8a0506a71caa2bb58b6a013e4abaa691cf902f",
-        "last_updated": "2026-04-11T08:49:32+08:00",
+        "last_commit": "3467956aa944112c61792d291f851584c26258ed",
+        "last_updated": "2026-04-11T11:11:52+08:00",
         "name": "announcements.json"
       },
       {
@@ -1546,8 +1546,8 @@
         "name": "學術活動_en.json"
       },
       {
-        "last_commit": "9a85efd0bae04f5052ed46f004c8476f9e91fca0",
-        "last_updated": "2026-03-10T08:41:38+08:00",
+        "last_commit": "3467956aa944112c61792d291f851584c26258ed",
+        "last_updated": "2026-04-11T11:11:52+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1556,8 +1556,8 @@
         "name": "最新消息_en.json"
       },
       {
-        "last_commit": "796691ee9e40039e752d4a77b4dd5c231e454a50",
-        "last_updated": "2026-03-31T11:14:08+08:00",
+        "last_commit": "3467956aa944112c61792d291f851584c26258ed",
+        "last_updated": "2026-04-11T11:11:52+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-11T08:49:32+08:00"
+  "last_updated": "2026-04-11T11:11:52+08:00"
 }
