@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "da7f5baf5e191281085512d679ed1829043c35c0",
-        "last_updated": "2026-04-14T18:37:16+08:00",
+        "last_commit": "62345458e5e16ce473bb54dd629c28abfd883d7b",
+        "last_updated": "2026-04-14T20:33:46+08:00",
         "name": "announcements.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "c8353e0304a9fa4014e225e06ab32a218440c2da",
-        "last_updated": "2026-04-05T11:13:47+08:00",
+        "last_commit": "62345458e5e16ce473bb54dd629c28abfd883d7b",
+        "last_updated": "2026-04-14T20:33:46+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "a0399fd15f5001965c3b242fb74b3a1f036af0ca",
-        "last_updated": "2026-04-13T11:16:24+08:00",
+        "last_commit": "62345458e5e16ce473bb54dd629c28abfd883d7b",
+        "last_updated": "2026-04-14T20:33:46+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-14T18:37:16+08:00"
+  "last_updated": "2026-04-14T20:33:46+08:00"
 }
