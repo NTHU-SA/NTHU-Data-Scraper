@@ -1524,13 +1524,13 @@
         "department": "校友服務及資源發展處校友中心、校友總會",
         "articles": [
             {
-                "title": "賀！本校蕭菊貞校友（經濟系 94B）榮獲第七屆總統創新獎！",
-                "link": "https://alumni.site.nthu.edu.tw/p/450-1346-306504,c0.php?Lang=zh-tw",
+                "title": "歡慶清華115週年校慶 系列活動熱烈展開（清華校友電子報第162期-2026-04-14）",
+                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-306134,r4272.php?Lang=zh-tw",
                 "date": "2026-04-14"
             },
             {
-                "title": "歡慶清華115週年校慶 系列活動熱烈展開（清華校友電子報第162期-2026-04-14）",
-                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-306134,r4272.php?Lang=zh-tw",
+                "title": "賀！本校蕭菊貞校友（經濟系 94B）榮獲第七屆總統創新獎！",
+                "link": "https://alumni.site.nthu.edu.tw/p/450-1346-306504,c0.php?Lang=zh-tw",
                 "date": "2026-04-14"
             },
             {
@@ -2818,6 +2818,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "文化部辦理115年度第2次「語言友善環境及創作應用與推廣補助作業要點」受理提案申請",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-306566,r5084.php?Lang=zh-tw",
+                "date": "2026-04-15"
+            },
+            {
                 "title": "【歡迎報名】「生態廊道・永續創意」走廊環境設計徵件簡章",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-306432,c0.php?Lang=zh-tw",
                 "date": "2026-04-13"
@@ -2870,11 +2875,6 @@
             {
                 "title": "嶺東科技大學發行之《嶺東學報》徵稿，敬請踴躍投稿。",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-91297,r5084.php?Lang=zh-tw",
-                "date": "2026-03-03"
-            },
-            {
-                "title": "大葉大學「科學與工程技術期刊」徵稿，歡迎本校師生踴躍投稿。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-121044,r5084.php?Lang=zh-tw",
                 "date": "2026-03-03"
             }
         ]
@@ -15775,6 +15775,11 @@
         "department": "清華學院語文中心",
         "articles": [
             {
+                "title": "2026台積心築藝術季浪漫主義系列講座： 5/15~6/5每周五19:00-21:00",
+                "link": "https://language.site.nthu.edu.tw/p/406-1212-306493,r6822.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【報名已截止】「AI時代的寫作」語文工作坊04/11(六)教育館311",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-305404,r6822.php?Lang=zh-tw",
                 "date": ""
@@ -15827,11 +15832,6 @@
             {
                 "title": "【報名已截止】2026寒假工作坊第二週：01.12~01.16",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-300124,r6822.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【報名已截止】2026寒假工作坊第一週：01.05~01.09",
-                "link": "https://language.site.nthu.edu.tw/p/406-1212-300123,r6822.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -17660,24 +17660,24 @@
                 "date": "2026-03-27"
             },
             {
-                "title": "【室外排球場】室外排球場（全）養護工程自4/13（—）至4/17（五），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306383,r11.php",
-                "date": "2026-04-12"
+                "title": "【室內網球場】2026 EMBA 網球聯誼賽4/19（日）上午08:00-中午12:00，借用室內網球場（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306574,r11.php",
+                "date": "2026-04-15"
             },
             {
-                "title": "【校友體育館】羽球校隊加強練習4/12（日）晚上08:00-晚上10:00，借用羽球場（#6-8場），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306231,r11.php",
-                "date": "2026-04-09"
+                "title": "【室外網球場】2026 EMBA 網球聯誼賽4/19（日）上午08:00-中午12:00，借用室外網球場（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306572,r11.php",
+                "date": "2026-04-15"
             },
             {
-                "title": "【校友體育館】清大化學系運羽球4/11（六）下午02:00-下午06:00，借用羽球場（#1-3球場），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306230,r11.php",
-                "date": "2026-04-09"
+                "title": "【室外網球場】EMBA網球社社課4/18（六）下午05:00-晚上07:00，借用室外網球場（#3 4球場），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306571,r11.php",
+                "date": "2026-04-15"
             },
             {
-                "title": "【校友體育館】EMBA 羽球社社課4/11（六）下午04:00-晚上08:00，借用羽球場（#6-8球場），場地不開放。",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306228,r11.php",
-                "date": "2026-04-09"
+                "title": "【校友體育館】晃徹盃運動會4/18（六）上午08:00-下午05:00，借用羽球場（全），場地不開放。",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-306570,r11.php",
+                "date": "2026-04-15"
             }
         ]
     },
@@ -20629,6 +20629,11 @@
         "department": "教務處註冊組",
         "articles": [
             {
+                "title": "2026 PhD Commencement Registration List",
+                "link": "https://registra.site.nthu.edu.tw/p/406-1211-306577,r219.php?Lang=en",
+                "date": "2026-04-15"
+            },
+            {
                 "title": "Sign up for 2026 PhD Graduates Commencement Ceremony (Deadline April 12)",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-306301,r219.php?Lang=en",
                 "date": "2026-03-30"
@@ -20682,11 +20687,6 @@
                 "title": "2025 Spring semester Notification of Entering and Grade Submission",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-288007,r219.php?Lang=en",
                 "date": "2025-05-02"
-            },
-            {
-                "title": "Application for Department Transfer in Academic Year 2025",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-287860,r219.php?Lang=en",
-                "date": "2025-04-30"
             }
         ]
     },
@@ -20700,6 +20700,11 @@
                 "title": "電子表單-休退學申請流程",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-262370,r219.php?Lang=zh-tw",
                 "date": "2024-01-18"
+            },
+            {
+                "title": "114學年度畢業典禮博士生參加名單",
+                "link": "https://registra.site.nthu.edu.tw/p/406-1211-306576,r219.php?Lang=zh-tw",
+                "date": "2026-04-15"
             },
             {
                 "title": "2026-03-30 請上網報名參加114學年度博士班(應屆)畢業生畢業典禮 (4/12截止報名) Sign up for 2026 PhD Graduates Commencement Ceremony (Deadline April 12)",
@@ -20750,11 +20755,6 @@
                 "title": "114學年度第2學期復學通知",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-301204,r219.php?Lang=zh-tw",
                 "date": "2025-12-30"
-            },
-            {
-                "title": "114學年度第一次辦理逕行修讀博士學位核准名單",
-                "link": "https://registra.site.nthu.edu.tw/p/406-1211-299328,r219.php?Lang=zh-tw",
-                "date": "2025-11-24"
             }
         ]
     },
