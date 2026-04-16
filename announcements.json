@@ -2682,6 +2682,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "「科技律師學苑」課程已開放招生，歡迎律師及企業法務人員報名參加！",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-306672,r5082.php?Lang=zh-tw",
+                "date": "2026-04-16"
+            },
+            {
                 "title": "【歡迎報名】2026年清華梅貽琦文化營：AI與文學創作",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-306302,r5082.php?Lang=zh-tw",
                 "date": "2026-04-10"
@@ -2735,11 +2740,6 @@
                 "title": "12/29 台北政經學院升學說明會 TSE NTHU Admission Info Session",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-298420,r5082.php?Lang=zh-tw",
                 "date": "2025-11-07"
-            },
-            {
-                "title": "【活動】115學年度永續學院招生說明會，高雄場&新竹場，熱烈報名中！",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-296262,r5082.php?Lang=zh-tw",
-                "date": "2025-09-26"
             }
         ]
     },
@@ -5521,18 +5521,18 @@
         "department": "教務處課務組",
         "articles": [
             {
+                "title": "114下停修申請資訊( 115/4/20 中午12:00 - 5/9(六) 上午9:00 )",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-304351,r7797.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "114暑課表預計5/25 (M) 公布",
                 "link": "https://curricul.site.nthu.edu.tw/p/450-1208-306665,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "115上課表預計6/3 (W)公布，預排同步開放",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-306667,r7797.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "114下停修申請資訊( 115/4/20 中午12:00 - 5/9(六) 上午9:00 )",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-304351,r7797.php?Lang=zh-tw",
+                "link": "https://curricul.site.nthu.edu.tw/p/450-1208-306667,c0.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -13685,6 +13685,16 @@
                 "date": ""
             },
             {
+                "title": "【系上】114-2 專長異動第1次申請6/1(一)-6/5(五)中午12:00截止。",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-306676,r772.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【系上】115學年度選修他系或跨校、暑修課程抵免第1次申請作業-115.9/9(三)中午12:00截止(電機、資工、數科-8/7(五)中午12:00截止)。",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-306673,r772.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【系上】115學年度海外學習【課程抵免】第1次審查申請-115.9/9(三)中午12:00截止(電機、資工、數科8/7(五)中午12:00)。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-306668,r772.php?Lang=zh-tw",
                 "date": ""
@@ -13705,23 +13715,13 @@
                 "date": ""
             },
             {
+                "title": "【系上】115學年度選修他系或跨校、暑修課程抵免第2次申請作業-115.10/28(三)中午12:00截止(電機、資工、數科-9/24(四)中午12:00截止)。",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-306674,r772.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【系上】IPE畢業學長姊升學準備經驗分享115.06.16(二)-報名4/10截止。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-304796,r772.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【修課】114學年度海外學習【課程抵免】第3次審查申請-115.4/2(四)中午12:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-302294,r772.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【修課】114學年度海外學習【課程免修】第3次審查申請-115.4/2(四)中午12:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-302293,r772.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【修課】114學年度他系、跨校選修、暑修課程抵免第3次申請作業-IPE115.4/2(四)中午12:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-302296,r772.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18281,21 +18281,6 @@
                 "date": "2025-10-27"
             },
             {
-                "title": "法務部廉政署設置公益揭弊者保護法律諮詢專線",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-294948,r875.php?Lang=zh-tw",
-                "date": "2025-09-05"
-            },
-            {
-                "title": "國安宣導短片「捍衛國家安全，全民一起來」",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-294616,r875.php?Lang=zh-tw",
-                "date": "2025-09-01"
-            },
-            {
-                "title": "公益揭弊者保護法於114年7月22日施行，受理通報管道。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-294595,r875.php?Lang=zh-tw",
-                "date": "2025-09-01"
-            },
-            {
                 "title": "為落實永續環保政策，並提供本校教職員工更多元便利之選擇，人事室所規劃電子服務證已於「i清華」APP上線試行，歡迎同仁下載使用。",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-292577,r875.php?Lang=zh-tw",
                 "date": "2025-07-21"
@@ -18339,6 +18324,21 @@
                 "title": "(轉知) 2025聯合國永續發展目標STEAM& AI科學夏令營",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-283760,r875.php?Lang=zh-tw",
                 "date": "2025-02-24"
+            },
+            {
+                "title": "114年至117年「闔家安康」-全國公教員工團體保險，經公開徵選由凱基人壽保險股份有限公司獲選賡續承作",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-283338,r875.php?Lang=zh-tw",
+                "date": "2025-02-18"
+            },
+            {
+                "title": "【轉知】為倡導公務人員從事正當休閒活動，維護身心健康並培養人文氣息，依「休假改進措施」第5點之規定，鼓勵所屬人員將國民旅遊卡運用於藝文產業消費，請查照。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-283337,r875.php?Lang=zh-tw",
+                "date": "2025-02-17"
+            },
+            {
+                "title": "(轉知)公教員工因公傷病住院醫療補助相關函釋一覽表。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-281205,r875.php?Lang=zh-tw",
+                "date": "2025-01-09"
             }
         ]
     },
