@@ -261,6 +261,18 @@
             },
             {
                 "area": "水木生活中心1樓",
+                "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img//small/S__13303982.jpg",
+                "name": "Ginzeng",
+                "note": "4月每周日暫停營業。4/20開業。",
+                "phone": "03-571-3282",
+                "schedule": {
+                    "saturday": "11:00-19:30",
+                    "sunday": "11:00-19:30",
+                    "weekday": "11:00-19:30"
+                }
+            },
+            {
+                "area": "水木生活中心1樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/378338320.png",
                 "name": "翔羚食堂",
                 "note": "每週六、日、國定假日暫停營業。",
@@ -520,7 +532,7 @@
                 "area": "風雲3樓",
                 "image": "https://ddfm.site.nthu.edu.tw/var/file/494/1494/img/461802499.jpg",
                 "name": "珍御品粥麵館",
-                "note": "4月每周六暫停營業。4/17、4/24暫停營業。",
+                "note": "4月每周六暫停營業。4/17-19、4/24暫停營業。",
                 "phone": "0937-135-706，0911-892-772",
                 "schedule": {
                     "saturday": "10:30-20:00",
