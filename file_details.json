@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "48a2d61daae733dee1b08f1c15b19983ee2b7fbf",
-        "last_updated": "2026-04-18T14:36:35+08:00",
+        "last_commit": "89f46b49088a60a9492daa974ea05b9e03b1de1d",
+        "last_updated": "2026-04-19T00:18:46+08:00",
         "name": "announcements.json"
       },
       {
@@ -855,8 +855,8 @@
         "name": "Announcements_en.json"
       },
       {
-        "last_commit": "747791ddec5355e43603104cca2f9ba261063019",
-        "last_updated": "2026-02-05T16:21:05+08:00",
+        "last_commit": "89f46b49088a60a9492daa974ea05b9e03b1de1d",
+        "last_updated": "2026-04-19T00:18:46+08:00",
         "name": "Events_en.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-18T14:36:35+08:00"
+  "last_updated": "2026-04-19T00:18:46+08:00"
 }
