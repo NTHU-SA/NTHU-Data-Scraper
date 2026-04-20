@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a21aa2661ded75a56927a1a2d6e78b435846a34d",
-        "last_updated": "2026-04-20T00:18:37+08:00",
+        "last_commit": "eb91c93142b5dbafc064c81c5e2e872d6f966588",
+        "last_updated": "2026-04-20T08:56:43+08:00",
         "name": "announcements.json"
       },
       {
@@ -1021,8 +1021,8 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "2929933987a7f6bbf03e113d2309425e32096cd2",
-        "last_updated": "2026-04-17T00:41:21+08:00",
+        "last_commit": "eb91c93142b5dbafc064c81c5e2e872d6f966588",
+        "last_updated": "2026-04-20T08:56:43+08:00",
         "name": "All seminar_en.json"
       },
       {
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "2929933987a7f6bbf03e113d2309425e32096cd2",
-        "last_updated": "2026-04-17T00:41:21+08:00",
+        "last_commit": "eb91c93142b5dbafc064c81c5e2e872d6f966588",
+        "last_updated": "2026-04-20T08:56:43+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-20T00:18:37+08:00"
+  "last_updated": "2026-04-20T08:56:43+08:00"
 }
