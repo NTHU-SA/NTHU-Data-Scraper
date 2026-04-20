@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
-        "last_updated": "2026-04-20T13:11:16+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "announcements.json"
       },
       {
@@ -134,8 +134,8 @@
         "name": "Thesis Proposal Review_en.json"
       },
       {
-        "last_commit": "5554b6f91fec81f23937b9cf154fdbbfc7684684",
-        "last_updated": "2026-03-10T02:25:00+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -144,8 +144,8 @@
         "name": "榜單_榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "cbdbe023c7afa1ca0b1da0d3637fcc71f70750c0",
-        "last_updated": "2026-04-14T14:48:45+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "系所消息_zh-tw.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "740df0609ef80229b55fb92642ca0c0c662e89f1",
-        "last_updated": "2026-04-17T08:55:49+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
-        "last_updated": "2026-04-20T13:11:16+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -323,8 +323,8 @@
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
-        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
-        "last_updated": "2026-04-01T00:30:17+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "活動_會議_zh-tw.json"
       },
       {
@@ -443,8 +443,8 @@
         "name": "碩博士考生資訊_zh-tw.json"
       },
       {
-        "last_commit": "89452a1e1351c0c794dc84567828fd240f0d55ca",
-        "last_updated": "2026-04-16T18:37:00+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "系所公告_zh-tw.json"
       }
     ],
@@ -860,18 +860,18 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "eb20e81823889a538d0522f64308be89e5b469df",
-        "last_updated": "2026-04-17T11:15:04+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "3b7174cc07306725cb3afac6508e04213efb56a7",
-        "last_updated": "2026-04-17T14:49:42+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "eb20e81823889a538d0522f64308be89e5b469df",
-        "last_updated": "2026-04-17T11:15:04+08:00",
+        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
+        "last_updated": "2026-04-20T14:59:27+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-20T13:11:16+08:00"
+  "last_updated": "2026-04-20T14:59:27+08:00"
 }
