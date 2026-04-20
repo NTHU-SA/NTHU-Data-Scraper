@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d59c1ac97dc24985c1a28be782c9d1ad10380fea",
-        "last_updated": "2026-04-20T11:16:00+08:00",
+        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
+        "last_updated": "2026-04-20T13:11:16+08:00",
         "name": "announcements.json"
       },
       {
@@ -303,8 +303,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "d59c1ac97dc24985c1a28be782c9d1ad10380fea",
-        "last_updated": "2026-04-20T11:16:00+08:00",
+        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
+        "last_updated": "2026-04-20T13:11:16+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -318,8 +318,8 @@
         "name": "宣導_zh-tw.json"
       },
       {
-        "last_commit": "d59c1ac97dc24985c1a28be782c9d1ad10380fea",
-        "last_updated": "2026-04-20T11:16:00+08:00",
+        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
+        "last_updated": "2026-04-20T13:11:16+08:00",
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
@@ -577,8 +577,8 @@
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "3011020e953e1faa94b5e5e6ed8e898d68804876",
-        "last_updated": "2026-03-31T08:49:44+08:00",
+        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
+        "last_updated": "2026-04-20T13:11:16+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
@@ -587,8 +587,8 @@
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "54db83653b5ff90e3c051a297572b5136f612160",
-        "last_updated": "2026-04-16T11:15:24+08:00",
+        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
+        "last_updated": "2026-04-20T13:11:16+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
@@ -2196,5 +2196,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-20T11:16:00+08:00"
+  "last_updated": "2026-04-20T13:11:16+08:00"
 }
