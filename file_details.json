@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,18 +12,18 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "3ce47aa3ae706148bd39a486a5172c4b4b951b76",
-        "last_updated": "2026-04-16T14:49:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "buses.json"
       },
       {
-        "last_commit": "45be71fa6306404e91bc73eb290a13f78237c783",
-        "last_updated": "2026-04-21T06:23:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "courses.json"
       },
       {
-        "last_commit": "bbce77409f3299814b90419a710320f0b475f06b",
-        "last_updated": "2026-04-21T08:56:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "dining.json"
       },
       {
@@ -51,18 +51,18 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "4fdfd046588223ac5ea650dd2a59d86109ad098c",
-        "last_updated": "2026-04-20T18:42:09+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "86e702cfaea981b89041c1b1ed3b1919d6c9644b",
-        "last_updated": "2026-04-17T18:33:44+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
-        "last_commit": "d59c1ac97dc24985c1a28be782c9d1ad10380fea",
-        "last_updated": "2026-04-20T11:16:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "法規宣導_zh-tw.json"
       },
       {
@@ -78,8 +78,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "b94dcedd9a7de79a8b49e985ae717f25ba2df20e",
-        "last_updated": "2026-04-15T16:44:35+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新公告 Latest News_zh-tw.json"
       }
     ],
@@ -102,8 +102,8 @@
         "name": "Related Exhibitions_en.json"
       },
       {
-        "last_commit": "da7f5baf5e191281085512d679ed1829043c35c0",
-        "last_updated": "2026-04-14T18:37:16+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -134,8 +134,8 @@
         "name": "Thesis Proposal Review_en.json"
       },
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -144,8 +144,8 @@
         "name": "榜單_榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系所消息_zh-tw.json"
       },
       {
@@ -173,8 +173,8 @@
     ],
     "announcements/原子科學技術發展中心反應器業務": [
       {
-        "last_commit": "8df796f8b6df11601e3c5e58e8045ecd95f937a5",
-        "last_updated": "2026-03-31T18:29:17+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "BNCT治療現況_zh-tw.json"
       },
       {
@@ -183,8 +183,8 @@
         "name": "Introduction_en.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -262,8 +262,8 @@
     ],
     "announcements/國際產學營運總中心台積電-國立清華大學聯合研發中心": [
       {
-        "last_commit": "1283b1848f7c3ce4fc41ae4b8a3ba6b9f3bf33ac",
-        "last_updated": "2026-04-01T16:37:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -276,82 +276,82 @@
     ],
     "announcements/學務處": [
       {
-        "last_commit": "1b24013c2199142add03d256b35c6b664120e181",
-        "last_updated": "2026-04-09T08:46:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "2929933987a7f6bbf03e113d2309425e32096cd2",
-        "last_updated": "2026-04-17T00:41:21+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
       {
-        "last_commit": "b9d8bb75de70202cce7f9bf4558e396ed8305e47",
-        "last_updated": "2026-04-16T16:44:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Application_en.json"
       },
       {
-        "last_commit": "c8353e0304a9fa4014e225e06ab32a218440c2da",
-        "last_updated": "2026-04-05T11:13:47+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
-        "last_updated": "2026-04-20T14:59:27+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
-        "last_updated": "2026-04-20T14:59:27+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "公告_zh-tw.json"
       },
       {
-        "last_commit": "9e407111b21b2dd30f322f4501d0b1f2f29ba88a",
-        "last_updated": "2026-03-20T12:40:39+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "其他_zh-tw.json"
       },
       {
-        "last_commit": "4c194036aaa03a2e574ea11679d4ad97d140926f",
-        "last_updated": "2026-04-02T11:13:33+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "宣導_zh-tw.json"
       },
       {
-        "last_commit": "1e40d16f432acf2b1dec37c469803d4331fc1ded",
-        "last_updated": "2026-04-20T13:11:16+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "宿舍施工公告_zh-tw.json"
       },
       {
-        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
-        "last_updated": "2026-04-20T14:59:27+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "活動_會議_zh-tw.json"
       },
       {
-        "last_commit": "b9d8bb75de70202cce7f9bf4558e396ed8305e47",
-        "last_updated": "2026-04-16T16:44:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "申請_zh-tw.json"
       }
     ],
     "announcements/學務處衛生保健組(醫輔大樓1樓)": [
       {
-        "last_commit": "dfee69e825d104e033b0993470e50f4b53acfc6d",
-        "last_updated": "2026-03-24T14:33:24+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "a0399fd15f5001965c3b242fb74b3a1f036af0ca",
-        "last_updated": "2026-04-13T11:16:24+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "公告_zh-tw.json"
       },
       {
-        "last_commit": "9119de46248b13f7ac8f6a6ef36121b0c960f25e",
-        "last_updated": "2026-03-04T14:23:48+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "公告_宣導_zh-tw.json"
       },
       {
-        "last_commit": "9e7c91bbfced6d30edd1d86edc691dc59ce2db19",
-        "last_updated": "2026-03-26T11:13:41+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "公告_活動_zh-tw.json"
       },
       {
@@ -367,44 +367,44 @@
     ],
     "announcements/學務處課外活動組(蒙民偉樓2樓)": [
       {
-        "last_commit": "c2a5ad5de62c1b4c0b22163aa3ee2d6b3b65a81c",
-        "last_updated": "2026-04-01T00:30:17+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       }
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "84f81344756a59966efb8288c46917b701e50c9e",
-        "last_updated": "2026-04-10T11:15:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "校園輔導活動-本學期_zh-tw.json"
       },
       {
-        "last_commit": "962a6e7bcfd497c191406e0f61eafb71d9b8405a",
-        "last_updated": "2026-01-06T16:13:24+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "校園輔導活動-歷年_zh-tw.json"
       }
     ],
     "announcements/工學院": [
       {
-        "last_commit": "1a6eaae5fc975133ed83257e2b32e6ac364ca338",
-        "last_updated": "2026-03-30T22:40:26+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "861fa7244f433faddd8029b5f293b25f888d30dd",
-        "last_updated": "2026-04-08T00:30:32+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "榮譽榜_zh-tw.json"
       }
     ],
     "announcements/工學院奈米工程與微系統研究所": [
       {
-        "last_commit": "bbce77409f3299814b90419a710320f0b475f06b",
-        "last_updated": "2026-04-21T08:56:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Lecture_en.json"
       },
       {
@@ -413,18 +413,18 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "iNEMS Honors_en.json"
       },
       {
-        "last_commit": "a3d0f8e8aec1acc52972bc4c8d66165e07a9efe0",
-        "last_updated": "2026-03-04T18:18:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "奈微所榮譽_zh-tw.json"
       },
       {
-        "last_commit": "a61f5ff10afdfdf12a74d709623f834bd54254e8",
-        "last_updated": "2026-03-19T11:12:20+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "徵才資訊_zh-tw.json"
       },
       {
@@ -433,30 +433,30 @@
         "name": "所友(學)會_zh-tw.json"
       },
       {
-        "last_commit": "bbce77409f3299814b90419a710320f0b475f06b",
-        "last_updated": "2026-04-21T08:56:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "演講訊息_zh-tw.json"
       },
       {
-        "last_commit": "89452a1e1351c0c794dc84567828fd240f0d55ca",
-        "last_updated": "2026-04-16T18:37:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "碩博士考生資訊_zh-tw.json"
       },
       {
-        "last_commit": "3c531a6a6f814e0b8676dcd19316f5b2349d4149",
-        "last_updated": "2026-04-20T14:59:27+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系所公告_zh-tw.json"
       }
     ],
     "announcements/工學院工學院學士班": [
       {
-        "last_commit": "37eb89ee77f126b76ab3b670a1871bd15335c662",
-        "last_updated": "2026-02-12T18:23:47+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_Announcements  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "9f7d460f6935a7ba892e2e7a27d1cea097ed9a19",
-        "last_updated": "2025-12-11T22:11:02+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_CAMPUS News  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "cd35ada07d086b2e1bfbd144ba66a49c2e5d4adc",
-        "last_updated": "2026-04-16T13:09:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -475,8 +475,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "2b30a041331b72878a86aea28686a3a21fee8ce4",
-        "last_updated": "2026-03-12T12:40:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "跨領域學習相關報導_zh-tw.json"
       }
     ],
@@ -492,42 +492,42 @@
         "name": "Lecture_en.json"
       },
       {
-        "last_commit": "0ba06571140537d8181752a7014eb6c41794de51",
-        "last_updated": "2026-02-23T11:11:50+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "96928576669b29e29cde9c1f75cb815eebde065c",
-        "last_updated": "2026-04-08T16:35:19+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "工工榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "e03597fcd2fd437648c780313ef346f0783f62b8",
-        "last_updated": "2026-04-09T14:43:26+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "演講公告_zh-tw.json"
       },
       {
-        "last_commit": "bbce77409f3299814b90419a710320f0b475f06b",
-        "last_updated": "2026-04-21T08:56:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "4fdfd046588223ac5ea650dd2a59d86109ad098c",
-        "last_updated": "2026-04-20T18:42:09+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "e67cb0d7da60d9ba0da81643fd0450e0d78cbe61",
-        "last_updated": "2026-04-14T11:14:48+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -536,15 +536,15 @@
         "name": "相關連結_zh-tw.json"
       },
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "研習公告_zh-tw.json"
       }
     ],
     "announcements/師資培育中心華德福教育中心": [
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -555,8 +555,8 @@
         "name": "因應新型冠狀病毒肺炎：教務相關公告_zh-tw.json"
       },
       {
-        "last_commit": "b25b3b3ec0f67bbc88ae01d41b9e1889dc04266d",
-        "last_updated": "2026-03-03T14:25:58+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -567,45 +567,45 @@
         "name": "僑外生最新公告_zh-tw.json"
       },
       {
-        "last_commit": "3ce47aa3ae706148bd39a486a5172c4b4b951b76",
-        "last_updated": "2026-04-16T14:49:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "博士班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "0ccfbc72ef1f4eb94c63a06b7250f8a988a531b2",
-        "last_updated": "2026-03-26T18:27:08+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
     "announcements/教務處推廣教育中心": [
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "國內大學交換生(含台聯大全時選讀生)_zh-tw.json"
       },
       {
-        "last_commit": "1269bfacf6c74368f2c8f7a923f21736d3b7c397",
-        "last_updated": "2026-01-20T22:15:52+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "推廣教育_zh-tw.json"
       },
       {
-        "last_commit": "1283b1848f7c3ce4fc41ae4b8a3ba6b9f3bf33ac",
-        "last_updated": "2026-04-01T16:37:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -626,8 +626,8 @@
         "name": "Graduation Process_en.json"
       },
       {
-        "last_commit": "282e2684ccea4c5b934eb2ef60ec7422f6043366",
-        "last_updated": "2026-03-31T00:29:54+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       },
       {
@@ -651,8 +651,8 @@
         "name": "常用資訊_zh-tw.json"
       },
       {
-        "last_commit": "d5ed2f8cef4f8bf8cab4e7317682b2419c88aa9a",
-        "last_updated": "2026-03-30T13:04:52+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -668,8 +668,8 @@
         "name": "【首頁】招生訊息  - AIMS Fellows_zh-tw.json"
       },
       {
-        "last_commit": "e4f099923b7af1d1319498cd7775948acad161a7",
-        "last_updated": "2026-03-06T11:06:19+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "【首頁】最新消息  - AIMS Fellows_zh-tw.json"
       }
     ],
@@ -680,25 +680,25 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "49471a99a2e5add398d333fc168ea8e14afed3c0",
-        "last_updated": "2026-04-15T18:35:02+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "What's New_en.json"
       },
       {
-        "last_commit": "7800d955916efd66a6d44caa28d9fb7fc7b0c9c1",
-        "last_updated": "2026-04-15T13:05:16+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "新書展示_zh-tw.json"
       },
       {
-        "last_commit": "78b38b2ab3fa80a6c7bc8007756102adede073da",
-        "last_updated": "2026-03-05T14:25:46+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/教務處綜合教務組": [
       {
-        "last_commit": "83538ad64ce05480a0412dd25b38837ff415a6d2",
-        "last_updated": "2026-04-07T16:36:53+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "訊息公告_zh-tw.json"
       }
     ],
@@ -724,27 +724,27 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "d59c1ac97dc24985c1a28be782c9d1ad10380fea",
-        "last_updated": "2026-04-20T11:16:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
       {
-        "last_commit": "e4f099923b7af1d1319498cd7775948acad161a7",
-        "last_updated": "2026-03-06T11:06:19+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/教務處註冊組": [
       {
-        "last_commit": "8cc8821afd5df875eb145e25aa44cb5bcb9b9b4b",
-        "last_updated": "2026-04-15T11:14:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -755,20 +755,20 @@
     ],
     "announcements/教務處課務組": [
       {
-        "last_commit": "eb20e81823889a538d0522f64308be89e5b469df",
-        "last_updated": "2026-04-17T11:15:04+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "d59c1ac97dc24985c1a28be782c9d1ad10380fea",
-        "last_updated": "2026-04-20T11:16:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
     "announcements/教務處跨院國際碩博士班學位學程": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "About Program_en.json"
       },
       {
@@ -777,8 +777,8 @@
         "name": "國際交流_zh-tw.json"
       },
       {
-        "last_commit": "df0d4238e902b547c5b93003bf67bf4dd3ed99ed",
-        "last_updated": "2026-04-02T16:30:47+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "師生榮譽_zh-tw.json"
       },
       {
@@ -787,23 +787,23 @@
         "name": "活動報導_zh-tw.json"
       },
       {
-        "last_commit": "8cc8821afd5df875eb145e25aa44cb5bcb9b9b4b",
-        "last_updated": "2026-04-15T11:14:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系所公告_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "8cc8821afd5df875eb145e25aa44cb5bcb9b9b4b",
-        "last_updated": "2026-04-15T11:14:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
-        "last_commit": "86e702cfaea981b89041c1b1ed3b1919d6c9644b",
-        "last_updated": "2026-04-17T18:33:44+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "關於學程_zh-tw.json"
       }
     ],
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "a21aa2661ded75a56927a1a2d6e78b435846a34d",
-        "last_updated": "2026-04-20T00:18:37+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -850,60 +850,60 @@
     ],
     "announcements/清華公佈欄": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Announcements_en.json"
       },
       {
-        "last_commit": "89f46b49088a60a9492daa974ea05b9e03b1de1d",
-        "last_updated": "2026-04-19T00:18:46+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Events_en.json"
       },
       {
-        "last_commit": "bbce77409f3299814b90419a710320f0b475f06b",
-        "last_updated": "2026-04-21T08:56:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "bbce77409f3299814b90419a710320f0b475f06b",
-        "last_updated": "2026-04-21T08:56:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "bbce77409f3299814b90419a710320f0b475f06b",
-        "last_updated": "2026-04-21T08:56:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
-        "last_commit": "cd35ada07d086b2e1bfbd144ba66a49c2e5d4adc",
-        "last_updated": "2026-04-16T13:09:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
-        "last_commit": "3ce47aa3ae706148bd39a486a5172c4b4b951b76",
-        "last_updated": "2026-04-16T14:49:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
     "announcements/清華學院": [
       {
-        "last_commit": "fc5244159df4b6214ce745f5b85b03d58f124d54",
-        "last_updated": "2026-03-27T00:34:23+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -919,30 +919,30 @@
         "name": "導師分享  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "招生專區  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "0853efc61811b108e11afbcd5db13cef7ef2fb22",
-        "last_updated": "2026-04-17T16:44:25+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新公告  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "活動回顧  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "院生分享  - 清華書院_zh-tw.json"
       }
     ],
     "announcements/清華學院實創中心": [
       {
-        "last_commit": "0d20976baeebd3a0121f32bf3b64660b6f5aec02",
-        "last_updated": "2026-03-09T14:32:23+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -953,8 +953,8 @@
     ],
     "announcements/清華學院清華學院學士班": [
       {
-        "last_commit": "908ac5a464d6ef4ee5019a9db9fcf49476c6509d",
-        "last_updated": "2026-03-19T14:30:36+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "創新學制專區_zh-tw.json"
       },
       {
@@ -963,47 +963,47 @@
         "name": "影音新聞_zh-tw.json"
       },
       {
-        "last_commit": "9117a4901d3ab709c054cbf35c04d6ee781e616d",
-        "last_updated": "2026-04-01T14:46:31+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "b9d8bb75de70202cce7f9bf4558e396ed8305e47",
-        "last_updated": "2026-04-16T16:44:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "ce91fa444cede91732f2e449c1bf5539004cc900",
-        "last_updated": "2026-04-10T18:29:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "訊息公告_zh-tw.json"
       }
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "8cc8821afd5df875eb145e25aa44cb5bcb9b9b4b",
-        "last_updated": "2026-04-15T11:14:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
-        "last_commit": "3f5370bd5bcb6fbf582a06e5600aa58283b71765",
-        "last_updated": "2026-02-10T18:26:48+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "推廣班課程最新消息_zh-tw.json"
       }
     ],
     "announcements/清華學院通識教育中心": [
       {
-        "last_commit": "8cc8821afd5df875eb145e25aa44cb5bcb9b9b4b",
-        "last_updated": "2026-04-15T11:14:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "a96f56c40fe22b2e55e46395029f4729ee8e4edb",
-        "last_updated": "2026-04-08T12:57:01+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "演講訊息_zh-tw.json"
       },
       {
-        "last_commit": "0a92c8ab7ed1c53f27c23a9fcab5d03f488ab736",
-        "last_updated": "2025-11-25T10:40:52+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "近期活動精選_zh-tw.json"
       },
       {
@@ -1014,15 +1014,15 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "86e702cfaea981b89041c1b1ed3b1919d6c9644b",
-        "last_updated": "2026-04-17T18:33:44+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "All seminar_en.json"
       },
       {
@@ -1036,33 +1036,33 @@
         "name": "office news_en.json"
       },
       {
-        "last_commit": "ad70b29f0a5928c3191193c2bf6b49773b68ffe5",
-        "last_updated": "2026-04-13T08:56:23+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "c8101e737c68c910a5270b3bf9d3f74a38e75f72",
-        "last_updated": "2026-04-20T16:56:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
-        "last_commit": "856acb168da85adb2d9744a137f5395370b5dcf5",
-        "last_updated": "2026-02-26T11:06:58+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "招生訊息_zh-tw.json"
       },
       {
-        "last_commit": "5d8afa77edb66acc96eba0856ee94e8e803c153f",
-        "last_updated": "2026-03-11T11:04:45+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "ad70b29f0a5928c3191193c2bf6b49773b68ffe5",
-        "last_updated": "2026-04-13T08:56:23+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "84f5c93e0df1c37b5759c97d84dd1c3c19a632c7",
-        "last_updated": "2026-04-13T00:17:35+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -1073,8 +1073,8 @@
         "name": "E-system related issues_en.json"
       },
       {
-        "last_commit": "71e01bdd7f9b2ed39fd2e9792849aef2777462af",
-        "last_updated": "2025-11-25T19:51:41+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "E化系統相關問題_zh-tw.json"
       },
       {
@@ -1083,8 +1083,8 @@
         "name": "Related Links_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -1105,23 +1105,23 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_commit": "a96f56c40fe22b2e55e46395029f4729ee8e4edb",
-        "last_updated": "2026-04-08T12:57:01+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "eb20e81823889a538d0522f64308be89e5b469df",
-        "last_updated": "2026-04-17T11:15:04+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "Recent Activities_en.json"
       },
       {
-        "last_commit": "a96f56c40fe22b2e55e46395029f4729ee8e4edb",
-        "last_updated": "2026-04-08T12:57:01+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "banner_en.json"
       },
       {
-        "last_commit": "a96f56c40fe22b2e55e46395029f4729ee8e4edb",
-        "last_updated": "2026-04-08T12:57:01+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1130,18 +1130,18 @@
         "name": "news_en.json"
       },
       {
-        "last_commit": "6de0df66aed78b9b6330f3d182e9c4ca243de3cf",
-        "last_updated": "2026-04-15T14:49:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "news_zh-tw.json"
       },
       {
-        "last_commit": "0853efc61811b108e11afbcd5db13cef7ef2fb22",
-        "last_updated": "2026-04-17T16:44:25+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "6de0df66aed78b9b6330f3d182e9c4ca243de3cf",
-        "last_updated": "2026-04-15T14:49:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1152,8 +1152,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "78ed0abe48c740327ba565e1f8e8ddeedd9de258",
-        "last_updated": "2026-03-24T18:24:44+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1162,8 +1162,8 @@
         "name": "news_en.json"
       },
       {
-        "last_commit": "74c8d389ae3d0ef8ac2a506297a768f943786df6",
-        "last_updated": "2026-03-09T18:24:04+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "news_zh-tw.json"
       }
     ],
@@ -1174,13 +1174,13 @@
         "name": "banner_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "news_en.json"
       },
       {
-        "last_commit": "24c3edecf2dbb68af70a54ec73bd85f7daebe790",
-        "last_updated": "2026-02-06T06:12:11+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "news_zh-tw.json"
       }
     ],
@@ -1206,13 +1206,13 @@
         "name": "學系動態_zh-tw.json"
       },
       {
-        "last_commit": "48a2d61daae733dee1b08f1c15b19983ee2b7fbf",
-        "last_updated": "2026-04-18T14:36:35+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "1972b72345cba21c4f0903f95391325e0f520a4b",
-        "last_updated": "2026-03-09T16:22:27+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新訊息_zh-tw.json"
       },
       {
@@ -1221,20 +1221,20 @@
         "name": "相關中心_zh-tw.json"
       },
       {
-        "last_commit": "48a2d61daae733dee1b08f1c15b19983ee2b7fbf",
-        "last_updated": "2026-04-18T14:36:35+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "醫學系：新聞_zh-tw.json"
       }
     ],
     "announcements/生命科學暨醫學院精準醫療博士學位學程": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "f8fbdb1769d2e6a02b05497f167504f8a77b4932",
-        "last_updated": "2026-01-12T16:14:11+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1269,13 +1269,13 @@
     ],
     "announcements/研究發展處當代中國研究中心": [
       {
-        "last_commit": "1af5dc9d50f31715c78eb0c15200fb24ba7f8ecf",
-        "last_updated": "2026-04-13T13:12:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "資訊分類清單_zh-tw.json"
       },
       {
-        "last_commit": "b1b9068b5009cee679a00d284f13dcdb422e1ead",
-        "last_updated": "2026-04-09T11:13:27+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "通訊即時報導_zh-tw.json"
       }
     ],
@@ -1286,18 +1286,18 @@
         "name": "IACUC審查事項公告_zh-tw.json"
       },
       {
-        "last_commit": "96dbcaf06bee80267a603ff183fe30690e5dd8aa",
-        "last_updated": "2026-03-27T14:37:02+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "IACUC最新消息公告_zh-tw.json"
       },
       {
-        "last_commit": "89452a1e1351c0c794dc84567828fd240f0d55ca",
-        "last_updated": "2026-04-16T18:37:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "研究倫理審查事項公告_zh-tw.json"
       },
       {
-        "last_commit": "89452a1e1351c0c794dc84567828fd240f0d55ca",
-        "last_updated": "2026-04-16T18:37:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "研究倫理最新消息公告_zh-tw.json"
       }
     ],
@@ -1358,8 +1358,8 @@
     ],
     "announcements/科技管理學院安富金融工程研究中心": [
       {
-        "last_commit": "b2158189f1be599e56306b0ce2d4eb3eaad37a50",
-        "last_updated": "2026-03-26T12:54:15+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "中心消息 News_zh-tw.json"
       }
     ],
@@ -1375,13 +1375,13 @@
         "name": "新聞專區_zh-tw.json"
       },
       {
-        "last_commit": "3b7174cc07306725cb3afac6508e04213efb56a7",
-        "last_updated": "2026-04-17T14:49:42+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "3b7174cc07306725cb3afac6508e04213efb56a7",
-        "last_updated": "2026-04-17T14:49:42+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "活動訊息_zh-tw.json"
       }
     ],
@@ -1399,18 +1399,18 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "7800d955916efd66a6d44caa28d9fb7fc7b0c9c1",
-        "last_updated": "2026-04-15T13:05:16+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "b775b05ebfd25a9b61e28e054226d9f45d2d542b",
-        "last_updated": "2026-02-13T12:44:57+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "7800d955916efd66a6d44caa28d9fb7fc7b0c9c1",
-        "last_updated": "2026-04-15T13:05:16+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -1431,18 +1431,18 @@
         "name": "學科所 _ 師生榮譽_zh-tw.json"
       },
       {
-        "last_commit": "86e702cfaea981b89041c1b1ed3b1919d6c9644b",
-        "last_updated": "2026-04-17T18:33:44+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學科所 _ 所辦公告_zh-tw.json"
       },
       {
-        "last_commit": "86e702cfaea981b89041c1b1ed3b1919d6c9644b",
-        "last_updated": "2026-04-17T18:33:44+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學科所 _ 最新消息_zh-tw.json"
       },
       {
-        "last_commit": "1366a04a441e4d951fcc17b248270eea8a1b8551",
-        "last_updated": "2026-03-27T16:24:40+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學科所 _ 演講公告_zh-tw.json"
       },
       {
@@ -1463,22 +1463,22 @@
     ],
     "announcements/竹師教育學院幼兒教育學系": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "快速搜尋_zh-tw.json"
       }
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
       {
-        "last_commit": "8be8b108f706280bdfc91b5d1d2412118190e98b",
-        "last_updated": "2026-03-24T22:34:43+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/竹師教育學院教育心理與諮商學系": [
       {
-        "last_commit": "cd6e3b04ee85accb6a5722941f75e9b8f0f7656b",
-        "last_updated": "2026-03-18T12:47:09+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學術訊息_zh-tw.json"
       },
       {
@@ -1497,8 +1497,8 @@
         "name": "校內活動_zh-tw.json"
       },
       {
-        "last_commit": "15f680974cc54beee1b8397e7633016ebbcde17f",
-        "last_updated": "2026-04-02T00:28:13+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -1514,8 +1514,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "83538ad64ce05480a0412dd25b38837ff415a6d2",
-        "last_updated": "2026-04-07T16:36:53+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學術活動／研討會資訊_zh-tw.json"
       },
       {
@@ -1524,18 +1524,18 @@
         "name": "徵才訊息_zh-tw.json"
       },
       {
-        "last_commit": "ce91fa444cede91732f2e449c1bf5539004cc900",
-        "last_updated": "2026-04-10T18:29:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "83538ad64ce05480a0412dd25b38837ff415a6d2",
-        "last_updated": "2026-04-07T16:36:53+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
-        "last_commit": "83538ad64ce05480a0412dd25b38837ff415a6d2",
-        "last_updated": "2026-04-07T16:36:53+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "轉知訊息_zh-tw.json"
       }
     ],
@@ -1546,8 +1546,8 @@
         "name": "學術活動_en.json"
       },
       {
-        "last_commit": "3467956aa944112c61792d291f851584c26258ed",
-        "last_updated": "2026-04-11T11:11:52+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1556,8 +1556,8 @@
         "name": "最新消息_en.json"
       },
       {
-        "last_commit": "3467956aa944112c61792d291f851584c26258ed",
-        "last_updated": "2026-04-11T11:11:52+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1568,13 +1568,13 @@
         "name": "General_en.json"
       },
       {
-        "last_commit": "8d3bbc048d14dcd52f51be9621fbe7b7de0a3bba",
-        "last_updated": "2026-01-16T16:12:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "一般公告_zh-tw.json"
       },
       {
-        "last_commit": "2150d5d18760521239c72238d9b72d94092172d1",
-        "last_updated": "2026-01-28T16:13:34+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "招生公告_zh-tw.json"
       }
     ],
@@ -1585,20 +1585,20 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "5e79fe3acb58ca50fb15740e591a8e11d12f762f",
-        "last_updated": "2026-01-19T16:14:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "本班公告_zh-tw.json"
       }
     ],
     "announcements/竹師教育學院臺灣語言研究與教學研究所": [
       {
-        "last_commit": "3ce47aa3ae706148bd39a486a5172c4b4b951b76",
-        "last_updated": "2026-04-16T14:49:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "學術訊息_zh-tw.json"
       },
       {
-        "last_commit": "3604237b0d3f5423506bef7cf87a75340778c650",
-        "last_updated": "2025-12-26T10:44:52+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "徵才訊息_zh-tw.json"
       },
       {
@@ -1614,15 +1614,15 @@
     ],
     "announcements/竹師教育學院英語教育中心": [
       {
-        "last_commit": "a8627d3557bbff988860598104b5fe95156b2ef7",
-        "last_updated": "2026-02-25T14:33:18+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "中心最新消息 NEWS_zh-tw.json"
       }
     ],
     "announcements/竹師教育學院華德福教育碩士在職學位學程": [
       {
-        "last_commit": "25f5b245cf6cad8728f7080ca0f8d2348740ccd4",
-        "last_updated": "2026-04-08T14:43:06+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1673,69 +1673,69 @@
         "name": "「獎學金_交換計劃」_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "實習_徵才訊息_zh-tw.json"
       },
       {
-        "last_commit": "84f81344756a59966efb8288c46917b701e50c9e",
-        "last_updated": "2026-04-10T11:15:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "招生及放榜資訊_zh-tw.json"
       },
       {
-        "last_commit": "84f81344756a59966efb8288c46917b701e50c9e",
-        "last_updated": "2026-04-10T11:15:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "7aec528cc055f417b57aac163cdaf4523438f4a4",
-        "last_updated": "2026-02-25T20:24:36+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "活動公告_zh-tw.json"
       },
       {
-        "last_commit": "84f81344756a59966efb8288c46917b701e50c9e",
-        "last_updated": "2026-04-10T11:15:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "系務公告_zh-tw.json"
       }
     ],
     "announcements/總務處": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "General News_en.json"
       },
       {
-        "last_commit": "c25691227e474bf193310d0daf70c85ec4fd4176",
-        "last_updated": "2026-03-30T11:14:49+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/總務處事務組": [
       {
-        "last_commit": "9444e2659c6288228e9ee18a8a4ce736d7cb2692",
-        "last_updated": "2026-04-13T14:57:28+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "0853efc61811b108e11afbcd5db13cef7ef2fb22",
-        "last_updated": "2026-04-17T16:44:25+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
-        "last_commit": "9444e2659c6288228e9ee18a8a4ce736d7cb2692",
-        "last_updated": "2026-04-13T14:57:28+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "校園公車暨巡迴公車公告_en.json"
       },
       {
-        "last_commit": "3ce47aa3ae706148bd39a486a5172c4b4b951b76",
-        "last_updated": "2026-04-16T14:49:55+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json"
       }
     ],
     "announcements/總務處保管組": [
       {
-        "last_commit": "a0399fd15f5001965c3b242fb74b3a1f036af0ca",
-        "last_updated": "2026-04-13T11:16:24+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1751,8 +1751,8 @@
         "name": "一般公告_zh-tw.json"
       },
       {
-        "last_commit": "a21aa2661ded75a56927a1a2d6e78b435846a34d",
-        "last_updated": "2026-04-20T00:18:37+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1763,27 +1763,27 @@
         "name": "News!_en.json"
       },
       {
-        "last_commit": "908ac5a464d6ef4ee5019a9db9fcf49476c6509d",
-        "last_updated": "2026-03-19T14:30:36+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "1af5dc9d50f31715c78eb0c15200fb24ba7f8ecf",
-        "last_updated": "2026-04-13T13:12:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
     "announcements/總務處文書組": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "6de0df66aed78b9b6330f3d182e9c4ca243de3cf",
-        "last_updated": "2026-04-15T14:49:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "轉知檔案應用訊息_zh-tw.json"
       }
     ],
@@ -1796,13 +1796,13 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1813,15 +1813,15 @@
         "name": "招待所公告_zh-tw.json"
       },
       {
-        "last_commit": "6de0df66aed78b9b6330f3d182e9c4ca243de3cf",
-        "last_updated": "2026-04-15T14:49:07+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "餐廳公告_zh-tw.json"
       }
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "84f81344756a59966efb8288c46917b701e50c9e",
-        "last_updated": "2026-04-10T11:15:00+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1837,8 +1837,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "3b7174cc07306725cb3afac6508e04213efb56a7",
-        "last_updated": "2026-04-17T14:49:42+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "轉知公告_zh-tw.json"
       }
     ],
@@ -1849,8 +1849,8 @@
         "name": "媒體報導_zh-tw.json"
       },
       {
-        "last_commit": "b1b9068b5009cee679a00d284f13dcdb422e1ead",
-        "last_updated": "2026-04-09T11:13:27+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "最新訊息_zh-tw.json"
       }
     ],
@@ -1868,23 +1868,23 @@
     ],
     "announcements/電機資訊學院光電工程研究所": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "一般公告_zh-tw.json"
       },
       {
-        "last_commit": "5803a382e83893bb2993794358162b184b402541",
-        "last_updated": "2025-12-30T10:46:22+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "博班公告_zh-tw.json"
       },
       {
-        "last_commit": "3d80dd113fd17322f2c0819344f6f081fbef2b9d",
-        "last_updated": "2026-04-21T11:15:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "實習徵才公告_zh-tw.json"
       },
       {
-        "last_commit": "9ea1eb58bc46e09cd02647599fd1389de7e7df87",
-        "last_updated": "2026-03-25T16:23:33+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "招生公告_zh-tw.json"
       },
       {
@@ -1893,50 +1893,50 @@
         "name": "榮譽公告-學生_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "榮譽公告-教授_zh-tw.json"
       },
       {
-        "last_commit": "ab635bb689a3fb078c752c0d6f0f6bf270c2bd56",
-        "last_updated": "2025-12-19T18:10:38+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "活動競賽公告_zh-tw.json"
       },
       {
-        "last_commit": "27e3e7770210afbea5ca25b277371c4596459b61",
-        "last_updated": "2026-04-07T11:13:51+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "演講公告_zh-tw.json"
       },
       {
-        "last_commit": "9e7c91bbfced6d30edd1d86edc691dc59ce2db19",
-        "last_updated": "2026-03-26T11:13:41+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "獎學金資訊公告_zh-tw.json"
       },
       {
-        "last_commit": "9ea1eb58bc46e09cd02647599fd1389de7e7df87",
-        "last_updated": "2026-03-25T16:23:33+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "碩班公告_zh-tw.json"
       }
     ],
     "buses": [
       {
-        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
-        "last_updated": "2026-03-18T11:12:21+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "main_schedule_images.json"
       },
       {
-        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
-        "last_updated": "2026-03-18T11:12:21+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "nanda_schedule_images.json"
       },
       {
-        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
-        "last_updated": "2026-03-23T08:49:08+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
-        "last_updated": "2026-03-18T11:12:21+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
@@ -1945,18 +1945,18 @@
         "name": "towardNandaInfo.json"
       },
       {
-        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
-        "last_updated": "2026-03-18T11:12:21+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
-        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
-        "last_updated": "2026-03-23T08:49:08+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "weekdayBusScheduleTowardMainCampus.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "weekdayBusScheduleTowardMainGate.json"
       },
       {
@@ -1965,8 +1965,8 @@
         "name": "weekdayBusScheduleTowardNanda.json"
       },
       {
-        "last_commit": "c776029b2c294c533df498f67560d47d498c2ea4",
-        "last_updated": "2026-02-13T18:21:18+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "weekdayBusScheduleTowardTSMCBuilding.json"
       },
       {
@@ -1992,8 +1992,8 @@
     ],
     "buses/images": [
       {
-        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
-        "last_updated": "2026-03-18T11:12:21+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "main_0.jpg"
       },
       {
@@ -2002,8 +2002,8 @@
         "name": "main_1.jpg"
       },
       {
-        "last_commit": "869a5b2232203a4a2408c1b05268a6d1f08f373a",
-        "last_updated": "2026-03-18T11:12:21+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "nanda_0.jpg"
       },
       {
@@ -2089,8 +2089,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "45be71fa6306404e91bc73eb290a13f78237c783",
-        "last_updated": "2026-04-21T06:23:05+08:00",
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
         "name": "latest.json"
       }
     ],
@@ -2154,6 +2154,11 @@
         "last_commit": "45be71fa6306404e91bc73eb290a13f78237c783",
         "last_updated": "2026-04-21T06:23:05+08:00",
         "name": "11420.json"
+      },
+      {
+        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
+        "last_updated": "2026-06-15T20:07:54+08:00",
+        "name": "11510.json"
       }
     ],
     "maps": [
@@ -2196,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-04-21T11:15:05+08:00"
+  "last_updated": "2026-06-15T20:07:54+08:00"
 }
