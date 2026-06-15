@@ -5,8 +5,13 @@
     "department": "研究發展處研究倫理辦公室",
     "articles": [
         {
-            "title": "🌀📢[新!]收費標準異動公告-💰[國立清華大學研究倫理審查服務費用收支管理要點(115.03.19修正，115.06.01啟用)<不代審校外學生研究>",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-151484,r7436.php?Lang=zh-tw",
+            "title": "🟢[FAQ受訓證明]取得2年內6小時研究倫理(REC/IRB)時數、本會AREE時數認列表🟢",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-103364,r7436.php?Lang=zh-tw",
+            "date": ""
+        },
+        {
+            "title": "🆕📜[提醒]國科會補助專題研究計畫作業要點-有關REC核准文件的規範(115.04.10修正生效)",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-307813,r7436.php?Lang=zh-tw",
             "date": ""
         },
         {
@@ -15,38 +20,8 @@
             "date": ""
         },
         {
-            "title": "*重要*[辦公室公告]113年起本校研究倫理審查-新案採線上送審(更新V4_11407)",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-261219,r7436.php?Lang=zh-tw",
-            "date": ""
-        },
-        {
-            "title": "🟢[FAQ受訓證明]取得2年內6小時研究倫理(REC/IRB)時數、本會AREE時數認列表🟢",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-103364,r7436.php?Lang=zh-tw",
-            "date": ""
-        },
-        {
-            "title": "【辦公室訊息】本校新線上教育平台-「學術與研究倫理線上教育平台」上線了🆕",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-286205,r7436.php?Lang=zh-tw",
-            "date": ""
-        },
-        {
-            "title": "About Research Ethics and Integrity  Office and resources for researchers preparing an application",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-265334,r7436.php?Lang=zh-tw",
-            "date": ""
-        },
-        {
-            "title": "[畢業前提醒]學生執行研究倫理案，記得提前完成結案審查才能順利離校",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-281295,r7436.php?Lang=zh-tw",
-            "date": ""
-        },
-        {
-            "title": "[提醒]原住民族為目的之人體研究計畫及成果：應諮詢取得原住民族同意(未經同意不得擅自進行)",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-107495,r7436.php?Lang=zh-tw",
-            "date": ""
-        },
-        {
-            "title": "[常見FAQ]學術倫理學分VS研究倫理學分(Academic Ethics Credits vs. Research Ethics Credits)",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-219796,r7436.php?Lang=zh-tw",
+            "title": "📢🌱[校外案請先確認]🚨本校REC受理代審案件以與本校簽訂委託契約且屬簽約審查範圍內者為限(準備電子檔前請先洽詢是否可受理）",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-308252,r7436.php?Lang=zh-tw",
             "date": ""
         },
         {
@@ -55,13 +30,38 @@
             "date": ""
         },
         {
-            "title": "[提醒]國外網域將無法連上本校eREC線上審查系統，請使用VPN",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-301660,r7436.php?Lang=zh-tw",
+            "title": "[畢業前提醒]學生執行研究倫理案，記得提前完成結案審查才能順利離校",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-281295,r7436.php?Lang=zh-tw",
             "date": ""
         },
         {
-            "title": "國立清華大學研究倫理審查委員會115年度預定會期公告📢",
-            "link": "https://rec.site.nthu.edu.tw/p/406-1233-298956,r7436.php?Lang=zh-tw",
+            "title": "[常見FAQ]學術倫理學分VS研究倫理學分(Academic Ethics Credits vs. Research Ethics Credits)",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-219796,r7436.php?Lang=zh-tw",
+            "date": ""
+        },
+        {
+            "title": "[提醒]原住民族為目的之人體研究計畫及成果：應諮詢取得原住民族同意(未經同意不得擅自進行)",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-107495,r7436.php?Lang=zh-tw",
+            "date": ""
+        },
+        {
+            "title": "🌀📢[新!]收費標準異動公告-💰[國立清華大學研究倫理審查服務費用收支管理要點(115.03.19修正，115.06.01啟用)",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-151484,r7436.php?Lang=zh-tw",
+            "date": ""
+        },
+        {
+            "title": "*重要*[辦公室公告]113年起本校研究倫理審查-新案採線上送審(更新V4_11407)",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-261219,r7436.php?Lang=zh-tw",
+            "date": ""
+        },
+        {
+            "title": "About Research Ethics and Integrity  Office and resources for researchers preparing an application",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-265334,r7436.php?Lang=zh-tw",
+            "date": ""
+        },
+        {
+            "title": "【辦公室訊息】本校新線上教育平台-「學術與研究倫理線上教育平台」上線了🆕",
+            "link": "https://rec.site.nthu.edu.tw/p/406-1233-286205,r7436.php?Lang=zh-tw",
             "date": ""
         }
     ]
