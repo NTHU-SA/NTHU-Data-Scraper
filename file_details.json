@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6c136afada28a6bbda17e7bb6e5d61dfaa726e88",
-        "last_updated": "2026-06-17T19:40:39+08:00",
+        "last_commit": "c879c768a7cd1b9072708b0da443633e6c1bc3d6",
+        "last_updated": "2026-06-17T23:11:21+08:00",
         "name": "announcements.json"
       },
       {
@@ -1120,8 +1120,8 @@
         "name": "banner_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "c879c768a7cd1b9072708b0da443633e6c1bc3d6",
+        "last_updated": "2026-06-17T23:11:21+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "c879c768a7cd1b9072708b0da443633e6c1bc3d6",
+        "last_updated": "2026-06-17T23:11:21+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-17T19:40:39+08:00"
+  "last_updated": "2026-06-17T23:11:21+08:00"
 }
