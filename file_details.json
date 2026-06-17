@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8d335d04f20957437a3b557a78e611800bb45bae",
-        "last_updated": "2026-06-17T16:07:44+08:00",
+        "last_commit": "6c136afada28a6bbda17e7bb6e5d61dfaa726e88",
+        "last_updated": "2026-06-17T19:40:39+08:00",
         "name": "announcements.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "8d335d04f20957437a3b557a78e611800bb45bae",
-        "last_updated": "2026-06-17T16:07:44+08:00",
+        "last_commit": "6c136afada28a6bbda17e7bb6e5d61dfaa726e88",
+        "last_updated": "2026-06-17T19:40:39+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "8d335d04f20957437a3b557a78e611800bb45bae",
-        "last_updated": "2026-06-17T16:07:44+08:00",
+        "last_commit": "6c136afada28a6bbda17e7bb6e5d61dfaa726e88",
+        "last_updated": "2026-06-17T19:40:39+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "561d530b0df594cd892122ee691df0230c676ce3",
-        "last_updated": "2026-06-16T19:51:55+08:00",
+        "last_commit": "6c136afada28a6bbda17e7bb6e5d61dfaa726e88",
+        "last_updated": "2026-06-17T19:40:39+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1431,13 +1431,13 @@
         "name": "學科所 _ 師生榮譽_zh-tw.json"
       },
       {
-        "last_commit": "b312dae3e5dd158212d04165cb68b7035bf553a2",
-        "last_updated": "2026-06-17T13:50:06+08:00",
+        "last_commit": "6c136afada28a6bbda17e7bb6e5d61dfaa726e88",
+        "last_updated": "2026-06-17T19:40:39+08:00",
         "name": "學科所 _ 所辦公告_zh-tw.json"
       },
       {
-        "last_commit": "b312dae3e5dd158212d04165cb68b7035bf553a2",
-        "last_updated": "2026-06-17T13:50:06+08:00",
+        "last_commit": "6c136afada28a6bbda17e7bb6e5d61dfaa726e88",
+        "last_updated": "2026-06-17T19:40:39+08:00",
         "name": "學科所 _ 最新消息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-17T16:07:44+08:00"
+  "last_updated": "2026-06-17T19:40:39+08:00"
 }
