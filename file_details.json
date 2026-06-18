@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c879c768a7cd1b9072708b0da443633e6c1bc3d6",
-        "last_updated": "2026-06-17T23:11:21+08:00",
+        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
+        "last_updated": "2026-06-18T11:20:20+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "0642a757ff8da5256757568f493466449a142ff1",
-        "last_updated": "2026-06-18T09:18:19+08:00",
+        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
+        "last_updated": "2026-06-18T11:20:20+08:00",
         "name": "dining.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
+        "last_updated": "2026-06-18T11:20:20+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -1399,8 +1399,8 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
+        "last_updated": "2026-06-18T11:20:20+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
@@ -1409,8 +1409,8 @@
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "b312dae3e5dd158212d04165cb68b7035bf553a2",
-        "last_updated": "2026-06-17T13:50:06+08:00",
+        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
+        "last_updated": "2026-06-18T11:20:20+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -1470,8 +1470,8 @@
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
+        "last_updated": "2026-06-18T11:20:20+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-18T09:18:19+08:00"
+  "last_updated": "2026-06-18T11:20:20+08:00"
 }
