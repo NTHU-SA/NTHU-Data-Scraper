@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
-        "last_updated": "2026-06-18T11:20:20+08:00",
+        "last_commit": "a0a66c607611574581cd9c843e11472e750c3acb",
+        "last_updated": "2026-06-18T13:46:53+08:00",
         "name": "announcements.json"
       },
       {
@@ -680,13 +680,13 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "a0a66c607611574581cd9c843e11472e750c3acb",
+        "last_updated": "2026-06-18T13:46:53+08:00",
         "name": "What's New_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "a0a66c607611574581cd9c843e11472e750c3acb",
+        "last_updated": "2026-06-18T13:46:53+08:00",
         "name": "新書展示_zh-tw.json"
       },
       {
@@ -1470,8 +1470,8 @@
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
       {
-        "last_commit": "31991bf104791ce08b1f1169d30478ac727fe8e0",
-        "last_updated": "2026-06-18T11:20:20+08:00",
+        "last_commit": "a0a66c607611574581cd9c843e11472e750c3acb",
+        "last_updated": "2026-06-18T13:46:53+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-18T11:20:20+08:00"
+  "last_updated": "2026-06-18T13:46:53+08:00"
 }
