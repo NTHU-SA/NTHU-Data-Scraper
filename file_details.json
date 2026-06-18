@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3100548af59de06b55895f1571c25bf57ac931cc",
-        "last_updated": "2026-06-18T23:13:59+08:00",
+        "last_commit": "73674576d1995748a8353d34129504faffa64350",
+        "last_updated": "2026-06-19T01:13:07+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "792d4eaa13b99cdc2be6a1d483e77d8ff4c27d23",
-        "last_updated": "2026-06-18T15:57:11+08:00",
+        "last_commit": "73674576d1995748a8353d34129504faffa64350",
+        "last_updated": "2026-06-19T01:13:07+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -577,8 +577,8 @@
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "73674576d1995748a8353d34129504faffa64350",
+        "last_updated": "2026-06-19T01:13:07+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-18T23:13:59+08:00"
+  "last_updated": "2026-06-19T01:13:07+08:00"
 }
