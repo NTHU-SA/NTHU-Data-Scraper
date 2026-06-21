@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "89373bc494a60322e94439a3bedba85d681aaba6",
-        "last_updated": "2026-06-21T00:40:14+08:00",
+        "last_commit": "2f4f2e3876476a7fc3ffc8ca32bc5f567398ad18",
+        "last_updated": "2026-06-21T15:52:00+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,13 +860,13 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "c1d8293cedccaede381757813f172c234bec5bb2",
-        "last_updated": "2026-06-20T00:55:07+08:00",
+        "last_commit": "2f4f2e3876476a7fc3ffc8ca32bc5f567398ad18",
+        "last_updated": "2026-06-21T15:52:00+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "c1d8293cedccaede381757813f172c234bec5bb2",
-        "last_updated": "2026-06-20T00:55:07+08:00",
+        "last_commit": "2f4f2e3876476a7fc3ffc8ca32bc5f567398ad18",
+        "last_updated": "2026-06-21T15:52:00+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
@@ -875,13 +875,13 @@
         "name": "學術活動_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "2f4f2e3876476a7fc3ffc8ca32bc5f567398ad18",
+        "last_updated": "2026-06-21T15:52:00+08:00",
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "792d4eaa13b99cdc2be6a1d483e77d8ff4c27d23",
-        "last_updated": "2026-06-18T15:57:11+08:00",
+        "last_commit": "2f4f2e3876476a7fc3ffc8ca32bc5f567398ad18",
+        "last_updated": "2026-06-21T15:52:00+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "8d335d04f20957437a3b557a78e611800bb45bae",
-        "last_updated": "2026-06-17T16:07:44+08:00",
+        "last_commit": "2f4f2e3876476a7fc3ffc8ca32bc5f567398ad18",
+        "last_updated": "2026-06-21T15:52:00+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-21T00:40:14+08:00"
+  "last_updated": "2026-06-21T15:52:00+08:00"
 }
