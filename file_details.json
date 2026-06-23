@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6da80170b04aba255b9a51fe4ad383ba57b7c179",
-        "last_updated": "2026-06-23T17:20:07+08:00",
+        "last_commit": "446db8f7edad96f452150ac2a2e05677d5fe4b2d",
+        "last_updated": "2026-06-23T21:12:13+08:00",
         "name": "announcements.json"
       },
       {
@@ -985,8 +985,8 @@
         "name": "中心最新消息_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "446db8f7edad96f452150ac2a2e05677d5fe4b2d",
+        "last_updated": "2026-06-23T21:12:13+08:00",
         "name": "推廣班課程最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-23T17:20:07+08:00"
+  "last_updated": "2026-06-23T21:12:13+08:00"
 }
