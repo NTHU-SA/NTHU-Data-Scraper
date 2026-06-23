@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "cb79f3a646bc58ed410e26e46edaf445cc546e9f",
-        "last_updated": "2026-06-23T01:38:19+08:00",
+        "last_commit": "d57b3513e108bba93a57e2d878257aa80709df89",
+        "last_updated": "2026-06-23T09:07:31+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "8ef395740d0d6de4be4564bc25fc662361e48cbb",
-        "last_updated": "2026-06-22T14:01:16+08:00",
+        "last_commit": "d57b3513e108bba93a57e2d878257aa80709df89",
+        "last_updated": "2026-06-23T09:07:31+08:00",
         "name": "dining.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "d57b3513e108bba93a57e2d878257aa80709df89",
+        "last_updated": "2026-06-23T09:07:31+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -731,8 +731,8 @@
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "d57b3513e108bba93a57e2d878257aa80709df89",
+        "last_updated": "2026-06-23T09:07:31+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-23T06:40:11+08:00"
+  "last_updated": "2026-06-23T09:07:31+08:00"
 }
