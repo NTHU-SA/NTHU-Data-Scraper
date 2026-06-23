@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "35cf4bac5bb8ceeda9d0aa4109bbebe9ee0c46db",
-        "last_updated": "2026-06-23T13:30:42+08:00",
+        "last_commit": "1e34ac8b18dcd5785a5db7b005b1da25104b8edb",
+        "last_updated": "2026-06-23T15:29:04+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "35cf4bac5bb8ceeda9d0aa4109bbebe9ee0c46db",
-        "last_updated": "2026-06-23T13:30:42+08:00",
+        "last_commit": "1e34ac8b18dcd5785a5db7b005b1da25104b8edb",
+        "last_updated": "2026-06-23T15:29:04+08:00",
         "name": "dining.json"
       },
       {
@@ -587,8 +587,8 @@
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "c1564aa377ddc02920eb0d5d2784a6683020e917",
-        "last_updated": "2026-06-16T16:16:29+08:00",
+        "last_commit": "1e34ac8b18dcd5785a5db7b005b1da25104b8edb",
+        "last_updated": "2026-06-23T15:29:04+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "8784d8089dd4cd59f550c1cff9d9b497aa05061f",
-        "last_updated": "2026-06-23T11:18:31+08:00",
+        "last_commit": "1e34ac8b18dcd5785a5db7b005b1da25104b8edb",
+        "last_updated": "2026-06-23T15:29:04+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "8784d8089dd4cd59f550c1cff9d9b497aa05061f",
-        "last_updated": "2026-06-23T11:18:31+08:00",
+        "last_commit": "1e34ac8b18dcd5785a5db7b005b1da25104b8edb",
+        "last_updated": "2026-06-23T15:29:04+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -1903,8 +1903,8 @@
         "name": "活動競賽公告_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "1e34ac8b18dcd5785a5db7b005b1da25104b8edb",
+        "last_updated": "2026-06-23T15:29:04+08:00",
         "name": "演講公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-23T13:30:42+08:00"
+  "last_updated": "2026-06-23T15:29:04+08:00"
 }
