@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "85dd1f8c6a1922ba4c08c775f0b7a1e2c0a7e4bf",
-        "last_updated": "2026-06-24T11:19:00+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "2f4f2e3876476a7fc3ffc8ca32bc5f567398ad18",
-        "last_updated": "2026-06-21T15:52:00+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "85dd1f8c6a1922ba4c08c775f0b7a1e2c0a7e4bf",
-        "last_updated": "2026-06-24T11:19:00+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "1e34ac8b18dcd5785a5db7b005b1da25104b8edb",
-        "last_updated": "2026-06-23T15:29:04+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "8784d8089dd4cd59f550c1cff9d9b497aa05061f",
-        "last_updated": "2026-06-23T11:18:31+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -953,8 +953,8 @@
     ],
     "announcements/清華學院清華學院學士班": [
       {
-        "last_commit": "c1564aa377ddc02920eb0d5d2784a6683020e917",
-        "last_updated": "2026-06-16T16:16:29+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "創新學制專區_zh-tw.json"
       },
       {
@@ -1399,8 +1399,8 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "85dd1f8c6a1922ba4c08c775f0b7a1e2c0a7e4bf",
-        "last_updated": "2026-06-24T11:19:00+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
@@ -1409,8 +1409,8 @@
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "85dd1f8c6a1922ba4c08c775f0b7a1e2c0a7e4bf",
-        "last_updated": "2026-06-24T11:19:00+08:00",
+        "last_commit": "f6c16ada369ce02bd16501643d81ae97bade444a",
+        "last_updated": "2026-06-24T13:29:10+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-24T11:19:00+08:00"
+  "last_updated": "2026-06-24T13:29:10+08:00"
 }
