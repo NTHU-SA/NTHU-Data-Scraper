@@ -2551,6 +2551,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】清大創業車庫 誠徵執行秘書",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-310762,r5075.php?Lang=zh-tw",
+                "date": "2026-06-24"
+            },
+            {
                 "title": "工學院徵專題計畫助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-310661,r5075.php?Lang=zh-tw",
                 "date": "2026-06-22"
@@ -2603,11 +2608,6 @@
             {
                 "title": "【誠徵】清大出版社 網管工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-310274,r5075.php?Lang=zh-tw",
-                "date": "2026-06-12"
-            },
-            {
-                "title": "【徵才】何尼克老師徵求115(上)「衝突考古學」選修通識課程助教，徵才訊息請點入閱讀。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-310237,c0.php?Lang=zh-tw",
                 "date": "2026-06-12"
             }
         ]
@@ -7527,6 +7527,11 @@
         "department": "竹師教育學院",
         "articles": [
             {
+                "title": "【公告申請截止日 : 6/30】114學年度第2學期 國立清華大學竹師教育學院研究生獎助學金-學生出國發表論文獎學金 申請截止日期",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-310766,r4.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【得獎公告Award Announcement】🎬 2026 第二屆英文短影音競賽 2nd English Short Video Contest",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-310522,r4.php?Lang=zh-tw",
                 "date": ""
@@ -7580,11 +7585,6 @@
                 "title": "【開放教師報名】5/13 EMI公開觀課: 凌豪杰 博士 - 教師增能活動",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-307930,r4.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【開放教師報名】5/4 EMI公開觀課:  鄒詠婷 博士 - 教師增能活動",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-307398,r4.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -7594,6 +7594,11 @@
         "language": "zh-tw",
         "department": "竹師教育學院",
         "articles": [
+            {
+                "title": "【公告申請截止日 : 6/30】114學年度第2學期 國立清華大學竹師教育學院研究生獎助學金-學生出國發表論文獎學金 申請截止日期",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-310766,r70.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "【得獎公告Award Announcement】🎬 2026 第二屆英文短影音競賽 2nd English Short Video Contest",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-310522,r70.php?Lang=zh-tw",
@@ -7647,11 +7652,6 @@
             {
                 "title": "恭賀！運科系 邱文信教授 榮獲 114學年度校傑出導師獎",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-309571,r70.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "恭賀！幼教系 曹亞倫副教授 榮獲 114學年度校教師傑出教學獎",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-309523,r70.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -13630,6 +13630,16 @@
         "department": "工學院工學院學士班",
         "articles": [
             {
+                "title": "【職發組115-1企領微學分課程】歡迎學生踴躍選課!",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-310771,r772.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【校內】中科院115年延攬大學校院優秀學生獎助徵選申請簡章資訊",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-310767,r772.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【校外】2027 GRI全球鏈結研究實習計畫簡介",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-310630,r772.php?Lang=zh-tw",
                 "date": ""
@@ -13677,16 +13687,6 @@
             {
                 "title": "【系上】115學年度海外學習【課程免修】第1次審查申請-115.9/9(三)中午12:00截止。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-306655,r772.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【系上】有關115學年度第一學期領航專題成果發表會作業時程",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-309615,r772.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【系上】115-1【海外學習規劃】第1次審查作業申請-115.10/14(三)中午12:00截止。",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-309600,r772.php?Lang=zh-tw",
                 "date": ""
             }
         ]
