@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ff4747beb636cc7b2194fbe2297417f4494ab86f",
-        "last_updated": "2026-06-25T09:10:07+08:00",
+        "last_commit": "ff49fef48dc1141e3f022db47f7f7221c66f88fc",
+        "last_updated": "2026-06-25T11:18:53+08:00",
         "name": "announcements.json"
       },
       {
@@ -1206,8 +1206,8 @@
         "name": "學系動態_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "ff49fef48dc1141e3f022db47f7f7221c66f88fc",
+        "last_updated": "2026-06-25T11:18:53+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1221,8 +1221,8 @@
         "name": "相關中心_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "ff49fef48dc1141e3f022db47f7f7221c66f88fc",
+        "last_updated": "2026-06-25T11:18:53+08:00",
         "name": "醫學系：新聞_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-25T09:10:07+08:00"
+  "last_updated": "2026-06-25T11:18:53+08:00"
 }
