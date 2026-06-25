@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b2999009415d45fe3e70e87a01970e91c2eb7fcb",
-        "last_updated": "2026-06-25T17:17:01+08:00",
+        "last_commit": "2ebee5004e084640b6073690c59ba4a83594c845",
+        "last_updated": "2026-06-25T19:05:07+08:00",
         "name": "announcements.json"
       },
       {
@@ -1130,8 +1130,8 @@
         "name": "news_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "2ebee5004e084640b6073690c59ba4a83594c845",
+        "last_updated": "2026-06-25T19:05:07+08:00",
         "name": "news_zh-tw.json"
       },
       {
@@ -1358,8 +1358,8 @@
     ],
     "announcements/科技管理學院安富金融工程研究中心": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "2ebee5004e084640b6073690c59ba4a83594c845",
+        "last_updated": "2026-06-25T19:05:07+08:00",
         "name": "中心消息 News_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-25T17:17:01+08:00"
+  "last_updated": "2026-06-25T19:05:07+08:00"
 }
