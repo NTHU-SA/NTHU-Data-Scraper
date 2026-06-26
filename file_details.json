@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "331302a123979666c2a19e58a0a422331b92e880",
-        "last_updated": "2026-06-26T23:02:32+08:00",
+        "last_commit": "3c7e14909ff06f21f6465741d504ce5287c01a62",
+        "last_updated": "2026-06-27T00:48:46+08:00",
         "name": "announcements.json"
       },
       {
@@ -281,8 +281,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "f25c01de42ddd48c8ce39f2b1395f9b6cfd8561e",
-        "last_updated": "2026-06-26T13:35:59+08:00",
+        "last_commit": "3c7e14909ff06f21f6465741d504ce5287c01a62",
+        "last_updated": "2026-06-27T00:48:46+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "b2999009415d45fe3e70e87a01970e91c2eb7fcb",
-        "last_updated": "2026-06-25T17:17:01+08:00",
+        "last_commit": "3c7e14909ff06f21f6465741d504ce5287c01a62",
+        "last_updated": "2026-06-27T00:48:46+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "b2999009415d45fe3e70e87a01970e91c2eb7fcb",
-        "last_updated": "2026-06-25T17:17:01+08:00",
+        "last_commit": "3c7e14909ff06f21f6465741d504ce5287c01a62",
+        "last_updated": "2026-06-27T00:48:46+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "b2999009415d45fe3e70e87a01970e91c2eb7fcb",
-        "last_updated": "2026-06-25T17:17:01+08:00",
+        "last_commit": "3c7e14909ff06f21f6465741d504ce5287c01a62",
+        "last_updated": "2026-06-27T00:48:46+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1061,8 +1061,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "35cf4bac5bb8ceeda9d0aa4109bbebe9ee0c46db",
-        "last_updated": "2026-06-23T13:30:42+08:00",
+        "last_commit": "3c7e14909ff06f21f6465741d504ce5287c01a62",
+        "last_updated": "2026-06-27T00:48:46+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-26T23:02:32+08:00"
+  "last_updated": "2026-06-27T00:48:46+08:00"
 }
