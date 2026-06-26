@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5cb864d959297fbac2e1df5a6bd188db62dd37f9",
-        "last_updated": "2026-06-26T06:37:39+08:00",
+        "last_commit": "d21b8a21f9cb99b728a1cf4c5891aa6e1b4889ef",
+        "last_updated": "2026-06-26T11:19:39+08:00",
         "name": "announcements.json"
       },
       {
@@ -418,8 +418,8 @@
         "name": "iNEMS Honors_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "d21b8a21f9cb99b728a1cf4c5891aa6e1b4889ef",
+        "last_updated": "2026-06-26T11:19:39+08:00",
         "name": "奈微所榮譽_zh-tw.json"
       },
       {
@@ -777,8 +777,8 @@
         "name": "國際交流_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "d21b8a21f9cb99b728a1cf4c5891aa6e1b4889ef",
+        "last_updated": "2026-06-26T11:19:39+08:00",
         "name": "師生榮譽_zh-tw.json"
       },
       {
@@ -1683,8 +1683,8 @@
         "name": "招生及放榜資訊_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "d21b8a21f9cb99b728a1cf4c5891aa6e1b4889ef",
+        "last_updated": "2026-06-26T11:19:39+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1693,8 +1693,8 @@
         "name": "活動公告_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "d21b8a21f9cb99b728a1cf4c5891aa6e1b4889ef",
+        "last_updated": "2026-06-26T11:19:39+08:00",
         "name": "系務公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-26T09:13:11+08:00"
+  "last_updated": "2026-06-26T11:19:39+08:00"
 }
