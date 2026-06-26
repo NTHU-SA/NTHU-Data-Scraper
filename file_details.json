@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "f25c01de42ddd48c8ce39f2b1395f9b6cfd8561e",
-        "last_updated": "2026-06-26T13:35:59+08:00",
+        "last_commit": "937bc9b53f1cc7cf70fc6e5c0df5d91a1bdcd9a7",
+        "last_updated": "2026-06-26T15:32:11+08:00",
         "name": "announcements.json"
       },
       {
@@ -183,8 +183,8 @@
         "name": "Introduction_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "937bc9b53f1cc7cf70fc6e5c0df5d91a1bdcd9a7",
+        "last_updated": "2026-06-26T15:32:11+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -755,13 +755,13 @@
     ],
     "announcements/教務處課務組": [
       {
-        "last_commit": "8784d8089dd4cd59f550c1cff9d9b497aa05061f",
-        "last_updated": "2026-06-23T11:18:31+08:00",
+        "last_commit": "937bc9b53f1cc7cf70fc6e5c0df5d91a1bdcd9a7",
+        "last_updated": "2026-06-26T15:32:11+08:00",
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "ff4747beb636cc7b2194fbe2297417f4494ab86f",
-        "last_updated": "2026-06-25T09:10:07+08:00",
+        "last_commit": "937bc9b53f1cc7cf70fc6e5c0df5d91a1bdcd9a7",
+        "last_updated": "2026-06-26T15:32:11+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-26T13:35:59+08:00"
+  "last_updated": "2026-06-26T15:32:11+08:00"
 }
