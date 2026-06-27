@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "699ceae02ea83e6633b1e04e3bb402a9369d1128",
-        "last_updated": "2026-06-27T17:04:25+08:00",
+        "last_commit": "767b561e919344925b46f06b06f6b11ba2cbc131",
+        "last_updated": "2026-06-28T00:32:04+08:00",
         "name": "announcements.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "ff4747beb636cc7b2194fbe2297417f4494ab86f",
-        "last_updated": "2026-06-25T09:10:07+08:00",
+        "last_commit": "767b561e919344925b46f06b06f6b11ba2cbc131",
+        "last_updated": "2026-06-28T00:32:04+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-27T17:04:25+08:00"
+  "last_updated": "2026-06-28T00:32:04+08:00"
 }
