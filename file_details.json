@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6d24ab654a4004d6d76fe615a4a618d7c49d9937",
-        "last_updated": "2026-06-28T13:39:43+08:00",
+        "last_commit": "5a4da1309c941ba8a16add97160f8188f8d3c0b6",
+        "last_updated": "2026-06-29T00:34:18+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "cb79f3a646bc58ed410e26e46edaf445cc546e9f",
-        "last_updated": "2026-06-23T01:38:19+08:00",
+        "last_commit": "5a4da1309c941ba8a16add97160f8188f8d3c0b6",
+        "last_updated": "2026-06-29T00:34:18+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -460,8 +460,8 @@
         "name": "News_CAMPUS News  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "5a4da1309c941ba8a16add97160f8188f8d3c0b6",
+        "last_updated": "2026-06-29T00:34:18+08:00",
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
@@ -604,8 +604,8 @@
         "name": "推廣教育_zh-tw.json"
       },
       {
-        "last_commit": "ff4747beb636cc7b2194fbe2297417f4494ab86f",
-        "last_updated": "2026-06-25T09:10:07+08:00",
+        "last_commit": "5a4da1309c941ba8a16add97160f8188f8d3c0b6",
+        "last_updated": "2026-06-29T00:34:18+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-28T13:39:43+08:00"
+  "last_updated": "2026-06-29T00:34:18+08:00"
 }
