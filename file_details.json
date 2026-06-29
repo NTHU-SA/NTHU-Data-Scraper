@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6f168303b91a799d17929d97b1809d99b30a2fe1",
-        "last_updated": "2026-06-29T09:14:49+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "announcements.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "6d24ab654a4004d6d76fe615a4a618d7c49d9937",
-        "last_updated": "2026-06-28T13:39:43+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "6d24ab654a4004d6d76fe615a4a618d7c49d9937",
-        "last_updated": "2026-06-28T13:39:43+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -885,8 +885,8 @@
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "b2999009415d45fe3e70e87a01970e91c2eb7fcb",
-        "last_updated": "2026-06-25T17:17:01+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -1186,13 +1186,13 @@
     ],
     "announcements/生命科學暨醫學院學士後醫學系": [
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "be0633f5b4f699e7983745dc5ff88c7dbadce220",
-        "last_updated": "2026-03-12T16:21:42+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "Recent Activities_en.json"
       },
       {
@@ -1770,8 +1770,8 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1801,8 +1801,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "8784d8089dd4cd59f550c1cff9d9b497aa05061f",
-        "last_updated": "2026-06-23T11:18:31+08:00",
+        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
+        "last_updated": "2026-06-29T11:22:15+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-29T09:14:49+08:00"
+  "last_updated": "2026-06-29T11:22:15+08:00"
 }
