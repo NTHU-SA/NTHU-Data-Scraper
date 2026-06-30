@@ -449,6 +449,11 @@
         "department": "教務處招生策略中心",
         "articles": [
             {
+                "title": "115學年度博士班延長繳交畢業證書切結書",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-311139,r1134.php?Lang=zh-tw",
+                "date": "2026-06-30"
+            },
+            {
                 "title": "115學年度博士班考試入學第二次放榜錄取名單(含報到須知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-308547,r1134.php?Lang=zh-tw",
                 "date": "2026-05-14"
@@ -542,11 +547,6 @@
                 "title": "114學年度博士班考試入學網路報名人數統計表",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-287061,r1134.php?Lang=zh-tw",
                 "date": "2025-04-17"
-            },
-            {
-                "title": "114學年度博士班考試入學招生名額流用彙整表",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-287016,r1134.php?Lang=zh-tw",
-                "date": "2025-04-17"
             }
         ]
     },
@@ -608,6 +608,11 @@
                 "title": "115碩士班延長繳交畢業證書注意事項(切結書下載)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-303629,r323.php?Lang=zh-tw",
                 "date": "2026-06-29"
+            },
+            {
+                "title": "台聯大系統115學年度碩士班招生 第14次備取遞補名單 (含報到須知)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-311147,r323.php?Lang=zh-tw",
+                "date": "2026-06-30"
             },
             {
                 "title": "115學年度碩士班考試第16次備取遞補名單(含報到須知)",
@@ -693,11 +698,6 @@
                 "title": "台聯大系統115學年度碩士班招生 第7次備取遞補名單-本次無備取遞補名單",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-308224,r323.php?Lang=zh-tw",
                 "date": "2026-05-11"
-            },
-            {
-                "title": "115學年度碩士班考試第7次備取遞補名單(含報到須知)",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-307995,r323.php?Lang=zh-tw",
-                "date": "2026-05-06"
             }
         ]
     },
@@ -16027,6 +16027,11 @@
                 "date": "2026-05-30"
             },
             {
+                "title": "The Inaugural Commencement of the School of Medicine.",
+                "link": "https://med.site.nthu.edu.tw/p/406-1551-309176,r8084.php?Lang=en",
+                "date": "2026-05-25"
+            },
+            {
                 "title": "White Coat Ceremony | NTHU Post-Baccalaureate Medicine, Class of 28",
                 "link": "https://med.site.nthu.edu.tw/p/406-1551-304518,r8084.php?Lang=en",
                 "date": "2026-03-12"
@@ -17880,6 +17885,16 @@
         "department": "人事室",
         "articles": [
             {
+                "title": "(轉知)國立陽明交通大學函，辦理單身聯誼活動，歡迎踴躍報名參加。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-311145,r2506.php?Lang=zh-tw",
+                "date": "2026-06-30"
+            },
+            {
+                "title": "(轉知)國立臺南大學函，辦理傑出校友遴選，請踴躍推薦參加。",
+                "link": "https://person.site.nthu.edu.tw/p/406-1066-311144,r2506.php?Lang=zh-tw",
+                "date": "2026-06-30"
+            },
+            {
                 "title": "(轉知)數位發展部公務人員公民科技體驗營",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-311101,r2506.php?Lang=zh-tw",
                 "date": "2026-06-29"
@@ -18018,16 +18033,6 @@
                 "title": "(轉知)國立虎尾科技大學函，辦理該校傑出校友遴選，請踴躍推薦參加。",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-303103,r2506.php?Lang=zh-tw",
                 "date": "2026-02-11"
-            },
-            {
-                "title": "(轉知)國立臺南第一高級中學函，辦理傑出校友遴選，請踴躍推薦參加。",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-301395,r2506.php?Lang=zh-tw",
-                "date": "2026-01-05"
-            },
-            {
-                "title": "(轉知)中華民國全國退休教師聯盟招募會員資訊",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-290145,r2506.php?Lang=zh-tw",
-                "date": "2025-06-06"
             }
         ]
     },
@@ -18063,19 +18068,14 @@
                 "date": "5"
             },
             {
-                "title": "助理登錄系統操作說明",
-                "link": "https://person.site.nthu.edu.tw/p/406-1066-129330,r2575.php?Lang=zh-tw",
-                "date": "6"
-            },
-            {
                 "title": "計畫主持人系統授權設定",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-8204,r2575.php?Lang=zh-tw",
-                "date": "7"
+                "date": "6"
             },
             {
                 "title": "本校例休調整相關資料",
                 "link": "https://person.site.nthu.edu.tw/p/406-1066-116220,r2575.php?Lang=zh-tw",
-                "date": "8"
+                "date": "7"
             }
         ]
     },
@@ -22017,13 +22017,13 @@
                 "date": "2026-05-18"
             },
             {
-                "title": "2026 Summer Payment of Student Housing",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307612,r8956.php?Lang=en",
+                "title": "Bed Vacancy Changes for the 2026 Academic Year",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307611,r8956.php?Lang=en",
                 "date": "2026-04-29"
             },
             {
-                "title": "Bed Vacancy Changes for the 2026 Academic Year",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307611,r8956.php?Lang=en",
+                "title": "2026 Summer Payment of Student Housing",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307612,r8956.php?Lang=en",
                 "date": "2026-04-29"
             },
             {
@@ -22125,13 +22125,13 @@
                 "date": "2026-04-30"
             },
             {
-                "title": "115年暑期住宿繳費作業說明",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307612,r8956.php?Lang=zh-tw",
+                "title": "115學年空床位異動說明",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307611,r8956.php?Lang=zh-tw",
                 "date": "2026-04-29"
             },
             {
-                "title": "115學年空床位異動說明",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307611,r8956.php?Lang=zh-tw",
+                "title": "115年暑期住宿繳費作業說明",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307612,r8956.php?Lang=zh-tw",
                 "date": "2026-04-29"
             },
             {
