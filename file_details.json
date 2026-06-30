@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "dcea41795700dcd2454fb17015329ce5109a63f5",
-        "last_updated": "2026-06-30T17:18:24+08:00",
+        "last_commit": "df6ed9d8acc5764df7d3899aafac9e81f73b3480",
+        "last_updated": "2026-06-30T19:10:09+08:00",
         "name": "announcements.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "28247e1fe4a6755a196e0aaf80775fb60fae1287",
-        "last_updated": "2026-06-30T15:32:24+08:00",
+        "last_commit": "df6ed9d8acc5764df7d3899aafac9e81f73b3480",
+        "last_updated": "2026-06-30T19:10:09+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "28247e1fe4a6755a196e0aaf80775fb60fae1287",
-        "last_updated": "2026-06-30T15:32:24+08:00",
+        "last_commit": "df6ed9d8acc5764df7d3899aafac9e81f73b3480",
+        "last_updated": "2026-06-30T19:10:09+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "28247e1fe4a6755a196e0aaf80775fb60fae1287",
-        "last_updated": "2026-06-30T15:32:24+08:00",
+        "last_commit": "df6ed9d8acc5764df7d3899aafac9e81f73b3480",
+        "last_updated": "2026-06-30T19:10:09+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-30T17:18:24+08:00"
+  "last_updated": "2026-06-30T19:10:09+08:00"
 }
