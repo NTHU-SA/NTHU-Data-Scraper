@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2a2dd27f5041ff873e83bf1c9a205ac754411fbc",
-        "last_updated": "2026-06-30T11:18:57+08:00",
+        "last_commit": "85b44d17e2513b75aa57df00c328ded620722c6f",
+        "last_updated": "2026-06-30T13:32:58+08:00",
         "name": "announcements.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "efd2805c39718de04a458c1e08bb09a56893f77d",
-        "last_updated": "2026-06-30T01:09:09+08:00",
+        "last_commit": "85b44d17e2513b75aa57df00c328ded620722c6f",
+        "last_updated": "2026-06-30T13:32:58+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "efd2805c39718de04a458c1e08bb09a56893f77d",
-        "last_updated": "2026-06-30T01:09:09+08:00",
+        "last_commit": "85b44d17e2513b75aa57df00c328ded620722c6f",
+        "last_updated": "2026-06-30T13:32:58+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "bf478ab1c1a045a8a6197a4b5326628ec2eb8b0e",
-        "last_updated": "2026-06-29T13:45:40+08:00",
+        "last_commit": "85b44d17e2513b75aa57df00c328ded620722c6f",
+        "last_updated": "2026-06-30T13:32:58+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1524,8 +1524,8 @@
         "name": "徵才訊息_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "85b44d17e2513b75aa57df00c328ded620722c6f",
+        "last_updated": "2026-06-30T13:32:58+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
@@ -1717,8 +1717,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "f25c01de42ddd48c8ce39f2b1395f9b6cfd8561e",
-        "last_updated": "2026-06-26T13:35:59+08:00",
+        "last_commit": "85b44d17e2513b75aa57df00c328ded620722c6f",
+        "last_updated": "2026-06-30T13:32:58+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-30T11:18:57+08:00"
+  "last_updated": "2026-06-30T13:32:58+08:00"
 }
