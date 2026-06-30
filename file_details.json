@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "efd2805c39718de04a458c1e08bb09a56893f77d",
-        "last_updated": "2026-06-30T01:09:09+08:00",
+        "last_commit": "af68d1ccff8aa7efe4dfe39eb7ca85839402b207",
+        "last_updated": "2026-06-30T09:10:06+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "b7ae66f599b7758a5195d3c86ae18adceb3070b3",
-        "last_updated": "2026-06-29T16:02:18+08:00",
+        "last_commit": "af68d1ccff8aa7efe4dfe39eb7ca85839402b207",
+        "last_updated": "2026-06-30T09:10:06+08:00",
         "name": "dining.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "c1564aa377ddc02920eb0d5d2784a6683020e917",
-        "last_updated": "2026-06-16T16:16:29+08:00",
+        "last_commit": "af68d1ccff8aa7efe4dfe39eb7ca85839402b207",
+        "last_updated": "2026-06-30T09:10:06+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1130,8 +1130,8 @@
         "name": "news_en.json"
       },
       {
-        "last_commit": "51568beb7dcc4ae712cdf86f6aaa12e4fdb8cfa5",
-        "last_updated": "2026-06-29T19:48:03+08:00",
+        "last_commit": "af68d1ccff8aa7efe4dfe39eb7ca85839402b207",
+        "last_updated": "2026-06-30T09:10:06+08:00",
         "name": "news_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-30T04:43:38+08:00"
+  "last_updated": "2026-06-30T09:10:06+08:00"
 }
