@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "85147be3bfc16e81f123a20ff26d0fabc76f9c9e",
-        "last_updated": "2026-07-02T15:19:48+08:00",
+        "last_commit": "31e3692eca6bfef49e1a13c6528c87af81bae125",
+        "last_updated": "2026-07-02T17:13:18+08:00",
         "name": "announcements.json"
       },
       {
@@ -1796,13 +1796,13 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "31e3692eca6bfef49e1a13c6528c87af81bae125",
+        "last_updated": "2026-07-02T17:13:18+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
-        "last_updated": "2026-06-29T11:22:15+08:00",
+        "last_commit": "31e3692eca6bfef49e1a13c6528c87af81bae125",
+        "last_updated": "2026-07-02T17:13:18+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-02T15:19:48+08:00"
+  "last_updated": "2026-07-02T17:13:18+08:00"
 }
