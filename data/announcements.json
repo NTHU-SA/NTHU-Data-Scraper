@@ -8243,19 +8243,24 @@
         "department": "工學院",
         "articles": [
             {
+                "title": "國立清華大學工學院誠徵暑期資訊工讀生(6名)",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-311303,r3361.php?Lang=zh-tw",
+                "date": "2026-07-02"
+            },
+            {
                 "title": "(Check-in?) 📣 2026 Summer Research Program at College of Engineering, National Tsing Hua University, Taiwan",
                 "link": "https://eng.site.nthu.edu.tw/p/450-1284-302307,c0.php?Lang=zh-tw",
                 "date": "2026-01-14"
             },
             {
-                "title": "(Result Release)【工學院】補助研究生出國參加學術會議生活費",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-305516,r3361.php?Lang=zh-tw",
-                "date": "2026-03-27"
-            },
-            {
                 "title": "【公告】115年第27屆工學院研究生論文發表競賽獲獎名單",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-309241,r3361.php?Lang=zh-tw",
                 "date": "2026-05-26"
+            },
+            {
+                "title": "(Result Release)【工學院】補助研究生出國參加學術會議生活費",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-305516,r3361.php?Lang=zh-tw",
+                "date": "2026-03-27"
             },
             {
                 "title": "(取消辦理)【工學院營隊】2026清華工學院國際領袖英語營",
@@ -8286,11 +8291,6 @@
                 "title": "【工學院英文書報討論】AI Photothermalfluid Application in Advanced Laser Fabrication and Energy Conversion  - 李明蒼教授／國立清華大學動力機械工程學系",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-309172,r3361.php?Lang=zh-tw",
                 "date": "2026-05-19"
-            },
-            {
-                "title": "【工學院英文書報討論】Overview of Our Continuous Development in Beam Steering and Imaging Systems for Biomedical, THz, and Hyperspectral Applications  - 王威智教授／國立清華大學動力機械工程學系",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-308269,r3361.php?Lang=zh-tw",
-                "date": "2026-05-08"
             }
         ]
     },
