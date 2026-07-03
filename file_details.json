@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "53c77799a572f0f185f14aec2017c0f02f0ea89a",
-        "last_updated": "2026-07-03T18:59:57+08:00",
+        "last_commit": "7ef7bd59a1b3fb9ef4e476f0be2928f814162795",
+        "last_updated": "2026-07-03T22:51:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -1837,8 +1837,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "792d4eaa13b99cdc2be6a1d483e77d8ff4c27d23",
-        "last_updated": "2026-06-18T15:57:11+08:00",
+        "last_commit": "7ef7bd59a1b3fb9ef4e476f0be2928f814162795",
+        "last_updated": "2026-07-03T22:51:26+08:00",
         "name": "轉知公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-03T18:59:57+08:00"
+  "last_updated": "2026-07-03T22:51:26+08:00"
 }
