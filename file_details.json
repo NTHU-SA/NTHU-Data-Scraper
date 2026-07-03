@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "cb6b25afd75301b287bc03d1a99a9b3d1d5014f7",
-        "last_updated": "2026-07-03T11:14:07+08:00",
+        "last_commit": "3c2fcb5c66f7382aa853a718d9be8e66221d65cc",
+        "last_updated": "2026-07-03T13:24:10+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "85147be3bfc16e81f123a20ff26d0fabc76f9c9e",
-        "last_updated": "2026-07-02T15:19:48+08:00",
+        "last_commit": "3c2fcb5c66f7382aa853a718d9be8e66221d65cc",
+        "last_updated": "2026-07-03T13:24:10+08:00",
         "name": "dining.json"
       },
       {
@@ -374,8 +374,8 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "3c2fcb5c66f7382aa853a718d9be8e66221d65cc",
+        "last_updated": "2026-07-03T13:24:10+08:00",
         "name": "中心公告_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "9150449bfb122790762a22e7139ed8fc32a22393",
-        "last_updated": "2026-07-02T11:17:13+08:00",
+        "last_commit": "3c2fcb5c66f7382aa853a718d9be8e66221d65cc",
+        "last_updated": "2026-07-03T13:24:10+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-03T11:14:07+08:00"
+  "last_updated": "2026-07-03T13:24:10+08:00"
 }
