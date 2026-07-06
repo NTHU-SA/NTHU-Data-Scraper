@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
-        "last_updated": "2026-07-06T08:59:07+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "5a49ca77140d4bcc5009d617079a8abeeb02f78f",
-        "last_updated": "2026-07-03T17:12:33+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "dining.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "fe300220aeb4d361c10a54a6524006ea52311eb1",
-        "last_updated": "2026-07-02T09:10:35+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "4382bd4c33d12022f8c0dfa7be9452b4a78f97b1",
-        "last_updated": "2026-07-03T15:15:53+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "367ab14d669f4315afb59fddf9f15cb50353d01f",
-        "last_updated": "2026-07-03T00:42:09+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "ee5e4010c1088d575415c13003fe106b402fd2b8",
-        "last_updated": "2026-07-06T00:28:31+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
-        "last_updated": "2026-07-06T08:59:07+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "ee5e4010c1088d575415c13003fe106b402fd2b8",
-        "last_updated": "2026-07-06T00:28:31+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1741,8 +1741,8 @@
     ],
     "announcements/總務處出納組": [
       {
-        "last_commit": "e67cb0d7da60d9ba0da81643fd0450e0d78cbe61",
-        "last_updated": "2026-04-14T11:14:48+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "News_en.json"
       },
       {
@@ -1751,8 +1751,8 @@
         "name": "一般公告_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1770,8 +1770,8 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "7e40733529c768652b287e144a9273167895d7b0",
-        "last_updated": "2026-06-29T11:22:15+08:00",
+        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
+        "last_updated": "2026-07-06T11:17:28+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-06T08:59:07+08:00"
+  "last_updated": "2026-07-06T11:17:28+08:00"
 }
