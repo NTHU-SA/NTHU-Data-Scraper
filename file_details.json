@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ee5e4010c1088d575415c13003fe106b402fd2b8",
-        "last_updated": "2026-07-06T00:28:31+08:00",
+        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
+        "last_updated": "2026-07-06T08:59:07+08:00",
         "name": "announcements.json"
       },
       {
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "efd2805c39718de04a458c1e08bb09a56893f77d",
-        "last_updated": "2026-06-30T01:09:09+08:00",
+        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
+        "last_updated": "2026-07-06T08:59:07+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -1036,8 +1036,8 @@
         "name": "office news_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
+        "last_updated": "2026-07-06T08:59:07+08:00",
         "name": "physnews_en.json"
       },
       {
@@ -1477,8 +1477,8 @@
     ],
     "announcements/竹師教育學院教育心理與諮商學系": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
+        "last_updated": "2026-07-06T08:59:07+08:00",
         "name": "學術訊息_zh-tw.json"
       },
       {
@@ -1497,8 +1497,8 @@
         "name": "校內活動_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
+        "last_updated": "2026-07-06T08:59:07+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -1621,8 +1621,8 @@
     ],
     "announcements/竹師教育學院華德福教育碩士在職學位學程": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
+        "last_updated": "2026-07-06T08:59:07+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-06T00:28:31+08:00"
+  "last_updated": "2026-07-06T08:59:07+08:00"
 }
