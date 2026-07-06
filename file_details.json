@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2bd95894e4d629997b3e15132a52de639e6b7c7e",
-        "last_updated": "2026-07-06T19:37:32+08:00",
+        "last_commit": "75720fed53975a60d6f1104c22f2a27543688ccb",
+        "last_updated": "2026-07-07T01:07:07+08:00",
         "name": "announcements.json"
       },
       {
@@ -1820,8 +1820,8 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "5a49ca77140d4bcc5009d617079a8abeeb02f78f",
-        "last_updated": "2026-07-03T17:12:33+08:00",
+        "last_commit": "75720fed53975a60d6f1104c22f2a27543688ccb",
+        "last_updated": "2026-07-07T01:07:07+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-06T19:37:32+08:00"
+  "last_updated": "2026-07-07T01:07:07+08:00"
 }
