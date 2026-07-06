@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "f82087d7a6efcae5987e3108cdc62a6578aa7361",
-        "last_updated": "2026-07-06T17:31:57+08:00",
+        "last_commit": "2bd95894e4d629997b3e15132a52de639e6b7c7e",
+        "last_updated": "2026-07-06T19:37:32+08:00",
         "name": "announcements.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "eb60491ac6ec736f58c158f6b20aaaa6a1f90d47",
-        "last_updated": "2026-07-04T13:22:41+08:00",
+        "last_commit": "2bd95894e4d629997b3e15132a52de639e6b7c7e",
+        "last_updated": "2026-07-06T19:37:32+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-06T17:31:57+08:00"
+  "last_updated": "2026-07-06T19:37:32+08:00"
 }
