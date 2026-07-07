@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d3a7e068483500f299a38357ee7d0baeff899b22",
-        "last_updated": "2026-07-07T08:57:50+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "f82087d7a6efcae5987e3108cdc62a6578aa7361",
-        "last_updated": "2026-07-06T17:31:57+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "dining.json"
       },
       {
@@ -335,8 +335,8 @@
     ],
     "announcements/學務處衛生保健組(醫輔大樓1樓)": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "News_en.json"
       },
       {
@@ -374,18 +374,18 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "3c2fcb5c66f7382aa853a718d9be8e66221d65cc",
-        "last_updated": "2026-07-03T13:24:10+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "65bb8e905447e2b84dc9bdca5fd343c3b0e2ca1e",
-        "last_updated": "2026-06-22T18:11:33+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "校園輔導活動-本學期_zh-tw.json"
       },
       {
-        "last_commit": "65bb8e905447e2b84dc9bdca5fd343c3b0e2ca1e",
-        "last_updated": "2026-06-22T18:11:33+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "校園輔導活動-歷年_zh-tw.json"
       }
     ],
@@ -587,8 +587,8 @@
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "5a49ca77140d4bcc5009d617079a8abeeb02f78f",
-        "last_updated": "2026-07-03T17:12:33+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
@@ -1399,18 +1399,18 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "4382bd4c33d12022f8c0dfa7be9452b4a78f97b1",
-        "last_updated": "2026-07-03T15:15:53+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "4382bd4c33d12022f8c0dfa7be9452b4a78f97b1",
-        "last_updated": "2026-07-03T15:15:53+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -1796,8 +1796,8 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_commit": "f82087d7a6efcae5987e3108cdc62a6578aa7361",
-        "last_updated": "2026-07-06T17:31:57+08:00",
+        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
+        "last_updated": "2026-07-07T11:14:53+08:00",
         "name": "NEWS_en.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-07T08:57:50+08:00"
+  "last_updated": "2026-07-07T11:14:53+08:00"
 }
