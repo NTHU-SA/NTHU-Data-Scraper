@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "75720fed53975a60d6f1104c22f2a27543688ccb",
-        "last_updated": "2026-07-07T01:07:07+08:00",
+        "last_commit": "d3a7e068483500f299a38357ee7d0baeff899b22",
+        "last_updated": "2026-07-07T08:57:50+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
-        "last_updated": "2026-07-06T11:17:28+08:00",
+        "last_commit": "d3a7e068483500f299a38357ee7d0baeff899b22",
+        "last_updated": "2026-07-07T08:57:50+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "739c1beeb54f7b49aff272d8e3406c65774cbacd",
-        "last_updated": "2026-07-06T15:47:21+08:00",
+        "last_commit": "d3a7e068483500f299a38357ee7d0baeff899b22",
+        "last_updated": "2026-07-07T08:57:50+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "739c1beeb54f7b49aff272d8e3406c65774cbacd",
-        "last_updated": "2026-07-06T15:47:21+08:00",
+        "last_commit": "d3a7e068483500f299a38357ee7d0baeff899b22",
+        "last_updated": "2026-07-07T08:57:50+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -1820,8 +1820,8 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "75720fed53975a60d6f1104c22f2a27543688ccb",
-        "last_updated": "2026-07-07T01:07:07+08:00",
+        "last_commit": "d3a7e068483500f299a38357ee7d0baeff899b22",
+        "last_updated": "2026-07-07T08:57:50+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-07T01:07:07+08:00"
+  "last_updated": "2026-07-07T08:57:50+08:00"
 }

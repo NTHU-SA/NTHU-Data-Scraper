@@ -2551,6 +2551,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5075.php?Lang=zh-tw",
+                "date": "2026-07-07"
+            },
+            {
                 "title": "【徵才】國立清華大學 住宿書院 立德計畫徵專案導師一名（收件至7/20止）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-267900,r5075.php?Lang=zh-tw",
                 "date": "2026-07-06"
@@ -2604,11 +2609,6 @@
                 "title": "國立清華大學電機工程學系誠徵專任教師數名(115年8月4日截止)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-310858,r5075.php?Lang=zh-tw",
                 "date": "2026-07-02"
-            },
-            {
-                "title": "【徵才】國立清華大學台北政經學院(TSE)兼任助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-311218,r5075.php?Lang=zh-tw",
-                "date": "2026-07-01"
             }
         ]
     },
@@ -2618,6 +2618,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5081.php?Lang=zh-tw",
+                "date": "2026-07-07"
+            },
             {
                 "title": "【徵才】國立清華大學 住宿書院 立德計畫徵專案導師一名（收件至7/20止）",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-267900,r5081.php?Lang=zh-tw",
@@ -2672,11 +2677,6 @@
                 "title": "【徵才】清華大學人事室誠徵職務代理人1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-300969,r5081.php?Lang=zh-tw",
                 "date": "2026-06-30"
-            },
-            {
-                "title": "【誠徵】國立清華大學資訊工程學系徵求 校聘行政組員 1名 (延長收件截止日115/07/09)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-311009,r5081.php?Lang=zh-tw",
-                "date": "2026-06-29"
             }
         ]
     },
@@ -2959,6 +2959,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5086.php?Lang=zh-tw",
+                "date": "2026-07-07"
+            },
+            {
                 "title": "【徵才】國立清華大學電機工程學系誠徵校聘技術組員1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-310890,r5086.php?Lang=zh-tw",
                 "date": "2026-07-06"
@@ -3012,11 +3017,6 @@
                 "title": "【清大EMI中心】【誠徵】115暑假 工讀生數名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-309009,r5086.php?Lang=zh-tw",
                 "date": "2026-05-21"
-            },
-            {
-                "title": "2026 韌性與管理國際研討會 論文徵稿公告 2026 International Conference on Resilience and Management (ICRM 2026) Call for Papers",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-308851,r5086.php?Lang=zh-tw",
-                "date": "2026-05-19"
             }
         ]
     },
@@ -9812,13 +9812,18 @@
         "department": "總務處駐衛警察隊",
         "articles": [
             {
-                "title": "公告：115學年度『教職技員工』車輛識別證換發開始",
-                "link": "https://guard.site.nthu.edu.tw/p/406-1168-311342,r51.php?Lang=zh-tw",
+                "title": "公告：115學年度『學生』各類車證換發開始",
+                "link": "https://guard.site.nthu.edu.tw/p/406-1168-291628,r51.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "駐警隊公告：115學年度新生之機車證申請說明",
                 "link": "https://guard.site.nthu.edu.tw/p/406-1168-310990,r51.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "公告：115學年度『教職技員工』車輛識別證換發開始",
+                "link": "https://guard.site.nthu.edu.tw/p/406-1168-311342,r51.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -9859,11 +9864,6 @@
             {
                 "title": "公告：為確保校園交通安全，近日將調整停車格設置，敬請師生同仁理解與支持",
                 "link": "https://guard.site.nthu.edu.tw/p/406-1168-296634,r51.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "公告：115學年度『學生』各類車證換發開始",
-                "link": "https://guard.site.nthu.edu.tw/p/406-1168-291628,r51.php?Lang=zh-tw",
                 "date": ""
             },
             {
