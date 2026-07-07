@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "bbd54a0c7d63c6d0de6611b66dc239b815651e90",
-        "last_updated": "2026-07-07T15:22:08+08:00",
+        "last_commit": "26dfeaf1e3d3b0c17418b4f3d95684d29f2fe266",
+        "last_updated": "2026-07-07T17:16:15+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
-        "last_updated": "2026-07-07T11:14:53+08:00",
+        "last_commit": "26dfeaf1e3d3b0c17418b4f3d95684d29f2fe266",
+        "last_updated": "2026-07-07T17:16:15+08:00",
         "name": "dining.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "51568beb7dcc4ae712cdf86f6aaa12e4fdb8cfa5",
-        "last_updated": "2026-06-29T19:48:03+08:00",
+        "last_commit": "26dfeaf1e3d3b0c17418b4f3d95684d29f2fe266",
+        "last_updated": "2026-07-07T17:16:15+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -134,8 +134,8 @@
         "name": "Thesis Proposal Review_en.json"
       },
       {
-        "last_commit": "68ea7ef2bab4872282a2c7d06abf040f63e44c06",
-        "last_updated": "2026-06-24T23:04:18+08:00",
+        "last_commit": "26dfeaf1e3d3b0c17418b4f3d95684d29f2fe266",
+        "last_updated": "2026-07-07T17:16:15+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -144,8 +144,8 @@
         "name": "榜單_榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "68ea7ef2bab4872282a2c7d06abf040f63e44c06",
-        "last_updated": "2026-06-24T23:04:18+08:00",
+        "last_commit": "26dfeaf1e3d3b0c17418b4f3d95684d29f2fe266",
+        "last_updated": "2026-07-07T17:16:15+08:00",
         "name": "系所消息_zh-tw.json"
       },
       {
@@ -374,8 +374,8 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "49162235483a697144952b50af865f1caf73fbb1",
-        "last_updated": "2026-07-07T11:14:53+08:00",
+        "last_commit": "26dfeaf1e3d3b0c17418b4f3d95684d29f2fe266",
+        "last_updated": "2026-07-07T17:16:15+08:00",
         "name": "中心公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-07T15:22:08+08:00"
+  "last_updated": "2026-07-07T17:16:15+08:00"
 }
