@@ -2823,6 +2823,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【公告】美國航空太空學會（AIAA）2026年第七區學生會議學術徵稿資訊",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-311458,c0.php?Lang=zh-tw",
+                "date": "2026-07-08"
+            },
+            {
                 "title": "中華民國大學院校藝文中心協會檢送《藝文學報》徵稿訊息，請踴躍投稿",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-310053,r5084.php?Lang=zh-tw",
                 "date": "2026-06-10"
@@ -2876,11 +2881,6 @@
                 "title": "國立臺北教育大學《教育實踐與研究》徵稿訊息，請踴躍投稿",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-262633,r5084.php?Lang=zh-tw",
                 "date": "2026-04-17"
-            },
-            {
-                "title": "【歡迎報名科技桃花源X沙龍】平安走天下：當宮廟智慧遇上科技守護",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-306711,r5084.php?Lang=zh-tw",
-                "date": "2026-04-16"
             }
         ]
     },
@@ -5476,7 +5476,7 @@
         "department": "教務處課務組",
         "articles": [
             {
-                "title": "因應115學年度分科測驗放榜延後，本校新生選課日程順延通知",
+                "title": "【重要公告】因應分科測驗放榜延後，115學年度新生選課順延至 8月18日中午開始",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-311481,r7797.php?Lang=zh-tw",
                 "date": ""
             },
@@ -5584,7 +5584,7 @@
         "department": "教務處課務組",
         "articles": [
             {
-                "title": "[Important Notice] Freshmen Course Registration Postponed to Aug 18 Due to CEEC Results Delay",
+                "title": "[Important Notice] Freshmen Course Registration Postponed to Start on Aug 18 Due to CEEC Delay",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-311482,r7982.php?Lang=en",
                 "date": ""
             },
@@ -7537,6 +7537,11 @@
         "department": "竹師教育學院",
         "articles": [
             {
+                "title": "恭賀！竹師教育學院獲教育部「115年度 教學實踐研究計畫」共19件",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-311487,r4.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "恭賀！運科系 林宜學同學 通過 國科會大專學生研究創作獎",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-311423,r4.php?Lang=zh-tw",
                 "date": ""
@@ -7590,11 +7595,6 @@
                 "title": "【活動資訊轉知】fNIRS腦波應用工作坊資訊",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-309104,r4.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【誠徵】115暑期清大竹師教育學院院系共辦工讀生（限清大學生）",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-308815,r4.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -7604,6 +7604,11 @@
         "language": "zh-tw",
         "department": "竹師教育學院",
         "articles": [
+            {
+                "title": "恭賀！竹師教育學院獲教育部「115年度 教學實踐研究計畫」共19件",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-311487,r70.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "恭賀！運科系 林宜學同學 通過 國科會大專學生研究創作獎",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-311423,r70.php?Lang=zh-tw",
@@ -7658,11 +7663,6 @@
                 "title": "【獲獎資訊】第三屆 國立清華大學竹師教育學院培育跨領域教育領袖獎勵",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-309822,r70.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【開放報名6/12】2026 日本早稻田大學國際學術交流參訪成果發表會",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-309664,r70.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -7675,6 +7675,11 @@
             {
                 "title": "竹師教育學院 傑出榮譽",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-306969,r7226.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "恭賀！竹師教育學院獲教育部「115年度 教學實踐研究計畫」共19件",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-311487,r7226.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -7725,11 +7730,6 @@
             {
                 "title": "【113年度校傑出教學獎】恭喜幼教系陳湘淳副教授、特教系翁嘉遜助理教授獲獎!",
                 "link": "https://ec.site.nthu.edu.tw/p/450-1584-290902,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "113學年度院傑出導師獎得獎名單公告",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-280508,r7226.php?Lang=zh-tw",
                 "date": ""
             }
         ]
