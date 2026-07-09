@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2bfd2601c9ff4c5336a52dfc0e5c76497c845b42",
-        "last_updated": "2026-07-09T23:08:18+08:00",
+        "last_commit": "2f5da1254bf8c8ee8b4e6ddea0d7615bfff82b80",
+        "last_updated": "2026-07-10T00:56:55+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "01042eed978f17617e3a61b05358245300159661",
-        "last_updated": "2026-07-09T17:15:17+08:00",
+        "last_commit": "2f5da1254bf8c8ee8b4e6ddea0d7615bfff82b80",
+        "last_updated": "2026-07-10T00:56:55+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -66,8 +66,8 @@
         "name": "法規宣導_zh-tw.json"
       },
       {
-        "last_commit": "2a2dd27f5041ff873e83bf1c9a205ac754411fbc",
-        "last_updated": "2026-06-30T11:18:57+08:00",
+        "last_commit": "2f5da1254bf8c8ee8b4e6ddea0d7615bfff82b80",
+        "last_updated": "2026-07-10T00:56:55+08:00",
         "name": "重大消息_zh-tw.json"
       }
     ],
@@ -183,8 +183,8 @@
         "name": "Introduction_en.json"
       },
       {
-        "last_commit": "937bc9b53f1cc7cf70fc6e5c0df5d91a1bdcd9a7",
-        "last_updated": "2026-06-26T15:32:11+08:00",
+        "last_commit": "2f5da1254bf8c8ee8b4e6ddea0d7615bfff82b80",
+        "last_updated": "2026-07-10T00:56:55+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-09T23:08:18+08:00"
+  "last_updated": "2026-07-10T00:56:55+08:00"
 }
