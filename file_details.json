@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2a9443ff2838057abbe115988f91b4f8dc82e134",
-        "last_updated": "2026-07-13T00:24:46+08:00",
+        "last_commit": "0e38a74c9a713e0bb0ce99cbc92777bad2ef0b02",
+        "last_updated": "2026-07-13T08:51:18+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "279adf5598286f4c5b660d1ceb2faeb8c2b7766d",
-        "last_updated": "2026-07-09T15:22:36+08:00",
+        "last_commit": "0e38a74c9a713e0bb0ce99cbc92777bad2ef0b02",
+        "last_updated": "2026-07-13T08:51:18+08:00",
         "name": "dining.json"
       },
       {
@@ -281,8 +281,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "9375099d75cec0455fa6a13d194f907f972c6c2f",
-        "last_updated": "2026-07-11T00:46:24+08:00",
+        "last_commit": "0e38a74c9a713e0bb0ce99cbc92777bad2ef0b02",
+        "last_updated": "2026-07-13T08:51:18+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -755,13 +755,13 @@
     ],
     "announcements/教務處課務組": [
       {
-        "last_commit": "9375099d75cec0455fa6a13d194f907f972c6c2f",
-        "last_updated": "2026-07-11T00:46:24+08:00",
+        "last_commit": "0e38a74c9a713e0bb0ce99cbc92777bad2ef0b02",
+        "last_updated": "2026-07-13T08:51:18+08:00",
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "9375099d75cec0455fa6a13d194f907f972c6c2f",
-        "last_updated": "2026-07-11T00:46:24+08:00",
+        "last_commit": "0e38a74c9a713e0bb0ce99cbc92777bad2ef0b02",
+        "last_updated": "2026-07-13T08:51:18+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-13T00:24:46+08:00"
+  "last_updated": "2026-07-13T08:51:18+08:00"
 }
