@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ae09cdde65c7c17627ede87e09db1d39aacc7841",
-        "last_updated": "2026-07-13T13:16:39+08:00",
+        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
+        "last_updated": "2026-07-13T15:20:07+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "0e38a74c9a713e0bb0ce99cbc92777bad2ef0b02",
-        "last_updated": "2026-07-13T08:51:18+08:00",
+        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
+        "last_updated": "2026-07-13T15:20:07+08:00",
         "name": "dining.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "ae09cdde65c7c17627ede87e09db1d39aacc7841",
-        "last_updated": "2026-07-13T13:16:39+08:00",
+        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
+        "last_updated": "2026-07-13T15:20:07+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1399,18 +1399,18 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "342eaf0998fa6f6edc7c772243a8715190795e47",
-        "last_updated": "2026-07-08T15:00:05+08:00",
+        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
+        "last_updated": "2026-07-13T15:20:07+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "342eaf0998fa6f6edc7c772243a8715190795e47",
-        "last_updated": "2026-07-08T15:00:05+08:00",
+        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
+        "last_updated": "2026-07-13T15:20:07+08:00",
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "342eaf0998fa6f6edc7c772243a8715190795e47",
-        "last_updated": "2026-07-08T15:00:05+08:00",
+        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
+        "last_updated": "2026-07-13T15:20:07+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-13T13:16:39+08:00"
+  "last_updated": "2026-07-13T15:20:07+08:00"
 }
