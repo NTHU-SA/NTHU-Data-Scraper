@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "46507c6e7cd040107da9da35aca6d1f6a8e6ad31",
-        "last_updated": "2026-07-14T16:51:27+08:00",
+        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
+        "last_updated": "2026-07-15T00:34:41+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "46507c6e7cd040107da9da35aca6d1f6a8e6ad31",
-        "last_updated": "2026-07-14T16:51:27+08:00",
+        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
+        "last_updated": "2026-07-15T00:34:41+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "ad0a65823e16c594cecbd8a99f621d73378392b6",
-        "last_updated": "2026-07-08T16:59:42+08:00",
+        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
+        "last_updated": "2026-07-15T00:34:41+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "89fbe28eba1d4a7bf4a9dd7188be516c20633e50",
-        "last_updated": "2026-07-14T11:10:04+08:00",
+        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
+        "last_updated": "2026-07-15T00:34:41+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "46507c6e7cd040107da9da35aca6d1f6a8e6ad31",
-        "last_updated": "2026-07-14T16:51:27+08:00",
+        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
+        "last_updated": "2026-07-15T00:34:41+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1820,8 +1820,8 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "d3a7e068483500f299a38357ee7d0baeff899b22",
-        "last_updated": "2026-07-07T08:57:50+08:00",
+        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
+        "last_updated": "2026-07-15T00:34:41+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-14T16:51:27+08:00"
+  "last_updated": "2026-07-15T00:34:41+08:00"
 }
