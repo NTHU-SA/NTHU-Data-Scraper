@@ -18872,7 +18872,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系114B  必修"
     },
     {
         "id": "11510FL  201102",
@@ -19272,7 +19272,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系114B  必修"
     },
     {
         "id": "11510FL  201302",
@@ -19447,7 +19447,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系114B  必修"
     },
     {
         "id": "11510FL  201502",
@@ -19747,7 +19747,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系114B  必修"
     },
     {
         "id": "11510FL  204102",
@@ -20147,7 +20147,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系114B  必修"
     },
     {
         "id": "11510FL  228002",
@@ -20747,7 +20747,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系113B  必修"
     },
     {
         "id": "11510FL  300703",
@@ -20797,7 +20797,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系113B  必修"
     },
     {
         "id": "11510FL  300902",
@@ -21047,7 +21047,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系113B  必修"
     },
     {
         "id": "11510FL  328102",
@@ -21422,7 +21422,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "《不接受加簽 No extra selection》",
-        "required_optional_note": ""
+        "required_optional_note": "外語系113B  必修"
     },
     {
         "id": "11510FL  404402",
@@ -30736,7 +30736,7 @@
         "class_room_and_time": "GEN II綜二205 S3S4S5S6",
         "classroom": "GEN II綜二205",
         "time": "S3S4S5S6",
-        "note": "Instructor: Damien Joseph(NTU, Singapore), Intensive Class, Date: TBD",
+        "note": "Intensive Class, Date: TBD",
         "suspend": "停開",
         "limit_note": "跨院國際碩士,跨院國際博士優先，第3次選課起開放全校修習",
         "freshman_reservation": "0",
@@ -31586,7 +31586,7 @@
         "class_room_and_time": "C.L.Liu炯朗106 M2M3M4",
         "classroom": "C.L.Liu炯朗106",
         "time": "M2M3M4",
-        "note": "林銘偉老師授課",
+        "note": "",
         "suspend": "停開",
         "limit_note": "",
         "freshman_reservation": "0",
@@ -56347,7 +56347,7 @@
         "expertise": "計量財務金融(第一專長)",
         "program": "",
         "no_extra_selection": "",
-        "required_optional_note": "科管院學士班115B  必修 計財系115B  必修"
+        "required_optional_note": "計財系115B  必修"
     },
     {
         "id": "11510MATH101006",
@@ -56447,7 +56447,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "",
-        "required_optional_note": "動機系115BA 必修 動機系115BB 必修"
+        "required_optional_note": ""
     },
     {
         "id": "11510MATH103002",
@@ -56547,7 +56547,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "",
-        "required_optional_note": "醫科系115B  必修 生醫學院學士班115B  必修 生科系115B  必修"
+        "required_optional_note": ""
     },
     {
         "id": "11510MATH103006",
@@ -56572,7 +56572,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "",
-        "required_optional_note": "資工系115BA 必修 資工系115BB 必修 資工系115BC 必修"
+        "required_optional_note": ""
     },
     {
         "id": "11510MATH103007",
@@ -56597,7 +56597,7 @@
         "expertise": "經濟(第一專長) 管理(第一專長)",
         "program": "",
         "no_extra_selection": "",
-        "required_optional_note": "經濟系115BA 必修 經濟系115BB 必修 科管院學士班115B  必修 科管院學士班115BA 必修"
+        "required_optional_note": ""
     },
     {
         "id": "11510MATH103008",
@@ -76300,6 +76300,231 @@
         "required_optional_note": ""
     },
     {
+        "id": "11510TIGP740101",
+        "chinese_title": "奈米科技導論Ａ",
+        "english_title": "Introduction to Nanotechnology Ａ",
+        "credit": "3",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "ESS工科 302 F5F6F7",
+        "classroom": "ESS工科 302",
+        "time": "F5F6F7",
+        "note": "",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP740102",
+        "chinese_title": "奈米科技導論Ｂ",
+        "english_title": "Introduction to Nanotechnology Ｂ",
+        "credit": "3",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "",
+        "classroom": "",
+        "time": "",
+        "note": "上課地點: 跨領域大樓C101會議室",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP743500",
+        "chinese_title": "量子力學一",
+        "english_title": "Quantum Mechanics  (I)",
+        "credit": "3",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "SINICA中  研院 T5T6T7",
+        "classroom": "SINICA中  研院",
+        "time": "T5T6T7",
+        "note": "Location: Taipei,Academia Sinica 物理所P101會議室",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP744100",
+        "chinese_title": "固態物理一",
+        "english_title": "Solid State Physics I",
+        "credit": "3",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "SINICA中  研院 T2T3T4",
+        "classroom": "SINICA中  研院",
+        "time": "T2T3T4",
+        "note": "Location: Taipei,Academia Sinica 物理所P101會議室",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP746300",
+        "chinese_title": "高等無機化學一",
+        "english_title": "Advanced Inorganic Chemistry (I)",
+        "credit": "3",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "",
+        "classroom": "",
+        "time": "",
+        "note": "Location: 台大化學121室",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP748400",
+        "chinese_title": "同步輻射與中子散射的基礎與應用",
+        "english_title": "Fundamentals and Application of Synchrotron Radiation and Neutron Scattering",
+        "credit": "2",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "",
+        "classroom": "",
+        "time": "",
+        "note": "Location: 台大物理618室",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP748700",
+        "chinese_title": "尖端計量學以及能譜與顯微術之基礎與應用",
+        "english_title": "Advanced Metrology, Spectroscopies and Microscopies: Fundamentals and Applications",
+        "credit": "3",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "",
+        "classroom": "",
+        "time": "",
+        "note": "Location: 台大凝態中心212室",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP749100",
+        "chinese_title": "書報討論",
+        "english_title": "Seminar",
+        "credit": "1",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "",
+        "classroom": "",
+        "time": "",
+        "note": "上課地點: 跨領域大樓 4B05會議室",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510TIGP749300",
+        "chinese_title": "專題演講",
+        "english_title": "Colloquium",
+        "credit": "0",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "NST Program",
+        "language": "英",
+        "class_room_and_time": "SINICA中  研院",
+        "classroom": "SINICA中  研院",
+        "time": " ",
+        "note": "",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
         "id": "11510TL  500000",
         "chinese_title": "論文研究",
         "english_title": "Thesis",
@@ -77475,6 +77700,31 @@
         "required_optional_note": "IMBA碩士班115M  選修 台北政經學院政治經濟碩士115M  選修 台北政經學院政治經濟博士115D  選修"
     },
     {
+        "id": "11510TSE 608900",
+        "chinese_title": "威權主義的政治經濟學",
+        "english_title": "Political Economy of Authoritarianism",
+        "credit": "2",
+        "size_limit": "32",
+        "student_count": "",
+        "lecturer": "童涵浦 Hans H. Tung",
+        "language": "英",
+        "class_room_and_time": "CII育成A8 F3F4",
+        "classroom": "CII育成A8",
+        "time": "F3F4",
+        "note": "",
+        "suspend": "",
+        "limit_note": "排除大學部",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": "台北政經學院政治經濟碩士115M  選修 台北政經學院政治經濟博士115D  選修"
+    },
+    {
         "id": "11510TSE 609000",
         "chinese_title": "全球政治思想",
         "english_title": "Global Political Thought",
@@ -77497,7 +77747,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "",
-        "required_optional_note": "台北政經學院政治經濟碩士115M  選修"
+        "required_optional_note": "台北政經學院政治經濟碩士115M  選修 台北政經學院政治經濟博士115D  選修"
     },
     {
         "id": "11510TSED700200",
