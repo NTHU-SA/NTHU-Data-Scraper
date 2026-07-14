@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "89fbe28eba1d4a7bf4a9dd7188be516c20633e50",
-        "last_updated": "2026-07-14T11:10:04+08:00",
+        "last_commit": "ae8bc05d46d10a1b77767a24f932bf976e143d6e",
+        "last_updated": "2026-07-14T14:53:49+08:00",
         "name": "announcements.json"
       },
       {
@@ -973,8 +973,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "7a4049a5cdf0fcca0883f1cbcdab3fa35f0aab2e",
-        "last_updated": "2026-07-01T09:15:16+08:00",
+        "last_commit": "ae8bc05d46d10a1b77767a24f932bf976e143d6e",
+        "last_updated": "2026-07-14T14:53:49+08:00",
         "name": "訊息公告_zh-tw.json"
       }
     ],
@@ -1409,8 +1409,8 @@
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
-        "last_updated": "2026-07-13T15:20:07+08:00",
+        "last_commit": "ae8bc05d46d10a1b77767a24f932bf976e143d6e",
+        "last_updated": "2026-07-14T14:53:49+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-14T11:10:04+08:00"
+  "last_updated": "2026-07-14T14:53:49+08:00"
 }
