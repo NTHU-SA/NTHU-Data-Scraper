@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "46c497e3a5eb06a2b0785d79a2be0b7e1877170e",
-        "last_updated": "2026-07-15T20:38:10+08:00",
+        "last_commit": "d90b60df3b59801c2f7aae6cde19c2ce1f53a24b",
+        "last_updated": "2026-07-16T00:37:14+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
-        "last_updated": "2026-07-15T00:34:41+08:00",
+        "last_commit": "d90b60df3b59801c2f7aae6cde19c2ce1f53a24b",
+        "last_updated": "2026-07-16T00:37:14+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -66,8 +66,8 @@
         "name": "法規宣導_zh-tw.json"
       },
       {
-        "last_commit": "2f5da1254bf8c8ee8b4e6ddea0d7615bfff82b80",
-        "last_updated": "2026-07-10T00:56:55+08:00",
+        "last_commit": "d90b60df3b59801c2f7aae6cde19c2ce1f53a24b",
+        "last_updated": "2026-07-16T00:37:14+08:00",
         "name": "重大消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-15T20:38:10+08:00"
+  "last_updated": "2026-07-16T00:37:14+08:00"
 }
