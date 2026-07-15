@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "66200e39288c92bcf69fc7e12356c0540c5a19f6",
-        "last_updated": "2026-07-15T13:06:52+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "66200e39288c92bcf69fc7e12356c0540c5a19f6",
-        "last_updated": "2026-07-15T13:06:52+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "dining.json"
       },
       {
@@ -514,13 +514,13 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "b5510f6bd3a304533689fa914b9a808e36e96595",
-        "last_updated": "2026-07-13T23:05:43+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "c0275b972becebe29a7921d9fe51324a0a48e6cb",
-        "last_updated": "2026-07-13T11:13:26+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -777,8 +777,8 @@
         "name": "國際交流_zh-tw.json"
       },
       {
-        "last_commit": "50ed2c0312640ed79f3ef495bbb7531edc74836d",
-        "last_updated": "2026-07-08T18:46:44+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "師生榮譽_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "7917ca064830e6d1cfe470c6b4ac5db9ec42a800",
-        "last_updated": "2026-07-15T11:10:58+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "7917ca064830e6d1cfe470c6b4ac5db9ec42a800",
-        "last_updated": "2026-07-15T11:10:58+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "7917ca064830e6d1cfe470c6b4ac5db9ec42a800",
-        "last_updated": "2026-07-15T11:10:58+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1327,8 +1327,8 @@
         "name": "Latest Product_en.json"
       },
       {
-        "last_commit": "e67cb0d7da60d9ba0da81643fd0450e0d78cbe61",
-        "last_updated": "2026-04-14T11:14:48+08:00",
+        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
+        "last_updated": "2026-07-15T14:55:47+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-15T13:06:52+08:00"
+  "last_updated": "2026-07-15T14:55:47+08:00"
 }
