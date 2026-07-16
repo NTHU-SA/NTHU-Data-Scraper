@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "775437511cbfca58a5d563c93dfbf363bda5865d",
-        "last_updated": "2026-07-16T13:08:45+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
-        "last_updated": "2026-07-15T14:55:47+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "dining.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "f30968e30bdfe36dd148e3acd746843e3a4a52e8",
-        "last_updated": "2026-07-16T11:11:12+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -293,13 +293,13 @@
         "name": "Application_en.json"
       },
       {
-        "last_commit": "f82087d7a6efcae5987e3108cdc62a6578aa7361",
-        "last_updated": "2026-07-06T17:31:57+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "c0275b972becebe29a7921d9fe51324a0a48e6cb",
-        "last_updated": "2026-07-13T11:13:26+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "News_en.json"
       },
       {
@@ -792,8 +792,8 @@
         "name": "系所公告_zh-tw.json"
       },
       {
-        "last_commit": "775437511cbfca58a5d563c93dfbf363bda5865d",
-        "last_updated": "2026-07-16T13:08:45+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "補助申請_zh-tw.json"
       },
       {
@@ -919,8 +919,8 @@
         "name": "導師分享  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "46507c6e7cd040107da9da35aca6d1f6a8e6ad31",
-        "last_updated": "2026-07-14T16:51:27+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "招生專區  - 清華書院_zh-tw.json"
       },
       {
@@ -1683,8 +1683,8 @@
         "name": "招生及放榜資訊_zh-tw.json"
       },
       {
-        "last_commit": "d21b8a21f9cb99b728a1cf4c5891aa6e1b4889ef",
-        "last_updated": "2026-06-26T11:19:39+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1693,8 +1693,8 @@
         "name": "活動公告_zh-tw.json"
       },
       {
-        "last_commit": "d21b8a21f9cb99b728a1cf4c5891aa6e1b4889ef",
-        "last_updated": "2026-06-26T11:19:39+08:00",
+        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
+        "last_updated": "2026-07-16T14:59:14+08:00",
         "name": "系務公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-16T13:08:45+08:00"
+  "last_updated": "2026-07-16T14:59:14+08:00"
 }
