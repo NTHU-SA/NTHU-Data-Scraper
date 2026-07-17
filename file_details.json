@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8de6bd073c4c721acf1eebbb57c946f80a818c3d",
-        "last_updated": "2026-07-17T00:36:27+08:00",
+        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
+        "last_updated": "2026-07-17T11:11:17+08:00",
         "name": "announcements.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "ae09cdde65c7c17627ede87e09db1d39aacc7841",
-        "last_updated": "2026-07-13T13:16:39+08:00",
+        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
+        "last_updated": "2026-07-17T11:11:17+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
-        "last_updated": "2026-07-15T00:34:41+08:00",
+        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
+        "last_updated": "2026-07-17T11:11:17+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1796,13 +1796,13 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_commit": "775437511cbfca58a5d563c93dfbf363bda5865d",
-        "last_updated": "2026-07-16T13:08:45+08:00",
+        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
+        "last_updated": "2026-07-17T11:11:17+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "f30968e30bdfe36dd148e3acd746843e3a4a52e8",
-        "last_updated": "2026-07-16T11:11:12+08:00",
+        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
+        "last_updated": "2026-07-17T11:11:17+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-17T06:26:28+08:00"
+  "last_updated": "2026-07-17T11:11:17+08:00"
 }
