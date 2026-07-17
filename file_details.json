@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
-        "last_updated": "2026-07-17T11:11:17+08:00",
+        "last_commit": "b20a5432904d77f399411446d8f9a58e0f6f1f56",
+        "last_updated": "2026-07-17T13:09:38+08:00",
         "name": "announcements.json"
       },
       {
@@ -328,8 +328,8 @@
         "name": "活動_會議_zh-tw.json"
       },
       {
-        "last_commit": "c0275b972becebe29a7921d9fe51324a0a48e6cb",
-        "last_updated": "2026-07-13T11:13:26+08:00",
+        "last_commit": "b20a5432904d77f399411446d8f9a58e0f6f1f56",
+        "last_updated": "2026-07-17T13:09:38+08:00",
         "name": "申請_zh-tw.json"
       }
     ],
@@ -919,13 +919,13 @@
         "name": "導師分享  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
-        "last_updated": "2026-07-16T14:59:14+08:00",
+        "last_commit": "b20a5432904d77f399411446d8f9a58e0f6f1f56",
+        "last_updated": "2026-07-17T13:09:38+08:00",
         "name": "招生專區  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "c0275b972becebe29a7921d9fe51324a0a48e6cb",
-        "last_updated": "2026-07-13T11:13:26+08:00",
+        "last_commit": "b20a5432904d77f399411446d8f9a58e0f6f1f56",
+        "last_updated": "2026-07-17T13:09:38+08:00",
         "name": "最新公告  - 清華書院_zh-tw.json"
       },
       {
@@ -1813,8 +1813,8 @@
         "name": "招待所公告_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "b20a5432904d77f399411446d8f9a58e0f6f1f56",
+        "last_updated": "2026-07-17T13:09:38+08:00",
         "name": "餐廳公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-17T11:11:17+08:00"
+  "last_updated": "2026-07-17T13:09:38+08:00"
 }
