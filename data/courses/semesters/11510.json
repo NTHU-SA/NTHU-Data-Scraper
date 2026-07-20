@@ -17975,6 +17975,31 @@
         "required_optional_note": "工科系115D  選修 工科系115M  選修"
     },
     {
+        "id": "11510ESS 523300",
+        "chinese_title": "半導體元件設計與模擬",
+        "english_title": "Semiconductor devices design and simulation",
+        "credit": "3",
+        "size_limit": "25",
+        "student_count": "",
+        "lecturer": "吳永俊 WU, YUNG-CHUN",
+        "language": "中",
+        "class_room_and_time": "ESS工科 404 T5T6T7",
+        "classroom": "ESS工科 404",
+        "time": "T5T6T7",
+        "note": "台積電學程",
+        "suspend": "",
+        "limit_note": "",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": "工科系115D  選修 工科系115M  選修"
+    },
+    {
         "id": "11510ESS 529000",
         "chinese_title": "混合訊號積體電路設計",
         "english_title": "Mixed-Signal Integrated Circuit Design",
@@ -68579,7 +68604,7 @@
         "chinese_title": "深度學習與應用",
         "english_title": "Deep Learning and Applications",
         "credit": "3",
-        "size_limit": "40",
+        "size_limit": "32",
         "student_count": "",
         "lecturer": "黃靖欹 HUANG, CHING-I",
         "language": "英",
@@ -71372,7 +71397,7 @@
         "expertise": "",
         "program": "",
         "no_extra_selection": "",
-        "required_optional_note": "統計所115M  選修"
+        "required_optional_note": "統計所115D  選修"
     },
     {
         "id": "11510STAT701500",
