@@ -2483,6 +2483,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】誠徵專任行政助理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-311395,r5075.php?Lang=zh-tw",
+                "date": "2026-07-21"
+            },
+            {
                 "title": "國立清華大學 生醫工程與環境科學系 王廷瑋老師實驗室 誠徵博士後研究員 1 名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-311919,r5075.php?Lang=zh-tw",
                 "date": "2026-07-20"
@@ -2535,11 +2540,6 @@
             {
                 "title": "【誠徵】國立清華大學資訊工程學系徵求 校聘行政組員 1名 (延長收件截止日115/07/09)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-311009,r5075.php?Lang=zh-tw",
-                "date": "2026-07-07"
-            },
-            {
-                "title": "【徵才】國立清華大學 誠徵臨時專案人員(身障職缺)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-137629,r5075.php?Lang=zh-tw",
                 "date": "2026-07-07"
             }
         ]
@@ -7484,6 +7484,11 @@
         "department": "竹師教育學院",
         "articles": [
             {
+                "title": "恭賀！院博士班 歐予恩同學 榮獲第二類組 「誠致程有威先生教育科技獎」第二名",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-311987,r4.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "恭賀！115年本院教師升等",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-311610,r4.php?Lang=zh-tw",
                 "date": ""
@@ -7537,11 +7542,6 @@
                 "title": "【國際交流】清大竹師教育學院 赴日本早稻田大學學術參訪大成功",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-309189,r4.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【開放報名：6/9截止Deadline】竹師教育學院 第二屆英文短影音競賽College of Education 2nd English Short Video Contest",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-309587,r4.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -7551,6 +7551,11 @@
         "language": "zh-tw",
         "department": "竹師教育學院",
         "articles": [
+            {
+                "title": "恭賀！院博士班 歐予恩同學 榮獲第二類組 「誠致程有威先生教育科技獎」第二名",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-311987,r70.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "7/18(六)教院大樓例行性停電通知 Power Outage",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-303589,r70.php?Lang=zh-tw",
@@ -7605,11 +7610,6 @@
                 "title": "【重要公告】期末考請假規範",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-309928,r70.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "(申請截止日延長至2026年7月3日前)【開放申請】竹師教育學院培力英語能力檢定測驗獎勵申請公告(申請截止日 : 2026年6月15日)",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-309844,r70.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -7622,6 +7622,11 @@
             {
                 "title": "竹師教育學院 傑出榮譽",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-306969,r7226.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "恭賀！院博士班 歐予恩同學 榮獲第二類組 「誠致程有威先生教育科技獎」第二名",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-311987,r7226.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -7672,11 +7677,6 @@
             {
                 "title": "114學年度院傑出教學獎、院教學優良教師公告",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-296143,r7226.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "賀!本院傅麗玉教授榮獲114年度教育部師鐸獎",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-292932,r7226.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -15449,7 +15449,7 @@
         "department": "清華學院清華學院學士班",
         "articles": [
             {
-                "title": "【交換計畫】115學年度下學期(2027春)赴陸港澳交換開放申請",
+                "title": "【公告】115學年度下學期(2027春)赴陸港澳交換開放申請",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-311650,r9940.php",
                 "date": ""
             },
