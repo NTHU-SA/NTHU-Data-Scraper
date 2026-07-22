@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3a184dd4c199b73c78134e764a7dcaa98141cd96",
-        "last_updated": "2026-07-22T15:02:20+08:00",
+        "last_commit": "2567463dacfe32ef38c022e2daa919dd2b53a572",
+        "last_updated": "2026-07-22T17:00:43+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "22939f84507ef33c2cb6e26bdef55f1371a8cb6b",
-        "last_updated": "2026-07-22T11:11:53+08:00",
+        "last_commit": "2567463dacfe32ef38c022e2daa919dd2b53a572",
+        "last_updated": "2026-07-22T17:00:43+08:00",
         "name": "dining.json"
       },
       {
@@ -865,13 +865,13 @@
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "89fbe28eba1d4a7bf4a9dd7188be516c20633e50",
-        "last_updated": "2026-07-14T11:10:04+08:00",
+        "last_commit": "2567463dacfe32ef38c022e2daa919dd2b53a572",
+        "last_updated": "2026-07-22T17:00:43+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
-        "last_updated": "2026-07-17T11:11:17+08:00",
+        "last_commit": "2567463dacfe32ef38c022e2daa919dd2b53a572",
+        "last_updated": "2026-07-22T17:00:43+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -958,8 +958,8 @@
         "name": "創新學制專區_zh-tw.json"
       },
       {
-        "last_commit": "3011020e953e1faa94b5e5e6ed8e898d68804876",
-        "last_updated": "2026-03-31T08:49:44+08:00",
+        "last_commit": "2567463dacfe32ef38c022e2daa919dd2b53a572",
+        "last_updated": "2026-07-22T17:00:43+08:00",
         "name": "影音新聞_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-22T15:02:20+08:00"
+  "last_updated": "2026-07-22T17:00:43+08:00"
 }
