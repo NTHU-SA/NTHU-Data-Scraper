@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2567463dacfe32ef38c022e2daa919dd2b53a572",
-        "last_updated": "2026-07-22T17:00:43+08:00",
+        "last_commit": "91ccc004212c732967d8fea0890c8e5074a7cdf8",
+        "last_updated": "2026-07-23T08:50:01+08:00",
         "name": "announcements.json"
       },
       {
@@ -438,13 +438,13 @@
         "name": "演講訊息_zh-tw.json"
       },
       {
-        "last_commit": "3a184dd4c199b73c78134e764a7dcaa98141cd96",
-        "last_updated": "2026-07-22T15:02:20+08:00",
+        "last_commit": "91ccc004212c732967d8fea0890c8e5074a7cdf8",
+        "last_updated": "2026-07-23T08:50:01+08:00",
         "name": "碩博士考生資訊_zh-tw.json"
       },
       {
-        "last_commit": "3a184dd4c199b73c78134e764a7dcaa98141cd96",
-        "last_updated": "2026-07-22T15:02:20+08:00",
+        "last_commit": "91ccc004212c732967d8fea0890c8e5074a7cdf8",
+        "last_updated": "2026-07-23T08:50:01+08:00",
         "name": "系所公告_zh-tw.json"
       }
     ],
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "89fbe28eba1d4a7bf4a9dd7188be516c20633e50",
-        "last_updated": "2026-07-14T11:10:04+08:00",
+        "last_commit": "91ccc004212c732967d8fea0890c8e5074a7cdf8",
+        "last_updated": "2026-07-23T08:50:01+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -1734,8 +1734,8 @@
     ],
     "announcements/總務處保管組": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "91ccc004212c732967d8fea0890c8e5074a7cdf8",
+        "last_updated": "2026-07-23T08:50:01+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-23T04:35:40+08:00"
+  "last_updated": "2026-07-23T08:50:01+08:00"
 }
