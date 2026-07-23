@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "b4a6bd8a83f01e932b1605fabd7571d839f80447",
+        "last_updated": "2026-07-23T17:01:13+08:00",
         "name": "announcements.json"
       },
       {
@@ -335,18 +335,18 @@
     ],
     "announcements/學務處衛生保健組(醫輔大樓1樓)": [
       {
-        "last_commit": "30c7b6d93a8421c253551a1a6b1817bbe56e2e01",
-        "last_updated": "2026-07-21T08:48:47+08:00",
+        "last_commit": "b4a6bd8a83f01e932b1605fabd7571d839f80447",
+        "last_updated": "2026-07-23T17:01:13+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "b4a6bd8a83f01e932b1605fabd7571d839f80447",
+        "last_updated": "2026-07-23T17:01:13+08:00",
         "name": "公告_zh-tw.json"
       },
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "b4a6bd8a83f01e932b1605fabd7571d839f80447",
+        "last_updated": "2026-07-23T17:01:13+08:00",
         "name": "公告_宣導_zh-tw.json"
       },
       {
@@ -360,8 +360,8 @@
         "name": "公告_計畫_zh-tw.json"
       },
       {
-        "last_commit": "5c6b5e106ee1343411971628826ec2a62f915534",
-        "last_updated": "2026-01-19T18:12:49+08:00",
+        "last_commit": "b4a6bd8a83f01e932b1605fabd7571d839f80447",
+        "last_updated": "2026-07-23T17:01:13+08:00",
         "name": "公告_防疫_zh-tw.json"
       }
     ],
@@ -1502,8 +1502,8 @@
         "name": "系務公告_zh-tw.json"
       },
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "b4a6bd8a83f01e932b1605fabd7571d839f80447",
+        "last_updated": "2026-07-23T17:01:13+08:00",
         "name": "賀榜_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-23T15:00:18+08:00"
+  "last_updated": "2026-07-23T17:01:13+08:00"
 }
