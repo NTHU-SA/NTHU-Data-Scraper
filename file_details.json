@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fa3de8fba68a9d71280d13ef9803822436bc88d6",
-        "last_updated": "2026-07-24T16:59:04+08:00",
+        "last_commit": "602a1e20f0f8cc748038e803799c121aaf339a19",
+        "last_updated": "2026-07-24T18:46:51+08:00",
         "name": "announcements.json"
       },
       {
@@ -526,8 +526,8 @@
     ],
     "announcements/師資培育中心特殊教育中心": [
       {
-        "last_commit": "51d5880d77c2e4969aaadde3aa60f9fc740a74d7",
-        "last_updated": "2026-07-09T13:31:37+08:00",
+        "last_commit": "602a1e20f0f8cc748038e803799c121aaf339a19",
+        "last_updated": "2026-07-24T18:46:51+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-24T16:59:04+08:00"
+  "last_updated": "2026-07-24T18:46:51+08:00"
 }
