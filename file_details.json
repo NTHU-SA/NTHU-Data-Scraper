@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "30d29edaeee184a0983434cfc1f9dbbcad8ad906",
-        "last_updated": "2026-07-24T00:37:01+08:00",
+        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
+        "last_updated": "2026-07-24T11:11:50+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "63ce078fbd27e04a181e5c26b4ef45b863531c27",
-        "last_updated": "2026-07-23T13:11:05+08:00",
+        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
+        "last_updated": "2026-07-24T11:11:50+08:00",
         "name": "dining.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "3a184dd4c199b73c78134e764a7dcaa98141cd96",
-        "last_updated": "2026-07-22T15:02:20+08:00",
+        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
+        "last_updated": "2026-07-24T11:11:50+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "47395929c04982c10b5044adad1e09a2bb7ca6d2",
-        "last_updated": "2026-07-13T15:20:07+08:00",
+        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
+        "last_updated": "2026-07-24T11:11:50+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1404,8 +1404,8 @@
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "3a184dd4c199b73c78134e764a7dcaa98141cd96",
-        "last_updated": "2026-07-22T15:02:20+08:00",
+        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
+        "last_updated": "2026-07-24T11:11:50+08:00",
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
@@ -1770,8 +1770,8 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "29a9c3422dab464e14d0c3725edaa56c8b340f6e",
-        "last_updated": "2026-07-23T18:49:11+08:00",
+        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
+        "last_updated": "2026-07-24T11:11:50+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-24T06:27:00+08:00"
+  "last_updated": "2026-07-24T11:11:50+08:00"
 }
