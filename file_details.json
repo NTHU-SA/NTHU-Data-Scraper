@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d6f072c075afa101f759213b8e66638a66a86868",
-        "last_updated": "2026-07-24T13:10:00+08:00",
+        "last_commit": "0f8f2efa6f40d51c0dfee5f7066203c123971894",
+        "last_updated": "2026-07-24T15:01:16+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
-        "last_updated": "2026-07-24T11:11:50+08:00",
+        "last_commit": "0f8f2efa6f40d51c0dfee5f7066203c123971894",
+        "last_updated": "2026-07-24T15:01:16+08:00",
         "name": "dining.json"
       },
       {
@@ -396,8 +396,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "89fbe28eba1d4a7bf4a9dd7188be516c20633e50",
-        "last_updated": "2026-07-14T11:10:04+08:00",
+        "last_commit": "0f8f2efa6f40d51c0dfee5f7066203c123971894",
+        "last_updated": "2026-07-24T15:01:16+08:00",
         "name": "榮譽榜_zh-tw.json"
       }
     ],
@@ -797,8 +797,8 @@
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "a335c351c0985cd7f4db55559715ba55ff3be5c0",
-        "last_updated": "2026-07-21T11:11:30+08:00",
+        "last_commit": "0f8f2efa6f40d51c0dfee5f7066203c123971894",
+        "last_updated": "2026-07-24T15:01:16+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-24T13:10:00+08:00"
+  "last_updated": "2026-07-24T15:01:16+08:00"
 }
