@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "77ace2368e697bfb3bbbdbf2a1358159bbcf9e99",
-        "last_updated": "2026-07-25T11:10:50+08:00",
+        "last_commit": "7da54df77080d12a12bf9a225f2d49da4e281a22",
+        "last_updated": "2026-07-27T00:26:06+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,13 +51,13 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "b9a7a1a2b1fd830f28620843990900bcf64ad9f5",
-        "last_updated": "2026-07-18T00:33:09+08:00",
+        "last_commit": "7da54df77080d12a12bf9a225f2d49da4e281a22",
+        "last_updated": "2026-07-27T00:26:06+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "1471d031c45d21f9f35e77902a65de1aafe9ac35",
-        "last_updated": "2026-07-21T13:10:59+08:00",
+        "last_commit": "7da54df77080d12a12bf9a225f2d49da4e281a22",
+        "last_updated": "2026-07-27T00:26:06+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -1741,8 +1741,8 @@
     ],
     "announcements/總務處出納組": [
       {
-        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
-        "last_updated": "2026-07-06T11:17:28+08:00",
+        "last_commit": "7da54df77080d12a12bf9a225f2d49da4e281a22",
+        "last_updated": "2026-07-27T00:26:06+08:00",
         "name": "News_en.json"
       },
       {
@@ -1751,8 +1751,8 @@
         "name": "一般公告_zh-tw.json"
       },
       {
-        "last_commit": "44834ba5f5743f832c2159051cef6436633ffd10",
-        "last_updated": "2026-07-06T11:17:28+08:00",
+        "last_commit": "7da54df77080d12a12bf9a225f2d49da4e281a22",
+        "last_updated": "2026-07-27T00:26:06+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1837,8 +1837,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "7ef7bd59a1b3fb9ef4e476f0be2928f814162795",
-        "last_updated": "2026-07-03T22:51:26+08:00",
+        "last_commit": "7da54df77080d12a12bf9a225f2d49da4e281a22",
+        "last_updated": "2026-07-27T00:26:06+08:00",
         "name": "轉知公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-25T11:10:50+08:00"
+  "last_updated": "2026-07-27T00:26:06+08:00"
 }
