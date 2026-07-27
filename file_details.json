@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1d2a510093fcf4a0866453f5860c0a6f3754058f",
-        "last_updated": "2026-07-27T17:16:39+08:00",
+        "last_commit": "5d1dbfb593502ab1ef3e6c82b56f75885003e94f",
+        "last_updated": "2026-07-28T00:48:07+08:00",
         "name": "announcements.json"
       },
       {
@@ -44,8 +44,8 @@
     ],
     "announcements/主計室": [
       {
-        "last_commit": "22939f84507ef33c2cb6e26bdef55f1371a8cb6b",
-        "last_updated": "2026-07-22T11:11:53+08:00",
+        "last_commit": "5d1dbfb593502ab1ef3e6c82b56f75885003e94f",
+        "last_updated": "2026-07-28T00:48:07+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -1083,8 +1083,8 @@
         "name": "Related Links_en.json"
       },
       {
-        "last_commit": "b8ba5c551e3334996a739e8ade653248ba8ec888",
-        "last_updated": "2026-07-13T19:07:49+08:00",
+        "last_commit": "5d1dbfb593502ab1ef3e6c82b56f75885003e94f",
+        "last_updated": "2026-07-28T00:48:07+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-27T17:16:39+08:00"
+  "last_updated": "2026-07-28T00:48:07+08:00"
 }
