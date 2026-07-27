@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "27cb91b93bec98eb2d8cf25ea026082b431cda44",
-        "last_updated": "2026-07-27T13:24:25+08:00",
+        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
+        "last_updated": "2026-07-27T15:22:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "27cb91b93bec98eb2d8cf25ea026082b431cda44",
-        "last_updated": "2026-07-27T13:24:25+08:00",
+        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
+        "last_updated": "2026-07-27T15:22:26+08:00",
         "name": "dining.json"
       },
       {
@@ -502,8 +502,8 @@
         "name": "工工榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
+        "last_updated": "2026-07-27T15:22:26+08:00",
         "name": "演講公告_zh-tw.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "29a9c3422dab464e14d0c3725edaa56c8b340f6e",
-        "last_updated": "2026-07-23T18:49:11+08:00",
+        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
+        "last_updated": "2026-07-27T15:22:26+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "0421a0e7e0b384f752a7806a5ee79afe63797c77",
-        "last_updated": "2026-07-27T11:14:13+08:00",
+        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
+        "last_updated": "2026-07-27T15:22:26+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-27T13:24:25+08:00"
+  "last_updated": "2026-07-27T15:22:26+08:00"
 }
