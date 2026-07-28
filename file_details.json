@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "645582a30805bdd822ee7d90c514b78b6366c764",
-        "last_updated": "2026-07-28T17:02:36+08:00",
+        "last_commit": "c41e6a00fc6d5715b5b7092477af086f92f0961d",
+        "last_updated": "2026-07-28T18:54:49+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "77ace2368e697bfb3bbbdbf2a1358159bbcf9e99",
-        "last_updated": "2026-07-25T11:10:50+08:00",
+        "last_commit": "c41e6a00fc6d5715b5b7092477af086f92f0961d",
+        "last_updated": "2026-07-28T18:54:49+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-28T17:02:36+08:00"
+  "last_updated": "2026-07-28T18:54:49+08:00"
 }
