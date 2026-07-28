@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "01c015c568b9e54653db620996c684d3af3f4741",
-        "last_updated": "2026-07-28T13:10:08+08:00",
+        "last_commit": "645582a30805bdd822ee7d90c514b78b6366c764",
+        "last_updated": "2026-07-28T17:02:36+08:00",
         "name": "announcements.json"
       },
       {
@@ -497,8 +497,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "eb339d5ee54efdc5e6e6b4e0d94b4b54d513103c",
-        "last_updated": "2026-07-21T17:01:57+08:00",
+        "last_commit": "645582a30805bdd822ee7d90c514b78b6366c764",
+        "last_updated": "2026-07-28T17:02:36+08:00",
         "name": "工工榮譽榜_zh-tw.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
-        "last_updated": "2026-07-27T15:22:26+08:00",
+        "last_commit": "645582a30805bdd822ee7d90c514b78b6366c764",
+        "last_updated": "2026-07-28T17:02:36+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-28T15:03:04+08:00"
+  "last_updated": "2026-07-28T17:02:36+08:00"
 }
