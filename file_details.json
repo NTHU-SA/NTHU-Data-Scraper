@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "91de69c074ee702d8b56605f578bf99f04d2f0bb",
-        "last_updated": "2026-07-29T15:05:24+08:00",
+        "last_commit": "5e07cf400420249d9ba5aa02db2a9f39160865fb",
+        "last_updated": "2026-07-29T17:04:29+08:00",
         "name": "announcements.json"
       },
       {
@@ -303,8 +303,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "775437511cbfca58a5d563c93dfbf363bda5865d",
-        "last_updated": "2026-07-16T13:08:45+08:00",
+        "last_commit": "5e07cf400420249d9ba5aa02db2a9f39160865fb",
+        "last_updated": "2026-07-29T17:04:29+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -340,8 +340,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "d501b089608138ffd4ac8db810489f6617471c69",
-        "last_updated": "2026-07-25T00:38:14+08:00",
+        "last_commit": "5e07cf400420249d9ba5aa02db2a9f39160865fb",
+        "last_updated": "2026-07-29T17:04:29+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "8b166f474346ea3482e747cf8339c095113887cb",
-        "last_updated": "2026-07-17T11:11:17+08:00",
+        "last_commit": "5e07cf400420249d9ba5aa02db2a9f39160865fb",
+        "last_updated": "2026-07-29T17:04:29+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
-        "last_updated": "2026-07-27T15:22:26+08:00",
+        "last_commit": "5e07cf400420249d9ba5aa02db2a9f39160865fb",
+        "last_updated": "2026-07-29T17:04:29+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-29T15:05:24+08:00"
+  "last_updated": "2026-07-29T17:04:29+08:00"
 }
