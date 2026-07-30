@@ -1088,6 +1088,16 @@
         "department": "科技管理學院安富金融工程研究中心",
         "articles": [
             {
+                "title": "公布2026年6月【縣市】清華安富房價指數 HPI of AIFE has been launched on July 30, 2026.",
+                "link": "https://aife.site.nthu.edu.tw/p/406-1389-312383,r7038.php",
+                "date": "2026-07-30"
+            },
+            {
+                "title": "公布2026年6月【六都行政區】清華安富房價指數 HPI of six city in Taiwan has been launched on July 30, 2026.",
+                "link": "https://aife.site.nthu.edu.tw/p/406-1389-312384,r7038.php",
+                "date": "2026-07-30"
+            },
+            {
                 "title": "公布2026年5月【縣市】清華安富房價指數 HPI of AIFE has been launched on June 25, 2026.",
                 "link": "https://aife.site.nthu.edu.tw/p/406-1389-310900,r7038.php",
                 "date": "2026-06-25"
@@ -1176,16 +1186,6 @@
                 "title": "公布2025年9月【六都行政區】清華安富房價指數 HPI of six city in Taiwan has been launched on October 23, 2025.",
                 "link": "https://aife.site.nthu.edu.tw/p/406-1389-297475,r7038.php",
                 "date": "2025-10-23"
-            },
-            {
-                "title": "公布2025年8月【縣市】清華安富房價指數 HPI of AIFE has been launched on September 31, 2025.",
-                "link": "https://aife.site.nthu.edu.tw/p/406-1389-296212,r7038.php",
-                "date": "2025-09-25"
-            },
-            {
-                "title": "公布2025年8月【六都行政區】清華安富房價指數 HPI of six city in Taiwan has been launched on September 31, 2025.",
-                "link": "https://aife.site.nthu.edu.tw/p/406-1389-296214,r7038.php",
-                "date": "2025-09-25"
             }
         ]
     },
@@ -21046,11 +21046,6 @@
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
             {
-                "title": "【New Graduate】Housing Application for New Overseas Graduate Students 2026",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311589,r1538.php?Lang=en",
-                "date": "2026-07-13"
-            },
-            {
                 "title": "【Graduate】Application for the waiting list of single room of the Main Campus and for suite of the Nanda Campus (Academic Year 2026)",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311588,r1538.php?Lang=en",
                 "date": "2026-07-13"
@@ -21091,6 +21086,11 @@
                 "date": "2026-07-16"
             },
             {
+                "title": "【New Graduate】Housing Application for New Overseas Graduate Students 2026",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311589,r1538.php?Lang=en",
+                "date": "2026-07-13"
+            },
+            {
                 "title": "Precautions for Typhoon",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-252518,r1538.php?Lang=en",
                 "date": "2026-07-09"
@@ -21128,11 +21128,6 @@
         "language": "zh-tw",
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
-            {
-                "title": "【研究所新生】115學年研究所新生（境外生）住宿申請作業",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311589,r1538.php?Lang=zh-tw",
-                "date": "2026-07-13"
-            },
             {
                 "title": "【研究所】115學年研究所「校本部單人房/南大套房」候補申請公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311588,r1538.php?Lang=zh-tw",
@@ -21177,6 +21172,11 @@
                 "title": "【轉事務組公告】115.07.01水質檢驗結果",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-311692,c0.php?Lang=zh-tw",
                 "date": "2026-07-15"
+            },
+            {
+                "title": "【研究所新生】115學年研究所新生（境外生）住宿申請作業",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311589,r1538.php?Lang=zh-tw",
+                "date": "2026-07-13"
             },
             {
                 "title": "【大學部】115學年度（上）轉學生住宿申請公告",
