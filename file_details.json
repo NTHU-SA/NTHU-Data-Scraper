@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6387f27f1d11b78b92d38118c4bb977b0f915165",
-        "last_updated": "2026-07-30T15:03:33+08:00",
+        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
+        "last_updated": "2026-07-30T17:02:04+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "6387f27f1d11b78b92d38118c4bb977b0f915165",
-        "last_updated": "2026-07-30T15:03:33+08:00",
+        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
+        "last_updated": "2026-07-30T17:02:04+08:00",
         "name": "dining.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "82a189d2e3a9f885bcdff07ff394f2a8601fe4f5",
-        "last_updated": "2026-07-16T14:59:14+08:00",
+        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
+        "last_updated": "2026-07-30T17:02:04+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "5e07cf400420249d9ba5aa02db2a9f39160865fb",
-        "last_updated": "2026-07-29T17:04:29+08:00",
+        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
+        "last_updated": "2026-07-30T17:02:04+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -1358,8 +1358,8 @@
     ],
     "announcements/科技管理學院安富金融工程研究中心": [
       {
-        "last_commit": "2ebee5004e084640b6073690c59ba4a83594c845",
-        "last_updated": "2026-06-25T19:05:07+08:00",
+        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
+        "last_updated": "2026-07-30T17:02:04+08:00",
         "name": "中心消息 News_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-30T15:03:33+08:00"
+  "last_updated": "2026-07-30T17:02:04+08:00"
 }
