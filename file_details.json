@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e41ae65dc20099c6fe0a080719cbc5ed6f146808",
-        "last_updated": "2026-07-30T11:11:14+08:00",
+        "last_commit": "cd5e06a9bf447d36b403b20412ce472b8f8ed462",
+        "last_updated": "2026-07-30T13:08:48+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "e41ae65dc20099c6fe0a080719cbc5ed6f146808",
-        "last_updated": "2026-07-30T11:11:14+08:00",
+        "last_commit": "cd5e06a9bf447d36b403b20412ce472b8f8ed462",
+        "last_updated": "2026-07-30T13:08:48+08:00",
         "name": "dining.json"
       },
       {
@@ -1820,8 +1820,8 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "a092a94f46461bffc8f7a17be57032c96e9104ab",
-        "last_updated": "2026-07-15T00:34:41+08:00",
+        "last_commit": "cd5e06a9bf447d36b403b20412ce472b8f8ed462",
+        "last_updated": "2026-07-30T13:08:48+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-30T11:11:14+08:00"
+  "last_updated": "2026-07-30T13:08:48+08:00"
 }
