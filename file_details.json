@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
-        "last_updated": "2026-07-30T17:02:04+08:00",
+        "last_commit": "b49c4e08419b1ecd8400f3a9d95c5d95eb590ad0",
+        "last_updated": "2026-07-30T18:48:43+08:00",
         "name": "announcements.json"
       },
       {
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "b49c4e08419b1ecd8400f3a9d95c5d95eb590ad0",
+        "last_updated": "2026-07-30T18:48:43+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "e2e82562f37bf767fdf7cb1cd675969d96b5687e",
-        "last_updated": "2026-07-30T08:45:08+08:00",
+        "last_commit": "b49c4e08419b1ecd8400f3a9d95c5d95eb590ad0",
+        "last_updated": "2026-07-30T18:48:43+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-30T17:02:04+08:00"
+  "last_updated": "2026-07-30T18:48:43+08:00"
 }
