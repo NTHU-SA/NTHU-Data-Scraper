@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2e0ad0d15a3bb9cb4e30cb6c8d4b50ea0acaf5a8",
-        "last_updated": "2026-07-31T13:16:45+08:00",
+        "last_commit": "3c39182b654f56e4626d51d65af3d745d3663be8",
+        "last_updated": "2026-07-31T15:09:29+08:00",
         "name": "announcements.json"
       },
       {
@@ -567,18 +567,18 @@
         "name": "僑外生最新公告_zh-tw.json"
       },
       {
-        "last_commit": "2a2dd27f5041ff873e83bf1c9a205ac754411fbc",
-        "last_updated": "2026-06-30T11:18:57+08:00",
+        "last_commit": "3c39182b654f56e4626d51d65af3d745d3663be8",
+        "last_updated": "2026-07-31T15:09:29+08:00",
         "name": "博士班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "3c39182b654f56e4626d51d65af3d745d3663be8",
+        "last_updated": "2026-07-31T15:09:29+08:00",
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "699ceae02ea83e6633b1e04e3bb402a9369d1128",
-        "last_updated": "2026-06-27T17:04:25+08:00",
+        "last_commit": "3c39182b654f56e4626d51d65af3d745d3663be8",
+        "last_updated": "2026-07-31T15:09:29+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
@@ -587,8 +587,8 @@
         "name": "碩士專班最新公告_zh-tw.json"
       },
       {
-        "last_commit": "27cb91b93bec98eb2d8cf25ea026082b431cda44",
-        "last_updated": "2026-07-27T13:24:25+08:00",
+        "last_commit": "3c39182b654f56e4626d51d65af3d745d3663be8",
+        "last_updated": "2026-07-31T15:09:29+08:00",
         "name": "碩士班最新公告_zh-tw.json"
       }
     ],
@@ -760,8 +760,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "56e3d8bf5a80c8e725c9701ae8829a5208635422",
-        "last_updated": "2026-07-15T08:42:56+08:00",
+        "last_commit": "3c39182b654f56e4626d51d65af3d745d3663be8",
+        "last_updated": "2026-07-31T15:09:29+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "f9e33ef74d89d1fc4cf1f350e30044cac03268a2",
-        "last_updated": "2026-07-31T11:12:30+08:00",
+        "last_commit": "3c39182b654f56e4626d51d65af3d745d3663be8",
+        "last_updated": "2026-07-31T15:09:29+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-31T13:16:45+08:00"
+  "last_updated": "2026-07-31T15:09:29+08:00"
 }
