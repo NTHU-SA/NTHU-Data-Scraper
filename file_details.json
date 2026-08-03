@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "dd0e37f7ae25c57d70540b3bbf0a6b09516f14fe",
-        "last_updated": "2026-08-03T15:20:43+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "announcements.json"
       },
       {
@@ -139,13 +139,13 @@
         "name": "學術活動_zh-tw.json"
       },
       {
-        "last_commit": "68ea7ef2bab4872282a2c7d06abf040f63e44c06",
-        "last_updated": "2026-06-24T23:04:18+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "榜單_榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "26dfeaf1e3d3b0c17418b4f3d95684d29f2fe266",
-        "last_updated": "2026-07-07T17:16:15+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "系所消息_zh-tw.json"
       },
       {
@@ -288,8 +288,8 @@
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
       {
-        "last_commit": "c0275b972becebe29a7921d9fe51324a0a48e6cb",
-        "last_updated": "2026-07-13T11:13:26+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "Application_en.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
-        "last_updated": "2026-07-30T17:02:04+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "91f0375f4240861b60874dcd38dcbecb3cff4831",
-        "last_updated": "2026-07-31T17:08:40+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -328,8 +328,8 @@
         "name": "活動_會議_zh-tw.json"
       },
       {
-        "last_commit": "91f0375f4240861b60874dcd38dcbecb3cff4831",
-        "last_updated": "2026-07-31T17:08:40+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "申請_zh-tw.json"
       }
     ],
@@ -782,8 +782,8 @@
         "name": "師生榮譽_zh-tw.json"
       },
       {
-        "last_commit": "7ef921b0acc761c31f4bd8546eb7394692e70049",
-        "last_updated": "2025-11-18T14:06:14+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "活動報導_zh-tw.json"
       },
       {
@@ -1206,8 +1206,8 @@
         "name": "學系動態_zh-tw.json"
       },
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1221,8 +1221,8 @@
         "name": "相關中心_zh-tw.json"
       },
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
+        "last_updated": "2026-08-03T17:17:55+08:00",
         "name": "醫學系：新聞_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-03T15:20:43+08:00"
+  "last_updated": "2026-08-03T17:17:55+08:00"
 }
