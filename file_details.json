@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "74a82870106f534d481569d02cbc6b214f4709a6",
-        "last_updated": "2026-08-04T13:10:09+08:00",
+        "last_commit": "785d938896de4c0a10f0983f7d200b7576e27c5d",
+        "last_updated": "2026-08-04T15:02:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "a45c5c50e196c284dd5111aa685b9c4a1295c4a0",
-        "last_updated": "2026-08-04T04:35:42+08:00",
+        "last_commit": "785d938896de4c0a10f0983f7d200b7576e27c5d",
+        "last_updated": "2026-08-04T15:02:26+08:00",
         "name": "buses.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
-        "last_updated": "2026-08-03T17:17:55+08:00",
+        "last_commit": "785d938896de4c0a10f0983f7d200b7576e27c5d",
+        "last_updated": "2026-08-04T15:02:26+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
-        "last_updated": "2026-08-03T17:17:55+08:00",
+        "last_commit": "785d938896de4c0a10f0983f7d200b7576e27c5d",
+        "last_updated": "2026-08-04T15:02:26+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -328,8 +328,8 @@
         "name": "活動_會議_zh-tw.json"
       },
       {
-        "last_commit": "dd33549d40f29a38d9aebb8c16c35c88997b2506",
-        "last_updated": "2026-08-03T17:17:55+08:00",
+        "last_commit": "785d938896de4c0a10f0983f7d200b7576e27c5d",
+        "last_updated": "2026-08-04T15:02:26+08:00",
         "name": "申請_zh-tw.json"
       }
     ],
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "9b434e0a1c5d8bfb5e5544f056dbc87efc53c56a",
-        "last_updated": "2026-08-03T08:51:19+08:00",
+        "last_commit": "785d938896de4c0a10f0983f7d200b7576e27c5d",
+        "last_updated": "2026-08-04T15:02:26+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-04T13:10:09+08:00"
+  "last_updated": "2026-08-04T15:02:26+08:00"
 }
