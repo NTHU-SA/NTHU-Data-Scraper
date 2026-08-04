@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c1ff70d78adee844d2430de7f28ff9944add3c29",
-        "last_updated": "2026-08-04T20:47:51+08:00",
+        "last_commit": "5c5eeeb3761361a36343c0de7e62eb9749150184",
+        "last_updated": "2026-08-04T22:55:06+08:00",
         "name": "announcements.json"
       },
       {
@@ -1115,8 +1115,8 @@
         "name": "Recent Activities_en.json"
       },
       {
-        "last_commit": "e22ccd60d675d5a74bf3e06fc80943a576cd7b62",
-        "last_updated": "2026-07-20T19:06:35+08:00",
+        "last_commit": "5c5eeeb3761361a36343c0de7e62eb9749150184",
+        "last_updated": "2026-08-04T22:55:06+08:00",
         "name": "banner_en.json"
       },
       {
@@ -1147,13 +1147,13 @@
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
       {
-        "last_commit": "24cdbe21ae88a5da9140be4495ccc53c40e67385",
-        "last_updated": "2026-01-06T10:47:08+08:00",
+        "last_commit": "5c5eeeb3761361a36343c0de7e62eb9749150184",
+        "last_updated": "2026-08-04T22:55:06+08:00",
         "name": "banner_en.json"
       },
       {
-        "last_commit": "30c7b6d93a8421c253551a1a6b1817bbe56e2e01",
-        "last_updated": "2026-07-21T08:48:47+08:00",
+        "last_commit": "5c5eeeb3761361a36343c0de7e62eb9749150184",
+        "last_updated": "2026-08-04T22:55:06+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-04T20:47:51+08:00"
+  "last_updated": "2026-08-04T22:55:06+08:00"
 }
