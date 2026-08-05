@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2cef6e295c069e9be2a045d95bd741ee2a409812",
-        "last_updated": "2026-08-05T18:55:23+08:00",
+        "last_commit": "a48892093613838f612722d3fd2713109759bc8d",
+        "last_updated": "2026-08-05T20:44:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -1770,8 +1770,8 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "e279566f280d19a4f92cd72dc366d350c6e69f51",
-        "last_updated": "2026-07-24T11:11:50+08:00",
+        "last_commit": "a48892093613838f612722d3fd2713109759bc8d",
+        "last_updated": "2026-08-05T20:44:26+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-05T18:55:23+08:00"
+  "last_updated": "2026-08-05T20:44:26+08:00"
 }
