@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5b125882ee672c3f4cfd696494da187045eed1d4",
-        "last_updated": "2026-08-05T08:45:27+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "74a82870106f534d481569d02cbc6b214f4709a6",
-        "last_updated": "2026-08-04T13:10:09+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "dining.json"
       },
       {
@@ -335,13 +335,13 @@
     ],
     "announcements/學務處衛生保健組(醫輔大樓1樓)": [
       {
-        "last_commit": "b4a6bd8a83f01e932b1605fabd7571d839f80447",
-        "last_updated": "2026-07-23T17:01:13+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "5e07cf400420249d9ba5aa02db2a9f39160865fb",
-        "last_updated": "2026-07-29T17:04:29+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "dd0e37f7ae25c57d70540b3bbf0a6b09516f14fe",
-        "last_updated": "2026-08-03T15:20:43+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "0cd85ad12cd0754e83b0dd09e90af0a4995585b9",
-        "last_updated": "2026-08-04T17:04:00+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -1083,8 +1083,8 @@
         "name": "Related Links_en.json"
       },
       {
-        "last_commit": "5d1dbfb593502ab1ef3e6c82b56f75885003e94f",
-        "last_updated": "2026-07-28T00:48:07+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -1105,8 +1105,8 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_commit": "e22ccd60d675d5a74bf3e06fc80943a576cd7b62",
-        "last_updated": "2026-07-20T19:06:35+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "Latest News_en.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "e22ccd60d675d5a74bf3e06fc80943a576cd7b62",
-        "last_updated": "2026-07-20T19:06:35+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1327,8 +1327,8 @@
         "name": "Latest Product_en.json"
       },
       {
-        "last_commit": "c965c65637d052b49b454ed6713f42d05e93a617",
-        "last_updated": "2026-07-15T14:55:47+08:00",
+        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
+        "last_updated": "2026-08-05T11:11:26+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-05T08:45:27+08:00"
+  "last_updated": "2026-08-05T11:11:26+08:00"
 }
