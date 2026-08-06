@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5c9fc4491df671179684cea5ccda344ba3f71eb4",
-        "last_updated": "2026-08-06T17:03:10+08:00",
+        "last_commit": "273d4765a8ffabdafaba0d9aa2f9dd6a1df54829",
+        "last_updated": "2026-08-06T18:56:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -255,8 +255,8 @@
     ],
     "announcements/國際產學營運總中心NVIDIA-國立清華大學聯合創新中心": [
       {
-        "last_commit": "883c4eca6e41c2fd02b1af6edf799f9c977250e2",
-        "last_updated": "2026-08-06T02:39:09+08:00",
+        "last_commit": "273d4765a8ffabdafaba0d9aa2f9dd6a1df54829",
+        "last_updated": "2026-08-06T18:56:26+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-06T17:03:10+08:00"
+  "last_updated": "2026-08-06T18:56:26+08:00"
 }
