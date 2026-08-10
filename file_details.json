@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6444612ac248d01b347b8fa803cc90c0f7c7cc37",
-        "last_updated": "2026-08-10T16:39:29+08:00",
+        "last_commit": "c54d6152eb799f2ba70deaf2f92cc6b9bc3e318e",
+        "last_updated": "2026-08-10T22:30:57+08:00",
         "name": "announcements.json"
       },
       {
@@ -1105,8 +1105,8 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
-        "last_updated": "2026-08-05T11:11:26+08:00",
+        "last_commit": "c54d6152eb799f2ba70deaf2f92cc6b9bc3e318e",
+        "last_updated": "2026-08-10T22:30:57+08:00",
         "name": "Latest News_en.json"
       },
       {
@@ -1115,13 +1115,13 @@
         "name": "Recent Activities_en.json"
       },
       {
-        "last_commit": "5c5eeeb3761361a36343c0de7e62eb9749150184",
-        "last_updated": "2026-08-04T22:55:06+08:00",
+        "last_commit": "c54d6152eb799f2ba70deaf2f92cc6b9bc3e318e",
+        "last_updated": "2026-08-10T22:30:57+08:00",
         "name": "banner_en.json"
       },
       {
-        "last_commit": "c1ff70d78adee844d2430de7f28ff9944add3c29",
-        "last_updated": "2026-08-04T20:47:51+08:00",
+        "last_commit": "c54d6152eb799f2ba70deaf2f92cc6b9bc3e318e",
+        "last_updated": "2026-08-10T22:30:57+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "643f200dd148d8f469c961359d19a9d9d4947100",
-        "last_updated": "2026-08-08T12:28:01+08:00",
+        "last_commit": "c54d6152eb799f2ba70deaf2f92cc6b9bc3e318e",
+        "last_updated": "2026-08-10T22:30:57+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1169,8 +1169,8 @@
     ],
     "announcements/生命科學暨醫學院分子醫學研究所": [
       {
-        "last_commit": "a0fc830cc5ccb72cafc4888797a913e96baebeea",
-        "last_updated": "2025-11-30T14:12:49+08:00",
+        "last_commit": "c54d6152eb799f2ba70deaf2f92cc6b9bc3e318e",
+        "last_updated": "2026-08-10T22:30:57+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-10T16:39:29+08:00"
+  "last_updated": "2026-08-10T22:30:57+08:00"
 }
