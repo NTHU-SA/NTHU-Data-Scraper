@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8531796c23fa043deaeb8bf5d9662b5cdd2f17ef",
-        "last_updated": "2026-08-10T12:37:11+08:00",
+        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
+        "last_updated": "2026-08-10T14:38:55+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "317375b58d9c62a86a25beba5a73323c6e667943",
-        "last_updated": "2026-08-06T15:04:21+08:00",
+        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
+        "last_updated": "2026-08-10T14:38:55+08:00",
         "name": "dining.json"
       },
       {
@@ -514,13 +514,13 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "d3d1dfac87efc998b0de02fa55adbecad87a3bcc",
-        "last_updated": "2026-08-05T17:02:52+08:00",
+        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
+        "last_updated": "2026-08-10T14:38:55+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "20e7ef2f28c708371711a1dceb689ad1ee825c0e",
-        "last_updated": "2026-08-03T11:13:13+08:00",
+        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
+        "last_updated": "2026-08-10T14:38:55+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "1db10545a41482ddb66bb8707f64a0dcffe0c058",
-        "last_updated": "2026-08-10T10:53:33+08:00",
+        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
+        "last_updated": "2026-08-10T14:38:55+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1431,13 +1431,13 @@
         "name": "學科所 _ 師生榮譽_zh-tw.json"
       },
       {
-        "last_commit": "eb339d5ee54efdc5e6e6b4e0d94b4b54d513103c",
-        "last_updated": "2026-07-21T17:01:57+08:00",
+        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
+        "last_updated": "2026-08-10T14:38:55+08:00",
         "name": "學科所 _ 所辦公告_zh-tw.json"
       },
       {
-        "last_commit": "7784323661092030bad2f8f5f059520ea8121a57",
-        "last_updated": "2026-07-28T20:46:14+08:00",
+        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
+        "last_updated": "2026-08-10T14:38:55+08:00",
         "name": "學科所 _ 最新消息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-10T12:37:11+08:00"
+  "last_updated": "2026-08-10T14:38:55+08:00"
 }
