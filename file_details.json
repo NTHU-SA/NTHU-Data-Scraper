@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1db10545a41482ddb66bb8707f64a0dcffe0c058",
-        "last_updated": "2026-08-10T10:53:33+08:00",
+        "last_commit": "8531796c23fa043deaeb8bf5d9662b5cdd2f17ef",
+        "last_updated": "2026-08-10T12:37:11+08:00",
         "name": "announcements.json"
       },
       {
@@ -44,8 +44,8 @@
     ],
     "announcements/主計室": [
       {
-        "last_commit": "1c91bd590fdb919f15cc04dc03dac94c306126fc",
-        "last_updated": "2026-08-05T15:03:44+08:00",
+        "last_commit": "8531796c23fa043deaeb8bf5d9662b5cdd2f17ef",
+        "last_updated": "2026-08-10T12:37:11+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "0cd85ad12cd0754e83b0dd09e90af0a4995585b9",
-        "last_updated": "2026-08-04T17:04:00+08:00",
+        "last_commit": "8531796c23fa043deaeb8bf5d9662b5cdd2f17ef",
+        "last_updated": "2026-08-10T12:37:11+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "d6f9cef977ad67cf008f3c8696a3ae6389e29632",
-        "last_updated": "2026-08-05T13:09:32+08:00",
+        "last_commit": "8531796c23fa043deaeb8bf5d9662b5cdd2f17ef",
+        "last_updated": "2026-08-10T12:37:11+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-10T10:53:33+08:00"
+  "last_updated": "2026-08-10T12:37:11+08:00"
 }
