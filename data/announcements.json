@@ -89,11 +89,6 @@
         "department": "主計室",
         "articles": [
             {
-                "title": "【重要通知】網路請購主機115/8/7(五)下午16:30至8/10(一)早上8:00暫停服務公告",
-                "link": "https://account.site.nthu.edu.tw/p/406-1054-206258,r1160.php?Lang=zh-tw",
-                "date": "2026-08-05"
-            },
-            {
                 "title": "115年國科會專題研究計畫結案經費報支注意事項",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-310633,r1160.php?Lang=zh-tw",
                 "date": "2026-06-22"
@@ -147,6 +142,11 @@
                 "title": "【重要通知】網路請購系統新版密碼規範將於112/05/10實施",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-246745,r1160.php?Lang=zh-tw",
                 "date": "2023-04-10"
+            },
+            {
+                "title": "因應科技部改制，本校黏存單及表件更新，請使用新版表單送件。",
+                "link": "https://account.site.nthu.edu.tw/p/406-1054-232933,r1160.php?Lang=zh-tw",
+                "date": "2022-08-02"
             }
         ]
     },
@@ -21046,24 +21046,9 @@
                 "date": "2026-06-16"
             },
             {
-                "title": "Bed Vacancy Changes for the 2026 Academic Year",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307611,r1538.php?Lang=en",
-                "date": "2026-04-29"
-            },
-            {
-                "title": "Application of the waiting list for all students 2026",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-305871,r1538.php?Lang=en",
-                "date": "2026-04-02"
-            },
-            {
                 "title": "Housing Period and Check-in/Check-out for Fall 2026, Spring 2027 and Summer 2027",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-304356,r1538.php?Lang=en",
                 "date": "2026-03-11"
-            },
-            {
-                "title": "Schedule of Housing Application 2026",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-300027,r1538.php?Lang=en",
-                "date": "2025-12-04"
             },
             {
                 "title": "Housing Period and Check-in/Check-out for Fall 2025, Spring 2026 and Summer 2026",
@@ -21089,6 +21074,21 @@
                 "title": "Dormitory Deposit Deducted List for 2026 Spring Semester Dormitory Withdrawal",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311456,r1538.php?Lang=en",
                 "date": "2026-07-07"
+            },
+            {
+                "title": "【Division of Construction & Maintenance】2026 Dorm Yi Exterior Wall Maintenance and Repair Construction Announcement",
+                "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-311410,c0.php?Lang=en",
+                "date": "2026-07-06"
+            },
+            {
+                "title": "2026 System Services Suspension of Student Housing",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311153,r1538.php?Lang=en",
+                "date": "2026-06-30"
+            },
+            {
+                "title": "Check-out on June 26 has been extened to 12:00 noon, June 28",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-310929,r1538.php?Lang=en",
+                "date": "2026-06-26"
             }
         ]
     },
@@ -21134,16 +21134,6 @@
                 "date": "2026-06-16"
             },
             {
-                "title": "115學年空床位異動說明",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-307611,r1538.php?Lang=zh-tw",
-                "date": "2026-04-29"
-            },
-            {
-                "title": "115年候補住宿申請",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-305871,r1538.php?Lang=zh-tw",
-                "date": "2026-04-02"
-            },
-            {
                 "title": "115學年度住宿時程暨學年、暑期進退宿作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-304356,r1538.php?Lang=zh-tw",
                 "date": "2026-03-11"
@@ -21159,11 +21149,6 @@
                 "date": "2026-08-05"
             },
             {
-                "title": "115年宿舍申請時程表",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-300027,r1538.php?Lang=zh-tw",
-                "date": "2025-12-04"
-            },
-            {
                 "title": "【轉營繕組公告】7/18 校本部瓦斯停氣公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-311747,c0.php?Lang=zh-tw",
                 "date": "2026-07-16"
@@ -21172,6 +21157,21 @@
                 "title": "【轉事務組公告】115.07.01水質檢驗結果",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-311692,c0.php?Lang=zh-tw",
                 "date": "2026-07-15"
+            },
+            {
+                "title": "【研究所新生】115學年研究所新生（境外生）住宿申請作業",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311589,r1538.php?Lang=zh-tw",
+                "date": "2026-07-13"
+            },
+            {
+                "title": "【大學部】115學年度（上）轉學生住宿申請公告",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-311595,r1538.php?Lang=zh-tw",
+                "date": "2026-07-13"
+            },
+            {
+                "title": "防颱注意事項",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-252518,r1538.php?Lang=zh-tw",
+                "date": "2026-07-09"
             }
         ]
     },
