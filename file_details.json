@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3bbf816f45cca4fad292dcccaa9cb13d5e99e8ac",
-        "last_updated": "2026-08-11T10:48:30+08:00",
+        "last_commit": "7a9047325cdba9ab530858de2c92545e05e5a5fd",
+        "last_updated": "2026-08-11T12:34:30+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "2cccf146285c82df3182fc77c22fd569c00c49b9",
-        "last_updated": "2026-08-09T22:17:03+08:00",
+        "last_commit": "7a9047325cdba9ab530858de2c92545e05e5a5fd",
+        "last_updated": "2026-08-11T12:34:30+08:00",
         "name": "buses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "41d9ead8508ef1479859c29f0380768ae40fff63",
-        "last_updated": "2026-08-10T14:38:55+08:00",
+        "last_commit": "7a9047325cdba9ab530858de2c92545e05e5a5fd",
+        "last_updated": "2026-08-11T12:34:30+08:00",
         "name": "dining.json"
       },
       {
@@ -374,8 +374,8 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "74a82870106f534d481569d02cbc6b214f4709a6",
-        "last_updated": "2026-08-04T13:10:09+08:00",
+        "last_commit": "7a9047325cdba9ab530858de2c92545e05e5a5fd",
+        "last_updated": "2026-08-11T12:34:30+08:00",
         "name": "中心公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-11T10:48:30+08:00"
+  "last_updated": "2026-08-11T12:34:30+08:00"
 }
