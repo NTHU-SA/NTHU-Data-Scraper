@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "90351b5615502c9b1675567df680651249e55864",
-        "last_updated": "2026-08-13T18:28:23+08:00",
+        "last_commit": "7cd73fc6d3d976d617e55021d9be7ffbd7dc24b1",
+        "last_updated": "2026-08-14T00:23:22+08:00",
         "name": "announcements.json"
       },
       {
@@ -1056,13 +1056,13 @@
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "30d29edaeee184a0983434cfc1f9dbbcad8ad906",
-        "last_updated": "2026-07-24T00:37:01+08:00",
+        "last_commit": "7cd73fc6d3d976d617e55021d9be7ffbd7dc24b1",
+        "last_updated": "2026-08-14T00:23:22+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "a335c351c0985cd7f4db55559715ba55ff3be5c0",
-        "last_updated": "2026-07-21T11:11:30+08:00",
+        "last_commit": "7cd73fc6d3d976d617e55021d9be7ffbd7dc24b1",
+        "last_updated": "2026-08-14T00:23:22+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -1820,8 +1820,8 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "1db10545a41482ddb66bb8707f64a0dcffe0c058",
-        "last_updated": "2026-08-10T10:53:33+08:00",
+        "last_commit": "7cd73fc6d3d976d617e55021d9be7ffbd7dc24b1",
+        "last_updated": "2026-08-14T00:23:22+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-13T18:28:23+08:00"
+  "last_updated": "2026-08-14T00:23:22+08:00"
 }
