@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6220bd045e1a8a836de25cd7b9944554d238daf5",
-        "last_updated": "2026-08-14T11:00:32+08:00",
+        "last_commit": "eb33571e3c0f0e1d751198ba89b12064a62fa413",
+        "last_updated": "2026-08-14T12:39:39+08:00",
         "name": "announcements.json"
       },
       {
@@ -1056,13 +1056,13 @@
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "6220bd045e1a8a836de25cd7b9944554d238daf5",
-        "last_updated": "2026-08-14T11:00:32+08:00",
+        "last_commit": "eb33571e3c0f0e1d751198ba89b12064a62fa413",
+        "last_updated": "2026-08-14T12:39:39+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "6220bd045e1a8a836de25cd7b9944554d238daf5",
-        "last_updated": "2026-08-14T11:00:32+08:00",
+        "last_commit": "eb33571e3c0f0e1d751198ba89b12064a62fa413",
+        "last_updated": "2026-08-14T12:39:39+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -1796,13 +1796,13 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_commit": "a64037a0732a217dd61678e5b3d26b2fa972ca24",
-        "last_updated": "2026-08-07T11:07:39+08:00",
+        "last_commit": "eb33571e3c0f0e1d751198ba89b12064a62fa413",
+        "last_updated": "2026-08-14T12:39:39+08:00",
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "c9f2e4652c9c0c4cc31faf32706cb318dbb666aa",
-        "last_updated": "2026-08-12T10:59:11+08:00",
+        "last_commit": "eb33571e3c0f0e1d751198ba89b12064a62fa413",
+        "last_updated": "2026-08-14T12:39:39+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-14T11:00:32+08:00"
+  "last_updated": "2026-08-14T12:39:39+08:00"
 }
