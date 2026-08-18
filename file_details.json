@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9e83f30493fee224cec091d2304917f6fc727ca6",
-        "last_updated": "2026-08-18T08:21:06+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "547c52735cdb1658b04973282fbd2289494ae712",
-        "last_updated": "2026-08-17T10:32:51+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "dining.json"
       },
       {
@@ -335,13 +335,13 @@
     ],
     "announcements/學務處衛生保健組(醫輔大樓1樓)": [
       {
-        "last_commit": "6215a326389732548d75579bcc1aec0caa24f3a6",
-        "last_updated": "2026-08-14T16:34:22+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "0cc91fea5dc2146ba8095be0c17c150a666016ac",
-        "last_updated": "2026-08-05T11:11:26+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -885,8 +885,8 @@
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "4ac2cc879e8eb0ece74ceaf03d83697b5e1dfc18",
-        "last_updated": "2026-08-17T12:20:04+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -1007,8 +1007,8 @@
         "name": "近期活動精選_zh-tw.json"
       },
       {
-        "last_commit": "ed25a7b4bfc0986ba576c678ee15b00fe793f065",
-        "last_updated": "2026-08-04T11:11:26+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "通識二三事_zh-tw.json"
       }
     ],
@@ -1399,18 +1399,18 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "6215a326389732548d75579bcc1aec0caa24f3a6",
-        "last_updated": "2026-08-14T16:34:22+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "6215a326389732548d75579bcc1aec0caa24f3a6",
-        "last_updated": "2026-08-14T16:34:22+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "6215a326389732548d75579bcc1aec0caa24f3a6",
-        "last_updated": "2026-08-14T16:34:22+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -1770,8 +1770,8 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "a48892093613838f612722d3fd2713109759bc8d",
-        "last_updated": "2026-08-05T20:44:26+08:00",
+        "last_commit": "514dab7208e1a7e95d96d4d8bbe8c1760c54670b",
+        "last_updated": "2026-08-18T10:29:26+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-18T08:21:06+08:00"
+  "last_updated": "2026-08-18T10:29:26+08:00"
 }
