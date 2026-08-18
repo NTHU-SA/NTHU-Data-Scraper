@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c695fe4f0939e3f359b6a414ed6ddd376431f283",
-        "last_updated": "2026-08-18T18:11:13+08:00",
+        "last_commit": "52fba5ec9af37051096d96d70700ba0e3eefc143",
+        "last_updated": "2026-08-18T20:13:35+08:00",
         "name": "announcements.json"
       },
       {
@@ -919,13 +919,13 @@
         "name": "導師分享  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "fa3de8fba68a9d71280d13ef9803822436bc88d6",
-        "last_updated": "2026-07-24T16:59:04+08:00",
+        "last_commit": "52fba5ec9af37051096d96d70700ba0e3eefc143",
+        "last_updated": "2026-08-18T20:13:35+08:00",
         "name": "招生專區  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "ed25a7b4bfc0986ba576c678ee15b00fe793f065",
-        "last_updated": "2026-08-04T11:11:26+08:00",
+        "last_commit": "52fba5ec9af37051096d96d70700ba0e3eefc143",
+        "last_updated": "2026-08-18T20:13:35+08:00",
         "name": "最新公告  - 清華書院_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-18T18:11:13+08:00"
+  "last_updated": "2026-08-18T20:13:35+08:00"
 }
