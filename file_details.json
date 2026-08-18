@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "2cdc052b9874d66a9cd957e9763acb248fea2ad0",
-        "last_updated": "2026-08-18T12:17:44+08:00",
+        "last_commit": "2078822da151e9ca7d08d668d52a3d8b2766a1c7",
+        "last_updated": "2026-08-18T16:15:13+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "3f30f9e702d7e66817ec0e3d2d43330328a18a73",
-        "last_updated": "2026-08-17T18:14:52+08:00",
+        "last_commit": "2078822da151e9ca7d08d668d52a3d8b2766a1c7",
+        "last_updated": "2026-08-18T16:15:13+08:00",
         "name": "buses.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "2cdc052b9874d66a9cd957e9763acb248fea2ad0",
-        "last_updated": "2026-08-18T12:17:44+08:00",
+        "last_commit": "2078822da151e9ca7d08d668d52a3d8b2766a1c7",
+        "last_updated": "2026-08-18T16:15:13+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -973,8 +973,8 @@
         "name": "榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "1ec061cc0d2a339c2cb8e40545381f5baac5e9fc",
-        "last_updated": "2026-08-14T18:26:21+08:00",
+        "last_commit": "2078822da151e9ca7d08d668d52a3d8b2766a1c7",
+        "last_updated": "2026-08-18T16:15:13+08:00",
         "name": "訊息公告_zh-tw.json"
       }
     ],
@@ -1546,8 +1546,8 @@
         "name": "學術活動_en.json"
       },
       {
-        "last_commit": "d3d1dfac87efc998b0de02fa55adbecad87a3bcc",
-        "last_updated": "2026-08-05T17:02:52+08:00",
+        "last_commit": "2078822da151e9ca7d08d668d52a3d8b2766a1c7",
+        "last_updated": "2026-08-18T16:15:13+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1556,8 +1556,8 @@
         "name": "最新消息_en.json"
       },
       {
-        "last_commit": "d3d1dfac87efc998b0de02fa55adbecad87a3bcc",
-        "last_updated": "2026-08-05T17:02:52+08:00",
+        "last_commit": "2078822da151e9ca7d08d668d52a3d8b2766a1c7",
+        "last_updated": "2026-08-18T16:15:13+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-18T14:14:58+08:00"
+  "last_updated": "2026-08-18T16:15:13+08:00"
 }
