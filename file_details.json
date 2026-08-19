@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fba7d933c417cc5b5e369a59f8318ea53b64f094",
-        "last_updated": "2026-08-19T12:17:58+08:00",
+        "last_commit": "e11d390804d0c6ce10c3161179efb8275ef06e7c",
+        "last_updated": "2026-08-19T14:15:29+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "5740f406caa74935570ca449757f4abfe0496c8c",
-        "last_updated": "2026-08-19T08:21:17+08:00",
+        "last_commit": "e11d390804d0c6ce10c3161179efb8275ef06e7c",
+        "last_updated": "2026-08-19T14:15:29+08:00",
         "name": "dining.json"
       },
       {
@@ -507,8 +507,8 @@
         "name": "演講公告_zh-tw.json"
       },
       {
-        "last_commit": "1ec061cc0d2a339c2cb8e40545381f5baac5e9fc",
-        "last_updated": "2026-08-14T18:26:21+08:00",
+        "last_commit": "e11d390804d0c6ce10c3161179efb8275ef06e7c",
+        "last_updated": "2026-08-19T14:15:29+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "547c52735cdb1658b04973282fbd2289494ae712",
-        "last_updated": "2026-08-17T10:32:51+08:00",
+        "last_commit": "e11d390804d0c6ce10c3161179efb8275ef06e7c",
+        "last_updated": "2026-08-19T14:15:29+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-19T12:17:58+08:00"
+  "last_updated": "2026-08-19T14:15:29+08:00"
 }
