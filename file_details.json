@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "dd3a7aee5bf7906c98af591e07bdfe721296c6bb",
-        "last_updated": "2026-08-19T16:15:23+08:00",
+        "last_commit": "8f7a92036ea3bfb445b7eff9e1d1e23fe0dc231e",
+        "last_updated": "2026-08-19T18:11:24+08:00",
         "name": "announcements.json"
       },
       {
@@ -1274,8 +1274,8 @@
         "name": "資訊分類清單_zh-tw.json"
       },
       {
-        "last_commit": "28247e1fe4a6755a196e0aaf80775fb60fae1287",
-        "last_updated": "2026-06-30T15:32:24+08:00",
+        "last_commit": "8f7a92036ea3bfb445b7eff9e1d1e23fe0dc231e",
+        "last_updated": "2026-08-19T18:11:24+08:00",
         "name": "通訊即時報導_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-19T16:15:23+08:00"
+  "last_updated": "2026-08-19T18:11:24+08:00"
 }
