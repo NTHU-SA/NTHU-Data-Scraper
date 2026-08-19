@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6cdaf4e6a387517f23da6f068b5b196eb88f545e",
-        "last_updated": "2026-08-19T20:13:31+08:00",
+        "last_commit": "0302904adb86c401a67877ceacfeb3bbfaf34b1c",
+        "last_updated": "2026-08-20T00:11:12+08:00",
         "name": "announcements.json"
       },
       {
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "e11d390804d0c6ce10c3161179efb8275ef06e7c",
-        "last_updated": "2026-08-19T14:15:29+08:00",
+        "last_commit": "0302904adb86c401a67877ceacfeb3bbfaf34b1c",
+        "last_updated": "2026-08-20T00:11:12+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-19T20:13:31+08:00"
+  "last_updated": "2026-08-20T00:11:12+08:00"
 }
