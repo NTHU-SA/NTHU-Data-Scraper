@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "52fba5ec9af37051096d96d70700ba0e3eefc143",
-        "last_updated": "2026-08-18T20:13:35+08:00",
+        "last_commit": "5740f406caa74935570ca449757f4abfe0496c8c",
+        "last_updated": "2026-08-19T08:21:17+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "b4a65c85a7bbef1d23c24a3f62f17f6bc84e6eea",
-        "last_updated": "2026-08-18T14:14:58+08:00",
+        "last_commit": "5740f406caa74935570ca449757f4abfe0496c8c",
+        "last_updated": "2026-08-19T08:21:17+08:00",
         "name": "dining.json"
       },
       {
@@ -1801,8 +1801,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "eb33571e3c0f0e1d751198ba89b12064a62fa413",
-        "last_updated": "2026-08-14T12:39:39+08:00",
+        "last_commit": "5740f406caa74935570ca449757f4abfe0496c8c",
+        "last_updated": "2026-08-19T08:21:17+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-19T06:08:21+08:00"
+  "last_updated": "2026-08-19T08:21:17+08:00"
 }
