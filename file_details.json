@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5740f406caa74935570ca449757f4abfe0496c8c",
-        "last_updated": "2026-08-19T08:21:17+08:00",
+        "last_commit": "feb0cca3f8a9469d46938160085a78b7cb7aed69",
+        "last_updated": "2026-08-19T10:31:05+08:00",
         "name": "announcements.json"
       },
       {
@@ -685,8 +685,8 @@
         "name": "What's New_en.json"
       },
       {
-        "last_commit": "1a9135ae1a8bad607514a9b97c6628706b4ef947",
-        "last_updated": "2026-07-23T15:00:18+08:00",
+        "last_commit": "feb0cca3f8a9469d46938160085a78b7cb7aed69",
+        "last_updated": "2026-08-19T10:31:05+08:00",
         "name": "新書展示_zh-tw.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "c695fe4f0939e3f359b6a414ed6ddd376431f283",
-        "last_updated": "2026-08-18T18:11:13+08:00",
+        "last_commit": "feb0cca3f8a9469d46938160085a78b7cb7aed69",
+        "last_updated": "2026-08-19T10:31:05+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "c695fe4f0939e3f359b6a414ed6ddd376431f283",
-        "last_updated": "2026-08-18T18:11:13+08:00",
+        "last_commit": "feb0cca3f8a9469d46938160085a78b7cb7aed69",
+        "last_updated": "2026-08-19T10:31:05+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -992,8 +992,8 @@
     ],
     "announcements/清華學院通識教育中心": [
       {
-        "last_commit": "6215a326389732548d75579bcc1aec0caa24f3a6",
-        "last_updated": "2026-08-14T16:34:22+08:00",
+        "last_commit": "feb0cca3f8a9469d46938160085a78b7cb7aed69",
+        "last_updated": "2026-08-19T10:31:05+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-19T08:21:17+08:00"
+  "last_updated": "2026-08-19T10:31:05+08:00"
 }
