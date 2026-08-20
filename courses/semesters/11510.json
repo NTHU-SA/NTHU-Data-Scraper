@@ -14279,14 +14279,14 @@
         "chinese_title": "機率",
         "english_title": "Probability",
         "credit": "3",
-        "size_limit": "0",
+        "size_limit": "30",
         "student_count": "",
-        "lecturer": "鄭傑 CHENG, JAY",
-        "language": "中",
+        "lecturer": "呂忠津 LU, CHUNG-CHIN",
+        "language": "英",
         "class_room_and_time": "DELTA台達210 W3W4F3F4",
         "classroom": "DELTA台達210",
         "time": "W3W4F3F4",
-        "note": "二下必修。每週上課150分鐘,其餘時間由教授彈性運用。",
+        "note": "二下必修。每週上課150分鐘,其餘時間由教授彈性運用。第一堂課安排小考。",
         "suspend": "",
         "limit_note": "電資院,大學部3年級4年級優先，第3次選課起開放全校修習",
         "freshman_reservation": "0",
@@ -15479,7 +15479,7 @@
         "chinese_title": "跨域探索課程：電資院學士班",
         "english_title": "Interdisciplinary Exploration in EECS",
         "credit": "2",
-        "size_limit": "40",
+        "size_limit": "0",
         "student_count": "",
         "lecturer": "李哲榮 LEE, CHE-RUNG",
         "language": "中",
@@ -15489,7 +15489,7 @@
         "note": "",
         "suspend": "",
         "limit_note": "限電資院學士班大學部1年級",
-        "freshman_reservation": "40",
+        "freshman_reservation": "0",
         "object": "",
         "ge_type": "",
         "ge_category": "",
@@ -22221,6 +22221,31 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)藝術學分學程",
+        "no_extra_selection": "",
+        "required_optional_note": ""
+    },
+    {
+        "id": "11510GE  107700",
+        "chinese_title": "科技與人文",
+        "english_title": "Technology and Humanities",
+        "credit": "2",
+        "size_limit": "60",
+        "student_count": "",
+        "lecturer": "聘任中",
+        "language": "中",
+        "class_room_and_time": "EDU教   314 T3T4",
+        "classroom": "EDU教   314",
+        "time": "T3T4",
+        "note": "授課教師:彭明輝",
+        "suspend": "",
+        "limit_note": "",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "*1",
+        "ge_category": "自然科學領域 Elective GE course: Natural Sciences",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
         "no_extra_selection": "",
         "required_optional_note": ""
     },
@@ -29296,7 +29321,7 @@
         "prerequisite": "<div>   擋修對象 : 大學部     先修科目 :   微積分一-成績需C-以上 微積分二-成績需C-以上 微積分Ａ一-成績需C-以上 微積分Ｂ一-成績需C-以上 微積分Ｂ二-成績需C-以上 微積分一(數學系)-成績需C-以上 微積分二(數學系)-成績需C-以上 微積分Ａ二-成績需C-以上 曾修微積分一(數學系)(基本科目免修測試) 曾修微積分Ａ一(基本科目免修測試) 曾修微積分Ｂ一(基本科目免修測試) 曾修微積分一(AP先修課程)  上述條件任選一科，則不擋修。</div>",
         "expertise": "資訊工程(第二專長) 工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -29321,7 +29346,7 @@
         "prerequisite": "<div>   擋修對象 : 大學部     先修科目 :   微積分一-成績需C-以上 微積分二-成績需C-以上 微積分Ａ一-成績需C-以上 微積分Ｂ一-成績需C-以上 微積分Ｂ二-成績需C-以上 微積分一(數學系)-成績需C-以上 微積分二(數學系)-成績需C-以上 微積分Ａ二-成績需C-以上 曾修微積分一(數學系)(基本科目免修測試) 曾修微積分Ａ一(基本科目免修測試) 曾修微積分Ｂ一(基本科目免修測試) 曾修微積分一(AP先修課程)  上述條件任選一科，則不擋修。</div>",
         "expertise": "資訊工程(第二專長) 工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -29371,7 +29396,7 @@
         "prerequisite": "<div>   擋修對象 : 大學部     先修科目 :   微積分一-成績需C-以上 微積分二-成績需C-以上 微積分Ａ一-成績需C-以上 微積分Ｂ一-成績需C-以上 微積分Ｂ二-成績需C-以上 微積分一(數學系)-成績需C-以上 微積分二(數學系)-成績需C-以上 微積分Ａ二-成績需C-以上 曾修微積分一(數學系)(基本科目免修測試) 曾修微積分Ａ一(基本科目免修測試) 曾修微積分Ｂ一(基本科目免修測試) 曾修微積分一(AP先修課程)  上述條件任選一科，則不擋修。</div>",
         "expertise": "數據科學(第二專長) 電機工程(第二專長) 工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "(跨領域)數據科學學分學程/(跨領域)人工智慧與應用基礎學分學程/(跨領域)音樂科技與健康學分學程/(跨領域)神經科學學分學程/(TAICA)人工智慧探索應用學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -29396,7 +29421,7 @@
         "prerequisite": "",
         "expertise": "工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -29421,7 +29446,7 @@
         "prerequisite": "",
         "expertise": "工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "(跨領域)半導體工程與台灣創新全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -29446,7 +29471,7 @@
         "prerequisite": "<div>   擋修對象 : 大學部     先修科目 :   線性代數-成績需C-以上 工程數學一：線性代數-成績需C-以上  上述條件任選一科，則不擋修。</div>",
         "expertise": "數據科學(第一專長) 數據科學(第二專長) 工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "(跨領域)數據科學學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系113B  必修"
     },
     {
@@ -29496,7 +29521,7 @@
         "prerequisite": "",
         "expertise": "生物工程(第一專長) 工業工程與工程管理(第一專長) 工業工程與工程管理(第二專長)",
         "program": "(跨領域)創新設計學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系114B  必修"
     },
     {
@@ -29521,7 +29546,7 @@
         "prerequisite": "",
         "expertise": "資訊工程(第二專長) 數據科學(第一專長) 數據科學(第二專長)",
         "program": "(跨領域)積體電路設計學分學程/(跨領域)數據科學學分學程/(跨領域)人工智慧與應用基礎學分學程/(跨領域)音樂科技與健康學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系113B  選修 工工系114B  選修"
     },
     {
@@ -29546,7 +29571,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  必修"
     },
     {
@@ -29571,7 +29596,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修"
     },
     {
@@ -29596,7 +29621,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系112B  選修 工工系113B  選修"
     },
     {
@@ -29646,7 +29671,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 必修 工工系115MB 選修"
     },
     {
@@ -29671,7 +29696,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  必修 工工系115MA 必修 工工系115MB 選修"
     },
     {
@@ -29721,7 +29746,7 @@
         "prerequisite": "",
         "expertise": "生物工程(第一專長)",
         "program": "(跨領域)數據科學學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 必修 工工系115MB 選修"
     },
     {
@@ -29746,7 +29771,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)人工智慧與應用進階學分學程/(跨領域)人工智慧與應用基礎學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 選修 工工系115MB 選修"
     },
     {
@@ -29771,7 +29796,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 選修 工工系115MB 選修"
     },
     {
@@ -29796,7 +29821,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 必修 工工系115MB 選修"
     },
     {
@@ -29821,7 +29846,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 必修 工工系115MB 選修"
     },
     {
@@ -29846,7 +29871,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)創新創業學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 選修 工工系115MB 必修"
     },
     {
@@ -29871,7 +29896,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)創新創業學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 選修 工工系115MB 必修"
     },
     {
@@ -29921,7 +29946,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)能源科技與永續社會學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  選修 工工系115MA 選修 工工系115MB 選修"
     },
     {
@@ -29996,7 +30021,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "工工系115D  必修"
     },
     {
@@ -41308,8 +41333,8 @@
         "student_count": "",
         "lecturer": "葉于正 YEH, YU-CHENG 林志成 LIN, CHIH-CHENG",
         "language": "中",
-        "class_room_and_time": "COE教院523 S5S6S7",
-        "classroom": "COE教院523",
+        "class_room_and_time": "COE教院224 S5S6S7",
+        "classroom": "COE教院224",
         "time": "S5S6S7",
         "note": "教育行政專班選修",
         "suspend": "",
@@ -67763,7 +67788,7 @@
         "time": "W5W6W7",
         "note": "動機系統籌課程",
         "suspend": "",
-        "limit_note": "大學部2年級3年級4年級優先，第3次選課起開放全校修習",
+        "limit_note": "限工工系大學部1年級",
         "freshman_reservation": "0",
         "object": "",
         "ge_type": "",
@@ -68021,7 +68046,7 @@
         "prerequisite": "",
         "expertise": "電機工程(第二專長) 動力機械工程(第一專長) 動力機械工程(第二專長)",
         "program": "(跨領域)積體電路設計學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "動機系114BB 必修"
     },
     {
@@ -68971,7 +68996,7 @@
         "prerequisite": "",
         "expertise": "",
         "program": "(跨領域)奈微米機電元件與系統全英語學分學程",
-        "no_extra_selection": "",
+        "no_extra_selection": "《不接受加簽 No extra selection》",
         "required_optional_note": "動機系115D  選修 動機系115M  選修"
     },
     {
@@ -71775,6 +71800,31 @@
         "required_optional_note": "統計所115M  選修"
     },
     {
+        "id": "11510STAT611300",
+        "chinese_title": "3R的數據分析流程：資料工程第一堂課",
+        "english_title": "The 3-R's of data-science: repeatability, reproducibility & replicability",
+        "credit": "0.9",
+        "size_limit": "",
+        "student_count": "",
+        "lecturer": "統計所",
+        "language": "中",
+        "class_room_and_time": "GEN III綜三 834 T3T4TnFnF5F6",
+        "classroom": "GEN III綜三 834",
+        "time": "T3T4TnFnF5F6",
+        "note": "授課教師:國外學者潘暐弘博士,上課時間詳課綱",
+        "suspend": "",
+        "limit_note": "",
+        "freshman_reservation": "0",
+        "object": "",
+        "ge_type": "",
+        "ge_category": "",
+        "prerequisite": "",
+        "expertise": "",
+        "program": "",
+        "no_extra_selection": "",
+        "required_optional_note": "統計所115M  選修"
+    },
+    {
         "id": "11510STAT691000",
         "chinese_title": "統計實習",
         "english_title": "Practicing Statistics",
@@ -72512,7 +72562,7 @@
         "classroom": "EDU教   307",
         "time": "F5F6",
         "note": "限中教化學專長師資生修習.以應屆畢業生優先",
-        "suspend": "",
+        "suspend": "停開",
         "limit_note": "限中等教育學程生",
         "freshman_reservation": "0",
         "object": "",
@@ -73956,12 +74006,12 @@
         "credit": "3",
         "size_limit": "60",
         "student_count": "",
-        "lecturer": "張繼瑩 CHANG, CHI-YING",
+        "lecturer": "清華學院  張繼瑩 CHANG, CHI-YING",
         "language": "中",
         "class_room_and_time": "D-Shi實齋講堂 MaMbMc",
         "classroom": "D-Shi實齋講堂",
         "time": "MaMbMc",
-        "note": "清華學院(負責老師：盧崇真)",
+        "note": "清華學院協助授課老師：盧崇真老師",
         "suspend": "",
         "limit_note": "",
         "freshman_reservation": "0",
@@ -74231,12 +74281,12 @@
         "credit": "2",
         "size_limit": "60",
         "student_count": "",
-        "lecturer": "郭文祺 KUO, WEN-CHI",
+        "lecturer": "郭文祺 KUO, WEN-CHI 清華學院",
         "language": "中",
         "class_room_and_time": "D-Shi實齋講堂 RaRb",
         "classroom": "D-Shi實齋講堂",
         "time": "RaRb",
-        "note": "清華學院(負責老師：蔡協亨、李佳玫、商雅婷)",
+        "note": "清華學院協助授課老師：蔡協亨、李佳玫、商雅婷",
         "suspend": "",
         "limit_note": "",
         "freshman_reservation": "0",
