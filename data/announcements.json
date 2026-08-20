@@ -2415,6 +2415,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學科技管理學院誠徵計畫助理 1 名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313216,r5074.php?Lang=zh-tw",
+                "date": "2026-08-19"
+            },
+            {
                 "title": "【徵才】清華大學總務處事務組誠徵技術組員、約僱管理員各1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-313214,c0.php?Lang=zh-tw",
                 "date": "2026-08-19"
@@ -2468,11 +2473,6 @@
                 "title": "【徵才】國立清華大學科技管理學院EMBA雙聯在職專班徵專任助理",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-309238,r5074.php?Lang=zh-tw",
                 "date": "2026-08-14"
-            },
-            {
-                "title": "【徵才】江柏毅老師徵求115(上)「認識甲骨文字與古代中國文化」選修通識課程助教1名，徵才訊息請點入閱讀。",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-313040,c0.php?Lang=zh-tw",
-                "date": "2026-08-14"
             }
         ]
     },
@@ -2482,6 +2482,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學科技管理學院誠徵計畫助理 1 名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313216,r5075.php?Lang=zh-tw",
+                "date": "2026-08-19"
+            },
             {
                 "title": "【徵才】清華大學總務處事務組誠徵技術組員、約僱管理員各1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-313214,c0.php?Lang=zh-tw",
@@ -2535,11 +2540,6 @@
             {
                 "title": "誠徵 國立清華大學 國際產學營運總中心 創新育成中心 專員",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-300690,r5075.php?Lang=zh-tw",
-                "date": "2026-08-17"
-            },
-            {
-                "title": "【徵才】清華大學 國際產學營運總中心智財技轉組 專利技轉助理計畫人員",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-176967,r5075.php?Lang=zh-tw",
                 "date": "2026-08-17"
             }
         ]
@@ -17087,16 +17087,6 @@
                 "date": "2026-08-03"
             },
             {
-                "title": "【115學年度上學期】教職員工有氧舞蹈班簡章",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-312689,r11.php",
-                "date": "2026-08-06"
-            },
-            {
-                "title": "【115學年度上學期】教職員工瑜珈班簡章",
-                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-312683,r11.php",
-                "date": "2026-08-06"
-            },
-            {
                 "title": "【運動訓練班招生】國立清華大學足球、桌球、羽球運動訓練班招生",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-261652,r11.php",
                 "date": "2025-10-08"
@@ -17139,6 +17129,16 @@
             {
                 "title": "【校友體育館】7/30-9/3校友體育館活動借用資訊如下",
                 "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-312419,r11.php",
+                "date": "2026-07-31"
+            },
+            {
+                "title": "【足球場】8/3-8/28足球場活動借用資訊如下",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-312418,r11.php",
+                "date": "2026-07-31"
+            },
+            {
+                "title": "【游泳池】8/3-8/26游泳池活動借用資訊如下",
+                "link": "https://nthupeo.site.nthu.edu.tw/p/406-1265-312417,r11.php",
                 "date": "2026-07-31"
             }
         ]
