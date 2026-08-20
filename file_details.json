@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d3c24e16d6462f45fc36c6fb0fdf91ac99bfcc94",
-        "last_updated": "2026-08-20T22:17:27+08:00",
+        "last_commit": "92581ee7341bdaa862fa84d93ed91715efb684e5",
+        "last_updated": "2026-08-21T00:12:35+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,13 +860,13 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "fba7d933c417cc5b5e369a59f8318ea53b64f094",
-        "last_updated": "2026-08-19T12:17:58+08:00",
+        "last_commit": "92581ee7341bdaa862fa84d93ed91715efb684e5",
+        "last_updated": "2026-08-21T00:12:35+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "371049f7ea0ef937ca8a7ba8e93ba148546fdf07",
-        "last_updated": "2026-08-20T16:17:16+08:00",
+        "last_commit": "92581ee7341bdaa862fa84d93ed91715efb684e5",
+        "last_updated": "2026-08-21T00:12:35+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-20T22:17:27+08:00"
+  "last_updated": "2026-08-21T00:12:35+08:00"
 }
