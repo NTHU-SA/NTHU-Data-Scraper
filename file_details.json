@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3253c4fbb12f5e383a2634d31da9f0542184a31b",
-        "last_updated": "2026-08-20T18:12:20+08:00",
+        "last_commit": "d3c24e16d6462f45fc36c6fb0fdf91ac99bfcc94",
+        "last_updated": "2026-08-20T22:17:27+08:00",
         "name": "announcements.json"
       },
       {
@@ -1436,13 +1436,13 @@
         "name": "學科所 _ 所辦公告_zh-tw.json"
       },
       {
-        "last_commit": "9afb6a1e3dc467e62c32bc4edc5c54d9cce889e2",
-        "last_updated": "2026-08-14T20:23:44+08:00",
+        "last_commit": "d3c24e16d6462f45fc36c6fb0fdf91ac99bfcc94",
+        "last_updated": "2026-08-20T22:17:27+08:00",
         "name": "學科所 _ 最新消息_zh-tw.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "d3c24e16d6462f45fc36c6fb0fdf91ac99bfcc94",
+        "last_updated": "2026-08-20T22:17:27+08:00",
         "name": "學科所 _ 演講公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-20T18:12:20+08:00"
+  "last_updated": "2026-08-20T22:17:27+08:00"
 }
