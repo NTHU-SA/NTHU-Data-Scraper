@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fedb56f18517a6359e785fff5766afa90ee09197",
-        "last_updated": "2026-08-20T12:18:27+08:00",
+        "last_commit": "26112e70a1235019ad9a87aabbe4c7faf2287766",
+        "last_updated": "2026-08-20T14:15:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "0302904adb86c401a67877ceacfeb3bbfaf34b1c",
-        "last_updated": "2026-08-20T00:11:12+08:00",
+        "last_commit": "26112e70a1235019ad9a87aabbe4c7faf2287766",
+        "last_updated": "2026-08-20T14:15:26+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1211,8 +1211,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "0421a0e7e0b384f752a7806a5ee79afe63797c77",
-        "last_updated": "2026-07-27T11:14:13+08:00",
+        "last_commit": "26112e70a1235019ad9a87aabbe4c7faf2287766",
+        "last_updated": "2026-08-20T14:15:26+08:00",
         "name": "最新訊息_zh-tw.json"
       },
       {
@@ -1274,8 +1274,8 @@
         "name": "資訊分類清單_zh-tw.json"
       },
       {
-        "last_commit": "8f7a92036ea3bfb445b7eff9e1d1e23fe0dc231e",
-        "last_updated": "2026-08-19T18:11:24+08:00",
+        "last_commit": "26112e70a1235019ad9a87aabbe4c7faf2287766",
+        "last_updated": "2026-08-20T14:15:26+08:00",
         "name": "通訊即時報導_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-20T12:18:27+08:00"
+  "last_updated": "2026-08-20T14:15:26+08:00"
 }
