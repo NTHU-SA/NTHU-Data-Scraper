@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9a3b59217237d8045fcb65416827f1d8bcf3316d",
-        "last_updated": "2026-08-21T18:12:36+08:00",
+        "last_commit": "b79b70638ea296caef6942e4e4b3587982489796",
+        "last_updated": "2026-08-22T00:12:10+08:00",
         "name": "announcements.json"
       },
       {
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "26112e70a1235019ad9a87aabbe4c7faf2287766",
-        "last_updated": "2026-08-20T14:15:26+08:00",
+        "last_commit": "b79b70638ea296caef6942e4e4b3587982489796",
+        "last_updated": "2026-08-22T00:12:10+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1482,8 +1482,8 @@
         "name": "學術訊息_zh-tw.json"
       },
       {
-        "last_commit": "8daf33cf2dcc27179d2f51201e7d5173275bb2b1",
-        "last_updated": "2026-08-13T14:38:51+08:00",
+        "last_commit": "b79b70638ea296caef6942e4e4b3587982489796",
+        "last_updated": "2026-08-22T00:12:10+08:00",
         "name": "徵才訊息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-21T18:12:36+08:00"
+  "last_updated": "2026-08-22T00:12:10+08:00"
 }
