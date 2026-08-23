@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "37d88ef7bdaf0fd28a61ffcf31ef718b65c3b23c",
-        "last_updated": "2026-08-23T00:08:04+08:00",
+        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
+        "last_updated": "2026-08-23T08:23:29+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,18 +860,18 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "80e92d19bef8fe2c78f5a6bf3a5f0836f81c630a",
-        "last_updated": "2026-08-21T12:18:40+08:00",
+        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
+        "last_updated": "2026-08-23T08:23:29+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "92581ee7341bdaa862fa84d93ed91715efb684e5",
-        "last_updated": "2026-08-21T00:12:35+08:00",
+        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
+        "last_updated": "2026-08-23T08:23:29+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "bf84ece3826a262ba0bd2689fd1f6bf8e4c7bee1",
-        "last_updated": "2026-08-13T11:00:37+08:00",
+        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
+        "last_updated": "2026-08-23T08:23:29+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -880,18 +880,18 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "9a3b59217237d8045fcb65416827f1d8bcf3316d",
-        "last_updated": "2026-08-21T18:12:36+08:00",
+        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
+        "last_updated": "2026-08-23T08:23:29+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "80e92d19bef8fe2c78f5a6bf3a5f0836f81c630a",
-        "last_updated": "2026-08-21T12:18:40+08:00",
+        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
+        "last_updated": "2026-08-23T08:23:29+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
-        "last_commit": "9a3b59217237d8045fcb65416827f1d8bcf3316d",
-        "last_updated": "2026-08-21T18:12:36+08:00",
+        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
+        "last_updated": "2026-08-23T08:23:29+08:00",
         "name": "藝文活動_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-23T06:07:42+08:00"
+  "last_updated": "2026-08-23T08:23:29+08:00"
 }
