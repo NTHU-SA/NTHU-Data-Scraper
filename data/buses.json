@@ -351,9 +351,6 @@
             "route": "南大區間車"
         }
     ],
-    "main_schedule_images": [
-        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/438715279.jpg"
-    ],
     "towardMainCampusInfo": {
         "direction": "往校本部 (To Main Campus)",
         "duration": "暑假期間 2026/06/15 ~ 2026/08/28",
@@ -401,6 +398,9 @@
             "description": "此為付費市區公車(83號公車直達兩校區)",
             "route": "校園公車"
         }
+    ],
+    "main_schedule_images": [
+        "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/438715279.jpg"
     ],
     "nanda_schedule_images": [
         "https://affairs.site.nthu.edu.tw/var/file/165/1165/img/122628538.jpg"
