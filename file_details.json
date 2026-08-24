@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ea27677f035a1626f93469d86f9a09f0ca14ce70",
-        "last_updated": "2026-08-24T14:21:48+08:00",
+        "last_commit": "b852a98b2df4b4a4852688496c4d14f45ae7203e",
+        "last_updated": "2026-08-24T16:21:33+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "ea27677f035a1626f93469d86f9a09f0ca14ce70",
-        "last_updated": "2026-08-24T14:21:48+08:00",
+        "last_commit": "b852a98b2df4b4a4852688496c4d14f45ae7203e",
+        "last_updated": "2026-08-24T16:21:33+08:00",
         "name": "dining.json"
       },
       {
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
-        "last_updated": "2026-08-24T10:34:48+08:00",
+        "last_commit": "b852a98b2df4b4a4852688496c4d14f45ae7203e",
+        "last_updated": "2026-08-24T16:21:33+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-24T14:21:48+08:00"
+  "last_updated": "2026-08-24T16:21:33+08:00"
 }
