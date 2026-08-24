@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ee97477206527b1ac548d4720333c4d8bc4bf545",
-        "last_updated": "2026-08-24T00:08:45+08:00",
+        "last_commit": "94cf1edfcae7c70f33dbedc0f74e9a68d7046f80",
+        "last_updated": "2026-08-24T08:23:43+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "c695fe4f0939e3f359b6a414ed6ddd376431f283",
-        "last_updated": "2026-08-18T18:11:13+08:00",
+        "last_commit": "94cf1edfcae7c70f33dbedc0f74e9a68d7046f80",
+        "last_updated": "2026-08-24T08:23:43+08:00",
         "name": "buses.json"
       },
       {
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "3bbf816f45cca4fad292dcccaa9cb13d5e99e8ac",
-        "last_updated": "2026-08-11T10:48:30+08:00",
+        "last_commit": "94cf1edfcae7c70f33dbedc0f74e9a68d7046f80",
+        "last_updated": "2026-08-24T08:23:43+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-24T00:08:45+08:00"
+  "last_updated": "2026-08-24T08:23:43+08:00"
 }
