@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "94cf1edfcae7c70f33dbedc0f74e9a68d7046f80",
-        "last_updated": "2026-08-24T08:23:43+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "94cf1edfcae7c70f33dbedc0f74e9a68d7046f80",
-        "last_updated": "2026-08-24T08:23:43+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "buses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "775cf2a090ea2fec862fc1e8588660db83be81ce",
-        "last_updated": "2026-08-21T10:34:20+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "dining.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "ffdacae63539c123e775379e44154cd879acbcfc",
-        "last_updated": "2026-08-23T10:34:21+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "ffdacae63539c123e775379e44154cd879acbcfc",
-        "last_updated": "2026-08-23T10:34:21+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "f5731987d9478b2cd3a7b47dadb6d2f50493015b",
-        "last_updated": "2026-08-17T16:19:36+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "b79b70638ea296caef6942e4e4b3587982489796",
-        "last_updated": "2026-08-22T00:12:10+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -755,8 +755,8 @@
     ],
     "announcements/教務處課務組": [
       {
-        "last_commit": "56e3d8bf5a80c8e725c9701ae8829a5208635422",
-        "last_updated": "2026-07-15T08:42:56+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "Latest News_en.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "7f98a08f13acb7a7b61f96def2855a7eefd7c6e2",
-        "last_updated": "2026-08-23T08:23:29+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "9a3b59217237d8045fcb65416827f1d8bcf3316d",
-        "last_updated": "2026-08-21T18:12:36+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -992,8 +992,8 @@
     ],
     "announcements/清華學院通識教育中心": [
       {
-        "last_commit": "80e92d19bef8fe2c78f5a6bf3a5f0836f81c630a",
-        "last_updated": "2026-08-21T12:18:40+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1820,8 +1820,8 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "7cd73fc6d3d976d617e55021d9be7ffbd7dc24b1",
-        "last_updated": "2026-08-14T00:23:22+08:00",
+        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
+        "last_updated": "2026-08-24T10:34:48+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-24T08:23:43+08:00"
+  "last_updated": "2026-08-24T10:34:48+08:00"
 }
