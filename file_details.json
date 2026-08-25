@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "621f71d14dae453e95967faae700f3c15833cf75",
-        "last_updated": "2026-08-25T16:20:02+08:00",
+        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
+        "last_updated": "2026-08-25T18:12:37+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "621f71d14dae453e95967faae700f3c15833cf75",
-        "last_updated": "2026-08-25T16:20:02+08:00",
+        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
+        "last_updated": "2026-08-25T18:12:37+08:00",
         "name": "buses.json"
       },
       {
@@ -787,8 +787,8 @@
         "name": "活動報導_zh-tw.json"
       },
       {
-        "last_commit": "621f71d14dae453e95967faae700f3c15833cf75",
-        "last_updated": "2026-08-25T16:20:02+08:00",
+        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
+        "last_updated": "2026-08-25T18:12:37+08:00",
         "name": "系所公告_zh-tw.json"
       },
       {
@@ -797,8 +797,8 @@
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "621f71d14dae453e95967faae700f3c15833cf75",
-        "last_updated": "2026-08-25T16:20:02+08:00",
+        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
+        "last_updated": "2026-08-25T18:12:37+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "6a7641f4cf8640c594f655de818023b446a2eed9",
-        "last_updated": "2026-07-11T18:31:38+08:00",
+        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
+        "last_updated": "2026-08-25T18:12:37+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -924,8 +924,8 @@
         "name": "招生專區  - 清華書院_zh-tw.json"
       },
       {
-        "last_commit": "80e92d19bef8fe2c78f5a6bf3a5f0836f81c630a",
-        "last_updated": "2026-08-21T12:18:40+08:00",
+        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
+        "last_updated": "2026-08-25T18:12:37+08:00",
         "name": "最新公告  - 清華書院_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "ee97477206527b1ac548d4720333c4d8bc4bf545",
-        "last_updated": "2026-08-24T00:08:45+08:00",
+        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
+        "last_updated": "2026-08-25T18:12:37+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-25T16:20:02+08:00"
+  "last_updated": "2026-08-25T18:12:37+08:00"
 }
