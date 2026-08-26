@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "463a518cd64bfff61d6a01c3274d480a9ea03afd",
-        "last_updated": "2026-08-26T00:16:37+08:00",
+        "last_commit": "03bbaa4c86cf9af2da9153de685926300d85db18",
+        "last_updated": "2026-08-26T08:22:54+08:00",
         "name": "announcements.json"
       },
       {
@@ -17,8 +17,8 @@
         "name": "buses.json"
       },
       {
-        "last_commit": "f62676b211f0a589a766f3125c252b007fa7089c",
-        "last_updated": "2026-08-25T06:10:13+08:00",
+        "last_commit": "03bbaa4c86cf9af2da9153de685926300d85db18",
+        "last_updated": "2026-08-26T08:22:54+08:00",
         "name": "courses.json"
       },
       {
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
-        "last_updated": "2026-08-25T18:12:37+08:00",
+        "last_commit": "03bbaa4c86cf9af2da9153de685926300d85db18",
+        "last_updated": "2026-08-26T08:22:54+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -2089,8 +2089,8 @@
         "name": "11120-11220.json"
       },
       {
-        "last_commit": "f62676b211f0a589a766f3125c252b007fa7089c",
-        "last_updated": "2026-08-25T06:10:13+08:00",
+        "last_commit": "03bbaa4c86cf9af2da9153de685926300d85db18",
+        "last_updated": "2026-08-26T08:22:54+08:00",
         "name": "latest.json"
       }
     ],
@@ -2156,8 +2156,8 @@
         "name": "11420.json"
       },
       {
-        "last_commit": "f62676b211f0a589a766f3125c252b007fa7089c",
-        "last_updated": "2026-08-25T06:10:13+08:00",
+        "last_commit": "03bbaa4c86cf9af2da9153de685926300d85db18",
+        "last_updated": "2026-08-26T08:22:54+08:00",
         "name": "11510.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-26T00:16:37+08:00"
+  "last_updated": "2026-08-26T08:22:54+08:00"
 }
