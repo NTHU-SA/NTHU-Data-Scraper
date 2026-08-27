@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0033413ab3b9e6297337e92fd31182d1370fbce6",
-        "last_updated": "2026-08-27T14:15:19+08:00",
+        "last_commit": "a7dd6d45f1abe5458308804b563e3820eccc35ca",
+        "last_updated": "2026-08-27T19:33:45+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "d7d69443393aa99c9f000241b6c2a9309b2f7743",
-        "last_updated": "2026-08-27T09:54:03+08:00",
+        "last_commit": "a7dd6d45f1abe5458308804b563e3820eccc35ca",
+        "last_updated": "2026-08-27T19:33:45+08:00",
         "name": "dining.json"
       },
       {
@@ -1274,8 +1274,8 @@
         "name": "資訊分類清單_zh-tw.json"
       },
       {
-        "last_commit": "ffe6a4d309b73c95e3484de6e98a4e77ffd35547",
-        "last_updated": "2026-08-26T18:16:16+08:00",
+        "last_commit": "a7dd6d45f1abe5458308804b563e3820eccc35ca",
+        "last_updated": "2026-08-27T19:33:45+08:00",
         "name": "通訊即時報導_zh-tw.json"
       }
     ],
@@ -1358,8 +1358,8 @@
     ],
     "announcements/科技管理學院安富金融工程研究中心": [
       {
-        "last_commit": "9b530180b0a9073751e8bd245263fda800c22907",
-        "last_updated": "2026-07-30T17:02:04+08:00",
+        "last_commit": "a7dd6d45f1abe5458308804b563e3820eccc35ca",
+        "last_updated": "2026-08-27T19:33:45+08:00",
         "name": "中心消息 News_zh-tw.json"
       }
     ],
@@ -1820,8 +1820,8 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
-        "last_updated": "2026-08-24T10:34:48+08:00",
+        "last_commit": "a7dd6d45f1abe5458308804b563e3820eccc35ca",
+        "last_updated": "2026-08-27T19:33:45+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-27T14:15:19+08:00"
+  "last_updated": "2026-08-27T19:33:45+08:00"
 }
