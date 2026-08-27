@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b6de9b5840c74127ea807c3dac176d6c21665cc2",
-        "last_updated": "2026-08-27T11:56:06+08:00",
+        "last_commit": "0033413ab3b9e6297337e92fd31182d1370fbce6",
+        "last_updated": "2026-08-27T14:15:19+08:00",
         "name": "announcements.json"
       },
       {
@@ -183,8 +183,8 @@
         "name": "Introduction_en.json"
       },
       {
-        "last_commit": "32c2a24374908da0edd179b369c70e4221baa883",
-        "last_updated": "2026-08-10T00:12:18+08:00",
+        "last_commit": "0033413ab3b9e6297337e92fd31182d1370fbce6",
+        "last_updated": "2026-08-27T14:15:19+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "348ddbad9cefad2c45a71440bdacd287804a6913",
-        "last_updated": "2026-08-25T18:12:37+08:00",
+        "last_commit": "0033413ab3b9e6297337e92fd31182d1370fbce6",
+        "last_updated": "2026-08-27T14:15:19+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1470,8 +1470,8 @@
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
       {
-        "last_commit": "65bb8e905447e2b84dc9bdca5fd343c3b0e2ca1e",
-        "last_updated": "2026-06-22T18:11:33+08:00",
+        "last_commit": "0033413ab3b9e6297337e92fd31182d1370fbce6",
+        "last_updated": "2026-08-27T14:15:19+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-27T11:56:06+08:00"
+  "last_updated": "2026-08-27T14:15:19+08:00"
 }
