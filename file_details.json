@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5dadfcaec5b9214e281b09afd48a07d8011d2224",
-        "last_updated": "2026-08-31T16:28:42+08:00",
+        "last_commit": "06637aad14406595fd5f7b42c42155d40cc79fe0",
+        "last_updated": "2026-08-31T20:29:24+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "42485a41a5919d300a36f3f1c19a4dca75b6e784",
-        "last_updated": "2026-08-31T18:20:37+08:00",
+        "last_commit": "06637aad14406595fd5f7b42c42155d40cc79fe0",
+        "last_updated": "2026-08-31T20:29:24+08:00",
         "name": "buses.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "5dadfcaec5b9214e281b09afd48a07d8011d2224",
-        "last_updated": "2026-08-31T16:28:42+08:00",
+        "last_commit": "06637aad14406595fd5f7b42c42155d40cc79fe0",
+        "last_updated": "2026-08-31T20:29:24+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "8de9cbd80f77b7f9fc22fa46c57f1af78d036da3",
-        "last_updated": "2026-08-28T20:01:18+08:00",
+        "last_commit": "06637aad14406595fd5f7b42c42155d40cc79fe0",
+        "last_updated": "2026-08-31T20:29:24+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
-        "last_updated": "2026-08-31T14:40:15+08:00",
+        "last_commit": "06637aad14406595fd5f7b42c42155d40cc79fe0",
+        "last_updated": "2026-08-31T20:29:24+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-31T18:20:37+08:00"
+  "last_updated": "2026-08-31T20:29:24+08:00"
 }
