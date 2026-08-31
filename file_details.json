@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "17a79dde35ce4f9d9922cb82b2bf2a65c5b638e5",
-        "last_updated": "2026-08-31T12:23:56+08:00",
+        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
+        "last_updated": "2026-08-31T14:40:15+08:00",
         "name": "announcements.json"
       },
       {
@@ -379,8 +379,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "17a79dde35ce4f9d9922cb82b2bf2a65c5b638e5",
-        "last_updated": "2026-08-31T12:23:56+08:00",
+        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
+        "last_updated": "2026-08-31T14:40:15+08:00",
         "name": "校園輔導活動-本學期_zh-tw.json"
       },
       {
@@ -860,13 +860,13 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "a43bceeb8a39386a92e93b48cfa2ee0c558b4852",
-        "last_updated": "2026-08-31T00:17:33+08:00",
+        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
+        "last_updated": "2026-08-31T14:40:15+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "b6de9b5840c74127ea807c3dac176d6c21665cc2",
-        "last_updated": "2026-08-27T11:56:06+08:00",
+        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
+        "last_updated": "2026-08-31T14:40:15+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "0e0efd75e68a821018706cc1b077c5ae0243ecb5",
-        "last_updated": "2026-08-28T11:17:21+08:00",
+        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
+        "last_updated": "2026-08-31T14:40:15+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "8de9cbd80f77b7f9fc22fa46c57f1af78d036da3",
-        "last_updated": "2026-08-28T20:01:18+08:00",
+        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
+        "last_updated": "2026-08-31T14:40:15+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1470,8 +1470,8 @@
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
       {
-        "last_commit": "de2ef6240913c007f2fc54cbdc7567bf74540317",
-        "last_updated": "2026-08-31T10:27:58+08:00",
+        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
+        "last_updated": "2026-08-31T14:40:15+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-31T12:23:56+08:00"
+  "last_updated": "2026-08-31T14:40:15+08:00"
 }
