@@ -56,6 +56,13 @@
         "route": "南大區間車"
     },
     {
+        "time": "10:20",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
         "time": "10:40",
         "description": "",
         "line": "green",
@@ -63,7 +70,21 @@
         "route": "南大區間車"
     },
     {
-        "time": "11:40",
+        "time": "11:00",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "11:20",
+        "description": "",
+        "line": "green",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "11:45",
         "description": "",
         "line": "red",
         "dep_stop": "校門",
@@ -77,7 +98,21 @@
         "route": "南大區間車"
     },
     {
-        "time": "12:50",
+        "time": "12:25",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "12:40",
+        "description": "",
+        "line": "green",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "12:55",
         "description": "",
         "line": "red",
         "dep_stop": "校門",
@@ -85,6 +120,13 @@
     },
     {
         "time": "13:10",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "13:25",
         "description": "",
         "line": "red",
         "dep_stop": "校門",
@@ -112,7 +154,49 @@
         "route": "南大區間車"
     },
     {
-        "time": "15:30",
+        "time": "14:25",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "14:40",
+        "description": "",
+        "line": "green",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "15:00",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "15:20",
+        "description": "",
+        "line": "green",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "15:40",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "16:00",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "16:20",
         "description": "",
         "line": "green",
         "dep_stop": "校門",
@@ -126,7 +210,14 @@
         "route": "南大區間車"
     },
     {
-        "time": "17:10",
+        "time": "17:00",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "17:15",
         "description": "",
         "line": "green",
         "dep_stop": "校門",
@@ -140,6 +231,20 @@
         "route": "南大區間車"
     },
     {
+        "time": "17:45",
+        "description": "",
+        "line": "green",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "18:00",
+        "description": "",
+        "line": "green",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
         "time": "18:30",
         "description": "",
         "line": "green",
@@ -148,6 +253,13 @@
     },
     {
         "time": "19:30",
+        "description": "",
+        "line": "green",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "20:30",
         "description": "",
         "line": "green",
         "dep_stop": "校門",

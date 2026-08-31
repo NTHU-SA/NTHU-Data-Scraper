@@ -1,15 +1,15 @@
 {
     "towardTSMCBuildingInfo": {
         "direction": "往台積館 (To TSMC Building)",
-        "duration": "暑假期間2026/06/15 ~ 2026/08/28",
-        "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑(女舍) →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑(女舍) →  奕園停車場  →  教育學院大樓/南門停車場  → 台積館",
+        "duration": "暑假期間2026/8/31 ~ 2026/9/4",
+        "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑 →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑 →  奕園停車場  →  竹師教育學院大樓/南門停車場  → 台積館",
         "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  COE Building/South Gate Parking Lot  → TSMC Building"
     },
     "towardMainGateInfo": {
         "direction": "往校門口 (To Main Gate)",
-        "duration": "暑假期間2026/06/15 ~ 2026/08/28",
-        "route": "(紅線)  台積館 →  教育學院大樓/南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院 → 綜二館 → 北校門口",
-        "routeEN": "(Red Line)  TSMC Building →  COE Building/South Gate Parking Lot  →  Yi Pavilion Parking Lot  → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → General Building II → North Main Gate"
+        "duration": "暑假期間2026/8/31 ~ 2026/9/4",
+        "route": "(紅線)  台積館 →  竹師教育學院大樓/南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院  → 綜二館 → 北校門口",
+        "routeEN": "(Red Line)  TSMC Building →  COE Building/South Gate Parking Lot  →  Yi Pavilion Parking Lot  → Maple Path → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → Maple Path → General Building II → North Main Gate"
     },
     "weekdayBusScheduleTowardTSMCBuilding": [
         {
@@ -69,6 +69,13 @@
             "route": "南大區間車"
         },
         {
+            "time": "10:20",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
             "time": "10:40",
             "description": "",
             "line": "green",
@@ -76,7 +83,21 @@
             "route": "南大區間車"
         },
         {
-            "time": "11:40",
+            "time": "11:00",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:20",
+            "description": "",
+            "line": "green",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:45",
             "description": "",
             "line": "red",
             "dep_stop": "校門",
@@ -90,7 +111,21 @@
             "route": "南大區間車"
         },
         {
-            "time": "12:50",
+            "time": "12:25",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:40",
+            "description": "",
+            "line": "green",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:55",
             "description": "",
             "line": "red",
             "dep_stop": "校門",
@@ -98,6 +133,13 @@
         },
         {
             "time": "13:10",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:25",
             "description": "",
             "line": "red",
             "dep_stop": "校門",
@@ -125,7 +167,49 @@
             "route": "南大區間車"
         },
         {
-            "time": "15:30",
+            "time": "14:25",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:40",
+            "description": "",
+            "line": "green",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:00",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:20",
+            "description": "",
+            "line": "green",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:40",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:00",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:20",
             "description": "",
             "line": "green",
             "dep_stop": "校門",
@@ -139,7 +223,14 @@
             "route": "南大區間車"
         },
         {
-            "time": "17:10",
+            "time": "17:00",
+            "description": "",
+            "line": "red",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:15",
             "description": "",
             "line": "green",
             "dep_stop": "校門",
@@ -153,6 +244,20 @@
             "route": "南大區間車"
         },
         {
+            "time": "17:45",
+            "description": "",
+            "line": "green",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:00",
+            "description": "",
+            "line": "green",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
             "time": "18:30",
             "description": "",
             "line": "green",
@@ -161,6 +266,13 @@
         },
         {
             "time": "19:30",
+            "description": "",
+            "line": "green",
+            "dep_stop": "校門",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:30",
             "description": "",
             "line": "green",
             "dep_stop": "校門",
@@ -239,6 +351,13 @@
             "route": "南大區間車"
         },
         {
+            "time": "10:27",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
             "time": "10:47",
             "description": "",
             "line": "green",
@@ -246,7 +365,21 @@
             "route": "南大區間車"
         },
         {
-            "time": "11:47",
+            "time": "11:07",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:27",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "11:52",
             "description": "",
             "line": "red",
             "dep_stop": "台積館",
@@ -260,7 +393,21 @@
             "route": "南大區間車"
         },
         {
-            "time": "12:57",
+            "time": "12:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "12:47",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:02",
             "description": "",
             "line": "red",
             "dep_stop": "台積館",
@@ -268,6 +415,13 @@
         },
         {
             "time": "13:17",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "13:32",
             "description": "",
             "line": "red",
             "dep_stop": "台積館",
@@ -295,7 +449,49 @@
             "route": "南大區間車"
         },
         {
-            "time": "15:37",
+            "time": "14:32",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "14:47",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:07",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:27",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "15:47",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:07",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "16:27",
             "description": "",
             "line": "green",
             "dep_stop": "台積館",
@@ -309,7 +505,14 @@
             "route": "南大區間車"
         },
         {
-            "time": "17:17",
+            "time": "17:07",
+            "description": "",
+            "line": "red",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "17:22",
             "description": "",
             "line": "green",
             "dep_stop": "台積館",
@@ -323,6 +526,20 @@
             "route": "南大區間車"
         },
         {
+            "time": "17:52",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "18:07",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
             "time": "18:37",
             "description": "",
             "line": "green",
@@ -331,6 +548,13 @@
         },
         {
             "time": "19:37",
+            "description": "",
+            "line": "green",
+            "dep_stop": "台積館",
+            "route": "南大區間車"
+        },
+        {
+            "time": "20:37",
             "description": "",
             "line": "green",
             "dep_stop": "台積館",
@@ -356,7 +580,7 @@
     ],
     "towardMainCampusInfo": {
         "direction": "往校本部 (To Main Campus)",
-        "duration": "暑假期間 2026/06/15 ~ 2026/08/28",
+        "duration": "暑假期間 2026/08/31 ~ 2026/09/04",
         "route": "南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口",
         "routeEN": "The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Builing → General Building II→School North Gate"
     },
@@ -372,6 +596,16 @@
             "route": "校園公車"
         },
         {
+            "time": "9:00",
+            "description": "",
+            "route": "校園公車"
+        },
+        {
+            "time": "10:00",
+            "description": "",
+            "route": "校園公車"
+        },
+        {
             "time": "12:00",
             "description": "",
             "route": "校園公車"
@@ -379,6 +613,11 @@
         {
             "time": "12:23",
             "description": "此為付費市區公車(83號公車直達兩校區)",
+            "route": "校園公車"
+        },
+        {
+            "time": "13:00",
+            "description": "",
             "route": "校園公車"
         },
         {
