@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "25ed1375d720013116f42ba59df2fec030257841",
-        "last_updated": "2026-08-31T08:55:22+08:00",
+        "last_commit": "42485a41a5919d300a36f3f1c19a4dca75b6e784",
+        "last_updated": "2026-08-31T18:20:37+08:00",
         "name": "buses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "5dadfcaec5b9214e281b09afd48a07d8011d2224",
-        "last_updated": "2026-08-31T16:28:42+08:00",
+        "last_commit": "42485a41a5919d300a36f3f1c19a4dca75b6e784",
+        "last_updated": "2026-08-31T18:20:37+08:00",
         "name": "dining.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-08-31T16:28:42+08:00"
+  "last_updated": "2026-08-31T18:20:37+08:00"
 }
