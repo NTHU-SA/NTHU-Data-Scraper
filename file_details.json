@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6e24aa928ac73412ce006a5eeeef91aa90accc4a",
-        "last_updated": "2026-09-01T12:22:37+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "6e24aa928ac73412ce006a5eeeef91aa90accc4a",
-        "last_updated": "2026-09-01T12:22:37+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -288,8 +288,8 @@
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
       {
-        "last_commit": "371049f7ea0ef937ca8a7ba8e93ba148546fdf07",
-        "last_updated": "2026-08-20T16:17:16+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "Application_en.json"
       },
       {
@@ -298,13 +298,13 @@
         "name": "Maintenance_Construction_en.json"
       },
       {
-        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
-        "last_updated": "2026-08-24T10:34:48+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
-        "last_updated": "2026-08-24T10:34:48+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "公告_zh-tw.json"
       },
       {
@@ -328,8 +328,8 @@
         "name": "活動_會議_zh-tw.json"
       },
       {
-        "last_commit": "371049f7ea0ef937ca8a7ba8e93ba148546fdf07",
-        "last_updated": "2026-08-20T16:17:16+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "申請_zh-tw.json"
       }
     ],
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "6e24aa928ac73412ce006a5eeeef91aa90accc4a",
-        "last_updated": "2026-09-01T12:22:37+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -1621,8 +1621,8 @@
     ],
     "announcements/竹師教育學院華德福教育碩士在職學位學程": [
       {
-        "last_commit": "e0c5729cb3aeb56d6c72ce2998044fef27eae480",
-        "last_updated": "2026-07-06T08:59:07+08:00",
+        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
+        "last_updated": "2026-09-01T14:33:26+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-01T12:22:37+08:00"
+  "last_updated": "2026-09-01T14:33:26+08:00"
 }
