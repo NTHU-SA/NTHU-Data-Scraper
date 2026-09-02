@@ -2483,6 +2483,16 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學電機系人本訊號運算研究室(BIIC Lab) 行政助理1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313807,r5075.php?Lang=zh-tw",
+                "date": "2026-09-02"
+            },
+            {
+                "title": "【徵才】國立清華大學電機系人本訊號運算研究室(BIIC Lab) 博士後研究員 1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313804,r5075.php?Lang=zh-tw",
+                "date": "2026-09-02"
+            },
+            {
                 "title": "【誠徵】清大生倫中心-誠徵115上學期工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313162,r5075.php?Lang=zh-tw",
                 "date": "2026-09-02"
@@ -2531,16 +2541,6 @@
                 "title": "【📣徵才📣】清大台北政經學院誠徵暑期及開學後工讀生",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-292094,r5075.php?Lang=zh-tw",
                 "date": "2026-08-31"
-            },
-            {
-                "title": "【徵才】國立清華大學生活輔導組誠徵約用學輔社工師(員) 1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313588,r5075.php?Lang=zh-tw",
-                "date": "2026-08-28"
-            },
-            {
-                "title": "【徵才】清大智慧生醫博士學位學程(BAI)行政秘書(收件至115/11/30)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-287885,r5075.php?Lang=zh-tw",
-                "date": "2026-08-27"
             }
         ]
     },
@@ -2550,6 +2550,16 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學電機系人本訊號運算研究室(BIIC Lab) 行政助理1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313807,r5081.php?Lang=zh-tw",
+                "date": "2026-09-02"
+            },
+            {
+                "title": "【徵才】國立清華大學電機系人本訊號運算研究室(BIIC Lab) 博士後研究員 1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313804,r5081.php?Lang=zh-tw",
+                "date": "2026-09-02"
+            },
             {
                 "title": "【誠徵】國立清華大學資訊工程學系徵求專案組員1名 (收件截止日115/09/13)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313744,r5081.php?Lang=zh-tw",
@@ -2599,16 +2609,6 @@
                 "title": "【徵才】國立清華大學藝術學院學士班誠徵行政組員(南大校區 收件截止日9/15)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313395,r5081.php?Lang=zh-tw",
                 "date": "2026-08-25"
-            },
-            {
-                "title": "【徵才】國立清華大學生命科學暨醫學院誠徵教學助理一名(1150914截止)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-312803,c0.php?Lang=zh-tw",
-                "date": "2026-08-25"
-            },
-            {
-                "title": "【徵才】國立清華大學台北政經學院(TSE)研究助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-313354,r5081.php?Lang=zh-tw",
-                "date": "2026-08-24"
             }
         ]
     },
@@ -8245,9 +8245,9 @@
         "department": "工學院",
         "articles": [
             {
-                "title": "【公告】115年第27屆工學院研究生論文發表競賽獲獎名單",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-309241,r3361.php?Lang=zh-tw",
-                "date": "2026-05-26"
+                "title": "📣【工學院開始受理】工學院優秀國際學生博士生獎學金 - 115學年度第1學期之申請　*09月30日（三）截止",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-313684,r3361.php?Lang=zh-tw",
+                "date": "2026-08-31"
             },
             {
                 "title": "2026 工學院暑期國際文化交流活動 Cultural Experience (7/23 & 7/30)",
@@ -8270,6 +8270,11 @@
                 "date": "2026-05-31"
             },
             {
+                "title": "【公告】115年第27屆工學院研究生論文發表競賽獲獎名單",
+                "link": "https://eng.site.nthu.edu.tw/p/406-1284-309241,r3361.php?Lang=zh-tw",
+                "date": "2026-05-26"
+            },
+            {
                 "title": "【工學院英文書報討論】Pathway to Smart Maintenance: Integrating Engineering and Economics Modeling  - 田凱文教授／國立陽明交通大學工業工程與管理學系",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-309171,r3361.php?Lang=zh-tw",
                 "date": "2026-05-22"
@@ -8288,11 +8293,6 @@
                 "title": "【工學院英文書報討論】Physics-Based Simulation of Electrochemical Impedance Spectroscopy of Complex Electrode Microstructures  - 游輝嘉教授／美國密西根州立大學計算數學、科學與工程學系",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-307858,r3361.php?Lang=zh-tw",
                 "date": "2026-04-30"
-            },
-            {
-                "title": "【工學院英文書報討論】Novel Approaches and Applications of AI in Drug Discovery  - 柯屹又副組長／工業技術研究院 生醫與醫材研究所生醫大數據組",
-                "link": "https://eng.site.nthu.edu.tw/p/406-1284-307008,r3361.php?Lang=zh-tw",
-                "date": "2026-04-21"
             }
         ]
     },
