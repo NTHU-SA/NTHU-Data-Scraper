@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "aaa79d6541328b995526c7cff24e2425c0ce51b6",
-        "last_updated": "2026-09-03T00:21:47+08:00",
+        "last_commit": "945e8b9c6f7a2ecc9fd031c9a04ebec9546f9e6d",
+        "last_updated": "2026-09-03T08:51:55+08:00",
         "name": "announcements.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "b6de9b5840c74127ea807c3dac176d6c21665cc2",
-        "last_updated": "2026-08-27T11:56:06+08:00",
+        "last_commit": "945e8b9c6f7a2ecc9fd031c9a04ebec9546f9e6d",
+        "last_updated": "2026-09-03T08:51:55+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -755,8 +755,8 @@
     ],
     "announcements/教務處課務組": [
       {
-        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
-        "last_updated": "2026-08-24T10:34:48+08:00",
+        "last_commit": "945e8b9c6f7a2ecc9fd031c9a04ebec9546f9e6d",
+        "last_updated": "2026-09-03T08:51:55+08:00",
         "name": "Latest News_en.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-03T06:17:52+08:00"
+  "last_updated": "2026-09-03T08:51:55+08:00"
 }
