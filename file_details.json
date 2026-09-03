@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "7e32e631a30a5f59fc83383414e3c212a5ce1d3b",
-        "last_updated": "2026-09-03T22:21:21+08:00",
+        "last_commit": "bb8d1d884c73da398e552b5711cac199c0b23ab2",
+        "last_updated": "2026-09-04T00:20:22+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "0f1ea45c40125b9623a68ee90715b91310aa7d8f",
-        "last_updated": "2026-08-25T00:15:25+08:00",
+        "last_commit": "bb8d1d884c73da398e552b5711cac199c0b23ab2",
+        "last_updated": "2026-09-04T00:20:22+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -281,8 +281,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "8c45c8e345063962d2bf5cd85c76f83a62fde527",
-        "last_updated": "2026-09-01T00:20:30+08:00",
+        "last_commit": "bb8d1d884c73da398e552b5711cac199c0b23ab2",
+        "last_updated": "2026-09-04T00:20:22+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1688,8 +1688,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "8c45c8e345063962d2bf5cd85c76f83a62fde527",
-        "last_updated": "2026-09-01T00:20:30+08:00",
+        "last_commit": "bb8d1d884c73da398e552b5711cac199c0b23ab2",
+        "last_updated": "2026-09-04T00:20:22+08:00",
         "name": "活動公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-03T22:21:21+08:00"
+  "last_updated": "2026-09-04T00:20:22+08:00"
 }
