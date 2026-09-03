@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c5f82e5fd0c57a77c710238009b8678906fa5699",
-        "last_updated": "2026-09-03T18:20:16+08:00",
+        "last_commit": "bed102222e710d3d50370ed2172253163cc69b46",
+        "last_updated": "2026-09-03T20:29:24+08:00",
         "name": "announcements.json"
       },
       {
@@ -450,13 +450,13 @@
     ],
     "announcements/工學院工學院學士班": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "bed102222e710d3d50370ed2172253163cc69b46",
+        "last_updated": "2026-09-03T20:29:24+08:00",
         "name": "News_Announcements  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "bed102222e710d3d50370ed2172253163cc69b46",
+        "last_updated": "2026-09-03T20:29:24+08:00",
         "name": "News_CAMPUS News  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-03T18:20:16+08:00"
+  "last_updated": "2026-09-03T20:29:24+08:00"
 }
