@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "945e8b9c6f7a2ecc9fd031c9a04ebec9546f9e6d",
-        "last_updated": "2026-09-03T08:51:55+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "8e2f227072b2f026deb36d0eeb65e0fcb74028a8",
-        "last_updated": "2026-09-02T12:24:03+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "dining.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "de2ef6240913c007f2fc54cbdc7567bf74540317",
-        "last_updated": "2026-08-31T10:27:58+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "8e2f227072b2f026deb36d0eeb65e0fcb74028a8",
-        "last_updated": "2026-09-02T12:24:03+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -865,8 +865,8 @@
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "e51c55e8d4b7eb1e874fe044cc7518468f073082",
-        "last_updated": "2026-08-31T14:40:15+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
@@ -890,8 +890,8 @@
         "name": "校外徵才_zh-tw.json"
       },
       {
-        "last_commit": "d74c0a031f006a7a57500a2b99d0a7b226cefb9b",
-        "last_updated": "2026-08-28T03:38:52+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "藝文活動_zh-tw.json"
       },
       {
@@ -1110,8 +1110,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "8784d8089dd4cd59f550c1cff9d9b497aa05061f",
-        "last_updated": "2026-06-23T11:18:31+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "Recent Activities_en.json"
       },
       {
@@ -1135,8 +1135,8 @@
         "name": "news_zh-tw.json"
       },
       {
-        "last_commit": "f9e33ef74d89d1fc4cf1f350e30044cac03268a2",
-        "last_updated": "2026-07-31T11:12:30+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1477,8 +1477,8 @@
     ],
     "announcements/竹師教育學院教育心理與諮商學系": [
       {
-        "last_commit": "a43bceeb8a39386a92e93b48cfa2ee0c558b4852",
-        "last_updated": "2026-08-31T00:17:33+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "學術訊息_zh-tw.json"
       },
       {
@@ -1497,8 +1497,8 @@
         "name": "校內活動_zh-tw.json"
       },
       {
-        "last_commit": "d206d1ff39faa449ef6bc6119c9bd8bad5e91e9b",
-        "last_updated": "2026-08-26T12:18:54+08:00",
+        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
+        "last_updated": "2026-09-03T11:05:14+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-03T08:51:55+08:00"
+  "last_updated": "2026-09-03T11:05:14+08:00"
 }
