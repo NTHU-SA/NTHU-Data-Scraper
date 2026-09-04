@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "f00f9479bf208d4c3f38b813b0be5f6f7b0d60fe",
-        "last_updated": "2026-09-04T18:19:26+08:00",
+        "last_commit": "001cdc4db74ef1e57d84e4fe7906581378fb45ed",
+        "last_updated": "2026-09-04T20:28:12+08:00",
         "name": "announcements.json"
       },
       {
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "7a9e5f6299f7d2b33372068899109bb20b0939d4",
-        "last_updated": "2026-09-04T12:22:35+08:00",
+        "last_commit": "001cdc4db74ef1e57d84e4fe7906581378fb45ed",
+        "last_updated": "2026-09-04T20:28:12+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-04T18:19:26+08:00"
+  "last_updated": "2026-09-04T20:28:12+08:00"
 }
