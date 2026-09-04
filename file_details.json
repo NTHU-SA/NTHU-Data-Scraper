@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "bb8d1d884c73da398e552b5711cac199c0b23ab2",
-        "last_updated": "2026-09-04T00:20:22+08:00",
+        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
+        "last_updated": "2026-09-04T10:26:33+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "d9f96e7c840f9e17b757466cc27dba932ee76402",
-        "last_updated": "2026-09-04T08:48:44+08:00",
+        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
+        "last_updated": "2026-09-04T10:26:33+08:00",
         "name": "dining.json"
       },
       {
@@ -465,8 +465,8 @@
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json"
       },
       {
-        "last_commit": "945e8b9c6f7a2ecc9fd031c9a04ebec9546f9e6d",
-        "last_updated": "2026-09-03T08:51:55+08:00",
+        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
+        "last_updated": "2026-09-04T10:26:33+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -519,8 +519,8 @@
         "name": "徵才_研習_zh-tw.json"
       },
       {
-        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
-        "last_updated": "2026-09-03T11:05:14+08:00",
+        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
+        "last_updated": "2026-09-04T10:26:33+08:00",
         "name": "資訊分類清單_zh-tw.json"
       }
     ],
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "9da49b547e61566eb4bbf81faffdd2ac517c41ed",
-        "last_updated": "2026-09-03T16:26:24+08:00",
+        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
+        "last_updated": "2026-09-04T10:26:33+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1741,8 +1741,8 @@
     ],
     "announcements/總務處出納組": [
       {
-        "last_commit": "9da49b547e61566eb4bbf81faffdd2ac517c41ed",
-        "last_updated": "2026-09-03T16:26:24+08:00",
+        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
+        "last_updated": "2026-09-04T10:26:33+08:00",
         "name": "News_en.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-04T08:48:44+08:00"
+  "last_updated": "2026-09-04T10:26:33+08:00"
 }
