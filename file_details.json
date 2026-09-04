@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e3a74313dccca58972508de7c444129d73f7cba9",
-        "last_updated": "2026-09-04T14:31:42+08:00",
+        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
+        "last_updated": "2026-09-04T16:25:47+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
-        "last_updated": "2026-09-04T10:26:33+08:00",
+        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
+        "last_updated": "2026-09-04T16:25:47+08:00",
         "name": "dining.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
-        "last_updated": "2026-09-03T11:05:14+08:00",
+        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
+        "last_updated": "2026-09-04T16:25:47+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -743,8 +743,8 @@
         "name": "NEWS_en.json"
       },
       {
-        "last_commit": "9b22006b7865a67e687459512134bae08a9b3bcc",
-        "last_updated": "2026-09-04T10:26:33+08:00",
+        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
+        "last_updated": "2026-09-04T16:25:47+08:00",
         "name": "Search_zh-tw.json"
       },
       {
@@ -1712,13 +1712,13 @@
     ],
     "announcements/總務處事務組": [
       {
-        "last_commit": "6e24aa928ac73412ce006a5eeeef91aa90accc4a",
-        "last_updated": "2026-09-01T12:22:37+08:00",
+        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
+        "last_updated": "2026-09-04T16:25:47+08:00",
         "name": "News_en.json"
       },
       {
-        "last_commit": "6e24aa928ac73412ce006a5eeeef91aa90accc4a",
-        "last_updated": "2026-09-01T12:22:37+08:00",
+        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
+        "last_updated": "2026-09-04T16:25:47+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -1727,8 +1727,8 @@
         "name": "校園公車暨巡迴公車公告_en.json"
       },
       {
-        "last_commit": "6e24aa928ac73412ce006a5eeeef91aa90accc4a",
-        "last_updated": "2026-09-01T12:22:37+08:00",
+        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
+        "last_updated": "2026-09-04T16:25:47+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-04T14:31:42+08:00"
+  "last_updated": "2026-09-04T16:25:47+08:00"
 }
