@@ -1050,11 +1050,6 @@
                 "date": "2026-08-25"
             },
             {
-                "title": "【公告】暑假校園環境消毒作業 Environmental Disinfection Announcement",
-                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-313360,r127.php?Lang=zh-tw",
-                "date": "2026-08-24"
-            },
-            {
                 "title": "因應8/19(三)人社院進行冷氣吊掛作業，設置臨時公車站牌等候區",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-313091,r127.php?Lang=zh-tw",
                 "date": "2026-08-17"
@@ -1078,6 +1073,11 @@
                 "title": "校園流浪犬訊息  Campus Stray Dog Notice",
                 "link": "https://affairs.site.nthu.edu.tw/p/406-1165-311622,r127.php?Lang=zh-tw",
                 "date": "2026-07-13"
+            },
+            {
+                "title": "《強颱巴威防颱通知 Typhoon Preparedness Notice》",
+                "link": "https://affairs.site.nthu.edu.tw/p/406-1165-311449,r127.php?Lang=zh-tw",
+                "date": "2026-07-07"
             }
         ]
     },
@@ -2946,9 +2946,9 @@
                 "date": "2026-08-17"
             },
             {
-                "title": "【徵才】國立清華大學科技管理學院EMBA雙聯在職專班徵專任助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-309238,r5086.php?Lang=zh-tw",
-                "date": "2026-08-14"
+                "title": "【計畫徵稿】NTHU × NVIDIA - 2026 AI Innovation Research Program",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-312758,c0.php?Lang=zh-tw",
+                "date": "2026-08-07"
             }
         ]
     },
@@ -17970,11 +17970,6 @@
                 "date": ""
             },
             {
-                "title": "【畢業離校程序提醒】",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-310704,r3568.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
                 "title": "【公告】115學年度-國立清華大學物理與天文領域教職徵才",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-309567,r3568.php?Lang=zh-tw",
                 "date": ""
@@ -18012,6 +18007,11 @@
             {
                 "title": "【招生公告】辦理113學年度第三次逕行修讀博士學位申請(6/16截止)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-289665,r3568.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【通知】物理學系五年學碩士學位申請公告",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-283980,r3568.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18608,16 +18608,6 @@
                 "date": "2026-08-26"
             },
             {
-                "title": "2026國立清華大學學生「短期海外訪問獎(原國訪獎)」徵件～系所收件截止時間為：115年9月7日（星期一）下午5時",
-                "link": "https://psy.site.nthu.edu.tw/p/406-1135-313472,r1.php?Lang=zh-tw",
-                "date": "2026-08-24"
-            },
-            {
-                "title": "2026國立清華大學「領航計畫」獎學金徵件～系所收件截止時間為：115年9月7日（星期一）下午5時",
-                "link": "https://psy.site.nthu.edu.tw/p/406-1135-181757,r1.php?Lang=zh-tw",
-                "date": "2026-08-24"
-            },
-            {
                 "title": "1142深耕計畫講座時間與主題",
                 "link": "https://psy.site.nthu.edu.tw/p/406-1135-308084,r1.php?Lang=zh-tw",
                 "date": "2026-05-07"
@@ -18641,6 +18631,16 @@
                 "title": "歡迎參加 114學年度第1學 期末學術發表會-114/12/19",
                 "link": "https://psy.site.nthu.edu.tw/p/406-1135-289581,r1.php?Lang=zh-tw",
                 "date": "2025-11-28"
+            },
+            {
+                "title": "2025清華心諮工商實習成果發表會-「實」踐夢想,「習」築未來",
+                "link": "https://psy.site.nthu.edu.tw/p/406-1135-299293,r1.php?Lang=zh-tw",
+                "date": "2025-11-21"
+            },
+            {
+                "title": "【轉知】2025個人韌性論壇：AI在健康與教育中的共創與挑戰，歡迎踴躍報名參加",
+                "link": "https://docs.google.com/forms/d/e/1FAIpQLSfgt6po59obsgdktEHhToik5v7WDTPuUvxDBpBQzLxB9eRjKg/viewform",
+                "date": "2025-10-07"
             }
         ]
     },
