@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "1097c559bba53c7cf240f8b9c4e989df600afdc6",
-        "last_updated": "2026-09-06T04:17:18+08:00",
+        "last_commit": "853bb3b1c6f1c039867ddf789d01aadf34ce43d5",
+        "last_updated": "2026-09-07T06:16:24+08:00",
         "name": "buses.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-07T02:20:16+08:00"
+  "last_updated": "2026-09-07T06:16:24+08:00"
 }
