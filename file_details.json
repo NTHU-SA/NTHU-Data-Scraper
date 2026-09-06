@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c551c014d2b55569df33fe96485947c79a5bf0be",
-        "last_updated": "2026-09-06T18:16:41+08:00",
+        "last_commit": "d7d87bc3e734f7c68166b13e4f0ef9d5e3d5bbf9",
+        "last_updated": "2026-09-07T02:20:16+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "3695105e66261c0d9e495e366c183ed60b86476a",
-        "last_updated": "2026-09-05T00:20:18+08:00",
+        "last_commit": "d7d87bc3e734f7c68166b13e4f0ef9d5e3d5bbf9",
+        "last_updated": "2026-09-07T02:20:16+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -1061,8 +1061,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "3695105e66261c0d9e495e366c183ed60b86476a",
-        "last_updated": "2026-09-05T00:20:18+08:00",
+        "last_commit": "d7d87bc3e734f7c68166b13e4f0ef9d5e3d5bbf9",
+        "last_updated": "2026-09-07T02:20:16+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -1497,8 +1497,8 @@
         "name": "校內活動_zh-tw.json"
       },
       {
-        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
-        "last_updated": "2026-09-03T11:05:14+08:00",
+        "last_commit": "d7d87bc3e734f7c68166b13e4f0ef9d5e3d5bbf9",
+        "last_updated": "2026-09-07T02:20:16+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -1717,8 +1717,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
-        "last_updated": "2026-09-04T16:25:47+08:00",
+        "last_commit": "d7d87bc3e734f7c68166b13e4f0ef9d5e3d5bbf9",
+        "last_updated": "2026-09-07T02:20:16+08:00",
         "name": "最新公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-06T18:16:41+08:00"
+  "last_updated": "2026-09-07T02:20:16+08:00"
 }
