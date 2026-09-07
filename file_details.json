@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5960667e00584d73afabf498f09cea700b0cc8e4",
-        "last_updated": "2026-09-07T16:29:32+08:00",
+        "last_commit": "bdffdbb99549909f23d2aae79749a841551a5240",
+        "last_updated": "2026-09-07T18:20:19+08:00",
         "name": "announcements.json"
       },
       {
@@ -262,8 +262,8 @@
     ],
     "announcements/國際產學營運總中心台積電-國立清華大學聯合研發中心": [
       {
-        "last_commit": "5960667e00584d73afabf498f09cea700b0cc8e4",
-        "last_updated": "2026-09-07T16:29:32+08:00",
+        "last_commit": "bdffdbb99549909f23d2aae79749a841551a5240",
+        "last_updated": "2026-09-07T18:20:19+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1497,8 +1497,8 @@
         "name": "校內活動_zh-tw.json"
       },
       {
-        "last_commit": "d7d87bc3e734f7c68166b13e4f0ef9d5e3d5bbf9",
-        "last_updated": "2026-09-07T02:20:16+08:00",
+        "last_commit": "bdffdbb99549909f23d2aae79749a841551a5240",
+        "last_updated": "2026-09-07T18:20:19+08:00",
         "name": "系務公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-07T16:29:32+08:00"
+  "last_updated": "2026-09-07T18:20:19+08:00"
 }
