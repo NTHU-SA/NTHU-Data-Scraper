@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9ccff7df01039edd0477f205e201629a908c59fb",
-        "last_updated": "2026-09-07T12:23:42+08:00",
+        "last_commit": "d8e94bbe4b4aa3a42fdc958573ac30846a864008",
+        "last_updated": "2026-09-07T14:40:52+08:00",
         "name": "announcements.json"
       },
       {
@@ -502,8 +502,8 @@
         "name": "工工榮譽榜_zh-tw.json"
       },
       {
-        "last_commit": "9388f15780151e2ee5a6d14e26c2383ad34d9f53",
-        "last_updated": "2026-07-27T15:22:26+08:00",
+        "last_commit": "d8e94bbe4b4aa3a42fdc958573ac30846a864008",
+        "last_updated": "2026-09-07T14:40:52+08:00",
         "name": "演講公告_zh-tw.json"
       },
       {
@@ -1110,8 +1110,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "635c225dd97ef6c5b69de5a5ab5fce29d6644593",
-        "last_updated": "2026-09-03T11:05:14+08:00",
+        "last_commit": "d8e94bbe4b4aa3a42fdc958573ac30846a864008",
+        "last_updated": "2026-09-07T14:40:52+08:00",
         "name": "Recent Activities_en.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-07T12:23:42+08:00"
+  "last_updated": "2026-09-07T14:40:52+08:00"
 }
