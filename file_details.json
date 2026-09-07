@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d7d87bc3e734f7c68166b13e4f0ef9d5e3d5bbf9",
-        "last_updated": "2026-09-07T02:20:16+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "853bb3b1c6f1c039867ddf789d01aadf34ce43d5",
-        "last_updated": "2026-09-07T06:16:24+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "buses.json"
       },
       {
@@ -980,8 +980,8 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_commit": "001cdc4db74ef1e57d84e4fe7906581378fb45ed",
-        "last_updated": "2026-09-04T20:28:12+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "中心最新消息_zh-tw.json"
       },
       {
@@ -1930,43 +1930,43 @@
         "name": "nanda_schedule_images.json"
       },
       {
-        "last_commit": "25ed1375d720013116f42ba59df2fec030257841",
-        "last_updated": "2026-08-31T08:55:22+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "towardMainCampusInfo.json"
       },
       {
-        "last_commit": "25ed1375d720013116f42ba59df2fec030257841",
-        "last_updated": "2026-08-31T08:55:22+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "towardMainGateInfo.json"
       },
       {
-        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
-        "last_updated": "2026-03-23T08:49:08+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "towardNandaInfo.json"
       },
       {
-        "last_commit": "25ed1375d720013116f42ba59df2fec030257841",
-        "last_updated": "2026-08-31T08:55:22+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "towardTSMCBuildingInfo.json"
       },
       {
-        "last_commit": "25ed1375d720013116f42ba59df2fec030257841",
-        "last_updated": "2026-08-31T08:55:22+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "weekdayBusScheduleTowardMainCampus.json"
       },
       {
-        "last_commit": "25ed1375d720013116f42ba59df2fec030257841",
-        "last_updated": "2026-08-31T08:55:22+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "weekdayBusScheduleTowardMainGate.json"
       },
       {
-        "last_commit": "4855ee0ef2cbac39b9a6bc9d10120ca99e95ddeb",
-        "last_updated": "2026-03-23T08:49:08+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "weekdayBusScheduleTowardNanda.json"
       },
       {
-        "last_commit": "25ed1375d720013116f42ba59df2fec030257841",
-        "last_updated": "2026-08-31T08:55:22+08:00",
+        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
+        "last_updated": "2026-09-07T08:55:04+08:00",
         "name": "weekdayBusScheduleTowardTSMCBuilding.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-07T06:16:24+08:00"
+  "last_updated": "2026-09-07T08:55:04+08:00"
 }
