@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
-        "last_updated": "2026-09-07T08:55:04+08:00",
+        "last_commit": "b565bbb8446377d582442072f214d92fc7b8192c",
+        "last_updated": "2026-09-07T10:27:51+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "690ee1b7044afbc0e1b89d3c109deef178591e61",
-        "last_updated": "2026-09-07T08:55:04+08:00",
+        "last_commit": "b565bbb8446377d582442072f214d92fc7b8192c",
+        "last_updated": "2026-09-07T10:27:51+08:00",
         "name": "buses.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "64973e400bf23ac61973e512c52728d4357250ef",
-        "last_updated": "2026-09-04T16:25:47+08:00",
+        "last_commit": "b565bbb8446377d582442072f214d92fc7b8192c",
+        "last_updated": "2026-09-07T10:27:51+08:00",
         "name": "dining.json"
       },
       {
@@ -262,8 +262,8 @@
     ],
     "announcements/國際產學營運總中心台積電-國立清華大學聯合研發中心": [
       {
-        "last_commit": "1c91bd590fdb919f15cc04dc03dac94c306126fc",
-        "last_updated": "2026-08-05T15:03:44+08:00",
+        "last_commit": "b565bbb8446377d582442072f214d92fc7b8192c",
+        "last_updated": "2026-09-07T10:27:51+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -281,8 +281,8 @@
         "name": "News_en.json"
       },
       {
-        "last_commit": "3695105e66261c0d9e495e366c183ed60b86476a",
-        "last_updated": "2026-09-05T00:20:18+08:00",
+        "last_commit": "b565bbb8446377d582442072f214d92fc7b8192c",
+        "last_updated": "2026-09-07T10:27:51+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -567,8 +567,8 @@
         "name": "僑外生最新公告_zh-tw.json"
       },
       {
-        "last_commit": "b0bf9ee83bc1720072290ed38b3c9f67989d2da7",
-        "last_updated": "2026-08-07T05:53:11+08:00",
+        "last_commit": "b565bbb8446377d582442072f214d92fc7b8192c",
+        "last_updated": "2026-09-07T10:27:51+08:00",
         "name": "博士班最新公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-07T08:55:04+08:00"
+  "last_updated": "2026-09-07T10:27:51+08:00"
 }
