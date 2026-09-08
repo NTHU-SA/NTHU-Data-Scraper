@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "5f2b5acfe77217c486097f5b25d22de698f3c240",
-        "last_updated": "2026-09-08T16:25:56+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "0808b97078f5f69f58133e969fa65f23a77f915e",
-        "last_updated": "2026-09-08T00:19:33+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -507,8 +507,8 @@
         "name": "演講公告_zh-tw.json"
       },
       {
-        "last_commit": "e11d390804d0c6ce10c3161179efb8275ef06e7c",
-        "last_updated": "2026-08-19T14:15:29+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "3695105e66261c0d9e495e366c183ed60b86476a",
-        "last_updated": "2026-09-05T00:20:18+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -760,8 +760,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "6d8364ddd2bf26b4a6b6ff67a9487a30d4c72c33",
-        "last_updated": "2026-09-08T14:31:48+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "最新公告_zh-tw.json"
       }
     ],
@@ -941,8 +941,8 @@
     ],
     "announcements/清華學院實創中心": [
       {
-        "last_commit": "8dddc76a7efe0e2b8d414be605e4bec89f7bcb41",
-        "last_updated": "2026-07-20T15:18:04+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1387,8 +1387,8 @@
     ],
     "announcements/秘書處校務研究中心": [
       {
-        "last_commit": "46507c6e7cd040107da9da35aca6d1f6a8e6ad31",
-        "last_updated": "2026-07-14T16:51:27+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1399,8 +1399,8 @@
         "name": "媒體報導  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "083169a2ac19ccd6a8625f114d1c2c52bbfa5c76",
-        "last_updated": "2026-08-28T14:43:12+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
@@ -1409,8 +1409,8 @@
         "name": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院_zh-tw.json"
       },
       {
-        "last_commit": "083169a2ac19ccd6a8625f114d1c2c52bbfa5c76",
-        "last_updated": "2026-08-28T14:43:12+08:00",
+        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
+        "last_updated": "2026-09-08T18:20:00+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-08T16:25:56+08:00"
+  "last_updated": "2026-09-08T18:20:00+08:00"
 }
