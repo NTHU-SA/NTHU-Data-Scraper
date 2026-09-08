@@ -1456,11 +1456,6 @@
         "department": "校友服務及資源發展處校友中心、校友總會",
         "articles": [
             {
-                "title": "【活動紀實】清華北美校友巡迴之旅 | 2026 NTHU Reunion",
-                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-314107,r4272.php?Lang=zh-tw",
-                "date": "2026-09-08"
-            },
-            {
                 "title": "Invitation:Thailand Alumni Association Inauguration & Luncheon (Nov 22)",
                 "link": "https://alumni.site.nthu.edu.tw/p/406-1346-314119,r4272.php?Lang=zh-tw",
                 "date": "2026-09-08"
@@ -1504,6 +1499,11 @@
                 "title": "【清華人故事館】由科學少年走向時代記錄：張釗維的紀錄片實踐",
                 "link": "https://alumni.site.nthu.edu.tw/p/406-1346-308309,r4272.php?Lang=zh-tw",
                 "date": "2026-05-12"
+            },
+            {
+                "title": "【活動紀實】2026 清華校慶論壇 | 在世界變動中創造未來｜人文 × 科技 × 跨界對話",
+                "link": "https://alumni.site.nthu.edu.tw/p/406-1346-307409,r4272.php?Lang=zh-tw",
+                "date": "2026-04-29"
             }
         ]
     },
@@ -5478,6 +5478,11 @@
         "department": "教務處課務組",
         "articles": [
             {
+                "title": "【微積分 B一 修課意願調查】請於9/10（四）中午12:00前填寫",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-314135,r7797.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "115上選課最後衝刺：加簽／加退選登場",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-313791,r7797.php?Lang=zh-tw",
                 "date": ""
@@ -5570,11 +5575,6 @@
             {
                 "title": "加退選最後倒數！三件事一定要檢查：結果 ✔ 表單 ✔ 學分 ✔",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-304093,r7797.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "開學倒數中｜課務重點時程一覽",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-302813,r7797.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -11390,6 +11390,11 @@
         "department": "工學院工業工程與工程管理學系",
         "articles": [
             {
+                "title": "Simulation and Agent-Based Modelling for Stochastic-Flow Network Reliability 演講者：張秉宸 教授(國立臺灣科技大學)",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-314133,r2715.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "Renewable Energy Procurement and Hydrogen Supply Chain Planning under Uncertainty: A Multi-Objective Compromise Optimization Approach 講者：徐昕煒(國立臺北科技大學)",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-314052,r2715.php?Lang=zh-tw",
                 "date": ""
@@ -11442,11 +11447,6 @@
             {
                 "title": "Finding all integer-valued generalized Nash equilibrium solutions over a polyhedron using short rational  generating functions 講者：王俊涵 助理教授 (成功大學 工業與資訊管理學系)",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-305902,r2715.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "智能製造智造未來 台積電智能製造中心 (IMC)",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-305358,r2715.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -17874,6 +17874,16 @@
                 "date": ""
             },
             {
+                "title": "【獎學金公告】馬上庚先生紀念獎學金(系截止:9/21前)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-314131,r3567.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【獎學金公告】115學年度第1學期理學院大學部獎學金(系截止：9/16前)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-314129,r3567.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "機械工場操作執照申請書",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-313792,r3567.php?Lang=zh-tw",
                 "date": ""
@@ -17881,16 +17891,6 @@
             {
                 "title": "Gmail信箱收不到註冊組寄來信件怎麼辦?",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-313401,r3567.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【校外獎學金】115學年度台電獎學金暨說明會(逕行申請)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-313219,r3567.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "115年度暑假停電保養時間確認版 Power Outage Notification",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-311355,r3567.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -17955,6 +17955,16 @@
                 "date": ""
             },
             {
+                "title": "【獎學金公告】馬上庚先生紀念獎學金(系截止:9/21前)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-314131,r3568.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【獎學金公告】115學年度第1學期理學院大學部獎學金(系截止：9/16前)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-314129,r3568.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【校外獎學金】115學年度台電獎學金暨說明會(逕行申請)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-313219,r3568.php?Lang=zh-tw",
                 "date": ""
@@ -17997,16 +18007,6 @@
             {
                 "title": "機械工場更換門禁卡",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-294998,r3568.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【招生公告】辦理113學年度第三次逕行修讀博士學位申請(6/16截止)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-289665,r3568.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【通知】物理學系五年學碩士學位申請公告",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-283980,r3568.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18211,6 +18211,32 @@
             {
                 "title": "【招生公告】115學年度博士班甄試簡章",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-295347,r3622.php?Lang=zh-tw",
+                "date": ""
+            }
+        ]
+    },
+    {
+        "title": "All seminar",
+        "link": "https://phys.site.nthu.edu.tw/p/403-1335-5959-1.php?Lang=en",
+        "language": "en",
+        "department": "理學院物理學系",
+        "articles": [
+            {
+                "title": "9/14 Dr Hao-Cheng Weng (University of Bristol (UK))--- Towards utility-scale quantum applications: integrated control of solid-state atomic systems(620)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-314126,r5959.php?Lang=en",
+                "date": ""
+            }
+        ]
+    },
+    {
+        "title": "所有演講",
+        "link": "https://phys.site.nthu.edu.tw/p/403-1335-5959-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "理學院物理學系",
+        "articles": [
+            {
+                "title": "9/14翁昊丞博士Hao-Cheng Weng英國布里斯托大學University of Bristol (UK)--- Towards utility-scale quantum applications: integrated control of solid-state atomic systems(620)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-314126,r5959.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -20992,6 +21018,11 @@
                 "date": "2026-03-11"
             },
             {
+                "title": "115學年度第1學期｜學生宿舍系列活動「聊齋吃夜」",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-314132,r1538.php?Lang=zh-tw",
+                "date": "2026-09-08"
+            },
+            {
                 "title": "115年暑期學生宿舍退宿扣款名單公告",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-314045,r1538.php?Lang=zh-tw",
                 "date": "2026-09-07"
@@ -21044,11 +21075,6 @@
             {
                 "title": "【大學部新生】115學年度大學部新生入住相關注意事項",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-312550,r1538.php?Lang=zh-tw",
-                "date": "2026-08-04"
-            },
-            {
-                "title": "【大學部新生】115學年大學部新生宿舍申請公告",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-312551,r1538.php?Lang=zh-tw",
                 "date": "2026-08-04"
             }
         ]
@@ -21439,6 +21465,11 @@
         "language": "zh-tw",
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
+            {
+                "title": "115學年度第1學期｜學生宿舍系列活動「聊齋吃夜」",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-314132,r8957.php?Lang=zh-tw",
+                "date": "2026-09-08"
+            },
             {
                 "title": "114學年度第2次學生宿舍管理委員會會議紀錄",
                 "link": "https://sthousing.site.nthu.edu.tw/p/450-1254-309124,c0.php?Lang=zh-tw",
