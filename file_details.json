@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6ba0e48facafdb023b4d2b8321c4fe861f570409",
-        "last_updated": "2026-09-09T12:22:16+08:00",
+        "last_commit": "bdaed0c684b4e4986c35f31678774fe7d21f0d37",
+        "last_updated": "2026-09-09T14:32:23+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "d22d69ad394f2fdb3da2933aa8563f64be11243d",
-        "last_updated": "2026-09-08T10:25:50+08:00",
+        "last_commit": "bdaed0c684b4e4986c35f31678774fe7d21f0d37",
+        "last_updated": "2026-09-09T14:32:23+08:00",
         "name": "dining.json"
       },
       {
@@ -724,8 +724,8 @@
         "name": "Teacher and teaching assistant activities_en.json"
       },
       {
-        "last_commit": "d97b8ece15c24da8fb9531b48caaa554d087ffd8",
-        "last_updated": "2026-09-08T18:20:00+08:00",
+        "last_commit": "bdaed0c684b4e4986c35f31678774fe7d21f0d37",
+        "last_updated": "2026-09-09T14:32:23+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -826,8 +826,8 @@
         "name": "Alumni News_en.json"
       },
       {
-        "last_commit": "6d8364ddd2bf26b4a6b6ff67a9487a30d4c72c33",
-        "last_updated": "2026-09-08T14:31:48+08:00",
+        "last_commit": "bdaed0c684b4e4986c35f31678774fe7d21f0d37",
+        "last_updated": "2026-09-09T14:32:23+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -992,8 +992,8 @@
     ],
     "announcements/清華學院通識教育中心": [
       {
-        "last_commit": "e8db6194f58216127c489649ec692e600328e00a",
-        "last_updated": "2026-08-24T10:34:48+08:00",
+        "last_commit": "bdaed0c684b4e4986c35f31678774fe7d21f0d37",
+        "last_updated": "2026-09-09T14:32:23+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1688,8 +1688,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "bb8d1d884c73da398e552b5711cac199c0b23ab2",
-        "last_updated": "2026-09-04T00:20:22+08:00",
+        "last_commit": "bdaed0c684b4e4986c35f31678774fe7d21f0d37",
+        "last_updated": "2026-09-09T14:32:23+08:00",
         "name": "活動公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-09T12:22:16+08:00"
+  "last_updated": "2026-09-09T14:32:23+08:00"
 }
