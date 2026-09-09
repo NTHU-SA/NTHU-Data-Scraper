@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d81e8499e7d4c75b4d3712e843bbbcc2a3d9a11d",
-        "last_updated": "2026-09-09T08:50:35+08:00",
+        "last_commit": "d53a31cd0ce1344a6d4d6b0560b7cf0579bc934c",
+        "last_updated": "2026-09-09T10:26:00+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "e6940ee861b91469d03e08e4de492a7882535b37",
-        "last_updated": "2026-09-08T06:17:02+08:00",
+        "last_commit": "d53a31cd0ce1344a6d4d6b0560b7cf0579bc934c",
+        "last_updated": "2026-09-09T10:26:00+08:00",
         "name": "buses.json"
       },
       {
@@ -418,8 +418,8 @@
         "name": "iNEMS Honors_en.json"
       },
       {
-        "last_commit": "5c9fc4491df671179684cea5ccda344ba3f71eb4",
-        "last_updated": "2026-08-06T17:03:10+08:00",
+        "last_commit": "d53a31cd0ce1344a6d4d6b0560b7cf0579bc934c",
+        "last_updated": "2026-09-09T10:26:00+08:00",
         "name": "奈微所榮譽_zh-tw.json"
       },
       {
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "5960667e00584d73afabf498f09cea700b0cc8e4",
-        "last_updated": "2026-09-07T16:29:32+08:00",
+        "last_commit": "d53a31cd0ce1344a6d4d6b0560b7cf0579bc934c",
+        "last_updated": "2026-09-09T10:26:00+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -1524,8 +1524,8 @@
         "name": "徵才訊息_zh-tw.json"
       },
       {
-        "last_commit": "9b434e0a1c5d8bfb5e5544f056dbc87efc53c56a",
-        "last_updated": "2026-08-03T08:51:19+08:00",
+        "last_commit": "d53a31cd0ce1344a6d4d6b0560b7cf0579bc934c",
+        "last_updated": "2026-09-09T10:26:00+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
@@ -1770,8 +1770,8 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "7a9e5f6299f7d2b33372068899109bb20b0939d4",
-        "last_updated": "2026-09-04T12:22:35+08:00",
+        "last_commit": "d53a31cd0ce1344a6d4d6b0560b7cf0579bc934c",
+        "last_updated": "2026-09-09T10:26:00+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-09T08:50:35+08:00"
+  "last_updated": "2026-09-09T10:26:00+08:00"
 }
