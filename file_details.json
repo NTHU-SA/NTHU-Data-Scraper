@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "7031fb7156ee60ee7689bf4981f2496a0e1a83ee",
-        "last_updated": "2026-09-10T14:31:50+08:00",
+        "last_commit": "d6cc83164aa99f3761a011111fc09d47077020a3",
+        "last_updated": "2026-09-10T16:25:52+08:00",
         "name": "announcements.json"
       },
       {
@@ -787,8 +787,8 @@
         "name": "活動報導_zh-tw.json"
       },
       {
-        "last_commit": "b6d8a5629989383da927e818be889216a928aa7c",
-        "last_updated": "2026-09-10T12:22:21+08:00",
+        "last_commit": "d6cc83164aa99f3761a011111fc09d47077020a3",
+        "last_updated": "2026-09-10T16:25:52+08:00",
         "name": "系所公告_zh-tw.json"
       },
       {
@@ -797,8 +797,8 @@
         "name": "補助申請_zh-tw.json"
       },
       {
-        "last_commit": "b6d8a5629989383da927e818be889216a928aa7c",
-        "last_updated": "2026-09-10T12:22:21+08:00",
+        "last_commit": "d6cc83164aa99f3761a011111fc09d47077020a3",
+        "last_updated": "2026-09-10T16:25:52+08:00",
         "name": "資格考及學位考試_zh-tw.json"
       },
       {
@@ -1426,8 +1426,8 @@
         "name": "學科所 _ 學科所友社群_zh-tw.json"
       },
       {
-        "last_commit": "279adf5598286f4c5b660d1ceb2faeb8c2b7766d",
-        "last_updated": "2026-07-09T15:22:36+08:00",
+        "last_commit": "d6cc83164aa99f3761a011111fc09d47077020a3",
+        "last_updated": "2026-09-10T16:25:52+08:00",
         "name": "學科所 _ 師生榮譽_zh-tw.json"
       },
       {
@@ -1436,8 +1436,8 @@
         "name": "學科所 _ 所辦公告_zh-tw.json"
       },
       {
-        "last_commit": "7031fb7156ee60ee7689bf4981f2496a0e1a83ee",
-        "last_updated": "2026-09-10T14:31:50+08:00",
+        "last_commit": "d6cc83164aa99f3761a011111fc09d47077020a3",
+        "last_updated": "2026-09-10T16:25:52+08:00",
         "name": "學科所 _ 最新消息_zh-tw.json"
       },
       {
@@ -1734,8 +1734,8 @@
     ],
     "announcements/總務處保管組": [
       {
-        "last_commit": "a43bceeb8a39386a92e93b48cfa2ee0c558b4852",
-        "last_updated": "2026-08-31T00:17:33+08:00",
+        "last_commit": "d6cc83164aa99f3761a011111fc09d47077020a3",
+        "last_updated": "2026-09-10T16:25:52+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-10T14:31:50+08:00"
+  "last_updated": "2026-09-10T16:25:52+08:00"
 }
