@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "68ebd2cc5b05f96609640fe9409c5ea38adec5b7",
-        "last_updated": "2026-09-11T10:26:57+08:00",
+        "last_commit": "9f9ca2eed170e4673f9e7aaa23073a3551d30099",
+        "last_updated": "2026-09-11T12:22:59+08:00",
         "name": "announcements.json"
       },
       {
@@ -870,8 +870,8 @@
         "name": "學生活動_zh-tw.json"
       },
       {
-        "last_commit": "7031fb7156ee60ee7689bf4981f2496a0e1a83ee",
-        "last_updated": "2026-09-10T14:31:50+08:00",
+        "last_commit": "9f9ca2eed170e4673f9e7aaa23073a3551d30099",
+        "last_updated": "2026-09-11T12:22:59+08:00",
         "name": "學術活動_zh-tw.json"
       },
       {
@@ -1056,13 +1056,13 @@
         "name": "最新榮譽_zh-tw.json"
       },
       {
-        "last_commit": "6d8364ddd2bf26b4a6b6ff67a9487a30d4c72c33",
-        "last_updated": "2026-09-08T14:31:48+08:00",
+        "last_commit": "9f9ca2eed170e4673f9e7aaa23073a3551d30099",
+        "last_updated": "2026-09-11T12:22:59+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "6d8364ddd2bf26b4a6b6ff67a9487a30d4c72c33",
-        "last_updated": "2026-09-08T14:31:48+08:00",
+        "last_commit": "9f9ca2eed170e4673f9e7aaa23073a3551d30099",
+        "last_updated": "2026-09-11T12:22:59+08:00",
         "name": "系辦公告_zh-tw.json"
       }
     ],
@@ -1110,8 +1110,8 @@
         "name": "Latest News_en.json"
       },
       {
-        "last_commit": "d8e94bbe4b4aa3a42fdc958573ac30846a864008",
-        "last_updated": "2026-09-07T14:40:52+08:00",
+        "last_commit": "9f9ca2eed170e4673f9e7aaa23073a3551d30099",
+        "last_updated": "2026-09-11T12:22:59+08:00",
         "name": "Recent Activities_en.json"
       },
       {
@@ -1135,8 +1135,8 @@
         "name": "news_zh-tw.json"
       },
       {
-        "last_commit": "9ccff7df01039edd0477f205e201629a908c59fb",
-        "last_updated": "2026-09-07T12:23:42+08:00",
+        "last_commit": "9f9ca2eed170e4673f9e7aaa23073a3551d30099",
+        "last_updated": "2026-09-11T12:22:59+08:00",
         "name": "最新活動_zh-tw.json"
       },
       {
@@ -1592,8 +1592,8 @@
     ],
     "announcements/竹師教育學院臺灣語言研究與教學研究所": [
       {
-        "last_commit": "c5fc96686471e157e6c2435fb7df81a3704f3e7d",
-        "last_updated": "2026-06-15T20:07:54+08:00",
+        "last_commit": "9f9ca2eed170e4673f9e7aaa23073a3551d30099",
+        "last_updated": "2026-09-11T12:22:59+08:00",
         "name": "學術訊息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-11T10:26:57+08:00"
+  "last_updated": "2026-09-11T12:22:59+08:00"
 }
