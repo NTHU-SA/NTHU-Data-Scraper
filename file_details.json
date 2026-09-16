@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "56cc4b6213ffc8ff20cc1ff13ee0250ec7a07eb2",
-        "last_updated": "2026-09-16T16:26:31+08:00",
+        "last_commit": "d9287116e165e06fa5e7df6e504f35fc60946b1c",
+        "last_updated": "2026-09-16T22:20:15+08:00",
         "name": "announcements.json"
       },
       {
@@ -1621,8 +1621,8 @@
     ],
     "announcements/竹師教育學院華德福教育碩士在職學位學程": [
       {
-        "last_commit": "a63557a5ba0ede12358cfb941f2f3b59f0cd4280",
-        "last_updated": "2026-09-01T14:33:26+08:00",
+        "last_commit": "d9287116e165e06fa5e7df6e504f35fc60946b1c",
+        "last_updated": "2026-09-16T22:20:15+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-16T16:26:31+08:00"
+  "last_updated": "2026-09-16T22:20:15+08:00"
 }
