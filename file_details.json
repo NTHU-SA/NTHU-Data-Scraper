@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "664f4e1d6c3549d1a71b4ee3ce3afa945f38c2b5",
-        "last_updated": "2026-09-17T00:20:34+08:00",
+        "last_commit": "0c84c5a086685b5fed4319693772fd2969ff89b2",
+        "last_updated": "2026-09-17T02:22:03+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "09c12689f9b46764872721858ecc7c2aae45741f",
-        "last_updated": "2026-09-16T06:17:43+08:00",
+        "last_commit": "0c84c5a086685b5fed4319693772fd2969ff89b2",
+        "last_updated": "2026-09-17T02:22:03+08:00",
         "name": "buses.json"
       },
       {
@@ -1436,13 +1436,13 @@
         "name": "學科所 _ 所辦公告_zh-tw.json"
       },
       {
-        "last_commit": "54697ec064bff0c4cc9b2e90aaa3e872eddfe18a",
-        "last_updated": "2026-09-16T10:26:07+08:00",
+        "last_commit": "0c84c5a086685b5fed4319693772fd2969ff89b2",
+        "last_updated": "2026-09-17T02:22:03+08:00",
         "name": "學科所 _ 最新消息_zh-tw.json"
       },
       {
-        "last_commit": "9aad3661f7e427df6860defd525754a382f2e5db",
-        "last_updated": "2026-09-14T16:29:43+08:00",
+        "last_commit": "0c84c5a086685b5fed4319693772fd2969ff89b2",
+        "last_updated": "2026-09-17T02:22:03+08:00",
         "name": "學科所 _ 演講公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-17T00:20:34+08:00"
+  "last_updated": "2026-09-17T02:22:03+08:00"
 }
