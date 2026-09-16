@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0c84c5a086685b5fed4319693772fd2969ff89b2",
-        "last_updated": "2026-09-17T02:22:03+08:00",
+        "last_commit": "85b73bfc6166036b8cb284bf304dc14508bbd835",
+        "last_updated": "2026-09-17T04:19:54+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "0c84c5a086685b5fed4319693772fd2969ff89b2",
-        "last_updated": "2026-09-17T02:22:03+08:00",
+        "last_commit": "85b73bfc6166036b8cb284bf304dc14508bbd835",
+        "last_updated": "2026-09-17T04:19:54+08:00",
         "name": "buses.json"
       },
       {
@@ -1621,8 +1621,8 @@
     ],
     "announcements/竹師教育學院華德福教育碩士在職學位學程": [
       {
-        "last_commit": "d9287116e165e06fa5e7df6e504f35fc60946b1c",
-        "last_updated": "2026-09-16T22:20:15+08:00",
+        "last_commit": "85b73bfc6166036b8cb284bf304dc14508bbd835",
+        "last_updated": "2026-09-17T04:19:54+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-17T02:22:03+08:00"
+  "last_updated": "2026-09-17T04:19:54+08:00"
 }
