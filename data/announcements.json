@@ -5493,6 +5493,11 @@
         "department": "教務處課務組",
         "articles": [
             {
+                "title": "(((重要))) 正式選課結果請至【校務資訊系統->選課情形】處確認",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-214099,r7797.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "115上選課最後衝刺：加簽／加退選登場",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-313791,r7797.php?Lang=zh-tw",
                 "date": ""
@@ -5586,11 +5591,6 @@
                 "title": "【計畫徵件】115年度UAAT「創新課程與人才培育計畫」線上說明會 04/21週二",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-306427,r7797.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "加退選最後倒數！三件事一定要檢查：結果 ✔ 表單 ✔ 學分 ✔",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-304093,r7797.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -5600,6 +5600,11 @@
         "language": "en",
         "department": "教務處課務組",
         "articles": [
+            {
+                "title": "Course Add/Drop Countdown! Final Check: Course Status, Extra Selection & Credit Load",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-314752,r7982.php?Lang=en",
+                "date": ""
+            },
             {
                 "title": "New Semester Course Selection: Key Dates & Reminders",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-313822,r7982.php?Lang=en",
@@ -5653,11 +5658,6 @@
             {
                 "title": "2026 Fall Course Schedule Is Now Open",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-309707,r7982.php?Lang=en",
-                "date": ""
-            },
-            {
-                "title": "2026 Spring Course Evaluation Incentive Plan",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-306715,r7982.php?Lang=en",
                 "date": ""
             }
         ]
