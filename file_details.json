@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ed79c15650aacc1bb65eebac21f06a5bc39fa74d",
-        "last_updated": "2026-09-17T10:26:31+08:00",
+        "last_commit": "eb13065fc2fb5633ab0f01236dafb852ac7eb6b7",
+        "last_updated": "2026-09-17T12:22:23+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "ed79c15650aacc1bb65eebac21f06a5bc39fa74d",
-        "last_updated": "2026-09-17T10:26:31+08:00",
+        "last_commit": "eb13065fc2fb5633ab0f01236dafb852ac7eb6b7",
+        "last_updated": "2026-09-17T12:22:23+08:00",
         "name": "dining.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "bb8d1d884c73da398e552b5711cac199c0b23ab2",
-        "last_updated": "2026-09-04T00:20:22+08:00",
+        "last_commit": "eb13065fc2fb5633ab0f01236dafb852ac7eb6b7",
+        "last_updated": "2026-09-17T12:22:23+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1021,8 +1021,8 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "a8208c3e363ec99b57dad5f1747be596cd9c0abc",
-        "last_updated": "2026-09-15T00:20:09+08:00",
+        "last_commit": "eb13065fc2fb5633ab0f01236dafb852ac7eb6b7",
+        "last_updated": "2026-09-17T12:22:23+08:00",
         "name": "All seminar_en.json"
       },
       {
@@ -1041,8 +1041,8 @@
         "name": "physnews_en.json"
       },
       {
-        "last_commit": "a8208c3e363ec99b57dad5f1747be596cd9c0abc",
-        "last_updated": "2026-09-15T00:20:09+08:00",
+        "last_commit": "eb13065fc2fb5633ab0f01236dafb852ac7eb6b7",
+        "last_updated": "2026-09-17T12:22:23+08:00",
         "name": "所有演講_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-17T10:26:31+08:00"
+  "last_updated": "2026-09-17T12:22:23+08:00"
 }
