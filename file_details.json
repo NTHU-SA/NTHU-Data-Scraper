@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
-        "last_updated": "2026-09-18T16:25:09+08:00",
+        "last_commit": "5d7e884c8f313ec49665a1a06ead533ec37f8631",
+        "last_updated": "2026-09-18T18:19:10+08:00",
         "name": "announcements.json"
       },
       {
@@ -968,8 +968,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "6e24aa928ac73412ce006a5eeeef91aa90accc4a",
-        "last_updated": "2026-09-01T12:22:37+08:00",
+        "last_commit": "5d7e884c8f313ec49665a1a06ead533ec37f8631",
+        "last_updated": "2026-09-18T18:19:10+08:00",
         "name": "榮譽榜_zh-tw.json"
       },
       {
@@ -1751,8 +1751,8 @@
         "name": "一般公告_zh-tw.json"
       },
       {
-        "last_commit": "9da49b547e61566eb4bbf81faffdd2ac517c41ed",
-        "last_updated": "2026-09-03T16:26:24+08:00",
+        "last_commit": "5d7e884c8f313ec49665a1a06ead533ec37f8631",
+        "last_updated": "2026-09-18T18:19:10+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-18T16:25:09+08:00"
+  "last_updated": "2026-09-18T18:19:10+08:00"
 }
