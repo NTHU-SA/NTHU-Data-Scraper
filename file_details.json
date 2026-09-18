@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6d8992d8b4bb0e9b0d2101922715a446be134095",
-        "last_updated": "2026-09-18T12:21:45+08:00",
+        "last_commit": "81ce1148f7fdf581cf3b0bb5080f379b7c48dc5f",
+        "last_updated": "2026-09-18T14:31:42+08:00",
         "name": "announcements.json"
       },
       {
@@ -860,8 +860,8 @@
         "name": "Events_en.json"
       },
       {
-        "last_commit": "6d8992d8b4bb0e9b0d2101922715a446be134095",
-        "last_updated": "2026-09-18T12:21:45+08:00",
+        "last_commit": "81ce1148f7fdf581cf3b0bb5080f379b7c48dc5f",
+        "last_updated": "2026-09-18T14:31:42+08:00",
         "name": "其他公告_zh-tw.json"
       },
       {
@@ -880,13 +880,13 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "6d8992d8b4bb0e9b0d2101922715a446be134095",
-        "last_updated": "2026-09-18T12:21:45+08:00",
+        "last_commit": "81ce1148f7fdf581cf3b0bb5080f379b7c48dc5f",
+        "last_updated": "2026-09-18T14:31:42+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
-        "last_commit": "6d8992d8b4bb0e9b0d2101922715a446be134095",
-        "last_updated": "2026-09-18T12:21:45+08:00",
+        "last_commit": "81ce1148f7fdf581cf3b0bb5080f379b7c48dc5f",
+        "last_updated": "2026-09-18T14:31:42+08:00",
         "name": "校外徵才_zh-tw.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "6d8992d8b4bb0e9b0d2101922715a446be134095",
-        "last_updated": "2026-09-18T12:21:45+08:00",
+        "last_commit": "81ce1148f7fdf581cf3b0bb5080f379b7c48dc5f",
+        "last_updated": "2026-09-18T14:31:42+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1837,8 +1837,8 @@
         "name": "中心公告_zh-tw.json"
       },
       {
-        "last_commit": "0b9b85bc25906cf5880a7ccb00789a5b73d7f8aa",
-        "last_updated": "2026-09-14T10:29:51+08:00",
+        "last_commit": "81ce1148f7fdf581cf3b0bb5080f379b7c48dc5f",
+        "last_updated": "2026-09-18T14:31:42+08:00",
         "name": "轉知公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-18T12:21:45+08:00"
+  "last_updated": "2026-09-18T14:31:42+08:00"
 }
