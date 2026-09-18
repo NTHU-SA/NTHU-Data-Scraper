@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "81ce1148f7fdf581cf3b0bb5080f379b7c48dc5f",
-        "last_updated": "2026-09-18T14:31:42+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "announcements.json"
       },
       {
@@ -526,8 +526,8 @@
     ],
     "announcements/師資培育中心特殊教育中心": [
       {
-        "last_commit": "7a9e5f6299f7d2b33372068899109bb20b0939d4",
-        "last_updated": "2026-09-04T12:22:35+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "1e384b9e53ef54741970970968d70ef5654f7a75",
-        "last_updated": "2026-09-18T08:49:38+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1105,8 +1105,8 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_commit": "d905daf187958abc8e54b4c10696f2c48211b758",
-        "last_updated": "2026-09-15T18:19:06+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "Latest News_en.json"
       },
       {
@@ -1115,13 +1115,13 @@
         "name": "Recent Activities_en.json"
       },
       {
-        "last_commit": "d905daf187958abc8e54b4c10696f2c48211b758",
-        "last_updated": "2026-09-15T18:19:06+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "banner_en.json"
       },
       {
-        "last_commit": "d905daf187958abc8e54b4c10696f2c48211b758",
-        "last_updated": "2026-09-15T18:19:06+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "banner_zh-tw.json"
       },
       {
@@ -1140,8 +1140,8 @@
         "name": "最新活動_zh-tw.json"
       },
       {
-        "last_commit": "d905daf187958abc8e54b4c10696f2c48211b758",
-        "last_updated": "2026-09-15T18:19:06+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -1741,8 +1741,8 @@
     ],
     "announcements/總務處出納組": [
       {
-        "last_commit": "7a9e5f6299f7d2b33372068899109bb20b0939d4",
-        "last_updated": "2026-09-04T12:22:35+08:00",
+        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
+        "last_updated": "2026-09-18T16:25:09+08:00",
         "name": "News_en.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-18T14:31:42+08:00"
+  "last_updated": "2026-09-18T16:25:09+08:00"
 }
