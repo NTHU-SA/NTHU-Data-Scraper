@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "4f4613206cca13b2f3481196fdf281565b456a36",
-        "last_updated": "2026-09-21T08:54:37+08:00",
+        "last_commit": "682785e90af5aa60b3f8b1387ecdb968ee33e902",
+        "last_updated": "2026-09-21T10:29:56+08:00",
         "name": "announcements.json"
       },
       {
@@ -22,8 +22,8 @@
         "name": "courses.json"
       },
       {
-        "last_commit": "6d8992d8b4bb0e9b0d2101922715a446be134095",
-        "last_updated": "2026-09-18T12:21:45+08:00",
+        "last_commit": "682785e90af5aa60b3f8b1387ecdb968ee33e902",
+        "last_updated": "2026-09-21T10:29:56+08:00",
         "name": "dining.json"
       },
       {
@@ -577,8 +577,8 @@
         "name": "學士後最新公告_zh-tw.json"
       },
       {
-        "last_commit": "c14e9a53c02e259a6e50b7bf1ee03a178dcc3065",
-        "last_updated": "2026-09-15T16:26:23+08:00",
+        "last_commit": "682785e90af5aa60b3f8b1387ecdb968ee33e902",
+        "last_updated": "2026-09-21T10:29:56+08:00",
         "name": "學士班最新公告_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-21T08:54:37+08:00"
+  "last_updated": "2026-09-21T10:29:56+08:00"
 }
