@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "310d033ded909d0be95bee6c6bcee45d7075d972",
-        "last_updated": "2026-09-21T14:42:22+08:00",
+        "last_commit": "447eec4739d00a69dea68778cb138b78fc4b9a5b",
+        "last_updated": "2026-09-21T16:29:26+08:00",
         "name": "announcements.json"
       },
       {
@@ -51,8 +51,8 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "eb13065fc2fb5633ab0f01236dafb852ac7eb6b7",
-        "last_updated": "2026-09-17T12:22:23+08:00",
+        "last_commit": "447eec4739d00a69dea68778cb138b78fc4b9a5b",
+        "last_updated": "2026-09-21T16:29:26+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -66,8 +66,8 @@
         "name": "法規宣導_zh-tw.json"
       },
       {
-        "last_commit": "d90b60df3b59801c2f7aae6cde19c2ce1f53a24b",
-        "last_updated": "2026-07-16T00:37:14+08:00",
+        "last_commit": "447eec4739d00a69dea68778cb138b78fc4b9a5b",
+        "last_updated": "2026-09-21T16:29:26+08:00",
         "name": "重大消息_zh-tw.json"
       }
     ],
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "2f566f552a486eb872fc612691ea901be184bfd1",
-        "last_updated": "2026-09-17T16:27:16+08:00",
+        "last_commit": "447eec4739d00a69dea68778cb138b78fc4b9a5b",
+        "last_updated": "2026-09-21T16:29:26+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-21T14:42:22+08:00"
+  "last_updated": "2026-09-21T16:29:26+08:00"
 }
