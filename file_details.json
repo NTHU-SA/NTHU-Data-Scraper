@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "93f6f3a24c5014d0bce000aed2f171b0392363b9",
-        "last_updated": "2026-09-22T12:22:16+08:00",
+        "last_commit": "e398388965b722909f98e1900f823d83d648c1d3",
+        "last_updated": "2026-09-22T14:32:05+08:00",
         "name": "announcements.json"
       },
       {
@@ -12,8 +12,8 @@
         "name": "announcements_list.json"
       },
       {
-        "last_commit": "93f6f3a24c5014d0bce000aed2f171b0392363b9",
-        "last_updated": "2026-09-22T12:22:16+08:00",
+        "last_commit": "e398388965b722909f98e1900f823d83d648c1d3",
+        "last_updated": "2026-09-22T14:32:05+08:00",
         "name": "buses.json"
       },
       {
@@ -262,8 +262,8 @@
     ],
     "announcements/國際產學營運總中心台積電-國立清華大學聯合研發中心": [
       {
-        "last_commit": "2f566f552a486eb872fc612691ea901be184bfd1",
-        "last_updated": "2026-09-17T16:27:16+08:00",
+        "last_commit": "e398388965b722909f98e1900f823d83d648c1d3",
+        "last_updated": "2026-09-22T14:32:05+08:00",
         "name": "最新消息_zh-tw.json"
       }
     ],
@@ -514,8 +514,8 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "447eec4739d00a69dea68778cb138b78fc4b9a5b",
-        "last_updated": "2026-09-21T16:29:26+08:00",
+        "last_commit": "e398388965b722909f98e1900f823d83d648c1d3",
+        "last_updated": "2026-09-22T14:32:05+08:00",
         "name": "徵才_研習_zh-tw.json"
       },
       {
@@ -865,8 +865,8 @@
         "name": "其他公告_zh-tw.json"
       },
       {
-        "last_commit": "4f4613206cca13b2f3481196fdf281565b456a36",
-        "last_updated": "2026-09-21T08:54:37+08:00",
+        "last_commit": "e398388965b722909f98e1900f823d83d648c1d3",
+        "last_updated": "2026-09-22T14:32:05+08:00",
         "name": "學生活動_zh-tw.json"
       },
       {
@@ -880,8 +880,8 @@
         "name": "招生公告_zh-tw.json"
       },
       {
-        "last_commit": "62a43553838f7dc41d51b455efb6e1bcca2ecdb3",
-        "last_updated": "2026-09-22T00:21:04+08:00",
+        "last_commit": "e398388965b722909f98e1900f823d83d648c1d3",
+        "last_updated": "2026-09-22T14:32:05+08:00",
         "name": "校內徵才_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-22T12:22:16+08:00"
+  "last_updated": "2026-09-22T14:32:05+08:00"
 }
