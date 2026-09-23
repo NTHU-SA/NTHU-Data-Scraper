@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1cb3afe7ede99559759d5472241644821cfa8839",
-        "last_updated": "2026-09-23T18:19:28+08:00",
+        "last_commit": "27c4ab23c699c7d39fb000b387696a873fce742c",
+        "last_updated": "2026-09-24T00:21:46+08:00",
         "name": "announcements.json"
       },
       {
@@ -56,8 +56,8 @@
         "name": "最新消息_zh-tw.json"
       },
       {
-        "last_commit": "12bb97830407aca5ccbd5509bed73c16fcf4a004",
-        "last_updated": "2026-09-19T00:18:18+08:00",
+        "last_commit": "27c4ab23c699c7d39fb000b387696a873fce742c",
+        "last_updated": "2026-09-24T00:21:46+08:00",
         "name": "校外活動_zh-tw.json"
       },
       {
@@ -276,8 +276,8 @@
     ],
     "announcements/學務處": [
       {
-        "last_commit": "7dfae196b117bb371beaed1e961ecb6c0799ddfb",
-        "last_updated": "2026-09-23T12:22:39+08:00",
+        "last_commit": "27c4ab23c699c7d39fb000b387696a873fce742c",
+        "last_updated": "2026-09-24T00:21:46+08:00",
         "name": "News_en.json"
       },
       {
@@ -895,8 +895,8 @@
         "name": "藝文活動_zh-tw.json"
       },
       {
-        "last_commit": "5a425b47fc59d46829147dba1d0eb9a8ce9eb26f",
-        "last_updated": "2026-09-23T14:33:24+08:00",
+        "last_commit": "27c4ab23c699c7d39fb000b387696a873fce742c",
+        "last_updated": "2026-09-24T00:21:46+08:00",
         "name": "行政公告_zh-tw.json"
       }
     ],
@@ -1014,8 +1014,8 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "201ddd58eda44bb71ec3c37102d281e761862546",
-        "last_updated": "2026-09-18T16:25:09+08:00",
+        "last_commit": "27c4ab23c699c7d39fb000b387696a873fce742c",
+        "last_updated": "2026-09-24T00:21:46+08:00",
         "name": "最新消息 NEWS_zh-tw.json"
       }
     ],
@@ -1482,8 +1482,8 @@
         "name": "學術訊息_zh-tw.json"
       },
       {
-        "last_commit": "cb13b13a4b0b2be4bb05241632833a25418e711c",
-        "last_updated": "2026-09-11T00:19:01+08:00",
+        "last_commit": "27c4ab23c699c7d39fb000b387696a873fce742c",
+        "last_updated": "2026-09-24T00:21:46+08:00",
         "name": "徵才訊息_zh-tw.json"
       },
       {
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-23T18:19:28+08:00"
+  "last_updated": "2026-09-24T00:21:46+08:00"
 }
