@@ -26,6 +26,16 @@ The bus spider has been refactored to support the new Nanda bus route format:
 - Added support for departure stop (`depStop`) field
 - Improved code structure with utility modules
 
+## Library Spider
+`nthu_libraries` writes two files under `data/libraries/`:
+- `rss.json` – the four library RSS feeds (`news`, `eresources`, `exhibit`, `branches`), keyed by feed type. Relative links are resolved to absolute URLs.
+- `calendars.json` – the library opening-hours calendars (`main`, `hss`, `nanda`) from their public Google Calendar iCal feeds. Recurring events are expanded into single occurrences from Jan 1 of last year to Dec 31 of next year. The window is year-aligned so the file only changes when the calendar does.
+
+When a source fails, the spider keeps the previously saved data for that source instead of overwriting it.
+
+### Runner IP restrictions
+NTHU sites may reject requests from GitHub-hosted runner IPs (non-Taiwan cloud ranges). The library step runs with `continue-on-error`, so a block never stops the other datasets from updating. If the library data stops updating, move the `nthu_libraries` step to a job running on the self-hosted runner (`runs-on: self-hosted`) and merge its `data/libraries` output into the commit step.
+
 ## Manual Triggers
 - Regular schedule (every 2 hours) and pushes to main run only ubuntu crawlers
 - Self-hosted crawlers must be manually triggered via workflow_dispatch with `run_self_hosted` set to true

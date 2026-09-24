@@ -43,6 +43,16 @@ jobs:
           python -m scrapy crawl nthu_courses
           python -m scrapy crawl nthu_dining
 
+      - name: Run library spider
+        # lib.nthu.edu.tw may reject requests from GitHub-hosted runner IPs.
+        # Don't let that block the other datasets: the spider keeps the previous
+        # JSON when a source fails. If it keeps failing, move this step to the
+        # self-hosted runner (see workflow.md).
+        continue-on-error: true
+        env:
+          DATA_FOLDER: ${{ env.DATA_FOLDER }}
+        run: python -m scrapy crawl nthu_libraries
+
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions"
