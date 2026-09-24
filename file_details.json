@@ -2,8 +2,8 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "ca26e976c91b5ea8bdd42c6541b3d01317e0e485",
-        "last_updated": "2026-09-24T18:19:24+08:00",
+        "last_commit": "c452adb6bd946fd0353fe3862e1c1f035ba85376",
+        "last_updated": "2026-09-24T20:28:10+08:00",
         "name": "announcements.json"
       },
       {
@@ -391,8 +391,8 @@
     ],
     "announcements/工學院": [
       {
-        "last_commit": "6d8992d8b4bb0e9b0d2101922715a446be134095",
-        "last_updated": "2026-09-18T12:21:45+08:00",
+        "last_commit": "c452adb6bd946fd0353fe3862e1c1f035ba85376",
+        "last_updated": "2026-09-24T20:28:10+08:00",
         "name": "最新消息_zh-tw.json"
       },
       {
@@ -1568,13 +1568,13 @@
         "name": "General_en.json"
       },
       {
-        "last_commit": "2a069b109b55ee28ff883b693ddb6ad2c68c170a",
-        "last_updated": "2026-08-07T14:31:53+08:00",
+        "last_commit": "c452adb6bd946fd0353fe3862e1c1f035ba85376",
+        "last_updated": "2026-09-24T20:28:10+08:00",
         "name": "一般公告_zh-tw.json"
       },
       {
-        "last_commit": "310d033ded909d0be95bee6c6bcee45d7075d972",
-        "last_updated": "2026-09-21T14:42:22+08:00",
+        "last_commit": "c452adb6bd946fd0353fe3862e1c1f035ba85376",
+        "last_updated": "2026-09-24T20:28:10+08:00",
         "name": "招生公告_zh-tw.json"
       }
     ],
@@ -2201,5 +2201,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-24T18:19:24+08:00"
+  "last_updated": "2026-09-24T20:28:10+08:00"
 }
