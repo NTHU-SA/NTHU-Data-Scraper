@@ -225,11 +225,11 @@ class LibrariesSpider(scrapy.Spider):
 class JsonPipeline:
     """Merge freshly crawled sources into the existing JSON files."""
 
-    def open_spider(self, spider):
+    def open_spider(self):
         self.rss: Dict[str, List[Dict[str, Any]]] = {}
         self.calendars: Dict[str, Dict[str, Any]] = {}
 
-    def process_item(self, item, spider):
+    def process_item(self, item):
         if item["kind"] == "rss":
             self.rss[item["key"]] = item["data"]
         elif item["kind"] == "calendar":

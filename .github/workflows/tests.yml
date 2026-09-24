@@ -9,6 +9,7 @@ on:
       - "nthu_scraper/**"
       - "tests/**"
       - "requirements.txt"
+      - "requirements-test.lock"
 
 jobs:
   test:
@@ -24,7 +25,7 @@ jobs:
           python-version: 3.13.2
 
       - name: Install dependencies
-        run: pip install -r requirements.txt pytest
+        run: pip install --only-binary :all: --require-hashes -r requirements-test.lock
 
       - name: Run tests
         run: python -m pytest tests -q

@@ -165,9 +165,9 @@ class TestJsonPipeline:
                 info = error = staticmethod(lambda *args, **kwargs: None)
 
         pipeline = JsonPipeline()
-        pipeline.open_spider(FakeSpider)
+        pipeline.open_spider()
         for item in items:
-            pipeline.process_item(item, FakeSpider)
+            pipeline.process_item(item)
         pipeline.close_spider(FakeSpider)
 
     def test_keeps_previous_data_for_failed_sources(self, paths):

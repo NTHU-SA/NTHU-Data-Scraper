@@ -63,7 +63,7 @@ python -m scrapy crawl nthu_announcements_item
 ### Running Tests
 
 ```bash
-pip install pytest
+pip install --only-binary :all: --require-hashes -r requirements-test.lock
 python -m pytest tests
 ```
 
