@@ -1,214 +1,100 @@
 # NTHU-Data-Scraper
 
-NTHU-Data-Scraper collects public National Tsing Hua University campus data and
-publishes it at <https://data.nthusa.tw/>.
+Public campus data from National Tsing Hua University, published as JSON at
+**[data.nthusa.tw](https://data.nthusa.tw/)**.
 
-## Repository architecture
+Browse folders on the website or use the JSON URLs directly. The index supports
+filename/path search and shows each file's update time and SHA-256 version.
 
-- `main` contains only crawler source, tests, publishing tools, workflows,
-  and development documentation. Generated `data/` snapshots have been removed
-  from its history, and local `data/` output is ignored by Git. The workflow
-  never commits generated updates back to `main`.
-- `data` contains the canonical generated snapshot at the branch root. This is
-  the active GitHub Pages source (`data` / root).
+## Datasets
 
-These are the only remote branches. Legacy `gh-pages`, archive, and migration
-branches have been removed after retaining the migration source changes in
-`main`.
+| Data | JSON |
+|---|---|
+| Announcements | [announcements.json](https://data.nthusa.tw/announcements.json) |
+| Bus schedules | [buses.json](https://data.nthusa.tw/buses.json) |
+| Courses | [courses.json](https://data.nthusa.tw/courses.json) |
+| Dining | [dining.json](https://data.nthusa.tw/dining.json) |
+| Academic calendar | [calendars.json](https://data.nthusa.tw/calendars.json) |
+| File inventory and versions | [file_details.json](https://data.nthusa.tw/file_details.json) |
 
-Scheduled runs create their local `data/` directory from the latest `data`
-branch before crawling and publish changes only to `data`.
-
-Public paths remain unchanged, including:
-
-- <https://data.nthusa.tw/buses.json>
-- <https://data.nthusa.tw/courses.json>
-- <https://data.nthusa.tw/announcements.json>
-- <https://data.nthusa.tw/calendars.json>
-- <https://data.nthusa.tw/file_details.json>
+The website also includes department directories, maps, newsletters, and library
+data. Announcements, buses, courses, dining, libraries, and the academic calendar
+are refreshed every two hours; other datasets retain their last published snapshot.
 
 ## Development
 
-Python 3.13 and [uv](https://docs.astral.sh/uv/) are required.
+Requires Python 3.13 and [uv](https://docs.astral.sh/uv/).
 
 ```bash
 uv sync
+uv run python -m scrapy crawl nthu_buses
 uv run pytest -q
 uv run ruff check .
 uv run ruff format --check .
-uv run python -m scrapy crawl nthu_buses
-uv run python -m scrapy crawl nthu_courses
 ```
 
-Use `uv run ruff format .` to apply formatting. Ruff targets Python 3.13 with
-the conservative `E4`, `E7`, `E9`, `F`, `I`, `UP`, and `B` lint rules. The
-existing test workflow runs pytest, lint, and formatting checks with frozen
-dependencies from `uv.lock`.
+Crawlers write to the Git-ignored `data/` directory. Use
+`uv run ruff format .` to apply formatting. Tests run offline without Chromium.
+For crawlers that use Playwright, install the browser with
+`uv run playwright install chromium`.
 
-Crawler code stays in `nthu_scraper.spiders`, with source-specific pipelines
-alongside the spiders. Shared parsing and atomic JSON operations live in
-`nthu_scraper.parsers` and `nthu_scraper.storage`; small URL, request, safety,
-and file helpers remain in `nthu_scraper.utils`. Stable dataset output paths
-are centralized in `utils/constants.py`. There are no generated item,
-pipeline, or middleware scaffold modules.
+### Available crawlers
 
-Discovered bus schedule-image links belong to each spider instance, separate
-from immutable route configuration. Newsletter URL deduplication and
-whole-dataset completeness tracking are also instance-local.
+Run a crawler with `uv run python -m scrapy crawl <name>`.
 
-For announcements, hydrate `data/` from the published snapshot before running
-the item spider, or run the list spider first:
+| Name | Data |
+|---|---|
+| `nthu_announcements_list` | Announcement sources |
+| `nthu_announcements_item` | Announcement content |
+| `nthu_buses` | Campus bus schedules |
+| `nthu_courses` | Course information |
+| `nthu_dining` | Dining information |
+| `nthu_directory` | Department directory |
+| `nthu_maps` | Campus maps |
+| `nthu_newsletters` | Newsletters |
+| `nthu_libraries` | Library RSS feeds and opening-hours calendars |
+| `nthu_calendars` | University academic calendar |
+
+Run `nthu_announcements_list` before `nthu_announcements_item` on a fresh
+checkout, or populate `data/` from the published snapshot first.
+
+### Website preview
+
+With crawler output in `data/`:
 
 ```bash
-uv run python -m scrapy crawl nthu_announcements_list
-uv run python -m scrapy crawl nthu_announcements_item
+uv run python generate_file_detail.py
+uv run python generate_index.py
+uv run python -m http.server 8000 --bind 127.0.0.1 --directory data
 ```
 
-For a Playwright-based spider, install its browser only when needed:
-
-```bash
-uv run playwright install chromium
-```
-
-### Offline parser tests
-
-After `uv sync`, parsing tests need neither internet access, a hydrated `data/`
-directory, nor Chromium:
-
-```bash
-uv run --offline --no-sync pytest -q tests/parsers tests/test_nthu_libraries.py
-uv run --offline --no-sync pytest -q
-```
-
-`nthu_scraper.parsers` contains plain functions for announcements (articles,
-list titles/content, more links and URL normalization), bus JavaScript literals
-and schedules, dining data, directory links/tables/details, map options, and
-newsletter lists/metadata/archives/dates. HTML functions accept Scrapy selectors
-or responses; bus and dining functions accept text. They do not request URLs,
-read snapshots, or write files. `CoursesData.from_dict` and `group_courses` stay
-in `nthu_courses`; the existing library parsers stay in `nthu_libraries`.
-
-Small UTF-8 examples live under `tests/fixtures/<source>/`. The parser suite
-asserts exact normalized records and exercises spider callbacks with local
-responses, including parent/child metadata and partial failures. Its socket
-tripwire rejects network connections and DNS lookups. Browser navigation is
-not executed. Library tests keep their existing inline RSS/iCalendar fixtures.
-
-Malformed required structures raise `ParseError` (a `ValueError` subclass).
-Recognizable empty structures return empty collections; course collections
-still require at least one valid record. Empty parses do **not** authorize
-deleting published data: Phase 2A's retention rules below still apply.
-Spiders catch only expected parse errors, log them, and retain a source or mark
-a whole-dataset crawl incomplete. Programming errors continue to propagate.
-Unusable map coordinates, malformed directory/metadata rows, and invalid
-newsletter dates/popups now fail explicitly rather than publishing a partial
-or malformed refresh. Valid output field names, value types, and ordering are
-preserved.
-
-Compatibility limitations intentionally retained for separate follow-up:
-bus literal normalization can replace `true`/`false`/`null` inside quoted text;
-dining uses its existing single-quote replacement and limited trailing-comma
-rules (not a general JavaScript parser, including no semicolon before
-`renderTabs`); course stripping handles only its existing `<BR>`/`<br>` forms;
-directory and newsletter links retain their existing prefix-concatenation
-rules. Missing optional newsletter dates/links remain omitted.
-
-Pipeline hooks retain the explicit `spider` argument supported by the locked
-Scrapy 2.19 compatibility dispatcher. Offline subprocess tests exercise all
-active pipelines and the HTTPS middleware through Scrapy itself. Moving to
-Scrapy's newer no-spider-argument hooks is deferred; it would require a
-separate migration of pipeline construction and spider access.
-
-## Available spiders
-
-- `nthu_announcements_list`: maintains the announcement source list
-- `nthu_announcements_item`: refreshes announcement content from that list
-- `nthu_buses`: scrapes campus bus schedules
-- `nthu_courses`: fetches course information
-- `nthu_dining`: retrieves dining data
-- `nthu_directory`: downloads the department directory
-- `nthu_maps`: gets campus map data
-- `nthu_newsletters`: collects newsletters
-- `nthu_libraries`: collects library RSS feeds and opening-hours calendars
-- `nthu_calendars`: collects the university academic calendar
-
-### Campus calendar
-
-`uv run python -m scrapy crawl nthu_calendars` writes `data/calendars.json`,
-published as `/calendars.json` at the website root (not under `libraries/`).
-The scheduled workflow refreshes it every two hours from the public
-[Google ICS feed](https://calendar.google.com/calendar/ical/nthu.acad%40gmail.com/public/basic.ics)
-linked by the [official calendar page](https://dgaa.site.nthu.edu.tw/p/412-1209-2942.php?Lang=zh-tw).
-
-The output is an array of calendars. The `academic` entry contains `id`, `name`,
-`description`, `timezone`, `url` (Google Calendar), `source_url` (official page),
-`ical_url`, and `events`. Events use the existing library calendar format:
-`id`, `title`, `description`, `start`, `end`, and `all_day`.
-Recurring events are expanded from January 1 of the previous year up to,
-but not including, January 1 two years ahead, using Taipei time.
-All-day dates use `YYYY-MM-DD`; timed events use ISO 8601 with a `+08:00` offset.
-Event end dates are exclusive. Failed, malformed, or empty refreshes leave the
-previous calendar intact; a failed first crawl does not create an empty file.
+Open <http://127.0.0.1:8000>. The page is generated from `index_template.html`;
+it needs no frontend build or external assets. Folders and file links work
+without JavaScript; search and expand/collapse controls use JavaScript.
 
 ## Publishing
 
-The scheduled workflow hydrates an ignored local `data/` directory from the previous `data` snapshot,
-validates that baseline, runs the current scheduled spider set, validates every JSON file, generates
-publishing metadata and the index, then creates a normal commit on `data`.
-Untouched legacy datasets remain in the hydrated snapshot.
+`main` holds source code and tests. The `data` branch holds the published
+snapshot and is the GitHub Pages source.
+
+GitHub Actions starts from the previous snapshot, runs the scheduled crawlers,
+validates the data, and publishes changed files to `data`. It also runs on
+pushes to `main` and manual dispatch.
 
 ### Data safety
 
-The candidate snapshot is the previous known-good snapshot plus successfully
-refreshed sources. Announcements merge by authoritative source link, buses by
-component key, maps by map type, and libraries by RSS/calendar source. Failed
-or empty refreshes retain existing non-empty data. Announcements leave the
-aggregate only when removed from `announcements_list.json`; failed refreshes
-do not delete their individual files.
-Legacy post-redirect announcement URLs are matched to authoritative links
-using unique department/title/language metadata. Ambiguous matches fail
-instead of dropping or guessing the known-good source.
+Failed or empty refreshes retain previous data. Announcements, buses, maps,
+and libraries preserve failed sources independently; directory, newsletter,
+and course crawls require a complete valid result before replacing a dataset.
+Announcements are removed only when removed from the source list.
 
-Directory and newsletter crawls retain their whole previous dataset on known
-request/parser failures, malformed entries in a partial listing, or an empty
-result. Courses validate the complete
-collection and prepare semester records before writing any output. Dining
-continues to leave its previous file untouched when parsing yields no data.
+JSON writes use atomic file replacement. Implementation, storage, or validation
+errors block publication; a multi-file local crawl is not a single transaction.
 
-`nthu_scraper.storage` provides `read_json`, `read_json_optional`, and
-`write_json_atomic`. Only a missing optional file returns a default; malformed
-JSON and I/O errors raise. Writes serialize into a same-directory temporary
-file, flush and fsync it, then replace the destination. Failed writes preserve
-the destination, clean up temporary files, and raise. Dataset-specific
-indentation and key ordering are retained.
-
-The project's `scrapy crawl` command returns a failure exit status for
-implementation errors, including errors Scrapy would otherwise only log.
-Expected upstream failures are handled inside the crawlers. There is no
-workflow-level exception for libraries: implementation or storage failures
-block publication.
-
-Atomicity is per file, not a transaction across the local snapshot. An error
-can leave earlier successful writes in local `data/`, but CI will not publish
-that candidate. These checks detect known failures and invalid/empty results;
-they cannot prove that a non-empty, structurally plausible upstream response
-is complete. Offline regression tests cover the stated fallback behavior.
-
-Snapshot commits use `data(<changed-datasets>): update published snapshot`.
-Sorted scopes come from actual staged dataset changes, and the commit body lists
-the exact changed paths with generated publishing files in a separate section.
-No snapshot commit is created when nothing changed.
-
-`file_details.json` now versions each exact published file with SHA-256.
-`last_commit` is retained for NTHU-Data-API compatibility, but it is a
-deprecated alias for the content version:
-
-```text
-last_commit == version == sha256
-```
-
-See [workflow.md](workflow.md) for the lifecycle, deployment, and rollback steps.
+`file_details.json` identifies exact file contents with SHA-256.
+`last_commit` is a compatibility alias for `version` / `sha256`, not a Git commit.
+See [workflow.md](workflow.md) for deployment and rollback details.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+[MIT](LICENSE)
