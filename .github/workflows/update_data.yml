@@ -41,7 +41,7 @@ jobs:
           enable-cache: true
 
       - name: Install locked dependencies
-        run: uv sync --frozen
+        run: uv sync --frozen --no-build
 
       - name: Hydrate previous published snapshot
         shell: bash
@@ -60,28 +60,28 @@ jobs:
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: |
-          uv run python -m scrapy crawl nthu_announcements_item
-          uv run python -m scrapy crawl nthu_buses
-          uv run python -m scrapy crawl nthu_courses
-          uv run python -m scrapy crawl nthu_dining
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_announcements_item
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_buses
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_courses
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_dining
 
       - name: Run library spider
         continue-on-error: true
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
-        run: uv run python -m scrapy crawl nthu_libraries
+        run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_libraries
 
       - name: Validate and generate publishing files
         run: |
-          uv run python validate_data.py --data-folder "$DATA_FOLDER"
-          uv run python generate_file_detail.py \
+          uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"
+          uv run --frozen --no-build --no-sync python generate_file_detail.py \
             --data_folder="$DATA_FOLDER" \
             --json_path="$DATA_FOLDER/file_details.json"
-          uv run python generate_index.py \
+          uv run --frozen --no-build --no-sync python generate_index.py \
             --json_path="$DATA_FOLDER/file_details.json" \
             --output="$DATA_FOLDER/index.html"
           touch "$DATA_FOLDER/.nojekyll"
-          uv run python validate_data.py --data-folder "$DATA_FOLDER"
+          uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"
 
       - name: Publish snapshot to data branch
         shell: bash

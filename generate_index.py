@@ -6,6 +6,18 @@ from datetime import datetime
 from pathlib import Path
 
 
+def workspace_path(value: str) -> Path:
+    workspace = Path.cwd().resolve()
+    candidate = (workspace / value).resolve()
+    try:
+        candidate.relative_to(workspace)
+    except ValueError as error:
+        raise argparse.ArgumentTypeError(
+            f"path must remain within the workspace: {value}"
+        ) from error
+    return candidate
+
+
 def format_datetime(iso_string: str) -> str:
     if not iso_string or iso_string == "N/A":
         return "N/A"
@@ -115,13 +127,21 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Generate a static index from file_details.json."
     )
-    parser.add_argument("--json_path", default="data/file_details.json")
+    parser.add_argument(
+        "--json_path",
+        type=workspace_path,
+        default="data/file_details.json",
+    )
     parser.add_argument(
         "--github_base",
         default=os.getenv(
             "GITHUB_BASE", "https://github.com/NTHU-SA/NTHU-Data-Scraper"
         ),
     )
-    parser.add_argument("--output", default="data/index.html")
+    parser.add_argument(
+        "--output",
+        type=workspace_path,
+        default="data/index.html",
+    )
     args = parser.parse_args()
     generate_html_report(args.json_path, args.github_base, args.output)

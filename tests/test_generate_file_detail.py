@@ -1,7 +1,13 @@
 import datetime
 import json
 
-from generate_file_detail import calculate_sha256, generate_file_detail_json
+import pytest
+
+from generate_file_detail import (
+    calculate_sha256,
+    generate_file_detail_json,
+    workspace_path,
+)
 
 FIRST_RUN = datetime.datetime(2026, 9, 27, 12, 0, tzinfo=datetime.timezone.utc)
 SECOND_RUN = datetime.datetime(2026, 9, 27, 14, 0, tzinfo=datetime.timezone.utc)
@@ -9,6 +15,13 @@ SECOND_RUN = datetime.datetime(2026, 9, 27, 14, 0, tzinfo=datetime.timezone.utc)
 
 def _entry(metadata, folder="/", index=0):
     return metadata["file_details"][folder][index]
+
+
+def test_cli_paths_must_remain_in_workspace(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    assert workspace_path("data/file_details.json").is_relative_to(tmp_path)
+    with pytest.raises(ValueError, match="must remain within"):
+        workspace_path("../file_details.json")
 
 
 def test_sha256_uses_exact_file_bytes(tmp_path):
