@@ -1,0 +1,30 @@
+[
+    {
+        "time": "8:50",
+        "description": "大型巴士",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "12:10",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "13:10",
+        "description": "",
+        "line": "red",
+        "dep_stop": "校門",
+        "route": "南大區間車"
+    },
+    {
+        "time": "16:20",
+        "description": "",
+        "line": "green",
+        "dep_stop": "綜二",
+        "route": "南大區間車"
+    }
+]

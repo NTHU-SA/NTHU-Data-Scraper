@@ -4,13 +4,18 @@
 
 | Branch | Responsibility |
 |---|---|
-| `main` | Source, tests, workflows, uv lockfile, and documentation |
+| `main` | Source plus a temporarily retained legacy `data/` snapshot; generated updates are never committed here |
 | `data` | Canonical generated dataset and static Pages files at branch root |
 | `gh-pages` | Temporary, unchanged rollback branch pending production verification |
 
 The `data` branch inherits the historical `main` ancestry. Its current tree is
 data-only, while old source and generated-data commits remain reachable in
 history.
+
+`main/data/` remains tracked during this transition as an additional rollback
+snapshot. It is not authoritative: each workflow run hydrates it from the
+latest `data` branch before crawling, and only the `data` branch receives
+generated-data commits.
 
 ## Scheduled lifecycle
 

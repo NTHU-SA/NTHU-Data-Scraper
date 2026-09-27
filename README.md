@@ -5,13 +5,18 @@ publishes it at <https://data.nthusa.tw/>.
 
 ## Repository architecture
 
-- `main` contains crawler source, tests, publishing tools, workflows, and
-  development documentation. Generated data is not committed to this branch.
+- `main` contains crawler source, tests, publishing tools, workflows,
+  development documentation, and a temporarily retained legacy `data/`
+  snapshot. The workflow never commits generated updates back to `main`.
 - `data` contains the canonical generated snapshot at the branch root. This is
   the future GitHub Pages source (`data` / root).
 - `gh-pages` is the unchanged legacy Pages snapshot retained temporarily for
   rollback. Delete it only after the `data` deployment and scheduled publishing
   cycle have been verified in production.
+
+  The retained `main/data/` tree is a migration fallback, not the canonical
+  publishing source. Scheduled runs overwrite their local copy from the latest
+  `data` branch before crawling and publish changes only to `data`.
 
 Public paths remain unchanged, including:
 
