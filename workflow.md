@@ -61,6 +61,10 @@ The regular spider set remains:
 - `nthu_libraries` (failure-isolated because upstream sites may reject hosted
   runner IPs)
 
+Each scheduled spider runs in its own named GitHub Actions step, in the order
+listed above, so its logs and status are visible separately. A failure stops
+subsequent steps and publication, except for the failure-isolated library step.
+
 Directory, maps, newsletters, announcement-list, and other legacy datasets are
 preserved by hydration; Phase 1 does not expand the crawler schedule.
 
