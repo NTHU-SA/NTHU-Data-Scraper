@@ -10,10 +10,11 @@ publishes it at <https://data.nthusa.tw/>.
   from its history, and local `data/` output is ignored by Git. The workflow
   never commits generated updates back to `main`.
 - `data` contains the canonical generated snapshot at the branch root. This is
-  the future GitHub Pages source (`data` / root).
-- `gh-pages` is the unchanged legacy Pages snapshot retained temporarily for
-  rollback. Delete it only after the `data` deployment and scheduled publishing
-  cycle have been verified in production.
+  the active GitHub Pages source (`data` / root).
+
+These are the only remote branches. Legacy `gh-pages`, archive, and migration
+branches have been removed after retaining the migration source changes in
+`main`.
 
 Scheduled runs create their local `data/` directory from the latest `data`
 branch before crawling and publish changes only to `data`.
@@ -82,7 +83,7 @@ deprecated alias for the content version:
 last_commit == version == sha256
 ```
 
-See [workflow.md](workflow.md) for the lifecycle, cutover, and rollback steps.
+See [workflow.md](workflow.md) for the lifecycle, deployment, and rollback steps.
 
 ## License
 

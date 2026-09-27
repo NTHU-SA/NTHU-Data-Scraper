@@ -6,17 +6,15 @@
 |---|---|
 | `main` | Source, tests, tools, and documentation only; generated `data/` output is ignored and removed from history |
 | `data` | Canonical generated dataset and static Pages files at branch root |
-| `gh-pages` | Temporary, unchanged rollback branch pending production verification |
 
-The `data` branch inherits the historical `main` ancestry. Its current tree is
-data-only, while old source and generated-data commits remain reachable in
-history.
+These are the only remote branches. GitHub Pages deploys from `data` / root.
+Legacy `gh-pages`, `archive/*`, and migration branches have been removed after
+transplanting the remaining migration source changes onto the cleaned `main`.
 
 `main` history has been rewritten to remove `data/` and commits that only
 updated that directory. Source changes are retained with new commit IDs.
-The `data`, `gh-pages`, and `archive/*` branches are unchanged by this cleanup
-and still retain their historical commits; this is not a repository-wide
-purge of generated data.
+The `data` branch is retained independently; cleaning `main` is not a
+repository-wide purge of generated data.
 
 Each workflow run creates an ignored local `data/` directory from the latest
 `data` branch before crawling, and only the `data` branch receives
@@ -102,29 +100,28 @@ uv run python -m scrapy crawl nthu_buses
 
 CI uses Python 3.13, `astral-sh/setup-uv`, and frozen lockfile installs.
 
-## Manual GitHub Pages cutover
+## GitHub Pages deployment
 
-Do not delete `gh-pages` during cutover.
+Pages is configured under **Settings → Pages → Deploy from a branch** with
+branch **data** and folder **/ (root)**.
 
-1. Confirm `data` contains the complete root-level snapshot and at least one
-   publication commit.
-2. Open **Settings → Pages**.
-3. Choose **Deploy from a branch**.
-4. Select branch **data** and folder **/ (root)**.
-5. Wait for deployment and verify <https://data.nthusa.tw/>.
-6. Verify `/buses.json`, `/courses.json`, `/announcements.json`, and
+1. Confirm `data` contains the complete root-level snapshot.
+2. Wait for deployment and verify <https://data.nthusa.tw/>.
+3. Verify `/buses.json`, `/courses.json`, `/announcements.json`, and
    `/file_details.json`.
-7. Verify NTHU-Data-API cache refresh behavior.
-8. Wait for at least one scheduled crawl and confirm another normal commit can
+4. Verify NTHU-Data-API cache refresh behavior.
+5. Wait for at least one scheduled crawl and confirm another normal commit can
    be pushed to `data`.
-9. Only then consider deleting `gh-pages` in a separate operation.
 
 If repository rules later protect `data`, GitHub Actions must be permitted to
 push without weakening unrelated protections.
 
 ## Rollback
 
-If production verification fails, set the Pages source back to
-`gh-pages` / root. The legacy branch and archived pre-split history remain
-unchanged, so a Pages rollback requires no history rewrite or force push.
+If a published snapshot fails verification, pause publishing and restore a
+known-good snapshot from `data` history as a new commit on `data`. Keep Pages
+pointing at `data` / root, fix the crawler or publisher on `main`, and resume
+publishing after verification. The legacy `gh-pages` and archive branches are
+no longer available as remote rollback targets.
+
 Do not restore old ancestry to the cleaned `main` branch.
