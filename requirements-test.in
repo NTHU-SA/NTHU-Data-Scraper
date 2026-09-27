@@ -1,0 +1,4 @@
+# Regenerate requirements-test.lock after changing this file or requirements.txt:
+# uv pip compile requirements-test.in --generate-hashes --universal --python-version 3.13 --no-header -o requirements-test.lock
+-r requirements.txt
+pytest
