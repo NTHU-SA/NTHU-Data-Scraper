@@ -127,7 +127,10 @@ def _to_iso(value: date | datetime) -> str:
 
 def _make_event_id(uid: str, start: str) -> str:
     """Build a stable, URL-safe id; recurring occurrences share a UID, so include start."""
-    return hashlib.sha1(f"{uid}|{start}".encode()).hexdigest()[:16]
+    # Public event identifiers, not authentication or integrity checks.
+    return hashlib.sha1(f"{uid}|{start}".encode(), usedforsecurity=False).hexdigest()[
+        :16
+    ]
 
 
 def _validate_calendar(calendar: icalendar.Calendar) -> None:

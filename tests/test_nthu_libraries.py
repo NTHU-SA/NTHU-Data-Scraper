@@ -9,6 +9,7 @@ from nthu_scraper.spiders import nthu_libraries
 from nthu_scraper.spiders.nthu_libraries import (
     CALENDARS,
     LibrariesPipeline,
+    _make_event_id,
     get_calendar_window,
     parse_calendar,
     parse_rss,
@@ -79,6 +80,17 @@ SUMMARY:Out of window
 END:VEVENT
 END:VCALENDAR
 """
+
+
+@pytest.mark.parametrize(
+    "start,expected",
+    [
+        ("2026-09-25", "36c05c1cf357ffe2"),
+        ("2026-09-28T22:00:00+08:00", "ad548bfa249d7b68"),
+    ],
+)
+def test_public_event_id_contract(start, expected):
+    assert _make_event_id("event@example.test", start) == expected
 
 
 class TestParseRss:
