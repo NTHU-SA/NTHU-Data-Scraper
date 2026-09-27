@@ -83,6 +83,11 @@ jobs:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_libraries
 
+      - name: Run campus calendar spider
+        env:
+          DATA_FOLDER: ${{ env.DATA_FOLDER }}
+        run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_calendars
+
       - name: Validate and generate publishing files
         run: |
           uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"

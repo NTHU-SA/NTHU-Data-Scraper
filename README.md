@@ -24,6 +24,7 @@ Public paths remain unchanged, including:
 - <https://data.nthusa.tw/buses.json>
 - <https://data.nthusa.tw/courses.json>
 - <https://data.nthusa.tw/announcements.json>
+- <https://data.nthusa.tw/calendars.json>
 - <https://data.nthusa.tw/file_details.json>
 
 ## Development
@@ -129,6 +130,25 @@ separate migration of pipeline construction and spider access.
 - `nthu_maps`: gets campus map data
 - `nthu_newsletters`: collects newsletters
 - `nthu_libraries`: collects library RSS feeds and opening-hours calendars
+- `nthu_calendars`: collects the university academic calendar
+
+### Campus calendar
+
+`uv run python -m scrapy crawl nthu_calendars` writes `data/calendars.json`,
+published as `/calendars.json` at the website root (not under `libraries/`).
+The scheduled workflow refreshes it every two hours from the public
+[Google ICS feed](https://calendar.google.com/calendar/ical/nthu.acad%40gmail.com/public/basic.ics)
+linked by the [official calendar page](https://dgaa.site.nthu.edu.tw/p/412-1209-2942.php?Lang=zh-tw).
+
+The output is an array of calendars. The `academic` entry contains `id`, `name`,
+`description`, `timezone`, `url` (Google Calendar), `source_url` (official page),
+`ical_url`, and `events`. Events use the existing library calendar format:
+`id`, `title`, `description`, `start`, `end`, and `all_day`.
+Recurring events are expanded from January 1 of the previous year up to,
+but not including, January 1 two years ahead, using Taipei time.
+All-day dates use `YYYY-MM-DD`; timed events use ISO 8601 with a `+08:00` offset.
+Event end dates are exclusive. Failed, malformed, or empty refreshes leave the
+previous calendar intact; a failed first crawl does not create an empty file.
 
 ## Publishing
 

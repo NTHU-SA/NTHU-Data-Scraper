@@ -61,6 +61,7 @@ The regular spider set remains:
 - `nthu_courses`
 - `nthu_dining`
 - `nthu_libraries`
+- `nthu_calendars`
 
 Each scheduled spider runs in its own named GitHub Actions step, in the order
 listed above, so its logs and status are visible separately. A failure stops
@@ -72,7 +73,8 @@ open/close and startup failures), and unfinished crawls. This matters because
 standard Scrapy can log an implementation error yet exit successfully.
 
 Directory, maps, newsletters, announcement-list, and other legacy datasets are
-preserved by hydration; Phase 2A does not expand the crawler schedule.
+preserved by hydration. Campus calendars are published at `/calendars.json`;
+library calendars remain at `/libraries/calendars.json`.
 
 ## Validation and metadata
 
