@@ -139,15 +139,21 @@ def generate_commit_message(changes: list[StagedChange]) -> str:
 
 
 def main() -> int:
+    """Write a commit message, or succeed with empty stdout when nothing to publish."""
     changes = read_staged_changes()
     if not changes:
-        print("No staged published data changes.", file=sys.stderr)
-        return 1
+        print(
+            "No staged published data changes; skipping publication.", file=sys.stderr
+        )
+        return 0
     try:
         message = generate_commit_message(changes)
-    except NoDatasetChangesError as error:
-        print(error, file=sys.stderr)
-        return 2
+    except NoDatasetChangesError:
+        print(
+            "No dataset changes; skipping generated-only snapshot.",
+            file=sys.stderr,
+        )
+        return 0
     sys.stdout.write(message)
     return 0
 

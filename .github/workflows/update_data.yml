@@ -26,17 +26,17 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.13.2
 
       - name: Set up uv
-        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7
         with:
           enable-cache: true
 
@@ -125,5 +125,8 @@ jobs:
             cd "$published"
             python "$GITHUB_WORKSPACE/generate_data_commit_message.py"
           ) > "$message_file"
+          if [[ ! -s "$message_file" ]]; then
+            exit 0
+          fi
           git -C "$published" commit -F "$message_file"
           git -C "$published" push origin HEAD:data

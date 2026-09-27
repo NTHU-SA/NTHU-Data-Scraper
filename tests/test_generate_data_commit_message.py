@@ -1,4 +1,6 @@
 import subprocess
+import sys
+from pathlib import Path
 
 import pytest
 
@@ -141,3 +143,56 @@ def test_reads_actual_staged_diff_with_unicode_and_rename(tmp_path, monkeypatch)
             "announcements/教務處 new.json",
         )
     ]
+
+
+@pytest.mark.parametrize(
+    ("paths", "has_dataset_changes"),
+    [
+        ([], False),
+        (["file_details.json", "index.html", ".nojekyll", "CNAME"], False),
+        (["announcements.json"], True),
+        (["announcements.json", "file_details.json", "index.html"], True),
+    ],
+    ids=["unchanged", "generated-only", "dataset-only", "mixed"],
+)
+def test_cli_skips_only_snapshots_without_dataset_changes(
+    tmp_path, paths, has_dataset_changes
+):
+    subprocess.run(["git", "init", "-q"], cwd=tmp_path, check=True)
+    for path in paths:
+        (tmp_path / path).write_text("{}", encoding="utf-8")
+    subprocess.run(["git", "add", "-A"], cwd=tmp_path, check=True)
+
+    script = Path(__file__).resolve().parents[1] / "generate_data_commit_message.py"
+    result = subprocess.run(
+        [sys.executable, str(script)],
+        cwd=tmp_path,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    assert result.returncode == 0
+    if has_dataset_changes:
+        assert result.stdout.startswith(
+            "data(announcements): update published snapshot\n"
+        )
+        assert result.stderr == ""
+    else:
+        assert result.stdout == ""
+        assert "skipping" in result.stderr
+
+
+def test_cli_git_errors_still_fail(tmp_path):
+    script = Path(__file__).resolve().parents[1] / "generate_data_commit_message.py"
+    result = subprocess.run(
+        [sys.executable, str(script)],
+        cwd=tmp_path,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    assert result.returncode != 0
+    assert result.stdout == ""
+    assert "CalledProcessError" in result.stderr

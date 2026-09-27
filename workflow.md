@@ -45,7 +45,11 @@ an in-progress publication. It has only `contents: write` permission.
 Data commits use `data(<changed-datasets>): update published snapshot`. Scopes
 are sorted alphabetically and derived from the actual staged dataset diff. The
 body records every changed path, with generated metadata listed separately. If
-the staged tree is unchanged, the workflow creates no commit.
+the staged tree is unchanged or only publishing controls have changed, the
+workflow succeeds without committing or pushing a snapshot. The commit-message
+CLI signals this normal no-op with exit code 0, empty stdout, and an informational
+message on stderr; the publisher skips publication when the message file is
+empty. Git failures still fail the workflow.
 
 Hydration excludes `.git`, `.nojekyll`, `CNAME`, and `index.html`, while
 retaining the previous `file_details.json` so unchanged datasets preserve their
@@ -119,7 +123,9 @@ uv run pytest -q
 uv run python -m scrapy crawl nthu_buses
 ```
 
-CI uses Python 3.13, `astral-sh/setup-uv`, and frozen lockfile installs.
+CI uses Python 3.13 and frozen lockfile installs. Both workflows use Node.js 24
+Actions: `actions/checkout@v5`, `actions/setup-python@v6`, and
+`astral-sh/setup-uv@v7` (pinned to a commit).
 
 ## GitHub Pages deployment
 
