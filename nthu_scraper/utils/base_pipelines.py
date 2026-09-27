@@ -49,10 +49,8 @@ class JsonFilePipeline:
         Args:
             spider: 關閉的爬蟲物件。
         """
-        if save_json(self.collected_data, self.output_path):
-            spider.logger.info(f'✅ 成功儲存資料至 "{self.output_path}"')
-        else:
-            spider.logger.error(f'❌ 儲存資料失敗 "{self.output_path}"')
+        save_json(self.collected_data, self.output_path)
+        spider.logger.info(f'✅ 成功儲存資料至 "{self.output_path}"')
 
 
 class DictJsonFilePipeline:
@@ -98,7 +96,5 @@ class DictJsonFilePipeline:
         Args:
             spider: 關閉的爬蟲物件。
         """
-        if save_json(self.collected_data, self.output_path):
-            spider.logger.info(f'✅ 成功儲存資料至 "{self.output_path}"')
-        else:
-            spider.logger.error(f'❌ 儲存資料失敗 "{self.output_path}"')
+        save_json(self.collected_data, self.output_path)
+        spider.logger.info(f'✅ 成功儲存資料至 "{self.output_path}"')

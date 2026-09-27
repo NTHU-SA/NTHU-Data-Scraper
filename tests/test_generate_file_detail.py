@@ -96,10 +96,9 @@ def test_missing_malformed_and_pre_sha_metadata_are_safe(tmp_path):
     assert _entry(missing)["last_updated"] == "2026-09-27T20:00:00+08:00"
 
     metadata_path.write_text("{invalid", encoding="utf-8")
-    malformed = generate_file_detail_json(
-        data_folder, metadata_path, generated_at=SECOND_RUN
-    )
-    assert _entry(malformed)["last_updated"] == "2026-09-27T22:00:00+08:00"
+    with pytest.raises(json.JSONDecodeError):
+        generate_file_detail_json(data_folder, metadata_path, generated_at=SECOND_RUN)
+    assert metadata_path.read_text(encoding="utf-8") == "{invalid"
 
     metadata_path.write_text(
         json.dumps(

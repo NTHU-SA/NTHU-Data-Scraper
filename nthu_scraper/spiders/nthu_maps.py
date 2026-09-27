@@ -5,7 +5,8 @@ from typing import Dict
 import scrapy
 
 from nthu_scraper.utils.constants import DATA_FOLDER
-from nthu_scraper.utils.file_utils import save_json
+from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.crawl_safety import log_source_failure
 
 # --- 全域參數設定 ---
 OUTPUT_PATH = DATA_FOLDER / "maps"
@@ -41,11 +42,17 @@ class MapSpider(scrapy.Spider):
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_maps.JsonMapPipeline": 1},
     }
 
+    async def start(self):
+        for map_type, url in MAP_URLS.items():
+            yield scrapy.Request(
+                url, meta={"map_type": map_type}, errback=log_source_failure,
+            )
+
     def parse(self, response):
         """
         解析地圖資訊頁面，提取地圖座標資料。
         """
-        map_type = ""
+        map_type = response.meta.get("map_type", "")
         # 比對網址以確認地圖類型
         response_url = response.url.rstrip("/")
         for name, url in MAP_URLS.items():
@@ -99,7 +106,11 @@ class JsonMapPipeline:
         Spider 開啟時執行，建立必要的資料夾。
         """
         OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
-        self.all_map_data = {}
+        previous = load_json(COMBINED_JSON_FILE)
+        self.all_map_data = previous if previous is not None else {}
+        if not isinstance(self.all_map_data, dict):
+            raise ValueError("Expected maps.json to contain an object")
+        self.refreshed_types = set()
 
     def process_item(self, item, spider):
         """
@@ -109,17 +120,16 @@ class JsonMapPipeline:
             item_dict = dict(item)
             map_type = item_dict["map_type"]
             map_data = item_dict["data"]
+            if not map_data:
+                spider.logger.warning("Empty map refresh; retaining %s", map_type)
+                return item
             map_data = dict(sorted(map_data.items()))  # 對地點名稱排序
 
-            self.all_map_data[map_type] = map_data  # 收集所有地圖資料
-
             file_path = OUTPUT_PATH / f"{map_type}.json"
-            if save_json(map_data, file_path):
-                spider.logger.info(
-                    f'✅ 成功儲存 {map_type} 的地圖座標資料至 "{file_path}"'
-                )
-            else:
-                spider.logger.error(f"❌ 儲存檔案 {file_path} 失敗")
+            save_json(map_data, file_path)
+            self.all_map_data[map_type] = map_data
+            self.refreshed_types.add(map_type)
+            spider.logger.info(f'✅ 成功儲存 {map_type} 的地圖座標資料至 "{file_path}"')
         return item
 
     def close_spider(self, spider):
@@ -128,7 +138,9 @@ class JsonMapPipeline:
         """
         # Sort keys before saving
         sorted_data = dict(sorted(self.all_map_data.items()))
-        if save_json(sorted_data, COMBINED_JSON_FILE):
-            spider.logger.info(f"✅ 成功儲存地圖資料至 {COMBINED_JSON_FILE}")
-        else:
-            spider.logger.error(f"❌ 儲存地圖資料失敗 {COMBINED_JSON_FILE}")
+        for map_type in MAP_URLS.keys() - self.refreshed_types:
+            spider.logger.warning(
+                "Map type not refreshed; retaining baseline if present: %s", map_type
+            )
+        save_json(sorted_data, COMBINED_JSON_FILE)
+        spider.logger.info(f"✅ 成功儲存地圖資料至 {COMBINED_JSON_FILE}")

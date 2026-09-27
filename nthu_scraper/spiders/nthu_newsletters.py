@@ -8,7 +8,8 @@ import scrapy
 from scrapy.http import Response
 
 from nthu_scraper.utils.constants import DATA_FOLDER
-from nthu_scraper.utils.file_utils import save_json
+from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
 
 # --- 全域參數設定 ---
 COMBINED_JSON_FILE = DATA_FOLDER / "newsletters.json"
@@ -37,7 +38,7 @@ class NewsletterArticle(scrapy.Item):
     date = scrapy.Field()
 
 
-class NewsletterSpider(scrapy.Spider):
+class NewsletterSpider(WholeDatasetSpider):
     """
     清華大學電子報爬蟲。
 
@@ -52,7 +53,9 @@ class NewsletterSpider(scrapy.Spider):
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_newsletters.JsonPipeline": 1},
     }
 
-    processed_urls: Set[str] = set()  # 用於追蹤已處理的 URL，避免重複請求
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.processed_urls: Set[str] = set()
 
     def parse(self, response: Response) -> scrapy.Request:
         """
@@ -68,22 +71,25 @@ class NewsletterSpider(scrapy.Spider):
 
         gallery = response.css("div.gallery")
         if not gallery:
-            self.logger.error("❎ 找不到電子報列表")
+            self.mark_incomplete("Newsletter root contained no gallery")
             return
 
         for li in gallery.css("li"):
             h3 = li.css("h3")
             if not h3:
+                self.mark_incomplete("Newsletter gallery entry has no heading")
                 continue
 
             a = h3.css("a")
             if not a:
+                self.mark_incomplete("Newsletter gallery entry has no link")
                 continue
 
-            name = a.css("::text").get().strip()
-            link = a.css("::attr(href)").get()
+            name = (a.css("::text").get() or "").strip()
+            link = (a.css("::attr(href)").get() or "").strip()
 
             if not link or not name:
+                self.mark_incomplete("Newsletter gallery entry has no usable link or name")
                 continue
 
             # 提取表格資料
@@ -114,6 +120,7 @@ class NewsletterSpider(scrapy.Spider):
             yield scrapy.Request(
                 url=link,
                 callback=self.parse_newsletter_content,
+                errback=self.handle_request_error,
                 meta={"newsletter": newsletter},
                 dont_filter=False,  # 不重複處理相同的 URL
             )
@@ -134,13 +141,13 @@ class NewsletterSpider(scrapy.Spider):
         content = response.css("div#acyarchivelisting")
         if not content:
             self.logger.warning(f"⚠️ 找不到電子報內容：{newsletter['name']}")
-            yield newsletter
+            self.mark_incomplete(f"Missing newsletter content: {response.url}")
             return
 
         table = content.css("table.contentpane")
         if not table:
             self.logger.warning(f"⚠️ 找不到文章表格：{newsletter['name']}")
-            yield newsletter
+            self.mark_incomplete(f"Missing newsletter article table: {response.url}")
             return
 
         articles = []
@@ -174,7 +181,12 @@ class NewsletterSpider(scrapy.Spider):
             # 只有當文章至少有標題時才加入列表
             if article.get("title"):
                 articles.append(dict(article))
+            else:
+                self.mark_incomplete(f"Unusable newsletter article: {response.url}")
 
+        if not articles:
+            self.mark_incomplete(f"No usable newsletter articles: {response.url}")
+            return
         newsletter["articles"] = articles
         yield newsletter
 
@@ -218,6 +230,7 @@ class JsonPipeline:
         Spider 開啟時執行，建立必要的資料夾。
         """
         COMBINED_JSON_FILE.parent.mkdir(parents=True, exist_ok=True)
+        load_json(COMBINED_JSON_FILE)
         self.combined_data = []
 
     def process_item(self, item, spider):
@@ -242,8 +255,8 @@ class JsonPipeline:
         """
         Spider 關閉時執行，合併所有電子報 JSON 檔案。
         """
+        if not spider.can_replace_dataset(self.combined_data):
+            return
         sorted_data = sorted(self.combined_data, key=lambda x: x["name"])
-        if save_json(sorted_data, COMBINED_JSON_FILE):
-            spider.logger.info(f'✅ 成功儲存電子報資料至 "{COMBINED_JSON_FILE}"')
-        else:
-            spider.logger.error(f'❌ 儲存電子報資料失敗 "{COMBINED_JSON_FILE}"')
+        save_json(sorted_data, COMBINED_JSON_FILE)
+        spider.logger.info(f'✅ 成功儲存電子報資料至 "{COMBINED_JSON_FILE}"')

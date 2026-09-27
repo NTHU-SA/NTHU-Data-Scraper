@@ -1,8 +1,9 @@
 """File and JSON utility functions."""
 
-import json
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Optional
+
+from nthu_scraper.storage import read_json_optional, write_json_atomic
 
 
 def load_json(file_path: Path) -> Optional[Any]:
@@ -13,20 +14,12 @@ def load_json(file_path: Path) -> Optional[Any]:
         file_path: JSON 檔案路徑。
 
     Returns:
-        若成功載入則返回 JSON 資料，否則返回 None。
+        若檔案不存在則返回 None；JSON 解析及 I/O 錯誤向上傳遞。
     """
-    if not file_path.exists():
-        print(f"警告：JSON 檔案 '{file_path}' 不存在。")
-        return None
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except json.JSONDecodeError as e:
-        print(f"錯誤：JSON 檔案解析失敗 '{file_path}': {e}")
-        return None
+    return read_json_optional(file_path)
 
 
-def save_json(data: Any, file_path: Path, ensure_dir: bool = True) -> bool:
+def save_json(data: Any, file_path: Path, ensure_dir: bool = True) -> None:
     """
     儲存資料為 JSON 檔案。
 
@@ -35,15 +28,6 @@ def save_json(data: Any, file_path: Path, ensure_dir: bool = True) -> bool:
         file_path: JSON 檔案路徑。
         ensure_dir: 是否確保目錄存在。
 
-    Returns:
-        成功返回 True，失敗返回 False。
+    序列化及 I/O 錯誤向上傳遞，保留原檔案。
     """
-    try:
-        if ensure_dir:
-            file_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-        return True
-    except Exception as e:
-        print(f"錯誤：儲存 JSON 檔案失敗 '{file_path}': {e}")
-        return False
+    write_json_atomic(data, file_path, ensure_dir=ensure_dir)

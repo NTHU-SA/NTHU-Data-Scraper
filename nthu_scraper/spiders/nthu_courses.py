@@ -1,4 +1,3 @@
-import json
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Dict, List
@@ -7,6 +6,8 @@ import scrapy
 
 from nthu_scraper.utils.constants import DATA_FOLDER
 from nthu_scraper.utils.file_utils import save_json
+from nthu_scraper.storage import write_json_atomic
+from nthu_scraper.utils.crawl_safety import log_source_failure
 
 # --- 全域參數設定 ---
 OUTPUT_FOLDER = DATA_FOLDER / "courses"
@@ -166,7 +167,9 @@ class CoursesSpider(scrapy.Spider):
     async def start(self):
         # 逐筆建立 Request 並傳入 data_type 到 meta 中
         for data_type, url in COURSE_DATA_URL.items():
-            yield scrapy.Request(url=url, meta={"data_type": data_type})
+            yield scrapy.Request(
+                url=url, meta={"data_type": data_type}, errback=log_source_failure,
+            )
 
     def parse(self, response):
         """
@@ -174,9 +177,9 @@ class CoursesSpider(scrapy.Spider):
         """
         try:
             data: Any = response.json()
-        except Exception as e:
+        except ValueError as e:
             self.logger.error(f"❎ JSON 解析失敗: {e}")
-            return
+            raise
 
         data_type = response.meta.get("data_type", "")
         self.logger.info(f"✅ 成功取得資料 ({data_type}): {response.url}")
@@ -186,27 +189,24 @@ class CoursesSpider(scrapy.Spider):
             self.logger.warning(f'⚠️ 在【{data_type}】發現特殊格式，取出 "工作表1" 資料')
             data = data["工作表1"]
 
-        # 儲存原始 JSON 資料
+        try:
+            semesters = self._group_courses(data)
+        except ValueError as error:
+            self.logger.error("Invalid course response; retaining previous files: %s", error)
+            raise
+
+        # Validate every record and prepare all semester outputs before any write.
         OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
         file_name = f"{data_type}.json" if data_type else "latest.json"
         output_file = OUTPUT_FOLDER / file_name
-        try:
-            with output_file.open("w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            self.logger.info(f"✅ 原始資料已儲存至: {output_file}")
-        except IOError as e:
-            self.logger.error(f"❎ 儲存原始資料錯誤: {e}")
+        write_json_atomic(data, output_file, indent=2)
+        self.logger.info(f"✅ 原始資料已儲存至: {output_file}")
 
         if data_type == "latest":
             save_json(data, LATEST_JSON)
             self.logger.info(f"✅ 更新最新課程資料至: {LATEST_JSON}")
 
-        # 呼叫分檔方法處理課程資料 (僅當資料為列表時)
-        semesters_folder = OUTPUT_FOLDER / "semesters"
-        if isinstance(data, list):
-            self.split_course_data(data, semesters_folder)
-        else:
-            self.logger.error("❎ 資料格式非列表，無法分檔")
+        self._write_semesters(semesters, OUTPUT_FOLDER / "semesters")
 
     def split_course_data(
         self, data: List[Dict[str, Any]], output_folder: Path
@@ -218,24 +218,39 @@ class CoursesSpider(scrapy.Spider):
             data: 課程資料列表。
             output_folder: 儲存分檔資料的資料夾。
         """
-        semesters: Dict[str, List[Dict[str, Any]]] = {}
+        self._write_semesters(self._group_courses(data), output_folder)
 
-        for course_dict in data:
+    def _group_courses(self, data: Any) -> Dict[str, List[Dict[str, Any]]]:
+        if not isinstance(data, list) or not data:
+            raise ValueError("Course collection must be a non-empty list")
+        semesters: Dict[str, List[Dict[str, Any]]] = {}
+        for index, course_dict in enumerate(data):
+            if not isinstance(course_dict, dict):
+                raise ValueError(f"Course record {index} must be an object")
             course_data = CoursesData.from_dict(course_dict)
             course_id = course_data.id
             semester = course_id[:5]
-            if len(semester) != 5:
-                self.logger.error(f"❎ 科號格式錯誤: {course_dict}")
-                continue
+            if (
+                len(semester) != 5
+                or not semester.isascii()
+                or not semester.isdigit()
+                or not course_id[5:].strip()
+                or not (course_data.chinese_title or course_data.english_title)
+            ):
+                raise ValueError(
+                    f"Course record {index} has no usable course identity or title"
+                )
             if semester not in semesters:
                 self.logger.info(f"✅ 新增學期: {semester}")
                 semesters[semester] = []
             semesters[semester].append(asdict(course_data))
+        return semesters
 
+    def _write_semesters(
+        self, semesters: Dict[str, List[Dict[str, Any]]], output_folder: Path
+    ) -> None:
         output_folder.mkdir(parents=True, exist_ok=True)
         for semester, courses in semesters.items():
             semester_file = output_folder / f"{semester}.json"
-            if save_json(courses, semester_file, ensure_dir=False):
-                self.logger.info(f"✅ 儲存學期 {semester} 資料至: {semester_file}")
-            else:
-                self.logger.error(f"❌ 儲存學期 {semester} 資料失敗: {semester_file}")
+            save_json(courses, semester_file, ensure_dir=False)
+            self.logger.info(f"✅ 儲存學期 {semester} 資料至: {semester_file}")

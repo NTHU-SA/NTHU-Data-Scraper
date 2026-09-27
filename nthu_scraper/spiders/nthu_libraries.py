@@ -18,6 +18,7 @@ from urllib.parse import quote, urljoin
 import icalendar
 import recurring_ical_events
 import scrapy
+from lxml import etree
 from scrapy.http import Response
 from scrapy.selector import Selector
 
@@ -26,6 +27,7 @@ from nthu_scraper.utils.constants import (
     LIBRARIES_RSS_JSON_PATH,
 )
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.crawl_safety import log_source_failure
 
 LIBRARY_BASE_URL = "https://www.lib.nthu.edu.tw/"
 RSS_URL_TEMPLATE = "https://www.lib.nthu.edu.tw/bulletin/RSS/export/rss_{}.xml"
@@ -42,6 +44,10 @@ CALENDAR_EMBED_URL_TEMPLATE = "https://calendar.google.com/calendar/embed?src={}
 
 # Taiwan has no DST, so a fixed offset is safe and avoids needing tzdata on Windows.
 TAIPEI_TZ = timezone(timedelta(hours=8))
+
+
+class InvalidLibrarySource(ValueError):
+    """An upstream document cannot be safely parsed as a complete source."""
 
 
 def normalize_rss_item_urls(item: Dict[str, Any]) -> None:
@@ -63,6 +69,13 @@ def parse_rss(xml_text: str) -> List[Dict[str, Any]]:
     Field names follow the RSS tags so the output matches what NTHU-Data-API
     previously produced by parsing the feed on every request.
     """
+    try:
+        etree.fromstring(
+            xml_text.encode("utf-8"),
+            parser=etree.XMLParser(resolve_entities=False, no_network=True),
+        )
+    except etree.XMLSyntaxError as error:
+        raise InvalidLibrarySource(str(error)) from error
     selector = Selector(text=xml_text, type="xml")
     selector.remove_namespaces()
 
@@ -72,7 +85,7 @@ def parse_rss(xml_text: str) -> List[Dict[str, Any]]:
 
     channels = selector.xpath("//channel")
     if not channels:
-        raise ValueError("RSS response does not contain a channel")
+        raise InvalidLibrarySource("RSS response does not contain a channel")
 
     items = []
     for node in channels[0].xpath("item"):
@@ -86,6 +99,9 @@ def parse_rss(xml_text: str) -> List[Dict[str, Any]]:
             "author": text_of(node, "author"),
             "image": None,
         }
+
+        if not item["title"]:
+            raise InvalidLibrarySource("RSS contains an item without a title")
 
         image_node = node.xpath("image")
         if image_node:
@@ -114,6 +130,18 @@ def _make_event_id(uid: str, start: str) -> str:
     return hashlib.sha1(f"{uid}|{start}".encode("utf-8")).hexdigest()[:16]
 
 
+def _validate_calendar(calendar: icalendar.Calendar) -> None:
+    if calendar.name != "VCALENDAR":
+        raise InvalidLibrarySource("Expected a VCALENDAR document")
+    for component in calendar.walk():
+        if component.errors:
+            raise InvalidLibrarySource(f"Invalid calendar properties: {component.errors}")
+        if component.name == "VEVENT" and not isinstance(
+            getattr(component.get("DTSTART"), "dt", None), (date, datetime)
+        ):
+            raise InvalidLibrarySource("Calendar event has no usable DTSTART")
+
+
 def parse_calendar(
     ics_content: bytes | str, window_start: date, window_end: date
 ) -> Dict[str, Any]:
@@ -123,10 +151,18 @@ def parse_calendar(
     A window is required because some events recur forever (no UNTIL/COUNT).
     All-day events use date strings; `end` is exclusive, following iCal semantics.
     """
-    calendar = icalendar.Calendar.from_ical(ics_content)
+    try:
+        calendar = icalendar.Calendar.from_ical(ics_content)
+    except ValueError as error:
+        raise InvalidLibrarySource(str(error)) from error
+    _validate_calendar(calendar)
 
     events = []
-    for event in recurring_ical_events.of(calendar).between(window_start, window_end):
+    try:
+        occurrences = recurring_ical_events.of(calendar).between(window_start, window_end)
+    except ValueError as error:
+        raise InvalidLibrarySource(str(error)) from error
+    for event in occurrences:
         dtstart = event.get("DTSTART").dt
         dtend_prop = event.get("DTEND")
         if dtend_prop is not None:
@@ -197,13 +233,25 @@ class LibrariesSpider(scrapy.Spider):
             )
 
     def parse_rss_feed(self, response: Response, rss_type: str):
-        items = parse_rss(response.text)
+        try:
+            items = parse_rss(response.text)
+        except InvalidLibrarySource as error:
+            self.logger.warning(
+                "Invalid RSS [%s]; retaining previous data: %s", rss_type, error
+            )
+            return
         self.logger.info(f"✅ Parsed {len(items)} items from RSS [{rss_type}]")
         yield {"kind": "rss", "key": rss_type, "data": items}
 
     def parse_calendar_feed(self, response: Response, calendar_id: str, google_id: str):
         window_start, window_end = get_calendar_window(datetime.now(TAIPEI_TZ).date())
-        calendar = parse_calendar(response.body, window_start, window_end)
+        try:
+            calendar = parse_calendar(response.body, window_start, window_end)
+        except InvalidLibrarySource as error:
+            self.logger.warning(
+                "Invalid calendar [%s]; retaining previous data: %s", calendar_id, error
+            )
+            return
         self.logger.info(
             f"✅ Parsed {len(calendar['events'])} events from calendar [{calendar_id}]"
         )
@@ -221,29 +269,50 @@ class LibrariesSpider(scrapy.Spider):
         }
 
     def handle_error(self, failure):
-        self.logger.error(
-            f"❌ Request failed: {failure.request.url} ({failure.value!r})"
-        )
+        log_source_failure(failure)
 
 
 class JsonPipeline:
     """Merge freshly crawled sources into the existing JSON files."""
 
-    def open_spider(self):
+    def open_spider(self, spider):
         self.rss: Dict[str, List[Dict[str, Any]]] = {}
         self.calendars: Dict[str, Dict[str, Any]] = {}
+        previous_rss = load_json(LIBRARIES_RSS_JSON_PATH)
+        previous_calendars = load_json(LIBRARIES_CALENDARS_JSON_PATH)
+        self.previous_rss = previous_rss if previous_rss is not None else {}
+        self.previous_calendars = (
+            previous_calendars if previous_calendars is not None else []
+        )
+        if not isinstance(self.previous_rss, dict) or not isinstance(
+            self.previous_calendars, list
+        ):
+            raise ValueError("Invalid library baseline structure")
+        spider.logger.info(
+            "Loaded library baseline: %d RSS feeds and %d calendars",
+            len(self.previous_rss), len(self.previous_calendars),
+        )
 
-    def process_item(self, item):
+    def process_item(self, item, spider):
         if item["kind"] == "rss":
+            if not item["data"] and self.previous_rss.get(item["key"]):
+                spider.logger.warning("Empty RSS refresh; retaining %s", item["key"])
+                return item
             self.rss[item["key"]] = item["data"]
         elif item["kind"] == "calendar":
+            if not item["data"]["events"] and any(
+                old["id"] == item["key"] and old.get("events")
+                for old in self.previous_calendars
+            ):
+                spider.logger.warning("Empty calendar refresh; retaining %s", item["key"])
+                return item
             self.calendars[item["key"]] = item["data"]
         return item
 
     def close_spider(self, spider):
         if self.rss:
             # Start from the previous file so feeds that failed this run are kept.
-            rss_data = load_json(LIBRARIES_RSS_JSON_PATH) or {}
+            rss_data = self.previous_rss.copy()
             rss_data.update(self.rss)
             rss_data = {key: rss_data[key] for key in RSS_TYPES if key in rss_data}
             self._save(spider, rss_data, LIBRARIES_RSS_JSON_PATH)
@@ -251,7 +320,7 @@ class JsonPipeline:
             spider.logger.error("❌ No RSS feed was crawled; keeping existing data")
 
         if self.calendars:
-            previous = load_json(LIBRARIES_CALENDARS_JSON_PATH) or []
+            previous = self.previous_calendars
             calendars = {calendar["id"]: calendar for calendar in previous}
             calendars.update(self.calendars)
             calendars_data = [calendars[key] for key in CALENDARS if key in calendars]
@@ -261,7 +330,5 @@ class JsonPipeline:
 
     @staticmethod
     def _save(spider, data, path):
-        if save_json(data, path):
-            spider.logger.info(f'✅ Saved library data to "{path}"')
-        else:
-            spider.logger.error(f'❌ Failed to save library data to "{path}"')
+        save_json(data, path)
+        spider.logger.info(f'✅ Saved library data to "{path}"')

@@ -1,9 +1,10 @@
 import argparse
 import datetime
 import hashlib
-import json
 from pathlib import Path
 from typing import Iterable, Optional
+
+from nthu_scraper.storage import read_json_optional, write_json_atomic
 
 TAIPEI_TIMEZONE = datetime.timezone(datetime.timedelta(hours=8))
 PUBLISHING_FILES = {
@@ -32,14 +33,7 @@ def _generation_time(generated_at: Optional[datetime.datetime]) -> datetime.date
 
 
 def _load_previous_details(path: Path) -> dict[tuple[str, str], dict]:
-    try:
-        with path.open(encoding="utf-8") as file:
-            data = json.load(file)
-    except FileNotFoundError:
-        return {}
-    except json.JSONDecodeError as error:
-        print(f"Warning: ignoring malformed previous metadata at {path}: {error}")
-        return {}
+    data = read_json_optional(path, {"file_details": {}})
 
     if not isinstance(data, dict):
         print(f"Warning: ignoring invalid previous metadata structure at {path}")
@@ -147,10 +141,13 @@ def generate_file_detail_json(
     )
     detail_data = {"last_updated": last_updated, "file_details": file_details}
 
-    file_detail_json_path.parent.mkdir(parents=True, exist_ok=True)
-    with file_detail_json_path.open("w", encoding="utf-8") as file:
-        json.dump(detail_data, file, indent=2, ensure_ascii=False, sort_keys=True)
-        file.write("\n")
+    write_json_atomic(
+        detail_data,
+        file_detail_json_path,
+        indent=2,
+        sort_keys=True,
+        trailing_newline=True,
+    )
 
     print(f"{file_detail_json_path} generated.")
     return detail_data

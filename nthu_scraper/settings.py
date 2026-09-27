@@ -13,6 +13,7 @@ BOT_NAME = "nthu_scraper"
 
 SPIDER_MODULES = ["nthu_scraper.spiders"]
 NEWSPIDER_MODULE = "nthu_scraper.spiders"
+COMMANDS_MODULE = "nthu_scraper.commands"
 
 LOG_LEVEL = "INFO"
 
