@@ -153,6 +153,31 @@ class CoursesData:
         return str(self.__dict__)
 
 
+def group_courses(data: Any) -> Dict[str, List[Dict[str, Any]]]:
+    """Validate and normalize the whole collection before any files are written."""
+    if not isinstance(data, list) or not data:
+        raise ValueError("Course collection must be a non-empty list")
+    semesters: Dict[str, List[Dict[str, Any]]] = {}
+    for index, course_dict in enumerate(data):
+        if not isinstance(course_dict, dict):
+            raise ValueError(f"Course record {index} must be an object")
+        course_data = CoursesData.from_dict(course_dict)
+        course_id = course_data.id
+        semester = course_id[:5]
+        if (
+            len(semester) != 5
+            or not semester.isascii()
+            or not semester.isdigit()
+            or not course_id[5:].strip()
+            or not (course_data.chinese_title or course_data.english_title)
+        ):
+            raise ValueError(
+                f"Course record {index} has no usable course identity or title"
+            )
+        semesters.setdefault(semester, []).append(asdict(course_data))
+    return semesters
+
+
 class CoursesSpider(scrapy.Spider):
     """
     清華大學課程資訊爬蟲
@@ -221,29 +246,9 @@ class CoursesSpider(scrapy.Spider):
         self._write_semesters(self._group_courses(data), output_folder)
 
     def _group_courses(self, data: Any) -> Dict[str, List[Dict[str, Any]]]:
-        if not isinstance(data, list) or not data:
-            raise ValueError("Course collection must be a non-empty list")
-        semesters: Dict[str, List[Dict[str, Any]]] = {}
-        for index, course_dict in enumerate(data):
-            if not isinstance(course_dict, dict):
-                raise ValueError(f"Course record {index} must be an object")
-            course_data = CoursesData.from_dict(course_dict)
-            course_id = course_data.id
-            semester = course_id[:5]
-            if (
-                len(semester) != 5
-                or not semester.isascii()
-                or not semester.isdigit()
-                or not course_id[5:].strip()
-                or not (course_data.chinese_title or course_data.english_title)
-            ):
-                raise ValueError(
-                    f"Course record {index} has no usable course identity or title"
-                )
-            if semester not in semesters:
-                self.logger.info(f"✅ 新增學期: {semester}")
-                semesters[semester] = []
-            semesters[semester].append(asdict(course_data))
+        semesters = group_courses(data)
+        for semester in semesters:
+            self.logger.info(f"✅ 新增學期: {semester}")
         return semesters
 
     def _write_semesters(

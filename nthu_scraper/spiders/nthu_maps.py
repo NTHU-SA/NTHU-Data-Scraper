@@ -7,6 +7,8 @@ import scrapy
 from nthu_scraper.utils.constants import DATA_FOLDER
 from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.utils.crawl_safety import log_source_failure
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.parsers.maps import parse_map_options
 
 # --- 全域參數設定 ---
 OUTPUT_PATH = DATA_FOLDER / "maps"
@@ -64,37 +66,15 @@ class MapSpider(scrapy.Spider):
             self.logger.error(f"無法識別的地圖網址: {response.url}")
             return
 
-        map_data = self.parse_html(
-            response
-        )  # Changed argument from response.text to response
+        try:
+            map_data = parse_map_options(response)
+        except ParseError as error:
+            self.logger.warning("Invalid map source; retaining %s: %s", map_type, error)
+            return
         if map_data:
             yield MapItem(map_type=map_type, data=map_data)
         else:
             self.logger.error(f"❎ 未能解析到 {map_type} 的地圖資料")
-
-    def parse_html(self, response) -> Dict[str, Dict[str, str]]:
-        """
-        解析 HTML 並提取地圖座標資料，使用 Scrapy selectors
-
-        Args:
-            response (scrapy.http.Response): Scrapy response object
-
-        Returns:
-            Dict[str, Dict[str, str]]: 以地點名稱為 key，經緯度資料（latitude, longitude）為 value 的字典
-        """
-        options = response.css("option")
-        map_data = {}
-        for option in options:
-            value = option.xpath("@value").get()
-            if not value:
-                continue
-            coords = [coord.strip() for coord in value.split(",")]
-            if len(coords) == 2:
-                location = {"latitude": coords[0], "longitude": coords[1]}
-                location_name = option.xpath("normalize-space(text())").get()
-                map_data[location_name] = location
-        return map_data
-
 
 class JsonMapPipeline:
     """

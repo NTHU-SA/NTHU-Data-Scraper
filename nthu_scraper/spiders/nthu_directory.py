@@ -7,41 +7,16 @@ import scrapy
 from nthu_scraper.utils.constants import DATA_FOLDER
 from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.parsers.directory import (
+    URL_PREFIX,
+    parse_department_details,
+    parse_department_index,
+    parse_department_link,
+)
 
 # --- 全域參數設定 ---
 COMBINED_JSON_FILE = DATA_FOLDER / "directory.json"
-URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
-
-# --- 中英文對照字典 ---
-DEPARTMENT_TRANSLATION = {
-    "分機": "extension",
-    "直撥電話": "phone",
-    "傳真電話": "fax",
-    "Email": "email",
-    "網頁": "website",
-    "姓名": "name",
-    "職稱/職責": "title",
-    "備註": "note",
-}
-
-
-# --- 輔助函式 ---
-def _translate_key(key: str) -> str:
-    """
-    將中文 key 轉換為英文 key。
-
-    Args:
-        key (str): 中文 key。
-
-    Returns:
-        str: 英文 key。
-    """
-    key = key.strip().replace("　", "")  # 移除空白
-    if key in DEPARTMENT_TRANSLATION:
-        return DEPARTMENT_TRANSLATION[key]
-    else:
-        print(f"❌ 未知的 key: {key}")
-        return key
 
 
 # --- 資料結構定義 ---
@@ -146,12 +121,11 @@ class DirectorySpider(WholeDatasetSpider):
     }
 
     def _parse_department_link(self, link):
-        href = (link.css("::attr(href)").get() or "").strip()
-        name = (link.css("::text").get() or "").strip()
-        if not href or not name:
-            self.mark_incomplete("Department listing contains an unusable link or name")
+        try:
+            return parse_department_link(link)
+        except ParseError as error:
+            self.mark_incomplete(str(error))
             return None
-        return {"name": name, "url": URL_PREFIX + href}
 
     def parse(self, response):
         """
@@ -191,8 +165,6 @@ class DirectorySpider(WholeDatasetSpider):
         """
         dept_name = response.meta["dept_name"]
         departments = []
-        contact_data = {}
-        people_data_list = []
 
         story_left = response.css("div.story_left")
         if story_left:
@@ -211,111 +183,22 @@ class DirectorySpider(WholeDatasetSpider):
                     },
                 )
 
-        story_max = response.css("div.story_max")
-        if story_max:
-            tables = story_max.css("table")
-            if tables:
-                contact_table = tables[0]
-                contact_data = self.parse_contact_table(contact_table)
-                if len(tables) > 1:
-                    people_table = tables[1]
-                    people_data_list = self.parse_people_table(people_table)
-
-        if not (departments or contact_data or people_data_list):
+        try:
+            details = parse_department_details(response, departments)
+        except ParseError as error:
+            self.mark_incomplete(f"{response.url}: {error}")
+            return
+        if not any(details.values()):
             self.mark_incomplete(f"No department details: {response.url}")
             return
 
-        dept_detail = DepartmentDetail(
-            departments=departments,
-            contact=ContactInfo(contact_data),
-            people=[Person(p) for p in people_data_list],
-        )
-
-        # 計算 index
-        query_params = response.url.split("?")[1] if "?" in response.url else ""
-        dd_value = None
-        for param in query_params.split("&"):
-            if "dd=" in param:
-                dd_value = param.split("=")[1]
-                break
-
         item = DepartmentItem()
-        item["index"] = dd_value
+        item["index"] = parse_department_index(response.url)
         item["name"] = dept_name
         item["parent_name"] = response.meta.get("parent_name", None)
         item["url"] = response.url
-        item["details"] = dept_detail
+        item["details"] = details
         yield item
-
-    def parse_contact_table(self, table):
-        """
-        解析聯絡資訊表格。
-
-        Args:
-            table (scrapy.selector.Selector): 聯絡資訊表格的 Selector 物件。
-
-        Returns:
-            Dict[str, str]: 解析後的聯絡資訊字典。
-        """
-        contact = {}
-        for row in table.css("tr"):
-            cols = row.css("td")
-            if len(cols) >= 2:
-                key_selector = cols[0].css("::text")
-                value_selector = cols[1]
-
-                key = key_selector.get().strip() if key_selector else ""
-                if key == "":
-                    continue
-                key = _translate_key(key)  # 將中文 key 轉換為英文 key
-
-                link = value_selector.css("a::attr(href)").get()
-                value_text = value_selector.css("::text").get()  # 先取得 text
-
-                if link:
-                    value = link.replace("mailto:", "") if "mailto:" in link else link
-                elif value_text:
-                    value = value_text.strip()
-                else:
-                    value = "N/A"
-                contact[key] = value
-        return contact
-
-    def parse_people_table(self, table):
-        """
-        解析人員資訊表格。
-
-        Args:
-            table (scrapy.selector.Selector): 人員資訊表格的 Selector 物件。
-
-        Returns:
-            List[Dict[str, str]]: 解析後的人員資訊列表。
-        """
-        people = []
-        rows = table.css("tr")
-        if rows:
-            header_texts = [th.css("::text").get() for th in rows[0].css("td")]
-            headers = [
-                h.strip() if h else f"header_{i}" for i, h in enumerate(header_texts)
-            ]
-
-            for row in rows[1:]:
-                cols = row.css("td")
-                person = {}
-                for i, col in enumerate(cols):
-                    if i < len(headers):  # 確保 header 存在
-                        header = headers[i]
-                        header = _translate_key(header)  # 將中文 key 轉換為英文 key
-                        link = col.css("a::attr(href)").get()
-                        col_text = col.css("::text").get()  # 先取得 text
-                        if link:
-                            person[header] = link.replace("mailto:", "")
-                        elif col_text:
-                            person[header] = col_text.strip()
-                        else:
-                            person[header] = None
-                people.append(person)
-        return people
 
 
 class JsonPipeline:

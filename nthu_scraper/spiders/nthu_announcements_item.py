@@ -1,6 +1,6 @@
 """清華大學公告爬蟲 - 公告內容爬蟲"""
 
-from typing import List, Optional
+from typing import List
 from pathlib import Path
 import re
 import scrapy
@@ -13,6 +13,8 @@ from nthu_scraper.utils.constants import (
 from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.storage import read_json
 from nthu_scraper.utils.crawl_safety import log_source_failure
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.parsers.announcements import parse_articles
 
 
 class AnnouncementItem(scrapy.Item):
@@ -105,52 +107,13 @@ class AnnouncementsItemSpider(scrapy.Spider):
         )
 
     def _extract_articles(self, response) -> List[dict]:
-        """提取公告文章列表"""
-        articles = []
-        container = response.css("#pageptlist")
-
-        # 嘗試不同的選擇器
-        announcement_items = container.css(".row.listBS")
-        if not announcement_items:
-            announcement_items = container.css("tr")
-
-        for item in announcement_items:
-            if item.css("th") and not item.css(".mtitle a"):
-                continue
-            article = self._parse_article_item(item, response)
-            if not article or not article.get("title") or not article.get("link"):
-                self.logger.warning("Incomplete announcement parse: %s", response.url)
-                return []
-            articles.append(article)
-
-        return articles
-
-    def _parse_article_item(self, item, response) -> Optional[dict]:
-        """解析單個公告項目"""
-        # 提取標題和連結
-        link_elem = item.css(".mtitle a")
-        if not link_elem:
-            return None
-
-        title = link_elem.css("::text").get()
-        if title:
-            title = title.strip().replace('"', "")
-
-        href = link_elem.css("::attr(href)").get()
-        link = response.urljoin(href) if href else None
-
-        # 提取日期
-        date = item.css(".mdate::text").get()
-        if not date:
-            date = item.css(".d-txt::text").get()
-        if date:
-            date = date.strip()
-
-        return {
-            "title": title,
-            "link": link,
-            "date": date,
-        }
+        try:
+            return parse_articles(response, response.url)
+        except ParseError as error:
+            self.logger.warning(
+                "Incomplete announcement parse; retaining %s: %s", response.url, error
+            )
+            return []
 
 
 class AnnouncementItemPipeline:

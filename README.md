@@ -51,6 +51,51 @@ For a Playwright-based spider, install its browser only when needed:
 uv run playwright install chromium
 ```
 
+### Offline parser tests
+
+After `uv sync`, parsing tests need neither internet access, a hydrated `data/`
+directory, nor Chromium:
+
+```bash
+uv run --offline --no-sync pytest -q tests/parsers tests/test_nthu_libraries.py
+uv run --offline --no-sync pytest -q
+```
+
+`nthu_scraper.parsers` contains plain functions for announcements (articles,
+list titles/content, more links and URL normalization), bus JavaScript literals
+and schedules, dining data, directory links/tables/details, map options, and
+newsletter lists/metadata/archives/dates. HTML functions accept Scrapy selectors
+or responses; bus and dining functions accept text. They do not request URLs,
+read snapshots, or write files. `CoursesData.from_dict` and `group_courses` stay
+in `nthu_courses`; the existing library parsers stay in `nthu_libraries`.
+
+Small UTF-8 examples live under `tests/fixtures/<source>/`. The parser suite
+asserts exact normalized records and exercises spider callbacks with local
+responses, including parent/child metadata and partial failures. Its socket
+tripwire rejects network connections and DNS lookups. Browser navigation is
+not executed. Library tests keep their existing inline RSS/iCalendar fixtures.
+
+Malformed required structures raise `ParseError` (a `ValueError` subclass).
+Recognizable empty structures return empty collections; course collections
+still require at least one valid record. Empty parses do **not** authorize
+deleting published data: Phase 2A's retention rules below still apply.
+Spiders catch only expected parse errors, log them, and retain a source or mark
+a whole-dataset crawl incomplete. Programming errors continue to propagate.
+Unusable map coordinates, malformed directory/metadata rows, and invalid
+newsletter dates/popups now fail explicitly rather than publishing a partial
+or malformed refresh. Valid output field names, value types, and ordering are
+preserved.
+
+Compatibility limitations intentionally retained for separate follow-up:
+bus literal normalization can replace `true`/`false`/`null` inside quoted text;
+dining uses its existing single-quote replacement and limited trailing-comma
+rules (not a general JavaScript parser, including no semicolon before
+`renderTabs`); course stripping handles only its existing `<BR>`/`<br>` forms;
+directory and newsletter links retain their existing prefix-concatenation
+rules. Missing optional newsletter dates/links remain omitted. Broad cleanup
+of legacy models, unused helpers, and mutable spider configuration is deferred
+to Phase 2C.
+
 ## Available spiders
 
 - `nthu_announcements_list`: maintains the announcement source list
