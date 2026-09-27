@@ -6,7 +6,13 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 TAIPEI_TIMEZONE = datetime.timezone(datetime.timedelta(hours=8))
-PUBLISHING_FILES = {"file_details.json", "index.html", ".nojekyll", "CNAME"}
+PUBLISHING_FILES = {
+    ".git",
+    ".nojekyll",
+    "CNAME",
+    "file_details.json",
+    "index.html",
+}
 
 
 def calculate_sha256(path: Path) -> str:

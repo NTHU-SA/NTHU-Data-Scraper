@@ -113,6 +113,7 @@ def test_nested_structure_and_publishing_files_are_handled(tmp_path):
     (data_folder / "index.html").write_text("<html></html>", encoding="utf-8")
     (data_folder / ".nojekyll").touch()
     (data_folder / "CNAME").write_text("data.example.test", encoding="utf-8")
+    (data_folder / ".git").write_text("gitdir: elsewhere", encoding="utf-8")
     metadata_path = data_folder / "file_details.json"
 
     result = generate_file_detail_json(data_folder, metadata_path, generated_at=FIRST_RUN)
