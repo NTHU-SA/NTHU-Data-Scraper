@@ -69,6 +69,11 @@ runs the current scheduled spider set, validates every JSON file, generates
 publishing metadata and the index, then creates a normal commit on `data`.
 Untouched legacy datasets remain in the hydrated snapshot.
 
+Snapshot commits use `data(<changed-datasets>): update published snapshot`.
+Sorted scopes come from actual staged dataset changes, and the commit body lists
+the exact changed paths with generated publishing files in a separate section.
+No snapshot commit is created when nothing changed.
+
 `file_details.json` now versions each exact published file with SHA-256.
 `last_commit` is retained for NTHU-Data-API compatibility, but it is a
 deprecated alias for the content version:

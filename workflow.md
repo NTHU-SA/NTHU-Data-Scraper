@@ -33,6 +33,11 @@ The workflow runs on pushes to `main`, every two hours, and manual dispatch.
 Its concurrency group permits only one publisher at a time and does not cancel
 an in-progress publication. It has only `contents: write` permission.
 
+Data commits use `data(<changed-datasets>): update published snapshot`. Scopes
+are sorted alphabetically and derived from the actual staged dataset diff. The
+body records every changed path, with generated metadata listed separately. If
+the staged tree is unchanged, the workflow creates no commit.
+
 Hydration excludes `.git`, `.nojekyll`, `CNAME`, `file_details.json`, and
 `index.html`. Existing datasets are copied before crawling, so a spider that
 does not run—or a library source that fails—does not erase its previous

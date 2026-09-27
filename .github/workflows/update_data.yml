@@ -103,5 +103,10 @@ jobs:
             exit 0
           fi
 
-          git -C "$published" commit -m "data: update published snapshot"
+          message_file="$RUNNER_TEMP/data-commit-message.txt"
+          (
+            cd "$published"
+            python "$GITHUB_WORKSPACE/generate_data_commit_message.py"
+          ) > "$message_file"
+          git -C "$published" commit -F "$message_file"
           git -C "$published" push origin HEAD:data
