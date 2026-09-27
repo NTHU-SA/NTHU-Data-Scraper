@@ -25,7 +25,7 @@ FIXTURES = Path(__file__).parent
 
 
 class FixtureResponseMiddleware:
-    def process_request(self, request):
+    def process_request(self, request, spider):
         if request.url != "https://example.test/list":
             raise AssertionError(
                 "HTTPS middleware must run before the fixture response"
