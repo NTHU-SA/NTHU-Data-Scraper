@@ -2,7 +2,6 @@
 
 from nthu_scraper.parsers import ParseError
 
-
 URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
 DEPARTMENT_TRANSLATION = {
     "分機": "extension",
@@ -54,7 +53,9 @@ def parse_people_table(table) -> list[dict]:
     if not rows:
         return []
     header_texts = [cell.css("::text").get() for cell in rows[0].css("td")]
-    headers = [text.strip() if text else f"header_{i}" for i, text in enumerate(header_texts)]
+    headers = [
+        text.strip() if text else f"header_{i}" for i, text in enumerate(header_texts)
+    ]
     if not headers:
         raise ParseError("Directory people table has no column headers")
     people = []
@@ -68,7 +69,11 @@ def parse_people_table(table) -> list[dict]:
                 link = col.css("a::attr(href)").get()
                 text = col.css("::text").get()
                 person[translate_key(headers[i])] = (
-                    link.replace("mailto:", "") if link else text.strip() if text else None
+                    link.replace("mailto:", "")
+                    if link
+                    else text.strip()
+                    if text
+                    else None
                 )
         people.append(person)
     return people

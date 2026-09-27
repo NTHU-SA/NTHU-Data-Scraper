@@ -1,12 +1,5 @@
-import json
-from pathlib import Path
-from typing import Any, Dict, List
-
 import scrapy
 
-from nthu_scraper.utils.constants import DATA_FOLDER
-from nthu_scraper.utils.file_utils import load_json, save_json
-from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.directory import (
     URL_PREFIX,
@@ -14,83 +7,9 @@ from nthu_scraper.parsers.directory import (
     parse_department_index,
     parse_department_link,
 )
-
-# --- 全域參數設定 ---
-COMBINED_JSON_FILE = DATA_FOLDER / "directory.json"
-
-
-# --- 資料結構定義 ---
-class ContactInfo:
-    """
-    聯絡資訊資料結構。
-    """
-
-    def __init__(self, data: Dict[str, str | None]):
-        """
-        初始化 ContactInfo 物件。
-
-        Args:
-            data (Dict[str, str]): 聯絡資訊字典，鍵值為項目名稱，值為項目內容。
-        """
-        self.data = data
-
-    def __repr__(self):
-        return f"ContactInfo({self.data})"
-
-
-class Person:
-    """
-    人員資料結構。
-    """
-
-    def __init__(self, data: Dict[str, str | None]):
-        """
-        初始化 Person 物件。
-
-        Args:
-            data (Dict[str, str]): 人員資訊字典，鍵值為欄位名稱，值為欄位內容。
-        """
-        self.data = data
-
-    def __repr__(self):
-        return f"Person({self.data})"
-
-
-class DepartmentDetail:
-    """
-    系所詳細資料結構。
-    """
-
-    def __init__(
-        self,
-        departments: List[Dict[str, str]],
-        contact: ContactInfo,
-        people: List[Person],
-    ):
-        """
-        初始化 DepartmentDetail 物件。
-
-        Args:
-            departments (List[Dict[str, str]]): 下級部門列表，包含名稱和 URL。
-            contact (ContactInfo): 聯絡資訊物件。
-            people (List[Person]): 人員列表，包含 Person 物件。
-        """
-        self.departments = departments
-        self.contact = contact
-        self.people = people
-
-    def __repr__(self):
-        return (
-            f"DepartmentDetail(departments={self.departments}, "
-            f"contact={self.contact}, people_count={len(self.people)})"
-        )
-
-    def to_dict(self) -> Dict[str, Any]:
-        return {
-            "departments": self.departments,
-            "contact": self.contact.data,
-            "people": [person.data for person in self.people],
-        }
+from nthu_scraper.utils.constants import DIRECTORY_JSON_PATH
+from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
+from nthu_scraper.utils.file_utils import load_json, save_json
 
 
 class DepartmentItem(scrapy.Item):
@@ -116,7 +35,7 @@ class DirectorySpider(WholeDatasetSpider):
     start_urls = [URL_PREFIX + "index.php"]
     custom_settings = {
         "LOG_LEVEL": "INFO",
-        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_directory.JsonPipeline": 1},
+        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_directory.DirectoryPipeline": 1},
         "AUTOTHROTTLE_ENABLED": True,
     }
 
@@ -201,7 +120,7 @@ class DirectorySpider(WholeDatasetSpider):
         yield item
 
 
-class JsonPipeline:
+class DirectoryPipeline:
     """
     Scrapy Pipeline，用於將爬取的 Item 儲存為 JSON 檔案。
     """
@@ -210,8 +129,8 @@ class JsonPipeline:
         """
         Spider 開啟時執行，建立必要的資料夾。
         """
-        COMBINED_JSON_FILE.parent.mkdir(parents=True, exist_ok=True)
-        load_json(COMBINED_JSON_FILE)
+        DIRECTORY_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
+        load_json(DIRECTORY_JSON_PATH)
         self.combined_data = []
 
     def process_item(self, item, spider):
@@ -219,9 +138,7 @@ class JsonPipeline:
         處理每一個 Item，儲存系所詳細資料到 JSON 檔案。
         """
         serializable_item = dict(item)
-        if hasattr(serializable_item.get("details"), "to_dict"):
-            serializable_item["details"] = serializable_item["details"].to_dict()
-        spider.logger.info(f"✅ 成功儲存【{item['name']}】")
+        spider.logger.info("Collected department: %s", item["name"])
         self.combined_data.append(serializable_item)
         return item
 
@@ -232,5 +149,5 @@ class JsonPipeline:
         if not spider.can_replace_dataset(self.combined_data):
             return
         self.combined_data.sort(key=lambda x: x.get("index") or "")
-        save_json(self.combined_data, COMBINED_JSON_FILE)
-        spider.logger.info(f'✅ 成功儲存通訊錄資料至 "{COMBINED_JSON_FILE}"')
+        save_json(self.combined_data, DIRECTORY_JSON_PATH)
+        spider.logger.info(f'✅ 成功儲存通訊錄資料至 "{DIRECTORY_JSON_PATH}"')

@@ -33,9 +33,27 @@ Python 3.13 and [uv](https://docs.astral.sh/uv/) are required.
 ```bash
 uv sync
 uv run pytest -q
+uv run ruff check .
+uv run ruff format --check .
 uv run python -m scrapy crawl nthu_buses
 uv run python -m scrapy crawl nthu_courses
 ```
+
+Use `uv run ruff format .` to apply formatting. Ruff targets Python 3.13 with
+the conservative `E4`, `E7`, `E9`, `F`, `I`, `UP`, and `B` lint rules. The
+existing test workflow runs pytest, lint, and formatting checks with frozen
+dependencies from `uv.lock`.
+
+Crawler code stays in `nthu_scraper.spiders`, with source-specific pipelines
+alongside the spiders. Shared parsing and atomic JSON operations live in
+`nthu_scraper.parsers` and `nthu_scraper.storage`; small URL, request, safety,
+and file helpers remain in `nthu_scraper.utils`. Stable dataset output paths
+are centralized in `utils/constants.py`. There are no generated item,
+pipeline, or middleware scaffold modules.
+
+Discovered bus schedule-image links belong to each spider instance, separate
+from immutable route configuration. Newsletter URL deduplication and
+whole-dataset completeness tracking are also instance-local.
 
 For announcements, hydrate `data/` from the published snapshot before running
 the item spider, or run the list spider first:
@@ -92,9 +110,13 @@ dining uses its existing single-quote replacement and limited trailing-comma
 rules (not a general JavaScript parser, including no semicolon before
 `renderTabs`); course stripping handles only its existing `<BR>`/`<br>` forms;
 directory and newsletter links retain their existing prefix-concatenation
-rules. Missing optional newsletter dates/links remain omitted. Broad cleanup
-of legacy models, unused helpers, and mutable spider configuration is deferred
-to Phase 2C.
+rules. Missing optional newsletter dates/links remain omitted.
+
+Pipeline hooks retain the explicit `spider` argument supported by the locked
+Scrapy 2.19 compatibility dispatcher. Offline subprocess tests exercise all
+active pipelines and the HTTPS middleware through Scrapy itself. Moving to
+Scrapy's newer no-spider-argument hooks is deferred; it would require a
+separate migration of pipeline construction and spider access.
 
 ## Available spiders
 

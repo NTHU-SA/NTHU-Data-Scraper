@@ -1,10 +1,8 @@
 """URL processing utility functions."""
 
-from typing import Dict, List, Optional
 from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 
-# 新增：強制 https 的輔助方法
 def force_https(url: str) -> str:
     """將 URL 的 scheme 強制為 https（簡單替換 http:// 與 // 開頭情況）"""
     if not url:
@@ -46,8 +44,8 @@ def update_url_query_param(
 
 
 def build_multi_lang_urls(
-    original_url: str, languages: List[str], lang_param: str = "Lang"
-) -> Optional[Dict[str, str]]:
+    original_url: str, languages: list[str], lang_param: str = "Lang"
+) -> dict[str, str] | None:
     """
     為給定的原始 URL 建立包含不同語言版本的 URL 字典。
 

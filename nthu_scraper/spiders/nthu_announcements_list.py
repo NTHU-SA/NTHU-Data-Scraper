@@ -1,20 +1,17 @@
 """清華大學公告爬蟲 - 公告列表爬蟲"""
 
-import re
-from typing import Dict
-
 import scrapy
 from scrapy_playwright.page import PageMethod
+
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.announcements import (
     normalize_list_url,
     parse_list_page,
     parse_more_links,
 )
-
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_LIST_PATH,
-    DIRECTORY_PATH,
+    DIRECTORY_JSON_PATH,
     LANGUAGES,
     RPAGE_DOMAIN_SUFFIX,
 )
@@ -22,7 +19,6 @@ from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.utils.url_utils import (
     build_multi_lang_urls,
     check_domain_suffix,
-    update_url_query_param,
     force_https,
 )
 
@@ -93,11 +89,10 @@ class AnnouncementsListSpider(scrapy.Spider):
         self.existing_links = self._load_existing_links()
         self.requested_urls = set()
 
-    def _load_department_urls(self) -> Dict[str, Dict[str, str]]:
+    def _load_department_urls(self) -> dict[str, dict[str, str]]:
         """從通訊錄載入單位 URL"""
         urls = {}
-        directory = load_json(DIRECTORY_PATH)
-        # directory = None
+        directory = load_json(DIRECTORY_JSON_PATH)
         if directory:
             for dept in directory:
                 try:
@@ -112,7 +107,6 @@ class AnnouncementsListSpider(scrapy.Spider):
                 except KeyError:
                     continue
 
-        # 添加其他來源（OTHER_SOURCES 已改為 https）
         urls.update(OTHER_SOURCES)
         return urls
 
@@ -123,7 +117,7 @@ class AnnouncementsListSpider(scrapy.Spider):
             return {item["link"] for item in existing_data}
         return set()
 
-    def _build_playwright_meta(self, meta: Dict) -> Dict:
+    def _build_playwright_meta(self, meta: dict) -> dict:
         new_meta = meta.copy()
         new_meta.update(
             {
@@ -167,27 +161,7 @@ class AnnouncementsListSpider(scrapy.Spider):
 
     def parse(self, response):
         """解析主頁面"""
-        # 解析 tab content 中的動態載入連結
-        # yield from self._parse_tab_content(response)
-
-        # 解析 "more" 連結
         yield from self._parse_more_links(response)
-
-    def _parse_tab_content(self, response):
-        """解析 tab content 中的公告連結"""
-        # 有點忘記為啥有他了
-        tab_panes = response.css("div.tab-pane")
-        for tab in tab_panes:
-            tab_text = tab.xpath("string(.)").get()
-            tab_url_pattern = re.compile(r'\$\.\s*hajaxOpenUrl\(\s*["\']([^"\']+)')
-            match = tab_url_pattern.search(tab_text or "")
-            if not match:
-                continue
-            url = response.urljoin(match.group(1))
-            url = update_url_query_param(url, "Lang", response.meta.get("language"))
-            request = self._build_request(url, self.parse, response.meta.copy())
-            if request:
-                yield request
 
     def _parse_more_links(self, response):
         """解析 more 連結"""
@@ -259,9 +233,6 @@ class AnnouncementListPipeline:
                     f"新增自訂公告列表: {custom_item['department']}/{custom_item['title']}"
                 )
 
-        # 檢查並移除空連結（可選：驗證連結是否仍然有效）
-        # 這裡先保留所有連結，實際驗證需要額外的請求
-
         # 按連結排序
         all_items.sort(key=lambda x: x["link"])
 
@@ -271,7 +242,6 @@ class AnnouncementListPipeline:
         )
 
 
-# 新增：在模組內定義 middleware，確保所有 outgoing request 強制為 https
 class EnforceHTTPSMiddleware:
     """
     Downloader middleware：在 request 發出前強制把 URL 換成 https。
@@ -279,7 +249,6 @@ class EnforceHTTPSMiddleware:
     """
 
     def process_request(self, request, spider):
-        # 使用 utils.url_utils.force_https（spider 模組已匯入）或直接再 import
         new_url = force_https(request.url)
         if new_url and new_url != request.url:
             # return 一個新的 Request 物件，以便 Scrapy 使用新的 URL

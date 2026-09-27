@@ -1,45 +1,49 @@
-"""清華大學公車資訊爬蟲 - 重構版本"""
+"""清華大學公車資訊爬蟲"""
 
-from pathlib import Path
-from typing import Any, Dict, List, Optional
+from types import MappingProxyType
+from typing import Any
 
 import scrapy
 
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.parsers.buses import parse_info_variable, parse_schedule_variable
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_JSON_PATH,
     BUSES_FOLDER,
     BUSES_JSON_PATH,
 )
-from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.utils.crawl_safety import log_source_failure
-from nthu_scraper.parsers import ParseError
-from nthu_scraper.parsers.buses import parse_info_variable, parse_schedule_variable
+from nthu_scraper.utils.file_utils import load_json, save_json
 
 # 公車路線配置
-BUS_CONFIG = {
-    "main": {
-        "url": "https://affairs.site.nthu.edu.tw/p/412-1165-20978.php?Lang=zh-tw",
-        "schedule_images": None,
-        "info_vars": ["towardTSMCBuildingInfo", "towardMainGateInfo"],
-        "schedule_vars": [
-            "weekdayBusScheduleTowardTSMCBuilding",
-            "weekendBusScheduleTowardTSMCBuilding",
-            "weekdayBusScheduleTowardMainGate",
-            "weekendBusScheduleTowardMainGate",
-        ],
-    },
-    "nanda": {
-        "url": "https://affairs.site.nthu.edu.tw/p/412-1165-20979.php?Lang=zh-tw",
-        "schedule_images": None,
-        "info_vars": ["towardNandaInfo", "towardMainCampusInfo"],
-        "schedule_vars": [
-            "weekdayBusScheduleTowardNanda",
-            "weekendBusScheduleTowardNanda",
-            "weekdayBusScheduleTowardMainCampus",
-            "weekendBusScheduleTowardMainCampus",
-        ],
-    },
-}
+BUS_CONFIG = MappingProxyType(
+    {
+        "main": MappingProxyType(
+            {
+                "url": "https://affairs.site.nthu.edu.tw/p/412-1165-20978.php?Lang=zh-tw",
+                "info_vars": ("towardTSMCBuildingInfo", "towardMainGateInfo"),
+                "schedule_vars": (
+                    "weekdayBusScheduleTowardTSMCBuilding",
+                    "weekendBusScheduleTowardTSMCBuilding",
+                    "weekdayBusScheduleTowardMainGate",
+                    "weekendBusScheduleTowardMainGate",
+                ),
+            }
+        ),
+        "nanda": MappingProxyType(
+            {
+                "url": "https://affairs.site.nthu.edu.tw/p/412-1165-20979.php?Lang=zh-tw",
+                "info_vars": ("towardNandaInfo", "towardMainCampusInfo"),
+                "schedule_vars": (
+                    "weekdayBusScheduleTowardNanda",
+                    "weekendBusScheduleTowardNanda",
+                    "weekdayBusScheduleTowardMainCampus",
+                    "weekendBusScheduleTowardMainCampus",
+                ),
+            }
+        ),
+    }
+)
 
 # 公告關鍵字配置
 SCHEDULE_IMAGE_KEYWORDS = {
@@ -68,6 +72,10 @@ class BusesSpider(scrapy.Spider):
         },
     }
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.schedule_image_urls: dict[str, str] = {}
+
     async def start(self):
         """初始化並發送請求"""
         self._load_schedule_image_links()
@@ -95,7 +103,7 @@ class BusesSpider(scrapy.Spider):
                 self._extract_image_links(announcement.get("articles", []))
                 break
 
-    def _extract_image_links(self, articles: List[Dict[str, Any]]):
+    def _extract_image_links(self, articles: list[dict[str, Any]]):
         """從文章列表中提取圖片連結"""
         for article in articles:
             title = article.get("title", "")
@@ -103,8 +111,8 @@ class BusesSpider(scrapy.Spider):
 
             for bus_type, keywords in SCHEDULE_IMAGE_KEYWORDS.items():
                 if all(kw in title for kw in keywords):
-                    if BUS_CONFIG[bus_type]["schedule_images"] is None:
-                        BUS_CONFIG[bus_type]["schedule_images"] = link
+                    if bus_type not in self.schedule_image_urls:
+                        self.schedule_image_urls[bus_type] = link
                         self.logger.info(f"找到 {bus_type} 時刻表圖片連結: {link}")
 
     def parse(self, response):
@@ -136,9 +144,9 @@ class BusesSpider(scrapy.Spider):
                 )
 
         # 請求時刻表圖片
-        if config["schedule_images"]:
+        if self.schedule_image_urls.get(bus_type):
             yield scrapy.Request(
-                url=config["schedule_images"],
+                url=self.schedule_image_urls[bus_type],
                 callback=self.parse_images,
                 errback=log_source_failure,
                 meta={"bus_type": bus_type},
@@ -146,20 +154,24 @@ class BusesSpider(scrapy.Spider):
 
     def _parse_info_variable(
         self, var_name: str, page_text: str
-    ) -> Optional[Dict[str, Any]]:
+    ) -> dict[str, Any] | None:
         try:
             return parse_info_variable(var_name, page_text)
         except ParseError as error:
-            self.logger.warning("Invalid bus component; retaining %s: %s", var_name, error)
+            self.logger.warning(
+                "Invalid bus component; retaining %s: %s", var_name, error
+            )
             return None
 
     def _parse_schedule_variable(
         self, var_name: str, page_text: str
-    ) -> Optional[List[Dict[str, Any]]]:
+    ) -> list[dict[str, Any]] | None:
         try:
             return parse_schedule_variable(var_name, page_text)
         except ParseError as error:
-            self.logger.warning("Invalid bus component; retaining %s: %s", var_name, error)
+            self.logger.warning(
+                "Invalid bus component; retaining %s: %s", var_name, error
+            )
             return None
 
     def parse_images(self, response):
@@ -234,7 +246,7 @@ class BusPipeline:
         save_json(item["data"], file_path)
         self.bus_data[item_name] = item["data"]
         self.refreshed_keys.add(item_name)
-        spider.logger.info(f'儲存 {item["route_type"]}/{item_name} 到 {file_path}')
+        spider.logger.info(f"儲存 {item['route_type']}/{item_name} 到 {file_path}")
 
         return item
 

@@ -1,18 +1,10 @@
-import json
-from pathlib import Path
-from typing import Dict
-
 import scrapy
 
-from nthu_scraper.utils.constants import DATA_FOLDER
-from nthu_scraper.utils.file_utils import load_json, save_json
-from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.maps import parse_map_options
-
-# --- 全域參數設定 ---
-OUTPUT_PATH = DATA_FOLDER / "maps"
-COMBINED_JSON_FILE = DATA_FOLDER / "maps.json"
+from nthu_scraper.utils.constants import MAPS_FOLDER, MAPS_JSON_PATH
+from nthu_scraper.utils.crawl_safety import log_source_failure
+from nthu_scraper.utils.file_utils import load_json, save_json
 
 MAP_URLS = {
     "MainZH": "https://campusmap.cc.nthu.edu.tw/",
@@ -41,13 +33,15 @@ class MapSpider(scrapy.Spider):
     allowed_domains = ["campusmap.cc.nthu.edu.tw"]
     start_urls = list(MAP_URLS.values())  # 從 MAP_URLS 取值作為起始網址
     custom_settings = {
-        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_maps.JsonMapPipeline": 1},
+        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_maps.MapPipeline": 1},
     }
 
     async def start(self):
         for map_type, url in MAP_URLS.items():
             yield scrapy.Request(
-                url, meta={"map_type": map_type}, errback=log_source_failure,
+                url,
+                meta={"map_type": map_type},
+                errback=log_source_failure,
             )
 
     def parse(self, response):
@@ -76,7 +70,8 @@ class MapSpider(scrapy.Spider):
         else:
             self.logger.error(f"❎ 未能解析到 {map_type} 的地圖資料")
 
-class JsonMapPipeline:
+
+class MapPipeline:
     """
     Scrapy Pipeline，用於將爬取的 MapItem 儲存為 JSON 檔案。
     """
@@ -85,8 +80,8 @@ class JsonMapPipeline:
         """
         Spider 開啟時執行，建立必要的資料夾。
         """
-        OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
-        previous = load_json(COMBINED_JSON_FILE)
+        MAPS_FOLDER.mkdir(parents=True, exist_ok=True)
+        previous = load_json(MAPS_JSON_PATH)
         self.all_map_data = previous if previous is not None else {}
         if not isinstance(self.all_map_data, dict):
             raise ValueError("Expected maps.json to contain an object")
@@ -105,7 +100,7 @@ class JsonMapPipeline:
                 return item
             map_data = dict(sorted(map_data.items()))  # 對地點名稱排序
 
-            file_path = OUTPUT_PATH / f"{map_type}.json"
+            file_path = MAPS_FOLDER / f"{map_type}.json"
             save_json(map_data, file_path)
             self.all_map_data[map_type] = map_data
             self.refreshed_types.add(map_type)
@@ -122,5 +117,5 @@ class JsonMapPipeline:
             spider.logger.warning(
                 "Map type not refreshed; retaining baseline if present: %s", map_type
             )
-        save_json(sorted_data, COMBINED_JSON_FILE)
-        spider.logger.info(f"✅ 成功儲存地圖資料至 {COMBINED_JSON_FILE}")
+        save_json(sorted_data, MAPS_JSON_PATH)
+        spider.logger.info(f"✅ 成功儲存地圖資料至 {MAPS_JSON_PATH}")

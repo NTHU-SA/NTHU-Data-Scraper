@@ -33,7 +33,9 @@ def fixture_text():
 def html_response():
     def make(html, url="https://example.test/p/index.html", meta=None):
         return HtmlResponse(
-            url, body=html.encode("utf-8"), encoding="utf-8",
+            url,
+            body=html.encode("utf-8"),
+            encoding="utf-8",
             request=Request(url, meta=meta or {}),
         )
 

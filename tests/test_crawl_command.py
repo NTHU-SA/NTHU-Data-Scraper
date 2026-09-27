@@ -19,20 +19,43 @@ def run_spider(tmp_path, name, *args):
     }
     return subprocess.run(
         [
-            sys.executable, "-m", "scrapy", "crawl", name,
-            "-s", "SPIDER_MODULES=safety_spiders",
-            "-s", "TELNETCONSOLE_ENABLED=False",
-            "-s", "LOG_LEVEL=WARNING",
+            sys.executable,
+            "-m",
+            "scrapy",
+            "crawl",
+            name,
+            "-s",
+            "SPIDER_MODULES=safety_spiders",
+            "-s",
+            "TELNETCONSOLE_ENABLED=False",
+            "-s",
+            "LOG_LEVEL=WARNING",
             *args,
         ],
-        cwd=ROOT, env=environment, capture_output=True, text=True, timeout=30,
-        encoding="utf-8", errors="replace",
+        cwd=ROOT,
+        env=environment,
+        capture_output=True,
+        text=True,
+        timeout=30,
+        encoding="utf-8",
+        errors="replace",
     )
 
 
-@pytest.mark.parametrize("scenario", [
-    "callback", "item", "open", "close", "start", "write", "hook", "import", "request",
-])
+@pytest.mark.parametrize(
+    "scenario",
+    [
+        "callback",
+        "item",
+        "open",
+        "close",
+        "start",
+        "write",
+        "hook",
+        "import",
+        "request",
+    ],
+)
 def test_real_scrapy_implementation_failures_exit_nonzero(tmp_path, scenario):
     path = tmp_path / "preserved.json"
     write_json_atomic({"known-good": True}, path)
@@ -45,6 +68,42 @@ def test_real_scrapy_implementation_failures_exit_nonzero(tmp_path, scenario):
 def test_real_scrapy_success_exits_zero(tmp_path):
     result = run_spider(tmp_path, "offline_failure")
     assert result.returncode == 0, result.stdout + result.stderr
+
+
+@pytest.mark.parametrize(
+    "spider_name,filename,expected_name",
+    [
+        ("offline_directory", "directory.json", "Test department"),
+        ("offline_newsletters", "newsletters.json", "Test newsletter"),
+        ("offline_dining", "dining.json", "\u6c34\u6728\u9910\u5ef3"),
+    ],
+)
+def test_source_pipeline_hooks_through_scrapy(
+    tmp_path, spider_name, filename, expected_name
+):
+    result = run_spider(tmp_path, spider_name)
+    assert result.returncode == 0, result.stdout + result.stderr
+    data = read_json(tmp_path / filename)
+    assert data[0]["name"] == expected_name
+    if spider_name == "offline_newsletters":
+        assert len(data[0]["articles"]) == 3
+    elif spider_name == "offline_directory":
+        assert data[0]["details"]["contact"] == {"phone": "03-0000000", "fax": "N/A"}
+    else:
+        assert len(data) == 2
+
+
+def test_announcement_list_pipeline_and_https_middleware_through_scrapy(tmp_path):
+    result = run_spider(tmp_path, "offline_announcement_list")
+    assert result.returncode == 0, result.stdout + result.stderr
+    data = read_json(tmp_path / "announcements_list.json")
+    item = next(item for item in data if item["department"] == "Test department")
+    assert item == {
+        "title": "\u6821\u5712\u516c\u544a",
+        "link": "https://example.test/list",
+        "department": "Test department",
+        "language": "en",
+    }
 
 
 def test_real_item_error_signal_preserves_whole_dataset(tmp_path):
@@ -61,7 +120,9 @@ def test_real_item_error_signal_preserves_whole_dataset(tmp_path):
 def test_library_hooks_and_partial_upstream_failures_through_scrapy(tmp_path):
     rss_path = tmp_path / "libraries" / "rss.json"
     calendars_path = tmp_path / "libraries" / "calendars.json"
-    write_json_atomic({"news": ["old"], "exhibit": ["old"], "branches": ["old"]}, rss_path)
+    write_json_atomic(
+        {"news": ["old"], "exhibit": ["old"], "branches": ["old"]}, rss_path
+    )
     old_main = {"id": "main", "events": ["old"]}
     write_json_atomic([old_main, {"id": "hss", "events": ["old"]}], calendars_path)
 
@@ -110,7 +171,12 @@ def test_announcements_request_failure_keeps_source_and_individual_file(tmp_path
     )
     sources = [
         {"link": good_link, "title": "good", "department": "dept", "language": "en"},
-        {"link": "data:text/plain,failed", "title": "failed", "department": "dept", "language": "en"},
+        {
+            "link": "data:text/plain,failed",
+            "title": "failed",
+            "department": "dept",
+            "language": "en",
+        },
     ]
     previous = [{**source, "articles": ["old"]} for source in sources]
     write_json_atomic(sources, tmp_path / "announcements_list.json")
@@ -129,18 +195,32 @@ def test_announcements_request_failure_keeps_source_and_individual_file(tmp_path
     assert individual.read_bytes() == before
 
 
-@pytest.mark.parametrize("spider_name,filename,previous,expected", [
-    (
-        "offline_buses", "buses.json",
-        {"towardTSMCBuildingInfo": {"route": "old"}, "towardNandaInfo": {"route": "old"}},
-        {"towardTSMCBuildingInfo": {"route": "new"}, "towardNandaInfo": {"route": "old"}},
-    ),
-    (
-        "offline_maps", "maps.json",
-        {"MainZH": {"old": {}}, "MainEN": {"old": {}}},
-        {"MainZH": {"New": {"latitude": "1", "longitude": "2"}}, "MainEN": {"old": {}}},
-    ),
-])
+@pytest.mark.parametrize(
+    "spider_name,filename,previous,expected",
+    [
+        (
+            "offline_buses",
+            "buses.json",
+            {
+                "towardTSMCBuildingInfo": {"route": "old"},
+                "towardNandaInfo": {"route": "old"},
+            },
+            {
+                "towardTSMCBuildingInfo": {"route": "new"},
+                "towardNandaInfo": {"route": "old"},
+            },
+        ),
+        (
+            "offline_maps",
+            "maps.json",
+            {"MainZH": {"old": {}}, "MainEN": {"old": {}}},
+            {
+                "MainZH": {"New": {"latitude": "1", "longitude": "2"}},
+                "MainEN": {"old": {}},
+            },
+        ),
+    ],
+)
 def test_component_request_failure_is_safe_through_scrapy(
     tmp_path, spider_name, filename, previous, expected
 ):
