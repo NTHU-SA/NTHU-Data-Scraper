@@ -4,7 +4,7 @@
 
 | Branch | Responsibility |
 |---|---|
-| `main` | Source plus a temporarily retained legacy `data/` snapshot; generated updates are never committed here |
+| `main` | Source, tests, tools, and documentation only; generated `data/` output is ignored and removed from history |
 | `data` | Canonical generated dataset and static Pages files at branch root |
 | `gh-pages` | Temporary, unchanged rollback branch pending production verification |
 
@@ -12,16 +12,25 @@ The `data` branch inherits the historical `main` ancestry. Its current tree is
 data-only, while old source and generated-data commits remain reachable in
 history.
 
-`main/data/` remains tracked during this transition as an additional rollback
-snapshot. It is not authoritative: each workflow run hydrates it from the
-latest `data` branch before crawling, and only the `data` branch receives
+`main` history has been rewritten to remove `data/` and commits that only
+updated that directory. Source changes are retained with new commit IDs.
+The `data`, `gh-pages`, and `archive/*` branches are unchanged by this cleanup
+and still retain their historical commits; this is not a repository-wide
+purge of generated data.
+
+Each workflow run creates an ignored local `data/` directory from the latest
+`data` branch before crawling, and only the `data` branch receives
 generated-data commits.
+
+Existing clones must refresh `origin/main` and base new work on the rewritten
+history. Do not merge the old `main` history back into the cleaned branch;
+reapply any unpublished source changes onto the new history instead.
 
 ## Scheduled lifecycle
 
 ```mermaid
 flowchart TD
-  snapshot[data branch snapshot] --> hydrate[Hydrate main/data]
+  snapshot[data branch snapshot] --> hydrate[Hydrate ignored local data directory]
   hydrate --> crawl[Run scheduled spiders from main]
   crawl --> validate[Validate all JSON and critical datasets]
   validate --> metadata[Generate file_details.json]
@@ -110,6 +119,6 @@ push without weakening unrelated protections.
 ## Rollback
 
 If production verification fails, set the Pages source back to
-`gh-pages` / root. The legacy branch, the recorded pre-split `main` SHA, and all
-historical commits remain unchanged, so rollback requires no history rewrite or
-force push.
+`gh-pages` / root. The legacy branch and archived pre-split history remain
+unchanged, so a Pages rollback requires no history rewrite or force push.
+Do not restore old ancestry to the cleaned `main` branch.
