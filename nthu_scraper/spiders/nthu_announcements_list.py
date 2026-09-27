@@ -5,6 +5,12 @@ from typing import Dict
 
 import scrapy
 from scrapy_playwright.page import PageMethod
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.parsers.announcements import (
+    normalize_list_url,
+    parse_list_page,
+    parse_more_links,
+)
 
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_LIST_PATH,
@@ -151,8 +157,8 @@ class AnnouncementsListSpider(scrapy.Spider):
     def _prepare_request_url(self, url: str) -> str | None:
         if not url:
             return None
-        normalized = force_https(url)
-        if not normalized or not check_domain_suffix(normalized, RPAGE_DOMAIN_SUFFIX):
+        normalized = normalize_list_url(url)
+        if not normalized:
             return None
         if normalized in self.requested_urls:
             return None
@@ -185,12 +191,9 @@ class AnnouncementsListSpider(scrapy.Spider):
 
     def _parse_more_links(self, response):
         """解析 more 連結"""
-        more_links = response.css("p.more a::attr(href)").getall()
-        for link in more_links:
-            abs_url = response.urljoin(link)
-            abs_url = update_url_query_param(
-                abs_url, "Lang", response.meta.get("language")
-            )
+        for abs_url in parse_more_links(
+            response, response.url, response.meta.get("language")
+        ):
             request = self._build_request(
                 abs_url, self.parse_announcement_list, response.meta.copy()
             )
@@ -202,22 +205,17 @@ class AnnouncementsListSpider(scrapy.Spider):
 
     def parse_announcement_list(self, response):
         """解析公告列表頁面"""
-        # 提取標題
-        title = response.css("[class*='title']::text").get()
-        if not title or not title.strip():
-            title = response.css("title::text").get()
-        if title:
-            title = title.strip()
-
-        # 檢查是否有公告內容
-        has_content = bool(response.css("#pageptlist .row.listBS, #pageptlist tr"))
-
-        if not has_content:
+        try:
+            parsed = parse_list_page(response)
+        except ParseError as error:
+            self.logger.warning("Invalid announcement list %s: %s", response.url, error)
+            return
+        if not parsed["has_content"]:
             self.logger.warning(f"公告列表頁面無內容: {response.url}")
             return
 
         yield AnnouncementListItem(
-            title=title,
+            title=parsed["title"],
             link=response.url,
             language=response.meta.get("language"),
             department=response.meta.get("department"),

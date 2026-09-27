@@ -1,6 +1,4 @@
 import json
-import re
-from datetime import datetime
 from pathlib import Path
 from typing import Set
 
@@ -10,10 +8,16 @@ from scrapy.http import Response
 from nthu_scraper.utils.constants import DATA_FOLDER
 from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.parsers.newsletters import (
+    URL_PREFIX,
+    newsletter_entries,
+    parse_archive_articles,
+    parse_newsletter_entry,
+)
 
 # --- 全域參數設定 ---
 COMBINED_JSON_FILE = DATA_FOLDER / "newsletters.json"
-URL_PREFIX = "https://newsletter.cc.nthu.edu.tw"
 
 
 # --- 資料結構定義 ---
@@ -69,46 +73,19 @@ class NewsletterSpider(WholeDatasetSpider):
         """
         self.logger.info(f"🔗 正在處理電子報列表頁面：{response.url}")
 
-        gallery = response.css("div.gallery")
-        if not gallery:
-            self.mark_incomplete("Newsletter root contained no gallery")
+        try:
+            entries = newsletter_entries(response)
+        except ParseError as error:
+            self.mark_incomplete(str(error))
             return
 
-        for li in gallery.css("li"):
-            h3 = li.css("h3")
-            if not h3:
-                self.mark_incomplete("Newsletter gallery entry has no heading")
+        for entry in entries:
+            try:
+                newsletter = NewsletterItem(parse_newsletter_entry(entry))
+            except ParseError as error:
+                self.mark_incomplete(str(error))
                 continue
-
-            a = h3.css("a")
-            if not a:
-                self.mark_incomplete("Newsletter gallery entry has no link")
-                continue
-
-            name = (a.css("::text").get() or "").strip()
-            link = (a.css("::attr(href)").get() or "").strip()
-
-            if not link or not name:
-                self.mark_incomplete("Newsletter gallery entry has no usable link or name")
-                continue
-
-            # 提取表格資料
-            table_data = {}
-            table = li.css("table")
-            if table:
-                for row in table.css("tr"):
-                    elements = row.css("td, th")  # 同時選擇 td 與 th
-                    if len(elements) == 2:
-                        key = elements[0].css("::text").get().strip()
-                        value = elements[1].css("::text").get().strip()
-                        if key and value:  # 確保兩者都非空
-                            table_data[key] = value
-
-            newsletter = NewsletterItem()
-            newsletter["name"] = name
-            newsletter["link"] = link
-            newsletter["details"] = table_data
-            newsletter["articles"] = []
+            link = newsletter["link"]
 
             # 如果連結已經在處理清單中，跳過
             if link in self.processed_urls:
@@ -138,86 +115,17 @@ class NewsletterSpider(WholeDatasetSpider):
         newsletter = response.meta["newsletter"]
         self.logger.info(f"🔗 正在處理電子報：{newsletter['name']} {response.url}")
 
-        content = response.css("div#acyarchivelisting")
-        if not content:
-            self.logger.warning(f"⚠️ 找不到電子報內容：{newsletter['name']}")
-            self.mark_incomplete(f"Missing newsletter content: {response.url}")
+        try:
+            articles = parse_archive_articles(response)
+        except ParseError as error:
+            self.mark_incomplete(f"{response.url}: {error}")
             return
-
-        table = content.css("table.contentpane")
-        if not table:
-            self.logger.warning(f"⚠️ 找不到文章表格：{newsletter['name']}")
-            self.mark_incomplete(f"Missing newsletter article table: {response.url}")
-            return
-
-        articles = []
-        for archive_row in table.css("div.archiveRow"):
-            article = NewsletterArticle()
-
-            # 提取文章標題與連結
-            a = archive_row.css("a")
-            if a:
-                onclick = a.css("::attr(onclick)").get()
-                if onclick:
-                    match = re.search(r"openpopup\('(.*?)',", onclick)
-                    if match:
-                        article["link"] = f"{URL_PREFIX}{match.group(1)}"
-                article["title"] = a.css("::text").get().strip()
-
-            # 提取文章日期
-            date_span = archive_row.css("span.sentondate")
-            if date_span:
-                date_str = date_span.css("::text").get().strip()
-                if date_str:
-                    date_str = date_str.replace("Sent on ", "")
-                    date_str = self._convert_chinese_month_to_english(date_str)
-                    try:
-                        parsed_date = datetime.strptime(date_str, "%d %b %Y")
-                        article["date"] = parsed_date.strftime("%Y-%m-%d")
-                    except ValueError:
-                        self.logger.error(f"❎ 日期解析錯誤: {date_str}")
-                        article["date"] = date_str  # 保留原始日期字串
-
-            # 只有當文章至少有標題時才加入列表
-            if article.get("title"):
-                articles.append(dict(article))
-            else:
-                self.mark_incomplete(f"Unusable newsletter article: {response.url}")
 
         if not articles:
             self.mark_incomplete(f"No usable newsletter articles: {response.url}")
             return
         newsletter["articles"] = articles
         yield newsletter
-
-    def _convert_chinese_month_to_english(self, date_str: str) -> str:
-        """
-        將中文月份轉換為英文縮寫。
-
-        Args:
-            date_str (str): 包含中文月份的日期字串
-
-        Returns:
-            str: 轉換後的日期字串，月份為英文縮寫
-        """
-        month_mapping = {
-            " 一月 ": " Jan ",
-            " 二月 ": " Feb ",
-            " 三月 ": " Mar ",
-            " 四月 ": " Apr ",
-            " 五月 ": " May ",
-            " 六月 ": " Jun ",
-            " 七月 ": " Jul ",
-            " 八月 ": " Aug ",
-            " 九月 ": " Sep ",
-            " 十月 ": " Oct ",
-            " 十一月 ": " Nov ",
-            " 十二月 ": " Dec ",
-        }
-        for zh_month, en_month in month_mapping.items():
-            date_str = date_str.replace(zh_month, en_month)
-        return date_str
-
 
 class JsonPipeline:
     """

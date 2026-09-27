@@ -257,3 +257,55 @@ def test_library_errback_does_not_swallow_implementation_errors():
     failure = Failure(AttributeError("regression"))
     with pytest.raises(AttributeError):
         spider.handle_error(failure)
+
+
+@pytest.mark.parametrize("xml", [
+    "", "<html>Unavailable</html>", "<rss><channel>",
+    "<rss><channel><item><link>/no-title</link></item></channel></rss>",
+])
+def test_invalid_rss_is_not_an_empty_feed(xml):
+    with pytest.raises(nthu_libraries.InvalidLibrarySource):
+        parse_rss(xml)
+
+
+def test_valid_empty_rss_and_optional_fields():
+    assert parse_rss("<rss><channel></channel></rss>") == []
+    assert parse_rss("<rss><channel><item><title>Only title</title></item></channel></rss>") == [{
+        "guid": None, "category": None, "title": "Only title", "link": None,
+        "pubDate": None, "description": "", "author": None, "image": None,
+    }]
+
+
+@pytest.mark.parametrize("ics", [
+    "", "not a calendar", "BEGIN:VCALENDAR\nVERSION:2.0\n",
+    "BEGIN:VCALENDAR\nBEGIN:VEVENT\nUID:missing-start\nEND:VEVENT\nEND:VCALENDAR",
+    "BEGIN:VCALENDAR\nBEGIN:VEVENT\nDTSTART:invalid\nEND:VEVENT\nEND:VCALENDAR",
+])
+def test_invalid_calendar_is_not_an_empty_calendar(ics):
+    with pytest.raises(nthu_libraries.InvalidLibrarySource):
+        parse_calendar(ics, date(2026, 1, 1), date(2027, 1, 1))
+
+
+def test_empty_calendar():
+    assert parse_calendar(
+        b"BEGIN:VCALENDAR\nVERSION:2.0\nEND:VCALENDAR", date(2026, 1, 1), date(2027, 1, 1),
+    ) == {"name": None, "description": None, "timezone": None, "events": []}
+
+
+def test_calendar_missing_end_uses_existing_defaults():
+    calendar = """BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:all-day
+DTSTART;VALUE=DATE:20260901
+SUMMARY:All day
+END:VEVENT
+BEGIN:VEVENT
+UID:utc
+DTSTART:20260902T010000Z
+SUMMARY:UTC
+END:VEVENT
+END:VCALENDAR"""
+    events = parse_calendar(calendar, date(2026, 9, 1), date(2026, 9, 3))["events"]
+    assert events[0]["end"] == "2026-09-02"
+    assert events[1]["start"] == events[1]["end"] == "2026-09-02T09:00:00+08:00"
