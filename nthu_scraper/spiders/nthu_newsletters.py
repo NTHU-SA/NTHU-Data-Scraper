@@ -77,16 +77,19 @@ class NewsletterSpider(WholeDatasetSpider):
         for li in gallery.css("li"):
             h3 = li.css("h3")
             if not h3:
+                self.mark_incomplete("Newsletter gallery entry has no heading")
                 continue
 
             a = h3.css("a")
             if not a:
+                self.mark_incomplete("Newsletter gallery entry has no link")
                 continue
 
-            name = a.css("::text").get().strip()
-            link = a.css("::attr(href)").get()
+            name = (a.css("::text").get() or "").strip()
+            link = (a.css("::attr(href)").get() or "").strip()
 
             if not link or not name:
+                self.mark_incomplete("Newsletter gallery entry has no usable link or name")
                 continue
 
             # 提取表格資料

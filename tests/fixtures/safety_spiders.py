@@ -11,6 +11,7 @@ from nthu_scraper.spiders.nthu_buses import BusesSpider
 from nthu_scraper.spiders.nthu_maps import MapSpider
 from nthu_scraper.spiders.nthu_courses import CoursesSpider
 from nthu_scraper.spiders.nthu_announcements_item import AnnouncementsItemSpider
+from nthu_scraper.spiders.nthu_directory import DirectorySpider
 from nthu_scraper.storage import write_json_atomic
 from nthu_scraper.utils.constants import DATA_FOLDER
 from nthu_scraper.utils.crawl_safety import log_source_failure
@@ -134,6 +135,27 @@ class OfflineMapsSpider(MapSpider):
 class BadHookPipeline:
     def process_item(self, item, spider, unexpected_required_argument):
         return item
+
+
+class RejectItemPipeline:
+    def process_item(self, item):
+        if item["name"] == "failed":
+            raise ValueError("offline injected item failure")
+        return item
+
+
+class OfflineDirectoryFailureSpider(DirectorySpider):
+    name = "offline_directory_failure"
+    custom_settings = {
+        "ITEM_PIPELINES": {
+            "safety_spiders.RejectItemPipeline": 0,
+            "nthu_scraper.spiders.nthu_directory.JsonPipeline": 1,
+        },
+    }
+
+    async def start(self):
+        yield {"name": "failed", "index": "1"}
+        yield {"name": "good", "index": "2"}
 
 
 class FailurePipeline:

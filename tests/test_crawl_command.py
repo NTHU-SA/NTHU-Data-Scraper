@@ -47,6 +47,17 @@ def test_real_scrapy_success_exits_zero(tmp_path):
     assert result.returncode == 0, result.stdout + result.stderr
 
 
+def test_real_item_error_signal_preserves_whole_dataset(tmp_path):
+    path = tmp_path / "directory.json"
+    write_json_atomic([{"name": "old"}], path)
+    before = path.read_bytes()
+    result = run_spider(tmp_path, "offline_directory_failure")
+    assert result.returncode != 0, result.stdout + result.stderr
+    assert "offline injected item failure" in result.stderr
+    assert "Error caught on signal handler" not in result.stderr
+    assert path.read_bytes() == before
+
+
 def test_library_hooks_and_partial_upstream_failures_through_scrapy(tmp_path):
     rss_path = tmp_path / "libraries" / "rss.json"
     calendars_path = tmp_path / "libraries" / "calendars.json"

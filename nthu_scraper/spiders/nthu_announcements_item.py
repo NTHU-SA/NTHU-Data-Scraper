@@ -33,6 +33,15 @@ class AnnouncementArticle(scrapy.Item):
     date = scrapy.Field()
 
 
+def _group_by_source_metadata(sources):
+    groups = {}
+    for source in sources:
+        identity = tuple(source.get(key) for key in ("department", "title", "language"))
+        if all(isinstance(value, str) and value.strip() for value in identity):
+            groups.setdefault(identity, []).append(source)
+    return groups
+
+
 class AnnouncementsItemSpider(scrapy.Spider):
     """
     公告內容爬蟲
@@ -157,7 +166,28 @@ class AnnouncementItemPipeline:
         self.previous = {
             source["link"]: source for source in (previous if previous is not None else [])
         }
+        self._restore_legacy_sources(spider)
         ANNOUNCEMENTS_FOLDER.mkdir(parents=True, exist_ok=True)
+
+    def _restore_legacy_sources(self, spider):
+        expected = _group_by_source_metadata(spider.announcement_list)
+        legacy = _group_by_source_metadata(
+            source for link, source in self.previous.items()
+            if link not in self.expected_links
+        )
+        for identity, sources in expected.items():
+            missing = [source for source in sources if source["link"] not in self.previous]
+            candidates = legacy.get(identity, [])
+            if not missing or not candidates:
+                continue
+            if len(sources) != 1 or len(candidates) != 1:
+                raise ValueError(f"Ambiguous legacy announcement source: {identity!r}")
+            link = missing[0]["link"]
+            self.previous[link] = {**candidates[0], "link": link}
+            spider.logger.warning(
+                "Matched legacy announcement URL %s to authoritative source %s",
+                candidates[0]["link"], link,
+            )
 
     def process_item(self, item, spider):
         """處理 Item"""

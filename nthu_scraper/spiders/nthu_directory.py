@@ -145,6 +145,14 @@ class DirectorySpider(WholeDatasetSpider):
         "AUTOTHROTTLE_ENABLED": True,
     }
 
+    def _parse_department_link(self, link):
+        href = (link.css("::attr(href)").get() or "").strip()
+        name = (link.css("::text").get() or "").strip()
+        if not href or not name:
+            self.mark_incomplete("Department listing contains an unusable link or name")
+            return None
+        return {"name": name, "url": URL_PREFIX + href}
+
     def parse(self, response):
         """
         解析首頁，抓取所有系所的 URL。
@@ -156,18 +164,17 @@ class DirectorySpider(WholeDatasetSpider):
             scrapy.Request: 針對每個系所 URL 發送請求。
         """
         departments = []
-        for dept_link in response.css("li a"):
-            href = dept_link.css("::attr(href)").get()
-            name = dept_link.css("::text").get()
-            if href and name:
-                dept_url = URL_PREFIX + href
-                departments.append({"name": name.strip(), "url": dept_url})
-                yield scrapy.Request(
-                    url=dept_url,
-                    callback=self.parse_dept_page,
-                    errback=self.handle_request_error,
-                    meta={"dept_name": name.strip() if name else "Unknown Department"},
-                )
+        for entry in response.css("li"):
+            department = self._parse_department_link(entry.css("a"))
+            if department is None:
+                continue
+            departments.append(department)
+            yield scrapy.Request(
+                url=department["url"],
+                callback=self.parse_dept_page,
+                errback=self.handle_request_error,
+                meta={"dept_name": department["name"]},
+            )
         if not departments:
             self.mark_incomplete("Directory root contained no departments")
 
@@ -190,25 +197,19 @@ class DirectorySpider(WholeDatasetSpider):
         story_left = response.css("div.story_left")
         if story_left:
             for link in story_left.css("a"):
-                dept_page_link = link.css("::attr(href)").get()
-                dept_page_name = link.css("::text").get()
-                if dept_page_link and dept_page_name:
-                    sub_dept_url = URL_PREFIX + dept_page_link
-                    departments.append(
-                        {
-                            "name": dept_page_name.strip(),
-                            "url": sub_dept_url,
-                        }
-                    )
-                    yield scrapy.Request(
-                        url=sub_dept_url,
-                        callback=self.parse_dept_page,
-                        errback=self.handle_request_error,
-                        meta={
-                            "dept_name": dept_page_name.strip(),
-                            "parent_name": dept_name,
-                        },  # 傳遞 parent_name
-                    )
+                department = self._parse_department_link(link)
+                if department is None:
+                    continue
+                departments.append(department)
+                yield scrapy.Request(
+                    url=department["url"],
+                    callback=self.parse_dept_page,
+                    errback=self.handle_request_error,
+                    meta={
+                        "dept_name": department["name"],
+                        "parent_name": dept_name,
+                    },
+                )
 
         story_max = response.css("div.story_max")
         if story_max:

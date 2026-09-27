@@ -3,9 +3,13 @@ import json
 from dataclasses import asdict
 import pytest
 import scrapy
+from scrapy import signals
+from scrapy.crawler import Crawler
 from scrapy.http import HtmlResponse, TextResponse
+from types import SimpleNamespace
 from twisted.python.failure import Failure
 
+from nthu_scraper.commands.crawl import Command
 from nthu_scraper.spiders import (
     nthu_announcements_item as announcements,
     nthu_buses as buses,
@@ -32,8 +36,8 @@ def test_announcements_merge_authoritative_sources(tmp_path, monkeypatch, caplog
     folder = tmp_path / "announcements"
     monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
     monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", folder)
-    expected = [announcement(key) for key in ("b", "a", "new-without-baseline")]
-    old = [announcement(key) for key in ("removed", "b", "a")]
+    expected = [announcement(key, key) for key in ("b", "a", "new-without-baseline")]
+    old = [announcement(key, key) for key in ("removed", "b", "a")]
     write_json_atomic(old, path)
     spider = scrapy.Spider("test")
     spider.announcement_list = expected
@@ -43,7 +47,7 @@ def test_announcements_merge_authoritative_sources(tmp_path, monkeypatch, caplog
         pipeline.process_item(announcements.AnnouncementItem(announcement(key, "new-" + key)), spider)
     pipeline.close_spider(spider)
     assert read_json(path) == [
-        announcement(key, "new-" + key if key in successful else "old") for key in ("a", "b")
+        announcement(key, "new-" + key if key in successful else key) for key in ("a", "b")
     ]
     assert "No known-good announcement source: new-without-baseline" in caplog.text
 
@@ -66,6 +70,70 @@ def test_empty_announcement_keeps_individual_and_aggregate(tmp_path, monkeypatch
     pipeline.close_spider(spider)
     assert read_json(path) == [old]
     assert individual.read_bytes() == original
+
+
+@pytest.mark.parametrize("refresh_legacy", [False, True])
+def test_legacy_redirected_announcement_is_migrated(tmp_path, monkeypatch, refresh_legacy):
+    path = tmp_path / "announcements.json"
+    folder = tmp_path / "announcements"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", folder)
+    legacy = announcement("https://example.test/redirected", "notice")
+    canonical = {**legacy, "link": "https://example.test/original"}
+    other = announcement("https://other.test", "other")
+    write_json_atomic([legacy, other], path)
+    individual = folder / "department" / "notice_en.json"
+    write_json_atomic(legacy, individual)
+    before = individual.read_bytes()
+    spider = scrapy.Spider("test")
+    spider.announcement_list = [canonical, other]
+    refreshed = {**canonical, "articles": [{"title": "fresh"}]}
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    pipeline.process_item(announcements.AnnouncementItem(other), spider)
+    if refresh_legacy:
+        pipeline.process_item(announcements.AnnouncementItem(refreshed), spider)
+    pipeline.close_spider(spider)
+    expected = [refreshed if refresh_legacy else canonical, other]
+    assert read_json(path) == expected
+    if not refresh_legacy:
+        assert individual.read_bytes() == before
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    pipeline.close_spider(spider)
+    assert read_json(path) == expected
+
+
+@pytest.mark.parametrize("duplicate", ["expected", "legacy"])
+def test_ambiguous_legacy_source_fails_without_overwriting(tmp_path, monkeypatch, duplicate):
+    path = tmp_path / "announcements.json"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    old = [announcement("https://example.test/redirected")]
+    expected = [announcement("https://example.test/original")]
+    target = old if duplicate == "legacy" else expected
+    target.append(announcement("https://example.test/another"))
+    write_json_atomic(old, path)
+    before = path.read_bytes()
+    spider = scrapy.Spider("test")
+    spider.announcement_list = expected
+    pipeline = announcements.AnnouncementItemPipeline()
+    with pytest.raises(ValueError, match="Ambiguous legacy"):
+        pipeline.open_spider(spider)
+    assert path.read_bytes() == before
+
+
+def test_canonical_link_takes_precedence_over_legacy_metadata(tmp_path, monkeypatch):
+    path = tmp_path / "announcements.json"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", tmp_path / "individual")
+    canonical = announcement("https://example.test/original")
+    write_json_atomic([canonical, announcement("https://example.test/removed")], path)
+    spider = scrapy.Spider("test")
+    spider.announcement_list = [canonical]
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    pipeline.close_spider(spider)
+    assert read_json(path) == [canonical]
 
 
 def test_announcement_redirect_keeps_authoritative_identity(tmp_path, monkeypatch):
@@ -246,6 +314,85 @@ def test_whole_dataset_requests_have_errbacks(spider_type, html):
     children = list(spider.parse(response))
     assert children
     assert all(request.errback == spider.handle_request_error for request in children)
+
+
+@pytest.mark.parametrize("module,spider_type,valid,invalid", [
+    (directory, directory.DirectorySpider, '<li><a href="dept.php?dd=1">Good</a></li>', invalid)
+    for invalid in (
+        "<li>Missing link</li>", "<li><a>Missing href</a></li>",
+        '<li><a href="dept.php?dd=2"></a></li>',
+        '<li><a href="dept.php?dd=2"> </a></li>',
+    )
+] + [
+    (
+        newsletters, newsletters.NewsletterSpider,
+        '<li><h3><a href="https://example.test/good">Good</a></h3></li>', invalid,
+    )
+    for invalid in (
+        "<li>Missing heading</li>", "<li><h3>No link</h3></li>",
+        "<li><h3><a>No href</a></h3></li>",
+        '<li><h3><a href="https://example.test/empty"></a></h3></li>',
+        '<li><h3><a href="https://example.test/empty"> </a></h3></li>',
+    )
+])
+def test_mixed_root_listing_keeps_previous_dataset(
+    tmp_path, monkeypatch, module, spider_type, valid, invalid
+):
+    path = tmp_path / "aggregate.json"
+    write_json_atomic([{"name": "old"}], path)
+    before = path.read_bytes()
+    monkeypatch.setattr(module, "COMBINED_JSON_FILE", path)
+    spider = spider_type()
+    pipeline = module.JsonPipeline()
+    pipeline.open_spider(spider)
+    html = f'<div class="gallery"><ul>{valid}{invalid}</ul></div>'
+    response = HtmlResponse("https://example.test", body=html.encode(), encoding="utf-8")
+    requests = list(spider.parse(response))
+    assert len(requests) == 1
+    pipeline.process_item({"name": "good", "index": "1"}, spider)
+    pipeline.close_spider(spider)
+    assert path.read_bytes() == before
+
+
+def test_mixed_child_department_listing_keeps_previous_dataset(tmp_path, monkeypatch):
+    path = tmp_path / "directory.json"
+    write_json_atomic([{"name": "old"}], path)
+    before = path.read_bytes()
+    monkeypatch.setattr(directory, "COMBINED_JSON_FILE", path)
+    spider = directory.DirectorySpider()
+    pipeline = directory.JsonPipeline()
+    pipeline.open_spider(spider)
+    response = HtmlResponse(
+        "https://example.test/dept?dd=1",
+        request=scrapy.Request("https://example.test/dept?dd=1", meta={"dept_name": "Dept"}),
+        body=b'<div class="story_left"><a href="dept.php?dd=2">Good</a><a>Broken</a></div>',
+        encoding="utf-8",
+    )
+    outputs = list(spider.parse_dept_page(response))
+    assert any(isinstance(output, scrapy.Request) for output in outputs)
+    for output in outputs:
+        if isinstance(output, directory.DepartmentItem):
+            pipeline.process_item(output, spider)
+    pipeline.close_spider(spider)
+    assert path.read_bytes() == before
+
+
+@pytest.mark.parametrize("signal", [signals.spider_error, signals.item_error])
+def test_scrapy_error_signals_accept_failure_only_receivers(signal):
+    crawler = Crawler(directory.DirectorySpider)
+    spider = directory.DirectorySpider.from_crawler(crawler)
+    command = Command()
+    command._errors = SimpleNamespace(failed=False)
+    crawler.signals.connect(command._implementation_error, signal=signal)
+    failure = Failure(RuntimeError("injected signal failure"))
+    payload = {"failure": failure, "response": None, "spider": spider}
+    if signal == signals.item_error:
+        payload["item"] = {"name": "failed"}
+    results = crawler.signals.send_catch_log(signal=signal, **payload)
+    assert len(results) == 2
+    assert all(not isinstance(result, Failure) for _, result in results)
+    assert command._errors.failed
+    assert spider.crawl_incomplete
 
 
 def test_dining_failed_parse_keeps_existing_file(tmp_path, monkeypatch):

@@ -78,9 +78,13 @@ component key, maps by map type, and libraries by RSS/calendar source. Failed
 or empty refreshes retain existing non-empty data. Announcements leave the
 aggregate only when removed from `announcements_list.json`; failed refreshes
 do not delete their individual files.
+Legacy post-redirect announcement URLs are matched to authoritative links
+using unique department/title/language metadata. Ambiguous matches fail
+instead of dropping or guessing the known-good source.
 
 Directory and newsletter crawls retain their whole previous dataset on known
-request/parser failures or an empty result. Courses validate the complete
+request/parser failures, malformed entries in a partial listing, or an empty
+result. Courses validate the complete
 collection and prepare semester records before writing any output. Dining
 continues to leave its previous file untouched when parsing yields no data.
 
