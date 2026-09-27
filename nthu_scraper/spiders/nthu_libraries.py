@@ -70,8 +70,12 @@ def parse_rss(xml_text: str) -> List[Dict[str, Any]]:
         value = node.xpath(f"{tag}/text()").get()
         return value.strip() if value and value.strip() else None
 
+    channels = selector.xpath("//channel")
+    if not channels:
+        raise ValueError("RSS response does not contain a channel")
+
     items = []
-    for node in selector.xpath("//channel/item"):
+    for node in channels[0].xpath("item"):
         item: Dict[str, Any] = {
             "guid": text_of(node, "guid"),
             "category": text_of(node, "category"),
