@@ -177,7 +177,7 @@ class CoursesSpider(scrapy.Spider):
         """
         try:
             data: Any = response.json()
-        except (ValueError, UnicodeDecodeError) as e:
+        except ValueError as e:
             self.logger.error(f"❎ JSON 解析失敗: {e}")
             raise
 

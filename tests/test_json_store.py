@@ -1,11 +1,14 @@
 import json
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import Mock
 
 import pytest
 
 from nthu_scraper.storage import read_json, read_json_optional, write_json_atomic
 from nthu_scraper.storage import json_store
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.base_pipelines import DictJsonFilePipeline, JsonFilePipeline
 
 
 def test_atomic_writer_preserves_unicode_and_format(tmp_path):
@@ -82,3 +85,30 @@ def test_temp_is_in_destination_directory_and_destination_stays_readable(tmp_pat
     monkeypatch.setattr(json_store.os, "replace", inspect_replace)
     save_json({"new": True}, path)
     assert read_json(path) == {"new": True}
+
+
+@pytest.mark.parametrize("pipeline_type", [JsonFilePipeline, DictJsonFilePipeline])
+@pytest.mark.parametrize("fail_write", [False, True])
+def test_base_pipeline_logs_success_only_after_write(
+    tmp_path, monkeypatch, pipeline_type, fail_write
+):
+    path = tmp_path / "data.json"
+    save_json({"old": True}, path)
+    original = path.read_bytes()
+    spider = SimpleNamespace(logger=Mock())
+    pipeline = pipeline_type(path)
+    pipeline.open_spider(spider)
+
+    if fail_write:
+        def fail(*args, **kwargs):
+            raise OSError("injected replacement failure")
+
+        monkeypatch.setattr(json_store.os, "replace", fail)
+        with pytest.raises(OSError):
+            pipeline.close_spider(spider)
+        assert path.read_bytes() == original
+        spider.logger.info.assert_not_called()
+    else:
+        pipeline.close_spider(spider)
+        assert read_json(path) == pipeline.collected_data
+        spider.logger.info.assert_called_once()

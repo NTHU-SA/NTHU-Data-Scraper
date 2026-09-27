@@ -284,9 +284,6 @@ class BusesSpider(scrapy.Spider):
         # 標準化欄位名稱並過濾空時間
         standardized_data = []
         for item in data:
-            if not item.get("time"):
-                continue
-
             # 標準化欄位名稱
             standardized_item = {
                 "time": item.get("time", ""),

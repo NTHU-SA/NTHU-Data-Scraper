@@ -130,6 +130,18 @@ def _make_event_id(uid: str, start: str) -> str:
     return hashlib.sha1(f"{uid}|{start}".encode("utf-8")).hexdigest()[:16]
 
 
+def _validate_calendar(calendar: icalendar.Calendar) -> None:
+    if calendar.name != "VCALENDAR":
+        raise InvalidLibrarySource("Expected a VCALENDAR document")
+    for component in calendar.walk():
+        if component.errors:
+            raise InvalidLibrarySource(f"Invalid calendar properties: {component.errors}")
+        if component.name == "VEVENT" and not isinstance(
+            getattr(component.get("DTSTART"), "dt", None), (date, datetime)
+        ):
+            raise InvalidLibrarySource("Calendar event has no usable DTSTART")
+
+
 def parse_calendar(
     ics_content: bytes | str, window_start: date, window_end: date
 ) -> Dict[str, Any]:
@@ -143,15 +155,7 @@ def parse_calendar(
         calendar = icalendar.Calendar.from_ical(ics_content)
     except ValueError as error:
         raise InvalidLibrarySource(str(error)) from error
-    if calendar.name != "VCALENDAR":
-        raise InvalidLibrarySource("Expected a VCALENDAR document")
-    for component in calendar.walk():
-        if component.errors:
-            raise InvalidLibrarySource(f"Invalid calendar properties: {component.errors}")
-        if component.name == "VEVENT" and not isinstance(
-            getattr(component.get("DTSTART"), "dt", None), (date, datetime)
-        ):
-            raise InvalidLibrarySource("Calendar event has no usable DTSTART")
+    _validate_calendar(calendar)
 
     events = []
     try:
@@ -284,6 +288,10 @@ class JsonPipeline:
             self.previous_calendars, list
         ):
             raise ValueError("Invalid library baseline structure")
+        spider.logger.info(
+            "Loaded library baseline: %d RSS feeds and %d calendars",
+            len(self.previous_rss), len(self.previous_calendars),
+        )
 
     def process_item(self, item, spider):
         if item["kind"] == "rss":

@@ -348,7 +348,5 @@ class JsonPipeline:
         if not spider.can_replace_dataset(self.combined_data):
             return
         self.combined_data.sort(key=lambda x: x.get("index") or "")
-        if save_json(self.combined_data, COMBINED_JSON_FILE):
-            spider.logger.info(f'✅ 成功儲存通訊錄資料至 "{COMBINED_JSON_FILE}"')
-        else:
-            spider.logger.error(f'❌ 儲存通訊錄資料失敗 "{COMBINED_JSON_FILE}"')
+        save_json(self.combined_data, COMBINED_JSON_FILE)
+        spider.logger.info(f'✅ 成功儲存通訊錄資料至 "{COMBINED_JSON_FILE}"')

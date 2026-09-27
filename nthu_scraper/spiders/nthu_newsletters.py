@@ -255,7 +255,5 @@ class JsonPipeline:
         if not spider.can_replace_dataset(self.combined_data):
             return
         sorted_data = sorted(self.combined_data, key=lambda x: x["name"])
-        if save_json(sorted_data, COMBINED_JSON_FILE):
-            spider.logger.info(f'✅ 成功儲存電子報資料至 "{COMBINED_JSON_FILE}"')
-        else:
-            spider.logger.error(f'❌ 儲存電子報資料失敗 "{COMBINED_JSON_FILE}"')
+        save_json(sorted_data, COMBINED_JSON_FILE)
+        spider.logger.info(f'✅ 成功儲存電子報資料至 "{COMBINED_JSON_FILE}"')

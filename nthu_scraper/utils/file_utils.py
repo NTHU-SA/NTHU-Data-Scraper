@@ -19,7 +19,7 @@ def load_json(file_path: Path) -> Optional[Any]:
     return read_json_optional(file_path)
 
 
-def save_json(data: Any, file_path: Path, ensure_dir: bool = True) -> bool:
+def save_json(data: Any, file_path: Path, ensure_dir: bool = True) -> None:
     """
     儲存資料為 JSON 檔案。
 
@@ -28,8 +28,6 @@ def save_json(data: Any, file_path: Path, ensure_dir: bool = True) -> bool:
         file_path: JSON 檔案路徑。
         ensure_dir: 是否確保目錄存在。
 
-    Returns:
-        成功返回 True；序列化及 I/O 錯誤向上傳遞，保留原檔案。
+    序列化及 I/O 錯誤向上傳遞，保留原檔案。
     """
     write_json_atomic(data, file_path, ensure_dir=ensure_dir)
-    return True

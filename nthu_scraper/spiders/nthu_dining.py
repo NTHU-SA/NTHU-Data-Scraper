@@ -94,8 +94,6 @@ class JsonDiningPipeline:
         處理每一個 DiningItem，儲存餐廳資料到 JSON 檔案。
         """
         if isinstance(item, DiningItem):
-            if save_json(item["data"], OUTPUT_PATH):
-                spider.logger.info(f'✅ 成功儲存餐廳資料至 "{OUTPUT_PATH}"')
-            else:
-                spider.logger.error(f'❌ 儲存餐廳資料失敗 "{OUTPUT_PATH}"')
+            save_json(item["data"], OUTPUT_PATH)
+            spider.logger.info(f'✅ 成功儲存餐廳資料至 "{OUTPUT_PATH}"')
         return item

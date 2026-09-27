@@ -176,8 +176,10 @@ def course_paths(tmp_path, monkeypatch):
 def test_invalid_courses_preserve_all_previous_files(course_paths, data):
     paths, folder = course_paths
     before = {path: path.read_bytes() for path in paths}
+    spider = courses.CoursesSpider()
+    response = course_response(data)
     with pytest.raises(ValueError):
-        courses.CoursesSpider().parse(course_response(data))
+        spider.parse(response)
     assert {path: path.read_bytes() for path in paths} == before
     assert len(list(folder.rglob("*.json"))) == 2
 
@@ -288,5 +290,6 @@ def test_newsletter_partial_article_parse_keeps_whole_dataset(tmp_path, monkeypa
     newsletters.NewsletterSpider().handle_request_error,
 ])
 def test_unexpected_request_errors_are_not_swallowed(handler):
+    failure = Failure(AttributeError("downloader implementation regression"))
     with pytest.raises(AttributeError):
-        handler(Failure(AttributeError("downloader implementation regression")))
+        handler(failure)

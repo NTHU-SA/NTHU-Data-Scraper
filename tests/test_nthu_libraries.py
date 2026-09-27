@@ -244,12 +244,16 @@ def test_library_implementation_error_is_not_treated_as_upstream_failure(monkeyp
     from scrapy.http import TextResponse
 
     response = TextResponse("https://example.test", body=b"test", encoding="utf-8")
+    spider = nthu_libraries.LibrariesSpider()
+    items = spider.parse_rss_feed(response, "news")
     with pytest.raises(error_type):
-        list(nthu_libraries.LibrariesSpider().parse_rss_feed(response, "news"))
+        list(items)
 
 
 def test_library_errback_does_not_swallow_implementation_errors():
     from twisted.python.failure import Failure
 
+    spider = nthu_libraries.LibrariesSpider()
+    failure = Failure(AttributeError("regression"))
     with pytest.raises(AttributeError):
-        nthu_libraries.LibrariesSpider().handle_error(Failure(AttributeError("regression")))
+        spider.handle_error(failure)
