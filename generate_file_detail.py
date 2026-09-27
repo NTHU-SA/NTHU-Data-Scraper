@@ -1,189 +1,172 @@
 import argparse
 import datetime
+import hashlib
 import json
-import subprocess
 from pathlib import Path
-from typing import List, Optional
+from typing import Iterable, Optional
+
+TAIPEI_TIMEZONE = datetime.timezone(datetime.timedelta(hours=8))
+PUBLISHING_FILES = {
+    ".git",
+    ".nojekyll",
+    "CNAME",
+    "file_details.json",
+    "index.html",
+}
 
 
-def get_file_last_commit_info(filepath: Path) -> tuple[Optional[str], Optional[str]]:
-    """
-    取得指定檔案最後一次 commit 的 SHA 和時間戳記。
+def calculate_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as file:
+        for chunk in iter(lambda: file.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
-    此函數使用 `git log` 命令來查詢檔案的 commit 資訊。
 
-    Args:
-        filepath: 檔案路徑 (Pathlib Path 物件)。
+def _generation_time(generated_at: Optional[datetime.datetime]) -> datetime.datetime:
+    if generated_at is None:
+        generated_at = datetime.datetime.now(datetime.timezone.utc)
+    if generated_at.tzinfo is None or generated_at.utcoffset() is None:
+        raise ValueError("generated_at must be timezone-aware")
+    return generated_at.astimezone(TAIPEI_TIMEZONE)
 
-    Returns:
-        一個 tuple，包含最後一次 commit 的 SHA (字串) 和 ISO 8601 格式的時間戳記 (字串)。
-        如果發生錯誤或檔案沒有 commit 紀錄，則返回 (None, None)。
-    """
+
+def _load_previous_details(path: Path) -> dict[tuple[str, str], dict]:
     try:
-        output = (
-            subprocess.check_output(
-                [
-                    "git",
-                    "log",
-                    "-n",
-                    "1",
-                    "--pretty=format:%H %ct",
-                    "--",
-                    str(filepath),
-                ],
-                stderr=subprocess.DEVNULL,  # 避免 git log 錯誤訊息輸出到標準輸出
-            )
-            .decode("utf-8")
-            .strip()
-        )
+        with path.open(encoding="utf-8") as file:
+            data = json.load(file)
+    except FileNotFoundError:
+        return {}
+    except json.JSONDecodeError as error:
+        print(f"Warning: ignoring malformed previous metadata at {path}: {error}")
+        return {}
 
-        if not output:  # 檔案沒有 commit 紀錄
-            return None, None
+    if not isinstance(data, dict):
+        print(f"Warning: ignoring invalid previous metadata structure at {path}")
+        return {}
 
-        commit_sha, commit_timestamp_str = output.split(" ", 1)
-        commit_timestamp = int(commit_timestamp_str)
+    sections = data.get("file_details")
+    if not isinstance(sections, dict):
+        print(f"Warning: ignoring invalid previous metadata structure at {path}")
+        return {}
 
-        commit_datetime_utc = datetime.datetime.fromtimestamp(
-            commit_timestamp, datetime.timezone.utc
-        )
-        commit_datetime_taipei = commit_datetime_utc.astimezone(
-            datetime.timezone(datetime.timedelta(hours=8))
-        )
-        last_updated = commit_datetime_taipei.isoformat()
+    previous = {}
+    for folder, entries in sections.items():
+        if not isinstance(folder, str) or not isinstance(entries, list):
+            continue
+        for entry in entries:
+            if isinstance(entry, dict) and isinstance(entry.get("name"), str):
+                previous[(folder, entry["name"])] = entry
+    return previous
 
-        return commit_sha, last_updated
 
-    except subprocess.CalledProcessError:
-        print(
-            f"錯誤：無法取得 {filepath} 的 commit 資訊。請確認檔案已納入 Git 版本控制。"
-        )
-        return None, None
-    except ValueError as e:
-        print(
-            f"錯誤：解析 {filepath} 的 commit 時間戳記時發生錯誤: {e}, 輸出: {output}"
-        )
-        return None, None
+def _valid_previous_timestamp(entry: dict) -> Optional[str]:
+    value = entry.get("last_updated")
+    if not isinstance(value, str):
+        return None
+    try:
+        timestamp = datetime.datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if timestamp.tzinfo is None or timestamp.utcoffset() is None:
+        return None
+    return value
+
+
+def _previous_sha256(entry: dict) -> Optional[str]:
+    for key in ("sha256", "version", "last_commit"):
+        value = entry.get(key)
+        if (
+            isinstance(value, str)
+            and len(value) == 64
+            and all(character in "0123456789abcdefABCDEF" for character in value)
+        ):
+            return value.lower()
+    return None
+
+
+def _iter_published_files(data_folder: Path) -> Iterable[Path]:
+    for path in sorted(data_folder.rglob("*")):
+        if not path.is_file():
+            continue
+        relative_path = path.relative_to(data_folder).as_posix()
+        if relative_path in PUBLISHING_FILES:
+            continue
+        yield path
 
 
 def generate_file_detail_json(
     data_folder: Path,
     file_detail_json_path: Path,
-    include_folders: Optional[List[str]] = None,
-    exclude_folders: Optional[List[str]] = None,
-) -> None:
-    """
-    產生 file_detail.json 檔案，包含指定資料夾中檔案的詳細資訊，並使用 commit 時間戳記作為更新時間。
+    include_folders: Optional[list[str]] = None,
+    exclude_folders: Optional[list[str]] = None,
+    generated_at: Optional[datetime.datetime] = None,
+) -> dict:
+    current_time = _generation_time(generated_at)
+    current_time_iso = current_time.isoformat()
+    previous_details = _load_previous_details(file_detail_json_path)
+    file_details: dict[str, list[dict[str, str]]] = {}
+    meaningful_timestamps: list[datetime.datetime] = []
 
-    Args:
-        data_folder: 根資料夾路徑 (Pathlib Path 物件)，程式將在此資料夾下遞迴搜尋檔案。
-        file_detail_json_path: 輸出 file_detail.json 檔案的路徑 (Pathlib Path 物件)。
-        include_folders: 要包含的資料夾名稱列表 (字串列表)。如果為 None，則包含所有資料夾。
-        exclude_folders: 要排除的資料夾名稱列表 (字串列表)。
-    """
-    now_utc = datetime.datetime.now(datetime.timezone.utc)
-    now_taipei = now_utc.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
-
-    file_details = {}
-    latest_commit_datetime = None  # 用來儲存最新檔案的 commit 時間
-
-    for path in data_folder.rglob("*"):
-        if not path.is_file() or path.name == file_detail_json_path.name:
-            continue
-
+    for path in _iter_published_files(data_folder):
         relative_path = path.relative_to(data_folder)
-        parts = relative_path.parts
-
-        if parts:
-            if len(parts) > 1:
-                folder_key = "/".join(parts[:-1])
-            else:
-                # 根目錄的 key 為 "/"
-                folder_key = "/"
-        else:
-            folder_key = "/"
+        folder_key = "/".join(relative_path.parts[:-1]) or "/"
 
         if exclude_folders and folder_key in exclude_folders:
             continue
-
         if include_folders and folder_key not in include_folders:
             continue
 
-        if folder_key not in file_details:
-            file_details[folder_key] = []
+        sha256 = calculate_sha256(path)
+        previous = previous_details.get((folder_key, path.name), {})
+        previous_timestamp = _valid_previous_timestamp(previous)
+        if _previous_sha256(previous) == sha256 and previous_timestamp is not None:
+            last_updated = previous_timestamp
+        else:
+            last_updated = current_time_iso
 
-        last_commit_sha, last_updated = get_file_last_commit_info(path)
-
-        # 更新 latest_commit_datetime
-        if last_updated is not None:
-            try:
-                dt = datetime.datetime.fromisoformat(last_updated)
-                if latest_commit_datetime is None or dt > latest_commit_datetime:
-                    latest_commit_datetime = dt
-            except ValueError:
-                pass
-
-        file_details[folder_key].append(
+        timestamp = datetime.datetime.fromisoformat(last_updated.replace("Z", "+00:00"))
+        meaningful_timestamps.append(timestamp)
+        file_details.setdefault(folder_key, []).append(
             {
                 "name": path.name,
                 "last_updated": last_updated,
-                "last_commit": last_commit_sha,
+                "last_commit": sha256,
+                "version": sha256,
+                "sha256": sha256,
             }
         )
 
-    for folder in file_details:
-        file_details[folder].sort(key=lambda f: f["name"])
+    for entries in file_details.values():
+        entries.sort(key=lambda entry: entry["name"])
 
-    # 如果有最新 commit 時間，則用它，否則以目前台北時間為準
-    current_time_iso = (
-        latest_commit_datetime.isoformat()
-        if latest_commit_datetime is not None
-        else now_taipei.isoformat()
+    last_updated = (
+        max(meaningful_timestamps).isoformat()
+        if meaningful_timestamps
+        else current_time_iso
     )
+    detail_data = {"last_updated": last_updated, "file_details": file_details}
 
-    detail_data = {"last_updated": current_time_iso, "file_details": file_details}
+    file_detail_json_path.parent.mkdir(parents=True, exist_ok=True)
+    with file_detail_json_path.open("w", encoding="utf-8") as file:
+        json.dump(detail_data, file, indent=2, ensure_ascii=False, sort_keys=True)
+        file.write("\n")
 
-    data_folder.mkdir(parents=True, exist_ok=True)
-
-    with file_detail_json_path.open("w", encoding="utf-8") as f:
-        json.dump(detail_data, f, indent=2, ensure_ascii=False, sort_keys=True)
-
-    print(f"{file_detail_json_path} 檔案已生成。")
+    print(f"{file_detail_json_path} generated.")
+    return detail_data
 
 
 if __name__ == "__main__":
-    """
-    主程式入口。使用 argparse 解析命令列參數，並生成 file_detail.json 檔案。
-
-    使用者可以透過命令列參數指定資料夾路徑、file_detail.json 輸出路徑、包含和排除的資料夾。
-    """
     parser = argparse.ArgumentParser(
-        description="從指定資料夾生成 file_detail.json 檔案，包含檔案的最後更新時間 (commit 時間)。"
+        description="Generate file_details.json with exact-byte SHA-256 versions."
     )
-    parser.add_argument(
-        "--data_folder",
-        type=str,
-        default="data",
-        help="要掃描的根資料夾路徑 (預設為 'data')",
-    )
-    parser.add_argument(
-        "--json_path",
-        type=str,
-        default="file_detail.json",
-        help="輸出 file_detail.json 檔案的路徑 (預設為 'file_detail.json')",
-    )
-    parser.add_argument(
-        "--include",
-        type=str,
-        nargs="+",
-        help="要包含的資料夾名稱，多個名稱請用空格分隔 (預設包含所有資料夾)",
-    )
-    parser.add_argument(
-        "--exclude",
-        type=str,
-        nargs="+",
-        help="要排除的資料夾名稱，多個名稱請用空格分隔 (預設不排除任何資料夾)",
-    )
+    parser.add_argument("--include", nargs="+", help="Only include these folder keys")
+    parser.add_argument("--exclude", nargs="+", help="Exclude these folder keys")
     args = parser.parse_args()
+    data_folder = (Path.cwd() / "data").resolve()
     generate_file_detail_json(
-        Path(args.data_folder), Path(args.json_path), args.include, args.exclude
+        data_folder,
+        data_folder / "file_details.json",
+        args.include,
+        args.exclude,
     )

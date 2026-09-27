@@ -5,8 +5,15 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */2 * * *" # 每兩小時執行一次
-  workflow_dispatch: # 允許手動觸發
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-data
+  cancel-in-progress: false
 
 env:
   TZ: Asia/Taipei
@@ -14,87 +21,87 @@ env:
 
 jobs:
   crawl_and_update:
-    name: Crawl, Commit, and Deploy
+    name: Crawl and publish data snapshot
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Checkout code
+      - name: Checkout source
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 確保有完整的 git 歷史
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: 3.13.2
 
-      - name: Install dependencies
+      - name: Set up uv
+        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        with:
+          enable-cache: true
+
+      - name: Install locked dependencies
+        run: uv sync --frozen --no-build
+
+      - name: Hydrate previous published snapshot
+        shell: bash
         run: |
-          pip install -r requirements.txt
+          git fetch origin data
+          git worktree add --detach "$RUNNER_TEMP/published-data" origin/data
+          rsync -a \
+            --exclude=.git \
+            --exclude=.nojekyll \
+            --exclude=CNAME \
+            --exclude=file_details.json \
+            --exclude=index.html \
+            "$RUNNER_TEMP/published-data/" "$DATA_FOLDER/"
 
       - name: Run spiders
-        id: crawl
-        shell: bash
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: |
-          python -m scrapy crawl nthu_announcements_item
-          python -m scrapy crawl nthu_buses
-          python -m scrapy crawl nthu_courses
-          python -m scrapy crawl nthu_dining
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_announcements_item
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_buses
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_courses
+          uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_dining
 
       - name: Run library spider
-        # lib.nthu.edu.tw may reject requests from GitHub-hosted runner IPs.
-        # Don't let that block the other datasets: the spider keeps the previous
-        # JSON when a source fails. If it keeps failing, move this step to the
-        # self-hosted runner (see workflow.md).
         continue-on-error: true
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
-        run: python -m scrapy crawl nthu_libraries
+        run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_libraries
 
-      - name: Configure Git
+      - name: Validate and generate publishing files
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "action@github.com"
+          uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"
+          uv run --frozen --no-build --no-sync python generate_file_detail.py
+          uv run --frozen --no-build --no-sync python generate_index.py
+          touch "$DATA_FOLDER/.nojekyll"
+          uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"
 
-      - name: Commit data updates
+      - name: Publish snapshot to data branch
         shell: bash
         run: |
-          git add -A "$DATA_FOLDER"
-          # 使用 git status 檢查是否有實際的檔案變更
-          if [[ -n "$(git status --porcelain "$DATA_FOLDER")" ]]; then
-            echo "Data changes detected. Committing..."
-            
-            # 1. 預處理：移除 DATA_FOLDER 變數尾端可能多餘的斜線，避免路徑比對失敗
-            CLEAN_FOLDER="${DATA_FOLDER%/}"
-            
-            # 2. 產生 commit 訊息
-            cats=$(git status --porcelain "$DATA_FOLDER" \
-              | awk '{print $2}' \
-              | tr -d '"' \
-              | cut -d '/' -f2 \
-              | sed 's/\.json$//' \
-              | sort -u \
-              | paste -sd ",")
-              
-            git commit -m "📝 Scheduled update of JSON data [$cats] [skip ci]"
-            git push
-          else
-            echo "No data changes."
+          published="$RUNNER_TEMP/published-data"
+          cname_file="$RUNNER_TEMP/CNAME"
+          if [[ -f "$published/CNAME" ]]; then
+            cp "$published/CNAME" "$cname_file"
           fi
 
-      - name: Generate file details for Pages
-        run: python generate_file_detail.py --data_folder=$DATA_FOLDER --json_path=$DATA_FOLDER/file_details.json
+          find "$published" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a "$DATA_FOLDER/." "$published/"
+          if [[ -f "$cname_file" ]]; then
+            cp "$cname_file" "$published/CNAME"
+          fi
 
-      - name: Generate index.html for Pages
-        run: python generate_index.py --json_path=$DATA_FOLDER/file_details.json --output=$DATA_FOLDER/index.html
+          git -C "$published" config user.name "github-actions[bot]"
+          git -C "$published" config user.email "github-actions[bot]@users.noreply.github.com"
+          git -C "$published" add -A
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ env.DATA_FOLDER }}
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: "🚀 Deploy updated data to gh-pages"
+          if git -C "$published" diff --cached --quiet; then
+            echo "No published data changes."
+            exit 0
+          fi
+
+          git -C "$published" commit -m "data: update published snapshot"
+          git -C "$published" push origin HEAD:data
