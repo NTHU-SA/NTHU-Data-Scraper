@@ -1,3 +1,4 @@
+import argparse
 import datetime
 import json
 
@@ -20,7 +21,7 @@ def _entry(metadata, folder="/", index=0):
 def test_cli_paths_must_remain_in_workspace(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     assert workspace_path("data/file_details.json").is_relative_to(tmp_path)
-    with pytest.raises(ValueError, match="must remain within"):
+    with pytest.raises(argparse.ArgumentTypeError, match="must remain within"):
         workspace_path("../file_details.json")
 
 

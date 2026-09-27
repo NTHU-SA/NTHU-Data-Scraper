@@ -1,3 +1,4 @@
+import argparse
 import json
 
 import pytest
@@ -8,7 +9,7 @@ from generate_index import generate_html_report, workspace_path
 def test_cli_paths_must_remain_in_workspace(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     assert workspace_path("data/index.html").is_relative_to(tmp_path)
-    with pytest.raises(ValueError, match="must remain within"):
+    with pytest.raises(argparse.ArgumentTypeError, match="must remain within"):
         workspace_path("../index.html")
 
 
