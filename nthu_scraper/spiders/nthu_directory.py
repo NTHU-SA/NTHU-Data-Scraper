@@ -5,7 +5,8 @@ from typing import Any, Dict, List
 import scrapy
 
 from nthu_scraper.utils.constants import DATA_FOLDER
-from nthu_scraper.utils.file_utils import save_json
+from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
 
 # --- 全域參數設定 ---
 COMBINED_JSON_FILE = DATA_FOLDER / "directory.json"
@@ -130,7 +131,7 @@ class DepartmentItem(scrapy.Item):
     details = scrapy.Field()
 
 
-class DirectorySpider(scrapy.Spider):
+class DirectorySpider(WholeDatasetSpider):
     """
     清華大學系所資訊爬蟲。
     """
@@ -164,8 +165,11 @@ class DirectorySpider(scrapy.Spider):
                 yield scrapy.Request(
                     url=dept_url,
                     callback=self.parse_dept_page,
+                    errback=self.handle_request_error,
                     meta={"dept_name": name.strip() if name else "Unknown Department"},
                 )
+        if not departments:
+            self.mark_incomplete("Directory root contained no departments")
 
     def parse_dept_page(self, response):
         """
@@ -199,6 +203,7 @@ class DirectorySpider(scrapy.Spider):
                     yield scrapy.Request(
                         url=sub_dept_url,
                         callback=self.parse_dept_page,
+                        errback=self.handle_request_error,
                         meta={
                             "dept_name": dept_page_name.strip(),
                             "parent_name": dept_name,
@@ -214,6 +219,10 @@ class DirectorySpider(scrapy.Spider):
                 if len(tables) > 1:
                     people_table = tables[1]
                     people_data_list = self.parse_people_table(people_table)
+
+        if not (departments or contact_data or people_data_list):
+            self.mark_incomplete(f"No department details: {response.url}")
+            return
 
         dept_detail = DepartmentDetail(
             departments=departments,
@@ -318,6 +327,7 @@ class JsonPipeline:
         Spider 開啟時執行，建立必要的資料夾。
         """
         COMBINED_JSON_FILE.parent.mkdir(parents=True, exist_ok=True)
+        load_json(COMBINED_JSON_FILE)
         self.combined_data = []
 
     def process_item(self, item, spider):
@@ -335,7 +345,9 @@ class JsonPipeline:
         """
         Spider 關閉時執行，合併所有系所 JSON 檔案。
         """
-        self.combined_data.sort(key=lambda x: x.get("index", ""))
+        if not spider.can_replace_dataset(self.combined_data):
+            return
+        self.combined_data.sort(key=lambda x: x.get("index") or "")
         if save_json(self.combined_data, COMBINED_JSON_FILE):
             spider.logger.info(f'✅ 成功儲存通訊錄資料至 "{COMBINED_JSON_FILE}"')
         else:

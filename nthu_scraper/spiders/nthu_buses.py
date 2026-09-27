@@ -13,6 +13,7 @@ from nthu_scraper.utils.constants import (
     BUSES_JSON_PATH,
 )
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.crawl_safety import log_source_failure
 
 # 公車路線配置
 BUS_CONFIG = {
@@ -74,6 +75,7 @@ class BusesSpider(scrapy.Spider):
             yield scrapy.Request(
                 url=config["url"],
                 callback=self.parse,
+                errback=log_source_failure,
                 meta={"bus_type": bus_type},
             )
 
@@ -138,6 +140,7 @@ class BusesSpider(scrapy.Spider):
             yield scrapy.Request(
                 url=config["schedule_images"],
                 callback=self.parse_images,
+                errback=log_source_failure,
                 meta={"bus_type": bus_type},
             )
 
@@ -235,6 +238,10 @@ class BusesSpider(scrapy.Spider):
             self.logger.debug(f"JSON 內容: {literal[:500]}")
             return None
 
+        if not isinstance(data, dict):
+            self.logger.warning("Invalid bus info object: %s", var_name)
+            return None
+
         # 清理 HTML 標籤
         for key in ["route", "routeEN"]:
             if key in data:
@@ -266,6 +273,12 @@ class BusesSpider(scrapy.Spider):
         except (SyntaxError, ValueError) as e:
             self.logger.error(f"解析 {var_name} 失敗: {e}")
             self.logger.debug(f"JSON 內容: {literal[:500]}")
+            return None
+
+        if not isinstance(data, list) or any(
+            not isinstance(item, dict) or not item.get("time") for item in data
+        ):
+            self.logger.warning("Invalid or incomplete bus schedule: %s", var_name)
             return None
 
         # 標準化欄位名稱並過濾空時間
@@ -324,6 +337,7 @@ class BusesSpider(scrapy.Spider):
             yield scrapy.Request(
                 url=abs_link,
                 callback=self.save_image,
+                errback=log_source_failure,
                 meta={
                     "bus_type": bus_type,
                     "index": idx,
@@ -353,7 +367,11 @@ class BusPipeline:
     def open_spider(self, spider):
         """初始化"""
         BUSES_FOLDER.mkdir(parents=True, exist_ok=True)
-        self.bus_data = {}
+        previous = load_json(BUSES_JSON_PATH)
+        self.bus_data = previous if previous is not None else {}
+        if not isinstance(self.bus_data, dict):
+            raise ValueError("Expected buses.json to contain an object")
+        self.refreshed_keys = set()
 
     def process_item(self, item, spider):
         """處理 Item"""
@@ -361,16 +379,22 @@ class BusPipeline:
             return item
 
         item_name = item["item_name"]
-        self.bus_data[item_name] = item["data"]
+        if not item["data"]:
+            spider.logger.warning("Empty bus component; retaining %s", item_name)
+            return item
 
         # 儲存個別檔案
         file_path = BUSES_FOLDER / f"{item_name}.json"
         save_json(item["data"], file_path)
+        self.bus_data[item_name] = item["data"]
+        self.refreshed_keys.add(item_name)
         spider.logger.info(f'儲存 {item["route_type"]}/{item_name} 到 {file_path}')
 
         return item
 
     def close_spider(self, spider):
         """儲存合併的資料"""
+        for key in self.bus_data.keys() - self.refreshed_keys:
+            spider.logger.warning("Retaining previous bus component: %s", key)
         save_json(self.bus_data, BUSES_JSON_PATH)
         spider.logger.info(f"成功儲存所有公車資料到 {BUSES_JSON_PATH}")

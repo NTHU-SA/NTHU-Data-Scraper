@@ -6,6 +6,7 @@ import scrapy
 
 from nthu_scraper.utils.constants import DATA_FOLDER
 from nthu_scraper.utils.file_utils import save_json
+from nthu_scraper.utils.crawl_safety import log_source_failure
 
 # 預先編譯正規表達式（改善效能與可讀性）
 DINING_REGEX = re.compile(r"const restaurantsData = (\[.*?)(?:\s+renderTabs)", re.S)
@@ -31,6 +32,10 @@ class DiningSpider(scrapy.Spider):
     custom_settings = {
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_dining.JsonDiningPipeline": 1},
     }
+
+    async def start(self):
+        for url in self.start_urls:
+            yield scrapy.Request(url, errback=log_source_failure)
 
     def parse(self, response):
         """

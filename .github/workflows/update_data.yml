@@ -55,6 +55,9 @@ jobs:
             --exclude=index.html \
             "$RUNNER_TEMP/published-data/" "$DATA_FOLDER/"
 
+      - name: Validate hydrated baseline
+        run: uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"
+
       - name: Run announcements item spider
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
@@ -76,7 +79,6 @@ jobs:
         run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_dining
 
       - name: Run library spider
-        continue-on-error: true
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
         run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_libraries

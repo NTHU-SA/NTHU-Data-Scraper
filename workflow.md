@@ -29,11 +29,13 @@ reapply any unpublished source changes onto the new history instead.
 ```mermaid
 flowchart TD
   snapshot[data branch snapshot] --> hydrate[Hydrate ignored local data directory]
-  hydrate --> crawl[Run scheduled spiders from main]
+  hydrate --> baseline[Validate hydrated baseline]
+  baseline --> crawl[Run scheduled spiders from main]
   crawl --> validate[Validate all JSON and critical datasets]
   validate --> metadata[Generate file_details.json]
   metadata --> index[Generate index.html and .nojekyll]
-  index --> commit[Commit changed snapshot to data]
+  index --> final[Validate final candidate]
+  final --> commit[Commit changed snapshot to data]
 ```
 
 The workflow runs on pushes to `main`, every two hours, and manual dispatch.
@@ -48,7 +50,7 @@ the staged tree is unchanged, the workflow creates no commit.
 Hydration excludes `.git`, `.nojekyll`, `CNAME`, and `index.html`, while
 retaining the previous `file_details.json` so unchanged datasets preserve their
 meaningful `last_updated` values. Existing datasets are copied before crawling,
-so a spider that does not run—or a library source that fails—does not erase its
+so a spider that does not run—or a source retained by its crawler—does not erase its
 previous published output. A preserved `CNAME` is restored during publication
 if one is ever added to the `data` branch.
 
@@ -58,22 +60,35 @@ The regular spider set remains:
 - `nthu_buses`
 - `nthu_courses`
 - `nthu_dining`
-- `nthu_libraries` (failure-isolated because upstream sites may reject hosted
-  runner IPs)
+- `nthu_libraries`
 
 Each scheduled spider runs in its own named GitHub Actions step, in the order
 listed above, so its logs and status are visible separately. A failure stops
-subsequent steps and publication, except for the failure-isolated library step.
+subsequent steps and publication, including failures in the library step.
+Expected individual upstream failures are handled internally with logged
+last-known-good fallback. The project overrides Scrapy's `crawl` command to
+fail on callback/item errors, logged exception tracebacks (including pipeline
+open/close and startup failures), and unfinished crawls. This matters because
+standard Scrapy can log an implementation error yet exit successfully.
 
 Directory, maps, newsletters, announcement-list, and other legacy datasets are
-preserved by hydration; Phase 1 does not expand the crawler schedule.
+preserved by hydration; Phase 2A does not expand the crawler schedule.
 
 ## Validation and metadata
 
 `validate_data.py` rejects missing critical root datasets, empty JSON files,
-and malformed JSON before publication. It validates generated
+and malformed JSON immediately after hydration and again before publication.
+The baseline check includes previous publishing metadata, so corrupt existing
+JSON cannot silently be overwritten by a crawl. It validates generated
 `file_details.json` in the final pass but does not count publishing metadata as
 crawler data.
+
+Source merge and replacement rules are documented in [README.md](README.md#data-safety).
+JSON writes, including publishing metadata, use same-directory atomic
+replacement while preserving their prior serialization formats. Storage
+errors propagate; the workflow never publishes after a required step fails.
+Multi-file writes are not local transactions: discard/re-hydrate a failed
+candidate before manually publishing it.
 
 `generate_file_detail.py` hashes the exact bytes of each published data asset.
 Unchanged hashes preserve their previous `last_updated`; changed and new files

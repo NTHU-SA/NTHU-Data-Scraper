@@ -1,0 +1,292 @@
+import asyncio
+import json
+from dataclasses import asdict
+import pytest
+import scrapy
+from scrapy.http import HtmlResponse, TextResponse
+from twisted.python.failure import Failure
+
+from nthu_scraper.spiders import (
+    nthu_announcements_item as announcements,
+    nthu_buses as buses,
+    nthu_courses as courses,
+    nthu_dining as dining,
+    nthu_directory as directory,
+    nthu_maps as maps,
+    nthu_newsletters as newsletters,
+)
+from nthu_scraper.storage import read_json, write_json_atomic
+from nthu_scraper.utils.crawl_safety import log_source_failure
+
+
+def announcement(link, title="old"):
+    return {
+        "link": link, "title": title, "department": "department", "language": "en",
+        "articles": [{"title": title, "link": link + "/article", "date": "2026-09-27"}],
+    }
+
+
+@pytest.mark.parametrize("successful", [[], ["a"], ["a", "b"]])
+def test_announcements_merge_authoritative_sources(tmp_path, monkeypatch, caplog, successful):
+    path = tmp_path / "announcements.json"
+    folder = tmp_path / "announcements"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", folder)
+    expected = [announcement(key) for key in ("b", "a", "new-without-baseline")]
+    old = [announcement(key) for key in ("removed", "b", "a")]
+    write_json_atomic(old, path)
+    spider = scrapy.Spider("test")
+    spider.announcement_list = expected
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    for key in reversed(successful):
+        pipeline.process_item(announcements.AnnouncementItem(announcement(key, "new-" + key)), spider)
+    pipeline.close_spider(spider)
+    assert read_json(path) == [
+        announcement(key, "new-" + key if key in successful else "old") for key in ("a", "b")
+    ]
+    assert "No known-good announcement source: new-without-baseline" in caplog.text
+
+
+def test_empty_announcement_keeps_individual_and_aggregate(tmp_path, monkeypatch):
+    path = tmp_path / "announcements.json"
+    folder = tmp_path / "announcements"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", folder)
+    old = announcement("a")
+    individual = folder / "department" / "old_en.json"
+    write_json_atomic(old, individual)
+    write_json_atomic([old], path)
+    original = individual.read_bytes()
+    spider = scrapy.Spider("test")
+    spider.announcement_list = [old]
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    pipeline.process_item(announcements.AnnouncementItem({**old, "articles": []}), spider)
+    pipeline.close_spider(spider)
+    assert read_json(path) == [old]
+    assert individual.read_bytes() == original
+
+
+def test_announcement_redirect_keeps_authoritative_identity(tmp_path, monkeypatch):
+    source = announcement("https://example.test/original")
+    path = tmp_path / "announcements_list.json"
+    write_json_atomic([source], path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_LIST_PATH", path)
+    spider = announcements.AnnouncementsItemSpider()
+
+    async def requests():
+        return [request async for request in spider.start()]
+
+    request = asyncio.run(requests())[0]
+    response = HtmlResponse(
+        "https://example.test/redirected",
+        request=request,
+        body=b'<div id="pageptlist"><div class="row listBS"><div class="mtitle">'
+             b'<a href="/article">Article</a></div></div></div>',
+        encoding="utf-8",
+    )
+    assert list(spider.parse(response))[0]["link"] == source["link"]
+
+
+@pytest.mark.parametrize("broken", [False, True])
+def test_announcement_table_header_and_partial_parse(tmp_path, monkeypatch, broken):
+    path = tmp_path / "announcements_list.json"
+    write_json_atomic([], path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_LIST_PATH", path)
+    spider = announcements.AnnouncementsItemSpider()
+    html = (
+        '<table id="pageptlist"><tr><th>Title</th></tr>'
+        '<tr><td class="mtitle"><a href="/article">Article</a></td></tr>'
+        + ('<tr><td class="mtitle">Broken article</td></tr>' if broken else "")
+        + "</table>"
+    )
+    response = HtmlResponse("https://example.test", body=html.encode(), encoding="utf-8")
+    articles = spider._extract_articles(response)
+    assert len(articles) == (0 if broken else 1)
+
+
+@pytest.mark.parametrize("module,pipeline_type,item_type,aggregate_name,folder_name", [
+    (buses, buses.BusPipeline, buses.BusInfo, "BUSES_JSON_PATH", "BUSES_FOLDER"),
+    (maps, maps.JsonMapPipeline, maps.MapItem, "COMBINED_JSON_FILE", "OUTPUT_PATH"),
+])
+def test_components_keep_missing_and_empty_values(
+    tmp_path, monkeypatch, module, pipeline_type, item_type, aggregate_name, folder_name
+):
+    path = tmp_path / "aggregate.json"
+    monkeypatch.setattr(module, aggregate_name, path)
+    monkeypatch.setattr(module, folder_name, tmp_path / "individual")
+    previous = {"MainEN": {"old": 1}, "MainZH": {"old": 2}, "NandaEN": {"old": 3}}
+    write_json_atomic(previous, path)
+    spider = scrapy.Spider("test")
+    pipeline = pipeline_type()
+    pipeline.open_spider(spider)
+    for key, data in [("MainZH", {}), ("MainEN", {"new": 1})]:
+        item = (
+            item_type(item_name=key, route_type="main", data=data)
+            if module is buses else item_type(map_type=key, data=data)
+        )
+        pipeline.process_item(item, spider)
+    pipeline.close_spider(spider)
+    result = read_json(path)
+    assert result == {**previous, "MainEN": {"new": 1}}
+    if module is maps:
+        assert list(result) == sorted(result)
+
+
+def test_partial_bus_parse_does_not_publish_truncated_component():
+    spider = buses.BusesSpider()
+    assert spider._parse_schedule_variable(
+        "schedule", 'const schedule = [{"time":"08:00"}, {"description":"broken"}];'
+    ) is None
+
+
+VALID_COURSES = [
+    {"\u79d1\u865f": "11510CS101", "\u4e2d\u6587\u8ab2\u540d": "Course A"},
+    {"\u79d1\u865f": "11520CS102", "\u4e2d\u6587\u8ab2\u540d": "Course B"},
+]
+
+
+def course_response(data):
+    return TextResponse(
+        "https://example.test/courses",
+        body=json.dumps(data).encode("utf-8"), encoding="utf-8",
+        request=scrapy.Request("https://example.test/courses", meta={"data_type": "latest"}),
+    )
+
+
+@pytest.fixture
+def course_paths(tmp_path, monkeypatch):
+    folder = tmp_path / "courses"
+    root = tmp_path / "courses.json"
+    monkeypatch.setattr(courses, "OUTPUT_FOLDER", folder)
+    monkeypatch.setattr(courses, "LATEST_JSON", root)
+    paths = [root, folder / "latest.json", folder / "semesters" / "11510.json"]
+    for path in paths:
+        write_json_atomic(["known-good"], path)
+    return paths, folder
+
+
+@pytest.mark.parametrize("data", [
+    {}, {"error": "unavailable"}, [], "invalid", [None], [{}],
+    {"\u5de5\u4f5c\u88681": {}},
+    VALID_COURSES + [{}],
+    [{"\u79d1\u865f": "../xxCS101", "\u4e2d\u6587\u8ab2\u540d": "invalid semester"}],
+])
+def test_invalid_courses_preserve_all_previous_files(course_paths, data):
+    paths, folder = course_paths
+    before = {path: path.read_bytes() for path in paths}
+    with pytest.raises(ValueError):
+        courses.CoursesSpider().parse(course_response(data))
+    assert {path: path.read_bytes() for path in paths} == before
+    assert len(list(folder.rglob("*.json"))) == 2
+
+
+@pytest.mark.parametrize("wrapped", [False, True])
+def test_valid_courses_preserve_structure_and_indentation(course_paths, wrapped):
+    paths, folder = course_paths
+    payload = {"\u5de5\u4f5c\u88681": VALID_COURSES} if wrapped else VALID_COURSES
+    courses.CoursesSpider().parse(course_response(payload))
+    assert read_json(paths[0]) == VALID_COURSES
+    assert read_json(paths[1]) == VALID_COURSES
+    assert paths[0].read_text(encoding="utf-8") == json.dumps(VALID_COURSES, ensure_ascii=False, indent=4)
+    assert paths[1].read_text(encoding="utf-8") == json.dumps(VALID_COURSES, ensure_ascii=False, indent=2)
+    for course, semester in zip(VALID_COURSES, ("11510", "11520")):
+        assert read_json(folder / "semesters" / f"{semester}.json") == [
+            asdict(courses.CoursesData.from_dict(course))
+        ]
+
+
+@pytest.mark.parametrize("module,spider_type", [
+    (directory, directory.DirectorySpider), (newsletters, newsletters.NewsletterSpider),
+])
+@pytest.mark.parametrize("failure_kind", ["request", "parse", "empty", "implementation", "none"])
+def test_whole_dataset_retained_unless_complete(tmp_path, monkeypatch, module, spider_type, failure_kind):
+    path = tmp_path / "aggregate.json"
+    write_json_atomic([{"name": "old"}], path)
+    original = path.read_bytes()
+    monkeypatch.setattr(module, "COMBINED_JSON_FILE", path)
+    spider = spider_type()
+    pipeline = module.JsonPipeline()
+    pipeline.open_spider(spider)
+    if failure_kind != "empty":
+        pipeline.process_item({"name": "new", "index": "1"}, spider)
+    request = scrapy.Request("https://example.test/child", meta={"dept_name": "name", "newsletter": {"name": "name"}})
+    if failure_kind == "request":
+        failure = Failure(OSError("upstream unavailable"))
+        failure.request = request
+        spider.handle_request_error(failure)
+    elif failure_kind == "implementation":
+        spider.handle_spider_error(Failure(RuntimeError("regression")))
+    elif failure_kind == "parse":
+        response = HtmlResponse(request.url, request=request, body=b"<html>broken</html>")
+        callback = spider.parse_dept_page if module is directory else spider.parse_newsletter_content
+        assert list(callback(response)) == []
+    pipeline.close_spider(spider)
+    if failure_kind == "none":
+        assert read_json(path) == [{"name": "new", "index": "1"}]
+    else:
+        assert path.read_bytes() == original
+
+
+@pytest.mark.parametrize("spider_type,html", [
+    (directory.DirectorySpider, '<li><a href="dept.php?dd=1">Dept</a></li>'),
+    (newsletters.NewsletterSpider, '<div class="gallery"><li><h3><a href="https://example.test/news">News</a></h3></li></div>'),
+])
+def test_whole_dataset_requests_have_errbacks(spider_type, html):
+    spider = spider_type()
+
+    async def requests():
+        return [request async for request in spider.start()]
+
+    assert all(request.errback == spider.handle_request_error for request in asyncio.run(requests()))
+    response = HtmlResponse("https://example.test", body=html.encode(), encoding="utf-8")
+    children = list(spider.parse(response))
+    assert children
+    assert all(request.errback == spider.handle_request_error for request in children)
+
+
+def test_dining_failed_parse_keeps_existing_file(tmp_path, monkeypatch):
+    path = tmp_path / "dining.json"
+    monkeypatch.setattr(dining, "OUTPUT_PATH", path)
+    write_json_atomic([{"old": True}], path)
+    original = path.read_bytes()
+    spider = dining.DiningSpider()
+    pipeline = dining.JsonDiningPipeline()
+    pipeline.open_spider(spider)
+    response = HtmlResponse("https://example.test", body=b"<html>unavailable</html>")
+    for item in spider.parse(response):
+        pipeline.process_item(item, spider)
+    assert path.read_bytes() == original
+
+
+def test_newsletter_partial_article_parse_keeps_whole_dataset(tmp_path, monkeypatch):
+    path = tmp_path / "newsletters.json"
+    write_json_atomic([{"name": "old"}], path)
+    before = path.read_bytes()
+    monkeypatch.setattr(newsletters, "COMBINED_JSON_FILE", path)
+    spider = newsletters.NewsletterSpider()
+    pipeline = newsletters.JsonPipeline()
+    pipeline.open_spider(spider)
+    response = HtmlResponse(
+        "https://example.test",
+        request=scrapy.Request("https://example.test", meta={"newsletter": {"name": "new"}}),
+        body=b'<div id="acyarchivelisting"><table class="contentpane">'
+             b'<div class="archiveRow"><a>Good article</a></div>'
+             b'<div class="archiveRow">Broken article</div></table></div>',
+        encoding="utf-8",
+    )
+    for item in spider.parse_newsletter_content(response):
+        pipeline.process_item(item, spider)
+    pipeline.close_spider(spider)
+    assert path.read_bytes() == before
+
+
+@pytest.mark.parametrize("handler", [
+    log_source_failure,
+    directory.DirectorySpider().handle_request_error,
+    newsletters.NewsletterSpider().handle_request_error,
+])
+def test_unexpected_request_errors_are_not_swallowed(handler):
+    with pytest.raises(AttributeError):
+        handler(Failure(AttributeError("downloader implementation regression")))

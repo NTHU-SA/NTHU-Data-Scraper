@@ -162,12 +162,12 @@ class TestJsonPipeline:
     def _run(items):
         class FakeSpider:
             class logger:
-                info = error = staticmethod(lambda *args, **kwargs: None)
+                info = warning = error = staticmethod(lambda *args, **kwargs: None)
 
         pipeline = JsonPipeline()
-        pipeline.open_spider()
+        pipeline.open_spider(FakeSpider)
         for item in items:
-            pipeline.process_item(item)
+            pipeline.process_item(item, FakeSpider)
         pipeline.close_spider(FakeSpider)
 
     def test_keeps_previous_data_for_failed_sources(self, paths):
@@ -218,3 +218,38 @@ class TestJsonPipeline:
         )
         saved = json.loads(calendars_path.read_text(encoding="utf-8"))
         assert [c["id"] for c in saved] == list(CALENDARS)
+
+    def test_empty_refresh_preserves_nonempty_sources(self, paths):
+        rss_path, calendars_path = paths
+        rss_path.write_text(json.dumps({"news": ["old"]}), encoding="utf-8")
+        calendars_path.write_text(
+            json.dumps([{"id": "main", "events": ["old"]}]), encoding="utf-8"
+        )
+        self._run([
+            {"kind": "rss", "key": "news", "data": []},
+            {"kind": "calendar", "key": "main", "data": {"id": "main", "events": []}},
+        ])
+        assert json.loads(rss_path.read_text(encoding="utf-8")) == {"news": ["old"]}
+        assert json.loads(calendars_path.read_text(encoding="utf-8")) == [
+            {"id": "main", "events": ["old"]}
+        ]
+
+
+@pytest.mark.parametrize("error_type", [AttributeError, ValueError])
+def test_library_implementation_error_is_not_treated_as_upstream_failure(monkeypatch, error_type):
+    def broken_parser(text):
+        raise error_type("implementation regression")
+
+    monkeypatch.setattr(nthu_libraries, "parse_rss", broken_parser)
+    from scrapy.http import TextResponse
+
+    response = TextResponse("https://example.test", body=b"test", encoding="utf-8")
+    with pytest.raises(error_type):
+        list(nthu_libraries.LibrariesSpider().parse_rss_feed(response, "news"))
+
+
+def test_library_errback_does_not_swallow_implementation_errors():
+    from twisted.python.failure import Failure
+
+    with pytest.raises(AttributeError):
+        nthu_libraries.LibrariesSpider().handle_error(Failure(AttributeError("regression")))
