@@ -1,0 +1,2261 @@
+[
+    {
+        "id": "academic",
+        "name": "國立清華大學行事曆",
+        "description": "國立清華大學行事曆",
+        "timezone": "Asia/Taipei",
+        "events": [
+            {
+                "id": "6c3c06fbc6545f3b",
+                "title": "開國紀念日New Year's Day (no class)",
+                "description": null,
+                "start": "2025-01-01",
+                "end": "2025-01-02",
+                "all_day": true
+            },
+            {
+                "id": "eba147cd5bfe8a53",
+                "title": "教師送繳113學年度第1學期成績截止Deadline for 2024 Fall Semester Grade Submission",
+                "description": null,
+                "start": "2025-01-03",
+                "end": "2025-01-04",
+                "all_day": true
+            },
+            {
+                "id": "446efe0029ed1d81",
+                "title": "113學年度第2學期第3次選課開始(至15日止)3rd Course Selection Period for 2025 Spring Semester (1/13-1/15)",
+                "description": null,
+                "start": "2025-01-13",
+                "end": "2025-01-14",
+                "all_day": true
+            },
+            {
+                "id": "6e7b84c827818d38",
+                "title": "113學年度第2學期研究生新生學分抵免申請(至2月19日止)Application for Credit Exemption (new graduate students 1/20-2/19)",
+                "description": null,
+                "start": "2025-01-20",
+                "end": "2025-01-21",
+                "all_day": true
+            },
+            {
+                "id": "e7d101fd3bd5f446",
+                "title": "春節彈性放假Holiday-Chinese New Year",
+                "description": null,
+                "start": "2025-01-27",
+                "end": "2025-01-28",
+                "all_day": true
+            },
+            {
+                "id": "21b49062a7b0d54c",
+                "title": "除夕Chinese New Year’s Eve",
+                "description": null,
+                "start": "2025-01-28",
+                "end": "2025-01-29",
+                "all_day": true
+            },
+            {
+                "id": "4d90f5e6cbc95963",
+                "title": "春節(至31日止)Chinese New Year (1/29-1/31)",
+                "description": null,
+                "start": "2025-01-29",
+                "end": "2025-01-30",
+                "all_day": true
+            },
+            {
+                "id": "440ff49034ce2b5b",
+                "title": "113學年度第1學期研究生論文口試結束Thesis Defense Ends",
+                "description": null,
+                "start": "2025-01-31",
+                "end": "2025-02-01",
+                "all_day": true
+            },
+            {
+                "id": "f32f512358841cb0",
+                "title": "113學年度第1學期結束2024 Fall Semester Ends",
+                "description": null,
+                "start": "2025-01-31",
+                "end": "2025-02-01",
+                "all_day": true
+            },
+            {
+                "id": "3f9de7e781204fbf",
+                "title": "113學年度第2學期開始2025 Spring Semester Begins",
+                "description": null,
+                "start": "2025-02-01",
+                "end": "2025-02-02",
+                "all_day": true
+            },
+            {
+                "id": "2e9456eb339c2af7",
+                "title": "辦理碩士班入學考試 (6、7日兩天，各系所考試日期依簡章公告)",
+                "description": null,
+                "start": "2025-02-06",
+                "end": "2025-02-07",
+                "all_day": true
+            },
+            {
+                "id": "577aafe02706131b",
+                "title": "113學年度第2學期加退選開始(至3月2日止)Add-or-Drop Selection (2/13-3/2)",
+                "description": null,
+                "start": "2025-02-13",
+                "end": "2025-02-14",
+                "all_day": true
+            },
+            {
+                "id": "de5f0f49d064c388",
+                "title": "受理校際選課(至27日止)Inter-School Selection (2/13-2/27)",
+                "description": null,
+                "start": "2025-02-13",
+                "end": "2025-02-14",
+                "all_day": true
+            },
+            {
+                "id": "67709f7eeb6a8333",
+                "title": "受理就學貸款申請(14、17日兩天)",
+                "description": null,
+                "start": "2025-02-14",
+                "end": "2025-02-15",
+                "all_day": true
+            },
+            {
+                "id": "8f49525a72be0c8b",
+                "title": "全校各級學生上課開始、註冊日Classes Begin, Registration",
+                "description": null,
+                "start": "2025-02-17",
+                "end": "2025-02-18",
+                "all_day": true
+            },
+            {
+                "id": "06c2c3c8aa8eabc1",
+                "title": "受理軍公教遺族就學減免申請(至21日止)",
+                "description": null,
+                "start": "2025-02-17",
+                "end": "2025-02-18",
+                "all_day": true
+            },
+            {
+                "id": "ada30eaf6d549d08",
+                "title": "生輔組校內外獎學金申請（依生輔組公告辦理）",
+                "description": null,
+                "start": "2025-02-17",
+                "end": "2025-02-18",
+                "all_day": true
+            },
+            {
+                "id": "013a9d83136c3674",
+                "title": "教師提出更改113學年度第1學期學生成績截止Deadline for 2024 Fall Semester Grade Adjustments",
+                "description": null,
+                "start": "2025-02-21",
+                "end": "2025-02-22",
+                "all_day": true
+            },
+            {
+                "id": "bd12114949bba014",
+                "title": "和平紀念日228 Peace Memorial Day (No Class)",
+                "description": null,
+                "start": "2025-02-28",
+                "end": "2025-03-01",
+                "all_day": true
+            },
+            {
+                "id": "a727900bfcc8bbae",
+                "title": "梅竹賽(28日至3月2日)(暫訂)[Tentative]Mei-Chu Game (2/28-3/2)",
+                "description": null,
+                "start": "2025-02-28",
+                "end": "2025-03-01",
+                "all_day": true
+            },
+            {
+                "id": "4685be057d55e700",
+                "title": "期中教學意見反映(至5月2日止)Mid-term Feedback on Teaching (3/10-5/2)",
+                "description": null,
+                "start": "2025-03-10",
+                "end": "2025-03-11",
+                "all_day": true
+            },
+            {
+                "id": "229492fdb20cec54",
+                "title": "行政會議Administrative Committee Meeting",
+                "description": null,
+                "start": "2025-03-11",
+                "end": "2025-03-12",
+                "all_day": true
+            },
+            {
+                "id": "ab022a2f43245bc5",
+                "title": "校園徵才博覽會Career Fair",
+                "description": null,
+                "start": "2025-03-22",
+                "end": "2025-03-23",
+                "all_day": true
+            },
+            {
+                "id": "0cccbdce8c7f02d1",
+                "title": "休退學及畢業生退2/3學雜費(學分費) 截止Last day for 2/3 Tuition and Fees Refunded (graduates or full withdrawal)",
+                "description": null,
+                "start": "2025-03-28",
+                "end": "2025-03-29",
+                "all_day": true
+            },
+            {
+                "id": "ac41dd51951b97b9",
+                "title": "繳交113學年度第2學期學分費截止Last Day to Pay Credit Fees",
+                "description": null,
+                "start": "2025-03-28",
+                "end": "2025-03-29",
+                "all_day": true
+            },
+            {
+                "id": "72013c7a301d1aa7",
+                "title": "期中成績預警開始(至5月16日止)Academic Warning System Starts Sending out Alert (3/31-5/16)",
+                "description": null,
+                "start": "2025-03-31",
+                "end": "2025-04-01",
+                "all_day": true
+            },
+            {
+                "id": "ea5328a97180ed9d",
+                "title": "校際活動週(停課一日，課程由教師自行擇期補課)Intercollegiate Activities (no class: make-up classes will be scheduled)",
+                "description": null,
+                "start": "2025-04-02",
+                "end": "2025-04-03",
+                "all_day": true
+            },
+            {
+                "id": "1d7b2a193dc1bcd3",
+                "title": "兒童節補假Holiday-Children's Day (No Class)",
+                "description": null,
+                "start": "2025-04-03",
+                "end": "2025-04-04",
+                "all_day": true
+            },
+            {
+                "id": "3d82cf8af1f07a04",
+                "title": "兒童節、民族掃墓節Tomb Sweeping Day / Children's Day (no class)",
+                "description": null,
+                "start": "2025-04-04",
+                "end": "2025-04-05",
+                "all_day": true
+            },
+            {
+                "id": "9f6aa8c39555a7fb",
+                "title": "校務會議University Council Meeting",
+                "description": null,
+                "start": "2025-04-08",
+                "end": "2025-04-09",
+                "all_day": true
+            },
+            {
+                "id": "efb27320844dd69a",
+                "title": "113學年度第2學期申請課程停修開始(至5月2日止)Course Withdrawal Begins(4/14-5/2)",
+                "description": null,
+                "start": "2025-04-14",
+                "end": "2025-04-15",
+                "all_day": true
+            },
+            {
+                "id": "27214bb5663e1775",
+                "title": "各系級單位完成專任教師評量初審Department’s Annual Review of Full-time Faculty(1st stage)",
+                "description": null,
+                "start": "2025-04-15",
+                "end": "2025-04-16",
+                "all_day": true
+            },
+            {
+                "id": "6d156f4dcfb9a509",
+                "title": "校慶環校路跑Cross Country Long Distance Running",
+                "description": null,
+                "start": "2025-04-26",
+                "end": "2025-04-27",
+                "all_day": true
+            },
+            {
+                "id": "1198ae987956d864",
+                "title": "校慶活動日University Foundation Anniversary Celebration",
+                "description": null,
+                "start": "2025-04-27",
+                "end": "2025-04-28",
+                "all_day": true
+            },
+            {
+                "id": "7121360fb437b74b",
+                "title": "校慶日University Foundation Day",
+                "description": null,
+                "start": "2025-04-29",
+                "end": "2025-04-30",
+                "all_day": true
+            },
+            {
+                "id": "751945fde374579f",
+                "title": "休退學及畢業生退1/3學雜費(學分費)截止Last Day for 1/3 Tuition and Fees Refunded",
+                "description": null,
+                "start": "2025-05-02",
+                "end": "2025-05-03",
+                "all_day": true
+            },
+            {
+                "id": "3d79c6ff46db7107",
+                "title": "行政會議Administrative Committee Meeting",
+                "description": null,
+                "start": "2025-05-06",
+                "end": "2025-05-07",
+                "all_day": true
+            },
+            {
+                "id": "8a3c177f51038993",
+                "title": "教學意見調查開始(至6月1日止)Online Course Evaluation (5/9-6/1)",
+                "description": null,
+                "start": "2025-05-09",
+                "end": "2025-05-10",
+                "all_day": true
+            },
+            {
+                "id": "6d39a90c152508c7",
+                "title": "114學年度轉系、轉所申請(至6月11日止)Application for Program Transfer (5/13-6/11)",
+                "description": null,
+                "start": "2025-05-13",
+                "end": "2025-05-14",
+                "all_day": true
+            },
+            {
+                "id": "36ffe90a39242e5d",
+                "title": "全校游泳賽Swimming Competition",
+                "description": null,
+                "start": "2025-05-14",
+                "end": "2025-05-15",
+                "all_day": true
+            },
+            {
+                "id": "12189961e820316e",
+                "title": "各系辦理大學申請入學甄試(至24日止，由各系自行指定日期並於招生簡章分則公告)",
+                "description": null,
+                "start": "2025-05-15",
+                "end": "2025-05-16",
+                "all_day": true
+            },
+            {
+                "id": "1b2f957dc71af62b",
+                "title": "各院級單位完成專任教師評量複審College’s Annual Review of Full-time Faculty (2nd stage)",
+                "description": null,
+                "start": "2025-05-15",
+                "end": "2025-05-16",
+                "all_day": true
+            },
+            {
+                "id": "f962951b0e04e4ec",
+                "title": "教師升等資料送人事室截止Deadline for Submission of Faculty Promotion Application",
+                "description": null,
+                "start": "2025-05-16",
+                "end": "2025-05-17",
+                "all_day": true
+            },
+            {
+                "id": "3ebaa996affdd5fc",
+                "title": "畢業典禮Commencement",
+                "description": null,
+                "start": "2025-05-25",
+                "end": "2025-05-26",
+                "all_day": true
+            },
+            {
+                "id": "56280d279a4b64d1",
+                "title": "校務會議University Council Meeting",
+                "description": null,
+                "start": "2025-05-27",
+                "end": "2025-05-28",
+                "all_day": true
+            },
+            {
+                "id": "e64d37386dcd9ce6",
+                "title": "端午節補假Holiday-Dragon Boat Festival (No Class)",
+                "description": null,
+                "start": "2025-05-30",
+                "end": "2025-05-31",
+                "all_day": true
+            },
+            {
+                "id": "47429917c8a4caf4",
+                "title": "教師進修及休假研究申請案送人事室截止Deadline for Submission of Faculty Sabbatical Leave Application",
+                "description": null,
+                "start": "2025-05-31",
+                "end": "2025-06-01",
+                "all_day": true
+            },
+            {
+                "id": "646c707467f14637",
+                "title": "端午節Dragon Boat Festival (No Class)",
+                "description": null,
+                "start": "2025-05-31",
+                "end": "2025-06-01",
+                "all_day": true
+            },
+            {
+                "id": "e90660c3b8bf5280",
+                "title": "113學年度第2學期休學申請截止Last Day to Withdraw from School",
+                "description": null,
+                "start": "2025-06-02",
+                "end": "2025-06-03",
+                "all_day": true
+            },
+            {
+                "id": "fdc988c2a628c6da",
+                "title": "期末考試開始(至6日止)Final Exams (6/2-6/6)",
+                "description": null,
+                "start": "2025-06-02",
+                "end": "2025-06-03",
+                "all_day": true
+            },
+            {
+                "id": "bb4bede7078e7f31",
+                "title": "申請114學年度第1學期學雜費減免開始(至13日止)",
+                "description": null,
+                "start": "2025-06-02",
+                "end": "2025-06-03",
+                "all_day": true
+            },
+            {
+                "id": "dda84a7dd736e312",
+                "title": "114學年度第1學期第1次選課開始(至11日止)1st Course Selection Period for 2025 Fall Semester (6/9-6/11)",
+                "description": null,
+                "start": "2025-06-09",
+                "end": "2025-06-10",
+                "all_day": true
+            },
+            {
+                "id": "d828e06544ecdd7a",
+                "title": "導師輔導選課(至114學年度第1學期加退選截止)Consult the Advisor for Course Selection (6/9 to the deadline for Add-or-Drop selection of 2025 Fall Semester)",
+                "description": null,
+                "start": "2025-06-09",
+                "end": "2025-06-10",
+                "all_day": true
+            },
+            {
+                "id": "da8ee9ce51fdc609",
+                "title": "教師送繳應屆畢業生113學年度第2學期成績截止Deadline for 2025 Spring Semester Grade Submission for Graduating Students",
+                "description": null,
+                "start": "2025-06-09",
+                "end": "2025-06-10",
+                "all_day": true
+            },
+            {
+                "id": "7c303d3e4296c4e9",
+                "title": "暑假開始Summer Vacation Begins",
+                "description": null,
+                "start": "2025-06-09",
+                "end": "2025-06-10",
+                "all_day": true
+            },
+            {
+                "id": "51d0ae9a7e100281",
+                "title": "114學年度第1學期第2次選課開始(至19日止)2nd Course Selection Period for 2025 Fall Semester (6/17-6/19)",
+                "description": null,
+                "start": "2025-06-17",
+                "end": "2025-06-18",
+                "all_day": true
+            },
+            {
+                "id": "3d6bf25ae72776b3",
+                "title": "教師送繳非應屆畢業生113學年度第2學期成績截止Deadline for 2025 Spring Semester Grade Submission",
+                "description": null,
+                "start": "2025-06-20",
+                "end": "2025-06-21",
+                "all_day": true
+            },
+            {
+                "id": "8be90792e1829d41",
+                "title": "暑期班上課開始；選課及繳費(至27日止)Summer Session Begins; Course Selection and Fee Paying Begins for Summer Session (6/23-6/27)",
+                "description": null,
+                "start": "2025-06-23",
+                "end": "2025-06-24",
+                "all_day": true
+            },
+            {
+                "id": "47669ff6442039c3",
+                "title": "114學年度暑碩專班上課開始、註冊日、休退學及畢業生免繳學雜費截止2025 Summer In-service Master Program Begins, Registration",
+                "description": null,
+                "start": "2025-07-01",
+                "end": "2025-07-02",
+                "all_day": true
+            },
+            {
+                "id": "a975787bb88e6838",
+                "title": "114學年度暑碩專班休退學及畢業生退2/3學雜費(學分費)截止Last Day for 2/3 Tuition and Fees Refunded(graduates or full withdrawal of 2025 Summer In-service Master Program)",
+                "description": null,
+                "start": "2025-07-21",
+                "end": "2025-07-22",
+                "all_day": true
+            },
+            {
+                "id": "843cb963b5f33301",
+                "title": "113學年度第2學期研究生論文口試Thesis Defense Ends",
+                "description": null,
+                "start": "2025-07-31",
+                "end": "2025-08-01",
+                "all_day": true
+            },
+            {
+                "id": "737c597b158c6e25",
+                "title": "113學年度第2學期結束2025 Spring Semester Ends",
+                "description": null,
+                "start": "2025-07-31",
+                "end": "2025-08-01",
+                "all_day": true
+            },
+            {
+                "id": "5eaf0411acd7806b",
+                "title": "114學年度第1學期開始2025 Fall Semester Begins",
+                "description": null,
+                "start": "2025-08-01",
+                "end": "2025-08-02",
+                "all_day": true
+            },
+            {
+                "id": "e57594e4231658b7",
+                "title": "暑期班申請課程停修開始(至8日止)Summer Session Withdrawal (8/1-8/8)",
+                "description": null,
+                "start": "2025-08-01",
+                "end": "2025-08-02",
+                "all_day": true
+            },
+            {
+                "id": "1e786ada65e993cc",
+                "title": "114學年度第1學期研究生新生學分抵免申請(至9月3日止)Application for Credit Exemption (new graduate students 8/6-9/3)",
+                "description": null,
+                "start": "2025-08-06",
+                "end": "2025-08-07",
+                "all_day": true
+            },
+            {
+                "id": "6024d15399143e17",
+                "title": "114學年度暑碩專班休退學及畢業生退1/3學雜費(學分費)截止Last Day for 1/3 Tuition and Fees Refunded(graduates or full withdrawal of 2025 Summer In-service Master Program)",
+                "description": null,
+                "start": "2025-08-07",
+                "end": "2025-08-08",
+                "all_day": true
+            },
+            {
+                "id": "8a55cc5dfa6514af",
+                "title": "暑期班結束Summer Session Ends",
+                "description": null,
+                "start": "2025-08-15",
+                "end": "2025-08-16",
+                "all_day": true
+            },
+            {
+                "id": "4d3177358215e899",
+                "title": "114學年度入學各級新生、轉學生選課(至20日止)Course Selection for New Students/Transfer Students in Fall 2025 (8/18-8/20)",
+                "description": null,
+                "start": "2025-08-18",
+                "end": "2025-08-19",
+                "all_day": true
+            },
+            {
+                "id": "02046a8a46131174",
+                "title": "新生申請114學年度第1學期學雜費減免(至22日止)",
+                "description": null,
+                "start": "2025-08-18",
+                "end": "2025-08-19",
+                "all_day": true
+            },
+            {
+                "id": "e283f9ba9fa00830",
+                "title": "祖父母節Grandparents Day",
+                "description": null,
+                "start": "2025-08-24",
+                "end": "2025-08-25",
+                "all_day": true
+            },
+            {
+                "id": "2980b65026995eed",
+                "title": "114學年度暑碩專班結束2025 Summer In-service Master Program Ends",
+                "description": null,
+                "start": "2025-08-25",
+                "end": "2025-08-26",
+                "all_day": true
+            },
+            {
+                "id": "43907b1bc6d51ac2",
+                "title": "114學年度第1學期第3次選課開始(至26日止)3rd Course Selection Period (8/25-8/26)",
+                "description": null,
+                "start": "2025-08-25",
+                "end": "2025-08-26",
+                "all_day": true
+            },
+            {
+                "id": "a776976d30825a4e",
+                "title": "新生領航營(至27日止)",
+                "description": null,
+                "start": "2025-08-26",
+                "end": "2025-08-27",
+                "all_day": true
+            },
+            {
+                "id": "f148ee654da87385",
+                "title": "114學年度第1學期加退選開始(至9月14日止)Add-or-Drop Selection (8/29-9/14)",
+                "description": null,
+                "start": "2025-08-29",
+                "end": "2025-08-30",
+                "all_day": true
+            },
+            {
+                "id": "5938519352e7a49f",
+                "title": "受理就學貸款申請(8月29日、9月1日兩天)",
+                "description": null,
+                "start": "2025-08-29",
+                "end": "2025-08-30",
+                "all_day": true
+            },
+            {
+                "id": "0f128ccfa2898b09",
+                "title": "受理校際選課(至9月12日止) Inter-School Selection (8/29-9/12)",
+                "description": null,
+                "start": "2025-08-29",
+                "end": "2025-08-30",
+                "all_day": true
+            },
+            {
+                "id": "f11dcd43fd3eac33",
+                "title": "全校各級學生上課開始、註冊日Class Begin ＆ Registration",
+                "description": null,
+                "start": "2025-09-01",
+                "end": "2025-09-02",
+                "all_day": true
+            },
+            {
+                "id": "d69483bd1c756aff",
+                "title": "受理軍公教遺族就學減免申請(至5日止)",
+                "description": null,
+                "start": "2025-09-01",
+                "end": "2025-09-02",
+                "all_day": true
+            },
+            {
+                "id": "4c728ac00a87bad1",
+                "title": "弱勢助學金申請(至9月30日止)",
+                "description": null,
+                "start": "2025-09-01",
+                "end": "2025-09-02",
+                "all_day": true
+            },
+            {
+                "id": "a423c6d7cd2981a5",
+                "title": "教師送繳114學年度暑碩專班成績截止",
+                "description": null,
+                "start": "2025-09-01",
+                "end": "2025-09-02",
+                "all_day": true
+            },
+            {
+                "id": "4b777e941727bbcb",
+                "title": "生輔組校內外獎學金申請(依生輔組公告辦理)",
+                "description": null,
+                "start": "2025-09-01",
+                "end": "2025-09-02",
+                "all_day": true
+            },
+            {
+                "id": "59907ff0357a3497",
+                "title": "教師提出更改113學年第2學期學生成績截止Deadline for 2025 Spring Semester grade adjustments",
+                "description": null,
+                "start": "2025-09-05",
+                "end": "2025-09-06",
+                "all_day": true
+            },
+            {
+                "id": "f8a902bad44e4588",
+                "title": "期中教學意見反映(至11月16日止)  Mid-term Feedback on Teaching (9/22-11/16)",
+                "description": null,
+                "start": "2025-09-22",
+                "end": "2025-09-23",
+                "all_day": true
+            },
+            {
+                "id": "2f23972fe35fadb9",
+                "title": "行政會議Administrative Committee Meeting",
+                "description": null,
+                "start": "2025-09-23",
+                "end": "2025-09-24",
+                "all_day": true
+            },
+            {
+                "id": "f7373ce06b2397c0",
+                "title": "孔子誕辰紀念日Teacher's Day",
+                "description": null,
+                "start": "2025-09-28",
+                "end": "2025-09-29",
+                "all_day": true
+            },
+            {
+                "id": "c10887a122fb784b",
+                "title": "孔子誕辰紀念日補假Holiday-Teacher's Day",
+                "description": null,
+                "start": "2025-09-29",
+                "end": "2025-09-30",
+                "all_day": true
+            },
+            {
+                "id": "9942eddfc29f5cc6",
+                "title": "中秋節Mid-Autumn Festival (no class)",
+                "description": null,
+                "start": "2025-10-06",
+                "end": "2025-10-07",
+                "all_day": true
+            },
+            {
+                "id": "dfe71636efa928ac",
+                "title": "休退學及畢業生退2/3學雜費(學分費) 截止Last Day for 2/3 Tuition and Fees Refunded (graduates or full withdrawal",
+                "description": null,
+                "start": "2025-10-09",
+                "end": "2025-10-10",
+                "all_day": true
+            },
+            {
+                "id": "8ac4bb3871dcae4a",
+                "title": "國慶日Double Tenth Day (no class)",
+                "description": null,
+                "start": "2025-10-10",
+                "end": "2025-10-11",
+                "all_day": true
+            },
+            {
+                "id": "fa33384f7d849cce",
+                "title": "期中成績預警開始(至11月28日止)Academic Warning System Starts Sending out Alert (10/13-11/28)",
+                "description": null,
+                "start": "2025-10-13",
+                "end": "2025-10-14",
+                "all_day": true
+            },
+            {
+                "id": "4950b9bbbe8e18c4",
+                "title": "校務會議University Council Meeting",
+                "description": null,
+                "start": "2025-10-14",
+                "end": "2025-10-15",
+                "all_day": true
+            },
+            {
+                "id": "a9794b3e365acb2a",
+                "title": "繳交114學年度第1學期學分費截止Last Day to Pay Credit Fees",
+                "description": null,
+                "start": "2025-10-15",
+                "end": "2025-10-16",
+                "all_day": true
+            },
+            {
+                "id": "1c4fd20dcc2f734a",
+                "title": "臺灣光復暨金門古寧頭大捷紀念日補假Holiday-Taiwan Restoration Day",
+                "description": null,
+                "start": "2025-10-24",
+                "end": "2025-10-25",
+                "all_day": true
+            },
+            {
+                "id": "a16a19a5596f8b42",
+                "title": "臺灣光復暨金門古寧頭大捷紀念日Taiwan Restoration Day",
+                "description": null,
+                "start": "2025-10-25",
+                "end": "2025-10-26",
+                "all_day": true
+            },
+            {
+                "id": "6a0fbff1146f074b",
+                "title": "114學年度第1學期申請課程停修開始(至11月14日止)Course Withdrawal Begins (10/27-11/14)",
+                "description": null,
+                "start": "2025-10-27",
+                "end": "2025-10-28",
+                "all_day": true
+            },
+            {
+                "id": "a79b0aa02359976a",
+                "title": "全校運動大會(停課一天)  Sports Day (no class)",
+                "description": null,
+                "start": "2025-11-12",
+                "end": "2025-11-13",
+                "all_day": true
+            },
+            {
+                "id": "4f230b9e89a14362",
+                "title": "休退學及畢業生退1/3學雜費(學分費)截止Last Day for 1/3 Tuition and Fees Refunded(graduates or full withdrawal)",
+                "description": null,
+                "start": "2025-11-14",
+                "end": "2025-11-15",
+                "all_day": true
+            },
+            {
+                "id": "b2f0564267db15e1",
+                "title": "行政會議Administrative Committee Meeting",
+                "description": null,
+                "start": "2025-11-18",
+                "end": "2025-11-19",
+                "all_day": true
+            },
+            {
+                "id": "e56abd08e991a65d",
+                "title": "教學意見調查開始(至12月14日止)Online Course Evaluation (11/21-12/14)",
+                "description": null,
+                "start": "2025-11-21",
+                "end": "2025-11-22",
+                "all_day": true
+            },
+            {
+                "id": "f4e87aeda4463972",
+                "title": "教師進修及休假研究申請案送人事室截止Deadline for Faculty’s Sabbatical Leave Application",
+                "description": null,
+                "start": "2025-11-30",
+                "end": "2025-12-01",
+                "all_day": true
+            },
+            {
+                "id": "ed3d38a76186fe1f",
+                "title": "申請114學年度第2學期學雜費減免開始(至5日止)",
+                "description": null,
+                "start": "2025-12-01",
+                "end": "2025-12-02",
+                "all_day": true
+            },
+            {
+                "id": "9338accba85ef4e1",
+                "title": "校務會議University Council Meeting",
+                "description": null,
+                "start": "2025-12-09",
+                "end": "2025-12-10",
+                "all_day": true
+            },
+            {
+                "id": "df92551f464e4887",
+                "title": "114學年度第1學期休學申請截止Last day to Withdraw from School",
+                "description": null,
+                "start": "2025-12-15",
+                "end": "2025-12-16",
+                "all_day": true
+            },
+            {
+                "id": "50ee7fcbe3e43ec3",
+                "title": "期末考試開始(至19日止)Final Exams (12/15-12/19)",
+                "description": null,
+                "start": "2025-12-15",
+                "end": "2025-12-16",
+                "all_day": true
+            },
+            {
+                "id": "7d73fbdf4d9a8165",
+                "title": "114學年度第2學期第1次選課開始(至24日止)1st Course Selection Period for 2026 Spring Semester (12/22-12/24)",
+                "description": null,
+                "start": "2025-12-22",
+                "end": "2025-12-23",
+                "all_day": true
+            },
+            {
+                "id": "043d82600201b3f6",
+                "title": "寒假開始Winter Break Begins",
+                "description": null,
+                "start": "2025-12-22",
+                "end": "2025-12-23",
+                "all_day": true
+            },
+            {
+                "id": "6058a3959b977b3a",
+                "title": "行憲紀念日Constitution Day",
+                "description": null,
+                "start": "2025-12-25",
+                "end": "2025-12-26",
+                "all_day": true
+            },
+            {
+                "id": "2fa40eca4834130f",
+                "title": "開國紀念日New Year's Day (no class)",
+                "description": null,
+                "start": "2026-01-01",
+                "end": "2026-01-02",
+                "all_day": true
+            },
+            {
+                "id": "54885c4a971989d0",
+                "title": "教師送繳114學年度第1學期成績截止Deadline for 2025 Fall Semester Grade Submission",
+                "description": null,
+                "start": "2026-01-02",
+                "end": "2026-01-03",
+                "all_day": true
+            },
+            {
+                "id": "265e62d8892889d8",
+                "title": "114學年度第2學期第2次選課開始(至7日止)2nd Course Selection Period for 2026 Spring Semester (1/5-1/7)",
+                "description": null,
+                "start": "2026-01-05",
+                "end": "2026-01-06",
+                "all_day": true
+            },
+            {
+                "id": "53fe2976b4327cc5",
+                "title": "114學年度第2學期研究生新生學分抵免申請(至2月25日止)Application for Credit Exemption (new graduate students 1/19-2/25)",
+                "description": null,
+                "start": "2026-01-19",
+                "end": "2026-01-20",
+                "all_day": true
+            },
+            {
+                "id": "bc36554ec7e78364",
+                "title": "114學年度第2學期第3次選課開始(至21日止)3rd Course Selection Period for 2026 Spring Semester (1/19-1/21)",
+                "description": null,
+                "start": "2026-01-19",
+                "end": "2026-01-20",
+                "all_day": true
+            },
+            {
+                "id": "8ef0d3715535018a",
+                "title": "114學年度第1學期研究生論文口試結束Thesis Defense Ends",
+                "description": null,
+                "start": "2026-01-31",
+                "end": "2026-02-01",
+                "all_day": true
+            },
+            {
+                "id": "46d0299bbd98c867",
+                "title": "114學年度第1學期結束2025 Fall Semester Ends",
+                "description": null,
+                "start": "2026-01-31",
+                "end": "2026-02-01",
+                "all_day": true
+            },
+            {
+                "id": "0d1ce59ceced07c9",
+                "title": "114學年度第2學期開始2026 Spring Semester Begins",
+                "description": null,
+                "start": "2026-02-01",
+                "end": "2026-02-02",
+                "all_day": true
+            },
+            {
+                "id": "fc0ef7600562d596",
+                "title": "辦理碩士班入學考試 (4、5日兩天，各系所考試日期依簡章公告)",
+                "description": null,
+                "start": "2026-02-04",
+                "end": "2026-02-05",
+                "all_day": true
+            },
+            {
+                "id": "8f7fddcea99abb59",
+                "title": "除夕Chinese New Year’s Eve",
+                "description": null,
+                "start": "2026-02-16",
+                "end": "2026-02-17",
+                "all_day": true
+            },
+            {
+                "id": "8136b7ca6f7ca017",
+                "title": "春節(至20日止)Chinese New Year (2/17-2/20)",
+                "description": null,
+                "start": "2026-02-17",
+                "end": "2026-02-21",
+                "all_day": true
+            },
+            {
+                "id": "3e863eefc59c1299",
+                "title": "114學年度第2學期加退選開始（至3月8日止）Add-or-Drop Selection (2/23-3/8)",
+                "description": null,
+                "start": "2026-02-23",
+                "end": "2026-02-24",
+                "all_day": true
+            },
+            {
+                "id": "1d271a962a375f24",
+                "title": "全校各級學生上課開始、註冊日Classes Begin ＆ Registration",
+                "description": null,
+                "start": "2026-02-23",
+                "end": "2026-02-24",
+                "all_day": true
+            },
+            {
+                "id": "205b9dc7ad24c216",
+                "title": "受理就學貸款申請",
+                "description": null,
+                "start": "2026-02-23",
+                "end": "2026-02-24",
+                "all_day": true
+            },
+            {
+                "id": "3b01369bc3a5cded",
+                "title": "受理校際選課(至3月6日止)Inter-School Selection (2/23-3/6)",
+                "description": null,
+                "start": "2026-02-23",
+                "end": "2026-02-24",
+                "all_day": true
+            },
+            {
+                "id": "4a5226bc87d7d4de",
+                "title": "受理軍公教遺族就學減免申請(至27日止)",
+                "description": null,
+                "start": "2026-02-23",
+                "end": "2026-02-24",
+                "all_day": true
+            },
+            {
+                "id": "f0eda4d10ce522bd",
+                "title": "生輔組校內外獎學金申請(依生輔組公告辦理)",
+                "description": null,
+                "start": "2026-02-23",
+                "end": "2026-02-24",
+                "all_day": true
+            },
+            {
+                "id": "b50d192f2d208a89",
+                "title": "和平紀念日補假Holiday-228 Peace Memorial Day (No Class)",
+                "description": null,
+                "start": "2026-02-27",
+                "end": "2026-02-28",
+                "all_day": true
+            },
+            {
+                "id": "cff0d00f588b0b47",
+                "title": "和平紀念日228 Peace Memorial Day",
+                "description": null,
+                "start": "2026-02-28",
+                "end": "2026-03-01",
+                "all_day": true
+            },
+            {
+                "id": "1c198e707a87548d",
+                "title": "教師提出更改114學年度第1學期學生成績截止Deadline for 2025 Fall Semester Grade Adjustments",
+                "description": null,
+                "start": "2026-03-02",
+                "end": "2026-03-03",
+                "all_day": true
+            },
+            {
+                "id": "31887a557544edce",
+                "title": "梅竹賽(6日至8日，6日下午停課，由教師自行擇期補課；若停賽則正常上課 Mei-Chu Game (3/6-3/8)",
+                "description": null,
+                "start": "2026-03-06",
+                "end": "2026-03-07",
+                "all_day": true
+            },
+            {
+                "id": "1423a20ad26aee65",
+                "title": "期中教學意見反映(至5月10日止)Mid-term Feedback on Teaching (3/16-5/10)",
+                "description": null,
+                "start": "2026-03-16",
+                "end": "2026-03-17",
+                "all_day": true
+            },
+            {
+                "id": "c2b70be5162f2a20",
+                "title": "行政會議Administrative Committee Meeting",
+                "description": null,
+                "start": "2026-03-17",
+                "end": "2026-03-18",
+                "all_day": true
+            },
+            {
+                "id": "393b9d07ec1435c0",
+                "title": "校園徵才博覽會Career Fair",
+                "description": null,
+                "start": "2026-03-21",
+                "end": "2026-03-22",
+                "all_day": true
+            },
+            {
+                "id": "55909f0d117a050c",
+                "title": "休退學及畢業生退2/3學雜費(學分費) 截止Last day for 2/3 Tuition and Fees Refunded (graduates or full withdrawal)",
+                "description": null,
+                "start": "2026-04-02",
+                "end": "2026-04-03",
+                "all_day": true
+            },
+            {
+                "id": "70dacccc203f9d17",
+                "title": "校際活動週(停課一日，課程由教師自行擇期補課)Intercollegiate Activities (no class: make-up classes will be scheduled)",
+                "description": null,
+                "start": "2026-04-02",
+                "end": "2026-04-03",
+                "all_day": true
+            },
+            {
+                "id": "26b99e13a7494e6d",
+                "title": "兒童節補假Holiday-Children's Day (No Class)",
+                "description": null,
+                "start": "2026-04-03",
+                "end": "2026-04-04",
+                "all_day": true
+            },
+            {
+                "id": "60e9dc1cda914378",
+                "title": "兒童節Children's Day",
+                "description": null,
+                "start": "2026-04-04",
+                "end": "2026-04-05",
+                "all_day": true
+            },
+            {
+                "id": "6493570aaad53d79",
+                "title": "民族掃墓節Tomb Sweeping Day",
+                "description": null,
+                "start": "2026-04-05",
+                "end": "2026-04-06",
+                "all_day": true
+            },
+            {
+                "id": "06dcdec70283b022",
+                "title": "民族掃墓節補假Holiday-Tomb Sweeping Day (no class)",
+                "description": null,
+                "start": "2026-04-06",
+                "end": "2026-04-07",
+                "all_day": true
+            },
+            {
+                "id": "4c7a01d4405404ac",
+                "title": "期中成績預警開始(至5月22日止)Academic Warning System Starts Sending out Alert (4/7-5/22)",
+                "description": null,
+                "start": "2026-04-07",
+                "end": "2026-04-08",
+                "all_day": true
+            },
+            {
+                "id": "b4a96f9a2ea2b58e",
+                "title": "繳交114學年度第2學期學分費截止Last Day to Pay Credit Fees",
+                "description": null,
+                "start": "2026-04-08",
+                "end": "2026-04-09",
+                "all_day": true
+            },
+            {
+                "id": "d2fb4c152f91f0c4",
+                "title": "校務會議University Council Meeting",
+                "description": null,
+                "start": "2026-04-14",
+                "end": "2026-04-15",
+                "all_day": true
+            },
+            {
+                "id": "22f0db10d2a669b8",
+                "title": "各系級單位完成專任教師評量初審Department’s Annual Review of Full-time Faculty(1st stage)",
+                "description": null,
+                "start": "2026-04-15",
+                "end": "2026-04-16",
+                "all_day": true
+            },
+            {
+                "id": "908a107b23d30d6e",
+                "title": "114學年度第2學期申請課程停修開始(至5月8日止)Course Withdrawal Begins(4/20-5/8)",
+                "description": null,
+                "start": "2026-04-20",
+                "end": "2026-04-21",
+                "all_day": true
+            },
+            {
+                "id": "dccab9dcd8b7e0d7",
+                "title": "校慶環校路跑Cross Country Long Distance Running",
+                "description": null,
+                "start": "2026-04-25",
+                "end": "2026-04-26",
+                "all_day": true
+            },
+            {
+                "id": "a6c77271e8324939",
+                "title": "校慶活動日University Foundation Anniversary Celebration",
+                "description": null,
+                "start": "2026-04-26",
+                "end": "2026-04-27",
+                "all_day": true
+            },
+            {
+                "id": "dd6467b3132ef5a3",
+                "title": "校慶日University Foundation Day",
+                "description": null,
+                "start": "2026-04-29",
+                "end": "2026-04-30",
+                "all_day": true
+            },
+            {
+                "id": "037dd93f4784e14b",
+                "title": "勞動節International Labor’s Day",
+                "description": null,
+                "start": "2026-05-01",
+                "end": "2026-05-02",
+                "all_day": true
+            },
+            {
+                "id": "20d7d010729d738c",
+                "title": "休退學及畢業生退1/3學雜費(學分費)截止Last Day for 1/3 Tuition and Fees Refunded",
+                "description": null,
+                "start": "2026-05-08",
+                "end": "2026-05-09",
+                "all_day": true
+            },
+            {
+                "id": "70de6c08033888ce",
+                "title": "教師升等資料送人事室截止Deadline for Submission of Faculty Promotion Application",
+                "description": null,
+                "start": "2026-05-08",
+                "end": "2026-05-09",
+                "all_day": true
+            },
+            {
+                "id": "ff57b1d7b4e85908",
+                "title": "115學年度轉系、轉所申請(至6月10日止)Application for Program Transfer (5/12-6/10)",
+                "description": null,
+                "start": "2026-05-12",
+                "end": "2026-05-13",
+                "all_day": true
+            },
+            {
+                "id": "4fc1cc61e9c5dc5f",
+                "title": "行政會議Administrative Committee Meeting",
+                "description": null,
+                "start": "2026-05-12",
+                "end": "2026-05-13",
+                "all_day": true
+            },
+            {
+                "id": "9aa7a77097ef2a1a",
+                "title": "全校游泳賽Swimming Competition",
+                "description": null,
+                "start": "2026-05-13",
+                "end": "2026-05-14",
+                "all_day": true
+            },
+            {
+                "id": "1dbfa9bedcdfa22e",
+                "title": "各系辦理大學申請入學甄試(至24日止，由各系自行指定日期並於招生簡章分則公告)",
+                "description": null,
+                "start": "2026-05-14",
+                "end": "2026-05-15",
+                "all_day": true
+            },
+            {
+                "id": "14730445b0c863f6",
+                "title": "各院級單位完成專任教師評量複審College’s Annual Review of Full-time Faculty (2nd stage)",
+                "description": null,
+                "start": "2026-05-15",
+                "end": "2026-05-16",
+                "all_day": true
+            },
+            {
+                "id": "3563fc3a85a3c73a",
+                "title": "教學意見調查開始(至6月7日止)Online Course Evaluation (5/15-6/7)",
+                "description": null,
+                "start": "2026-05-15",
+                "end": "2026-05-16",
+                "all_day": true
+            },
+            {
+                "id": "4a56a2962c7de780",
+                "title": "畢業典禮Commencement",
+                "description": null,
+                "start": "2026-05-30",
+                "end": "2026-05-31",
+                "all_day": true
+            },
+            {
+                "id": "74bf8263737a3570",
+                "title": "教師進修及休假研究申請案送人事室截止Deadline for Submission of Faculty Sabbatical Leave Application University Council Meeting",
+                "description": null,
+                "start": "2026-05-31",
+                "end": "2026-06-01",
+                "all_day": true
+            },
+            {
+                "id": "71a12f2ca7be9ea6",
+                "title": "申請115學年度第1學期學雜費減免開始(至5日止)",
+                "description": null,
+                "start": "2026-06-01",
+                "end": "2026-06-02",
+                "all_day": true
+            },
+            {
+                "id": "9b5c20cfba2a419c",
+                "title": "校務會議University Council Meeting",
+                "description": null,
+                "start": "2026-06-02",
+                "end": "2026-06-03",
+                "all_day": true
+            },
+            {
+                "id": "3f94dea4e5334a9f",
+                "title": "114學年度第2學期休學申請截止Last Day to Withdraw from School",
+                "description": null,
+                "start": "2026-06-08",
+                "end": "2026-06-09",
+                "all_day": true
+            },
+            {
+                "id": "68678a042157528c",
+                "title": "期末考試開始(至12日止)Final Exams (6/8-6/12)",
+                "description": null,
+                "start": "2026-06-08",
+                "end": "2026-06-09",
+                "all_day": true
+            },
+            {
+                "id": "4c5cff2f3a4da5cd",
+                "title": "115學年度第1學期第1次選課開始(至17日止)1st Course Selection Period for 2026 Fall Semester (6/15-6/17)",
+                "description": null,
+                "start": "2026-06-15",
+                "end": "2026-06-16",
+                "all_day": true
+            },
+            {
+                "id": "a65f16d82952d751",
+                "title": "教師送繳應屆畢業生114學年度第2學期成績截止Deadline for 2026 Spring Semester Grade Submission for Graduating Students",
+                "description": null,
+                "start": "2026-06-15",
+                "end": "2026-06-16",
+                "all_day": true
+            },
+            {
+                "id": "adc56b8445dad1d8",
+                "title": "暑假開始Summer Vacation Begins",
+                "description": null,
+                "start": "2026-06-15",
+                "end": "2026-06-16",
+                "all_day": true
+            },
+            {
+                "id": "44a09dc460a09b7d",
+                "title": "端午節Dragon Boat Festival",
+                "description": null,
+                "start": "2026-06-19",
+                "end": "2026-06-20",
+                "all_day": true
+            },
+            {
+                "id": "fc6c238a263cc3b9",
+                "title": "115學年度第1學期第2次選課開始(至25日止)2nd Course Selection Period for 2026 Fall Semester (6/23-6/25)",
+                "description": null,
+                "start": "2026-06-23",
+                "end": "2026-06-24",
+                "all_day": true
+            },
+            {
+                "id": "478ea810f6c3203c",
+                "title": "教師送繳非應屆畢業生114學年度第2學期成績截止Deadline for 2026 Spring Semester Grade Submission",
+                "description": null,
+                "start": "2026-06-26",
+                "end": "2026-06-27",
+                "all_day": true
+            },
+            {
+                "id": "17cfc20e58461292",
+                "title": "暑期班上課開始；選課及繳費(至7月3日止)Summer Session Begins & Course Selection and Fee Paying Begins for Summer Session (6/29-7/3)",
+                "description": null,
+                "start": "2026-06-29",
+                "end": "2026-06-30",
+                "all_day": true
+            },
+            {
+                "id": "da75b39b7327ec3d",
+                "title": "115學年度暑碩專班上課開始、註冊日2026 Summer In-service Master Program Begins & Registration",
+                "description": null,
+                "start": "2026-07-01",
+                "end": "2026-07-02",
+                "all_day": true
+            },
+            {
+                "id": "3b73e561ad719836",
+                "title": "115學年度暑碩專班休退學及畢業生退2/3學雜費(學分費)截止Last Day for 2/3 Tuition and Fees Refunded(graduates or full withdrawal of 2026 Summer In-service Master Program)",
+                "description": null,
+                "start": "2026-07-20",
+                "end": "2026-07-21",
+                "all_day": true
+            },
+            {
+                "id": "8686750fab8e68c8",
+                "title": "114學年度第2學期研究生論文口試結束Thesis Defense Ends",
+                "description": null,
+                "start": "2026-07-31",
+                "end": "2026-08-01",
+                "all_day": true
+            },
+            {
+                "id": "d3b3f7f5ea21fbaf",
+                "title": "114學年度第2學期結束2026 Spring Semester Ends",
+                "description": null,
+                "start": "2026-07-31",
+                "end": "2026-08-01",
+                "all_day": true
+            },
+            {
+                "id": "e25e7ad50e5f9b7c",
+                "title": "115學年度第1學期開始 2026 Fall Semester Begins",
+                "description": null,
+                "start": "2026-08-01",
+                "end": "2026-08-02",
+                "all_day": true
+            },
+            {
+                "id": "1ad5298bceb2e969",
+                "title": "暑期班申請課程停修開始(至7日止) Summer Session Withdrawal (8/3-8/7)",
+                "description": null,
+                "start": "2026-08-03",
+                "end": "2026-08-04",
+                "all_day": true
+            },
+            {
+                "id": "343ab39e840f10b1",
+                "title": "115年度第1學期研究生新生學分抵免申請(至9月9日止) Application for Credit Exemption (new graduate students 8/5-9/9)",
+                "description": null,
+                "start": "2026-08-05",
+                "end": "2026-08-06",
+                "all_day": true
+            },
+            {
+                "id": "5492d86857c9f350",
+                "title": "115學年度暑碩專班休退學及畢業生退1/3學雜費(學分費)截止  Last Day for 1/3 Tuition and Fees Refunded(graduates or full withdrawal of 2026 Summer In-service Master Program)",
+                "description": null,
+                "start": "2026-08-06",
+                "end": "2026-08-07",
+                "all_day": true
+            },
+            {
+                "id": "d0053edcaab31f6e",
+                "title": "新生申請115學年度第1學期學雜費減免(至21日止)",
+                "description": null,
+                "start": "2026-08-17",
+                "end": "2026-08-18",
+                "all_day": true
+            },
+            {
+                "id": "2837b222cf9edc47",
+                "title": "115學年度入學各級新生、轉學生選課(至20日止) Course Selection for New Students/Transfer Students in Fall 2026 (8/18-8/20)",
+                "description": null,
+                "start": "2026-08-18",
+                "end": "2026-08-19",
+                "all_day": true
+            },
+            {
+                "id": "506a277937b8ba44",
+                "title": "暑期班結束 Summer Session Ends",
+                "description": null,
+                "start": "2026-08-21",
+                "end": "2026-08-22",
+                "all_day": true
+            },
+            {
+                "id": "5fa574cd5a9e9afc",
+                "title": "祖父母節 Grandparents Day",
+                "description": null,
+                "start": "2026-08-23",
+                "end": "2026-08-24",
+                "all_day": true
+            },
+            {
+                "id": "7b0b7de78c5f0f27",
+                "title": "115學年度暑碩專班結束  2026 Summer In-service Master Program Ends",
+                "description": null,
+                "start": "2026-08-25",
+                "end": "2026-08-26",
+                "all_day": true
+            },
+            {
+                "id": "61c6cb4002bb3a24",
+                "title": "115學年度第1學期第3次選課開始(至27日止) 3rd Course Selection Period (8/25-8/27)",
+                "description": null,
+                "start": "2026-08-25",
+                "end": "2026-08-26",
+                "all_day": true
+            },
+            {
+                "id": "243429a9b139789a",
+                "title": "教師送繳115學年度暑碩專班成績截止",
+                "description": null,
+                "start": "2026-09-01",
+                "end": "2026-09-02",
+                "all_day": true
+            },
+            {
+                "id": "d86381dca4730f3a",
+                "title": "新生領航營(至2日止)",
+                "description": null,
+                "start": "2026-09-01",
+                "end": "2026-09-02",
+                "all_day": true
+            },
+            {
+                "id": "1ac1bd14dbc3c62c",
+                "title": "115學年度第1學期加退選開始(至20日止) Add-or-Drop Selection (9/3-9/20)",
+                "description": null,
+                "start": "2026-09-03",
+                "end": "2026-09-04",
+                "all_day": true
+            },
+            {
+                "id": "036823cbf6bc3d45",
+                "title": "受理校際選課(至18日止) Inter-School Selection (9/3-9/18)",
+                "description": null,
+                "start": "2026-09-03",
+                "end": "2026-09-04",
+                "all_day": true
+            },
+            {
+                "id": "46edd5810e28eb19",
+                "title": "受理就學貸款申請(4日、7日兩天)",
+                "description": null,
+                "start": "2026-09-04",
+                "end": "2026-09-05",
+                "all_day": true
+            },
+            {
+                "id": "616ebdc31bcc3126",
+                "title": "全校各級學生上課開始、註冊日 1. Class Begin 2. Registration",
+                "description": null,
+                "start": "2026-09-07",
+                "end": "2026-09-08",
+                "all_day": true
+            },
+            {
+                "id": "b080269120d24d3b",
+                "title": "受理軍公教遺族就學減免申請(至11日止)",
+                "description": null,
+                "start": "2026-09-07",
+                "end": "2026-09-08",
+                "all_day": true
+            },
+            {
+                "id": "908bd4070906e0f0",
+                "title": "弱勢助學金申請(至30日止)",
+                "description": null,
+                "start": "2026-09-07",
+                "end": "2026-09-08",
+                "all_day": true
+            },
+            {
+                "id": "4b65010f427d2be0",
+                "title": "生輔組校內外獎學金申請(依 生輔組公告辦理)",
+                "description": null,
+                "start": "2026-09-07",
+                "end": "2026-09-08",
+                "all_day": true
+            },
+            {
+                "id": "13c29aef7d139b86",
+                "title": "教師提出更改114學年第2學期學生成績截止 Deadline for 2026 Spring Semester grade adjustments",
+                "description": null,
+                "start": "2026-09-11",
+                "end": "2026-09-12",
+                "all_day": true
+            },
+            {
+                "id": "124fda11a806783f",
+                "title": "中秋節 Mid-Autumn Festival (no class)",
+                "description": null,
+                "start": "2026-09-25",
+                "end": "2026-09-26",
+                "all_day": true
+            },
+            {
+                "id": "4dbe16160a5192b6",
+                "title": "教師節 Teacher's Day (no class)",
+                "description": null,
+                "start": "2026-09-28",
+                "end": "2026-09-29",
+                "all_day": true
+            },
+            {
+                "id": "abb337bab553ab1e",
+                "title": "期中教學意見反映(至11月20日止) Mid-term Feedback on Teaching (9/29-11/20)",
+                "description": null,
+                "start": "2026-09-29",
+                "end": "2026-09-30",
+                "all_day": true
+            },
+            {
+                "id": "7f55bbc6b1420dc1",
+                "title": "行政會議 Administrative Committee Meeting",
+                "description": null,
+                "start": "2026-09-29",
+                "end": "2026-09-30",
+                "all_day": true
+            },
+            {
+                "id": "83a3b367ab39121c",
+                "title": "國慶日補假 Holiday-Double Tenth Day (no class)",
+                "description": null,
+                "start": "2026-10-09",
+                "end": "2026-10-10",
+                "all_day": true
+            },
+            {
+                "id": "7c3f93a12460f216",
+                "title": "國慶日 Double Tenth Day (no class)",
+                "description": null,
+                "start": "2026-10-10",
+                "end": "2026-10-11",
+                "all_day": true
+            },
+            {
+                "id": "8c8f05b8cf1260f8",
+                "title": "休退學及畢業生退2/3學雜費(學分費) 截止 Last Day for 2/3 Tuition and Fees Refunded (graduates or full withdrawal)",
+                "description": null,
+                "start": "2026-10-16",
+                "end": "2026-10-17",
+                "all_day": true
+            },
+            {
+                "id": "2617e768eba949bf",
+                "title": "期中成績預警開始(至12 月4日止) Academic Warning System Starts Sending out Alert (10/19-12/4)",
+                "description": null,
+                "start": "2026-10-19",
+                "end": "2026-10-20",
+                "all_day": true
+            },
+            {
+                "id": "6e81a0e7f297bf74",
+                "title": "校務會議 University Council Meeting",
+                "description": null,
+                "start": "2026-10-20",
+                "end": "2026-10-21",
+                "all_day": true
+            },
+            {
+                "id": "d1b9274e6324fa2a",
+                "title": "繳交115學年度第1學期學分費截止 Last Day to Pay Credit Fees",
+                "description": null,
+                "start": "2026-10-22",
+                "end": "2026-10-23",
+                "all_day": true
+            },
+            {
+                "id": "41c94664a2ce70f0",
+                "title": "臺灣光復暨金門古寧頭大捷紀念日 Taiwan Restoration Day (no class)",
+                "description": null,
+                "start": "2026-10-25",
+                "end": "2026-10-26",
+                "all_day": true
+            },
+            {
+                "id": "27cb8a2f68a4093f",
+                "title": "臺灣光復暨金門古寧頭大捷紀念日補假 Holiday-Taiwan Restoration Day (no class)",
+                "description": null,
+                "start": "2026-10-26",
+                "end": "2026-10-27",
+                "all_day": true
+            },
+            {
+                "id": "b485898bd9cacb96",
+                "title": "115學年度第1學期申請課程停修開始(至20日止) Course Withdrawal Begins (11/2-11/20)",
+                "description": null,
+                "start": "2026-11-02",
+                "end": "2026-11-03",
+                "all_day": true
+            },
+            {
+                "id": "e8e088c3c0b637d1",
+                "title": "全校運動大會(停課一天)  Sports Day (no class)",
+                "description": null,
+                "start": "2026-11-11",
+                "end": "2026-11-12",
+                "all_day": true
+            },
+            {
+                "id": "68f784d3b1051826",
+                "title": "休退學及畢業生退1/3學雜費(學分費)截止 Last Day for 1/3 Tuition and Fees Refunded (graduates or full withdrawal)",
+                "description": null,
+                "start": "2026-11-20",
+                "end": "2026-11-21",
+                "all_day": true
+            },
+            {
+                "id": "675782f27bbec3e3",
+                "title": "行政會議 Administrative Committee Meeting",
+                "description": null,
+                "start": "2026-11-24",
+                "end": "2026-11-25",
+                "all_day": true
+            },
+            {
+                "id": "3083015612540ac9",
+                "title": "教學意見調查開始(至12月20日止) Online Course Evaluation (11/27-12/20)",
+                "description": null,
+                "start": "2026-11-27",
+                "end": "2026-11-28",
+                "all_day": true
+            },
+            {
+                "id": "74bd8d7ec6b7f98c",
+                "title": "申請115學年度第2學期學雜費減免開始(至11日止)",
+                "description": null,
+                "start": "2026-12-07",
+                "end": "2026-12-08",
+                "all_day": true
+            },
+            {
+                "id": "4affb2409c2f41d8",
+                "title": "校務會議 University Council Meeting",
+                "description": null,
+                "start": "2026-12-15",
+                "end": "2026-12-16",
+                "all_day": true
+            },
+            {
+                "id": "b53ef2dd69fb826d",
+                "title": "115學年度第1學期休學申請截止 Last day to Withdraw from School",
+                "description": null,
+                "start": "2026-12-21",
+                "end": "2026-12-22",
+                "all_day": true
+            },
+            {
+                "id": "aed02e667d7c25e8",
+                "title": "期末考試開始(至24日止) Final Exams (12/21-12/24)",
+                "description": null,
+                "start": "2026-12-21",
+                "end": "2026-12-22",
+                "all_day": true
+            },
+            {
+                "id": "a597e8232780147d",
+                "title": "行憲紀念日 Constitution Day",
+                "description": null,
+                "start": "2026-12-25",
+                "end": "2026-12-26",
+                "all_day": true
+            },
+            {
+                "id": "5cb7de1360c371ea",
+                "title": "115學年度第2學期第1次選課開始(至30日止) 1st Course Selection Period for 2027 Spring Semester (12/28-12/30)",
+                "description": null,
+                "start": "2026-12-28",
+                "end": "2026-12-29",
+                "all_day": true
+            },
+            {
+                "id": "8df2c5289ae89025",
+                "title": "寒假開始 Winter Break Begins",
+                "description": null,
+                "start": "2026-12-28",
+                "end": "2026-12-29",
+                "all_day": true
+            },
+            {
+                "id": "07a51cc97b820d7d",
+                "title": "開國紀念日 New Year's Day",
+                "description": null,
+                "start": "2027-01-01",
+                "end": "2027-01-02",
+                "all_day": true
+            },
+            {
+                "id": "f5a5e1cd02057849",
+                "title": "教師送繳115學年度第1學期成績截止 Deadline for 2026 Fall Semester Grade Submission",
+                "description": null,
+                "start": "2027-01-08",
+                "end": "2027-01-09",
+                "all_day": true
+            },
+            {
+                "id": "d68fdfb0b91727b6",
+                "title": "115學年度第2學期第2次選課開始(至13日止) 2nd Course Selection Period for 2027 Spring Semester (1/11-1/13)",
+                "description": null,
+                "start": "2027-01-11",
+                "end": "2027-01-12",
+                "all_day": true
+            },
+            {
+                "id": "a13a47c0314a67c6",
+                "title": "115學年度第2學期研究生新生學分抵免申請(至2月17日止) Application for Credit Exemption (new graduate students 1/18-2/17)",
+                "description": null,
+                "start": "2027-01-18",
+                "end": "2027-01-19",
+                "all_day": true
+            },
+            {
+                "id": "c98ab4460e2dfe33",
+                "title": "115學年度第2學期第3次選課開始(至21日止) 3rd Course Selection Period for 2027 Spring Semester (1/19-1/21)",
+                "description": null,
+                "start": "2027-01-19",
+                "end": "2027-01-20",
+                "all_day": true
+            },
+            {
+                "id": "2c88f5bbebb3b871",
+                "title": "辦理碩士班入學考試（26、27日兩天，各系所考試日期依簡章公告)",
+                "description": null,
+                "start": "2027-01-26",
+                "end": "2027-01-28",
+                "all_day": true
+            },
+            {
+                "id": "64c2d6075585f9fc",
+                "title": "115學年度第1學期研究生論文口試結束 Thesis Defense Ends",
+                "description": null,
+                "start": "2027-01-31",
+                "end": "2027-02-01",
+                "all_day": true
+            },
+            {
+                "id": "51d9c8e1971161f2",
+                "title": "115學年度第1學期結束 2026 Fall Semester Ends",
+                "description": null,
+                "start": "2027-01-31",
+                "end": "2027-02-01",
+                "all_day": true
+            },
+            {
+                "id": "991a49243a4aed22",
+                "title": "115學年度第2學期開始 2027 Spring Semester Begins",
+                "description": null,
+                "start": "2027-02-01",
+                "end": "2027-02-02",
+                "all_day": true
+            },
+            {
+                "id": "9705579391741ad1",
+                "title": "小年夜 The night before Chinese New Year’s Eve",
+                "description": null,
+                "start": "2027-02-04",
+                "end": "2027-02-05",
+                "all_day": true
+            },
+            {
+                "id": "687c883da30df3bd",
+                "title": "除夕 Chinese New Year’s Eve",
+                "description": null,
+                "start": "2027-02-05",
+                "end": "2027-02-06",
+                "all_day": true
+            },
+            {
+                "id": "4933e61e4fc84aa8",
+                "title": "春節(至10日止) Chinese New Year (2/6-2/10)",
+                "description": null,
+                "start": "2027-02-06",
+                "end": "2027-02-11",
+                "all_day": true
+            },
+            {
+                "id": "128bc79c6ff7ecf4",
+                "title": "115學年度第2學期加退選開始(至3月1日止) Add-or-Drop Selection (2/12-3/1)",
+                "description": null,
+                "start": "2027-02-12",
+                "end": "2027-02-13",
+                "all_day": true
+            },
+            {
+                "id": "4d8a9cd2f2b64663",
+                "title": "受理就學貸款申請(12日、15日兩天)",
+                "description": null,
+                "start": "2027-02-12",
+                "end": "2027-02-13",
+                "all_day": true
+            },
+            {
+                "id": "78d00fd7a04b636f",
+                "title": "受理校際選課(至26日止）Inter-School Selection (2/12-2/26)",
+                "description": null,
+                "start": "2027-02-12",
+                "end": "2027-02-13",
+                "all_day": true
+            },
+            {
+                "id": "074c7f779521b4ac",
+                "title": "全校各級學生上課開始、註冊日 Classes Begin, Registration",
+                "description": null,
+                "start": "2027-02-15",
+                "end": "2027-02-16",
+                "all_day": true
+            },
+            {
+                "id": "97132dd65cebc24d",
+                "title": "受理軍公教遺族就學減免申請(至19日止)",
+                "description": null,
+                "start": "2027-02-15",
+                "end": "2027-02-16",
+                "all_day": true
+            },
+            {
+                "id": "71378199ffc664ef",
+                "title": "生輔組校內外獎學金申請(依生輔組公告辦理）",
+                "description": null,
+                "start": "2027-02-15",
+                "end": "2027-02-16",
+                "all_day": true
+            },
+            {
+                "id": "3d2afd6cb0d4697f",
+                "title": "教師提出更改115學年度第1學期學生成績截止 Deadline for 2026 Fall Semester Grade Adjustments",
+                "description": null,
+                "start": "2027-02-19",
+                "end": "2027-02-20",
+                "all_day": true
+            },
+            {
+                "id": "e28d3704abaa9839",
+                "title": "梅竹賽( 26日至28日，26日下午停課，是否補課由教師自行決定 ；若停賽則正常上課) [Tentative] Mei-Chu Game (2/26-2/28)",
+                "description": null,
+                "start": "2027-02-26",
+                "end": "2027-02-27",
+                "all_day": true
+            },
+            {
+                "id": "904c5f91b5ab4c3b",
+                "title": "和平紀念日 228 Peace Memorial Day (no class)",
+                "description": null,
+                "start": "2027-02-28",
+                "end": "2027-03-01",
+                "all_day": true
+            },
+            {
+                "id": "b0e28ed39975733c",
+                "title": "和平紀念日補假 Holiday-228 Peace Memorial Day (no class)",
+                "description": null,
+                "start": "2027-03-01",
+                "end": "2027-03-02",
+                "all_day": true
+            },
+            {
+                "id": "f2f973989ba1e5ac",
+                "title": "期中教學意見反映(至4月30日止) Mid-term Feedback on Teaching (3/8-4/30)",
+                "description": null,
+                "start": "2027-03-08",
+                "end": "2027-03-09",
+                "all_day": true
+            },
+            {
+                "id": "b40b7eb5757ab59b",
+                "title": "行政會議 Administrative Committee Meeting",
+                "description": null,
+                "start": "2027-03-09",
+                "end": "2027-03-10",
+                "all_day": true
+            },
+            {
+                "id": "885887d69f7eab4f",
+                "title": "校園徵才博覽會 Career Fair",
+                "description": null,
+                "start": "2027-03-20",
+                "end": "2027-03-21",
+                "all_day": true
+            },
+            {
+                "id": "eeccbe8dddd24026",
+                "title": "休退學及畢業生退2/3學雜費(學分費) 截止 Last Day for 2/3 Tuition and Fees Refunded (graduates or full withdrawal)",
+                "description": null,
+                "start": "2027-03-26",
+                "end": "2027-03-27",
+                "all_day": true
+            },
+            {
+                "id": "78e93d70504365c7",
+                "title": "期中成績預警開始(至5月14日止) Academic Warning System Starts Sending out Alert (3/29-5/14)",
+                "description": null,
+                "start": "2027-03-29",
+                "end": "2027-03-30",
+                "all_day": true
+            },
+            {
+                "id": "9150639a432c0c08",
+                "title": "繳交115學年度第2學期學分費截止 Last Day to Pay Credit Fees",
+                "description": null,
+                "start": "2027-03-29",
+                "end": "2027-03-30",
+                "all_day": true
+            },
+            {
+                "id": "7418cba9c0532423",
+                "title": "校務會議 University Council Meeting",
+                "description": null,
+                "start": "2027-03-30",
+                "end": "2027-03-31",
+                "all_day": true
+            },
+            {
+                "id": "3dec902c565cff4e",
+                "title": "兒童節 Children's Day (No Class)",
+                "description": null,
+                "start": "2027-04-04",
+                "end": "2027-04-05",
+                "all_day": true
+            },
+            {
+                "id": "a62bf920c5d2ad7a",
+                "title": "清明節 Tomb Sweeping Day (no class)",
+                "description": null,
+                "start": "2027-04-05",
+                "end": "2027-04-06",
+                "all_day": true
+            },
+            {
+                "id": "839925c3a875713a",
+                "title": "兒童節補假 Holiday- Children's Day (no class)",
+                "description": null,
+                "start": "2027-04-06",
+                "end": "2027-04-07",
+                "all_day": true
+            },
+            {
+                "id": "94f6953f3f6cccb7",
+                "title": "校際活動週(停課一日，是否補課由教師自行決定) Intercollegiate Activities (no class: make-up classes are held at the teacher's discretion)",
+                "description": null,
+                "start": "2027-04-07",
+                "end": "2027-04-08",
+                "all_day": true
+            },
+            {
+                "id": "464e99d3b148f14b",
+                "title": "115學年度第2學期申請課程停修開始(至29日止) Course Withdrawal Begins(4/12-4/29)",
+                "description": null,
+                "start": "2027-04-12",
+                "end": "2027-04-13",
+                "all_day": true
+            },
+            {
+                "id": "6b799cff68e75d6f",
+                "title": "各系級單位完成專任教師評量初審 Department’s Annual Review of Full-time Faculty(1st stage)",
+                "description": null,
+                "start": "2027-04-15",
+                "end": "2027-04-16",
+                "all_day": true
+            },
+            {
+                "id": "46df9b95585b231e",
+                "title": "校慶環校路跑 Cross Country Long Distance Running",
+                "description": null,
+                "start": "2027-04-24",
+                "end": "2027-04-25",
+                "all_day": true
+            },
+            {
+                "id": "733debda6f90fafd",
+                "title": "校慶活動日 University Foundation Anniversary Celebration",
+                "description": null,
+                "start": "2027-04-25",
+                "end": "2027-04-26",
+                "all_day": true
+            },
+            {
+                "id": "7ed24f297a653d0f",
+                "title": "休退學及畢業生退1/3學雜費(學分費)截止  Last Day for 1/3 Tuition and Fees Refunded (graduates or full withdrawal)",
+                "description": null,
+                "start": "2027-04-29",
+                "end": "2027-04-30",
+                "all_day": true
+            },
+            {
+                "id": "7157c25fb56228f6",
+                "title": "校慶日 University Foundation Day",
+                "description": null,
+                "start": "2027-04-29",
+                "end": "2027-04-30",
+                "all_day": true
+            },
+            {
+                "id": "65109f87c470e8c0",
+                "title": "勞動節補假 Holiday-International Labor’s Day (no class)",
+                "description": null,
+                "start": "2027-04-30",
+                "end": "2027-05-01",
+                "all_day": true
+            },
+            {
+                "id": "f569a265c29b0bd3",
+                "title": "勞動節 International Labor’s Day (no class)",
+                "description": null,
+                "start": "2027-05-01",
+                "end": "2027-05-02",
+                "all_day": true
+            },
+            {
+                "id": "56c4ef365f2afdf2",
+                "title": "行政會議 Administrative Committee Meeting",
+                "description": null,
+                "start": "2027-05-04",
+                "end": "2027-05-05",
+                "all_day": true
+            },
+            {
+                "id": "b440524741a08625",
+                "title": "教學意見調查開始(至30日止)  Online Course Evaluation (5/7-5/30)",
+                "description": null,
+                "start": "2027-05-07",
+                "end": "2027-05-08",
+                "all_day": true
+            },
+            {
+                "id": "b428c3f08cd69719",
+                "title": "116學年度轉系、轉所申請(至6月10日止)  Application for Program Transfer (5/11-6/10)",
+                "description": null,
+                "start": "2027-05-11",
+                "end": "2027-05-12",
+                "all_day": true
+            },
+            {
+                "id": "bd00ae174657213b",
+                "title": "全校游泳賽 Swimming Competition",
+                "description": null,
+                "start": "2027-05-12",
+                "end": "2027-05-13",
+                "all_day": true
+            },
+            {
+                "id": "ab2dd0f489882ebb",
+                "title": "各系辦理大學申請入學甄試(至22日止，由各系自行指定日期並於招生簡章分則公告)",
+                "description": null,
+                "start": "2027-05-13",
+                "end": "2027-05-14",
+                "all_day": true
+            },
+            {
+                "id": "37722eb5edb40932",
+                "title": "各院級單位完成專任教師評量複審 College’s Annual Review of Full-time Faculty (2nd stage)",
+                "description": null,
+                "start": "2027-05-15",
+                "end": "2027-05-16",
+                "all_day": true
+            },
+            {
+                "id": "1a97ca15a1900db5",
+                "title": "教師升等資料送人事室截止 Deadline for Submission of Faculty Promotion Application",
+                "description": null,
+                "start": "2027-05-15",
+                "end": "2027-05-16",
+                "all_day": true
+            },
+            {
+                "id": "be9a76e01780db55",
+                "title": "畢業典禮 Commencement",
+                "description": null,
+                "start": "2027-05-23",
+                "end": "2027-05-24",
+                "all_day": true
+            },
+            {
+                "id": "de8ac5824b12b9d7",
+                "title": "校務會議 University Council Meeting",
+                "description": null,
+                "start": "2027-05-25",
+                "end": "2027-05-26",
+                "all_day": true
+            },
+            {
+                "id": "9141598cb1999e24",
+                "title": "教師進修及休假研究申請案送人事室截止 Deadline for Submission of Faculty Sabbatical Leave Application",
+                "description": null,
+                "start": "2027-05-28",
+                "end": "2027-05-29",
+                "all_day": true
+            },
+            {
+                "id": "6cfda4b5a924fee9",
+                "title": "115學年度第2學期休學申請截止 Last Day to Withdraw from School",
+                "description": null,
+                "start": "2027-05-31",
+                "end": "2027-06-01",
+                "all_day": true
+            },
+            {
+                "id": "4d516ed5ca845463",
+                "title": "期末考試開始(至6月4日止)  Final Exams (5/31-6/4)",
+                "description": null,
+                "start": "2027-05-31",
+                "end": "2027-06-01",
+                "all_day": true
+            },
+            {
+                "id": "286e8a08abee3609",
+                "title": "116學年度第1學期第1次選課開始(至9日止) 1st Course Selection Period for 2027 Fall Semester (6/7-6/9)",
+                "description": null,
+                "start": "2027-06-07",
+                "end": "2027-06-08",
+                "all_day": true
+            },
+            {
+                "id": "6295566a784b63d8",
+                "title": "教師送繳應屆畢業生115學年度第2學期成績截止 Deadline for 2027 Spring Semester Grade Submission for Graduating Students",
+                "description": null,
+                "start": "2027-06-07",
+                "end": "2027-06-08",
+                "all_day": true
+            },
+            {
+                "id": "082955818a1a736b",
+                "title": "暑假開始 Summer Vacation Begins",
+                "description": null,
+                "start": "2027-06-07",
+                "end": "2027-06-08",
+                "all_day": true
+            },
+            {
+                "id": "20c88e252b108aaa",
+                "title": "申請116學年度第1學期學雜費減免開始(至11日止)",
+                "description": null,
+                "start": "2027-06-07",
+                "end": "2027-06-08",
+                "all_day": true
+            },
+            {
+                "id": "2baeb81c6fca7ba3",
+                "title": "端午節 Dragon Boat Festival",
+                "description": null,
+                "start": "2027-06-09",
+                "end": "2027-06-10",
+                "all_day": true
+            },
+            {
+                "id": "3495b24d5b29e80a",
+                "title": "116學年度第1學期第2次選課開始(至17日止)  2nd Course Selection Period for 2027 Fall Semester (6/15-6/17)",
+                "description": null,
+                "start": "2027-06-15",
+                "end": "2027-06-16",
+                "all_day": true
+            },
+            {
+                "id": "092b99b7404e1c54",
+                "title": "教師送繳非應屆畢業生115學年度第2學期成績截止  Deadline for 2027 Spring Semester Grade Submission",
+                "description": null,
+                "start": "2027-06-18",
+                "end": "2027-06-19",
+                "all_day": true
+            },
+            {
+                "id": "049376c00b85ee55",
+                "title": "暑期班上課開始 Summer Session Begins",
+                "description": null,
+                "start": "2027-06-21",
+                "end": "2027-06-22",
+                "all_day": true
+            },
+            {
+                "id": "278a3e1960e31c05",
+                "title": "暑期班選課及繳費(至25日止) Course Selection and Fee Paying Begins for Summer Session (6/21-6/25)",
+                "description": null,
+                "start": "2027-06-21",
+                "end": "2027-06-22",
+                "all_day": true
+            },
+            {
+                "id": "864b9c63107c40e2",
+                "title": "116學年度暑碩專班上課開始、註冊日 2027 Summer In-service Master Program Begins,  Registration",
+                "description": null,
+                "start": "2027-07-01",
+                "end": "2027-07-02",
+                "all_day": true
+            },
+            {
+                "id": "8081ee6ceb11c73b",
+                "title": "116學年度暑碩專班休退學及畢業生退2/3學雜費(學分費)截止 Last Day for 2/3 Tuition and Fees Refunded(graduates or full withdrawal of 2027 Summer In-service Master Program)",
+                "description": null,
+                "start": "2027-07-20",
+                "end": "2027-07-21",
+                "all_day": true
+            },
+            {
+                "id": "f65debe0d68cfe2d",
+                "title": "115學年度第2學期研究生論文口試結束 Thesis Defense Ends",
+                "description": null,
+                "start": "2027-07-31",
+                "end": "2027-08-01",
+                "all_day": true
+            },
+            {
+                "id": "3d6db5b3ec17dba8",
+                "title": "115學年度第2學期結束 2027 Spring Semester Ends",
+                "description": null,
+                "start": "2027-07-31",
+                "end": "2027-08-01",
+                "all_day": true
+            }
+        ],
+        "url": "https://calendar.google.com/calendar/embed?src=nthu.acad@gmail.com",
+        "source_url": "https://dgaa.site.nthu.edu.tw/p/412-1209-2942.php?Lang=zh-tw",
+        "ical_url": "https://calendar.google.com/calendar/ical/nthu.acad%40gmail.com/public/basic.ics"
+    }
+]

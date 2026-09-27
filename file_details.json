@@ -23,6 +23,13 @@
         "version": "4edb16e8e1a0e26178bb561d0fdfd1446425f31530f05851277aa891c73fd28c"
       },
       {
+        "last_commit": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30",
+        "last_updated": "2026-09-28T01:28:20.685472+08:00",
+        "name": "calendars.json",
+        "sha256": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30",
+        "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
+      },
+      {
         "last_commit": "33343a1448075fe2cef1ca36c7f3706a5c999f1cfcce1704b8b552fc67f530f4",
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
         "name": "courses.json",
@@ -3009,5 +3016,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-27T22:24:37.491896+08:00"
+  "last_updated": "2026-09-28T01:28:20.685472+08:00"
 }
