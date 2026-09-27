@@ -8,8 +8,12 @@ on:
     paths:
       - "nthu_scraper/**"
       - "tests/**"
-      - "requirements.txt"
-      - "requirements-test.lock"
+      - "*.py"
+      - "pyproject.toml"
+      - "uv.lock"
+
+permissions:
+  contents: read
 
 jobs:
   test:
@@ -24,8 +28,13 @@ jobs:
         with:
           python-version: 3.13.2
 
-      - name: Install dependencies
-        run: pip install --only-binary :all: --require-hashes -r requirements-test.lock
+      - name: Set up uv
+        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        with:
+          enable-cache: true
+
+      - name: Install locked dependencies
+        run: uv sync --frozen --no-build
 
       - name: Run tests
-        run: python -m pytest tests -q
+        run: uv run --frozen --no-build --no-sync pytest -q

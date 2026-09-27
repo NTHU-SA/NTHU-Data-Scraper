@@ -1,63 +1,115 @@
-# Data Update Workflow
+# Data publishing workflow
 
-This document summarizes the GitHub Actions pipeline that refreshes the scraped datasets and publishes them to GitHub Pages.
+## Branch responsibilities
 
-## Job Sequence
-- **crawl_ubuntu** – Runs scrapy spiders directly on `ubuntu-latest`, installs dependencies, and uploads the generated `data/` folder as the `ubuntu-data` artifact.
-  - Runs announcement list spider first (nthu_announcements_list)
-  - Then runs announcement item spider (nthu_announcements_item)
-  - Finally runs other spiders (buses, courses, dining)
-- **crawl_self_hosted** – Runs on the self-hosted runner, but only when manually triggered with `run_self_hosted` input set to true. Produces the `self-hosted-data` artifact.
-  - Runs directory, maps, and newsletters spiders
-- **commit_changes** – Always starts once both crawl jobs finish. It downloads whichever artifacts succeeded, merges them into `data/`, commits the changes once, and pushes to `main`.
-- **deploy_to_github** – Regenerates the metadata files and deploys the refreshed `data/` directory to the `gh-pages` branch.
+| Branch | Responsibility |
+|---|---|
+| `main` | Source plus a temporarily retained legacy `data/` snapshot; generated updates are never committed here |
+| `data` | Canonical generated dataset and static Pages files at branch root |
+| `gh-pages` | Temporary, unchanged rollback branch pending production verification |
 
-## Announcements Spider Architecture
-The announcements spider has been split into two separate spiders:
-- **nthu_announcements_list**: Recursively crawls and updates the announcements list from the directory. Creates/updates `announcements_list.json` with links to announcement pages.
-- **nthu_announcements_item**: Reads `announcements_list.json` and crawls the actual announcement content. Creates/updates `announcements.json` with article details.
+The `data` branch inherits the historical `main` ancestry. Its current tree is
+data-only, while old source and generated-data commits remain reachable in
+history.
 
-This separation allows for more efficient updates - normally only the item spider needs to run to update content.
+`main/data/` remains tracked during this transition as an additional rollback
+snapshot. It is not authoritative: each workflow run hydrates it from the
+latest `data` branch before crawling, and only the `data` branch receives
+generated-data commits.
 
-## Bus Spider Updates
-The bus spider has been refactored to support the new Nanda bus route format:
-- Added support for `towardNandaInfo` (to Nanda campus)
-- Added support for route lines (route1, route2)
-- Added support for departure stop (`depStop`) field
-- Improved code structure with utility modules
+## Scheduled lifecycle
 
-## Library Spider
-`nthu_libraries` writes two files under `data/libraries/`:
-- `rss.json` – the four library RSS feeds (`news`, `eresources`, `exhibit`, `branches`), keyed by feed type. Relative links are resolved to absolute URLs.
-- `calendars.json` – the library opening-hours calendars (`main`, `hss`, `nanda`) from their public Google Calendar iCal feeds. Recurring events are expanded into single occurrences from Jan 1 of last year to Dec 31 of next year. The window is year-aligned so the file only changes when the calendar does.
-
-When a source fails, the spider keeps the previously saved data for that source instead of overwriting it.
-
-### Runner IP restrictions
-NTHU sites may reject requests from GitHub-hosted runner IPs (non-Taiwan cloud ranges). The library step runs with `continue-on-error`, so a block never stops the other datasets from updating. If the library data stops updating, move the `nthu_libraries` step to a job running on the self-hosted runner (`runs-on: self-hosted`) and merge its `data/libraries` output into the commit step.
-
-## Manual Triggers
-- Regular schedule (every 2 hours) and pushes to main run only ubuntu crawlers
-- Self-hosted crawlers must be manually triggered via workflow_dispatch with `run_self_hosted` set to true
-
-## Failure Isolation
-- Either crawl job may fail (for example, when the self-hosted runner is offline). The `commit_changes` job still runs because it uses `if: ${{ always() }}`.
-- Only successful crawls contribute artifacts, so the merge step gracefully continues with whichever datasets are available.
-- If both crawls fail, the workflow stops during `commit_changes` to avoid pushing stale data.
-
-## Flow Diagram
 ```mermaid
 flowchart TD
-  trigger([Push / Schedule / Manual Dispatch]) --> ubuntu[Crawl on ubuntu-latest]
-  trigger --> manualCheck{Manual trigger with<br/>run_self_hosted?}
-  manualCheck -->|Yes| selfHosted[Crawl on self-hosted runner]
-  manualCheck -->|No| skip[Skip self-hosted]
-  ubuntu --> ubArtifact[Upload ubuntu-data artifact]
-  selfHosted --> shArtifact[Upload self-hosted-data artifact]
-  ubArtifact --> commit[Merge & commit JSON data]
-  shArtifact --> commit
-  skip --> commit
-  ubuntu -. failure allowed .-> commit
-  selfHosted -. failure allowed .-> commit
-  commit --> deploy[Deploy to gh-pages]
+  snapshot[data branch snapshot] --> hydrate[Hydrate main/data]
+  hydrate --> crawl[Run scheduled spiders from main]
+  crawl --> validate[Validate all JSON and critical datasets]
+  validate --> metadata[Generate file_details.json]
+  metadata --> index[Generate index.html and .nojekyll]
+  index --> commit[Commit changed snapshot to data]
 ```
+
+The workflow runs on pushes to `main`, every two hours, and manual dispatch.
+Its concurrency group permits only one publisher at a time and does not cancel
+an in-progress publication. It has only `contents: write` permission.
+
+Hydration excludes `.git`, `.nojekyll`, `CNAME`, `file_details.json`, and
+`index.html`. Existing datasets are copied before crawling, so a spider that
+does not run—or a library source that fails—does not erase its previous
+published output. A preserved `CNAME` is restored during publication if one is
+ever added to the `data` branch.
+
+The regular spider set remains:
+
+- `nthu_announcements_item`
+- `nthu_buses`
+- `nthu_courses`
+- `nthu_dining`
+- `nthu_libraries` (failure-isolated because upstream sites may reject hosted
+  runner IPs)
+
+Directory, maps, newsletters, announcement-list, and other legacy datasets are
+preserved by hydration; Phase 1 does not expand the crawler schedule.
+
+## Validation and metadata
+
+`validate_data.py` rejects missing critical root datasets, empty JSON files,
+and malformed JSON before publication. It validates generated
+`file_details.json` in the final pass but does not count publishing metadata as
+crawler data.
+
+`generate_file_detail.py` hashes the exact bytes of each published data asset.
+Unchanged hashes preserve their previous `last_updated`; changed and new files
+receive an offset-aware Asia/Taipei timestamp. The top-level timestamp is the
+newest meaningful file timestamp and therefore remains stable when no dataset
+changes.
+
+Publishing controls (`file_details.json`, `index.html`, `.nojekyll`, and
+`CNAME`) are excluded from the inventory. For backward compatibility:
+
+```text
+last_commit == version == sha256
+```
+
+NTHU-Data-API treats `last_commit` as an opaque cache identity. It is no longer
+necessarily a Git commit SHA. The generated index displays a SHA-256 prefix and
+does not create Git commit links from content hashes.
+
+## Dependency management
+
+`pyproject.toml` and `uv.lock` are the only dependency sources.
+
+```bash
+uv sync
+uv run pytest -q
+uv run python -m scrapy crawl nthu_buses
+```
+
+CI uses Python 3.13, `astral-sh/setup-uv`, and frozen lockfile installs.
+
+## Manual GitHub Pages cutover
+
+Do not delete `gh-pages` during cutover.
+
+1. Confirm `data` contains the complete root-level snapshot and at least one
+   publication commit.
+2. Open **Settings → Pages**.
+3. Choose **Deploy from a branch**.
+4. Select branch **data** and folder **/ (root)**.
+5. Wait for deployment and verify <https://data.nthusa.tw/>.
+6. Verify `/buses.json`, `/courses.json`, `/announcements.json`, and
+   `/file_details.json`.
+7. Verify NTHU-Data-API cache refresh behavior.
+8. Wait for at least one scheduled crawl and confirm another normal commit can
+   be pushed to `data`.
+9. Only then consider deleting `gh-pages` in a separate operation.
+
+If repository rules later protect `data`, GitHub Actions must be permitted to
+push without weakening unrelated protections.
+
+## Rollback
+
+If production verification fails, set the Pages source back to
+`gh-pages` / root. The legacy branch, the recorded pre-split `main` SHA, and all
+historical commits remain unchanged, so rollback requires no history rewrite or
+force push.

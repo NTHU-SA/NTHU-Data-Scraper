@@ -1,0 +1,20 @@
+[project]
+name = "nthu-data-scraper"
+version = "0.1.0"
+description = "Automated scraper for National Tsing Hua University campus data"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "icalendar",
+    "recurring-ical-events",
+    "scrapy",
+    "scrapy-playwright",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
