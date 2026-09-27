@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="清華大學校園公開資料：瀏覽與搜尋 JSON 資料檔案。">
+    <title>NTHU Data</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --color-brand: #b081b7;
+            --color-canvas: #d6ebe7;
+            --color-text: #303b39;
+            --color-text-muted: #586862;
+            --color-action: #75507c;
+            --color-action-hover: #603c67;
+            --color-accent: #875d8e;
+            --color-line: rgba(91, 104, 98, .19);
+            --color-control-border: #807785;
+            --surface-list: #f9fbfa;
+            --surface-input: #fff;
+            --surface-selected: #eee5f1;
+            --surface-hover: #f1ecf4;
+            --background: linear-gradient(120deg, #d6ebe7, #f1f6ef 55%, #eee5f1);
+            --font-body: "Microsoft JhengHei", "PingFang TC", "Heiti TC", sans-serif;
+            --font-display: "Bahnschrift", "Aptos", "Microsoft JhengHei", sans-serif;
+        }
+        * { box-sizing: border-box; }
+        body { margin: 0; min-height: 100vh; background: var(--background) var(--color-canvas); color: var(--color-text); font: 14px/1.6 var(--font-body); letter-spacing: 0; }
+        a { color: var(--color-action); text-decoration: none; }
+        a:hover { color: var(--color-action-hover); text-decoration: underline; }
+        button, input { font: inherit; }
+        button, a, summary { touch-action: manipulation; }
+        button { cursor: pointer; }
+        :focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; }
+        [hidden] { display: none !important; }
+        .shell { max-width: 1160px; margin: 0 auto; padding: 16px 40px; }
+        .topbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; min-height: 74px; gap: 4px 16px; margin-bottom: 12px; }
+        h1 { margin: 0; font: 600 20px/1.6 var(--font-display); }
+        .topbar a, footer a { display: inline-flex; align-items: center; min-height: 44px; }
+        .top-links { display: flex; gap: 20px; font: 14px/1.6 var(--font-display); }
+        .explorer { background: var(--surface-list); border: 1px solid var(--surface-input); border-radius: 8px; }
+        .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 16px 0; }
+        .location { font: 15px ui-monospace, Consolas, monospace; }
+        .search { display: flex; align-items: center; gap: 12px; width: 320px; font-size: 12px; color: var(--color-text-muted); }
+        .search span { flex-shrink: 0; }
+        .search input { width: 100%; min-width: 0; min-height: 46px; padding: 10px 14px; border: 1px solid var(--color-control-border); border-radius: 8px; background: var(--surface-input); color: var(--color-text); font-size: 14px; }
+        .search input::placeholder { color: var(--color-text-muted); }
+        .search input:hover { border-color: var(--color-action); }
+        .list-tools { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0 12px; padding: 4px 16px; font-size: 12px; color: var(--color-text-muted); }
+        .actions { display: flex; gap: 4px; margin-left: auto; }
+        .actions button { min-height: 44px; background: transparent; border: 0; border-radius: 8px; padding: 8px; color: var(--color-action); font-size: 12px; }
+        .actions button:hover:not(:disabled) { background: var(--surface-hover); color: var(--color-action-hover); }
+        .actions button:disabled { color: var(--color-text-muted); opacity: .6; cursor: not-allowed; }
+        .entry, .column-head { display: grid; grid-template-columns: minmax(0, 1fr) 228px 116px; align-items: center; gap: 16px; }
+        .column-head { padding: 8px 16px; background: var(--surface-selected); color: var(--color-text-muted); font-size: 12px; border-block: 1px solid var(--color-line); }
+        .entries { min-height: 80px; }
+        .entry { min-height: 44px; padding: 0 16px; border-bottom: 1px solid var(--color-line); }
+        .entry:hover { background: var(--surface-hover); }
+        .entry-name { display: flex; align-items: center; gap: 10px; min-width: 0; }
+        .name { overflow-wrap: anywhere; min-width: 0; font: 14px/1.6 ui-monospace, Consolas, monospace; }
+        a.name { display: flex; align-items: center; min-height: 44px; padding-block: 8px; }
+        .icon { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+        .folder-icon { color: var(--color-accent); fill: var(--surface-selected); }
+        .file-icon { color: var(--color-text-muted); margin-left: 18px; }
+        .folder-entry { cursor: pointer; list-style: none; }
+        .folder-entry::-webkit-details-marker { display: none; }
+        .chevron { width: 6px; height: 6px; border-right: 1.5px solid var(--color-text-muted); border-bottom: 1.5px solid var(--color-text-muted); transform: rotate(-45deg); flex-shrink: 0; margin-right: 2px; }
+        details[open] > summary .chevron { transform: rotate(45deg); }
+        details[open] > summary { background: var(--surface-selected); }
+        .folder-contents { margin-left: 24px; border-left: 1px solid var(--color-brand); }
+        .folder-count { margin-left: 4px; font-size: 12px; font-weight: 400; color: var(--color-text-muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+        .timestamp { font: 12px/1.6 var(--font-display); color: var(--color-text-muted); font-variant-numeric: tabular-nums; }
+        .version { font: 12px/1.6 ui-monospace, Consolas, monospace; color: var(--color-text-muted); }
+        .empty { text-align: center; padding: 44px 24px; color: var(--color-text-muted); }
+        footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 20px; padding: 8px 0; color: var(--color-text-muted); font: 12px/1.6 var(--font-display); font-variant-numeric: tabular-nums; }
+        footer nav { display: flex; gap: 16px; }
+        footer a { color: inherit; }
+        .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+        .skip-link { position: absolute; top: -100px; left: 20px; padding: 10px 16px; background: var(--surface-input); z-index: 1; }
+        .skip-link:focus { top: 8px; }
+        @media (max-width: 800px) {
+            .shell { padding: 8px 24px; }
+            .entry, .column-head { grid-template-columns: minmax(0, 1fr) 196px 116px; gap: 12px; }
+        }
+        @media (max-width: 620px) {
+            .shell { padding: 8px 20px; }
+            .topbar { min-height: 64px; }
+            .toolbar { align-items: stretch; flex-direction: column; gap: 12px; padding: 12px 12px 0; }
+            .search { width: 100%; }
+            .list-tools { padding-inline: 12px; padding-top: 8px; }
+            .entry, .column-head { grid-template-columns: minmax(0, 1fr); gap: 2px; padding-inline: 8px; }
+            .column-head span:not(:first-child), .version { display: none; }
+            .file-entry { padding-bottom: 8px; }
+            .timestamp { padding-left: 48px; }
+            .folder-count { margin-left: auto; }
+            .folder-contents { margin-left: 12px; }
+            footer { flex-direction: column; align-items: start; padding-top: 16px; }
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                color-scheme: dark;
+                --color-canvas: #1d2926; --color-text: #e2eae7; --color-text-muted: #aebfb8;
+                --color-action: #d5b0dc; --color-action-hover: #ead3ef; --color-accent: #c79dce;
+                --color-line: #414e48; --color-control-border: #a096a5;
+                --surface-list: #26312d; --surface-input: #222c29;
+                --surface-selected: #3d3344; --surface-hover: #34303c;
+                --background: linear-gradient(120deg, #1d2926, #25242b);
+            }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+        }
+    </style>
+</head>
+<body>
+    <a class="skip-link" href="#main">跳至檔案</a>
+    <svg class="visually-hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="folder-icon" viewBox="0 0 24 24"><path d="M3 7V5a1 1 0 0 1 1-1h5l2 3h9a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/><path d="M3 9h18"/></symbol>
+        <symbol id="file-icon" viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8Z"/><path d="M14 3v5h5M9 13l-2 2 2 2m6-4 2 2-2 2"/></symbol>
+    </svg>
+    <div class="shell">
+        <header class="topbar">
+            <h1><a href="./">NTHU Data</a></h1>
+            <nav class="top-links" aria-label="相關連結"><a href="file_details.json">file_details.json</a><a href="$repository_url">GitHub</a></nav>
+        </header>
+        <main id="main" tabindex="-1">
+            <section class="explorer" aria-label="資料檔案">
+                <div class="toolbar">
+                    <div class="location">/</div>
+                    <label class="search" hidden><span>搜尋</span><input id="search" type="search" placeholder="檔名或路徑" autocomplete="off" aria-controls="entries"></label>
+                </div>
+                <div class="list-tools">
+                    <span id="result-count" role="status" aria-live="polite">$folder_count 個資料夾 · $file_count 個檔案</span>
+                    <div class="actions" hidden><button id="expand" type="button">全部展開</button><button id="collapse" type="button">全部收合</button></div>
+                </div>
+                <div class="column-head" aria-hidden="true"><span>名稱</span><span>最後更新時間</span><span>SHA-256</span></div>
+                <div id="entries" class="entries">
+                    $entries
+                    <p id="empty" class="empty" $empty_hidden>沒有檔案</p>
+                </div>
+            </section>
+        </main>
+        <footer><span>更新：$last_updated</span><nav aria-label="網站資訊"><a href="https://nthusa.tw/">© $current_year NTHUSA</a><a href="https://opensource.org/licenses/MIT">MIT</a></nav></footer>
+    </div>
+    <script>
+        const search = document.getElementById("search");
+        const files = [...document.querySelectorAll(".file-entry")];
+        const folders = [...document.querySelectorAll(".folder")];
+        const count = document.getElementById("result-count");
+        const empty = document.getElementById("empty");
+        const expand = document.getElementById("expand");
+        const collapse = document.getElementById("collapse");
+        const initialCount = count.textContent;
+        let savedOpen = null;
+
+        document.querySelector(".search").hidden = false;
+        document.querySelector(".actions").hidden = false;
+        expand.disabled = collapse.disabled = folders.length === 0;
+
+        expand.addEventListener("click", () => folders.forEach(folder => { folder.open = true; }));
+        collapse.addEventListener("click", () => folders.forEach(folder => { folder.open = false; }));
+        search.addEventListener("input", () => {
+            const query = search.value.trim().toLocaleLowerCase();
+            if (query && savedOpen === null) savedOpen = folders.map(folder => folder.open);
+            let matches = 0;
+            files.forEach(file => {
+                file.hidden = !file.dataset.path.toLocaleLowerCase().includes(query);
+                if (!file.hidden) matches++;
+            });
+            folders.forEach((folder, index) => {
+                folder.hidden = Boolean(query) && !folder.querySelector(".file-entry:not([hidden])");
+                if (query) folder.open = !folder.hidden;
+                else if (savedOpen !== null) folder.open = savedOpen[index];
+            });
+            if (!query) savedOpen = null;
+            expand.disabled = collapse.disabled = Boolean(query) || folders.length === 0;
+            count.textContent = query ? matches + " 個符合的檔案 / 共 " + files.length + " 個" : initialCount;
+            empty.hidden = matches !== 0;
+            empty.textContent = query ? "找不到檔案" : "沒有檔案";
+        });
+    </script>
+</body>
+</html>
