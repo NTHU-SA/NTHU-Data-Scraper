@@ -34,6 +34,7 @@ Maintainability Rating">
 - **nthu_directory**: Downloads department directory
 - **nthu_maps**: Gets campus map data
 - **nthu_newsletters**: Collects newsletter information
+- **nthu_libraries**: Collects library RSS feeds (`libraries/rss.json`) and opening-hours calendars (`libraries/calendars.json`)
 
 ### Recent Improvements
 - ✅ Refactored project structure with common utility modules
@@ -57,6 +58,13 @@ python -m scrapy crawl nthu_buses
 # For announcements, run list spider first, then item spider
 python -m scrapy crawl nthu_announcements_list
 python -m scrapy crawl nthu_announcements_item
+```
+
+### Running Tests
+
+```bash
+pip install --only-binary :all: --require-hashes -r requirements-test.lock
+python -m pytest tests
 ```
 
 ### GitHub Actions
