@@ -1,0 +1,31 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    paths:
+      - "nthu_scraper/**"
+      - "tests/**"
+      - "requirements.txt"
+      - "requirements-test.lock"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.13.2
+
+      - name: Install dependencies
+        run: pip install --only-binary :all: --require-hashes -r requirements-test.lock
+
+      - name: Run tests
+        run: python -m pytest tests -q
