@@ -6,14 +6,18 @@ import re
 from nthu_scraper.parsers import ParseError
 
 
-DINING_REGEX = re.compile(r"const\s+restaurantsData\s*=\s*(\[.*?)(?:\s+renderTabs)", re.S)
+DINING_DECLARATION = re.compile(r"const\s+restaurantsData\s*=\s*")
+RENDER_TABS_BOUNDARY = re.compile(r"\srenderTabs")
 
 
 def parse_dining_html(html: str) -> list:
-    match = DINING_REGEX.search(html)
-    if match is None:
+    match = DINING_DECLARATION.search(html)
+    if match is None or html[match.end():match.end() + 1] != "[":
+        raise ParseError("Missing restaurantsData array")
+    boundary = RENDER_TABS_BOUNDARY.search(html, match.end())
+    if boundary is None:
         raise ParseError("Missing restaurantsData or renderTabs boundary")
-    literal = match.group(1).replace("'", '"').replace("\n", "")
+    literal = html[match.end():boundary.start()].replace("'", '"').replace("\n", "")
     literal = re.sub(r",[ ]+?\]", "]", literal)
     try:
         data = json.loads(literal)

@@ -21,6 +21,16 @@ def test_extract_balanced_value(literal):
     assert extract_js_value(f"const data = {literal}; const next = [];", "data") == literal
 
 
+@pytest.mark.parametrize("whitespace", ["", " ", "   ", "\t", "\n", "\r\n\t "])
+def test_declaration_whitespace_is_consumed(whitespace):
+    assert parse_info_variable("info", f"const info ={whitespace}{{enabled: true}};") == {
+        "enabled": True,
+    }
+    assert parse_schedule_variable(
+        "schedule", f"const schedule ={whitespace}[{{time: '08:00'}}];"
+    ) == [{"time": "08:00", "description": "", "route": "校園公車"}]
+
+
 @pytest.mark.parametrize("fragment", [
     "", "const other = [];", "const data =", "const data = 3;",
     "const data = [{];", "const data = [{a: 1}", 'const data = ["unterminated];',

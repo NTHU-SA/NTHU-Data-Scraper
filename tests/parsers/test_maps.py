@@ -12,9 +12,11 @@ def test_map_contract_and_order(fixture_text, html_response):
         "圖書館": {"latitude": "24.7950", "longitude": "120.9930"},
         "台積館": {"latitude": "24.791234", "longitude": "120.990000"},
     }
+    parsed = parse_map_options(page)
+    assert parsed == expected
+    assert list(parsed) == list(expected)
+    parsed["圖書館"]["latitude"] = "modified"
     assert parse_map_options(page) == expected
-    assert list(parse_map_options(page)) == list(expected)
-    assert parse_map_options(page) == parse_map_options(page)
     item, = MapSpider().parse(page)
     assert dict(item) == {"map_type": "MainZH", "data": expected}
 

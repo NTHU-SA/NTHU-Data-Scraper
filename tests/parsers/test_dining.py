@@ -41,6 +41,16 @@ def test_malformed_fixture(fixture_text):
         parse_dining_html(fixture_text("dining", "malformed.html"))
 
 
+@pytest.mark.parametrize("has_boundary", [False, True])
+def test_long_whitespace_before_boundary(has_boundary):
+    html = "const restaurantsData = []" + " " * 100_000
+    if has_boundary:
+        assert parse_dining_html(html + "renderTabs()") == []
+    else:
+        with pytest.raises(ParseError):
+            parse_dining_html(html + "unrecognizedFunction()")
+
+
 def test_empty_and_broken_callback_do_not_yield(html_response, caplog):
     assert list(DiningSpider().parse(html_response("const restaurantsData = [] renderTabs()"))) == []
     assert list(DiningSpider().parse(html_response("<html>Unavailable</html>"))) == []
