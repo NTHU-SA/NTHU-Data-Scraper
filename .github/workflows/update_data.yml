@@ -74,12 +74,8 @@ jobs:
       - name: Validate and generate publishing files
         run: |
           uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"
-          uv run --frozen --no-build --no-sync python generate_file_detail.py \
-            --data_folder="$DATA_FOLDER" \
-            --json_path="$DATA_FOLDER/file_details.json"
-          uv run --frozen --no-build --no-sync python generate_index.py \
-            --json_path="$DATA_FOLDER/file_details.json" \
-            --output="$DATA_FOLDER/index.html"
+          uv run --frozen --no-build --no-sync python generate_file_detail.py
+          uv run --frozen --no-build --no-sync python generate_index.py
           touch "$DATA_FOLDER/.nojekyll"
           uv run --frozen --no-build --no-sync python validate_data.py --data-folder "$DATA_FOLDER"
 

@@ -1,16 +1,24 @@
-import argparse
 import json
+import subprocess
+import sys
+from pathlib import Path
 
-import pytest
+from generate_index import generate_html_report
 
-from generate_index import generate_html_report, workspace_path
+SCRIPT = Path(__file__).parents[1] / "generate_index.py"
 
 
-def test_cli_paths_must_remain_in_workspace(tmp_path, monkeypatch):
-    monkeypatch.chdir(tmp_path)
-    assert workspace_path("data/index.html").is_relative_to(tmp_path)
-    with pytest.raises(argparse.ArgumentTypeError, match="must remain within"):
-        workspace_path("../index.html")
+def test_cli_uses_fixed_workspace_data_paths(tmp_path):
+    data_folder = tmp_path / "data"
+    data_folder.mkdir()
+    (data_folder / "file_details.json").write_text(
+        json.dumps({"last_updated": "2026-09-27T20:00:00+08:00", "file_details": {}}),
+        encoding="utf-8",
+    )
+
+    subprocess.run([sys.executable, str(SCRIPT)], cwd=tmp_path, check=True)
+
+    assert (data_folder / "index.html").is_file()
 
 
 def test_index_displays_content_version_without_commit_link(tmp_path):

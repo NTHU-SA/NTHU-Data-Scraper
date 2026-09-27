@@ -1,28 +1,33 @@
-import argparse
 import datetime
 import json
+import subprocess
+import sys
+from pathlib import Path
 
 import pytest
 
-from generate_file_detail import (
-    calculate_sha256,
-    generate_file_detail_json,
-    workspace_path,
-)
+from generate_file_detail import calculate_sha256, generate_file_detail_json
 
 FIRST_RUN = datetime.datetime(2026, 9, 27, 12, 0, tzinfo=datetime.timezone.utc)
 SECOND_RUN = datetime.datetime(2026, 9, 27, 14, 0, tzinfo=datetime.timezone.utc)
+SCRIPT = Path(__file__).parents[1] / "generate_file_detail.py"
 
 
 def _entry(metadata, folder="/", index=0):
     return metadata["file_details"][folder][index]
 
 
-def test_cli_paths_must_remain_in_workspace(tmp_path, monkeypatch):
-    monkeypatch.chdir(tmp_path)
-    assert workspace_path("data/file_details.json").is_relative_to(tmp_path)
-    with pytest.raises(argparse.ArgumentTypeError, match="must remain within"):
-        workspace_path("../file_details.json")
+def test_cli_uses_fixed_workspace_data_paths(tmp_path):
+    data_folder = tmp_path / "data"
+    data_folder.mkdir()
+    (data_folder / "buses.json").write_text("[]", encoding="utf-8")
+
+    subprocess.run([sys.executable, str(SCRIPT)], cwd=tmp_path, check=True)
+
+    metadata = json.loads(
+        (data_folder / "file_details.json").read_text(encoding="utf-8")
+    )
+    assert _entry(metadata)["name"] == "buses.json"
 
 
 def test_sha256_uses_exact_file_bytes(tmp_path):

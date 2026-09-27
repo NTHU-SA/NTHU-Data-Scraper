@@ -15,18 +15,6 @@ PUBLISHING_FILES = {
 }
 
 
-def workspace_path(value: str) -> Path:
-    workspace = Path.cwd().resolve()
-    candidate = (workspace / value).resolve()
-    try:
-        candidate.relative_to(workspace)
-    except ValueError as error:
-        raise argparse.ArgumentTypeError(
-            f"path must remain within the workspace: {value}"
-        ) from error
-    return candidate
-
-
 def calculate_sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as file:
@@ -172,24 +160,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Generate file_details.json with exact-byte SHA-256 versions."
     )
-    parser.add_argument(
-        "--data_folder",
-        type=workspace_path,
-        default="data",
-        help="Published snapshot directory (default: data)",
-    )
-    parser.add_argument(
-        "--json_path",
-        type=workspace_path,
-        default="data/file_details.json",
-        help="Output metadata path (default: data/file_details.json)",
-    )
     parser.add_argument("--include", nargs="+", help="Only include these folder keys")
     parser.add_argument("--exclude", nargs="+", help="Exclude these folder keys")
     args = parser.parse_args()
+    data_folder = (Path.cwd() / "data").resolve()
     generate_file_detail_json(
-        args.data_folder,
-        args.json_path,
+        data_folder,
+        data_folder / "file_details.json",
         args.include,
         args.exclude,
     )
