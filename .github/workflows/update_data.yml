@@ -52,7 +52,6 @@ jobs:
             --exclude=.git \
             --exclude=.nojekyll \
             --exclude=CNAME \
-            --exclude=file_details.json \
             --exclude=index.html \
             "$RUNNER_TEMP/published-data/" "$DATA_FOLDER/"
 

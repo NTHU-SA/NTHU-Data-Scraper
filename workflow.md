@@ -38,11 +38,12 @@ are sorted alphabetically and derived from the actual staged dataset diff. The
 body records every changed path, with generated metadata listed separately. If
 the staged tree is unchanged, the workflow creates no commit.
 
-Hydration excludes `.git`, `.nojekyll`, `CNAME`, `file_details.json`, and
-`index.html`. Existing datasets are copied before crawling, so a spider that
-does not run—or a library source that fails—does not erase its previous
-published output. A preserved `CNAME` is restored during publication if one is
-ever added to the `data` branch.
+Hydration excludes `.git`, `.nojekyll`, `CNAME`, and `index.html`, while
+retaining the previous `file_details.json` so unchanged datasets preserve their
+meaningful `last_updated` values. Existing datasets are copied before crawling,
+so a spider that does not run—or a library source that fails—does not erase its
+previous published output. A preserved `CNAME` is restored during publication
+if one is ever added to the `data` branch.
 
 The regular spider set remains:
 
