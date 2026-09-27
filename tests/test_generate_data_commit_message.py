@@ -87,6 +87,11 @@ def test_unknown_dataset_uses_deterministic_top_level_scope():
     assert message.startswith("data(research-data): update published snapshot\n")
 
 
+def test_legacy_directories_path_uses_canonical_directory_scope():
+    message = generate_commit_message([change("M", "directories/units.json")])
+    assert message.startswith("data(directory): update published snapshot\n")
+
+
 def test_generated_only_changes_are_rejected():
     with pytest.raises(NoDatasetChangesError, match="No real dataset changes"):
         generate_commit_message(

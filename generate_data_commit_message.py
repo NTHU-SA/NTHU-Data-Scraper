@@ -16,6 +16,8 @@ DATASET_SCOPES = {
     "dining": "dining",
     "dining.json": "dining",
     "directory": "directory",
+    "directories": "directory",
+    "directories.json": "directory",
     "directory.json": "directory",
     "libraries": "libraries",
     "maps": "maps",
