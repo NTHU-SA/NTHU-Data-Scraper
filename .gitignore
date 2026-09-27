@@ -1,5 +1,8 @@
 # Temporary files
 temp
+data/
+.published/
+.data-worktree/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
