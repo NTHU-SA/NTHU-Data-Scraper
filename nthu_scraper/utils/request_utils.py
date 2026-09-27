@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import random
 from functools import lru_cache
-from typing import Dict
 
 # A small pool of modern desktop and mobile browsers to mimic real usage.
 _USER_AGENT_POOL = (
@@ -30,6 +29,6 @@ def get_default_user_agent() -> str:
     return _choose_user_agent()
 
 
-def get_default_headers() -> Dict[str, str]:
+def get_default_headers() -> dict[str, str]:
     """Build shared request headers we want every spider to reuse."""
     return {"User-Agent": get_default_user_agent()}

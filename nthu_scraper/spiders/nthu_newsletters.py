@@ -1,13 +1,8 @@
-import json
-from pathlib import Path
-from typing import Set
+from collections.abc import Iterator
 
 import scrapy
 from scrapy.http import Response
 
-from nthu_scraper.utils.constants import DATA_FOLDER
-from nthu_scraper.utils.file_utils import load_json, save_json
-from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.newsletters import (
     URL_PREFIX,
@@ -15,12 +10,11 @@ from nthu_scraper.parsers.newsletters import (
     parse_archive_articles,
     parse_newsletter_entry,
 )
+from nthu_scraper.utils.constants import NEWSLETTERS_JSON_PATH
+from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
+from nthu_scraper.utils.file_utils import load_json, save_json
 
-# --- 全域參數設定 ---
-COMBINED_JSON_FILE = DATA_FOLDER / "newsletters.json"
 
-
-# --- 資料結構定義 ---
 class NewsletterItem(scrapy.Item):
     """
     電子報資料項目。包含名稱、連結、表格資料以及實際的文章內容。
@@ -30,16 +24,6 @@ class NewsletterItem(scrapy.Item):
     link = scrapy.Field()
     details = scrapy.Field()
     articles = scrapy.Field()
-
-
-class NewsletterArticle(scrapy.Item):
-    """
-    電子報中單篇文章的資料結構。
-    """
-
-    title = scrapy.Field()
-    link = scrapy.Field()
-    date = scrapy.Field()
 
 
 class NewsletterSpider(WholeDatasetSpider):
@@ -54,14 +38,16 @@ class NewsletterSpider(WholeDatasetSpider):
     allowed_domains = ["newsletter.cc.nthu.edu.tw"]
     start_urls = [f"{URL_PREFIX}/nthu-list/search.html"]
     custom_settings = {
-        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_newsletters.JsonPipeline": 1},
+        "ITEM_PIPELINES": {
+            "nthu_scraper.spiders.nthu_newsletters.NewsletterPipeline": 1
+        },
     }
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.processed_urls: Set[str] = set()
+        self.processed_urls: set[str] = set()
 
-    def parse(self, response: Response) -> scrapy.Request:
+    def parse(self, response: Response) -> Iterator[scrapy.Request]:
         """
         解析電子報列表頁面，提取各電子報的名稱、連結與表格資料。
 
@@ -102,7 +88,7 @@ class NewsletterSpider(WholeDatasetSpider):
                 dont_filter=False,  # 不重複處理相同的 URL
             )
 
-    def parse_newsletter_content(self, response: Response) -> NewsletterItem:
+    def parse_newsletter_content(self, response: Response) -> Iterator[NewsletterItem]:
         """
         解析單個電子報頁面，提取文章標題、連結和日期。
 
@@ -127,7 +113,8 @@ class NewsletterSpider(WholeDatasetSpider):
         newsletter["articles"] = articles
         yield newsletter
 
-class JsonPipeline:
+
+class NewsletterPipeline:
     """
     Scrapy Pipeline，用於將爬取的 Item 儲存為 JSON 檔案。
     同時會合併所有電子報資料到一個總合檔案。
@@ -137,8 +124,8 @@ class JsonPipeline:
         """
         Spider 開啟時執行，建立必要的資料夾。
         """
-        COMBINED_JSON_FILE.parent.mkdir(parents=True, exist_ok=True)
-        load_json(COMBINED_JSON_FILE)
+        NEWSLETTERS_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
+        load_json(NEWSLETTERS_JSON_PATH)
         self.combined_data = []
 
     def process_item(self, item, spider):
@@ -153,7 +140,7 @@ class JsonPipeline:
             NewsletterItem: 處理後的 Item
         """
         serializable_item = dict(item)
-        spider.logger.info(f"✅ 成功儲存【{item['name']}】資料")
+        spider.logger.info("Collected newsletter: %s", item["name"])
         spider.logger.debug(serializable_item)
         self.combined_data.append(serializable_item)
 
@@ -166,5 +153,5 @@ class JsonPipeline:
         if not spider.can_replace_dataset(self.combined_data):
             return
         sorted_data = sorted(self.combined_data, key=lambda x: x["name"])
-        save_json(sorted_data, COMBINED_JSON_FILE)
-        spider.logger.info(f'✅ 成功儲存電子報資料至 "{COMBINED_JSON_FILE}"')
+        save_json(sorted_data, NEWSLETTERS_JSON_PATH)
+        spider.logger.info(f'✅ 成功儲存電子報資料至 "{NEWSLETTERS_JSON_PATH}"')

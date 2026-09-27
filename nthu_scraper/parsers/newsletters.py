@@ -5,12 +5,20 @@ from datetime import date
 
 from nthu_scraper.parsers import ParseError
 
-
 URL_PREFIX = "https://newsletter.cc.nthu.edu.tw"
 MONTHS = (
-    ("一月", "Jan"), ("二月", "Feb"), ("三月", "Mar"), ("四月", "Apr"),
-    ("五月", "May"), ("六月", "Jun"), ("七月", "Jul"), ("八月", "Aug"),
-    ("九月", "Sep"), ("十月", "Oct"), ("十一月", "Nov"), ("十二月", "Dec"),
+    ("一月", "Jan"),
+    ("二月", "Feb"),
+    ("三月", "Mar"),
+    ("四月", "Apr"),
+    ("五月", "May"),
+    ("六月", "Jun"),
+    ("七月", "Jul"),
+    ("八月", "Aug"),
+    ("九月", "Sep"),
+    ("十月", "Oct"),
+    ("十一月", "Nov"),
+    ("十二月", "Dec"),
 )
 
 
@@ -62,14 +70,18 @@ def convert_chinese_month_to_english(date_str: str) -> str:
 
 
 def parse_newsletter_date(date_str: str) -> str:
-    normalized = convert_chinese_month_to_english(date_str.strip().replace("Sent on ", ""))
+    normalized = convert_chinese_month_to_english(
+        date_str.strip().replace("Sent on ", "")
+    )
     match = re.fullmatch(r"(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})", normalized)
     if not match:
         raise ParseError(f"Invalid newsletter date: {normalized}")
     day, month, year = match.groups()
     try:
         # The source's English month names must not depend on the host locale.
-        month_number = [english.lower() for _, english in MONTHS].index(month.lower()) + 1
+        month_number = [english.lower() for _, english in MONTHS].index(
+            month.lower()
+        ) + 1
         return date(int(year), month_number, int(day)).isoformat()
     except ValueError as error:
         raise ParseError(f"Invalid newsletter date: {normalized}") from error

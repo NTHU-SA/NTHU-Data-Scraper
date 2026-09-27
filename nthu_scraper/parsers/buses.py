@@ -37,7 +37,7 @@ def extract_js_value(page_text: str, var_name: str) -> str:
             if not stack or stack.pop() != char:
                 raise ParseError(f"Mismatched brackets in bus variable: {var_name}")
             if not stack:
-                return page_text[start:index + 1]
+                return page_text[start : index + 1]
     raise ParseError(f"Unterminated bus variable: {var_name}")
 
 
@@ -82,7 +82,10 @@ def parse_schedule_variable(var_name: str, page_text: str) -> list[dict]:
         raise ParseError(f"Invalid or incomplete bus schedule: {var_name}")
     normalized = []
     for item in data:
-        record = {"time": item.get("time", ""), "description": item.get("description", "")}
+        record = {
+            "time": item.get("time", ""),
+            "description": item.get("description", ""),
+        }
         if "line" in item:
             record["line"] = item["line"]
         if "depStop" in item or "dep_stop" in item:

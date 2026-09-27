@@ -11,6 +11,7 @@ on:
       - "*.py"
       - "pyproject.toml"
       - "uv.lock"
+      - ".github/workflows/tests.yml"
 
 permissions:
   contents: read
@@ -38,3 +39,9 @@ jobs:
 
       - name: Run tests
         run: uv run --frozen --no-build --no-sync pytest -q
+
+      - name: Check lint
+        run: uv run --frozen --no-build --no-sync ruff check .
+
+      - name: Check formatting
+        run: uv run --frozen --no-build --no-sync ruff format --check .

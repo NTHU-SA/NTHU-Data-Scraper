@@ -1,8 +1,8 @@
 import argparse
 import datetime
 import hashlib
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Iterable, Optional
 
 from nthu_scraper.storage import read_json_optional, write_json_atomic
 
@@ -24,9 +24,9 @@ def calculate_sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def _generation_time(generated_at: Optional[datetime.datetime]) -> datetime.datetime:
+def _generation_time(generated_at: datetime.datetime | None) -> datetime.datetime:
     if generated_at is None:
-        generated_at = datetime.datetime.now(datetime.timezone.utc)
+        generated_at = datetime.datetime.now(datetime.UTC)
     if generated_at.tzinfo is None or generated_at.utcoffset() is None:
         raise ValueError("generated_at must be timezone-aware")
     return generated_at.astimezone(TAIPEI_TIMEZONE)
@@ -54,7 +54,7 @@ def _load_previous_details(path: Path) -> dict[tuple[str, str], dict]:
     return previous
 
 
-def _valid_previous_timestamp(entry: dict) -> Optional[str]:
+def _valid_previous_timestamp(entry: dict) -> str | None:
     value = entry.get("last_updated")
     if not isinstance(value, str):
         return None
@@ -67,7 +67,7 @@ def _valid_previous_timestamp(entry: dict) -> Optional[str]:
     return value
 
 
-def _previous_sha256(entry: dict) -> Optional[str]:
+def _previous_sha256(entry: dict) -> str | None:
     for key in ("sha256", "version", "last_commit"):
         value = entry.get(key)
         if (
@@ -92,9 +92,9 @@ def _iter_published_files(data_folder: Path) -> Iterable[Path]:
 def generate_file_detail_json(
     data_folder: Path,
     file_detail_json_path: Path,
-    include_folders: Optional[list[str]] = None,
-    exclude_folders: Optional[list[str]] = None,
-    generated_at: Optional[datetime.datetime] = None,
+    include_folders: list[str] | None = None,
+    exclude_folders: list[str] | None = None,
+    generated_at: datetime.datetime | None = None,
 ) -> dict:
     current_time = _generation_time(generated_at)
     current_time_iso = current_time.isoformat()

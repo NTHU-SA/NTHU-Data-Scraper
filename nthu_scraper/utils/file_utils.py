@@ -1,12 +1,12 @@
 """File and JSON utility functions."""
 
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any
 
 from nthu_scraper.storage import read_json_optional, write_json_atomic
 
 
-def load_json(file_path: Path) -> Optional[Any]:
+def load_json(file_path: Path) -> Any | None:
     """
     載入 JSON 檔案。
 

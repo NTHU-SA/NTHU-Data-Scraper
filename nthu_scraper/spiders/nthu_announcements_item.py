@@ -1,20 +1,19 @@
 """清華大學公告爬蟲 - 公告內容爬蟲"""
 
-from typing import List
-from pathlib import Path
 import re
+
 import scrapy
 
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.parsers.announcements import parse_articles
+from nthu_scraper.storage import read_json
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_FOLDER,
     ANNOUNCEMENTS_JSON_PATH,
     ANNOUNCEMENTS_LIST_PATH,
 )
-from nthu_scraper.utils.file_utils import load_json, save_json
-from nthu_scraper.storage import read_json
 from nthu_scraper.utils.crawl_safety import log_source_failure
-from nthu_scraper.parsers import ParseError
-from nthu_scraper.parsers.announcements import parse_articles
+from nthu_scraper.utils.file_utils import load_json, save_json
 
 
 class AnnouncementItem(scrapy.Item):
@@ -25,14 +24,6 @@ class AnnouncementItem(scrapy.Item):
     language = scrapy.Field()
     department = scrapy.Field()
     articles = scrapy.Field()
-
-
-class AnnouncementArticle(scrapy.Item):
-    """公告文章 Item"""
-
-    title = scrapy.Field()
-    link = scrapy.Field()
-    date = scrapy.Field()
 
 
 def _group_by_source_metadata(sources):
@@ -62,7 +53,7 @@ class AnnouncementsItemSpider(scrapy.Spider):
         super().__init__(*args, **kwargs)
         self.announcement_list = self._load_announcement_list()
 
-    def _load_announcement_list(self) -> List[dict]:
+    def _load_announcement_list(self) -> list[dict]:
         """載入公告列表"""
         data = read_json(ANNOUNCEMENTS_LIST_PATH)
         if not isinstance(data, list) or any(
@@ -106,7 +97,7 @@ class AnnouncementsItemSpider(scrapy.Spider):
             articles=articles,
         )
 
-    def _extract_articles(self, response) -> List[dict]:
+    def _extract_articles(self, response) -> list[dict]:
         try:
             return parse_articles(response, response.url)
         except ParseError as error:
@@ -127,7 +118,8 @@ class AnnouncementItemPipeline:
         if previous is not None and not isinstance(previous, list):
             raise ValueError("Expected announcements.json to contain a list")
         self.previous = {
-            source["link"]: source for source in (previous if previous is not None else [])
+            source["link"]: source
+            for source in (previous if previous is not None else [])
         }
         self._restore_legacy_sources(spider)
         ANNOUNCEMENTS_FOLDER.mkdir(parents=True, exist_ok=True)
@@ -135,11 +127,14 @@ class AnnouncementItemPipeline:
     def _restore_legacy_sources(self, spider):
         expected = _group_by_source_metadata(spider.announcement_list)
         legacy = _group_by_source_metadata(
-            source for link, source in self.previous.items()
+            source
+            for link, source in self.previous.items()
             if link not in self.expected_links
         )
         for identity, sources in expected.items():
-            missing = [source for source in sources if source["link"] not in self.previous]
+            missing = [
+                source for source in sources if source["link"] not in self.previous
+            ]
             candidates = legacy.get(identity, [])
             if not missing or not candidates:
                 continue
@@ -149,7 +144,8 @@ class AnnouncementItemPipeline:
             self.previous[link] = {**candidates[0], "link": link}
             spider.logger.warning(
                 "Matched legacy announcement URL %s to authoritative source %s",
-                candidates[0]["link"], link,
+                candidates[0]["link"],
+                link,
             )
 
     def process_item(self, item, spider):
@@ -158,13 +154,15 @@ class AnnouncementItemPipeline:
             return item
 
         if not item.get("articles"):
-            spider.logger.warning("Empty announcement refresh; retaining %s", item["link"])
+            spider.logger.warning(
+                "Empty announcement refresh; retaining %s", item["link"]
+            )
             return item
         self._save_individual_item(item)
         self.collected_data[item["link"]] = dict(item)
         spider.logger.info(
-            f'儲存公告: {item["department"]}/{item["title"]} '
-            f'({len(item["articles"])} 篇文章)'
+            f"儲存公告: {item['department']}/{item['title']} "
+            f"({len(item['articles'])} 篇文章)"
         )
 
         return item
@@ -193,11 +191,11 @@ class AnnouncementItemPipeline:
             if link in self.collected_data:
                 merged.append(self.collected_data[link])
             elif link in self.previous:
-                spider.logger.warning("Retaining previous announcement source: %s", link)
+                spider.logger.warning(
+                    "Retaining previous announcement source: %s", link
+                )
                 merged.append(self.previous[link])
             else:
                 spider.logger.warning("No known-good announcement source: %s", link)
         save_json(merged, ANNOUNCEMENTS_JSON_PATH)
-        spider.logger.info(
-            f"成功儲存 {len(merged)} 個公告到 announcements.json"
-        )
+        spider.logger.info(f"成功儲存 {len(merged)} 個公告到 announcements.json")

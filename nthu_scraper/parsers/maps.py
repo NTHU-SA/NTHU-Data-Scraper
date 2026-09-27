@@ -22,8 +22,10 @@ def parse_map_options(page) -> dict[str, dict[str, str]]:
         except ValueError as error:
             raise ParseError(f"Invalid map coordinates: {value!r}") from error
         if not (
-            math.isfinite(latitude) and math.isfinite(longitude)
-            and -90 <= latitude <= 90 and -180 <= longitude <= 180
+            math.isfinite(latitude)
+            and math.isfinite(longitude)
+            and -90 <= latitude <= 90
+            and -180 <= longitude <= 180
         ):
             raise ParseError(f"Map coordinates out of range: {value!r}")
         name = option.xpath("normalize-space(text())").get()

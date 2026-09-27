@@ -1,27 +1,21 @@
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any
 
 import scrapy
 
-from nthu_scraper.utils.constants import DATA_FOLDER
-from nthu_scraper.utils.file_utils import save_json
 from nthu_scraper.storage import write_json_atomic
+from nthu_scraper.utils.constants import COURSES_FOLDER, COURSES_JSON_PATH
 from nthu_scraper.utils.crawl_safety import log_source_failure
+from nthu_scraper.utils.file_utils import save_json
 
-# --- 全域參數設定 ---
-OUTPUT_FOLDER = DATA_FOLDER / "courses"
-LATEST_JSON = DATA_FOLDER / "courses.json"
-COURSE_DATA_URL: Dict[str, str] = {
+COURSE_DATA_URL: dict[str, str] = {
     "latest": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data.json",
-    # "11120-11220": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/474/11120-11220JSON.json",
-    # "10910-11110": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/474/unicode_1091_1111.json",
-    # "10820": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data_10820.json",
 }
 
 
 # --- 輔助函式 ---
-def _split_classroom_time(classroom_time: str) -> Dict[str, str]:
+def _split_classroom_time(classroom_time: str) -> dict[str, str]:
     """
     將教室與上課時間字串分割為教室與上課時間。
 
@@ -153,11 +147,11 @@ class CoursesData:
         return str(self.__dict__)
 
 
-def group_courses(data: Any) -> Dict[str, List[Dict[str, Any]]]:
+def group_courses(data: Any) -> dict[str, list[dict[str, Any]]]:
     """Validate and normalize the whole collection before any files are written."""
     if not isinstance(data, list) or not data:
         raise ValueError("Course collection must be a non-empty list")
-    semesters: Dict[str, List[Dict[str, Any]]] = {}
+    semesters: dict[str, list[dict[str, Any]]] = {}
     for index, course_dict in enumerate(data):
         if not isinstance(course_dict, dict):
             raise ValueError(f"Course record {index} must be an object")
@@ -193,7 +187,9 @@ class CoursesSpider(scrapy.Spider):
         # 逐筆建立 Request 並傳入 data_type 到 meta 中
         for data_type, url in COURSE_DATA_URL.items():
             yield scrapy.Request(
-                url=url, meta={"data_type": data_type}, errback=log_source_failure,
+                url=url,
+                meta={"data_type": data_type},
+                errback=log_source_failure,
             )
 
     def parse(self, response):
@@ -217,24 +213,26 @@ class CoursesSpider(scrapy.Spider):
         try:
             semesters = self._group_courses(data)
         except ValueError as error:
-            self.logger.error("Invalid course response; retaining previous files: %s", error)
+            self.logger.error(
+                "Invalid course response; retaining previous files: %s", error
+            )
             raise
 
         # Validate every record and prepare all semester outputs before any write.
-        OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+        COURSES_FOLDER.mkdir(parents=True, exist_ok=True)
         file_name = f"{data_type}.json" if data_type else "latest.json"
-        output_file = OUTPUT_FOLDER / file_name
+        output_file = COURSES_FOLDER / file_name
         write_json_atomic(data, output_file, indent=2)
         self.logger.info(f"✅ 原始資料已儲存至: {output_file}")
 
         if data_type == "latest":
-            save_json(data, LATEST_JSON)
-            self.logger.info(f"✅ 更新最新課程資料至: {LATEST_JSON}")
+            save_json(data, COURSES_JSON_PATH)
+            self.logger.info(f"✅ 更新最新課程資料至: {COURSES_JSON_PATH}")
 
-        self._write_semesters(semesters, OUTPUT_FOLDER / "semesters")
+        self._write_semesters(semesters, COURSES_FOLDER / "semesters")
 
     def split_course_data(
-        self, data: List[Dict[str, Any]], output_folder: Path
+        self, data: list[dict[str, Any]], output_folder: Path
     ) -> None:
         """
         根據科號前 5 碼（學期）將課程資料分割並儲存至各 JSON 檔案中。
@@ -245,14 +243,14 @@ class CoursesSpider(scrapy.Spider):
         """
         self._write_semesters(self._group_courses(data), output_folder)
 
-    def _group_courses(self, data: Any) -> Dict[str, List[Dict[str, Any]]]:
+    def _group_courses(self, data: Any) -> dict[str, list[dict[str, Any]]]:
         semesters = group_courses(data)
         for semester in semesters:
             self.logger.info(f"✅ 新增學期: {semester}")
         return semesters
 
     def _write_semesters(
-        self, semesters: Dict[str, List[Dict[str, Any]]], output_folder: Path
+        self, semesters: dict[str, list[dict[str, Any]]], output_folder: Path
     ) -> None:
         output_folder.mkdir(parents=True, exist_ok=True)
         for semester, courses in semesters.items():

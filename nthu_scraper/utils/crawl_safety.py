@@ -12,7 +12,10 @@ from scrapy.utils.misc import load_object
 EXPECTED_REQUEST_ERRORS = (
     HttpError,
     IgnoreRequest,
-    *(load_object(error) if isinstance(error, str) else error for error in RETRY_EXCEPTIONS),
+    *(
+        load_object(error) if isinstance(error, str) else error
+        for error in RETRY_EXCEPTIONS
+    ),
 )
 
 
@@ -20,7 +23,8 @@ def log_source_failure(failure):
     failure.trap(*EXPECTED_REQUEST_ERRORS)
     logging.getLogger(__name__).warning(
         "Source request failed; retaining previous data where available: %s (%s)",
-        failure.request.url, failure.value,
+        failure.request.url,
+        failure.value,
     )
 
 
@@ -42,7 +46,9 @@ class WholeDatasetSpider(scrapy.Spider):
 
     def mark_incomplete(self, reason):
         self.crawl_incomplete = True
-        self.logger.warning("Incomplete crawl; retaining previous whole dataset: %s", reason)
+        self.logger.warning(
+            "Incomplete crawl; retaining previous whole dataset: %s", reason
+        )
 
     def handle_request_error(self, failure):
         failure.trap(*EXPECTED_REQUEST_ERRORS)

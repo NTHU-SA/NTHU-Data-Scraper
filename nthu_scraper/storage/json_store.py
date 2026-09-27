@@ -47,7 +47,11 @@ def write_json_atomic(
         ) as file:
             temporary_path = Path(file.name)
             json.dump(
-                data, file, ensure_ascii=ensure_ascii, indent=indent, sort_keys=sort_keys
+                data,
+                file,
+                ensure_ascii=ensure_ascii,
+                indent=indent,
+                sort_keys=sort_keys,
             )
             if trailing_newline:
                 file.write("\n")

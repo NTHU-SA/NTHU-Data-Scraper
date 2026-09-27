@@ -8,7 +8,7 @@ import pytest
 from nthu_scraper.spiders import nthu_libraries
 from nthu_scraper.spiders.nthu_libraries import (
     CALENDARS,
-    JsonPipeline,
+    LibrariesPipeline,
     get_calendar_window,
     parse_calendar,
     parse_rss,
@@ -147,7 +147,7 @@ def test_calendar_window_is_year_aligned():
     )
 
 
-class TestJsonPipeline:
+class TestLibrariesPipeline:
     @pytest.fixture
     def paths(self, tmp_path, monkeypatch):
         rss_path = tmp_path / "rss.json"
@@ -164,7 +164,7 @@ class TestJsonPipeline:
             class logger:
                 info = warning = error = staticmethod(lambda *args, **kwargs: None)
 
-        pipeline = JsonPipeline()
+        pipeline = LibrariesPipeline()
         pipeline.open_spider(FakeSpider)
         for item in items:
             pipeline.process_item(item, FakeSpider)
@@ -225,10 +225,16 @@ class TestJsonPipeline:
         calendars_path.write_text(
             json.dumps([{"id": "main", "events": ["old"]}]), encoding="utf-8"
         )
-        self._run([
-            {"kind": "rss", "key": "news", "data": []},
-            {"kind": "calendar", "key": "main", "data": {"id": "main", "events": []}},
-        ])
+        self._run(
+            [
+                {"kind": "rss", "key": "news", "data": []},
+                {
+                    "kind": "calendar",
+                    "key": "main",
+                    "data": {"id": "main", "events": []},
+                },
+            ]
+        )
         assert json.loads(rss_path.read_text(encoding="utf-8")) == {"news": ["old"]}
         assert json.loads(calendars_path.read_text(encoding="utf-8")) == [
             {"id": "main", "events": ["old"]}
@@ -236,7 +242,9 @@ class TestJsonPipeline:
 
 
 @pytest.mark.parametrize("error_type", [AttributeError, ValueError])
-def test_library_implementation_error_is_not_treated_as_upstream_failure(monkeypatch, error_type):
+def test_library_implementation_error_is_not_treated_as_upstream_failure(
+    monkeypatch, error_type
+):
     def broken_parser(text):
         raise error_type("implementation regression")
 
@@ -259,10 +267,15 @@ def test_library_errback_does_not_swallow_implementation_errors():
         spider.handle_error(failure)
 
 
-@pytest.mark.parametrize("xml", [
-    "", "<html>Unavailable</html>", "<rss><channel>",
-    "<rss><channel><item><link>/no-title</link></item></channel></rss>",
-])
+@pytest.mark.parametrize(
+    "xml",
+    [
+        "",
+        "<html>Unavailable</html>",
+        "<rss><channel>",
+        "<rss><channel><item><link>/no-title</link></item></channel></rss>",
+    ],
+)
 def test_invalid_rss_is_not_an_empty_feed(xml):
     with pytest.raises(nthu_libraries.InvalidLibrarySource):
         parse_rss(xml)
@@ -270,17 +283,32 @@ def test_invalid_rss_is_not_an_empty_feed(xml):
 
 def test_valid_empty_rss_and_optional_fields():
     assert parse_rss("<rss><channel></channel></rss>") == []
-    assert parse_rss("<rss><channel><item><title>Only title</title></item></channel></rss>") == [{
-        "guid": None, "category": None, "title": "Only title", "link": None,
-        "pubDate": None, "description": "", "author": None, "image": None,
-    }]
+    assert parse_rss(
+        "<rss><channel><item><title>Only title</title></item></channel></rss>"
+    ) == [
+        {
+            "guid": None,
+            "category": None,
+            "title": "Only title",
+            "link": None,
+            "pubDate": None,
+            "description": "",
+            "author": None,
+            "image": None,
+        }
+    ]
 
 
-@pytest.mark.parametrize("ics", [
-    "", "not a calendar", "BEGIN:VCALENDAR\nVERSION:2.0\n",
-    "BEGIN:VCALENDAR\nBEGIN:VEVENT\nUID:missing-start\nEND:VEVENT\nEND:VCALENDAR",
-    "BEGIN:VCALENDAR\nBEGIN:VEVENT\nDTSTART:invalid\nEND:VEVENT\nEND:VCALENDAR",
-])
+@pytest.mark.parametrize(
+    "ics",
+    [
+        "",
+        "not a calendar",
+        "BEGIN:VCALENDAR\nVERSION:2.0\n",
+        "BEGIN:VCALENDAR\nBEGIN:VEVENT\nUID:missing-start\nEND:VEVENT\nEND:VCALENDAR",
+        "BEGIN:VCALENDAR\nBEGIN:VEVENT\nDTSTART:invalid\nEND:VEVENT\nEND:VCALENDAR",
+    ],
+)
 def test_invalid_calendar_is_not_an_empty_calendar(ics):
     with pytest.raises(nthu_libraries.InvalidLibrarySource):
         parse_calendar(ics, date(2026, 1, 1), date(2027, 1, 1))
@@ -288,7 +316,9 @@ def test_invalid_calendar_is_not_an_empty_calendar(ics):
 
 def test_empty_calendar():
     assert parse_calendar(
-        b"BEGIN:VCALENDAR\nVERSION:2.0\nEND:VCALENDAR", date(2026, 1, 1), date(2027, 1, 1),
+        b"BEGIN:VCALENDAR\nVERSION:2.0\nEND:VCALENDAR",
+        date(2026, 1, 1),
+        date(2027, 1, 1),
     ) == {"name": None, "description": None, "timezone": None, "events": []}
 
 

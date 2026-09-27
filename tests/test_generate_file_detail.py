@@ -8,8 +8,8 @@ import pytest
 
 from generate_file_detail import calculate_sha256, generate_file_detail_json
 
-FIRST_RUN = datetime.datetime(2026, 9, 27, 12, 0, tzinfo=datetime.timezone.utc)
-SECOND_RUN = datetime.datetime(2026, 9, 27, 14, 0, tzinfo=datetime.timezone.utc)
+FIRST_RUN = datetime.datetime(2026, 9, 27, 12, 0, tzinfo=datetime.UTC)
+SECOND_RUN = datetime.datetime(2026, 9, 27, 14, 0, tzinfo=datetime.UTC)
 SCRIPT = Path(__file__).parents[1] / "generate_file_detail.py"
 
 
@@ -48,7 +48,9 @@ def test_unchanged_files_preserve_versions_and_timestamps(tmp_path):
     (data_folder / "buses.json").write_text("[]\n", encoding="utf-8")
     metadata_path = data_folder / "file_details.json"
 
-    first = generate_file_detail_json(data_folder, metadata_path, generated_at=FIRST_RUN)
+    first = generate_file_detail_json(
+        data_folder, metadata_path, generated_at=FIRST_RUN
+    )
     second = generate_file_detail_json(
         data_folder, metadata_path, generated_at=SECOND_RUN
     )
@@ -58,9 +60,7 @@ def test_unchanged_files_preserve_versions_and_timestamps(tmp_path):
     assert second_entry == first_entry
     assert second["last_updated"] == first["last_updated"]
     assert (
-        second_entry["last_commit"]
-        == second_entry["version"]
-        == second_entry["sha256"]
+        second_entry["last_commit"] == second_entry["version"] == second_entry["sha256"]
     )
 
 
@@ -70,7 +70,9 @@ def test_changed_and_new_files_get_current_timestamp(tmp_path):
     nested.mkdir(parents=True)
     (data_folder / "buses.json").write_text("[]", encoding="utf-8")
     metadata_path = data_folder / "file_details.json"
-    first = generate_file_detail_json(data_folder, metadata_path, generated_at=FIRST_RUN)
+    first = generate_file_detail_json(
+        data_folder, metadata_path, generated_at=FIRST_RUN
+    )
 
     (data_folder / "buses.json").write_text("[1]", encoding="utf-8")
     (nested / "rss.json").write_text("{}", encoding="utf-8")
@@ -134,7 +136,9 @@ def test_nested_structure_and_publishing_files_are_handled(tmp_path):
     (data_folder / ".git").write_text("gitdir: elsewhere", encoding="utf-8")
     metadata_path = data_folder / "file_details.json"
 
-    result = generate_file_detail_json(data_folder, metadata_path, generated_at=FIRST_RUN)
+    result = generate_file_detail_json(
+        data_folder, metadata_path, generated_at=FIRST_RUN
+    )
 
     assert list(result["file_details"]) == ["courses/semesters"]
     assert _entry(result, "courses/semesters")["name"] == "11510.json"

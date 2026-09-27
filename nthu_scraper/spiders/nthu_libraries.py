@@ -12,7 +12,7 @@ temporary outage (or an IP block on CI runners) never wipes existing data.
 
 import hashlib
 from datetime import date, datetime, timedelta, timezone
-from typing import Any, Dict, List, Optional
+from typing import Any
 from urllib.parse import quote, urljoin
 
 import icalendar
@@ -26,8 +26,8 @@ from nthu_scraper.utils.constants import (
     LIBRARIES_CALENDARS_JSON_PATH,
     LIBRARIES_RSS_JSON_PATH,
 )
-from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.utils.crawl_safety import log_source_failure
+from nthu_scraper.utils.file_utils import load_json, save_json
 
 LIBRARY_BASE_URL = "https://www.lib.nthu.edu.tw/"
 RSS_URL_TEMPLATE = "https://www.lib.nthu.edu.tw/bulletin/RSS/export/rss_{}.xml"
@@ -50,7 +50,7 @@ class InvalidLibrarySource(ValueError):
     """An upstream document cannot be safely parsed as a complete source."""
 
 
-def normalize_rss_item_urls(item: Dict[str, Any]) -> None:
+def normalize_rss_item_urls(item: dict[str, Any]) -> None:
     """Resolve relative links in an RSS item against the library website."""
     if item.get("link"):
         item["link"] = urljoin(LIBRARY_BASE_URL, item["link"])
@@ -62,7 +62,7 @@ def normalize_rss_item_urls(item: Dict[str, Any]) -> None:
                 image[field] = urljoin(LIBRARY_BASE_URL, image[field])
 
 
-def parse_rss(xml_text: str) -> List[Dict[str, Any]]:
+def parse_rss(xml_text: str) -> list[dict[str, Any]]:
     """
     Parse a library RSS feed into a list of items.
 
@@ -79,7 +79,7 @@ def parse_rss(xml_text: str) -> List[Dict[str, Any]]:
     selector = Selector(text=xml_text, type="xml")
     selector.remove_namespaces()
 
-    def text_of(node: Selector, tag: str) -> Optional[str]:
+    def text_of(node: Selector, tag: str) -> str | None:
         value = node.xpath(f"{tag}/text()").get()
         return value.strip() if value and value.strip() else None
 
@@ -89,7 +89,7 @@ def parse_rss(xml_text: str) -> List[Dict[str, Any]]:
 
     items = []
     for node in channels[0].xpath("item"):
-        item: Dict[str, Any] = {
+        item: dict[str, Any] = {
             "guid": text_of(node, "guid"),
             "category": text_of(node, "category"),
             "title": text_of(node, "title"),
@@ -127,7 +127,7 @@ def _to_iso(value: date | datetime) -> str:
 
 def _make_event_id(uid: str, start: str) -> str:
     """Build a stable, URL-safe id; recurring occurrences share a UID, so include start."""
-    return hashlib.sha1(f"{uid}|{start}".encode("utf-8")).hexdigest()[:16]
+    return hashlib.sha1(f"{uid}|{start}".encode()).hexdigest()[:16]
 
 
 def _validate_calendar(calendar: icalendar.Calendar) -> None:
@@ -135,7 +135,9 @@ def _validate_calendar(calendar: icalendar.Calendar) -> None:
         raise InvalidLibrarySource("Expected a VCALENDAR document")
     for component in calendar.walk():
         if component.errors:
-            raise InvalidLibrarySource(f"Invalid calendar properties: {component.errors}")
+            raise InvalidLibrarySource(
+                f"Invalid calendar properties: {component.errors}"
+            )
         if component.name == "VEVENT" and not isinstance(
             getattr(component.get("DTSTART"), "dt", None), (date, datetime)
         ):
@@ -144,7 +146,7 @@ def _validate_calendar(calendar: icalendar.Calendar) -> None:
 
 def parse_calendar(
     ics_content: bytes | str, window_start: date, window_end: date
-) -> Dict[str, Any]:
+) -> dict[str, Any]:
     """
     Parse an iCal feed and expand recurring events within [window_start, window_end).
 
@@ -159,7 +161,9 @@ def parse_calendar(
 
     events = []
     try:
-        occurrences = recurring_ical_events.of(calendar).between(window_start, window_end)
+        occurrences = recurring_ical_events.of(calendar).between(
+            window_start, window_end
+        )
     except ValueError as error:
         raise InvalidLibrarySource(str(error)) from error
     for event in occurrences:
@@ -208,7 +212,7 @@ class LibrariesSpider(scrapy.Spider):
 
     name = "nthu_libraries"
     custom_settings = {
-        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_libraries.JsonPipeline": 1},
+        "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_libraries.LibrariesPipeline": 1},
         # calendar.google.com/robots.txt disallows everything, but the public iCal
         # URL is the official subscription feed meant for calendar clients. We fetch
         # three fixed feeds on a schedule, which is the same as a calendar app does.
@@ -272,12 +276,12 @@ class LibrariesSpider(scrapy.Spider):
         log_source_failure(failure)
 
 
-class JsonPipeline:
+class LibrariesPipeline:
     """Merge freshly crawled sources into the existing JSON files."""
 
     def open_spider(self, spider):
-        self.rss: Dict[str, List[Dict[str, Any]]] = {}
-        self.calendars: Dict[str, Dict[str, Any]] = {}
+        self.rss: dict[str, list[dict[str, Any]]] = {}
+        self.calendars: dict[str, dict[str, Any]] = {}
         previous_rss = load_json(LIBRARIES_RSS_JSON_PATH)
         previous_calendars = load_json(LIBRARIES_CALENDARS_JSON_PATH)
         self.previous_rss = previous_rss if previous_rss is not None else {}
@@ -290,7 +294,8 @@ class JsonPipeline:
             raise ValueError("Invalid library baseline structure")
         spider.logger.info(
             "Loaded library baseline: %d RSS feeds and %d calendars",
-            len(self.previous_rss), len(self.previous_calendars),
+            len(self.previous_rss),
+            len(self.previous_calendars),
         )
 
     def process_item(self, item, spider):
@@ -304,7 +309,9 @@ class JsonPipeline:
                 old["id"] == item["key"] and old.get("events")
                 for old in self.previous_calendars
             ):
-                spider.logger.warning("Empty calendar refresh; retaining %s", item["key"])
+                spider.logger.warning(
+                    "Empty calendar refresh; retaining %s", item["key"]
+                )
                 return item
             self.calendars[item["key"]] = item["data"]
         return item

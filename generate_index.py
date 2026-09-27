@@ -65,7 +65,7 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
     for directory, files in file_details.items():
         html_content += f"<h2>{html.escape(directory)}</h2>\n"
         html_content += (
-            "<div class=\"table-container\"><table>"
+            '<div class="table-container"><table>'
             "<thead><tr><th>檔案名稱</th><th>最後更新時間</th>"
             "<th>SHA-256</th><th>開啟檔案</th></tr></thead><tbody>\n"
         )
@@ -83,9 +83,7 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
             version_text = html.escape(version[:12]) if version else "N/A"
             version_title = html.escape(version, quote=True)
             file_path = (
-                Path(file_name)
-                if directory == "/"
-                else Path(directory) / file_name
+                Path(file_name) if directory == "/" else Path(directory) / file_name
             ).as_posix()
 
             html_content += f"""<tr>
