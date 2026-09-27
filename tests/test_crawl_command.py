@@ -117,6 +117,18 @@ def test_real_item_error_signal_preserves_whole_dataset(tmp_path):
     assert path.read_bytes() == before
 
 
+def test_campus_calendar_pipeline_through_scrapy(tmp_path):
+    library_path = tmp_path / "libraries" / "calendars.json"
+    write_json_atomic([{"id": "main", "events": ["old"]}], library_path)
+    before = library_path.read_bytes()
+    result = run_spider(tmp_path, "offline_calendars")
+    assert result.returncode == 0, result.stdout + result.stderr
+    (calendar,) = read_json(tmp_path / "calendars.json")
+    assert calendar["id"] == "academic"
+    assert calendar["events"][0]["title"] == "Semester begins"
+    assert library_path.read_bytes() == before
+
+
 def test_library_hooks_and_partial_upstream_failures_through_scrapy(tmp_path):
     rss_path = tmp_path / "libraries" / "rss.json"
     calendars_path = tmp_path / "libraries" / "calendars.json"

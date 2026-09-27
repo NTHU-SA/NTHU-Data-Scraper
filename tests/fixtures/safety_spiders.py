@@ -11,6 +11,7 @@ from twisted.internet.error import DNSLookupError
 from nthu_scraper.spiders.nthu_announcements_item import AnnouncementsItemSpider
 from nthu_scraper.spiders.nthu_announcements_list import AnnouncementsListSpider
 from nthu_scraper.spiders.nthu_buses import BusesSpider
+from nthu_scraper.spiders.nthu_calendars import CalendarsSpider
 from nthu_scraper.spiders.nthu_courses import CoursesSpider
 from nthu_scraper.spiders.nthu_dining import DiningSpider
 from nthu_scraper.spiders.nthu_directory import DirectorySpider
@@ -104,6 +105,22 @@ class FailRequestMiddleware:
             raise AttributeError("offline injected downloader regression")
         if request.meta.get("fail_request") or request.url == "data:text/plain,failed":
             raise DNSLookupError("offline injected upstream failure")
+
+
+class OfflineCalendarsSpider(CalendarsSpider):
+    name = "offline_calendars"
+
+    async def start(self):
+        ics = (
+            "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nBEGIN:VEVENT\r\nUID:academic\r\n"
+            f"DTSTART;VALUE=DATE:{date.today().year}0901\r\n"
+            "SUMMARY:Semester begins\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        )
+        yield scrapy.Request(
+            "data:text/calendar," + quote(ics),
+            callback=self.parse_calendar_feed,
+            errback=self.handle_error,
+        )
 
 
 class OfflineLibrariesSpider(LibrariesSpider):
