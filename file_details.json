@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "747257bacacd5763a6565fb0f681fb1571862bd3f986ad0cf2aa8c5e299adc4f",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "b1d915e827ead80b7d4b4b9dc35162599fd4637f34fe480d62fed9959340b72d",
+        "last_updated": "2026-09-29T00:23:04.450797+08:00",
         "name": "announcements.json",
-        "sha256": "747257bacacd5763a6565fb0f681fb1571862bd3f986ad0cf2aa8c5e299adc4f",
-        "version": "747257bacacd5763a6565fb0f681fb1571862bd3f986ad0cf2aa8c5e299adc4f"
+        "sha256": "b1d915e827ead80b7d4b4b9dc35162599fd4637f34fe480d62fed9959340b72d",
+        "version": "b1d915e827ead80b7d4b4b9dc35162599fd4637f34fe480d62fed9959340b72d"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -83,11 +83,11 @@
         "version": "cd1c5ba38593a30fcc0506e7dddc6f72c7d6846b3e5337c8e0e5eb283be16d64"
       },
       {
-        "last_commit": "15bdab2ca75954f33a98d3c2083057734b8c0a15c62046ba857e9c1c5624a6b0",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "42fa1a410d930cf73a35f427206cfc51cd620f6fe3a80f389d5766b8f8c4af37",
+        "last_updated": "2026-09-29T00:23:04.450797+08:00",
         "name": "校外活動_zh-tw.json",
-        "sha256": "15bdab2ca75954f33a98d3c2083057734b8c0a15c62046ba857e9c1c5624a6b0",
-        "version": "15bdab2ca75954f33a98d3c2083057734b8c0a15c62046ba857e9c1c5624a6b0"
+        "sha256": "42fa1a410d930cf73a35f427206cfc51cd620f6fe3a80f389d5766b8f8c4af37",
+        "version": "42fa1a410d930cf73a35f427206cfc51cd620f6fe3a80f389d5766b8f8c4af37"
       },
       {
         "last_commit": "4be9e2b9ec33ef613cd913ac6846793be2e845b03272a0431f42c54d742ac9f5",
@@ -3016,5 +3016,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-28T01:28:20.685472+08:00"
+  "last_updated": "2026-09-29T00:23:04.450797+08:00"
 }
