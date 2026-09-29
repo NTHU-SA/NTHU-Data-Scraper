@@ -3861,19 +3861,9 @@
                 "date": "2026-07-29"
             },
             {
-                "title": "(報名時間至9/21)教育部辦理「115年第二梯次數位教學能力檢測」報名資訊",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-312466,r48.php?Lang=zh-tw",
-                "date": "2026-08-03"
-            },
-            {
                 "title": "師培中心115學年度上學期教檢系列工作坊，歡迎轉知並踴躍參加",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-314550,r48.php?Lang=zh-tw",
                 "date": "2026-09-15"
-            },
-            {
-                "title": "(報名時間至9/18)115年第三梯次國民小學師資類科學科知能評量，鼓勵本校師資生踴躍參與",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-314251,r48.php?Lang=zh-tw",
-                "date": "2026-09-09"
             },
             {
                 "title": "「看見教學的力量」影片創作競賽得獎名單公告",
@@ -3888,6 +3878,16 @@
             {
                 "title": "【115教檢系列工作坊】學習者發展與適應輔導，歡迎同學踴躍參加！",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-314489,r48.php?Lang=zh-tw",
+                "date": "2026-09-14"
+            },
+            {
+                "title": "【115教檢系列工作坊】教育理念與實務，歡迎同學踴躍參加！",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-314490,r48.php?Lang=zh-tw",
+                "date": "2026-09-14"
+            },
+            {
+                "title": "【115教檢系列工作坊】學長姐經驗分享，歡迎同學踴躍參加！",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-314486,r48.php?Lang=zh-tw",
                 "date": "2026-09-14"
             }
         ]
@@ -9583,7 +9583,7 @@
         "department": "竹師教育學院數理教育研究所",
         "articles": [
             {
-                "title": "115年9月份論文計畫發表暨學位考試場次",
+                "title": "115年10月份論文計畫發表暨學位考試場次",
                 "link": "https://gimse.site.nthu.edu.tw/p/406-1115-22964,r1.php?Lang=zh-tw",
                 "date": ""
             },
@@ -9639,7 +9639,7 @@
         "department": "竹師教育學院數理教育研究所",
         "articles": [
             {
-                "title": "115年9月份論文計畫發表暨學位考試場次",
+                "title": "115年10月份論文計畫發表暨學位考試場次",
                 "link": "https://gimse.site.nthu.edu.tw/p/406-1115-22964,r2.php?Lang=zh-tw",
                 "date": ""
             },
@@ -12077,6 +12077,16 @@
         "department": "竹師教育學院學習科學與科技研究所",
         "articles": [
             {
+                "title": "【人文與科技講座】10/15(四) 黃龍翔/南洋理工大學國立教育學院高級教育研究科學家：當AI越來越會替學習者「釣魚」：從駕馭AI到重構任務——元任務覺察（MTA）的教育啟示",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-315134,r9503.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【人文與科技講座】10/08(四) 王承諺/東海教育所暨師培中心助理教授：黑暗人格與網路攻擊：從對人到對 AI 的施暴",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-315133,r9503.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【人文與科技講座】09/24(四) 陳文莉/新加坡南洋理工大學國立教育學院教授：Learning, fast and slow: Fostering learner agency with learning sciences-informed AIED",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-314659,r9503.php?Lang=zh-tw",
                 "date": ""
@@ -12124,16 +12134,6 @@
             {
                 "title": "【人文與科技講座】5/7(四) 孫之元講座教授/陽交大教育所：AI時代透過創新互動回饋科技提升學習動機",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-307833,r9503.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【所友社群】05.14(四)林冠宇/徐浩洋：數據職涯 0到1 : 從踏出校門到站穩分析師的實戰紀錄/科技業培訓實務分享與未來職涯規劃建議",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-307743,r9503.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【人文與科技講座】4 /23(四) 朱蕙君教授/東吳資管系：研究生應有的準備-學術研究態度和心路歷程分享",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-306962,r9503.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -12583,6 +12583,16 @@
                 "date": ""
             },
             {
+                "title": "【人文與科技講座】10/15(四) 黃龍翔/南洋理工大學國立教育學院高級教育研究科學家：當AI越來越會替學習者「釣魚」：從駕馭AI到重構任務——元任務覺察（MTA）的教育啟示",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-315134,r9756.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【人文與科技講座】10/08(四) 王承諺/東海教育所暨師培中心助理教授：黑暗人格與網路攻擊：從對人到對 AI 的施暴",
+                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-315133,r9756.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【人文與科技講座】09/24(四) 陳文莉/新加坡南洋理工大學國立教育學院教授：Learning, fast and slow: Fostering learner agency with learning sciences-informed AIED",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-314659,r9756.php?Lang=zh-tw",
                 "date": ""
@@ -12625,16 +12635,6 @@
             {
                 "title": "學習科學與科技研究所116學年度碩士班招生與特色說明會",
                 "link": "https://ilst.site.nthu.edu.tw/p/406-1543-313049,r9756.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "歡迎報名115年9月18日(五)116學年度研究所特色說明會",
-                "link": "https://ilst.site.nthu.edu.tw/p/450-1543-312932,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "<歡迎旁聽> 115年8月碩士學位論文考試畢業口試公告 - 彭愛淳",
-                "link": "https://ilst.site.nthu.edu.tw/p/406-1543-312829,r9756.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -15264,7 +15264,7 @@
                 "date": ""
             },
             {
-                "title": "【報名即將截止~】115學年第一學期工作坊：第一梯次09.29起上課",
+                "title": "【報名已截止~】115學年第一學期工作坊：第一梯次09.29起上課",
                 "link": "https://language.site.nthu.edu.tw/p/406-1212-313915,r6822.php?Lang=zh-tw",
                 "date": ""
             },
@@ -15801,11 +15801,6 @@
         "department": "生命科學暨醫學院學士後醫學系",
         "articles": [
             {
-                "title": "醫學相關中心與設施",
-                "link": null,
-                "date": ""
-            },
-            {
                 "title": "教學發展與評估專區",
                 "link": "https://med.site.nthu.edu.tw/p/403-1551-9775.php?Lang=zh-tw",
                 "date": ""
@@ -15813,16 +15808,6 @@
             {
                 "title": "學生輔導專區",
                 "link": "https://counsel.site.nthu.edu.tw/",
-                "date": ""
-            },
-            {
-                "title": "研究專區",
-                "link": null,
-                "date": ""
-            },
-            {
-                "title": "產學合作專區",
-                "link": null,
                 "date": ""
             }
         ]
@@ -17353,11 +17338,6 @@
             {
                 "title": "【活動分享】國際婦女節主題特別活動開始報名!",
                 "link": "https://forms.office.com/pages/responsepage.aspx?id=FT0IQ3NywUC32znv2czBeuqKiaYfh2RLr2GvPjE0pt5UQjIzTFU0R09QNFRQTDJSODRBUVg1WE9GVy4u&route=shorturl",
-                "date": ""
-            },
-            {
-                "title": "【活動分享】NVIDIA GTC 2026 即將登場！",
-                "link": "https://www.nvidia.com/gtc/?ncid=GTC-NV09OS1T](https://www.nvidia.com/gtc/?ncid=GTC-NV09OS1T",
                 "date": ""
             },
             {
