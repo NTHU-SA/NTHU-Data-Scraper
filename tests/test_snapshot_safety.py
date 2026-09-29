@@ -67,7 +67,16 @@ def announcement(link, title="old"):
         "title": title,
         "department": "department",
         "language": "en",
-        "articles": [{"title": title, "link": link + "/article", "date": "2026-09-27"}],
+        "articles": [
+            {
+                "title": title,
+                "link": (
+                    link if link.startswith("https://") else f"https://{link}.test"
+                )
+                + "/article",
+                "date": "2026-09-27",
+            }
+        ],
     }
 
 
@@ -137,7 +146,10 @@ def test_legacy_redirected_announcement_is_migrated(
     before = individual.read_bytes()
     spider = scrapy.Spider("test")
     spider.announcement_list = [canonical, other]
-    refreshed = {**canonical, "articles": [{"title": "fresh"}]}
+    refreshed = {
+        **canonical,
+        "articles": [{"title": "fresh", "link": "https://example.test/fresh"}],
+    }
     pipeline = announcements.AnnouncementItemPipeline()
     pipeline.open_spider(spider)
     pipeline.process_item(announcements.AnnouncementItem(other), spider)
@@ -224,8 +236,11 @@ def test_announcement_table_header_and_partial_parse(tmp_path, monkeypatch, brok
     response = HtmlResponse(
         "https://example.test", body=html.encode(), encoding="utf-8"
     )
-    articles = spider._extract_articles(response)
-    assert len(articles) == (0 if broken else 1)
+    result = spider._extract_articles(response)
+    if broken:
+        assert result is None
+    else:
+        assert len(result.articles) == 1
 
 
 @pytest.mark.parametrize(

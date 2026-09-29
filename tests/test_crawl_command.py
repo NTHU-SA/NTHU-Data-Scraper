@@ -190,7 +190,13 @@ def test_announcements_request_failure_keeps_source_and_individual_file(tmp_path
             "language": "en",
         },
     ]
-    previous = [{**source, "articles": ["old"]} for source in sources]
+    previous = [
+        {
+            **source,
+            "articles": [{"title": "Old", "link": "https://example.test/old"}],
+        }
+        for source in sources
+    ]
     write_json_atomic(sources, tmp_path / "announcements_list.json")
     path = tmp_path / "announcements.json"
     write_json_atomic(previous, path)
@@ -205,6 +211,60 @@ def test_announcements_request_failure_keeps_source_and_individual_file(tmp_path
     assert actual[good_link]["articles"][0]["title"] == "New article"
     assert actual[sources[1]["link"]] == previous[1]
     assert individual.read_bytes() == before
+
+
+@pytest.mark.parametrize("all_invalid", [False, True])
+def test_invalid_announcement_urls_do_not_fail_real_crawl(tmp_path, all_invalid):
+    bad_url = "https://example.test/bad](https://example.test/bad"
+    good_row = (
+        '<div class="row listBS"><div class="mtitle">'
+        '<a href="https://example.test/fresh">Fresh</a></div></div>'
+    )
+    link = "data:text/html," + quote(
+        '<div id="pageptlist">'
+        + ("" if all_invalid else good_row)
+        + '<div class="row listBS"><div class="mtitle">'
+        + f'<a href="{bad_url}">Invalid</a></div></div></div>'
+    )
+    sources = [
+        {"link": link, "title": "fresh", "department": "dept", "language": "en"},
+        {
+            "link": "data:text/plain,failed",
+            "title": "fallback",
+            "department": "dept",
+            "language": "en",
+        },
+    ]
+    previous = [
+        {**source, "articles": [{"title": "Invalid", "link": bad_url}]}
+        for source in sources
+    ]
+    write_json_atomic(sources, tmp_path / "announcements_list.json")
+    write_json_atomic(previous, tmp_path / "announcements.json")
+    for source in previous:
+        write_json_atomic(
+            source, tmp_path / "announcements" / "dept" / f"{source['title']}_en.json"
+        )
+
+    result = run_spider(tmp_path, "offline_announcements")
+
+    assert result.returncode == 0, result.stdout + result.stderr
+    assert result.stderr.count("Skipping invalid announcement URL") == 2
+    actual = {
+        source["title"]: source for source in read_json(tmp_path / "announcements.json")
+    }
+    assert actual["fallback"] == {**sources[1], "articles": []}
+    assert actual["fresh"] == {
+        **sources[0],
+        "articles": []
+        if all_invalid
+        else [{"title": "Fresh", "link": "https://example.test/fresh", "date": None}],
+    }
+    for title, source in actual.items():
+        assert (
+            read_json(tmp_path / "announcements" / "dept" / f"{title}_en.json")
+            == source
+        )
 
 
 @pytest.mark.parametrize(

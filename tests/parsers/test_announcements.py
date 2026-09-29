@@ -14,7 +14,7 @@ from nthu_scraper.spiders import nthu_announcements_list as list_spider
 
 def test_rows_contract(fixture_text, html_response):
     page = html_response(fixture_text("announcements", "rows.html"))
-    assert parse_articles(page, page.url) == [
+    assert parse_articles(page, page.url).articles == [
         {
             "title": "開學公告",
             "link": "https://example.test/article/1",
@@ -27,7 +27,7 @@ def test_rows_contract(fixture_text, html_response):
 
 def test_fallback_table_contract(fixture_text, html_response):
     page = html_response(fixture_text("announcements", "table.html"))
-    assert parse_articles(page, page.url) == [
+    assert parse_articles(page, page.url).articles == [
         {
             "title": "圖書館公告",
             "link": "https://example.test/p/article.php?id=3",
@@ -69,7 +69,9 @@ def test_url_normalization(url, expected):
 
 def test_empty_container(fixture_text):
     page = Selector(text=fixture_text("announcements", "empty.html"))
-    assert parse_articles(page, "https://example.test") == []
+    result = parse_articles(page, "https://example.test")
+    assert result.articles == []
+    assert result.rejected_count == 0
     assert parse_list_page(page) == {"title": "Announcements", "has_content": False}
 
 
@@ -131,7 +133,7 @@ def test_item_callback_uses_authoritative_metadata(
         "link": "https://example.test/original",
         "department": "Dept",
         "language": "en",
-        "articles": parse_articles(page, page.url),
+        "articles": parse_articles(page, page.url).articles,
     }
 
 
