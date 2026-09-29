@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b1d915e827ead80b7d4b4b9dc35162599fd4637f34fe480d62fed9959340b72d",
-        "last_updated": "2026-09-29T00:23:04.450797+08:00",
+        "last_commit": "b8432e960ba3f9283da6f03eb147b531a8513b999147a7173765bbed4bf003d3",
+        "last_updated": "2026-09-29T08:53:55.384706+08:00",
         "name": "announcements.json",
-        "sha256": "b1d915e827ead80b7d4b4b9dc35162599fd4637f34fe480d62fed9959340b72d",
-        "version": "b1d915e827ead80b7d4b4b9dc35162599fd4637f34fe480d62fed9959340b72d"
+        "sha256": "b8432e960ba3f9283da6f03eb147b531a8513b999147a7173765bbed4bf003d3",
+        "version": "b8432e960ba3f9283da6f03eb147b531a8513b999147a7173765bbed4bf003d3"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -705,11 +705,11 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "652017636ac9a623a4e36d8e2027acfd7c3db98d757866a5d0a413eb6580fed2",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "23d7c480d8bdb87a200c2f2d2c7a5dfba51946db35ebd097c9e774ca36242828",
+        "last_updated": "2026-09-29T08:53:55.384706+08:00",
         "name": "徵才_研習_zh-tw.json",
-        "sha256": "652017636ac9a623a4e36d8e2027acfd7c3db98d757866a5d0a413eb6580fed2",
-        "version": "652017636ac9a623a4e36d8e2027acfd7c3db98d757866a5d0a413eb6580fed2"
+        "sha256": "23d7c480d8bdb87a200c2f2d2c7a5dfba51946db35ebd097c9e774ca36242828",
+        "version": "23d7c480d8bdb87a200c2f2d2c7a5dfba51946db35ebd097c9e774ca36242828"
       },
       {
         "last_commit": "59dc685f3092e00e0ac6b5609e89681e7d73efa725e078e313773c6d40fbbefe",
@@ -1385,11 +1385,11 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "076f138299d96da9b5bbcb9c921bce994ad184ce650f78d4cba9e30864b32823",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "a9204d916b6aad6b57256d6c4fce93ad3072a7a7137799c1706df22cd91e61e1",
+        "last_updated": "2026-09-29T08:53:55.384706+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "076f138299d96da9b5bbcb9c921bce994ad184ce650f78d4cba9e30864b32823",
-        "version": "076f138299d96da9b5bbcb9c921bce994ad184ce650f78d4cba9e30864b32823"
+        "sha256": "a9204d916b6aad6b57256d6c4fce93ad3072a7a7137799c1706df22cd91e61e1",
+        "version": "a9204d916b6aad6b57256d6c4fce93ad3072a7a7137799c1706df22cd91e61e1"
       }
     ],
     "announcements/理學院物理學系": [
@@ -3016,5 +3016,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-29T00:23:04.450797+08:00"
+  "last_updated": "2026-09-29T08:53:55.384706+08:00"
 }
