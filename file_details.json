@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fb933d84dfea37614efd7b29af958131a71b86ca82265597cedf5819d5251516",
-        "last_updated": "2026-09-29T16:27:19.295812+08:00",
+        "last_commit": "109ed8c49d7718de2fad41f5c368979aa1136fe37c018a4c244c173fbd2d06a0",
+        "last_updated": "2026-09-29T18:20:01.929793+08:00",
         "name": "announcements.json",
-        "sha256": "fb933d84dfea37614efd7b29af958131a71b86ca82265597cedf5819d5251516",
-        "version": "fb933d84dfea37614efd7b29af958131a71b86ca82265597cedf5819d5251516"
+        "sha256": "109ed8c49d7718de2fad41f5c368979aa1136fe37c018a4c244c173fbd2d06a0",
+        "version": "109ed8c49d7718de2fad41f5c368979aa1136fe37c018a4c244c173fbd2d06a0"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -1263,11 +1263,11 @@
         "version": "119e23e2265afe7996d1401f5f1b8a794bcfd4198d09e0a88be45cc5377bae9d"
       },
       {
-        "last_commit": "4a45ecad876d5fb1fecbdb7135a13eb116cb8b8a33d41faa1d7bd8ed8ce0a9f2",
-        "last_updated": "2026-09-29T16:27:19.295812+08:00",
+        "last_commit": "4c3642307e62ff904d6000de6352684b7a2b054c2aae58f73c792a017f5991ff",
+        "last_updated": "2026-09-29T18:20:01.929793+08:00",
         "name": "最新公告  - 清華書院_zh-tw.json",
-        "sha256": "4a45ecad876d5fb1fecbdb7135a13eb116cb8b8a33d41faa1d7bd8ed8ce0a9f2",
-        "version": "4a45ecad876d5fb1fecbdb7135a13eb116cb8b8a33d41faa1d7bd8ed8ce0a9f2"
+        "sha256": "4c3642307e62ff904d6000de6352684b7a2b054c2aae58f73c792a017f5991ff",
+        "version": "4c3642307e62ff904d6000de6352684b7a2b054c2aae58f73c792a017f5991ff"
       },
       {
         "last_commit": "6d2398423af527d2a40ffd0fff68bfcc6be1f46f5c032db863ac8b22ba978072",
@@ -1330,11 +1330,11 @@
         "version": "bbd55a13e1c6c866427894f008d43b17709fb0021f77ac9f46d305bf3da90685"
       },
       {
-        "last_commit": "c53845e12efead6b36e37565899a2dc4d30621bd846dc771e77a5d2032b23da9",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "b63d21c75160ac52b681155d3e064a4fef42ad1fe04e1d5184b269348ddbb263",
+        "last_updated": "2026-09-29T18:20:01.929793+08:00",
         "name": "訊息公告_zh-tw.json",
-        "sha256": "c53845e12efead6b36e37565899a2dc4d30621bd846dc771e77a5d2032b23da9",
-        "version": "c53845e12efead6b36e37565899a2dc4d30621bd846dc771e77a5d2032b23da9"
+        "sha256": "b63d21c75160ac52b681155d3e064a4fef42ad1fe04e1d5184b269348ddbb263",
+        "version": "b63d21c75160ac52b681155d3e064a4fef42ad1fe04e1d5184b269348ddbb263"
       }
     ],
     "announcements/清華學院語文中心": [
@@ -2005,11 +2005,11 @@
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
       {
-        "last_commit": "387bd0ee5c3afd85b3d3dc126e2f110afff1b4f1ef6f6d8d36df9c907eb2dfa4",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "5f71c053859ae9292adbc09ad9edf77ef21666d3d0350b2e2f67bb0d19fa816a",
+        "last_updated": "2026-09-29T18:20:01.929793+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "387bd0ee5c3afd85b3d3dc126e2f110afff1b4f1ef6f6d8d36df9c907eb2dfa4",
-        "version": "387bd0ee5c3afd85b3d3dc126e2f110afff1b4f1ef6f6d8d36df9c907eb2dfa4"
+        "sha256": "5f71c053859ae9292adbc09ad9edf77ef21666d3d0350b2e2f67bb0d19fa816a",
+        "version": "5f71c053859ae9292adbc09ad9edf77ef21666d3d0350b2e2f67bb0d19fa816a"
       }
     ],
     "announcements/竹師教育學院教育心理與諮商學系": [
@@ -2971,11 +2971,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "af2dfa212de338c8a7d0e9ed9af90250d24a235827cb1b57467f3abf4e1a2a0b",
-        "last_updated": "2026-09-29T16:27:19.295812+08:00",
+        "last_commit": "a0a36dceacb1feb0bbcbc7e1ee2acca7cbee5f2a465fc7147552f262f7e4fb51",
+        "last_updated": "2026-09-29T18:20:01.929793+08:00",
         "name": "rss.json",
-        "sha256": "af2dfa212de338c8a7d0e9ed9af90250d24a235827cb1b57467f3abf4e1a2a0b",
-        "version": "af2dfa212de338c8a7d0e9ed9af90250d24a235827cb1b57467f3abf4e1a2a0b"
+        "sha256": "a0a36dceacb1feb0bbcbc7e1ee2acca7cbee5f2a465fc7147552f262f7e4fb51",
+        "version": "a0a36dceacb1feb0bbcbc7e1ee2acca7cbee5f2a465fc7147552f262f7e4fb51"
       }
     ],
     "maps": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-29T16:27:19.295812+08:00"
+  "last_updated": "2026-09-29T18:20:01.929793+08:00"
 }
