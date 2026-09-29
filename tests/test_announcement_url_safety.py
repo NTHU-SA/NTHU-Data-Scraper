@@ -54,6 +54,9 @@ def response(body):
         "https://example.test/a\nb",
         "https://example.test/a\tb",
         "https://example.test/a b",
+        " https://example.test/a",
+        "https://example.test/a ",
+        "https://example.test/a\n",
         "https://[broken",
         "https://",
         "https://example.test:99999/a",
@@ -78,6 +81,7 @@ def test_strict_http_url_rejects_invalid_values(url):
     [
         ("/article?id=2&lang=en", "https://example.test/article?id=2&lang=en"),
         ("relative", "https://example.test/relative"),
+        (" /article \n", "https://example.test/article"),
         ("//other.test/a", "https://other.test/a"),
         ("http://other.test/a", "http://other.test/a"),
         ("https://other.test/a?q=a%20b", "https://other.test/a?q=a%20b"),
@@ -244,3 +248,32 @@ def test_legacy_fallback_is_sanitized_after_matching(pipeline_setup):
     expected = {**old, "link": SOURCE_URL, "articles": [GOOD_ARTICLE]}
     assert read_json(aggregate) == [expected]
     assert read_json(individual) == expected
+
+
+@pytest.mark.parametrize("whitespace", [" ", "\n", "\t"])
+@pytest.mark.parametrize("position", ["prefix", "suffix"])
+@pytest.mark.parametrize("retained", [False, True])
+def test_pipeline_rejects_whitespace_in_published_urls(
+    pipeline_setup, whitespace, position, retained, caplog
+):
+    spider, aggregate, individual = pipeline_setup
+    url = "https://example.test/article"
+    link = whitespace + url if position == "prefix" else url + whitespace
+    source = {
+        **SOURCE,
+        "articles": [GOOD_ARTICLE, {"title": "Whitespace", "link": link}],
+    }
+    if retained:
+        write_json_atomic([source], aggregate)
+        write_json_atomic(source, individual)
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    if not retained:
+        pipeline.process_item(announcements.AnnouncementItem(source), spider)
+    pipeline.close_spider(spider)
+
+    expected = {**SOURCE, "articles": [GOOD_ARTICLE]}
+    assert read_json(aggregate) == [expected]
+    assert read_json(individual) == expected
+    assert repr(link) in caplog.text
+    assert "url_syntax_violation" in caplog.text

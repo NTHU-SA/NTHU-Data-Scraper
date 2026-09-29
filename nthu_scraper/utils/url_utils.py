@@ -10,9 +10,7 @@ _HTTP_URL_ADAPTER = TypeAdapter(HttpUrl)
 def http_url_error(value: object) -> str | None:
     """Check HTTP URL syntax without normalizing the stored representation."""
     try:
-        _HTTP_URL_ADAPTER.validate_python(
-            value.strip() if isinstance(value, str) else value, strict=True
-        )
+        _HTTP_URL_ADAPTER.validate_python(value, strict=True)
     except ValidationError as error:
         detail = error.errors(include_url=False)[0]
         return f"{detail['type']}: {detail['msg']}"
