@@ -90,6 +90,15 @@ JSON cannot silently be overwritten by a crawl. It validates generated
 crawler data.
 
 Source merge and replacement rules are documented in [README.md](README.md#data-safety).
+The announcement crawler filters articles with invalid HTTP(S) URL syntax from
+both fresh results and retained previous sources before publication. It logs
+each rejection and saves affected individual announcement files consistently
+with the aggregate. Sources remain present even if filtering removes all their
+articles. Network, empty-page, and structural parsing failures still retain
+previous valid articles. This is syntax validation, not an HTTP availability
+check; other datasets and baseline JSON-integrity checks are unchanged.
+Normal metadata generation hashes the resulting sanitized files.
+
 JSON writes, including publishing metadata, use same-directory atomic
 replacement while preserving their prior serialization formats. Storage
 errors propagate; the workflow never publishes after a required step fails.

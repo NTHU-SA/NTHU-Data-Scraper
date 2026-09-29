@@ -86,7 +86,14 @@ pushes to `main` and manual dispatch.
 Failed or empty refreshes retain previous data. Announcements, buses, maps,
 and libraries preserve failed sources independently; directory, newsletter,
 and course crawls require a complete valid result before replacing a dataset.
-Announcements are removed only when removed from the source list.
+Announcement sources are removed only when removed from the source list.
+Individual announcement articles with invalid HTTP(S) URL syntax are skipped
+with a warning, without discarding valid siblings. The same filtering applies
+to retained previous articles, and affected individual files and the aggregate
+are saved consistently. If every article is rejected, the source remains with
+an empty `articles` list; this is distinct from an empty or failed refresh.
+Article URL checks use Pydantic's strict `HttpUrl` validation, not live HTTP
+requests, and do not attempt to repair malformed links.
 
 JSON writes use atomic file replacement. Implementation, storage, or validation
 errors block publication; a multi-file local crawl is not a single transaction.

@@ -5,7 +5,7 @@ import re
 import scrapy
 
 from nthu_scraper.parsers import ParseError
-from nthu_scraper.parsers.announcements import parse_articles
+from nthu_scraper.parsers.announcements import ParsedArticles, parse_articles
 from nthu_scraper.storage import read_json
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_FOLDER,
@@ -14,6 +14,7 @@ from nthu_scraper.utils.constants import (
 )
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.url_utils import http_url_error
 
 
 class AnnouncementItem(scrapy.Item):
@@ -24,6 +25,7 @@ class AnnouncementItem(scrapy.Item):
     language = scrapy.Field()
     department = scrapy.Field()
     articles = scrapy.Field()
+    _all_articles_invalid = False
 
 
 def _group_by_source_metadata(sources):
@@ -83,28 +85,32 @@ class AnnouncementsItemSpider(scrapy.Spider):
 
     def parse(self, response):
         """解析公告頁面"""
-        articles = self._extract_articles(response)
+        result = self._extract_articles(response)
+        if result is None:
+            return
 
-        if not articles:
+        if not result.articles and not result.rejected_count:
             self.logger.warning(f"公告頁面無文章: {response.url}")
             return
 
-        yield AnnouncementItem(
+        item = AnnouncementItem(
             title=response.meta["title"],
             link=response.meta["source_link"],
             language=response.meta["language"],
             department=response.meta["department"],
-            articles=articles,
+            articles=result.articles,
         )
+        item._all_articles_invalid = not result.articles and bool(result.rejected_count)
+        yield item
 
-    def _extract_articles(self, response) -> list[dict]:
+    def _extract_articles(self, response) -> ParsedArticles | None:
         try:
             return parse_articles(response, response.url)
         except ParseError as error:
             self.logger.warning(
                 "Incomplete announcement parse; retaining %s: %s", response.url, error
             )
-            return []
+            return None
 
 
 class AnnouncementItemPipeline:
@@ -153,11 +159,12 @@ class AnnouncementItemPipeline:
         if not isinstance(item, AnnouncementItem):
             return item
 
-        if not item.get("articles"):
+        if not item.get("articles") and not item._all_articles_invalid:
             spider.logger.warning(
                 "Empty announcement refresh; retaining %s", item["link"]
             )
             return item
+        item["articles"] = self._filter_articles(item, spider)
         self._save_individual_item(item)
         self.collected_data[item["link"]] = dict(item)
         spider.logger.info(
@@ -167,7 +174,25 @@ class AnnouncementItemPipeline:
 
         return item
 
-    def _save_individual_item(self, item: AnnouncementItem) -> None:
+    def _filter_articles(self, source, spider) -> list[dict]:
+        articles = []
+        for index, article in enumerate(source["articles"]):
+            reason = http_url_error(article.get("link"))
+            if reason:
+                spider.logger.warning(
+                    "Skipping invalid announcement URL: source=%s article=%s "
+                    "title=%r link=%r: %s",
+                    source["link"],
+                    index,
+                    article.get("title"),
+                    article.get("link"),
+                    reason,
+                )
+            else:
+                articles.append(article)
+        return articles
+
+    def _save_individual_item(self, item: AnnouncementItem | dict) -> None:
         department = self._sanitize_path_component(
             item.get("department") or "未命名單位"
         )
@@ -194,7 +219,12 @@ class AnnouncementItemPipeline:
                 spider.logger.warning(
                     "Retaining previous announcement source: %s", link
                 )
-                merged.append(self.previous[link])
+                source = self.previous[link]
+                articles = self._filter_articles(source, spider)
+                if len(articles) != len(source["articles"]):
+                    source = {**source, "articles": articles}
+                    self._save_individual_item(source)
+                merged.append(source)
             else:
                 spider.logger.warning("No known-good announcement source: %s", link)
         save_json(merged, ANNOUNCEMENTS_JSON_PATH)

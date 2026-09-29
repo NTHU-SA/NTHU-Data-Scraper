@@ -2,6 +2,22 @@
 
 from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
+from pydantic import HttpUrl, TypeAdapter, ValidationError
+
+_HTTP_URL_ADAPTER = TypeAdapter(HttpUrl)
+
+
+def http_url_error(value: object) -> str | None:
+    """Check HTTP URL syntax without normalizing the stored representation."""
+    try:
+        _HTTP_URL_ADAPTER.validate_python(
+            value.strip() if isinstance(value, str) else value, strict=True
+        )
+    except ValidationError as error:
+        detail = error.errors(include_url=False)[0]
+        return f"{detail['type']}: {detail['msg']}"
+    return None
+
 
 def force_https(url: str) -> str:
     """將 URL 的 scheme 強制為 https（簡單替換 http:// 與 // 開頭情況）"""
