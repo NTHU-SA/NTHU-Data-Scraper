@@ -15,7 +15,7 @@ from nthu_scraper.spiders.nthu_calendars import CalendarsSpider
 from nthu_scraper.spiders.nthu_courses import CoursesSpider
 from nthu_scraper.spiders.nthu_dining import DiningSpider
 from nthu_scraper.spiders.nthu_directory import DirectorySpider
-from nthu_scraper.spiders.nthu_libraries import LibrariesSpider
+from nthu_scraper.spiders.nthu_libraries import RSS_TYPES, LibrariesSpider
 from nthu_scraper.spiders.nthu_maps import MapSpider
 from nthu_scraper.spiders.nthu_newsletters import NewsletterItem, NewsletterSpider
 from nthu_scraper.storage import write_json_atomic
@@ -165,6 +165,33 @@ class OfflineLibrariesSpider(LibrariesSpider):
             callback=self.parse_calendar_feed,
             cb_kwargs={"calendar_id": "hss", "google_id": "hss@test"},
         )
+
+
+class OfflineLibraryUrlsSpider(LibrariesSpider):
+    name = "offline_library_urls"
+    custom_settings = {
+        **LibrariesSpider.custom_settings,
+        # The complete fixture feed is embedded in a data: URL.
+        "URLLENGTH_LIMIT": 0,
+    }
+
+    async def start(self):
+        xml = (FIXTURES / "libraries" / "published_urls.xml").read_text(
+            encoding="utf-8"
+        )
+        xml = xml.replace(
+            "</channel>",
+            "<item><title>Broken image</title>"
+            "<image><url>https://invalid host.test/cover.jpg</url></image>"
+            "</item></channel>",
+        )
+        for rss_type in RSS_TYPES:
+            feed = xml.replace("<channel>", f"<channel><title>{rss_type}</title>")
+            yield scrapy.Request(
+                "data:text/xml," + quote(feed),
+                callback=self.parse_rss_feed,
+                cb_kwargs={"rss_type": rss_type},
+            )
 
 
 class OfflineBusesSpider(BusesSpider):

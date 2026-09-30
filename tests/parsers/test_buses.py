@@ -206,6 +206,35 @@ def test_discovered_schedule_links_are_instance_local(fixture_text, html_respons
         assert requests[0].meta["bus_type"] == "main"
 
 
+def test_invalid_schedule_article_does_not_hide_valid_candidate(caplog):
+    spider = nthu_buses.BusesSpider()
+    spider._extract_image_links(
+        [
+            {"title": "校園公車時刻表", "link": "https://invalid host.test/"},
+            {"title": "校園公車時刻表", "link": "https://example.test/schedule one"},
+        ]
+    )
+    assert spider.schedule_image_urls == {"main": "https://example.test/schedule%20one"}
+    assert "Skipping invalid bus announcement URL" in caplog.text
+
+
+def test_image_requests_and_published_urls_share_normalization(
+    tmp_path, monkeypatch, html_response, caplog
+):
+    monkeypatch.setattr(nthu_buses, "BUSES_FOLDER", tmp_path)
+    page = html_response(
+        '<div class="main"><div class="meditor">'
+        '<img src="/cover image.jpg"><img src="https://invalid host.test/image.jpg">'
+        "</div></div>",
+        meta={"bus_type": "main"},
+    )
+    outputs = list(nthu_buses.BusesSpider().parse_images(page))
+    request, item = outputs
+    assert request.url == "https://example.test/cover%20image.jpg"
+    assert item["data"] == [request.url]
+    assert "Skipping invalid bus image URL" in caplog.text
+
+
 def test_route_configuration_is_immutable():
     config = nthu_buses.BUS_CONFIG
     with pytest.raises(TypeError):

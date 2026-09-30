@@ -5,6 +5,7 @@ from nthu_scraper.parsers.dining import parse_dining_html
 from nthu_scraper.utils.constants import DINING_JSON_PATH
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import save_json
+from nthu_scraper.utils.url_utils import normalize_http_url
 
 
 class DiningItem(scrapy.Item):
@@ -22,7 +23,11 @@ class DiningSpider(scrapy.Spider):
 
     name = "nthu_dining"
     allowed_domains = ["ddfm.site.nthu.edu.tw"]
-    start_urls = ["https://ddfm.site.nthu.edu.tw/p/404-1494-256455.php?Lang=zh-tw"]
+    start_urls = [
+        normalize_http_url(
+            "https://ddfm.site.nthu.edu.tw/p/404-1494-256455.php?Lang=zh-tw"
+        )
+    ]
     custom_settings = {
         "ITEM_PIPELINES": {"nthu_scraper.spiders.nthu_dining.DiningPipeline": 1},
     }
@@ -36,7 +41,7 @@ class DiningSpider(scrapy.Spider):
         解析餐廳資訊頁面，提取餐廳資料。
         """
         try:
-            dining_data = parse_dining_html(response.text)
+            dining_data = parse_dining_html(response.text, response.url)
         except ParseError as error:
             self.logger.warning(
                 "Invalid dining source; retaining previous data: %s", error

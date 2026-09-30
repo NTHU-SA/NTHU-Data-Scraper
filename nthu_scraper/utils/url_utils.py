@@ -1,10 +1,85 @@
 """URL processing utility functions."""
 
-from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
+import logging
+import re
+from urllib.parse import parse_qs, urlencode, urljoin, urlsplit, urlunsplit
 
 from pydantic import HttpUrl, TypeAdapter, ValidationError
 
 _HTTP_URL_ADAPTER = TypeAdapter(HttpUrl)
+_URL_LIST_SEPARATOR = re.compile(r",\s*(?:https?:)?//", re.IGNORECASE)
+
+
+class InvalidHttpUrl(ValueError):
+    """A value cannot be safely normalized into a single HTTP(S) URL."""
+
+
+def normalize_http_url(
+    value: object, *, base_url: str | None = None, force_https: bool = False
+) -> str:
+    """Resolve links, encode spaces, and return a strictly validated canonical URL."""
+    if not isinstance(value, str):
+        raise InvalidHttpUrl("URL must be a string")
+    url = value.strip()
+    if not url:
+        raise InvalidHttpUrl("URL is blank")
+    if any(ord(character) < 32 or ord(character) == 127 for character in url):
+        raise InvalidHttpUrl("URL contains control characters")
+    if "\\" in url:
+        raise InvalidHttpUrl("URL contains backslashes")
+    try:
+        parts = urlsplit(url)
+    except ValueError as error:
+        raise InvalidHttpUrl(str(error)) from error
+    if _URL_LIST_SEPARATOR.search(parts.path):
+        raise InvalidHttpUrl("Expected one URL, not a comma-separated URL list")
+    if parts.scheme:
+        if parts.scheme.lower() not in {"http", "https"}:
+            raise InvalidHttpUrl("URL scheme must be HTTP(S)")
+        if not parts.netloc:
+            raise InvalidHttpUrl("Absolute HTTP(S) URL has no host")
+    elif url.startswith("//"):
+        parts = parts._replace(scheme="https")
+    elif base_url is not None:
+        base = normalize_http_url(base_url)
+        try:
+            parts = urlsplit(urljoin(base, url))
+        except ValueError as error:
+            raise InvalidHttpUrl(str(error)) from error
+    else:
+        raise InvalidHttpUrl("Relative URL requires a base URL")
+
+    url = urlunsplit(
+        parts._replace(
+            scheme="https" if force_https else parts.scheme,
+            path=parts.path.replace(" ", "%20"),
+            query=parts.query.replace(" ", "%20"),
+            fragment=parts.fragment.replace(" ", "%20"),
+        )
+    )
+
+    try:
+        return str(_HTTP_URL_ADAPTER.validate_python(url, strict=True))
+    except ValidationError as error:
+        detail = error.errors(include_url=False)[0]
+        raise InvalidHttpUrl(f"{detail['type']}: {detail['msg']}") from error
+
+
+def normalize_optional_http_url(
+    value: object,
+    *,
+    logger: logging.Logger | logging.LoggerAdapter,
+    context: str,
+    base_url: str | None = None,
+) -> str | None:
+    """Normalize an optional URL; log unrecoverable values before using null."""
+    if value is None or (isinstance(value, str) and not value.strip()):
+        return None
+    try:
+        return normalize_http_url(value, base_url=base_url)
+    except InvalidHttpUrl as error:
+        logger.warning("Invalid %s URL %r; using null: %s", context, value, error)
+        return None
 
 
 def http_url_error(value: object) -> str | None:
@@ -18,15 +93,10 @@ def http_url_error(value: object) -> str | None:
 
 
 def force_https(url: str) -> str:
-    """將 URL 的 scheme 強制為 https（簡單替換 http:// 與 // 開頭情況）"""
+    """Normalize an HTTP(S) URL and require HTTPS."""
     if not url:
         return url
-    url = url.strip()
-    if url.startswith("//"):
-        return "https:" + url
-    if url.startswith("http://"):
-        return "https://" + url[len("http://") :]
-    return url
+    return normalize_http_url(url, force_https=True)
 
 
 def update_url_query_param(
@@ -39,22 +109,16 @@ def update_url_query_param(
         url: 網址字串。
         param_name: 參數名稱。
         param_value: 參數值。
-        force_https: 若為 True，會把 scheme 強制改為 https（若原本為 http 或空）。
+        force_https: 若為 True，會把 scheme 強制改為 https；否則保留 HTTP(S) scheme。
     Returns:
         更新參數後的網址字串。
     """
-    parsed_url = urlparse(url)
+    parsed_url = urlsplit(normalize_http_url(url, force_https=force_https))
     query_params = parse_qs(parsed_url.query)
     query_params[param_name] = [param_value]
     new_query = urlencode(query_params, doseq=True)
 
-    # 若要求強制 https，將 scheme 改為 https；否則保留原本的 scheme（包括空 scheme -> 會保留 //host/... 形式）
-    if force_https:
-        parsed_url = parsed_url._replace(scheme="https", query=new_query)
-    else:
-        parsed_url = parsed_url._replace(query=new_query)
-
-    return urlunparse(parsed_url)
+    return normalize_http_url(urlunsplit(parsed_url._replace(query=new_query)))
 
 
 def build_multi_lang_urls(
@@ -88,5 +152,6 @@ def check_domain_suffix(url: str, suffix: str) -> bool:
     Returns:
         若 URL 屬於該網域後綴則返回 True，否則返回 False。
     """
-    parsed_url = urlparse(url)
-    return bool(parsed_url.hostname and parsed_url.hostname.endswith(suffix))
+    hostname = urlsplit(url).hostname
+    suffix = suffix.lower().lstrip(".")
+    return bool(hostname and (hostname == suffix or hostname.endswith("." + suffix)))

@@ -1,8 +1,16 @@
 """Pure directory parsing, retaining unknown field names and legacy cell values."""
 
-from nthu_scraper.parsers import ParseError
+import logging
 
-URL_PREFIX = "https://tel.net.nthu.edu.tw/nthusearch/"
+from nthu_scraper.parsers import ParseError
+from nthu_scraper.utils.url_utils import (
+    InvalidHttpUrl,
+    normalize_http_url,
+    normalize_optional_http_url,
+)
+
+logger = logging.getLogger(__name__)
+URL_PREFIX = normalize_http_url("https://tel.net.nthu.edu.tw/nthusearch/")
 DEPARTMENT_TRANSLATION = {
     "分機": "extension",
     "直撥電話": "phone",
@@ -25,7 +33,36 @@ def parse_department_link(link) -> dict[str, str]:
     name = (link.css("::text").get() or "").strip()
     if not href or not name:
         raise ParseError("Department listing contains an unusable link or name")
-    return {"name": name, "url": URL_PREFIX + href}
+    try:
+        url = normalize_http_url(href, base_url=URL_PREFIX)
+    except InvalidHttpUrl as error:
+        raise ParseError(f"Invalid department URL {href!r}: {error}") from error
+    return {"name": name, "url": url}
+
+
+def _cell_value(cell, field: str, default: str | None) -> str | None:
+    link = cell.css("a::attr(href)").get()
+    text = cell.css("::text").get()
+    value = link if link else text.strip() if text else default
+    if field == "website":
+        if value in {"N/A", "-"}:
+            value = None
+        return normalize_optional_http_url(
+            value,
+            base_url=URL_PREFIX,
+            logger=logger,
+            context="directory website",
+        )
+    if link:
+        if link.startswith("mailto:"):
+            return link.removeprefix("mailto:")
+        if link.startswith("tel:"):
+            return link
+        try:
+            return normalize_http_url(link, base_url=URL_PREFIX)
+        except InvalidHttpUrl as error:
+            raise ParseError(f"Invalid directory URL {link!r}: {error}") from error
+    return value
 
 
 def parse_contact_table(table) -> dict:
@@ -36,13 +73,8 @@ def parse_contact_table(table) -> dict:
             key = (cols[0].css("::text").get() or "").strip()
             if not key:
                 continue
-            link = cols[1].css("a::attr(href)").get()
-            text = cols[1].css("::text").get()
-            if link:
-                value = link.replace("mailto:", "") if "mailto:" in link else link
-            else:
-                value = text.strip() if text else "N/A"
-            contact[translate_key(key)] = value
+            field = translate_key(key)
+            contact[field] = _cell_value(cols[1], field, "N/A")
         elif cols:
             raise ParseError("Directory contact row has fewer than two cells")
     return contact
@@ -66,15 +98,8 @@ def parse_people_table(table) -> list[dict]:
         person = {}
         for i, col in enumerate(cols):
             if i < len(headers):
-                link = col.css("a::attr(href)").get()
-                text = col.css("::text").get()
-                person[translate_key(headers[i])] = (
-                    link.replace("mailto:", "")
-                    if link
-                    else text.strip()
-                    if text
-                    else None
-                )
+                field = translate_key(headers[i])
+                person[field] = _cell_value(col, field, None)
         people.append(person)
     return people
 

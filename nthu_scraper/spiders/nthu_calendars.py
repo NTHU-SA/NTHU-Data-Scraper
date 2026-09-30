@@ -18,10 +18,11 @@ from nthu_scraper.spiders.nthu_libraries import (
 from nthu_scraper.utils.constants import CALENDARS_JSON_PATH
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.url_utils import normalize_http_url
 
 GOOGLE_ID = "nthu.acad@gmail.com"
 SOURCE_URL = "https://dgaa.site.nthu.edu.tw/p/412-1209-2942.php?Lang=zh-tw"
-ICAL_URL = ICAL_URL_TEMPLATE.format(quote(GOOGLE_ID))
+ICAL_URL = normalize_http_url(ICAL_URL_TEMPLATE.format(quote(GOOGLE_ID)))
 
 
 class CalendarsSpider(scrapy.Spider):
@@ -52,7 +53,7 @@ class CalendarsSpider(scrapy.Spider):
         yield {
             "id": "academic",
             **calendar,
-            "url": CALENDAR_EMBED_URL_TEMPLATE.format(GOOGLE_ID),
+            "url": normalize_http_url(CALENDAR_EMBED_URL_TEMPLATE.format(GOOGLE_ID)),
             "source_url": SOURCE_URL,
             "ical_url": ICAL_URL,
         }

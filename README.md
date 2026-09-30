@@ -58,6 +58,29 @@ Run a crawler with `uv run python -m scrapy crawl <name>`.
 Run `nthu_announcements_list` before `nthu_announcements_item` on a fresh
 checkout, or populate `data/` from the published snapshot first.
 
+### URL handling
+
+Use `normalize_http_url` from `nthu_scraper.utils.url_utils` for HTTP(S) URL
+fields. It resolves relative links against an explicit base, supplies HTTPS for
+protocol-relative links, trims surrounding whitespace, and encodes spaces in
+paths, queries, and fragments without double-encoding existing escapes.
+Pydantic's strict `HttpUrl` validation then produces a canonical URL, including
+encoded Unicode paths and internationalized hostnames. HTTP remains HTTP unless
+the caller explicitly requires HTTPS.
+
+Unrecoverable hosts, ports, schemes, embedded controls, and malformed URLs raise
+`InvalidHttpUrl`; they are not guessed into valid links. Optional URL fields use
+`normalize_optional_http_url`, which logs the value and context before returning
+`null`. Announcements, directory links/websites, newsletters, dining images,
+bus image links, maps/course requests, and calendar URLs use these shared rules.
+
+Library RSS article `link` is an exception: it is nullable **text**, matching
+[NTHU-SA/NTHU-Data-API#276](https://github.com/NTHU-SA/NTHU-Data-API/pull/276).
+Single links, relative links, and comma-separated URL lists retain their original
+text; missing or blank links become `null`. RSS image URLs are normalized before
+publication. An unrecoverable image URL makes `image` null without removing the
+article; an invalid image hyperlink makes only `image.link` null.
+
 ### Website preview
 
 With crawler output in `data/`:
@@ -87,13 +110,21 @@ Failed or empty refreshes retain previous data. Announcements, buses, maps,
 and libraries preserve failed sources independently; directory, newsletter,
 and course crawls require a complete valid result before replacing a dataset.
 Announcement sources are removed only when removed from the source list.
-Individual announcement articles with invalid HTTP(S) URL syntax are skipped
-with a warning, without discarding valid siblings. The same filtering applies
-to retained previous articles, and affected individual files and the aggregate
-are saved consistently. If every article is rejected, the source remains with
-an empty `articles` list; this is distinct from an empty or failed refresh.
-Article URL checks use Pydantic's strict `HttpUrl` validation, not live HTTP
-requests, and do not attempt to repair malformed links.
+Individual announcement article URLs are first normalized; unrecoverable URLs
+are skipped with a warning, without discarding valid siblings. The same handling
+applies to retained previous articles, and affected individual files and the
+aggregate are saved consistently. If every article is rejected, the source
+remains with an empty `articles` list; this is distinct from an empty or failed refresh.
+URL checks validate syntax, not live HTTP availability.
+
+Library RSS normalization retains every article and unknown fields in JSON
+snapshots. Fresh and retained feeds use the same output shape and image
+normalization, including when all RSS requests fail. RSS titles must contain a
+non-whitespace character in both fresh and retained feeds. Structural feed
+errors retain the previous source; corrupt baselines block the crawl instead of
+silently replacing data. Library and academic calendars reject reversed or
+mixed date/datetime event boundaries before publication, retaining the previous
+source on invalid upstream data.
 
 JSON writes use atomic file replacement. Implementation, storage, or validation
 errors block publication; a multi-file local crawl is not a single transaction.

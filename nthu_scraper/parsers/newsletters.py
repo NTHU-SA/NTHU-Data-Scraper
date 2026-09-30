@@ -4,8 +4,9 @@ import re
 from datetime import date
 
 from nthu_scraper.parsers import ParseError
+from nthu_scraper.utils.url_utils import InvalidHttpUrl, normalize_http_url
 
-URL_PREFIX = "https://newsletter.cc.nthu.edu.tw"
+URL_PREFIX = normalize_http_url("https://newsletter.cc.nthu.edu.tw").rstrip("/")
 MONTHS = (
     ("一月", "Jan"),
     ("二月", "Feb"),
@@ -35,7 +36,14 @@ def parse_metadata_table(table) -> dict:
     return details
 
 
-def parse_newsletter_entry(entry) -> dict:
+def _newsletter_url(value: str, base_url: str) -> str:
+    try:
+        return normalize_http_url(value, base_url=base_url)
+    except InvalidHttpUrl as error:
+        raise ParseError(f"Invalid newsletter URL {value!r}: {error}") from error
+
+
+def parse_newsletter_entry(entry, base_url: str = URL_PREFIX + "/") -> dict:
     anchor = entry.css("h3 a")
     name = (anchor.css("::text").get() or "").strip()
     link = (anchor.css("::attr(href)").get() or "").strip()
@@ -43,7 +51,7 @@ def parse_newsletter_entry(entry) -> dict:
         raise ParseError("Newsletter gallery entry has no usable link or name")
     return {
         "name": name,
-        "link": link,
+        "link": _newsletter_url(link, base_url),
         "details": parse_metadata_table(entry.css("table")),
         "articles": [],
     }
@@ -59,8 +67,10 @@ def newsletter_entries(page):
     return entries
 
 
-def parse_newsletter_list(page) -> list[dict]:
-    return [parse_newsletter_entry(entry) for entry in newsletter_entries(page)]
+def parse_newsletter_list(page, base_url: str = URL_PREFIX + "/") -> list[dict]:
+    return [
+        parse_newsletter_entry(entry, base_url) for entry in newsletter_entries(page)
+    ]
 
 
 def convert_chinese_month_to_english(date_str: str) -> str:
@@ -91,10 +101,10 @@ def parse_popup_url(onclick: str) -> str:
     match = re.search(r"openpopup\('(.*?)',", onclick)
     if not match or not match.group(1):
         raise ParseError("Newsletter article has an invalid popup URL")
-    return f"{URL_PREFIX}{match.group(1)}"
+    return _newsletter_url(match.group(1), URL_PREFIX + "/")
 
 
-def parse_archive_articles(page) -> list[dict]:
+def parse_archive_articles(page, base_url: str = URL_PREFIX + "/") -> list[dict]:
     content = page.css("div#acyarchivelisting")
     if not content:
         raise ParseError("Missing newsletter content")
@@ -111,6 +121,8 @@ def parse_archive_articles(page) -> list[dict]:
         onclick = anchor.css("::attr(onclick)").get()
         if onclick:
             article["link"] = parse_popup_url(onclick)
+        elif href := anchor.css("::attr(href)").get():
+            article["link"] = _newsletter_url(href, base_url)
         article["title"] = title
         date = row.css("span.sentondate::text").get()
         if date and date.strip():

@@ -49,6 +49,17 @@ def test_more_links(fixture_text):
     )
 
 
+def test_more_links_repair_spaces_and_skip_invalid_siblings(caplog):
+    page = Selector(
+        text='<p class="more"><a href="/news page">Good</a>'
+        '<a href="javascript:alert(1)">Bad</a></p>'
+    )
+    assert parse_more_links(page, "https://dept.site.nthu.edu.tw/", "en") == [
+        "https://dept.site.nthu.edu.tw/news%20page?Lang=en"
+    ]
+    assert "Skipping invalid announcement list URL" in caplog.text
+
+
 @pytest.mark.parametrize(
     "url,expected",
     [

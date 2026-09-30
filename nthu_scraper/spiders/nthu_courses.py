@@ -8,6 +8,7 @@ from nthu_scraper.storage import write_json_atomic
 from nthu_scraper.utils.constants import COURSES_FOLDER, COURSES_JSON_PATH
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import save_json
+from nthu_scraper.utils.url_utils import normalize_http_url
 
 COURSE_DATA_URL: dict[str, str] = {
     "latest": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data.json",
@@ -187,7 +188,7 @@ class CoursesSpider(scrapy.Spider):
         # 逐筆建立 Request 並傳入 data_type 到 meta 中
         for data_type, url in COURSE_DATA_URL.items():
             yield scrapy.Request(
-                url=url,
+                url=normalize_http_url(url),
                 meta={"data_type": data_type},
                 errback=log_source_failure,
             )

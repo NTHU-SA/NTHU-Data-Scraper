@@ -86,6 +86,34 @@ def test_popup_url():
         parse_popup_url("openpopup('', 800)")
 
 
+def test_popup_url_handles_absolute_links_and_spaces():
+    assert parse_popup_url("openpopup('https://example.test/issue one', 800)") == (
+        "https://example.test/issue%20one"
+    )
+    with pytest.raises(ParseError, match="Invalid newsletter URL"):
+        parse_popup_url("openpopup('javascript:alert(1)', 800)")
+
+
+def test_newsletter_relative_links_use_response_base(html_response):
+    page = html_response(
+        '<div class="gallery"><li><h3><a href="issue one">News</a></h3></li></div>',
+        url="https://newsletter.cc.nthu.edu.tw/archive/",
+    )
+    (request,) = NewsletterSpider().parse(page)
+    assert request.url == "https://newsletter.cc.nthu.edu.tw/archive/issue%20one"
+    assert request.meta["newsletter"]["link"] == request.url
+
+
+def test_archive_href_uses_shared_normalization():
+    page = Selector(
+        text='<div id="acyarchivelisting"><table class="contentpane">'
+        '<div class="archiveRow"><a href="issue one">News</a></div></table></div>'
+    )
+    assert parse_archive_articles(page, "https://example.test/archive/") == [
+        {"title": "News", "link": "https://example.test/archive/issue%20one"}
+    ]
+
+
 @pytest.mark.parametrize(
     "raw,expected",
     [

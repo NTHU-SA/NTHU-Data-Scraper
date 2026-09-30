@@ -14,7 +14,7 @@ from nthu_scraper.utils.constants import (
 )
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import load_json, save_json
-from nthu_scraper.utils.url_utils import http_url_error
+from nthu_scraper.utils.url_utils import InvalidHttpUrl, normalize_http_url
 
 
 class AnnouncementItem(scrapy.Item):
@@ -177,8 +177,9 @@ class AnnouncementItemPipeline:
     def _filter_articles(self, source, spider) -> list[dict]:
         articles = []
         for index, article in enumerate(source["articles"]):
-            reason = http_url_error(article.get("link"))
-            if reason:
+            try:
+                link = normalize_http_url(article.get("link"), base_url=source["link"])
+            except InvalidHttpUrl as error:
                 spider.logger.warning(
                     "Skipping invalid announcement URL: source=%s article=%s "
                     "title=%r link=%r: %s",
@@ -186,10 +187,10 @@ class AnnouncementItemPipeline:
                     index,
                     article.get("title"),
                     article.get("link"),
-                    reason,
+                    error,
                 )
             else:
-                articles.append(article)
+                articles.append({**article, "link": link})
         return articles
 
     def _save_individual_item(self, item: AnnouncementItem | dict) -> None:
@@ -221,7 +222,7 @@ class AnnouncementItemPipeline:
                 )
                 source = self.previous[link]
                 articles = self._filter_articles(source, spider)
-                if len(articles) != len(source["articles"]):
+                if articles != source["articles"]:
                     source = {**source, "articles": articles}
                     self._save_individual_item(source)
                 merged.append(source)

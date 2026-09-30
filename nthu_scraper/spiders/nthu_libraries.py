@@ -11,14 +11,24 @@ temporary outage (or an IP block on CI runners) never wipes existing data.
 """
 
 import hashlib
+import logging
+from copy import deepcopy
 from datetime import date, datetime, timedelta, timezone
 from typing import Any
-from urllib.parse import quote, urljoin
+from urllib.parse import quote
 
 import icalendar
 import recurring_ical_events
 import scrapy
 from lxml import etree
+from pydantic import (
+    BaseModel,
+    ConfigDict,
+    Field,
+    TypeAdapter,
+    ValidationError,
+    field_validator,
+)
 from scrapy.http import Response
 from scrapy.selector import Selector
 
@@ -28,8 +38,13 @@ from nthu_scraper.utils.constants import (
 )
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.url_utils import (
+    normalize_http_url,
+    normalize_optional_http_url,
+)
 
-LIBRARY_BASE_URL = "https://www.lib.nthu.edu.tw/"
+logger = logging.getLogger(__name__)
+LIBRARY_BASE_URL = normalize_http_url("https://www.lib.nthu.edu.tw/")
 RSS_URL_TEMPLATE = "https://www.lib.nthu.edu.tw/bulletin/RSS/export/rss_{}.xml"
 RSS_TYPES = ["news", "eresources", "exhibit", "branches"]
 
@@ -50,16 +65,86 @@ class InvalidLibrarySource(ValueError):
     """An upstream document cannot be safely parsed as a complete source."""
 
 
-def normalize_rss_item_urls(item: dict[str, Any]) -> None:
-    """Resolve relative links in an RSS item against the library website."""
-    if item.get("link"):
-        item["link"] = urljoin(LIBRARY_BASE_URL, item["link"])
+class LibraryRssImage(BaseModel):
+    model_config = ConfigDict(extra="allow")
 
+    url: str | None = None
+    title: str | None = None
+    link: str | None = None
+
+
+class LibraryRssItem(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
+    guid: str | None = None
+    category: str | None = None
+    title: str = Field(min_length=1)
+    link: str | None = None
+    pubDate: str | None = None
+    description: str
+    author: str | None = None
+    image: LibraryRssImage | None = None
+
+    @field_validator("title")
+    @classmethod
+    def require_nonblank_title(cls, value: str) -> str:
+        if not value.strip():
+            raise ValueError("RSS article title must contain non-whitespace text")
+        return value
+
+
+_RSS_ITEMS_ADAPTER = TypeAdapter(list[LibraryRssItem])
+
+
+def normalize_rss_item_urls(
+    item: dict[str, Any], *, source: str = LIBRARY_BASE_URL
+) -> None:
+    """Normalize image URLs, leaving the article's link text untouched."""
     image = item.get("image")
-    if isinstance(image, dict):
-        for field in ("url", "link"):
-            if image.get(field):
-                image[field] = urljoin(LIBRARY_BASE_URL, image[field])
+    if image is None:
+        return
+    if not isinstance(image, dict):
+        raise InvalidLibrarySource("RSS image must be an object or null")
+    context = (
+        f"library RSS image (source={source} guid={item.get('guid')!r} "
+        f"title={item.get('title')!r})"
+    )
+    url = normalize_optional_http_url(
+        image.get("url"),
+        base_url=LIBRARY_BASE_URL,
+        logger=logger,
+        context=context,
+    )
+    if url is None:
+        item["image"] = None
+        return
+    image["url"] = url
+    image["link"] = normalize_optional_http_url(
+        image.get("link"),
+        base_url=LIBRARY_BASE_URL,
+        logger=logger,
+        context=f"{context} link",
+    )
+
+
+def normalize_rss_items(
+    data: object, *, source: str = LIBRARY_BASE_URL
+) -> list[dict[str, Any]]:
+    """Validate a whole feed without dropping articles or publisher metadata."""
+    if not isinstance(data, list):
+        raise InvalidLibrarySource("RSS feed must be an array")
+    items = deepcopy(data)
+    for item in items:
+        if not isinstance(item, dict):
+            raise InvalidLibrarySource("RSS article must be an object")
+        if isinstance(item.get("link"), str) and not item["link"].strip():
+            item["link"] = None
+        normalize_rss_item_urls(item, source=source)
+    try:
+        parsed = _RSS_ITEMS_ADAPTER.validate_python(items, strict=True)
+    except ValidationError as error:
+        raise InvalidLibrarySource(str(error)) from error
+    return [item.model_dump(mode="json") for item in parsed]
 
 
 def parse_rss(xml_text: str) -> list[dict[str, Any]]:
@@ -79,13 +164,15 @@ def parse_rss(xml_text: str) -> list[dict[str, Any]]:
     selector = Selector(text=xml_text, type="xml")
     selector.remove_namespaces()
 
-    def text_of(node: Selector, tag: str) -> str | None:
+    def text_of(node: Selector, tag: str, *, strip: bool = True) -> str | None:
         value = node.xpath(f"{tag}/text()").get()
-        return value.strip() if value and value.strip() else None
+        if not value or not value.strip():
+            return None
+        return value.strip() if strip else value
 
-    channels = selector.xpath("//channel")
-    if not channels:
-        raise InvalidLibrarySource("RSS response does not contain a channel")
+    channels = selector.xpath("/rss/channel")
+    if len(channels) != 1:
+        raise InvalidLibrarySource("RSS response must contain exactly one RSS channel")
 
     items = []
     for node in channels[0].xpath("item"):
@@ -93,7 +180,7 @@ def parse_rss(xml_text: str) -> list[dict[str, Any]]:
             "guid": text_of(node, "guid"),
             "category": text_of(node, "category"),
             "title": text_of(node, "title"),
-            "link": text_of(node, "link"),
+            "link": text_of(node, "link", strip=False),
             "pubDate": text_of(node, "pubDate"),
             "description": (text_of(node, "description") or "").replace("<br />", ""),
             "author": text_of(node, "author"),
@@ -111,9 +198,8 @@ def parse_rss(xml_text: str) -> list[dict[str, Any]]:
                 "link": text_of(image_node[0], "link"),
             }
 
-        normalize_rss_item_urls(item)
         items.append(item)
-    return items
+    return normalize_rss_items(items)
 
 
 def _to_iso(value: date | datetime) -> str:
@@ -141,10 +227,26 @@ def _validate_calendar(calendar: icalendar.Calendar) -> None:
             raise InvalidLibrarySource(
                 f"Invalid calendar properties: {component.errors}"
             )
-        if component.name == "VEVENT" and not isinstance(
-            getattr(component.get("DTSTART"), "dt", None), (date, datetime)
-        ):
-            raise InvalidLibrarySource("Calendar event has no usable DTSTART")
+        if component.name == "VEVENT":
+            _validate_event(component)
+
+
+def _validate_event(event: icalendar.Event) -> None:
+    start = getattr(event.get("DTSTART"), "dt", None)
+    if not isinstance(start, (date, datetime)):
+        raise InvalidLibrarySource("Calendar event has no usable DTSTART")
+    if event.get("DTEND") is None:
+        return
+    end = getattr(event.get("DTEND"), "dt", None)
+    if not isinstance(end, (date, datetime)):
+        raise InvalidLibrarySource("Calendar event has no usable DTEND")
+    if isinstance(start, datetime) != isinstance(end, datetime):
+        raise InvalidLibrarySource("Calendar event mixes date and datetime boundaries")
+    parse = (
+        datetime.fromisoformat if isinstance(start, datetime) else date.fromisoformat
+    )
+    if parse(_to_iso(end)) < parse(_to_iso(start)):
+        raise InvalidLibrarySource("Calendar event ends before it starts")
 
 
 def parse_calendar(
@@ -170,6 +272,7 @@ def parse_calendar(
     except ValueError as error:
         raise InvalidLibrarySource(str(error)) from error
     for event in occurrences:
+        _validate_event(event)
         dtstart = event.get("DTSTART").dt
         dtend_prop = event.get("DTEND")
         if dtend_prop is not None:
@@ -225,7 +328,7 @@ class LibrariesSpider(scrapy.Spider):
     async def start(self):
         for rss_type in RSS_TYPES:
             yield scrapy.Request(
-                RSS_URL_TEMPLATE.format(rss_type),
+                normalize_http_url(RSS_URL_TEMPLATE.format(rss_type)),
                 callback=self.parse_rss_feed,
                 errback=self.handle_error,
                 cb_kwargs={"rss_type": rss_type},
@@ -233,7 +336,7 @@ class LibrariesSpider(scrapy.Spider):
 
         for calendar_id, google_id in CALENDARS.items():
             yield scrapy.Request(
-                ICAL_URL_TEMPLATE.format(quote(google_id)),
+                normalize_http_url(ICAL_URL_TEMPLATE.format(quote(google_id))),
                 callback=self.parse_calendar_feed,
                 errback=self.handle_error,
                 cb_kwargs={"calendar_id": calendar_id, "google_id": google_id},
@@ -270,7 +373,9 @@ class LibrariesSpider(scrapy.Spider):
                 "name": calendar["name"],
                 "description": calendar["description"],
                 "timezone": calendar["timezone"],
-                "url": CALENDAR_EMBED_URL_TEMPLATE.format(google_id),
+                "url": normalize_http_url(
+                    CALENDAR_EMBED_URL_TEMPLATE.format(google_id)
+                ),
                 "events": calendar["events"],
             },
         }
@@ -295,6 +400,13 @@ class LibrariesPipeline:
             self.previous_calendars, list
         ):
             raise ValueError("Invalid library baseline structure")
+        self.previous_rss = {
+            key: normalize_rss_items(items, source=key)
+            for key, items in self.previous_rss.items()
+        }
+        self.rss_baseline_changed = (
+            previous_rss is not None and self.previous_rss != previous_rss
+        )
         spider.logger.info(
             "Loaded library baseline: %d RSS feeds and %d calendars",
             len(self.previous_rss),
@@ -303,6 +415,7 @@ class LibrariesPipeline:
 
     def process_item(self, item, spider):
         if item["kind"] == "rss":
+            item["data"] = normalize_rss_items(item["data"], source=item["key"])
             if not item["data"] and self.previous_rss.get(item["key"]):
                 spider.logger.warning("Empty RSS refresh; retaining %s", item["key"])
                 return item
@@ -320,11 +433,13 @@ class LibrariesPipeline:
         return item
 
     def close_spider(self, spider):
-        if self.rss:
+        if self.rss or self.rss_baseline_changed:
             # Start from the previous file so feeds that failed this run are kept.
             rss_data = self.previous_rss.copy()
             rss_data.update(self.rss)
             rss_data = {key: rss_data[key] for key in RSS_TYPES if key in rss_data}
+            if self.rss_baseline_changed:
+                spider.logger.warning("Normalized retained library RSS data")
             self._save(spider, rss_data, LIBRARIES_RSS_JSON_PATH)
         else:
             spider.logger.error("❌ No RSS feed was crawled; keeping existing data")
