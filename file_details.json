@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c4d5e0c6cda470c8a99ca9941ce11b083ecc976a1adb0a40cd2f6d9698fcedf6",
-        "last_updated": "2026-09-30T00:22:44.534168+08:00",
+        "last_commit": "b3ebf1b8dca2ff7d76dee207f881ae515c78ca86b83ebdfea790e25fd0670513",
+        "last_updated": "2026-09-30T08:55:33.817306+08:00",
         "name": "announcements.json",
-        "sha256": "c4d5e0c6cda470c8a99ca9941ce11b083ecc976a1adb0a40cd2f6d9698fcedf6",
-        "version": "c4d5e0c6cda470c8a99ca9941ce11b083ecc976a1adb0a40cd2f6d9698fcedf6"
+        "sha256": "b3ebf1b8dca2ff7d76dee207f881ae515c78ca86b83ebdfea790e25fd0670513",
+        "version": "b3ebf1b8dca2ff7d76dee207f881ae515c78ca86b83ebdfea790e25fd0670513"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -37,11 +37,11 @@
         "version": "26992a83cb29d024ef7e2af30eda1927a873e7fe34d8afc8d0eaad53d4375302"
       },
       {
-        "last_commit": "0991d8f8e292eb785770309b07b0ca7f81e88036896bfdf4bc4f5bc72a6d9182",
-        "last_updated": "2026-09-29T16:27:19.295812+08:00",
+        "last_commit": "5563888aaaa6267911ee504d1209f7535b77c3f84b027dcaf49ce8e11fb63bfd",
+        "last_updated": "2026-09-30T08:55:33.817306+08:00",
         "name": "dining.json",
-        "sha256": "0991d8f8e292eb785770309b07b0ca7f81e88036896bfdf4bc4f5bc72a6d9182",
-        "version": "0991d8f8e292eb785770309b07b0ca7f81e88036896bfdf4bc4f5bc72a6d9182"
+        "sha256": "5563888aaaa6267911ee504d1209f7535b77c3f84b027dcaf49ce8e11fb63bfd",
+        "version": "5563888aaaa6267911ee504d1209f7535b77c3f84b027dcaf49ce8e11fb63bfd"
       },
       {
         "last_commit": "ff70afaf481da37dacb165e011aab8732f2ca816fc0922b14b4ae620a13db56f",
@@ -83,11 +83,11 @@
         "version": "380b6ea8558250c6e31abe39ea636821f3dd83e095a788a98210c342c20886ab"
       },
       {
-        "last_commit": "18c306137b9a50e4962fc1e5f845eda279ef543cdf08eef54b5895b1b9f53730",
-        "last_updated": "2026-09-30T00:22:44.534168+08:00",
+        "last_commit": "f116fdbe1ec1d35c785a76640bb169cb3f23da0794bf3a5aa062396c2f45ce20",
+        "last_updated": "2026-09-30T08:55:33.817306+08:00",
         "name": "校外活動_zh-tw.json",
-        "sha256": "18c306137b9a50e4962fc1e5f845eda279ef543cdf08eef54b5895b1b9f53730",
-        "version": "18c306137b9a50e4962fc1e5f845eda279ef543cdf08eef54b5895b1b9f53730"
+        "sha256": "f116fdbe1ec1d35c785a76640bb169cb3f23da0794bf3a5aa062396c2f45ce20",
+        "version": "f116fdbe1ec1d35c785a76640bb169cb3f23da0794bf3a5aa062396c2f45ce20"
       },
       {
         "last_commit": "4be9e2b9ec33ef613cd913ac6846793be2e845b03272a0431f42c54d742ac9f5",
@@ -1330,11 +1330,11 @@
         "version": "bbd55a13e1c6c866427894f008d43b17709fb0021f77ac9f46d305bf3da90685"
       },
       {
-        "last_commit": "b63d21c75160ac52b681155d3e064a4fef42ad1fe04e1d5184b269348ddbb263",
-        "last_updated": "2026-09-29T18:20:01.929793+08:00",
+        "last_commit": "d0a75ff265487dce80fb03d51fb054b37f8b7e0aa2e9744239fb19822659abba",
+        "last_updated": "2026-09-30T08:55:33.817306+08:00",
         "name": "訊息公告_zh-tw.json",
-        "sha256": "b63d21c75160ac52b681155d3e064a4fef42ad1fe04e1d5184b269348ddbb263",
-        "version": "b63d21c75160ac52b681155d3e064a4fef42ad1fe04e1d5184b269348ddbb263"
+        "sha256": "d0a75ff265487dce80fb03d51fb054b37f8b7e0aa2e9744239fb19822659abba",
+        "version": "d0a75ff265487dce80fb03d51fb054b37f8b7e0aa2e9744239fb19822659abba"
       }
     ],
     "announcements/清華學院語文中心": [
@@ -2454,11 +2454,11 @@
         "version": "8109651f48197f3d797b2bb8f6c2e9c92d6fbe3029511dd1549c735789acfcb5"
       },
       {
-        "last_commit": "37fb0a43bd7d11853aafcfbcc25b0e37d24705e631359c392a1bb5fe9104601f",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "43562c37538a79aeb559b37d12131d6d41edf13ad3a1054f647571b67de202e6",
+        "last_updated": "2026-09-30T08:55:33.817306+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "37fb0a43bd7d11853aafcfbcc25b0e37d24705e631359c392a1bb5fe9104601f",
-        "version": "37fb0a43bd7d11853aafcfbcc25b0e37d24705e631359c392a1bb5fe9104601f"
+        "sha256": "43562c37538a79aeb559b37d12131d6d41edf13ad3a1054f647571b67de202e6",
+        "version": "43562c37538a79aeb559b37d12131d6d41edf13ad3a1054f647571b67de202e6"
       }
     ],
     "announcements/總務處經營管理組": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-30T06:18:49.644853+08:00"
+  "last_updated": "2026-09-30T08:55:33.817306+08:00"
 }
