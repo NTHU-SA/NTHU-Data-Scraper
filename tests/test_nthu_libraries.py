@@ -240,6 +240,21 @@ class TestParseRss:
             rss_article("News")
         ]
 
+    @pytest.mark.parametrize("title", ["", " ", "\t\n", "\u3000", "\u00a0", "\x1c"])
+    def test_nonblank_title_is_required_for_fresh_and_retained_feeds(self, title):
+        with pytest.raises(nthu_libraries.InvalidLibrarySource):
+            parse_rss(
+                "<rss><channel><item>"
+                f"<title>{escape(title)}</title>"
+                "</item></channel></rss>"
+            )
+        with pytest.raises(nthu_libraries.InvalidLibrarySource):
+            normalize_rss_items([rss_article(title)])
+
+    def test_valid_retained_title_text_is_preserved(self):
+        title = " \tMeaningful title\u3000"
+        assert normalize_rss_items([rss_article(title)])[0]["title"] == title
+
     def test_published_url_cases_preserve_all_articles(self, published_items):
         assert len(published_items) == 5
         assert published_items[0]["link"] == (
@@ -469,6 +484,11 @@ class TestLibrariesPipeline:
             [{}],
             [{"title": "News"}],
             [{"title": 42, "description": ""}],
+            [{"title": "", "description": ""}],
+            [{"title": " ", "description": ""}],
+            [{"title": "\t\n", "description": ""}],
+            [{"title": "\u3000", "description": ""}],
+            [{"title": "\u00a0", "description": ""}],
             [{"title": "News", "description": "", "link": 42}],
             [{"title": "News", "description": "", "image": []}],
         ],
@@ -481,12 +501,16 @@ class TestLibrariesPipeline:
             self._run([])
         assert rss_path.read_bytes() == original
 
-    def test_invalid_fresh_item_does_not_get_published(self, paths):
+    @pytest.mark.parametrize(
+        "article",
+        [{"title": 42}, rss_article(" "), rss_article("\u3000")],
+    )
+    def test_invalid_fresh_item_does_not_get_published(self, paths, article):
         rss_path, _ = paths
         original = json.dumps({"news": [rss_article("Old")]}).encode()
         rss_path.write_bytes(original)
         with pytest.raises(nthu_libraries.InvalidLibrarySource):
-            self._run([{"kind": "rss", "key": "news", "data": [{"title": 42}]}])
+            self._run([{"kind": "rss", "key": "news", "data": [article]}])
         assert rss_path.read_bytes() == original
 
     def test_storage_error_is_not_hidden(self, paths, monkeypatch):

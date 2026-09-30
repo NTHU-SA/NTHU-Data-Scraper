@@ -186,6 +186,17 @@ def test_malformed_library_baseline_fails_real_crawl(tmp_path):
     assert path.read_bytes() == b"{invalid"
 
 
+@pytest.mark.parametrize("title", [" ", "\t\n", "\u3000"])
+def test_whitespace_library_title_blocks_publication(tmp_path, title):
+    path = tmp_path / "libraries" / "rss.json"
+    write_json_atomic({"news": [{"title": title, "description": ""}]}, path)
+    original = path.read_bytes()
+    result = run_spider(tmp_path, "offline_libraries")
+    assert result.returncode != 0, result.stdout + result.stderr
+    assert "RSS article title must contain non-whitespace text" in result.stderr
+    assert path.read_bytes() == original
+
+
 def test_library_implementation_failure_exits_nonzero(tmp_path):
     result = run_spider(tmp_path, "offline_broken_library")
     assert result.returncode != 0, result.stdout + result.stderr

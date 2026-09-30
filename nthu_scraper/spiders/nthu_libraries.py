@@ -21,7 +21,14 @@ import icalendar
 import recurring_ical_events
 import scrapy
 from lxml import etree
-from pydantic import BaseModel, ConfigDict, Field, TypeAdapter, ValidationError
+from pydantic import (
+    BaseModel,
+    ConfigDict,
+    Field,
+    TypeAdapter,
+    ValidationError,
+    field_validator,
+)
 from scrapy.http import Response
 from scrapy.selector import Selector
 
@@ -77,6 +84,13 @@ class LibraryRssItem(BaseModel):
     description: str
     author: str | None = None
     image: LibraryRssImage | None = None
+
+    @field_validator("title")
+    @classmethod
+    def require_nonblank_title(cls, value: str) -> str:
+        if not value.strip():
+            raise ValueError("RSS article title must contain non-whitespace text")
+        return value
 
 
 _RSS_ITEMS_ADAPTER = TypeAdapter(list[LibraryRssItem])

@@ -119,8 +119,9 @@ URL checks validate syntax, not live HTTP availability.
 
 Library RSS normalization retains every article and unknown fields in JSON
 snapshots. Fresh and retained feeds use the same output shape and image
-normalization, including when all RSS requests fail. Structural feed errors
-retain the previous source; corrupt baselines block the crawl instead of
+normalization, including when all RSS requests fail. RSS titles must contain a
+non-whitespace character in both fresh and retained feeds. Structural feed
+errors retain the previous source; corrupt baselines block the crawl instead of
 silently replacing data. Library and academic calendars reject reversed or
 mixed date/datetime event boundaries before publication, retaining the previous
 source on invalid upstream data.
