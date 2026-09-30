@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "502285111d69cd6098f13314110e7ef8004268b112a78883c78800365ed0619c",
-        "last_updated": "2026-09-30T16:27:40.764027+08:00",
+        "last_commit": "af21d106531d0c7c63be6c0c3cac436508d07d9b0fcf155a40ac251c2d7e58e9",
+        "last_updated": "2026-09-30T18:20:22.565429+08:00",
         "name": "announcements.json",
-        "sha256": "502285111d69cd6098f13314110e7ef8004268b112a78883c78800365ed0619c",
-        "version": "502285111d69cd6098f13314110e7ef8004268b112a78883c78800365ed0619c"
+        "sha256": "af21d106531d0c7c63be6c0c3cac436508d07d9b0fcf155a40ac251c2d7e58e9",
+        "version": "af21d106531d0c7c63be6c0c3cac436508d07d9b0fcf155a40ac251c2d7e58e9"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -37,11 +37,11 @@
         "version": "26992a83cb29d024ef7e2af30eda1927a873e7fe34d8afc8d0eaad53d4375302"
       },
       {
-        "last_commit": "12be1ce2ec85d6e96f4b1324790efe2a32e76d7eab70a0c56542c029aae5e13e",
-        "last_updated": "2026-09-30T16:27:40.764027+08:00",
+        "last_commit": "914b9a2b5aa554e3857427400c07663ce2783a1c025abb82e613fb2561226deb",
+        "last_updated": "2026-09-30T18:20:22.565429+08:00",
         "name": "dining.json",
-        "sha256": "12be1ce2ec85d6e96f4b1324790efe2a32e76d7eab70a0c56542c029aae5e13e",
-        "version": "12be1ce2ec85d6e96f4b1324790efe2a32e76d7eab70a0c56542c029aae5e13e"
+        "sha256": "914b9a2b5aa554e3857427400c07663ce2783a1c025abb82e613fb2561226deb",
+        "version": "914b9a2b5aa554e3857427400c07663ce2783a1c025abb82e613fb2561226deb"
       },
       {
         "last_commit": "ff70afaf481da37dacb165e011aab8732f2ca816fc0922b14b4ae620a13db56f",
@@ -1908,11 +1908,11 @@
         "version": "5c3f2453836c1f0aa271ba3702f4f23d33a3e9a7d75a28702a74f583202f5915"
       },
       {
-        "last_commit": "e19afe5f09589f506c01073c6e5d8b9ed6fe9a7cb289a9da74f960036c2a750e",
-        "last_updated": "2026-09-29T12:23:29.498759+08:00",
+        "last_commit": "962fb7dfa665221ebfde79385b6ab9dd3dab0fa4157298b3d17adf404605b775",
+        "last_updated": "2026-09-30T18:20:22.565429+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json",
-        "sha256": "e19afe5f09589f506c01073c6e5d8b9ed6fe9a7cb289a9da74f960036c2a750e",
-        "version": "e19afe5f09589f506c01073c6e5d8b9ed6fe9a7cb289a9da74f960036c2a750e"
+        "sha256": "962fb7dfa665221ebfde79385b6ab9dd3dab0fa4157298b3d17adf404605b775",
+        "version": "962fb7dfa665221ebfde79385b6ab9dd3dab0fa4157298b3d17adf404605b775"
       },
       {
         "last_commit": "0764f4064d30175f6cc4527fc93f76d2f4394e323baad5bc26b49698da399914",
@@ -1922,11 +1922,11 @@
         "version": "0764f4064d30175f6cc4527fc93f76d2f4394e323baad5bc26b49698da399914"
       },
       {
-        "last_commit": "92ade9e644eed0a24163c4bfc651a315a4da67d665ca700850fa86e79cb45fa3",
-        "last_updated": "2026-09-29T12:23:29.498759+08:00",
+        "last_commit": "9eba22a48ba9d7e50dec919dddeef1cfb4f71dff65bcc2885e781a8f9d1cb7d6",
+        "last_updated": "2026-09-30T18:20:22.565429+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json",
-        "sha256": "92ade9e644eed0a24163c4bfc651a315a4da67d665ca700850fa86e79cb45fa3",
-        "version": "92ade9e644eed0a24163c4bfc651a315a4da67d665ca700850fa86e79cb45fa3"
+        "sha256": "9eba22a48ba9d7e50dec919dddeef1cfb4f71dff65bcc2885e781a8f9d1cb7d6",
+        "version": "9eba22a48ba9d7e50dec919dddeef1cfb4f71dff65bcc2885e781a8f9d1cb7d6"
       }
     ],
     "announcements/竹師教育學院學習科學與科技研究所": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-30T16:27:40.764027+08:00"
+  "last_updated": "2026-09-30T18:20:22.565429+08:00"
 }
