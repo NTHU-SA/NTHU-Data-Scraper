@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "af21d106531d0c7c63be6c0c3cac436508d07d9b0fcf155a40ac251c2d7e58e9",
-        "last_updated": "2026-09-30T18:20:22.565429+08:00",
+        "last_commit": "d6aa23f4a5a3aafe8088a3d53aba748eaa074432b76382733c9abcdf5bad25f3",
+        "last_updated": "2026-09-30T20:33:32.723010+08:00",
         "name": "announcements.json",
-        "sha256": "af21d106531d0c7c63be6c0c3cac436508d07d9b0fcf155a40ac251c2d7e58e9",
-        "version": "af21d106531d0c7c63be6c0c3cac436508d07d9b0fcf155a40ac251c2d7e58e9"
+        "sha256": "d6aa23f4a5a3aafe8088a3d53aba748eaa074432b76382733c9abcdf5bad25f3",
+        "version": "d6aa23f4a5a3aafe8088a3d53aba748eaa074432b76382733c9abcdf5bad25f3"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -1908,11 +1908,11 @@
         "version": "5c3f2453836c1f0aa271ba3702f4f23d33a3e9a7d75a28702a74f583202f5915"
       },
       {
-        "last_commit": "962fb7dfa665221ebfde79385b6ab9dd3dab0fa4157298b3d17adf404605b775",
-        "last_updated": "2026-09-30T18:20:22.565429+08:00",
+        "last_commit": "0cae37d8ff3c73fc9de179a9a66e1cff4e635e1b19590b91da90bd1a8d3914b0",
+        "last_updated": "2026-09-30T20:33:32.723010+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json",
-        "sha256": "962fb7dfa665221ebfde79385b6ab9dd3dab0fa4157298b3d17adf404605b775",
-        "version": "962fb7dfa665221ebfde79385b6ab9dd3dab0fa4157298b3d17adf404605b775"
+        "sha256": "0cae37d8ff3c73fc9de179a9a66e1cff4e635e1b19590b91da90bd1a8d3914b0",
+        "version": "0cae37d8ff3c73fc9de179a9a66e1cff4e635e1b19590b91da90bd1a8d3914b0"
       },
       {
         "last_commit": "0764f4064d30175f6cc4527fc93f76d2f4394e323baad5bc26b49698da399914",
@@ -1922,11 +1922,11 @@
         "version": "0764f4064d30175f6cc4527fc93f76d2f4394e323baad5bc26b49698da399914"
       },
       {
-        "last_commit": "9eba22a48ba9d7e50dec919dddeef1cfb4f71dff65bcc2885e781a8f9d1cb7d6",
-        "last_updated": "2026-09-30T18:20:22.565429+08:00",
+        "last_commit": "bea7a293e58455f29cbe7a65bbc0e293df9149146e1f216993251efedc803990",
+        "last_updated": "2026-09-30T20:33:32.723010+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json",
-        "sha256": "9eba22a48ba9d7e50dec919dddeef1cfb4f71dff65bcc2885e781a8f9d1cb7d6",
-        "version": "9eba22a48ba9d7e50dec919dddeef1cfb4f71dff65bcc2885e781a8f9d1cb7d6"
+        "sha256": "bea7a293e58455f29cbe7a65bbc0e293df9149146e1f216993251efedc803990",
+        "version": "bea7a293e58455f29cbe7a65bbc0e293df9149146e1f216993251efedc803990"
       }
     ],
     "announcements/竹師教育學院學習科學與科技研究所": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-30T18:20:22.565429+08:00"
+  "last_updated": "2026-09-30T20:33:32.723010+08:00"
 }
