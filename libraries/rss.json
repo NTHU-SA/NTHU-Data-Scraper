@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2032",
+            "category": "展覽與活動",
+            "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
+            "link": null,
+            "pubDate": "Wed, 30 Sep 2026 08:47:48 +0800",
+            "description": "週三午後，是否感受到一絲疲憊？\n\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n\n讓這段音樂時光，成為你重新充滿活力的源泉。\n\n■ 時間 | 10 / 7 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n   (空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 蕭泰然：C調大提琴協奏曲 /《聽見歌再唱》電影原聲帶\n   \n蕭泰然1938年出生於台灣高雄市，是鋼琴家、作曲家，也是指揮家。曾因經濟與政治因素不得不遠走美國，近20年的光陰裡，他只能透過音樂抒發對故鄉台灣的思念；創作於此時期的大提琴協奏曲，融入臺灣民謠、阿美族舞曲等元素，也是蕭泰然作品中唯一在臺灣完成世界首演的協奏曲。\n\n《聽見歌再唱》電影改編自信義鄉原聲童聲合唱團創團的經過，一座偏鄉學校的孩子為了不讓學校被廢，組成一支合唱團參加比賽，最終從歌聲裡找回自信與自我認同。雖然每個人的聲音都不一樣，但只要「聽見歌，再唱」，合起來就是剛剛好的聲音！",
+            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261007_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
+                "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2033",
             "category": "電子資源",
             "title": "【電子資源】請勿大量下載！「聯合知識庫全文報紙資料庫」因異常存取暫停使用",
@@ -53,20 +67,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20260924_LRS_HeinOnline.jpg",
                 "title": "【試用資源】HeinOnline Academic Core Collection，歡迎多多利用！",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "2024",
-            "category": "展覽與活動",
-            "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
-            "link": null,
-            "pubDate": "Tue, 22 Sep 2026 14:38:27 +0800",
-            "description": "週三午後，是否感受到一絲疲憊？\n\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n\n讓這段音樂時光，成為你重新充滿活力的源泉。\n\n■ 時間 | 9 / 30 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n   (空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 布魯赫：蘇格蘭幻想曲 (黑膠專場)\n   \n《蘇格蘭幻想曲》完整的德文曲名是「為小提琴、管弦樂與豎琴的，自由使用蘇格蘭民謠的『蘇格蘭幻想曲』」，布魯赫自蘇格蘭詩人華特．史考特作品中獲得創作靈感，寫下這首充滿異國風味的名曲，並提獻給小提琴巨擘薩拉沙泰。\n\n本曲形式自由、旋律優美，各樂章中特別引用了多首蘇格蘭的民謠，並且巧妙安排獨奏小提琴、豎琴交織演奏，模仿蘇格蘭代表樂器風笛的聲響，兼具高度藝術性與文學性。",
-            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/2/20260930_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
-                "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -137,20 +137,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20261013_LRS_IEEE.jpg",
                 "title": "【實體講座】歡迎報名10/13(二)「百發百中：IEEE Fellow分享學術發表的高勝率心法」",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "1990",
-            "category": "展覽與活動",
-            "title": "【特展徵件】圖書館知識集主題特展合作徵集中－讓成果被更多人看見！",
-            "link": "https://www.lib.nthu.edu.tw/use/exhibition_apply.html",
-            "pubDate": "Wed, 16 Sep 2026 10:30:18 +0800",
-            "description": "圖書館定期於總圖一樓「知識集」辦理主題特展，我們邀請校內教師及單位將不同領域的研發成果帶出教室，開啟更多交流與對話，讓圖書館不只是閱讀與學習的空間，也是讓知識相遇與激盪的場域。 \n\n116年10月至117年2月合作展覽現正開放申請！ \n無論是豐富的研發成果、具特色的教學主題，或值得與大家分享的跨領域知識，都歡迎提出展覽申請，讓您的成果透過展覽被更多人看見！\n\n展覽時間｜ 116年10月至117年2月\n申請資格｜ 本校單位、本校現任專任教師\n申請時間｜ 即日起至115年9月30日止\n\n歡迎至圖書館網頁了解展場空間及申請方式\nhttps://www.lib.nthu.edu.tw/use/exhibition_apply.html\n\n期待您的精彩提案，一起讓「知識集」成為更多好知識、好故事發生的地方！",
-            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/2/20260826_%E7%9F%A5%E8%AD%98%E9%9B%86%E5%90%88%E4%BD%9C%E5%BE%B5%E9%9B%86%E4%B8%AD.jpg",
-                "title": "【特展徵件】圖書館知識集主題特展合作徵集中－讓成果被更多人看見！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -263,20 +249,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20260807_NTHUScholars.jpg",
                 "title": "【清華學人】完成 ORCID 串接讓研究成果自動匯入，學術履歷一次到位。",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "1991",
-            "category": "電子資源",
-            "title": "【試用資源】ACI學術引用文獻資料庫，歡迎多多利用！",
-            "link": "https://www.airitiaci.com/",
-            "pubDate": "Wed, 26 Aug 2026 11:37:14 +0800",
-            "description": "ACI學術引用文獻資料庫(Academic Citation Index)，收錄台灣及港澳逾七百種優質人文及社會科學學術期刊之書目及引文資料，包含臺灣社會科學核心期刊(TSSCI)與人文學核心期刊(THCI)。透過ACI，不但能在查找文獻時瞭解書目及瀏覽參考文獻，以瞭解文獻間承先啟後之脈絡，更可利用引文之間的交互連結關係，快速找到更多的相關文獻、或掌握特定條件的重要文獻。\n\n※試用網址：https://www.airitiaci.com/\n※試用期間：即日起至2026年9月30日止。\n※試用說明：\n1.校外使用請先登錄NTHU-VPN後連線使用。\n2.使用時請遵守出版社使用規範及著作權聲明，請勿大量下載或使用任何程式軟體進行自動下載，以免觸法，並影響全校讀者使用權益。\n\n歡迎回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260826_LRS_ACI.jpg",
-                "title": "【試用資源】ACI學術引用文獻資料庫，歡迎多多利用！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -435,20 +407,6 @@
             }
         },
         {
-            "guid": "1949",
-            "category": "服務消息",
-            "title": "【服務公告】「享時小間」服務範圍擴大！7月20日起總圖6樓與人社分館全面納入適用，借用新制同步上路",
-            "link": null,
-            "pubDate": "Mon, 20 Jul 2026 09:24:51 +0800",
-            "description": "為提升圖書館空間的使用彈性，並提供更多元、便利的自主學習研究環境，本館將於2026/7/20 起針對原研究小間 603-615 和人社分館研究小間01-03進行空間更名，並同步實施研究小間「計日型」借用新規。\n空間調整與借用新規說明如下，敬請留意：\n☆空間更名，「享時小間」範圍擴大  \n調整後，總圖 6 樓與人社分館之空間皆納入「享時小間」範疇，讀者可依需求選擇合適的借用模式。\n☆研究小間使用須知修訂（計日借用新制上路）\n●預約時間調整\n開放預約時間調整為 14 日內。\n●借用期限調整\n每次借用期限調整為 至少 1 日，至多 3 日。\n●預約資格放寬 \n新增開放 大學部三年級（含以上）學生 可預約使用。\n\n相關連結：\n國立清華大學圖書館研究小間使用須知     \nhttps://www.lib.nthu.edu.tw/use/policies/policy03.html\n\n享時小間介紹\nhttps://www.lib.nthu.edu.tw/use/hourly_study_pod.html\n\n空間管理系統 線上預約\nhttps://libsms.lib.nthu.edu.tw/build/ ",
-            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
-                "title": "【服務公告】「享時小間」服務範圍擴大！7月20日起總圖6樓與人社分館全面納入適用，借用新制同步上路",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
             "guid": "1944",
             "category": "電子資源",
             "title": "【新進資源】TKC Law Library日本法學資料庫，歡迎多多利用！",
@@ -515,20 +473,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/0701_CHI.jpg",
                 "title": "【學位論文】 授權設定、上傳與繳交步驟提醒",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "1930",
-            "category": "電子資源",
-            "title": "【試用資源】繙云文獻，歡迎多多利用！",
-            "link": "https://fanyun.hunteq.com/",
-            "pubDate": "Wed, 17 Jun 2026 13:23:31 +0800",
-            "description": "《繙云文獻》整合極具學術價值的報紙、剪報及珍稀文書，收錄內容：\n\n【臺灣文獻】1.公論報 2.自立晚報 3.臺灣詩詞庫(含風月報/三六九小報) 4.臺灣民報系列(臺灣民報/臺灣新民報/臺灣/臺灣青年) 5.漢/日文臺灣日日新報 6.Taiwan JIHO臺灣時報系列(包含臺灣協會會報、臺灣時報)\n\n【近代報刊】1.民國日報 2.大公報 3.中央日報 4.申報\n\n【滿鐵文獻】1.滿鐵調查時報/月報 2.滿鐵剪報 3.滿鐵外務省文書\n\n【古籍文獻】1.四庫分類書(續修) 2.續四部叢刊(四部備要) 3.四庫全書 4.四庫存目 5.四庫未收書 6.四庫禁毀書 7.六府文藏 8.四部叢刊 9.永樂大典 10.古今圖書集成 11.日本古典書籍庫 12.正統道藏 13.道藏輯要 14.中國地方誌 15.清代史料 16.敦煌史料 17.醫家庫 18.金石庫 19.明清詩文集(包含明別集叢刊、清代詩文彙編) 20.清代科舉硃卷 21.中國民間文學\n\n※試用網址：https://fanyun.hunteq.com/\n※試用期間：即日起至2026年9月30日止。\n※試用說明：校外使用請先登錄NTHU-VPN後連線使用。\n\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260617_LRS_Fanyun.jpg",
-                "title": "【試用資源】繙云文獻，歡迎多多利用！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -729,20 +673,6 @@
             }
         },
         {
-            "guid": "1905",
-            "category": "電子資源",
-            "title": "【服務公告】CNKI中國知網國際版網址（URL）更新",
-            "link": null,
-            "pubDate": "Tue, 26 May 2026 11:39:31 +0800",
-            "description": "CNKI中國知網國際版網址（URL）更新，詳細資訊如下：\n\n舊網址： https://tra.oversea.cnki.net\n新網址： https://oversea.cnki.net/tra\n\n提醒您同步更新瀏覽器書籤、我的最愛及已儲存的網址；若遇網站無法開啟或登入異常情形，建議清除瀏覽器快取後重新連線。感謝您的配合與使用。",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260526_LRS_CNKI.jpg",
-                "title": "【服務公告】CNKI中國知網國際版網址（URL）更新",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
             "guid": "1819",
             "category": "研習課程",
             "title": "【線上課程】The New York Times、TAEBDC電子書介紹與使用方式等圖書館資源線上教育訓練",
@@ -811,20 +741,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20260921_LRS_CNKI%20Trial.jpg",
                 "title": "【試用資源】CNKI知識暢達總庫、CNKI電子圖書庫、心可書館，歡迎多多利用！",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "1991",
-            "category": "電子資源",
-            "title": "【試用資源】ACI學術引用文獻資料庫，歡迎多多利用！",
-            "link": "https://www.airitiaci.com/",
-            "pubDate": "Wed, 26 Aug 2026 11:37:14 +0800",
-            "description": "ACI學術引用文獻資料庫(Academic Citation Index)，收錄台灣及港澳逾七百種優質人文及社會科學學術期刊之書目及引文資料，包含臺灣社會科學核心期刊(TSSCI)與人文學核心期刊(THCI)。透過ACI，不但能在查找文獻時瞭解書目及瀏覽參考文獻，以瞭解文獻間承先啟後之脈絡，更可利用引文之間的交互連結關係，快速找到更多的相關文獻、或掌握特定條件的重要文獻。\n\n※試用網址：https://www.airitiaci.com/\n※試用期間：即日起至2026年9月30日止。\n※試用說明：\n1.校外使用請先登錄NTHU-VPN後連線使用。\n2.使用時請遵守出版社使用規範及著作權聲明，請勿大量下載或使用任何程式軟體進行自動下載，以免觸法，並影響全校讀者使用權益。\n\n歡迎回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260826_LRS_ACI.jpg",
-                "title": "【試用資源】ACI學術引用文獻資料庫，歡迎多多利用！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -909,20 +825,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20260703SJ01.jpg",
                 "title": "【主題館藏】115學年度考古題已上架囉！！",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "1930",
-            "category": "電子資源",
-            "title": "【試用資源】繙云文獻，歡迎多多利用！",
-            "link": "https://fanyun.hunteq.com/",
-            "pubDate": "Wed, 17 Jun 2026 13:23:31 +0800",
-            "description": "《繙云文獻》整合極具學術價值的報紙、剪報及珍稀文書，收錄內容：\n\n【臺灣文獻】1.公論報 2.自立晚報 3.臺灣詩詞庫(含風月報/三六九小報) 4.臺灣民報系列(臺灣民報/臺灣新民報/臺灣/臺灣青年) 5.漢/日文臺灣日日新報 6.Taiwan JIHO臺灣時報系列(包含臺灣協會會報、臺灣時報)\n\n【近代報刊】1.民國日報 2.大公報 3.中央日報 4.申報\n\n【滿鐵文獻】1.滿鐵調查時報/月報 2.滿鐵剪報 3.滿鐵外務省文書\n\n【古籍文獻】1.四庫分類書(續修) 2.續四部叢刊(四部備要) 3.四庫全書 4.四庫存目 5.四庫未收書 6.四庫禁毀書 7.六府文藏 8.四部叢刊 9.永樂大典 10.古今圖書集成 11.日本古典書籍庫 12.正統道藏 13.道藏輯要 14.中國地方誌 15.清代史料 16.敦煌史料 17.醫家庫 18.金石庫 19.明清詩文集(包含明別集叢刊、清代詩文彙編) 20.清代科舉硃卷 21.中國民間文學\n\n※試用網址：https://fanyun.hunteq.com/\n※試用期間：即日起至2026年9月30日止。\n※試用說明：校外使用請先登錄NTHU-VPN後連線使用。\n\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260617_LRS_Fanyun.jpg",
-                "title": "【試用資源】繙云文獻，歡迎多多利用！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -1037,33 +939,19 @@
                 "title": "【有獎徵答】悅讀賓果：2026 Man'Du漫讀電子書有獎徵答活動，歡迎踴躍參加！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
-        },
-        {
-            "guid": "1905",
-            "category": "電子資源",
-            "title": "【服務公告】CNKI中國知網國際版網址（URL）更新",
-            "link": null,
-            "pubDate": "Tue, 26 May 2026 11:39:31 +0800",
-            "description": "CNKI中國知網國際版網址（URL）更新，詳細資訊如下：\n\n舊網址： https://tra.oversea.cnki.net\n新網址： https://oversea.cnki.net/tra\n\n提醒您同步更新瀏覽器書籤、我的最愛及已儲存的網址；若遇網站無法開啟或登入異常情形，建議清除瀏覽器快取後重新連線。感謝您的配合與使用。",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260526_LRS_CNKI.jpg",
-                "title": "【服務公告】CNKI中國知網國際版網址（URL）更新",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
         }
     ],
     "exhibit": [
         {
-            "guid": "2024",
+            "guid": "2032",
             "category": "展覽與活動",
             "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
             "link": null,
-            "pubDate": "Tue, 22 Sep 2026 14:38:27 +0800",
-            "description": "週三午後，是否感受到一絲疲憊？\n\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n\n讓這段音樂時光，成為你重新充滿活力的源泉。\n\n■ 時間 | 9 / 30 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n   (空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 布魯赫：蘇格蘭幻想曲 (黑膠專場)\n   \n《蘇格蘭幻想曲》完整的德文曲名是「為小提琴、管弦樂與豎琴的，自由使用蘇格蘭民謠的『蘇格蘭幻想曲』」，布魯赫自蘇格蘭詩人華特．史考特作品中獲得創作靈感，寫下這首充滿異國風味的名曲，並提獻給小提琴巨擘薩拉沙泰。\n\n本曲形式自由、旋律優美，各樂章中特別引用了多首蘇格蘭的民謠，並且巧妙安排獨奏小提琴、豎琴交織演奏，模仿蘇格蘭代表樂器風笛的聲響，兼具高度藝術性與文學性。",
+            "pubDate": "Wed, 30 Sep 2026 08:47:48 +0800",
+            "description": "週三午後，是否感受到一絲疲憊？\n\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n\n讓這段音樂時光，成為你重新充滿活力的源泉。\n\n■ 時間 | 10 / 7 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n   (空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 蕭泰然：C調大提琴協奏曲 /《聽見歌再唱》電影原聲帶\n   \n蕭泰然1938年出生於台灣高雄市，是鋼琴家、作曲家，也是指揮家。曾因經濟與政治因素不得不遠走美國，近20年的光陰裡，他只能透過音樂抒發對故鄉台灣的思念；創作於此時期的大提琴協奏曲，融入臺灣民謠、阿美族舞曲等元素，也是蕭泰然作品中唯一在臺灣完成世界首演的協奏曲。\n\n《聽見歌再唱》電影改編自信義鄉原聲童聲合唱團創團的經過，一座偏鄉學校的孩子為了不讓學校被廢，組成一支合唱團參加比賽，最終從歌聲裡找回自信與自我認同。雖然每個人的聲音都不一樣，但只要「聽見歌，再唱」，合起來就是剛剛好的聲音！",
             "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
             "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/2/20260930_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
+                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261007_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
                 "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
@@ -1079,20 +967,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/8/20261015%E5%90%B3%E6%BF%81%E6%B5%81%E5%B0%8E%E8%A6%BD.jpg",
                 "title": "【展覽導覽｜吳濁流主題選書展~一間人生西裝店】10.15(四)上午11:00-12:00 ，即日起開放報名",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "1990",
-            "category": "展覽與活動",
-            "title": "【特展徵件】圖書館知識集主題特展合作徵集中－讓成果被更多人看見！",
-            "link": "https://www.lib.nthu.edu.tw/use/exhibition_apply.html",
-            "pubDate": "Wed, 16 Sep 2026 10:30:18 +0800",
-            "description": "圖書館定期於總圖一樓「知識集」辦理主題特展，我們邀請校內教師及單位將不同領域的研發成果帶出教室，開啟更多交流與對話，讓圖書館不只是閱讀與學習的空間，也是讓知識相遇與激盪的場域。 \n\n116年10月至117年2月合作展覽現正開放申請！ \n無論是豐富的研發成果、具特色的教學主題，或值得與大家分享的跨領域知識，都歡迎提出展覽申請，讓您的成果透過展覽被更多人看見！\n\n展覽時間｜ 116年10月至117年2月\n申請資格｜ 本校單位、本校現任專任教師\n申請時間｜ 即日起至115年9月30日止\n\n歡迎至圖書館網頁了解展場空間及申請方式\nhttps://www.lib.nthu.edu.tw/use/exhibition_apply.html\n\n期待您的精彩提案，一起讓「知識集」成為更多好知識、好故事發生的地方！",
-            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/2/20260826_%E7%9F%A5%E8%AD%98%E9%9B%86%E5%90%88%E4%BD%9C%E5%BE%B5%E9%9B%86%E4%B8%AD.jpg",
-                "title": "【特展徵件】圖書館知識集主題特展合作徵集中－讓成果被更多人看見！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
