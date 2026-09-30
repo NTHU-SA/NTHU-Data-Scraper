@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "3a085d1aff4396b7f8a2e7ede17f5c097a00d2e2b0cb29f53772c754770f43ee",
-        "last_updated": "2026-09-30T12:24:09.114638+08:00",
+        "last_commit": "a41b26acae180ab2edc21e5dbbec82a6ef21f892c833d688c49a86e79c457d24",
+        "last_updated": "2026-09-30T13:56:15.135360+08:00",
         "name": "announcements.json",
-        "sha256": "3a085d1aff4396b7f8a2e7ede17f5c097a00d2e2b0cb29f53772c754770f43ee",
-        "version": "3a085d1aff4396b7f8a2e7ede17f5c097a00d2e2b0cb29f53772c754770f43ee"
+        "sha256": "a41b26acae180ab2edc21e5dbbec82a6ef21f892c833d688c49a86e79c457d24",
+        "version": "a41b26acae180ab2edc21e5dbbec82a6ef21f892c833d688c49a86e79c457d24"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -37,11 +37,11 @@
         "version": "26992a83cb29d024ef7e2af30eda1927a873e7fe34d8afc8d0eaad53d4375302"
       },
       {
-        "last_commit": "f93f74fa4de044d465b02acc74b7cf8d8aef5a4c32d8c0286fa959edd3510b69",
-        "last_updated": "2026-09-30T12:24:09.114638+08:00",
+        "last_commit": "d55551626716140bf2bba3a75c5b5a7f7b644e9c4fd18d431072bf8f77a3ee3a",
+        "last_updated": "2026-09-30T13:56:15.135360+08:00",
         "name": "dining.json",
-        "sha256": "f93f74fa4de044d465b02acc74b7cf8d8aef5a4c32d8c0286fa959edd3510b69",
-        "version": "f93f74fa4de044d465b02acc74b7cf8d8aef5a4c32d8c0286fa959edd3510b69"
+        "sha256": "d55551626716140bf2bba3a75c5b5a7f7b644e9c4fd18d431072bf8f77a3ee3a",
+        "version": "d55551626716140bf2bba3a75c5b5a7f7b644e9c4fd18d431072bf8f77a3ee3a"
       },
       {
         "last_commit": "ff70afaf481da37dacb165e011aab8732f2ca816fc0922b14b4ae620a13db56f",
@@ -1152,11 +1152,11 @@
         "version": "da2d1e54bdde15b4b5b353c1b5bea40b445d0be4c4945f1cf5666af961bf920c"
       },
       {
-        "last_commit": "a16c19212883167494819c117f79eb5ba00f617a8e8b7658b5d5f95dd595cb8c",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "84139997f50ddbc87166e05e8328486e2ff42ea9a1a37be9a4aa9c7f761fb634",
+        "last_updated": "2026-09-30T13:56:15.135360+08:00",
         "name": "校長專訪_zh-tw.json",
-        "sha256": "a16c19212883167494819c117f79eb5ba00f617a8e8b7658b5d5f95dd595cb8c",
-        "version": "a16c19212883167494819c117f79eb5ba00f617a8e8b7658b5d5f95dd595cb8c"
+        "sha256": "84139997f50ddbc87166e05e8328486e2ff42ea9a1a37be9a4aa9c7f761fb634",
+        "version": "84139997f50ddbc87166e05e8328486e2ff42ea9a1a37be9a4aa9c7f761fb634"
       }
     ],
     "announcements/清華公佈欄": [
@@ -2971,11 +2971,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "03e6fc52599b3572fd7c9d5008411bd9178f9412edd224e62a4ad65ad4d34a7c",
-        "last_updated": "2026-09-30T00:22:44.534168+08:00",
+        "last_commit": "c82715cd7de4c0f529c58b3481815bc246306d6ab6a3e18a85ba911e8deced5f",
+        "last_updated": "2026-09-30T13:56:15.135360+08:00",
         "name": "rss.json",
-        "sha256": "03e6fc52599b3572fd7c9d5008411bd9178f9412edd224e62a4ad65ad4d34a7c",
-        "version": "03e6fc52599b3572fd7c9d5008411bd9178f9412edd224e62a4ad65ad4d34a7c"
+        "sha256": "c82715cd7de4c0f529c58b3481815bc246306d6ab6a3e18a85ba911e8deced5f",
+        "version": "c82715cd7de4c0f529c58b3481815bc246306d6ab6a3e18a85ba911e8deced5f"
       }
     ],
     "maps": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-09-30T12:24:09.114638+08:00"
+  "last_updated": "2026-09-30T13:56:15.135360+08:00"
 }
