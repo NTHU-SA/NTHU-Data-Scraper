@@ -1,3 +1,5 @@
+import json
+
 import pytest
 
 from nthu_scraper.parsers import ParseError
@@ -17,6 +19,34 @@ def test_dining_contract(fixture_text, html_response):
     assert parse_dining_html(html) == expected
     (item,) = DiningSpider().parse(html_response(html))
     assert dict(item) == {"data": expected}
+
+
+def test_images_are_repaired_or_null_without_losing_restaurants(caplog):
+    data = [
+        {
+            "building": "Test",
+            "restaurants": [
+                {
+                    "name": "Good",
+                    "image": "//example.test/cover image.jpg",
+                    "extra": True,
+                },
+                {"name": "Bad", "image": "https://invalid host.test/image.jpg"},
+            ],
+        }
+    ]
+    result = parse_dining_html(
+        f"const restaurantsData = {json.dumps(data)} renderTabs()"
+    )
+    assert result[0]["restaurants"] == [
+        {
+            "name": "Good",
+            "image": "https://example.test/cover%20image.jpg",
+            "extra": True,
+        },
+        {"name": "Bad", "image": None},
+    ]
+    assert "dining image for 'Bad'" in caplog.text
 
 
 @pytest.mark.parametrize("literal", ["[]", '[{"name": "A"}]', "[{'name': 'A'}, ]"])

@@ -14,6 +14,7 @@ from nthu_scraper.utils.constants import (
 )
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.url_utils import InvalidHttpUrl, normalize_http_url
 
 # 公車路線配置
 BUS_CONFIG = MappingProxyType(
@@ -81,7 +82,7 @@ class BusesSpider(scrapy.Spider):
         self._load_schedule_image_links()
         for bus_type, config in BUS_CONFIG.items():
             yield scrapy.Request(
-                url=config["url"],
+                url=normalize_http_url(config["url"]),
                 callback=self.parse,
                 errback=log_source_failure,
                 meta={"bus_type": bus_type},
@@ -112,8 +113,19 @@ class BusesSpider(scrapy.Spider):
             for bus_type, keywords in SCHEDULE_IMAGE_KEYWORDS.items():
                 if all(kw in title for kw in keywords):
                     if bus_type not in self.schedule_image_urls:
-                        self.schedule_image_urls[bus_type] = link
-                        self.logger.info(f"找到 {bus_type} 時刻表圖片連結: {link}")
+                        try:
+                            normalized = normalize_http_url(link)
+                        except InvalidHttpUrl as error:
+                            self.logger.warning(
+                                "Skipping invalid bus announcement URL %r: %s",
+                                link,
+                                error,
+                            )
+                            continue
+                        self.schedule_image_urls[bus_type] = normalized
+                        self.logger.info(
+                            f"找到 {bus_type} 時刻表圖片連結: {normalized}"
+                        )
 
     def parse(self, response):
         """解析公車資訊頁面"""
@@ -188,7 +200,16 @@ class BusesSpider(scrapy.Spider):
 
         absolute_links = []
         for idx, link in enumerate(image_links):
-            abs_link = response.urljoin(link)
+            try:
+                abs_link = normalize_http_url(link, base_url=response.url)
+            except InvalidHttpUrl as error:
+                self.logger.warning(
+                    "Skipping invalid bus image URL: source=%s link=%r: %s",
+                    response.url,
+                    link,
+                    error,
+                )
+                continue
             absolute_links.append(abs_link)
 
             # 下載圖片
@@ -204,12 +225,13 @@ class BusesSpider(scrapy.Spider):
             )
 
         # 儲存圖片連結列表
-        yield BusInfo(
-            type="images",
-            route_type=bus_type,
-            item_name=f"{bus_type}_schedule_images",
-            data=absolute_links,
-        )
+        if absolute_links:
+            yield BusInfo(
+                type="images",
+                route_type=bus_type,
+                item_name=f"{bus_type}_schedule_images",
+                data=absolute_links,
+            )
 
     def save_image(self, response):
         """儲存圖片"""

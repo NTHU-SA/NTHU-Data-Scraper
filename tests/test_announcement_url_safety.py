@@ -87,12 +87,16 @@ def test_strict_http_url_rejects_invalid_values(url):
         ("https://other.test/a?q=a%20b", "https://other.test/a?q=a%20b"),
         ("https://other.test/a(b)", "https://other.test/a(b)"),
         ("https://other.test/%5Bok%5D", "https://other.test/%5Bok%5D"),
-        ("https://other.test/\u516c\u544a", "https://other.test/\u516c\u544a"),
-        ("https://\u4f8b\u5b50.test/a", "https://\u4f8b\u5b50.test/a"),
+        (
+            "https://other.test/\u516c\u544a",
+            "https://other.test/%E5%85%AC%E5%91%8A",
+        ),
+        ("https://\u4f8b\u5b50.test/a", "https://xn--fsqu00a.test/a"),
+        ("https://other.test/a b?q=a b", "https://other.test/a%20b?q=a%20b"),
         ("https://other.test:8443/a#b", "https://other.test:8443/a#b"),
     ],
 )
-def test_valid_article_urls_keep_their_representation(href, expected):
+def test_valid_article_urls_are_normalized(href, expected):
     page = response(f'<div id="pageptlist">{row(href)}</div>')
     result = parse_articles(page, page.url)
     assert result.rejected_count == 0
@@ -253,7 +257,7 @@ def test_legacy_fallback_is_sanitized_after_matching(pipeline_setup):
 @pytest.mark.parametrize("whitespace", [" ", "\n", "\t"])
 @pytest.mark.parametrize("position", ["prefix", "suffix"])
 @pytest.mark.parametrize("retained", [False, True])
-def test_pipeline_rejects_whitespace_in_published_urls(
+def test_pipeline_repairs_whitespace_in_published_urls(
     pipeline_setup, whitespace, position, retained, caplog
 ):
     spider, aggregate, individual = pipeline_setup
@@ -272,8 +276,42 @@ def test_pipeline_rejects_whitespace_in_published_urls(
         pipeline.process_item(announcements.AnnouncementItem(source), spider)
     pipeline.close_spider(spider)
 
-    expected = {**SOURCE, "articles": [GOOD_ARTICLE]}
+    expected = {
+        **SOURCE,
+        "articles": [GOOD_ARTICLE, {"title": "Whitespace", "link": url}],
+    }
     assert read_json(aggregate) == [expected]
     assert read_json(individual) == expected
-    assert repr(link) in caplog.text
-    assert "url_syntax_violation" in caplog.text
+    assert "Skipping invalid announcement URL" not in caplog.text
+    assert all(
+        http_url_error(article["link"]) is None for article in expected["articles"]
+    )
+
+
+@pytest.mark.parametrize("retained", [False, True])
+def test_same_length_repairs_update_individual_and_aggregate(pipeline_setup, retained):
+    spider, aggregate, individual = pipeline_setup
+    source = {
+        **SOURCE,
+        "articles": [{"title": "Repair", "link": "/cover image.jpg", "extra": "Keep"}],
+    }
+    if retained:
+        write_json_atomic([source], aggregate)
+        write_json_atomic(source, individual)
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    if not retained:
+        pipeline.process_item(announcements.AnnouncementItem(source), spider)
+    pipeline.close_spider(spider)
+    expected = {
+        **SOURCE,
+        "articles": [
+            {
+                "title": "Repair",
+                "link": "https://example.test/cover%20image.jpg",
+                "extra": "Keep",
+            }
+        ],
+    }
+    assert read_json(aggregate) == [expected]
+    assert read_json(individual) == expected

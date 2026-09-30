@@ -2,14 +2,14 @@
 
 import logging
 from dataclasses import dataclass
-from urllib.parse import urljoin, urlsplit
 
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.utils.constants import RPAGE_DOMAIN_SUFFIX
 from nthu_scraper.utils.url_utils import (
+    InvalidHttpUrl,
     check_domain_suffix,
     force_https,
-    http_url_error,
+    normalize_http_url,
     update_url_query_param,
 )
 
@@ -35,21 +35,10 @@ def parse_article(item, base_url: str) -> dict:
     href = link_elem.css("::attr(href)").get()
     if not title or not href:
         raise ParseError("Announcement entry has no usable title or link")
-    raw_link = href.strip()
-    if any(ord(char) < 32 or ord(char) == 127 for char in raw_link):
-        raise InvalidArticleUrl(title, href, "URL contains control characters")
     try:
-        if urlsplit(raw_link).scheme:
-            link = raw_link
-        elif raw_link.startswith("//"):
-            link = f"{urlsplit(base_url).scheme}:{raw_link}"
-        else:
-            link = urljoin(base_url, raw_link)
-    except ValueError as error:
+        link = normalize_http_url(href, base_url=base_url)
+    except InvalidHttpUrl as error:
         raise InvalidArticleUrl(title, href, str(error)) from error
-    reason = http_url_error(link) if raw_link else "URL is blank"
-    if reason:
-        raise InvalidArticleUrl(title, href, reason)
     date = item.css(".mdate::text").get() or item.css(".d-txt::text").get()
     return {
         "title": title,
@@ -91,10 +80,19 @@ def parse_articles(page, base_url: str) -> ParsedArticles:
 
 def parse_more_links(page, base_url: str, language: str) -> list[str]:
     # A department homepage need not expose any announcement lists.
-    return [
-        update_url_query_param(urljoin(base_url, link), "Lang", language)
-        for link in page.css("p.more a::attr(href)").getall()
-    ]
+    links = []
+    for link in page.css("p.more a::attr(href)").getall():
+        try:
+            url = normalize_http_url(link, base_url=base_url)
+            links.append(update_url_query_param(url, "Lang", language))
+        except InvalidHttpUrl as error:
+            logger.warning(
+                "Skipping invalid announcement list URL: source=%s link=%r: %s",
+                base_url,
+                link,
+                error,
+            )
+    return links
 
 
 def parse_list_page(page) -> dict:
@@ -108,7 +106,11 @@ def parse_list_page(page) -> dict:
 
 
 def normalize_list_url(url: str) -> str | None:
-    normalized = force_https(url)
+    try:
+        normalized = force_https(url)
+    except InvalidHttpUrl as error:
+        logger.warning("Skipping invalid announcement source URL %r: %s", url, error)
+        return None
     if not normalized or not check_domain_suffix(normalized, RPAGE_DOMAIN_SUFFIX):
         return None
     return normalized

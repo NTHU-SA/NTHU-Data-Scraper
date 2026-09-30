@@ -1,7 +1,11 @@
 """Offline tests for the NTHU Library spider parsers and pipeline."""
 
 import json
+import logging
+from copy import deepcopy
 from datetime import date
+from html import escape
+from pathlib import Path
 
 import pytest
 
@@ -11,9 +15,11 @@ from nthu_scraper.spiders.nthu_libraries import (
     LibrariesPipeline,
     _make_event_id,
     get_calendar_window,
+    normalize_rss_items,
     parse_calendar,
     parse_rss,
 )
+from nthu_scraper.utils.url_utils import http_url_error
 
 RSS_XML = """<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
@@ -82,6 +88,25 @@ END:VCALENDAR
 """
 
 
+def rss_article(title):
+    return {
+        "guid": None,
+        "category": None,
+        "title": title,
+        "link": None,
+        "pubDate": None,
+        "description": "",
+        "author": None,
+        "image": None,
+    }
+
+
+@pytest.fixture
+def published_items():
+    xml = Path(__file__).parent / "fixtures" / "libraries" / "published_urls.xml"
+    return parse_rss(xml.read_text(encoding="utf-8"))
+
+
 @pytest.mark.parametrize(
     "start,expected",
     [
@@ -107,8 +132,129 @@ class TestParseRss:
             == "https://www.lib.nthu.edu.tw/image/news/2/music.jpg"
         )
         assert first["image"]["link"] == "https://www.lib.nthu.edu.tw/"
-        assert second["link"] == "https://www.lib.nthu.edu.tw/recruit"
+        assert second["link"] == "recruit"
         assert second["image"] is None
+
+    @pytest.mark.parametrize(
+        "link",
+        [
+            "recruit",
+            "//www.lib.nthu.edu.tw/",
+            " https://example.test/one, https://example.test/two ",
+            "https://example.test/one,https://example.test/two",
+        ],
+    )
+    def test_article_links_preserve_text_verbatim(self, link):
+        (item,) = parse_rss(
+            "<rss><channel><item><title>News</title>"
+            f"<link>{escape(link)}</link></item></channel></rss>"
+        )
+        assert item["link"] == link
+
+    @pytest.mark.parametrize(
+        "url,expected",
+        [
+            (
+                "//www.lib.nthu.edu.tw/image/cover image.jpg",
+                "https://www.lib.nthu.edu.tw/image/cover%20image.jpg",
+            ),
+            (
+                "https://example.test/cover%2Fone image.jpg?name=a%20b#cover",
+                "https://example.test/cover%2Fone%20image.jpg?name=a%20b#cover",
+            ),
+            (
+                "https://example.test/cover%20image.jpg",
+                "https://example.test/cover%20image.jpg",
+            ),
+            (
+                "/image/週三.jpg",
+                "https://www.lib.nthu.edu.tw/image/%E9%80%B1%E4%B8%89.jpg",
+            ),
+        ],
+    )
+    def test_image_urls_share_normalization(self, url, expected):
+        (item,) = parse_rss(
+            "<rss><channel><item><title>News</title>"
+            f"<image><url>{escape(url)}</url></image></item></channel></rss>"
+        )
+        assert item["image"] == {"url": expected, "title": None, "link": None}
+        assert normalize_rss_items([item]) == [item]
+
+    @pytest.mark.parametrize(
+        "url",
+        [
+            "https://",
+            "https://invalid host.test/image.jpg",
+            "https://example.test/co\tver.jpg",
+            "javascript:alert(1)",
+        ],
+    )
+    def test_invalid_image_is_null_without_losing_article(self, url, caplog):
+        items = parse_rss(
+            "<rss><channel><item><guid>Bad image</guid><title>News</title>"
+            f"<image><url>{escape(url)}</url></image></item>"
+            "<item><title>Sibling</title></item></channel></rss>"
+        )
+        assert [item["title"] for item in items] == ["News", "Sibling"]
+        assert items[0]["image"] is None
+        assert "Bad image" in caplog.text
+        assert repr(url) in caplog.text
+        assert "using null" in caplog.text
+
+    def test_invalid_image_link_does_not_discard_a_valid_image(self, caplog):
+        items = [
+            {
+                **rss_article("News"),
+                "image": {
+                    "url": "//example.test/cover image.jpg",
+                    "link": "javascript:alert(1)",
+                    "title": "Cover",
+                    "publisher_metadata": {"retain": True},
+                },
+                "publisher_metadata": {"retain": True},
+            }
+        ]
+        original = deepcopy(items)
+        normalized = normalize_rss_items(items)
+        assert items == original
+        assert normalized[0]["image"] == {
+            "url": "https://example.test/cover%20image.jpg",
+            "link": None,
+            "title": "Cover",
+            "publisher_metadata": {"retain": True},
+        }
+        assert normalized[0]["publisher_metadata"] == {"retain": True}
+        assert "image" in caplog.text
+
+    @pytest.mark.parametrize("url", [42, [], {}])
+    def test_invalid_image_value_is_null(self, url, caplog):
+        normalized = normalize_rss_items(
+            [{**rss_article("News"), "image": {"url": url}}]
+        )
+        assert normalized == [rss_article("News")]
+        assert "using null" in caplog.text
+
+    @pytest.mark.parametrize("link", ["", " \n"])
+    def test_blank_retained_links_match_fresh_output(self, link):
+        assert normalize_rss_items([{**rss_article("News"), "link": link}]) == [
+            rss_article("News")
+        ]
+
+    def test_published_url_cases_preserve_all_articles(self, published_items):
+        assert len(published_items) == 5
+        assert published_items[0]["link"] == (
+            "https://www.proquest.com/centralpremium/index, "
+            "https://ebookcentral.proquest.com/lib/nthutw/home.action, "
+            "https://www.proquest.com/pq1entertainmentpopularculture, "
+            "https://www.proquest.com/pq1history, https://forms.gle/65YaF7R1z52VU9S19"
+        )
+        assert published_items[3]["image"]["url"].endswith("CNKI%20Trial.jpg")
+        assert published_items[4]["image"]["url"].endswith("Wiley%20UBCM.jpg")
+        assert normalize_rss_items(published_items) == published_items
+        for item in published_items:
+            if item["image"]:
+                assert http_url_error(item["image"]["url"]) is None
+                assert http_url_error(item["image"]["link"]) is None
 
 
 class TestParseCalendar:
@@ -173,8 +319,7 @@ class TestLibrariesPipeline:
     @staticmethod
     def _run(items):
         class FakeSpider:
-            class logger:
-                info = warning = error = staticmethod(lambda *args, **kwargs: None)
+            logger = logging.getLogger(__name__)
 
         pipeline = LibrariesPipeline()
         pipeline.open_spider(FakeSpider)
@@ -185,7 +330,8 @@ class TestLibrariesPipeline:
     def test_keeps_previous_data_for_failed_sources(self, paths):
         rss_path, calendars_path = paths
         rss_path.write_text(
-            json.dumps({"news": ["old"], "exhibit": ["old"]}), encoding="utf-8"
+            json.dumps({"news": [rss_article("Old")], "exhibit": [rss_article("Old")]}),
+            encoding="utf-8",
         )
         calendars_path.write_text(
             json.dumps(
@@ -196,7 +342,7 @@ class TestLibrariesPipeline:
 
         self._run(
             [
-                {"kind": "rss", "key": "news", "data": ["new"]},
+                {"kind": "rss", "key": "news", "data": [rss_article("New")]},
                 {
                     "kind": "calendar",
                     "key": "hss",
@@ -206,8 +352,8 @@ class TestLibrariesPipeline:
         )
 
         assert json.loads(rss_path.read_text(encoding="utf-8")) == {
-            "news": ["new"],
-            "exhibit": ["old"],
+            "news": [rss_article("New")],
+            "exhibit": [rss_article("Old")],
         }
         assert json.loads(calendars_path.read_text(encoding="utf-8")) == [
             {"id": "main", "events": ["old"]},
@@ -233,7 +379,9 @@ class TestLibrariesPipeline:
 
     def test_empty_refresh_preserves_nonempty_sources(self, paths):
         rss_path, calendars_path = paths
-        rss_path.write_text(json.dumps({"news": ["old"]}), encoding="utf-8")
+        rss_path.write_text(
+            json.dumps({"news": [rss_article("Old")]}), encoding="utf-8"
+        )
         calendars_path.write_text(
             json.dumps([{"id": "main", "events": ["old"]}]), encoding="utf-8"
         )
@@ -247,10 +395,107 @@ class TestLibrariesPipeline:
                 },
             ]
         )
-        assert json.loads(rss_path.read_text(encoding="utf-8")) == {"news": ["old"]}
+        assert json.loads(rss_path.read_text(encoding="utf-8")) == {
+            "news": [rss_article("Old")]
+        }
         assert json.loads(calendars_path.read_text(encoding="utf-8")) == [
             {"id": "main", "events": ["old"]}
         ]
+
+    @pytest.mark.parametrize("refresh", [False, True])
+    def test_repairs_retained_rss_even_when_refresh_fails(self, paths, refresh, caplog):
+        rss_path, _ = paths
+        old = {
+            **rss_article("Old"),
+            "link": "https://example.test/one, https://example.test/two",
+            "image": {"url": "//example.test/cover image.jpg"},
+            "publisher_metadata": {"retain": True},
+        }
+        broken = {
+            **rss_article("Broken image"),
+            "image": {"url": "https://invalid host.test/cover.jpg"},
+        }
+        rss_path.write_text(json.dumps({"news": [old, broken]}), encoding="utf-8")
+        self._run(
+            [{"kind": "rss", "key": "exhibit", "data": [rss_article("New")]}]
+            if refresh
+            else []
+        )
+        expected = {
+            "news": [
+                {
+                    **old,
+                    "image": {
+                        "url": "https://example.test/cover%20image.jpg",
+                        "title": None,
+                        "link": None,
+                    },
+                },
+                {**broken, "image": None},
+            ]
+        }
+        if refresh:
+            expected["exhibit"] = [rss_article("New")]
+        assert json.loads(rss_path.read_text(encoding="utf-8")) == expected
+        assert "Normalized retained library RSS data" in caplog.text
+        assert "source=news" in caplog.text
+        before = rss_path.read_bytes()
+        self._run([])
+        assert rss_path.read_bytes() == before
+
+    def test_healthy_failed_refresh_keeps_exact_bytes(self, paths):
+        rss_path, _ = paths
+        original = json.dumps({"news": [rss_article("Old")]}).encode()
+        rss_path.write_bytes(original)
+        self._run([])
+        assert rss_path.read_bytes() == original
+
+    def test_published_url_cases_are_saved_for_every_feed(self, paths, published_items):
+        rss_path, _ = paths
+        self._run(
+            [
+                {"kind": "rss", "key": key, "data": deepcopy(published_items)}
+                for key in nthu_libraries.RSS_TYPES
+            ]
+        )
+        assert json.loads(rss_path.read_text(encoding="utf-8")) == {
+            key: published_items for key in nthu_libraries.RSS_TYPES
+        }
+
+    @pytest.mark.parametrize(
+        "articles",
+        [
+            ["invalid"],
+            [{}],
+            [{"title": "News"}],
+            [{"title": 42, "description": ""}],
+            [{"title": "News", "description": "", "link": 42}],
+            [{"title": "News", "description": "", "image": []}],
+        ],
+    )
+    def test_invalid_baseline_does_not_get_overwritten(self, paths, articles):
+        rss_path, _ = paths
+        original = json.dumps({"news": articles}).encode()
+        rss_path.write_bytes(original)
+        with pytest.raises(nthu_libraries.InvalidLibrarySource):
+            self._run([])
+        assert rss_path.read_bytes() == original
+
+    def test_invalid_fresh_item_does_not_get_published(self, paths):
+        rss_path, _ = paths
+        original = json.dumps({"news": [rss_article("Old")]}).encode()
+        rss_path.write_bytes(original)
+        with pytest.raises(nthu_libraries.InvalidLibrarySource):
+            self._run([{"kind": "rss", "key": "news", "data": [{"title": 42}]}])
+        assert rss_path.read_bytes() == original
+
+    def test_storage_error_is_not_hidden(self, paths, monkeypatch):
+        def fail_save(*args):
+            raise OSError("disk full")
+
+        monkeypatch.setattr(nthu_libraries, "save_json", fail_save)
+        with pytest.raises(OSError, match="disk full"):
+            self._run([{"kind": "rss", "key": "news", "data": [rss_article("New")]}])
 
 
 @pytest.mark.parametrize("error_type", [AttributeError, ValueError])
@@ -285,6 +530,8 @@ def test_library_errback_does_not_swallow_implementation_errors():
         "",
         "<html>Unavailable</html>",
         "<rss><channel>",
+        "<error><channel></channel></error>",
+        "<rss><channel></channel><channel></channel></rss>",
         "<rss><channel><item><link>/no-title</link></item></channel></rss>",
     ],
 )
@@ -351,3 +598,41 @@ END:VCALENDAR"""
     events = parse_calendar(calendar, date(2026, 9, 1), date(2026, 9, 3))["events"]
     assert events[0]["end"] == "2026-09-02"
     assert events[1]["start"] == events[1]["end"] == "2026-09-02T09:00:00+08:00"
+
+
+@pytest.mark.parametrize(
+    "boundaries",
+    [
+        "DTSTART;VALUE=DATE:20260902\nDTEND;VALUE=DATE:20260901",
+        "DTSTART:20260902T100000Z\nDTEND:20260902T090000Z",
+        "DTSTART;VALUE=DATE:20260902\nDTEND:20260903T000000Z",
+        "DTSTART:20260902T100000Z\nDTEND;VALUE=DATE:20260903",
+    ],
+)
+def test_invalid_event_boundaries_are_rejected_at_scraper_layer(boundaries):
+    ics = (
+        "BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nUID:broken@test\n"
+        f"{boundaries}\nEND:VEVENT\nEND:VCALENDAR"
+    )
+    with pytest.raises(nthu_libraries.InvalidLibrarySource):
+        parse_calendar(ics, date(2026, 1, 1), date(2027, 1, 1))
+
+
+def test_calendar_duration_and_timezone_boundaries_remain_supported():
+    ics = """BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:duration@test
+DTSTART;VALUE=DATE:20260901
+DURATION:P2D
+END:VEVENT
+BEGIN:VEVENT
+UID:timezone@test
+DTSTART:20260902T010000Z
+DTEND;TZID=Asia/Taipei:20260902T100000
+END:VEVENT
+END:VCALENDAR"""
+    events = parse_calendar(ics, date(2026, 1, 1), date(2027, 1, 1))["events"]
+    assert events[0]["end"] == "2026-09-03"
+    assert events[1]["start"] == "2026-09-02T09:00:00+08:00"
+    assert events[1]["end"] == "2026-09-02T10:00:00+08:00"

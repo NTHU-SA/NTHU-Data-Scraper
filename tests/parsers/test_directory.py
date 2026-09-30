@@ -22,6 +22,41 @@ def test_department_links(fixture_text):
     ]
 
 
+@pytest.mark.parametrize(
+    "href,expected",
+    [
+        ("dept page.php?dd=1", URL_PREFIX + "dept%20page.php?dd=1"),
+        ("https://example.test/dept page", "https://example.test/dept%20page"),
+        ("//example.test/dept", "https://example.test/dept"),
+    ],
+)
+def test_department_links_share_url_normalization(href, expected):
+    link = Selector(text=f'<a href="{href}">Department</a>').css("a")
+    assert parse_department_link(link) == {"name": "Department", "url": expected}
+
+
+def test_website_normalization_and_nullable_failures(caplog):
+    table = Selector(
+        text='<table><tr><td>網頁</td><td><a href="//example.test/a b">Website</a></td></tr>'
+        '<tr><td>Email</td><td><a href="mailto:office@example.test">Email</a></td></tr></table>'
+    )
+    assert parse_contact_table(table) == {
+        "website": "https://example.test/a%20b",
+        "email": "office@example.test",
+    }
+    broken = Selector(
+        text='<table><tr><td>網頁</td><td><a href="https://invalid host.test/">Broken</a></td></tr></table>'
+    )
+    assert parse_contact_table(broken) == {"website": None}
+    assert "directory website" in caplog.text
+
+
+@pytest.mark.parametrize("value", ["", "N/A", "-"])
+def test_missing_website_does_not_become_a_directory_relative_url(value):
+    table = Selector(text=f"<table><tr><td>網頁</td><td>{value}</td></tr></table>")
+    assert parse_contact_table(table) == {"website": None}
+
+
 def test_tables_and_details_contract(fixture_text, capsys):
     page = Selector(text=fixture_text("directory", "department.html"))
     departments = [parse_department_link(link) for link in page.css(".story_left a")]

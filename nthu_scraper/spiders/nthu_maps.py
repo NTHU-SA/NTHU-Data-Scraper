@@ -5,6 +5,7 @@ from nthu_scraper.parsers.maps import parse_map_options
 from nthu_scraper.utils.constants import MAPS_FOLDER, MAPS_JSON_PATH
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.url_utils import normalize_http_url
 
 MAP_URLS = {
     "MainZH": "https://campusmap.cc.nthu.edu.tw/",
@@ -39,7 +40,7 @@ class MapSpider(scrapy.Spider):
     async def start(self):
         for map_type, url in MAP_URLS.items():
             yield scrapy.Request(
-                url,
+                normalize_http_url(url),
                 meta={"map_type": map_type},
                 errback=log_source_failure,
             )

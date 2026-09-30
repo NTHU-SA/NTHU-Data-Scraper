@@ -67,7 +67,7 @@ class NewsletterSpider(WholeDatasetSpider):
 
         for entry in entries:
             try:
-                newsletter = NewsletterItem(parse_newsletter_entry(entry))
+                newsletter = NewsletterItem(parse_newsletter_entry(entry, response.url))
             except ParseError as error:
                 self.mark_incomplete(str(error))
                 continue
@@ -102,7 +102,7 @@ class NewsletterSpider(WholeDatasetSpider):
         self.logger.info(f"🔗 正在處理電子報：{newsletter['name']} {response.url}")
 
         try:
-            articles = parse_archive_articles(response)
+            articles = parse_archive_articles(response, response.url)
         except ParseError as error:
             self.mark_incomplete(f"{response.url}: {error}")
             return

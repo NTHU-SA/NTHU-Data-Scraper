@@ -17,6 +17,7 @@ from nthu_scraper.utils.constants import (
 )
 from nthu_scraper.utils.file_utils import load_json, save_json
 from nthu_scraper.utils.url_utils import (
+    InvalidHttpUrl,
     build_multi_lang_urls,
     check_domain_suffix,
     force_https,
@@ -106,6 +107,12 @@ class AnnouncementsListSpider(scrapy.Spider):
                         urls[dept_name] = lang_urls
                 except KeyError:
                     continue
+                except InvalidHttpUrl as error:
+                    self.logger.warning(
+                        "Skipping invalid department website for %s: %s",
+                        dept_name,
+                        error,
+                    )
 
         urls.update(OTHER_SOURCES)
         return urls

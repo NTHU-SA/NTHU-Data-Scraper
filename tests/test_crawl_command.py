@@ -6,7 +6,9 @@ from urllib.parse import quote
 
 import pytest
 
+from nthu_scraper.spiders.nthu_libraries import RSS_TYPES, parse_rss
 from nthu_scraper.storage import read_json, write_json_atomic
+from nthu_scraper.utils.url_utils import http_url_error
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -132,8 +134,11 @@ def test_campus_calendar_pipeline_through_scrapy(tmp_path):
 def test_library_hooks_and_partial_upstream_failures_through_scrapy(tmp_path):
     rss_path = tmp_path / "libraries" / "rss.json"
     calendars_path = tmp_path / "libraries" / "calendars.json"
+    old_articles = parse_rss(
+        "<rss><channel><item><title>Old</title></item></channel></rss>"
+    )
     write_json_atomic(
-        {"news": ["old"], "exhibit": ["old"], "branches": ["old"]}, rss_path
+        {key: old_articles for key in ("news", "exhibit", "branches")}, rss_path
     )
     old_main = {"id": "main", "events": ["old"]}
     write_json_atomic([old_main, {"id": "hss", "events": ["old"]}], calendars_path)
@@ -143,12 +148,33 @@ def test_library_hooks_and_partial_upstream_failures_through_scrapy(tmp_path):
     assert result.returncode == 0, result.stdout + result.stderr
     rss = read_json(rss_path)
     assert rss["news"][0]["title"] == "New"
-    assert rss["exhibit"] == ["old"]
-    assert rss["branches"] == ["old"]
+    assert rss["exhibit"] == old_articles
+    assert rss["branches"] == old_articles
     calendars = read_json(calendars_path)
     assert calendars[0] == old_main
     assert calendars[1]["id"] == "hss"
     assert calendars[1]["events"][0]["title"] == "New"
+
+
+def test_library_url_repairs_and_nullable_images_through_scrapy(tmp_path):
+    result = run_spider(tmp_path, "offline_library_urls")
+    assert result.returncode == 0, result.stdout + result.stderr
+    rss = read_json(tmp_path / "libraries" / "rss.json")
+    assert list(rss) == RSS_TYPES
+    for articles in rss.values():
+        assert len(articles) == 6
+        assert articles[0]["link"].startswith(
+            "https://www.proquest.com/centralpremium/index, "
+            "https://ebookcentral.proquest.com/"
+        )
+        assert articles[3]["image"]["url"].endswith("CNKI%20Trial.jpg")
+        assert articles[4]["image"]["url"].endswith("Wiley%20UBCM.jpg")
+        assert articles[5]["title"] == "Broken image"
+        assert articles[5]["image"] is None
+        for article in articles:
+            if article["image"]:
+                assert http_url_error(article["image"]["url"]) is None
+    assert "using null" in result.stderr
 
 
 def test_malformed_library_baseline_fails_real_crawl(tmp_path):
