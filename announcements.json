@@ -1388,6 +1388,11 @@
         "department": "計算機與通訊中心校務資訊組",
         "articles": [
             {
+                "title": "【電子表單簽核系統公告】115/10/29(四) 配合主計室資料庫升級作業，暫停部分表單使用。",
+                "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-315289,r747.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "計算機與通訊中心資訊系統開發作業要點",
                 "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-262386,r747.php?Lang=zh-tw",
                 "date": ""
@@ -1440,11 +1445,6 @@
             {
                 "title": "【校務系統公告】停機公告",
                 "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-38098,r747.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【程式更新公告】校內獎助學金發放系統執行程式更新",
-                "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-38048,r747.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -2687,6 +2687,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "《樂遊台灣．島嶼慢行：走讀藝文、歷史與地方記憶》新書發表會",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-315287,r5083.php?Lang=zh-tw",
+                "date": "2026-09-30"
+            },
+            {
                 "title": "Discover the Hidden Stories of Liujia｜Local Walking Tour",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-314280,c0.php?Lang=zh-tw",
                 "date": "2026-09-10"
@@ -2740,11 +2745,6 @@
                 "title": "【歡迎報名】清大中文系系友演講──新書分享：《不負責任之中亞我見我得：雪山、草原、沙漠與絲路藍頂，中亞五國漫遊記》",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-306695,r5083.php?Lang=zh-tw",
                 "date": "2026-04-16"
-            },
-            {
-                "title": "國立清華大學秘書處校務研究中心 誠徵專案組員一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-305710,r5083.php?Lang=zh-tw",
-                "date": "2026-03-31"
             }
         ]
     },
@@ -2823,6 +2823,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "《樂遊台灣．島嶼慢行：走讀藝文、歷史與地方記憶》新書發表會",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-315287,r5085.php?Lang=zh-tw",
+                "date": "2026-09-30"
+            },
+            {
                 "title": "⚡【群創光電 2027 學期實習】高薪實習｜業界專案｜挑戰科技前沿🚀",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-315283,c0.php?Lang=zh-tw",
                 "date": "2026-09-30"
@@ -2876,11 +2881,6 @@
                 "title": "Discover the Hidden Stories of Liujia｜Local Walking Tour",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-314280,c0.php?Lang=zh-tw",
                 "date": "2026-09-10"
-            },
-            {
-                "title": "👣 走一趟｜【尋水訪庄】六家走讀",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-314206,c0.php?Lang=zh-tw",
-                "date": "2026-09-09"
             }
         ]
     },
@@ -2890,6 +2890,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "《樂遊台灣．島嶼慢行：走讀藝文、歷史與地方記憶》新書發表會",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-315287,r5086.php?Lang=zh-tw",
+                "date": "2026-09-30"
+            },
             {
                 "title": "⚡【群創光電 2027 學期實習】高薪實習｜業界專案｜挑戰科技前沿🚀",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-315283,c0.php?Lang=zh-tw",
@@ -2944,11 +2949,6 @@
                 "title": "📢【第 11583 期環境部綠領人才課程培育班】熱烈招生中",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-313059,c0.php?Lang=zh-tw",
                 "date": "2026-09-16"
-            },
-            {
-                "title": "【徵才】國立清華大學生命科學暨醫學院誠徵教學助理一名(1150930截止)",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-312803,c0.php?Lang=zh-tw",
-                "date": "2026-09-15"
             }
         ]
     },
@@ -3899,18 +3899,18 @@
         "department": "清華學院通識教育中心",
         "articles": [
             {
-                "title": "[成果發表] 114(下)《春草闖堂》選段演出",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-308631,r10094.php?Lang=zh-tw",
+                "title": "[課堂演講] 台灣當代戲曲－布袋戲示範講座",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-315288,r10094.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "2026顧獻樑教授紀念通識講座－「巴奈回家」音樂分享會",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-304073,r10094.php?Lang=zh-tw",
+                "title": "[課堂演講] AI組織變革-AI 2.0世代的關鍵思維",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-307832,r10094.php?Lang=zh-tw",
                 "date": ""
             },
             {
-                "title": "[Tea Time] 從通識課到文學散步：跨界設計地方導覽的實踐之路",
-                "link": "https://cge.site.nthu.edu.tw/p/406-1573-298048,r10094.php?Lang=zh-tw",
+                "title": "[紀錄片賞析] 《Alis的心願》",
+                "link": "https://cge.site.nthu.edu.tw/p/406-1573-299407,r10094.php?Lang=zh-tw",
                 "date": ""
             }
         ]
