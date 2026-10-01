@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "8e5dbca96ab4d7e81cb6a4c6951006e08c23f20003ceae2452edd117d13aae04",
-        "last_updated": "2026-10-01T16:28:49.322232+08:00",
+        "last_commit": "34d96afe6655f68e2496573781e761f07478151962bb0cc24c8e79a3a3cdc8d9",
+        "last_updated": "2026-10-01T18:20:21.779002+08:00",
         "name": "announcements.json",
-        "sha256": "8e5dbca96ab4d7e81cb6a4c6951006e08c23f20003ceae2452edd117d13aae04",
-        "version": "8e5dbca96ab4d7e81cb6a4c6951006e08c23f20003ceae2452edd117d13aae04"
+        "sha256": "34d96afe6655f68e2496573781e761f07478151962bb0cc24c8e79a3a3cdc8d9",
+        "version": "34d96afe6655f68e2496573781e761f07478151962bb0cc24c8e79a3a3cdc8d9"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -631,11 +631,11 @@
         "version": "6ed215aa2533c781ff8b2cb0f8b508a260010e8be34abcbe832e0a82fdaab7ad"
       },
       {
-        "last_commit": "c0456aeb1d473f6160012a4ecfa38819efb155d9a4e3b565dee907a68a167e8e",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "c1c3cd087afd7b01448ee35123062645a9fa77311dc97bda792471cb51355385",
+        "last_updated": "2026-10-01T18:20:21.779002+08:00",
         "name": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) _ College of Engineering, National Tsing Hua University_en.json",
-        "sha256": "c0456aeb1d473f6160012a4ecfa38819efb155d9a4e3b565dee907a68a167e8e",
-        "version": "c0456aeb1d473f6160012a4ecfa38819efb155d9a4e3b565dee907a68a167e8e"
+        "sha256": "c1c3cd087afd7b01448ee35123062645a9fa77311dc97bda792471cb51355385",
+        "version": "c1c3cd087afd7b01448ee35123062645a9fa77311dc97bda792471cb51355385"
       },
       {
         "last_commit": "232f2e8824c89ec88bda50123ce2194c46effa8307dc4dead98f0f6a2160e9de",
@@ -1175,11 +1175,11 @@
         "version": "ab81cbcf31e78e282c111b8d48e9b49472c41fa02568a34f63b6f0040a176335"
       },
       {
-        "last_commit": "2cf850851753850acef16d598f0d7c613ea3e6ef1f922e6e4aeb51fd926b9bb3",
-        "last_updated": "2026-10-01T16:28:49.322232+08:00",
+        "last_commit": "78d4c98a9b093fc5fe4a8f925bb5516f6ce9d5c1b282fc759e5b7333f064fe41",
+        "last_updated": "2026-10-01T18:20:21.779002+08:00",
         "name": "其他公告_zh-tw.json",
-        "sha256": "2cf850851753850acef16d598f0d7c613ea3e6ef1f922e6e4aeb51fd926b9bb3",
-        "version": "2cf850851753850acef16d598f0d7c613ea3e6ef1f922e6e4aeb51fd926b9bb3"
+        "sha256": "78d4c98a9b093fc5fe4a8f925bb5516f6ce9d5c1b282fc759e5b7333f064fe41",
+        "version": "78d4c98a9b093fc5fe4a8f925bb5516f6ce9d5c1b282fc759e5b7333f064fe41"
       },
       {
         "last_commit": "9008f0fb238ca3e567cf82977ed2a582da8d5a892dcba8386b6d9c4e416bea92",
@@ -1203,18 +1203,18 @@
         "version": "502febf1018d700f3c5681b1d16e7f92c0a5f29ddd0972cfc7c323e3743f879a"
       },
       {
-        "last_commit": "9546af7b2b879ca240ecd4089bdfa87afe4c9880a0fb980d303c33e89012d33f",
-        "last_updated": "2026-10-01T16:28:49.322232+08:00",
+        "last_commit": "eb8d98a55f260be832909add43d711f4762e2e5da6d931a9fa1bd701b89c183e",
+        "last_updated": "2026-10-01T18:20:21.779002+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "9546af7b2b879ca240ecd4089bdfa87afe4c9880a0fb980d303c33e89012d33f",
-        "version": "9546af7b2b879ca240ecd4089bdfa87afe4c9880a0fb980d303c33e89012d33f"
+        "sha256": "eb8d98a55f260be832909add43d711f4762e2e5da6d931a9fa1bd701b89c183e",
+        "version": "eb8d98a55f260be832909add43d711f4762e2e5da6d931a9fa1bd701b89c183e"
       },
       {
-        "last_commit": "7d53d0fb27778fe28a36d1685a759db77a029388fe0dcc650fa9355e140d2daa",
-        "last_updated": "2026-10-01T12:23:44.710996+08:00",
+        "last_commit": "04687e33c33feccc713e5859aa59753fc02b8489abb3fbde4e633cbd01ac2004",
+        "last_updated": "2026-10-01T18:20:21.779002+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "7d53d0fb27778fe28a36d1685a759db77a029388fe0dcc650fa9355e140d2daa",
-        "version": "7d53d0fb27778fe28a36d1685a759db77a029388fe0dcc650fa9355e140d2daa"
+        "sha256": "04687e33c33feccc713e5859aa59753fc02b8489abb3fbde4e633cbd01ac2004",
+        "version": "04687e33c33feccc713e5859aa59753fc02b8489abb3fbde4e633cbd01ac2004"
       },
       {
         "last_commit": "188983ab3309ba9188470d86c0c11286b29d7474dd9322f58a926b9c0c4cb98c",
@@ -1330,11 +1330,11 @@
         "version": "bbd55a13e1c6c866427894f008d43b17709fb0021f77ac9f46d305bf3da90685"
       },
       {
-        "last_commit": "d0a75ff265487dce80fb03d51fb054b37f8b7e0aa2e9744239fb19822659abba",
-        "last_updated": "2026-09-30T08:55:33.817306+08:00",
+        "last_commit": "9aee4c8453287565e9fb84c0b6433a22fcd53db13d9789cede9211f2f1e59b8a",
+        "last_updated": "2026-10-01T18:20:21.779002+08:00",
         "name": "訊息公告_zh-tw.json",
-        "sha256": "d0a75ff265487dce80fb03d51fb054b37f8b7e0aa2e9744239fb19822659abba",
-        "version": "d0a75ff265487dce80fb03d51fb054b37f8b7e0aa2e9744239fb19822659abba"
+        "sha256": "9aee4c8453287565e9fb84c0b6433a22fcd53db13d9789cede9211f2f1e59b8a",
+        "version": "9aee4c8453287565e9fb84c0b6433a22fcd53db13d9789cede9211f2f1e59b8a"
       }
     ],
     "announcements/清華學院語文中心": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-01T16:28:49.322232+08:00"
+  "last_updated": "2026-10-01T18:20:21.779002+08:00"
 }
