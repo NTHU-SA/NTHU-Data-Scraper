@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2034",
+            "category": "服務消息",
+            "title": "【清華學人】115年學術研究獎勵系統「清華學人(NTHU Scholars)」題型資料相關指引",
+            "link": "https://libguides.lib.nthu.edu.tw/c.php?g=984002&p=7203583",
+            "pubDate": "Thu, 01 Oct 2026 11:39:14 +0800",
+            "description": "▌說明網頁：\nhttps://libguides.lib.nthu.edu.tw/c.php?g=984002&p=7203583\n▌「知識匯」已更換為「清華學人」（NTHU Scholars）平台，如需更新「清華學人」之成果資料，請儘早完成填報。新增研究成果資料後，各類資料同步至學術研究獎勵系統機制如下：\n\t學者簡歷（榮譽）：立即同步至學術研究獎勵系統。\n\t研究成果：圖書館審核（3個工作天內），通過後即同步至學術研究獎勵系統。\n\t教學與服務：於週間配合報表式API傳輸，產出後隔日匯入至學術研究獎勵系統。\n▌重要提醒:\n\t為確保系統順利提取研究成果，請將相關學術成果資料放置於「清華學人」平台之相應欄位。\n\t「清華學人」（NTHU Scholars）平台資料串接至學術研究獎勵系統需一定作業時間，請避免於申請截止日前才進行資料更新，以免因審核時間不足影響後續申請作業。",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260807_NTHUScholars.jpg",
+                "title": "【清華學人】115年學術研究獎勵系統「清華學人(NTHU Scholars)」題型資料相關指引",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2032",
             "category": "展覽與活動",
             "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
