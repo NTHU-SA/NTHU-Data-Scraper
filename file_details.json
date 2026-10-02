@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1b57eb5e686a55c3f5c90c806f8a31f5bbb2fd9a48e699d0acfc0fcf921b789e",
-        "last_updated": "2026-10-02T00:20:44.347298+08:00",
+        "last_commit": "9252107d7c49490b733237b55310fc6e86c33bfdf9582f8404e19e3256eb1c17",
+        "last_updated": "2026-10-02T08:52:38.725650+08:00",
         "name": "announcements.json",
-        "sha256": "1b57eb5e686a55c3f5c90c806f8a31f5bbb2fd9a48e699d0acfc0fcf921b789e",
-        "version": "1b57eb5e686a55c3f5c90c806f8a31f5bbb2fd9a48e699d0acfc0fcf921b789e"
+        "sha256": "9252107d7c49490b733237b55310fc6e86c33bfdf9582f8404e19e3256eb1c17",
+        "version": "9252107d7c49490b733237b55310fc6e86c33bfdf9582f8404e19e3256eb1c17"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -37,11 +37,11 @@
         "version": "4683dd916b2c6004626f488bcfe9720a6811357ebb9c0629c7ef6efac0b14edc"
       },
       {
-        "last_commit": "2207ec948f4bc97fc53863e44bbede7560c1ee5b58a83a14c17f39c59ccb67aa",
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_commit": "96431ade894d45cda9f7ec6627e54160f19406b0fabe400d11f77af7afaa90b8",
+        "last_updated": "2026-10-02T08:52:38.725650+08:00",
         "name": "dining.json",
-        "sha256": "2207ec948f4bc97fc53863e44bbede7560c1ee5b58a83a14c17f39c59ccb67aa",
-        "version": "2207ec948f4bc97fc53863e44bbede7560c1ee5b58a83a14c17f39c59ccb67aa"
+        "sha256": "96431ade894d45cda9f7ec6627e54160f19406b0fabe400d11f77af7afaa90b8",
+        "version": "96431ade894d45cda9f7ec6627e54160f19406b0fabe400d11f77af7afaa90b8"
       },
       {
         "last_commit": "ff70afaf481da37dacb165e011aab8732f2ca816fc0922b14b4ae620a13db56f",
@@ -954,11 +954,11 @@
     ],
     "announcements/教務處綜合教務組": [
       {
-        "last_commit": "a352058697b079e92128292aa5277d4479c7f7b4d71ddc54e85614ee055a1d35",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "2bf49a07039076f59845b78fed5841db42c45dbfcbb946557cc62b1992586674",
+        "last_updated": "2026-10-02T08:52:38.725650+08:00",
         "name": "訊息公告_zh-tw.json",
-        "sha256": "a352058697b079e92128292aa5277d4479c7f7b4d71ddc54e85614ee055a1d35",
-        "version": "a352058697b079e92128292aa5277d4479c7f7b4d71ddc54e85614ee055a1d35"
+        "sha256": "2bf49a07039076f59845b78fed5841db42c45dbfcbb946557cc62b1992586674",
+        "version": "2bf49a07039076f59845b78fed5841db42c45dbfcbb946557cc62b1992586674"
       }
     ],
     "announcements/教務處英語教學精進中心": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-02T06:17:30.878442+08:00"
+  "last_updated": "2026-10-02T08:52:38.725650+08:00"
 }
