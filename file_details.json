@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "a03bcf3913283719ddd2c697e7b0781fb1f3a6108ca5c9530f304d81091fd3ce",
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_commit": "e2b06e9239074a79e7fb5dce25919ec31e0f7e2a9f44d2a13ef622afbc67cd2f",
+        "last_updated": "2026-10-03T04:19:05.311821+08:00",
         "name": "announcements.json",
-        "sha256": "a03bcf3913283719ddd2c697e7b0781fb1f3a6108ca5c9530f304d81091fd3ce",
-        "version": "a03bcf3913283719ddd2c697e7b0781fb1f3a6108ca5c9530f304d81091fd3ce"
+        "sha256": "e2b06e9239074a79e7fb5dce25919ec31e0f7e2a9f44d2a13ef622afbc67cd2f",
+        "version": "e2b06e9239074a79e7fb5dce25919ec31e0f7e2a9f44d2a13ef622afbc67cd2f"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -731,11 +731,11 @@
         "version": "34b14c189c58d580015ff123fb9eab461950fa180a3247a44d40c20d48034488"
       },
       {
-        "last_commit": "3697cc983ff15b73b6adecd0402925db4b526b7779d1211bcfc2022003b29fcd",
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_commit": "119a5eb17eef247ab3e0894f87ba2bd7a27b81a186eca8a9a70402c0722f9d12",
+        "last_updated": "2026-10-03T04:19:05.311821+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "3697cc983ff15b73b6adecd0402925db4b526b7779d1211bcfc2022003b29fcd",
-        "version": "3697cc983ff15b73b6adecd0402925db4b526b7779d1211bcfc2022003b29fcd"
+        "sha256": "119a5eb17eef247ab3e0894f87ba2bd7a27b81a186eca8a9a70402c0722f9d12",
+        "version": "119a5eb17eef247ab3e0894f87ba2bd7a27b81a186eca8a9a70402c0722f9d12"
       }
     ],
     "announcements/工學院工學院學士班": [
@@ -1833,11 +1833,11 @@
         "version": "2c46eca6c6bac4c558474418f1adc504ea94b07c99b9f94f3ddd77437db7782a"
       },
       {
-        "last_commit": "4661aa079302fdc85deac7f67c298a61b3941f620457a3bf4f51fb2a33734e5a",
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_commit": "0f9e54c36c99a194a9daf785e3d627fd72c3d5a87f88ca1a4843eae827d8bbcc",
+        "last_updated": "2026-10-03T04:19:05.311821+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "4661aa079302fdc85deac7f67c298a61b3941f620457a3bf4f51fb2a33734e5a",
-        "version": "4661aa079302fdc85deac7f67c298a61b3941f620457a3bf4f51fb2a33734e5a"
+        "sha256": "0f9e54c36c99a194a9daf785e3d627fd72c3d5a87f88ca1a4843eae827d8bbcc",
+        "version": "0f9e54c36c99a194a9daf785e3d627fd72c3d5a87f88ca1a4843eae827d8bbcc"
       },
       {
         "last_commit": "817b170664ff424b149bb62220d1bf5fdeda906baf354a7c17e43023e214bd5b",
@@ -1923,11 +1923,11 @@
     ],
     "announcements/生命科學暨醫學院系統神經科學研究所": [
       {
-        "last_commit": "4b1a083d3fdef0cca82b49821225dc2401b6c057be053224f248767cb057d75f",
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_commit": "c4129f721ddf8d6880bcdc614233efcabfdbbfef1e5ae529ab5cf58508b6d006",
+        "last_updated": "2026-10-03T04:19:05.311821+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "4b1a083d3fdef0cca82b49821225dc2401b6c057be053224f248767cb057d75f",
-        "version": "4b1a083d3fdef0cca82b49821225dc2401b6c057be053224f248767cb057d75f"
+        "sha256": "c4129f721ddf8d6880bcdc614233efcabfdbbfef1e5ae529ab5cf58508b6d006",
+        "version": "c4129f721ddf8d6880bcdc614233efcabfdbbfef1e5ae529ab5cf58508b6d006"
       },
       {
         "last_commit": "1a4792af825aa0818bdad3f4b113707596e9942e28e965b698012769ca7ee9a9",
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-03T03:34:39.239957+08:00"
+  "last_updated": "2026-10-03T04:19:05.311821+08:00"
 }
