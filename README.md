@@ -57,6 +57,19 @@ Run a crawler with `uv run python -m scrapy crawl <name>`.
 
 Run `nthu_announcements_list` before `nthu_announcements_item` on a fresh
 checkout, or populate `data/` from the published snapshot first.
+List titles come from the module containing the announcement list, falling back
+to a standalone section heading or the document title rather than search or
+article headings. Successful content refreshes use the page's current title,
+but scheduled crawls intentionally leave `announcements_list.json` unchanged.
+Run the source crawler manually to update existing source titles. Custom source
+titles remain explicitly configured. Announcement titles and dates normalize
+control characters (including `\u000b`) and repeated Unicode whitespace to
+single spaces, without changing URLs.
+After a successful title refresh, superseded individual files are removed only
+when they belong to the same source; filename collisions block overwrites.
+Legacy URL recovery first matches the full source metadata, then permits an
+unambiguous department/language/hostname match when refreshed titles differ. Ambiguous
+matches block the crawl rather than discarding known-good articles.
 
 `nthu_newsletters` starts at the official
 [metadata gallery wrapper](https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/lis),

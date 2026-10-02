@@ -1,11 +1,19 @@
 """清華大學公告爬蟲 - 公告內容爬蟲"""
 
 import re
+from pathlib import Path
+from urllib.parse import urlsplit
 
 import scrapy
 
 from nthu_scraper.parsers import ParseError
-from nthu_scraper.parsers.announcements import ParsedArticles, parse_articles
+from nthu_scraper.parsers.announcements import (
+    ParsedArticles,
+    normalize_announcement_text,
+    parse_articles,
+    parse_list_title,
+)
+from nthu_scraper.spiders.nthu_announcements_list import CUSTOM_ANNOUNCEMENT_SOURCES
 from nthu_scraper.storage import read_json
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_FOLDER,
@@ -28,10 +36,13 @@ class AnnouncementItem(scrapy.Item):
     _all_articles_invalid = False
 
 
-def _group_by_source_metadata(sources):
+def _group_by_source_metadata(sources, keys=("department", "title", "language")):
     groups = {}
     for source in sources:
-        identity = tuple(source.get(key) for key in ("department", "title", "language"))
+        identity = tuple(
+            urlsplit(source["link"]).hostname if key == "hostname" else source.get(key)
+            for key in keys
+        )
         if all(isinstance(value, str) and value.strip() for value in identity):
             groups.setdefault(identity, []).append(source)
     return groups
@@ -93,8 +104,19 @@ class AnnouncementsItemSpider(scrapy.Spider):
             self.logger.warning(f"公告頁面無文章: {response.url}")
             return
 
+        source_link = response.meta["source_link"]
+        custom_titles = {
+            source["link"]: source["title"] for source in CUSTOM_ANNOUNCEMENT_SOURCES
+        }
+        title = custom_titles.get(source_link) or parse_list_title(response)
+        if not title:
+            self.logger.warning(
+                "No usable announcement list title; retaining title for %s",
+                source_link,
+            )
+            title = response.meta["title"]
         item = AnnouncementItem(
-            title=response.meta["title"],
+            title=normalize_announcement_text(title),
             link=response.meta["source_link"],
             language=response.meta["language"],
             department=response.meta["department"],
@@ -127,15 +149,39 @@ class AnnouncementItemPipeline:
             source["link"]: source
             for source in (previous if previous is not None else [])
         }
+        self.legacy_source_links = {}
         self._restore_legacy_sources(spider)
         ANNOUNCEMENTS_FOLDER.mkdir(parents=True, exist_ok=True)
 
     def _restore_legacy_sources(self, spider):
-        expected = _group_by_source_metadata(spider.announcement_list)
-        legacy = _group_by_source_metadata(
+        claimed_links = set()
+        self._match_legacy_sources(
+            spider,
+            spider.announcement_list,
+            ("department", "title", "language"),
+            claimed_links,
+        )
+        missing = [
             source
-            for link, source in self.previous.items()
-            if link not in self.expected_links
+            for source in spider.announcement_list
+            if source["link"] not in self.previous
+        ]
+        self._match_legacy_sources(
+            spider,
+            missing,
+            ("department", "language", "hostname"),
+            claimed_links,
+        )
+
+    def _match_legacy_sources(self, spider, sources, keys, claimed_links):
+        expected = _group_by_source_metadata(sources, keys)
+        legacy = _group_by_source_metadata(
+            (
+                source
+                for link, source in self.previous.items()
+                if link not in self.expected_links and link not in claimed_links
+            ),
+            keys,
         )
         for identity, sources in expected.items():
             missing = [
@@ -148,6 +194,8 @@ class AnnouncementItemPipeline:
                 raise ValueError(f"Ambiguous legacy announcement source: {identity!r}")
             link = missing[0]["link"]
             self.previous[link] = {**candidates[0], "link": link}
+            self.legacy_source_links[link] = candidates[0]["link"]
+            claimed_links.add(candidates[0]["link"])
             spider.logger.warning(
                 "Matched legacy announcement URL %s to authoritative source %s",
                 candidates[0]["link"],
@@ -166,6 +214,11 @@ class AnnouncementItemPipeline:
             return item
         item["articles"] = self._filter_articles(item, spider)
         self._save_individual_item(item)
+        previous = self.collected_data.get(item["link"]) or self.previous.get(
+            item["link"]
+        )
+        if previous:
+            self._remove_superseded_file(previous, item, spider)
         self.collected_data[item["link"]] = dict(item)
         spider.logger.info(
             f"儲存公告: {item['department']}/{item['title']} "
@@ -194,17 +247,49 @@ class AnnouncementItemPipeline:
         return articles
 
     def _save_individual_item(self, item: AnnouncementItem | dict) -> None:
+        file_path = self._individual_file_path(item)
+        existing = load_json(file_path)
+        if existing is not None and (
+            not isinstance(existing, dict)
+            or existing.get("link")
+            not in (
+                item["link"],
+                self.legacy_source_links.get(item["link"], item["link"]),
+            )
+        ):
+            raise ValueError(
+                f"Announcement file belongs to another source: {file_path}"
+            )
+        save_json(dict(item), file_path)
+
+    def _individual_file_path(self, item: AnnouncementItem | dict) -> Path:
         department = self._sanitize_path_component(
             item.get("department") or "未命名單位"
         )
         title = self._sanitize_path_component(item.get("title") or "未命名公告")
         language = self._sanitize_path_component(item.get("language") or "未知語言")
 
-        dept_dir = ANNOUNCEMENTS_FOLDER / department
-        dept_dir.mkdir(parents=True, exist_ok=True)
+        return ANNOUNCEMENTS_FOLDER / department / f"{title}_{language}.json"
 
-        file_path = dept_dir / f"{title}_{language}.json"
-        save_json(dict(item), file_path)
+    def _remove_superseded_file(self, previous, item, spider):
+        old_path = self._individual_file_path(previous)
+        if old_path == self._individual_file_path(item):
+            return
+        existing = load_json(old_path)
+        if existing is None:
+            return
+        if not isinstance(existing, dict):
+            raise ValueError(f"Invalid previous announcement file: {old_path}")
+        if existing.get("link") not in (
+            item["link"],
+            self.legacy_source_links.get(item["link"], item["link"]),
+        ):
+            spider.logger.warning(
+                "Retaining superseded announcement path owned by another source: %s",
+                old_path,
+            )
+            return
+        old_path.unlink()
 
     def _sanitize_path_component(self, value: str) -> str:
         sanitized = re.sub(r'[\\/:*?"<>|]', "_", value.strip())

@@ -1,6 +1,7 @@
 """Deterministic parsing of RPage announcement pages."""
 
 import logging
+import re
 from dataclasses import dataclass
 
 from nthu_scraper.parsers import ParseError
@@ -27,11 +28,15 @@ class InvalidArticleUrl(ValueError):
         super().__init__(f"title={title!r} link={link!r}: {reason}")
 
 
+def normalize_announcement_text(text: str) -> str:
+    return " ".join(re.sub(r"[\x00-\x1f\x7f-\x9f]", " ", text).split())
+
+
 def parse_article(item, base_url: str) -> dict:
     link_elem = item.css(".mtitle a")
-    title = link_elem.css("::text").get()
+    title = link_elem.xpath("string(.)").get()
     if title:
-        title = title.strip().replace('"', "")
+        title = normalize_announcement_text(title.replace('"', ""))
     href = link_elem.css("::attr(href)").get()
     if not title or not href:
         raise ParseError("Announcement entry has no usable title or link")
@@ -43,7 +48,7 @@ def parse_article(item, base_url: str) -> dict:
     return {
         "title": title,
         "link": link,
-        "date": date.strip() if date else date,
+        "date": normalize_announcement_text(date) if date else date,
     }
 
 
@@ -95,13 +100,36 @@ def parse_more_links(page, base_url: str, language: str) -> list[str]:
     return links
 
 
+def parse_list_title(page) -> str | None:
+    module = page.css("#pageptlist").xpath(
+        "ancestor::*[contains(concat(' ', normalize-space(@class), ' '), "
+        "' module ')][1]"
+    )
+    for candidates in (
+        module.css("header .mt-title"),
+        page.css("h1.section-title, h2.section-title").xpath(
+            "self::*[not(ancestor::*[@id='pageptlist' or "
+            "contains(concat(' ', normalize-space(@class), ' '), ' module ')])]"
+        ),
+        page.css("title"),
+    ):
+        for candidate in candidates:
+            title = normalize_announcement_text(
+                candidate.xpath("string(.)").get() or ""
+            )
+            if title:
+                return title
+    return None
+
+
 def parse_list_page(page) -> dict:
-    title = page.css("[class*='title']::text").get()
-    if not title or not title.strip():
-        title = page.css("title::text").get()
+    rows = _article_rows(page)
+    title = parse_list_title(page)
+    if not title:
+        raise ParseError("Announcement page has no usable list title")
     return {
-        "title": title.strip() if title else title,
-        "has_content": bool(_article_rows(page)),
+        "title": title,
+        "has_content": bool(rows),
     }
 
 

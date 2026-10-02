@@ -211,6 +211,7 @@ class AnnouncementListPipeline:
         self.collected_items = []
         self.existing_data = load_json(ANNOUNCEMENTS_LIST_PATH) or []
         self.existing_links = {item["link"] for item in self.existing_data}
+        self.items_by_link = {item["link"]: item for item in self.existing_data}
 
     def process_item(self, item, spider):
         """處理 Item"""
@@ -219,11 +220,15 @@ class AnnouncementListPipeline:
 
         link = item["link"]
 
-        # 只添加新連結
         if link not in self.existing_links:
-            self.collected_items.append(dict(item))
+            source = dict(item)
+            self.collected_items.append(source)
+            self.items_by_link[link] = source
             self.existing_links.add(link)
             spider.logger.info(f"新增公告列表: {item['department']}/{item['title']}")
+        elif item.get("title") and self.items_by_link[link]["title"] != item["title"]:
+            self.items_by_link[link]["title"] = item["title"]
+            spider.logger.info("更新公告列表標題: %s -> %s", link, item["title"])
 
         return item
 
@@ -235,10 +240,15 @@ class AnnouncementListPipeline:
         # 新增自訂公告來源
         for custom_item in CUSTOM_ANNOUNCEMENT_SOURCES:
             if custom_item["link"] not in self.existing_links:
-                all_items.append(custom_item)
+                source = dict(custom_item)
+                all_items.append(source)
+                self.items_by_link[custom_item["link"]] = source
+                self.existing_links.add(custom_item["link"])
                 spider.logger.info(
                     f"新增自訂公告列表: {custom_item['department']}/{custom_item['title']}"
                 )
+            else:
+                self.items_by_link[custom_item["link"]]["title"] = custom_item["title"]
 
         # 按連結排序
         all_items.sort(key=lambda x: x["link"])
