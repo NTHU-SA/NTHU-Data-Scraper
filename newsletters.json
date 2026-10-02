@@ -1126,7 +1126,12 @@
     {
         "name": "圖書館電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-144-tu-shu-guan-dian-zi-bao",
-        "details": {},
+        "details": {
+            "管理者": "莊翊鈞",
+            "管理單位": "國立清華大學圖書館-服務推廣組",
+            "電子信箱": "ref@my.nthu.edu.tw",
+            "聯絡電話": "42394"
+        },
         "articles": []
     },
     {
@@ -1482,7 +1487,7 @@
             },
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-61/mailid-2172-?tmpl=component&tmpl=component",
-                "title": "跟愛慾實務社一起走同志遊行     開始報名~~",
+                "title": "跟愛慾實務社一起走同志遊行 開始報名~~",
                 "date": "2022-10-18"
             },
             {
@@ -1587,19 +1592,34 @@
     {
         "name": "教務處綜合教務組電子報-大學部",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-42-",
-        "details": {},
+        "details": {
+            "管理者": "林嘉怡",
+            "管理單位": "教務處綜教組",
+            "電子信箱": "chyilin@mx.nthu.edu.tw",
+            "聯絡電話": "35056"
+        },
         "articles": []
     },
     {
         "name": "教務處綜合教務組電子報-研究生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-41-",
-        "details": {},
+        "details": {
+            "管理者": "林嘉怡",
+            "管理單位": "教務處綜教組",
+            "電子信箱": "chyilin@mx.nthu.edu.tw",
+            "聯絡電話": "35056"
+        },
         "articles": []
     },
     {
         "name": "教學發展中心電子報-學生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-55-",
-        "details": {},
+        "details": {
+            "管理者": "吳孟芬",
+            "管理單位": "教學發展中心",
+            "電子信箱": "ctld@my.nthu.edu.tw",
+            "聯絡電話": "35401"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-55/mailid-5862-zheng-jian-ji-jiang-jie-zhi-9-28-zhi-da-zhuan-sheng-yan-jiu-qi-hang-shi-xing-ji-hua-ni-de-di-yi-fen-yan-jiu-ji-hua-cong-zhe-li-kai-shi-applications-closing-soon-undergraduate-research-launch-pilot-program-deadline-sep-28?tmpl=component&tmpl=component",
@@ -1885,12 +1905,7 @@
     {
         "name": "新聞剪輯電子報",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-10-",
-        "details": {
-            "管理者": "林燕君",
-            "管理單位": "秘書處公共事務組",
-            "電子信箱": "dpa@my.nthu.edu.tw",
-            "聯絡電話": "62008"
-        },
+        "details": {},
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-10/mailid-1986-2022-08-08?tmpl=component&tmpl=component",
@@ -2522,12 +2537,7 @@
     {
         "name": "清華簡訊",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-9-",
-        "details": {
-            "管理者": "蔡季芬",
-            "管理單位": "秘書處公共事務組",
-            "電子信箱": "dpa@my.nthu.edu.tw",
-            "聯絡電話": "62010"
-        },
+        "details": {},
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-9/mailid-5124-?tmpl=component&tmpl=component",
@@ -2634,7 +2644,12 @@
     {
         "name": "清華衛保組-全校在校生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-13-",
-        "details": {},
+        "details": {
+            "管理者": "任俊豪",
+            "管理單位": "衛生保健組",
+            "電子信箱": "clinic@my.nthu.edu.tw",
+            "聯絡電話": "43000"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-13/mailid-1292-110-11-16?tmpl=component&tmpl=component",
@@ -2666,7 +2681,12 @@
     {
         "name": "清華衛保組-全校教職員",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-12-",
-        "details": {},
+        "details": {
+            "管理者": "任俊豪",
+            "管理單位": "衛生保健組",
+            "電子信箱": "clinic@my.nthu.edu.tw",
+            "聯絡電話": "43000"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-12/mailid-1292-110-11-16?tmpl=component&tmpl=component",
@@ -2689,7 +2709,12 @@
     {
         "name": "研發處電子報-大學部",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-31-",
-        "details": {},
+        "details": {
+            "管理者": "曹雅鈞",
+            "管理單位": "研發處",
+            "電子信箱": "rd@my.nthu.edu.tw",
+            "聯絡電話": "35009"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-31/mailid-5280-115-115-2-23-12-00?tmpl=component&tmpl=component",
@@ -2795,7 +2820,12 @@
     {
         "name": "研發處電子報-學生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-32-",
-        "details": {},
+        "details": {
+            "管理者": "曹雅鈞",
+            "管理單位": "研發處",
+            "電子信箱": "rd@my.nthu.edu.tw",
+            "聯絡電話": "35009"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-32/mailid-3474-113-113-2-26-13-00?tmpl=component&tmpl=component",
@@ -2983,7 +3013,12 @@
     {
         "name": "研發處電子報-研究生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-30-",
-        "details": {},
+        "details": {
+            "管理者": "曹雅鈞",
+            "管理單位": "研發處",
+            "電子信箱": "rd@my.nthu.edu.tw",
+            "聯絡電話": "35009"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-30/mailid-5208-12-31?tmpl=component&tmpl=component",
@@ -3208,7 +3243,12 @@
     {
         "name": "秘書處-全校在校生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-22-",
-        "details": {},
+        "details": {
+            "管理者": "李逸君",
+            "管理單位": "秘書處",
+            "電子信箱": "secreta5@my.nthu.edu.tw",
+            "聯絡電話": "62379"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-22/mailid-2606-?tmpl=component&tmpl=component",
@@ -3337,7 +3377,12 @@
     {
         "name": "秘書處-全校教職員生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-21-",
-        "details": {},
+        "details": {
+            "管理者": "李逸君",
+            "管理單位": "秘書處",
+            "電子信箱": "secreta5@my.nthu.edu.tw",
+            "聯絡電話": "62379"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-21/mailid-5786-gao-wei-yuan-xiao-zhang-quan-xiao-shuo-ming-hui?tmpl=component&tmpl=component",
@@ -3407,7 +3452,7 @@
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-110/mailid-5842-qiu-yue-ying-zhao-xue-si-lu-ren-wen-gong-pu-xin-pian-zhang-zhu-si-xiao-you-dian-zi-bao-di4qi-2026-09-25?tmpl=component&tmpl=component",
-                "title": "秋月映照學思路 人文共譜新篇章  (築思校友電子報第4期-2026-09-24)",
+                "title": "秋月映照學思路 人文共譜新篇章 (築思校友電子報第4期-2026-09-24)",
                 "date": "2026-09-24"
             },
             {
@@ -3508,7 +3553,12 @@
     {
         "name": "英語教學精進中心-大學部",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-111-",
-        "details": {},
+        "details": {
+            "管理者": "黃玉婷",
+            "管理單位": "英語教學精進中心",
+            "電子信箱": "yt.huang@mx.nthu.edu.tw",
+            "聯絡電話": "35452"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-111/mailid-5864-emi-center-115-1-emi-huo-dong-yu-xue-xi-zi-yuan-fall-2026-emi-activities-resources?tmpl=component&tmpl=component",
@@ -3604,7 +3654,12 @@
     {
         "name": "英語教學精進中心-大學部本國生",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-114-",
-        "details": {},
+        "details": {
+            "管理者": "黃玉婷",
+            "管理單位": "英語教學精進中心",
+            "電子信箱": "yt.huang@mx.nthu.edu.tw",
+            "聯絡電話": "35452"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-114/mailid-5800-zui-gao-ke-huo-1wan-yuan-jiang-jin-mian-xiu-quan-bu-ying-wen-xue-fen-8xue-fen-pei-li-ying-jian-bestep-bao-ming-kai-shi?tmpl=component&tmpl=component",
@@ -3833,7 +3888,12 @@
     {
         "name": "計通中心-校園授權軟體",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-6-",
-        "details": {},
+        "details": {
+            "管理者": "江佩如",
+            "管理單位": "學習科技組",
+            "電子信箱": "pjchiang@mx.nthu.edu.tw",
+            "聯絡電話": "31231"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-6/mailid-852-?tmpl=component&tmpl=component",
@@ -3895,7 +3955,7 @@
             },
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-40/mailid-5548-zui-hou-ti-xing-114-2-ting-xiu-shen-qing-jiang-yu-ben-zhou-liu-5-9-09-00-jie-zhi-final-reminder-course-withdrawal-deadline-may-9-09-00-am?tmpl=component&tmpl=component",
-                "title": "【提醒】停修申請將於本週六 (5/9) 09:00 截止 /  Course Withdrawal Deadline: May 9, 09:00 AM",
+                "title": "【提醒】停修申請將於本週六 (5/9) 09:00 截止 / Course Withdrawal Deadline: May 9, 09:00 AM",
                 "date": "2026-05-05"
             },
             {
@@ -4133,7 +4193,12 @@
     {
         "name": "電機工程學系電子報(大學部)",
         "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-24-",
-        "details": {},
+        "details": {
+            "管理者": "詹瑞芳",
+            "管理單位": "電機系",
+            "電子信箱": "eecsee@my.nthu.edu.tw",
+            "聯絡電話": "62197"
+        },
         "articles": [
             {
                 "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-24/mailid-131-9-18-am-8-30-10-30?tmpl=component&tmpl=component",

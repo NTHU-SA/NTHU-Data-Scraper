@@ -58,11 +58,11 @@
         "version": "a54e0838aa07cd9c326e4766cfec2e77a075c6b3e3fca92108a234fca903611b"
       },
       {
-        "last_commit": "1ccabcf9d36ffe9629c207bb300b27b0e9d4649dffa3a8f2ba9266a078c00ccc",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "66846e94e557e38bd9583227fa058f3853f4bef85d15644547a007a4b851a4f1",
+        "last_updated": "2026-10-03T01:28:17.996748+08:00",
         "name": "newsletters.json",
-        "sha256": "1ccabcf9d36ffe9629c207bb300b27b0e9d4649dffa3a8f2ba9266a078c00ccc",
-        "version": "1ccabcf9d36ffe9629c207bb300b27b0e9d4649dffa3a8f2ba9266a078c00ccc"
+        "sha256": "66846e94e557e38bd9583227fa058f3853f4bef85d15644547a007a4b851a4f1",
+        "version": "66846e94e557e38bd9583227fa058f3853f4bef85d15644547a007a4b851a4f1"
       }
     ],
     "announcements/主計室": [
@@ -3232,5 +3232,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-03T01:18:48.470407+08:00"
+  "last_updated": "2026-10-03T01:28:17.996748+08:00"
 }
