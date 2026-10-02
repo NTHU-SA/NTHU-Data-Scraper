@@ -1,8 +1,10 @@
 import pytest
+import scrapy
 from scrapy import Selector
 
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.announcements import (
+    normalize_announcement_text,
     normalize_list_url,
     parse_articles,
     parse_list_page,
@@ -10,6 +12,7 @@ from nthu_scraper.parsers.announcements import (
 )
 from nthu_scraper.spiders import nthu_announcements_item as item_spider
 from nthu_scraper.spiders import nthu_announcements_list as list_spider
+from nthu_scraper.storage import read_json, write_json_atomic
 
 
 def test_rows_contract(fixture_text, html_response):
@@ -122,7 +125,67 @@ def test_whitespace_title_falls_back():
     assert parse_list_page(page)["title"] == "Fallback"
 
 
-def test_item_callback_uses_authoritative_metadata(
+def test_list_title_uses_announcement_module(fixture_text):
+    page = Selector(text=fixture_text("announcements", "search_module.html"))
+    assert parse_list_page(page) == {"title": "NEWS", "has_content": True}
+
+
+def test_list_title_fallback_ignores_search_and_article_titles():
+    page = Selector(
+        text='<title>News</title><div class="module">'
+        '<h2 class="section-title">Search</h2></div>'
+        '<div id="pageptlist"><div class="row listBS">'
+        '<div class="mtitle"><a href="/article"><h2 class="section-title">'
+        "Article</h2></a></div></div></div>"
+    )
+    assert parse_list_page(page)["title"] == "News"
+
+
+def test_list_with_no_usable_title_raises():
+    with pytest.raises(ParseError, match="no usable list title"):
+        parse_list_page(Selector(text='<div id="pageptlist"></div>'))
+
+
+@pytest.mark.parametrize("heading", ["", " \t\n ", "<span> </span>"])
+def test_empty_module_title_falls_back(heading):
+    page = Selector(
+        text=f'<title>News</title><div class="module">'
+        f'<header><h2 class="mt-title">{heading}</h2></header>'
+        '<div id="pageptlist"></div></div>'
+    )
+    assert parse_list_page(page)["title"] == "News"
+
+
+@pytest.mark.parametrize(
+    "separator", ["\x0b", "\x0c", "\x1f", "\x7f", "\x85", "\xa0", "\u3000"]
+)
+def test_announcement_text_normalizes_controls_and_unicode_whitespace(separator):
+    assert (
+        normalize_announcement_text(f"{separator}News{separator}  Items{separator}")
+        == "News Items"
+    )
+    assert normalize_announcement_text("清華【公告】—NEWS") == "清華【公告】—NEWS"
+    assert normalize_announcement_text(r"literal\u000b") == r"literal\u000b"
+
+
+def test_title_and_date_normalization():
+    page = Selector(
+        text='<title>  News\x0b Items </title><div id="pageptlist">'
+        '<div class="row listBS"><div class="mtitle">'
+        '<a href="/article"> "\x0bNew <span>article</span>\xa0title" </a></div>'
+        '<span class="mdate">\x0b 2026/10/03 \x0c</span></div></div>'
+    )
+    assert parse_list_page(page)["title"] == "News Items"
+    assert parse_articles(page, "https://example.test").articles == [
+        {
+            "title": "New article title",
+            "link": "https://example.test/article",
+            "date": "2026/10/03",
+        }
+    ]
+
+
+def test_item_callback_refreshes_title_and_preserves_source_metadata(
     monkeypatch, fixture_text, html_response
 ):
     monkeypatch.setattr(
@@ -140,12 +203,110 @@ def test_item_callback_uses_authoritative_metadata(
     )
     (item,) = spider.parse(page)
     assert dict(item) == {
-        "title": "Source",
+        "title": "校園公告",
         "link": "https://example.test/original",
         "department": "Dept",
         "language": "en",
         "articles": parse_articles(page, page.url).articles,
     }
+
+
+@pytest.mark.parametrize("custom", [False, True])
+def test_item_title_fallback_and_custom_override(
+    monkeypatch, html_response, caplog, custom
+):
+    monkeypatch.setattr(
+        item_spider.AnnouncementsItemSpider, "_load_announcement_list", lambda self: []
+    )
+    source_link = (
+        list_spider.CUSTOM_ANNOUNCEMENT_SOURCES[0]["link"]
+        if custom
+        else "https://example.test/list"
+    )
+    page = html_response(
+        '<div id="pageptlist"><div class="row listBS">'
+        '<div class="mtitle"><a href="/article">Article</a></div></div></div>',
+        meta={
+            "title": "Old\x0b title",
+            "source_link": source_link,
+            "department": "Dept",
+            "language": "en",
+        },
+    )
+    (item,) = item_spider.AnnouncementsItemSpider().parse(page)
+    assert item["title"] == (
+        list_spider.CUSTOM_ANNOUNCEMENT_SOURCES[0]["title"] if custom else "Old title"
+    )
+    if not custom:
+        assert "No usable announcement list title" in caplog.text
+
+
+def test_list_pipeline_updates_titles_preserving_failed_and_custom_sources(
+    tmp_path, monkeypatch
+):
+    path = tmp_path / "announcements_list.json"
+    monkeypatch.setattr(list_spider, "ANNOUNCEMENTS_LIST_PATH", path)
+    source = {
+        "title": "Search",
+        "link": "https://example.test/list",
+        "department": "Dept",
+        "language": "en",
+    }
+    untouched = {**source, "link": "https://example.test/failed", "title": "Retained"}
+    custom = {**list_spider.CUSTOM_ANNOUNCEMENT_SOURCES[0], "title": "Wrong"}
+    write_json_atomic([source, untouched, custom], path)
+    spider = scrapy.Spider("test")
+    pipeline = list_spider.AnnouncementListPipeline()
+    pipeline.open_spider(spider)
+    for title in ("NEWS", "NEWS", None):
+        pipeline.process_item(
+            list_spider.AnnouncementListItem({**source, "title": title}), spider
+        )
+    new = {**source, "link": "https://example.test/new", "title": "New"}
+    pipeline.process_item(list_spider.AnnouncementListItem(new), spider)
+    pipeline.process_item(
+        list_spider.AnnouncementListItem({**new, "title": "Updated"}), spider
+    )
+    pipeline.close_spider(spider)
+    result = {item["link"]: item for item in read_json(path)}
+    assert result[source["link"]] == {**source, "title": "NEWS"}
+    assert result[untouched["link"]] == untouched
+    assert result[new["link"]] == {**new, "title": "Updated"}
+    assert result[custom["link"]] == list_spider.CUSTOM_ANNOUNCEMENT_SOURCES[0]
+    assert len(result) == 3 + len(list_spider.CUSTOM_ANNOUNCEMENT_SOURCES)
+
+
+def test_content_refresh_leaves_source_list_unchanged(
+    tmp_path, monkeypatch, fixture_text, html_response
+):
+    source_path = tmp_path / "announcements_list.json"
+    aggregate_path = tmp_path / "announcements.json"
+    folder = tmp_path / "announcements"
+    monkeypatch.setattr(item_spider, "ANNOUNCEMENTS_LIST_PATH", source_path)
+    monkeypatch.setattr(item_spider, "ANNOUNCEMENTS_JSON_PATH", aggregate_path)
+    monkeypatch.setattr(item_spider, "ANNOUNCEMENTS_FOLDER", folder)
+    source = {
+        "title": "Search",
+        "link": "https://example.test/list",
+        "department": "Dept",
+        "language": "en",
+    }
+    write_json_atomic([source], source_path)
+    before = source_path.read_bytes()
+    spider = item_spider.AnnouncementsItemSpider()
+    pipeline = item_spider.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    page = html_response(
+        fixture_text("announcements", "search_module.html"),
+        meta={**source, "source_link": source["link"]},
+    )
+    (item,) = spider.parse(page)
+    pipeline.process_item(item, spider)
+    pipeline.close_spider(spider)
+    assert source_path.read_bytes() == before
+    (saved,) = read_json(aggregate_path)
+    assert saved["title"] == "NEWS"
+    assert read_json(folder / "Dept" / "NEWS_en.json") == saved
 
 
 def test_list_spider_without_chromium(monkeypatch, fixture_text, html_response):

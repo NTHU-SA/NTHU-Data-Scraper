@@ -5,7 +5,13 @@ import re
 import scrapy
 
 from nthu_scraper.parsers import ParseError
-from nthu_scraper.parsers.announcements import ParsedArticles, parse_articles
+from nthu_scraper.parsers.announcements import (
+    ParsedArticles,
+    normalize_announcement_text,
+    parse_articles,
+    parse_list_title,
+)
+from nthu_scraper.spiders.nthu_announcements_list import CUSTOM_ANNOUNCEMENT_SOURCES
 from nthu_scraper.storage import read_json
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_FOLDER,
@@ -93,8 +99,19 @@ class AnnouncementsItemSpider(scrapy.Spider):
             self.logger.warning(f"公告頁面無文章: {response.url}")
             return
 
+        source_link = response.meta["source_link"]
+        custom_titles = {
+            source["link"]: source["title"] for source in CUSTOM_ANNOUNCEMENT_SOURCES
+        }
+        title = custom_titles.get(source_link) or parse_list_title(response)
+        if not title:
+            self.logger.warning(
+                "No usable announcement list title; retaining title for %s",
+                source_link,
+            )
+            title = response.meta["title"]
         item = AnnouncementItem(
-            title=response.meta["title"],
+            title=normalize_announcement_text(title),
             link=response.meta["source_link"],
             language=response.meta["language"],
             department=response.meta["department"],
