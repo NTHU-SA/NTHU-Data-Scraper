@@ -1,0 +1,92 @@
+[
+    {
+        "url": "https://clcul.site.nthu.edu.tw/?Lang=zh-tw",
+        "department": "人文社會學院華語文碩士學位學程",
+        "language": "zh-tw",
+        "reason": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://clcul.site.nthu.edu.tw/?Lang=zh-tw\nCall log:\n  - navigating to \"https://clcul.site.nthu.edu.tw/?Lang=zh-tw\", waiting until \"load\"\n",
+        "http_status": null,
+        "checked_at": "2026-10-02T19:19:38.364091+00:00",
+        "previous_attempt": {
+            "checked_at": "2026-10-02T19:08:49.487477+00:00",
+            "reason": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://clcul.site.nthu.edu.tw/?Lang=zh-tw\nCall log:\n  - navigating to \"https://clcul.site.nthu.edu.tw/?Lang=zh-tw\", waiting until \"load\"\n",
+            "http_status": null
+        },
+        "retry_status": "request_failed",
+        "final_url": null
+    },
+    {
+        "url": "https://clcul.site.nthu.edu.tw/?Lang=en",
+        "department": "人文社會學院華語文碩士學位學程",
+        "language": "en",
+        "reason": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://clcul.site.nthu.edu.tw/?Lang=en\nCall log:\n  - navigating to \"https://clcul.site.nthu.edu.tw/?Lang=en\", waiting until \"load\"\n",
+        "http_status": null,
+        "checked_at": "2026-10-02T19:19:38.364091+00:00",
+        "previous_attempt": {
+            "checked_at": "2026-10-02T19:08:49.487477+00:00",
+            "reason": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://clcul.site.nthu.edu.tw/?Lang=en\nCall log:\n  - navigating to \"https://clcul.site.nthu.edu.tw/?Lang=en\", waiting until \"load\"\n",
+            "http_status": null
+        },
+        "retry_status": "request_failed",
+        "final_url": null
+    },
+    {
+        "url": "https://gom.site.nthu.edu.tw/?Lang=zh-tw",
+        "department": "工學院全球營運管理碩士雙聯學位學程",
+        "language": "zh-tw",
+        "reason": "Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://gom.site.nthu.edu.tw/?Lang=zh-tw\nCall log:\n  - navigating to \"https://gom.site.nthu.edu.tw/?Lang=zh-tw\", waiting until \"load\"\n",
+        "http_status": null,
+        "checked_at": "2026-10-02T19:19:38.364091+00:00",
+        "previous_attempt": {
+            "checked_at": "2026-10-02T19:08:49.487477+00:00",
+            "reason": "Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://gom.site.nthu.edu.tw/?Lang=zh-tw\nCall log:\n  - navigating to \"https://gom.site.nthu.edu.tw/?Lang=zh-tw\", waiting until \"load\"\n",
+            "http_status": null
+        },
+        "retry_status": "request_failed",
+        "final_url": null
+    },
+    {
+        "url": "https://gom.site.nthu.edu.tw/?Lang=en",
+        "department": "工學院全球營運管理碩士雙聯學位學程",
+        "language": "en",
+        "reason": "Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://gom.site.nthu.edu.tw/?Lang=en\nCall log:\n  - navigating to \"https://gom.site.nthu.edu.tw/?Lang=en\", waiting until \"load\"\n",
+        "http_status": null,
+        "checked_at": "2026-10-02T19:19:38.364091+00:00",
+        "previous_attempt": {
+            "checked_at": "2026-10-02T19:08:49.487477+00:00",
+            "reason": "Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://gom.site.nthu.edu.tw/?Lang=en\nCall log:\n  - navigating to \"https://gom.site.nthu.edu.tw/?Lang=en\", waiting until \"load\"\n",
+            "http_status": null
+        },
+        "retry_status": "request_failed",
+        "final_url": null
+    },
+    {
+        "url": "https://kh.site.nthu.edu.tw/app/index.php?Lang=zh-tw",
+        "department": "秘書處高雄校區",
+        "language": "zh-tw",
+        "reason": "Timeout 30000.0ms exceeded.",
+        "http_status": null,
+        "checked_at": "2026-10-02T19:19:38.364091+00:00",
+        "previous_attempt": {
+            "checked_at": "2026-10-02T19:08:49.487477+00:00",
+            "reason": "Timeout 15000.0ms exceeded.",
+            "http_status": null
+        },
+        "retry_status": "request_failed",
+        "final_url": null
+    },
+    {
+        "url": "https://dpe.site.nthu.edu.tw/app/index.php?Lang=zh-tw",
+        "department": "竹師教育學院運動科學系",
+        "language": "zh-tw",
+        "reason": "Timeout 30000.0ms exceeded.",
+        "http_status": null,
+        "checked_at": "2026-10-02T19:19:38.364091+00:00",
+        "previous_attempt": {
+            "checked_at": "2026-10-02T19:08:49.487477+00:00",
+            "reason": "Timeout 15000.0ms exceeded.",
+            "http_status": null
+        },
+        "retry_status": "request_failed",
+        "final_url": null
+    }
+]

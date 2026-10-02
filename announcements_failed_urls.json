@@ -1,0 +1,238 @@
+[
+    {
+        "title": "因應新型冠狀病毒肺炎：教務相關公告",
+        "link": "https://academic.site.nthu.edu.tw/p/403-1007-8253-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "教務處",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://academic.site.nthu.edu.tw/"
+            },
+            "content": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://academic.site.nthu.edu.tw/"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": false,
+        "has_aggregate_entry": false,
+        "announcement_json_paths": [],
+        "confirmed_removed": true,
+        "removed_at": "2026-10-02T19:19:38.364091+00:00",
+        "removed_json_paths": [
+            "announcements/教務處/因應新型冠狀病毒肺炎：教務相關公告_zh-tw.json"
+        ]
+    },
+    {
+        "title": "師長祝福與勉勵",
+        "link": "https://aimsfellows.site.nthu.edu.tw/p/403-1160-10348-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "教務處智慧製造跨院高階主管碩士在職學位學程",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "request_failed",
+                "reason": "Timeout 15000.0ms exceeded.",
+                "http_status": null,
+                "final_url": null
+            },
+            "content": {
+                "status": "ok",
+                "reason": null,
+                "http_status": 200,
+                "final_url": "https://aimsfellows.site.nthu.edu.tw/p/403-1160-10348-1.php?Lang=zh-tw"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": true,
+        "has_aggregate_entry": true,
+        "announcement_json_paths": [
+            "announcements/教務處智慧製造跨院高階主管碩士在職學位學程/師長祝福與勉勵_zh-tw.json"
+        ],
+        "confirmed_removed": false
+    },
+    {
+        "title": "Job Openings",
+        "link": "https://cosr.site.nthu.edu.tw/p/403-1536-11274-1.php?Lang=en",
+        "language": "en",
+        "department": "半導體研究學院",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://cosr.site.nthu.edu.tw/p/403-1536-11274-1.php?Lang=en"
+            },
+            "content": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://cosr.site.nthu.edu.tw/p/403-1536-11274-1.php?Lang=en"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": false,
+        "has_aggregate_entry": false,
+        "announcement_json_paths": [],
+        "confirmed_removed": true,
+        "removed_at": "2026-10-02T19:19:38.364091+00:00",
+        "removed_json_paths": [
+            "announcements/半導體研究學院/Job Openings_en.json"
+        ]
+    },
+    {
+        "title": "公告_活動",
+        "link": "https://health.site.nthu.edu.tw/p/403-1001-7467-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "學務處衛生保健組(醫輔大樓1樓)",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://health.site.nthu.edu.tw/p/403-1001-7467-1.php?Lang=zh-tw"
+            },
+            "content": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://health.site.nthu.edu.tw/p/403-1001-7467-1.php?Lang=zh-tw"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": false,
+        "has_aggregate_entry": false,
+        "announcement_json_paths": [],
+        "confirmed_removed": true,
+        "removed_at": "2026-10-02T19:19:38.364091+00:00",
+        "removed_json_paths": [
+            "announcements/學務處衛生保健組(醫輔大樓1樓)/公告_活動_zh-tw.json"
+        ]
+    },
+    {
+        "title": "相關中心",
+        "link": "https://med.site.nthu.edu.tw/p/407-1551-3231-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "生命科學暨醫學院學士後醫學系",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "ok",
+                "reason": null,
+                "http_status": 200,
+                "final_url": "https://med.site.nthu.edu.tw/p/407-1551-3231-1.php?Lang=zh-tw"
+            },
+            "content": {
+                "status": "parse_failed",
+                "reason": "Announcement entry has no usable title or link",
+                "http_status": 200,
+                "final_url": "https://med.site.nthu.edu.tw/p/407-1551-3231-1.php?Lang=zh-tw"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": false,
+        "has_aggregate_entry": false,
+        "announcement_json_paths": [],
+        "confirmed_removed": true,
+        "removed_at": "2026-10-02T19:19:38.364091+00:00",
+        "removed_json_paths": [
+            "announcements/生命科學暨醫學院學士後醫學系/相關中心_zh-tw.json"
+        ]
+    },
+    {
+        "title": "最新消息",
+        "link": "https://prc.site.nthu.edu.tw/p/403-1561-11-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "研究發展處光電中心",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://prc.site.nthu.edu.tw/p/403-1561-11-1.php?Lang=zh-tw"
+            },
+            "content": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://prc.site.nthu.edu.tw/p/403-1561-11-1.php?Lang=zh-tw"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": false,
+        "has_aggregate_entry": false,
+        "announcement_json_paths": [],
+        "confirmed_removed": true,
+        "removed_at": "2026-10-02T19:19:38.364091+00:00",
+        "removed_json_paths": [
+            "announcements/研究發展處光電中心/最新消息_zh-tw.json"
+        ]
+    },
+    {
+        "title": "活動資訊",
+        "link": "https://prc.site.nthu.edu.tw/p/403-1561-9892-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "研究發展處光電中心",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://prc.site.nthu.edu.tw/p/403-1561-9892-1.php?Lang=zh-tw"
+            },
+            "content": {
+                "status": "parse_failed",
+                "reason": "Announcement page has no #pageptlist container",
+                "http_status": 200,
+                "final_url": "https://prc.site.nthu.edu.tw/p/403-1561-9892-1.php?Lang=zh-tw"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": false,
+        "has_aggregate_entry": false,
+        "announcement_json_paths": [],
+        "confirmed_removed": true,
+        "removed_at": "2026-10-02T19:19:38.364091+00:00",
+        "removed_json_paths": [
+            "announcements/研究發展處光電中心/活動資訊_zh-tw.json"
+        ]
+    },
+    {
+        "title": "快速連結",
+        "link": "https://student.site.nthu.edu.tw/p/403-1509-3413-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "學務處",
+        "checked_at": "2026-10-02T19:08:49.487477+00:00",
+        "checks": {
+            "list": {
+                "status": "ok",
+                "reason": null,
+                "http_status": 200,
+                "final_url": "https://student.site.nthu.edu.tw/p/403-1509-3413-1.php?Lang=zh-tw"
+            },
+            "content": {
+                "status": "parse_failed",
+                "reason": "Announcement entry has no usable title or link",
+                "http_status": 200,
+                "final_url": "https://student.site.nthu.edu.tw/p/403-1509-3413-1.php?Lang=zh-tw"
+            }
+        },
+        "existing_articles_preserved": false,
+        "has_known_good_snapshot": false,
+        "has_aggregate_entry": false,
+        "announcement_json_paths": [],
+        "confirmed_removed": true,
+        "removed_at": "2026-10-02T19:19:38.364091+00:00",
+        "removed_json_paths": []
+    }
+]
