@@ -58,6 +58,18 @@ Run a crawler with `uv run python -m scrapy crawl <name>`.
 Run `nthu_announcements_list` before `nthu_announcements_item` on a fresh
 checkout, or populate `data/` from the published snapshot first.
 
+`nthu_newsletters` starts at the official
+[metadata gallery wrapper](https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/lis),
+follows its embedded Big5 gallery and current AcyMailing list, and joins freshly
+scraped management details by list ID. The AcyMailing list determines membership,
+names, and archive URLs; lists absent from the metadata gallery have empty
+`details`. External or retired gallery links do not add extra lists.
+Each archive contributes only its default, recent-first page (not its full
+paginated history), preserving the existing `name`, `link`, `details`, and
+`articles` JSON shape. Explicit “No results” archives remain as empty lists.
+Missing structures, malformed entries/dates, or failed requests retain the
+previous whole newsletter snapshot. This crawler is manual, not scheduled.
+
 ### URL handling
 
 Use `normalize_http_url` from `nthu_scraper.utils.url_utils` for HTTP(S) URL

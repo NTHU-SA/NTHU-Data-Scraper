@@ -7,8 +7,11 @@ from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.newsletters import (
     URL_PREFIX,
     newsletter_entries,
+    newsletter_list_id,
     parse_archive_articles,
-    parse_newsletter_entry,
+    parse_gallery_metadata,
+    parse_newsletter_group,
+    parse_newsletter_sources,
 )
 from nthu_scraper.utils.constants import NEWSLETTERS_JSON_PATH
 from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
@@ -36,7 +39,7 @@ class NewsletterSpider(WholeDatasetSpider):
 
     name = "nthu_newsletters"
     allowed_domains = ["newsletter.cc.nthu.edu.tw"]
-    start_urls = [f"{URL_PREFIX}/nthu-list/search.html"]
+    start_urls = [f"{URL_PREFIX}/index.php/home-zh-tw/lis"]
     custom_settings = {
         "ITEM_PIPELINES": {
             "nthu_scraper.spiders.nthu_newsletters.NewsletterPipeline": 1
@@ -46,6 +49,46 @@ class NewsletterSpider(WholeDatasetSpider):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.processed_urls: set[str] = set()
+
+    async def start(self):
+        for url in self.start_urls:
+            yield scrapy.Request(
+                url,
+                callback=self.parse_wrapper,
+                errback=self.handle_request_error,
+            )
+
+    def parse_wrapper(self, response: Response) -> Iterator[scrapy.Request]:
+        try:
+            gallery_url, listing_url = parse_newsletter_sources(response, response.url)
+        except ParseError as error:
+            self.mark_incomplete(f"{response.url}: {error}")
+            return
+        yield scrapy.Request(
+            gallery_url,
+            callback=self.parse_gallery,
+            errback=self.handle_request_error,
+            meta={"listing_url": listing_url},
+        )
+
+    def parse_gallery(self, response: Response) -> Iterator[scrapy.Request]:
+        try:
+            metadata = parse_gallery_metadata(response, response.url)
+        except ParseError as error:
+            self.mark_incomplete(f"{response.url}: {error}")
+            return
+        yield scrapy.Request(
+            response.meta["listing_url"],
+            callback=self.parse_listing,
+            errback=self.handle_request_error,
+            meta={"newsletter_details": metadata},
+        )
+
+    def parse_listing(self, response: Response) -> Iterator[scrapy.Request]:
+        if not response.css("#acylistslisting"):
+            self.mark_incomplete(f"Missing official newsletter list: {response.url}")
+            return
+        yield from self.parse(response)
 
     def parse(self, response: Response) -> Iterator[scrapy.Request]:
         """
@@ -60,6 +103,9 @@ class NewsletterSpider(WholeDatasetSpider):
         self.logger.info(f"🔗 正在處理電子報列表頁面：{response.url}")
 
         try:
+            if response.css(".com-wrapper"):
+                yield from self.parse_wrapper(response)
+                return
             entries = newsletter_entries(response)
         except ParseError as error:
             self.mark_incomplete(str(error))
@@ -67,10 +113,25 @@ class NewsletterSpider(WholeDatasetSpider):
 
         for entry in entries:
             try:
-                newsletter = NewsletterItem(parse_newsletter_entry(entry, response.url))
+                newsletters = parse_newsletter_group(entry, response.url)
             except ParseError as error:
                 self.mark_incomplete(str(error))
                 continue
+            yield from self.request_archives(newsletters, response)
+
+    def request_archives(
+        self, newsletters: list[dict], response: Response
+    ) -> Iterator[scrapy.Request]:
+        metadata = (
+            response.request.meta.get("newsletter_details", {})
+            if response.request
+            else {}
+        )
+        for entry in newsletters:
+            newsletter = NewsletterItem(entry)
+            list_id = newsletter_list_id(newsletter["link"])
+            if list_id in metadata:
+                newsletter["details"] = metadata[list_id].copy()
             link = newsletter["link"]
 
             # 如果連結已經在處理清單中，跳過
@@ -107,9 +168,6 @@ class NewsletterSpider(WholeDatasetSpider):
             self.mark_incomplete(f"{response.url}: {error}")
             return
 
-        if not articles:
-            self.mark_incomplete(f"No usable newsletter articles: {response.url}")
-            return
         newsletter["articles"] = articles
         yield newsletter
 
