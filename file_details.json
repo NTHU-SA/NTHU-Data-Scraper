@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b0a4cbc54a9dfcef821a3e813736b0079aebd146de371da40bbf3d7d7efed069",
-        "last_updated": "2026-10-02T20:29:51.699173+08:00",
+        "last_commit": "cc54aee573f48170a64baf273c85cdd5a9412a879924f52460c4fa43381826ac",
+        "last_updated": "2026-10-03T00:20:58.235473+08:00",
         "name": "announcements.json",
-        "sha256": "b0a4cbc54a9dfcef821a3e813736b0079aebd146de371da40bbf3d7d7efed069",
-        "version": "b0a4cbc54a9dfcef821a3e813736b0079aebd146de371da40bbf3d7d7efed069"
+        "sha256": "cc54aee573f48170a64baf273c85cdd5a9412a879924f52460c4fa43381826ac",
+        "version": "cc54aee573f48170a64baf273c85cdd5a9412a879924f52460c4fa43381826ac"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -1394,11 +1394,11 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "55b2232e6d72caaf46f142e9997650770522c1e2493ab70da1221b86d62a2eee",
-        "last_updated": "2026-10-02T14:33:23.526768+08:00",
+        "last_commit": "3283f0303cacec732bee5dc6f4a8de649fde970bde1237e3fdf64f9012ce9e79",
+        "last_updated": "2026-10-03T00:20:58.235473+08:00",
         "name": "All seminar_en.json",
-        "sha256": "55b2232e6d72caaf46f142e9997650770522c1e2493ab70da1221b86d62a2eee",
-        "version": "55b2232e6d72caaf46f142e9997650770522c1e2493ab70da1221b86d62a2eee"
+        "sha256": "3283f0303cacec732bee5dc6f4a8de649fde970bde1237e3fdf64f9012ce9e79",
+        "version": "3283f0303cacec732bee5dc6f4a8de649fde970bde1237e3fdf64f9012ce9e79"
       },
       {
         "last_commit": "248b0fb954db8b8b2deb8aacc76945981c3d5707dc48fe60a5bd4fe949ee880c",
@@ -1422,11 +1422,11 @@
         "version": "98eaa50a93de72ee68c9df68615295a965179edcb976145091ba9c79193588af"
       },
       {
-        "last_commit": "69a462d935b293339b824f038802ba1bb837aa69dbe8a6d782267a79de742417",
-        "last_updated": "2026-10-02T14:33:23.526768+08:00",
+        "last_commit": "6763bfd522ea5fb21a8d644039a6774915ded131ca8ed3bf05711473624f6b24",
+        "last_updated": "2026-10-03T00:20:58.235473+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "69a462d935b293339b824f038802ba1bb837aa69dbe8a6d782267a79de742417",
-        "version": "69a462d935b293339b824f038802ba1bb837aa69dbe8a6d782267a79de742417"
+        "sha256": "6763bfd522ea5fb21a8d644039a6774915ded131ca8ed3bf05711473624f6b24",
+        "version": "6763bfd522ea5fb21a8d644039a6774915ded131ca8ed3bf05711473624f6b24"
       },
       {
         "last_commit": "d8b52e7cd8bcf87a849458f737186c3f836855f620495b0abe06242efba3684c",
@@ -1757,11 +1757,11 @@
         "version": "e8d0ec8a1cec11c8ce58e846e7dc7dd15caa76e24bcd93ec87517053cb5aa9f3"
       },
       {
-        "last_commit": "92613764120db94bd3adab33736e0e9e40fb1d14710c67b5185b15e55e26cc81",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "31843e52d16597de71ce6c4d8a9256542cfcbbced7f9cea523bcd7337243125c",
+        "last_updated": "2026-10-03T00:20:58.235473+08:00",
         "name": "IACUC最新消息公告_zh-tw.json",
-        "sha256": "92613764120db94bd3adab33736e0e9e40fb1d14710c67b5185b15e55e26cc81",
-        "version": "92613764120db94bd3adab33736e0e9e40fb1d14710c67b5185b15e55e26cc81"
+        "sha256": "31843e52d16597de71ce6c4d8a9256542cfcbbced7f9cea523bcd7337243125c",
+        "version": "31843e52d16597de71ce6c4d8a9256542cfcbbced7f9cea523bcd7337243125c"
       },
       {
         "last_commit": "1de04ad1315f9d0b86e9f96779ec6f22da0488515259e8ffbb19728a57db21f8",
@@ -2971,11 +2971,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "54aab132570f9fb154b9612b1ab47e63404ce60a6ece8ce3af6aad2524d678f4",
-        "last_updated": "2026-10-02T20:29:51.699173+08:00",
+        "last_commit": "5ef7e15c7ff4eb2f87c36b9882324b7915a419bd8ccd60902734d5002d9c2c53",
+        "last_updated": "2026-10-03T00:20:58.235473+08:00",
         "name": "rss.json",
-        "sha256": "54aab132570f9fb154b9612b1ab47e63404ce60a6ece8ce3af6aad2524d678f4",
-        "version": "54aab132570f9fb154b9612b1ab47e63404ce60a6ece8ce3af6aad2524d678f4"
+        "sha256": "5ef7e15c7ff4eb2f87c36b9882324b7915a419bd8ccd60902734d5002d9c2c53",
+        "version": "5ef7e15c7ff4eb2f87c36b9882324b7915a419bd8ccd60902734d5002d9c2c53"
       }
     ],
     "maps": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-02T20:29:51.699173+08:00"
+  "last_updated": "2026-10-03T00:20:58.235473+08:00"
 }
