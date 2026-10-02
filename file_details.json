@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "9c72ce213c5648f9230d9b0c513b8ee2493dcb97a1962ecfabf09ea3d8b49808",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "7be2ac87dde2ef04af1fb6871a29bd4f7ab471ce2aad631fb2433b1ef0961046",
+        "last_updated": "2026-10-03T01:42:12.958260+08:00",
         "name": "announcements.json",
-        "sha256": "9c72ce213c5648f9230d9b0c513b8ee2493dcb97a1962ecfabf09ea3d8b49808",
-        "version": "9c72ce213c5648f9230d9b0c513b8ee2493dcb97a1962ecfabf09ea3d8b49808"
+        "sha256": "7be2ac87dde2ef04af1fb6871a29bd4f7ab471ce2aad631fb2433b1ef0961046",
+        "version": "7be2ac87dde2ef04af1fb6871a29bd4f7ab471ce2aad631fb2433b1ef0961046"
       },
       {
         "last_commit": "e7708809aa072524c616c1457d10409326880117fe3edbd12a93fa17167a3e64",
@@ -680,11 +680,11 @@
         "version": "34b14c189c58d580015ff123fb9eab461950fa180a3247a44d40c20d48034488"
       },
       {
-        "last_commit": "3697cc983ff15b73b6adecd0402925db4b526b7779d1211bcfc2022003b29fcd",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "5c97bf38770db34c5fcf711269732dc0b582913dc92d5450a0662b7d50b6d886",
+        "last_updated": "2026-10-03T01:42:12.958260+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "3697cc983ff15b73b6adecd0402925db4b526b7779d1211bcfc2022003b29fcd",
-        "version": "3697cc983ff15b73b6adecd0402925db4b526b7779d1211bcfc2022003b29fcd"
+        "sha256": "5c97bf38770db34c5fcf711269732dc0b582913dc92d5450a0662b7d50b6d886",
+        "version": "5c97bf38770db34c5fcf711269732dc0b582913dc92d5450a0662b7d50b6d886"
       }
     ],
     "announcements/工學院工學院學士班": [
@@ -789,11 +789,11 @@
     ],
     "announcements/工學院工業工程與工程管理學系": [
       {
-        "last_commit": "51273d85ac315d3641f22e0e29bfddc9c624e35ef6476dbac17c75263b40e69b",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "5fc8f1b1ba55e007e971c4613bffa356814479fbd5fe94d25716526cbc97bf78",
+        "last_updated": "2026-10-03T01:42:12.958260+08:00",
         "name": "Honors_en.json",
-        "sha256": "51273d85ac315d3641f22e0e29bfddc9c624e35ef6476dbac17c75263b40e69b",
-        "version": "51273d85ac315d3641f22e0e29bfddc9c624e35ef6476dbac17c75263b40e69b"
+        "sha256": "5fc8f1b1ba55e007e971c4613bffa356814479fbd5fe94d25716526cbc97bf78",
+        "version": "5fc8f1b1ba55e007e971c4613bffa356814479fbd5fe94d25716526cbc97bf78"
       },
       {
         "last_commit": "d96b4c1bdea775a377c1c12bba7b47258832f8d298bc15a6b82d5dbc1a6795e4",
@@ -1747,11 +1747,11 @@
     ],
     "announcements/生命科學暨醫學院分子醫學研究所": [
       {
-        "last_commit": "cb752a96c7b355a3e78667c5695c533f09cc567a766ce64f0916fce71f4d29ba",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "6e372f12eec0e996fd807e6b740de88d3131bc94f3a90447b8428348f33904fd",
+        "last_updated": "2026-10-03T01:42:12.958260+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "cb752a96c7b355a3e78667c5695c533f09cc567a766ce64f0916fce71f4d29ba",
-        "version": "cb752a96c7b355a3e78667c5695c533f09cc567a766ce64f0916fce71f4d29ba"
+        "sha256": "6e372f12eec0e996fd807e6b740de88d3131bc94f3a90447b8428348f33904fd",
+        "version": "6e372f12eec0e996fd807e6b740de88d3131bc94f3a90447b8428348f33904fd"
       },
       {
         "last_commit": "817b170664ff424b149bb62220d1bf5fdeda906baf354a7c17e43023e214bd5b",
@@ -1844,11 +1844,11 @@
     ],
     "announcements/生命科學暨醫學院系統神經科學研究所": [
       {
-        "last_commit": "dc5ec2cf918e2d65995852d8adcd74a06f1112cb4058fb2a73632dec27c7d675",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "208df1290f5813cb9ff07e50f9b11fb07ae0d02378da548511dbae2b426d04bf",
+        "last_updated": "2026-10-03T01:42:12.958260+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "dc5ec2cf918e2d65995852d8adcd74a06f1112cb4058fb2a73632dec27c7d675",
-        "version": "dc5ec2cf918e2d65995852d8adcd74a06f1112cb4058fb2a73632dec27c7d675"
+        "sha256": "208df1290f5813cb9ff07e50f9b11fb07ae0d02378da548511dbae2b426d04bf",
+        "version": "208df1290f5813cb9ff07e50f9b11fb07ae0d02378da548511dbae2b426d04bf"
       },
       {
         "last_commit": "1a4792af825aa0818bdad3f4b113707596e9942e28e965b698012769ca7ee9a9",
@@ -3232,5 +3232,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-03T01:28:17.996748+08:00"
+  "last_updated": "2026-10-03T01:42:12.958260+08:00"
 }
