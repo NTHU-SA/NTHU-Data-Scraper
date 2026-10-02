@@ -58,12 +58,16 @@ Run a crawler with `uv run python -m scrapy crawl <name>`.
 Run `nthu_announcements_list` before `nthu_announcements_item` on a fresh
 checkout, or populate `data/` from the published snapshot first.
 List titles come from the module containing the announcement list, falling back
-to a standalone section heading or the document title rather than search or
-article headings. Successful content refreshes use the page's current title,
-but scheduled crawls intentionally leave `announcements_list.json` unchanged.
-Run the source crawler manually to update existing source titles. Custom source
-titles remain explicitly configured. Announcement titles and dates normalize
-control characters (including `\u000b`) and repeated Unicode whitespace to
+to a standalone section heading, the current-page breadcrumb in the RPage path
+module, or the document title rather than search or article headings. This avoids
+including the website name when a list's module heading is hidden or absent.
+`announcements_list.json` is the only source of list names for the content crawler:
+content refreshes preserve its titles exactly, without extracting page headings or
+overriding custom source names. Scheduled crawls leave this source list unchanged.
+Run `nthu_announcements_list` manually to update existing source titles, including
+removing website suffixes through the breadcrumb fallback. Custom source titles
+remain explicitly configured by the source crawler. Parsed announcement titles
+and dates normalize control characters (including `\u000b`) and repeated Unicode whitespace to
 single spaces, without changing URLs.
 After a successful title refresh, superseded individual files are removed only
 when they belong to the same source; filename collisions block overwrites.

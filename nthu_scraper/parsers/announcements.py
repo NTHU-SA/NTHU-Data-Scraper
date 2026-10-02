@@ -111,6 +111,10 @@ def parse_list_title(page) -> str | None:
             "self::*[not(ancestor::*[@id='pageptlist' or "
             "contains(concat(' ', normalize-space(@class), ' '), ' module ')])]"
         ),
+        page.css(
+            ".module-path .breadcrumb > li.active, "
+            ".module-path .breadcrumb [aria-current='page']"
+        ),
         page.css("title"),
     ):
         for candidate in candidates:

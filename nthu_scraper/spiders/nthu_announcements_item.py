@@ -9,11 +9,8 @@ import scrapy
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.announcements import (
     ParsedArticles,
-    normalize_announcement_text,
     parse_articles,
-    parse_list_title,
 )
-from nthu_scraper.spiders.nthu_announcements_list import CUSTOM_ANNOUNCEMENT_SOURCES
 from nthu_scraper.storage import read_json
 from nthu_scraper.utils.constants import (
     ANNOUNCEMENTS_FOLDER,
@@ -70,7 +67,11 @@ class AnnouncementsItemSpider(scrapy.Spider):
         """載入公告列表"""
         data = read_json(ANNOUNCEMENTS_LIST_PATH)
         if not isinstance(data, list) or any(
-            not isinstance(source, dict) or not source.get("link") for source in data
+            not isinstance(source, dict)
+            or not source.get("link")
+            or not isinstance(source.get("title"), str)
+            or not source["title"].strip()
+            for source in data
         ):
             raise ValueError("Invalid authoritative announcements_list.json")
         return data
@@ -104,19 +105,8 @@ class AnnouncementsItemSpider(scrapy.Spider):
             self.logger.warning(f"公告頁面無文章: {response.url}")
             return
 
-        source_link = response.meta["source_link"]
-        custom_titles = {
-            source["link"]: source["title"] for source in CUSTOM_ANNOUNCEMENT_SOURCES
-        }
-        title = custom_titles.get(source_link) or parse_list_title(response)
-        if not title:
-            self.logger.warning(
-                "No usable announcement list title; retaining title for %s",
-                source_link,
-            )
-            title = response.meta["title"]
         item = AnnouncementItem(
-            title=normalize_announcement_text(title),
+            title=response.meta["title"],
             link=response.meta["source_link"],
             language=response.meta["language"],
             department=response.meta["department"],
