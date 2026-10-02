@@ -9,11 +9,11 @@
         "version": "6144cc50d562fcd311ec5b33c12eec3d6bdb718e3df1f37ad6201029e2a86ef5"
       },
       {
-        "last_commit": "e7708809aa072524c616c1457d10409326880117fe3edbd12a93fa17167a3e64",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "e02dcb501ad3267e9a5ebdae78b0c9e5b5523e146d538cabc35a9dfa24ce0ea3",
+        "last_updated": "2026-10-03T02:28:04+08:00",
         "name": "announcements_list.json",
-        "sha256": "e7708809aa072524c616c1457d10409326880117fe3edbd12a93fa17167a3e64",
-        "version": "e7708809aa072524c616c1457d10409326880117fe3edbd12a93fa17167a3e64"
+        "sha256": "e02dcb501ad3267e9a5ebdae78b0c9e5b5523e146d538cabc35a9dfa24ce0ea3",
+        "version": "e02dcb501ad3267e9a5ebdae78b0c9e5b5523e146d538cabc35a9dfa24ce0ea3"
       },
       {
         "last_commit": "89dd2dc42e74a423b04bab20e6dd630586a019f482e27cac651fa5b3b42fd561",
@@ -3288,5 +3288,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-03T02:10:13.241185+08:00"
+  "last_updated": "2026-10-03T02:28:04+08:00"
 }

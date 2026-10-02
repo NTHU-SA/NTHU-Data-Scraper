@@ -12,7 +12,7 @@
         "department": "教務處"
     },
     {
-        "title": "資訊分類清單",
+        "title": "最新消息",
         "link": "https://account.site.nthu.edu.tw/p/403-1054-1160-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "主計室"
@@ -96,19 +96,19 @@
         "department": "科技管理學院安富金融工程研究中心"
     },
     {
-        "title": "【首頁】師長祝福與勉勵  - AIMS Fellows",
+        "title": "【首頁】師長祝福與勉勵 - AIMS Fellows",
         "link": "https://aimsfellows.site.nthu.edu.tw/p/403-1160-10348-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "教務處智慧製造跨院高階主管碩士在職學位學程"
     },
     {
-        "title": "【首頁】最新消息  - AIMS Fellows",
+        "title": "【首頁】最新消息 - AIMS Fellows",
         "link": "https://aimsfellows.site.nthu.edu.tw/p/403-1160-11-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "教務處智慧製造跨院高階主管碩士在職學位學程"
     },
     {
-        "title": "【首頁】招生訊息  - AIMS Fellows",
+        "title": "【首頁】招生訊息 - AIMS Fellows",
         "link": "https://aimsfellows.site.nthu.edu.tw/p/403-1160-9933-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "教務處智慧製造跨院高階主管碩士在職學位學程"
@@ -126,7 +126,7 @@
         "department": "計算機與通訊中心校務資訊組"
     },
     {
-        "title": "最新消息",
+        "title": "最新消息 - 國立清華大學校友中心",
         "link": "https://alumni.site.nthu.edu.tw/p/403-1346-4272-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "校友服務及資源發展處校友中心、校友總會"
@@ -138,7 +138,7 @@
         "department": "校友服務及資源發展處校友中心、校友總會"
     },
     {
-        "title": "校友榮譽",
+        "title": "校友榮譽 - 國立清華大學校友中心",
         "link": "https://alumni.site.nthu.edu.tw/p/403-1346-8953-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "校友服務及資源發展處校友中心、校友總會"
@@ -336,7 +336,7 @@
         "department": "總務處出納組"
     },
     {
-        "title": "資訊分類清單",
+        "title": "最新消息",
         "link": "https://cfcc.site.nthu.edu.tw/p/403-1203-11-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "研究發展處當代中國研究中心"
@@ -366,13 +366,13 @@
         "department": "師資培育中心"
     },
     {
-        "title": "資訊分類清單",
+        "title": "最新消息",
         "link": "https://cfte.site.nthu.edu.tw/p/403-1275-48-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "師資培育中心"
     },
     {
-        "title": "Search",
+        "title": "SPEECHES",
         "link": "https://cge.site.nthu.edu.tw/p/403-1573-10094-1.php?Lang=en",
         "language": "en",
         "department": "清華學院通識教育中心"
@@ -384,7 +384,7 @@
         "department": "清華學院通識教育中心"
     },
     {
-        "title": "Search",
+        "title": "EVENTS",
         "link": "https://cge.site.nthu.edu.tw/p/403-1573-10095-1.php?Lang=en",
         "language": "en",
         "department": "清華學院通識教育中心"
@@ -402,7 +402,7 @@
         "department": "清華學院通識教育中心"
     },
     {
-        "title": "Search",
+        "title": "NEWS",
         "link": "https://cge.site.nthu.edu.tw/p/403-1573-11-1.php?Lang=en",
         "language": "en",
         "department": "清華學院通識教育中心"
@@ -426,7 +426,7 @@
         "department": "合校停招系所聯合辦事處（教務處支援）中國語文學系"
     },
     {
-        "title": "資訊分類清單",
+        "title": "學術活動",
         "link": "https://clls.site.nthu.edu.tw/p/403-1131-42-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "合校停招系所聯合辦事處（教務處支援）中國語文學系"
@@ -522,6 +522,18 @@
         "department": "半導體研究學院"
     },
     {
+        "title": "校外消息",
+        "link": "https://cosr.site.nthu.edu.tw/p/403-1536-11276-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "半導體研究學院"
+    },
+    {
+        "title": "新生專區",
+        "link": "https://cosr.site.nthu.edu.tw/p/403-1536-11277-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "半導體研究學院"
+    },
+    {
         "title": "中心公告",
         "link": "https://counsel.site.nthu.edu.tw/p/403-1250-492-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -564,6 +576,12 @@
         "department": "教務處課務組"
     },
     {
+        "title": "Upcoming Important Dates",
+        "link": "https://curricul.site.nthu.edu.tw/p/403-1208-7989-1.php?Lang=en",
+        "language": "en",
+        "department": "教務處課務組"
+    },
+    {
         "title": "Latest News",
         "link": "https://cwaip.site.nthu.edu.tw/p/403-1407-6295-1.php?Lang=en",
         "language": "en",
@@ -600,7 +618,7 @@
         "department": "總務處經營管理組"
     },
     {
-        "title": "餐廳公告",
+        "title": "最新消息",
         "link": "https://ddfm.site.nthu.edu.tw/p/403-1494-8304-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "總務處經營管理組"
@@ -762,49 +780,55 @@
         "department": "學務處課外活動組(蒙民偉樓2樓)"
     },
     {
-        "title": "獎學金 Scholarship  - 國立清華大學竹師教育學院",
+        "title": "獲獎資訊",
+        "link": "https://dsa.site.nthu.edu.tw/p/403-1266-6893-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "學務處課外活動組(蒙民偉樓2樓)"
+    },
+    {
+        "title": "獎學金 Scholarship - 國立清華大學竹師教育學院",
         "link": "https://ec.site.nthu.edu.tw/p/403-1584-255-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院"
     },
     {
-        "title": "學院公告 Announcement  - 國立清華大學竹師教育學院",
+        "title": "學院公告 Announcement - 國立清華大學竹師教育學院",
         "link": "https://ec.site.nthu.edu.tw/p/403-1584-4-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院"
     },
     {
-        "title": "最新消息 News  - 國立清華大學竹師教育學院",
+        "title": "最新消息 News - 國立清華大學竹師教育學院",
         "link": "https://ec.site.nthu.edu.tw/p/403-1584-70-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院"
     },
     {
-        "title": "學院榮譽榜 Roll of Honor  - 國立清華大學竹師教育學院",
+        "title": "學院榮譽榜 Roll of Honor - 國立清華大學竹師教育學院",
         "link": "https://ec.site.nthu.edu.tw/p/403-1584-7226-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院"
     },
     {
-        "title": "媒體報導  - 國立清華大學竹師教育學院",
+        "title": "媒體報導 - 國立清華大學竹師教育學院",
         "link": "https://ec.site.nthu.edu.tw/p/403-1584-7580-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院"
     },
     {
-        "title": "訊息分類",
+        "title": "最新消息",
         "link": "https://embaos.site.nthu.edu.tw/p/403-1489-7749-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "科技管理學院EMBA高階經營管理境外碩士在職專班"
     },
     {
-        "title": "訊息分類",
+        "title": "榜單公告",
         "link": "https://embaos.site.nthu.edu.tw/p/403-1489-7750-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "科技管理學院EMBA高階經營管理境外碩士在職專班"
     },
     {
-        "title": "訊息分類",
+        "title": "招生訊息",
         "link": "https://embaos.site.nthu.edu.tw/p/403-1489-7751-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "科技管理學院EMBA高階經營管理境外碩士在職專班"
@@ -838,6 +862,30 @@
         "link": "https://emi.site.nthu.edu.tw/p/403-1594-10944-1.php?Lang=en",
         "language": "en",
         "department": "教務處英語教學精進中心"
+    },
+    {
+        "title": "一般公告",
+        "link": "https://ene.site.nthu.edu.tw/p/403-1180-3119-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "電機資訊學院電子工程研究所"
+    },
+    {
+        "title": "碩士班公告",
+        "link": "https://ene.site.nthu.edu.tw/p/403-1180-3120-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "電機資訊學院電子工程研究所"
+    },
+    {
+        "title": "博士班公告",
+        "link": "https://ene.site.nthu.edu.tw/p/403-1180-3121-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "電機資訊學院電子工程研究所"
+    },
+    {
+        "title": "演講公告",
+        "link": "https://ene.site.nthu.edu.tw/p/403-1180-3124-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "電機資訊學院電子工程研究所"
     },
     {
         "title": "最新消息",
@@ -906,31 +954,37 @@
         "department": "清華學院實創中心"
     },
     {
-        "title": "快速搜尋",
+        "title": "學術活動",
+        "link": "https://gdece.site.nthu.edu.tw/p/403-1587-10508-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "竹師教育學院幼兒教育學系"
+    },
+    {
+        "title": "師生榮譽",
         "link": "https://gdece.site.nthu.edu.tw/p/403-1587-10509-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院幼兒教育學系"
     },
     {
-        "title": "快速搜尋",
+        "title": "系友動態",
         "link": "https://gdece.site.nthu.edu.tw/p/403-1587-10512-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院幼兒教育學系"
     },
     {
-        "title": "快速搜尋",
+        "title": "校內外活動",
         "link": "https://gdece.site.nthu.edu.tw/p/403-1587-10520-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院幼兒教育學系"
     },
     {
-        "title": "快速搜尋",
+        "title": "媒體報導",
         "link": "https://gdece.site.nthu.edu.tw/p/403-1587-10526-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院幼兒教育學系"
     },
     {
-        "title": "快速搜尋",
+        "title": "系所公告",
         "link": "https://gdece.site.nthu.edu.tw/p/403-1587-11-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院幼兒教育學系"
@@ -966,7 +1020,7 @@
         "department": "竹師教育學院性/別教育發展中心"
     },
     {
-        "title": "紀念品申請(限校內單位)",
+        "title": "清華梅園紀念品",
         "link": "https://general.site.nthu.edu.tw/p/403-1004-10641-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "總務處"
@@ -1092,6 +1146,12 @@
         "department": "學務處衛生保健組(醫輔大樓1樓)"
     },
     {
+        "title": "其他公告",
+        "link": "https://ieem.site.nthu.edu.tw/p/403-1310-11698-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "工學院工業工程與工程管理學系"
+    },
+    {
         "title": "工工微影片競賽",
         "link": "https://ieem.site.nthu.edu.tw/p/403-1310-11844-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -1158,7 +1218,7 @@
         "department": "竹師教育學院學習科學與科技研究所"
     },
     {
-        "title": "有梗學習研究資訊",
+        "title": "學科所 | 有梗學習獎勵",
         "link": "https://ilst.site.nthu.edu.tw/p/403-1543-9734-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院學習科學與科技研究所"
@@ -1170,13 +1230,13 @@
         "department": "竹師教育學院學習科學與科技研究所"
     },
     {
-        "title": "學術研究資訊",
+        "title": "學科所 | 學術與產業實務研究",
         "link": "https://ilst.site.nthu.edu.tw/p/403-1543-9736-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院學習科學與科技研究所"
     },
     {
-        "title": "學科人物誌 前傳",
+        "title": "學科所 | 學科人物誌",
         "link": "https://ilst.site.nthu.edu.tw/p/403-1543-9737-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "竹師教育學院學習科學與科技研究所"
@@ -1225,6 +1285,12 @@
     },
     {
         "title": "banner",
+        "link": "https://imm.site.nthu.edu.tw/p/403-1476-9110-1.php?Lang=en",
+        "language": "en",
+        "department": "生命科學暨醫學院分子醫學研究所"
+    },
+    {
+        "title": "banner",
         "link": "https://imm.site.nthu.edu.tw/p/403-1476-9110-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "生命科學暨醫學院分子醫學研究所"
@@ -1254,13 +1320,13 @@
         "department": "工學院工學院學士班"
     },
     {
-        "title": "News_Scholarships  - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
+        "title": "News_Scholarships - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-11361-1.php?Lang=en",
         "language": "en",
         "department": "工學院工學院學士班"
     },
     {
-        "title": "News_CAMPUS News  - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
+        "title": "News_CAMPUS News - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-11362-1.php?Lang=en",
         "language": "en",
         "department": "工學院工學院學士班"
@@ -1272,37 +1338,43 @@
         "department": "工學院工學院學士班"
     },
     {
+        "title": "最新-海外學習",
+        "link": "https://ipe.site.nthu.edu.tw/p/403-1300-11638-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "工學院工學院學士班"
+    },
+    {
         "title": "最新-校外資訊",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-11639-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "工學院工學院學士班"
     },
     {
-        "title": "News  - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
+        "title": "News - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-11985-1.php?Lang=en",
         "language": "en",
         "department": "工學院工學院學士班"
     },
     {
-        "title": "榮譽榜",
+        "title": "最新-學生榮譽",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-2669-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "工學院工學院學士班"
     },
     {
-        "title": "跨領域學習相關報導",
+        "title": "跨領域學習思維",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-4234-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "工學院工學院學士班"
     },
     {
-        "title": "最新消息",
+        "title": "系上資訊",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-772-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "工學院工學院學士班"
     },
     {
-        "title": "News_Announcements  - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
+        "title": "News_Announcements - Interdisciplinary Program of Engineering (English-Taught) | College of Engineering, National Tsing Hua University",
         "link": "https://ipe.site.nthu.edu.tw/p/403-1300-809-1.php?Lang=en",
         "language": "en",
         "department": "工學院工學院學士班"
@@ -1350,13 +1422,13 @@
         "department": "教務處跨院國際碩博士班學位學程"
     },
     {
-        "title": "About Program",
+        "title": "News",
         "link": "https://iphd.site.nthu.edu.tw/p/403-1222-2321-1.php?Lang=en",
         "language": "en",
         "department": "教務處跨院國際碩博士班學位學程"
     },
     {
-        "title": "關於學程",
+        "title": "招生訊息",
         "link": "https://iphd.site.nthu.edu.tw/p/403-1222-8750-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "教務處跨院國際碩博士班學位學程"
@@ -1542,6 +1614,12 @@
         "department": "生命科學暨醫學院學士後醫學系"
     },
     {
+        "title": "最新消息",
+        "link": "https://mpmi.site.nthu.edu.tw/p/403-1606-10923-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "生命科學暨醫學院醫學資訊碩士學位學程"
+    },
+    {
         "title": "最新消息與活動",
         "link": "https://mtklab.site.nthu.edu.tw/p/403-1196-1097-1.php?Lang=zh-tw",
         "language": "zh-tw",
@@ -1551,6 +1629,12 @@
         "title": "最新訊息",
         "link": "https://museum.site.nthu.edu.tw/p/403-1153-11-1.php?Lang=zh-tw",
         "language": "zh-tw",
+        "department": "藝文總中心文物館"
+    },
+    {
+        "title": "Exhibition",
+        "link": "https://museum.site.nthu.edu.tw/p/403-1153-11826-1.php?Lang=en",
+        "language": "en",
         "department": "藝文總中心文物館"
     },
     {
@@ -1614,7 +1698,7 @@
         "department": "工學院奈米工程與微系統研究所"
     },
     {
-        "title": "最新公告",
+        "title": "最近公告",
         "link": "https://nesh.site.nthu.edu.tw/p/403-1009-129-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "環境保護暨安全衛生中心"
@@ -1686,7 +1770,7 @@
         "department": "國立清華大學學生會"
     },
     {
-        "title": "NVIDIA–NTHU Joint Innovation Center",
+        "title": "News",
         "link": "https://nvidia.site.nthu.edu.tw/p/403-1608-11-1.php?Lang=en",
         "language": "en",
         "department": "國際產學營運總中心NVIDIA-國立清華大學聯合創新中心"
@@ -1698,7 +1782,7 @@
         "department": "國際產學營運總中心NVIDIA-國立清華大學聯合創新中心"
     },
     {
-        "title": "校外活動",
+        "title": "活動訊息",
         "link": "https://person.site.nthu.edu.tw/p/403-1066-2506-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "人事室"
@@ -1800,7 +1884,7 @@
         "department": "研究發展處光電中心"
     },
     {
-        "title": "Information Category Menu",
+        "title": "In the Media",
         "link": "https://president.site.nthu.edu.tw/p/403-1067-11589-1.php?Lang=en",
         "language": "en",
         "department": "校長室"
@@ -1950,7 +2034,7 @@
         "department": "研究發展處研究倫理辦公室"
     },
     {
-        "title": "研究倫理最新消息公告",
+        "title": "研究倫理最新消息公告 REC NEWS",
         "link": "https://rec.site.nthu.edu.tw/p/403-1233-3334-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "研究發展處研究倫理辦公室"
@@ -1962,7 +2046,7 @@
         "department": "研究發展處研究倫理辦公室"
     },
     {
-        "title": "研究倫理審查事項公告",
+        "title": "研究倫理審查事項公告 REC Review Information",
         "link": "https://rec.site.nthu.edu.tw/p/403-1233-7436-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "研究發展處研究倫理辦公室"
@@ -1992,7 +2076,7 @@
         "department": "教務處註冊組"
     },
     {
-        "title": "Search",
+        "title": "最新消息",
         "link": "https://registra.site.nthu.edu.tw/p/403-1211-219-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "教務處註冊組"
@@ -2010,6 +2094,12 @@
         "department": "學務處生活輔導組(水木生活中心2樓)"
     },
     {
+        "title": "兵役",
+        "link": "https://sa.site.nthu.edu.tw/p/403-1480-11561-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "學務處生活輔導組(水木生活中心2樓)"
+    },
+    {
         "title": "Latest News",
         "link": "https://sa.site.nthu.edu.tw/p/403-1480-7298-1.php?Lang=en",
         "language": "en",
@@ -2020,6 +2110,24 @@
         "link": "https://sa.site.nthu.edu.tw/p/403-1480-7298-1.php?Lang=zh-tw",
         "language": "zh-tw",
         "department": "學務處生活輔導組(水木生活中心2樓)"
+    },
+    {
+        "title": "最新消息",
+        "link": "https://securityc.site.nthu.edu.tw/p/403-1604-11-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "學務處校園安全中心(水木生活中心2樓)"
+    },
+    {
+        "title": "兵役",
+        "link": "https://securityc.site.nthu.edu.tw/p/403-1604-11962-1.php?Lang=zh-tw",
+        "language": "zh-tw",
+        "department": "學務處校園安全中心(水木生活中心2樓)"
+    },
+    {
+        "title": "Academic Events",
+        "link": "https://sinophone.site.nthu.edu.tw/p/403-1408-2284-1.php?Lang=en",
+        "language": "en",
+        "department": "人文社會學院華文文學研究所"
     },
     {
         "title": "News",
