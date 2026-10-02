@@ -65,6 +65,11 @@ Run the source crawler manually to update existing source titles. Custom source
 titles remain explicitly configured. Announcement titles and dates normalize
 control characters (including `\u000b`) and repeated Unicode whitespace to
 single spaces, without changing URLs.
+After a successful title refresh, superseded individual files are removed only
+when they belong to the same source; filename collisions block overwrites.
+Legacy URL recovery first matches the full source metadata, then permits an
+unambiguous department/language/hostname match when refreshed titles differ. Ambiguous
+matches block the crawl rather than discarding known-good articles.
 
 `nthu_newsletters` starts at the official
 [metadata gallery wrapper](https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/lis),

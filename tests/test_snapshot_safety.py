@@ -200,6 +200,137 @@ def test_canonical_link_takes_precedence_over_legacy_metadata(tmp_path, monkeypa
     assert read_json(path) == [canonical]
 
 
+@pytest.mark.parametrize("refresh", [False, True])
+def test_legacy_recovery_tolerates_refreshed_title(tmp_path, monkeypatch, refresh):
+    path = tmp_path / "announcements.json"
+    folder = tmp_path / "individual"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", folder)
+    legacy = announcement("https://example.test/redirected", "NEWS")
+    configured = {**legacy, "link": "https://example.test/original", "title": "Search"}
+    other = announcement("https://example.test/other", "Other")
+    write_json_atomic([legacy, other], path)
+    old_file = folder / "department" / "NEWS_en.json"
+    write_json_atomic(legacy, old_file)
+    spider = scrapy.Spider("test")
+    spider.announcement_list = [configured, other]
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    restored = {**legacy, "link": configured["link"]}
+    if refresh:
+        updated = {**restored, "title": "Latest"}
+        pipeline.process_item(announcements.AnnouncementItem(updated), spider)
+    pipeline.close_spider(spider)
+    assert read_json(path) == [restored if not refresh else updated, other]
+    if refresh:
+        assert not old_file.exists()
+        assert read_json(folder / "department" / "Latest_en.json") == updated
+    else:
+        assert read_json(old_file) == legacy
+
+
+@pytest.mark.parametrize("duplicate", ["expected", "legacy"])
+def test_title_divergence_recovery_rejects_ambiguous_sources(
+    tmp_path, monkeypatch, duplicate
+):
+    path = tmp_path / "announcements.json"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    old = [announcement("https://example.test/redirected", "NEWS")]
+    expected = [announcement("https://example.test/original", "Search")]
+    target = old if duplicate == "legacy" else expected
+    target.append(announcement("https://example.test/another", "Different"))
+    write_json_atomic(old, path)
+    before = path.read_bytes()
+    spider = scrapy.Spider("test")
+    spider.announcement_list = expected
+    with pytest.raises(ValueError, match="Ambiguous legacy"):
+        announcements.AnnouncementItemPipeline().open_spider(spider)
+    assert path.read_bytes() == before
+
+
+def test_legacy_title_match_precedes_title_divergence_fallback(tmp_path, monkeypatch):
+    path = tmp_path / "announcements.json"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", tmp_path / "individual")
+    legacy = [
+        announcement("https://example.test/old-1", "Exact"),
+        announcement("https://example.test/old-2", "NEWS"),
+    ]
+    configured = [
+        {**legacy[0], "link": "https://example.test/new-1"},
+        {**legacy[1], "link": "https://example.test/new-2", "title": "Search"},
+    ]
+    write_json_atomic(legacy, path)
+    spider = scrapy.Spider("test")
+    spider.announcement_list = configured
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    pipeline.close_spider(spider)
+    assert read_json(path) == [
+        {**source, "link": configured[index]["link"]}
+        for index, source in enumerate(legacy)
+    ]
+
+
+@pytest.mark.parametrize(
+    "case", ["rename", "same-path", "foreign-old", "foreign-new", "write-failure"]
+)
+def test_title_refresh_removes_only_owned_superseded_files(tmp_path, monkeypatch, case):
+    path = tmp_path / "announcements.json"
+    folder = tmp_path / "individual"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", folder)
+    old = announcement("https://example.test/list", "Search")
+    new = {**old, "title": "NEWS" if case != "same-path" else "Search "}
+    old_path = folder / "department" / "Search_en.json"
+    new_path = (
+        folder
+        / "department"
+        / ("NEWS_en.json" if case != "same-path" else "Search_en.json")
+    )
+    write_json_atomic([old], path)
+    old_contents = (
+        announcement("https://other.test/list", "Search")
+        if case == "foreign-old"
+        else old
+    )
+    write_json_atomic(old_contents, old_path)
+    if case == "foreign-new":
+        write_json_atomic(announcement("https://other.test/list", "NEWS"), new_path)
+        new_before = new_path.read_bytes()
+    spider = scrapy.Spider("test")
+    spider.announcement_list = [old]
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    item = announcements.AnnouncementItem(new)
+    if case == "write-failure":
+
+        def fail_write(*args):
+            raise OSError("replacement failed")
+
+        monkeypatch.setattr(announcements, "save_json", fail_write)
+        with pytest.raises(OSError, match="replacement failed"):
+            pipeline.process_item(item, spider)
+        assert read_json(old_path) == old
+        assert not new_path.exists()
+        assert pipeline.collected_data == {}
+    elif case == "foreign-new":
+        with pytest.raises(ValueError, match="belongs to another source"):
+            pipeline.process_item(item, spider)
+        assert new_path.read_bytes() == new_before
+        assert read_json(old_path) == old
+        assert pipeline.collected_data == {}
+    else:
+        pipeline.process_item(item, spider)
+        pipeline.close_spider(spider)
+        assert read_json(new_path) == new
+        assert read_json(path) == [new]
+        if case == "rename":
+            assert not old_path.exists()
+        elif case == "foreign-old":
+            assert read_json(old_path) == old_contents
+
+
 def test_announcement_redirect_keeps_authoritative_identity(tmp_path, monkeypatch):
     source = announcement("https://example.test/original")
     path = tmp_path / "announcements_list.json"
