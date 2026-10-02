@@ -130,6 +130,63 @@ def test_list_title_uses_announcement_module(fixture_text):
     assert parse_list_page(page) == {"title": "NEWS", "has_content": True}
 
 
+def test_alumni_list_title_uses_current_page_breadcrumb(fixture_text, html_response):
+    page = html_response(
+        fixture_text("announcements", "alumni.html"),
+        url="https://alumni.site.nthu.edu.tw/p/403-1346-4272-1.php?Lang=zh-tw",
+    )
+    assert parse_list_page(page) == {"title": "最新消息", "has_content": True}
+
+
+@pytest.mark.parametrize(
+    "breadcrumb",
+    [
+        '<li class="active"> News <span>- Events</span> </li>',
+        '<li><a aria-current="page"> News <span>- Events</span> </a></li>',
+    ],
+)
+def test_breadcrumb_title_preserves_nested_text_and_hyphens(breadcrumb):
+    page = Selector(
+        text='<title>News - Events - Site</title><div class="module module-path">'
+        f'<ol class="breadcrumb"><li>Home</li>{breadcrumb}</ol></div>'
+        '<div id="pageptlist"></div>'
+    )
+    assert parse_list_page(page)["title"] == "News - Events"
+
+
+@pytest.mark.parametrize(
+    "heading",
+    [
+        '<div class="module"><header><h2 class="mt-title">Notices</h2></header>'
+        '<div id="pageptlist"></div></div>',
+        '<h1 class="section-title">Notices</h1><div id="pageptlist"></div>',
+    ],
+)
+def test_list_heading_takes_priority_over_breadcrumb(heading):
+    page = Selector(
+        text='<title>Site</title><div class="module module-path">'
+        '<ol class="breadcrumb"><li class="active">Category</li></ol></div>'
+        f"{heading}"
+    )
+    assert parse_list_page(page)["title"] == "Notices"
+
+
+@pytest.mark.parametrize(
+    "breadcrumb",
+    [
+        '<li class="active"> <span> </span> </li>',
+        "<li>Home</li>",
+    ],
+)
+def test_unusable_breadcrumb_falls_back_to_document_title(breadcrumb):
+    page = Selector(
+        text='<title>News - Events</title><div class="module module-path">'
+        f'<ol class="breadcrumb">{breadcrumb}</ol></div>'
+        '<div id="pageptlist"></div>'
+    )
+    assert parse_list_page(page)["title"] == "News - Events"
+
+
 def test_list_title_fallback_ignores_search_and_article_titles():
     page = Selector(
         text='<title>News</title><div class="module">'
@@ -185,15 +242,16 @@ def test_title_and_date_normalization():
     ]
 
 
-def test_item_callback_refreshes_title_and_preserves_source_metadata(
-    monkeypatch, fixture_text, html_response
+@pytest.mark.parametrize("fixture", ["rows.html", "alumni.html", "search_module.html"])
+def test_item_callback_preserves_authoritative_source_title_and_metadata(
+    monkeypatch, fixture_text, html_response, fixture
 ):
     monkeypatch.setattr(
         item_spider.AnnouncementsItemSpider, "_load_announcement_list", lambda self: []
     )
     spider = item_spider.AnnouncementsItemSpider()
     page = html_response(
-        fixture_text("announcements", "rows.html"),
+        fixture_text("announcements", fixture),
         meta={
             "title": "Source",
             "source_link": "https://example.test/original",
@@ -203,7 +261,7 @@ def test_item_callback_refreshes_title_and_preserves_source_metadata(
     )
     (item,) = spider.parse(page)
     assert dict(item) == {
-        "title": "校園公告",
+        "title": "Source",
         "link": "https://example.test/original",
         "department": "Dept",
         "language": "en",
@@ -212,8 +270,8 @@ def test_item_callback_refreshes_title_and_preserves_source_metadata(
 
 
 @pytest.mark.parametrize("custom", [False, True])
-def test_item_title_fallback_and_custom_override(
-    monkeypatch, html_response, caplog, custom
+def test_item_title_comes_only_from_source_even_without_page_title(
+    monkeypatch, html_response, custom
 ):
     monkeypatch.setattr(
         item_spider.AnnouncementsItemSpider, "_load_announcement_list", lambda self: []
@@ -234,11 +292,16 @@ def test_item_title_fallback_and_custom_override(
         },
     )
     (item,) = item_spider.AnnouncementsItemSpider().parse(page)
-    assert item["title"] == (
-        list_spider.CUSTOM_ANNOUNCEMENT_SOURCES[0]["title"] if custom else "Old title"
-    )
-    if not custom:
-        assert "No usable announcement list title" in caplog.text
+    assert item["title"] == "Old\x0b title"
+
+
+@pytest.mark.parametrize("title", [None, "", " \t\n ", 123, "\x00", "News\x00Items"])
+def test_item_spider_rejects_unusable_authoritative_title(tmp_path, monkeypatch, title):
+    path = tmp_path / "announcements_list.json"
+    monkeypatch.setattr(item_spider, "ANNOUNCEMENTS_LIST_PATH", path)
+    write_json_atomic([{"title": title, "link": "https://example.test/list"}], path)
+    with pytest.raises(ValueError, match="Invalid authoritative announcements_list"):
+        item_spider.AnnouncementsItemSpider()
 
 
 def test_list_pipeline_updates_titles_preserving_failed_and_custom_sources(
@@ -305,11 +368,17 @@ def test_content_refresh_leaves_source_list_unchanged(
     pipeline.close_spider(spider)
     assert source_path.read_bytes() == before
     (saved,) = read_json(aggregate_path)
-    assert saved["title"] == "NEWS"
-    assert read_json(folder / "Dept" / "NEWS_en.json") == saved
+    assert saved["title"] == source["title"]
+    assert read_json(folder / "Dept" / "Search_en.json") == saved
 
 
-def test_list_spider_without_chromium(monkeypatch, fixture_text, html_response):
+@pytest.mark.parametrize(
+    "fixture,expected_title",
+    [("rows.html", "校園公告"), ("alumni.html", "最新消息")],
+)
+def test_list_spider_without_chromium(
+    monkeypatch, fixture_text, html_response, fixture, expected_title
+):
     monkeypatch.setattr(
         list_spider.AnnouncementsListSpider, "_load_department_urls", lambda self: {}
     )
@@ -318,7 +387,7 @@ def test_list_spider_without_chromium(monkeypatch, fixture_text, html_response):
     )
     spider = list_spider.AnnouncementsListSpider()
     page = html_response(
-        fixture_text("announcements", "rows.html"),
+        fixture_text("announcements", fixture),
         url="https://dept.site.nthu.edu.tw/",
         meta={"language": "en", "department": "Dept"},
     )
@@ -330,7 +399,7 @@ def test_list_spider_without_chromium(monkeypatch, fixture_text, html_response):
     assert list(spider.parse(page)) == []
     (item,) = spider.parse_announcement_list(page)
     assert dict(item) == {
-        "title": "校園公告",
+        "title": expected_title,
         "link": page.url,
         "language": "en",
         "department": "Dept",
