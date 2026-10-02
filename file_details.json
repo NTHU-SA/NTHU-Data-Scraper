@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "6202407f6b266b8d2a1a76a3d9933fa7655d52577ecebde1613cdc5150d604e7",
-        "last_updated": "2026-10-02T16:26:42.785230+08:00",
+        "last_commit": "07648c1dc13e0fd5b163fcd40a1009438fb9e00f002b8ae20af6c24dd0b950e4",
+        "last_updated": "2026-10-02T18:19:43.141560+08:00",
         "name": "announcements.json",
-        "sha256": "6202407f6b266b8d2a1a76a3d9933fa7655d52577ecebde1613cdc5150d604e7",
-        "version": "6202407f6b266b8d2a1a76a3d9933fa7655d52577ecebde1613cdc5150d604e7"
+        "sha256": "07648c1dc13e0fd5b163fcd40a1009438fb9e00f002b8ae20af6c24dd0b950e4",
+        "version": "07648c1dc13e0fd5b163fcd40a1009438fb9e00f002b8ae20af6c24dd0b950e4"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -991,11 +991,11 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_commit": "b0a6e11f966a657112c1c0841897219dce8c6744ab2bdffd87bce15df9dec272",
-        "last_updated": "2026-10-02T14:33:23.526768+08:00",
+        "last_commit": "acd82654450af06ed8d46deff8c7930dfddd9ce48041b3e4da6a6af0156a0f03",
+        "last_updated": "2026-10-02T18:19:43.141560+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "b0a6e11f966a657112c1c0841897219dce8c6744ab2bdffd87bce15df9dec272",
-        "version": "b0a6e11f966a657112c1c0841897219dce8c6744ab2bdffd87bce15df9dec272"
+        "sha256": "acd82654450af06ed8d46deff8c7930dfddd9ce48041b3e4da6a6af0156a0f03",
+        "version": "acd82654450af06ed8d46deff8c7930dfddd9ce48041b3e4da6a6af0156a0f03"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -1129,18 +1129,18 @@
         "version": "0b3bd770e7db71a4ab4d5a8b9e00e4b379c93b77f4fe5af213e17f57cfeaf952"
       },
       {
-        "last_commit": "141b9914ca225798705401f3b94cce3dc7fe720a70403842bec9633220f447da",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "dbbbc0a8a56105b0ce48c5210fced48df52d43be9a473b3592e4c3651365af14",
+        "last_updated": "2026-10-02T18:19:43.141560+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "141b9914ca225798705401f3b94cce3dc7fe720a70403842bec9633220f447da",
-        "version": "141b9914ca225798705401f3b94cce3dc7fe720a70403842bec9633220f447da"
+        "sha256": "dbbbc0a8a56105b0ce48c5210fced48df52d43be9a473b3592e4c3651365af14",
+        "version": "dbbbc0a8a56105b0ce48c5210fced48df52d43be9a473b3592e4c3651365af14"
       },
       {
-        "last_commit": "0df994f1d3803d9250b8e323f52c3af8442bfe958009c3e1442c9dae9d25cb12",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "463218c1b8d1cfdcf9d046979eb955503a94a5e76ee7d98b447f3d2ddaffb2e6",
+        "last_updated": "2026-10-02T18:19:43.141560+08:00",
         "name": "校友榮譽_zh-tw.json",
-        "sha256": "0df994f1d3803d9250b8e323f52c3af8442bfe958009c3e1442c9dae9d25cb12",
-        "version": "0df994f1d3803d9250b8e323f52c3af8442bfe958009c3e1442c9dae9d25cb12"
+        "sha256": "463218c1b8d1cfdcf9d046979eb955503a94a5e76ee7d98b447f3d2ddaffb2e6",
+        "version": "463218c1b8d1cfdcf9d046979eb955503a94a5e76ee7d98b447f3d2ddaffb2e6"
       }
     ],
     "announcements/校長室": [
@@ -1908,11 +1908,11 @@
         "version": "5c3f2453836c1f0aa271ba3702f4f23d33a3e9a7d75a28702a74f583202f5915"
       },
       {
-        "last_commit": "b325d67d8bc1e82d46f39129c0e80501b85523fbb1e5beda61a9ace0b10f24ca",
-        "last_updated": "2026-10-02T12:23:00.855405+08:00",
+        "last_commit": "61c4cf07f3c1567ae2720ca1c25cb553a97f27d31675e4fc73b15214465062e2",
+        "last_updated": "2026-10-02T18:19:43.141560+08:00",
         "name": "學院公告 Announcement  - 國立清華大學竹師教育學院_zh-tw.json",
-        "sha256": "b325d67d8bc1e82d46f39129c0e80501b85523fbb1e5beda61a9ace0b10f24ca",
-        "version": "b325d67d8bc1e82d46f39129c0e80501b85523fbb1e5beda61a9ace0b10f24ca"
+        "sha256": "61c4cf07f3c1567ae2720ca1c25cb553a97f27d31675e4fc73b15214465062e2",
+        "version": "61c4cf07f3c1567ae2720ca1c25cb553a97f27d31675e4fc73b15214465062e2"
       },
       {
         "last_commit": "0764f4064d30175f6cc4527fc93f76d2f4394e323baad5bc26b49698da399914",
@@ -1922,11 +1922,11 @@
         "version": "0764f4064d30175f6cc4527fc93f76d2f4394e323baad5bc26b49698da399914"
       },
       {
-        "last_commit": "17f19b29f55b9422a8a39a61d742c656e123fa1e6c059874e914a4bec483d56d",
-        "last_updated": "2026-10-02T12:23:00.855405+08:00",
+        "last_commit": "e064990472151163de6ccf1a1a33350fa5576f632efd8d777b8d8aeb2f00d422",
+        "last_updated": "2026-10-02T18:19:43.141560+08:00",
         "name": "最新消息 News  - 國立清華大學竹師教育學院_zh-tw.json",
-        "sha256": "17f19b29f55b9422a8a39a61d742c656e123fa1e6c059874e914a4bec483d56d",
-        "version": "17f19b29f55b9422a8a39a61d742c656e123fa1e6c059874e914a4bec483d56d"
+        "sha256": "e064990472151163de6ccf1a1a33350fa5576f632efd8d777b8d8aeb2f00d422",
+        "version": "e064990472151163de6ccf1a1a33350fa5576f632efd8d777b8d8aeb2f00d422"
       }
     ],
     "announcements/竹師教育學院學習科學與科技研究所": [
@@ -2971,11 +2971,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "7784f5290bd0f689839ea7bb6caa668b5989eedd889e9057abb80364a23765db",
-        "last_updated": "2026-10-02T16:26:42.785230+08:00",
+        "last_commit": "3ff6ddc0cd1e22d1ef6a61eb4751015d9d2ed4a7ffcbb7604caaa1a8791e92ff",
+        "last_updated": "2026-10-02T18:19:43.141560+08:00",
         "name": "rss.json",
-        "sha256": "7784f5290bd0f689839ea7bb6caa668b5989eedd889e9057abb80364a23765db",
-        "version": "7784f5290bd0f689839ea7bb6caa668b5989eedd889e9057abb80364a23765db"
+        "sha256": "3ff6ddc0cd1e22d1ef6a61eb4751015d9d2ed4a7ffcbb7604caaa1a8791e92ff",
+        "version": "3ff6ddc0cd1e22d1ef6a61eb4751015d9d2ed4a7ffcbb7604caaa1a8791e92ff"
       }
     ],
     "maps": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-02T16:26:42.785230+08:00"
+  "last_updated": "2026-10-02T18:19:43.141560+08:00"
 }
