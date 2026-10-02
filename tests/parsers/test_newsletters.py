@@ -1,16 +1,22 @@
 import pytest
 from scrapy import Selector
+from scrapy.http import HtmlResponse
 
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.parsers.newsletters import (
     convert_chinese_month_to_english,
+    newsletter_list_id,
     parse_archive_articles,
+    parse_gallery_metadata,
     parse_metadata_table,
     parse_newsletter_date,
     parse_newsletter_list,
+    parse_newsletter_sources,
     parse_popup_url,
 )
-from nthu_scraper.spiders.nthu_newsletters import NewsletterSpider
+from nthu_scraper.spiders import nthu_newsletters as newsletters
+from nthu_scraper.spiders.nthu_newsletters import NewsletterPipeline, NewsletterSpider
+from nthu_scraper.storage import read_json, write_json_atomic
 
 
 def test_list_contract(fixture_text):
@@ -70,7 +76,19 @@ def test_all_chinese_months(month, english, number):
     assert parse_newsletter_date(f" Sent on 01 {month} 2026 ") == f"2026-{number}-01"
 
 
-@pytest.mark.parametrize("date", ["", "unknown", "31 Feb 2026", "01 十三月 2026"])
+@pytest.mark.parametrize(
+    "date",
+    [
+        "",
+        "unknown",
+        "31 Feb 2026",
+        "01 十三月 2026",
+        "2026年02月29日",
+        "2026年十三01日",
+        "2026年13月01日",
+        "2026年五32日",
+    ],
+)
 def test_invalid_dates_are_explicit(date):
     with pytest.raises(ParseError):
         parse_newsletter_date(date)
@@ -126,7 +144,7 @@ def test_english_dates(raw, expected):
     assert parse_newsletter_date(raw) == expected
 
 
-def test_empty_structures():
+def test_empty_structures(fixture_text):
     assert (
         parse_newsletter_list(Selector(text='<div class="gallery"><ul></ul></div>'))
         == []
@@ -134,17 +152,7 @@ def test_empty_structures():
     assert parse_metadata_table(Selector(text="<table></table>")) == {}
     assert (
         parse_archive_articles(
-            Selector(
-                text='<div id="acyarchivelisting"><table class="contentpane"></table></div>'
-            )
-        )
-        == []
-    )
-    assert (
-        parse_archive_articles(
-            Selector(
-                text='<div id="acyarchivelisting"><table class="contentpane"><tr><td></td></tr></table></div>'
-            )
+            Selector(text=fixture_text("newsletters", "empty-archive.html"))
         )
         == []
     )
@@ -171,6 +179,10 @@ def test_missing_or_broken_list(html):
     [
         "<html>Unavailable</html>",
         '<div id="acyarchivelisting"></div>',
+        '<div id="acyarchivelisting"><table class="contentpane"></table></div>',
+        '<div id="acyarchivelisting"><table class="contentpane"><tr><td></td></tr></table></div>',
+        '<div id="acyarchivelisting"><div class="acypagination_counter">No results</div></div>',
+        '<div id="acyarchivelisting"><table class="contentpane"><div class="acypagination_counter">Results 1 - 20</div></table></div>',
         '<div id="acyarchivelisting"><table class="contentpane"><div class="archiveRow">No title</div></table></div>',
         '<div id="acyarchivelisting"><table class="contentpane"><tr><td>Redesigned</td></tr></table></div>',
         '<div id="acyarchivelisting"><table class="contentpane"><div class="archiveRow"><a onclick="broken()">Title</a></div></table></div>',
@@ -236,3 +248,224 @@ def test_processed_urls_and_completeness_are_instance_local(
     assert list(second.parse(page)) == []
     second.processed_urls.clear()
     assert first.processed_urls == set(first_urls)
+
+
+@pytest.mark.parametrize(
+    "raw,expected",
+    [
+        ("Sent on 2026年10月02日", "2026-10-02"),
+        ("2026年9月30日", "2026-09-30"),
+        ("Sent on 2026年五29日", "2026-05-29"),
+        ("2024年二月29日", "2024-02-29"),
+        ("2026年十一01日", "2026-11-01"),
+        ("2026年十二31日", "2026-12-31"),
+    ],
+)
+def test_localized_dates(raw, expected):
+    assert parse_newsletter_date(raw) == expected
+
+
+def test_big5_metadata_gallery_and_shared_management(fixture_text):
+    text = fixture_text("newsletters", "metadata-gallery.html")
+    page = HtmlResponse(
+        url="https://newsletter.cc.nthu.edu.tw/search.html",
+        body=(
+            '<meta http-equiv="Content-Type" content="text/html; charset=big5">' + text
+        ).encode("big5"),
+    )
+    metadata = parse_gallery_metadata(page, page.url)
+    assert set(metadata) == {"112", "111", "114", "85"}
+    assert metadata["112"] == {
+        "管理者": "範例管理者",
+        "管理單位": "英語教學精進中心",
+        "電子信箱": "example@nthu.edu.tw",
+        "聯絡電話": "35452",
+    }
+    assert metadata["111"] == metadata["114"] == metadata["112"]
+    metadata["111"]["管理者"] = "Changed"
+    assert metadata["112"]["管理者"] == "範例管理者"
+
+
+def test_current_archives_keep_first_page_contract(fixture_text, html_response):
+    page = html_response(
+        fixture_text("newsletters", "redesigned-archive.html"),
+        meta={"newsletter": {"name": "News"}},
+    )
+    spider = NewsletterSpider()
+    (item,) = spider.parse_newsletter_content(page)
+    assert item["articles"] == [
+        {
+            "title": "2026 新生十月秋聚",
+            "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-35/mailid-5875-2026?tmpl=component&tmpl=component",
+            "date": "2026-10-02",
+        },
+        {
+            "title": "五月電子報",
+            "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-35/mailid-5600?tmpl=component",
+            "date": "2026-05-29",
+        },
+    ]
+    assert not spider.crawl_incomplete
+
+
+def test_redesigned_crawl_publishes_fresh_metadata_and_explicit_empty(
+    fixture_text, html_response, tmp_path, monkeypatch
+):
+    path = tmp_path / "newsletters.json"
+    write_json_atomic([{"name": "old", "details": {"管理者": "Stale"}}], path)
+    monkeypatch.setattr(newsletters, "NEWSLETTERS_JSON_PATH", path)
+    spider = NewsletterSpider()
+    pipeline = NewsletterPipeline()
+    pipeline.open_spider(spider)
+    wrapper = html_response(
+        fixture_text("newsletters", "wrapper.html"), url=spider.start_urls[0]
+    )
+    (gallery_request,) = spider.parse(wrapper)
+    assert gallery_request.url == "https://newsletter.cc.nthu.edu.tw/search.html"
+    assert gallery_request.errback == spider.handle_request_error
+    gallery = html_response(
+        fixture_text("newsletters", "metadata-gallery.html"),
+        url=gallery_request.url,
+        meta=gallery_request.meta,
+    )
+    (list_request,) = gallery_request.callback(gallery)
+    assert (
+        list_request.url
+        == "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/lists/listing"
+    )
+    assert list_request.errback == spider.handle_request_error
+    listing = html_response(
+        fixture_text("newsletters", "redesigned-list.html"),
+        url=list_request.url,
+        meta=list_request.meta,
+    )
+    archive_requests = list(list_request.callback(listing))
+    assert len(archive_requests) == 4
+    assert [newsletter_list_id(r.url) for r in archive_requests] == [
+        "112",
+        "111",
+        "114",
+        "180",
+    ]
+    for request in archive_requests:
+        assert request.errback == spider.handle_request_error
+        fixture = (
+            "empty-archive.html"
+            if newsletter_list_id(request.url) == "180"
+            else "redesigned-archive.html"
+        )
+        archive = html_response(
+            fixture_text("newsletters", fixture), url=request.url, meta=request.meta
+        )
+        (item,) = request.callback(archive)
+        pipeline.process_item(item, spider)
+    pipeline.close_spider(spider)
+    data = read_json(path)
+    assert len(data) == 4
+    empty = next(item for item in data if newsletter_list_id(item["link"]) == "180")
+    assert empty == {
+        "name": "大學部115級",
+        "link": "https://newsletter.cc.nthu.edu.tw/index.php/home-zh-tw/list/listid-180-da-xue-bu115ji",
+        "details": {},
+        "articles": [],
+    }
+    assert all(
+        item["details"]["管理者"] == "範例管理者" for item in data if item is not empty
+    )
+    assert not spider.crawl_incomplete
+
+
+@pytest.mark.parametrize("stage", ["wrapper", "gallery", "listing", "archive"])
+def test_redesigned_structure_failures_retain_baseline(
+    stage, html_response, tmp_path, monkeypatch
+):
+    path = tmp_path / "newsletters.json"
+    write_json_atomic([{"name": "old"}], path)
+    original = path.read_bytes()
+    monkeypatch.setattr(newsletters, "NEWSLETTERS_JSON_PATH", path)
+    spider = NewsletterSpider()
+    pipeline = NewsletterPipeline()
+    pipeline.open_spider(spider)
+    pipeline.process_item({"name": "valid sibling", "articles": []}, spider)
+    html = {
+        "wrapper": '<div class="com-wrapper"><iframe id="blockrandom" src="/search.html"></iframe></div>',
+        "gallery": '<div class="gallery"></div>',
+        "listing": '<div id="acylistslisting"><div class="acymailing_list"><div class="list_name">Broken</div></div></div>',
+        "archive": '<div id="acyarchivelisting"><table class="contentpane"></table></div>',
+    }[stage]
+    page = html_response(
+        html,
+        meta={
+            "newsletter": {"name": "News"},
+            "listing_url": "https://newsletter.cc.nthu.edu.tw/list",
+        },
+    )
+    callback = (
+        spider.parse_gallery
+        if stage == "gallery"
+        else spider.parse_newsletter_content
+        if stage == "archive"
+        else spider.parse
+    )
+    assert list(callback(page)) == []
+    pipeline.close_spider(spider)
+    assert spider.crawl_incomplete
+    assert path.read_bytes() == original
+
+
+@pytest.mark.parametrize(
+    "target", ["https://example.test/search.html", "javascript:alert(1)"]
+)
+def test_wrapper_rejects_invalid_sources(target):
+    page = Selector(
+        text=f'<div class="com-wrapper"><iframe id="blockrandom" src="{target}"></iframe></div>'
+        '<a href="/index.php/home-zh-tw/list/lists/listing">Lists</a>'
+    )
+    with pytest.raises(ParseError):
+        parse_newsletter_sources(page, "https://newsletter.cc.nthu.edu.tw/")
+
+
+def test_start_uses_strict_wrapper_callback():
+    spider = NewsletterSpider()
+    with pytest.raises(StopIteration) as yielded:
+        spider.start().__anext__().send(None)
+    request = yielded.value.value
+    assert request.url == spider.start_urls[0]
+    assert request.callback == spider.parse_wrapper
+    assert request.errback == spider.handle_request_error
+
+
+def test_redirect_to_wrong_known_structure_is_incomplete(fixture_text, html_response):
+    spider = NewsletterSpider()
+    gallery = html_response(fixture_text("newsletters", "metadata-gallery.html"))
+    assert list(spider.parse_wrapper(gallery)) == []
+    assert spider.crawl_incomplete
+    spider = NewsletterSpider()
+    assert list(spider.parse_listing(gallery)) == []
+    assert spider.crawl_incomplete
+
+
+def test_conflicting_gallery_metadata_is_rejected():
+    page = Selector(
+        text='<div class="gallery"><li><h3><a href="/listid-1">One</a></h3>'
+        "<table><tr><td>Manager</td><td>First</td></tr></table></li>"
+        '<li><h3><a href="/listid-1-other">Other</a></h3>'
+        "<table><tr><td>Manager</td><td>Second</td></tr></table></li></div>"
+    )
+    with pytest.raises(ParseError, match="Conflicting newsletter metadata"):
+        parse_gallery_metadata(page, "https://newsletter.cc.nthu.edu.tw/")
+
+
+@pytest.mark.parametrize(
+    "html",
+    [
+        '<div id="acylistslisting"></div>',
+        '<div id="acylistslisting"><div class="acymailing_list"><div class="list_name">'
+        '<a href="https://example.test/listid-1">Wrong host</a></div></div></div>',
+        '<div id="acylistslisting"><div class="acymailing_list"><div class="list_name">'
+        '<a href="/listid-1">One</a><a href="/listid-2">Two</a></div></div></div>',
+    ],
+)
+def test_invalid_official_lists_are_rejected(html):
+    with pytest.raises(ParseError):
+        parse_newsletter_list(Selector(text=html))
