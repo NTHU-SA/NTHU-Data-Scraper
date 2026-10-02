@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "07648c1dc13e0fd5b163fcd40a1009438fb9e00f002b8ae20af6c24dd0b950e4",
-        "last_updated": "2026-10-02T18:19:43.141560+08:00",
+        "last_commit": "b0a4cbc54a9dfcef821a3e813736b0079aebd146de371da40bbf3d7d7efed069",
+        "last_updated": "2026-10-02T20:29:51.699173+08:00",
         "name": "announcements.json",
-        "sha256": "07648c1dc13e0fd5b163fcd40a1009438fb9e00f002b8ae20af6c24dd0b950e4",
-        "version": "07648c1dc13e0fd5b163fcd40a1009438fb9e00f002b8ae20af6c24dd0b950e4"
+        "sha256": "b0a4cbc54a9dfcef821a3e813736b0079aebd146de371da40bbf3d7d7efed069",
+        "version": "b0a4cbc54a9dfcef821a3e813736b0079aebd146de371da40bbf3d7d7efed069"
       },
       {
         "last_commit": "e00d56c62fbad75155e86197b22d9467320c378c370a333d49570f5b3617e693",
@@ -536,11 +536,11 @@
     ],
     "announcements/工學院": [
       {
-        "last_commit": "12930246683453a1ddc65bfddcb5d8149b29e21ce42ce4cad677474e61ddb270",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "ece3eb16779135679cbfbd6c58713d9550d4da37d058d996e3132c24d941ef1e",
+        "last_updated": "2026-10-02T20:29:51.699173+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "12930246683453a1ddc65bfddcb5d8149b29e21ce42ce4cad677474e61ddb270",
-        "version": "12930246683453a1ddc65bfddcb5d8149b29e21ce42ce4cad677474e61ddb270"
+        "sha256": "ece3eb16779135679cbfbd6c58713d9550d4da37d058d996e3132c24d941ef1e",
+        "version": "ece3eb16779135679cbfbd6c58713d9550d4da37d058d996e3132c24d941ef1e"
       },
       {
         "last_commit": "6bcadf45cd7c24886117e9e5643b8349984c4027a8e37fac619b0a119c25ba34",
@@ -991,11 +991,11 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_commit": "acd82654450af06ed8d46deff8c7930dfddd9ce48041b3e4da6a6af0156a0f03",
-        "last_updated": "2026-10-02T18:19:43.141560+08:00",
+        "last_commit": "7ec8c6bba5767d26634a9fe2ffc4f9a90917d1b0549c20e83c588bb298010562",
+        "last_updated": "2026-10-02T20:29:51.699173+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "acd82654450af06ed8d46deff8c7930dfddd9ce48041b3e4da6a6af0156a0f03",
-        "version": "acd82654450af06ed8d46deff8c7930dfddd9ce48041b3e4da6a6af0156a0f03"
+        "sha256": "7ec8c6bba5767d26634a9fe2ffc4f9a90917d1b0549c20e83c588bb298010562",
+        "version": "7ec8c6bba5767d26634a9fe2ffc4f9a90917d1b0549c20e83c588bb298010562"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -2971,11 +2971,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "3ff6ddc0cd1e22d1ef6a61eb4751015d9d2ed4a7ffcbb7604caaa1a8791e92ff",
-        "last_updated": "2026-10-02T18:19:43.141560+08:00",
+        "last_commit": "54aab132570f9fb154b9612b1ab47e63404ce60a6ece8ce3af6aad2524d678f4",
+        "last_updated": "2026-10-02T20:29:51.699173+08:00",
         "name": "rss.json",
-        "sha256": "3ff6ddc0cd1e22d1ef6a61eb4751015d9d2ed4a7ffcbb7604caaa1a8791e92ff",
-        "version": "3ff6ddc0cd1e22d1ef6a61eb4751015d9d2ed4a7ffcbb7604caaa1a8791e92ff"
+        "sha256": "54aab132570f9fb154b9612b1ab47e63404ce60a6ece8ce3af6aad2524d678f4",
+        "version": "54aab132570f9fb154b9612b1ab47e63404ce60a6ece8ce3af6aad2524d678f4"
       }
     ],
     "maps": [
@@ -3032,5 +3032,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-02T18:19:43.141560+08:00"
+  "last_updated": "2026-10-02T20:29:51.699173+08:00"
 }
