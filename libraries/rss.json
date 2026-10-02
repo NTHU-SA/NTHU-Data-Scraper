@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2037",
+            "category": "電子資源",
+            "title": "【試用資源】Emerald Insight電子期刊資料庫，歡迎多多利用！",
+            "link": "https://www.emerald.com/insight/,https://forms.gle/65YaF7R1z52VU9S19",
+            "pubDate": "Fri, 02 Oct 2026 15:54:21 +0800",
+            "description": "Emerald Insight擁有309種期刊的產品組合，在商業、管理、經濟、工程、運算、科技與社會科學領域出版超過270,000篇期刊論文。收錄主題如下：\n\n● Accounting, Finance & Economics (會計/金融/經濟)\n● Business Management and Strategy (商業/管理/決策)\n● Education (教育)\n● Engineering (工程)\n● HR, Learning & Organization Studies (人力資源/學習/組織研究)\n● Health & Social Care (健康科學/社會照顧)\n● Information & Knowledge Management (資訊/知識管理)\n● Library & Information Science (圖書館學/資訊科學)\n● Marketing (行銷)\n● Operations, Logistics & Quality (作業/物流/品管)\n● Property Management & Built Environment (物業管理及營造環境)\n● Public Policy & Environmental Management (公共政策/環境管理)\n● Tourism & Hospitality Management (旅遊/休閒/餐飲管理)\n\n※試用網址：https://www.emerald.com/insight/\n※試用期間：即日起至2026年11月20日止。\n※試用說明：校外使用請先登入NTHU-VPN後連線使用。\n\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261002_LRS_Emerald.jpg",
+                "title": "【試用資源】Emerald Insight電子期刊資料庫，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2036",
             "category": "服務消息",
             "title": "【服務公告】10/9(五)-10/10(六)適逢雙十節，總圖書館、各分館及夜讀區閉館。",
@@ -716,6 +730,20 @@
         }
     ],
     "eresources": [
+        {
+            "guid": "2037",
+            "category": "電子資源",
+            "title": "【試用資源】Emerald Insight電子期刊資料庫，歡迎多多利用！",
+            "link": "https://www.emerald.com/insight/,https://forms.gle/65YaF7R1z52VU9S19",
+            "pubDate": "Fri, 02 Oct 2026 15:54:21 +0800",
+            "description": "Emerald Insight擁有309種期刊的產品組合，在商業、管理、經濟、工程、運算、科技與社會科學領域出版超過270,000篇期刊論文。收錄主題如下：\n\n● Accounting, Finance & Economics (會計/金融/經濟)\n● Business Management and Strategy (商業/管理/決策)\n● Education (教育)\n● Engineering (工程)\n● HR, Learning & Organization Studies (人力資源/學習/組織研究)\n● Health & Social Care (健康科學/社會照顧)\n● Information & Knowledge Management (資訊/知識管理)\n● Library & Information Science (圖書館學/資訊科學)\n● Marketing (行銷)\n● Operations, Logistics & Quality (作業/物流/品管)\n● Property Management & Built Environment (物業管理及營造環境)\n● Public Policy & Environmental Management (公共政策/環境管理)\n● Tourism & Hospitality Management (旅遊/休閒/餐飲管理)\n\n※試用網址：https://www.emerald.com/insight/\n※試用期間：即日起至2026年11月20日止。\n※試用說明：校外使用請先登入NTHU-VPN後連線使用。\n\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261002_LRS_Emerald.jpg",
+                "title": "【試用資源】Emerald Insight電子期刊資料庫，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2033",
             "category": "電子資源",
