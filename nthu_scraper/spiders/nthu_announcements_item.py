@@ -71,6 +71,7 @@ class AnnouncementsItemSpider(scrapy.Spider):
             or not source.get("link")
             or not isinstance(source.get("title"), str)
             or not source["title"].strip()
+            or "\x00" in source["title"]
             for source in data
         ):
             raise ValueError("Invalid authoritative announcements_list.json")
@@ -131,7 +132,10 @@ class AnnouncementItemPipeline:
     def open_spider(self, spider):
         """初始化"""
         self.collected_data = {}
-        self.expected_links = {source["link"] for source in spider.announcement_list}
+        self.sources_by_link = {
+            source["link"]: source for source in spider.announcement_list
+        }
+        self.expected_links = set(self.sources_by_link)
         previous = load_json(ANNOUNCEMENTS_JSON_PATH)
         if previous is not None and not isinstance(previous, list):
             raise ValueError("Expected announcements.json to contain a list")
@@ -295,11 +299,19 @@ class AnnouncementItemPipeline:
                 spider.logger.warning(
                     "Retaining previous announcement source: %s", link
                 )
-                source = self.previous[link]
-                articles = self._filter_articles(source, spider)
-                if articles != source["articles"]:
-                    source = {**source, "articles": articles}
+                previous = self.previous[link]
+                configured = self.sources_by_link[link]
+                source = {
+                    **previous,
+                    **{
+                        key: configured[key]
+                        for key in ("title", "department", "language")
+                    },
+                    "articles": self._filter_articles(previous, spider),
+                }
+                if source != previous:
                     self._save_individual_item(source)
+                    self._remove_superseded_file(previous, source, spider)
                 merged.append(source)
             else:
                 spider.logger.warning("No known-good announcement source: %s", link)

@@ -295,7 +295,7 @@ def test_item_title_comes_only_from_source_even_without_page_title(
     assert item["title"] == "Old\x0b title"
 
 
-@pytest.mark.parametrize("title", [None, "", " \t\n ", 123])
+@pytest.mark.parametrize("title", [None, "", " \t\n ", 123, "\x00", "News\x00Items"])
 def test_item_spider_rejects_unusable_authoritative_title(tmp_path, monkeypatch, title):
     path = tmp_path / "announcements_list.json"
     monkeypatch.setattr(item_spider, "ANNOUNCEMENTS_LIST_PATH", path)

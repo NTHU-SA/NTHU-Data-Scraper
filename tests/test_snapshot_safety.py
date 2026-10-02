@@ -216,7 +216,7 @@ def test_legacy_recovery_tolerates_refreshed_title(tmp_path, monkeypatch, refres
     spider.announcement_list = [configured, other]
     pipeline = announcements.AnnouncementItemPipeline()
     pipeline.open_spider(spider)
-    restored = {**legacy, "link": configured["link"]}
+    restored = {**legacy, "link": configured["link"], "title": configured["title"]}
     if refresh:
         updated = {**restored, "title": "Latest"}
         pipeline.process_item(announcements.AnnouncementItem(updated), spider)
@@ -226,7 +226,8 @@ def test_legacy_recovery_tolerates_refreshed_title(tmp_path, monkeypatch, refres
         assert not old_file.exists()
         assert read_json(folder / "department" / "Latest_en.json") == updated
     else:
-        assert read_json(old_file) == legacy
+        assert not old_file.exists()
+        assert read_json(folder / "department" / "Search_en.json") == restored
 
 
 @pytest.mark.parametrize("duplicate", ["expected", "legacy"])
@@ -267,7 +268,11 @@ def test_legacy_title_match_precedes_title_divergence_fallback(tmp_path, monkeyp
     pipeline.open_spider(spider)
     pipeline.close_spider(spider)
     assert read_json(path) == [
-        {**source, "link": configured[index]["link"]}
+        {
+            **source,
+            "link": configured[index]["link"],
+            "title": configured[index]["title"],
+        }
         for index, source in enumerate(legacy)
     ]
 
@@ -275,7 +280,10 @@ def test_legacy_title_match_precedes_title_divergence_fallback(tmp_path, monkeyp
 @pytest.mark.parametrize(
     "case", ["rename", "same-path", "foreign-old", "foreign-new", "write-failure"]
 )
-def test_title_refresh_removes_only_owned_superseded_files(tmp_path, monkeypatch, case):
+@pytest.mark.parametrize("refresh", [False, True])
+def test_title_refresh_removes_only_owned_superseded_files(
+    tmp_path, monkeypatch, case, refresh
+):
     path = tmp_path / "announcements.json"
     folder = tmp_path / "individual"
     monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
@@ -299,10 +307,16 @@ def test_title_refresh_removes_only_owned_superseded_files(tmp_path, monkeypatch
         write_json_atomic(announcement("https://other.test/list", "NEWS"), new_path)
         new_before = new_path.read_bytes()
     spider = scrapy.Spider("test")
-    spider.announcement_list = [old]
+    spider.announcement_list = [old if refresh else new]
     pipeline = announcements.AnnouncementItemPipeline()
     pipeline.open_spider(spider)
     item = announcements.AnnouncementItem(new)
+
+    def persist():
+        if refresh:
+            pipeline.process_item(item, spider)
+        pipeline.close_spider(spider)
+
     if case == "write-failure":
 
         def fail_write(*args):
@@ -310,25 +324,81 @@ def test_title_refresh_removes_only_owned_superseded_files(tmp_path, monkeypatch
 
         monkeypatch.setattr(announcements, "save_json", fail_write)
         with pytest.raises(OSError, match="replacement failed"):
-            pipeline.process_item(item, spider)
+            persist()
+        assert read_json(path) == [old]
         assert read_json(old_path) == old
         assert not new_path.exists()
         assert pipeline.collected_data == {}
     elif case == "foreign-new":
         with pytest.raises(ValueError, match="belongs to another source"):
-            pipeline.process_item(item, spider)
+            persist()
+        assert read_json(path) == [old]
         assert new_path.read_bytes() == new_before
         assert read_json(old_path) == old
         assert pipeline.collected_data == {}
     else:
-        pipeline.process_item(item, spider)
-        pipeline.close_spider(spider)
+        persist()
         assert read_json(new_path) == new
         assert read_json(path) == [new]
         if case == "rename":
             assert not old_path.exists()
         elif case == "foreign-old":
             assert read_json(old_path) == old_contents
+
+
+@pytest.mark.parametrize("failure", ["request", "malformed", "empty", "rejected-item"])
+def test_retained_announcements_use_configured_metadata(tmp_path, monkeypatch, failure):
+    source_path = tmp_path / "announcements_list.json"
+    path = tmp_path / "announcements.json"
+    folder = tmp_path / "individual"
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_LIST_PATH", source_path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_JSON_PATH", path)
+    monkeypatch.setattr(announcements, "ANNOUNCEMENTS_FOLDER", folder)
+    old = announcement("https://example.test/list", "Old")
+    configured = {
+        "link": old["link"],
+        "title": "Configured",
+        "department": "New department",
+        "language": "zh-tw",
+    }
+    write_json_atomic([configured], source_path)
+    source_before = source_path.read_bytes()
+    write_json_atomic([old], path)
+    old_file = folder / "department" / "Old_en.json"
+    write_json_atomic(old, old_file)
+    spider = announcements.AnnouncementsItemSpider()
+    pipeline = announcements.AnnouncementItemPipeline()
+    pipeline.open_spider(spider)
+    if failure in {"malformed", "empty"}:
+        response = HtmlResponse(
+            old["link"],
+            request=scrapy.Request(
+                old["link"], meta={**configured, "source_link": old["link"]}
+            ),
+            body=(
+                b"<html>Unavailable</html>"
+                if failure == "malformed"
+                else b'<div id="pageptlist"></div>'
+            ),
+            encoding="utf-8",
+        )
+        assert list(spider.parse(response)) == []
+    elif failure == "rejected-item":
+        pipeline.process_item(
+            announcements.AnnouncementItem({**configured, "articles": []}), spider
+        )
+    pipeline.close_spider(spider)
+    expected = {**old, **configured}
+    assert read_json(path) == [expected]
+    assert not old_file.exists()
+    new_file = folder / "New department" / "Configured_zh-tw.json"
+    assert read_json(new_file) == expected
+    assert source_path.read_bytes() == source_before
+    before = new_file.read_bytes()
+    pipeline.open_spider(spider)
+    pipeline.close_spider(spider)
+    assert read_json(path) == [expected]
+    assert new_file.read_bytes() == before
 
 
 def test_announcement_redirect_keeps_authoritative_identity(tmp_path, monkeypatch):

@@ -64,6 +64,9 @@ including the website name when a list's module heading is hidden or absent.
 `announcements_list.json` is the only source of list names for the content crawler:
 content refreshes preserve its titles exactly, without extracting page headings or
 overriding custom source names. Scheduled crawls leave this source list unchanged.
+Failed, malformed, or empty refreshes retain known-good articles while applying
+the configured source metadata to aggregate and individual files. Source titles
+must be nonempty strings without NUL characters.
 Run `nthu_announcements_list` manually to update existing source titles, including
 removing website suffixes through the breadcrumb fallback. Custom source titles
 remain explicitly configured by the source crawler. Parsed announcement titles
