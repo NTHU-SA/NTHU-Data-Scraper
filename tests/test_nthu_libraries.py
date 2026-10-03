@@ -132,24 +132,179 @@ class TestParseRss:
             == "https://www.lib.nthu.edu.tw/image/news/2/music.jpg"
         )
         assert first["image"]["link"] == "https://www.lib.nthu.edu.tw/"
-        assert second["link"] == "recruit"
+        assert second["link"] == "https://www.lib.nthu.edu.tw/recruit"
         assert second["image"] is None
 
     @pytest.mark.parametrize(
-        "link",
+        "link,expected",
         [
-            "recruit",
-            "//www.lib.nthu.edu.tw/",
-            " https://example.test/one, https://example.test/two ",
-            "https://example.test/one,https://example.test/two",
+            ("recruit", "https://www.lib.nthu.edu.tw/recruit"),
+            ("//www.lib.nthu.edu.tw/", "https://www.lib.nthu.edu.tw/"),
+            (
+                " https://example.test/one, https://example.test/two ",
+                "https://example.test/one",
+            ),
+            (
+                "https://example.test/one,https://example.test/two",
+                "https://example.test/one",
+            ),
+            (
+                "https://example.test/form?usp=header, https://example.test/two",
+                "https://example.test/form?usp=header",
+            ),
+            ("//example.test/one,\n//example.test/two", "https://example.test/one"),
+            (
+                "https://example.test/one, HTTPS://example.test/two",
+                "https://example.test/one",
+            ),
+            (
+                "https://example.test/one, //example.test/two",
+                "https://example.test/one",
+            ),
+            (
+                "https://example.test/one,//example.test/two",
+                "https://example.test/one",
+            ),
+            (
+                "https://www.emerald.com/insight/,https://forms.gle/65YaF7R1z52VU9S19",
+                "https://www.emerald.com/insight/",
+            ),
+            (
+                "/one, /two",
+                "https://www.lib.nthu.edu.tw/one",
+            ),
+            (
+                "https://example.test/one, javascript:alert(1)",
+                "https://example.test/one",
+            ),
+            (
+                "/article with space",
+                "https://www.lib.nthu.edu.tw/article%20with%20space",
+            ),
+            (
+                "https://example.test/one,two?values=a,b#one,two",
+                "https://example.test/one,two?values=a,b#one,two",
+            ),
+            (
+                "https://example.test/search?paths=/one,/two",
+                "https://example.test/search?paths=/one,/two",
+            ),
+            (
+                "https://example.test/one,/two",
+                "https://example.test/one,/two",
+            ),
         ],
     )
-    def test_article_links_preserve_text_verbatim(self, link):
+    def test_article_links_are_single_valid_urls(self, link, expected):
         (item,) = parse_rss(
             "<rss><channel><item><title>News</title>"
             f"<link>{escape(link)}</link></item></channel></rss>"
         )
-        assert item["link"] == link
+        assert item["link"] == expected
+        assert (
+            normalize_rss_items([{**rss_article("News"), "link": link}])[0]["link"]
+            == expected
+        )
+        assert normalize_rss_items([item]) == [item]
+        assert http_url_error(item["link"]) is None
+
+    @pytest.mark.parametrize(
+        "link",
+        [
+            "https://",
+            "https://invalid host.test/article",
+            "javascript:alert(1)",
+            "javascript:alert(1), https://example.test/valid",
+            "https://example.test/one\ntwo",
+            "https://, https://example.test/valid",
+        ],
+    )
+    def test_invalid_article_link_is_null_without_losing_article(self, link, caplog):
+        items = parse_rss(
+            "<rss><channel><item><guid>Bad link</guid><title>News</title>"
+            f"<link>{escape(link)}</link></item>"
+            "<item><title>Sibling</title></item></channel></rss>"
+        )
+        assert [item["title"] for item in items] == ["News", "Sibling"]
+        assert items[0]["link"] is None
+        assert (
+            normalize_rss_items([{**rss_article("News"), "link": link}])[0]["link"]
+            is None
+        )
+        assert "Bad link" in caplog.text
+        assert "using null" in caplog.text
+
+    @pytest.mark.parametrize("link", [42, [], {}])
+    def test_invalid_article_link_value_is_null(self, link, caplog):
+        assert normalize_rss_items([{**rss_article("News"), "link": link}]) == [
+            rss_article("News")
+        ]
+        assert "using null" in caplog.text
+
+    def test_clean_text_for_fresh_and_retained_articles(self):
+        xml = (
+            "<rss><channel><item><guid>123</guid>"
+            "<title>  News\n\t Items\u3000 </title>"
+            "<category> New\r\n Resources </category>"
+            "<author> Library\t Staff </author>"
+            "<pubDate> Fri, 02 Oct 2026\n15:54:21 +0800 </pubDate>"
+            "<description><![CDATA[ First<br>Second<BR/>Third<br />\n"
+            "Fourth\t  & fifth ]]></description>"
+            "<image><url>/cover.jpg</url><title> Cover\n Title </title></image>"
+            "</item></channel></rss>"
+        )
+        (item,) = parse_rss(xml)
+        assert item["title"] == "News Items"
+        assert item["category"] == "New Resources"
+        assert item["author"] == "Library Staff"
+        assert item["pubDate"] == "Fri, 02 Oct 2026 15:54:21 +0800"
+        assert item["description"] == "First\nSecond\nThird\nFourth & fifth"
+        assert item["image"]["title"] == "Cover Title"
+        retained = {
+            **item,
+            "title": "  News\n\t Items\u3000 ",
+            "category": " New\r\n Resources ",
+            "author": " Library\t Staff ",
+            "pubDate": " Fri, 02 Oct 2026\n15:54:21 +0800 ",
+            "description": " First<br>Second<BR/>Third<br />\nFourth\t  & fifth ",
+            "image": {**item["image"], "title": " Cover\n Title "},
+        }
+        original = deepcopy(retained)
+        assert normalize_rss_items([retained]) == [item]
+        assert retained == original
+        assert normalize_rss_items([item]) == [item]
+
+    @pytest.mark.parametrize(
+        "description",
+        [
+            "  First\n\n\n Second\t Line  \n",
+            "\r\n First\r\n \t\r\n Second  Line \r\n",
+            " First\r\rSecond Line ",
+            " First<br><BR/><br /> Second Line ",
+            " First<br />\n\n\u3000\n Second Line ",
+        ],
+    )
+    def test_description_keeps_only_one_consecutive_newline(self, description):
+        (item,) = parse_rss(
+            "<rss><channel><item><title>News</title>"
+            f"<description><![CDATA[{description}]]></description>"
+            "</item></channel></rss>"
+        )
+        expected = {**rss_article("News"), "description": "First\nSecond Line"}
+        assert item == expected
+        assert normalize_rss_items(
+            [{**rss_article("News"), "description": description}]
+        ) == [expected]
+
+    def test_blank_optional_text_is_null(self):
+        article = {
+            **rss_article("News"),
+            "category": " \t",
+            "author": "\n",
+            "pubDate": "\u3000",
+            "description": " \r\n<br/> ",
+        }
+        assert normalize_rss_items([article]) == [rss_article("News")]
 
     @pytest.mark.parametrize(
         "url,expected",
@@ -251,22 +406,25 @@ class TestParseRss:
         with pytest.raises(nthu_libraries.InvalidLibrarySource):
             normalize_rss_items([rss_article(title)])
 
-    def test_valid_retained_title_text_is_preserved(self):
+    def test_valid_retained_title_text_is_cleaned(self):
         title = " \tMeaningful title\u3000"
-        assert normalize_rss_items([rss_article(title)])[0]["title"] == title
+        assert normalize_rss_items([rss_article(title)])[0]["title"] == (
+            "Meaningful title"
+        )
 
     def test_published_url_cases_preserve_all_articles(self, published_items):
         assert len(published_items) == 5
         assert published_items[0]["link"] == (
-            "https://www.proquest.com/centralpremium/index, "
-            "https://ebookcentral.proquest.com/lib/nthutw/home.action, "
-            "https://www.proquest.com/pq1entertainmentpopularculture, "
-            "https://www.proquest.com/pq1history, https://forms.gle/65YaF7R1z52VU9S19"
+            "https://www.proquest.com/centralpremium/index"
         )
+        assert published_items[1]["link"] == "https://hyread.cc/2026Ericdata"
+        assert published_items[2]["link"].endswith("/viewform?usp=header")
+        assert published_items[3]["link"] == "https://oversea.cnki.net/tra"
         assert published_items[3]["image"]["url"].endswith("CNKI%20Trial.jpg")
         assert published_items[4]["image"]["url"].endswith("Wiley%20UBCM.jpg")
         assert normalize_rss_items(published_items) == published_items
         for item in published_items:
+            assert http_url_error(item["link"]) is None
             if item["image"]:
                 assert http_url_error(item["image"]["url"]) is None
                 assert http_url_error(item["image"]["link"]) is None
@@ -421,7 +579,8 @@ class TestLibrariesPipeline:
     def test_repairs_retained_rss_even_when_refresh_fails(self, paths, refresh, caplog):
         rss_path, _ = paths
         old = {
-            **rss_article("Old"),
+            **rss_article(" Old\n Title "),
+            "description": " First<br />\n Second\t Line ",
             "link": "https://example.test/one, https://example.test/two",
             "image": {"url": "//example.test/cover image.jpg"},
             "publisher_metadata": {"retain": True},
@@ -440,6 +599,9 @@ class TestLibrariesPipeline:
             "news": [
                 {
                     **old,
+                    "title": "Old Title",
+                    "description": "First\nSecond Line",
+                    "link": "https://example.test/one",
                     "image": {
                         "url": "https://example.test/cover%20image.jpg",
                         "title": None,
@@ -489,7 +651,6 @@ class TestLibrariesPipeline:
             [{"title": "\t\n", "description": ""}],
             [{"title": "\u3000", "description": ""}],
             [{"title": "\u00a0", "description": ""}],
-            [{"title": "News", "description": "", "link": 42}],
             [{"title": "News", "description": "", "image": []}],
         ],
     )

@@ -106,12 +106,23 @@ Unrecoverable hosts, ports, schemes, embedded controls, and malformed URLs raise
 `null`. Announcements, directory links/websites, newsletters, dining images,
 bus image links, maps/course requests, and calendar URLs use these shared rules.
 
-Library RSS article `link` is an exception: it is nullable **text**, matching
-[NTHU-SA/NTHU-Data-API#276](https://github.com/NTHU-SA/NTHU-Data-API/pull/276).
-Single links, relative links, and comma-separated URL lists retain their original
-text; missing or blank links become `null`. RSS image URLs are normalized before
-publication. An unrecoverable image URL makes `image` null without removing the
-article; an invalid image hyperlink makes only `image.link` null.
+Library RSS article `link` is a nullable, validated HTTP(S) URL. Comma-separated
+URL lists contribute only their first URL, including lists following a query
+string; commas within a single URL are preserved. Slash-only relative entries
+in a list require whitespace after the comma. Relative links resolve against
+the library website. Missing, blank, or unrecoverable links become `null`; invalid
+values are logged without dropping the article or falling back to a later URL.
+RSS image URLs are also normalized before publication. An unrecoverable image
+URL makes `image` null without removing the article; an invalid image hyperlink
+makes only `image.link` null.
+
+RSS titles, categories, dates, authors, and image titles are single-line text:
+controls, newlines, tabs, and repeated Unicode whitespace collapse to one space.
+Descriptions preserve line breaks, including `<br>` variants, but collapse
+consecutive newlines and whitespace-only lines to one newline. Each line is
+trimmed and its horizontal whitespace normalized. Blank optional text becomes
+`null`; descriptions remain strings, including empty strings. Identifiers and
+unknown metadata are preserved.
 
 ### Website preview
 
@@ -151,8 +162,9 @@ URL checks validate syntax, not live HTTP availability.
 
 Library RSS normalization retains every article and unknown fields in JSON
 snapshots. Fresh and retained feeds use the same output shape and image
-normalization, including when all RSS requests fail. RSS titles must contain a
-non-whitespace character in both fresh and retained feeds. Structural feed
+normalization and text cleanup, including when all RSS requests fail.
+RSS titles must contain a non-whitespace character in both fresh and retained
+feeds. Structural feed
 errors retain the previous source; corrupt baselines block the crawl instead of
 silently replacing data. Library and academic calendars reject reversed or
 mixed date/datetime event boundaries before publication, retaining the previous

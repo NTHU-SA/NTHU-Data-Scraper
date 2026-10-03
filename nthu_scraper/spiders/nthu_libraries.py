@@ -12,6 +12,7 @@ temporary outage (or an IP block on CI runners) never wipes existing data.
 
 import hashlib
 import logging
+import re
 from copy import deepcopy
 from datetime import date, datetime, timedelta, timezone
 from typing import Any
@@ -25,6 +26,7 @@ from pydantic import (
     BaseModel,
     ConfigDict,
     Field,
+    HttpUrl,
     TypeAdapter,
     ValidationError,
     field_validator,
@@ -38,6 +40,10 @@ from nthu_scraper.utils.constants import (
 )
 from nthu_scraper.utils.crawl_safety import log_source_failure
 from nthu_scraper.utils.file_utils import load_json, save_json
+from nthu_scraper.utils.text_utils import (
+    normalize_multiline_text,
+    normalize_single_line_text,
+)
 from nthu_scraper.utils.url_utils import (
     normalize_http_url,
     normalize_optional_http_url,
@@ -47,6 +53,10 @@ logger = logging.getLogger(__name__)
 LIBRARY_BASE_URL = normalize_http_url("https://www.lib.nthu.edu.tw/")
 RSS_URL_TEMPLATE = "https://www.lib.nthu.edu.tw/bulletin/RSS/export/rss_{}.xml"
 RSS_TYPES = ["news", "eresources", "exhibit", "branches"]
+_RSS_LINK_SEPARATOR = re.compile(
+    r",(?:\s*(?=[a-z][a-z0-9+.-]*:|//)|\s+(?=/))", re.IGNORECASE
+)
+_HTML_LINE_BREAK = re.compile(r"<br\s*/?\s*>", re.IGNORECASE)
 
 # Opening-hours calendars linked from https://www.lib.nthu.edu.tw/use/hours.html
 CALENDARS = {
@@ -72,6 +82,13 @@ class LibraryRssImage(BaseModel):
     title: str | None = None
     link: str | None = None
 
+    @field_validator("title")
+    @classmethod
+    def normalize_title(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        return normalize_single_line_text(value) or None
+
 
 class LibraryRssItem(BaseModel):
     model_config = ConfigDict(extra="allow")
@@ -79,7 +96,7 @@ class LibraryRssItem(BaseModel):
     guid: str | None = None
     category: str | None = None
     title: str = Field(min_length=1)
-    link: str | None = None
+    link: HttpUrl | None = None
     pubDate: str | None = None
     description: str
     author: str | None = None
@@ -88,9 +105,22 @@ class LibraryRssItem(BaseModel):
     @field_validator("title")
     @classmethod
     def require_nonblank_title(cls, value: str) -> str:
-        if not value.strip():
+        value = normalize_single_line_text(value)
+        if not value:
             raise ValueError("RSS article title must contain non-whitespace text")
         return value
+
+    @field_validator("category", "pubDate", "author")
+    @classmethod
+    def normalize_optional_text(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        return normalize_single_line_text(value) or None
+
+    @field_validator("description")
+    @classmethod
+    def normalize_description(cls, value: str) -> str:
+        return normalize_multiline_text(_HTML_LINE_BREAK.sub("\n", value))
 
 
 _RSS_ITEMS_ADAPTER = TypeAdapter(list[LibraryRssItem])
@@ -99,7 +129,20 @@ _RSS_ITEMS_ADAPTER = TypeAdapter(list[LibraryRssItem])
 def normalize_rss_item_urls(
     item: dict[str, Any], *, source: str = LIBRARY_BASE_URL
 ) -> None:
-    """Normalize image URLs, leaving the article's link text untouched."""
+    """Select the first article URL and normalize all published URL fields."""
+    context = (
+        f"library RSS article (source={source} guid={item.get('guid')!r} "
+        f"title={item.get('title')!r})"
+    )
+    link = item.get("link")
+    if isinstance(link, str):
+        link = _RSS_LINK_SEPARATOR.split(link, maxsplit=1)[0]
+    item["link"] = normalize_optional_http_url(
+        link,
+        base_url=LIBRARY_BASE_URL,
+        logger=logger,
+        context=context,
+    )
     image = item.get("image")
     if image is None:
         return
@@ -137,8 +180,6 @@ def normalize_rss_items(
     for item in items:
         if not isinstance(item, dict):
             raise InvalidLibrarySource("RSS article must be an object")
-        if isinstance(item.get("link"), str) and not item["link"].strip():
-            item["link"] = None
         normalize_rss_item_urls(item, source=source)
     try:
         parsed = _RSS_ITEMS_ADAPTER.validate_python(items, strict=True)
@@ -182,7 +223,7 @@ def parse_rss(xml_text: str) -> list[dict[str, Any]]:
             "title": text_of(node, "title"),
             "link": text_of(node, "link", strip=False),
             "pubDate": text_of(node, "pubDate"),
-            "description": (text_of(node, "description") or "").replace("<br />", ""),
+            "description": text_of(node, "description") or "",
             "author": text_of(node, "author"),
             "image": None,
         }
