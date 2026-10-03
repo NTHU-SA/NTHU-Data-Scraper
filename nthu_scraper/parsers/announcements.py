@@ -1,11 +1,11 @@
 """Deterministic parsing of RPage announcement pages."""
 
 import logging
-import re
 from dataclasses import dataclass
 
 from nthu_scraper.parsers import ParseError
 from nthu_scraper.utils.constants import RPAGE_DOMAIN_SUFFIX
+from nthu_scraper.utils.text_utils import normalize_single_line_text
 from nthu_scraper.utils.url_utils import (
     InvalidHttpUrl,
     check_domain_suffix,
@@ -29,7 +29,7 @@ class InvalidArticleUrl(ValueError):
 
 
 def normalize_announcement_text(text: str) -> str:
-    return " ".join(re.sub(r"[\x00-\x1f\x7f-\x9f]", " ", text).split())
+    return normalize_single_line_text(text)
 
 
 def parse_article(item, base_url: str) -> dict:

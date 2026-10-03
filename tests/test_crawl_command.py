@@ -163,15 +163,19 @@ def test_library_url_repairs_and_nullable_images_through_scrapy(tmp_path):
     assert list(rss) == RSS_TYPES
     for articles in rss.values():
         assert len(articles) == 6
-        assert articles[0]["link"].startswith(
-            "https://www.proquest.com/centralpremium/index, "
-            "https://ebookcentral.proquest.com/"
-        )
+        assert articles[0]["link"] == "https://www.proquest.com/centralpremium/index"
         assert articles[3]["image"]["url"].endswith("CNKI%20Trial.jpg")
         assert articles[4]["image"]["url"].endswith("Wiley%20UBCM.jpg")
         assert articles[5]["title"] == "Broken image"
         assert articles[5]["image"] is None
         for article in articles:
+            if article["link"]:
+                assert http_url_error(article["link"]) is None
+            description = article["description"]
+            assert description == "\n".join(
+                " ".join(line.split()) for line in description.split("\n") if line
+            )
+            assert "\n\n" not in description
             if article["image"]:
                 assert http_url_error(article["image"]["url"]) is None
     assert "using null" in result.stderr
