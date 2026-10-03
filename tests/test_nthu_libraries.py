@@ -162,6 +162,10 @@ class TestParseRss:
                 "https://example.test/one",
             ),
             (
+                "https://example.test/one,//example.test/two",
+                "https://example.test/one",
+            ),
+            (
                 "https://www.emerald.com/insight/,https://forms.gle/65YaF7R1z52VU9S19",
                 "https://www.emerald.com/insight/",
             ),
@@ -180,6 +184,14 @@ class TestParseRss:
             (
                 "https://example.test/one,two?values=a,b#one,two",
                 "https://example.test/one,two?values=a,b#one,two",
+            ),
+            (
+                "https://example.test/search?paths=/one,/two",
+                "https://example.test/search?paths=/one,/two",
+            ),
+            (
+                "https://example.test/one,/two",
+                "https://example.test/one,/two",
             ),
         ],
     )

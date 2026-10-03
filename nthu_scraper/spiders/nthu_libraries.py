@@ -53,7 +53,9 @@ logger = logging.getLogger(__name__)
 LIBRARY_BASE_URL = normalize_http_url("https://www.lib.nthu.edu.tw/")
 RSS_URL_TEMPLATE = "https://www.lib.nthu.edu.tw/bulletin/RSS/export/rss_{}.xml"
 RSS_TYPES = ["news", "eresources", "exhibit", "branches"]
-_RSS_LINK_SEPARATOR = re.compile(r",\s*(?=(?:[a-z][a-z0-9+.-]*:|/))", re.IGNORECASE)
+_RSS_LINK_SEPARATOR = re.compile(
+    r",(?:\s*(?=[a-z][a-z0-9+.-]*:|//)|\s+(?=/))", re.IGNORECASE
+)
 _HTML_LINE_BREAK = re.compile(r"<br\s*/?\s*>", re.IGNORECASE)
 
 # Opening-hours calendars linked from https://www.lib.nthu.edu.tw/use/hours.html

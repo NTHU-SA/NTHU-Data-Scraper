@@ -108,7 +108,8 @@ bus image links, maps/course requests, and calendar URLs use these shared rules.
 
 Library RSS article `link` is a nullable, validated HTTP(S) URL. Comma-separated
 URL lists contribute only their first URL, including lists following a query
-string; commas within a single URL are preserved. Relative links resolve against
+string; commas within a single URL are preserved. Slash-only relative entries
+in a list require whitespace after the comma. Relative links resolve against
 the library website. Missing, blank, or unrecoverable links become `null`; invalid
 values are logged without dropping the article or falling back to a later URL.
 RSS image URLs are also normalized before publication. An unrecoverable image
