@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e2b06e9239074a79e7fb5dce25919ec31e0f7e2a9f44d2a13ef622afbc67cd2f",
-        "last_updated": "2026-10-03T04:19:05.311821+08:00",
+        "last_commit": "65ec4e8067bb44945e8d755927fc8d05f1ade3e80229ecbcb2979b3e59306fd1",
+        "last_updated": "2026-10-04T19:34:38.147317+08:00",
         "name": "announcements.json",
-        "sha256": "e2b06e9239074a79e7fb5dce25919ec31e0f7e2a9f44d2a13ef622afbc67cd2f",
-        "version": "e2b06e9239074a79e7fb5dce25919ec31e0f7e2a9f44d2a13ef622afbc67cd2f"
+        "sha256": "65ec4e8067bb44945e8d755927fc8d05f1ade3e80229ecbcb2979b3e59306fd1",
+        "version": "65ec4e8067bb44945e8d755927fc8d05f1ade3e80229ecbcb2979b3e59306fd1"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -1759,11 +1759,11 @@
         "version": "dc9e34c9b0d4b90f417caea5ea4623e51c0ea068109b89f4819420c098a62de2"
       },
       {
-        "last_commit": "e8a9b1768d36782d505b36299607bf71abb2eac03ce14dea15996fcd0a90f830",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "0cf0642b43c68e16982108718c5786c2ec48c178d20c8e6da6ecf90664b447ae",
+        "last_updated": "2026-10-04T19:34:38.147317+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "e8a9b1768d36782d505b36299607bf71abb2eac03ce14dea15996fcd0a90f830",
-        "version": "e8a9b1768d36782d505b36299607bf71abb2eac03ce14dea15996fcd0a90f830"
+        "sha256": "0cf0642b43c68e16982108718c5786c2ec48c178d20c8e6da6ecf90664b447ae",
+        "version": "0cf0642b43c68e16982108718c5786c2ec48c178d20c8e6da6ecf90664b447ae"
       },
       {
         "last_commit": "90d1185e514d1fe284bf6c641237f8c910b23f56101c9755c6e67dcaeeca7a80",
@@ -1787,11 +1787,11 @@
         "version": "f309f522a0760031bc5cc0162132e4b833f60f114d2aa0ae9b5d34fbdbd22a8d"
       },
       {
-        "last_commit": "b7decb4c47b8614151dcf0d69e95837377cdca8f85f22c616995989d44b77339",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "f4768ced01236ec6e8e1d92f8ad000bc55ff90821c54c3737898b6e6b1d80789",
+        "last_updated": "2026-10-04T19:34:38.147317+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "b7decb4c47b8614151dcf0d69e95837377cdca8f85f22c616995989d44b77339",
-        "version": "b7decb4c47b8614151dcf0d69e95837377cdca8f85f22c616995989d44b77339"
+        "sha256": "f4768ced01236ec6e8e1d92f8ad000bc55ff90821c54c3737898b6e6b1d80789",
+        "version": "f4768ced01236ec6e8e1d92f8ad000bc55ff90821c54c3737898b6e6b1d80789"
       }
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-03T17:21:25.942867+08:00"
+  "last_updated": "2026-10-04T19:34:38.147317+08:00"
 }
