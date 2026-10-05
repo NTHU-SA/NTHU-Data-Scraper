@@ -1,13 +1,13 @@
 {
     "towardTSMCBuildingInfo": {
         "direction": "往台積館 (To TSMC Building)",
-        "duration": "2026/09/07 ~ 2026/10/03",
+        "duration": "2026/10/05 ~ 2026/11/07",
         "route": "(紅線)  北校門口 → 綜二館 → 楓林小徑(女舍) →  人社院/生科院  → 台積館 (綠線)  北校門口 → 綜二館 → 楓林小徑(女舍) →  奕園停車場  →  竹師教育學院大樓/南門停車場  → 台積館",
         "routeEN": "(Red Line)  North Main Gate → General Building II → Maple Path →  CHSS/CLS Building  → TSMC Building (Green Line)  North Main Gate → General Building II → Maple Path →  Yi Pavilion Parking Lot  →  COE Building/South Gate Parking Lot  → TSMC Building"
     },
     "towardMainGateInfo": {
         "direction": "往校門口 (To Main Gate)",
-        "duration": "2026/09/07 ~ 2026/10/03",
+        "duration": "2026/10/05 ~ 2026/11/07",
         "route": "(紅線)  台積館 →  竹師教育學院大樓/南門停車場  →  奕園停車場  → 綜二館 → 北校門口 (綠線)  台積館 →  人社院/生科院 → 綜二館 → 北校門口",
         "routeEN": "(Red Line)  TSMC Building →  COE Building/South Gate Parking Lot  →  Yi Pavilion Parking Lot  → General Building II → North Main Gate (Green Line)  TSMC Building →  CHSS/CLS Building  → General Building II → North Main Gate"
     },
@@ -49,7 +49,7 @@
         },
         {
             "time": "8:25",
-            "description": "",
+            "description": "大型巴士",
             "line": "red",
             "dep_stop": "校門",
             "route": "南大區間車"
@@ -91,7 +91,7 @@
         },
         {
             "time": "8:50",
-            "description": "",
+            "description": " ",
             "line": "red",
             "dep_stop": "校門",
             "route": "南大區間車"
@@ -998,7 +998,7 @@
         },
         {
             "time": "8:32",
-            "description": "",
+            "description": "大型巴士",
             "line": "red",
             "dep_stop": "台積館",
             "route": "南大區間車"
@@ -1915,14 +1915,14 @@
     ],
     "towardNandaInfo": {
         "direction": "往南大校區 (To Nanda Campus)",
-        "duration": "2026/09/07 ~ 2026/10/04",
+        "duration": "2026/10/05 ~ 2026/11/08",
         "route": "(路線一)  北校門口 → 綜二館 → 人社院/生科館 → 台積館(經寶山路) → 南大校區校門口右側(食品路校牆邊) (路線二)  北校門口 → 綜二館 → 奕園停車場 → 竹師教育學院大樓/南門停車場(經寶山路) → 南大校區校門口右側(食品路校牆邊)",
         "routeEN": "(Route I)  North Main Gate → General Building II → CHSS/CLS Building → TSMC Building(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road) (Route II)  North Main Gate → General Building II → Yi Pavilion Parking Lot → COE Building/South Gate Parking Lot(Baoshan Rd.) → The right side of NandaCampus front gate(Shipin Road)",
         "weekendSchedule": "南大校區發車：8:30、12:00、14:00、17:00<br/>校本部發車：9:00、12:30、14:30、17:30"
     },
     "towardMainCampusInfo": {
         "direction": "往校本部 (To Main Campus)",
-        "duration": "2026/09/07 ~ 2026/10/04",
+        "duration": "2026/10/05 ~ 2026/11/08",
         "route": "(路線一)  南大校區校門口右側(食品路校牆邊) → 台積館(經寶山路) → 人社院/生科館 → 綜二館 → 北校門口 (路線二)  南大校區校門口右側(食品路校牆邊) → 竹師教育學院大樓/南門停車場(經寶山路) → 奕園停車場 → 綜二館 → 北校門口",
         "routeEN": "(Route I)  The right side of NandaCampus front gate(Shipin Road) → TSMC Building(Baoshan Rd.) → CHSS/CLS Building → General Building II → North Main Gate (Route II)  The right side of NandaCampus front gate(Shipin Road) → COE Building/South Gate Parking Lot(Baoshan Rd.) → Yi Pavilion Parking Lot → General Building II → North Main Gate",
         "weekendSchedule": "南大校區發車：8:30、12:00、14:00、17:00<br/>校本部發車：9:00、12:30、14:30、17:30"
@@ -1959,7 +1959,7 @@
             "route": "南大區間車"
         },
         {
-            "time": "9:40",
+            "time": "9:45",
             "description": "",
             "line": "route2",
             "route": "南大區間車"
@@ -2133,7 +2133,7 @@
             "route": "南大區間車"
         },
         {
-            "time": "18:15",
+            "time": "18:20",
             "description": "週五停駛",
             "line": "route1",
             "route": "南大區間車"
@@ -2281,7 +2281,7 @@
             "route": "南大區間車"
         },
         {
-            "time": "9:20",
+            "time": "9:25",
             "description": "",
             "line": "route2",
             "route": "南大區間車"
@@ -2443,7 +2443,7 @@
             "route": "南大區間車"
         },
         {
-            "time": "17:50",
+            "time": "17:55",
             "description": "週五停駛",
             "line": "route1",
             "route": "南大區間車"
