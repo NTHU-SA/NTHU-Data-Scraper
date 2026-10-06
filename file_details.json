@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "d9180374dbfa771ebb189d13d3d808d143e37b749262c4f29505d1785a219c1f",
-        "last_updated": "2026-10-06T14:33:50.441795+08:00",
+        "last_commit": "60f5d9a44b393f9e359a997b70c707fbe4e64d22d681c4eaa9e9861f757a011c",
+        "last_updated": "2026-10-06T16:27:07.880141+08:00",
         "name": "announcements.json",
-        "sha256": "d9180374dbfa771ebb189d13d3d808d143e37b749262c4f29505d1785a219c1f",
-        "version": "d9180374dbfa771ebb189d13d3d808d143e37b749262c4f29505d1785a219c1f"
+        "sha256": "60f5d9a44b393f9e359a997b70c707fbe4e64d22d681c4eaa9e9861f757a011c",
+        "version": "60f5d9a44b393f9e359a997b70c707fbe4e64d22d681c4eaa9e9861f757a011c"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -51,11 +51,11 @@
         "version": "a6793c4dde376081551ee67cd8764fb71d92492eb410a502ae4cc4f78431a71a"
       },
       {
-        "last_commit": "3f292adbad75b5acefd9af8e33b7e7339ba58b672997eb99f0f44cd2a2d13437",
-        "last_updated": "2026-10-06T14:33:50.441795+08:00",
+        "last_commit": "452ac74098111f1209ce586e4f266bda62141778197581e20942af86a96e8375",
+        "last_updated": "2026-10-06T16:27:07.880141+08:00",
         "name": "dining.json",
-        "sha256": "3f292adbad75b5acefd9af8e33b7e7339ba58b672997eb99f0f44cd2a2d13437",
-        "version": "3f292adbad75b5acefd9af8e33b7e7339ba58b672997eb99f0f44cd2a2d13437"
+        "sha256": "452ac74098111f1209ce586e4f266bda62141778197581e20942af86a96e8375",
+        "version": "452ac74098111f1209ce586e4f266bda62141778197581e20942af86a96e8375"
       },
       {
         "last_commit": "42edf3f45589a3eae267b5d543f0399dac1a0db469f4f5ed48b8a6697ac178d2",
@@ -268,11 +268,11 @@
         "version": "98ba1b43567c65767b6e0105a80ddae9044ca88738a4820a55b4b996279095cb"
       },
       {
-        "last_commit": "19b794ba893447048483f6020b7258e97444580c7bdc45a0f52c2ff5a7d89ac7",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "e71ae729b4a658b00968c340e83490a590ee6250f4e2995fc494d2769ee2599a",
+        "last_updated": "2026-10-06T16:27:07.880141+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "19b794ba893447048483f6020b7258e97444580c7bdc45a0f52c2ff5a7d89ac7",
-        "version": "19b794ba893447048483f6020b7258e97444580c7bdc45a0f52c2ff5a7d89ac7"
+        "sha256": "e71ae729b4a658b00968c340e83490a590ee6250f4e2995fc494d2769ee2599a",
+        "version": "e71ae729b4a658b00968c340e83490a590ee6250f4e2995fc494d2769ee2599a"
       },
       {
         "last_commit": "07ea95717f9b5b7825e38ae864cb09d14097f09fec3183f266f9f26e153dfc8d",
@@ -905,11 +905,11 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "23d7c480d8bdb87a200c2f2d2c7a5dfba51946db35ebd097c9e774ca36242828",
-        "last_updated": "2026-09-29T08:53:55.384706+08:00",
+        "last_commit": "86f2940208dcfb027b0dfe01191d56af3235fbe09a9b69b5966fbccdc3156be7",
+        "last_updated": "2026-10-06T16:27:07.880141+08:00",
         "name": "徵才_研習_zh-tw.json",
-        "sha256": "23d7c480d8bdb87a200c2f2d2c7a5dfba51946db35ebd097c9e774ca36242828",
-        "version": "23d7c480d8bdb87a200c2f2d2c7a5dfba51946db35ebd097c9e774ca36242828"
+        "sha256": "86f2940208dcfb027b0dfe01191d56af3235fbe09a9b69b5966fbccdc3156be7",
+        "version": "86f2940208dcfb027b0dfe01191d56af3235fbe09a9b69b5966fbccdc3156be7"
       },
       {
         "last_commit": "3cd50fa5bd4c51491f008a79625041a925b9f863bcea308170852439bc029a42",
@@ -2791,11 +2791,11 @@
         "version": "d4763a0029059b0ce887bcca665ff37078374f86b2db1bad94268f0aa8b4495d"
       },
       {
-        "last_commit": "cdbf16ecd7ce8283eb8714e009d130a7015ec396e92ec197d018ff3910240d62",
-        "last_updated": "2026-10-06T08:53:00.857263+08:00",
+        "last_commit": "d321f6a0922ff2751a279a1e9d92427f2267547d9bf80fb2631a7832e201cd55",
+        "last_updated": "2026-10-06T16:27:07.880141+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "cdbf16ecd7ce8283eb8714e009d130a7015ec396e92ec197d018ff3910240d62",
-        "version": "cdbf16ecd7ce8283eb8714e009d130a7015ec396e92ec197d018ff3910240d62"
+        "sha256": "d321f6a0922ff2751a279a1e9d92427f2267547d9bf80fb2631a7832e201cd55",
+        "version": "d321f6a0922ff2751a279a1e9d92427f2267547d9bf80fb2631a7832e201cd55"
       }
     ],
     "announcements/總務處駐衛警察隊": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-06T14:33:50.441795+08:00"
+  "last_updated": "2026-10-06T16:27:07.880141+08:00"
 }
