@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "003f041961d6242ca13cdd24fe5d4b8c8028d354dbe937f1c6a7bf7ef1dfa81d",
-        "last_updated": "2026-10-08T00:22:17.542198+08:00",
+        "last_commit": "f672a205d5c494c4fda38f77f39cb55157990e200f10c7f904744f468e202249",
+        "last_updated": "2026-10-08T02:24:38.701028+08:00",
         "name": "announcements.json",
-        "sha256": "003f041961d6242ca13cdd24fe5d4b8c8028d354dbe937f1c6a7bf7ef1dfa81d",
-        "version": "003f041961d6242ca13cdd24fe5d4b8c8028d354dbe937f1c6a7bf7ef1dfa81d"
+        "sha256": "f672a205d5c494c4fda38f77f39cb55157990e200f10c7f904744f468e202249",
+        "version": "f672a205d5c494c4fda38f77f39cb55157990e200f10c7f904744f468e202249"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -1738,11 +1738,11 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_commit": "90d9e36b05a7a2a4021e11213d88658b4166e37969c5769ceeade153bc576ffe",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "4da429890958ba63b89be4cebfa19572e788ab1426c3710f0426b69bcc199c9d",
+        "last_updated": "2026-10-08T02:24:38.701028+08:00",
         "name": "Latest News_en.json",
-        "sha256": "90d9e36b05a7a2a4021e11213d88658b4166e37969c5769ceeade153bc576ffe",
-        "version": "90d9e36b05a7a2a4021e11213d88658b4166e37969c5769ceeade153bc576ffe"
+        "sha256": "4da429890958ba63b89be4cebfa19572e788ab1426c3710f0426b69bcc199c9d",
+        "version": "4da429890958ba63b89be4cebfa19572e788ab1426c3710f0426b69bcc199c9d"
       },
       {
         "last_commit": "b931512d6e0e73aee683078e7b8ef02babd71297ec8604bb0ce27a40c4f34593",
@@ -1752,11 +1752,11 @@
         "version": "b931512d6e0e73aee683078e7b8ef02babd71297ec8604bb0ce27a40c4f34593"
       },
       {
-        "last_commit": "dc9e34c9b0d4b90f417caea5ea4623e51c0ea068109b89f4819420c098a62de2",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "1f479dbc687e80927712064d983250914b21af4bdd8ee263497d0c3176f7c514",
+        "last_updated": "2026-10-08T02:24:38.701028+08:00",
         "name": "banner_en.json",
-        "sha256": "dc9e34c9b0d4b90f417caea5ea4623e51c0ea068109b89f4819420c098a62de2",
-        "version": "dc9e34c9b0d4b90f417caea5ea4623e51c0ea068109b89f4819420c098a62de2"
+        "sha256": "1f479dbc687e80927712064d983250914b21af4bdd8ee263497d0c3176f7c514",
+        "version": "1f479dbc687e80927712064d983250914b21af4bdd8ee263497d0c3176f7c514"
       },
       {
         "last_commit": "0cf0642b43c68e16982108718c5786c2ec48c178d20c8e6da6ecf90664b447ae",
@@ -1787,11 +1787,11 @@
         "version": "f309f522a0760031bc5cc0162132e4b833f60f114d2aa0ae9b5d34fbdbd22a8d"
       },
       {
-        "last_commit": "f4768ced01236ec6e8e1d92f8ad000bc55ff90821c54c3737898b6e6b1d80789",
-        "last_updated": "2026-10-04T19:34:38.147317+08:00",
+        "last_commit": "820016f5517c1fb3db3289eb538ba62d173ed1f8594a9ea5c9413601ce20ba31",
+        "last_updated": "2026-10-08T02:24:38.701028+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "f4768ced01236ec6e8e1d92f8ad000bc55ff90821c54c3737898b6e6b1d80789",
-        "version": "f4768ced01236ec6e8e1d92f8ad000bc55ff90821c54c3737898b6e6b1d80789"
+        "sha256": "820016f5517c1fb3db3289eb538ba62d173ed1f8594a9ea5c9413601ce20ba31",
+        "version": "820016f5517c1fb3db3289eb538ba62d173ed1f8594a9ea5c9413601ce20ba31"
       }
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-08T00:22:17.542198+08:00"
+  "last_updated": "2026-10-08T02:24:38.701028+08:00"
 }
