@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "92d19f84c58b72365bbe93d7ed2d041edd2cdfc165af578d4d624e7e31bd42db",
-        "last_updated": "2026-10-07T12:23:46.517770+08:00",
+        "last_commit": "e0fecde3c12a3132f2659543f31616a072f06fd1ee9b34e1de49bdc83a6db4cb",
+        "last_updated": "2026-10-07T14:32:59.346005+08:00",
         "name": "announcements.json",
-        "sha256": "92d19f84c58b72365bbe93d7ed2d041edd2cdfc165af578d4d624e7e31bd42db",
-        "version": "92d19f84c58b72365bbe93d7ed2d041edd2cdfc165af578d4d624e7e31bd42db"
+        "sha256": "e0fecde3c12a3132f2659543f31616a072f06fd1ee9b34e1de49bdc83a6db4cb",
+        "version": "e0fecde3c12a3132f2659543f31616a072f06fd1ee9b34e1de49bdc83a6db4cb"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -210,11 +210,11 @@
         "version": "169a6a23aee8e400470c537d04a889e10fd74674bf95c1f2e1179e760f31eae6"
       },
       {
-        "last_commit": "fa014da90af3ecbac8b04627f9e311f10627e74de8409e63b5734af745a35e37",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "857981fbbb3055e9bf134cb878c52df01c624ac3a79fc9b8c1bb07c3440df2f0",
+        "last_updated": "2026-10-07T14:32:59.346005+08:00",
         "name": "學術活動_zh-tw.json",
-        "sha256": "fa014da90af3ecbac8b04627f9e311f10627e74de8409e63b5734af745a35e37",
-        "version": "fa014da90af3ecbac8b04627f9e311f10627e74de8409e63b5734af745a35e37"
+        "sha256": "857981fbbb3055e9bf134cb878c52df01c624ac3a79fc9b8c1bb07c3440df2f0",
+        "version": "857981fbbb3055e9bf134cb878c52df01c624ac3a79fc9b8c1bb07c3440df2f0"
       },
       {
         "last_commit": "bcbe501f21084e69fbb9a4d349f8df8c5d4d139bfff61e587b4112dcaa3b8841",
@@ -224,11 +224,11 @@
         "version": "bcbe501f21084e69fbb9a4d349f8df8c5d4d139bfff61e587b4112dcaa3b8841"
       },
       {
-        "last_commit": "9918734026eaeb5544fbc81c02cbca623ab7a2e4b21007d06ffeb2dd44acd517",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "298c742fc9112b819ef0a1fd887acd75d7d9da9c5aeff585a188e147c0374d61",
+        "last_updated": "2026-10-07T14:32:59.346005+08:00",
         "name": "系所消息_zh-tw.json",
-        "sha256": "9918734026eaeb5544fbc81c02cbca623ab7a2e4b21007d06ffeb2dd44acd517",
-        "version": "9918734026eaeb5544fbc81c02cbca623ab7a2e4b21007d06ffeb2dd44acd517"
+        "sha256": "298c742fc9112b819ef0a1fd887acd75d7d9da9c5aeff585a188e147c0374d61",
+        "version": "298c742fc9112b819ef0a1fd887acd75d7d9da9c5aeff585a188e147c0374d61"
       },
       {
         "last_commit": "9987d1a77efc055a8fa8f6e91ce46f792d7ba471877db094bca58f27df65ff74",
@@ -613,11 +613,11 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_commit": "e1e7c4fda7a86e7264f08a42a6d38bf0d13971d1d55db1476d25fb1af0227c92",
-        "last_updated": "2026-10-07T12:23:46.517770+08:00",
+        "last_commit": "aee1a780b54d95fa13c6050b0aa5b20e06cef67864b7a99d0b807514f651dae2",
+        "last_updated": "2026-10-07T14:32:59.346005+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "e1e7c4fda7a86e7264f08a42a6d38bf0d13971d1d55db1476d25fb1af0227c92",
-        "version": "e1e7c4fda7a86e7264f08a42a6d38bf0d13971d1d55db1476d25fb1af0227c92"
+        "sha256": "aee1a780b54d95fa13c6050b0aa5b20e06cef67864b7a99d0b807514f651dae2",
+        "version": "aee1a780b54d95fa13c6050b0aa5b20e06cef67864b7a99d0b807514f651dae2"
       },
       {
         "last_commit": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600",
@@ -1613,11 +1613,11 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "42da091d6dbf2c3efb6e85b2d97b75b0e5fd432d2c7a8ee89f61285242904cd2",
-        "last_updated": "2026-10-01T12:23:44.710996+08:00",
+        "last_commit": "48b8caa95a411040da7af930181bcf97e029dc8d8aed041d3dd2e0ad3d00ea11",
+        "last_updated": "2026-10-07T14:32:59.346005+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "42da091d6dbf2c3efb6e85b2d97b75b0e5fd432d2c7a8ee89f61285242904cd2",
-        "version": "42da091d6dbf2c3efb6e85b2d97b75b0e5fd432d2c7a8ee89f61285242904cd2"
+        "sha256": "48b8caa95a411040da7af930181bcf97e029dc8d8aed041d3dd2e0ad3d00ea11",
+        "version": "48b8caa95a411040da7af930181bcf97e029dc8d8aed041d3dd2e0ad3d00ea11"
       }
     ],
     "announcements/理學院物理學系": [
@@ -2275,11 +2275,11 @@
         "version": "4e2b237d2c815a5823dee7e1b8ff688d4f167f622e6c20f37c1e4e9d939933ef"
       },
       {
-        "last_commit": "fddf9f717b2fed0e84dce26f6d9f3b2bee9147cad279e99c51eecf288392c137",
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_commit": "945746b46b619e51d9724c0cb33948c9c10416a240ab446773dc61943a61f4c0",
+        "last_updated": "2026-10-07T14:32:59.346005+08:00",
         "name": "學術活動_zh-tw.json",
-        "sha256": "fddf9f717b2fed0e84dce26f6d9f3b2bee9147cad279e99c51eecf288392c137",
-        "version": "fddf9f717b2fed0e84dce26f6d9f3b2bee9147cad279e99c51eecf288392c137"
+        "sha256": "945746b46b619e51d9724c0cb33948c9c10416a240ab446773dc61943a61f4c0",
+        "version": "945746b46b619e51d9724c0cb33948c9c10416a240ab446773dc61943a61f4c0"
       },
       {
         "last_commit": "8856583e0f54567a024f84e213ec5f27e42bf4e4e36d4cfe1461860cf0c60cf7",
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-07T12:23:46.517770+08:00"
+  "last_updated": "2026-10-07T14:32:59.346005+08:00"
 }
