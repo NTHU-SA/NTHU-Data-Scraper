@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "f585d68e6548c4c49912703054d325b106b6db8a3c2d44e540e0835a08c88e28",
-        "last_updated": "2026-10-07T10:34:27.102990+08:00",
+        "last_commit": "92d19f84c58b72365bbe93d7ed2d041edd2cdfc165af578d4d624e7e31bd42db",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "announcements.json",
-        "sha256": "f585d68e6548c4c49912703054d325b106b6db8a3c2d44e540e0835a08c88e28",
-        "version": "f585d68e6548c4c49912703054d325b106b6db8a3c2d44e540e0835a08c88e28"
+        "sha256": "92d19f84c58b72365bbe93d7ed2d041edd2cdfc165af578d4d624e7e31bd42db",
+        "version": "92d19f84c58b72365bbe93d7ed2d041edd2cdfc165af578d4d624e7e31bd42db"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -90,11 +90,11 @@
     ],
     "announcements/人事室": [
       {
-        "last_commit": "29880ae05f36c9ef0a96062c59fa9af08489da326730ddb3b490615b545b013c",
-        "last_updated": "2026-10-01T12:23:44.710996+08:00",
+        "last_commit": "c2e4c0c52920b036c50e9bff2565fe13ac023d75625dc349c938ac403f16c27d",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "29880ae05f36c9ef0a96062c59fa9af08489da326730ddb3b490615b545b013c",
-        "version": "29880ae05f36c9ef0a96062c59fa9af08489da326730ddb3b490615b545b013c"
+        "sha256": "c2e4c0c52920b036c50e9bff2565fe13ac023d75625dc349c938ac403f16c27d",
+        "version": "c2e4c0c52920b036c50e9bff2565fe13ac023d75625dc349c938ac403f16c27d"
       },
       {
         "last_commit": "4be9e2b9ec33ef613cd913ac6846793be2e845b03272a0431f42c54d742ac9f5",
@@ -166,11 +166,11 @@
         "version": "5b3a24bb5169fab586867f7a3ed225cfd7d16cfca8376cfaa63f92dd139ca4ee"
       },
       {
-        "last_commit": "c3d4cf9f877d4b36c1c97d6d9aa15b84878ba1e98bd2e7f1c7c15fed437a70df",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "bad6084cb4cdc055dfe5f7e7c14eddff117445d40d30724024dbd62cd11e7334",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "c3d4cf9f877d4b36c1c97d6d9aa15b84878ba1e98bd2e7f1c7c15fed437a70df",
-        "version": "c3d4cf9f877d4b36c1c97d6d9aa15b84878ba1e98bd2e7f1c7c15fed437a70df"
+        "sha256": "bad6084cb4cdc055dfe5f7e7c14eddff117445d40d30724024dbd62cd11e7334",
+        "version": "bad6084cb4cdc055dfe5f7e7c14eddff117445d40d30724024dbd62cd11e7334"
       },
       {
         "last_commit": "409318df20b5168b74b189d06f120dbf676f639dec48b7bb426c397872ea3126",
@@ -613,11 +613,11 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_commit": "b6c126b08720411af09eab186cc565c34eb3af45ffaa18ca20c778460bf51202",
-        "last_updated": "2026-10-06T18:19:44.629198+08:00",
+        "last_commit": "e1e7c4fda7a86e7264f08a42a6d38bf0d13971d1d55db1476d25fb1af0227c92",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "b6c126b08720411af09eab186cc565c34eb3af45ffaa18ca20c778460bf51202",
-        "version": "b6c126b08720411af09eab186cc565c34eb3af45ffaa18ca20c778460bf51202"
+        "sha256": "e1e7c4fda7a86e7264f08a42a6d38bf0d13971d1d55db1476d25fb1af0227c92",
+        "version": "e1e7c4fda7a86e7264f08a42a6d38bf0d13971d1d55db1476d25fb1af0227c92"
       },
       {
         "last_commit": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600",
@@ -627,11 +627,11 @@
         "version": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600"
       },
       {
-        "last_commit": "483d6c44acb49323f317864ea29b57a283630e9ce467eced8f89e9360f3bd781",
-        "last_updated": "2026-10-06T18:19:44.629198+08:00",
+        "last_commit": "08789811e66ba7f41f3ab6c3f49ea6883161d78a5430c657f30f7c0982af99c3",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "課外組重要公告_zh-tw.json",
-        "sha256": "483d6c44acb49323f317864ea29b57a283630e9ce467eced8f89e9360f3bd781",
-        "version": "483d6c44acb49323f317864ea29b57a283630e9ce467eced8f89e9360f3bd781"
+        "sha256": "08789811e66ba7f41f3ab6c3f49ea6883161d78a5430c657f30f7c0982af99c3",
+        "version": "08789811e66ba7f41f3ab6c3f49ea6883161d78a5430c657f30f7c0982af99c3"
       }
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
@@ -731,11 +731,11 @@
         "version": "34b14c189c58d580015ff123fb9eab461950fa180a3247a44d40c20d48034488"
       },
       {
-        "last_commit": "119a5eb17eef247ab3e0894f87ba2bd7a27b81a186eca8a9a70402c0722f9d12",
-        "last_updated": "2026-10-03T04:19:05.311821+08:00",
+        "last_commit": "f566b4e60bc4000f71f21a0168fc65a71ecf0e7949ba81f8ae486f79a4dfae06",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "119a5eb17eef247ab3e0894f87ba2bd7a27b81a186eca8a9a70402c0722f9d12",
-        "version": "119a5eb17eef247ab3e0894f87ba2bd7a27b81a186eca8a9a70402c0722f9d12"
+        "sha256": "f566b4e60bc4000f71f21a0168fc65a71ecf0e7949ba81f8ae486f79a4dfae06",
+        "version": "f566b4e60bc4000f71f21a0168fc65a71ecf0e7949ba81f8ae486f79a4dfae06"
       }
     ],
     "announcements/工學院工學院學士班": [
@@ -969,11 +969,11 @@
         "version": "dde46f241044d8ca6c30806816d5a7a9a518e596b29ef7f9934c6714bce41d03"
       },
       {
-        "last_commit": "599c94ff9028adfeabe7c637bad56d1fc2ebda4eaf743b3f8f7894124e835932",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "5377a2247e5cb170f2de90a39d35fea6f241619a6ac374fc7db9623456ac6d43",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "博士班最新公告_zh-tw.json",
-        "sha256": "599c94ff9028adfeabe7c637bad56d1fc2ebda4eaf743b3f8f7894124e835932",
-        "version": "599c94ff9028adfeabe7c637bad56d1fc2ebda4eaf743b3f8f7894124e835932"
+        "sha256": "5377a2247e5cb170f2de90a39d35fea6f241619a6ac374fc7db9623456ac6d43",
+        "version": "5377a2247e5cb170f2de90a39d35fea6f241619a6ac374fc7db9623456ac6d43"
       },
       {
         "last_commit": "f0bbf96409405d437195aad00b144e18b34d9a59ee029a2191e7b219d581abcc",
@@ -997,11 +997,11 @@
         "version": "97042a3438ea27e2b54b0a11354abf617426b6d0678d5b7635ab716718497fae"
       },
       {
-        "last_commit": "38af71da172b8d97fa13c2599c634440a2711c86eb0ae250589da0928746b330",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "5015e738367b9e4472b8deff4d82791a3e5da446a2cba32e49cb1437e8f3abb1",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "38af71da172b8d97fa13c2599c634440a2711c86eb0ae250589da0928746b330",
-        "version": "38af71da172b8d97fa13c2599c634440a2711c86eb0ae250589da0928746b330"
+        "sha256": "5015e738367b9e4472b8deff4d82791a3e5da446a2cba32e49cb1437e8f3abb1",
+        "version": "5015e738367b9e4472b8deff4d82791a3e5da446a2cba32e49cb1437e8f3abb1"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -1622,11 +1622,11 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "4cf7fcb8e11b1b6d5c206520337a2edb806677c75aa00ddfd85c7b32aca0a368",
-        "last_updated": "2026-10-06T00:22:38.934913+08:00",
+        "last_commit": "d89a0c04b4183e93e85e62978f28553d5b8188661d9d9048d335fa3987b597dd",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "All seminar_en.json",
-        "sha256": "4cf7fcb8e11b1b6d5c206520337a2edb806677c75aa00ddfd85c7b32aca0a368",
-        "version": "4cf7fcb8e11b1b6d5c206520337a2edb806677c75aa00ddfd85c7b32aca0a368"
+        "sha256": "d89a0c04b4183e93e85e62978f28553d5b8188661d9d9048d335fa3987b597dd",
+        "version": "d89a0c04b4183e93e85e62978f28553d5b8188661d9d9048d335fa3987b597dd"
       },
       {
         "last_commit": "a343a5ee1e45996149d17190abab89199144f7cd3b0ee28a31634a26609c67fd",
@@ -1650,11 +1650,11 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_commit": "191fde25455287dc3c671be13b0d364a57ac62c3fa65bca8ab4b5c87c517a4e3",
-        "last_updated": "2026-10-06T00:22:38.934913+08:00",
+        "last_commit": "7e28dcf694b3130a0f5bad92216db5be375aef47e98647fb2aa507b0850c6f2e",
+        "last_updated": "2026-10-07T12:23:46.517770+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "191fde25455287dc3c671be13b0d364a57ac62c3fa65bca8ab4b5c87c517a4e3",
-        "version": "191fde25455287dc3c671be13b0d364a57ac62c3fa65bca8ab4b5c87c517a4e3"
+        "sha256": "7e28dcf694b3130a0f5bad92216db5be375aef47e98647fb2aa507b0850c6f2e",
+        "version": "7e28dcf694b3130a0f5bad92216db5be375aef47e98647fb2aa507b0850c6f2e"
       },
       {
         "last_commit": "a49f356157c83614872c4acacc51e1fcadc91fd66c66c0013a05cd20d06fa27f",
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-07T10:34:27.102990+08:00"
+  "last_updated": "2026-10-07T12:23:46.517770+08:00"
 }
