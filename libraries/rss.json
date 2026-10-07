@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2041",
+            "category": "展覽與活動",
+            "title": "【活動快訊】10/14(三) 週三響時光 Wednesday Music Delight Hour",
+            "link": null,
+            "pubDate": "Tue, 06 Oct 2026 08:36:02 +0800",
+            "description": "週三午後，是否感受到一絲疲憊？\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n讓這段音樂時光，成為你重新充滿活力的源泉。\n■ 時間 | 10 / 14 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n(空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 莫札特：《魔笛》 (黑膠專場)\n用德語演唱的《魔笛》完成於莫札特生命中的最後一年，也是莫札特最後一部歌劇。劇情描述王子與捕鳥人受夜后所託，帶著能夠克服萬難的魔笛前往營救被大祭司劫走的公主；然而隨著夜后的險惡面目逐漸顯露，王子與公主兩人在大祭司的幫助下通過重重考驗，打敗了夜后，也迎來愛情與光明。\n《魔笛》以生動的冒險故事與童趣的人物設定傳達了「光明終將戰勝黑暗」的信念，更以震撼人心的華麗詠嘆調與動人旋律，成為歌劇史上永不磨滅的經典。",
+            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261014_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
+                "title": "【活動快訊】10/14(三) 週三響時光 Wednesday Music Delight Hour",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2042",
             "category": "電子資源",
             "title": "【試用資源】Gale Academic OneFile、The Times Digital Archive等6個資料庫，歡迎多多利用！",
@@ -81,20 +95,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20260807_NTHUScholars.jpg",
                 "title": "【清華學人】115年學術研究獎勵系統「清華學人(NTHU Scholars)」題型資料相關指引",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "2032",
-            "category": "展覽與活動",
-            "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
-            "link": null,
-            "pubDate": "Wed, 30 Sep 2026 08:47:48 +0800",
-            "description": "週三午後，是否感受到一絲疲憊？\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n讓這段音樂時光，成為你重新充滿活力的源泉。\n■ 時間 | 10 / 7 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n(空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 蕭泰然：C調大提琴協奏曲 /《聽見歌再唱》電影原聲帶\n蕭泰然1938年出生於台灣高雄市，是鋼琴家、作曲家，也是指揮家。曾因經濟與政治因素不得不遠走美國，近20年的光陰裡，他只能透過音樂抒發對故鄉台灣的思念；創作於此時期的大提琴協奏曲，融入臺灣民謠、阿美族舞曲等元素，也是蕭泰然作品中唯一在臺灣完成世界首演的協奏曲。\n《聽見歌再唱》電影改編自信義鄉原聲童聲合唱團創團的經過，一座偏鄉學校的孩子為了不讓學校被廢，組成一支合唱團參加比賽，最終從歌聲裡找回自信與自我認同。雖然每個人的聲音都不一樣，但只要「聽見歌，再唱」，合起來就是剛剛好的聲音！",
-            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261007_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
-                "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -1069,6 +1069,20 @@
     ],
     "exhibit": [
         {
+            "guid": "2041",
+            "category": "展覽與活動",
+            "title": "【活動快訊】10/14(三) 週三響時光 Wednesday Music Delight Hour",
+            "link": null,
+            "pubDate": "Tue, 06 Oct 2026 08:36:02 +0800",
+            "description": "週三午後，是否感受到一絲疲憊？\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n讓這段音樂時光，成為你重新充滿活力的源泉。\n■ 時間 | 10 / 14 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n(空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 莫札特：《魔笛》 (黑膠專場)\n用德語演唱的《魔笛》完成於莫札特生命中的最後一年，也是莫札特最後一部歌劇。劇情描述王子與捕鳥人受夜后所託，帶著能夠克服萬難的魔笛前往營救被大祭司劫走的公主；然而隨著夜后的險惡面目逐漸顯露，王子與公主兩人在大祭司的幫助下通過重重考驗，打敗了夜后，也迎來愛情與光明。\n《魔笛》以生動的冒險故事與童趣的人物設定傳達了「光明終將戰勝黑暗」的信念，更以震撼人心的華麗詠嘆調與動人旋律，成為歌劇史上永不磨滅的經典。",
+            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261014_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
+                "title": "【活動快訊】10/14(三) 週三響時光 Wednesday Music Delight Hour",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2035",
             "category": "展覽與活動",
             "title": "【主題書展】「2026都柏林文學獎」主題書展",
@@ -1079,20 +1093,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/2/20261002_%E9%83%BD%E6%9F%8F%E6%9E%97%E6%96%87%E5%AD%B8%E7%8D%8E%E6%9B%B8%E5%B1%95.jpg",
                 "title": "【主題書展】「2026都柏林文學獎」主題書展",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "2032",
-            "category": "展覽與活動",
-            "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
-            "link": null,
-            "pubDate": "Wed, 30 Sep 2026 08:47:48 +0800",
-            "description": "週三午後，是否感受到一絲疲憊？\n讓我們放慢腳步，沉浸於真空管音響所帶來的溫暖音質，細細品味每一個音符的層次與深度。\n在陽光的輕撫和悠揚音樂的陪伴下，享受片刻的寧靜，讓身心得到休憩與充電。隨著音符的起伏，翱翔於旋律的世界，感受心靈的釋放與愉悅。\n讓這段音樂時光，成為你重新充滿活力的源泉。\n■ 時間 | 10 / 7 (三) 15 : 30 - 16 : 30\n■ 地點 | 清華大學總圖書館3樓－怡嚴音樂聆賞室\n(空間介紹 | https://www.lib.nthu.edu.tw/use/music_listening_room.html )\n■ 播放曲目 | 蕭泰然：C調大提琴協奏曲 /《聽見歌再唱》電影原聲帶\n蕭泰然1938年出生於台灣高雄市，是鋼琴家、作曲家，也是指揮家。曾因經濟與政治因素不得不遠走美國，近20年的光陰裡，他只能透過音樂抒發對故鄉台灣的思念；創作於此時期的大提琴協奏曲，融入臺灣民謠、阿美族舞曲等元素，也是蕭泰然作品中唯一在臺灣完成世界首演的協奏曲。\n《聽見歌再唱》電影改編自信義鄉原聲童聲合唱團創團的經過，一座偏鄉學校的孩子為了不讓學校被廢，組成一支合唱團參加比賽，最終從歌聲裡找回自信與自我認同。雖然每個人的聲音都不一樣，但只要「聽見歌，再唱」，合起來就是剛剛好的聲音！",
-            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261007_%E9%80%B1%E4%B8%89%E9%9F%BF%E6%99%82%E5%85%89.jpg",
-                "title": "【活動快訊】週三響時光 Wednesday Music Delight Hour",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
