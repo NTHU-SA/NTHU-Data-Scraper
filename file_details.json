@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "f892427dce42c3292f93783ae00ca24d2d2289fef3ab25c6f00a29440b591e99",
-        "last_updated": "2026-10-07T00:23:02.860252+08:00",
+        "last_commit": "bbb10d9e6d8508086da26aee8439a71ba23948808dd67de487d2bb4551db5998",
+        "last_updated": "2026-10-07T08:56:15.800741+08:00",
         "name": "announcements.json",
-        "sha256": "f892427dce42c3292f93783ae00ca24d2d2289fef3ab25c6f00a29440b591e99",
-        "version": "f892427dce42c3292f93783ae00ca24d2d2289fef3ab25c6f00a29440b591e99"
+        "sha256": "bbb10d9e6d8508086da26aee8439a71ba23948808dd67de487d2bb4551db5998",
+        "version": "bbb10d9e6d8508086da26aee8439a71ba23948808dd67de487d2bb4551db5998"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -905,11 +905,11 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_commit": "86f2940208dcfb027b0dfe01191d56af3235fbe09a9b69b5966fbccdc3156be7",
-        "last_updated": "2026-10-06T16:27:07.880141+08:00",
+        "last_commit": "e91b82e9ea281c8598b0b402e06ae873ff13208e67de7aabcf005fc2272adeea",
+        "last_updated": "2026-10-07T08:56:15.800741+08:00",
         "name": "徵才_研習_zh-tw.json",
-        "sha256": "86f2940208dcfb027b0dfe01191d56af3235fbe09a9b69b5966fbccdc3156be7",
-        "version": "86f2940208dcfb027b0dfe01191d56af3235fbe09a9b69b5966fbccdc3156be7"
+        "sha256": "e91b82e9ea281c8598b0b402e06ae873ff13208e67de7aabcf005fc2272adeea",
+        "version": "e91b82e9ea281c8598b0b402e06ae873ff13208e67de7aabcf005fc2272adeea"
       },
       {
         "last_commit": "3cd50fa5bd4c51491f008a79625041a925b9f863bcea308170852439bc029a42",
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-07T06:19:22.922108+08:00"
+  "last_updated": "2026-10-07T08:56:15.800741+08:00"
 }
