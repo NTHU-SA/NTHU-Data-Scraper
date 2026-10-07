@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "e0fecde3c12a3132f2659543f31616a072f06fd1ee9b34e1de49bdc83a6db4cb",
-        "last_updated": "2026-10-07T14:32:59.346005+08:00",
+        "last_commit": "944f677c1445769c95bff91b9e4440e698e765bf93fb8da94b296f4470c39f40",
+        "last_updated": "2026-10-07T16:28:26.647518+08:00",
         "name": "announcements.json",
-        "sha256": "e0fecde3c12a3132f2659543f31616a072f06fd1ee9b34e1de49bdc83a6db4cb",
-        "version": "e0fecde3c12a3132f2659543f31616a072f06fd1ee9b34e1de49bdc83a6db4cb"
+        "sha256": "944f677c1445769c95bff91b9e4440e698e765bf93fb8da94b296f4470c39f40",
+        "version": "944f677c1445769c95bff91b9e4440e698e765bf93fb8da94b296f4470c39f40"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -51,11 +51,11 @@
         "version": "929537ad3592b261cb6c368d1db215c90e211253c00ce6f848d1dfa54029cf30"
       },
       {
-        "last_commit": "712944b76d82e271b7f096064f47bf7167ee31b71903aa9ededeb331198987a6",
-        "last_updated": "2026-10-07T10:34:27.102990+08:00",
+        "last_commit": "4b285d9bccb72542ad897315cf5b8b10cced0aa1c14dbf3208b74211c2da9b13",
+        "last_updated": "2026-10-07T16:28:26.647518+08:00",
         "name": "dining.json",
-        "sha256": "712944b76d82e271b7f096064f47bf7167ee31b71903aa9ededeb331198987a6",
-        "version": "712944b76d82e271b7f096064f47bf7167ee31b71903aa9ededeb331198987a6"
+        "sha256": "4b285d9bccb72542ad897315cf5b8b10cced0aa1c14dbf3208b74211c2da9b13",
+        "version": "4b285d9bccb72542ad897315cf5b8b10cced0aa1c14dbf3208b74211c2da9b13"
       },
       {
         "last_commit": "42edf3f45589a3eae267b5d543f0399dac1a0db469f4f5ed48b8a6697ac178d2",
@@ -613,11 +613,11 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_commit": "aee1a780b54d95fa13c6050b0aa5b20e06cef67864b7a99d0b807514f651dae2",
-        "last_updated": "2026-10-07T14:32:59.346005+08:00",
+        "last_commit": "d7eab0a1158da8bde9bc26672bd18d9a5181fe2e674af544ab353b56851d8953",
+        "last_updated": "2026-10-07T16:28:26.647518+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "aee1a780b54d95fa13c6050b0aa5b20e06cef67864b7a99d0b807514f651dae2",
-        "version": "aee1a780b54d95fa13c6050b0aa5b20e06cef67864b7a99d0b807514f651dae2"
+        "sha256": "d7eab0a1158da8bde9bc26672bd18d9a5181fe2e674af544ab353b56851d8953",
+        "version": "d7eab0a1158da8bde9bc26672bd18d9a5181fe2e674af544ab353b56851d8953"
       },
       {
         "last_commit": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600",
@@ -969,11 +969,11 @@
         "version": "dde46f241044d8ca6c30806816d5a7a9a518e596b29ef7f9934c6714bce41d03"
       },
       {
-        "last_commit": "5377a2247e5cb170f2de90a39d35fea6f241619a6ac374fc7db9623456ac6d43",
-        "last_updated": "2026-10-07T12:23:46.517770+08:00",
+        "last_commit": "d2caf718fe1245901ae7f6110b0b35efab765f34dc873bf410d23ba280e166d7",
+        "last_updated": "2026-10-07T16:28:26.647518+08:00",
         "name": "博士班最新公告_zh-tw.json",
-        "sha256": "5377a2247e5cb170f2de90a39d35fea6f241619a6ac374fc7db9623456ac6d43",
-        "version": "5377a2247e5cb170f2de90a39d35fea6f241619a6ac374fc7db9623456ac6d43"
+        "sha256": "d2caf718fe1245901ae7f6110b0b35efab765f34dc873bf410d23ba280e166d7",
+        "version": "d2caf718fe1245901ae7f6110b0b35efab765f34dc873bf410d23ba280e166d7"
       },
       {
         "last_commit": "f0bbf96409405d437195aad00b144e18b34d9a59ee029a2191e7b219d581abcc",
@@ -983,11 +983,11 @@
         "version": "f0bbf96409405d437195aad00b144e18b34d9a59ee029a2191e7b219d581abcc"
       },
       {
-        "last_commit": "763b633a7a2f7a994fba755354385d33b91b68229af6b79804ab334f66bd1834",
-        "last_updated": "2026-10-06T14:33:50.441795+08:00",
+        "last_commit": "3caa61ceae8bb31baf09041e0341080299ffcac6246b7a213c9f6b746aa507af",
+        "last_updated": "2026-10-07T16:28:26.647518+08:00",
         "name": "學士班最新公告_zh-tw.json",
-        "sha256": "763b633a7a2f7a994fba755354385d33b91b68229af6b79804ab334f66bd1834",
-        "version": "763b633a7a2f7a994fba755354385d33b91b68229af6b79804ab334f66bd1834"
+        "sha256": "3caa61ceae8bb31baf09041e0341080299ffcac6246b7a213c9f6b746aa507af",
+        "version": "3caa61ceae8bb31baf09041e0341080299ffcac6246b7a213c9f6b746aa507af"
       },
       {
         "last_commit": "97042a3438ea27e2b54b0a11354abf617426b6d0678d5b7635ab716718497fae",
@@ -997,11 +997,11 @@
         "version": "97042a3438ea27e2b54b0a11354abf617426b6d0678d5b7635ab716718497fae"
       },
       {
-        "last_commit": "5015e738367b9e4472b8deff4d82791a3e5da446a2cba32e49cb1437e8f3abb1",
-        "last_updated": "2026-10-07T12:23:46.517770+08:00",
+        "last_commit": "649f393a51dde965262da065dbb2fb8a33cf9a1682ca5fc48b8c3b1921b8375d",
+        "last_updated": "2026-10-07T16:28:26.647518+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "5015e738367b9e4472b8deff4d82791a3e5da446a2cba32e49cb1437e8f3abb1",
-        "version": "5015e738367b9e4472b8deff4d82791a3e5da446a2cba32e49cb1437e8f3abb1"
+        "sha256": "649f393a51dde965262da065dbb2fb8a33cf9a1682ca5fc48b8c3b1921b8375d",
+        "version": "649f393a51dde965262da065dbb2fb8a33cf9a1682ca5fc48b8c3b1921b8375d"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -2321,11 +2321,11 @@
     ],
     "announcements/竹師教育學院教育心理與諮商學系": [
       {
-        "last_commit": "3abcab3f77e305fe1f3b070a019bb3526e62be9b4faf0f4d2301fb0bfe5fedbe",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "a8a5e0db9201e41d5952a44f4399a9fcd3552fbf56747312cff8752df0ebe0f3",
+        "last_updated": "2026-10-07T16:28:26.647518+08:00",
         "name": "學術訊息_zh-tw.json",
-        "sha256": "3abcab3f77e305fe1f3b070a019bb3526e62be9b4faf0f4d2301fb0bfe5fedbe",
-        "version": "3abcab3f77e305fe1f3b070a019bb3526e62be9b4faf0f4d2301fb0bfe5fedbe"
+        "sha256": "a8a5e0db9201e41d5952a44f4399a9fcd3552fbf56747312cff8752df0ebe0f3",
+        "version": "a8a5e0db9201e41d5952a44f4399a9fcd3552fbf56747312cff8752df0ebe0f3"
       },
       {
         "last_commit": "abaf98f70b7046f71a0e24ca914d5dc90c23371f87c8cc987d3aa3f716097dd1",
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-07T14:32:59.346005+08:00"
+  "last_updated": "2026-10-07T16:28:26.647518+08:00"
 }
