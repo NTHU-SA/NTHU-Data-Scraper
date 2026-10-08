@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "38a57c993ec10469d514f2a58e3f698419002d40b2ef937bc00ec9404b26dc03",
-        "last_updated": "2026-10-08T20:30:30.370576+08:00",
+        "last_commit": "48c2a4b6e3ca0dd18144eb6b4969ef4452a5f8073553b190118a4daf077f282b",
+        "last_updated": "2026-10-09T00:23:13.415487+08:00",
         "name": "announcements.json",
-        "sha256": "38a57c993ec10469d514f2a58e3f698419002d40b2ef937bc00ec9404b26dc03",
-        "version": "38a57c993ec10469d514f2a58e3f698419002d40b2ef937bc00ec9404b26dc03"
+        "sha256": "48c2a4b6e3ca0dd18144eb6b4969ef4452a5f8073553b190118a4daf077f282b",
+        "version": "48c2a4b6e3ca0dd18144eb6b4969ef4452a5f8073553b190118a4daf077f282b"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -305,11 +305,11 @@
         "version": "0e0ae838fdfb5ccfb7e52023e582ce5f40145d72364df6085d7b3bcff8726bcc"
       },
       {
-        "last_commit": "2c52163d9ff752b5ad59dd9fc03596c76d61a6c3d184481ca20177fb4a07a7ac",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "3b3c6d490b45dff3864816df941e235158fff334ba0f7bed370b59922a5a182e",
+        "last_updated": "2026-10-09T00:23:13.415487+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "2c52163d9ff752b5ad59dd9fc03596c76d61a6c3d184481ca20177fb4a07a7ac",
-        "version": "2c52163d9ff752b5ad59dd9fc03596c76d61a6c3d184481ca20177fb4a07a7ac"
+        "sha256": "3b3c6d490b45dff3864816df941e235158fff334ba0f7bed370b59922a5a182e",
+        "version": "3b3c6d490b45dff3864816df941e235158fff334ba0f7bed370b59922a5a182e"
       }
     ],
     "announcements/合校停招系所聯合辦事處（教務處支援）": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-08T20:30:30.370576+08:00"
+  "last_updated": "2026-10-09T00:23:13.415487+08:00"
 }
