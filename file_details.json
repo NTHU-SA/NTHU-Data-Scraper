@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "48c2a4b6e3ca0dd18144eb6b4969ef4452a5f8073553b190118a4daf077f282b",
-        "last_updated": "2026-10-09T00:23:13.415487+08:00",
+        "last_commit": "cadc5e005e5ce8318ddc16a37744d8d302785b931fd4525451fc6284409a5756",
+        "last_updated": "2026-10-09T04:20:53.303507+08:00",
         "name": "announcements.json",
-        "sha256": "48c2a4b6e3ca0dd18144eb6b4969ef4452a5f8073553b190118a4daf077f282b",
-        "version": "48c2a4b6e3ca0dd18144eb6b4969ef4452a5f8073553b190118a4daf077f282b"
+        "sha256": "cadc5e005e5ce8318ddc16a37744d8d302785b931fd4525451fc6284409a5756",
+        "version": "cadc5e005e5ce8318ddc16a37744d8d302785b931fd4525451fc6284409a5756"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -731,11 +731,11 @@
         "version": "34b14c189c58d580015ff123fb9eab461950fa180a3247a44d40c20d48034488"
       },
       {
-        "last_commit": "f566b4e60bc4000f71f21a0168fc65a71ecf0e7949ba81f8ae486f79a4dfae06",
-        "last_updated": "2026-10-07T12:23:46.517770+08:00",
+        "last_commit": "89497e6bbac3f00d870f1687e46be2ed587981fb614ba9825d44dcbaf66da142",
+        "last_updated": "2026-10-09T04:20:53.303507+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "f566b4e60bc4000f71f21a0168fc65a71ecf0e7949ba81f8ae486f79a4dfae06",
-        "version": "f566b4e60bc4000f71f21a0168fc65a71ecf0e7949ba81f8ae486f79a4dfae06"
+        "sha256": "89497e6bbac3f00d870f1687e46be2ed587981fb614ba9825d44dcbaf66da142",
+        "version": "89497e6bbac3f00d870f1687e46be2ed587981fb614ba9825d44dcbaf66da142"
       }
     ],
     "announcements/工學院工學院學士班": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-09T00:23:13.415487+08:00"
+  "last_updated": "2026-10-09T04:20:53.303507+08:00"
 }
