@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "c3379358f3bf4ec01e84452fb702ce44d15ef74b64fda64e2615f75ed8919446",
-        "last_updated": "2026-10-08T12:23:57.913612+08:00",
+        "last_commit": "24a1884bb3c058a4568c1589a1ee3140f74cce829a3e179c9c51f0152886973c",
+        "last_updated": "2026-10-08T14:35:13.734905+08:00",
         "name": "announcements.json",
-        "sha256": "c3379358f3bf4ec01e84452fb702ce44d15ef74b64fda64e2615f75ed8919446",
-        "version": "c3379358f3bf4ec01e84452fb702ce44d15ef74b64fda64e2615f75ed8919446"
+        "sha256": "24a1884bb3c058a4568c1589a1ee3140f74cce829a3e179c9c51f0152886973c",
+        "version": "24a1884bb3c058a4568c1589a1ee3140f74cce829a3e179c9c51f0152886973c"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -889,11 +889,11 @@
         "version": "6c8f93d07572c5ca9a0cf6238ef5f55b92a4c525bff8e367afbfbd9263087ef3"
       },
       {
-        "last_commit": "85469b3581b5f7cb4b1be20d827b48ddd0374444708545316ad4f1ff494c38f5",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "41a83a5eb04a41743e3126949873d383d3b13660c2bd2cb2d9e29f7006fe771b",
+        "last_updated": "2026-10-08T14:35:13.734905+08:00",
         "name": "演講公告_zh-tw.json",
-        "sha256": "85469b3581b5f7cb4b1be20d827b48ddd0374444708545316ad4f1ff494c38f5",
-        "version": "85469b3581b5f7cb4b1be20d827b48ddd0374444708545316ad4f1ff494c38f5"
+        "sha256": "41a83a5eb04a41743e3126949873d383d3b13660c2bd2cb2d9e29f7006fe771b",
+        "version": "41a83a5eb04a41743e3126949873d383d3b13660c2bd2cb2d9e29f7006fe771b"
       },
       {
         "last_commit": "2c2eaeb64fe12092a43bd4252b22dd2b5d7bc1acbe6759cff92f9456d0fd94cf",
@@ -1613,11 +1613,11 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "48b8caa95a411040da7af930181bcf97e029dc8d8aed041d3dd2e0ad3d00ea11",
-        "last_updated": "2026-10-07T14:32:59.346005+08:00",
+        "last_commit": "7b27547cb1220c1e564c8a489578eb49bfc9d9ee4a9581f491ae4cce090ce68b",
+        "last_updated": "2026-10-08T14:35:13.734905+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "48b8caa95a411040da7af930181bcf97e029dc8d8aed041d3dd2e0ad3d00ea11",
-        "version": "48b8caa95a411040da7af930181bcf97e029dc8d8aed041d3dd2e0ad3d00ea11"
+        "sha256": "7b27547cb1220c1e564c8a489578eb49bfc9d9ee4a9581f491ae4cce090ce68b",
+        "version": "7b27547cb1220c1e564c8a489578eb49bfc9d9ee4a9581f491ae4cce090ce68b"
       }
     ],
     "announcements/理學院物理學系": [
@@ -1759,11 +1759,11 @@
         "version": "aec572ffd1d5a01a885ec48b10d38ea654df052769bcd0bd6424da53d70e94e4"
       },
       {
-        "last_commit": "0a6f122c95045cae6710b2dbe3d6df2db7d2a534fe650c9ddbb2eeec23412904",
-        "last_updated": "2026-10-08T04:21:19.787487+08:00",
+        "last_commit": "736ebd0332de340d83323cb017a2fad6b901fb02cae1a9012bf01665bb26746e",
+        "last_updated": "2026-10-08T14:35:13.734905+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "0a6f122c95045cae6710b2dbe3d6df2db7d2a534fe650c9ddbb2eeec23412904",
-        "version": "0a6f122c95045cae6710b2dbe3d6df2db7d2a534fe650c9ddbb2eeec23412904"
+        "sha256": "736ebd0332de340d83323cb017a2fad6b901fb02cae1a9012bf01665bb26746e",
+        "version": "736ebd0332de340d83323cb017a2fad6b901fb02cae1a9012bf01665bb26746e"
       },
       {
         "last_commit": "90d1185e514d1fe284bf6c641237f8c910b23f56101c9755c6e67dcaeeca7a80",
@@ -1787,11 +1787,11 @@
         "version": "f309f522a0760031bc5cc0162132e4b833f60f114d2aa0ae9b5d34fbdbd22a8d"
       },
       {
-        "last_commit": "f05126798ade0c468df6ece2e96d2e80b3e3c83e57c9ad977f77cf94b724ee46",
-        "last_updated": "2026-10-08T04:21:19.787487+08:00",
+        "last_commit": "6775443a28f009f1ab07863b2f4261f14c72d330b0504c28f5024a0eb1268317",
+        "last_updated": "2026-10-08T14:35:13.734905+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "f05126798ade0c468df6ece2e96d2e80b3e3c83e57c9ad977f77cf94b724ee46",
-        "version": "f05126798ade0c468df6ece2e96d2e80b3e3c83e57c9ad977f77cf94b724ee46"
+        "sha256": "6775443a28f009f1ab07863b2f4261f14c72d330b0504c28f5024a0eb1268317",
+        "version": "6775443a28f009f1ab07863b2f4261f14c72d330b0504c28f5024a0eb1268317"
       }
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
@@ -2677,11 +2677,11 @@
         "version": "fdc1e985276b1c4eff415ee915d7da6ba07f1b5132e786838cc6797f66e61c01"
       },
       {
-        "last_commit": "66a3158fd597cbbcc28943c695a4a2f4fe89b337824e6715ccc6fdb6e125aefc",
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_commit": "47d3a2045359fa313c361b0536ba18c9c697cd3c4940bbee1909422f120de30b",
+        "last_updated": "2026-10-08T14:35:13.734905+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json",
-        "sha256": "66a3158fd597cbbcc28943c695a4a2f4fe89b337824e6715ccc6fdb6e125aefc",
-        "version": "66a3158fd597cbbcc28943c695a4a2f4fe89b337824e6715ccc6fdb6e125aefc"
+        "sha256": "47d3a2045359fa313c361b0536ba18c9c697cd3c4940bbee1909422f120de30b",
+        "version": "47d3a2045359fa313c361b0536ba18c9c697cd3c4940bbee1909422f120de30b"
       }
     ],
     "announcements/總務處保管組": [
@@ -2734,11 +2734,11 @@
     ],
     "announcements/總務處採購組": [
       {
-        "last_commit": "841aca4caf3d19216c3e2275bdb417a00ab89cc8a95dd738a9e2b938ff89adc6",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "6c05c96aead5294e317420a5a8fd9c50229c4bd2a65579eb6858cca080b2c381",
+        "last_updated": "2026-10-08T14:35:13.734905+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "841aca4caf3d19216c3e2275bdb417a00ab89cc8a95dd738a9e2b938ff89adc6",
-        "version": "841aca4caf3d19216c3e2275bdb417a00ab89cc8a95dd738a9e2b938ff89adc6"
+        "sha256": "6c05c96aead5294e317420a5a8fd9c50229c4bd2a65579eb6858cca080b2c381",
+        "version": "6c05c96aead5294e317420a5a8fd9c50229c4bd2a65579eb6858cca080b2c381"
       }
     ],
     "announcements/總務處文書組": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-08T12:23:57.913612+08:00"
+  "last_updated": "2026-10-08T14:35:13.734905+08:00"
 }
