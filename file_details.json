@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "0e2c672610efe7a3eae2ce4fda5758b5b5e74d851b5167370d8a84ad1773880e",
-        "last_updated": "2026-10-08T16:28:45.832631+08:00",
+        "last_commit": "aafaa694456b88dbeaf50a53d57a19a1af8474ea16743a9b80b6b1fe692afda5",
+        "last_updated": "2026-10-08T18:21:02.315347+08:00",
         "name": "announcements.json",
-        "sha256": "0e2c672610efe7a3eae2ce4fda5758b5b5e74d851b5167370d8a84ad1773880e",
-        "version": "0e2c672610efe7a3eae2ce4fda5758b5b5e74d851b5167370d8a84ad1773880e"
+        "sha256": "aafaa694456b88dbeaf50a53d57a19a1af8474ea16743a9b80b6b1fe692afda5",
+        "version": "aafaa694456b88dbeaf50a53d57a19a1af8474ea16743a9b80b6b1fe692afda5"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -1184,11 +1184,11 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_commit": "23e730f69732fce24885ad6a8b2e661de5ac833a531fc956a09032a05137a2cf",
-        "last_updated": "2026-10-05T12:28:18.834286+08:00",
+        "last_commit": "679c24567aa080921ba18fbc8de3bff8a2e68fc56685dd358dfe54ab4e8efd01",
+        "last_updated": "2026-10-08T18:21:02.315347+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "23e730f69732fce24885ad6a8b2e661de5ac833a531fc956a09032a05137a2cf",
-        "version": "23e730f69732fce24885ad6a8b2e661de5ac833a531fc956a09032a05137a2cf"
+        "sha256": "679c24567aa080921ba18fbc8de3bff8a2e68fc56685dd358dfe54ab4e8efd01",
+        "version": "679c24567aa080921ba18fbc8de3bff8a2e68fc56685dd358dfe54ab4e8efd01"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -1613,11 +1613,11 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_commit": "7b27547cb1220c1e564c8a489578eb49bfc9d9ee4a9581f491ae4cce090ce68b",
-        "last_updated": "2026-10-08T14:35:13.734905+08:00",
+        "last_commit": "52923b7b7b16eb299a5f262b80da092f5cb67fc426f22cf7ee9bbf53380af6a3",
+        "last_updated": "2026-10-08T18:21:02.315347+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "7b27547cb1220c1e564c8a489578eb49bfc9d9ee4a9581f491ae4cce090ce68b",
-        "version": "7b27547cb1220c1e564c8a489578eb49bfc9d9ee4a9581f491ae4cce090ce68b"
+        "sha256": "52923b7b7b16eb299a5f262b80da092f5cb67fc426f22cf7ee9bbf53380af6a3",
+        "version": "52923b7b7b16eb299a5f262b80da092f5cb67fc426f22cf7ee9bbf53380af6a3"
       }
     ],
     "announcements/理學院物理學系": [
@@ -1745,11 +1745,11 @@
         "version": "f6f455c7f4486efd19ee41e5f9e1f29ad2a759856bfaba8b9eb76f6c3c3b2627"
       },
       {
-        "last_commit": "b931512d6e0e73aee683078e7b8ef02babd71297ec8604bb0ce27a40c4f34593",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "da3b78685bea6fd10364c2c543950ee2a11ad8e2873a77dd4b4308382b065bbb",
+        "last_updated": "2026-10-08T18:21:02.315347+08:00",
         "name": "Recent Activities_en.json",
-        "sha256": "b931512d6e0e73aee683078e7b8ef02babd71297ec8604bb0ce27a40c4f34593",
-        "version": "b931512d6e0e73aee683078e7b8ef02babd71297ec8604bb0ce27a40c4f34593"
+        "sha256": "da3b78685bea6fd10364c2c543950ee2a11ad8e2873a77dd4b4308382b065bbb",
+        "version": "da3b78685bea6fd10364c2c543950ee2a11ad8e2873a77dd4b4308382b065bbb"
       },
       {
         "last_commit": "aec572ffd1d5a01a885ec48b10d38ea654df052769bcd0bd6424da53d70e94e4",
@@ -1780,11 +1780,11 @@
         "version": "711d8e1f789e8c47aeb903533e986b91fee03074ca8d2216a63a8e40b18ef6a1"
       },
       {
-        "last_commit": "f309f522a0760031bc5cc0162132e4b833f60f114d2aa0ae9b5d34fbdbd22a8d",
-        "last_updated": "2026-10-02T10:28:29.519079+08:00",
+        "last_commit": "8113cecd98ed02e2928654749410af597cb19d999f7412d10900660cc2a901b2",
+        "last_updated": "2026-10-08T18:21:02.315347+08:00",
         "name": "最新活動_zh-tw.json",
-        "sha256": "f309f522a0760031bc5cc0162132e4b833f60f114d2aa0ae9b5d34fbdbd22a8d",
-        "version": "f309f522a0760031bc5cc0162132e4b833f60f114d2aa0ae9b5d34fbdbd22a8d"
+        "sha256": "8113cecd98ed02e2928654749410af597cb19d999f7412d10900660cc2a901b2",
+        "version": "8113cecd98ed02e2928654749410af597cb19d999f7412d10900660cc2a901b2"
       },
       {
         "last_commit": "6775443a28f009f1ab07863b2f4261f14c72d330b0504c28f5024a0eb1268317",
@@ -2022,11 +2022,11 @@
         "version": "109bdb361ed0b9361ba37a325fae25717ab0606f9ca991cab3f39b6877245132"
       },
       {
-        "last_commit": "bd453866d722499a5f5eed16cdc824b36aced45a437c1fd7b5735aff4cb4e982",
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_commit": "2dd54b0064dc9fa79e5c2d80be06de0d1286cac8d57d6b38e2a3a1eacb78eb84",
+        "last_updated": "2026-10-08T18:21:02.315347+08:00",
         "name": "線上審查系統公告_zh-tw.json",
-        "sha256": "bd453866d722499a5f5eed16cdc824b36aced45a437c1fd7b5735aff4cb4e982",
-        "version": "bd453866d722499a5f5eed16cdc824b36aced45a437c1fd7b5735aff4cb4e982"
+        "sha256": "2dd54b0064dc9fa79e5c2d80be06de0d1286cac8d57d6b38e2a3a1eacb78eb84",
+        "version": "2dd54b0064dc9fa79e5c2d80be06de0d1286cac8d57d6b38e2a3a1eacb78eb84"
       }
     ],
     "announcements/研究發展處硼中子捕獲治療中心": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-08T16:28:45.832631+08:00"
+  "last_updated": "2026-10-08T18:21:02.315347+08:00"
 }
