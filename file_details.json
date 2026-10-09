@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "cadc5e005e5ce8318ddc16a37744d8d302785b931fd4525451fc6284409a5756",
-        "last_updated": "2026-10-09T04:20:53.303507+08:00",
+        "last_commit": "fdf2eaaab3952f26cddf02ac8050381ed6f456272c2fe20797f652376a28c77c",
+        "last_updated": "2026-10-10T00:20:31.002678+08:00",
         "name": "announcements.json",
-        "sha256": "cadc5e005e5ce8318ddc16a37744d8d302785b931fd4525451fc6284409a5756",
-        "version": "cadc5e005e5ce8318ddc16a37744d8d302785b931fd4525451fc6284409a5756"
+        "sha256": "fdf2eaaab3952f26cddf02ac8050381ed6f456272c2fe20797f652376a28c77c",
+        "version": "fdf2eaaab3952f26cddf02ac8050381ed6f456272c2fe20797f652376a28c77c"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -442,11 +442,11 @@
         "version": "ae9374beee5637462230a12675029baae6ca706e897fcc59987472b421e7a9f5"
       },
       {
-        "last_commit": "aada0e0a86e596b9cfb245e88d100615bc1e28503ce3becfd16129e6434d2d26",
-        "last_updated": "2026-10-01T00:23:02.900213+08:00",
+        "last_commit": "c2677791ea2dbba420ee9943df764144379bc4e98879dc740941bd1938ed9b36",
+        "last_updated": "2026-10-10T00:20:31.002678+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "aada0e0a86e596b9cfb245e88d100615bc1e28503ce3becfd16129e6434d2d26",
-        "version": "aada0e0a86e596b9cfb245e88d100615bc1e28503ce3becfd16129e6434d2d26"
+        "sha256": "c2677791ea2dbba420ee9943df764144379bc4e98879dc740941bd1938ed9b36",
+        "version": "c2677791ea2dbba420ee9943df764144379bc4e98879dc740941bd1938ed9b36"
       }
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
@@ -2800,11 +2800,11 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_commit": "ee2866919b6506e4ceacbbbb5ab1aa6c1e58fa8b9f0782e8b119918fbe9f747c",
-        "last_updated": "2026-10-06T12:23:26.205719+08:00",
+        "last_commit": "3912906e466122c017eec7c2757751e704037167e75737928b25cf015e84c3c0",
+        "last_updated": "2026-10-10T00:20:31.002678+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "ee2866919b6506e4ceacbbbb5ab1aa6c1e58fa8b9f0782e8b119918fbe9f747c",
-        "version": "ee2866919b6506e4ceacbbbb5ab1aa6c1e58fa8b9f0782e8b119918fbe9f747c"
+        "sha256": "3912906e466122c017eec7c2757751e704037167e75737928b25cf015e84c3c0",
+        "version": "3912906e466122c017eec7c2757751e704037167e75737928b25cf015e84c3c0"
       }
     ],
     "announcements/藝文總中心": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-09T04:20:53.303507+08:00"
+  "last_updated": "2026-10-10T00:20:31.002678+08:00"
 }
