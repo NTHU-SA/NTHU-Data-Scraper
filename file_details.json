@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "fdf2eaaab3952f26cddf02ac8050381ed6f456272c2fe20797f652376a28c77c",
-        "last_updated": "2026-10-10T00:20:31.002678+08:00",
+        "last_commit": "e3a24f938fd9747373ae13fc7061f52bdf7051c4d596ec9073173858992cf398",
+        "last_updated": "2026-10-11T20:28:15.688863+08:00",
         "name": "announcements.json",
-        "sha256": "fdf2eaaab3952f26cddf02ac8050381ed6f456272c2fe20797f652376a28c77c",
-        "version": "fdf2eaaab3952f26cddf02ac8050381ed6f456272c2fe20797f652376a28c77c"
+        "sha256": "e3a24f938fd9747373ae13fc7061f52bdf7051c4d596ec9073173858992cf398",
+        "version": "e3a24f938fd9747373ae13fc7061f52bdf7051c4d596ec9073173858992cf398"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -912,11 +912,11 @@
         "version": "c54ddb560d129d21226c7b489fecf4518ded87fc2b276fa0a94e37ad24919ac7"
       },
       {
-        "last_commit": "13745d1a94a692b1d3c28820838343152876ef1cc4d81bb9bae794ee6c12a47c",
-        "last_updated": "2026-10-08T16:28:45.832631+08:00",
+        "last_commit": "94aa95b01728218e9be3e69e80fab1833acd2158bd983c3a09bfc9baf507ec4f",
+        "last_updated": "2026-10-11T20:28:15.688863+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "13745d1a94a692b1d3c28820838343152876ef1cc4d81bb9bae794ee6c12a47c",
-        "version": "13745d1a94a692b1d3c28820838343152876ef1cc4d81bb9bae794ee6c12a47c"
+        "sha256": "94aa95b01728218e9be3e69e80fab1833acd2158bd983c3a09bfc9baf507ec4f",
+        "version": "94aa95b01728218e9be3e69e80fab1833acd2158bd983c3a09bfc9baf507ec4f"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-10T00:20:31.002678+08:00"
+  "last_updated": "2026-10-11T20:28:15.688863+08:00"
 }
