@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "73f8205b9d9598502102c35da707ab3470ec5a9ed995dff5273be41acecbacd5",
-        "last_updated": "2026-10-11T22:18:14.043682+08:00",
+        "last_commit": "b06313b2f9b7fbae4d6aa13e6bbec77bd683c6de7b57b1ba0a096b6cdcc7d1a2",
+        "last_updated": "2026-10-12T00:20:16.631390+08:00",
         "name": "announcements.json",
-        "sha256": "73f8205b9d9598502102c35da707ab3470ec5a9ed995dff5273be41acecbacd5",
-        "version": "73f8205b9d9598502102c35da707ab3470ec5a9ed995dff5273be41acecbacd5"
+        "sha256": "b06313b2f9b7fbae4d6aa13e6bbec77bd683c6de7b57b1ba0a096b6cdcc7d1a2",
+        "version": "b06313b2f9b7fbae4d6aa13e6bbec77bd683c6de7b57b1ba0a096b6cdcc7d1a2"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -104,11 +104,11 @@
         "version": "4be9e2b9ec33ef613cd913ac6846793be2e845b03272a0431f42c54d742ac9f5"
       },
       {
-        "last_commit": "498f3cb3853c83d9e1f55ab699860819b9f09938e73b393e622de4236aa350fe",
-        "last_updated": "2026-10-08T00:22:17.542198+08:00",
+        "last_commit": "360b94a07cc2e34ac28cb5d37e6f31e68d3aa817abad829597e02d6c2eeaa780",
+        "last_updated": "2026-10-12T00:20:16.631390+08:00",
         "name": "活動訊息_zh-tw.json",
-        "sha256": "498f3cb3853c83d9e1f55ab699860819b9f09938e73b393e622de4236aa350fe",
-        "version": "498f3cb3853c83d9e1f55ab699860819b9f09938e73b393e622de4236aa350fe"
+        "sha256": "360b94a07cc2e34ac28cb5d37e6f31e68d3aa817abad829597e02d6c2eeaa780",
+        "version": "360b94a07cc2e34ac28cb5d37e6f31e68d3aa817abad829597e02d6c2eeaa780"
       },
       {
         "last_commit": "ece6f5d36a2cf3792af1704ca616d4cbc240dcea2938a0875c2d4a26da817bee",
@@ -2663,11 +2663,11 @@
         "version": "0a18b01480baaf264f9568a9da37ccb44017ca3d0bc7446c3dcae1531d17ff97"
       },
       {
-        "last_commit": "38ca134b8a6930791f0bf9d2f68938a34f43856e7c34a18fdc604ee040117043",
-        "last_updated": "2026-10-06T10:29:53.525059+08:00",
+        "last_commit": "0b299ab0effdc8009e805321d631895a8a9b063fa7d61e75c422af76603a5a48",
+        "last_updated": "2026-10-12T00:20:16.631390+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "38ca134b8a6930791f0bf9d2f68938a34f43856e7c34a18fdc604ee040117043",
-        "version": "38ca134b8a6930791f0bf9d2f68938a34f43856e7c34a18fdc604ee040117043"
+        "sha256": "0b299ab0effdc8009e805321d631895a8a9b063fa7d61e75c422af76603a5a48",
+        "version": "0b299ab0effdc8009e805321d631895a8a9b063fa7d61e75c422af76603a5a48"
       },
       {
         "last_commit": "fdc1e985276b1c4eff415ee915d7da6ba07f1b5132e786838cc6797f66e61c01",
@@ -2823,11 +2823,11 @@
         "version": "8ed9a3339b16eb8da759f85381f7277c2b40478692e2dc548e4a058afaaced5f"
       },
       {
-        "last_commit": "6ada0b5ecab09588e25d801431e506fd607888787abd13b7a3a99c18b19c60cc",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "90d93a689b64d20e338e66ec6f119f8d72292aa96e9e7a47ed55d8be2348e26d",
+        "last_updated": "2026-10-12T00:20:16.631390+08:00",
         "name": "轉知公告_zh-tw.json",
-        "sha256": "6ada0b5ecab09588e25d801431e506fd607888787abd13b7a3a99c18b19c60cc",
-        "version": "6ada0b5ecab09588e25d801431e506fd607888787abd13b7a3a99c18b19c60cc"
+        "sha256": "90d93a689b64d20e338e66ec6f119f8d72292aa96e9e7a47ed55d8be2348e26d",
+        "version": "90d93a689b64d20e338e66ec6f119f8d72292aa96e9e7a47ed55d8be2348e26d"
       }
     ],
     "announcements/藝文總中心文物館": [
@@ -3329,11 +3329,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "32f123e1b0242ab3b9295b2b33d7aaaba7aae3e30661592a04a22fd0d210fc55",
-        "last_updated": "2026-10-08T00:22:17.542198+08:00",
+        "last_commit": "43814e304b2780b90a642798863c81205f2f2697ab82e2673e6bb41b379f2462",
+        "last_updated": "2026-10-12T00:20:16.631390+08:00",
         "name": "rss.json",
-        "sha256": "32f123e1b0242ab3b9295b2b33d7aaaba7aae3e30661592a04a22fd0d210fc55",
-        "version": "32f123e1b0242ab3b9295b2b33d7aaaba7aae3e30661592a04a22fd0d210fc55"
+        "sha256": "43814e304b2780b90a642798863c81205f2f2697ab82e2673e6bb41b379f2462",
+        "version": "43814e304b2780b90a642798863c81205f2f2697ab82e2673e6bb41b379f2462"
       }
     ],
     "maps": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-11T22:18:14.043682+08:00"
+  "last_updated": "2026-10-12T00:20:16.631390+08:00"
 }
