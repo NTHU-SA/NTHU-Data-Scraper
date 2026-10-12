@@ -3329,11 +3329,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "e909594d3d942152780a03b9a17afef6b0eb97923e8e55b8ce31ab6793da19c4",
-        "last_updated": "2026-10-12T10:43:51.949267+08:00",
+        "last_commit": "5dd71885206ece9203fa70a3fd31ac56f8bc732bc8d423d59abc080fc418e944",
+        "last_updated": "2026-10-13T00:20:50.199780+08:00",
         "name": "rss.json",
-        "sha256": "e909594d3d942152780a03b9a17afef6b0eb97923e8e55b8ce31ab6793da19c4",
-        "version": "e909594d3d942152780a03b9a17afef6b0eb97923e8e55b8ce31ab6793da19c4"
+        "sha256": "5dd71885206ece9203fa70a3fd31ac56f8bc732bc8d423d59abc080fc418e944",
+        "version": "5dd71885206ece9203fa70a3fd31ac56f8bc732bc8d423d59abc080fc418e944"
       }
     ],
     "maps": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-12T18:24:38.710434+08:00"
+  "last_updated": "2026-10-13T00:20:50.199780+08:00"
 }
