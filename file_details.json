@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "07ceceec960e2a1dce71b3492b1c7b707a7f464e9b99661a39fb7c8729b7f900",
-        "last_updated": "2026-10-12T18:24:38.710434+08:00",
+        "last_commit": "3b7eee64c11f738807b4e1e7ec58e18ac87b64451d549db378fae9bd65a29971",
+        "last_updated": "2026-10-13T08:57:18.639598+08:00",
         "name": "announcements.json",
-        "sha256": "07ceceec960e2a1dce71b3492b1c7b707a7f464e9b99661a39fb7c8729b7f900",
-        "version": "07ceceec960e2a1dce71b3492b1c7b707a7f464e9b99661a39fb7c8729b7f900"
+        "sha256": "3b7eee64c11f738807b4e1e7ec58e18ac87b64451d549db378fae9bd65a29971",
+        "version": "3b7eee64c11f738807b4e1e7ec58e18ac87b64451d549db378fae9bd65a29971"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -1530,11 +1530,11 @@
         "version": "b3994b447c45f78be64f4a404b85c69ece4c87228b3290324f4949c48838cc6b"
       },
       {
-        "last_commit": "833f464832e7435e816e1764fbf0049457e1d2f596ee17c7dd33e7d240125306",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "9674b065bfb882b41082c04608c525b781e98b5661ddf1890505eceb57c2a805",
+        "last_updated": "2026-10-13T08:57:18.639598+08:00",
         "name": "榮譽榜_zh-tw.json",
-        "sha256": "833f464832e7435e816e1764fbf0049457e1d2f596ee17c7dd33e7d240125306",
-        "version": "833f464832e7435e816e1764fbf0049457e1d2f596ee17c7dd33e7d240125306"
+        "sha256": "9674b065bfb882b41082c04608c525b781e98b5661ddf1890505eceb57c2a805",
+        "version": "9674b065bfb882b41082c04608c525b781e98b5661ddf1890505eceb57c2a805"
       },
       {
         "last_commit": "9aee4c8453287565e9fb84c0b6433a22fcd53db13d9789cede9211f2f1e59b8a",
@@ -2943,11 +2943,11 @@
     ],
     "announcements/電機資訊學院電子工程研究所": [
       {
-        "last_commit": "d1a48089f435b777889283aa7337ca61602a0426a9ecec6d79bf01dd56e77bd4",
-        "last_updated": "2026-10-12T12:30:35.819494+08:00",
+        "last_commit": "8b2d8047b63ed0848ce3871cf3b396ef551bdce7ba232790fc9938bbb3499f7f",
+        "last_updated": "2026-10-13T08:57:18.639598+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "d1a48089f435b777889283aa7337ca61602a0426a9ecec6d79bf01dd56e77bd4",
-        "version": "d1a48089f435b777889283aa7337ca61602a0426a9ecec6d79bf01dd56e77bd4"
+        "sha256": "8b2d8047b63ed0848ce3871cf3b396ef551bdce7ba232790fc9938bbb3499f7f",
+        "version": "8b2d8047b63ed0848ce3871cf3b396ef551bdce7ba232790fc9938bbb3499f7f"
       },
       {
         "last_commit": "bb6ac2c4f59967517733d47f855db696b69d21c32c2a347d205709af6689f6d5",
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-13T06:19:05.246790+08:00"
+  "last_updated": "2026-10-13T08:57:18.639598+08:00"
 }
