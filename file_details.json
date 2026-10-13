@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "b4af931bdc6ec4632b4d562b9da21def6ff1840bc520373ae5ebfccc947a9671",
-        "last_updated": "2026-10-13T12:28:01.310814+08:00",
+        "last_commit": "7aacf8a2a0a0680b96305d79ce52144622565770e84c4809554860c4d3200f1b",
+        "last_updated": "2026-10-13T14:36:55.188351+08:00",
         "name": "announcements.json",
-        "sha256": "b4af931bdc6ec4632b4d562b9da21def6ff1840bc520373ae5ebfccc947a9671",
-        "version": "b4af931bdc6ec4632b4d562b9da21def6ff1840bc520373ae5ebfccc947a9671"
+        "sha256": "7aacf8a2a0a0680b96305d79ce52144622565770e84c4809554860c4d3200f1b",
+        "version": "7aacf8a2a0a0680b96305d79ce52144622565770e84c4809554860c4d3200f1b"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -1101,18 +1101,18 @@
         "version": "9fe392f6e9cd1a43096a7ce1e2511e79fab437a0ba60c9454a2ca76eb62e021f"
       },
       {
-        "last_commit": "aa4d2aaceadb0179dd6314ad9037386f4e50466b4c659afea300b4a63a407c7e",
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_commit": "190e1acafd1ba5db1545c7a17cd3884b93828b158f18de2c198f73005994cae5",
+        "last_updated": "2026-10-13T14:36:55.188351+08:00",
         "name": "招生訊息_zh-tw.json",
-        "sha256": "aa4d2aaceadb0179dd6314ad9037386f4e50466b4c659afea300b4a63a407c7e",
-        "version": "aa4d2aaceadb0179dd6314ad9037386f4e50466b4c659afea300b4a63a407c7e"
+        "sha256": "190e1acafd1ba5db1545c7a17cd3884b93828b158f18de2c198f73005994cae5",
+        "version": "190e1acafd1ba5db1545c7a17cd3884b93828b158f18de2c198f73005994cae5"
       },
       {
-        "last_commit": "51927904d82451c3933086ef519ecb2f45fa535bef44ec3818293997a3f80b17",
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_commit": "91b914093cbcb16b0352b4593ed683044efe48a7cb5e93c616804715443cdb68",
+        "last_updated": "2026-10-13T14:36:55.188351+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "51927904d82451c3933086ef519ecb2f45fa535bef44ec3818293997a3f80b17",
-        "version": "51927904d82451c3933086ef519ecb2f45fa535bef44ec3818293997a3f80b17"
+        "sha256": "91b914093cbcb16b0352b4593ed683044efe48a7cb5e93c616804715443cdb68",
+        "version": "91b914093cbcb16b0352b4593ed683044efe48a7cb5e93c616804715443cdb68"
       }
     ],
     "announcements/教務處清華大學出版社": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-13T12:28:01.310814+08:00"
+  "last_updated": "2026-10-13T14:36:55.188351+08:00"
 }
