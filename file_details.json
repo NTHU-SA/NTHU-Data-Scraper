@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "583a3fe150e1676e6a6ba6d4fcc286c3d0d3e4a3d9da442484ae61ffa38e1753",
-        "last_updated": "2026-10-13T20:31:16.453406+08:00",
+        "last_commit": "e61c4083eed28dc3d677df61c73369d416708eceb26268f8573ee0f0698428fb",
+        "last_updated": "2026-10-14T00:21:58.321972+08:00",
         "name": "announcements.json",
-        "sha256": "583a3fe150e1676e6a6ba6d4fcc286c3d0d3e4a3d9da442484ae61ffa38e1753",
-        "version": "583a3fe150e1676e6a6ba6d4fcc286c3d0d3e4a3d9da442484ae61ffa38e1753"
+        "sha256": "e61c4083eed28dc3d677df61c73369d416708eceb26268f8573ee0f0698428fb",
+        "version": "e61c4083eed28dc3d677df61c73369d416708eceb26268f8573ee0f0698428fb"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -1622,11 +1622,11 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_commit": "839ab57f22ec59288009fd38bceea8bb9ffb9d10a33a903a64e9bec69e21ef24",
-        "last_updated": "2026-10-13T10:39:01.012376+08:00",
+        "last_commit": "01c051fb5e65a00eb6753da44144f75bf1fdfe4a70b9148f007c9f7f4d5f9f21",
+        "last_updated": "2026-10-14T00:21:58.321972+08:00",
         "name": "All seminar_en.json",
-        "sha256": "839ab57f22ec59288009fd38bceea8bb9ffb9d10a33a903a64e9bec69e21ef24",
-        "version": "839ab57f22ec59288009fd38bceea8bb9ffb9d10a33a903a64e9bec69e21ef24"
+        "sha256": "01c051fb5e65a00eb6753da44144f75bf1fdfe4a70b9148f007c9f7f4d5f9f21",
+        "version": "01c051fb5e65a00eb6753da44144f75bf1fdfe4a70b9148f007c9f7f4d5f9f21"
       },
       {
         "last_commit": "a343a5ee1e45996149d17190abab89199144f7cd3b0ee28a31634a26609c67fd",
@@ -1650,11 +1650,11 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_commit": "e5c0903940eea2a4d48b00804a4993bf3590f9ca81bce4564f1332e07a3870bc",
-        "last_updated": "2026-10-13T10:39:01.012376+08:00",
+        "last_commit": "a525e2ee4e8eb930acb86bb7d4a8361650bc3946deaaa2fdf71cf042c2bf1253",
+        "last_updated": "2026-10-14T00:21:58.321972+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "e5c0903940eea2a4d48b00804a4993bf3590f9ca81bce4564f1332e07a3870bc",
-        "version": "e5c0903940eea2a4d48b00804a4993bf3590f9ca81bce4564f1332e07a3870bc"
+        "sha256": "a525e2ee4e8eb930acb86bb7d4a8361650bc3946deaaa2fdf71cf042c2bf1253",
+        "version": "a525e2ee4e8eb930acb86bb7d4a8361650bc3946deaaa2fdf71cf042c2bf1253"
       },
       {
         "last_commit": "a49f356157c83614872c4acacc51e1fcadc91fd66c66c0013a05cd20d06fa27f",
@@ -3329,11 +3329,11 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_commit": "5dd71885206ece9203fa70a3fd31ac56f8bc732bc8d423d59abc080fc418e944",
-        "last_updated": "2026-10-13T00:20:50.199780+08:00",
+        "last_commit": "4a43c77bd0d7d124e9078ab89792182505d166c3b1c0dbc828bdb773c3c9f62f",
+        "last_updated": "2026-10-14T00:21:58.321972+08:00",
         "name": "rss.json",
-        "sha256": "5dd71885206ece9203fa70a3fd31ac56f8bc732bc8d423d59abc080fc418e944",
-        "version": "5dd71885206ece9203fa70a3fd31ac56f8bc732bc8d423d59abc080fc418e944"
+        "sha256": "4a43c77bd0d7d124e9078ab89792182505d166c3b1c0dbc828bdb773c3c9f62f",
+        "version": "4a43c77bd0d7d124e9078ab89792182505d166c3b1c0dbc828bdb773c3c9f62f"
       }
     ],
     "maps": [
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-13T20:31:16.453406+08:00"
+  "last_updated": "2026-10-14T00:21:58.321972+08:00"
 }
