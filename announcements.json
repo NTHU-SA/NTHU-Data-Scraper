@@ -89,6 +89,11 @@
         "department": "主計室",
         "articles": [
             {
+                "title": "【重要通知】「領據系統」配合網路請購系統同步暫停使用",
+                "link": "https://account.site.nthu.edu.tw/p/406-1054-316213,r1160.php?Lang=zh-tw",
+                "date": "2026-10-13"
+            },
+            {
                 "title": "【重要通知】網路請購主機115/10/29(四)上午8:00至10/30(五)上午8:00暫停服務",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-316089,r1160.php?Lang=zh-tw",
                 "date": "2026-10-12"
@@ -142,11 +147,6 @@
                 "title": "【更新】建教合作與國科會補助專題研究計畫結餘款分配表，請使用新表單送件",
                 "link": "https://account.site.nthu.edu.tw/p/406-1054-269906,r1160.php?Lang=zh-tw",
                 "date": "2024-06-04"
-            },
-            {
-                "title": "依據「112年度預算分配(不含深耕計畫)執行注意事項」規定，本年度各院系分配之設備費，11 月底前應完成發包簽約，未完成者收回學校統籌運用",
-                "link": "https://account.site.nthu.edu.tw/p/406-1054-258042,r1160.php?Lang=zh-tw",
-                "date": "2023-11-01"
             }
         ]
     },
@@ -8717,6 +8717,21 @@
         "department": "學務處課外活動組(蒙民偉樓2樓)",
         "articles": [
             {
+                "title": "「2026年全民e化資訊運動會」",
+                "link": "https://dsa.site.nthu.edu.tw/p/406-1266-316232,r6890.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "「第二屆臺北市青年事務諮詢委員會」青年委員招募",
+                "link": "https://dsa.site.nthu.edu.tw/p/406-1266-316230,r6890.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "教育部青年發展署「獎勵青年自組團隊參與志工服務行動計畫」最高獎勵金5萬元，6人即可組隊申請！",
+                "link": "https://dsa.site.nthu.edu.tw/p/406-1266-316212,r6890.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "「全國科學議題桌遊設計創意實作競賽」",
                 "link": "https://dsa.site.nthu.edu.tw/p/406-1266-316192,r6890.php?Lang=zh-tw",
                 "date": ""
@@ -8759,21 +8774,6 @@
             {
                 "title": "2026年全國智慧運算與量子資訊創新應用競賽",
                 "link": "https://dsa.site.nthu.edu.tw/p/406-1266-316092,r6890.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "「2026全國大專校院品牌行銷暨智慧創意競賽」發揮品牌創意，挑戰行銷企劃實力！",
-                "link": "https://dsa.site.nthu.edu.tw/p/406-1266-316004,r6890.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "「2026青年數位倡議大使」",
-                "link": "https://dsa.site.nthu.edu.tw/p/406-1266-315935,r6890.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "115年度臺灣女孩日",
-                "link": "https://dsa.site.nthu.edu.tw/p/406-1266-315892,r6890.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -9657,6 +9657,11 @@
                 "date": "2026-07-21"
             },
             {
+                "title": "【公告】美商科林研發 Lam Research 「2026 清大學長姐職涯講座」活動",
+                "link": "https://ene.site.nthu.edu.tw/p/406-1180-316214,r3119.php?Lang=zh-tw",
+                "date": "2026-10-13"
+            },
+            {
                 "title": "【公告】116學年度台灣聯大學生出國計畫(I)-電子所辦截止日為12/7(一)16:00",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-316174,r3119.php?Lang=zh-tw",
                 "date": "2026-10-13"
@@ -9684,11 +9689,6 @@
             {
                 "title": "【公告】Project TYRA - 2026/10/03 奈米光子學專題演講",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-315270,r3119.php?Lang=zh-tw",
-                "date": "2026-09-30"
-            },
-            {
-                "title": "【公告】來就有獎！iTechCon 五重好禮帶回家🎁｜技術洞察 × 產業交流 × 豐富好禮🔥立即報名EE前瞻技術大會‼️",
-                "link": "https://ene.site.nthu.edu.tw/p/406-1180-315269,r3119.php?Lang=zh-tw",
                 "date": "2026-09-30"
             }
         ]
@@ -15198,7 +15198,12 @@
                 "date": ""
             },
             {
-                "title": "【校園】",
+                "title": "【校園】美商科林研發 Lam Research 「2026 清大學長姐職涯講座」活動資訊",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-316215,r11637.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【校園】第6屆清華學生永續解方提案",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-316076,r11637.php?Lang=zh-tw",
                 "date": ""
             },
@@ -15245,11 +15250,6 @@
             {
                 "title": "【校園】2027 台積電預辦登積計畫｜校園徵才活動",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-314069,r11637.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【校園】清華大學 x 台積電 【半導體製成模組學程說明會】報名中!",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-314068,r11637.php?Lang=zh-tw",
                 "date": ""
             }
         ]
