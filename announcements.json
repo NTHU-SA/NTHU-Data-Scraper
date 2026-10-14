@@ -2483,6 +2483,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學清華光罩教育研究中心誠徵計畫助理1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-316253,r5075.php?Lang=zh-tw",
+                "date": "2026-10-14"
+            },
+            {
                 "title": "【徵才】國立清華大學原住民族科學發展中心誠徵專任計畫助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-311441,r5075.php?Lang=zh-tw",
                 "date": "2026-10-12"
@@ -2535,11 +2540,6 @@
             {
                 "title": "【徵才】國立清華大學物理學系誠徵技術組員1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-315410,c0.php?Lang=zh-tw",
-                "date": "2026-10-01"
-            },
-            {
-                "title": "【徵才】國立清華大學科技管理學院EMBA雙聯在職專班徵專任助理",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-309238,r5075.php?Lang=zh-tw",
                 "date": "2026-10-01"
             }
         ]
@@ -9836,6 +9836,11 @@
         "department": "電機資訊學院電子工程研究所",
         "articles": [
             {
+                "title": "115/10/16(五)演講公告:The Interplay between Memory,Compute and Algorithm in AI Era",
+                "link": "https://ene.site.nthu.edu.tw/p/406-1180-316255,r3124.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "115/10/02(五)演講公告:Evolution of AI Era and Data Storage, How Our Engineer Work with AI",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-315145,r3124.php?Lang=zh-tw",
                 "date": ""
@@ -9888,11 +9893,6 @@
             {
                 "title": "115/03/27(五)演講公告 : uLED for Si Photonics",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-305308,r3124.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "115/03/20(五)演講公告 :「40 Years Frienemies: Intel vs TSMC」",
-                "link": "https://ene.site.nthu.edu.tw/p/406-1180-304862,r3124.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -16622,6 +16622,16 @@
         "department": "電機資訊學院光電工程研究所",
         "articles": [
             {
+                "title": "【活動訊息】光電所書報討論&光電所全師生跨界講座特別企劃 2026/10/23 14:20-16:30@台達館217",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-316254,r10062.php",
+                "date": ""
+            },
+            {
+                "title": "光電所 書報討論 2026/10/16 14:20-16:30@台達館217",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-316252,r10062.php",
+                "date": ""
+            },
+            {
                 "title": "光電所 書報討論 2026/10/2 14:20-16:30@台達館217",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-315079,r10062.php",
                 "date": ""
@@ -16670,16 +16680,6 @@
                 "title": "光電所 書報討論 2026/05/08 14:20-16:30 @台達R217",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-307981,r10062.php",
                 "date": ""
-            },
-            {
-                "title": "光電所 書報討論 2026/04/24 14:20-16:30 @台達R217",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-307065,r10062.php",
-                "date": ""
-            },
-            {
-                "title": "光電所 書報討論 2026/04/10 14:20-16:30 @台達R217",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-306043,r10062.php",
-                "date": ""
             }
         ]
     },
@@ -16692,6 +16692,11 @@
             {
                 "title": "【活動訊息】2026/12/4-6「(OPTIC 2026)暨國科會光電學門發表會」在清華 2026 Optics & Photonics Taiwan International Conference @ NTHU",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-307727,r10063.php",
+                "date": ""
+            },
+            {
+                "title": "【活動訊息】光電所書報討論&光電所全師生跨界講座特別企劃 2026/10/23 14:20-16:30@台達館217",
+                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-316254,r10063.php",
                 "date": ""
             },
             {
@@ -16742,11 +16747,6 @@
             {
                 "title": "【競賽訊息】〈5G-A通訊天線趨勢與技術交流會〉開放延長至報名4/23(三)下午17:30",
                 "link": "https://ipt.site.nthu.edu.tw/p/406-1571-287147,r10063.php",
-                "date": ""
-            },
-            {
-                "title": "【競賽訊息】「2025 FPGA智慧運算與終端節點創意應用競賽」活動開跑！歡迎師生組隊參加！線上說明會4月18日(五)早上11:00",
-                "link": "https://ipt.site.nthu.edu.tw/p/406-1571-287142,r10063.php",
                 "date": ""
             }
         ]
