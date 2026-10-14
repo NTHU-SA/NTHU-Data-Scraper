@@ -2,11 +2,11 @@
   "file_details": {
     "/": [
       {
-        "last_commit": "1ed432c0d020f1e6f7ac37d409618ef0b15f7455099b388c87b805c07a479c69",
-        "last_updated": "2026-10-14T16:25:49.196087+08:00",
+        "last_commit": "69c278b0811fb8e2c64eab1f667e5657410de436431213bfd055071dc0d8ee04",
+        "last_updated": "2026-10-14T18:19:38.017850+08:00",
         "name": "announcements.json",
-        "sha256": "1ed432c0d020f1e6f7ac37d409618ef0b15f7455099b388c87b805c07a479c69",
-        "version": "1ed432c0d020f1e6f7ac37d409618ef0b15f7455099b388c87b805c07a479c69"
+        "sha256": "69c278b0811fb8e2c64eab1f667e5657410de436431213bfd055071dc0d8ee04",
+        "version": "69c278b0811fb8e2c64eab1f667e5657410de436431213bfd055071dc0d8ee04"
       },
       {
         "last_commit": "aca3644ec77b6ed04bd583c693a180c410f509907704a5377fcd961fed946908",
@@ -613,11 +613,11 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_commit": "7a88d3021173785592944050a6e37c594efc53663b746e625274b350566fb60b",
-        "last_updated": "2026-10-14T10:24:53.917015+08:00",
+        "last_commit": "17d95d63378f5670784f39e66d649613c6c8edc621659305406f92816aa63c7b",
+        "last_updated": "2026-10-14T18:19:38.017850+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "7a88d3021173785592944050a6e37c594efc53663b746e625274b350566fb60b",
-        "version": "7a88d3021173785592944050a6e37c594efc53663b746e625274b350566fb60b"
+        "sha256": "17d95d63378f5670784f39e66d649613c6c8edc621659305406f92816aa63c7b",
+        "version": "17d95d63378f5670784f39e66d649613c6c8edc621659305406f92816aa63c7b"
       },
       {
         "last_commit": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600",
@@ -636,11 +636,11 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_commit": "d95a4cff81a4e9e38ed541b0ed27601c2f352947102f43b8f265afe50d5a9a53",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "e54aa2748005cb93efe510352ccdecf0e463003b52f52144a2d6bb28527ef81e",
+        "last_updated": "2026-10-14T18:19:38.017850+08:00",
         "name": "中心公告_zh-tw.json",
-        "sha256": "d95a4cff81a4e9e38ed541b0ed27601c2f352947102f43b8f265afe50d5a9a53",
-        "version": "d95a4cff81a4e9e38ed541b0ed27601c2f352947102f43b8f265afe50d5a9a53"
+        "sha256": "e54aa2748005cb93efe510352ccdecf0e463003b52f52144a2d6bb28527ef81e",
+        "version": "e54aa2748005cb93efe510352ccdecf0e463003b52f52144a2d6bb28527ef81e"
       },
       {
         "last_commit": "b505818cafb19105ee5c045c0c9daf24a1e95eceb5d864c9c3fc406488e137ec",
@@ -1671,18 +1671,18 @@
         "version": "2a59eb8222c12bdce96add375e678386abb69ea005cb7699967abf9d057b86cc"
       },
       {
-        "last_commit": "51c78d5ff66f9fc24eea37b3f049bdd4db4f79081e0c20805a670e4bb8e46dc6",
-        "last_updated": "2026-10-06T10:29:53.525059+08:00",
+        "last_commit": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380",
+        "last_updated": "2026-10-14T18:19:38.017850+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "51c78d5ff66f9fc24eea37b3f049bdd4db4f79081e0c20805a670e4bb8e46dc6",
-        "version": "51c78d5ff66f9fc24eea37b3f049bdd4db4f79081e0c20805a670e4bb8e46dc6"
+        "sha256": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380",
+        "version": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380"
       },
       {
-        "last_commit": "79b55e52d0299a277cc241f739319254ddfe3955ce296129e992723c568599c0",
-        "last_updated": "2026-10-12T16:41:31.782888+08:00",
+        "last_commit": "bcb2b2ec13e23948b5dbd41e580b049d8f0156d034b866e44c1b2a259e19c6ae",
+        "last_updated": "2026-10-14T18:19:38.017850+08:00",
         "name": "系辦公告_zh-tw.json",
-        "sha256": "79b55e52d0299a277cc241f739319254ddfe3955ce296129e992723c568599c0",
-        "version": "79b55e52d0299a277cc241f739319254ddfe3955ce296129e992723c568599c0"
+        "sha256": "bcb2b2ec13e23948b5dbd41e580b049d8f0156d034b866e44c1b2a259e19c6ae",
+        "version": "bcb2b2ec13e23948b5dbd41e580b049d8f0156d034b866e44c1b2a259e19c6ae"
       }
     ],
     "announcements/環境保護暨安全衛生中心": [
@@ -2008,11 +2008,11 @@
         "version": "a3eae98ed0a541efb78aa44595814f999085e4c3f00896b4640b1b6e12fee23e"
       },
       {
-        "last_commit": "8ffeb9d565625e493561193665f36e52e15144ae5f63113ec46ff505ca3c0b8d",
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_commit": "63fc034810737301c51a0eb641a65dbc7d62b049bdb2cf40244fcc35a29d9b50",
+        "last_updated": "2026-10-14T18:19:38.017850+08:00",
         "name": "研究倫理審查事項公告 REC Review Information_zh-tw.json",
-        "sha256": "8ffeb9d565625e493561193665f36e52e15144ae5f63113ec46ff505ca3c0b8d",
-        "version": "8ffeb9d565625e493561193665f36e52e15144ae5f63113ec46ff505ca3c0b8d"
+        "sha256": "63fc034810737301c51a0eb641a65dbc7d62b049bdb2cf40244fcc35a29d9b50",
+        "version": "63fc034810737301c51a0eb641a65dbc7d62b049bdb2cf40244fcc35a29d9b50"
       },
       {
         "last_commit": "109bdb361ed0b9361ba37a325fae25717ab0606f9ca991cab3f39b6877245132",
@@ -3390,5 +3390,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-14T16:25:49.196087+08:00"
+  "last_updated": "2026-10-14T18:19:38.017850+08:00"
 }
