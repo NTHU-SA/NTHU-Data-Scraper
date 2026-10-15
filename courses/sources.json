@@ -12,7 +12,12 @@
             "records": 3043,
             "semesters": [
                 "11510"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/latest.json",
+                "sha256": "d9c4cb03dfb99dc2f702049d4f61211555eb2b096b0d78dabab7ab616cf2a3f0",
+                "schema_version": 1
+            }
         }
     ],
     "conflicts": {},
