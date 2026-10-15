@@ -19,7 +19,12 @@
                 "10920",
                 "11010",
                 "11020"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/108-110.json",
+                "sha256": "361e64c06812fd670618f584974e70701665257eba95fd84132744feb67a5072",
+                "schema_version": 1
+            }
         },
         {
             "id": "10820",
@@ -32,7 +37,12 @@
             "records": 2652,
             "semesters": [
                 "10820"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/10820.json",
+                "sha256": "9147bc492b2679d53f82e559cf4c6b6b358fd9c2880545554abae748e2026f1c",
+                "schema_version": 1
+            }
         },
         {
             "id": "10910-11110",
@@ -49,7 +59,12 @@
                 "11010",
                 "11020",
                 "11110"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/10910-11110.json",
+                "sha256": "cf739f09d98c14eb71ee09d8a7592503a82879c53e8a82cddc89dc9636d8e179",
+                "schema_version": 1
+            }
         },
         {
             "id": "111-113",
@@ -71,7 +86,12 @@
                 "11220",
                 "11310",
                 "11320"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/111-113.json",
+                "sha256": "4dddcee57d76591a120ae1c03164d34de8e0652b82c51510db32a3e9527d282f",
+                "schema_version": 1
+            }
         },
         {
             "id": "11120-11220",
@@ -86,7 +106,12 @@
                 "11120",
                 "11210",
                 "11220"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/11120-11220.json",
+                "sha256": "461c66c156193ea98c2cd495b313974e127ef1c8530c589b307c2854f0097876",
+                "schema_version": 1
+            }
         },
         {
             "id": "11410",
@@ -103,7 +128,12 @@
             "records": 3017,
             "semesters": [
                 "11410"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/11410.json",
+                "sha256": "88945530127f9b238cab389166c4af5a01fae317b74927b8acd981bc6a8421f1",
+                "schema_version": 1
+            }
         },
         {
             "id": "latest",
@@ -116,7 +146,12 @@
             "records": 3043,
             "semesters": [
                 "11510"
-            ]
+            ],
+            "converted": {
+                "path": "raw/converted/latest.json",
+                "sha256": "d9c4cb03dfb99dc2f702049d4f61211555eb2b096b0d78dabab7ab616cf2a3f0",
+                "schema_version": 1
+            }
         }
     ],
     "conflicts": {
@@ -142,6 +177,15 @@
             }
         }
     ],
+    "retained_published_snapshots": [
+        {
+            "id": "retained-11420",
+            "semester": "11420",
+            "path": "raw/retained-11420.json",
+            "sha256": "2bb533ef25550676f612b1059097ca72f81291cfab13f8b57143bb72c9ac3b20",
+            "records": 2896
+        }
+    ],
     "semesters": [
         "10810",
         "10820",
@@ -156,11 +200,12 @@
         "11310",
         "11320",
         "11410",
+        "11420",
         "11510"
     ],
-    "missing_regular_semesters": [
-        "11420"
-    ],
+    "missing_regular_semesters": [],
     "normalized_records": 40743,
+    "retained_records": 2896,
+    "published_records": 43639,
     "parsing_issue_records": 13
 }
