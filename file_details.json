@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-15T20:27:55.231710+08:00",
+        "last_updated": "2026-10-16T00:19:52.117012+08:00",
         "name": "announcements.json",
-        "sha256": "24b0fc68787c51023d54452bfd41232afc568bc22d95fe99b85640537680ce8d",
-        "version": "24b0fc68787c51023d54452bfd41232afc568bc22d95fe99b85640537680ce8d"
+        "sha256": "bf2a27e5264b65fa91fc74fd0f94e31608519a399a884544c0cebb2c8d13ff27",
+        "version": "bf2a27e5264b65fa91fc74fd0f94e31608519a399a884544c0cebb2c8d13ff27"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -84,10 +84,10 @@
         "version": "4be9e2b9ec33ef613cd913ac6846793be2e845b03272a0431f42c54d742ac9f5"
       },
       {
-        "last_updated": "2026-10-15T16:03:58.770131+08:00",
+        "last_updated": "2026-10-16T00:19:52.117012+08:00",
         "name": "活動訊息_zh-tw.json",
-        "sha256": "30373a88ab8541831a960292d30af240d63f3d0a32a58b5ea32ade46ea657318",
-        "version": "30373a88ab8541831a960292d30af240d63f3d0a32a58b5ea32ade46ea657318"
+        "sha256": "fc25db4847bd42109dd334fcc18ea09319a8c25f84d413e671f71b5757b5921e",
+        "version": "fc25db4847bd42109dd334fcc18ea09319a8c25f84d413e671f71b5757b5921e"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-10-15T10:25:10.526191+08:00",
+        "last_updated": "2026-10-16T00:19:52.117012+08:00",
         "name": "All seminar_en.json",
-        "sha256": "1d8d3b4bc77a1981f4475f4b769d12f887ec9d645feb93f80e1d8bedc7464480",
-        "version": "1d8d3b4bc77a1981f4475f4b769d12f887ec9d645feb93f80e1d8bedc7464480"
+        "sha256": "83f154a2362e9d439128a4202e9f10c398312cf5a9ef8715464e4886cf9b9104",
+        "version": "83f154a2362e9d439128a4202e9f10c398312cf5a9ef8715464e4886cf9b9104"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-10-15T10:25:10.526191+08:00",
+        "last_updated": "2026-10-16T00:19:52.117012+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "7368d5e7054d3415b92e965d1535005de16073fa4913e8a4b489b1c473d1b80c",
-        "version": "7368d5e7054d3415b92e965d1535005de16073fa4913e8a4b489b1c473d1b80c"
+        "sha256": "f2231e93b4bb93cdb9c16eea76f346c1d1d77b780425a6907529d7bfa388a39c",
+        "version": "f2231e93b4bb93cdb9c16eea76f346c1d1d77b780425a6907529d7bfa388a39c"
       },
       {
         "last_updated": "2026-10-06T10:29:53.525059+08:00",
@@ -2422,10 +2422,10 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_updated": "2026-10-10T00:20:31.002678+08:00",
+        "last_updated": "2026-10-16T00:19:52.117012+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "3912906e466122c017eec7c2757751e704037167e75737928b25cf015e84c3c0",
-        "version": "3912906e466122c017eec7c2757751e704037167e75737928b25cf015e84c3c0"
+        "sha256": "da21d0b035199ff87770ea91e408fa484b41d67aa8ec1161e1fc51d3105cda22",
+        "version": "da21d0b035199ff87770ea91e408fa484b41d67aa8ec1161e1fc51d3105cda22"
       }
     ],
     "announcements/藝文總中心": [
@@ -2974,10 +2974,10 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_updated": "2026-10-15T16:03:58.770131+08:00",
+        "last_updated": "2026-10-16T00:19:52.117012+08:00",
         "name": "rss.json",
-        "sha256": "2f28d265c3ca334c4e30a2a29b00b9a56de9ce53fdf132d3ef16d38af9f7c092",
-        "version": "2f28d265c3ca334c4e30a2a29b00b9a56de9ce53fdf132d3ef16d38af9f7c092"
+        "sha256": "da41d4864c1815380e4624e61f8b0f33fcf48d5b87df521074fd51bcfc47a806",
+        "version": "da41d4864c1815380e4624e61f8b0f33fcf48d5b87df521074fd51bcfc47a806"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-15T20:27:55.231710+08:00"
+  "last_updated": "2026-10-16T00:19:52.117012+08:00"
 }
