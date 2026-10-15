@@ -132,15 +132,31 @@ newest meaningful file timestamp and therefore remains stable when no dataset
 changes.
 
 Publishing controls (`file_details.json`, `index.html`, `.nojekyll`, and
-`CNAME`) are excluded from the inventory. For backward compatibility:
+`CNAME`) are excluded from the inventory. Content versions use:
 
 ```text
-last_commit == version == sha256
+sha256 == version == SHA-256 of the exact file bytes
 ```
 
-NTHU-Data-API treats `last_commit` as an opaque cache identity. It is no longer
-necessarily a Git commit SHA. The generated index displays a SHA-256 prefix and
-does not create Git commit links from content hashes.
+`sha256` is for verifying exact file contents; `version` is for cache identities
+and version management. Their values are currently identical, but the fields
+have separate purposes. The former `last_commit` field is removed. Consumers
+that used it as an opaque cache identity, including NTHU-Data-API, must read
+`version` instead. During migration,
+the generator can still read an old 64-character content hash from `sha256` or
+`last_commit` to preserve unchanged files' update times; it does not treat a
+legacy 40-character Git SHA as a content hash.
+
+The generated index displays a `version` prefix, without using `sha256` as a
+fallback, and links each update time to
+`/commits/data/<file-path>` in the source repository. This opens the file's
+branch history, not a specific immutable commit, and never uses content hashes
+as Git commit IDs. Dataset, inventory, and home URLs resolve from the website
+root to avoid duplicated directory prefixes when viewing a nested URL.
+
+The existing generated-only publication rule also applies to this metadata
+migration and index changes: they publish alongside the next actual dataset
+change, not in a standalone publishing-controls commit.
 
 ## Dependency management
 
