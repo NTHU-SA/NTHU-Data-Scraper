@@ -1,4 +1,4 @@
-"""Lossless source adapters and additive course normalization."""
+"""Two-stage official course conversion, normalization, and publication."""
 
 import hashlib
 import html
@@ -8,7 +8,7 @@ import math
 import os
 import re
 import tempfile
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from dataclasses import field as dataclass_field
 from io import BytesIO
 from pathlib import Path
@@ -18,7 +18,43 @@ from openpyxl import load_workbook
 
 logger = logging.getLogger(__name__)
 
-COURSE_INDEX_URL = "https://curricul.site.nthu.edu.tw/p/404-1208-111356.php?Lang=zh-tw"
+FIELD_MAPPING = {
+    "id": ["科號"],
+    "chinese_title": ["課程中文名稱", "中文課名"],
+    "english_title": ["課程英文名稱", "英文課名"],
+    "credit": ["學分數", "學分"],
+    "time": ["上課時間"],
+    "classroom": ["教室"],
+    "class_room_and_time": ["教室與上課時間"],
+    "lecturer": ["授課教師", "教師姓名", "教師"],
+    "size_limit": ["人限"],
+    "student_count": ["總人數"],
+    "language": ["授課語言"],
+    "note": ["備註", "備註欄"],
+    "suspend": ["停開註記"],
+    "limit_note": ["課程限制說明"],
+    "freshman_reservation": ["新生保留人數"],
+    "object": ["開課對象", "選課限制條件"],
+    "ge_type": ["通識對象"],
+    "ge_category": ["通識分類", "通識類別"],
+    "prerequisite": ["擋修說明"],
+    "expertise": ["第一二專長對應"],
+    "program": ["學分學程對應"],
+    "no_extra_selection": ["不可加簽說明"],
+    "required_optional_note": ["必選修說明", "此課程已列入之系所班別"],
+}
+PUBLIC_TEXT_FIELDS = (
+    "id",
+    "chinese_title",
+    "english_title",
+    "note",
+    "limit_note",
+    "object",
+    "ge_type",
+    "ge_category",
+    "no_extra_selection",
+)
+CONVERTED_VERSION = 1
 
 
 @dataclass(frozen=True)
@@ -117,7 +153,8 @@ def text(value: Any) -> str:
 
 
 def display_text(value: Any) -> str:
-    return re.sub(r"\s+", " ", html.unescape(text(value))).strip()
+    value = re.sub(r"<br\s*/?>", " ", text(value), flags=re.IGNORECASE)
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
 
 def decode_json(body: bytes) -> list[dict[str, Any]]:
@@ -248,7 +285,7 @@ def read_source(body: bytes, source: CourseSource) -> list[SourceRecord]:
 
 
 def canonical_fields(
-    values: dict[str, Any], mapping: dict[str, list[str]]
+    values: dict[str, Any], mapping: dict[str, list[str]] = FIELD_MAPPING
 ) -> dict[str, Any]:
     aliases = {
         **{
@@ -271,11 +308,86 @@ def canonical_fields(
     return result
 
 
+def convert_source(body: bytes, source: CourseSource) -> dict[str, Any]:
+    """Extract source records without renaming or cleaning their field values."""
+    return {
+        "schema_version": CONVERTED_VERSION,
+        "source_id": source.id,
+        "format": source.format,
+        "sha256": hashlib.sha256(body).hexdigest(),
+        "records": [asdict(record) for record in read_source(body, source)],
+    }
+
+
+def converted_records(document: Any, source: CourseSource) -> list[SourceRecord]:
+    """Validate a stage-one document before it enters normalization."""
+    if (
+        not isinstance(document, dict)
+        or set(document)
+        != {"schema_version", "source_id", "format", "sha256", "records"}
+        or type(document["schema_version"]) is not int
+        or document["schema_version"] != CONVERTED_VERSION
+        or document["source_id"] != source.id
+        or document["format"] != source.format
+        or not isinstance(document["sha256"], str)
+        or re.fullmatch(r"[a-f0-9]{64}", document["sha256"]) is None
+        or not isinstance(document["records"], list)
+        or not document["records"]
+    ):
+        raise ValueError(f"{source.id}: invalid converted course document")
+    records = []
+    for record in document["records"]:
+        if (
+            not isinstance(record, dict)
+            or set(record) != {"values", "origin", "field_origins"}
+            or not isinstance(record["values"], dict)
+            or not isinstance(record["field_origins"], dict)
+        ):
+            raise ValueError(f"{source.id}: invalid converted course record")
+        for origin in (record["origin"], *record["field_origins"].values()):
+            expected_keys = (
+                {"source_id", "row", "sheet"}
+                if source.format == "xlsx"
+                else {"source_id", "row"}
+            )
+            if (
+                not isinstance(origin, dict)
+                or set(origin) != expected_keys
+                or origin["source_id"] != source.id
+                or type(origin["row"]) is not int
+                or origin["row"] < 1
+                or (
+                    source.format == "xlsx"
+                    and origin["sheet"] not in (*source.sheets, "1141110教師data")
+                )
+            ):
+                raise ValueError(f"{source.id}: invalid converted record origin")
+        records.append(SourceRecord(**record))
+    return records
+
+
 def merge_sources(
-    inputs: dict[str, bytes], mapping: dict[str, list[str]]
+    inputs: dict[str, bytes], mapping: dict[str, list[str]] = FIELD_MAPPING
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    return merge_converted_sources(
+        {key: convert_source(body, source_for_id(key)) for key, body in inputs.items()},
+        mapping,
+    )
+
+
+def merge_converted_sources(
+    inputs: dict[str, dict[str, Any]],
+    mapping: dict[str, list[str]] = FIELD_MAPPING,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    records_by_source = {
+        key: converted_records(document, source_for_id(key))
+        for key, document in inputs.items()
+    }
     current_semesters = (
-        {course_key(row.get("科號"))[:5] for row in decode_json(inputs["latest"])}
+        {
+            course_key(record.values.get("科號"))[:5]
+            for record in records_by_source["latest"]
+        }
         if "latest" in inputs
         else set()
     )
@@ -291,8 +403,8 @@ def merge_sources(
         (source_for_id(key) for key in inputs),
         key=lambda item: (-item.priority, item.id),
     ):
-        body = inputs[source.id]
-        records = read_source(body, source)
+        document = inputs[source.id]
+        records = records_by_source[source.id]
         if ARCHIVED_LATEST_ID.fullmatch(source.id):
             records = [
                 record
@@ -374,7 +486,7 @@ def merge_sources(
                 "id": source.id,
                 "url": source.url,
                 "path": f"raw/{source.filename}",
-                "sha256": hashlib.sha256(body).hexdigest(),
+                "sha256": document["sha256"],
                 "format": source.format,
                 "sheets": list(source.sheets),
                 "supplemental_sheets": sorted(
@@ -583,10 +695,7 @@ def structured_fields(
         "college_name": text(values.get("college_name")) or None,
         "course_level_code": text(values.get("course_level_code")) or None,
         "course_level": text(values.get("course_level")) or None,
-        "source_semester": text(values.get("source_semester")) or None,
         "remote_teaching": text(values.get("remote_teaching")) or None,
-        "lecturer_names_zh": text(values.get("lecturer_names_zh")) or None,
-        "lecturer_names_en": text(values.get("lecturer_names_en")) or None,
         "credits": number(values.get("credit"), "credit", issues),
         "capacity": capacity_number,
         "capacity_unlimited": (
@@ -639,8 +748,8 @@ def structured_fields(
     if match is None:
         issues.append("Course ID does not match the documented full course format")
     if (
-        result["source_semester"]
-        and result["source_semester"] != result["semester_code"]
+        text(values.get("source_semester"))
+        and text(values["source_semester"]) != result["semester_code"]
     ):
         issues.append("Source semester disagrees with course ID")
     if issues:
@@ -656,6 +765,34 @@ def structured_fields(
             sorted(source_rows) if source_rows else None,
         )
     return result
+
+
+def normalize_course(
+    values: dict[str, Any], origins: dict[str, dict[str, Any]] | None = None
+) -> dict[str, Any]:
+    identifier = text(values.get("id"))
+    course_key(identifier)
+    result = {field: display_text(values.get(field)) for field in PUBLIC_TEXT_FIELDS}
+    if not (result["chinese_title"] or result["english_title"]):
+        raise ValueError(
+            f"Course {identifier!r} has no usable course identity or title"
+        )
+    result["id"] = identifier
+    result.update(structured_fields(values, origins))
+    validate_standard_course(result)
+    return result
+
+
+def group_courses(data: Any) -> dict[str, list[dict[str, Any]]]:
+    if not isinstance(data, list) or not data:
+        raise ValueError("Course collection must be a non-empty list")
+    semesters: dict[str, list[dict[str, Any]]] = {}
+    for index, row in enumerate(data):
+        if not isinstance(row, dict):
+            raise ValueError(f"Course record {index} must be an object")
+        course = normalize_course(canonical_fields(row))
+        semesters.setdefault(course["semester_code"], []).append(course)
+    return semesters
 
 
 def write_source_atomic(body: bytes, path: Path) -> None:
@@ -710,14 +847,18 @@ def load_archives(
         path = folder / "raw" / source.filename
         if not path.exists():
             if require_all or source.id in previous:
-                raise FileNotFoundError(f"Missing course archive {path}; run backfill")
+                raise FileNotFoundError(
+                    f"Missing course archive {path}; restore it with course_tool import"
+                )
             continue
         body = path.read_bytes()
         if (
             source.id in previous
             and hashlib.sha256(body).hexdigest() != previous[source.id]["sha256"]
         ):
-            raise ValueError(f"Course archive checksum mismatch: {path}; run backfill")
+            raise ValueError(
+                f"Course archive checksum mismatch: {path}; restore it with course_tool import"
+            )
         inputs[source.id] = body
     return inputs
 
@@ -773,27 +914,183 @@ def validate_retained_snapshot(body: bytes, semester: str) -> int:
     return len(rows)
 
 
+def normalize_retained_snapshot(body: bytes, semester: str) -> list[dict[str, Any]]:
+    validate_retained_snapshot(body, semester)
+    result = []
+    for row in json.loads(body):
+        values = {
+            key: row[key] for key in (*FIELD_MAPPING, *EXTRA_FIELDS) if key in row
+        }
+        course = normalize_course(values)
+        # Published snapshots may already contain structured values that cannot
+        # be recovered from their legacy display strings.
+        for field in course.keys() - set(PUBLIC_TEXT_FIELDS):
+            if field in row:
+                if field == "parsing_issues":
+                    if not isinstance(row[field], list) or not all(
+                        isinstance(issue, str) for issue in row[field]
+                    ):
+                        raise ValueError(
+                            f"Invalid retained parsing issues: {course['id']}"
+                        )
+                    course[field] = list(dict.fromkeys([*row[field], *course[field]]))
+                else:
+                    course[field] = row[field]
+        validate_standard_course(course)
+        result.append(course)
+    return result
+
+
+def validate_standard_course(course: dict[str, Any]) -> None:
+    nullable_text = (
+        "department_code",
+        "course_number",
+        "department_name",
+        "college_name",
+        "course_level_code",
+        "course_level",
+        "remote_teaching",
+        "language_code",
+    )
+    numeric = (
+        "credits",
+        "capacity",
+        "enrolled_count",
+        "enrollment_after_selection",
+        "enrollment_after_withdrawal",
+        "reserved_for_freshmen",
+    )
+    boolean = ("capacity_unlimited", "is_cancelled")
+    collections = {
+        "lecturers",
+        "meetings",
+        "expertises",
+        "programs",
+        "curriculum_requirements",
+        "parsing_issues",
+    }
+    expected = {
+        *PUBLIC_TEXT_FIELDS,
+        *nullable_text,
+        *numeric,
+        *boolean,
+        *collections,
+        "semester_code",
+        "prerequisite_text",
+    }
+    valid = set(course) == expected
+    valid = valid and all(
+        isinstance(course[field], str)
+        for field in (*PUBLIC_TEXT_FIELDS, "semester_code", "prerequisite_text")
+    )
+    valid = valid and all(
+        course[field] is None or isinstance(course[field], str)
+        for field in nullable_text
+    )
+    valid = valid and all(
+        course[field] is None
+        or (
+            type(course[field]) in (int, float)
+            and math.isfinite(course[field])
+            and course[field] >= 0
+            and (field == "credits" or float(course[field]).is_integer())
+        )
+        for field in numeric
+    )
+    valid = valid and all(
+        course[field] is None or type(course[field]) is bool for field in boolean
+    )
+    valid = valid and all(isinstance(course[field], list) for field in collections)
+    if not valid:
+        raise ValueError(f"Invalid standard course: {course.get('id')!r}")
+    for field in ("programs", "parsing_issues"):
+        if not all(isinstance(item, str) for item in course[field]):
+            raise ValueError(f"Invalid standard course {field}: {course['id']}")
+    shapes = {
+        "lecturers": ({"label"}, {"name_zh", "name_en"}),
+        "meetings": ({"classroom", "time", "time_codes"},),
+        "expertises": ({"name", "type"},),
+        "curriculum_requirements": ({"target", "requirement"},),
+    }
+    for field, allowed in shapes.items():
+        for item in course[field]:
+            if not isinstance(item, dict) or set(item) not in allowed:
+                raise ValueError(f"Invalid standard course {field}: {course['id']}")
+            for key, value in item.items():
+                if key == "time_codes":
+                    valid = value is None or (
+                        isinstance(value, list)
+                        and all(isinstance(code, str) for code in value)
+                    )
+                else:
+                    valid = value is None or isinstance(value, str)
+                if not valid:
+                    raise ValueError(f"Invalid standard course {field}: {course['id']}")
+    if course["semester_code"] != course_key(course["id"])[:5]:
+        raise ValueError(f"Invalid standard course semester: {course['id']}")
+
+
+def prepare_converted_sources(
+    inputs: dict[str, bytes], folder: Path, previous: dict[str, Any] | None
+) -> dict[str, dict[str, Any]]:
+    from nthu_scraper.storage import read_json_optional
+
+    previous_sources = {
+        entry["id"]: entry for entry in (previous or {}).get("sources", [])
+    }
+    documents = {}
+    for source_id, body in sorted(inputs.items()):
+        source = source_for_id(source_id)
+        path = folder / "raw" / "converted" / f"{source_id}.json"
+        entry = previous_sources.get(source_id, {})
+        converted_entry = entry.get("converted")
+        cached = read_json_optional(path)
+        if cached is None and path.exists():
+            raise ValueError(f"{source_id}: invalid converted course document: {path}")
+        if cached is None and converted_entry is not None:
+            raise FileNotFoundError(f"Missing converted course archive: {path}")
+        if cached is not None:
+            if converted_entry is not None and (
+                hashlib.sha256(path.read_bytes()).hexdigest()
+                != converted_entry["sha256"]
+            ):
+                raise ValueError(f"Converted course archive checksum mismatch: {path}")
+            converted_records(cached, source)
+            original_path = folder / "raw" / source.filename
+            previous_checksum = entry.get("sha256")
+            if previous_checksum is None and original_path.exists():
+                previous_checksum = hashlib.sha256(
+                    original_path.read_bytes()
+                ).hexdigest()
+            if cached["sha256"] != (
+                previous_checksum or hashlib.sha256(body).hexdigest()
+            ):
+                raise ValueError(f"Converted course source checksum mismatch: {path}")
+        documents[source_id] = (
+            cached
+            if cached is not None
+            and cached["sha256"] == hashlib.sha256(body).hexdigest()
+            else convert_source(body, source)
+        )
+    return documents
+
+
 def publish_sources(
     inputs: dict[str, bytes],
     folder: Path,
-    root: Path,
-    course_type: Any,
 ) -> dict[str, Any]:
-    from dataclasses import asdict
-
     from nthu_scraper.storage import read_json_optional, write_json_atomic
 
     inputs = dict(inputs)
+    previous_manifest = read_json_optional(folder / "sources.json")
     for source_id, body in load_archives(
         folder,
-        include_latest=False,
-        replaced_sources=set(inputs) & SOURCE_BY_ID.keys(),
+        replaced_sources=set(inputs),
     ).items():
         inputs.setdefault(source_id, body)
     outgoing = folder / "raw" / "latest.json"
     if "latest" in inputs and outgoing.exists():
         previous_body = outgoing.read_bytes()
-        previous_manifest = read_json_optional(folder / "sources.json")
         previous_latest = (
             next(
                 (
@@ -810,7 +1107,7 @@ def publish_sources(
             hashlib.sha256(previous_body).hexdigest() != previous_latest["sha256"]
         ):
             raise ValueError(
-                f"Course archive checksum mismatch: {outgoing}; run backfill"
+                f"Course archive checksum mismatch: {outgoing}; restore the original archive"
             )
         if previous_body != inputs["latest"]:
             outgoing_semesters = {
@@ -830,20 +1127,11 @@ def publish_sources(
                         "archive and investigate the previous latest response"
                     )
                 inputs[archive_id] = previous_body
-    records, manifest = merge_sources(inputs, course_type.FIELD_MAPPING)
+    documents = prepare_converted_sources(inputs, folder, previous_manifest)
+    records, manifest = merge_converted_sources(documents)
     semesters: dict[str, list[dict[str, Any]]] = {}
     for record in records:
-        values = record["values"]
-        # Use aliases only as an adapter for the established legacy contract.
-        legacy_input = {
-            course_type.FIELD_MAPPING[key][0]: value
-            for key, value in values.items()
-            if key in course_type.FIELD_MAPPING
-        }
-        course = asdict(course_type.from_dict(legacy_input))
-        course.update(structured_fields(values, record["field_sources"]))
-        course["sources"] = record["sources"]
-        course["field_sources"] = record["field_sources"]
+        course = normalize_course(record["values"], record["field_sources"])
         semesters.setdefault(course["semester_code"], []).append(course)
     if not semesters:
         raise ValueError("No courses to publish")
@@ -857,7 +1145,11 @@ def publish_sources(
         if semester in semesters:
             continue
         body = path.read_bytes()
-        if semester in retained and body != retained[semester]:
+        if semester in retained and (
+            json.loads(body)
+            != normalize_retained_snapshot(retained[semester], semester)
+            and body != retained[semester]
+        ):
             raise ValueError(
                 f"Published semester differs from retained snapshot: {path}"
             )
@@ -902,10 +1194,32 @@ def publish_sources(
         folder / "semesters" / f"{semester}.json": rows
         for semester, rows in semesters.items()
     }
+    for semester, body in retained.items():
+        if semester not in semesters:
+            outputs[folder / "semesters" / f"{semester}.json"] = (
+                normalize_retained_snapshot(body, semester)
+            )
+    for source_id, document in documents.items():
+        path = folder / "raw" / "converted" / f"{source_id}.json"
+        outputs[path] = document
+        entry = next(entry for entry in manifest["sources"] if entry["id"] == source_id)
+        entry["converted"] = {
+            "path": f"raw/converted/{source_id}.json",
+            "sha256": hashlib.sha256(
+                json.dumps(document, ensure_ascii=False, indent=4).encode("utf-8")
+            ).hexdigest(),
+            "schema_version": CONVERTED_VERSION,
+        }
     outputs[manifest_path] = manifest
-    latest = decode_json(inputs["latest"]) if "latest" in inputs else None
+    latest = (
+        [
+            normalize_course(canonical_fields(record.values))
+            for record in converted_records(documents["latest"], SOURCE_BY_ID["latest"])
+        ]
+        if "latest" in documents
+        else None
+    )
     if latest is not None:
-        outputs[root] = latest
         outputs[folder / "latest.json"] = latest
     # Check every existing JSON and serialize every new result before any write.
     for path, value in outputs.items():
@@ -919,14 +1233,16 @@ def publish_sources(
         archived = folder / "raw" / f"retained-{semester}.json"
         if not archived.exists():
             write_source_atomic(body, archived)
-        published = folder / "semesters" / f"{semester}.json"
-        if semester not in semesters and not published.exists():
-            write_source_atomic(body, published)
     for path, value in outputs.items():
         indent = 2 if path == folder / "latest.json" else 4
         serialized = json.dumps(value, ensure_ascii=False, indent=indent)
-        if not path.exists() or path.read_text(encoding="utf-8") != serialized:
+        if path.parent == folder / "raw" / "converted":
+            body = serialized.encode("utf-8")
+            if not path.exists() or path.read_bytes() != body:
+                write_source_atomic(body, path)
+        elif not path.exists() or path.read_text(encoding="utf-8") != serialized:
             write_json_atomic(value, path, indent=indent)
+    (folder.parent / "courses.json").unlink(missing_ok=True)
     logger.info(
         "Published courses: %s; missing regular semesters=%s; filled fields=%s; "
         "conflicts=%s; records with parsing issues=%s",

@@ -245,6 +245,18 @@ class OfflineCoursesSpider(CoursesSpider):
         )
 
 
+class OfflineValidCoursesSpider(CoursesSpider):
+    name = "offline_valid_courses"
+    allowed_domains = []
+
+    async def start(self):
+        body = (FIXTURES / "courses" / "courses.json").read_text(encoding="utf-8")
+        yield scrapy.Request(
+            "data:application/json," + quote(body),
+            meta={"data_type": "latest"},
+        )
+
+
 class OfflineMapsSpider(MapSpider):
     name = "offline_maps"
     allowed_domains = []

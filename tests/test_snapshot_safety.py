@@ -1,6 +1,5 @@
 import asyncio
 import json
-from dataclasses import asdict
 from types import SimpleNamespace
 
 import pytest
@@ -11,6 +10,7 @@ from scrapy.http import HtmlResponse, TextResponse
 from twisted.python.failure import Failure
 
 from nthu_scraper.commands.crawl import Command
+from nthu_scraper.course_data import canonical_fields, normalize_course
 from nthu_scraper.spiders import (
     nthu_announcements_item as announcements,
 )
@@ -47,7 +47,6 @@ from nthu_scraper.utils.crawl_safety import log_source_failure
         ("BUSES_JSON_PATH", "buses.json"),
         ("BUSES_FOLDER", "buses"),
         ("COURSES_FOLDER", "courses"),
-        ("COURSES_JSON_PATH", "courses.json"),
         ("DINING_JSON_PATH", "dining.json"),
         ("MAPS_FOLDER", "maps"),
         ("MAPS_JSON_PATH", "maps.json"),
@@ -508,7 +507,6 @@ def course_paths(tmp_path, monkeypatch):
     folder = tmp_path / "courses"
     root = tmp_path / "courses.json"
     monkeypatch.setattr(courses, "COURSES_FOLDER", folder)
-    monkeypatch.setattr(courses, "COURSES_JSON_PATH", root)
     paths = [root, folder / "latest.json", folder / "semesters" / "11510.json"]
     for path in paths:
         write_json_atomic(["known-good"], path)
@@ -550,22 +548,24 @@ def test_valid_courses_preserve_structure_and_indentation(course_paths, wrapped)
     paths, folder = course_paths
     payload = {"\u5de5\u4f5c\u88681": VALID_COURSES} if wrapped else VALID_COURSES
     courses.CoursesSpider().parse(course_response(payload))
-    assert read_json(paths[0]) == VALID_COURSES
-    assert read_json(paths[1]) == VALID_COURSES
-    assert paths[0].read_text(encoding="utf-8") == json.dumps(
-        VALID_COURSES, ensure_ascii=False, indent=4
-    )
+    assert not paths[0].exists()
+    expected = [normalize_course(canonical_fields(row)) for row in VALID_COURSES]
+    assert read_json(paths[1]) == expected
     assert paths[1].read_text(encoding="utf-8") == json.dumps(
-        VALID_COURSES, ensure_ascii=False, indent=2
+        expected, ensure_ascii=False, indent=2
     )
     for index, (course, semester) in enumerate(
         zip(VALID_COURSES, ("11510", "11520"), strict=True), 1
     ):
         actual = read_json(folder / "semesters" / f"{semester}.json")[0]
-        legacy = asdict(courses.CoursesData.from_dict(course))
-        assert {key: actual[key] for key in legacy} == legacy
+        assert actual == normalize_course(canonical_fields(course))
         assert actual["semester_code"] == semester
-        assert actual["sources"] == [{"source_id": "latest", "row": index}]
+        assert "sources" not in actual
+        converted = read_json(folder / "raw" / "converted" / "latest.json")
+        assert converted["records"][index - 1]["origin"] == {
+            "source_id": "latest",
+            "row": index,
+        }
     assert (folder / "raw" / "latest.json").read_bytes() == course_response(
         payload
     ).body

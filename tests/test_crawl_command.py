@@ -217,6 +217,30 @@ def test_invalid_courses_exit_nonzero_and_preserve_files(tmp_path):
     assert [path.read_bytes() for path in paths] == before
 
 
+def test_valid_course_crawl_archives_raw_and_only_publishes_standard_fields(tmp_path):
+    from nthu_scraper.course_data import validate_standard_course
+
+    obsolete = tmp_path / "courses.json"
+    write_json_atomic(["old"], obsolete)
+    result = run_spider(tmp_path, "offline_valid_courses")
+    assert result.returncode == 0, result.stdout + result.stderr
+    folder = tmp_path / "courses"
+    assert not obsolete.exists()
+    latest = read_json(folder / "latest.json")
+    assert len(latest) == 3
+    for row in latest:
+        validate_standard_course(row)
+        assert "lecturer_names_zh" not in row
+        assert "field_sources" not in row
+    original = (
+        (ROOT / "tests" / "fixtures" / "courses" / "courses.json")
+        .read_text(encoding="utf-8")
+        .encode("utf-8")
+    )
+    assert (folder / "raw" / "latest.json").read_bytes() == original
+    assert len(read_json(folder / "raw" / "converted" / "latest.json")["records"]) == 3
+
+
 def test_announcements_request_failure_keeps_source_and_individual_file(tmp_path):
     good_link = "data:text/html," + quote(
         '<div id="pageptlist"><div class="row listBS"><div class="mtitle">'

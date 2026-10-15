@@ -80,14 +80,26 @@ Directory, maps, newsletters, announcement-list, and other legacy datasets are
 preserved by hydration. Campus calendars are published at `/calendars.json`;
 library calendars remain at `/libraries/calendars.json`.
 
+The course spider downloads only the latest official feed. It preserves
+`courses/raw/latest.json`, generates first-stage JSON under
+`courses/raw/converted/`, and publishes standard fields at
+`courses/latest.json` and `courses/semesters/`. Historical sources are downloaded
+manually and imported with `python -m nthu_scraper.course_tool import`; offline
+rebuilds use that tool rather than spider modes. Semester rollover archives the
+outgoing feed so previous terms remain rebuildable. A successful refresh removes
+the obsolete root `courses.json`; the workflow has no `course_mode` input.
+
 ## Validation and metadata
 
-`validate_data.py` rejects missing critical root datasets, empty JSON files,
+`validate_data.py` rejects missing critical datasets (including
+`courses/latest.json`), empty JSON files,
 and malformed JSON immediately after hydration and again before publication.
 The baseline check includes previous publishing metadata, so corrupt existing
 JSON cannot silently be overwritten by a crawl. It validates generated
 `file_details.json` in the final pass but does not count publishing metadata as
 crawler data.
+First-stage course JSON must also have a supported version and valid record
+structure; original official JSON retains its source-encoding exception.
 
 Source merge and replacement rules are documented in [README.md](README.md#data-safety).
 The announcement crawler normalizes HTTP(S) article URLs in both fresh results
@@ -151,7 +163,7 @@ branch **data** and folder **/ (root)**.
 
 1. Confirm `data` contains the complete root-level snapshot.
 2. Wait for deployment and verify <https://data.nthusa.tw/>.
-3. Verify `/buses.json`, `/courses.json`, `/announcements.json`, and
+3. Verify `/buses.json`, `/courses/latest.json`, `/announcements.json`, and
    `/file_details.json`.
 4. Verify NTHU-Data-API cache refresh behavior.
 5. Wait for at least one scheduled crawl and confirm another normal commit can

@@ -1,157 +1,93 @@
 import json
-from dataclasses import asdict
 
 import pytest
 
-from nthu_scraper.spiders.nthu_courses import (
-    CoursesData,
-    _split_classroom_time,
-    _strip_data_str,
+from nthu_scraper.course_data import (
+    FIELD_MAPPING,
+    PUBLIC_TEXT_FIELDS,
+    canonical_fields,
     group_courses,
+    normalize_course,
+    validate_standard_course,
 )
+
+STANDARD_KEYS = {
+    *PUBLIC_TEXT_FIELDS,
+    "semester_code",
+    "department_code",
+    "course_number",
+    "department_name",
+    "college_name",
+    "course_level_code",
+    "course_level",
+    "remote_teaching",
+    "credits",
+    "capacity",
+    "capacity_unlimited",
+    "enrolled_count",
+    "enrollment_after_selection",
+    "enrollment_after_withdrawal",
+    "reserved_for_freshmen",
+    "is_cancelled",
+    "language_code",
+    "lecturers",
+    "meetings",
+    "expertises",
+    "programs",
+    "curriculum_requirements",
+    "prerequisite_text",
+    "parsing_issues",
+}
 
 
 def test_course_fixture_contract(fixture_text):
     source = json.loads(fixture_text("courses", "courses.json"))
-    expected = dict.fromkeys(
-        [
-            "id",
-            "chinese_title",
-            "english_title",
-            "credit",
-            "size_limit",
-            "student_count",
-            "lecturer",
-            "language",
-            "class_room_and_time",
-            "classroom",
-            "time",
-            "note",
-            "suspend",
-            "limit_note",
-            "freshman_reservation",
-            "object",
-            "ge_type",
-            "ge_category",
-            "prerequisite",
-            "expertise",
-            "program",
-            "no_extra_selection",
-            "required_optional_note",
-        ],
-        "",
-    )
-    expected.update(
-        id="11510CS101",
-        chinese_title="程式設計 實習",
-        english_title="Programming Lab",
-        credit="3",
-        lecturer="測試教師",
-        class_room_and_time="資電館101 M1M2",
-        classroom="資電館101",
-        time="M1M2",
-        note="限本系",
-        object="大一",
-        ge_category="自然科學",
-        required_optional_note="必修",
-    )
-    assert asdict(CoursesData.from_dict(source[0])) == expected
     grouped = group_courses(source)
     assert list(grouped) == ["11510", "11520"]
     assert [course["id"] for course in grouped["11510"]] == ["11510CS101", "11510CS103"]
-    assert {key: grouped["11510"][0][key] for key in expected} == expected
-    assert grouped["11510"][0]["meetings"] == [
+    course = grouped["11510"][0]
+    assert set(course) == STANDARD_KEYS
+    assert course["chinese_title"] == "程式設計 實習"
+    assert course["english_title"] == "Programming Lab"
+    assert course["credits"] == 3
+    assert course["lecturers"] == [{"label": "測試教師"}]
+    assert course["meetings"] == [
         {"classroom": "資電館101", "time": "M1M2", "time_codes": ["M1", "M2"]}
     ]
-    other = asdict(CoursesData.from_dict(source[1]))
-    assert {key: grouped["11520"][0][key] for key in other} == other
+    for rows in grouped.values():
+        for row in rows:
+            assert set(row) == STANDARD_KEYS
+            validate_standard_course(row)
     assert source == json.loads(fixture_text("courses", "courses.json"))
 
 
-@pytest.mark.parametrize(
-    "field,aliases",
-    [
-        ("chinese_title", ["課程中文名稱", "中文課名"]),
-        ("english_title", ["課程英文名稱", "英文課名"]),
-        ("credit", ["學分數", "學分"]),
-        ("lecturer", ["授課教師", "教師姓名", "教師"]),
-        ("note", ["備註", "備註欄"]),
-        ("object", ["開課對象", "選課限制條件"]),
-        ("ge_category", ["通識分類", "通識類別"]),
-        ("required_optional_note", ["必選修說明", "此課程已列入之系所班別"]),
-    ],
-)
-def test_legacy_aliases_and_precedence(field, aliases):
+@pytest.mark.parametrize("field,aliases", list(FIELD_MAPPING.items()))
+def test_aliases_and_precedence(field, aliases):
     for alias in aliases:
-        assert getattr(CoursesData.from_dict({alias: "value"}), field) == "value"
+        assert canonical_fields({alias: "value"})[field] == "value"
     assert (
-        getattr(
-            CoursesData.from_dict({alias: str(i) for i, alias in enumerate(aliases)}),
-            field,
-        )
+        canonical_fields({alias: str(i) for i, alias in enumerate(aliases)})[field]
         == "0"
     )
 
 
-@pytest.mark.parametrize(
-    "field,alias",
-    [
-        ("id", "科號"),
-        ("size_limit", "人限"),
-        ("student_count", "總人數"),
-        ("language", "授課語言"),
-        ("suspend", "停開註記"),
-        ("limit_note", "課程限制說明"),
-        ("freshman_reservation", "新生保留人數"),
-        ("ge_type", "通識對象"),
-        ("prerequisite", "擋修說明"),
-        ("expertise", "第一二專長對應"),
-        ("program", "學分學程對應"),
-        ("no_extra_selection", "不可加簽說明"),
-    ],
-)
-def test_remaining_fields(field, alias):
-    assert getattr(CoursesData.from_dict({alias: "value"}), field) == "value"
-
-
-@pytest.mark.parametrize(
-    "raw,expected",
-    [
-        ("Room\tM1\n", {"classroom": "Room", "time": "M1"}),
-        ("Room", {"classroom": "Room", "time": ""}),
-        ("", {"classroom": "", "time": ""}),
-    ],
-)
-def test_classroom_time_split(raw, expected):
-    assert _split_classroom_time(raw) == expected
-
-
-def test_extra_classroom_columns_are_not_silently_discarded():
-    with pytest.raises(ValueError, match="extra classroom"):
-        _split_classroom_time("Room\tM1\textra")
-
-
 def test_separate_fields_override_combined():
-    course = CoursesData.from_dict(
-        {
-            "教室與上課時間": "Old\tM1",
-            "教室": "New",
-            "上課時間": "T2\n",
-        }
+    course = normalize_course(
+        canonical_fields(
+            {
+                "科號": "11510AES 450100",
+                "中文課名": "Title",
+                "教室與上課時間": "Old\tM1",
+                "教室": "New",
+                "上課時間": "T2\n",
+            }
+        )
     )
-    assert (course.classroom, course.time, course.class_room_and_time) == (
-        "New",
-        "T2",
-        "Old M1",
-    )
-
-
-def test_existing_text_normalization_and_missing_fields():
-    assert _strip_data_str(" a<BR>b<br>c\td\ne ") == "a b c d e"
-    assert _strip_data_str("<b>Title</b><br/>") == "<b>Title</b><br/>"
-    assert all(value == "" for value in asdict(CoursesData.from_dict({})).values())
-    assert CoursesData.from_dict({"學分": None}).credit == ""
-    assert CoursesData.from_dict({"unknown": "ignored"}).id == ""
+    assert course["meetings"] == [
+        {"classroom": "New", "time": "T2", "time_codes": ["T2"]}
+    ]
+    assert "classroom" not in course
+    assert "class_room_and_time" not in course
 
 
 @pytest.mark.parametrize(
@@ -159,8 +95,6 @@ def test_existing_text_normalization_and_missing_fields():
     ["", "1151", "11510", "11510   ", "../xxCS101", "１１５１０CS101", "abcdeCS101"],
 )
 def test_malformed_course_identity_rejected_at_collection_boundary(course_id):
-    # from_dict remains permissive; validation belongs to whole-response grouping.
-    assert CoursesData.from_dict({"科號": course_id}).id == course_id.strip()
     with pytest.raises(ValueError, match="identity"):
         group_courses([{"科號": course_id, "中文課名": "Title"}])
 
@@ -174,3 +108,28 @@ def test_invalid_collection(data):
 def test_mixed_collection_is_not_truncated():
     with pytest.raises(ValueError):
         group_courses([{"科號": "11510CS101", "中文課名": "Title"}, {}])
+
+
+def test_unknown_values_stay_nullable_and_raw_fields_do_not_leak():
+    result = group_courses([{"科號": "11510AES 450100", "中文課名": "Title"}])["11510"][
+        0
+    ]
+    assert set(result) == STANDARD_KEYS
+    assert result["capacity"] is None
+    assert result["capacity_unlimited"] is None
+    assert result["department_name"] is None
+    assert result["lecturers"] == []
+    assert result["meetings"] == []
+
+
+def test_id_spelling_preserved_and_source_semester_only_reported():
+    result = normalize_course(
+        {
+            "id": "11510AES   450100",
+            "chinese_title": "Title",
+            "source_semester": "11420",
+        }
+    )
+    assert result["id"] == "11510AES   450100"
+    assert "source_semester" not in result
+    assert result["parsing_issues"] == ["Source semester disagrees with course ID"]

@@ -2,7 +2,12 @@ import argparse
 import json
 from pathlib import Path
 
-from nthu_scraper.course_data import ARCHIVED_LATEST_ID, SOURCES
+from nthu_scraper.course_data import (
+    ARCHIVED_LATEST_ID,
+    SOURCES,
+    converted_records,
+    source_for_id,
+)
 
 PUBLISHING_JSON_FILES = {"file_details.json"}
 RAW_COURSE_JSON_FILES = {
@@ -14,7 +19,7 @@ DEFAULT_CRITICAL_FILES = (
     "announcements.json",
     "announcements_list.json",
     "buses.json",
-    "courses.json",
+    "courses/latest.json",
     "dining.json",
     "directory.json",
     "maps.json",
@@ -73,6 +78,16 @@ def validate_snapshot(
                 and ARCHIVED_LATEST_ID.fullmatch(path.stem) is not None
             ),
         )
+        if relative.parent == Path("courses") / "raw" / "converted":
+            try:
+                converted_records(
+                    json.loads(path.read_text(encoding="utf-8")),
+                    source_for_id(path.stem),
+                )
+            except ValueError as error:
+                raise SnapshotValidationError(
+                    f"Invalid converted course file {path}: {error}"
+                ) from error
 
     metadata_path = data_folder / "file_details.json"
     if metadata_path.exists():

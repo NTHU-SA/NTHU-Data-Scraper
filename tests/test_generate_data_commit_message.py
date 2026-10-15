@@ -35,7 +35,7 @@ def test_multiple_files_in_same_dataset_do_not_duplicate_scope():
 def test_multiple_scopes_are_sorted():
     message = generate_commit_message(
         [
-            change("M", "courses.json"),
+            change("M", "courses/latest.json"),
             change("M", "buses/timetable.json"),
             change("M", "announcements/foo.json"),
         ]
