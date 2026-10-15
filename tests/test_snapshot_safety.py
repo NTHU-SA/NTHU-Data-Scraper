@@ -558,10 +558,17 @@ def test_valid_courses_preserve_structure_and_indentation(course_paths, wrapped)
     assert paths[1].read_text(encoding="utf-8") == json.dumps(
         VALID_COURSES, ensure_ascii=False, indent=2
     )
-    for course, semester in zip(VALID_COURSES, ("11510", "11520"), strict=True):
-        assert read_json(folder / "semesters" / f"{semester}.json") == [
-            asdict(courses.CoursesData.from_dict(course))
-        ]
+    for index, (course, semester) in enumerate(
+        zip(VALID_COURSES, ("11510", "11520"), strict=True), 1
+    ):
+        actual = read_json(folder / "semesters" / f"{semester}.json")[0]
+        legacy = asdict(courses.CoursesData.from_dict(course))
+        assert {key: actual[key] for key in legacy} == legacy
+        assert actual["semester_code"] == semester
+        assert actual["sources"] == [{"source_id": "latest", "row": index}]
+    assert (folder / "raw" / "latest.json").read_bytes() == course_response(
+        payload
+    ).body
 
 
 @pytest.mark.parametrize(

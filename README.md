@@ -57,6 +57,101 @@ Run a crawler with `uv run python -m scrapy crawl <name>`.
 
 Run `nthu_announcements_list` before `nthu_announcements_item` on a fresh
 checkout, or populate `data/` from the published snapshot first.
+
+### Course sources and structured fields
+
+`nthu_courses` preserves the official latest JSON as `courses.json` and
+`courses/latest.json`. Semester files in `courses/semesters/` retain the legacy
+English keys and add structured fields. They are **not** the same schema as the
+raw latest files.
+
+```bash
+uv run python -m scrapy crawl nthu_courses
+uv run python -m scrapy crawl nthu_courses -a mode=backfill
+uv run python -m scrapy crawl nthu_courses -a mode=rebuild
+```
+
+The default downloads only the latest JSON, then rebuilds with any locally
+archived historical sources. `backfill` checks the
+[official download page](https://curricul.site.nthu.edu.tw/p/404-1208-111356.php?Lang=zh-tw)
+and fetches all configured historical JSON and Excel attachments. `rebuild`
+requires all archived sources and makes no network requests. GitHub Actions
+manual dispatch supports these modes through `course_mode`; scheduled runs
+remain `latest`.
+Missing or checksum-mismatched previously archived files block a refresh;
+use `backfill` to restore them rather than silently dropping historical sources.
+When the latest feed moves to a new semester, its outgoing response is
+preserved byte-for-byte as `courses/raw/latest-<semester>.json`. If a response
+spans semesters, only those no longer covered by the incoming latest feed are
+replayed from that archive; current-semester courses always come from the new
+feed. These archives have their own source IDs, checksums, row provenance, and
+semester coverage in `sources.json`, and are included in future refreshes and
+offline rebuilds. Previously published semesters without an official raw
+source are preserved byte-for-byte in `courses/raw/retained-<semester>.json`
+and restored to `courses/semesters/` on offline rebuilds. They are labeled
+separately as `retained_published_snapshots` with checksums, coverage, and
+record counts, not represented as recovered official sources. `normalized_records`
+counts only source-normalized rows; `retained_records` and `published_records`
+account for the preserved snapshot rows. Malformed or changed retained snapshots
+block publication rather than being silently deleted or overwritten.
+If an official source later covers a retained semester, its normalized data
+replaces the published semester while the original snapshot stays archived,
+marked `superseded` and excluded from `retained_records`.
+
+Original response bytes are saved under `courses/raw/`, including complete
+workbooks and auxiliary sheets. `courses/sources.json` declares
+`path_base: "courses"`: resolve each archive `path` relative to this directory
+under the published snapshot root. It records URLs, SHA-256,
+selected course sheets, source counts, actual semester coverage, regular-semester
+gaps, merge conflicts, and verified source repairs. No new retrieval timestamp
+is generated on each run. Identical inputs leave output files unchanged.
+Current attachments cover 10810–11410 and the current latest semester; the
+page's “114下 Excel” link now describes converting the latest JSON, not a
+separate 11420 archive. Missing terms are reported, never synthesized.
+
+Historical Excel is authoritative; JSON only fills missing fields or courses.
+Blank capacity means unlimited, not missing; zero remains zero. Different
+enrollment snapshots are kept separate. Only configured main course sheets
+create courses. The 11410 bilingual teacher supplement joins existing courses
+by ID; its other auxiliary sheets remain available in the original workbook.
+An attachment or schema change requires an explicit adapter update, not guessing
+which new sheets to import. Conflicting duplicates fail the crawl.
+
+| Added field | Meaning |
+|---|---|
+| `semester_code`, `department_code`, `course_number` | String components of the original course ID; `id` retains its source spelling |
+| `department_name`, `college_name`, `course_level_code`, `course_level`, `source_semester`, `remote_teaching` | Available source metadata; historical unit names are not guessed for newer terms |
+| `meetings` | Ordered `{classroom, time, time_codes}` objects, preserving room/time pairing |
+| `lecturers` | Bilingual `{name_zh, name_en}` objects when the source supplies pairings; otherwise `{label}` entries, including units and “指導教授” |
+| `lecturer_names_zh`, `lecturer_names_en` | Available original teacher-supplement name lists, even when individual pairings cannot be established |
+| `expertises`, `programs`, `curriculum_requirements` | Specialty objects, program-name strings, and `{target, requirement}` objects |
+| `credits`, `capacity`, `capacity_unlimited`, `enrolled_count`, `reserved_for_freshmen` | Typed numbers and explicit unlimited status; fractional credits are supported |
+| `enrollment_after_selection`, `enrollment_after_withdrawal` | Counts at different official enrollment checkpoints; neither substitutes for `enrolled_count` |
+| `is_cancelled`, `language_code` | Official cancellation marker and `zh`/`en` language mapping, or `null` when unknown |
+| `prerequisite_text` | HTML/entity-cleaned display text, not an executable eligibility rule |
+| `sources`, `field_sources` | Source IDs and 1-based JSON record or Excel row/sheet locations, including per-field provenance |
+| `parsing_issues` | Explicit issues for source values that cannot be reliably interpreted |
+
+Multiple meetings now retain **all** room/time pairs: legacy `classroom` and
+`time` use corresponding newline-separated entries for the official combined
+format, instead of truncating at the second tab. Historical separate fields
+retain their source text; paired comma-separated rooms/times are also parsed
+into `meetings`. Time codes remain official period codes, not guessed clock
+times. Empty lists are `[]`; unknown typed values are `null`, not zero.
+
+Raw source fields are retained in the downloadable originals even if not
+modeled as an added field. Missing fields and documented empty values are
+distinct. Unexpected source values retain their legacy text, log a warning,
+and appear in `parsing_issues` rather than becoming plausible defaults.
+Unparseable collections, missing source sheets, unrecoverable identities, and
+download failures block replacement. All inputs and target JSON files are
+validated before writes; individual writes are atomic, not a multi-file
+transaction. The known quoted multiline row split in one historical converted
+JSON is accepted only when its intact Excel course is verified, with a repair
+entry and warning; otherwise it fails.
+
+### Announcement sources
+
 List titles come from the module containing the announcement list, falling back
 to a standalone section heading, the current-page breadcrumb in the RPage path
 module, or the document title rather than search or article headings. This avoids
