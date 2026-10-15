@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-15T16:03:58.770131+08:00",
+        "last_updated": "2026-10-15T16:26:21.690294+08:00",
         "name": "announcements.json",
-        "sha256": "723c639a3eea1c19a84b6b69f4a9afd022d5945a153a53048c0396c131b85413",
-        "version": "723c639a3eea1c19a84b6b69f4a9afd022d5945a153a53048c0396c131b85413"
+        "sha256": "7c66c601a7cb7e749a494b960022b346aacc06c442f4d3d37ac8957b36f71483",
+        "version": "7c66c601a7cb7e749a494b960022b346aacc06c442f4d3d37ac8957b36f71483"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -214,10 +214,10 @@
         "version": "44bd6fd5ff331550a30289d1c55b28ebd3d47a3678a8664747c719c3397c974d"
       },
       {
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_updated": "2026-10-15T16:26:21.690294+08:00",
         "name": "徵才實習公告_zh-tw.json",
-        "sha256": "d4bf96b8ea560664ee56460f57b76e30eb3d4255954266476443cae3bca458db",
-        "version": "d4bf96b8ea560664ee56460f57b76e30eb3d4255954266476443cae3bca458db"
+        "sha256": "5e82ec630649507786d6101541c05d517cc4ee557cdd4ce5cdd99ff8695fd8d3",
+        "version": "5e82ec630649507786d6101541c05d517cc4ee557cdd4ce5cdd99ff8695fd8d3"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-15T16:03:58.770131+08:00"
+  "last_updated": "2026-10-15T16:26:21.690294+08:00"
 }
