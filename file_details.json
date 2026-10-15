@@ -44,11 +44,11 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_commit": "6e93df4dd98085cd782107cb100c402eaf6ee8aad7c293aec573613234c9f179",
-        "last_updated": "2026-10-15T06:16:26.925968+08:00",
+        "last_commit": "230ede8a3b4f5aa39546a958e1b26e730a5bc096608acbb7bdee0653e51ea8b8",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "courses.json",
-        "sha256": "6e93df4dd98085cd782107cb100c402eaf6ee8aad7c293aec573613234c9f179",
-        "version": "6e93df4dd98085cd782107cb100c402eaf6ee8aad7c293aec573613234c9f179"
+        "sha256": "230ede8a3b4f5aa39546a958e1b26e730a5bc096608acbb7bdee0653e51ea8b8",
+        "version": "230ede8a3b4f5aa39546a958e1b26e730a5bc096608acbb7bdee0653e51ea8b8"
       },
       {
         "last_commit": "6dfb86ae7330a1fe81e9eef06db1c7c398faf5717517b5b5e7531940e74add59",
@@ -3220,90 +3220,162 @@
         "version": "0f5938f5f3ff1a5930ca3b21cf00adc9a196e5be16647e3c5110fd92ba3ef73a"
       },
       {
-        "last_commit": "21e2bc772f94f302d48c0dc17be4a66d26791be28ded01340486aad213420727",
-        "last_updated": "2026-10-15T06:16:26.925968+08:00",
+        "last_commit": "7f69a0e960f57bdb36e64502c6612bcee92bcda3114433d9a11ea41d5860642b",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "latest.json",
-        "sha256": "21e2bc772f94f302d48c0dc17be4a66d26791be28ded01340486aad213420727",
-        "version": "21e2bc772f94f302d48c0dc17be4a66d26791be28ded01340486aad213420727"
+        "sha256": "7f69a0e960f57bdb36e64502c6612bcee92bcda3114433d9a11ea41d5860642b",
+        "version": "7f69a0e960f57bdb36e64502c6612bcee92bcda3114433d9a11ea41d5860642b"
+      },
+      {
+        "last_commit": "5d6dcd39e87c9f07fbf4df54f087f1e7869d53a64f1e343851805ea8a5c6bd27",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "sources.json",
+        "sha256": "5d6dcd39e87c9f07fbf4df54f087f1e7869d53a64f1e343851805ea8a5c6bd27",
+        "version": "5d6dcd39e87c9f07fbf4df54f087f1e7869d53a64f1e343851805ea8a5c6bd27"
+      }
+    ],
+    "courses/raw": [
+      {
+        "last_commit": "9aa5a9101b41f374a7d8113d3ac90f2f5066ef0320c574565c7a6e55e97a26fd",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "108-110.xlsx",
+        "sha256": "9aa5a9101b41f374a7d8113d3ac90f2f5066ef0320c574565c7a6e55e97a26fd",
+        "version": "9aa5a9101b41f374a7d8113d3ac90f2f5066ef0320c574565c7a6e55e97a26fd"
+      },
+      {
+        "last_commit": "c7c768eb1944c9751d11e33d699d2dd3ab678e0fd72ee5d204f6c9a96d53f114",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "10820.json",
+        "sha256": "c7c768eb1944c9751d11e33d699d2dd3ab678e0fd72ee5d204f6c9a96d53f114",
+        "version": "c7c768eb1944c9751d11e33d699d2dd3ab678e0fd72ee5d204f6c9a96d53f114"
+      },
+      {
+        "last_commit": "538d5e7ca36ff94debffa3e81c3659c1868e802dc9ab4c9f137c7ea98947633b",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "10910-11110.json",
+        "sha256": "538d5e7ca36ff94debffa3e81c3659c1868e802dc9ab4c9f137c7ea98947633b",
+        "version": "538d5e7ca36ff94debffa3e81c3659c1868e802dc9ab4c9f137c7ea98947633b"
+      },
+      {
+        "last_commit": "0faf187c64b77c7f426737e432bfa13e94ffd78b918cf852435a32355ed7e91c",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "111-113.xlsx",
+        "sha256": "0faf187c64b77c7f426737e432bfa13e94ffd78b918cf852435a32355ed7e91c",
+        "version": "0faf187c64b77c7f426737e432bfa13e94ffd78b918cf852435a32355ed7e91c"
+      },
+      {
+        "last_commit": "2583e90ae1222c63eb2bc0a06faaf9f2653e92e2f756637666bafb0bb350bef7",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "11120-11220.json",
+        "sha256": "2583e90ae1222c63eb2bc0a06faaf9f2653e92e2f756637666bafb0bb350bef7",
+        "version": "2583e90ae1222c63eb2bc0a06faaf9f2653e92e2f756637666bafb0bb350bef7"
+      },
+      {
+        "last_commit": "f36bbc9bcd86ac1ee0f234695e7ea05ff9f711179fcd60baed2dff67ad181ee2",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "11410.xlsx",
+        "sha256": "f36bbc9bcd86ac1ee0f234695e7ea05ff9f711179fcd60baed2dff67ad181ee2",
+        "version": "f36bbc9bcd86ac1ee0f234695e7ea05ff9f711179fcd60baed2dff67ad181ee2"
+      },
+      {
+        "last_commit": "95e89455a6295db857412a63f041dfd0e407623680e4ede10e8854a3bd4dee42",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "latest.json",
+        "sha256": "95e89455a6295db857412a63f041dfd0e407623680e4ede10e8854a3bd4dee42",
+        "version": "95e89455a6295db857412a63f041dfd0e407623680e4ede10e8854a3bd4dee42"
       }
     ],
     "courses/semesters": [
       {
-        "last_commit": "baa2cc2a83edfde0ed751fbb18924424334dff7a9aa4a751ebe639f1211faa58",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "c4ee0540c663931fd6bcbfb65f0d87faf45a6eb8a32715f9354a066fe50bf2e8",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "10810.json",
+        "sha256": "c4ee0540c663931fd6bcbfb65f0d87faf45a6eb8a32715f9354a066fe50bf2e8",
+        "version": "c4ee0540c663931fd6bcbfb65f0d87faf45a6eb8a32715f9354a066fe50bf2e8"
+      },
+      {
+        "last_commit": "3d3d58414623a910abd9d6b03e122e7b83e8c2f59ed65236fc903956aa0d90af",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "10820.json",
-        "sha256": "baa2cc2a83edfde0ed751fbb18924424334dff7a9aa4a751ebe639f1211faa58",
-        "version": "baa2cc2a83edfde0ed751fbb18924424334dff7a9aa4a751ebe639f1211faa58"
+        "sha256": "3d3d58414623a910abd9d6b03e122e7b83e8c2f59ed65236fc903956aa0d90af",
+        "version": "3d3d58414623a910abd9d6b03e122e7b83e8c2f59ed65236fc903956aa0d90af"
       },
       {
-        "last_commit": "ea84efa3595bbf2351c8b2c86e80b3167b45d9e712b7c5b10a23b3bd11f94ef3",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "b8f5b36f7e703bac6560d528e36ce2d433e0cf953cef7504b5c87a5b9ded6968",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "10910.json",
-        "sha256": "ea84efa3595bbf2351c8b2c86e80b3167b45d9e712b7c5b10a23b3bd11f94ef3",
-        "version": "ea84efa3595bbf2351c8b2c86e80b3167b45d9e712b7c5b10a23b3bd11f94ef3"
+        "sha256": "b8f5b36f7e703bac6560d528e36ce2d433e0cf953cef7504b5c87a5b9ded6968",
+        "version": "b8f5b36f7e703bac6560d528e36ce2d433e0cf953cef7504b5c87a5b9ded6968"
       },
       {
-        "last_commit": "5e02c83db2087016fa0e377dab63e8cf650bc49bd1586ad49ea04246a68b42bb",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "de51291402e6e2e53cb73e265b45f3dac94201d6e6b8b20f25a11a41fbc29eb3",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "10920.json",
-        "sha256": "5e02c83db2087016fa0e377dab63e8cf650bc49bd1586ad49ea04246a68b42bb",
-        "version": "5e02c83db2087016fa0e377dab63e8cf650bc49bd1586ad49ea04246a68b42bb"
+        "sha256": "de51291402e6e2e53cb73e265b45f3dac94201d6e6b8b20f25a11a41fbc29eb3",
+        "version": "de51291402e6e2e53cb73e265b45f3dac94201d6e6b8b20f25a11a41fbc29eb3"
       },
       {
-        "last_commit": "4f04456924b5caff8fc92bb58405c47902b81f2ade6f92594e6d492e1006ae8f",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "d8ad1970f35a1f3637da9dbd0ae5b9c221b37c9ed54d0395253544ee397d4c96",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11010.json",
-        "sha256": "4f04456924b5caff8fc92bb58405c47902b81f2ade6f92594e6d492e1006ae8f",
-        "version": "4f04456924b5caff8fc92bb58405c47902b81f2ade6f92594e6d492e1006ae8f"
+        "sha256": "d8ad1970f35a1f3637da9dbd0ae5b9c221b37c9ed54d0395253544ee397d4c96",
+        "version": "d8ad1970f35a1f3637da9dbd0ae5b9c221b37c9ed54d0395253544ee397d4c96"
       },
       {
-        "last_commit": "e30aac028da9e0eda9cc8fdeee0fd817b719182c90da0f66be9d8ee67f2366fb",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "196a6de452dc9d5a65810ff4730cbcddd5c404f7f12569a1031788ed81cd7b98",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11020.json",
-        "sha256": "e30aac028da9e0eda9cc8fdeee0fd817b719182c90da0f66be9d8ee67f2366fb",
-        "version": "e30aac028da9e0eda9cc8fdeee0fd817b719182c90da0f66be9d8ee67f2366fb"
+        "sha256": "196a6de452dc9d5a65810ff4730cbcddd5c404f7f12569a1031788ed81cd7b98",
+        "version": "196a6de452dc9d5a65810ff4730cbcddd5c404f7f12569a1031788ed81cd7b98"
       },
       {
-        "last_commit": "acce1d1be541fcc1879a9449cf86211940c4eaca9082284457aa17545d40ea94",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "a89ec165f603a862e271c62badfc7c31a980a08b1cf45a15575e7682de222089",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11110.json",
-        "sha256": "acce1d1be541fcc1879a9449cf86211940c4eaca9082284457aa17545d40ea94",
-        "version": "acce1d1be541fcc1879a9449cf86211940c4eaca9082284457aa17545d40ea94"
+        "sha256": "a89ec165f603a862e271c62badfc7c31a980a08b1cf45a15575e7682de222089",
+        "version": "a89ec165f603a862e271c62badfc7c31a980a08b1cf45a15575e7682de222089"
       },
       {
-        "last_commit": "d5ea0081118fe17d48e94c0366ba9f9f1c2ddd493216e087ae1b82bc2c76875e",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "9a950f70ba028592e29ff0f466b1ac9ecf284521e90229ee9c913bf5d8007b44",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11120.json",
-        "sha256": "d5ea0081118fe17d48e94c0366ba9f9f1c2ddd493216e087ae1b82bc2c76875e",
-        "version": "d5ea0081118fe17d48e94c0366ba9f9f1c2ddd493216e087ae1b82bc2c76875e"
+        "sha256": "9a950f70ba028592e29ff0f466b1ac9ecf284521e90229ee9c913bf5d8007b44",
+        "version": "9a950f70ba028592e29ff0f466b1ac9ecf284521e90229ee9c913bf5d8007b44"
       },
       {
-        "last_commit": "c8e76fc69b28223d91b07af4b48da922b83345f64532813c7dc0bc1b5b33049e",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "303b37b4a7af1fc45a11c3a73dbddd69eb1b320806d10e57baac73fc5b4c44cf",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11210.json",
-        "sha256": "c8e76fc69b28223d91b07af4b48da922b83345f64532813c7dc0bc1b5b33049e",
-        "version": "c8e76fc69b28223d91b07af4b48da922b83345f64532813c7dc0bc1b5b33049e"
+        "sha256": "303b37b4a7af1fc45a11c3a73dbddd69eb1b320806d10e57baac73fc5b4c44cf",
+        "version": "303b37b4a7af1fc45a11c3a73dbddd69eb1b320806d10e57baac73fc5b4c44cf"
       },
       {
-        "last_commit": "8a54d8e61fd42452eccd08a0d9460bc561955315e0ac85314abf285307718778",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "0d42f7bf659a89494e85e54e8b1e17651f9aece0cc71b6163905aad59c89384d",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11220.json",
-        "sha256": "8a54d8e61fd42452eccd08a0d9460bc561955315e0ac85314abf285307718778",
-        "version": "8a54d8e61fd42452eccd08a0d9460bc561955315e0ac85314abf285307718778"
+        "sha256": "0d42f7bf659a89494e85e54e8b1e17651f9aece0cc71b6163905aad59c89384d",
+        "version": "0d42f7bf659a89494e85e54e8b1e17651f9aece0cc71b6163905aad59c89384d"
       },
       {
-        "last_commit": "82e9b3bcc701cd4f033d44de8770aedb2d38980f4b90d803491ecf07e8b5c593",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "57af9e773803b09c58abc9f12cdc342afe2d62cadafd819dd2893a6d5f4da2dc",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
+        "name": "11310.json",
+        "sha256": "57af9e773803b09c58abc9f12cdc342afe2d62cadafd819dd2893a6d5f4da2dc",
+        "version": "57af9e773803b09c58abc9f12cdc342afe2d62cadafd819dd2893a6d5f4da2dc"
+      },
+      {
+        "last_commit": "3f24ff4bcfc285f2a4b239e7f451909e8d289fd8db63a1caa5e5306fc19b749d",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11320.json",
-        "sha256": "82e9b3bcc701cd4f033d44de8770aedb2d38980f4b90d803491ecf07e8b5c593",
-        "version": "82e9b3bcc701cd4f033d44de8770aedb2d38980f4b90d803491ecf07e8b5c593"
+        "sha256": "3f24ff4bcfc285f2a4b239e7f451909e8d289fd8db63a1caa5e5306fc19b749d",
+        "version": "3f24ff4bcfc285f2a4b239e7f451909e8d289fd8db63a1caa5e5306fc19b749d"
       },
       {
-        "last_commit": "dae5eaefd4399775865793c2e7e67ea19327e3b2baffae55d042af27785cf7c6",
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_commit": "2d1485a7f5d5b4dcf723217cd96d9334988f54c7855eeadfa2e824490ed28012",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11410.json",
-        "sha256": "dae5eaefd4399775865793c2e7e67ea19327e3b2baffae55d042af27785cf7c6",
-        "version": "dae5eaefd4399775865793c2e7e67ea19327e3b2baffae55d042af27785cf7c6"
+        "sha256": "2d1485a7f5d5b4dcf723217cd96d9334988f54c7855eeadfa2e824490ed28012",
+        "version": "2d1485a7f5d5b4dcf723217cd96d9334988f54c7855eeadfa2e824490ed28012"
       },
       {
         "last_commit": "2bb533ef25550676f612b1059097ca72f81291cfab13f8b57143bb72c9ac3b20",
@@ -3313,11 +3385,11 @@
         "version": "2bb533ef25550676f612b1059097ca72f81291cfab13f8b57143bb72c9ac3b20"
       },
       {
-        "last_commit": "745221d38ff5015ed190bf681f1954f83ff2630a26bf5fbe93bee72a29902ee7",
-        "last_updated": "2026-10-15T06:16:26.925968+08:00",
+        "last_commit": "a47e772f982c4b0f0826c3641a829a6965e08d28b3737bd5940ec57732a3598d",
+        "last_updated": "2026-10-15T11:35:37.119110+08:00",
         "name": "11510.json",
-        "sha256": "745221d38ff5015ed190bf681f1954f83ff2630a26bf5fbe93bee72a29902ee7",
-        "version": "745221d38ff5015ed190bf681f1954f83ff2630a26bf5fbe93bee72a29902ee7"
+        "sha256": "a47e772f982c4b0f0826c3641a829a6965e08d28b3737bd5940ec57732a3598d",
+        "version": "a47e772f982c4b0f0826c3641a829a6965e08d28b3737bd5940ec57732a3598d"
       }
     ],
     "libraries": [
@@ -3390,5 +3462,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-15T10:58:13.887638+08:00"
+  "last_updated": "2026-10-15T11:35:37.119110+08:00"
 }
