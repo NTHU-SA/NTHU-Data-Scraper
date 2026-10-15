@@ -59,9 +59,46 @@ def test_unchanged_files_preserve_versions_and_timestamps(tmp_path):
     second_entry = _entry(second)
     assert second_entry == first_entry
     assert second["last_updated"] == first["last_updated"]
-    assert (
-        second_entry["last_commit"] == second_entry["version"] == second_entry["sha256"]
+    assert second_entry["version"] == calculate_sha256(data_folder / "buses.json")
+    assert second_entry["sha256"] == second_entry["version"]
+    assert set(first_entry) == {"name", "last_updated", "version", "sha256"}
+    assert set(second_entry) == {"name", "last_updated", "version", "sha256"}
+
+
+@pytest.mark.parametrize("hash_field", ["sha256", "version", "last_commit"])
+def test_legacy_metadata_migrates_without_resetting_unchanged_timestamp(
+    tmp_path, hash_field
+):
+    data_folder = tmp_path / "data"
+    data_folder.mkdir()
+    data_path = data_folder / "buses.json"
+    data_path.write_text("[]", encoding="utf-8")
+    metadata_path = data_folder / "file_details.json"
+    sha256 = calculate_sha256(data_path)
+    previous_timestamp = "2025-01-01T00:00:00+08:00"
+    previous_entry = {
+        "name": "buses.json",
+        "last_updated": previous_timestamp,
+        "last_commit": "a" * 40,
+    }
+    previous_entry[hash_field] = sha256
+    metadata_path.write_text(
+        json.dumps({"file_details": {"/": [previous_entry]}}), encoding="utf-8"
     )
+
+    migrated = generate_file_detail_json(
+        data_folder, metadata_path, generated_at=SECOND_RUN
+    )
+
+    assert _entry(migrated) == {
+        "name": "buses.json",
+        "last_updated": previous_timestamp,
+        "version": sha256,
+        "sha256": sha256,
+    }
+    assert migrated["last_updated"] == previous_timestamp
+    assert "last_commit" not in metadata_path.read_text(encoding="utf-8")
+    assert _entry(migrated)["sha256"] == _entry(migrated)["version"]
 
 
 def test_changed_and_new_files_get_current_timestamp(tmp_path):
@@ -80,10 +117,14 @@ def test_changed_and_new_files_get_current_timestamp(tmp_path):
         data_folder, metadata_path, generated_at=SECOND_RUN
     )
 
-    assert _entry(first)["sha256"] != _entry(second)["sha256"]
+    assert _entry(first)["version"] != _entry(second)["version"]
     assert _entry(second)["last_updated"] == "2026-09-27T22:00:00+08:00"
     assert _entry(second, "libraries")["last_updated"] == "2026-09-27T22:00:00+08:00"
     assert second["last_updated"] == "2026-09-27T22:00:00+08:00"
+    assert "last_commit" not in metadata_path.read_text(encoding="utf-8")
+    for entries in second["file_details"].values():
+        for entry in entries:
+            assert entry["sha256"] == entry["version"]
 
 
 def test_missing_malformed_and_pre_sha_metadata_are_safe(tmp_path):
@@ -123,6 +164,7 @@ def test_missing_malformed_and_pre_sha_metadata_are_safe(tmp_path):
         data_folder, metadata_path, generated_at=SECOND_RUN
     )
     assert _entry(legacy)["last_updated"] == "2026-09-27T22:00:00+08:00"
+    assert "last_commit" not in _entry(legacy)
 
 
 def test_nested_structure_and_publishing_files_are_handled(tmp_path):

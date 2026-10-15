@@ -68,7 +68,7 @@ def _valid_previous_timestamp(entry: dict) -> str | None:
 
 
 def _previous_sha256(entry: dict) -> str | None:
-    for key in ("sha256", "version", "last_commit"):
+    for key in ("version", "sha256", "last_commit"):
         value = entry.get(key)
         if (
             isinstance(value, str)
@@ -125,7 +125,6 @@ def generate_file_detail_json(
             {
                 "name": path.name,
                 "last_updated": last_updated,
-                "last_commit": sha256,
                 "version": sha256,
                 "sha256": sha256,
             }

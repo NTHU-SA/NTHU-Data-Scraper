@@ -39,7 +39,7 @@ class Folder:
         )
 
 
-def render_folder(folder: Folder, path: PurePosixPath) -> str:
+def render_folder(folder: Folder, path: PurePosixPath, repository_url: str) -> str:
     rows = []
     for name, child in sorted(
         folder.children.items(), key=lambda entry: entry[0].casefold()
@@ -54,7 +54,8 @@ def render_folder(folder: Folder, path: PurePosixPath) -> str:
             f'<span class="name">{html.escape(name)}</span>'
             f'<span class="folder-count">{child.file_count} 個檔案</span></span>'
             "</summary>"
-            f'<div class="folder-contents">{render_folder(child, child_path)}</div>'
+            '<div class="folder-contents">'
+            f"{render_folder(child, child_path, repository_url)}</div>"
             "</details>"
         )
 
@@ -63,20 +64,24 @@ def render_folder(folder: Folder, path: PurePosixPath) -> str:
     ):
         file_name = str(file_info.get("name", "N/A"))
         file_path = (path / file_name).as_posix()
-        version = str(
-            file_info.get("sha256")
-            or file_info.get("version")
-            or file_info.get("last_commit")
-            or ""
-        )
+        version = str(file_info.get("version") or "")
+        encoded_path = quote(file_path, safe="/")
         timestamp = html.escape(format_datetime(file_info.get("last_updated", "N/A")))
+        if timestamp == "N/A":
+            timestamp_html = f'<span class="timestamp">{timestamp}</span>'
+        else:
+            history_url = f"{repository_url.rstrip('/')}/commits/data/{encoded_path}"
+            timestamp_html = (
+                f'<a class="timestamp" href="{html.escape(history_url, quote=True)}" '
+                f'title="檢視檔案歷史">{timestamp}</a>'
+            )
         rows.append(
             f'<div class="entry file-entry" data-path="{html.escape(file_path, quote=True)}">'
             '<span class="entry-name"><svg class="icon file-icon" aria-hidden="true">'
             '<use href="#file-icon"/></svg>'
-            f'<a class="name" href="{html.escape(quote(file_path, safe="/"), quote=True)}">'
+            f'<a class="name" href="/{html.escape(encoded_path, quote=True)}">'
             f"{html.escape(file_name)}</a></span>"
-            f'<span class="timestamp">{timestamp}</span>'
+            f"{timestamp_html}"
             f'<code class="version" title="{html.escape(version, quote=True)}">'
             f"{html.escape(version[:12]) if version else 'N/A'}</code></div>"
         )
@@ -107,7 +112,7 @@ def generate_html_report(json_file_path: str, github_base_url: str, output_path:
         current_year=datetime.now().year,
         file_count=root.file_count,
         folder_count=root.folder_count,
-        entries=render_folder(root, PurePosixPath()),
+        entries=render_folder(root, PurePosixPath(), github_base_url),
         empty_hidden="hidden" if root.file_count else "",
     )
     output_path_obj.parent.mkdir(parents=True, exist_ok=True)

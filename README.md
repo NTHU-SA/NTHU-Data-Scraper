@@ -5,6 +5,7 @@ Public campus data from National Tsing Hua University, published as JSON at
 
 Browse folders on the website or use the JSON URLs directly. The index supports
 filename/path search and shows each file's update time and SHA-256 version.
+Click an update time to view that file's history on GitHub's `data` branch.
 
 ## Datasets
 
@@ -271,6 +272,8 @@ uv run python -m http.server 8000 --bind 127.0.0.1 --directory data
 Open <http://127.0.0.1:8000>. The page is generated from `index_template.html`;
 it needs no frontend build or external assets. Folders and file links work
 without JavaScript; search and expand/collapse controls use JavaScript.
+Serve `data/` as the website root: file, inventory, and home links resolve from
+the root, even when the index is opened under a nested URL.
 
 ## Publishing
 
@@ -308,7 +311,13 @@ JSON writes use atomic file replacement. Implementation, storage, or validation
 errors block publication; a multi-file local crawl is not a single transaction.
 
 `file_details.json` identifies exact file contents with SHA-256.
-`last_commit` is a compatibility alias for `version` / `sha256`, not a Git commit.
+`sha256` is the checksum for content verification; `version` is the version
+identity for caching and version management. Currently both contain the same
+SHA-256 hash, but consumers should use the field matching their purpose.
+The former `last_commit` field is removed; use `version` for cache identities.
+The index displays `version`, independently of the checksum field.
+The index's update-time links open each file's history on the `data` branch,
+not a specific immutable commit.
 See [workflow.md](workflow.md) for deployment and rollback details.
 
 ## License
