@@ -2,6 +2,140 @@
     "path_base": "courses",
     "sources": [
         {
+            "id": "108-110",
+            "url": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/1657/108-110coursedata_n(3).xlsx",
+            "path": "raw/108-110.xlsx",
+            "sha256": "9aa5a9101b41f374a7d8113d3ac90f2f5066ef0320c574565c7a6e55e97a26fd",
+            "format": "xlsx",
+            "sheets": [
+                "108-110"
+            ],
+            "supplemental_sheets": [],
+            "records": 16840,
+            "semesters": [
+                "10810",
+                "10820",
+                "10910",
+                "10920",
+                "11010",
+                "11020"
+            ],
+            "converted": {
+                "path": "raw/converted/108-110.json",
+                "sha256": "361e64c06812fd670618f584974e70701665257eba95fd84132744feb67a5072",
+                "schema_version": 1
+            }
+        },
+        {
+            "id": "10820",
+            "url": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data_10820.json",
+            "path": "raw/10820.json",
+            "sha256": "c7c768eb1944c9751d11e33d699d2dd3ab678e0fd72ee5d204f6c9a96d53f114",
+            "format": "json",
+            "sheets": [],
+            "supplemental_sheets": [],
+            "records": 2652,
+            "semesters": [
+                "10820"
+            ],
+            "converted": {
+                "path": "raw/converted/10820.json",
+                "sha256": "9147bc492b2679d53f82e559cf4c6b6b358fd9c2880545554abae748e2026f1c",
+                "schema_version": 1
+            }
+        },
+        {
+            "id": "10910-11110",
+            "url": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/474/unicode_1091_1111.json",
+            "path": "raw/10910-11110.json",
+            "sha256": "538d5e7ca36ff94debffa3e81c3659c1868e802dc9ab4c9f137c7ea98947633b",
+            "format": "json",
+            "sheets": [],
+            "supplemental_sheets": [],
+            "records": 14378,
+            "semesters": [
+                "10910",
+                "10920",
+                "11010",
+                "11020",
+                "11110"
+            ],
+            "converted": {
+                "path": "raw/converted/10910-11110.json",
+                "sha256": "cf739f09d98c14eb71ee09d8a7592503a82879c53e8a82cddc89dc9636d8e179",
+                "schema_version": 1
+            }
+        },
+        {
+            "id": "111-113",
+            "url": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/1657/111all-113all_courses_redo.xlsx",
+            "path": "raw/111-113.xlsx",
+            "sha256": "0faf187c64b77c7f426737e432bfa13e94ffd78b918cf852435a32355ed7e91c",
+            "format": "xlsx",
+            "sheets": [
+                "111全及112全",
+                "11310",
+                "11320"
+            ],
+            "supplemental_sheets": [],
+            "records": 17765,
+            "semesters": [
+                "11110",
+                "11120",
+                "11210",
+                "11220",
+                "11310",
+                "11320"
+            ],
+            "converted": {
+                "path": "raw/converted/111-113.json",
+                "sha256": "4dddcee57d76591a120ae1c03164d34de8e0652b82c51510db32a3e9527d282f",
+                "schema_version": 1
+            }
+        },
+        {
+            "id": "11120-11220",
+            "url": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/474/11120-11220JSON.json",
+            "path": "raw/11120-11220.json",
+            "sha256": "2583e90ae1222c63eb2bc0a06faaf9f2653e92e2f756637666bafb0bb350bef7",
+            "format": "json",
+            "sheets": [],
+            "supplemental_sheets": [],
+            "records": 8887,
+            "semesters": [
+                "11120",
+                "11210",
+                "11220"
+            ],
+            "converted": {
+                "path": "raw/converted/11120-11220.json",
+                "sha256": "461c66c156193ea98c2cd495b313974e127ef1c8530c589b307c2854f0097876",
+                "schema_version": 1
+            }
+        },
+        {
+            "id": "11410",
+            "url": "https://curricul.site.nthu.edu.tw/var/file/208/1208/img/1350/11410_course_data_fin.xlsx",
+            "path": "raw/11410.xlsx",
+            "sha256": "f36bbc9bcd86ac1ee0f234695e7ea05ff9f711179fcd60baed2dff67ad181ee2",
+            "format": "xlsx",
+            "sheets": [
+                "11410"
+            ],
+            "supplemental_sheets": [
+                "1141110教師data"
+            ],
+            "records": 3017,
+            "semesters": [
+                "11410"
+            ],
+            "converted": {
+                "path": "raw/converted/11410.json",
+                "sha256": "88945530127f9b238cab389166c4af5a01fae317b74927b8acd981bc6a8421f1",
+                "schema_version": 1
+            }
+        },
+        {
             "id": "latest",
             "url": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data.json",
             "path": "raw/latest.json",
@@ -20,87 +154,30 @@
             }
         }
     ],
-    "conflicts": {},
-    "filled_fields": 0,
-    "source_repairs": [],
+    "conflicts": {
+        "lecturer": 2226,
+        "note": 1802,
+        "expertise": 479,
+        "required_optional_note": 933,
+        "english_title": 43,
+        "ge_category": 80,
+        "chinese_title": 6
+    },
+    "filled_fields": 113962,
+    "source_repairs": [
+        {
+            "source_id": "10910-11110",
+            "row": 11177,
+            "course_id": "11020SOC 578900",
+            "reason": "Split quoted JSON row recovered from authoritative Excel",
+            "recovered_from": {
+                "source_id": "108-110",
+                "sheet": "108-110",
+                "row": 16596
+            }
+        }
+    ],
     "retained_published_snapshots": [
-        {
-            "id": "retained-10820",
-            "semester": "10820",
-            "path": "raw/retained-10820.json",
-            "sha256": "baa2cc2a83edfde0ed751fbb18924424334dff7a9aa4a751ebe639f1211faa58",
-            "records": 2652
-        },
-        {
-            "id": "retained-10910",
-            "semester": "10910",
-            "path": "raw/retained-10910.json",
-            "sha256": "ea84efa3595bbf2351c8b2c86e80b3167b45d9e712b7c5b10a23b3bd11f94ef3",
-            "records": 2858
-        },
-        {
-            "id": "retained-10920",
-            "semester": "10920",
-            "path": "raw/retained-10920.json",
-            "sha256": "5e02c83db2087016fa0e377dab63e8cf650bc49bd1586ad49ea04246a68b42bb",
-            "records": 2785
-        },
-        {
-            "id": "retained-11010",
-            "semester": "11010",
-            "path": "raw/retained-11010.json",
-            "sha256": "4f04456924b5caff8fc92bb58405c47902b81f2ade6f92594e6d492e1006ae8f",
-            "records": 2922
-        },
-        {
-            "id": "retained-11020",
-            "semester": "11020",
-            "path": "raw/retained-11020.json",
-            "sha256": "e30aac028da9e0eda9cc8fdeee0fd817b719182c90da0f66be9d8ee67f2366fb",
-            "records": 2856
-        },
-        {
-            "id": "retained-11110",
-            "semester": "11110",
-            "path": "raw/retained-11110.json",
-            "sha256": "acce1d1be541fcc1879a9449cf86211940c4eaca9082284457aa17545d40ea94",
-            "records": 2956
-        },
-        {
-            "id": "retained-11120",
-            "semester": "11120",
-            "path": "raw/retained-11120.json",
-            "sha256": "d5ea0081118fe17d48e94c0366ba9f9f1c2ddd493216e087ae1b82bc2c76875e",
-            "records": 2926
-        },
-        {
-            "id": "retained-11210",
-            "semester": "11210",
-            "path": "raw/retained-11210.json",
-            "sha256": "c8e76fc69b28223d91b07af4b48da922b83345f64532813c7dc0bc1b5b33049e",
-            "records": 3009
-        },
-        {
-            "id": "retained-11220",
-            "semester": "11220",
-            "path": "raw/retained-11220.json",
-            "sha256": "8a54d8e61fd42452eccd08a0d9460bc561955315e0ac85314abf285307718778",
-            "records": 2952
-        },
-        {
-            "id": "retained-11320",
-            "semester": "11320",
-            "path": "raw/retained-11320.json",
-            "sha256": "82e9b3bcc701cd4f033d44de8770aedb2d38980f4b90d803491ecf07e8b5c593",
-            "records": 2894
-        },
-        {
-            "id": "retained-11410",
-            "semester": "11410",
-            "path": "raw/retained-11410.json",
-            "sha256": "dae5eaefd4399775865793c2e7e67ea19327e3b2baffae55d042af27785cf7c6",
-            "records": 3020
-        },
         {
             "id": "retained-11420",
             "semester": "11420",
@@ -110,6 +187,7 @@
         }
     ],
     "semesters": [
+        "10810",
         "10820",
         "10910",
         "10920",
@@ -119,17 +197,15 @@
         "11120",
         "11210",
         "11220",
+        "11310",
         "11320",
         "11410",
         "11420",
         "11510"
     ],
-    "missing_regular_semesters": [
-        "10810",
-        "11310"
-    ],
-    "normalized_records": 3043,
-    "retained_records": 34726,
-    "published_records": 37769,
-    "parsing_issue_records": 0
+    "missing_regular_semesters": [],
+    "normalized_records": 40743,
+    "retained_records": 2896,
+    "published_records": 43639,
+    "parsing_issue_records": 13
 }
