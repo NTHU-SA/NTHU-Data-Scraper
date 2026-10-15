@@ -2,7 +2,14 @@ import argparse
 import json
 from pathlib import Path
 
+from nthu_scraper.course_data import ARCHIVED_LATEST_ID, SOURCES
+
 PUBLISHING_JSON_FILES = {"file_details.json"}
+RAW_COURSE_JSON_FILES = {
+    Path("courses") / "raw" / source.filename
+    for source in SOURCES
+    if source.format == "json"
+}
 DEFAULT_CRITICAL_FILES = (
     "announcements.json",
     "announcements_list.json",
@@ -25,12 +32,15 @@ def iter_dataset_json_files(data_folder: Path):
             yield path
 
 
-def _validate_json_file(path: Path) -> None:
+def _validate_json_file(path: Path, *, raw_course_source: bool = False) -> None:
     if path.stat().st_size == 0:
         raise SnapshotValidationError(f"JSON file is empty: {path}")
     try:
-        with path.open(encoding="utf-8") as file:
-            json.load(file)
+        if raw_course_source:
+            json.loads(path.read_bytes())
+        else:
+            with path.open(encoding="utf-8") as file:
+                json.load(file)
     except (UnicodeDecodeError, json.JSONDecodeError) as error:
         raise SnapshotValidationError(f"Invalid JSON file {path}: {error}") from error
 
@@ -54,7 +64,15 @@ def validate_snapshot(
     if not dataset_files:
         raise SnapshotValidationError("No dataset JSON files found")
     for path in dataset_files:
-        _validate_json_file(path)
+        relative = path.relative_to(data_folder)
+        _validate_json_file(
+            path,
+            raw_course_source=relative in RAW_COURSE_JSON_FILES
+            or (
+                relative.parent == Path("courses") / "raw"
+                and ARCHIVED_LATEST_ID.fullmatch(path.stem) is not None
+            ),
+        )
 
     metadata_path = data_folder / "file_details.json"
     if metadata_path.exists():

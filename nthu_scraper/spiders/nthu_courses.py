@@ -148,6 +148,15 @@ class CoursesData:
                 if canonical_field not in data:
                     data[canonical_field] = ""
 
+        if "教室與上課時間" in init_data and (
+            ("教室" in init_data) != ("上課時間" in init_data)
+        ):
+            meetings = parse_meetings(
+                canonical_fields(init_data, cls.FIELD_MAPPING), []
+            )
+            data["classroom"] = "\n".join(item["classroom"] or "" for item in meetings)
+            data["time"] = "\n".join(item["time"] or "" for item in meetings)
+
         # 移除不必要的 keys，避免 dataclass 建立錯誤
         keys_to_remove = []
         for key in data.keys():

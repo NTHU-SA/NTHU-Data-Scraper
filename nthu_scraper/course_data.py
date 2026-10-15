@@ -74,6 +74,16 @@ SOURCES = (
     ),
 )
 SOURCE_BY_ID = {source.id: source for source in SOURCES}
+ARCHIVED_LATEST_ID = re.compile(r"latest-(?:\d{5})(?:-\d{5})*$")
+
+
+def source_for_id(source_id: str) -> CourseSource:
+    if source_id in SOURCE_BY_ID:
+        return SOURCE_BY_ID[source_id]
+    if ARCHIVED_LATEST_ID.fullmatch(source_id):
+        return CourseSource(source_id, SOURCE_BY_ID["latest"].url)
+    raise ValueError(f"Unknown course archive identity: {source_id}")
+
 
 EXTRA_FIELDS = {
     "department_code": ("code", "代碼", "開課代碼"),
@@ -142,9 +152,23 @@ class SourceRecord:
 
 def read_source(body: bytes, source: CourseSource) -> list[SourceRecord]:
     if source.format == "json":
+        rows = decode_json(body)
+        if ARCHIVED_LATEST_ID.fullmatch(source.id):
+            retained = set(source.id.removeprefix("latest-").split("-"))
+            selected = [
+                (index, row)
+                for index, row in enumerate(rows, 1)
+                if course_key(row.get("科號"))[:5] in retained
+            ]
+            if not selected:
+                raise ValueError(
+                    f"{source.id}: archived response has no retained courses"
+                )
+        else:
+            selected = list(enumerate(rows, 1))
         return [
             SourceRecord(row, {"source_id": source.id, "row": index})
-            for index, row in enumerate(decode_json(body), 1)
+            for index, row in selected
         ]
     workbook = load_workbook(BytesIO(body), read_only=True, data_only=True)
     records = []
@@ -250,19 +274,31 @@ def canonical_fields(
 def merge_sources(
     inputs: dict[str, bytes], mapping: dict[str, list[str]]
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    current_semesters = (
+        {course_key(row.get("科號"))[:5] for row in decode_json(inputs["latest"])}
+        if "latest" in inputs
+        else set()
+    )
     merged: dict[str, dict[str, Any]] = {}
     manifest: dict[str, Any] = {
+        "path_base": "courses",
         "sources": [],
         "conflicts": {},
         "filled_fields": 0,
         "source_repairs": [],
     }
     for source in sorted(
-        (SOURCE_BY_ID[key] for key in inputs),
+        (source_for_id(key) for key in inputs),
         key=lambda item: (-item.priority, item.id),
     ):
         body = inputs[source.id]
         records = read_source(body, source)
+        if ARCHIVED_LATEST_ID.fullmatch(source.id):
+            records = [
+                record
+                for record in records
+                if course_key(record.values.get("科號"))[:5] not in current_semesters
+            ]
         seen: dict[str, dict[str, Any]] = {}
         semesters = set()
         previous_fields: dict[str, Any] = {}
@@ -357,9 +393,27 @@ def merge_sources(
 
 def parse_meetings(values: dict[str, Any], issues: list[str]) -> list[dict[str, Any]]:
     meetings = []
+    combined = []
+    if "classroom" not in values or "time" not in values:
+        for line in raw_text(values.get("class_room_and_time")).splitlines():
+            if not line.strip():
+                continue
+            parts = line.split("\t")
+            if len(parts) > 2:
+                issues.append("Unexpected extra classroom/time columns")
+            combined.append(
+                {
+                    "classroom": parts[0].strip() or None,
+                    "time": parts[1].strip() or None if len(parts) > 1 else None,
+                }
+            )
     if "classroom" in values or "time" in values:
-        rooms = raw_text(values.get("classroom")).splitlines()
-        times = raw_text(values.get("time")).splitlines()
+        rooms = (
+            raw_text(values.get("classroom")).splitlines()
+            if "classroom" in values
+            else []
+        )
+        times = raw_text(values.get("time")).splitlines() if "time" in values else []
         if not any(room.strip() for room in rooms):
             rooms = []
         if not any(time.strip() for time in times):
@@ -371,32 +425,43 @@ def parse_meetings(values: dict[str, Any], issues: list[str]) -> list[dict[str, 
                 rooms, times = split_rooms, split_times
             else:
                 issues.append("Unequal comma-separated classroom/time counts")
+        elif combined and len(rooms) == 1 and "," in rooms[0] and "time" not in values:
+            rooms = rooms[0].split(",")
+        elif (
+            combined
+            and len(times) == 1
+            and "," in times[0]
+            and "classroom" not in values
+        ):
+            times = times[0].split(",")
         if rooms and times and len(rooms) != len(times):
             issues.append("Unequal separate classroom/time line counts")
-        for index in range(max(len(rooms), len(times))):
+        if combined and rooms and "time" not in values and len(rooms) != len(combined):
+            issues.append("Unequal separate classroom/combined meeting counts")
+        if (
+            combined
+            and times
+            and "classroom" not in values
+            and len(times) != len(combined)
+        ):
+            issues.append("Unequal separate time/combined meeting counts")
+        for index in range(max(len(rooms), len(times), len(combined))):
             meetings.append(
                 {
                     "classroom": (rooms[index].strip() or None)
-                    if index < len(rooms)
+                    if "classroom" in values and index < len(rooms)
+                    else combined[index]["classroom"]
+                    if "classroom" not in values and index < len(combined)
                     else None,
                     "time": (times[index].strip() or None)
-                    if index < len(times)
+                    if "time" in values and index < len(times)
+                    else combined[index]["time"]
+                    if "time" not in values and index < len(combined)
                     else None,
                 }
             )
     else:
-        for line in raw_text(values.get("class_room_and_time")).splitlines():
-            if not line.strip():
-                continue
-            parts = line.split("\t")
-            if len(parts) > 2:
-                issues.append("Unexpected extra classroom/time columns")
-            meetings.append(
-                {
-                    "classroom": parts[0].strip() or None,
-                    "time": parts[1].strip() or None if len(parts) > 1 else None,
-                }
-            )
+        meetings = combined
     for meeting in meetings:
         raw_time = meeting["time"] or ""
         codes = re.findall(r"[MTWRFSU](?:[0-9]+|[A-Za-z])", raw_time)
@@ -611,7 +676,11 @@ def write_source_atomic(body: bytes, path: Path) -> None:
 
 
 def load_archives(
-    folder: Path, *, require_all: bool = False, include_latest: bool = True
+    folder: Path,
+    *,
+    require_all: bool = False,
+    include_latest: bool = True,
+    replaced_sources: set[str] | None = None,
 ) -> dict[str, bytes]:
     from nthu_scraper.storage import read_json_optional
 
@@ -622,8 +691,21 @@ def load_archives(
         else {}
     )
     inputs = {}
-    for source in SOURCES:
-        if source.id == "latest" and not include_latest:
+    replaced_sources = replaced_sources or set()
+    archived_ids = {
+        entry["id"]
+        for entry in previous.values()
+        if ARCHIVED_LATEST_ID.fullmatch(entry["id"])
+    }
+    archived_ids.update(
+        path.stem
+        for path in (folder / "raw").glob("latest-*.json")
+        if ARCHIVED_LATEST_ID.fullmatch(path.stem)
+    )
+    for source in (*SOURCES, *(source_for_id(key) for key in sorted(archived_ids))):
+        if (source.id == "latest" and not include_latest) or (
+            source.id in replaced_sources
+        ):
             continue
         path = folder / "raw" / source.filename
         if not path.exists():
@@ -640,6 +722,57 @@ def load_archives(
     return inputs
 
 
+def load_retained_snapshots(folder: Path) -> dict[str, bytes]:
+    from nthu_scraper.storage import read_json_optional
+
+    manifest = read_json_optional(folder / "sources.json")
+    previous = {
+        entry["semester"]: entry
+        for entry in (manifest or {}).get("retained_published_snapshots", [])
+    }
+    identities = set(previous)
+    identities.update(
+        path.stem.removeprefix("retained-")
+        for path in (folder / "raw").glob("retained-*.json")
+    )
+    snapshots = {}
+    for semester in sorted(identities):
+        if not re.fullmatch(r"\d{5}", semester):
+            raise ValueError(f"Invalid retained semester identity: {semester}")
+        path = folder / "raw" / f"retained-{semester}.json"
+        if not path.exists():
+            raise FileNotFoundError(f"Missing retained published snapshot: {path}")
+        body = path.read_bytes()
+        if semester in previous and (
+            hashlib.sha256(body).hexdigest() != previous[semester]["sha256"]
+        ):
+            raise ValueError(f"Retained published snapshot checksum mismatch: {path}")
+        snapshots[semester] = body
+    return snapshots
+
+
+def validate_retained_snapshot(body: bytes, semester: str) -> int:
+    try:
+        rows = json.loads(body.decode("utf-8"))
+        valid = (
+            isinstance(rows, list)
+            and bool(rows)
+            and all(
+                isinstance(row, dict)
+                and course_key(row.get("id"))[:5] == semester
+                and bool(
+                    text(row.get("chinese_title")) or text(row.get("english_title"))
+                )
+                for row in rows
+            )
+        )
+    except (UnicodeError, ValueError, TypeError) as error:
+        raise ValueError(f"Malformed retained published snapshot {semester}") from error
+    if not valid:
+        raise ValueError(f"Malformed retained published snapshot {semester}")
+    return len(rows)
+
+
 def publish_sources(
     inputs: dict[str, bytes],
     folder: Path,
@@ -650,6 +783,53 @@ def publish_sources(
 
     from nthu_scraper.storage import read_json_optional, write_json_atomic
 
+    inputs = dict(inputs)
+    for source_id, body in load_archives(
+        folder,
+        include_latest=False,
+        replaced_sources=set(inputs) & SOURCE_BY_ID.keys(),
+    ).items():
+        inputs.setdefault(source_id, body)
+    outgoing = folder / "raw" / "latest.json"
+    if "latest" in inputs and outgoing.exists():
+        previous_body = outgoing.read_bytes()
+        previous_manifest = read_json_optional(folder / "sources.json")
+        previous_latest = (
+            next(
+                (
+                    entry
+                    for entry in previous_manifest["sources"]
+                    if entry["id"] == "latest"
+                ),
+                None,
+            )
+            if previous_manifest is not None
+            else None
+        )
+        if previous_latest is not None and (
+            hashlib.sha256(previous_body).hexdigest() != previous_latest["sha256"]
+        ):
+            raise ValueError(
+                f"Course archive checksum mismatch: {outgoing}; run backfill"
+            )
+        if previous_body != inputs["latest"]:
+            outgoing_semesters = {
+                course_key(row.get("科號"))[:5] for row in decode_json(previous_body)
+            }
+            current_semesters = {
+                course_key(row.get("科號"))[:5] for row in decode_json(inputs["latest"])
+            }
+            if outgoing_semesters - current_semesters:
+                archive_id = "latest-" + "-".join(
+                    sorted(outgoing_semesters - current_semesters)
+                )
+                existing = inputs.get(archive_id)
+                if existing is not None and existing != previous_body:
+                    raise ValueError(
+                        f"Conflicting course archive {archive_id}; keep the existing "
+                        "archive and investigate the previous latest response"
+                    )
+                inputs[archive_id] = previous_body
     records, manifest = merge_sources(inputs, course_type.FIELD_MAPPING)
     semesters: dict[str, list[dict[str, Any]]] = {}
     for record in records:
@@ -669,8 +849,35 @@ def publish_sources(
         raise ValueError("No courses to publish")
     manifest_path = folder / "sources.json"
     manifest["sources"].sort(key=lambda entry: entry["id"])
+    retained = load_retained_snapshots(folder)
+    for path in sorted((folder / "semesters").glob("*.json")):
+        semester = path.stem
+        if not re.fullmatch(r"\d{5}", semester):
+            raise ValueError(f"Unexpected course semester file: {path}")
+        if semester in semesters:
+            continue
+        body = path.read_bytes()
+        if semester in retained and body != retained[semester]:
+            raise ValueError(
+                f"Published semester differs from retained snapshot: {path}"
+            )
+        retained.setdefault(semester, body)
+    retained_entries = []
+    for semester, body in sorted(retained.items()):
+        retained_entries.append(
+            {
+                "id": f"retained-{semester}",
+                "semester": semester,
+                "path": f"raw/retained-{semester}.json",
+                "sha256": hashlib.sha256(body).hexdigest(),
+                "records": validate_retained_snapshot(body, semester),
+                **({"superseded": True} if semester in semesters else {}),
+            }
+        )
+    manifest["retained_published_snapshots"] = retained_entries
     manifest["semesters"] = sorted(
         {semester for entry in manifest["sources"] for semester in entry["semesters"]}
+        | set(retained)
     )
     # Coverage is inferred from actual course IDs, not attachment labels.
     available = set(manifest["semesters"])
@@ -682,6 +889,12 @@ def publish_sources(
         if (code := f"{year:03}{term}0") < max(available) and code not in available
     ]
     manifest["normalized_records"] = sum(len(rows) for rows in semesters.values())
+    manifest["retained_records"] = sum(
+        entry["records"] for entry in retained_entries if not entry.get("superseded")
+    )
+    manifest["published_records"] = (
+        manifest["normalized_records"] + manifest["retained_records"]
+    )
     manifest["parsing_issue_records"] = sum(
         bool(row["parsing_issues"]) for rows in semesters.values() for row in rows
     )
@@ -699,9 +912,16 @@ def publish_sources(
         read_json_optional(path)
         json.dumps(value, ensure_ascii=False, allow_nan=False)
     for source_id, body in sorted(inputs.items()):
-        path = folder / "raw" / SOURCE_BY_ID[source_id].filename
+        path = folder / "raw" / source_for_id(source_id).filename
         if not path.exists() or path.read_bytes() != body:
             write_source_atomic(body, path)
+    for semester, body in sorted(retained.items()):
+        archived = folder / "raw" / f"retained-{semester}.json"
+        if not archived.exists():
+            write_source_atomic(body, archived)
+        published = folder / "semesters" / f"{semester}.json"
+        if semester not in semesters and not published.exists():
+            write_source_atomic(body, published)
     for path, value in outputs.items():
         indent = 2 if path == folder / "latest.json" else 4
         serialized = json.dumps(value, ensure_ascii=False, indent=indent)

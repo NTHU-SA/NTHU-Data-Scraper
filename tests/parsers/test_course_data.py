@@ -193,6 +193,96 @@ def test_empty_rooms_do_not_shift_times_or_consume_tab_delimiters():
     assert issues == []
 
 
+@pytest.mark.parametrize(
+    ("override", "expected"),
+    [
+        ({"classroom": "New"}, [("New", "M1")]),
+        ({"time": "T2"}, [("Old", "T2")]),
+        ({"classroom": ""}, [(None, "M1")]),
+        ({"time": ""}, [("Old", None)]),
+    ],
+)
+def test_partial_meeting_overrides_preserve_missing_component(override, expected):
+    issues = []
+    meetings = parse_meetings({"class_room_and_time": "Old\tM1", **override}, issues)
+    assert [(item["classroom"], item["time"]) for item in meetings] == expected
+    assert issues == []
+
+
+@pytest.mark.parametrize(
+    ("override", "expected"),
+    [
+        (
+            {"classroom": "New\nOther"},
+            [("New", "M1"), ("Other", "T2")],
+        ),
+        (
+            {"time": "W3\nR4"},
+            [("Old", "W3"), ("Next", "R4")],
+        ),
+        (
+            {"classroom": ""},
+            [(None, "M1"), (None, "T2")],
+        ),
+        (
+            {"time": ""},
+            [("Old", None), ("Next", None)],
+        ),
+    ],
+)
+def test_multiple_partial_meeting_overrides_align_pairs(override, expected):
+    raw = {"科號": ID, "中文課名": "測試", "教室與上課時間": "Old\tM1\nNext\tT2"}
+    if "classroom" in override:
+        raw["教室"] = override["classroom"]
+    if "time" in override:
+        raw["上課時間"] = override["time"]
+    result = group_courses([raw])["11020"][0]
+    meetings = result["meetings"]
+    assert [(item["classroom"], item["time"]) for item in meetings] == expected
+    assert result["classroom"] == "\n".join(room or "" for room, _ in expected)
+    assert result["time"] == "\n".join(time or "" for _, time in expected)
+    assert result["parsing_issues"] == []
+
+
+def test_partial_meeting_count_mismatch_keeps_raw_and_reports_alignment():
+    raw = {
+        "科號": ID,
+        "中文課名": "測試",
+        "教室與上課時間": "Old\tM1\nNext\tT2",
+        "教室": "New",
+    }
+    result = group_courses([raw])["11020"][0]
+    assert [(m["classroom"], m["time"]) for m in result["meetings"]] == [
+        ("New", "M1"),
+        (None, "T2"),
+    ]
+    assert result["classroom"] == "New\n"
+    assert result["time"] == "M1\nT2"
+    assert result["parsing_issues"] == [
+        "Unequal separate classroom/combined meeting counts"
+    ]
+    assert raw["教室與上課時間"] == "Old\tM1\nNext\tT2"
+    assert result["class_room_and_time"] == "Old M1 Next T2"
+    time_issues = []
+    assert parse_meetings(
+        {"class_room_and_time": "Old\tM1", "time": "T2\nW3"}, time_issues
+    )[1] == {"classroom": None, "time": "W3", "time_codes": ["W3"]}
+    assert time_issues == ["Unequal separate time/combined meeting counts"]
+
+
+def test_partial_override_aligns_comma_separated_rooms_to_combined_times():
+    issues = []
+    meetings = parse_meetings(
+        {"class_room_and_time": "Old\tM1\nNext\tT2", "classroom": "A,B"},
+        issues,
+    )
+    assert [(m["classroom"], m["time"]) for m in meetings] == [
+        ("A", "M1"),
+        ("B", "T2"),
+    ]
+    assert issues == []
+
+
 def test_lists_and_numeric_semantics(caplog):
     result = structured_fields(
         {

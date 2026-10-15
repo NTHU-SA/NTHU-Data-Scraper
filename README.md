@@ -80,9 +80,28 @@ manual dispatch supports these modes through `course_mode`; scheduled runs
 remain `latest`.
 Missing or checksum-mismatched previously archived files block a refresh;
 use `backfill` to restore them rather than silently dropping historical sources.
+When the latest feed moves to a new semester, its outgoing response is
+preserved byte-for-byte as `courses/raw/latest-<semester>.json`. If a response
+spans semesters, only those no longer covered by the incoming latest feed are
+replayed from that archive; current-semester courses always come from the new
+feed. These archives have their own source IDs, checksums, row provenance, and
+semester coverage in `sources.json`, and are included in future refreshes and
+offline rebuilds. Previously published semesters without an official raw
+source are preserved byte-for-byte in `courses/raw/retained-<semester>.json`
+and restored to `courses/semesters/` on offline rebuilds. They are labeled
+separately as `retained_published_snapshots` with checksums, coverage, and
+record counts, not represented as recovered official sources. `normalized_records`
+counts only source-normalized rows; `retained_records` and `published_records`
+account for the preserved snapshot rows. Malformed or changed retained snapshots
+block publication rather than being silently deleted or overwritten.
+If an official source later covers a retained semester, its normalized data
+replaces the published semester while the original snapshot stays archived,
+marked `superseded` and excluded from `retained_records`.
 
 Original response bytes are saved under `courses/raw/`, including complete
-workbooks and auxiliary sheets. `courses/sources.json` records URLs, SHA-256,
+workbooks and auxiliary sheets. `courses/sources.json` declares
+`path_base: "courses"`: resolve each archive `path` relative to this directory
+under the published snapshot root. It records URLs, SHA-256,
 selected course sheets, source counts, actual semester coverage, regular-semester
 gaps, merge conflicts, and verified source repairs. No new retrieval timestamp
 is generated on each run. Identical inputs leave output files unchanged.
