@@ -772,11 +772,11 @@ def normalize_course(
 ) -> dict[str, Any]:
     identifier = text(values.get("id"))
     course_key(identifier)
-    if not (text(values.get("chinese_title")) or text(values.get("english_title"))):
+    result = {field: display_text(values.get(field)) for field in PUBLIC_TEXT_FIELDS}
+    if not (result["chinese_title"] or result["english_title"]):
         raise ValueError(
             f"Course {identifier!r} has no usable course identity or title"
         )
-    result = {field: display_text(values.get(field)) for field in PUBLIC_TEXT_FIELDS}
     result["id"] = identifier
     result.update(structured_fields(values, origins))
     validate_standard_course(result)

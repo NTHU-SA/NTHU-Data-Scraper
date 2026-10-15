@@ -62,6 +62,44 @@ def test_raw_json_encoding_and_wrappers():
             decode_json(encoded(invalid))
 
 
+@pytest.mark.parametrize("empty_title", ["<BR>", "&nbsp;", "&#32;"])
+def test_group_courses_rejects_titles_empty_after_normalization(empty_title):
+    with pytest.raises(ValueError, match="no usable course identity or title"):
+        group_courses([{"科號": ID, "中文課名": empty_title}])
+    with pytest.raises(ValueError, match="no usable course identity or title"):
+        group_courses([{"科號": ID, "中文課名": empty_title, "英文課名": "<BR>"}])
+    course = group_courses(
+        [{"科號": ID, "中文課名": empty_title, "英文課名": " English "}]
+    )["11020"][0]
+    assert course["chinese_title"] == ""
+    assert course["english_title"] == "English"
+
+
+@pytest.mark.parametrize("empty_title", ["<BR>", "&nbsp;", "&#32;"])
+@pytest.mark.parametrize("title_field", ["中文課名", "英文課名"])
+def test_normalized_empty_title_preserves_published_snapshot(
+    tmp_path, empty_title, title_field
+):
+    folder = tmp_path / "courses"
+    publish_sources(
+        {"latest": encoded([{"科號": ID, "中文課名": "Known good"}])}, folder
+    )
+    before = {
+        path: (path.read_bytes(), path.stat().st_mtime_ns)
+        for path in tmp_path.rglob("*")
+        if path.is_file()
+    }
+    with pytest.raises(ValueError, match="no usable course identity or title"):
+        publish_sources(
+            {"latest": encoded([{"科號": ID, title_field: empty_title}])}, folder
+        )
+    assert before == {
+        path: (path.read_bytes(), path.stat().st_mtime_ns)
+        for path in tmp_path.rglob("*")
+        if path.is_file()
+    }
+
+
 def test_workbook_uses_configured_sheet_and_header_not_first_sheet():
     body = workbook_bytes(
         ["科號", "中文課名", "開課單位", "開課院別", "人限", "專長相關"],
