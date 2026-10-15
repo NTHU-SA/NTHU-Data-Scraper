@@ -7,6 +7,15 @@ on:
   schedule:
     - cron: "0 */2 * * *"
   workflow_dispatch:
+    inputs:
+      course_mode:
+        description: "Course refresh: latest, full historical backfill, or offline rebuild"
+        type: choice
+        options:
+          - latest
+          - backfill
+          - rebuild
+        default: latest
 
 permissions:
   contents: write
@@ -71,7 +80,8 @@ jobs:
       - name: Run courses spider
         env:
           DATA_FOLDER: ${{ env.DATA_FOLDER }}
-        run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_courses
+          COURSE_MODE: ${{ inputs.course_mode || 'latest' }}
+        run: uv run --frozen --no-build --no-sync python -m scrapy crawl nthu_courses -a mode="$COURSE_MODE"
 
       - name: Run dining spider
         env:

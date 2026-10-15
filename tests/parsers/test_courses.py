@@ -59,8 +59,12 @@ def test_course_fixture_contract(fixture_text):
     grouped = group_courses(source)
     assert list(grouped) == ["11510", "11520"]
     assert [course["id"] for course in grouped["11510"]] == ["11510CS101", "11510CS103"]
-    assert grouped["11510"][0] == expected
-    assert grouped["11520"] == [asdict(CoursesData.from_dict(source[1]))]
+    assert {key: grouped["11510"][0][key] for key in expected} == expected
+    assert grouped["11510"][0]["meetings"] == [
+        {"classroom": "資電館101", "time": "M1M2", "time_codes": ["M1", "M2"]}
+    ]
+    other = asdict(CoursesData.from_dict(source[1]))
+    assert {key: grouped["11520"][0][key] for key in other} == other
     assert source == json.loads(fixture_text("courses", "courses.json"))
 
 
@@ -113,14 +117,18 @@ def test_remaining_fields(field, alias):
 @pytest.mark.parametrize(
     "raw,expected",
     [
-        ("Room\tM1\n", {"classroom": "Room", "time": "M1\n"}),
+        ("Room\tM1\n", {"classroom": "Room", "time": "M1"}),
         ("Room", {"classroom": "Room", "time": ""}),
-        ("Room\tM1\textra", {"classroom": "Room", "time": "M1"}),
         ("", {"classroom": "", "time": ""}),
     ],
 )
 def test_classroom_time_split(raw, expected):
     assert _split_classroom_time(raw) == expected
+
+
+def test_extra_classroom_columns_are_not_silently_discarded():
+    with pytest.raises(ValueError, match="extra classroom"):
+        _split_classroom_time("Room\tM1\textra")
 
 
 def test_separate_fields_override_combined():
@@ -142,7 +150,7 @@ def test_existing_text_normalization_and_missing_fields():
     assert _strip_data_str(" a<BR>b<br>c\td\ne ") == "a b c d e"
     assert _strip_data_str("<b>Title</b><br/>") == "<b>Title</b><br/>"
     assert all(value == "" for value in asdict(CoursesData.from_dict({})).values())
-    assert CoursesData.from_dict({"學分": None}).credit == "None"
+    assert CoursesData.from_dict({"學分": None}).credit == ""
     assert CoursesData.from_dict({"unknown": "ignored"}).id == ""
 
 
