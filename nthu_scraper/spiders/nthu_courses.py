@@ -1,268 +1,43 @@
-from dataclasses import asdict, dataclass
+"""Download only the current official course feed."""
+
 from pathlib import Path
 from typing import Any
 
 import scrapy
 
 from nthu_scraper.course_data import (
-    ADDITIONAL_ALIASES,
-    COURSE_INDEX_URL,
     SOURCE_BY_ID,
-    SOURCES,
-    canonical_fields,
     decode_json,
-    load_archives,
-    parse_meetings,
-    structured_fields,
+    group_courses,
+    publish_sources,
 )
-from nthu_scraper.utils.constants import COURSES_FOLDER, COURSES_JSON_PATH
+from nthu_scraper.utils.constants import COURSES_FOLDER
 from nthu_scraper.utils.crawl_safety import WholeDatasetSpider
 from nthu_scraper.utils.file_utils import save_json
 from nthu_scraper.utils.url_utils import normalize_http_url
 
-COURSE_DATA_URL: dict[str, str] = {
-    "latest": SOURCE_BY_ID["latest"].url,
-}
-
-
-# --- 輔助函式 ---
-def _split_classroom_time(classroom_time: str) -> dict[str, str]:
-    """
-    將教室與上課時間字串分割為教室與上課時間。
-
-    Args:
-        classroom_time (str): 教室與上課時間字串。
-
-    Returns:
-        Dict[str, str]: 教室與上課時間。
-    """
-    issues: list[str] = []
-    meetings = parse_meetings({"class_room_and_time": classroom_time}, issues)
-    if any("columns" in issue for issue in issues):
-        raise ValueError("; ".join(issues))
-    return {
-        "classroom": "\n".join(item["classroom"] or "" for item in meetings),
-        "time": "\n".join(item["time"] or "" for item in meetings),
-    }
-
-
-def _strip_data_str(data: str) -> str:
-    """
-    移除字串中的空白字元。
-
-    Args:
-        data (str): 要處理的字串。
-
-    Returns:
-        str: 移除空白字元後的字串。
-    """
-    data = data.replace("<BR>", " ").replace("<br>", " ")  # 移除 HTML 標籤
-    data = data.replace("\t", " ").replace("\n", " ")  # 移除換行與 Tab 字元
-    return data.strip()
-
-
-# --- 課程資料 ---
-@dataclass
-class CoursesData:
-    id: str  # 科號
-    chinese_title: str  # 中文課名
-    english_title: str  # 英文課名
-    credit: str  # 學分數
-    size_limit: str  # 人限
-    student_count: str  # 總人數
-    lecturer: str  # 授課教師
-    language: str  # 授課語言
-    class_room_and_time: str  # 教室與上課時間
-    classroom: str  # 教室
-    time: str  # 時間
-    note: str  # 備註
-    suspend: str  # 停開註記
-    limit_note: str  # 課程限制說明
-    freshman_reservation: str  # 新生保留人數
-    object: str  # 開課對象
-    ge_type: str  # 通識對象
-    ge_category: str  # 通識分類
-    prerequisite: str  # 擋修說明
-    expertise: str  # 第一二專長對應
-    program: str  # 學分學程對應
-    no_extra_selection: str  # 不可加簽說明
-    required_optional_note: str  # 必選修說明
-
-    # 定義各個欄位可能出現的關鍵字（同義字）
-    FIELD_MAPPING = {
-        "id": ["科號"],
-        "chinese_title": ["課程中文名稱", "中文課名"],
-        "english_title": ["課程英文名稱", "英文課名"],
-        "credit": ["學分數", "學分"],
-        "time": ["上課時間"],
-        "classroom": ["教室"],
-        "class_room_and_time": ["教室與上課時間"],
-        "lecturer": ["授課教師", "教師姓名", "教師"],
-        "size_limit": ["人限"],
-        "student_count": ["總人數"],
-        "language": ["授課語言"],
-        "note": ["備註", "備註欄"],
-        "suspend": ["停開註記"],
-        "limit_note": ["課程限制說明"],
-        "freshman_reservation": ["新生保留人數"],
-        "object": ["開課對象", "選課限制條件"],
-        "ge_type": ["通識對象"],
-        "ge_category": ["通識分類", "通識類別"],
-        "prerequisite": ["擋修說明"],
-        "expertise": ["第一二專長對應"],
-        "program": ["學分學程對應"],
-        "no_extra_selection": ["不可加簽說明"],
-        "required_optional_note": ["必選修說明", "此課程已列入之系所班別"],
-    }
-
-    @classmethod
-    def from_dict(cls, init_data: dict):
-        """
-        根據 FIELD_MAPPING 從原始資料中找出對應的欄位資料，
-        若找不到則給空字串。
-        """
-        data = {}
-
-        # 處理教室與上課時間 (優先處理分開的欄位，若沒有再處理合併的欄位)
-        if init_data.get("教室與上課時間"):  # 處理分開的欄位
-            classroom_time_data = _split_classroom_time(init_data["教室與上課時間"])
-            data["classroom"] = classroom_time_data.get("classroom", "")
-            data["time"] = classroom_time_data.get("time", "")
-
-        for canonical_field, keywords in cls.FIELD_MAPPING.items():
-            found_key = None
-            for key in (*keywords, *ADDITIONAL_ALIASES.get(canonical_field, ())):
-                if key in init_data:
-                    found_key = key
-                    break
-            if found_key:
-                value = init_data[found_key]
-                data_string = "" if value is None else str(value)
-                data_string = (
-                    data_string.strip(" \t").rstrip("\r\n")
-                    if canonical_field in ("classroom", "time")
-                    else _strip_data_str(data_string)
-                )
-                data[canonical_field] = data_string
-            else:
-                if canonical_field not in data:
-                    data[canonical_field] = ""
-
-        if "教室與上課時間" in init_data and (
-            ("教室" in init_data) != ("上課時間" in init_data)
-        ):
-            meetings = parse_meetings(
-                canonical_fields(init_data, cls.FIELD_MAPPING), []
-            )
-            data["classroom"] = "\n".join(item["classroom"] or "" for item in meetings)
-            data["time"] = "\n".join(item["time"] or "" for item in meetings)
-
-        # 移除不必要的 keys，避免 dataclass 建立錯誤
-        keys_to_remove = []
-        for key in data.keys():
-            if key not in CoursesData.__dataclass_fields__:
-                keys_to_remove.append(key)
-        for key in keys_to_remove:
-            del data[key]
-
-        return cls(**data)
-
-    def __repr__(self) -> str:
-        return str(self.__dict__)
-
-
-def group_courses(data: Any) -> dict[str, list[dict[str, Any]]]:
-    """Validate and normalize the whole collection before any files are written."""
-    if not isinstance(data, list) or not data:
-        raise ValueError("Course collection must be a non-empty list")
-    semesters: dict[str, list[dict[str, Any]]] = {}
-    for index, course_dict in enumerate(data):
-        if not isinstance(course_dict, dict):
-            raise ValueError(f"Course record {index} must be an object")
-        course_data = CoursesData.from_dict(course_dict)
-        course_id = course_data.id
-        semester = course_id[:5]
-        if (
-            len(semester) != 5
-            or not semester.isascii()
-            or not semester.isdigit()
-            or not course_id[5:].strip()
-            or not (course_data.chinese_title or course_data.english_title)
-        ):
-            raise ValueError(
-                f"Course record {index} has no usable course identity or title"
-            )
-        fields = canonical_fields(course_dict, CoursesData.FIELD_MAPPING)
-        normalized = asdict(course_data)
-        normalized.update(structured_fields(fields))
-        semesters.setdefault(semester, []).append(normalized)
-    return semesters
+COURSE_DATA_URL = {"latest": SOURCE_BY_ID["latest"].url}
 
 
 class CoursesSpider(WholeDatasetSpider):
-    """
-    清華大學課程資訊爬蟲
-    """
-
     name = "nthu_courses"
-    allowed_domains = ["www.ccxp.nthu.edu.tw", "curricul.site.nthu.edu.tw"]
-    custom_settings = {
-        "ROBOTSTXT_OBEY": False,
-    }
+    allowed_domains = ["www.ccxp.nthu.edu.tw"]
+    custom_settings = {"ROBOTSTXT_OBEY": False}
 
     def __init__(self, *args, mode: str = "latest", **kwargs):
         super().__init__(*args, **kwargs)
-        if mode not in ("latest", "backfill", "rebuild"):
-            raise ValueError("Course mode must be latest, backfill, or rebuild")
-        self.mode = mode
-        self.source_bodies: dict[str, bytes] = {}
+        if mode != "latest":
+            raise ValueError(
+                "Course spider only downloads latest; use "
+                "'python -m nthu_scraper.course_tool' for import or rebuild"
+            )
 
     async def start(self):
-        if self.mode == "rebuild":
-            self.source_bodies = load_archives(COURSES_FOLDER, require_all=True)
-            self._publish_sources()
-            return
-        if self.mode == "backfill":
-            yield scrapy.Request(
-                COURSE_INDEX_URL,
-                callback=self.parse_index,
-                errback=self.handle_request_error,
-            )
-            return
-        for data_type, url in COURSE_DATA_URL.items():
-            yield scrapy.Request(
-                url=normalize_http_url(url),
-                meta={"data_type": data_type},
-                errback=self.handle_request_error,
-            )
-
-    def parse_index(self, response):
-        links = {
-            normalize_http_url(link, base_url=response.url)
-            for link in response.css(".module-detail .meditor a::attr(href)").getall()
-        }
-        expected = {source.url for source in SOURCES}
-        missing = expected - links
-        unknown = {
-            url for url in links if url.split("?")[0].endswith((".json", ".xlsx"))
-        } - expected
-        if missing or unknown:
-            raise ValueError(
-                f"Course source inventory changed: missing={sorted(missing)}, "
-                f"unconfigured={sorted(unknown)}"
-            )
-        for source in SOURCES:
-            yield scrapy.Request(
-                normalize_http_url(source.url),
-                callback=self.parse_source,
-                errback=self.handle_request_error,
-                meta={"source_id": source.id},
-            )
-
-    def parse_source(self, response):
-        self.source_bodies[response.meta["source_id"]] = response.body
-        if len(self.source_bodies) == len(SOURCES) and not self.crawl_incomplete:
-            self._publish_sources()
+        yield scrapy.Request(
+            normalize_http_url(COURSE_DATA_URL["latest"]),
+            meta={"data_type": "latest"},
+            errback=self.handle_request_error,
+        )
 
     def handle_request_error(self, failure):
         super().handle_request_error(failure)
@@ -271,68 +46,19 @@ class CoursesSpider(WholeDatasetSpider):
         ) from failure.value
 
     def parse(self, response):
-        """
-        處理 JSON 課程資料，儲存原始資料，再依科號分學期儲存檔案。
-        """
+        if response.meta.get("data_type", "latest") != "latest":
+            raise ValueError("Course spider only accepts the latest feed")
         try:
-            data: Any = decode_json(response.body)
-        except ValueError as e:
-            self.logger.error(f"❎ JSON 解析失敗: {e}")
+            group_courses(decode_json(response.body))
+            publish_sources({"latest": response.body}, COURSES_FOLDER)
+        except (ValueError, OSError, TypeError) as error:
+            self.logger.error("Course refresh failed: %s", error)
             raise
-
-        data_type = response.meta.get("data_type", "")
-        self.logger.info(f"✅ 成功取得資料 ({data_type}): {response.url}")
-
-        try:
-            self._group_courses(data)
-        except ValueError as error:
-            self.logger.error(
-                "Invalid course response; retaining previous files: %s", error
-            )
-            raise
-
-        if data_type not in ("", "latest"):
-            raise ValueError(f"Unsupported latest course data type: {data_type}")
-        self.source_bodies = {"latest": response.body}
-        self._publish_sources()
-
-    def _publish_sources(self) -> None:
-        from nthu_scraper.course_data import publish_sources
-
-        if self.mode == "latest":
-            self.source_bodies.update(
-                load_archives(COURSES_FOLDER, include_latest=False)
-            )
-        publish_sources(
-            self.source_bodies,
-            COURSES_FOLDER,
-            COURSES_JSON_PATH,
-            CoursesData,
-        )
 
     def split_course_data(
         self, data: list[dict[str, Any]], output_folder: Path
     ) -> None:
-        """
-        根據科號前 5 碼（學期）將課程資料分割並儲存至各 JSON 檔案中。
-
-        Args:
-            data: 課程資料列表。
-            output_folder: 儲存分檔資料的資料夾。
-        """
-        self._write_semesters(self._group_courses(data), output_folder)
-
-    def _group_courses(self, data: Any) -> dict[str, list[dict[str, Any]]]:
         semesters = group_courses(data)
-        for semester in semesters:
-            self.logger.info(f"✅ 新增學期: {semester}")
-        return semesters
-
-    def _write_semesters(
-        self, semesters: dict[str, list[dict[str, Any]]], output_folder: Path
-    ) -> None:
         output_folder.mkdir(parents=True, exist_ok=True)
         for semester, courses in semesters.items():
-            semester_file = output_folder / f"{semester}.json"
-            save_json(courses, semester_file, ensure_dir=False)
-            self.logger.info(f"✅ 儲存學期 {semester} 資料至: {semester_file}")
+            save_json(courses, output_folder / f"{semester}.json", ensure_dir=False)

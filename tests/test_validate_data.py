@@ -37,8 +37,8 @@ def test_zero_byte_json_fails(tmp_path):
 
 def test_missing_critical_dataset_fails(tmp_path):
     data_folder = _snapshot(tmp_path)
-    with pytest.raises(SnapshotValidationError, match="courses.json"):
-        validate_snapshot(data_folder, ("buses.json", "courses.json"))
+    with pytest.raises(SnapshotValidationError, match="courses/latest.json"):
+        validate_snapshot(data_folder, ("buses.json", "courses/latest.json"))
 
 
 def test_publishing_metadata_is_not_a_dataset(tmp_path):
@@ -63,6 +63,7 @@ def test_publishing_metadata_is_not_a_dataset(tmp_path):
         "file_details.json",
         "courses/raw/unlisted.json",
         "courses/raw/latest-invalid.json",
+        "courses/raw/converted/latest.json",
         "courses/semesters/latest-11510.json",
     ],
 )

@@ -5,15 +5,16 @@ from io import BytesIO
 import pytest
 import scrapy
 from openpyxl import Workbook
-from scrapy.http import HtmlResponse, TextResponse
+from scrapy.http import TextResponse
 from twisted.internet.error import TimeoutError
 from twisted.python.failure import Failure
 
 from nthu_scraper.course_data import (
+    FIELD_MAPPING,
     SOURCE_BY_ID,
-    SOURCES,
     canonical_fields,
     decode_json,
+    group_courses,
     merge_sources,
     parse_meetings,
     publish_sources,
@@ -21,10 +22,10 @@ from nthu_scraper.course_data import (
     structured_fields,
 )
 from nthu_scraper.spiders import nthu_courses
-from nthu_scraper.spiders.nthu_courses import CoursesData, CoursesSpider, group_courses
+from nthu_scraper.spiders.nthu_courses import CoursesSpider
 
 ID = "11020SOC 578900"
-MAPPING = CoursesData.FIELD_MAPPING
+MAPPING = FIELD_MAPPING
 
 
 def encoded(rows):
@@ -146,15 +147,15 @@ def test_split_converter_row_requires_intact_excel_recovery(caplog):
     assert "Recovered malformed" in caplog.text
 
 
-def test_multiple_meetings_fix_actual_loss_and_keep_legacy_lines():
+def test_multiple_meetings_preserve_all_pairs_without_legacy_fields():
     raw = {
         "科號": "11510AES 520300",
         "中文課名": "環境化學",
         "教室與上課時間": "BMES醫環618\tM3M4\nBMES醫環501\tF3F4\n",
     }
     result = group_courses([raw])["11510"][0]
-    assert result["classroom"] == "BMES醫環618\nBMES醫環501"
-    assert result["time"] == "M3M4\nF3F4"
+    assert "classroom" not in result
+    assert "time" not in result
     assert result["meetings"] == [
         {"classroom": "BMES醫環618", "time": "M3M4", "time_codes": ["M3", "M4"]},
         {"classroom": "BMES醫環501", "time": "F3F4", "time_codes": ["F3", "F4"]},
@@ -239,8 +240,8 @@ def test_multiple_partial_meeting_overrides_align_pairs(override, expected):
     result = group_courses([raw])["11020"][0]
     meetings = result["meetings"]
     assert [(item["classroom"], item["time"]) for item in meetings] == expected
-    assert result["classroom"] == "\n".join(room or "" for room, _ in expected)
-    assert result["time"] == "\n".join(time or "" for _, time in expected)
+    assert "classroom" not in result
+    assert "time" not in result
     assert result["parsing_issues"] == []
 
 
@@ -256,13 +257,13 @@ def test_partial_meeting_count_mismatch_keeps_raw_and_reports_alignment():
         ("New", "M1"),
         (None, "T2"),
     ]
-    assert result["classroom"] == "New\n"
-    assert result["time"] == "M1\nT2"
+    assert "classroom" not in result
+    assert "time" not in result
     assert result["parsing_issues"] == [
         "Unequal separate classroom/combined meeting counts"
     ]
     assert raw["教室與上課時間"] == "Old\tM1\nNext\tT2"
-    assert result["class_room_and_time"] == "Old M1 Next T2"
+    assert "class_room_and_time" not in result
     time_issues = []
     assert parse_meetings(
         {"class_room_and_time": "Old\tM1", "time": "T2\nW3"}, time_issues
@@ -379,7 +380,8 @@ def test_publication_preserves_raw_and_is_byte_stable(tmp_path):
     )
     folder = tmp_path / "courses"
     root = tmp_path / "courses.json"
-    report = publish_sources({"latest": raw}, folder, root, CoursesData)
+    report = publish_sources({"latest": raw}, folder)
+    assert not root.exists()
     assert report["missing_regular_semesters"] == ["11420"]
     assert (folder / "raw" / "latest.json").read_bytes() == raw
     assert report["sources"][0]["sha256"] == hashlib.sha256(raw).hexdigest()
@@ -388,81 +390,46 @@ def test_publication_preserves_raw_and_is_byte_stable(tmp_path):
         for p in tmp_path.rglob("*")
         if p.is_file()
     }
-    publish_sources({"latest": raw}, folder, root, CoursesData)
+    publish_sources({"latest": raw}, folder)
     assert before == {p: (p.read_bytes(), p.stat().st_mtime_ns) for p in before}
     with pytest.raises(ValueError):
-        publish_sources({"latest": encoded([{}])}, folder, root, CoursesData)
+        publish_sources({"latest": encoded([{}])}, folder)
     assert before == {p: (p.read_bytes(), p.stat().st_mtime_ns) for p in before}
 
 
 def test_corrupt_any_target_prevents_all_source_and_output_writes(tmp_path):
     folder = tmp_path / "courses"
     folder.mkdir()
-    root = tmp_path / "courses.json"
+    root = folder / "latest.json"
     root.write_text("broken", encoding="utf-8")
     with pytest.raises(json.JSONDecodeError):
         publish_sources(
             {"latest": encoded([{"科號": "11510AES 450100", "中文課名": "測試"}])},
             folder,
-            root,
-            CoursesData,
         )
     assert not (folder / "raw").exists()
     assert not (folder / "semesters").exists()
 
 
-def test_index_inventory_excludes_navigation_and_detects_changes():
-    spider = CoursesSpider(mode="backfill")
-    content = '<a href="https://example.org/not-a-course.json">Navigation</a>'
-    content += '<div class="module-detail"><div class="meditor">'
-    content += "".join(f'<a href="{source.url}">Course</a>' for source in SOURCES)
-    content += "</div></div>"
-    response = HtmlResponse("https://curricul.site.nthu.edu.tw/", body=content.encode())
-    assert len(list(spider.parse_index(response))) == len(SOURCES)
-    changed = HtmlResponse(
-        response.url, body=content.replace(SOURCES[1].url, "/other.json").encode()
-    )
-    with pytest.raises(ValueError, match="inventory changed"):
-        list(spider.parse_index(changed))
+def test_spider_downloads_only_latest():
+    start = CoursesSpider().start()
+    with pytest.raises(StopIteration) as first:
+        start.__anext__().send(None)
+    assert first.value.value.url == SOURCE_BY_ID["latest"].url
+    with pytest.raises(StopAsyncIteration):
+        start.__anext__().send(None)
 
 
-def test_backfill_buffers_until_every_source_is_available(monkeypatch):
-    spider = CoursesSpider(mode="backfill")
-    calls = []
-    monkeypatch.setattr(spider, "_publish_sources", lambda: calls.append(True))
-    for source in SOURCES[:-1]:
-        response = TextResponse(
-            source.url,
-            body=b"not parsed until complete",
-            request=scrapy.Request(source.url, meta={"source_id": source.id}),
-        )
-        spider.parse_source(response)
-    assert calls == []
-    spider.mark_incomplete("last source failed")
-    source = SOURCES[-1]
-    spider.parse_source(
-        TextResponse(
-            source.url,
-            body=b"still not complete",
-            request=scrapy.Request(source.url, meta={"source_id": source.id}),
-        )
-    )
-    assert calls == []
-
-
-def test_rebuild_requires_all_sources_and_uses_no_requests(tmp_path, monkeypatch):
-    monkeypatch.setattr(nthu_courses, "COURSES_FOLDER", tmp_path)
-    spider = CoursesSpider(mode="rebuild")
-
-    with pytest.raises(FileNotFoundError):
-        spider.start().__anext__().send(None)
+@pytest.mark.parametrize("mode", ["backfill", "rebuild", "invalid"])
+def test_offline_operations_are_not_spider_modes(mode):
+    with pytest.raises(ValueError, match="course_tool"):
+        CoursesSpider(mode=mode)
 
 
 def test_latest_refresh_reuses_archives_without_losing_history(tmp_path, monkeypatch):
     folder = tmp_path / "courses"
-    root = tmp_path / "courses.json"
+    root = folder / "latest.json"
     monkeypatch.setattr(nthu_courses, "COURSES_FOLDER", folder)
-    monkeypatch.setattr(nthu_courses, "COURSES_JSON_PATH", root)
     body = workbook_bytes(
         ["科號", "中文課名", "開課單位"], [[ID, "歷史", "社會學研究所"]]
     )
@@ -471,9 +438,11 @@ def test_latest_refresh_reuses_archives_without_losing_history(tmp_path, monkeyp
     (raw / "108-110.xlsx").write_bytes(body)
     latest = encoded([{"科號": "11510AES 450100", "中文課名": "最新"}])
     response = TextResponse(
-        SOURCES[0].url,
+        SOURCE_BY_ID["latest"].url,
         body=latest,
-        request=scrapy.Request(SOURCES[0].url, meta={"data_type": "latest"}),
+        request=scrapy.Request(
+            SOURCE_BY_ID["latest"].url, meta={"data_type": "latest"}
+        ),
     )
     CoursesSpider().parse(response)
     old = json.loads((folder / "semesters" / "11020.json").read_text(encoding="utf-8"))
@@ -493,9 +462,84 @@ def test_latest_refresh_reuses_archives_without_losing_history(tmp_path, monkeyp
 
 
 def test_download_failure_is_explicit_and_blocks_buffered_publication():
-    spider = CoursesSpider(mode="backfill")
+    spider = CoursesSpider()
     failure = Failure(TimeoutError())
-    failure.request = scrapy.Request(SOURCES[0].url)
+    failure.request = scrapy.Request(SOURCE_BY_ID["latest"].url)
     with pytest.raises(ValueError, match="Course download failed"):
         spider.handle_request_error(failure)
     assert spider.crawl_incomplete
+
+
+def test_two_stage_excel_preserves_raw_columns_and_is_independently_replayable():
+    from nthu_scraper.course_data import convert_source, merge_converted_sources
+
+    body = workbook_bytes(
+        ["科號", "中文課名", "教師", "備註", "Unmodeled"],
+        [[ID, " Title<BR>raw ", "甲,乙", " raw\tvalue\n", "keep this"]],
+    )
+    document = convert_source(body, SOURCE_BY_ID["108-110"])
+    document = json.loads(json.dumps(document, ensure_ascii=False))
+    assert document["schema_version"] == 1
+    assert document["sha256"] == hashlib.sha256(body).hexdigest()
+    record = document["records"][0]
+    assert record["values"]["中文課名"] == " Title<BR>raw "
+    assert record["values"]["備註"] == " raw\tvalue\n"
+    assert record["values"]["Unmodeled"] == "keep this"
+    assert record["origin"]["row"] == 3
+    records, _ = merge_converted_sources({"108-110": document})
+    from nthu_scraper.course_data import normalize_course
+
+    result = normalize_course(records[0]["values"])
+    assert result["chinese_title"] == "Title raw"
+    assert result["note"] == "raw value"
+    assert result["lecturers"] == [{"label": "甲"}, {"label": "乙"}]
+    assert "Unmodeled" not in result
+
+
+def test_teacher_supplement_cannot_pair_is_archived_not_guessed(tmp_path):
+    body = workbook_bytes(
+        ["科號", "中文課名", "教師"],
+        [["11410AES 470200", "Title", "甲,乙"]],
+        sheet_name="11410",
+        teachers=[["11410AES 470200", "Title", "甲,乙", "Only one name"]],
+    )
+    folder = tmp_path / "courses"
+    publish_sources({"11410": body}, folder)
+    result = json.loads(
+        (folder / "semesters" / "11410.json").read_text(encoding="utf-8")
+    )[0]
+    assert result["lecturers"] == [{"label": "甲"}, {"label": "乙"}]
+    assert result["parsing_issues"] == [
+        "Teacher supplement cannot be paired with primary names"
+    ]
+    assert "lecturer_names_en" not in result
+    document = json.loads(
+        (folder / "raw" / "converted" / "11410.json").read_text(encoding="utf-8")
+    )
+    assert document["records"][0]["values"]["授課教師英文"] == "Only one name"
+    assert (folder / "raw" / "11410.xlsx").read_bytes() == body
+
+
+@pytest.mark.parametrize("damage", ["missing", "malformed", "changed"])
+def test_bad_converted_archive_prevents_refresh_writes(tmp_path, damage):
+    folder = tmp_path / "courses"
+    old = encoded([{"科號": "11510AES 450100", "中文課名": "Old"}])
+    publish_sources({"latest": old}, folder)
+    path = folder / "raw" / "converted" / "latest.json"
+    if damage == "missing":
+        path.unlink()
+    elif damage == "malformed":
+        path.write_bytes(b"{")
+    else:
+        document = json.loads(path.read_bytes())
+        document["records"][0]["values"]["中文課名"] = "Tampered"
+        path.write_text(json.dumps(document), encoding="utf-8")
+    legacy_root = tmp_path / "courses.json"
+    legacy_root.write_bytes(b"[]")
+    before = {path: path.read_bytes() for path in tmp_path.rglob("*") if path.is_file()}
+    with pytest.raises((ValueError, FileNotFoundError)):
+        publish_sources(
+            {"latest": encoded([{"科號": "11510AES 450100", "中文課名": "New"}])},
+            folder,
+        )
+    assert before == {path: path.read_bytes() for path in before}
