@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-16T18:18:54.207816+08:00",
+        "last_updated": "2026-10-16T22:19:55.226061+08:00",
         "name": "announcements.json",
-        "sha256": "eccf53ab5f1bb2e5d2d9204bc004e7aac00339d168f379aa9fbce160a8b371e9",
-        "version": "eccf53ab5f1bb2e5d2d9204bc004e7aac00339d168f379aa9fbce160a8b371e9"
+        "sha256": "f2223db1630aa65a96571771784127c04c7de8a528939526b2c3405d74aeaac2",
+        "version": "f2223db1630aa65a96571771784127c04c7de8a528939526b2c3405d74aeaac2"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -572,10 +572,10 @@
         "version": "f7c9a66beddb81be1b92da1a48730b13105ce7528cf2f2db89eee1c1330ef351"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-16T22:19:55.226061+08:00",
         "name": "榮譽榜_zh-tw.json",
-        "sha256": "6bcadf45cd7c24886117e9e5643b8349984c4027a8e37fac619b0a119c25ba34",
-        "version": "6bcadf45cd7c24886117e9e5643b8349984c4027a8e37fac619b0a119c25ba34"
+        "sha256": "0c6116c62970c424b0b1932cb3907ad73139fd03b5aca25f8b9040c6647f442a",
+        "version": "0c6116c62970c424b0b1932cb3907ad73139fd03b5aca25f8b9040c6647f442a"
       }
     ],
     "announcements/工學院奈米工程與微系統研究所": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-16T18:18:54.207816+08:00"
+  "last_updated": "2026-10-16T22:19:55.226061+08:00"
 }
