@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2049",
+            "category": "電子資源",
+            "title": "【學習資源】國家圖書館提供「學位論文品質輔助服務」，歡迎多多利用！",
+            "link": "https://wass.ncl.edu.tw/",
+            "pubDate": "Fri, 16 Oct 2026 15:59:06 +0800",
+            "description": "「學位論文品質輔助系統」（原名：學位論文相似檢測輔助系統），旨在提供全國各大學校院研究生論文相似檢測輔助工具，協助及促進研究生自主學習學位論文學術寫作技巧，並主動確認學位論文之原創性。\n※系統連結：https://wass.ncl.edu.tw/\n※主辦單位：國家圖書館\n※使用對象：本校應屆畢業且論文尚未建檔之碩博士生。\n※說明：\n1. 首次使用請先申請帳號：https://forms.gle/uLyfJDxCH7aE7Q9D8\n2. 收到帳號審核通過的email後，即可開始使用。\n3. 每位學生限檢測5次，前3次不限時間（約30分鐘內），第4-5次需等候24小時始獲得檢測結果。\n4. 系統相關疑問，歡迎洽詢國家圖書館：https://reurl.cc/2lL5nr\n5. 若送出帳號申請後，超過5個工作天仍未收到通知信，請與本館學習研究服務組聯繫：scholar@my.nthu.edu.tw／03-5742239。\n6. 每年4月及10月進行前一學期學生帳號及資料清理作業，敬請提前下載檢測結果。\n※線上教育訓練：\n11月11日（三）15:00，報名期限至11月9日（一）止。\n11月25日（三）15:00，報名期限至11月23日（一）止。\n報名連結：https://forms.gle/2hm48PRz4mSsFMCt7",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260417_writeaid.jpg",
+                "title": "【學習資源】國家圖書館提供「學位論文品質輔助服務」，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2048",
             "category": "服務消息",
             "title": "【服務公告】旺宏館總圖書館空調冰水主機維修吊掛作業",
@@ -744,6 +758,20 @@
         }
     ],
     "eresources": [
+        {
+            "guid": "2049",
+            "category": "電子資源",
+            "title": "【學習資源】國家圖書館提供「學位論文品質輔助服務」，歡迎多多利用！",
+            "link": "https://wass.ncl.edu.tw/",
+            "pubDate": "Fri, 16 Oct 2026 15:59:06 +0800",
+            "description": "「學位論文品質輔助系統」（原名：學位論文相似檢測輔助系統），旨在提供全國各大學校院研究生論文相似檢測輔助工具，協助及促進研究生自主學習學位論文學術寫作技巧，並主動確認學位論文之原創性。\n※系統連結：https://wass.ncl.edu.tw/\n※主辦單位：國家圖書館\n※使用對象：本校應屆畢業且論文尚未建檔之碩博士生。\n※說明：\n1. 首次使用請先申請帳號：https://forms.gle/uLyfJDxCH7aE7Q9D8\n2. 收到帳號審核通過的email後，即可開始使用。\n3. 每位學生限檢測5次，前3次不限時間（約30分鐘內），第4-5次需等候24小時始獲得檢測結果。\n4. 系統相關疑問，歡迎洽詢國家圖書館：https://reurl.cc/2lL5nr\n5. 若送出帳號申請後，超過5個工作天仍未收到通知信，請與本館學習研究服務組聯繫：scholar@my.nthu.edu.tw／03-5742239。\n6. 每年4月及10月進行前一學期學生帳號及資料清理作業，敬請提前下載檢測結果。\n※線上教育訓練：\n11月11日（三）15:00，報名期限至11月9日（一）止。\n11月25日（三）15:00，報名期限至11月23日（一）止。\n報名連結：https://forms.gle/2hm48PRz4mSsFMCt7",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260417_writeaid.jpg",
+                "title": "【學習資源】國家圖書館提供「學位論文品質輔助服務」，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2047",
             "category": "電子資源",
