@@ -887,7 +887,17 @@
                 "name_en": null
             }
         ],
-        "meetings": [],
+        "meetings": [
+            {
+                "classroom": "NTU UnivNTU COOL",
+                "time": "W2W3W4",
+                "time_codes": [
+                    "W2",
+                    "W3",
+                    "W4"
+                ]
+            }
+        ],
         "expertises": [],
         "programs": [
             "(跨領域)人工智慧與應用基礎學分學程",
@@ -934,7 +944,17 @@
                 "name_en": "HUNG, SHIH-HSUAN"
             }
         ],
-        "meetings": [],
+        "meetings": [
+            {
+                "classroom": "NTU UnivNTU COOL",
+                "time": "M2M3M4",
+                "time_codes": [
+                    "M2",
+                    "M3",
+                    "M4"
+                ]
+            }
+        ],
         "expertises": [],
         "programs": [
             "(跨領域)人工智慧與應用基礎學分學程",
@@ -977,7 +997,17 @@
                 "name_en": null
             }
         ],
-        "meetings": [],
+        "meetings": [
+            {
+                "classroom": "NTU UnivNTU COOL",
+                "time": "R5R6R7",
+                "time_codes": [
+                    "R5",
+                    "R6",
+                    "R7"
+                ]
+            }
+        ],
         "expertises": [],
         "programs": [
             "(跨領域)人工智慧與應用進階學分學程",
@@ -1022,7 +1052,17 @@
                 "name_en": null
             }
         ],
-        "meetings": [],
+        "meetings": [
+            {
+                "classroom": "NTU UnivNTU COOL",
+                "time": "W2W3W4",
+                "time_codes": [
+                    "W2",
+                    "W3",
+                    "W4"
+                ]
+            }
+        ],
         "expertises": [],
         "programs": [
             "(跨領域)人工智慧與應用進階學分學程",
@@ -1066,7 +1106,17 @@
                 "name_en": null
             }
         ],
-        "meetings": [],
+        "meetings": [
+            {
+                "classroom": "NTU UnivNTU COOL",
+                "time": "W2W3W4",
+                "time_codes": [
+                    "W2",
+                    "W3",
+                    "W4"
+                ]
+            }
+        ],
         "expertises": [],
         "programs": [
             "(跨領域)人工智慧與應用進階學分學程",
@@ -1111,7 +1161,17 @@
                 "name_en": null
             }
         ],
-        "meetings": [],
+        "meetings": [
+            {
+                "classroom": "NTU UnivNTU COOL",
+                "time": "R5R6R7",
+                "time_codes": [
+                    "R5",
+                    "R6",
+                    "R7"
+                ]
+            }
+        ],
         "expertises": [],
         "programs": [
             "(TAICA)人工智慧自然語言技術學分學程"
@@ -1217,7 +1277,17 @@
                 "name_en": "CARLOS RENE ARGUETA TEJEDA"
             }
         ],
-        "meetings": [],
+        "meetings": [
+            {
+                "classroom": "NTU UnivNTU COOL",
+                "time": "T5T6T7",
+                "time_codes": [
+                    "T5",
+                    "T6",
+                    "T7"
+                ]
+            }
+        ],
         "expertises": [],
         "programs": [
             "(TAICA)人工智慧視覺技術學分學程",
@@ -98441,12 +98511,12 @@
         "language_code": "zh",
         "lecturers": [
             {
-                "name_zh": "高千惠",
-                "name_en": "KAO, CHIEN-HUI"
-            },
-            {
                 "name_zh": "王子華",
                 "name_en": "WANG, TZU-HUA"
+            },
+            {
+                "name_zh": "高千惠",
+                "name_en": "KAO, CHIEN-HUI"
             }
         ],
         "meetings": [
@@ -104655,12 +104725,12 @@
         "language_code": "zh",
         "lecturers": [
             {
-                "name_zh": "郭哲宇",
-                "name_en": "KUO, CHE-YU"
-            },
-            {
                 "name_zh": "王子華",
                 "name_en": "WANG, TZU-HUA"
+            },
+            {
+                "name_zh": "郭哲宇",
+                "name_en": "KUO, CHE-YU"
             },
             {
                 "name_zh": "蔡寶桂",
