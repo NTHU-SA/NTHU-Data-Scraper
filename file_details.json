@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-16T12:21:26.677349+08:00",
+        "last_updated": "2026-10-16T14:30:55.154633+08:00",
         "name": "announcements.json",
-        "sha256": "7a74fbad872d69605d313e8677ac09055853396abe10a826e06ea973c9c8f876",
-        "version": "7a74fbad872d69605d313e8677ac09055853396abe10a826e06ea973c9c8f876"
+        "sha256": "4ed645eac5c1ce5c9df5100367842057c3a05f15c0ca8435c07a4a0a38aa2e56",
+        "version": "4ed645eac5c1ce5c9df5100367842057c3a05f15c0ca8435c07a4a0a38aa2e56"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-16T08:45:43.335583+08:00",
+        "last_updated": "2026-10-16T14:30:55.154633+08:00",
         "name": "dining.json",
-        "sha256": "29fe41f8a24c40974e41185e73c69d315decd30de5a1c850342bc179aa012c43",
-        "version": "29fe41f8a24c40974e41185e73c69d315decd30de5a1c850342bc179aa012c43"
+        "sha256": "9f7d7e910e59d729a5856ec709339caae2a92ff795c5418ecf289f01f4173d55",
+        "version": "9f7d7e910e59d729a5856ec709339caae2a92ff795c5418ecf289f01f4173d55"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1782,10 +1782,10 @@
         "version": "0b7eb36c89339f20e115283aeb257ba63280f0fa88d851e72e733dd9ff7f6794"
       },
       {
-        "last_updated": "2026-10-13T12:28:01.310814+08:00",
+        "last_updated": "2026-10-16T14:30:55.154633+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "746f1caceafcd4d0b47005716144f4e13a154ab564c289eba21886b7cae004f6",
-        "version": "746f1caceafcd4d0b47005716144f4e13a154ab564c289eba21886b7cae004f6"
+        "sha256": "6e43576579d504edae7680b4c559163894f14930740ec0a857487381d6bebd44",
+        "version": "6e43576579d504edae7680b4c559163894f14930740ec0a857487381d6bebd44"
       }
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-16T12:21:26.677349+08:00"
+  "last_updated": "2026-10-16T14:30:55.154633+08:00"
 }
