@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2050",
+            "category": "電子資源",
+            "title": "【開放取用】ACS OA期刊論文投稿系統暫停公告（11/1-11/7）",
+            "link": "https://libguides.lib.nthu.edu.tw/OA/ACS",
+            "pubDate": "Fri, 16 Oct 2026 17:18:19 +0800",
+            "description": "因美國化學會（American Chemical Society, ACS）進行新協議銜接設定，ACS投稿平台將於2026年11月1日（星期日）至11月7日（星期六）暫停服務，造成不便，敬請見諒。\n※重要提醒：\n若您的文章於系統暫停期間獲得接受（Accepted），請勿自行支付文章處理費（Article Processing Charge, APC），尤其是投稿至完全開放取用（Gold OA）期刊的作者。\n後續將由出版社及圖書館人工處理，以確保符合資格的文章仍可採OA形式出版，並享有APC優惠。\n！！自行支付的APC，後續將無法退款，敬請留意！！\n※ACS投稿說明：https://libguides.lib.nthu.edu.tw/OA/ACS\n如有相關問題，歡迎與圖書館聯繫：\n學習研究服務組 陳小姐\nEmail：scholar@my.nthu.edu.tw\n校內分機：42239",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261016_LRS_ACS.jpg",
+                "title": "【開放取用】ACS OA期刊論文投稿系統暫停公告（11/1-11/7）",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2049",
             "category": "電子資源",
             "title": "【學習資源】國家圖書館提供「學位論文品質輔助服務」，歡迎多多利用！",
@@ -758,6 +772,20 @@
         }
     ],
     "eresources": [
+        {
+            "guid": "2050",
+            "category": "電子資源",
+            "title": "【開放取用】ACS OA期刊論文投稿系統暫停公告（11/1-11/7）",
+            "link": "https://libguides.lib.nthu.edu.tw/OA/ACS",
+            "pubDate": "Fri, 16 Oct 2026 17:18:19 +0800",
+            "description": "因美國化學會（American Chemical Society, ACS）進行新協議銜接設定，ACS投稿平台將於2026年11月1日（星期日）至11月7日（星期六）暫停服務，造成不便，敬請見諒。\n※重要提醒：\n若您的文章於系統暫停期間獲得接受（Accepted），請勿自行支付文章處理費（Article Processing Charge, APC），尤其是投稿至完全開放取用（Gold OA）期刊的作者。\n後續將由出版社及圖書館人工處理，以確保符合資格的文章仍可採OA形式出版，並享有APC優惠。\n！！自行支付的APC，後續將無法退款，敬請留意！！\n※ACS投稿說明：https://libguides.lib.nthu.edu.tw/OA/ACS\n如有相關問題，歡迎與圖書館聯繫：\n學習研究服務組 陳小姐\nEmail：scholar@my.nthu.edu.tw\n校內分機：42239",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261016_LRS_ACS.jpg",
+                "title": "【開放取用】ACS OA期刊論文投稿系統暫停公告（11/1-11/7）",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2049",
             "category": "電子資源",

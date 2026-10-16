@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-16T16:24:54.899420+08:00",
+        "last_updated": "2026-10-16T18:18:54.207816+08:00",
         "name": "announcements.json",
-        "sha256": "171150045f4f14498df4af0d4c7e84a7f265c4ae245492ae4444e5f6fbd96f32",
-        "version": "171150045f4f14498df4af0d4c7e84a7f265c4ae245492ae4444e5f6fbd96f32"
+        "sha256": "eccf53ab5f1bb2e5d2d9204bc004e7aac00339d168f379aa9fbce160a8b371e9",
+        "version": "eccf53ab5f1bb2e5d2d9204bc004e7aac00339d168f379aa9fbce160a8b371e9"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1216,16 +1216,16 @@
         "version": "0960b9edff79d5dbdba6361875f26efb3ddf7ec27c6b7ff21e16411f31e0e13a"
       },
       {
-        "last_updated": "2026-10-15T18:18:53.275925+08:00",
+        "last_updated": "2026-10-16T18:18:54.207816+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "6d2c90ba70db793425afa88a2b80058863fd94af902242e160744e9f1c306fdf",
-        "version": "6d2c90ba70db793425afa88a2b80058863fd94af902242e160744e9f1c306fdf"
+        "sha256": "ae82f99a0ff9d93fba7024407816d55638407755cb9002585995265a85500554",
+        "version": "ae82f99a0ff9d93fba7024407816d55638407755cb9002585995265a85500554"
       },
       {
-        "last_updated": "2026-10-15T00:19:57.008927+08:00",
+        "last_updated": "2026-10-16T18:18:54.207816+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "890ba0c600a5f786d2c8375fa6ca876aa7faaebb7523be3f058008b1da773ca4",
-        "version": "890ba0c600a5f786d2c8375fa6ca876aa7faaebb7523be3f058008b1da773ca4"
+        "sha256": "9d14692b7c5a3ab5bfcd756a7661249486db4202b54d001c684e3bfb27946fcb",
+        "version": "9d14692b7c5a3ab5bfcd756a7661249486db4202b54d001c684e3bfb27946fcb"
       },
       {
         "last_updated": "2026-10-15T10:25:10.526191+08:00",
@@ -2974,10 +2974,10 @@
         "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
       },
       {
-        "last_updated": "2026-10-16T16:24:54.899420+08:00",
+        "last_updated": "2026-10-16T18:18:54.207816+08:00",
         "name": "rss.json",
-        "sha256": "2f052901785e719278767b8436e3c1a4f4105fe34a5cf552e27ba77178798bd2",
-        "version": "2f052901785e719278767b8436e3c1a4f4105fe34a5cf552e27ba77178798bd2"
+        "sha256": "047cd53556e6b4322da070d07c67aac3ae54d6b0934763123ba2b45247464372",
+        "version": "047cd53556e6b4322da070d07c67aac3ae54d6b0934763123ba2b45247464372"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-16T16:24:54.899420+08:00"
+  "last_updated": "2026-10-16T18:18:54.207816+08:00"
 }
