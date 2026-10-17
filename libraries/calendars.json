@@ -12856,6 +12856,22 @@
                 "all_day": true
             },
             {
+                "id": "f156b379335e084a",
+                "title": "行憲紀念日補假閉館(closed)",
+                "description": null,
+                "start": "2027-12-24",
+                "end": "2027-12-25",
+                "all_day": true
+            },
+            {
+                "id": "78134173882feab0",
+                "title": "行憲紀念日閉館(closed)",
+                "description": null,
+                "start": "2027-12-25",
+                "end": "2027-12-26",
+                "all_day": true
+            },
+            {
                 "id": "7c17dd14c0dc8362",
                 "title": "閉館（closed)",
                 "description": null,

@@ -2968,10 +2968,10 @@
     ],
     "libraries": [
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-17T12:19:49.232697+08:00",
         "name": "calendars.json",
-        "sha256": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f",
-        "version": "1a921d462dee53ef4bb0fac8700fbff24e69915cac775d2a80938326bc37935f"
+        "sha256": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c",
+        "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
         "last_updated": "2026-10-16T18:18:54.207816+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-17T06:16:44.922325+08:00"
+  "last_updated": "2026-10-17T12:19:49.232697+08:00"
 }
