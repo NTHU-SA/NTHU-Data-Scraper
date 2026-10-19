@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-19T12:23:03.674433+08:00",
+        "last_updated": "2026-10-19T14:41:56.810521+08:00",
         "name": "announcements.json",
-        "sha256": "02e9ad81fe3cffa403029d2f542f839437ba5519dbc0c828366cffca215cc637",
-        "version": "02e9ad81fe3cffa403029d2f542f839437ba5519dbc0c828366cffca215cc637"
+        "sha256": "3a3a65f3fa6f60e9da38ffeddcd73b77b64f9ac361833f43059aa1ccffda6bbf",
+        "version": "3a3a65f3fa6f60e9da38ffeddcd73b77b64f9ac361833f43059aa1ccffda6bbf"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-19T12:23:03.674433+08:00",
+        "last_updated": "2026-10-19T14:41:56.810521+08:00",
         "name": "dining.json",
-        "sha256": "7203c964d88de9f02d23f02d52976af024fff3a969fef244efe86daba6f4c017",
-        "version": "7203c964d88de9f02d23f02d52976af024fff3a969fef244efe86daba6f4c017"
+        "sha256": "986fa78cca87e07d2cbea45618976021d225cc6e2a8f74e6e776d822b49a9550",
+        "version": "986fa78cca87e07d2cbea45618976021d225cc6e2a8f74e6e776d822b49a9550"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-19T10:28:09.037809+08:00",
+        "last_updated": "2026-10-19T14:41:56.810521+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "3e5dfdd990c736244dd8b532dfa74c5a087642e44dd1f4f9ee30ae27285f1cf3",
-        "version": "3e5dfdd990c736244dd8b532dfa74c5a087642e44dd1f4f9ee30ae27285f1cf3"
+        "sha256": "4aa4cf956340681636db69d9d84842d0de14469467ce899b6a5ea4f7ec851b03",
+        "version": "4aa4cf956340681636db69d9d84842d0de14469467ce899b6a5ea4f7ec851b03"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -538,10 +538,10 @@
         "version": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600"
       },
       {
-        "last_updated": "2026-10-15T16:03:58.770131+08:00",
+        "last_updated": "2026-10-19T14:41:56.810521+08:00",
         "name": "課外組重要公告_zh-tw.json",
-        "sha256": "fd17819321307f0cbbe870681c1eacee8021739a3a4ba623ac85f267a7afb8dc",
-        "version": "fd17819321307f0cbbe870681c1eacee8021739a3a4ba623ac85f267a7afb8dc"
+        "sha256": "dec7751a08bd24e2c6e761f177be50bcbb355ba9e2824fe09c2d4b5376eff079",
+        "version": "dec7751a08bd24e2c6e761f177be50bcbb355ba9e2824fe09c2d4b5376eff079"
       }
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
@@ -1216,10 +1216,10 @@
         "version": "1ce2804042e39528def7e229ee05fec956ea3f9b10bc432ca45ca5032687f361"
       },
       {
-        "last_updated": "2026-10-19T12:23:03.674433+08:00",
+        "last_updated": "2026-10-19T14:41:56.810521+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "06f07a74bf4966aaa1f96078ac6f1179c7f9cf886bf7f4343574482f9c5e5e8a",
-        "version": "06f07a74bf4966aaa1f96078ac6f1179c7f9cf886bf7f4343574482f9c5e5e8a"
+        "sha256": "45f5b6deeb86f225a87b6c9d3370dca09dae894cc6f4ab372d24b56bc7d0606f",
+        "version": "45f5b6deeb86f225a87b6c9d3370dca09dae894cc6f4ab372d24b56bc7d0606f"
       },
       {
         "last_updated": "2026-10-19T12:23:03.674433+08:00",
@@ -1228,10 +1228,10 @@
         "version": "9415aafd65c5d1a9022da01613737e04e599595bd23047524a6d4bbd5fff2174"
       },
       {
-        "last_updated": "2026-10-15T10:25:10.526191+08:00",
+        "last_updated": "2026-10-19T14:41:56.810521+08:00",
         "name": "藝文活動_zh-tw.json",
-        "sha256": "c6b4ec2bb25331ddae0c3031c7c667d61fbdca3f0fcb68668d4149a32c3b13e3",
-        "version": "c6b4ec2bb25331ddae0c3031c7c667d61fbdca3f0fcb68668d4149a32c3b13e3"
+        "sha256": "3a24a1e0d1fc51a403c8ee3d4b2204f3a4c0284f596cf12d41efaf35df086278",
+        "version": "3a24a1e0d1fc51a403c8ee3d4b2204f3a4c0284f596cf12d41efaf35df086278"
       },
       {
         "last_updated": "2026-10-19T12:23:03.674433+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-19T12:23:03.674433+08:00"
+  "last_updated": "2026-10-19T14:41:56.810521+08:00"
 }
