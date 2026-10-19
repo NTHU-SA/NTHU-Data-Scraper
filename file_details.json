@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-20T00:21:16.867874+08:00",
+        "last_updated": "2026-10-20T02:23:48.521355+08:00",
         "name": "announcements.json",
-        "sha256": "fa0266469409857219e4134ed4bf9713ae7beb36017d24b3103f9e779f71f8eb",
-        "version": "fa0266469409857219e4134ed4bf9713ae7beb36017d24b3103f9e779f71f8eb"
+        "sha256": "1cffc9beb93ff6cb119c24dd9b818f5ab3c2daa17aa48ff0be02f820462420da",
+        "version": "1cffc9beb93ff6cb119c24dd9b818f5ab3c2daa17aa48ff0be02f820462420da"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1518,10 +1518,10 @@
         "version": "685126ee077828dd3cec77095fef284f9bcec00069292a9b08459144d33b7342"
       },
       {
-        "last_updated": "2026-10-11T22:18:14.043682+08:00",
+        "last_updated": "2026-10-20T02:23:48.521355+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "154695a197f05a420bcf95d1f9cbe693937246681712ecea21e43dbdf8bc68ba",
-        "version": "154695a197f05a420bcf95d1f9cbe693937246681712ecea21e43dbdf8bc68ba"
+        "sha256": "ed67c12f6ae05900bece32ac2a65be1ca24b5d1d42c82ea388ed3e858d77e8ec",
+        "version": "ed67c12f6ae05900bece32ac2a65be1ca24b5d1d42c82ea388ed3e858d77e8ec"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1542,10 +1542,10 @@
         "version": "9d2e418ef3dc6fe317c25dcea17d48eda1897883ce9a836be721848bec8f87aa"
       },
       {
-        "last_updated": "2026-10-11T22:18:14.043682+08:00",
+        "last_updated": "2026-10-20T02:23:48.521355+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "ec8d013c2dc118dd82306c429138b84b4e8d7bc73fb9dbf56506c679525a8ec4",
-        "version": "ec8d013c2dc118dd82306c429138b84b4e8d7bc73fb9dbf56506c679525a8ec4"
+        "sha256": "f23f273a2ca83923b20124f1f6a6659052568ff563ca800788cb84152f1718ff",
+        "version": "f23f273a2ca83923b20124f1f6a6659052568ff563ca800788cb84152f1718ff"
       }
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-20T00:21:16.867874+08:00"
+  "last_updated": "2026-10-20T02:23:48.521355+08:00"
 }
