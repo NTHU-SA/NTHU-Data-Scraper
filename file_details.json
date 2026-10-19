@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-19T16:29:53.743554+08:00",
+        "last_updated": "2026-10-19T18:19:25.812480+08:00",
         "name": "announcements.json",
-        "sha256": "4966ee389d9a3a58152d4623bf9ef426a630a4d2b248b2d98cfa3a32efb0d76a",
-        "version": "4966ee389d9a3a58152d4623bf9ef426a630a4d2b248b2d98cfa3a32efb0d76a"
+        "sha256": "b685dd5847c3cac0890bb1fe5fad94b76508001a142d95ee5c1a42d259bb4ff2",
+        "version": "b685dd5847c3cac0890bb1fe5fad94b76508001a142d95ee5c1a42d259bb4ff2"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -84,10 +84,10 @@
         "version": "4be9e2b9ec33ef613cd913ac6846793be2e845b03272a0431f42c54d742ac9f5"
       },
       {
-        "last_updated": "2026-10-16T00:19:52.117012+08:00",
+        "last_updated": "2026-10-19T18:19:25.812480+08:00",
         "name": "活動訊息_zh-tw.json",
-        "sha256": "fc25db4847bd42109dd334fcc18ea09319a8c25f84d413e671f71b5757b5921e",
-        "version": "fc25db4847bd42109dd334fcc18ea09319a8c25f84d413e671f71b5757b5921e"
+        "sha256": "f468634b838e649100d699a7b798d3adde689da47852e80cefa65deae735f33e",
+        "version": "f468634b838e649100d699a7b798d3adde689da47852e80cefa65deae735f33e"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -226,10 +226,10 @@
         "version": "98ba1b43567c65767b6e0105a80ddae9044ca88738a4820a55b4b996279095cb"
       },
       {
-        "last_updated": "2026-10-16T16:24:54.899420+08:00",
+        "last_updated": "2026-10-19T18:19:25.812480+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "b423305b21c5aaa173b7f0b7c05e8fbfc322f603185a80ec06f0b2656035d672",
-        "version": "b423305b21c5aaa173b7f0b7c05e8fbfc322f603185a80ec06f0b2656035d672"
+        "sha256": "688d6257984b369f367971ea6a024401615d9474e06f968b66fc8ff5be542d56",
+        "version": "688d6257984b369f367971ea6a024401615d9474e06f968b66fc8ff5be542d56"
       },
       {
         "last_updated": "2026-10-13T10:39:01.012376+08:00",
@@ -784,10 +784,10 @@
         "version": "6c04db3f16de000b090f012ca222954dcaed7b9be53daeb232d4bf945fd9b012"
       },
       {
-        "last_updated": "2026-10-19T10:28:09.037809+08:00",
+        "last_updated": "2026-10-19T18:19:25.812480+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "64ac489a50f442f21876fb0aebe90b427c90fc3723d6af75bb93930525c6d092",
-        "version": "64ac489a50f442f21876fb0aebe90b427c90fc3723d6af75bb93930525c6d092"
+        "sha256": "651e1a1daafa5c05f94ab803a13a62c71bc98595c0388352042f5f5218c9c6e9",
+        "version": "651e1a1daafa5c05f94ab803a13a62c71bc98595c0388352042f5f5218c9c6e9"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -1966,10 +1966,10 @@
         "version": "4e2b237d2c815a5823dee7e1b8ff688d4f167f622e6c20f37c1e4e9d939933ef"
       },
       {
-        "last_updated": "2026-10-07T14:32:59.346005+08:00",
+        "last_updated": "2026-10-19T18:19:25.812480+08:00",
         "name": "學術活動_zh-tw.json",
-        "sha256": "945746b46b619e51d9724c0cb33948c9c10416a240ab446773dc61943a61f4c0",
-        "version": "945746b46b619e51d9724c0cb33948c9c10416a240ab446773dc61943a61f4c0"
+        "sha256": "40e83e07587041da267eb48bd477dd928b52640e94c908e8e0532f3022dd9eb5",
+        "version": "40e83e07587041da267eb48bd477dd928b52640e94c908e8e0532f3022dd9eb5"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-19T16:29:53.743554+08:00"
+  "last_updated": "2026-10-19T18:19:25.812480+08:00"
 }
