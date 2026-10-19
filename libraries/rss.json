@@ -1,6 +1,34 @@
 {
     "news": [
         {
+            "guid": "1709",
+            "category": "服務消息",
+            "title": "【服務公告】10/25(日)-10/26(一)適逢臺灣光復暨金門古寧頭大捷紀念日及補假日，總圖書館、各分館及夜讀區閉館。",
+            "link": null,
+            "pubDate": "Mon, 19 Oct 2026 09:42:03 +0800",
+            "description": "10/25（日）– 10/26（一）適逢臺灣光復暨金門古寧頭大捷紀念日及補假日，總圖書館、各分館及夜讀區閉館。\n閉館期間各項線上檢索服務正常提供，還書請利用自助還書機，各項到館服務暫停，敬請提前因應。\n🌙夜讀區服務時間配合調整如下:\n📅 10/24(六)下午13:30開放至10/25(日)上午12:00。\n10/27(二)下午13:30起開始服務。",
+            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
+                "title": "【服務公告】10/25(日)-10/26(一)適逢臺灣光復暨金門古寧頭大捷紀念日及補假日，總圖書館、各分館及夜讀區閉館。",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
+            "guid": "2051",
+            "category": "服務消息",
+            "title": "【問卷調查】台灣聯大圖書服務滿意度問卷調查",
+            "link": "https://forms.gle/kG7xMi1EqsY2MFUt8",
+            "pubDate": "Mon, 19 Oct 2026 09:35:53 +0800",
+            "description": "為了解讀者對台聯大圖書服務的使用情況與滿意度，並做為未來精進的參考，敬請撥冗填答本問卷，感謝您的協助。\n問卷連結：https://forms.gle/kG7xMi1EqsY2MFUt8\n調查時間：115年10月19日-11月30日",
+            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
+                "title": "【問卷調查】台灣聯大圖書服務滿意度問卷調查",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2050",
             "category": "電子資源",
             "title": "【開放取用】ACS OA期刊論文投稿系統暫停公告（11/1-11/7）",

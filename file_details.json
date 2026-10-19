@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-19T08:50:38.823391+08:00",
+        "last_updated": "2026-10-19T10:28:09.037809+08:00",
         "name": "announcements.json",
-        "sha256": "31a2344d2519eba398d4c459270035051fa5ea450931697f8519ec0bf62c4386",
-        "version": "31a2344d2519eba398d4c459270035051fa5ea450931697f8519ec0bf62c4386"
+        "sha256": "dddea5e6c4d70393e65c2e9026c91864ebf5f96dc8903dbbad4a491f117fcf93",
+        "version": "dddea5e6c4d70393e65c2e9026c91864ebf5f96dc8903dbbad4a491f117fcf93"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-19T08:50:38.823391+08:00",
+        "last_updated": "2026-10-19T10:28:09.037809+08:00",
         "name": "dining.json",
-        "sha256": "49ee1580328e6f90e70defc8100826a021db0a307b2f44305bbfba6be2f51f70",
-        "version": "49ee1580328e6f90e70defc8100826a021db0a307b2f44305bbfba6be2f51f70"
+        "sha256": "c14b6c56e42c028d26a0d4659e78c8b59abc0ec427ff5875b611f522ad1a6d93",
+        "version": "c14b6c56e42c028d26a0d4659e78c8b59abc0ec427ff5875b611f522ad1a6d93"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-16T12:21:26.677349+08:00",
+        "last_updated": "2026-10-19T10:28:09.037809+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "dbd4d9f1692dbb951dc0d765259174f220d7a0ec1cfa96ba96aaf358f909792a",
-        "version": "dbd4d9f1692dbb951dc0d765259174f220d7a0ec1cfa96ba96aaf358f909792a"
+        "sha256": "3e5dfdd990c736244dd8b532dfa74c5a087642e44dd1f4f9ee30ae27285f1cf3",
+        "version": "3e5dfdd990c736244dd8b532dfa74c5a087642e44dd1f4f9ee30ae27285f1cf3"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -784,10 +784,10 @@
         "version": "6c04db3f16de000b090f012ca222954dcaed7b9be53daeb232d4bf945fd9b012"
       },
       {
-        "last_updated": "2026-10-16T12:21:26.677349+08:00",
+        "last_updated": "2026-10-19T10:28:09.037809+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "bc46a0359522efc9aa79d29cc9930dc8162574faf3a099cea312c6f9fa51376e",
-        "version": "bc46a0359522efc9aa79d29cc9930dc8162574faf3a099cea312c6f9fa51376e"
+        "sha256": "64ac489a50f442f21876fb0aebe90b427c90fc3723d6af75bb93930525c6d092",
+        "version": "64ac489a50f442f21876fb0aebe90b427c90fc3723d6af75bb93930525c6d092"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -1734,10 +1734,10 @@
         "version": "a3eae98ed0a541efb78aa44595814f999085e4c3f00896b4640b1b6e12fee23e"
       },
       {
-        "last_updated": "2026-10-14T18:19:38.017850+08:00",
+        "last_updated": "2026-10-19T10:28:09.037809+08:00",
         "name": "研究倫理審查事項公告 REC Review Information_zh-tw.json",
-        "sha256": "63fc034810737301c51a0eb641a65dbc7d62b049bdb2cf40244fcc35a29d9b50",
-        "version": "63fc034810737301c51a0eb641a65dbc7d62b049bdb2cf40244fcc35a29d9b50"
+        "sha256": "b771625f2913b84c7c63a3f910325aab5065e930fdc010e51e0f8ba1175d4cb1",
+        "version": "b771625f2913b84c7c63a3f910325aab5065e930fdc010e51e0f8ba1175d4cb1"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -2546,10 +2546,10 @@
     ],
     "announcements/電機資訊學院電子工程研究所": [
       {
-        "last_updated": "2026-10-16T16:24:54.899420+08:00",
+        "last_updated": "2026-10-19T10:28:09.037809+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "d001ea848b3d4dd28e28f81f35766d4a786f053f5feee260444770444df0867b",
-        "version": "d001ea848b3d4dd28e28f81f35766d4a786f053f5feee260444770444df0867b"
+        "sha256": "8d815bd7aea516f2f5187ddb3c2b3922b2078fa5daed8aa9108ab2a97c4b506b",
+        "version": "8d815bd7aea516f2f5187ddb3c2b3922b2078fa5daed8aa9108ab2a97c4b506b"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-16T18:18:54.207816+08:00",
+        "last_updated": "2026-10-19T10:28:09.037809+08:00",
         "name": "rss.json",
-        "sha256": "047cd53556e6b4322da070d07c67aac3ae54d6b0934763123ba2b45247464372",
-        "version": "047cd53556e6b4322da070d07c67aac3ae54d6b0934763123ba2b45247464372"
+        "sha256": "2bfd58652026c340c5648f17beac6a54246bae65dbf95e6c732ef27600e29876",
+        "version": "2bfd58652026c340c5648f17beac6a54246bae65dbf95e6c732ef27600e29876"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-19T08:50:38.823391+08:00"
+  "last_updated": "2026-10-19T10:28:09.037809+08:00"
 }
