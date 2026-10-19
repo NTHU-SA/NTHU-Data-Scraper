@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-19T14:41:56.810521+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "announcements.json",
-        "sha256": "3a3a65f3fa6f60e9da38ffeddcd73b77b64f9ac361833f43059aa1ccffda6bbf",
-        "version": "3a3a65f3fa6f60e9da38ffeddcd73b77b64f9ac361833f43059aa1ccffda6bbf"
+        "sha256": "4966ee389d9a3a58152d4623bf9ef426a630a4d2b248b2d98cfa3a32efb0d76a",
+        "version": "4966ee389d9a3a58152d4623bf9ef426a630a4d2b248b2d98cfa3a32efb0d76a"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-19T14:41:56.810521+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "4aa4cf956340681636db69d9d84842d0de14469467ce899b6a5ea4f7ec851b03",
-        "version": "4aa4cf956340681636db69d9d84842d0de14469467ce899b6a5ea4f7ec851b03"
+        "sha256": "44b32722d9feb119b415641547fa34de879167437ef5483770270bd2e6736257",
+        "version": "44b32722d9feb119b415641547fa34de879167437ef5483770270bd2e6736257"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -1442,10 +1442,10 @@
         "version": "2a59eb8222c12bdce96add375e678386abb69ea005cb7699967abf9d057b86cc"
       },
       {
-        "last_updated": "2026-10-14T18:19:38.017850+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380",
-        "version": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380"
+        "sha256": "bc60757b7dd60f3156f4f810313bef7283f8a346a6b5cc6e9071f337b343ae6e",
+        "version": "bc60757b7dd60f3156f4f810313bef7283f8a346a6b5cc6e9071f337b343ae6e"
       },
       {
         "last_updated": "2026-10-14T18:19:38.017850+08:00",
@@ -1782,10 +1782,10 @@
         "version": "0b7eb36c89339f20e115283aeb257ba63280f0fa88d851e72e733dd9ff7f6794"
       },
       {
-        "last_updated": "2026-10-16T14:30:55.154633+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "6e43576579d504edae7680b4c559163894f14930740ec0a857487381d6bebd44",
-        "version": "6e43576579d504edae7680b4c559163894f14930740ec0a857487381d6bebd44"
+        "sha256": "8978228b9731aa1d39ef0c2d9bc1d5c36121d6517766e6e742aa701ff13f9891",
+        "version": "8978228b9731aa1d39ef0c2d9bc1d5c36121d6517766e6e742aa701ff13f9891"
       }
     ],
     "announcements/科技管理學院EMBA高階經營管理境外碩士在職專班": [
@@ -2296,28 +2296,28 @@
     ],
     "announcements/總務處事務組": [
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "News_en.json",
-        "sha256": "0a18b01480baaf264f9568a9da37ccb44017ca3d0bc7446c3dcae1531d17ff97",
-        "version": "0a18b01480baaf264f9568a9da37ccb44017ca3d0bc7446c3dcae1531d17ff97"
+        "sha256": "9804844701a9f9834d355f93d8281ea95946bf73cda0c4d35f6af57c242e46ba",
+        "version": "9804844701a9f9834d355f93d8281ea95946bf73cda0c4d35f6af57c242e46ba"
       },
       {
-        "last_updated": "2026-10-12T00:20:16.631390+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "0b299ab0effdc8009e805321d631895a8a9b063fa7d61e75c422af76603a5a48",
-        "version": "0b299ab0effdc8009e805321d631895a8a9b063fa7d61e75c422af76603a5a48"
+        "sha256": "a69ea36e6d63037ab720dcd5eef3f9cb21d5b000e4cba8ae216652df3a6d9d67",
+        "version": "a69ea36e6d63037ab720dcd5eef3f9cb21d5b000e4cba8ae216652df3a6d9d67"
       },
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "校園公車暨巡迴公車公告_en.json",
-        "sha256": "fdc1e985276b1c4eff415ee915d7da6ba07f1b5132e786838cc6797f66e61c01",
-        "version": "fdc1e985276b1c4eff415ee915d7da6ba07f1b5132e786838cc6797f66e61c01"
+        "sha256": "c49c744289168854efe771675133cac83808d5fd432ba05e4e6368559eb2ac6d",
+        "version": "c49c744289168854efe771675133cac83808d5fd432ba05e4e6368559eb2ac6d"
       },
       {
-        "last_updated": "2026-10-08T14:35:13.734905+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json",
-        "sha256": "47d3a2045359fa313c361b0536ba18c9c697cd3c4940bbee1909422f120de30b",
-        "version": "47d3a2045359fa313c361b0536ba18c9c697cd3c4940bbee1909422f120de30b"
+        "sha256": "69cbc5020e38d532e3d6beab3ab54e20279466db387b29f3608fa8870f4a5e53",
+        "version": "69cbc5020e38d532e3d6beab3ab54e20279466db387b29f3608fa8870f4a5e53"
       }
     ],
     "announcements/總務處保管組": [
@@ -2394,16 +2394,16 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_updated": "2026-10-14T16:25:49.196087+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "NEWS_en.json",
-        "sha256": "a47c24d072a6d462d981f462276ed5f0aa856b86afbb0ffa4255e1ba424beecd",
-        "version": "a47c24d072a6d462d981f462276ed5f0aa856b86afbb0ffa4255e1ba424beecd"
+        "sha256": "bfdf1c6edc536af0dfb10cb06f54618e20c893ff9925875e0626b470332c0425",
+        "version": "bfdf1c6edc536af0dfb10cb06f54618e20c893ff9925875e0626b470332c0425"
       },
       {
-        "last_updated": "2026-10-16T12:21:26.677349+08:00",
+        "last_updated": "2026-10-19T16:29:53.743554+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "215b15133154ff73b7fb1e8981a7bf2217c7a9caf5f29b8eee581b8d805d97fa",
-        "version": "215b15133154ff73b7fb1e8981a7bf2217c7a9caf5f29b8eee581b8d805d97fa"
+        "sha256": "f7f8119a33ce8c4230fef6467c9edafb1cff525cfed89cda2fb168e27786670c",
+        "version": "f7f8119a33ce8c4230fef6467c9edafb1cff525cfed89cda2fb168e27786670c"
       }
     ],
     "announcements/總務處經營管理組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-19T14:41:56.810521+08:00"
+  "last_updated": "2026-10-19T16:29:53.743554+08:00"
 }
