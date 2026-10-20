@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-20T10:24:46.821027+08:00",
+        "last_updated": "2026-10-20T12:21:17.013890+08:00",
         "name": "announcements.json",
-        "sha256": "530cf388bf412a53a3c04fa3971b393e2ea46c74d2b141418f97d7fb8f232ac2",
-        "version": "530cf388bf412a53a3c04fa3971b393e2ea46c74d2b141418f97d7fb8f232ac2"
+        "sha256": "9d6772bd4eee7d2003fde8f399ca014994f8af0c33a2b4b3e55622650fff22f4",
+        "version": "9d6772bd4eee7d2003fde8f399ca014994f8af0c33a2b4b3e55622650fff22f4"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -784,10 +784,10 @@
         "version": "6c04db3f16de000b090f012ca222954dcaed7b9be53daeb232d4bf945fd9b012"
       },
       {
-        "last_updated": "2026-10-19T18:19:25.812480+08:00",
+        "last_updated": "2026-10-20T12:21:17.013890+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "651e1a1daafa5c05f94ab803a13a62c71bc98595c0388352042f5f5218c9c6e9",
-        "version": "651e1a1daafa5c05f94ab803a13a62c71bc98595c0388352042f5f5218c9c6e9"
+        "sha256": "92132ac914eceb303b4ae966f935944b883afc5672a6d4babb5d8d19a63ada2f",
+        "version": "92132ac914eceb303b4ae966f935944b883afc5672a6d4babb5d8d19a63ada2f"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -1442,10 +1442,10 @@
         "version": "2a59eb8222c12bdce96add375e678386abb69ea005cb7699967abf9d057b86cc"
       },
       {
-        "last_updated": "2026-10-19T16:29:53.743554+08:00",
+        "last_updated": "2026-10-20T12:21:17.013890+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "bc60757b7dd60f3156f4f810313bef7283f8a346a6b5cc6e9071f337b343ae6e",
-        "version": "bc60757b7dd60f3156f4f810313bef7283f8a346a6b5cc6e9071f337b343ae6e"
+        "sha256": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380",
+        "version": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380"
       },
       {
         "last_updated": "2026-10-14T18:19:38.017850+08:00",
@@ -2302,10 +2302,10 @@
         "version": "9804844701a9f9834d355f93d8281ea95946bf73cda0c4d35f6af57c242e46ba"
       },
       {
-        "last_updated": "2026-10-20T00:21:16.867874+08:00",
+        "last_updated": "2026-10-20T12:21:17.013890+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "9fb27e9e0ce1015451e5dbe9db34588fe827b07c2ab24ac20a1c57c2bef4f9fa",
-        "version": "9fb27e9e0ce1015451e5dbe9db34588fe827b07c2ab24ac20a1c57c2bef4f9fa"
+        "sha256": "bd5d7463035473cc8889de407ad931d631431270e41f6f472fdf4bc283c38985",
+        "version": "bd5d7463035473cc8889de407ad931d631431270e41f6f472fdf4bc283c38985"
       },
       {
         "last_updated": "2026-10-19T16:29:53.743554+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-20T10:24:46.821027+08:00"
+  "last_updated": "2026-10-20T12:21:17.013890+08:00"
 }
