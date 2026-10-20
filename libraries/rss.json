@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2054",
+            "category": "電子資源",
+            "title": "【試用資源】ProQuest One Global Studies & International Relations資料庫，歡迎多多利用！",
+            "link": "https://www.proquest.com/pq1globalstudies/index",
+            "pubDate": "Tue, 20 Oct 2026 18:59:55 +0800",
+            "description": "ProQuest One Global Studies & International Relations資料庫支援全球歷史與當代社會關鍵課題的深度探索，範疇涵蓋全球安全、移民浪潮、環境變遷及社會運動等核心主題，收錄政府文件、珍稀檔案、學術期刊、新聞資料及多媒體影音等第一手與第二手史料，可深入研究18世紀至今的全球動態、意識形態和認同、治理、人權和社會變革。\n※試用網址：https://www.proquest.com/pq1globalstudies/index\n※試用期間：即日起至2026年11月30日止。\n※試用說明：校外使用請先登錄NTHU-VPN後連線使用。\n歡迎回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261020_LRS_ProQuest.jpg",
+                "title": "【試用資源】ProQuest One Global Studies & International Relations資料庫，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2053",
             "category": "研習課程",
             "title": "【線上講座】歡迎報名11/18(三)「AI時代的研究新工作流：從文獻探索到期刊投稿」線上座談會",
@@ -842,6 +856,20 @@
         }
     ],
     "eresources": [
+        {
+            "guid": "2054",
+            "category": "電子資源",
+            "title": "【試用資源】ProQuest One Global Studies & International Relations資料庫，歡迎多多利用！",
+            "link": "https://www.proquest.com/pq1globalstudies/index",
+            "pubDate": "Tue, 20 Oct 2026 18:59:55 +0800",
+            "description": "ProQuest One Global Studies & International Relations資料庫支援全球歷史與當代社會關鍵課題的深度探索，範疇涵蓋全球安全、移民浪潮、環境變遷及社會運動等核心主題，收錄政府文件、珍稀檔案、學術期刊、新聞資料及多媒體影音等第一手與第二手史料，可深入研究18世紀至今的全球動態、意識形態和認同、治理、人權和社會變革。\n※試用網址：https://www.proquest.com/pq1globalstudies/index\n※試用期間：即日起至2026年11月30日止。\n※試用說明：校外使用請先登錄NTHU-VPN後連線使用。\n歡迎回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261020_LRS_ProQuest.jpg",
+                "title": "【試用資源】ProQuest One Global Studies & International Relations資料庫，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2050",
             "category": "電子資源",
