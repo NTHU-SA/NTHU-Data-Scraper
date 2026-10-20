@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-20T14:30:54.286783+08:00",
+        "last_updated": "2026-10-20T16:25:09.073976+08:00",
         "name": "announcements.json",
-        "sha256": "5228abc7c68192740f299567f679dba229ad19c4ea0f3b6e2695f625c198fd00",
-        "version": "5228abc7c68192740f299567f679dba229ad19c4ea0f3b6e2695f625c198fd00"
+        "sha256": "dbe5ee3e67e967daf8ed8af897ab565f0d4da12980ece3de9913c5883528a49d",
+        "version": "dbe5ee3e67e967daf8ed8af897ab565f0d4da12980ece3de9913c5883528a49d"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-20T08:47:25.635926+08:00",
+        "last_updated": "2026-10-20T16:25:09.073976+08:00",
         "name": "dining.json",
-        "sha256": "a526bdec7f9b1e29c4ed1db8509ed1632c479d9dea525ade660815d3d50ba1c3",
-        "version": "a526bdec7f9b1e29c4ed1db8509ed1632c479d9dea525ade660815d3d50ba1c3"
+        "sha256": "f8855622c5730709f439fef20cdc7febec55302004cd3088cba772b3726c8017",
+        "version": "f8855622c5730709f439fef20cdc7febec55302004cd3088cba772b3726c8017"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -784,10 +784,10 @@
         "version": "6c04db3f16de000b090f012ca222954dcaed7b9be53daeb232d4bf945fd9b012"
       },
       {
-        "last_updated": "2026-10-20T14:30:54.286783+08:00",
+        "last_updated": "2026-10-20T16:25:09.073976+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "5b2e7720cc54d422433ae99a9a2626b0c43ce30810d1e33d650a58004fec5d1a",
-        "version": "5b2e7720cc54d422433ae99a9a2626b0c43ce30810d1e33d650a58004fec5d1a"
+        "sha256": "e162a2646bd6b785a9d872aaac72d3581f90cccea2826f1fd0084ebca752097d",
+        "version": "e162a2646bd6b785a9d872aaac72d3581f90cccea2826f1fd0084ebca752097d"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -1068,10 +1068,10 @@
         "version": "4e87b75f95d364bd1a6e67a66966d7abcb81030ed540d2d30dd94d1e3f2ab43e"
       },
       {
-        "last_updated": "2026-10-20T14:30:54.286783+08:00",
+        "last_updated": "2026-10-20T16:25:09.073976+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "45b521410a0b04718c75e8c3fb00def97db0bc3058d561e71f90112a960d7ec3",
-        "version": "45b521410a0b04718c75e8c3fb00def97db0bc3058d561e71f90112a960d7ec3"
+        "sha256": "41d15b23891749f9dcc1eba81c2812a7b0779bda68ad721d151c81fdbb8b73eb",
+        "version": "41d15b23891749f9dcc1eba81c2812a7b0779bda68ad721d151c81fdbb8b73eb"
       },
       {
         "last_updated": "2026-10-15T10:58:13.887638+08:00",
@@ -1442,16 +1442,16 @@
         "version": "2a59eb8222c12bdce96add375e678386abb69ea005cb7699967abf9d057b86cc"
       },
       {
-        "last_updated": "2026-10-20T12:21:17.013890+08:00",
+        "last_updated": "2026-10-20T16:25:09.073976+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380",
-        "version": "469afbb5b54adb8b54507ea43edea6c3e5c9e19a436b13474be8f64699e8c380"
+        "sha256": "770b50385f4370547f5527b25b62dcd25b3e9fbbf158eb4759bfaf78eb391212",
+        "version": "770b50385f4370547f5527b25b62dcd25b3e9fbbf158eb4759bfaf78eb391212"
       },
       {
-        "last_updated": "2026-10-14T18:19:38.017850+08:00",
+        "last_updated": "2026-10-20T16:25:09.073976+08:00",
         "name": "系辦公告_zh-tw.json",
-        "sha256": "bcb2b2ec13e23948b5dbd41e580b049d8f0156d034b866e44c1b2a259e19c6ae",
-        "version": "bcb2b2ec13e23948b5dbd41e580b049d8f0156d034b866e44c1b2a259e19c6ae"
+        "sha256": "98c34cbd18dcc985d6c1ac610dd7e6067dd92fc4e0532f1634aebbae8df7181b",
+        "version": "98c34cbd18dcc985d6c1ac610dd7e6067dd92fc4e0532f1634aebbae8df7181b"
       }
     ],
     "announcements/環境保護暨安全衛生中心": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-20T14:30:54.286783+08:00"
+  "last_updated": "2026-10-20T16:25:09.073976+08:00"
 }
