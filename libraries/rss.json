@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2052",
+            "category": "展覽與活動",
+            "title": "【圖書館月】2026清華大學圖書館月－閱日常．悅永續",
+            "link": "https://www.lib.nthu.edu.tw/events/2026/libmonth/",
+            "pubDate": "Tue, 20 Oct 2026 14:14:58 +0800",
+            "description": "2026清華大學圖書館月－閱日常．悅永續🌳\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏\n一年一度的圖書館月熱鬧開跑！\n今年以「閱日常．悅永續」為核心，帶你從閱讀走進生活、用行動實踐永續。\n圖書館準備了闖關挑戰、好書交換、主題展覽與各項精彩活動，\n只要參加精選活動，集滿 8 點即可參加抽獎，Hyread 電子紙閱讀器、AirPods 藍芽耳機等你拿！\n🔗 系列活動詳情與集點辦法請見官網：\nhttps://www.lib.nthu.edu.tw/events/2026/libmonth/",
+            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261102_%E5%9C%96%E6%9B%B8%E9%A4%A8%E6%9C%88%E4%B8%BB%E8%A6%96%E8%A6%BA.jpg",
+                "title": "【圖書館月】2026清華大學圖書館月－閱日常．悅永續",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "1709",
             "category": "服務消息",
             "title": "【服務公告】10/25(日)-10/26(一)適逢臺灣光復暨金門古寧頭大捷紀念日及補假日，總圖書館、各分館及夜讀區閉館。",
@@ -1166,6 +1180,20 @@
         }
     ],
     "exhibit": [
+        {
+            "guid": "2052",
+            "category": "展覽與活動",
+            "title": "【圖書館月】2026清華大學圖書館月－閱日常．悅永續",
+            "link": "https://www.lib.nthu.edu.tw/events/2026/libmonth/",
+            "pubDate": "Tue, 20 Oct 2026 14:14:58 +0800",
+            "description": "2026清華大學圖書館月－閱日常．悅永續🌳\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏\n一年一度的圖書館月熱鬧開跑！\n今年以「閱日常．悅永續」為核心，帶你從閱讀走進生活、用行動實踐永續。\n圖書館準備了闖關挑戰、好書交換、主題展覽與各項精彩活動，\n只要參加精選活動，集滿 8 點即可參加抽獎，Hyread 電子紙閱讀器、AirPods 藍芽耳機等你拿！\n🔗 系列活動詳情與集點辦法請見官網：\nhttps://www.lib.nthu.edu.tw/events/2026/libmonth/",
+            "author": "ref@my.nthu.edu.tw (NTHU Library 服務推廣組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/2/20261102_%E5%9C%96%E6%9B%B8%E9%A4%A8%E6%9C%88%E4%B8%BB%E8%A6%96%E8%A6%BA.jpg",
+                "title": "【圖書館月】2026清華大學圖書館月－閱日常．悅永續",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2046",
             "category": "展覽與活動",
