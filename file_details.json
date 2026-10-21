@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-21T10:25:46.059032+08:00",
+        "last_updated": "2026-10-21T14:31:11.790919+08:00",
         "name": "announcements.json",
-        "sha256": "5a67cad8837918dff69fe755c3a0180aa0c07b8c827ac425dfe1ba89d6a7dc46",
-        "version": "5a67cad8837918dff69fe755c3a0180aa0c07b8c827ac425dfe1ba89d6a7dc46"
+        "sha256": "36d03ade646bb9ff29fbba6bea0e4cd149a32e79dd51b925e98b48a0606461da",
+        "version": "36d03ade646bb9ff29fbba6bea0e4cd149a32e79dd51b925e98b48a0606461da"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-20T18:17:13.126616+08:00",
+        "last_updated": "2026-10-21T14:31:11.790919+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "a8cb3a99d47dd52e95b1af7f9890b367952c211263ece0060e2eea82f0f838c8",
-        "version": "a8cb3a99d47dd52e95b1af7f9890b367952c211263ece0060e2eea82f0f838c8"
+        "sha256": "2cf3927161b45c1eaf16a3aec54cd8778bb100de8d9261c4a4e6db6a335dd4a5",
+        "version": "2cf3927161b45c1eaf16a3aec54cd8778bb100de8d9261c4a4e6db6a335dd4a5"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -1978,10 +1978,10 @@
         "version": "8856583e0f54567a024f84e213ec5f27e42bf4e4e36d4cfe1461860cf0c60cf7"
       },
       {
-        "last_updated": "2026-10-20T18:17:13.126616+08:00",
+        "last_updated": "2026-10-21T14:31:11.790919+08:00",
         "name": "校內外活動_zh-tw.json",
-        "sha256": "9a4f475fbe08d58b458423a9a5c4f7cef615dbbd031ea12b1d7338f9d428cdad",
-        "version": "9a4f475fbe08d58b458423a9a5c4f7cef615dbbd031ea12b1d7338f9d428cdad"
+        "sha256": "936f1262c088695b17c61672e461924c207fffe6424513d8740f53d8f18f8ed2",
+        "version": "936f1262c088695b17c61672e461924c207fffe6424513d8740f53d8f18f8ed2"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-21T10:25:46.059032+08:00",
+        "last_updated": "2026-10-21T14:31:11.790919+08:00",
         "name": "rss.json",
-        "sha256": "c82e72281d8e3ddb968170128b0c933472764479ae37f91588906facda0905d7",
-        "version": "c82e72281d8e3ddb968170128b0c933472764479ae37f91588906facda0905d7"
+        "sha256": "f3e95d3c743543314bba5bbee9c6de359b18ca2fd221e9f8d44a71219bfe7184",
+        "version": "f3e95d3c743543314bba5bbee9c6de359b18ca2fd221e9f8d44a71219bfe7184"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-21T10:25:46.059032+08:00"
+  "last_updated": "2026-10-21T14:31:11.790919+08:00"
 }
