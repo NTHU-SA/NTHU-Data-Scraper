@@ -2755,6 +2755,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【教師增能研習】115/11/05 許庭嘉(臺師大特聘教授)：生成式AI在教育應用: 寫作禁忌及學術倫理",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-316805,c0.php?Lang=zh-tw",
+                "date": "2026-10-21"
+            },
+            {
                 "title": "【歡迎報名】11/26 Edge AI 軟硬體平台交流會｜2 場專題演講 × 8 場平台分享 × 15 個實體展示攤位",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-316568,c0.php?Lang=zh-tw",
                 "date": "2026-10-16"
@@ -2807,11 +2812,6 @@
             {
                 "title": "【EMI 學生工作坊】Excel 資料分析與商業視覺化實務應用",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-315934,r5084.php?Lang=zh-tw",
-                "date": "2026-10-08"
-            },
-            {
-                "title": "第三屆大學生學術海報競賽報名開始！🤩2026 NTHU Undergraduate Academic Poster Competition: Registration Now Open",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-315933,r5084.php?Lang=zh-tw",
                 "date": "2026-10-08"
             }
         ]
@@ -9846,6 +9846,11 @@
         "department": "電機資訊學院電子工程研究所",
         "articles": [
             {
+                "title": "115/10/30(五)演講公告:IO and ESD Design in Advance Technology",
+                "link": "https://ene.site.nthu.edu.tw/p/406-1180-316810,r3124.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "115/10/16(五)演講公告:The Interplay between Memory,Compute and Algorithm in AI Era",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-316255,r3124.php?Lang=zh-tw",
                 "date": ""
@@ -9899,11 +9904,6 @@
                 "title": "115/04/10(五)演講公告 : Research to Impact: Advancing Semiconductor Technologies from Devices to Systems",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-306119,r3124.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "115/03/27(五)演講公告 : uLED for Si Photonics",
-                "link": "https://ene.site.nthu.edu.tw/p/406-1180-305308,r3124.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -9914,7 +9914,7 @@
         "department": "工學院",
         "articles": [
             {
-                "title": "📣【工學院開始受理】國立清華大學工學院中華精測科技股份有限公司獎學金 - 115學年度之申請 *11月16日（一）截止",
+                "title": "📣(更新)【工學院開始受理】國立清華大學工學院中華精測科技股份有限公司獎學金 - 115學年度之申請 *12月16日（三）截止",
                 "link": "https://eng.site.nthu.edu.tw/p/406-1284-316005,r3361.php?Lang=zh-tw",
                 "date": "2026-10-12"
             },
