@@ -2768,16 +2768,16 @@
     ],
     "courses": [
       {
-        "last_updated": "2026-10-20T06:17:40.872168+08:00",
+        "last_updated": "2026-10-22T06:16:52.424953+08:00",
         "name": "latest.json",
-        "sha256": "b6eb98a14abcc1b37a04fff015a83b4eca53fee27d0d4b4b0ebc8b55ededd5a9",
-        "version": "b6eb98a14abcc1b37a04fff015a83b4eca53fee27d0d4b4b0ebc8b55ededd5a9"
+        "sha256": "6feb0e0474223419a3b1f40d755d1c231779cc9480a559badde178bff5b18e8c",
+        "version": "6feb0e0474223419a3b1f40d755d1c231779cc9480a559badde178bff5b18e8c"
       },
       {
-        "last_updated": "2026-10-20T06:17:40.872168+08:00",
+        "last_updated": "2026-10-22T06:16:52.424953+08:00",
         "name": "sources.json",
-        "sha256": "e8c29247d02b76b26c4f7dd82dc72b91cad20992fe914c7e85aacadde1025cfc",
-        "version": "e8c29247d02b76b26c4f7dd82dc72b91cad20992fe914c7e85aacadde1025cfc"
+        "sha256": "ff1d30d297d9b1188180e090040421c6961cdfcbc0415f52d93b0dd206d9f7c2",
+        "version": "ff1d30d297d9b1188180e090040421c6961cdfcbc0415f52d93b0dd206d9f7c2"
       }
     ],
     "courses/raw": [
@@ -2818,10 +2818,10 @@
         "version": "f36bbc9bcd86ac1ee0f234695e7ea05ff9f711179fcd60baed2dff67ad181ee2"
       },
       {
-        "last_updated": "2026-10-20T06:17:40.872168+08:00",
+        "last_updated": "2026-10-22T06:16:52.424953+08:00",
         "name": "latest.json",
-        "sha256": "cc2cccf2ccd818686c97ede770e3ff04d5c3499a356cbccb47d7e0a5dcb7ca96",
-        "version": "cc2cccf2ccd818686c97ede770e3ff04d5c3499a356cbccb47d7e0a5dcb7ca96"
+        "sha256": "419b62f65e4c17b18d84c97cbbd203f0e75805ff4a1183ac2e36e9b15aa6a6b0",
+        "version": "419b62f65e4c17b18d84c97cbbd203f0e75805ff4a1183ac2e36e9b15aa6a6b0"
       },
       {
         "last_updated": "2026-10-15T11:58:17.083419+08:00",
@@ -2868,10 +2868,10 @@
         "version": "88945530127f9b238cab389166c4af5a01fae317b74927b8acd981bc6a8421f1"
       },
       {
-        "last_updated": "2026-10-20T06:17:40.872168+08:00",
+        "last_updated": "2026-10-22T06:16:52.424953+08:00",
         "name": "latest.json",
-        "sha256": "c817b0e98fe0235d9c0b83840e3c608c2ad05238f9e30000eacb8d234c5038e5",
-        "version": "c817b0e98fe0235d9c0b83840e3c608c2ad05238f9e30000eacb8d234c5038e5"
+        "sha256": "bc59f0991d7c36adb52c05b1c08aae33def47da6b8896f514e1d0b035f73dafd",
+        "version": "bc59f0991d7c36adb52c05b1c08aae33def47da6b8896f514e1d0b035f73dafd"
       }
     ],
     "courses/semesters": [
@@ -2960,10 +2960,10 @@
         "version": "e0edd6a7a3e038d2704e0233024d254a8a36a28a1237098a2c2e67a499e63308"
       },
       {
-        "last_updated": "2026-10-20T06:17:40.872168+08:00",
+        "last_updated": "2026-10-22T06:16:52.424953+08:00",
         "name": "11510.json",
-        "sha256": "046ec45ca24b0cfba4520424d2d24b6644b9a3a51a46c66cd6f95f69570e96e7",
-        "version": "046ec45ca24b0cfba4520424d2d24b6644b9a3a51a46c66cd6f95f69570e96e7"
+        "sha256": "b86e49db8fea0ec6ee0b93317c578630865ee07dada65515c637d14e7144779b",
+        "version": "b86e49db8fea0ec6ee0b93317c578630865ee07dada65515c637d14e7144779b"
       }
     ],
     "libraries": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-22T00:19:16.855853+08:00"
+  "last_updated": "2026-10-22T06:16:52.424953+08:00"
 }
