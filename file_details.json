@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-21T00:21:12.271301+08:00",
+        "last_updated": "2026-10-21T08:46:35.081676+08:00",
         "name": "announcements.json",
-        "sha256": "cc01961f0f8dd9d862c0cdce7c97b72b180aa564253201e2869aff3e7ecd1a72",
-        "version": "cc01961f0f8dd9d862c0cdce7c97b72b180aa564253201e2869aff3e7ecd1a72"
+        "sha256": "e858cdffa24a92c3a35aec847e032aeda5bf547f8ba0fffb77c560383555f7bb",
+        "version": "e858cdffa24a92c3a35aec847e032aeda5bf547f8ba0fffb77c560383555f7bb"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -784,10 +784,10 @@
         "version": "6c04db3f16de000b090f012ca222954dcaed7b9be53daeb232d4bf945fd9b012"
       },
       {
-        "last_updated": "2026-10-20T16:25:09.073976+08:00",
+        "last_updated": "2026-10-21T08:46:35.081676+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "e162a2646bd6b785a9d872aaac72d3581f90cccea2826f1fd0084ebca752097d",
-        "version": "e162a2646bd6b785a9d872aaac72d3581f90cccea2826f1fd0084ebca752097d"
+        "sha256": "65b50852f43b5a0d6de8f0bf1e6425448f3b4727181c92480472fab755c39622",
+        "version": "65b50852f43b5a0d6de8f0bf1e6425448f3b4727181c92480472fab755c39622"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -2508,16 +2508,16 @@
         "version": "048c912fc0ec54ef396a6302dfa4fe8284a140890b72c7e02cfadd4c116a97c8"
       },
       {
-        "last_updated": "2026-10-01T14:34:46.588600+08:00",
+        "last_updated": "2026-10-21T08:46:35.081676+08:00",
         "name": "榮譽公告-學生_zh-tw.json",
-        "sha256": "f99b806b72d13799bc34271666b16ae588d5af30ebf911f31e9a87c783910f61",
-        "version": "f99b806b72d13799bc34271666b16ae588d5af30ebf911f31e9a87c783910f61"
+        "sha256": "2add47938267a02d5b8ea56ffb336098cd17feba6526b12d72dcc37b882e0c84",
+        "version": "2add47938267a02d5b8ea56ffb336098cd17feba6526b12d72dcc37b882e0c84"
       },
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-10-21T08:46:35.081676+08:00",
         "name": "榮譽公告-教授_zh-tw.json",
-        "sha256": "0cd3ac85aa6d12cd566e291f081ad0add56a93a1527bae19a8c0d2350453dcf5",
-        "version": "0cd3ac85aa6d12cd566e291f081ad0add56a93a1527bae19a8c0d2350453dcf5"
+        "sha256": "8c22201f3139d3319418b18512d2a8971d489d96817fa37ecd79f625ccdd1d25",
+        "version": "8c22201f3139d3319418b18512d2a8971d489d96817fa37ecd79f625ccdd1d25"
       },
       {
         "last_updated": "2026-10-14T08:45:26.357503+08:00",
@@ -2526,10 +2526,10 @@
         "version": "def75c907ed56f04f61374a2b2629d93439f140b3c936a6e13b86462f7ae7693"
       },
       {
-        "last_updated": "2026-10-14T08:45:26.357503+08:00",
+        "last_updated": "2026-10-21T08:46:35.081676+08:00",
         "name": "演講公告_zh-tw.json",
-        "sha256": "0c0553f091e765e279c5809ea3a921ed50f88d602e1c6b89aaf48a73fbe1af62",
-        "version": "0c0553f091e765e279c5809ea3a921ed50f88d602e1c6b89aaf48a73fbe1af62"
+        "sha256": "3c369311c88bdb9f0cf83159f862c21004b9e829973b46c438b421e31512c712",
+        "version": "3c369311c88bdb9f0cf83159f862c21004b9e829973b46c438b421e31512c712"
       },
       {
         "last_updated": "2026-10-01T14:34:46.588600+08:00",
@@ -2546,10 +2546,10 @@
     ],
     "announcements/電機資訊學院電子工程研究所": [
       {
-        "last_updated": "2026-10-20T08:47:25.635926+08:00",
+        "last_updated": "2026-10-21T08:46:35.081676+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "2217a394e51050423594de552c4d9595b3a9aea68652ac3f04eebc039da4b7db",
-        "version": "2217a394e51050423594de552c4d9595b3a9aea68652ac3f04eebc039da4b7db"
+        "sha256": "83633665b9c1b8e50231752e307dd876ef35a2b6411be818c66b9f7647cc0b36",
+        "version": "83633665b9c1b8e50231752e307dd876ef35a2b6411be818c66b9f7647cc0b36"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-21T00:21:12.271301+08:00"
+  "last_updated": "2026-10-21T08:46:35.081676+08:00"
 }
