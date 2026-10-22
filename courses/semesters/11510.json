@@ -42513,7 +42513,7 @@
         ],
         "meetings": [
             {
-                "classroom": "ESS工科 506",
+                "classroom": "ESS工科 302",
                 "time": "T1T2F1F2",
                 "time_codes": [
                     "T1",
@@ -44059,7 +44059,7 @@
         ],
         "meetings": [
             {
-                "classroom": "ESS工科 302",
+                "classroom": "ESS工科 506",
                 "time": "F2F3F4",
                 "time_codes": [
                     "F2",
@@ -97715,12 +97715,12 @@
         "language_code": "zh",
         "lecturers": [
             {
-                "name_zh": "薛曉華",
-                "name_en": "HSUEH, HSIAO-HUA"
-            },
-            {
                 "name_zh": "成虹飛",
                 "name_en": "CHERNG, HORN-FAY"
+            },
+            {
+                "name_zh": "薛曉華",
+                "name_en": "HSUEH, HSIAO-HUA"
             }
         ],
         "meetings": [
@@ -97770,12 +97770,12 @@
         "language_code": "zh",
         "lecturers": [
             {
-                "name_zh": "薛曉華",
-                "name_en": "HSUEH, HSIAO-HUA"
-            },
-            {
                 "name_zh": "成虹飛",
                 "name_en": "CHERNG, HORN-FAY"
+            },
+            {
+                "name_zh": "薛曉華",
+                "name_en": "HSUEH, HSIAO-HUA"
             }
         ],
         "meetings": [
@@ -167341,7 +167341,7 @@
         "id": "11510THC 102900",
         "chinese_title": "問題導向學習：國際交流，新竹文化轉譯",
         "english_title": "Problem Based Learning: International Exchange, Culture Translation to Hsinchu City",
-        "note": "1. 課程採報名篩選制 (詳見課綱)，不接受期中退選 2. 通過篩選後以加簽選",
+        "note": "1. 課程採報名篩選制 (詳見課綱)，不接受期中停修 2. 通過篩選後以加簽選",
         "limit_note": "",
         "object": "",
         "ge_type": "",
@@ -167694,7 +167694,7 @@
         "id": "11510THC 106000",
         "chinese_title": "國際事務理論與實踐",
         "english_title": "Theory and Practice of International Affairs",
-        "note": "清華學院(負責老師：涂萍蘭)，不接受其中退選",
+        "note": "清華學院(負責老師：涂萍蘭)，不接受其中停修",
         "limit_note": "",
         "object": "",
         "ge_type": "",
