@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-22T12:20:46.741192+08:00",
+        "last_updated": "2026-10-22T14:31:15.888450+08:00",
         "name": "announcements.json",
-        "sha256": "10075eba08b4b5dfe9ccfceba3fb4f9480035c603406758e43e9bafda50b00f3",
-        "version": "10075eba08b4b5dfe9ccfceba3fb4f9480035c603406758e43e9bafda50b00f3"
+        "sha256": "367781a136b8c498fed1aa636db818f121dfe328533df576b4a6cb8080b3c4c6",
+        "version": "367781a136b8c498fed1aa636db818f121dfe328533df576b4a6cb8080b3c4c6"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-22T12:20:46.741192+08:00",
+        "last_updated": "2026-10-22T14:31:15.888450+08:00",
         "name": "dining.json",
-        "sha256": "bac7d1db9f38f8467325d6bbbf677cede56082225c41c598d7325d5e764af848",
-        "version": "bac7d1db9f38f8467325d6bbbf677cede56082225c41c598d7325d5e764af848"
+        "sha256": "f9064c6e5d9f91031e192368799e2508ebd7013ac5a7b5e61feffc25f5bf9292",
+        "version": "f9064c6e5d9f91031e192368799e2508ebd7013ac5a7b5e61feffc25f5bf9292"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1506,10 +1506,10 @@
         "version": "ef36dce11c4cc5516a6e8ccf460ee43e499eaf4808b39d594a537c5f5a899dba"
       },
       {
-        "last_updated": "2026-10-15T18:18:53.275925+08:00",
+        "last_updated": "2026-10-22T14:31:15.888450+08:00",
         "name": "Recent Activities_en.json",
-        "sha256": "2940ad8d2704f77176ee7ca90d3d42b855c87fdb73f108efb372223a029550c7",
-        "version": "2940ad8d2704f77176ee7ca90d3d42b855c87fdb73f108efb372223a029550c7"
+        "sha256": "19bd5b6bdddd56a12e700bcb978044363ba1cfdb0acfd8238365612eb0ef2714",
+        "version": "19bd5b6bdddd56a12e700bcb978044363ba1cfdb0acfd8238365612eb0ef2714"
       },
       {
         "last_updated": "2026-10-11T22:18:14.043682+08:00",
@@ -1536,10 +1536,10 @@
         "version": "711d8e1f789e8c47aeb903533e986b91fee03074ca8d2216a63a8e40b18ef6a1"
       },
       {
-        "last_updated": "2026-10-15T18:18:53.275925+08:00",
+        "last_updated": "2026-10-22T14:31:15.888450+08:00",
         "name": "最新活動_zh-tw.json",
-        "sha256": "9d2e418ef3dc6fe317c25dcea17d48eda1897883ce9a836be721848bec8f87aa",
-        "version": "9d2e418ef3dc6fe317c25dcea17d48eda1897883ce9a836be721848bec8f87aa"
+        "sha256": "31649227b0219de28daf5669adfbdcf68f1da1061ca0439265645159a5230a5e",
+        "version": "31649227b0219de28daf5669adfbdcf68f1da1061ca0439265645159a5230a5e"
       },
       {
         "last_updated": "2026-10-20T02:23:48.521355+08:00",
@@ -2302,10 +2302,10 @@
         "version": "9804844701a9f9834d355f93d8281ea95946bf73cda0c4d35f6af57c242e46ba"
       },
       {
-        "last_updated": "2026-10-22T10:26:21.359745+08:00",
+        "last_updated": "2026-10-22T14:31:15.888450+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "df2548a2fa21ce5b1495257b01fd8cf4ef48bd969848874a2a7b8bf687b32629",
-        "version": "df2548a2fa21ce5b1495257b01fd8cf4ef48bd969848874a2a7b8bf687b32629"
+        "sha256": "88cce483fb53484431c9d86576263fc7e265810e246225fcf52ee3a3baa5fe6d",
+        "version": "88cce483fb53484431c9d86576263fc7e265810e246225fcf52ee3a3baa5fe6d"
       },
       {
         "last_updated": "2026-10-19T16:29:53.743554+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-22T08:46:34.494370+08:00",
+        "last_updated": "2026-10-22T14:31:15.888450+08:00",
         "name": "rss.json",
-        "sha256": "0a5133f916e3126b1abc807fda85ec50a3d1c3ca5142fab15ca4edfb28179f12",
-        "version": "0a5133f916e3126b1abc807fda85ec50a3d1c3ca5142fab15ca4edfb28179f12"
+        "sha256": "607d1c3fcb5a15b32fcce6ac4128ad5a153ea899e969a8f0a1ed790ddac49708",
+        "version": "607d1c3fcb5a15b32fcce6ac4128ad5a153ea899e969a8f0a1ed790ddac49708"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-22T12:20:46.741192+08:00"
+  "last_updated": "2026-10-22T14:31:15.888450+08:00"
 }
