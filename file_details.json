@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-22T10:26:21.359745+08:00",
+        "last_updated": "2026-10-22T12:20:46.741192+08:00",
         "name": "announcements.json",
-        "sha256": "de8e6c37b6d0e75df393eb30d266c43c428e7fb140bc16022cf40aeebf3addc4",
-        "version": "de8e6c37b6d0e75df393eb30d266c43c428e7fb140bc16022cf40aeebf3addc4"
+        "sha256": "10075eba08b4b5dfe9ccfceba3fb4f9480035c603406758e43e9bafda50b00f3",
+        "version": "10075eba08b4b5dfe9ccfceba3fb4f9480035c603406758e43e9bafda50b00f3"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-22T10:26:21.359745+08:00",
+        "last_updated": "2026-10-22T12:20:46.741192+08:00",
         "name": "dining.json",
-        "sha256": "0cab60743aa80c02f6bc39833b1759e2affc587da6734577684d7a4bf488e963",
-        "version": "0cab60743aa80c02f6bc39833b1759e2affc587da6734577684d7a4bf488e963"
+        "sha256": "bac7d1db9f38f8467325d6bbbf677cede56082225c41c598d7325d5e764af848",
+        "version": "bac7d1db9f38f8467325d6bbbf677cede56082225c41c598d7325d5e764af848"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -778,10 +778,10 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_updated": "2026-10-14T16:25:49.196087+08:00",
+        "last_updated": "2026-10-22T12:20:46.741192+08:00",
         "name": "徵才_研習_zh-tw.json",
-        "sha256": "6c04db3f16de000b090f012ca222954dcaed7b9be53daeb232d4bf945fd9b012",
-        "version": "6c04db3f16de000b090f012ca222954dcaed7b9be53daeb232d4bf945fd9b012"
+        "sha256": "911d1f555acd4c4e976abd56293b50b922d9508f929af419bd5c7e728c908015",
+        "version": "911d1f555acd4c4e976abd56293b50b922d9508f929af419bd5c7e728c908015"
       },
       {
         "last_updated": "2026-10-21T08:46:35.081676+08:00",
@@ -1216,10 +1216,10 @@
         "version": "b7b52b6d6afc9673f2a1236ecb309af555521d9f1191bd1ef701ed960642cd58"
       },
       {
-        "last_updated": "2026-10-22T10:26:21.359745+08:00",
+        "last_updated": "2026-10-22T12:20:46.741192+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "837c162a706eb1bcadd682bf58600993b47a7df43500088dadd9582101782255",
-        "version": "837c162a706eb1bcadd682bf58600993b47a7df43500088dadd9582101782255"
+        "sha256": "74120beea9bf8a313ccae848f98137f61f29307a57fdb9ea59b2c1b5070aa199",
+        "version": "74120beea9bf8a313ccae848f98137f61f29307a57fdb9ea59b2c1b5070aa199"
       },
       {
         "last_updated": "2026-10-22T10:26:21.359745+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-22T10:26:21.359745+08:00"
+  "last_updated": "2026-10-22T12:20:46.741192+08:00"
 }
