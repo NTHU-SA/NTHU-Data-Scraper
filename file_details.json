@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-22T20:28:09.958171+08:00",
+        "last_updated": "2026-10-22T22:19:14.555177+08:00",
         "name": "announcements.json",
-        "sha256": "7a270b344259e57bbd62a14a02de2bbfeb4ee7bf84dd77365de1244996b830b5",
-        "version": "7a270b344259e57bbd62a14a02de2bbfeb4ee7bf84dd77365de1244996b830b5"
+        "sha256": "7c3016b7b468296c6961a7833b4e092b8b23e576f435f1b41c8595a2315040aa",
+        "version": "7c3016b7b468296c6961a7833b4e092b8b23e576f435f1b41c8595a2315040aa"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1392,10 +1392,10 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_updated": "2026-10-16T16:24:54.899420+08:00",
+        "last_updated": "2026-10-22T22:19:14.555177+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "3d10147152f7e30d50aaa9f285abefbbbffa66b063d15668dbd70ee6bbe153e1",
-        "version": "3d10147152f7e30d50aaa9f285abefbbbffa66b063d15668dbd70ee6bbe153e1"
+        "sha256": "6430b9f553140b45beab7da179cdc6226479d7a0a0d8dd8027921e3e70021ee8",
+        "version": "6430b9f553140b45beab7da179cdc6226479d7a0a0d8dd8027921e3e70021ee8"
       }
     ],
     "announcements/理學院物理學系": [
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-22T20:28:09.958171+08:00",
+        "last_updated": "2026-10-22T22:19:14.555177+08:00",
         "name": "rss.json",
-        "sha256": "8a21a448e779d7aa9e4a2292eb1c1c97676d005b7b09fa6dc75372a19dfaf526",
-        "version": "8a21a448e779d7aa9e4a2292eb1c1c97676d005b7b09fa6dc75372a19dfaf526"
+        "sha256": "4b4ffeae22e638dfeb37f31df1a311394ca72b34d6faec699ebb05d613545079",
+        "version": "4b4ffeae22e638dfeb37f31df1a311394ca72b34d6faec699ebb05d613545079"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-22T20:28:09.958171+08:00"
+  "last_updated": "2026-10-22T22:19:14.555177+08:00"
 }
