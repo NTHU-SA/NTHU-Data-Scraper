@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-23T00:21:49.757099+08:00",
+        "last_updated": "2026-10-23T22:20:55.392488+08:00",
         "name": "announcements.json",
-        "sha256": "039bbf5a1675c927af6ef437aa585beac01dec5340377471083e19ca500792f4",
-        "version": "039bbf5a1675c927af6ef437aa585beac01dec5340377471083e19ca500792f4"
+        "sha256": "c3dbb10130b30e1e0610ba3e3e89942daba7f46c1a875095f4393cee164b3201",
+        "version": "c3dbb10130b30e1e0610ba3e3e89942daba7f46c1a875095f4393cee164b3201"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1392,10 +1392,10 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_updated": "2026-10-22T22:19:14.555177+08:00",
+        "last_updated": "2026-10-23T22:20:55.392488+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "6430b9f553140b45beab7da179cdc6226479d7a0a0d8dd8027921e3e70021ee8",
-        "version": "6430b9f553140b45beab7da179cdc6226479d7a0a0d8dd8027921e3e70021ee8"
+        "sha256": "6f50caa386e6c82eb6c9701ec138eb4b2e6d1644733d60eb376d99bcf8822664",
+        "version": "6f50caa386e6c82eb6c9701ec138eb4b2e6d1644733d60eb376d99bcf8822664"
       }
     ],
     "announcements/理學院物理學系": [
@@ -1934,10 +1934,10 @@
         "version": "5695e4c56daac602c01934a8fed5b914aaf7a9cf7a2ba3201abafbb4a22caf2d"
       },
       {
-        "last_updated": "2026-10-07T00:23:02.860252+08:00",
+        "last_updated": "2026-10-23T22:20:55.392488+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "351df65a8a86804a9299c8cb58347ae158084b4859859be8113c6f808899984b",
-        "version": "351df65a8a86804a9299c8cb58347ae158084b4859859be8113c6f808899984b"
+        "sha256": "604d392df1182e142519a37fec6b7d51e7f40504b415a83eceb8d1005d867120",
+        "version": "604d392df1182e142519a37fec6b7d51e7f40504b415a83eceb8d1005d867120"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1946,10 +1946,10 @@
         "version": "549885d8329738d122d1bebc6ea550ec28b0281e9582484c43216bcbe898d6b3"
       },
       {
-        "last_updated": "2026-10-07T00:23:02.860252+08:00",
+        "last_updated": "2026-10-23T22:20:55.392488+08:00",
         "name": "演講公告_zh-tw.json",
-        "sha256": "2e45142729b06ed1224c8e8265b07dc10e4cfdfd63381d02283509ea5453fc20",
-        "version": "2e45142729b06ed1224c8e8265b07dc10e4cfdfd63381d02283509ea5453fc20"
+        "sha256": "ecfa24035b0b06e4521d213c2063179d797ce9098d7a2bf7bfba29b2e4b1121b",
+        "version": "ecfa24035b0b06e4521d213c2063179d797ce9098d7a2bf7bfba29b2e4b1121b"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-23T00:21:49.757099+08:00",
+        "last_updated": "2026-10-23T22:20:55.392488+08:00",
         "name": "rss.json",
-        "sha256": "1f742ef376d47472c945fe10d303f7c48354c4b59dbe764e252cf6d332cc1273",
-        "version": "1f742ef376d47472c945fe10d303f7c48354c4b59dbe764e252cf6d332cc1273"
+        "sha256": "4cfeedd596790f578c286049a73128bc7678c9e758c58791a8d4110a1503e681",
+        "version": "4cfeedd596790f578c286049a73128bc7678c9e758c58791a8d4110a1503e681"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-23T06:16:26.722743+08:00"
+  "last_updated": "2026-10-23T22:20:55.392488+08:00"
 }
