@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-25T04:16:32.113903+08:00",
+        "last_updated": "2026-10-25T06:15:41.361307+08:00",
         "name": "announcements.json",
-        "sha256": "6178a5ff2ec4598aa2c6a7f64c82b8f876ab1bd8dfec304d8665342ddfae9382",
-        "version": "6178a5ff2ec4598aa2c6a7f64c82b8f876ab1bd8dfec304d8665342ddfae9382"
+        "sha256": "e4ec506cc6e919ae4de910e34cac6000d6f37240a87c193e05dd7dd9a45b3d2f",
+        "version": "e4ec506cc6e919ae4de910e34cac6000d6f37240a87c193e05dd7dd9a45b3d2f"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -176,10 +176,10 @@
         "version": "169a6a23aee8e400470c537d04a889e10fd74674bf95c1f2e1179e760f31eae6"
       },
       {
-        "last_updated": "2026-10-20T14:30:54.286783+08:00",
+        "last_updated": "2026-10-25T06:15:41.361307+08:00",
         "name": "學術活動_zh-tw.json",
-        "sha256": "920301fe9f1bbd4a2d095e82cc31396a8a6189cfcba8f201a9259e9e3ce7ccd4",
-        "version": "920301fe9f1bbd4a2d095e82cc31396a8a6189cfcba8f201a9259e9e3ce7ccd4"
+        "sha256": "4e5c7425002acc3e76aa7f53b920678e250bbf6f7de4fcb0c96735b2e9344ce3",
+        "version": "4e5c7425002acc3e76aa7f53b920678e250bbf6f7de4fcb0c96735b2e9344ce3"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -188,10 +188,10 @@
         "version": "bcbe501f21084e69fbb9a4d349f8df8c5d4d139bfff61e587b4112dcaa3b8841"
       },
       {
-        "last_updated": "2026-10-25T04:16:32.113903+08:00",
+        "last_updated": "2026-10-25T06:15:41.361307+08:00",
         "name": "系所消息_zh-tw.json",
-        "sha256": "1c1f5099ddaf6ac770a75f7b8cd253ceaf2fafa2c9dc781e6123e5e0bfa37481",
-        "version": "1c1f5099ddaf6ac770a75f7b8cd253ceaf2fafa2c9dc781e6123e5e0bfa37481"
+        "sha256": "a9321d0bfd62c138e5df532a0b406ee2ee961d476c3a21859380b7c95122435c",
+        "version": "a9321d0bfd62c138e5df532a0b406ee2ee961d476c3a21859380b7c95122435c"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-25T04:16:32.113903+08:00"
+  "last_updated": "2026-10-25T06:15:41.361307+08:00"
 }
