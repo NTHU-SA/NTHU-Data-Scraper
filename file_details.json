@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-25T16:22:19.702436+08:00",
+        "last_updated": "2026-10-26T00:17:50.347259+08:00",
         "name": "announcements.json",
-        "sha256": "08d60439e44bb5489212239f5f4991fa10c4a301cfb1e8e4164b20088c4ee560",
-        "version": "08d60439e44bb5489212239f5f4991fa10c4a301cfb1e8e4164b20088c4ee560"
+        "sha256": "1766b219eef5f54d2abf87a966fe4f4a843bec3da1d3a4a491029467f39760bd",
+        "version": "1766b219eef5f54d2abf87a966fe4f4a843bec3da1d3a4a491029467f39760bd"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -448,10 +448,10 @@
         "version": "3e78ca93f95c9b9279dd1ce277e45c9e81f1d59cccfbb24f8d0c948b54213ac3"
       },
       {
-        "last_updated": "2026-10-22T16:25:47.398106+08:00",
+        "last_updated": "2026-10-26T00:17:50.347259+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "69e148259d57ebc3641f9f04627ef1b918438fb7ac296f21e1dbee4db2c3c733",
-        "version": "69e148259d57ebc3641f9f04627ef1b918438fb7ac296f21e1dbee4db2c3c733"
+        "sha256": "cf5e09683fc85b3c7e60b6c44774a7cf98c67172f19d194d6dd5427c5e67b9e4",
+        "version": "cf5e09683fc85b3c7e60b6c44774a7cf98c67172f19d194d6dd5427c5e67b9e4"
       }
     ],
     "announcements/學務處生活輔導組(水木生活中心2樓)": [
@@ -1448,10 +1448,10 @@
         "version": "1a37f5c75e05cac6419fbdd1d7db08d1425cb2204fff65ba69eccb69698755dc"
       },
       {
-        "last_updated": "2026-10-23T00:21:49.757099+08:00",
+        "last_updated": "2026-10-26T00:17:50.347259+08:00",
         "name": "系辦公告_zh-tw.json",
-        "sha256": "463a8e0289a0f3a12ccc7661f016892664bedae6b7aa0df0dae7c395f442edc9",
-        "version": "463a8e0289a0f3a12ccc7661f016892664bedae6b7aa0df0dae7c395f442edc9"
+        "sha256": "e0129852ae9e14e85f8dcfdde83095bb3c0a0eacb43c8a9d2de513058cb6db1d",
+        "version": "e0129852ae9e14e85f8dcfdde83095bb3c0a0eacb43c8a9d2de513058cb6db1d"
       }
     ],
     "announcements/環境保護暨安全衛生中心": [
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-23T22:20:55.392488+08:00",
+        "last_updated": "2026-10-26T00:17:50.347259+08:00",
         "name": "rss.json",
-        "sha256": "4cfeedd596790f578c286049a73128bc7678c9e758c58791a8d4110a1503e681",
-        "version": "4cfeedd596790f578c286049a73128bc7678c9e758c58791a8d4110a1503e681"
+        "sha256": "d3af2155da1fec693f6347cb823b18ef9e97f1332afad1a2733f502760e48a88",
+        "version": "d3af2155da1fec693f6347cb823b18ef9e97f1332afad1a2733f502760e48a88"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-25T16:22:19.702436+08:00"
+  "last_updated": "2026-10-26T00:17:50.347259+08:00"
 }
