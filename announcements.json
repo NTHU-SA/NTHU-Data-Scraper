@@ -6484,11 +6484,6 @@
         "department": "教務處課務組",
         "articles": [
             {
-                "title": "薔琵颱風來襲，停課情形依行政院天然災害停止上班及上課公告為準",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-316866,r7797.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
                 "title": "【停修】115 上 課程停修資訊",
                 "link": "https://curricul.site.nthu.edu.tw/p/450-1208-316709,c0.php?Lang=zh-tw",
                 "date": ""
@@ -6496,6 +6491,11 @@
             {
                 "title": "【停修】115上TAICA聯盟 AIA 課程停修申請流程",
                 "link": "https://curricul.site.nthu.edu.tw/p/450-1208-316710,c0.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "薔琵颱風來襲，停課情形依行政院天然災害停止上班及上課公告為準",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-316866,r7797.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -6635,11 +6635,6 @@
         "department": "教務處課務組",
         "articles": [
             {
-                "title": "Notice Regarding Typhoon Champi and Work/School Status",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-316870,r7982.php?Lang=en",
-                "date": ""
-            },
-            {
                 "title": "Course Withdrawal for Fall 2026",
                 "link": "https://curricul.site.nthu.edu.tw/p/450-1208-316707,c0.php?Lang=en",
                 "date": ""
@@ -6647,6 +6642,11 @@
             {
                 "title": "TAICA AIA Course Withdrawal Procedures for Fall 2026",
                 "link": "https://curricul.site.nthu.edu.tw/p/406-1208-316679,r7982.php?Lang=en",
+                "date": ""
+            },
+            {
+                "title": "Notice Regarding Typhoon Champi and Work/School Status",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-316870,r7982.php?Lang=en",
                 "date": ""
             },
             {
@@ -6713,13 +6713,13 @@
                 "date": ""
             },
             {
-                "title": "2027 Spring Important dates",
-                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-306091,r7989.php?Lang=en",
+                "title": "NTHU Academic Calendar",
+                "link": "https://curricul.site.nthu.edu.tw/p/450-1208-309951,c0.php?Lang=en",
                 "date": ""
             },
             {
-                "title": "NTHU Academic Calendar",
-                "link": "https://curricul.site.nthu.edu.tw/p/450-1208-309951,c0.php?Lang=en",
+                "title": "2027 Spring Important dates",
+                "link": "https://curricul.site.nthu.edu.tw/p/406-1208-306091,r7989.php?Lang=en",
                 "date": ""
             }
         ]
@@ -7636,6 +7636,11 @@
         "department": "總務處文書組",
         "articles": [
             {
+                "title": "國家檔案館舉辦「2026檔案月」啟動儀式暨時光同樂會",
+                "link": "https://document.site.nthu.edu.tw/p/406-1164-316911,r6812.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "國立臺灣大學檔案館舉辦「檔案中的文創世界~臺大校園檔案故事」特展",
                 "link": "https://document.site.nthu.edu.tw/p/406-1164-313930,r6812.php?Lang=zh-tw",
                 "date": ""
@@ -7688,11 +7693,6 @@
             {
                 "title": "國家發展委員會檔案管理局邀請各機關學校參與本（114）年檔案月活動串聯",
                 "link": "https://document.site.nthu.edu.tw/p/406-1164-294039,r6812.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "檔案管理局電子檔案技術服務申請及作業須知",
-                "link": "https://document.site.nthu.edu.tw/p/406-1164-293268,r6812.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -15208,6 +15208,11 @@
                 "date": ""
             },
             {
+                "title": "【NTHU】經濟部智慧財產局舉辦「網路利用他人圖片所涉及之著作權」主題講座",
+                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-316912,r11637.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【校園】中華精測科技股份有限公司獎學金-工學院收件115.11.16截止",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-316598,r11637.php?Lang=zh-tw",
                 "date": ""
@@ -15255,11 +15260,6 @@
             {
                 "title": "【校園】工學院出國逐夢獎助金 - 115學年度上學期申請-IPE10/12(一)中午12:00截止。",
                 "link": "https://ipe.site.nthu.edu.tw/p/406-1300-314445,r11637.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【校園】友達光電2026秋季校園徵才活動開跑啦！",
-                "link": "https://ipe.site.nthu.edu.tw/p/406-1300-314246,r11637.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -20858,8 +20858,8 @@
         "department": "理學院物理學系",
         "articles": [
             {
-                "title": "2026/10/22 12:30 Prof. Yi Yang(Academia Sinica)--- The AMS experiment and its latest results and upgrades(R521, 5F, General Building II)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-316664,r5959.php?Lang=en",
+                "title": "2026/10/27 Dr. Hsiu-Chung Yeh [葉秀中](Max Planck Institute for the Physics of Complex Systems)---A Universal Representation of Floquet Operator Dynamics(R019, Physics Building)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-316907,r5959.php?Lang=en",
                 "date": ""
             }
         ]
@@ -20871,8 +20871,8 @@
         "department": "理學院物理學系",
         "articles": [
             {
-                "title": "2026/10/22 12:30 Prof. Yi Yang(Academia Sinica)--- The AMS experiment and its latest results and upgrades(R521, 5F, General Building II)",
-                "link": "https://phys.site.nthu.edu.tw/p/406-1335-316664,r5959.php?Lang=zh-tw",
+                "title": "2026/10/27 Dr. Hsiu-Chung Yeh [葉秀中](Max Planck Institute for the Physics of Complex Systems)---A Universal Representation of Floquet Operator Dynamics(R019, Physics Building)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-316907,r5959.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -24252,11 +24252,6 @@
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
             {
-                "title": "Precautions for Typhoon",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-252518,r1538.php?Lang=en",
-                "date": "2026-10-22"
-            },
-            {
                 "title": "Student Dormitory Head Resident Election Regulations",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-316776,r1538.php?Lang=en",
                 "date": "2026-10-21"
@@ -24280,6 +24275,11 @@
                 "title": "Housing Period and Check-in/Check-out for Fall 2026, Spring 2027 and Summer 2027",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-304356,r1538.php?Lang=en",
                 "date": "2026-03-11"
+            },
+            {
+                "title": "Precautions for Typhoon",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-252518,r1538.php?Lang=en",
+                "date": "2026-10-22"
             },
             {
                 "title": "Sep. 18-24 Water Leakage Repair by Dormitory Ming and Dormitory Shan",
@@ -24335,11 +24335,6 @@
         "department": "學務處學生住宿組(水木生活中心1樓)",
         "articles": [
             {
-                "title": "防颱注意事項",
-                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-252518,r1538.php?Lang=zh-tw",
-                "date": "2026-10-22"
-            },
-            {
                 "title": "116年學生宿舍齋長改選辦法",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-316776,r1538.php?Lang=zh-tw",
                 "date": "2026-10-21"
@@ -24363,6 +24358,11 @@
                 "title": "115學年度住宿時程暨學年、暑期進退宿作業",
                 "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-304356,r1538.php?Lang=zh-tw",
                 "date": "2026-03-11"
+            },
+            {
+                "title": "防颱注意事項",
+                "link": "https://sthousing.site.nthu.edu.tw/p/406-1254-252518,r1538.php?Lang=zh-tw",
+                "date": "2026-10-22"
             },
             {
                 "title": "〔公告來源：事務組〕115.10.14水質檢驗結果",
