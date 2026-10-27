@@ -2823,6 +2823,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【歡迎報名】實習經驗交流 Coffee Chat",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-316936,r5085.php?Lang=zh-tw",
+                "date": "2026-10-27"
+            },
+            {
                 "title": "2026大學生學習經驗問卷(全校大二・大三學生限定)，填問卷抽大獎！",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-315681,c0.php?Lang=zh-tw",
                 "date": "2026-10-22"
@@ -2876,11 +2881,6 @@
                 "title": "第三屆大學生學術海報競賽報名開始！🤩2026 NTHU Undergraduate Academic Poster Competition: Registration Now Open",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-315933,r5085.php?Lang=zh-tw",
                 "date": "2026-10-08"
-            },
-            {
-                "title": "【賈桃樂清華分館】預約導覽與互動體驗活動",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-315718,c0.php?Lang=zh-tw",
-                "date": "2026-10-07"
             }
         ]
     },
@@ -3783,6 +3783,16 @@
                 "date": ""
             },
             {
+                "title": "【轉知】國立臺灣師範大學115年「素養導向課室評量資源建置暨推廣計畫」線上專題講座",
+                "link": "https://cfte.site.nthu.edu.tw/p/450-1275-316939,c0.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【轉知】國立臺灣師範大學辦理「師資生潛能測驗系統」之個人帳號申請、報表導讀活動及1對1專屬線上諮詢資訊",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-316938,r157.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【轉知】115-1探究實作北區推動中心辦理「氣候變遷的PBL」不分科跨領域探究實作教師工作坊",
                 "link": "https://cfte.site.nthu.edu.tw/p/450-1275-316297,c0.php?Lang=zh-tw",
                 "date": ""
@@ -3820,16 +3830,6 @@
             {
                 "title": "【轉知】115學年度綜合活動領域教學研究中心辦理綜合活動領域優良教案及教具徵選活動",
                 "link": "https://cfte.site.nthu.edu.tw/p/450-1275-315657,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【轉知】探究就從餐桌開始：遷徙中的飲食流變_教師增能研習工作坊實施計畫",
-                "link": "https://cfte.site.nthu.edu.tw/p/450-1275-315650,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【轉知】生涯與職業資訊⼯作坊",
-                "link": "https://cfte.site.nthu.edu.tw/p/450-1275-315130,c0.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -5091,6 +5091,11 @@
                 "date": "2026-03-10"
             },
             {
+                "title": "2026/10/27~2027/11/28 Second High-Voltage Substation Power Supply System Upgrade and Voltage Conversion Project (Main Campus)",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-316944,r7725.php?Lang=en",
+                "date": "2026-10-27"
+            },
+            {
                 "title": "10/27~11/27 Notice of Geotechnical Investigation & Soil Boring: College of Technology Management New Building Project",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-316636,r7725.php?Lang=en",
                 "date": "2026-10-19"
@@ -5134,11 +5139,6 @@
                 "title": "8/9 Voltage Conversion Project: Equipment Hoisting and Exterior Wall Operations (General Building I: University Administration)",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-312599,r7725.php?Lang=en",
                 "date": "2026-08-05"
-            },
-            {
-                "title": "Urgent Action Required Delayed Power Restoration Notice e",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-312458,r7725.php?Lang=en",
-                "date": "2026-08-02"
             }
         ]
     },
@@ -5152,6 +5152,11 @@
                 "title": "114/5/1起逾15萬元以上採購案由使用單位出具採購單公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-287772,r992.php?Lang=zh-tw",
                 "date": "2025-04-28"
+            },
+            {
+                "title": "115/10/27~116/11/28第二高壓站供電系統更新及改壓工程施工公告",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-316942,r992.php?Lang=zh-tw",
+                "date": "2026-10-27"
             },
             {
                 "title": "10/27~11/27 科管院新館新建工程地基調查工作-地質鑽探公告",
@@ -5202,11 +5207,6 @@
                 "title": "9/11~9/21 南大校區行政大樓電梯機房頂樓防水工程",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-314105,r992.php?Lang=zh-tw",
                 "date": "2026-09-08"
-            },
-            {
-                "title": "115/9/1~116/2/11 校園無障礙通路改善工程",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-313669,r992.php?Lang=zh-tw",
-                "date": "2026-08-31"
             }
         ]
     },
@@ -6035,6 +6035,11 @@
         "language": "zh-tw",
         "department": "半導體研究學院",
         "articles": [
+            {
+                "title": "【校外消息】經濟部智慧財產局訂於本(115)年12月3日舉辦「網路利用他人圖片所涉及之著作權」主題講座，歡迎報名參加。",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-316941,r11276.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "【校外消息】歡迎報名11/26(四) AITA「Edge AI 軟硬體平台交流會」",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-316176,r11276.php?Lang=zh-tw",
@@ -20858,6 +20863,11 @@
         "department": "理學院物理學系",
         "articles": [
             {
+                "title": "12:30-13:30, Thursday, 2026/10/29 Dr. Dhruv Desai (IoP, Academia Sinica)---Millisecond proto-magnetars as gamma-ray burst central engines(R521, 5F, General Building II)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-316934,r5959.php?Lang=en",
+                "date": ""
+            },
+            {
                 "title": "Oct 30 at 14:30 Dr. Michele Pizzardo (ASIAA)---Extending Cluster Lensing Mass Inversion (Λ-CLUMI+): Combining Dynamics and Lensing for Accurate Galaxy Cluster Mass Reconstruction in the Infall Region(R521, Institute of Astronomy)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-316931,r5959.php?Lang=en",
                 "date": ""
@@ -20880,6 +20890,11 @@
         "language": "zh-tw",
         "department": "理學院物理學系",
         "articles": [
+            {
+                "title": "12:30-13:30, Thursday, 2026/10/29 Dr. Dhruv Desai (IoP, Academia Sinica)---Millisecond proto-magnetars as gamma-ray burst central engines(R521, 5F, General Building II)",
+                "link": "https://phys.site.nthu.edu.tw/p/406-1335-316934,r5959.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "Oct 30 at 14:30 Dr. Michele Pizzardo (ASIAA)---Extending Cluster Lensing Mass Inversion (Λ-CLUMI+): Combining Dynamics and Lensing for Accurate Galaxy Cluster Mass Reconstruction in the Infall Region(R521, Institute of Astronomy)",
                 "link": "https://phys.site.nthu.edu.tw/p/406-1335-316931,r5959.php?Lang=zh-tw",
@@ -21537,6 +21552,16 @@
                 "date": "2025-07-01"
             },
             {
+                "title": "行政院公共工程委員會修正「採購契約範本附記條款特別聲明」，請查照。",
+                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-316937,r88.php?Lang=zh-tw",
+                "date": "2026-10-27"
+            },
+            {
+                "title": "檢送文化部115年藝文採購著作權調查相關文件，請查照。",
+                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-316935,r88.php?Lang=zh-tw",
+                "date": "2026-10-27"
+            },
+            {
                 "title": "行政院公共工程委員會修正「遙控無人機採購作業指引」，請查照。",
                 "link": "https://purchase.site.nthu.edu.tw/p/406-1171-316927,r88.php?Lang=zh-tw",
                 "date": "2026-10-27"
@@ -21575,16 +21600,6 @@
                 "title": "社團法人中華專業人才協會函，辦理「採購即學即用計畫」課程。",
                 "link": "https://purchase.site.nthu.edu.tw/p/406-1171-313120,r88.php?Lang=zh-tw",
                 "date": "2026-08-18"
-            },
-            {
-                "title": "行政院公共工程委員會修正「投標須知範本」等文件，轉請查照。",
-                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-312661,r88.php?Lang=zh-tw",
-                "date": "2026-08-05"
-            },
-            {
-                "title": "中華電信股份有限公司資訊技術分公司辦理「政府電子採購網」115年採購人員教育訓練，詳如原函說明，轉請查照。",
-                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-312123,r88.php?Lang=zh-tw",
-                "date": "2026-07-24"
             }
         ]
     },
