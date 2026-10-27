@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-27T16:25:59.671520+08:00",
+        "last_updated": "2026-10-27T18:19:14.023608+08:00",
         "name": "announcements.json",
-        "sha256": "5d53ef902f7dbf039c99fcdc66281da51a685aada9b3745925f19c22e7921879",
-        "version": "5d53ef902f7dbf039c99fcdc66281da51a685aada9b3745925f19c22e7921879"
+        "sha256": "989f6a8bb9d7e2c50cc6831ad5d65c872b1a236a6f057aa4b81501c03e9f930a",
+        "version": "989f6a8bb9d7e2c50cc6831ad5d65c872b1a236a6f057aa4b81501c03e9f930a"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-27T16:25:59.671520+08:00",
+        "last_updated": "2026-10-27T18:19:14.023608+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "d1c29cc51b396bc943d5ebaff85f6c1a385b153cf312aea3d99cde44e80609ce",
-        "version": "d1c29cc51b396bc943d5ebaff85f6c1a385b153cf312aea3d99cde44e80609ce"
+        "sha256": "aaaa6edd8930a032fb4a9e23f51263209cdd2d3b3ec68323c598f2ba2612467a",
+        "version": "aaaa6edd8930a032fb4a9e23f51263209cdd2d3b3ec68323c598f2ba2612467a"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-27T14:31:23.745635+08:00",
+        "last_updated": "2026-10-27T18:19:14.023608+08:00",
         "name": "rss.json",
-        "sha256": "3dc22f906bf995b2f01287b031ddb96689d1d765c8038f6cc52f21458344dcf0",
-        "version": "3dc22f906bf995b2f01287b031ddb96689d1d765c8038f6cc52f21458344dcf0"
+        "sha256": "b1890c367d30decd8c440eef3a857d640e98f330bd4c93310b4eb06cdc58e178",
+        "version": "b1890c367d30decd8c440eef3a857d640e98f330bd4c93310b4eb06cdc58e178"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-27T16:25:59.671520+08:00"
+  "last_updated": "2026-10-27T18:19:14.023608+08:00"
 }

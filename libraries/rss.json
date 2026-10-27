@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2063",
+            "category": "電子資源",
+            "title": "【試用資源】Medici.tv《麥迪西TV‧現場直播古典音樂影片》，歡迎多多利用！",
+            "link": "https://edu.medici.tv/",
+            "pubDate": "Tue, 27 Oct 2026 17:05:11 +0800",
+            "description": "Medici.tv《麥迪西TV‧現場直播古典音樂影片》收錄1940年至今超過4,000部以上傑出音樂家、作曲家與著名樂團高畫質的之現場演出影片。內容包含Concerts、Operas、Ballets、Documentaries、Master classes及Jazz等6種隨選影片目錄。\n※試用網址：https://edu.medici.tv/\n※試用期間：即日起至2026年12月7日止。\n※試用說明：校外使用請先登入NTHU-VPN後連線使用，或來信至database@my.nthu.edu.tw，索取本校專屬試用passcode。\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261027_LRS_Medici.jpg",
+                "title": "【試用資源】Medici.tv《麥迪西TV‧現場直播古典音樂影片》，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2062",
             "category": "研習課程",
             "title": "【線上課程】IEEE Paper Submission Workshop (11/6) - In English",
@@ -870,6 +884,20 @@
         }
     ],
     "eresources": [
+        {
+            "guid": "2063",
+            "category": "電子資源",
+            "title": "【試用資源】Medici.tv《麥迪西TV‧現場直播古典音樂影片》，歡迎多多利用！",
+            "link": "https://edu.medici.tv/",
+            "pubDate": "Tue, 27 Oct 2026 17:05:11 +0800",
+            "description": "Medici.tv《麥迪西TV‧現場直播古典音樂影片》收錄1940年至今超過4,000部以上傑出音樂家、作曲家與著名樂團高畫質的之現場演出影片。內容包含Concerts、Operas、Ballets、Documentaries、Master classes及Jazz等6種隨選影片目錄。\n※試用網址：https://edu.medici.tv/\n※試用期間：即日起至2026年12月7日止。\n※試用說明：校外使用請先登入NTHU-VPN後連線使用，或來信至database@my.nthu.edu.tw，索取本校專屬試用passcode。\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261027_LRS_Medici.jpg",
+                "title": "【試用資源】Medici.tv《麥迪西TV‧現場直播古典音樂影片》，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2054",
             "category": "電子資源",
