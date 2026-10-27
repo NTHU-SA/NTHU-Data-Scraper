@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-27T18:19:14.023608+08:00",
+        "last_updated": "2026-10-27T20:28:25.712241+08:00",
         "name": "announcements.json",
-        "sha256": "989f6a8bb9d7e2c50cc6831ad5d65c872b1a236a6f057aa4b81501c03e9f930a",
-        "version": "989f6a8bb9d7e2c50cc6831ad5d65c872b1a236a6f057aa4b81501c03e9f930a"
+        "sha256": "0c3c4a0f7b86fe95d0008548f1cb0987649460ce6e59ff7c89fa9ef6294bd129",
+        "version": "0c3c4a0f7b86fe95d0008548f1cb0987649460ce6e59ff7c89fa9ef6294bd129"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -2012,10 +2012,10 @@
         "version": "a8a5e0db9201e41d5952a44f4399a9fcd3552fbf56747312cff8752df0ebe0f3"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-27T20:28:25.712241+08:00",
         "name": "徵才訊息_zh-tw.json",
-        "sha256": "abaf98f70b7046f71a0e24ca914d5dc90c23371f87c8cc987d3aa3f716097dd1",
-        "version": "abaf98f70b7046f71a0e24ca914d5dc90c23371f87c8cc987d3aa3f716097dd1"
+        "sha256": "b79287c202fa0d336527aa9e20041c65786de519debeabcf0dc31b87d85bbbf1",
+        "version": "b79287c202fa0d336527aa9e20041c65786de519debeabcf0dc31b87d85bbbf1"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-27T18:19:14.023608+08:00"
+  "last_updated": "2026-10-27T20:28:25.712241+08:00"
 }
