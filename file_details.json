@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-28T12:17:57.257792+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "announcements.json",
-        "sha256": "d782acf0aa81a4793e48a0626632532dfeec5e2fa12da93ac7ade65e5872deb4",
-        "version": "d782acf0aa81a4793e48a0626632532dfeec5e2fa12da93ac7ade65e5872deb4"
+        "sha256": "11308a93f697a3460f2f78469bb435c590f83c0ee8675c3c97646efedb82130d",
+        "version": "11308a93f697a3460f2f78469bb435c590f83c0ee8675c3c97646efedb82130d"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -642,10 +642,10 @@
         "version": "08a87b385d935f6a8e9c4ab920f3333c01bbd7576b8ce167336d162145345a3c"
       },
       {
-        "last_updated": "2026-10-28T12:17:57.257792+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "News_CAMPUS News_en.json",
-        "sha256": "fece585e1edcb35d9ecab30e0b3575ebf9c3c451df2b05e04a375407fe2bffe1",
-        "version": "fece585e1edcb35d9ecab30e0b3575ebf9c3c451df2b05e04a375407fe2bffe1"
+        "sha256": "9cbe3177a97bf4aebe96b49ba0f5b2ad83251cdda79e82aca4f68d87069ff50f",
+        "version": "9cbe3177a97bf4aebe96b49ba0f5b2ad83251cdda79e82aca4f68d87069ff50f"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -784,10 +784,10 @@
         "version": "61eeae4272d131e9c005cbcf102a1d8f313b12d8692240e7c0d4459db7bd7b08"
       },
       {
-        "last_updated": "2026-10-21T08:46:35.081676+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "65b50852f43b5a0d6de8f0bf1e6425448f3b4727181c92480472fab755c39622",
-        "version": "65b50852f43b5a0d6de8f0bf1e6425448f3b4727181c92480472fab755c39622"
+        "sha256": "78645cc066389f4bb4833e389efd40a6765af555f572d7375500521c62add095",
+        "version": "78645cc066389f4bb4833e389efd40a6765af555f572d7375500521c62add095"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -1152,10 +1152,10 @@
         "version": "0b3bd770e7db71a4ab4d5a8b9e00e4b379c93b77f4fe5af213e17f57cfeaf952"
       },
       {
-        "last_updated": "2026-10-22T08:46:34.494370+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "623706d89078001bf3215b6d61c0b96fe3d4442d332ac946ffce83e0f4fd4729",
-        "version": "623706d89078001bf3215b6d61c0b96fe3d4442d332ac946ffce83e0f4fd4729"
+        "sha256": "ecf673d8a5825c08f09cb2ed657700c699a7f55b90feaee90dbc85ab416a31c4",
+        "version": "ecf673d8a5825c08f09cb2ed657700c699a7f55b90feaee90dbc85ab416a31c4"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1216,16 +1216,16 @@
         "version": "b7b52b6d6afc9673f2a1236ecb309af555521d9f1191bd1ef701ed960642cd58"
       },
       {
-        "last_updated": "2026-10-28T08:37:33.863987+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "80e16d3547be176200ac3503b6ffdc0a6712d4b2325d7967a9d22ae8b91b224e",
-        "version": "80e16d3547be176200ac3503b6ffdc0a6712d4b2325d7967a9d22ae8b91b224e"
+        "sha256": "16b320df3081a77f35336b6e5cf2564932ee2a28fcf78e159b8dbe7f744ce81b",
+        "version": "16b320df3081a77f35336b6e5cf2564932ee2a28fcf78e159b8dbe7f744ce81b"
       },
       {
-        "last_updated": "2026-10-28T08:37:33.863987+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "706de918d815839cc7aacf00e37d3b40e246d1d6156376f33e1e59bfc38f1973",
-        "version": "706de918d815839cc7aacf00e37d3b40e246d1d6156376f33e1e59bfc38f1973"
+        "sha256": "cf28296f5bf5b3e7dc08bf9644db2e9355910ac4feb60642604428b085dd9bbe",
+        "version": "cf28296f5bf5b3e7dc08bf9644db2e9355910ac4feb60642604428b085dd9bbe"
       },
       {
         "last_updated": "2026-10-28T08:37:33.863987+08:00",
@@ -1360,10 +1360,10 @@
         "version": "fa4c6ea251e75cf9699dbe58df5acd3c57545cfdc269eb68b3f4d8fd335bba9e"
       },
       {
-        "last_updated": "2026-10-07T10:34:27.102990+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "SPEECHES_en.json",
-        "sha256": "2ea2ca75f9c470bb1f77b3fb06af2366118b79924511d5509d60344e2d12cad1",
-        "version": "2ea2ca75f9c470bb1f77b3fb06af2366118b79924511d5509d60344e2d12cad1"
+        "sha256": "40ce8901143c90014b7bda8caeb41be53d0690ec1b1312a7116a651bdfe10d04",
+        "version": "40ce8901143c90014b7bda8caeb41be53d0690ec1b1312a7116a651bdfe10d04"
       },
       {
         "last_updated": "2026-10-20T10:24:46.821027+08:00",
@@ -1978,10 +1978,10 @@
         "version": "8856583e0f54567a024f84e213ec5f27e42bf4e4e36d4cfe1461860cf0c60cf7"
       },
       {
-        "last_updated": "2026-10-22T10:26:21.359745+08:00",
+        "last_updated": "2026-10-28T16:19:09.145312+08:00",
         "name": "校內外活動_zh-tw.json",
-        "sha256": "8144d5c2c3b42457a7a30b413473569358f23dbf82afef7201f7d59bb33baacf",
-        "version": "8144d5c2c3b42457a7a30b413473569358f23dbf82afef7201f7d59bb33baacf"
+        "sha256": "7fb92ca53173c85c408fad9ca319c5ca3c07bc9d45c9d738aea8890afcffa1f7",
+        "version": "7fb92ca53173c85c408fad9ca319c5ca3c07bc9d45c9d738aea8890afcffa1f7"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-28T12:17:57.257792+08:00"
+  "last_updated": "2026-10-28T16:19:09.145312+08:00"
 }
