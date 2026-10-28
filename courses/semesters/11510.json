@@ -169270,6 +169270,10 @@
                 "name_en": "DONG-RU HO"
             },
             {
+                "name_zh": "顏銘佐",
+                "name_en": "YEN,MING-TSO"
+            },
+            {
                 "name_zh": "彭明德",
                 "name_en": "PERNG, MING-DER"
             },
@@ -169292,10 +169296,6 @@
             {
                 "name_zh": "黃千瑜",
                 "name_en": "HUANG, CHIEN-YU"
-            },
-            {
-                "name_zh": "顏銘佐",
-                "name_en": "YEN,MING-TSO"
             },
             {
                 "name_zh": "廖本安",
@@ -169366,16 +169366,16 @@
                 "name_en": "HORNG, SHIH-YUAN"
             },
             {
-                "name_zh": "黃莉棋",
-                "name_en": "LI-CHI HUANG"
-            },
-            {
                 "name_zh": "李晏榮",
                 "name_en": "LI, YAN-RONG"
             },
             {
                 "name_zh": "姚鍾太",
                 "name_en": "YAO, CHUNG-TAY"
+            },
+            {
+                "name_zh": "曹心怡",
+                "name_en": "TSAO,SHIN-YI"
             },
             {
                 "name_zh": "全以祖",
@@ -169388,6 +169388,10 @@
             {
                 "name_zh": "劉之怡",
                 "name_en": "LIU, CHIH-YI"
+            },
+            {
+                "name_zh": "黃莉棋",
+                "name_en": "LI-CHI HUANG"
             },
             {
                 "name_zh": "段立珩",
@@ -169408,10 +169412,6 @@
             {
                 "name_zh": "黃千瑜",
                 "name_en": "HUANG, CHIEN-YU"
-            },
-            {
-                "name_zh": "曹心怡",
-                "name_en": "TSAO,SHIN-YI"
             }
         ],
         "meetings": [
@@ -169477,6 +169477,10 @@
                 "name_en": "HSIEH, YI-CHUNG"
             },
             {
+                "name_zh": "洪志聖",
+                "name_en": "HUNG, CHIH-SHENG"
+            },
+            {
                 "name_zh": "彭明德",
                 "name_en": "PERNG, MING-DER"
             },
@@ -169503,10 +169507,6 @@
             {
                 "name_zh": "黃千瑜",
                 "name_en": "HUANG, CHIEN-YU"
-            },
-            {
-                "name_zh": "洪志聖",
-                "name_en": "HUNG, CHIH-SHENG"
             },
             {
                 "name_zh": "陳益程",
@@ -169626,14 +169626,6 @@
                 "name_en": "HSIEH,CHENG-TA"
             },
             {
-                "name_zh": "馬艾美",
-                "name_en": "AMINA MOHAMED YUSEF ISA ILLIAS"
-            },
-            {
-                "name_zh": "沈士鈞",
-                "name_en": "SHEN, SHIH-JYUN"
-            },
-            {
                 "name_zh": "張君瑋",
                 "name_en": "CHANG, CHUN-WEI"
             },
@@ -169642,16 +169634,24 @@
                 "name_en": "HO, WEI-MIN"
             },
             {
-                "name_zh": "金韋志",
-                "name_en": "CHIN,WEI-CHIH"
-            },
-            {
                 "name_zh": "劉豐源",
                 "name_en": "LIU,FENG-YUAN"
             },
             {
                 "name_zh": "陳令儀",
                 "name_en": "CHEN, LINYI"
+            },
+            {
+                "name_zh": "馬艾美",
+                "name_en": "AMINA MOHAMED YUSEF ISA ILLIAS"
+            },
+            {
+                "name_zh": "沈士鈞",
+                "name_en": "SHEN, SHIH-JYUN"
+            },
+            {
+                "name_zh": "金韋志",
+                "name_en": "CHIN,WEI-CHIH"
             },
             {
                 "name_zh": "段立珩",
@@ -169736,10 +169736,6 @@
                 "name_en": "LIU, YI-SHIUAN"
             },
             {
-                "name_zh": "劉哲瑋",
-                "name_en": "CHE WEI LIU"
-            },
-            {
                 "name_zh": "林郁婷",
                 "name_en": "LIN, YU-TING"
             },
@@ -169754,6 +169750,10 @@
             {
                 "name_zh": "蒲啟明",
                 "name_en": "PU, CHI-MING"
+            },
+            {
+                "name_zh": "劉哲瑋",
+                "name_en": "CHE WEI LIU"
             },
             {
                 "name_zh": "段立珩",
@@ -170487,12 +170487,12 @@
                 "name_en": "LIN, CHIH-MING"
             },
             {
-                "name_zh": "金韋志",
-                "name_en": "CHIN,WEI-CHIH"
-            },
-            {
                 "name_zh": "王文弘",
                 "name_en": "WANG, WEN-HUNG"
+            },
+            {
+                "name_zh": "金韋志",
+                "name_en": "CHIN,WEI-CHIH"
             },
             {
                 "name_zh": "黃建銘",
@@ -170712,10 +170712,6 @@
                 "name_en": "HORNG, SHIH-YUAN"
             },
             {
-                "name_zh": "黃莉棋",
-                "name_en": "LI-CHI HUANG"
-            },
-            {
                 "name_zh": "李晏榮",
                 "name_en": "LI, YAN-RONG"
             },
@@ -170730,6 +170726,18 @@
             {
                 "name_zh": "謝彝中",
                 "name_en": "HSIEH, YI-CHUNG"
+            },
+            {
+                "name_zh": "洪志聖",
+                "name_en": "HUNG, CHIH-SHENG"
+            },
+            {
+                "name_zh": "顏銘佐",
+                "name_en": "YEN,MING-TSO"
+            },
+            {
+                "name_zh": "曹心怡",
+                "name_en": "TSAO,SHIN-YI"
             },
             {
                 "name_zh": "陳俊吉",
@@ -170764,6 +170772,10 @@
                 "name_en": "TSAI, TSUNG-YU"
             },
             {
+                "name_zh": "黃莉棋",
+                "name_en": "LI-CHI HUANG"
+            },
+            {
                 "name_zh": "林慶齡",
                 "name_en": "CHING-LING LIN"
             },
@@ -170776,28 +170788,8 @@
                 "name_en": "CHIA-TUNG WU"
             },
             {
-                "name_zh": "顏銘佐",
-                "name_en": "YEN,MING-TSO"
-            },
-            {
-                "name_zh": "曹心怡",
-                "name_en": "TSAO,SHIN-YI"
-            },
-            {
-                "name_zh": "洪志聖",
-                "name_en": "HUNG, CHIH-SHENG"
-            },
-            {
                 "name_zh": "黃啓宏",
                 "name_en": "HUANG CHI-HUNG"
-            },
-            {
-                "name_zh": "黃柏諺",
-                "name_en": "HUANG, PO-YEN"
-            },
-            {
-                "name_zh": "林育聖",
-                "name_en": "LIN YUSHENG"
             },
             {
                 "name_zh": "王智亮",
@@ -170810,6 +170802,14 @@
             {
                 "name_zh": "陳益程",
                 "name_en": "YI-CHENG CHEN"
+            },
+            {
+                "name_zh": "黃柏諺",
+                "name_en": "HUANG, PO-YEN"
+            },
+            {
+                "name_zh": "林育聖",
+                "name_en": "LIN YUSHENG"
             },
             {
                 "name_zh": "張克威",
@@ -170877,14 +170877,6 @@
                 "name_en": "TSAI-SHENG FU"
             },
             {
-                "name_zh": "劉哲瑋",
-                "name_en": "CHE WEI LIU"
-            },
-            {
-                "name_zh": "丁思雅",
-                "name_en": "TING, SZE-YA"
-            },
-            {
                 "name_zh": "吳怡成",
                 "name_en": "WU,YI-CHENG"
             },
@@ -170899,6 +170891,10 @@
             {
                 "name_zh": "李孟霖",
                 "name_en": "LEE, MENG-LIN"
+            },
+            {
+                "name_zh": "丁思雅",
+                "name_en": "TING, SZE-YA"
             },
             {
                 "name_zh": "范馨月",
@@ -170943,6 +170939,10 @@
             {
                 "name_zh": "蒲啟明",
                 "name_en": "PU, CHI-MING"
+            },
+            {
+                "name_zh": "劉哲瑋",
+                "name_en": "CHE WEI LIU"
             },
             {
                 "name_zh": "郭玟伶",
@@ -171103,6 +171103,10 @@
                 "name_en": "CHEN,CHIA-JUNG"
             },
             {
+                "name_zh": "張從彥",
+                "name_en": "CHANG, TSUNG-YEN"
+            },
+            {
                 "name_zh": "洪依利",
                 "name_en": "HUNG,YI-LI"
             },
@@ -171121,10 +171125,6 @@
             {
                 "name_zh": "張兆良",
                 "name_en": "CHANG, CHAW-LIANG"
-            },
-            {
-                "name_zh": "張從彥",
-                "name_en": "CHANG, TSUNG-YEN"
             },
             {
                 "name_zh": "黃啓宏",
@@ -171526,6 +171526,10 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "廖洺鋒",
                 "name_en": "LIAO MING-FENG"
             },
@@ -171544,10 +171548,6 @@
             {
                 "name_zh": "何偉民",
                 "name_en": "HO, WEI-MIN"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             }
         ],
         "meetings": [],
@@ -171591,6 +171591,10 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "阮仲豪",
                 "name_en": "JUAN,CHUNG-HAU"
             },
@@ -171605,10 +171609,6 @@
             {
                 "name_zh": "沈士鈞",
                 "name_en": "SHEN, SHIH-JYUN"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             }
         ],
         "meetings": [],
@@ -171652,6 +171652,10 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "莊文郁",
                 "name_en": "CHUANG, WEN-YU"
             },
@@ -171666,10 +171670,6 @@
             {
                 "name_zh": "陳泰廸",
                 "name_en": "CHEN, TAI-DI"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             }
         ],
         "meetings": [],
@@ -171713,16 +171713,16 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "謝佳訓",
                 "name_en": "HSIEH, CHIA-HSUN"
             },
             {
                 "name_zh": "溫瀅皓",
                 "name_en": "WEN, YING-HAO"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             }
         ],
         "meetings": [],
@@ -171766,6 +171766,10 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "盧俊瑋",
                 "name_en": "LU, CHUN-WEI"
             },
@@ -171780,10 +171784,6 @@
             {
                 "name_zh": "鄭煜彬",
                 "name_en": "YU-PIN CHENG"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             }
         ],
         "meetings": [],
@@ -171827,16 +171827,16 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "謝佳訓",
                 "name_en": "HSIEH, CHIA-HSUN"
             },
             {
                 "name_zh": "陳建宏",
                 "name_en": "CHEN, CHIEN-HUNG"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             }
         ],
         "meetings": [],
@@ -171880,16 +171880,16 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "謝佳訓",
                 "name_en": "HSIEH, CHIA-HSUN"
             },
             {
                 "name_zh": "劉豐源",
                 "name_en": "LIU,FENG-YUAN"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             },
             {
                 "name_zh": "陳世欣",
@@ -171937,20 +171937,20 @@
         "language_code": "zh",
         "lecturers": [
             {
-                "name_zh": "謝佳訓",
-                "name_en": "HSIEH, CHIA-HSUN"
-            },
-            {
-                "name_zh": "高偉恆",
-                "name_en": "KAO, WEI-HENG"
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
             },
             {
                 "name_zh": "粘心華",
                 "name_en": "NIEN, HSIN-HUA"
             },
             {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
+                "name_zh": "謝佳訓",
+                "name_en": "HSIEH, CHIA-HSUN"
+            },
+            {
+                "name_zh": "高偉恆",
+                "name_en": "KAO, WEI-HENG"
             }
         ],
         "meetings": [],
@@ -171994,6 +171994,10 @@
         "language_code": "zh",
         "lecturers": [
             {
+                "name_zh": "黃啓宏",
+                "name_en": "HUANG CHI-HUNG"
+            },
+            {
                 "name_zh": "謝佳訓",
                 "name_en": "HSIEH, CHIA-HSUN"
             },
@@ -172012,10 +172016,6 @@
             {
                 "name_zh": "陳正斌",
                 "name_en": "CHEN, CHENG-PIN"
-            },
-            {
-                "name_zh": "黃啓宏",
-                "name_en": "HUANG CHI-HUNG"
             }
         ],
         "meetings": [],
