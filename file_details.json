@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-28T10:19:31.475659+08:00",
+        "last_updated": "2026-10-28T12:17:57.257792+08:00",
         "name": "announcements.json",
-        "sha256": "37293a082b1f0f0e8a591b83314066b9ba77ded57960f7dbbecc52458cb76519",
-        "version": "37293a082b1f0f0e8a591b83314066b9ba77ded57960f7dbbecc52458cb76519"
+        "sha256": "d782acf0aa81a4793e48a0626632532dfeec5e2fa12da93ac7ade65e5872deb4",
+        "version": "d782acf0aa81a4793e48a0626632532dfeec5e2fa12da93ac7ade65e5872deb4"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -448,10 +448,10 @@
         "version": "3e78ca93f95c9b9279dd1ce277e45c9e81f1d59cccfbb24f8d0c948b54213ac3"
       },
       {
-        "last_updated": "2026-10-28T10:19:31.475659+08:00",
+        "last_updated": "2026-10-28T12:17:57.257792+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "cf51305980841e619fff315f75cda4400e0182b47b0d1f69b9e854e6f87a2abe",
-        "version": "cf51305980841e619fff315f75cda4400e0182b47b0d1f69b9e854e6f87a2abe"
+        "sha256": "c2b681aa88eefc9474f44089a19d783f2368608825e3dbbd4b90ab3526406134",
+        "version": "c2b681aa88eefc9474f44089a19d783f2368608825e3dbbd4b90ab3526406134"
       }
     ],
     "announcements/學務處生活輔導組(水木生活中心2樓)": [
@@ -642,10 +642,10 @@
         "version": "08a87b385d935f6a8e9c4ab920f3333c01bbd7576b8ce167336d162145345a3c"
       },
       {
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_updated": "2026-10-28T12:17:57.257792+08:00",
         "name": "News_CAMPUS News_en.json",
-        "sha256": "81e6c77a5411eec2deb33d1cbfb29b412cffe0ee75b60b1dcdc4a2e21942776b",
-        "version": "81e6c77a5411eec2deb33d1cbfb29b412cffe0ee75b60b1dcdc4a2e21942776b"
+        "sha256": "fece585e1edcb35d9ecab30e0b3575ebf9c3c451df2b05e04a375407fe2bffe1",
+        "version": "fece585e1edcb35d9ecab30e0b3575ebf9c3c451df2b05e04a375407fe2bffe1"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -846,10 +846,10 @@
         "version": "f0bbf96409405d437195aad00b144e18b34d9a59ee029a2191e7b219d581abcc"
       },
       {
-        "last_updated": "2026-10-15T10:25:10.526191+08:00",
+        "last_updated": "2026-10-28T12:17:57.257792+08:00",
         "name": "學士班最新公告_zh-tw.json",
-        "sha256": "cab360db6ec5600f153991c02900e9fc569f31388739fffd78ee12506d893ce7",
-        "version": "cab360db6ec5600f153991c02900e9fc569f31388739fffd78ee12506d893ce7"
+        "sha256": "0ee88e9e7ab54ff9b682644318bd0950ab03d3ef97b63f7c4dc76cbcee87f6bf",
+        "version": "0ee88e9e7ab54ff9b682644318bd0950ab03d3ef97b63f7c4dc76cbcee87f6bf"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1626,10 +1626,10 @@
         "version": "ff0356d4b14d64240137b95917bcc6ab7f939536b48cbbb6eb2ce04055c002a5"
       },
       {
-        "last_updated": "2026-10-14T16:25:49.196087+08:00",
+        "last_updated": "2026-10-28T12:17:57.257792+08:00",
         "name": "最新活動_zh-tw.json",
-        "sha256": "0e4deb6ba78deb21b30070601d0ee8d9679f5f0673c5be0ff170a53e66016923",
-        "version": "0e4deb6ba78deb21b30070601d0ee8d9679f5f0673c5be0ff170a53e66016923"
+        "sha256": "4c7d134ec1fed449d38674dd5646745306d9e4770906c50183f52bbd30e427cc",
+        "version": "4c7d134ec1fed449d38674dd5646745306d9e4770906c50183f52bbd30e427cc"
       },
       {
         "last_updated": "2026-10-12T14:48:56.559983+08:00",
@@ -1638,10 +1638,10 @@
         "version": "941d4b546a37a17726ab912f61b4d732d1586293499b9fdab53c8427af78dfb9"
       },
       {
-        "last_updated": "2026-10-14T16:25:49.196087+08:00",
+        "last_updated": "2026-10-28T12:17:57.257792+08:00",
         "name": "醫學系：新聞_zh-tw.json",
-        "sha256": "227e63c3e5b8bb8242922cc3dad24b4ad36f70cbab772c1684ec4bf9e823865b",
-        "version": "227e63c3e5b8bb8242922cc3dad24b4ad36f70cbab772c1684ec4bf9e823865b"
+        "sha256": "079a15c53e027d003baed7967766c7e6ac2bf2046020daa0c6ea11e0866aa969",
+        "version": "079a15c53e027d003baed7967766c7e6ac2bf2046020daa0c6ea11e0866aa969"
       }
     ],
     "announcements/生命科學暨醫學院精準醫療博士學位學程": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-28T10:19:31.475659+08:00"
+  "last_updated": "2026-10-28T12:17:57.257792+08:00"
 }
