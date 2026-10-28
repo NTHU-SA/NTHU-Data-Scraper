@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-28T16:19:09.145312+08:00",
+        "last_updated": "2026-10-28T18:14:28.725439+08:00",
         "name": "announcements.json",
-        "sha256": "11308a93f697a3460f2f78469bb435c590f83c0ee8675c3c97646efedb82130d",
-        "version": "11308a93f697a3460f2f78469bb435c590f83c0ee8675c3c97646efedb82130d"
+        "sha256": "5118cd9e823c1c9eaf78467058dd66e78fe3cb8a4e880d3873a21081aceb6a90",
+        "version": "5118cd9e823c1c9eaf78467058dd66e78fe3cb8a4e880d3873a21081aceb6a90"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-27T18:19:14.023608+08:00",
+        "last_updated": "2026-10-28T18:14:28.725439+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "aaaa6edd8930a032fb4a9e23f51263209cdd2d3b3ec68323c598f2ba2612467a",
-        "version": "aaaa6edd8930a032fb4a9e23f51263209cdd2d3b3ec68323c598f2ba2612467a"
+        "sha256": "b836f11d6341700a3d2163c2bcb29781d10718dbb34cc861a05c17a39dba446c",
+        "version": "b836f11d6341700a3d2163c2bcb29781d10718dbb34cc861a05c17a39dba446c"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -1152,10 +1152,10 @@
         "version": "0b3bd770e7db71a4ab4d5a8b9e00e4b379c93b77f4fe5af213e17f57cfeaf952"
       },
       {
-        "last_updated": "2026-10-28T16:19:09.145312+08:00",
+        "last_updated": "2026-10-28T18:14:28.725439+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "ecf673d8a5825c08f09cb2ed657700c699a7f55b90feaee90dbc85ab416a31c4",
-        "version": "ecf673d8a5825c08f09cb2ed657700c699a7f55b90feaee90dbc85ab416a31c4"
+        "sha256": "97050460ec9314468ceb753a84f79bc8e150dc0559ef28a25e0173af7c56a90d",
+        "version": "97050460ec9314468ceb753a84f79bc8e150dc0559ef28a25e0173af7c56a90d"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1204,10 +1204,10 @@
         "version": "16e646a4b7e1aa451353e732dadbec62928620909dc807aeb39b39b4af8fb709"
       },
       {
-        "last_updated": "2026-10-28T08:37:33.863987+08:00",
+        "last_updated": "2026-10-28T18:14:28.725439+08:00",
         "name": "學術活動_zh-tw.json",
-        "sha256": "2b37e4db2b3e15929a4d86781230c1d1dad18a37d17a2493148cfb6add241f63",
-        "version": "2b37e4db2b3e15929a4d86781230c1d1dad18a37d17a2493148cfb6add241f63"
+        "sha256": "fd019932eb36bbc99b6770b94dec836722206525d1a94f7f122118a6b6d988be",
+        "version": "fd019932eb36bbc99b6770b94dec836722206525d1a94f7f122118a6b6d988be"
       },
       {
         "last_updated": "2026-10-22T10:26:21.359745+08:00",
@@ -2546,10 +2546,10 @@
     ],
     "announcements/電機資訊學院電子工程研究所": [
       {
-        "last_updated": "2026-10-28T10:19:31.475659+08:00",
+        "last_updated": "2026-10-28T18:14:28.725439+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "3d39b1ee33a9d1fbd748d60b1d7a4fd74950514afe4e32b81177a27da6f3178a",
-        "version": "3d39b1ee33a9d1fbd748d60b1d7a4fd74950514afe4e32b81177a27da6f3178a"
+        "sha256": "2addb0932d383de41c9af0233ad8115f34b1a1c1598b9354836842217f3e9fec",
+        "version": "2addb0932d383de41c9af0233ad8115f34b1a1c1598b9354836842217f3e9fec"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-28T16:19:09.145312+08:00"
+  "last_updated": "2026-10-28T18:14:28.725439+08:00"
 }
