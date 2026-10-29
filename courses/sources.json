@@ -139,7 +139,7 @@
             "id": "latest",
             "url": "https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_course_data.json",
             "path": "raw/latest.json",
-            "sha256": "a8f986d39773b3a4b8fea5063075a8c3492eccb6f232c2b29b7be77b4d7dfd0f",
+            "sha256": "8c785a5b92d8db0085c32eb33d105ac56b6042a2613f72a22f51d19f6e8840c4",
             "format": "json",
             "sheets": [],
             "supplemental_sheets": [],
@@ -149,7 +149,7 @@
             ],
             "converted": {
                 "path": "raw/converted/latest.json",
-                "sha256": "77a62e5e98ad1fb83855e4d04d8fd7c8e14edd8997972adf20c53e15ba4dac82",
+                "sha256": "4be025baaf56c1bf199cf631b48fac3234cc61bca63f88b4e64206058691dcac",
                 "schema_version": 1
             }
         }
