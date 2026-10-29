@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-29T20:21:13.725660+08:00",
+        "last_updated": "2026-10-29T22:15:14.359780+08:00",
         "name": "announcements.json",
-        "sha256": "4baefd551c9002210da6a05f4088208bfb6973afb913a11b6455c19e7c8f495f",
-        "version": "4baefd551c9002210da6a05f4088208bfb6973afb913a11b6455c19e7c8f495f"
+        "sha256": "4e2cdf250b604ec684392ac9acdaa9de6c8bdd0c5b3ca3136e8802bd04d61c02",
+        "version": "4e2cdf250b604ec684392ac9acdaa9de6c8bdd0c5b3ca3136e8802bd04d61c02"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1830,10 +1830,10 @@
     ],
     "announcements/科技管理學院安富金融工程研究中心": [
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-29T22:15:14.359780+08:00",
         "name": "中心消息 News_zh-tw.json",
-        "sha256": "7fe91f31e34b8b1ce2578e270ebdab7009d502d65f7b190d75fc4d91157a400b",
-        "version": "7fe91f31e34b8b1ce2578e270ebdab7009d502d65f7b190d75fc4d91157a400b"
+        "sha256": "beff6dd54eaab7a9bf45e64ad7acc51ce5a2b6589ab46d4aa47af9008a0dc119",
+        "version": "beff6dd54eaab7a9bf45e64ad7acc51ce5a2b6589ab46d4aa47af9008a0dc119"
       }
     ],
     "announcements/秘書處性別平等教育委員會": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-29T20:21:13.725660+08:00"
+  "last_updated": "2026-10-29T22:15:14.359780+08:00"
 }
