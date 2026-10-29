@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-10-29T20:21:13.725660+08:00",
         "name": "announcements.json",
-        "sha256": "86e8da6fa64dc5312dca3c226c9ad0ff11da24c76912d043705edb9962207a65",
-        "version": "86e8da6fa64dc5312dca3c226c9ad0ff11da24c76912d043705edb9962207a65"
+        "sha256": "4baefd551c9002210da6a05f4088208bfb6973afb913a11b6455c19e7c8f495f",
+        "version": "4baefd551c9002210da6a05f4088208bfb6973afb913a11b6455c19e7c8f495f"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-10-29T20:21:13.725660+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "335929296330aaa761aa9a871bce466da6e4afc95b8fae663cbc65bad011ae0c",
-        "version": "335929296330aaa761aa9a871bce466da6e4afc95b8fae663cbc65bad011ae0c"
+        "sha256": "674b0723b0fddef24d705503d65718c5622d488024c2c83071c20b6fc0c396fb",
+        "version": "674b0723b0fddef24d705503d65718c5622d488024c2c83071c20b6fc0c396fb"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -572,10 +572,10 @@
         "version": "d31a4f0462f9a31a7c9ff85fa4a8f056eb4e4ca743c3c2f272f1c2d7d0102111"
       },
       {
-        "last_updated": "2026-10-29T16:18:52.118379+08:00",
+        "last_updated": "2026-10-29T20:21:13.725660+08:00",
         "name": "榮譽榜_zh-tw.json",
-        "sha256": "a8f10bfac742efb820960e9a109c4f87d674e5fcaed09b5b8e61beab48f6fd21",
-        "version": "a8f10bfac742efb820960e9a109c4f87d674e5fcaed09b5b8e61beab48f6fd21"
+        "sha256": "0e89eabdd0040c4d44a6bcf563182cac05eda192853cdaae0edb3b028d15d766",
+        "version": "0e89eabdd0040c4d44a6bcf563182cac05eda192853cdaae0edb3b028d15d766"
       }
     ],
     "announcements/工學院奈米工程與微系統研究所": [
@@ -784,10 +784,10 @@
         "version": "b87d326fbe1456dae961faa0712adc9aea1f9817a1ad9e6f49875a33b77916e9"
       },
       {
-        "last_updated": "2026-10-29T12:16:58.486236+08:00",
+        "last_updated": "2026-10-29T20:21:13.725660+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "9013902468cfbdf0d34c4f138cb0fae1e80a09e11ac4d8236f111ec299b40761",
-        "version": "9013902468cfbdf0d34c4f138cb0fae1e80a09e11ac4d8236f111ec299b40761"
+        "sha256": "25e76b36c8a31ff31c248c16483f62a869436ed666c8de83d532f520e2c6dc8a",
+        "version": "25e76b36c8a31ff31c248c16483f62a869436ed666c8de83d532f520e2c6dc8a"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -1990,10 +1990,10 @@
         "version": "a0035d155c29fa4a41091d83487d479e8062fcbe75a0fa1a526d9890897c5881"
       },
       {
-        "last_updated": "2026-10-27T10:26:50.593480+08:00",
+        "last_updated": "2026-10-29T20:21:13.725660+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "f2f598b927c2fd7e5485cfa5843f6f20512f0da883ddaecc52b11aca80a302d5",
-        "version": "f2f598b927c2fd7e5485cfa5843f6f20512f0da883ddaecc52b11aca80a302d5"
+        "sha256": "5e01948265b83441403e2ddfbec85ec9adb26dd4294331b3f573bf24138f6f88",
+        "version": "5e01948265b83441403e2ddfbec85ec9adb26dd4294331b3f573bf24138f6f88"
       }
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-29T18:14:27.836998+08:00"
+  "last_updated": "2026-10-29T20:21:13.725660+08:00"
 }
