@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-29T00:15:47.678355+08:00",
+        "last_updated": "2026-10-29T08:36:33.283153+08:00",
         "name": "announcements.json",
-        "sha256": "556c2b8c8ceabd09f8ab8a833ce4d15cbe7dfc5193af00e8d173f79cf3565485",
-        "version": "556c2b8c8ceabd09f8ab8a833ce4d15cbe7dfc5193af00e8d173f79cf3565485"
+        "sha256": "cdc742c81445b4060223eb2424f843e25f7644dab5be43dc88a0e7d13488e952",
+        "version": "cdc742c81445b4060223eb2424f843e25f7644dab5be43dc88a0e7d13488e952"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -622,10 +622,10 @@
         "version": "8562341ea4ccf25746b62c10b5fce238ba299d66015e3b50c552d6f09b2af6fe"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-29T08:36:33.283153+08:00",
         "name": "碩博士考生資訊_zh-tw.json",
-        "sha256": "34b14c189c58d580015ff123fb9eab461950fa180a3247a44d40c20d48034488",
-        "version": "34b14c189c58d580015ff123fb9eab461950fa180a3247a44d40c20d48034488"
+        "sha256": "230b3af51dd39c570f7cc477b8b165833d5f954d7f6d921cb879b4861d74edd5",
+        "version": "230b3af51dd39c570f7cc477b8b165833d5f954d7f6d921cb879b4861d74edd5"
       },
       {
         "last_updated": "2026-10-09T04:20:53.303507+08:00",
@@ -858,10 +858,10 @@
         "version": "97042a3438ea27e2b54b0a11354abf617426b6d0678d5b7635ab716718497fae"
       },
       {
-        "last_updated": "2026-10-22T10:26:21.359745+08:00",
+        "last_updated": "2026-10-29T08:36:33.283153+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "08a11f298616b819063f735998dc13503cadd25c2b5683bdaaa4b9637a19d481",
-        "version": "08a11f298616b819063f735998dc13503cadd25c2b5683bdaaa4b9637a19d481"
+        "sha256": "341422d02da59e3efe4178199c64b5b9a9463f40a0dd8e85f80e22bf878fc1e7",
+        "version": "341422d02da59e3efe4178199c64b5b9a9463f40a0dd8e85f80e22bf878fc1e7"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -988,10 +988,10 @@
     ],
     "announcements/教務處綜合教務組": [
       {
-        "last_updated": "2026-10-02T08:52:38.725650+08:00",
+        "last_updated": "2026-10-29T08:36:33.283153+08:00",
         "name": "訊息公告_zh-tw.json",
-        "sha256": "2bf49a07039076f59845b78fed5841db42c45dbfcbb946557cc62b1992586674",
-        "version": "2bf49a07039076f59845b78fed5841db42c45dbfcbb946557cc62b1992586674"
+        "sha256": "fc416ea2f1a5bd4ca9bbf56061248b3432160fcac6a37861e2d120bca85baa74",
+        "version": "fc416ea2f1a5bd4ca9bbf56061248b3432160fcac6a37861e2d120bca85baa74"
       }
     ],
     "announcements/教務處英語教學精進中心": [
@@ -1334,10 +1334,10 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_updated": "2026-10-27T16:25:59.671520+08:00",
+        "last_updated": "2026-10-29T08:36:33.283153+08:00",
         "name": "中心最新消息_zh-tw.json",
-        "sha256": "5e6ff2073e4dddcaaf52134225861018b48bc74c4e9658f22484d6aa30f91b07",
-        "version": "5e6ff2073e4dddcaaf52134225861018b48bc74c4e9658f22484d6aa30f91b07"
+        "sha256": "f5c54c485629ef08908527fd945318cf7a22c6cae4e59a16a3401b62ff3d2480",
+        "version": "f5c54c485629ef08908527fd945318cf7a22c6cae4e59a16a3401b62ff3d2480"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-29T06:13:20.968411+08:00"
+  "last_updated": "2026-10-29T08:36:33.283153+08:00"
 }
