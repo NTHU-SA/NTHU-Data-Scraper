@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-29T16:18:52.118379+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "announcements.json",
-        "sha256": "c7a0dcc647cea219141f0d999d81dc849ec8b197af2bd9d94492915180b61e83",
-        "version": "c7a0dcc647cea219141f0d999d81dc849ec8b197af2bd9d94492915180b61e83"
+        "sha256": "86e8da6fa64dc5312dca3c226c9ad0ff11da24c76912d043705edb9962207a65",
+        "version": "86e8da6fa64dc5312dca3c226c9ad0ff11da24c76912d043705edb9962207a65"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-29T14:23:35.823007+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "459e33ccfbe24f28f0d80ab6930492a0f6aa705124924bb3003e0b7fee4988fd",
-        "version": "459e33ccfbe24f28f0d80ab6930492a0f6aa705124924bb3003e0b7fee4988fd"
+        "sha256": "335929296330aaa761aa9a871bce466da6e4afc95b8fae663cbc65bad011ae0c",
+        "version": "335929296330aaa761aa9a871bce466da6e4afc95b8fae663cbc65bad011ae0c"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -622,16 +622,16 @@
         "version": "8562341ea4ccf25746b62c10b5fce238ba299d66015e3b50c552d6f09b2af6fe"
       },
       {
-        "last_updated": "2026-10-29T08:36:33.283153+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "碩博士考生資訊_zh-tw.json",
-        "sha256": "230b3af51dd39c570f7cc477b8b165833d5f954d7f6d921cb879b4861d74edd5",
-        "version": "230b3af51dd39c570f7cc477b8b165833d5f954d7f6d921cb879b4861d74edd5"
+        "sha256": "bd38c62aa949ee6ec2e113cba7bd8b2d25c8d29dd6535bda9701eb89ef464635",
+        "version": "bd38c62aa949ee6ec2e113cba7bd8b2d25c8d29dd6535bda9701eb89ef464635"
       },
       {
-        "last_updated": "2026-10-09T04:20:53.303507+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "89497e6bbac3f00d870f1687e46be2ed587981fb614ba9825d44dcbaf66da142",
-        "version": "89497e6bbac3f00d870f1687e46be2ed587981fb614ba9825d44dcbaf66da142"
+        "sha256": "cd88486af7cf4891d03acf6d35de7b3743bd934d10268be1058900005d0fea80",
+        "version": "cd88486af7cf4891d03acf6d35de7b3743bd934d10268be1058900005d0fea80"
       }
     ],
     "announcements/工學院工學院學士班": [
@@ -1100,10 +1100,10 @@
         "version": "f38777f4edc8c1bd5a02969c08cd0beb8f3023e26da4ff286e821e8b369e3c9d"
       },
       {
-        "last_updated": "2026-10-29T16:18:52.118379+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "招生訊息_zh-tw.json",
-        "sha256": "e6df6905c3b7e4139d5741ade34f80461cabf464ea6ce04e9111347eabc0d880",
-        "version": "e6df6905c3b7e4139d5741ade34f80461cabf464ea6ce04e9111347eabc0d880"
+        "sha256": "a9ddd9846afb6717fc0f4cc3249755ca9849063915dac49edbc5792fb9889387",
+        "version": "a9ddd9846afb6717fc0f4cc3249755ca9849063915dac49edbc5792fb9889387"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1500,10 +1500,10 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_updated": "2026-10-11T22:18:14.043682+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "Latest News_en.json",
-        "sha256": "ef36dce11c4cc5516a6e8ccf460ee43e499eaf4808b39d594a537c5f5a899dba",
-        "version": "ef36dce11c4cc5516a6e8ccf460ee43e499eaf4808b39d594a537c5f5a899dba"
+        "sha256": "95ef6f0f1cc1d1465f777ce46abdf59469ee4849ebd19422cbafb9a3b2eec5bf",
+        "version": "95ef6f0f1cc1d1465f777ce46abdf59469ee4849ebd19422cbafb9a3b2eec5bf"
       },
       {
         "last_updated": "2026-10-29T16:18:52.118379+08:00",
@@ -1512,16 +1512,16 @@
         "version": "a7aa1e36ddbe7ce47f374beb02c551cf00baa546e06681fbdd0d464e7ab319e3"
       },
       {
-        "last_updated": "2026-10-11T22:18:14.043682+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "banner_en.json",
-        "sha256": "685126ee077828dd3cec77095fef284f9bcec00069292a9b08459144d33b7342",
-        "version": "685126ee077828dd3cec77095fef284f9bcec00069292a9b08459144d33b7342"
+        "sha256": "6f903fa321bdc29474968ec7f7c8b0aab955b878902cb8554f91201eca2c8fe2",
+        "version": "6f903fa321bdc29474968ec7f7c8b0aab955b878902cb8554f91201eca2c8fe2"
       },
       {
-        "last_updated": "2026-10-20T02:23:48.521355+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "ed67c12f6ae05900bece32ac2a65be1ca24b5d1d42c82ea388ed3e858d77e8ec",
-        "version": "ed67c12f6ae05900bece32ac2a65be1ca24b5d1d42c82ea388ed3e858d77e8ec"
+        "sha256": "3028ca09fa26236e07fe180c42a6d1be47145f1f1678bbcf8f25853b4ce93cca",
+        "version": "3028ca09fa26236e07fe180c42a6d1be47145f1f1678bbcf8f25853b4ce93cca"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1542,10 +1542,10 @@
         "version": "d824ff452403cba4271e7f03f3f5bf4d31928b9f8588aabda5196f1b00132822"
       },
       {
-        "last_updated": "2026-10-20T02:23:48.521355+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "f23f273a2ca83923b20124f1f6a6659052568ff563ca800788cb84152f1718ff",
-        "version": "f23f273a2ca83923b20124f1f6a6659052568ff563ca800788cb84152f1718ff"
+        "sha256": "3e3c2cbfd4418d5ca31e79dad52a284535fbb2900c6893205709e02db25411b0",
+        "version": "3e3c2cbfd4418d5ca31e79dad52a284535fbb2900c6893205709e02db25411b0"
       }
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
@@ -1576,16 +1576,16 @@
     ],
     "announcements/生命科學暨醫學院分子醫學研究所": [
       {
-        "last_updated": "2026-10-03T02:54:31.558374+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "banner_en.json",
-        "sha256": "2c46eca6c6bac4c558474418f1adc504ea94b07c99b9f94f3ddd77437db7782a",
-        "version": "2c46eca6c6bac4c558474418f1adc504ea94b07c99b9f94f3ddd77437db7782a"
+        "sha256": "ff952220cb62fe23b0291f4932bd8ce7184970a1d4feb2869f2be8da4b91ea75",
+        "version": "ff952220cb62fe23b0291f4932bd8ce7184970a1d4feb2869f2be8da4b91ea75"
       },
       {
-        "last_updated": "2026-10-03T04:19:05.311821+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "0f9e54c36c99a194a9daf785e3d627fd72c3d5a87f88ca1a4843eae827d8bbcc",
-        "version": "0f9e54c36c99a194a9daf785e3d627fd72c3d5a87f88ca1a4843eae827d8bbcc"
+        "sha256": "3ad2bcfbb5873a74c5c8d5bf8c926b6e2ed115e9dadb931a932affcf05d39dcb",
+        "version": "3ad2bcfbb5873a74c5c8d5bf8c926b6e2ed115e9dadb931a932affcf05d39dcb"
       },
       {
         "last_updated": "2026-09-29T14:33:58.340569+08:00",
@@ -1660,10 +1660,10 @@
     ],
     "announcements/生命科學暨醫學院系統神經科學研究所": [
       {
-        "last_updated": "2026-10-03T04:19:05.311821+08:00",
+        "last_updated": "2026-10-29T18:14:27.836998+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "c4129f721ddf8d6880bcdc614233efcabfdbbfef1e5ae529ab5cf58508b6d006",
-        "version": "c4129f721ddf8d6880bcdc614233efcabfdbbfef1e5ae529ab5cf58508b6d006"
+        "sha256": "6b5ad1a8f825ee06cdef5b7d43adaaff69f83a314385b37b3aeb215d79e8428e",
+        "version": "6b5ad1a8f825ee06cdef5b7d43adaaff69f83a314385b37b3aeb215d79e8428e"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-29T16:18:52.118379+08:00"
+  "last_updated": "2026-10-29T18:14:27.836998+08:00"
 }
