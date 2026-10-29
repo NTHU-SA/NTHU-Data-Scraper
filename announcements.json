@@ -532,7 +532,7 @@
         "department": "教務處招生策略中心",
         "articles": [
             {
-                "title": "台灣聯合大學系統 116學年度碩士班招生公告(招生簡章預計於 115 年 10 月 30 日開放下載，不販售紙本簡章)",
+                "title": "台灣聯合大學系統 116學年度碩士班招生公告(招生簡章預計於10 月 30 日下午三點開放下載，不販售紙本簡章)",
                 "link": "https://adms.site.nthu.edu.tw/p/450-1207-317112,c0.php?Lang=zh-tw",
                 "date": "2026-10-29"
             },
@@ -612,11 +612,6 @@
                 "date": "2026-06-30"
             },
             {
-                "title": "115碩士班延長繳交畢業證書注意事項(切結書下載)",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-303629,r323.php?Lang=zh-tw",
-                "date": "2026-06-29"
-            },
-            {
                 "title": "115學年度碩士班考試第16次備取遞補名單(含報到須知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-311100,r323.php?Lang=zh-tw",
                 "date": "2026-06-29"
@@ -630,6 +625,11 @@
                 "title": "台聯大系統115學年度碩士班招生 第13次備取遞補名單 (含報到須知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-310731,r323.php?Lang=zh-tw",
                 "date": "2026-06-23"
+            },
+            {
+                "title": "115學年度碩士班考試第14次備取遞補名單(含報到須知)",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-310427,r323.php?Lang=zh-tw",
+                "date": "2026-06-16"
             }
         ]
     },
@@ -2483,6 +2483,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】師培中心實習輔導組誠徵行政組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-317131,r5075.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
+            {
                 "title": "誠徵 國立清華大學 國際產學營運總中心 產企組 計畫助理/專員",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-289862,r5075.php?Lang=zh-tw",
                 "date": "2026-10-28"
@@ -2536,11 +2541,6 @@
                 "title": "羅技UI/UX設計師全年實習機會🚀",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-316828,c0.php?Lang=zh-tw",
                 "date": "2026-10-21"
-            },
-            {
-                "title": "🪂11/12履歷撰寫/口試面談實作《迎向AI時代：提前打造你的職業品牌》講座",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-316827,c0.php?Lang=zh-tw",
-                "date": "2026-10-21"
             }
         ]
     },
@@ -2550,6 +2550,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】師培中心實習輔導組誠徵行政組員1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-317131,r5081.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
             {
                 "title": "【徵才】清華大學 國際產學營運總中心智財技轉組 專利技轉助理計畫人員",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-176967,r5081.php?Lang=zh-tw",
@@ -2604,11 +2609,6 @@
                 "title": "【徵才】國立清華大學原住民族科學發展中心誠徵專任計畫助理1名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-311441,r5081.php?Lang=zh-tw",
                 "date": "2026-10-12"
-            },
-            {
-                "title": "【徵才】國立清華大學電機工程學系誠徵校聘技術組員1名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-310890,r5081.php?Lang=zh-tw",
-                "date": "2026-10-08"
             }
         ]
     },
@@ -3783,6 +3783,11 @@
                 "date": ""
             },
             {
+                "title": "師培中心實習輔導組誠徵行政組員1名",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-317130,r157.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【轉知】國立臺中教育大學辦理「教育部115-116年全國語文競賽之臺灣台語朗讀文章徵稿暨修審工作計畫」寫作人才培訓營計畫",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-317015,r157.php?Lang=zh-tw",
                 "date": ""
@@ -3826,11 +3831,6 @@
                 "title": "【轉知】財團法人人本教育文教基金會來函",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-315714,r157.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【轉知】財團法人天下雜誌教育基金會舉辦「2026國際閱讀教育論壇」",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-315712,r157.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -3840,6 +3840,11 @@
         "language": "zh-tw",
         "department": "師資培育中心",
         "articles": [
+            {
+                "title": "師培中心實習輔導組誠徵行政組員1名",
+                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-317130,r48.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
             {
                 "title": "115學年師資生 AIPACK 教案設計暨教學演示檢定~11/29(日)16:00前報名",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-317062,r48.php?Lang=zh-tw",
@@ -3884,11 +3889,6 @@
                 "title": "師培中心115學年度上學期教檢系列工作坊，歡迎轉知並踴躍參加",
                 "link": "https://cfte.site.nthu.edu.tw/p/406-1275-314550,r48.php?Lang=zh-tw",
                 "date": "2026-09-15"
-            },
-            {
-                "title": "「看見教學的力量」影片創作競賽得獎名單公告",
-                "link": "https://cfte.site.nthu.edu.tw/p/406-1275-314590,r48.php?Lang=zh-tw",
-                "date": "2026-09-18"
             }
         ]
     },
@@ -5315,6 +5315,11 @@
                 "date": ""
             },
             {
+                "title": "【活動公告】台積電2026設備工程師專場說明會報名開始了~",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-317129,r11272.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【活動公告】歡迎報名研華科技 11/26（四）企業參訪活動",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-317128,r11272.php?Lang=zh-tw",
                 "date": ""
@@ -5802,11 +5807,6 @@
             {
                 "title": "【姊妹校交換申請計畫】2026秋2027春赴海外交換計畫開放申請(不含陸、港、澳)開放申請至9/30(二)中午前繳交申請件至院辦",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-294745,r11272.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【活動公告】聯電2025年「燃燒系列講座」第三彈磅礡登場！點燃你的研發力《揭開半導體面紗》！報名至2025/9/12(五) 17:00 (額滿提前截止)",
-                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-294269,r11272.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -18336,6 +18336,11 @@
         "department": "生命科學暨醫學院醫學資訊碩士學位學程",
         "articles": [
             {
+                "title": "116學年度醫學資訊碩士學位學程碩士班甄試初試通過名單",
+                "link": "https://mpmi.site.nthu.edu.tw/p/406-1606-317134,r10923.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "招生公告_116學年度碩、博士班甄試簡章",
                 "link": "https://mpmi.site.nthu.edu.tw/p/450-1606-314649,c0.php?Lang=zh-tw",
                 "date": ""
@@ -18388,11 +18393,6 @@
             {
                 "title": "國立清華大學115學年度碩、博士班甄試 報名",
                 "link": "https://mpmi.site.nthu.edu.tw/p/450-1606-297047,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "國立清華大學115學年度碩、博士班甄試 招生公告",
-                "link": "https://mpmi.site.nthu.edu.tw/p/450-1606-297046,c0.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -21812,6 +21812,16 @@
                 "date": "2026-10-29"
             },
             {
+                "title": "【李亦園院士榮譽講座】從海底化石追尋冰河時期的台灣——用台灣的標本，述說世界級的演化故事",
+                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-317135,r6160.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
+            {
+                "title": "2026 法國年度思想盛會 Night of Ideas「思辨之夜」",
+                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-317132,r6160.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
+            {
                 "title": "【天下書院】亡靈之旅",
                 "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-317027,r6160.php?Lang=zh-tw",
                 "date": "2026-10-28"
@@ -21870,16 +21880,6 @@
                 "title": "【清華書院】2026第二階段錄取名單",
                 "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-313153,r6160.php?Lang=zh-tw",
                 "date": "2026-08-18"
-            },
-            {
-                "title": "【歡迎報名】新任院長座談會 8/6(四) 11:30 @實齋講堂",
-                "link": "https://rcollege.site.nthu.edu.tw/p/450-1103-312500,c0.php?Lang=zh-tw",
-                "date": "2026-08-03"
-            },
-            {
-                "title": "【新生招募】2026書院招生 第二階段申請 8/3 (一) 中午12時～8/18 (二) 上午10時",
-                "link": "https://rcollege.site.nthu.edu.tw/p/406-1103-312165,r6160.php?Lang=zh-tw",
-                "date": "2026-07-24"
             }
         ]
     },
@@ -23486,6 +23486,16 @@
         "department": "人文社會學院華文文學研究所",
         "articles": [
             {
+                "title": "【演講公告】11/3(二)14:20 胡長松處長（台灣大哥大電信公司處長暨第38屆吳三連獎文學獎得主）於文學館302演講，講題：AI kah 台語文學ê新路線 [全台語演講]",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-317142,r6386.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【演講公告】11/4(三)10:00-12:00 張金蘭教授（國立臺北教育大學語文與創作學系）於文學館303演講，講題：研究生．不迷路：華語教學研究的選題與方法",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-317140,r6386.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【研討會報名暨議程公告】2026/11/13-14 知識、文化、信仰的交織與共融： 2026年第七屆竹塹學暨《竹塹文獻》三十週年國際學術研討會，歡迎踴躍報名～",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-316708,r6386.php?Lang=zh-tw",
                 "date": ""
@@ -23534,16 +23544,6 @@
                 "title": "【榮譽榜】恭賀本所尹翼龍同學正取陽明交通大學社會與文化研究所博士班！",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-312496,r6386.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【2026夏季名家線上講座】第九場7/12(日)翁聖峰教授：台灣古典文學的特色與鑑賞方法——以台灣竹枝詞及新舊文學論爭為例",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-311464,r6386.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【榮譽榜】恭賀本所游騰達教授榮任所長！！",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-310819,r6386.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -23553,6 +23553,16 @@
         "language": "zh-tw",
         "department": "人文社會學院華文文學研究所",
         "articles": [
+            {
+                "title": "【演講公告】11/3(二)14:20 胡長松處長（台灣大哥大電信公司處長暨第38屆吳三連獎文學獎得主）於文學館302演講，講題：AI kah 台語文學ê新路線 [全台語演講]",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-317142,r6387.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【演講公告】11/4(三)10:00-12:00 張金蘭教授（國立臺北教育大學語文與創作學系）於文學館303演講，講題：研究生．不迷路：華語教學研究的選題與方法",
+                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-317140,r6387.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "【研討會報名暨議程公告】2026/11/13-14 知識、文化、信仰的交織與共融： 2026年第七屆竹塹學暨《竹塹文獻》三十週年國際學術研討會，歡迎踴躍報名～",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-316708,r6387.php?Lang=zh-tw",
@@ -23601,16 +23611,6 @@
             {
                 "title": "【2026夏季名家線上講座】第七場6/21(日)林豪鏘教授：Writing is Coding：從內容生成到高難度多模態AI影片密技",
                 "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-310432,r6387.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【2026夏季名家線上講座】第六場6/14(日)平路老師：從旅行說起～人生的叛逆、探索與抵達",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-310817,r6387.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【研討會報名及議程公告】2026年第十五屆國立清華大學、國立屏東大學、臺北市立大學、國立臺東大學四校中國語文學系、華語文學系研究生論文聯合發表會",
-                "link": "https://sinophone.site.nthu.edu.tw/p/406-1408-309849,r6387.php?Lang=zh-tw",
                 "date": ""
             }
         ]
