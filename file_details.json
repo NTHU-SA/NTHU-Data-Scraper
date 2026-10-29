@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-29T08:36:33.283153+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "announcements.json",
-        "sha256": "cdc742c81445b4060223eb2424f843e25f7644dab5be43dc88a0e7d13488e952",
-        "version": "cdc742c81445b4060223eb2424f843e25f7644dab5be43dc88a0e7d13488e952"
+        "sha256": "e582cf0612afddcd90e77ce549f7a67d780eb479c0faa4760b7054e4a440da38",
+        "version": "e582cf0612afddcd90e77ce549f7a67d780eb479c0faa4760b7054e4a440da38"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-28T10:19:31.475659+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "dining.json",
-        "sha256": "34fe26d7f54006cff1c71a26497ee2799671dc3c4bf4f569fbe9b41e1b5c6849",
-        "version": "34fe26d7f54006cff1c71a26497ee2799671dc3c4bf4f569fbe9b41e1b5c6849"
+        "sha256": "014e98cfeed8ccf13ae6c096874b3af29894f630365885bea80ead60e6f5a146",
+        "version": "014e98cfeed8ccf13ae6c096874b3af29894f630365885bea80ead60e6f5a146"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -72,10 +72,10 @@
     ],
     "announcements/人事室": [
       {
-        "last_updated": "2026-10-28T00:16:30.364668+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "14dabc9974f38a326cfe8ac66522c462fb1bb0afbb33fde7c2f164da7a0cdf25",
-        "version": "14dabc9974f38a326cfe8ac66522c462fb1bb0afbb33fde7c2f164da7a0cdf25"
+        "sha256": "8be4414c7faa9abeadfb74857e60fea885d0a1a04a15066d541fccbb689b0ebb",
+        "version": "8be4414c7faa9abeadfb74857e60fea885d0a1a04a15066d541fccbb689b0ebb"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -226,10 +226,10 @@
         "version": "98ba1b43567c65767b6e0105a80ddae9044ca88738a4820a55b4b996279095cb"
       },
       {
-        "last_updated": "2026-10-28T10:19:31.475659+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "50a6a7654294fcff962c78384014f330ed48162417a9a20abe584f6713242bd3",
-        "version": "50a6a7654294fcff962c78384014f330ed48162417a9a20abe584f6713242bd3"
+        "sha256": "1409d8e49e08833873ef140e5873aba3de11d4418e74f0b214e10e461165c949",
+        "version": "1409d8e49e08833873ef140e5873aba3de11d4418e74f0b214e10e461165c949"
       },
       {
         "last_updated": "2026-10-27T12:21:26.215711+08:00",
@@ -258,10 +258,10 @@
         "version": "0e0ae838fdfb5ccfb7e52023e582ce5f40145d72364df6085d7b3bcff8726bcc"
       },
       {
-        "last_updated": "2026-10-09T00:23:13.415487+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "3b3c6d490b45dff3864816df941e235158fff334ba0f7bed370b59922a5a182e",
-        "version": "3b3c6d490b45dff3864816df941e235158fff334ba0f7bed370b59922a5a182e"
+        "sha256": "dcb88eccfa6402c273177bf88bdd5c6468fa1299137da96bae89afc424cb2d2f",
+        "version": "dcb88eccfa6402c273177bf88bdd5c6468fa1299137da96bae89afc424cb2d2f"
       }
     ],
     "announcements/合校停招系所聯合辦事處（教務處支援）": [
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-10-28T18:14:28.725439+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "b836f11d6341700a3d2163c2bcb29781d10718dbb34cc861a05c17a39dba446c",
-        "version": "b836f11d6341700a3d2163c2bcb29781d10718dbb34cc861a05c17a39dba446c"
+        "sha256": "fda65abb5c8bd4768eadc3bb6ef77feba12ae61b572df4e2cdfc25649da3be20",
+        "version": "fda65abb5c8bd4768eadc3bb6ef77feba12ae61b572df4e2cdfc25649da3be20"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -764,10 +764,10 @@
         "version": "28c25f40eb87f764ebe704096b716b34f24ca31c475c4c6582a6c1d1df79c068"
       },
       {
-        "last_updated": "2026-10-15T10:25:10.526191+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "演講公告_zh-tw.json",
-        "sha256": "ed8ad4d593d4536e79b5c9341aebc99dfad768f0100fe01df245f28b9d23cc44",
-        "version": "ed8ad4d593d4536e79b5c9341aebc99dfad768f0100fe01df245f28b9d23cc44"
+        "sha256": "72d83c5bba6e98221b6494decb82283a28bf17abd9e330760dac9ec14294a825",
+        "version": "72d83c5bba6e98221b6494decb82283a28bf17abd9e330760dac9ec14294a825"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1268,10 +1268,10 @@
         "version": "f2a1a3724d832cb3b96430d7c8fa7e3ae551cda642b1b2b2f2cf30cd5579e934"
       },
       {
-        "last_updated": "2026-10-28T10:19:31.475659+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "e092d75d88669c8f239bde3fb9d927d810cec2e2b2c6e947f0693286b8005111",
-        "version": "e092d75d88669c8f239bde3fb9d927d810cec2e2b2c6e947f0693286b8005111"
+        "sha256": "d96cfb798ec04c0c3924c4c1c3e96f24ef5336d4833a7bea49b3e1b516c0a0d8",
+        "version": "d96cfb798ec04c0c3924c4c1c3e96f24ef5336d4833a7bea49b3e1b516c0a0d8"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1334,10 +1334,10 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_updated": "2026-10-29T08:36:33.283153+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "中心最新消息_zh-tw.json",
-        "sha256": "f5c54c485629ef08908527fd945318cf7a22c6cae4e59a16a3401b62ff3d2480",
-        "version": "f5c54c485629ef08908527fd945318cf7a22c6cae4e59a16a3401b62ff3d2480"
+        "sha256": "0a7fe71a81942106c29f0a37dc86031e719c8c2f296ff1b0bdd4f6b484254313",
+        "version": "0a7fe71a81942106c29f0a37dc86031e719c8c2f296ff1b0bdd4f6b484254313"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1392,10 +1392,10 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_updated": "2026-10-25T16:22:19.702436+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "75270518b3d6535def19dcee24432b94c8f525465c637f66dd863636c0053228",
-        "version": "75270518b3d6535def19dcee24432b94c8f525465c637f66dd863636c0053228"
+        "sha256": "0e8da0ed221657a1fa319a344468fb1c89334c6880ba2261e44d4448caa39509",
+        "version": "0e8da0ed221657a1fa319a344468fb1c89334c6880ba2261e44d4448caa39509"
       }
     ],
     "announcements/理學院物理學系": [
@@ -1696,10 +1696,10 @@
     ],
     "announcements/研究發展處當代中國研究中心": [
       {
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "e570fe21cb817140eee60fedda1cebdb15b0b101865c83729e8d9007ab7e9848",
-        "version": "e570fe21cb817140eee60fedda1cebdb15b0b101865c83729e8d9007ab7e9848"
+        "sha256": "ee9260b4a158dc90762b445085b81249632e93c9d4ea4ffc17c4fbe057c8e6f6",
+        "version": "ee9260b4a158dc90762b445085b81249632e93c9d4ea4ffc17c4fbe057c8e6f6"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-10-29T00:15:47.678355+08:00",
+        "last_updated": "2026-10-29T10:19:55.363998+08:00",
         "name": "rss.json",
-        "sha256": "2f66edb4bfa62ba175673dede0085af60d366d4f35ef4edb5921fac3845e1c6d",
-        "version": "2f66edb4bfa62ba175673dede0085af60d366d4f35ef4edb5921fac3845e1c6d"
+        "sha256": "0443400cf18e32037885353e385e3677f0f18dc6a242b420ed2661fbc3bd7c73",
+        "version": "0443400cf18e32037885353e385e3677f0f18dc6a242b420ed2661fbc3bd7c73"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-29T08:36:33.283153+08:00"
+  "last_updated": "2026-10-29T10:19:55.363998+08:00"
 }
