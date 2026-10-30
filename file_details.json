@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-30T18:14:32.000675+08:00",
+        "last_updated": "2026-10-30T20:21:00.227308+08:00",
         "name": "announcements.json",
-        "sha256": "1566daf4abccee1dfe6e5b9382161830e95aa517186575f3d8f3a6cc3c3cd975",
-        "version": "1566daf4abccee1dfe6e5b9382161830e95aa517186575f3d8f3a6cc3c3cd975"
+        "sha256": "64d040857df4b7c9bb3f047f730263e063d81d2b5287846ad9ee0557ca8a63f4",
+        "version": "64d040857df4b7c9bb3f047f730263e063d81d2b5287846ad9ee0557ca8a63f4"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1878,10 +1878,10 @@
         "version": "4e9b70a2bdd4bb6cfd574fdafa035dba72e70d43c30cab72628283f6a48221cf"
       },
       {
-        "last_updated": "2026-10-30T18:14:32.000675+08:00",
+        "last_updated": "2026-10-30T20:21:00.227308+08:00",
         "name": "學院公告 Announcement_zh-tw.json",
-        "sha256": "2bd8baa7852dffdfa56c89c2e712c4463e8cfbab1f1fec520625e4f8967f3c34",
-        "version": "2bd8baa7852dffdfa56c89c2e712c4463e8cfbab1f1fec520625e4f8967f3c34"
+        "sha256": "15b3732b4d59059c784bd70786419a76bcbbd2ba312e8ed2aa674607689b308e",
+        "version": "15b3732b4d59059c784bd70786419a76bcbbd2ba312e8ed2aa674607689b308e"
       },
       {
         "last_updated": "2026-10-29T14:23:35.823007+08:00",
@@ -1890,16 +1890,16 @@
         "version": "0f35a1e8c911bdd955bb86354c276c76351425cbff9a00d4174f199f022208a0"
       },
       {
-        "last_updated": "2026-10-30T18:14:32.000675+08:00",
+        "last_updated": "2026-10-30T20:21:00.227308+08:00",
         "name": "最新消息 News_zh-tw.json",
-        "sha256": "e75d3f132cc9220c84f62d6182ad16359060c6cde8aad8fc9f5ded9a7cc175d1",
-        "version": "e75d3f132cc9220c84f62d6182ad16359060c6cde8aad8fc9f5ded9a7cc175d1"
+        "sha256": "8bfce9e57a773b15720c8a728c310208adcac9242a8db9d7489c7bba2ead4649",
+        "version": "8bfce9e57a773b15720c8a728c310208adcac9242a8db9d7489c7bba2ead4649"
       },
       {
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_updated": "2026-10-30T20:21:00.227308+08:00",
         "name": "獎學金 Scholarship_zh-tw.json",
-        "sha256": "360fa76b526993aa4020cc132281f59368295d63612055b47783e8aeb4bf5d1e",
-        "version": "360fa76b526993aa4020cc132281f59368295d63612055b47783e8aeb4bf5d1e"
+        "sha256": "11d8b43e6d5a161499846cd4422f3a40089e58c4785bf51320c6ff7fa613a884",
+        "version": "11d8b43e6d5a161499846cd4422f3a40089e58c4785bf51320c6ff7fa613a884"
       }
     ],
     "announcements/竹師教育學院學習科學與科技研究所": [
@@ -2030,10 +2030,10 @@
         "version": "bd165b5913d0c2019a1cd73ecbb744a37c9ecec23dbb13325b0ae1d3c1ea5ece"
       },
       {
-        "last_updated": "2026-10-30T16:18:28.372826+08:00",
+        "last_updated": "2026-10-30T20:21:00.227308+08:00",
         "name": "系務公告_zh-tw.json",
-        "sha256": "8630d53be67b84f2d60a1ee6226a23c8146bd5c1115717494e2b9ae03e042702",
-        "version": "8630d53be67b84f2d60a1ee6226a23c8146bd5c1115717494e2b9ae03e042702"
+        "sha256": "05959c7331c25a5d62311a4ee3aed4c9efe7e431184849d12a09d48867d99455",
+        "version": "05959c7331c25a5d62311a4ee3aed4c9efe7e431184849d12a09d48867d99455"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-30T18:14:32.000675+08:00"
+  "last_updated": "2026-10-30T20:21:00.227308+08:00"
 }
