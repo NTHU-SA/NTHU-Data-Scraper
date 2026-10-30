@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-30T12:16:31.177107+08:00",
+        "last_updated": "2026-10-30T14:23:36.851411+08:00",
         "name": "announcements.json",
-        "sha256": "482a32c3dc3f8b39696c6c12acae0b9d342616ebe529be14408ddf93f410ce0c",
-        "version": "482a32c3dc3f8b39696c6c12acae0b9d342616ebe529be14408ddf93f410ce0c"
+        "sha256": "76259b0933073802277ffedbcebbe831f9280a7358223d22b00d668420f09593",
+        "version": "76259b0933073802277ffedbcebbe831f9280a7358223d22b00d668420f09593"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1020,10 +1020,10 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_updated": "2026-10-30T12:16:31.177107+08:00",
+        "last_updated": "2026-10-30T14:23:36.851411+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "9b104c3231291fd47c5b659ac4a9807877976a58b7c55846c216087c0e242892",
-        "version": "9b104c3231291fd47c5b659ac4a9807877976a58b7c55846c216087c0e242892"
+        "sha256": "e382340be8aeb4509ea3e56c3e4e0b3cc09527574ea156d3894874faf6a2a903",
+        "version": "e382340be8aeb4509ea3e56c3e4e0b3cc09527574ea156d3894874faf6a2a903"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -1100,10 +1100,10 @@
         "version": "f38777f4edc8c1bd5a02969c08cd0beb8f3023e26da4ff286e821e8b369e3c9d"
       },
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-10-30T14:23:36.851411+08:00",
         "name": "招生訊息_zh-tw.json",
-        "sha256": "a9ddd9846afb6717fc0f4cc3249755ca9849063915dac49edbc5792fb9889387",
-        "version": "a9ddd9846afb6717fc0f4cc3249755ca9849063915dac49edbc5792fb9889387"
+        "sha256": "c7eb340a913ec564068c4d8080e21ac25449bf81332d40646c9a91e1964b8954",
+        "version": "c7eb340a913ec564068c4d8080e21ac25449bf81332d40646c9a91e1964b8954"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-10-30T00:16:06.056215+08:00",
+        "last_updated": "2026-10-30T14:23:36.851411+08:00",
         "name": "All seminar_en.json",
-        "sha256": "ea2b25ceb74f5e656059b1ffaef03c133d3202f1a9644d2ab96c47f571c36d28",
-        "version": "ea2b25ceb74f5e656059b1ffaef03c133d3202f1a9644d2ab96c47f571c36d28"
+        "sha256": "5d0ca5d65ed0193327da9c27744182332f87655e7a6c98743e3bb2043c73b42f",
+        "version": "5d0ca5d65ed0193327da9c27744182332f87655e7a6c98743e3bb2043c73b42f"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-10-30T00:16:06.056215+08:00",
+        "last_updated": "2026-10-30T14:23:36.851411+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "a1f691553792c309d0412d3e99d8ee281704849e5e9658d0d8ab60dd8596c34b",
-        "version": "a1f691553792c309d0412d3e99d8ee281704849e5e9658d0d8ab60dd8596c34b"
+        "sha256": "01b9040bf8cdfb3db85a36d2106a6434887cb0df7412285e7876b84c436cb0a7",
+        "version": "01b9040bf8cdfb3db85a36d2106a6434887cb0df7412285e7876b84c436cb0a7"
       },
       {
         "last_updated": "2026-10-30T12:16:31.177107+08:00",
@@ -2322,10 +2322,10 @@
     ],
     "announcements/總務處保管組": [
       {
-        "last_updated": "2026-10-19T08:50:38.823391+08:00",
+        "last_updated": "2026-10-30T14:23:36.851411+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "6349f6b3a68d864488da11d9ccde9ce20a80b45ba53395c8d7c8c2eac5a54e03",
-        "version": "6349f6b3a68d864488da11d9ccde9ce20a80b45ba53395c8d7c8c2eac5a54e03"
+        "sha256": "e202bfa740212f7fa20b213fd9ddcc9f08d0b5b23412a4f4ea9ae90feaaa044d",
+        "version": "e202bfa740212f7fa20b213fd9ddcc9f08d0b5b23412a4f4ea9ae90feaaa044d"
       }
     ],
     "announcements/總務處出納組": [
@@ -2342,10 +2342,10 @@
         "version": "fbf2c80f8e769c904bdac26071ef484a2c999a3d5230fa670771e3f89aff93a8"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-30T14:23:36.851411+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "d3030631c7bc4d593ea4991b5cf190ae7f126fa774c7d4e6965851abd1df4f62",
-        "version": "d3030631c7bc4d593ea4991b5cf190ae7f126fa774c7d4e6965851abd1df4f62"
+        "sha256": "1df6e2e072614f2beecab6a8508ce26b38c5caf0d93ee4ba3fd1aa9c33e17abb",
+        "version": "1df6e2e072614f2beecab6a8508ce26b38c5caf0d93ee4ba3fd1aa9c33e17abb"
       }
     ],
     "announcements/總務處南大校區 總務行政組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-30T12:16:31.177107+08:00"
+  "last_updated": "2026-10-30T14:23:36.851411+08:00"
 }
