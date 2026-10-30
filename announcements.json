@@ -2551,6 +2551,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "[徵才啟事]國立清華大學台灣文學研究所",
+                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-317285,r5081.php?Lang=zh-tw",
+                "date": "2026-10-30"
+            },
+            {
                 "title": "【誠徵】國立清華大學 胡育誠教授實驗室 誠徵行政助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-317173,r5081.php?Lang=zh-tw",
                 "date": "2026-10-29"
@@ -2603,11 +2608,6 @@
             {
                 "title": "【誠徵】國立清華大學英語教學精進中心 徵研究助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-316270,r5081.php?Lang=zh-tw",
-                "date": "2026-10-19"
-            },
-            {
-                "title": "【徵才】教育部計畫專任助理 一名",
-                "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-316615,r5081.php?Lang=zh-tw",
                 "date": "2026-10-19"
             }
         ]
@@ -5086,14 +5086,9 @@
         "department": "總務處營繕組",
         "articles": [
             {
-                "title": "Annual Maintenance & Inspection Notice for High-Voltage Substations (Main Campus, 2026)",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-303535,r7725.php?Lang=en",
-                "date": "2026-02-26"
-            },
-            {
-                "title": "Annual Maintenance & Inspection Notice for High-Voltage Substations (Nanda Campus, 2026)",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-304224,r7725.php?Lang=en",
-                "date": "2026-03-10"
+                "title": "20261101~20270109 Branch pipe project from the aterials Science and Technology Buildin to the Alloy Laboratory",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-317272,r7725.php?Lang=en",
+                "date": "2026-10-30"
             },
             {
                 "title": "2026/10/27~2027/11/28 Second High-Voltage Substation Power Supply System Upgrade and Voltage Conversion Project (Main Campus)",
@@ -5144,6 +5139,11 @@
                 "title": "8/9 Voltage Conversion Project: Equipment Hoisting and Exterior Wall Operations (General Building I: University Administration)",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-312599,r7725.php?Lang=en",
                 "date": "2026-08-05"
+            },
+            {
+                "title": "Urgent Action Required Delayed Power Restoration Notice e",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-312458,r7725.php?Lang=en",
+                "date": "2026-08-02"
             }
         ]
     },
@@ -5157,6 +5157,11 @@
                 "title": "114/5/1起逾15萬元以上採購案由使用單位出具採購單公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-287772,r992.php?Lang=zh-tw",
                 "date": "2025-04-28"
+            },
+            {
+                "title": "115/11/1~116/1/9 工四館至合金鋼實驗室段支管工程施工公告",
+                "link": "https://construc.site.nthu.edu.tw/p/406-1167-317271,r992.php?Lang=zh-tw",
+                "date": "2026-10-30"
             },
             {
                 "title": "115/10/27~116/11/28第二高壓站供電系統更新及改壓工程施工公告",
@@ -5207,11 +5212,6 @@
                 "title": "9/17~9/29 南大校區教學大樓前花臺修復施工公告",
                 "link": "https://construc.site.nthu.edu.tw/p/406-1167-314662,r992.php?Lang=zh-tw",
                 "date": "2026-09-17"
-            },
-            {
-                "title": "9/11~9/21 南大校區行政大樓電梯機房頂樓防水工程",
-                "link": "https://construc.site.nthu.edu.tw/p/406-1167-314105,r992.php?Lang=zh-tw",
-                "date": "2026-09-08"
             }
         ]
     },
@@ -5317,6 +5317,11 @@
             {
                 "title": "📢【重要公告－防範詐騙訊息 Beware of Phishing Emails】",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-292183,r11272.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【獎項公告】2026年(115學年度)合作企業獎學金錄取名單 Academic Year 2026–2027 Corporate Scholarship Award Recipients",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-317269,r11272.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -5808,11 +5813,6 @@
                 "title": "【說明會暨課程公告】【清大X台積電 元件整合暨前瞻電路設計學程說明會】即日起報名至9/22(一)止",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-295904,r11272.php?Lang=zh-tw",
                 "date": ""
-            },
-            {
-                "title": "【演講公告】【企業領導課】9/11、18 (四) 10:10黃欽勇(電子時報創辦人暨IC之音董事長)「台灣半導體與ICT供應鏈在AI新時代的關鍵地位與角色」",
-                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-294478,r11272.php?Lang=zh-tw",
-                "date": ""
             }
         ]
     },
@@ -5822,6 +5822,11 @@
         "language": "zh-tw",
         "department": "半導體研究學院",
         "articles": [
+            {
+                "title": "【獎項公告】2026年(115學年度)合作企業獎學金錄取名單 Academic Year 2026–2027 Corporate Scholarship Award Recipients",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-317269,r11274.php?Lang=zh-tw",
+                "date": ""
+            },
             {
                 "title": "【徵才公告】崇越科技｜2027科技人才招募｜下一站，讓專業走得更遠！",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-317242,r11274.php?Lang=zh-tw",
@@ -12819,6 +12824,16 @@
                 "date": "2026-08-03"
             },
             {
+                "title": "116學年度工工系碩士班甄試招生，逕行錄取暨初試合格名單",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-317273,r2714.php?Lang=zh-tw",
+                "date": "2026-10-30"
+            },
+            {
+                "title": "116學年度博士班推甄口試順序",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-317268,r2714.php?Lang=zh-tw",
+                "date": "2026-10-30"
+            },
+            {
                 "title": "115學年度第一次申請逕行修讀博士學位公告－申請截止日：2026年10月19日",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-315089,r2714.php?Lang=zh-tw",
                 "date": "2026-09-24"
@@ -12862,16 +12877,6 @@
                 "title": "115年度暑期設備保養事項",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-311315,r2714.php?Lang=zh-tw",
                 "date": "2026-07-03"
-            },
-            {
-                "title": "115年7月實驗室借用公告",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-310656,r2714.php?Lang=zh-tw",
-                "date": "2026-06-22"
-            },
-            {
-                "title": "工一館大門已可支援i清華開啟門禁",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-310496,r2714.php?Lang=zh-tw",
-                "date": "2026-06-17"
             }
         ]
     },
@@ -16541,9 +16546,24 @@
         "department": "教務處跨院國際碩博士班學位學程",
         "articles": [
             {
+                "title": "【國立清華大學跨院國際博士班學位學程 丁組（人工智慧組）115學年度逕博： 116學年度博士班甄試 115學年度逕博複試（口試）公告】",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-317276,r8750.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
+            {
+                "title": "【國立清華大學跨院國際博士班學位學程 丙組（教育與公共政策組）： 116學年度博士班甄試複試（口試）公告】",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-317275,r8750.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
+            {
+                "title": "【國立清華大學跨院國際博士班學位學程 甲組（一般組）：116學年度博士班甄試複試（口試）公告】",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-317274,r8750.php?Lang=zh-tw",
+                "date": "2026-10-29"
+            },
+            {
                 "title": "【跨院國際博士班學位學程 智慧製造與數位決策組 (庚組) ：116學年度博士班甄試複試公告】",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-317262,r8750.php?Lang=zh-tw",
-                "date": "2026-10-30"
+                "date": "2026-10-29"
             },
             {
                 "title": "【跨院國際博士班學位學程 人文組 (乙組) ：116學年度甄試複試口試通知】",
@@ -16574,21 +16594,6 @@
                 "title": "【跨院國際博士班學位學程 人工智慧組 (丁組) ：115學年度考試入學口試通知】",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-307283,r8750.php?Lang=zh-tw",
                 "date": "2026-04-24"
-            },
-            {
-                "title": "【跨院國際博士班學位學程 一般組 (甲組) ：115學年度考試入學口試通知】",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-307280,r8750.php?Lang=zh-tw",
-                "date": "2026-04-24"
-            },
-            {
-                "title": "【跨院國際博士班學位學程 科技藝術組 (戊組) ：115學年度考試入學口試通知】",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-307157,r8750.php?Lang=zh-tw",
-                "date": "2026-04-23"
-            },
-            {
-                "title": "【跨院國際博士班學位學程 智慧製造與數位決策組 (庚組) ：115學年度考試入學複試口試通知】",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-307201,r8750.php?Lang=zh-tw",
-                "date": "2026-04-23"
             }
         ]
     },
@@ -21259,6 +21264,11 @@
                 "date": "2026-05-16"
             },
             {
+                "title": "【招生】116學年度碩士班甄試入學初試榜單及複試事宜",
+                "link": "https://psy.site.nthu.edu.tw/p/406-1135-317264,r1.php?Lang=zh-tw",
+                "date": "2026-10-30"
+            },
+            {
                 "title": "本系1142學期學士班畢業專題發表會-李芊諭同學（9/3）",
                 "link": "https://psy.site.nthu.edu.tw/p/406-1135-313831,r1.php?Lang=zh-tw",
                 "date": "2026-09-03"
@@ -21297,11 +21307,6 @@
                 "title": "2025清華心諮工商實習成果發表會-「實」踐夢想,「習」築未來",
                 "link": "https://psy.site.nthu.edu.tw/p/406-1135-299293,r1.php?Lang=zh-tw",
                 "date": "2025-11-21"
-            },
-            {
-                "title": "【轉知】2025個人韌性論壇：AI在健康與教育中的共創與挑戰，歡迎踴躍報名參加",
-                "link": "https://docs.google.com/forms/d/e/1FAIpQLSfgt6po59obsgdktEHhToik5v7WDTPuUvxDBpBQzLxB9eRjKg/viewform",
-                "date": "2025-10-07"
             }
         ]
     },

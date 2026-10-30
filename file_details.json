@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-30T14:23:36.851411+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "announcements.json",
-        "sha256": "76259b0933073802277ffedbcebbe831f9280a7358223d22b00d668420f09593",
-        "version": "76259b0933073802277ffedbcebbe831f9280a7358223d22b00d668420f09593"
+        "sha256": "71b33cf5a2989dc560be58b241e4dcb17acb50504f40b1ccf0ef8d3eaf003200",
+        "version": "71b33cf5a2989dc560be58b241e4dcb17acb50504f40b1ccf0ef8d3eaf003200"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -214,10 +214,10 @@
         "version": "44bd6fd5ff331550a30289d1c55b28ebd3d47a3678a8664747c719c3397c974d"
       },
       {
-        "last_updated": "2026-10-30T12:16:31.177107+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "徵才實習公告_zh-tw.json",
-        "sha256": "8a6f90d54e0ee2b2ffc3feb604290d9c8d199998f86adf9d34d2bca16779bf02",
-        "version": "8a6f90d54e0ee2b2ffc3feb604290d9c8d199998f86adf9d34d2bca16779bf02"
+        "sha256": "972cf4ad4044fefd01db59a5a444518fdc45cf37d531c2bfbdf3e74e71e6b828",
+        "version": "972cf4ad4044fefd01db59a5a444518fdc45cf37d531c2bfbdf3e74e71e6b828"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -226,10 +226,10 @@
         "version": "98ba1b43567c65767b6e0105a80ddae9044ca88738a4820a55b4b996279095cb"
       },
       {
-        "last_updated": "2026-10-30T12:16:31.177107+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "2db4509540d612ad50dfcb6a26ce5f6e7dc25829dfc2d6cee116efaad35c1f32",
-        "version": "2db4509540d612ad50dfcb6a26ce5f6e7dc25829dfc2d6cee116efaad35c1f32"
+        "sha256": "c923809c05db9117eab62afdb21ee3ff8a71c84fafbcfd899af9c9b437869eb6",
+        "version": "c923809c05db9117eab62afdb21ee3ff8a71c84fafbcfd899af9c9b437869eb6"
       },
       {
         "last_updated": "2026-10-27T12:21:26.215711+08:00",
@@ -770,10 +770,10 @@
         "version": "72d83c5bba6e98221b6494decb82283a28bf17abd9e330760dac9ec14294a825"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "系辦公告_zh-tw.json",
-        "sha256": "2c2eaeb64fe12092a43bd4252b22dd2b5d7bc1acbe6759cff92f9456d0fd94cf",
-        "version": "2c2eaeb64fe12092a43bd4252b22dd2b5d7bc1acbe6759cff92f9456d0fd94cf"
+        "sha256": "252d7acaf79d929fc890f50c034ed6505960f86c1c5fdd3ee59e651957601d3f",
+        "version": "252d7acaf79d929fc890f50c034ed6505960f86c1c5fdd3ee59e651957601d3f"
       }
     ],
     "announcements/師資培育中心": [
@@ -1100,10 +1100,10 @@
         "version": "f38777f4edc8c1bd5a02969c08cd0beb8f3023e26da4ff286e821e8b369e3c9d"
       },
       {
-        "last_updated": "2026-10-30T14:23:36.851411+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "招生訊息_zh-tw.json",
-        "sha256": "c7eb340a913ec564068c4d8080e21ac25449bf81332d40646c9a91e1964b8954",
-        "version": "c7eb340a913ec564068c4d8080e21ac25449bf81332d40646c9a91e1964b8954"
+        "sha256": "8b12f1a971d5d604470e6848bbe081fe01214479c42ac9c3abc11a155e6ab4ce",
+        "version": "8b12f1a971d5d604470e6848bbe081fe01214479c42ac9c3abc11a155e6ab4ce"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1222,10 +1222,10 @@
         "version": "f338ab1213751f30eec54b20f58456aeebe1429612a4dd649d2fb369adf3f50a"
       },
       {
-        "last_updated": "2026-10-29T16:18:52.118379+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "2cea6259ab34e3f7736d95bea1948a52ea1933996d6b8454a29cbd9539cf7157",
-        "version": "2cea6259ab34e3f7736d95bea1948a52ea1933996d6b8454a29cbd9539cf7157"
+        "sha256": "6bb522917df7d9ed5319cf4abaadc77f0b524649d545fcba5ba8b0bde4132dba",
+        "version": "6bb522917df7d9ed5319cf4abaadc77f0b524649d545fcba5ba8b0bde4132dba"
       },
       {
         "last_updated": "2026-10-28T08:37:33.863987+08:00",
@@ -2030,10 +2030,10 @@
         "version": "bd165b5913d0c2019a1cd73ecbb744a37c9ecec23dbb13325b0ae1d3c1ea5ece"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "系務公告_zh-tw.json",
-        "sha256": "c6699c67c146568391570173a0a9482142dd8d50fc5578fd1ef9c12ee4551f78",
-        "version": "c6699c67c146568391570173a0a9482142dd8d50fc5578fd1ef9c12ee4551f78"
+        "sha256": "8630d53be67b84f2d60a1ee6226a23c8146bd5c1115717494e2b9ae03e042702",
+        "version": "8630d53be67b84f2d60a1ee6226a23c8146bd5c1115717494e2b9ae03e042702"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -2394,16 +2394,16 @@
     ],
     "announcements/總務處營繕組": [
       {
-        "last_updated": "2026-10-27T12:21:26.215711+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "NEWS_en.json",
-        "sha256": "5d04398ee95009025c534bc631aa5d152c449160379744b5cec39364eb639654",
-        "version": "5d04398ee95009025c534bc631aa5d152c449160379744b5cec39364eb639654"
+        "sha256": "a98d949a1269a431028322eead410ef26f711c7e58d6b723836a786c52a6b4ae",
+        "version": "a98d949a1269a431028322eead410ef26f711c7e58d6b723836a786c52a6b4ae"
       },
       {
-        "last_updated": "2026-10-27T12:21:26.215711+08:00",
+        "last_updated": "2026-10-30T16:18:28.372826+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "04f96aacd8a74ef69cead1a167fb34455910014408662e3bfda5454ee549abe8",
-        "version": "04f96aacd8a74ef69cead1a167fb34455910014408662e3bfda5454ee549abe8"
+        "sha256": "4aab66a4b751870a54423c6a218f8db2fa707627457b0bfc1f9a862b5315e382",
+        "version": "4aab66a4b751870a54423c6a218f8db2fa707627457b0bfc1f9a862b5315e382"
       }
     ],
     "announcements/總務處經營管理組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-30T14:23:36.851411+08:00"
+  "last_updated": "2026-10-30T16:18:28.372826+08:00"
 }
