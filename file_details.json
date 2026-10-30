@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-10-30T00:16:06.056215+08:00",
+        "last_updated": "2026-10-30T08:37:02.243792+08:00",
         "name": "announcements.json",
-        "sha256": "db8c8b750e904f91c00ea0f0f7d25201ed42c37384f240c7740ca9ac83b5840b",
-        "version": "db8c8b750e904f91c00ea0f0f7d25201ed42c37384f240c7740ca9ac83b5840b"
+        "sha256": "15bfbbca04e171ea3403c68d43bd31315c461fafeec03cee33ab2aee6aa6e278",
+        "version": "15bfbbca04e171ea3403c68d43bd31315c461fafeec03cee33ab2aee6aa6e278"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1652,10 +1652,10 @@
         "version": "1644ec7b67fde1a7cddc4d364002f7fb803d7b63beaff8f4308327964db03438"
       },
       {
-        "last_updated": "2026-09-30T10:30:44.078958+08:00",
+        "last_updated": "2026-10-30T08:37:02.243792+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "b6a76a8e8f9d6fea45a23a061ba6e5c5573188b44201371d96e7fe762a7291e3",
-        "version": "b6a76a8e8f9d6fea45a23a061ba6e5c5573188b44201371d96e7fe762a7291e3"
+        "sha256": "251d1716aa9cb0e1d4ce3f508646c2acd54860871b11893782d97a397b790eaf",
+        "version": "251d1716aa9cb0e1d4ce3f508646c2acd54860871b11893782d97a397b790eaf"
       }
     ],
     "announcements/生命科學暨醫學院系統神經科學研究所": [
@@ -1990,10 +1990,10 @@
         "version": "a0035d155c29fa4a41091d83487d479e8062fcbe75a0fa1a526d9890897c5881"
       },
       {
-        "last_updated": "2026-10-29T20:21:13.725660+08:00",
+        "last_updated": "2026-10-30T08:37:02.243792+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "5e01948265b83441403e2ddfbec85ec9adb26dd4294331b3f573bf24138f6f88",
-        "version": "5e01948265b83441403e2ddfbec85ec9adb26dd4294331b3f573bf24138f6f88"
+        "sha256": "fda730679c37851bd49abe177b942805d409bf7f46e9a81eb650f54177b259a0",
+        "version": "fda730679c37851bd49abe177b942805d409bf7f46e9a81eb650f54177b259a0"
       }
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-10-30T06:13:30.755922+08:00"
+  "last_updated": "2026-10-30T08:37:02.243792+08:00"
 }
