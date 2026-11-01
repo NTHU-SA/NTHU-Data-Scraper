@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-01T12:13:35.463952+08:00",
+        "last_updated": "2026-11-02T00:11:42.153512+08:00",
         "name": "announcements.json",
-        "sha256": "517aaaaaddd970aed5e2b34a58271405917cee612a1ef323d6ff2fe635d4e689",
-        "version": "517aaaaaddd970aed5e2b34a58271405917cee612a1ef323d6ff2fe635d4e689"
+        "sha256": "6f1d939b6ee1653cd2853ad4951cfdd5746d2d9a95c90e9a6af40b2c3f2f9e73",
+        "version": "6f1d939b6ee1653cd2853ad4951cfdd5746d2d9a95c90e9a6af40b2c3f2f9e73"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -538,10 +538,10 @@
         "version": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600"
       },
       {
-        "last_updated": "2026-10-30T12:16:31.177107+08:00",
+        "last_updated": "2026-11-02T00:11:42.153512+08:00",
         "name": "課外組重要公告_zh-tw.json",
-        "sha256": "85d380f81422149e4e31b87bdbfeffdbaf8df3159940e56102ad6eb68249e640",
-        "version": "85d380f81422149e4e31b87bdbfeffdbaf8df3159940e56102ad6eb68249e640"
+        "sha256": "780757808cd0ee2c63eab9398cab29b53b558eac4941d2ff8be0c16ed03913d0",
+        "version": "780757808cd0ee2c63eab9398cab29b53b558eac4941d2ff8be0c16ed03913d0"
       }
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
@@ -1392,10 +1392,10 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_updated": "2026-10-29T10:19:55.363998+08:00",
+        "last_updated": "2026-11-02T00:11:42.153512+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "0e8da0ed221657a1fa319a344468fb1c89334c6880ba2261e44d4448caa39509",
-        "version": "0e8da0ed221657a1fa319a344468fb1c89334c6880ba2261e44d4448caa39509"
+        "sha256": "b260823b91ce61e97c41dce49a154bcce02c2b92006e9eeea1c48fb834b7d26e",
+        "version": "b260823b91ce61e97c41dce49a154bcce02c2b92006e9eeea1c48fb834b7d26e"
       }
     ],
     "announcements/理學院物理學系": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-01T12:13:35.463952+08:00"
+  "last_updated": "2026-11-02T00:11:42.153512+08:00"
 }
