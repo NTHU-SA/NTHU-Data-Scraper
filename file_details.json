@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-02T00:11:42.153512+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "announcements.json",
-        "sha256": "6f1d939b6ee1653cd2853ad4951cfdd5746d2d9a95c90e9a6af40b2c3f2f9e73",
-        "version": "6f1d939b6ee1653cd2853ad4951cfdd5746d2d9a95c90e9a6af40b2c3f2f9e73"
+        "sha256": "3b641c9a649abc16bcca2fdb86b6c7bc9e8aae02db6d9f26fb8bddd2705db221",
+        "version": "3b641c9a649abc16bcca2fdb86b6c7bc9e8aae02db6d9f26fb8bddd2705db221"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-10-30T12:16:31.177107+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "dining.json",
-        "sha256": "0f61b002e7e81e13b0ca857aa507aab777161df41ce5983ae19a606100805c67",
-        "version": "0f61b002e7e81e13b0ca857aa507aab777161df41ce5983ae19a606100805c67"
+        "sha256": "d1643cceae00a954632e564d513134b51101e43eaf614730c3f6c5cd98a3c69a",
+        "version": "d1643cceae00a954632e564d513134b51101e43eaf614730c3f6c5cd98a3c69a"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -858,10 +858,10 @@
         "version": "97042a3438ea27e2b54b0a11354abf617426b6d0678d5b7635ab716718497fae"
       },
       {
-        "last_updated": "2026-10-29T12:16:58.486236+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "53fc671b1b6a89d0fa361f49e8de3efc144a7b9aef0ae836f544db18638d6214",
-        "version": "53fc671b1b6a89d0fa361f49e8de3efc144a7b9aef0ae836f544db18638d6214"
+        "sha256": "e9f66c702cc895c1fb5ed32bc1e2a3ad1587c552a9fb26b6f38868e31493bff7",
+        "version": "e9f66c702cc895c1fb5ed32bc1e2a3ad1587c552a9fb26b6f38868e31493bff7"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -1334,10 +1334,10 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_updated": "2026-10-29T10:19:55.363998+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "中心最新消息_zh-tw.json",
-        "sha256": "0a7fe71a81942106c29f0a37dc86031e719c8c2f296ff1b0bdd4f6b484254313",
-        "version": "0a7fe71a81942106c29f0a37dc86031e719c8c2f296ff1b0bdd4f6b484254313"
+        "sha256": "c9c4de689c4ef1704d3b890acdd72acc27cf2a14432c6f3c75c7ca1fd598a1d0",
+        "version": "c9c4de689c4ef1704d3b890acdd72acc27cf2a14432c6f3c75c7ca1fd598a1d0"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1500,10 +1500,10 @@
     ],
     "announcements/生命科學暨醫學院": [
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "Latest News_en.json",
-        "sha256": "95ef6f0f1cc1d1465f777ce46abdf59469ee4849ebd19422cbafb9a3b2eec5bf",
-        "version": "95ef6f0f1cc1d1465f777ce46abdf59469ee4849ebd19422cbafb9a3b2eec5bf"
+        "sha256": "0639d88beb22524a1591674affb5a0d62717d67987da0c2f025027f747a7ecd8",
+        "version": "0639d88beb22524a1591674affb5a0d62717d67987da0c2f025027f747a7ecd8"
       },
       {
         "last_updated": "2026-10-29T16:18:52.118379+08:00",
@@ -1512,16 +1512,16 @@
         "version": "a7aa1e36ddbe7ce47f374beb02c551cf00baa546e06681fbdd0d464e7ab319e3"
       },
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "banner_en.json",
-        "sha256": "6f903fa321bdc29474968ec7f7c8b0aab955b878902cb8554f91201eca2c8fe2",
-        "version": "6f903fa321bdc29474968ec7f7c8b0aab955b878902cb8554f91201eca2c8fe2"
+        "sha256": "164ecf2156ed5d36ac5e844d3f4287ba2d00ff7d031c40a75ea3827d231a7855",
+        "version": "164ecf2156ed5d36ac5e844d3f4287ba2d00ff7d031c40a75ea3827d231a7855"
       },
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "3028ca09fa26236e07fe180c42a6d1be47145f1f1678bbcf8f25853b4ce93cca",
-        "version": "3028ca09fa26236e07fe180c42a6d1be47145f1f1678bbcf8f25853b4ce93cca"
+        "sha256": "98d35f6751268b90c836067aa8c0d5e1fe24d392260777bddc8692098d824003",
+        "version": "98d35f6751268b90c836067aa8c0d5e1fe24d392260777bddc8692098d824003"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1542,10 +1542,10 @@
         "version": "d824ff452403cba4271e7f03f3f5bf4d31928b9f8588aabda5196f1b00132822"
       },
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "3e3c2cbfd4418d5ca31e79dad52a284535fbb2900c6893205709e02db25411b0",
-        "version": "3e3c2cbfd4418d5ca31e79dad52a284535fbb2900c6893205709e02db25411b0"
+        "sha256": "945ab621cf59b73131af583344bed70cd322d1599aac2af9b996a2769e2e7b3e",
+        "version": "945ab621cf59b73131af583344bed70cd322d1599aac2af9b996a2769e2e7b3e"
       }
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
@@ -2968,10 +2968,10 @@
     ],
     "libraries": [
       {
-        "last_updated": "2026-10-17T12:19:49.232697+08:00",
+        "last_updated": "2026-11-02T08:33:25.683002+08:00",
         "name": "calendars.json",
-        "sha256": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c",
-        "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
+        "sha256": "b61b17c0e7e29727bdbaf957af097211046dd11e856a2b1a36db5f787267a1eb",
+        "version": "b61b17c0e7e29727bdbaf957af097211046dd11e856a2b1a36db5f787267a1eb"
       },
       {
         "last_updated": "2026-11-01T00:11:35.683930+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-02T00:11:42.153512+08:00"
+  "last_updated": "2026-11-02T08:33:25.683002+08:00"
 }
