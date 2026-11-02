@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-02T18:13:07.209909+08:00",
+        "last_updated": "2026-11-03T00:14:05.481921+08:00",
         "name": "announcements.json",
-        "sha256": "a02c8b0fb697ebd61dcbf5d5b67241b3d103d377ff22a687e07c4e9eac0e6b7a",
-        "version": "a02c8b0fb697ebd61dcbf5d5b67241b3d103d377ff22a687e07c4e9eac0e6b7a"
+        "sha256": "8b0baf958706c64e70e9dd6d4a9542b176ac26c0621658974dfe690ac72476a1",
+        "version": "8b0baf958706c64e70e9dd6d4a9542b176ac26c0621658974dfe690ac72476a1"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1198,10 +1198,10 @@
         "version": "2326046a4d6e392c4eff51aae8c079b564a51eea0c634aef7987b90970652994"
       },
       {
-        "last_updated": "2026-10-28T08:37:33.863987+08:00",
+        "last_updated": "2026-11-03T00:14:05.481921+08:00",
         "name": "學生活動_zh-tw.json",
-        "sha256": "16e646a4b7e1aa451353e732dadbec62928620909dc807aeb39b39b4af8fb709",
-        "version": "16e646a4b7e1aa451353e732dadbec62928620909dc807aeb39b39b4af8fb709"
+        "sha256": "bf3e581c37a1c93441f61af5403cabc4b6476a699a7b61f16393c9ecbf72dca6",
+        "version": "bf3e581c37a1c93441f61af5403cabc4b6476a699a7b61f16393c9ecbf72dca6"
       },
       {
         "last_updated": "2026-10-28T18:14:28.725439+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-02T18:13:07.209909+08:00"
+  "last_updated": "2026-11-03T00:14:05.481921+08:00"
 }
