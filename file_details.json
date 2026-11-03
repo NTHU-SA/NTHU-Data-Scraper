@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-03T14:20:26.999684+08:00",
+        "last_updated": "2026-11-03T16:16:25.023229+08:00",
         "name": "announcements.json",
-        "sha256": "b69ffefb7db987784449c77452cb47be8c126ab259b91feb516445d263e15d24",
-        "version": "b69ffefb7db987784449c77452cb47be8c126ab259b91feb516445d263e15d24"
+        "sha256": "a65a331b0db5ca708121734d14aa7cdc90673d10a721656046c68ef669f629ff",
+        "version": "a65a331b0db5ca708121734d14aa7cdc90673d10a721656046c68ef669f629ff"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -474,10 +474,10 @@
         "version": "e1e972e04c83819fff6ad646c317a2ad9b68ae36127a5f6249110e8cb22ac65f"
       },
       {
-        "last_updated": "2026-10-27T14:31:23.745635+08:00",
+        "last_updated": "2026-11-03T16:16:25.023229+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "29a538dc471d4920976111b0fce56d604e2d43f4a0d831d9b2cb7fbf38dfed57",
-        "version": "29a538dc471d4920976111b0fce56d604e2d43f4a0d831d9b2cb7fbf38dfed57"
+        "sha256": "8b6015a61bb242b608535e1e884d01d2d96d807626b1f6e31a8bbe8bb09f5c34",
+        "version": "8b6015a61bb242b608535e1e884d01d2d96d807626b1f6e31a8bbe8bb09f5c34"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -538,10 +538,10 @@
         "version": "84790cdcd82ab2f183b6f270db212b39056ecb7cee1085163e229241c6dfb600"
       },
       {
-        "last_updated": "2026-11-02T16:18:17.378038+08:00",
+        "last_updated": "2026-11-03T16:16:25.023229+08:00",
         "name": "課外組重要公告_zh-tw.json",
-        "sha256": "7d9f57acd2b3d72dba7fa12d0c68ae811fd8b33a0b07cb14563f3df4fb683db0",
-        "version": "7d9f57acd2b3d72dba7fa12d0c68ae811fd8b33a0b07cb14563f3df4fb683db0"
+        "sha256": "62aed1a2922fc48131908e3d6d565daeeebfbb93326dbc05d561edfa53478fb6",
+        "version": "62aed1a2922fc48131908e3d6d565daeeebfbb93326dbc05d561edfa53478fb6"
       }
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
@@ -1192,10 +1192,10 @@
         "version": "d88910d7dcf6aa1af4333c51b99fe6062a66e5a6f6d6fc37656d57a962d16875"
       },
       {
-        "last_updated": "2026-11-03T14:20:26.999684+08:00",
+        "last_updated": "2026-11-03T16:16:25.023229+08:00",
         "name": "其他公告_zh-tw.json",
-        "sha256": "2d7c6cffbb44337983db3491e6754a1b81a58c7ffd41b2fc6d27862d3942a666",
-        "version": "2d7c6cffbb44337983db3491e6754a1b81a58c7ffd41b2fc6d27862d3942a666"
+        "sha256": "f42f7529965c566f40b15e77c8fb3267f17dba7152de51d100d1826e66633b7d",
+        "version": "f42f7529965c566f40b15e77c8fb3267f17dba7152de51d100d1826e66633b7d"
       },
       {
         "last_updated": "2026-11-03T00:14:05.481921+08:00",
@@ -1222,10 +1222,10 @@
         "version": "f840ca398b7b30e2ccb95faefea24569a81b588385d817ef6a69fbd2c8d1333d"
       },
       {
-        "last_updated": "2026-11-03T14:20:26.999684+08:00",
+        "last_updated": "2026-11-03T16:16:25.023229+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "eb227ff6efda4750bb76bf1aedf1c7e0945d9949cab9adb0e6445f9319e08c29",
-        "version": "eb227ff6efda4750bb76bf1aedf1c7e0945d9949cab9adb0e6445f9319e08c29"
+        "sha256": "cddb391088509a148732275ecfb13a66d9b576ac76d46ba22b2446dfe75a6f39",
+        "version": "cddb391088509a148732275ecfb13a66d9b576ac76d46ba22b2446dfe75a6f39"
       },
       {
         "last_updated": "2026-10-28T08:37:33.863987+08:00",
@@ -1234,10 +1234,10 @@
         "version": "b40b8987ca198719221984e9134be282f2f061ab3ff1a2a43088d053f34c936f"
       },
       {
-        "last_updated": "2026-11-03T14:20:26.999684+08:00",
+        "last_updated": "2026-11-03T16:16:25.023229+08:00",
         "name": "行政公告_zh-tw.json",
-        "sha256": "1526be55ef0cf3f3dd047c6136786bbb2643a34a338f794256d1ac7e415e101f",
-        "version": "1526be55ef0cf3f3dd047c6136786bbb2643a34a338f794256d1ac7e415e101f"
+        "sha256": "1961084f3458d857ddae4bfb59d6c4d45a1d55ec00584632d0432dcaf17d604a",
+        "version": "1961084f3458d857ddae4bfb59d6c4d45a1d55ec00584632d0432dcaf17d604a"
       }
     ],
     "announcements/清華學院": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-03T14:20:26.999684+08:00"
+  "last_updated": "2026-11-03T16:16:25.023229+08:00"
 }
