@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-03T18:12:20.376475+08:00",
+        "last_updated": "2026-11-04T00:13:49.366722+08:00",
         "name": "announcements.json",
-        "sha256": "ff60acd19ddeede10ff966ae4df4789c012ed5b0df705558ad39fcab70ba0b1f",
-        "version": "ff60acd19ddeede10ff966ae4df4789c012ed5b0df705558ad39fcab70ba0b1f"
+        "sha256": "52df9a6f069c32a647266381e5d602965b0d25141892e1efb9edd908c9fb6300",
+        "version": "52df9a6f069c32a647266381e5d602965b0d25141892e1efb9edd908c9fb6300"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -84,10 +84,10 @@
         "version": "6639afbeb87e4e6cc11e98bd682059a0a2d4d2b2757929002423ed3aa2b3fcd8"
       },
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-04T00:13:49.366722+08:00",
         "name": "活動訊息_zh-tw.json",
-        "sha256": "5a2717d8d5df5a251de7dabf7e2cfc41ae61103412bdd21961c74f65ed55fa0c",
-        "version": "5a2717d8d5df5a251de7dabf7e2cfc41ae61103412bdd21961c74f65ed55fa0c"
+        "sha256": "d7bb6cd5a0decd5fa92953f106a5a6b4faa568417e786a16dade667c9310574a",
+        "version": "d7bb6cd5a0decd5fa92953f106a5a6b4faa568417e786a16dade667c9310574a"
       },
       {
         "last_updated": "2026-10-30T00:16:06.056215+08:00",
@@ -1234,10 +1234,10 @@
         "version": "b40b8987ca198719221984e9134be282f2f061ab3ff1a2a43088d053f34c936f"
       },
       {
-        "last_updated": "2026-11-03T16:16:25.023229+08:00",
+        "last_updated": "2026-11-04T00:13:49.366722+08:00",
         "name": "行政公告_zh-tw.json",
-        "sha256": "1961084f3458d857ddae4bfb59d6c4d45a1d55ec00584632d0432dcaf17d604a",
-        "version": "1961084f3458d857ddae4bfb59d6c4d45a1d55ec00584632d0432dcaf17d604a"
+        "sha256": "ac809d78bbf869efc8e76eb66be17a2ccc43ae7d19c2131c9fd83737d2b90b60",
+        "version": "ac809d78bbf869efc8e76eb66be17a2ccc43ae7d19c2131c9fd83737d2b90b60"
       }
     ],
     "announcements/清華學院": [
@@ -2302,10 +2302,10 @@
         "version": "81d81a65de01137b659fb2724fbe6451e4d07410b1b939f515e19cf31f45403e"
       },
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-04T00:13:49.366722+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "40d87634225453c9adb9c307b7ee4594c63fcf323d6e300e7dc9b3d8b2b8bd0f",
-        "version": "40d87634225453c9adb9c307b7ee4594c63fcf323d6e300e7dc9b3d8b2b8bd0f"
+        "sha256": "bddd9957e3edc71ec7fd0d7add9c12173f82735d1afb78fabdf86ebe0ec439b2",
+        "version": "bddd9957e3edc71ec7fd0d7add9c12173f82735d1afb78fabdf86ebe0ec439b2"
       },
       {
         "last_updated": "2026-11-02T12:15:01.766607+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-03T18:12:20.376475+08:00"
+  "last_updated": "2026-11-04T00:13:49.366722+08:00"
 }
