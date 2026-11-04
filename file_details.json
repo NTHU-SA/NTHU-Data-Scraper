@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-04T18:14:03.631527+08:00",
+        "last_updated": "2026-11-04T22:13:45.999427+08:00",
         "name": "announcements.json",
-        "sha256": "ca01d21dc527d47cc5e19a74bab67682e5da0b4d6a99f4f449500ea60e308004",
-        "version": "ca01d21dc527d47cc5e19a74bab67682e5da0b4d6a99f4f449500ea60e308004"
+        "sha256": "8a2ae49ec682691252a98202490a5fce3a603b98a24c6b781faed2d69b8b2943",
+        "version": "8a2ae49ec682691252a98202490a5fce3a603b98a24c6b781faed2d69b8b2943"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1716,10 +1716,10 @@
         "version": "4fb1b0897529409abb0daa2ecedd5795c13a18f6194283be6022d82bdefac8f9"
       },
       {
-        "last_updated": "2026-11-04T16:15:40.927264+08:00",
+        "last_updated": "2026-11-04T22:13:45.999427+08:00",
         "name": "IACUC最新消息公告_zh-tw.json",
-        "sha256": "bb2f02f1564e0ec1832df52ce0c7a7fe2ea93129f8b7c22df0f8acdd3fbfc5c7",
-        "version": "bb2f02f1564e0ec1832df52ce0c7a7fe2ea93129f8b7c22df0f8acdd3fbfc5c7"
+        "sha256": "e0e94f398634a117318aade7cc169a1d98eb679914c3771f70913558a359e520",
+        "version": "e0e94f398634a117318aade7cc169a1d98eb679914c3771f70913558a359e520"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-04T18:14:03.631527+08:00"
+  "last_updated": "2026-11-04T22:13:45.999427+08:00"
 }
