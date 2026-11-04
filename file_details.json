@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-04T10:16:02.939150+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "announcements.json",
-        "sha256": "1e6e4e0c97cd3821f8edf98fe1a5c3693fa8b7ca959acdc7292144a42224dd12",
-        "version": "1e6e4e0c97cd3821f8edf98fe1a5c3693fa8b7ca959acdc7292144a42224dd12"
+        "sha256": "f85a10edfa40ac658bdf2f9b7ebabb3d46645b0fdcdcad86a5a13be0b291a2a7",
+        "version": "f85a10edfa40ac658bdf2f9b7ebabb3d46645b0fdcdcad86a5a13be0b291a2a7"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -26,10 +26,10 @@
         "version": "41885434ffa787a791072b5d33cedf838c62858cec340ef186d8a7c265e4c5e8"
       },
       {
-        "last_updated": "2026-11-04T10:16:02.939150+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "buses.json",
-        "sha256": "e4e79b236b953ea5150161821d2d2b9c9a82f78c359c2c5f88b015ec693e6c9e",
-        "version": "e4e79b236b953ea5150161821d2d2b9c9a82f78c359c2c5f88b015ec693e6c9e"
+        "sha256": "5eb07b5a75891b2f1a438b1af641dd03d59f4c8cdf64b794d267867a99cc7026",
+        "version": "5eb07b5a75891b2f1a438b1af641dd03d59f4c8cdf64b794d267867a99cc7026"
       },
       {
         "last_updated": "2026-09-28T01:28:20.685472+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-04T08:30:12.405424+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "dining.json",
-        "sha256": "363464f4bd14b977a4561332ca56600564390e427f4f14fecc6c97f9280a746d",
-        "version": "363464f4bd14b977a4561332ca56600564390e427f4f14fecc6c97f9280a746d"
+        "sha256": "37aee00c23d8057e6fdbcba8b76c8fabc9f82fc45b08793ed80e9b69123b04fc",
+        "version": "37aee00c23d8057e6fdbcba8b76c8fabc9f82fc45b08793ed80e9b69123b04fc"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -226,10 +226,10 @@
         "version": "98ba1b43567c65767b6e0105a80ddae9044ca88738a4820a55b4b996279095cb"
       },
       {
-        "last_updated": "2026-11-03T18:12:20.376475+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "8ef92550a92a61e988def4350e597eacbc817a2a7fd1bd8806971086edcc0347",
-        "version": "8ef92550a92a61e988def4350e597eacbc817a2a7fd1bd8806971086edcc0347"
+        "sha256": "2a969c477b0b609430824c57d0315192df6c6bdaebdcf01364bc0d66dbb812d7",
+        "version": "2a969c477b0b609430824c57d0315192df6c6bdaebdcf01364bc0d66dbb812d7"
       },
       {
         "last_updated": "2026-10-27T12:21:26.215711+08:00",
@@ -858,10 +858,10 @@
         "version": "97042a3438ea27e2b54b0a11354abf617426b6d0678d5b7635ab716718497fae"
       },
       {
-        "last_updated": "2026-11-02T08:33:25.683002+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "e9f66c702cc895c1fb5ed32bc1e2a3ad1587c552a9fb26b6f38868e31493bff7",
-        "version": "e9f66c702cc895c1fb5ed32bc1e2a3ad1587c552a9fb26b6f38868e31493bff7"
+        "sha256": "59453e9d36f58cf68bad27bd8e59b2f24226fe3b6f53bb96e35cbd419b1eb946",
+        "version": "59453e9d36f58cf68bad27bd8e59b2f24226fe3b6f53bb96e35cbd419b1eb946"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -1074,10 +1074,10 @@
         "version": "97050b44555f8a84c59af8bbadc094fba9d618610a57361c349338522bfdffcb"
       },
       {
-        "last_updated": "2026-10-15T10:58:13.887638+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "重要日期_zh-tw.json",
-        "sha256": "5e11e18a8c55a1097c2c2f579a2653367abb9319f2cd8856d7929e6a39b75be9",
-        "version": "5e11e18a8c55a1097c2c2f579a2653367abb9319f2cd8856d7929e6a39b75be9"
+        "sha256": "136532ea1331e8baae5ae835e0860cf96670a502b6b30f4403cc46faabaf15b9",
+        "version": "136532ea1331e8baae5ae835e0860cf96670a502b6b30f4403cc46faabaf15b9"
       }
     ],
     "announcements/教務處跨院國際碩博士班學位學程": [
@@ -1152,10 +1152,10 @@
         "version": "0b3bd770e7db71a4ab4d5a8b9e00e4b379c93b77f4fe5af213e17f57cfeaf952"
       },
       {
-        "last_updated": "2026-10-28T18:14:28.725439+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "97050460ec9314468ceb753a84f79bc8e150dc0559ef28a25e0173af7c56a90d",
-        "version": "97050460ec9314468ceb753a84f79bc8e150dc0559ef28a25e0173af7c56a90d"
+        "sha256": "ca53d8c2ae7d090941b093ea1e038a9ae06da845cc671f75f0f7194763891d09",
+        "version": "ca53d8c2ae7d090941b093ea1e038a9ae06da845cc671f75f0f7194763891d09"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1192,40 +1192,40 @@
         "version": "d88910d7dcf6aa1af4333c51b99fe6062a66e5a6f6d6fc37656d57a962d16875"
       },
       {
-        "last_updated": "2026-11-03T16:16:25.023229+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "其他公告_zh-tw.json",
-        "sha256": "f42f7529965c566f40b15e77c8fb3267f17dba7152de51d100d1826e66633b7d",
-        "version": "f42f7529965c566f40b15e77c8fb3267f17dba7152de51d100d1826e66633b7d"
+        "sha256": "15a00506ec2cacd5473f349e20172fa91add4ae58da15eee82de427e8106fa44",
+        "version": "15a00506ec2cacd5473f349e20172fa91add4ae58da15eee82de427e8106fa44"
       },
       {
-        "last_updated": "2026-11-03T00:14:05.481921+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "學生活動_zh-tw.json",
-        "sha256": "bf3e581c37a1c93441f61af5403cabc4b6476a699a7b61f16393c9ecbf72dca6",
-        "version": "bf3e581c37a1c93441f61af5403cabc4b6476a699a7b61f16393c9ecbf72dca6"
+        "sha256": "0f7043684058f803c50630e20efc408b910548a6640712e7a5dcbfbed0529a56",
+        "version": "0f7043684058f803c50630e20efc408b910548a6640712e7a5dcbfbed0529a56"
       },
       {
-        "last_updated": "2026-10-28T18:14:28.725439+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "學術活動_zh-tw.json",
-        "sha256": "fd019932eb36bbc99b6770b94dec836722206525d1a94f7f122118a6b6d988be",
-        "version": "fd019932eb36bbc99b6770b94dec836722206525d1a94f7f122118a6b6d988be"
+        "sha256": "98bbd8adaeb10c256faf2a386990119ec2e4a05ef8208154ae9ba79aaa1d0173",
+        "version": "98bbd8adaeb10c256faf2a386990119ec2e4a05ef8208154ae9ba79aaa1d0173"
       },
       {
-        "last_updated": "2026-10-22T10:26:21.359745+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "招生公告_zh-tw.json",
-        "sha256": "b7b52b6d6afc9673f2a1236ecb309af555521d9f1191bd1ef701ed960642cd58",
-        "version": "b7b52b6d6afc9673f2a1236ecb309af555521d9f1191bd1ef701ed960642cd58"
+        "sha256": "ed2e380165cdc8d04183d9556d8de1deea5140416d789bdbaf98dc573b6db0fc",
+        "version": "ed2e380165cdc8d04183d9556d8de1deea5140416d789bdbaf98dc573b6db0fc"
       },
       {
-        "last_updated": "2026-11-04T08:30:12.405424+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "74c050a776c3d176d24e92badc99b636d5e815f74307805cebe6521800829214",
-        "version": "74c050a776c3d176d24e92badc99b636d5e815f74307805cebe6521800829214"
+        "sha256": "8908ec3dd1589c305073b63293369caf5f6629022068812d632a4609cb1a52e4",
+        "version": "8908ec3dd1589c305073b63293369caf5f6629022068812d632a4609cb1a52e4"
       },
       {
-        "last_updated": "2026-11-03T16:16:25.023229+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "cddb391088509a148732275ecfb13a66d9b576ac76d46ba22b2446dfe75a6f39",
-        "version": "cddb391088509a148732275ecfb13a66d9b576ac76d46ba22b2446dfe75a6f39"
+        "sha256": "4f028f1fd82c05529a0dd8a9e2af0b8cd52d93fce39395aba496619b7c1015a9",
+        "version": "4f028f1fd82c05529a0dd8a9e2af0b8cd52d93fce39395aba496619b7c1015a9"
       },
       {
         "last_updated": "2026-10-28T08:37:33.863987+08:00",
@@ -1234,10 +1234,10 @@
         "version": "b40b8987ca198719221984e9134be282f2f061ab3ff1a2a43088d053f34c936f"
       },
       {
-        "last_updated": "2026-11-04T08:30:12.405424+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "行政公告_zh-tw.json",
-        "sha256": "0db7dd526439875f529c47b412229b03900d6ffc690e4dad4e5d854e38c574c5",
-        "version": "0db7dd526439875f529c47b412229b03900d6ffc690e4dad4e5d854e38c574c5"
+        "sha256": "d04bc56164416210f37576692c0addf2910d60a3de3dc91b0fb958449228d055",
+        "version": "d04bc56164416210f37576692c0addf2910d60a3de3dc91b0fb958449228d055"
       }
     ],
     "announcements/清華學院": [
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-03T10:16:40.634217+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "All seminar_en.json",
-        "sha256": "e3c740a22b04535baf7806dfd09c51f88c26b3ce4213887e2883f8bc6545024f",
-        "version": "e3c740a22b04535baf7806dfd09c51f88c26b3ce4213887e2883f8bc6545024f"
+        "sha256": "7f69a630af5a18fb96c197b6391e4cc1cf93d0e91bff2e0c6b64f0e3709faa08",
+        "version": "7f69a630af5a18fb96c197b6391e4cc1cf93d0e91bff2e0c6b64f0e3709faa08"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-03T10:16:40.634217+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "1ea08a3a2f91f75dc4001557d298d1913b915e178c526b584e01849774bc1962",
-        "version": "1ea08a3a2f91f75dc4001557d298d1913b915e178c526b584e01849774bc1962"
+        "sha256": "a7c87302394fcc61e172964ad77d0a0ff2a455ccd869f68895e3b2e0230326ba",
+        "version": "a7c87302394fcc61e172964ad77d0a0ff2a455ccd869f68895e3b2e0230326ba"
       },
       {
         "last_updated": "2026-11-02T18:13:07.209909+08:00",
@@ -2296,28 +2296,28 @@
     ],
     "announcements/總務處事務組": [
       {
-        "last_updated": "2026-11-04T10:16:02.939150+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "News_en.json",
-        "sha256": "27f13775748ac88b0bed72355af2d4a62344c468028265f58a21c8ce3db17853",
-        "version": "27f13775748ac88b0bed72355af2d4a62344c468028265f58a21c8ce3db17853"
+        "sha256": "fdf08ccb5c37baf1c934fe970fa1fed5564bcaca78d9b4604285567e7511786d",
+        "version": "fdf08ccb5c37baf1c934fe970fa1fed5564bcaca78d9b4604285567e7511786d"
       },
       {
-        "last_updated": "2026-11-04T10:16:02.939150+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "de2368e1e1a17824a49aa5fea538267e2507f1ada557f808af74ee192b21785c",
-        "version": "de2368e1e1a17824a49aa5fea538267e2507f1ada557f808af74ee192b21785c"
+        "sha256": "ef4fa12587df1301b8d36a1d8be8a7c42c93d8b0f47a20e32782d72b1a85bc7f",
+        "version": "ef4fa12587df1301b8d36a1d8be8a7c42c93d8b0f47a20e32782d72b1a85bc7f"
       },
       {
-        "last_updated": "2026-11-04T10:16:02.939150+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "校園公車暨巡迴公車公告_en.json",
-        "sha256": "4c22e8810913b145f83b143e9af5af6fc182c0902398904782f22873f77a55f1",
-        "version": "4c22e8810913b145f83b143e9af5af6fc182c0902398904782f22873f77a55f1"
+        "sha256": "3f5949af420da4d46f62baaa454cad4f4c8d1288df9900b36de596b4f812259b",
+        "version": "3f5949af420da4d46f62baaa454cad4f4c8d1288df9900b36de596b4f812259b"
       },
       {
-        "last_updated": "2026-11-04T10:16:02.939150+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json",
-        "sha256": "4b6d11ea5f3ac5556e7d9c65f1d9626ebd2e1433c2696582093804fcf9fd70b5",
-        "version": "4b6d11ea5f3ac5556e7d9c65f1d9626ebd2e1433c2696582093804fcf9fd70b5"
+        "sha256": "9597e7e0ebafd27686adf5e2ee8225f1706fa755de80349c617512eb98ce857c",
+        "version": "9597e7e0ebafd27686adf5e2ee8225f1706fa755de80349c617512eb98ce857c"
       }
     ],
     "announcements/總務處保管組": [
@@ -2400,10 +2400,10 @@
         "version": "a98d949a1269a431028322eead410ef26f711c7e58d6b723836a786c52a6b4ae"
       },
       {
-        "last_updated": "2026-10-30T16:18:28.372826+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "4aab66a4b751870a54423c6a218f8db2fa707627457b0bfc1f9a862b5315e382",
-        "version": "4aab66a4b751870a54423c6a218f8db2fa707627457b0bfc1f9a862b5315e382"
+        "sha256": "702ed8037fa75f88909051cc688e52ee32297937a977193d936943631451fd29",
+        "version": "702ed8037fa75f88909051cc688e52ee32297937a977193d936943631451fd29"
       }
     ],
     "announcements/總務處經營管理組": [
@@ -2572,16 +2572,16 @@
     ],
     "buses": [
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "main_schedule_images.json",
-        "sha256": "02915197d0a83e32414494c0694ed9530a45cf1b34f327aae80f9f518ae6ad47",
-        "version": "02915197d0a83e32414494c0694ed9530a45cf1b34f327aae80f9f518ae6ad47"
+        "sha256": "e3dbf549e506a300fd84b46d19a132fab5d1aebeabae350d71b5b915da6a01c0",
+        "version": "e3dbf549e506a300fd84b46d19a132fab5d1aebeabae350d71b5b915da6a01c0"
       },
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "nanda_schedule_images.json",
-        "sha256": "94353533d23801112fbe5cab1c3c78a30c7da3a303c8854df98b0ec5d0b8dd3d",
-        "version": "94353533d23801112fbe5cab1c3c78a30c7da3a303c8854df98b0ec5d0b8dd3d"
+        "sha256": "cd697c86097d0d18c0bdc986e513a73293f91fa8268f1e21a4e1450ba31575ff",
+        "version": "cd697c86097d0d18c0bdc986e513a73293f91fa8268f1e21a4e1450ba31575ff"
       },
       {
         "last_updated": "2026-11-04T10:16:02.939150+08:00",
@@ -2658,28 +2658,28 @@
     ],
     "buses/images": [
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "main_0.jpg",
-        "sha256": "7bdf70cdeecd56d6aa3e5b69cf91155cf81cad60ec40da26dd98f485cb7a3f57",
-        "version": "7bdf70cdeecd56d6aa3e5b69cf91155cf81cad60ec40da26dd98f485cb7a3f57"
+        "sha256": "528c0a79d355cd293bbd46d300c55a73239a3e21c359d1e45516ec7a2314d00c",
+        "version": "528c0a79d355cd293bbd46d300c55a73239a3e21c359d1e45516ec7a2314d00c"
       },
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "main_1.jpg",
-        "sha256": "8fc16eedd89329f25346bf888edb93cd74a04f34170392c982fcd0853fa901b5",
-        "version": "8fc16eedd89329f25346bf888edb93cd74a04f34170392c982fcd0853fa901b5"
+        "sha256": "43361c8a67454614d93cd37738b79adb122f70dd990511d2f839f3b5bc3ecfbb",
+        "version": "43361c8a67454614d93cd37738b79adb122f70dd990511d2f839f3b5bc3ecfbb"
       },
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "nanda_0.jpg",
-        "sha256": "90b1bb04f5b0b6fc552b450a919d087d740460412e9e88cc5911d2d6dafdb794",
-        "version": "90b1bb04f5b0b6fc552b450a919d087d740460412e9e88cc5911d2d6dafdb794"
+        "sha256": "4f70ee36bf7b018f83ee59f241daedb3f6ee697500e44991441b98f935a84e20",
+        "version": "4f70ee36bf7b018f83ee59f241daedb3f6ee697500e44991441b98f935a84e20"
       },
       {
-        "last_updated": "2026-10-01T10:36:23.848650+08:00",
+        "last_updated": "2026-11-04T12:13:53.950257+08:00",
         "name": "nanda_1.jpg",
-        "sha256": "820da0ed45772b4739d500fd7a0de9101572462a04347fb4156d83d49bb7071f",
-        "version": "820da0ed45772b4739d500fd7a0de9101572462a04347fb4156d83d49bb7071f"
+        "sha256": "1492c52f929d7d20b41e2b1c2ea6831e4f151bba68c16b84e6922aa484bed23a",
+        "version": "1492c52f929d7d20b41e2b1c2ea6831e4f151bba68c16b84e6922aa484bed23a"
       }
     ],
     "calendars/111": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-04T10:16:02.939150+08:00"
+  "last_updated": "2026-11-04T12:13:53.950257+08:00"
 }
