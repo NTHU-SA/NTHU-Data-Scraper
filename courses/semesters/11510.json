@@ -18097,17 +18097,11 @@
         ],
         "meetings": [
             {
-                "classroom": "GEN II綜二103",
-                "time": "MaMb",
+                "classroom": "GEN II綜二104",
+                "time": "MaMbWaWb",
                 "time_codes": [
                     "Ma",
-                    "Mb"
-                ]
-            },
-            {
-                "classroom": "GEN II綜二110",
-                "time": "WaWb",
-                "time_codes": [
+                    "Mb",
                     "Wa",
                     "Wb"
                 ]
@@ -19052,7 +19046,7 @@
         "id": "11510CLC 101303",
         "chinese_title": "初級華語生活會話三",
         "english_title": "Mandarin Basic Conversation Ⅲ",
-        "note": "綜二104教室整修完畢後回該教室上課。",
+        "note": "",
         "limit_note": "限外籍生",
         "object": "",
         "ge_type": "",
@@ -19083,7 +19077,7 @@
         ],
         "meetings": [
             {
-                "classroom": "GEN II綜二205",
+                "classroom": "GEN II綜二104",
                 "time": "R3R4",
                 "time_codes": [
                     "R3",
@@ -170764,12 +170758,12 @@
                 "name_en": "HSU, HUNG-CHIH"
             },
             {
-                "name_zh": "黃晨祐",
-                "name_en": "HUANG, CHEN-YU"
-            },
-            {
                 "name_zh": "蔡宗諭",
                 "name_en": "TSAI, TSUNG-YU"
+            },
+            {
+                "name_zh": "黃晨祐",
+                "name_en": "HUANG, CHEN-YU"
             },
             {
                 "name_zh": "林慶齡",
