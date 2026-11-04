@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "announcements.json",
-        "sha256": "f85a10edfa40ac658bdf2f9b7ebabb3d46645b0fdcdcad86a5a13be0b291a2a7",
-        "version": "f85a10edfa40ac658bdf2f9b7ebabb3d46645b0fdcdcad86a5a13be0b291a2a7"
+        "sha256": "4d948a9fe7eb5dbd964b07160464958911223e4799d4df7f7c8658e30eef36cb",
+        "version": "4d948a9fe7eb5dbd964b07160464958911223e4799d4df7f7c8658e30eef36cb"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -26,10 +26,10 @@
         "version": "41885434ffa787a791072b5d33cedf838c62858cec340ef186d8a7c265e4c5e8"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "buses.json",
-        "sha256": "5eb07b5a75891b2f1a438b1af641dd03d59f4c8cdf64b794d267867a99cc7026",
-        "version": "5eb07b5a75891b2f1a438b1af641dd03d59f4c8cdf64b794d267867a99cc7026"
+        "sha256": "0b947342fad08081d74fcd9306024d6f583d2b0606b4e463b64c928a881c9462",
+        "version": "0b947342fad08081d74fcd9306024d6f583d2b0606b4e463b64c928a881c9462"
       },
       {
         "last_updated": "2026-09-28T01:28:20.685472+08:00",
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-11-03T18:12:20.376475+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "e07068066b13d0636b64d0056e486f9ba2340daf0ef96a5b1c7d67aa58f5930b",
-        "version": "e07068066b13d0636b64d0056e486f9ba2340daf0ef96a5b1c7d67aa58f5930b"
+        "sha256": "c3a83c26b0738bc0abed3977652741ab78145b7ecf0039a45c71d8762cf3d36f",
+        "version": "c3a83c26b0738bc0abed3977652741ab78145b7ecf0039a45c71d8762cf3d36f"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -1710,10 +1710,10 @@
     ],
     "announcements/研究發展處研究倫理辦公室": [
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "IACUC審查事項公告_zh-tw.json",
-        "sha256": "e8d0ec8a1cec11c8ce58e846e7dc7dd15caa76e24bcd93ec87517053cb5aa9f3",
-        "version": "e8d0ec8a1cec11c8ce58e846e7dc7dd15caa76e24bcd93ec87517053cb5aa9f3"
+        "sha256": "24988e987b0990cc86765ad105b4ca4dba819c639df52a9b21ba3758f65eb79c",
+        "version": "24988e987b0990cc86765ad105b4ca4dba819c639df52a9b21ba3758f65eb79c"
       },
       {
         "last_updated": "2026-10-21T10:25:46.059032+08:00",
@@ -2296,22 +2296,22 @@
     ],
     "announcements/總務處事務組": [
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "News_en.json",
-        "sha256": "fdf08ccb5c37baf1c934fe970fa1fed5564bcaca78d9b4604285567e7511786d",
-        "version": "fdf08ccb5c37baf1c934fe970fa1fed5564bcaca78d9b4604285567e7511786d"
+        "sha256": "8e91ab559325109060750f48630ccd203123593f4ff917e8d99740f2c6b50884",
+        "version": "8e91ab559325109060750f48630ccd203123593f4ff917e8d99740f2c6b50884"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "ef4fa12587df1301b8d36a1d8be8a7c42c93d8b0f47a20e32782d72b1a85bc7f",
-        "version": "ef4fa12587df1301b8d36a1d8be8a7c42c93d8b0f47a20e32782d72b1a85bc7f"
+        "sha256": "4f5bd80209cb6697fd9c66e5e5f3c319c1037182d5b838bb6dc62d9bab2a729d",
+        "version": "4f5bd80209cb6697fd9c66e5e5f3c319c1037182d5b838bb6dc62d9bab2a729d"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "校園公車暨巡迴公車公告_en.json",
-        "sha256": "3f5949af420da4d46f62baaa454cad4f4c8d1288df9900b36de596b4f812259b",
-        "version": "3f5949af420da4d46f62baaa454cad4f4c8d1288df9900b36de596b4f812259b"
+        "sha256": "4bce3f050a674b0da87e7fcaf56e33b4733dd7709cd3309793952c9efac606dc",
+        "version": "4bce3f050a674b0da87e7fcaf56e33b4733dd7709cd3309793952c9efac606dc"
       },
       {
         "last_updated": "2026-11-04T12:13:53.950257+08:00",
@@ -2578,10 +2578,10 @@
         "version": "e3dbf549e506a300fd84b46d19a132fab5d1aebeabae350d71b5b915da6a01c0"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "nanda_schedule_images.json",
-        "sha256": "cd697c86097d0d18c0bdc986e513a73293f91fa8268f1e21a4e1450ba31575ff",
-        "version": "cd697c86097d0d18c0bdc986e513a73293f91fa8268f1e21a4e1450ba31575ff"
+        "sha256": "fc9bf109359f489adc065b4d3a289d8b7ebf0300f9f03213eb8fab292d9204f1",
+        "version": "fc9bf109359f489adc065b4d3a289d8b7ebf0300f9f03213eb8fab292d9204f1"
       },
       {
         "last_updated": "2026-11-04T10:16:02.939150+08:00",
@@ -2670,16 +2670,16 @@
         "version": "43361c8a67454614d93cd37738b79adb122f70dd990511d2f839f3b5bc3ecfbb"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "nanda_0.jpg",
-        "sha256": "4f70ee36bf7b018f83ee59f241daedb3f6ee697500e44991441b98f935a84e20",
-        "version": "4f70ee36bf7b018f83ee59f241daedb3f6ee697500e44991441b98f935a84e20"
+        "sha256": "275770c20055c338ea602b69ae75584fae280a9f250b205055493f19151e79e9",
+        "version": "275770c20055c338ea602b69ae75584fae280a9f250b205055493f19151e79e9"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T14:20:29.077398+08:00",
         "name": "nanda_1.jpg",
-        "sha256": "1492c52f929d7d20b41e2b1c2ea6831e4f151bba68c16b84e6922aa484bed23a",
-        "version": "1492c52f929d7d20b41e2b1c2ea6831e4f151bba68c16b84e6922aa484bed23a"
+        "sha256": "cc7d865f58c08c3acc9a9a0fd38e8f53ce84affbf5a2adfbe1b0c4d4b10a67cc",
+        "version": "cc7d865f58c08c3acc9a9a0fd38e8f53ce84affbf5a2adfbe1b0c4d4b10a67cc"
       }
     ],
     "calendars/111": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-04T12:13:53.950257+08:00"
+  "last_updated": "2026-11-04T14:20:29.077398+08:00"
 }
