@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-04T14:20:29.077398+08:00",
+        "last_updated": "2026-11-04T16:15:40.927264+08:00",
         "name": "announcements.json",
-        "sha256": "4d948a9fe7eb5dbd964b07160464958911223e4799d4df7f7c8658e30eef36cb",
-        "version": "4d948a9fe7eb5dbd964b07160464958911223e4799d4df7f7c8658e30eef36cb"
+        "sha256": "8ad1d0784791c4347d10807e28aafa98b3fb1f252024145212ed6ca3226eec8e",
+        "version": "8ad1d0784791c4347d10807e28aafa98b3fb1f252024145212ed6ca3226eec8e"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T16:15:40.927264+08:00",
         "name": "dining.json",
-        "sha256": "37aee00c23d8057e6fdbcba8b76c8fabc9f82fc45b08793ed80e9b69123b04fc",
-        "version": "37aee00c23d8057e6fdbcba8b76c8fabc9f82fc45b08793ed80e9b69123b04fc"
+        "sha256": "60ca6a2f8b0e6259063696a236cfbc0b979488eef368871d35a87c9f4d00bbf8",
+        "version": "60ca6a2f8b0e6259063696a236cfbc0b979488eef368871d35a87c9f4d00bbf8"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1680,10 +1680,10 @@
     ],
     "announcements/生命科學暨醫學院醫學資訊碩士學位學程": [
       {
-        "last_updated": "2026-11-02T16:18:17.378038+08:00",
+        "last_updated": "2026-11-04T16:15:40.927264+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "c4d9decc7bd09b1ed442783f46ade1d737e91feadb796903bbe7b28d1236a4cc",
-        "version": "c4d9decc7bd09b1ed442783f46ade1d737e91feadb796903bbe7b28d1236a4cc"
+        "sha256": "23da8765fcfe45e4ecd82f5a4f909fa7989822a0dbfd1211fcc7e76ce399db1b",
+        "version": "23da8765fcfe45e4ecd82f5a4f909fa7989822a0dbfd1211fcc7e76ce399db1b"
       }
     ],
     "announcements/研究發展處人文社會研究中心": [
@@ -1710,16 +1710,16 @@
     ],
     "announcements/研究發展處研究倫理辦公室": [
       {
-        "last_updated": "2026-11-04T14:20:29.077398+08:00",
+        "last_updated": "2026-11-04T16:15:40.927264+08:00",
         "name": "IACUC審查事項公告_zh-tw.json",
-        "sha256": "24988e987b0990cc86765ad105b4ca4dba819c639df52a9b21ba3758f65eb79c",
-        "version": "24988e987b0990cc86765ad105b4ca4dba819c639df52a9b21ba3758f65eb79c"
+        "sha256": "4fb1b0897529409abb0daa2ecedd5795c13a18f6194283be6022d82bdefac8f9",
+        "version": "4fb1b0897529409abb0daa2ecedd5795c13a18f6194283be6022d82bdefac8f9"
       },
       {
-        "last_updated": "2026-10-21T10:25:46.059032+08:00",
+        "last_updated": "2026-11-04T16:15:40.927264+08:00",
         "name": "IACUC最新消息公告_zh-tw.json",
-        "sha256": "4a7f4e67688f313bd145a56d2619002d78f6924f0c304f9950aa4582c54a58c2",
-        "version": "4a7f4e67688f313bd145a56d2619002d78f6924f0c304f9950aa4582c54a58c2"
+        "sha256": "bb2f02f1564e0ec1832df52ce0c7a7fe2ea93129f8b7c22df0f8acdd3fbfc5c7",
+        "version": "bb2f02f1564e0ec1832df52ce0c7a7fe2ea93129f8b7c22df0f8acdd3fbfc5c7"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -2400,10 +2400,10 @@
         "version": "a98d949a1269a431028322eead410ef26f711c7e58d6b723836a786c52a6b4ae"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T16:15:40.927264+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "702ed8037fa75f88909051cc688e52ee32297937a977193d936943631451fd29",
-        "version": "702ed8037fa75f88909051cc688e52ee32297937a977193d936943631451fd29"
+        "sha256": "5b9ae7d6f952be586bab947313b4ef2f01a479f346f7a7c4ec6e04b2ce3cb285",
+        "version": "5b9ae7d6f952be586bab947313b4ef2f01a479f346f7a7c4ec6e04b2ce3cb285"
       }
     ],
     "announcements/總務處經營管理組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-04T14:20:29.077398+08:00"
+  "last_updated": "2026-11-04T16:15:40.927264+08:00"
 }
