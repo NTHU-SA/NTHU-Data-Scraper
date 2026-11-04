@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-04T08:30:12.405424+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "announcements.json",
-        "sha256": "f209f96a2457852ace2bedf71fefafe8b2b256f689a07767d7e00c2ef66b869b",
-        "version": "f209f96a2457852ace2bedf71fefafe8b2b256f689a07767d7e00c2ef66b869b"
+        "sha256": "1e6e4e0c97cd3821f8edf98fe1a5c3693fa8b7ca959acdc7292144a42224dd12",
+        "version": "1e6e4e0c97cd3821f8edf98fe1a5c3693fa8b7ca959acdc7292144a42224dd12"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -26,10 +26,10 @@
         "version": "41885434ffa787a791072b5d33cedf838c62858cec340ef186d8a7c265e4c5e8"
       },
       {
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "buses.json",
-        "sha256": "c3b8b336bafdf40ce6fecdfb5200673918f5f6e1a62cf0db08ffd38c3f796c7d",
-        "version": "c3b8b336bafdf40ce6fecdfb5200673918f5f6e1a62cf0db08ffd38c3f796c7d"
+        "sha256": "e4e79b236b953ea5150161821d2d2b9c9a82f78c359c2c5f88b015ec693e6c9e",
+        "version": "e4e79b236b953ea5150161821d2d2b9c9a82f78c359c2c5f88b015ec693e6c9e"
       },
       {
         "last_updated": "2026-09-28T01:28:20.685472+08:00",
@@ -580,10 +580,10 @@
     ],
     "announcements/工學院奈米工程與微系統研究所": [
       {
-        "last_updated": "2026-10-12T09:01:33.978927+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "Lecture_en.json",
-        "sha256": "ea94856f6f1da1058bc4d1a1b3df1af3e458534551f9709b65e44bf81d802a5f",
-        "version": "ea94856f6f1da1058bc4d1a1b3df1af3e458534551f9709b65e44bf81d802a5f"
+        "sha256": "410f4519c3ae19a37d38ff6b3009c9dbfe04b1706528c7653ed4110c36bd41b9",
+        "version": "410f4519c3ae19a37d38ff6b3009c9dbfe04b1706528c7653ed4110c36bd41b9"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -616,10 +616,10 @@
         "version": "7ccb33b183b792b22b4a1e55d43a6d98e9f5d13e41c668ebdf5fe3c269917ba5"
       },
       {
-        "last_updated": "2026-10-12T09:01:33.978927+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "演講訊息_zh-tw.json",
-        "sha256": "8562341ea4ccf25746b62c10b5fce238ba299d66015e3b50c552d6f09b2af6fe",
-        "version": "8562341ea4ccf25746b62c10b5fce238ba299d66015e3b50c552d6f09b2af6fe"
+        "sha256": "30a32afcf44c1457dcc05d01739ef2362418fb466171d2a458de1d0c98a3786d",
+        "version": "30a32afcf44c1457dcc05d01739ef2362418fb466171d2a458de1d0c98a3786d"
       },
       {
         "last_updated": "2026-10-29T18:14:27.836998+08:00",
@@ -2296,28 +2296,28 @@
     ],
     "announcements/總務處事務組": [
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "News_en.json",
-        "sha256": "81d81a65de01137b659fb2724fbe6451e4d07410b1b939f515e19cf31f45403e",
-        "version": "81d81a65de01137b659fb2724fbe6451e4d07410b1b939f515e19cf31f45403e"
+        "sha256": "27f13775748ac88b0bed72355af2d4a62344c468028265f58a21c8ce3db17853",
+        "version": "27f13775748ac88b0bed72355af2d4a62344c468028265f58a21c8ce3db17853"
       },
       {
-        "last_updated": "2026-11-04T00:13:49.366722+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "bddd9957e3edc71ec7fd0d7add9c12173f82735d1afb78fabdf86ebe0ec439b2",
-        "version": "bddd9957e3edc71ec7fd0d7add9c12173f82735d1afb78fabdf86ebe0ec439b2"
+        "sha256": "de2368e1e1a17824a49aa5fea538267e2507f1ada557f808af74ee192b21785c",
+        "version": "de2368e1e1a17824a49aa5fea538267e2507f1ada557f808af74ee192b21785c"
       },
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "校園公車暨巡迴公車公告_en.json",
-        "sha256": "e4add649885d62f4cf1b297489b76171e02841ff3857c1eb29d48b4df6527dc2",
-        "version": "e4add649885d62f4cf1b297489b76171e02841ff3857c1eb29d48b4df6527dc2"
+        "sha256": "4c22e8810913b145f83b143e9af5af6fc182c0902398904782f22873f77a55f1",
+        "version": "4c22e8810913b145f83b143e9af5af6fc182c0902398904782f22873f77a55f1"
       },
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "校園公車暨巡迴公車公告_zh-tw.json",
-        "sha256": "7f3fe941cafa6d174bc9d7f4fcbb7861e6265eb99eb9ff5d4e89d4ef723585c6",
-        "version": "7f3fe941cafa6d174bc9d7f4fcbb7861e6265eb99eb9ff5d4e89d4ef723585c6"
+        "sha256": "4b6d11ea5f3ac5556e7d9c65f1d9626ebd2e1433c2696582093804fcf9fd70b5",
+        "version": "4b6d11ea5f3ac5556e7d9c65f1d9626ebd2e1433c2696582093804fcf9fd70b5"
       }
     ],
     "announcements/總務處保管組": [
@@ -2584,34 +2584,34 @@
         "version": "94353533d23801112fbe5cab1c3c78a30c7da3a303c8854df98b0ec5d0b8dd3d"
       },
       {
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "towardMainCampusInfo.json",
-        "sha256": "656f40d3972907defc678648d83c5ba12617ce2a54380e477010511bab8d794f",
-        "version": "656f40d3972907defc678648d83c5ba12617ce2a54380e477010511bab8d794f"
+        "sha256": "3c20605459719a49352a0b5ade119a09433bbf5b7fa7ec17c6dcd266efa657b0",
+        "version": "3c20605459719a49352a0b5ade119a09433bbf5b7fa7ec17c6dcd266efa657b0"
       },
       {
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "towardMainGateInfo.json",
-        "sha256": "f5f6395309fa34b50c94576398386af5d52d3d9adc24a39eed7298b768ef2dba",
-        "version": "f5f6395309fa34b50c94576398386af5d52d3d9adc24a39eed7298b768ef2dba"
+        "sha256": "a6f9f1cb06288c396f84ace27bf6462d80eb0139484b6aa6aa63b90f29b796c7",
+        "version": "a6f9f1cb06288c396f84ace27bf6462d80eb0139484b6aa6aa63b90f29b796c7"
       },
       {
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "towardNandaInfo.json",
-        "sha256": "bba9d8498cdca6e758e591fa5f6865631fa00203597efa1e9d70f2e681242433",
-        "version": "bba9d8498cdca6e758e591fa5f6865631fa00203597efa1e9d70f2e681242433"
+        "sha256": "04aeb4d2982a35a9db2e27265d89b3da5f705a49dd3b971a7a1c09a707e3de8f",
+        "version": "04aeb4d2982a35a9db2e27265d89b3da5f705a49dd3b971a7a1c09a707e3de8f"
       },
       {
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "towardTSMCBuildingInfo.json",
-        "sha256": "a9ef01f08ca316d05de639766b60d4d6deb3a8acbb1463d41ab9a26bab6a3238",
-        "version": "a9ef01f08ca316d05de639766b60d4d6deb3a8acbb1463d41ab9a26bab6a3238"
+        "sha256": "8ab267fcd621da97ad64f6f757ee94a15458b3dd531be5e45657b418243b98c7",
+        "version": "8ab267fcd621da97ad64f6f757ee94a15458b3dd531be5e45657b418243b98c7"
       },
       {
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "weekdayBusScheduleTowardMainCampus.json",
-        "sha256": "df5609727697554e765529779a2ed3d328154de8854378e1132f2202d3ad4ff7",
-        "version": "df5609727697554e765529779a2ed3d328154de8854378e1132f2202d3ad4ff7"
+        "sha256": "a197f32ea2d2f7919b6cc33435959baeabce58009055052661c041ece7bda6cd",
+        "version": "a197f32ea2d2f7919b6cc33435959baeabce58009055052661c041ece7bda6cd"
       },
       {
         "last_updated": "2026-10-05T10:37:44.015950+08:00",
@@ -2620,10 +2620,10 @@
         "version": "e95813c70718ac2c9cd28018da2eeb3d57cdc9fa4a7d5c0345356e9a68e0df38"
       },
       {
-        "last_updated": "2026-10-05T10:37:44.015950+08:00",
+        "last_updated": "2026-11-04T10:16:02.939150+08:00",
         "name": "weekdayBusScheduleTowardNanda.json",
-        "sha256": "ea713ce866a8c2ff9474111134fa406e98b4c4d7d4fa35e3bd6a601896663f3d",
-        "version": "ea713ce866a8c2ff9474111134fa406e98b4c4d7d4fa35e3bd6a601896663f3d"
+        "sha256": "9932d7163aa4281978ea33154f61989d5f34ca92487a94bca78bf8fa34fe9cc9",
+        "version": "9932d7163aa4281978ea33154f61989d5f34ca92487a94bca78bf8fa34fe9cc9"
       },
       {
         "last_updated": "2026-10-05T10:37:44.015950+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-04T08:30:12.405424+08:00"
+  "last_updated": "2026-11-04T10:16:02.939150+08:00"
 }
