@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-04T16:15:40.927264+08:00",
+        "last_updated": "2026-11-04T18:14:03.631527+08:00",
         "name": "announcements.json",
-        "sha256": "8ad1d0784791c4347d10807e28aafa98b3fb1f252024145212ed6ca3226eec8e",
-        "version": "8ad1d0784791c4347d10807e28aafa98b3fb1f252024145212ed6ca3226eec8e"
+        "sha256": "ca01d21dc527d47cc5e19a74bab67682e5da0b4d6a99f4f449500ea60e308004",
+        "version": "ca01d21dc527d47cc5e19a74bab67682e5da0b4d6a99f4f449500ea60e308004"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -226,10 +226,10 @@
         "version": "98ba1b43567c65767b6e0105a80ddae9044ca88738a4820a55b4b996279095cb"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-04T18:14:03.631527+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "2a969c477b0b609430824c57d0315192df6c6bdaebdcf01364bc0d66dbb812d7",
-        "version": "2a969c477b0b609430824c57d0315192df6c6bdaebdcf01364bc0d66dbb812d7"
+        "sha256": "4dd5593dc8ee68f5f2c20975dceae49ca3c99fc1f5d838cb29d5d4907e09e575",
+        "version": "4dd5593dc8ee68f5f2c20975dceae49ca3c99fc1f5d838cb29d5d4907e09e575"
       },
       {
         "last_updated": "2026-10-27T12:21:26.215711+08:00",
@@ -448,10 +448,10 @@
         "version": "3e78ca93f95c9b9279dd1ce277e45c9e81f1d59cccfbb24f8d0c948b54213ac3"
       },
       {
-        "last_updated": "2026-10-30T10:19:34.484043+08:00",
+        "last_updated": "2026-11-04T18:14:03.631527+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "673bc22248ae23bc3bc81dabaa6779e989ddc9df46a4e535734794d016a11e45",
-        "version": "673bc22248ae23bc3bc81dabaa6779e989ddc9df46a4e535734794d016a11e45"
+        "sha256": "3c6845ac96f05406f38c4804390669349d17f20ef949f68c163d62f5c6741ae8",
+        "version": "3c6845ac96f05406f38c4804390669349d17f20ef949f68c163d62f5c6741ae8"
       }
     ],
     "announcements/學務處生活輔導組(水木生活中心2樓)": [
@@ -526,10 +526,10 @@
         "version": "0572157ddccd1834ed6af698170ad7fb3af35fd3a75be31e99107234d1ea3fe1"
       },
       {
-        "last_updated": "2026-11-04T14:20:29.077398+08:00",
+        "last_updated": "2026-11-04T18:14:03.631527+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "c3a83c26b0738bc0abed3977652741ab78145b7ecf0039a45c71d8762cf3d36f",
-        "version": "c3a83c26b0738bc0abed3977652741ab78145b7ecf0039a45c71d8762cf3d36f"
+        "sha256": "58eb7a63c757d6843ae6f5598e50a0e704d5aa3234f302bff40ebd53403a922c",
+        "version": "58eb7a63c757d6843ae6f5598e50a0e704d5aa3234f302bff40ebd53403a922c"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -1990,10 +1990,10 @@
         "version": "a0035d155c29fa4a41091d83487d479e8062fcbe75a0fa1a526d9890897c5881"
       },
       {
-        "last_updated": "2026-10-30T08:37:02.243792+08:00",
+        "last_updated": "2026-11-04T18:14:03.631527+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "fda730679c37851bd49abe177b942805d409bf7f46e9a81eb650f54177b259a0",
-        "version": "fda730679c37851bd49abe177b942805d409bf7f46e9a81eb650f54177b259a0"
+        "sha256": "0f86f27527aac3b0904179f0b21bdbaa88c48c6e8fb60b72f425dd97d0b23088",
+        "version": "0f86f27527aac3b0904179f0b21bdbaa88c48c6e8fb60b72f425dd97d0b23088"
       }
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-04T16:15:40.927264+08:00"
+  "last_updated": "2026-11-04T18:14:03.631527+08:00"
 }
