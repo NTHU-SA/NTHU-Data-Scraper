@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2071",
+            "category": "展覽與活動",
+            "title": "【圖書館月】電子資源 e 起 GO",
+            "link": "https://www.lib.nthu.edu.tw/events/2026/libmonth/#missions",
+            "pubDate": "Thu, 05 Nov 2026 15:25:11 +0800",
+            "description": "✨電子資源 e 起 GO\n📅 2026/11/25 (三) 11:00－15:00 ｜旺宏館川堂\n圖書館訂購多種資料庫及電子資源：\n資料庫 × 電子書 × 電子雜誌等，現場一次介紹給您~~\n完成指定活動即可獲得精美小禮物~~\n快來！！一鍵解壓縮解鎖您的知識寶庫~~\n只要參加 電子資源 e 起 GO 任一攤位活動，即可獲得圖書館月「關卡任務挑戰」集章２點。",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/2026eGoGOGO.jpg",
+                "title": "【圖書館月】電子資源 e 起 GO",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2069",
             "category": "展覽與活動",
             "title": "【活動快訊】11/11(三) 週三響時光 | 柴可夫斯基：第一號鋼琴協奏曲 (黑膠專場)",
@@ -1208,6 +1222,20 @@
         }
     ],
     "exhibit": [
+        {
+            "guid": "2071",
+            "category": "展覽與活動",
+            "title": "【圖書館月】電子資源 e 起 GO",
+            "link": "https://www.lib.nthu.edu.tw/events/2026/libmonth/#missions",
+            "pubDate": "Thu, 05 Nov 2026 15:25:11 +0800",
+            "description": "✨電子資源 e 起 GO\n📅 2026/11/25 (三) 11:00－15:00 ｜旺宏館川堂\n圖書館訂購多種資料庫及電子資源：\n資料庫 × 電子書 × 電子雜誌等，現場一次介紹給您~~\n完成指定活動即可獲得精美小禮物~~\n快來！！一鍵解壓縮解鎖您的知識寶庫~~\n只要參加 電子資源 e 起 GO 任一攤位活動，即可獲得圖書館月「關卡任務挑戰」集章２點。",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/2026eGoGOGO.jpg",
+                "title": "【圖書館月】電子資源 e 起 GO",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2069",
             "category": "展覽與活動",
