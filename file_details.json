@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-05T10:17:23.833990+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "announcements.json",
-        "sha256": "1b03b8a255ec0a63e74fcde38ccf84a007274e86b885a24ba2ba3d28473d6482",
-        "version": "1b03b8a255ec0a63e74fcde38ccf84a007274e86b885a24ba2ba3d28473d6482"
+        "sha256": "552f60e67ddc0a4ce0b6ef9341a8161304cd63e001f7fa74cb3479ed41dfd641",
+        "version": "552f60e67ddc0a4ce0b6ef9341a8161304cd63e001f7fa74cb3479ed41dfd641"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -598,10 +598,10 @@
         "version": "606d61784b147524f306ed661f285ca31579a54efd9b18a7618570e9ec8eca63"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "奈微所榮譽_zh-tw.json",
-        "sha256": "b9566f71820bd0e5be98641588b1258f1e4f9a3c7eac42e46b7cca2895e2191d",
-        "version": "b9566f71820bd0e5be98641588b1258f1e4f9a3c7eac42e46b7cca2895e2191d"
+        "sha256": "ce2cf3b6cb1370d6fc9e5782ea3fe89595c8f6e34773a40d7ae54e3759fc3624",
+        "version": "ce2cf3b6cb1370d6fc9e5782ea3fe89595c8f6e34773a40d7ae54e3759fc3624"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1198,16 +1198,16 @@
         "version": "15a00506ec2cacd5473f349e20172fa91add4ae58da15eee82de427e8106fa44"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "學生活動_zh-tw.json",
-        "sha256": "0f7043684058f803c50630e20efc408b910548a6640712e7a5dcbfbed0529a56",
-        "version": "0f7043684058f803c50630e20efc408b910548a6640712e7a5dcbfbed0529a56"
+        "sha256": "bbf721746031cb78bd833e7d7a72d9617bcb81a8be0af7c848e44848cdb4c37e",
+        "version": "bbf721746031cb78bd833e7d7a72d9617bcb81a8be0af7c848e44848cdb4c37e"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "學術活動_zh-tw.json",
-        "sha256": "98bbd8adaeb10c256faf2a386990119ec2e4a05ef8208154ae9ba79aaa1d0173",
-        "version": "98bbd8adaeb10c256faf2a386990119ec2e4a05ef8208154ae9ba79aaa1d0173"
+        "sha256": "1bb66b39e4b450d17b35a1474bc3207bd7ad9f75886455817005c011caddddf7",
+        "version": "1bb66b39e4b450d17b35a1474bc3207bd7ad9f75886455817005c011caddddf7"
       },
       {
         "last_updated": "2026-11-04T12:13:53.950257+08:00",
@@ -1222,10 +1222,10 @@
         "version": "db5746fc64f14ab1188c157fea14e5a6f10918e795252ef3925c1859140a11ce"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "4f028f1fd82c05529a0dd8a9e2af0b8cd52d93fce39395aba496619b7c1015a9",
-        "version": "4f028f1fd82c05529a0dd8a9e2af0b8cd52d93fce39395aba496619b7c1015a9"
+        "sha256": "9cf58ef3e84d03b44f0b51f378b43b505416d3c1b47021811cfa7482c132fc8c",
+        "version": "9cf58ef3e84d03b44f0b51f378b43b505416d3c1b47021811cfa7482c132fc8c"
       },
       {
         "last_updated": "2026-10-28T08:37:33.863987+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "All seminar_en.json",
-        "sha256": "7f69a630af5a18fb96c197b6391e4cc1cf93d0e91bff2e0c6b64f0e3709faa08",
-        "version": "7f69a630af5a18fb96c197b6391e4cc1cf93d0e91bff2e0c6b64f0e3709faa08"
+        "sha256": "985e93cd863038f2d5cdf0130fed6f4df594ee4d9e8843887ec99d46ef10c293",
+        "version": "985e93cd863038f2d5cdf0130fed6f4df594ee4d9e8843887ec99d46ef10c293"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-04T12:13:53.950257+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "a7c87302394fcc61e172964ad77d0a0ff2a455ccd869f68895e3b2e0230326ba",
-        "version": "a7c87302394fcc61e172964ad77d0a0ff2a455ccd869f68895e3b2e0230326ba"
+        "sha256": "f308aa6674d9b789bcfd86e14b329930d5dc609a05ed222ed21e63d43cb4d29e",
+        "version": "f308aa6674d9b789bcfd86e14b329930d5dc609a05ed222ed21e63d43cb4d29e"
       },
       {
         "last_updated": "2026-11-02T18:13:07.209909+08:00",
@@ -1872,16 +1872,16 @@
     ],
     "announcements/竹師教育學院": [
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "媒體報導_zh-tw.json",
-        "sha256": "a2264cc517a0f3adbf58d6e741d2adf1f2b467654acad0ef6aed7f11ed22f1fe",
-        "version": "a2264cc517a0f3adbf58d6e741d2adf1f2b467654acad0ef6aed7f11ed22f1fe"
+        "sha256": "ff873595a620f3a2f94125a75012cac80a46ac1d1e89438c6cdaf67d82b463e4",
+        "version": "ff873595a620f3a2f94125a75012cac80a46ac1d1e89438c6cdaf67d82b463e4"
       },
       {
-        "last_updated": "2026-11-02T18:13:07.209909+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "學院公告 Announcement_zh-tw.json",
-        "sha256": "925a50bf471fc501d7cd31e090ef6896caf330ec9685852920c69690ae049ed5",
-        "version": "925a50bf471fc501d7cd31e090ef6896caf330ec9685852920c69690ae049ed5"
+        "sha256": "aea16856503a6ef77597de1d8dc795390ff3a32ee6a6f815ea4cb1aa315ac232",
+        "version": "aea16856503a6ef77597de1d8dc795390ff3a32ee6a6f815ea4cb1aa315ac232"
       },
       {
         "last_updated": "2026-10-29T14:23:35.823007+08:00",
@@ -1890,10 +1890,10 @@
         "version": "0f35a1e8c911bdd955bb86354c276c76351425cbff9a00d4174f199f022208a0"
       },
       {
-        "last_updated": "2026-11-02T18:13:07.209909+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "最新消息 News_zh-tw.json",
-        "sha256": "9baa2403f869dd61cbf84f107c98e405897895530a78d56c3dfe22db5d6de6e5",
-        "version": "9baa2403f869dd61cbf84f107c98e405897895530a78d56c3dfe22db5d6de6e5"
+        "sha256": "901cc6af92aa2c112345201083ea9999fafce3c1d76f35fd035faccd829d6058",
+        "version": "901cc6af92aa2c112345201083ea9999fafce3c1d76f35fd035faccd829d6058"
       },
       {
         "last_updated": "2026-10-30T20:21:00.227308+08:00",
@@ -1998,10 +1998,10 @@
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
       {
-        "last_updated": "2026-09-29T18:20:01.929793+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "5f71c053859ae9292adbc09ad9edf77ef21666d3d0350b2e2f67bb0d19fa816a",
-        "version": "5f71c053859ae9292adbc09ad9edf77ef21666d3d0350b2e2f67bb0d19fa816a"
+        "sha256": "c2127ff9b4f7de4f941d134f71d85804a23d51e683e78b94752a97244849ca48",
+        "version": "c2127ff9b4f7de4f941d134f71d85804a23d51e683e78b94752a97244849ca48"
       }
     ],
     "announcements/竹師教育學院教育心理與諮商學系": [
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-11-05T00:12:36.005175+08:00",
+        "last_updated": "2026-11-05T12:14:59.127189+08:00",
         "name": "rss.json",
-        "sha256": "630bd4de712157238d3d30fe03a31387f1ab36d5bb2bb2198d8b7c63ff1526e6",
-        "version": "630bd4de712157238d3d30fe03a31387f1ab36d5bb2bb2198d8b7c63ff1526e6"
+        "sha256": "28d64ba2afe3172210b3752ee9bb2b1139c178efe4407a19401beca544b5ab22",
+        "version": "28d64ba2afe3172210b3752ee9bb2b1139c178efe4407a19401beca544b5ab22"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-05T10:17:23.833990+08:00"
+  "last_updated": "2026-11-05T12:14:59.127189+08:00"
 }
