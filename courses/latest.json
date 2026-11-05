@@ -102435,12 +102435,12 @@
     "language_code": "zh",
     "lecturers": [
       {
-        "name_zh": "許育光",
-        "name_en": "HSU, YU-KUANG"
-      },
-      {
         "name_zh": "李昆樺",
         "name_en": "LEE, KUN-HUA"
+      },
+      {
+        "name_zh": "許育光",
+        "name_en": "HSU, YU-KUANG"
       }
     ],
     "meetings": [
@@ -107560,6 +107560,10 @@
     "language_code": "zh",
     "lecturers": [
       {
+        "name_zh": "劉雅甄",
+        "name_en": "YA-CHEN,LIU"
+      },
+      {
         "name_zh": "鄭麗媛",
         "name_en": "CHENG, LI-YUAN"
       }
@@ -109277,6 +109281,10 @@
       {
         "name_zh": "鄭麗媛",
         "name_en": "CHENG, LI-YUAN"
+      },
+      {
+        "name_zh": "陳豐慈",
+        "name_en": "CHEN, FENG-TZU"
       }
     ],
     "meetings": [
@@ -112131,7 +112139,7 @@
     "id": "11510LANG101023",
     "chinese_title": "中高級英文一",
     "english_title": "Upper-Intermediate English I",
-    "note": "綜二104教室整修完畢後回該教室上課。",
+    "note": "",
     "limit_note": "限大學部,前標生",
     "object": "",
     "ge_type": "",
@@ -113013,7 +113021,7 @@
     "id": "11510LANG103006",
     "chinese_title": "中高級英文三-閱讀",
     "english_title": "Upper-Intermediate English III：Reading",
-    "note": "綜二104教室整修完畢後回該教室上課。",
+    "note": "",
     "limit_note": "限大學部,頂標生",
     "object": "",
     "ge_type": "",
@@ -113044,7 +113052,7 @@
     ],
     "meetings": [
       {
-        "classroom": "GEN II綜二205",
+        "classroom": "GEN II綜二104",
         "time": "M1M2",
         "time_codes": [
           "M1",
@@ -113405,7 +113413,7 @@
     "id": "11510LANG103015",
     "chinese_title": "中高級英文三-閱讀",
     "english_title": "Upper-Intermediate English III：Reading",
-    "note": "綜二104教室整修完畢後回該教室上課。",
+    "note": "",
     "limit_note": "限大學部,頂標生",
     "object": "",
     "ge_type": "",
@@ -113436,7 +113444,7 @@
     ],
     "meetings": [
       {
-        "classroom": "GEN II綜二205",
+        "classroom": "GEN II綜二104",
         "time": "M3M4",
         "time_codes": [
           "M3",
@@ -116181,7 +116189,7 @@
     ],
     "meetings": [
       {
-        "classroom": "GEN II綜二614",
+        "classroom": "GEN II綜二104",
         "time": "TnT5T6",
         "time_codes": [
           "Tn",
@@ -164428,12 +164436,12 @@
     "language_code": "zh",
     "lecturers": [
       {
-        "name_zh": "林銘亮",
-        "name_en": "LIN, MING-LIANG"
-      },
-      {
         "name_zh": "羅仕龍",
         "name_en": "LO, SHIH-LUNG"
+      },
+      {
+        "name_zh": "林銘亮",
+        "name_en": "LIN, MING-LIANG"
       }
     ],
     "meetings": [
