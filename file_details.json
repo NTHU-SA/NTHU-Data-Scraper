@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-06T20:17:38.038606+08:00",
+        "last_updated": "2026-11-07T00:13:25.587303+08:00",
         "name": "announcements.json",
-        "sha256": "cb500099f6e5aab907b7879c6732da5eaac6ae32dd9e8bd3f3ee9b44f85a09c4",
-        "version": "cb500099f6e5aab907b7879c6732da5eaac6ae32dd9e8bd3f3ee9b44f85a09c4"
+        "sha256": "06c393b68413d82c31a7d49dc17d04b3f94a52d1015e2a2ca601c5f93c425b99",
+        "version": "06c393b68413d82c31a7d49dc17d04b3f94a52d1015e2a2ca601c5f93c425b99"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -378,10 +378,10 @@
         "version": "ae9374beee5637462230a12675029baae6ca706e897fcc59987472b421e7a9f5"
       },
       {
-        "last_updated": "2026-10-30T10:19:34.484043+08:00",
+        "last_updated": "2026-11-07T00:13:25.587303+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "24e09565b17b5a07bad9e3d64575bfb1e4deb49fb44a04f1d72f4474670b3a92",
-        "version": "24e09565b17b5a07bad9e3d64575bfb1e4deb49fb44a04f1d72f4474670b3a92"
+        "sha256": "af7eea8fa3a22f7893b047e4bd46a570d6191cb9d818509e9a8c615a594929c6",
+        "version": "af7eea8fa3a22f7893b047e4bd46a570d6191cb9d818509e9a8c615a594929c6"
       }
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
@@ -2030,10 +2030,10 @@
         "version": "bd165b5913d0c2019a1cd73ecbb744a37c9ecec23dbb13325b0ae1d3c1ea5ece"
       },
       {
-        "last_updated": "2026-10-30T20:21:00.227308+08:00",
+        "last_updated": "2026-11-07T00:13:25.587303+08:00",
         "name": "系務公告_zh-tw.json",
-        "sha256": "05959c7331c25a5d62311a4ee3aed4c9efe7e431184849d12a09d48867d99455",
-        "version": "05959c7331c25a5d62311a4ee3aed4c9efe7e431184849d12a09d48867d99455"
+        "sha256": "aed1805b75d7b5cbfefaf9acc89c9c599cd4387890698af498b72ed2d24bc37c",
+        "version": "aed1805b75d7b5cbfefaf9acc89c9c599cd4387890698af498b72ed2d24bc37c"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -2558,10 +2558,10 @@
         "version": "9bf3ca6d5add4ed7b1c42645d7ae074779edc2bb0d00ab6658d451f330a6bc67"
       },
       {
-        "last_updated": "2026-11-03T10:16:40.634217+08:00",
+        "last_updated": "2026-11-07T00:13:25.587303+08:00",
         "name": "演講公告_zh-tw.json",
-        "sha256": "7e8a38f7c917522ccb6cc649110ebcd942f85c633bf22329bf7845ab01f5ff04",
-        "version": "7e8a38f7c917522ccb6cc649110ebcd942f85c633bf22329bf7845ab01f5ff04"
+        "sha256": "1ee1ac61e18cb10c34b51d626bbd71b5c163228848abad2fc1dbb3c8b149b3b5",
+        "version": "1ee1ac61e18cb10c34b51d626bbd71b5c163228848abad2fc1dbb3c8b149b3b5"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-11-06T16:16:05.104935+08:00",
+        "last_updated": "2026-11-07T00:13:25.587303+08:00",
         "name": "rss.json",
-        "sha256": "870e129f074031ca5079added86864801e0bd54a80ea83c3c40eba7e6eda2c09",
-        "version": "870e129f074031ca5079added86864801e0bd54a80ea83c3c40eba7e6eda2c09"
+        "sha256": "2aa4419458a9017631812e9cd18147a189547f1e1bcbd1300a55b72b3e2737f5",
+        "version": "2aa4419458a9017631812e9cd18147a189547f1e1bcbd1300a55b72b3e2737f5"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-06T20:17:38.038606+08:00"
+  "last_updated": "2026-11-07T00:13:25.587303+08:00"
 }
