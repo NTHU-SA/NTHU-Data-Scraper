@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-07T00:13:25.587303+08:00",
+        "last_updated": "2026-11-07T02:15:54.798840+08:00",
         "name": "announcements.json",
-        "sha256": "06c393b68413d82c31a7d49dc17d04b3f94a52d1015e2a2ca601c5f93c425b99",
-        "version": "06c393b68413d82c31a7d49dc17d04b3f94a52d1015e2a2ca601c5f93c425b99"
+        "sha256": "c5e8210dcca192c17c56d2211238deba3b74b58a270e1fec4f03df3036b1f009",
+        "version": "c5e8210dcca192c17c56d2211238deba3b74b58a270e1fec4f03df3036b1f009"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1392,10 +1392,10 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_updated": "2026-11-05T16:17:19.181253+08:00",
+        "last_updated": "2026-11-07T02:15:54.798840+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "fbdf9cc82a19df73d934588d2e660f62d0fd81f416105eab10fe9fc122acb1e8",
-        "version": "fbdf9cc82a19df73d934588d2e660f62d0fd81f416105eab10fe9fc122acb1e8"
+        "sha256": "80af4e9b5e5be3ac7fbf83d388e918a29089731484882b26853a0f3b420f1bb1",
+        "version": "80af4e9b5e5be3ac7fbf83d388e918a29089731484882b26853a0f3b420f1bb1"
       }
     ],
     "announcements/理學院物理學系": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-07T00:13:25.587303+08:00"
+  "last_updated": "2026-11-07T02:15:54.798840+08:00"
 }
