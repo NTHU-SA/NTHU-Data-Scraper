@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-06T12:15:05.530629+08:00",
+        "last_updated": "2026-11-06T14:21:15.392972+08:00",
         "name": "announcements.json",
-        "sha256": "ee4e5e03e6844a5bef636b18750221f33b296c6a5d177f657ce1638e58b41d86",
-        "version": "ee4e5e03e6844a5bef636b18750221f33b296c6a5d177f657ce1638e58b41d86"
+        "sha256": "536fa041bf15dfdbc270916ca9bb4b51cd518a37ec956b32394cd8053795d251",
+        "version": "536fa041bf15dfdbc270916ca9bb4b51cd518a37ec956b32394cd8053795d251"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -846,16 +846,16 @@
         "version": "f0bbf96409405d437195aad00b144e18b34d9a59ee029a2191e7b219d581abcc"
       },
       {
-        "last_updated": "2026-10-29T14:23:35.823007+08:00",
+        "last_updated": "2026-11-06T14:21:15.392972+08:00",
         "name": "學士班最新公告_zh-tw.json",
-        "sha256": "11c2f1a9c6ae19053c8324e7546e5dcff895caff004326108a070fdd61679da0",
-        "version": "11c2f1a9c6ae19053c8324e7546e5dcff895caff004326108a070fdd61679da0"
+        "sha256": "df5d6d5a92de98f618d28ae0e6615c04d1d4b8a70e48f5e4d4f48416cf5045ba",
+        "version": "df5d6d5a92de98f618d28ae0e6615c04d1d4b8a70e48f5e4d4f48416cf5045ba"
       },
       {
-        "last_updated": "2026-11-06T12:15:05.530629+08:00",
+        "last_updated": "2026-11-06T14:21:15.392972+08:00",
         "name": "碩士專班最新公告_zh-tw.json",
-        "sha256": "ee5912062b8ce4a6e1d297970210f2da9f409f7f3aade4cd955b6cbec0742509",
-        "version": "ee5912062b8ce4a6e1d297970210f2da9f409f7f3aade4cd955b6cbec0742509"
+        "sha256": "0fbf9faf7509c63b30ec5c672a46b5ad13fd2bfb639c03b27124c01eb6ba3767",
+        "version": "0fbf9faf7509c63b30ec5c672a46b5ad13fd2bfb639c03b27124c01eb6ba3767"
       },
       {
         "last_updated": "2026-11-06T10:17:27.998762+08:00",
@@ -1020,10 +1020,10 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_updated": "2026-10-30T14:23:36.851411+08:00",
+        "last_updated": "2026-11-06T14:21:15.392972+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "e382340be8aeb4509ea3e56c3e4e0b3cc09527574ea156d3894874faf6a2a903",
-        "version": "e382340be8aeb4509ea3e56c3e4e0b3cc09527574ea156d3894874faf6a2a903"
+        "sha256": "09787b34739e29d0b0e04e6190a266825de6caf52f0ddeb4580169b63878ae33",
+        "version": "09787b34739e29d0b0e04e6190a266825de6caf52f0ddeb4580169b63878ae33"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -1990,10 +1990,10 @@
         "version": "a0035d155c29fa4a41091d83487d479e8062fcbe75a0fa1a526d9890897c5881"
       },
       {
-        "last_updated": "2026-11-04T18:14:03.631527+08:00",
+        "last_updated": "2026-11-06T14:21:15.392972+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "0f86f27527aac3b0904179f0b21bdbaa88c48c6e8fb60b72f425dd97d0b23088",
-        "version": "0f86f27527aac3b0904179f0b21bdbaa88c48c6e8fb60b72f425dd97d0b23088"
+        "sha256": "0a57fd1d261ee80e1636c4a403be0277a3096fa6c8245d5153b29b7178ac6e67",
+        "version": "0a57fd1d261ee80e1636c4a403be0277a3096fa6c8245d5153b29b7178ac6e67"
       }
     ],
     "announcements/竹師教育學院性_別教育發展中心": [
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-11-06T12:15:05.530629+08:00",
+        "last_updated": "2026-11-06T14:21:15.392972+08:00",
         "name": "rss.json",
-        "sha256": "24870eda489e038ea827c8d452d84a13672fb674df9014be3cd5fbe25c4b8502",
-        "version": "24870eda489e038ea827c8d452d84a13672fb674df9014be3cd5fbe25c4b8502"
+        "sha256": "740d22b7f703ab0ba99fa4abc3d5557f3ab6f5c3f9b21c8b515191e73f72fdde",
+        "version": "740d22b7f703ab0ba99fa4abc3d5557f3ab6f5c3f9b21c8b515191e73f72fdde"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-06T12:15:05.530629+08:00"
+  "last_updated": "2026-11-06T14:21:15.392972+08:00"
 }

@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2074",
+            "category": "研習課程",
+            "title": "【線上講座】11/17(二)清大博碩士論文庫線上說明會",
+            "link": "https://teams.microsoft.com/meet/478938758186298?p=7irU1mopA9ksmrrxqk",
+            "pubDate": "Fri, 06 Nov 2026 13:22:46 +0800",
+            "description": "✨清大博碩士論文庫線上說明會\n📅活動時間：2026-11-17 (二) 10:00-11:00\n🔗線上會議連結：https://teams.microsoft.com/meet/478938758186298?p=7irU1mopA9ksmrrxqk\n今年4月上線的學位論文上傳與審核流程特色如下：\n1、授權設定：研究生於申請學位考試前，請先至「研究生學位考試登錄系統」串接「博碩士論文庫」，完成授權與論文公開（或延後公開）的設定。\n2、審核機制：研究生完成電子全文上傳後，將先由圖書館進行格式檢核，通過後再送請指導教授進行內容審核。\n※2026.04.22新版論文繳交機制上線，請勿參考2026.05之前的模板與手冊！！\n※博碩士論文庫網站：https://etd.lib.nthu.edu.tw/zh-hant/help/news/\n※歡迎應屆畢業研究生、論文指導教授、系所秘書、論文業務承辦同仁參加，以了解「學位論文延後公開新制」的流程及作業方式，順利完成論文上傳、審核與繳交作業。",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261106.jpg",
+                "title": "【線上講座】11/17(二)清大博碩士論文庫線上說明會",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2073",
             "category": "研習課程",
             "title": "【線上講座】11/10(二)投稿寫作利器：EndNote 核心功能線上講座",
@@ -11,20 +25,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20261106.jpg",
                 "title": "【線上講座】11/10(二)投稿寫作利器：EndNote 核心功能線上講座",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "2074",
-            "category": "研習課程",
-            "title": "【線上講座】11/17(二)清大博碩士論文庫線上說明會",
-            "link": "https://teams.microsoft.com/meet/478938758186298?p=7irU1mopA9ksmrrxqk",
-            "pubDate": "Fri, 06 Nov 2026 12:01:14 +0800",
-            "description": "✨清大博碩士論文庫線上說明會\n📅活動時間：2026-11-17 (二) 10:00-11:00\n🔗線上會議連結：https://teams.microsoft.com/meet/478938758186298?p=7irU1mopA9ksmrrxqk\n今年4月上線的學位論文上傳與審核流程特色如下：\n1、授權設定：研究生於申請學位考試前，請先至「研究生學位考試登錄系統」串接「博碩士論文庫」，完成授權與論文公開（或延後公開）的設定。\n2、審核機制：研究生完成電子全文上傳後，將先由圖書館進行格式檢核，通過後再送請指導教授進行內容審核。\n※歡迎應屆畢業研究生、論文指導教授、系所秘書、論文業務承辦同仁參加，以了解「學位論文延後公開新制」的流程及作業方式，順利完成論文上傳、審核與繳交作業。",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261106.jpg",
-                "title": "【線上講座】11/17(二)清大博碩士論文庫線上說明會",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -45,14 +45,14 @@
         {
             "guid": "2071",
             "category": "展覽與活動",
-            "title": "【圖書館月】電子資源 e 起 GO",
+            "title": "【圖書館月】11/25(三)電子資源 e 起 GO",
             "link": "https://www.lib.nthu.edu.tw/events/2026/libmonth/#missions",
-            "pubDate": "Thu, 05 Nov 2026 15:25:11 +0800",
+            "pubDate": "Fri, 06 Nov 2026 13:24:34 +0800",
             "description": "✨電子資源 e 起 GO\n📅 2026/11/25 (三) 11:00－15:00 ｜旺宏館川堂\n圖書館訂購多種資料庫及電子資源：\n資料庫 × 電子書 × 電子雜誌等，現場一次介紹給您~~\n完成指定活動即可獲得精美小禮物~~\n快來！！一鍵解壓縮解鎖您的知識寶庫~~\n只要參加 電子資源 e 起 GO 任一攤位活動，即可獲得圖書館月「關卡任務挑戰」集章２點。",
             "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/2026eGoGOGO.jpg",
-                "title": "【圖書館月】電子資源 e 起 GO",
+                "title": "【圖書館月】11/25(三)電子資源 e 起 GO",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -1267,14 +1267,14 @@
         {
             "guid": "2071",
             "category": "展覽與活動",
-            "title": "【圖書館月】電子資源 e 起 GO",
+            "title": "【圖書館月】11/25(三)電子資源 e 起 GO",
             "link": "https://www.lib.nthu.edu.tw/events/2026/libmonth/#missions",
-            "pubDate": "Thu, 05 Nov 2026 15:25:11 +0800",
+            "pubDate": "Fri, 06 Nov 2026 13:24:34 +0800",
             "description": "✨電子資源 e 起 GO\n📅 2026/11/25 (三) 11:00－15:00 ｜旺宏館川堂\n圖書館訂購多種資料庫及電子資源：\n資料庫 × 電子書 × 電子雜誌等，現場一次介紹給您~~\n完成指定活動即可獲得精美小禮物~~\n快來！！一鍵解壓縮解鎖您的知識寶庫~~\n只要參加 電子資源 e 起 GO 任一攤位活動，即可獲得圖書館月「關卡任務挑戰」集章２點。",
             "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/2026eGoGOGO.jpg",
-                "title": "【圖書館月】電子資源 e 起 GO",
+                "title": "【圖書館月】11/25(三)電子資源 e 起 GO",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
