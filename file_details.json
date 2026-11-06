@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-06T00:15:51.081720+08:00",
+        "last_updated": "2026-11-06T08:32:26.756599+08:00",
         "name": "announcements.json",
-        "sha256": "1ca5e0e9878773bd54f2231a6df93223940ecee9038225458fc820e714691310",
-        "version": "1ca5e0e9878773bd54f2231a6df93223940ecee9038225458fc820e714691310"
+        "sha256": "7f3e28b66e4df5a90eb7cccadb4b41043b63b699cf52a12cc8b97d845209d4a9",
+        "version": "7f3e28b66e4df5a90eb7cccadb4b41043b63b699cf52a12cc8b97d845209d4a9"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -398,16 +398,16 @@
         "version": "f941a385031f6926093e3de6025a3ef877baca3e2eeef8dcb1e9fe94c4265864"
       },
       {
-        "last_updated": "2026-11-05T10:17:23.833990+08:00",
+        "last_updated": "2026-11-06T08:32:26.756599+08:00",
         "name": "News_en.json",
-        "sha256": "4fa74fe6483a1f3c96f008a38f8ff381dc90ad63cdc62fd265638aeddd9f3446",
-        "version": "4fa74fe6483a1f3c96f008a38f8ff381dc90ad63cdc62fd265638aeddd9f3446"
+        "sha256": "767767f10d63983ab022edd9c86c216ab291889299e822c437c95a5123d148bc",
+        "version": "767767f10d63983ab022edd9c86c216ab291889299e822c437c95a5123d148bc"
       },
       {
-        "last_updated": "2026-11-05T10:17:23.833990+08:00",
+        "last_updated": "2026-11-06T08:32:26.756599+08:00",
         "name": "公告_zh-tw.json",
-        "sha256": "8fb4329a8828427dfe0429fff6351f46818643e39d362de954fe43ffc1bb3505",
-        "version": "8fb4329a8828427dfe0429fff6351f46818643e39d362de954fe43ffc1bb3505"
+        "sha256": "5bb94e9ed384469ae5d0d4f6a7f87deb956ad71911ae9e0804b92126f7cfde8d",
+        "version": "5bb94e9ed384469ae5d0d4f6a7f87deb956ad71911ae9e0804b92126f7cfde8d"
       },
       {
         "last_updated": "2026-11-01T00:11:35.683930+08:00",
@@ -428,10 +428,10 @@
         "version": "0b0697f8b67139d48294a43177b0c83a6a93e418713f97b654b377a34e5cfc40"
       },
       {
-        "last_updated": "2026-10-28T10:19:31.475659+08:00",
+        "last_updated": "2026-11-06T08:32:26.756599+08:00",
         "name": "活動_會議_zh-tw.json",
-        "sha256": "229f9d998f164cd745c486eaf12a5a656eee67034136ab3bf393967e959d1cde",
-        "version": "229f9d998f164cd745c486eaf12a5a656eee67034136ab3bf393967e959d1cde"
+        "sha256": "0c9240b763d3903ff23d67fd9a810212bd0136bb6530192800e60e7e801414d5",
+        "version": "0c9240b763d3903ff23d67fd9a810212bd0136bb6530192800e60e7e801414d5"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -778,10 +778,10 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_updated": "2026-11-05T16:17:19.181253+08:00",
+        "last_updated": "2026-11-06T08:32:26.756599+08:00",
         "name": "徵才_研習_zh-tw.json",
-        "sha256": "ed2f3f575687b80a8eb9aac4b898f5e128a8b0d423c928a56215bee80cf450f1",
-        "version": "ed2f3f575687b80a8eb9aac4b898f5e128a8b0d423c928a56215bee80cf450f1"
+        "sha256": "371165d53c3a013312113fd53fbc100fe0594694119dbff8f8d1239f14ade78a",
+        "version": "371165d53c3a013312113fd53fbc100fe0594694119dbff8f8d1239f14ade78a"
       },
       {
         "last_updated": "2026-11-05T16:17:19.181253+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-11-05T16:17:19.181253+08:00",
+        "last_updated": "2026-11-06T08:32:26.756599+08:00",
         "name": "rss.json",
-        "sha256": "770ed49a656406dd83877ef6546c42989bbacee4c2cb88ab4d21da9f714f343a",
-        "version": "770ed49a656406dd83877ef6546c42989bbacee4c2cb88ab4d21da9f714f343a"
+        "sha256": "c48e80c3cac923269f58425dd215870143bd3ed34aeaa982d3648b228483e165",
+        "version": "c48e80c3cac923269f58425dd215870143bd3ed34aeaa982d3648b228483e165"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-06T06:12:13.896105+08:00"
+  "last_updated": "2026-11-06T08:32:26.756599+08:00"
 }

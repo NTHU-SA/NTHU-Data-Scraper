@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2072",
+            "category": "服務消息",
+            "title": "【服務公告】總圖6樓置物櫃故障停用",
+            "link": null,
+            "pubDate": "Fri, 06 Nov 2026 08:31:27 +0800",
+            "description": "總圖6樓置物櫃故障停用，有置物需求的讀者，煩請使用4、5樓置物櫃。\n造成您的不便，敬請見諒。",
+            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
+                "title": "【服務公告】總圖6樓置物櫃故障停用",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2071",
             "category": "展覽與活動",
             "title": "【圖書館月】電子資源 e 起 GO",
