@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-07T02:15:54.798840+08:00",
+        "last_updated": "2026-11-07T12:13:16.818266+08:00",
         "name": "announcements.json",
-        "sha256": "c5e8210dcca192c17c56d2211238deba3b74b58a270e1fec4f03df3036b1f009",
-        "version": "c5e8210dcca192c17c56d2211238deba3b74b58a270e1fec4f03df3036b1f009"
+        "sha256": "382c680f2ac2a68eb12595ad92d5837abfe951829e51bc73c4359429be2df62d",
+        "version": "382c680f2ac2a68eb12595ad92d5837abfe951829e51bc73c4359429be2df62d"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -2502,10 +2502,10 @@
         "version": "5d77a49b963a85c40f7fc333ea5c055e952ce4dcc374e090b8c42c848b8cb52c"
       },
       {
-        "last_updated": "2026-10-01T14:34:46.588600+08:00",
+        "last_updated": "2026-11-07T12:13:16.818266+08:00",
         "name": "招生公告_zh-tw.json",
-        "sha256": "048c912fc0ec54ef396a6302dfa4fe8284a140890b72c7e02cfadd4c116a97c8",
-        "version": "048c912fc0ec54ef396a6302dfa4fe8284a140890b72c7e02cfadd4c116a97c8"
+        "sha256": "e78db2a2c8cfd194064750332fb5c853502181347492d47d772472fe1f5362cf",
+        "version": "e78db2a2c8cfd194064750332fb5c853502181347492d47d772472fe1f5362cf"
       },
       {
         "last_updated": "2026-10-21T08:46:35.081676+08:00",
@@ -2526,10 +2526,10 @@
         "version": "1d481df4a9ac8ff4ce64ed1820533f621251eeb4edca4453fbca27bc08f4bdb5"
       },
       {
-        "last_updated": "2026-11-02T16:18:17.378038+08:00",
+        "last_updated": "2026-11-07T12:13:16.818266+08:00",
         "name": "演講公告_zh-tw.json",
-        "sha256": "2d37003fd107112addf7a7f2875d18115b9e730dafc4947f24bb934ffbc0a0f4",
-        "version": "2d37003fd107112addf7a7f2875d18115b9e730dafc4947f24bb934ffbc0a0f4"
+        "sha256": "9ebfe7185ec2f2d903242ca2ec32073ed9495f8777339094ed4c371b4b5c566e",
+        "version": "9ebfe7185ec2f2d903242ca2ec32073ed9495f8777339094ed4c371b4b5c566e"
       },
       {
         "last_updated": "2026-10-01T14:34:46.588600+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-07T06:11:22.778108+08:00"
+  "last_updated": "2026-11-07T12:13:16.818266+08:00"
 }
