@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-07T14:18:34.089565+08:00",
+        "last_updated": "2026-11-07T16:14:19.690997+08:00",
         "name": "announcements.json",
-        "sha256": "a35107c4c4c2c4a934bc0098d442a14dff54f7aa5df2b95e99536893bbdb7e16",
-        "version": "a35107c4c4c2c4a934bc0098d442a14dff54f7aa5df2b95e99536893bbdb7e16"
+        "sha256": "35f146fb093741515b17bce9568e2c3f8f4f8eb59fa94c88427a11a07c1cc168",
+        "version": "35f146fb093741515b17bce9568e2c3f8f4f8eb59fa94c88427a11a07c1cc168"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -2068,10 +2068,10 @@
         "version": "385606c42ed80885a72f5f3f6a0e33de9619c58907a1ded3ddf98eae59ad7075"
       },
       {
-        "last_updated": "2026-11-07T14:18:34.089565+08:00",
+        "last_updated": "2026-11-07T16:14:19.690997+08:00",
         "name": "系務公告_zh-tw.json",
-        "sha256": "670c7921ea710c8bd08dff6c2f11eaa3c101ad59f4ba9c61e04bf4290d1e6a29",
-        "version": "670c7921ea710c8bd08dff6c2f11eaa3c101ad59f4ba9c61e04bf4290d1e6a29"
+        "sha256": "eab6c6c5a75a508468d62a07a68e21f8764d92417f77f28f94d26d4176cd2c24",
+        "version": "eab6c6c5a75a508468d62a07a68e21f8764d92417f77f28f94d26d4176cd2c24"
       },
       {
         "last_updated": "2026-10-13T20:31:16.453406+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-07T14:18:34.089565+08:00"
+  "last_updated": "2026-11-07T16:14:19.690997+08:00"
 }
