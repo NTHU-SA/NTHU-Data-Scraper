@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2051",
+            "category": "服務消息",
+            "title": "【問卷調查】台灣聯大圖書服務滿意度問卷調查",
+            "link": "https://forms.gle/kG7xMi1EqsY2MFUt8",
+            "pubDate": "Mon, 09 Nov 2026 15:26:16 +0800",
+            "description": "為了解讀者對台聯大圖書服務的使用情況與滿意度，並做為未來精進的參考，敬請撥冗填答本問卷，感謝您的協助。\n問卷連結：https://forms.gle/kG7xMi1EqsY2MFUt8\n調查時間：115年10月19日-11月30日",
+            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
+                "title": "【問卷調查】台灣聯大圖書服務滿意度問卷調查",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2075",
             "category": "研習課程",
             "title": "【線上講座】11/19 (二)Engineering Village（EV）工程領域資料庫線上講座",
@@ -127,20 +141,6 @@
             }
         },
         {
-            "guid": "2065",
-            "category": "電子資源",
-            "title": "【開放取用】（11/1-11/7）ACS OA期刊論文投稿系統暫停",
-            "link": "https://libguides.lib.nthu.edu.tw/OA/ACS",
-            "pubDate": "Thu, 29 Oct 2026 10:42:14 +0800",
-            "description": "因美國化學會（American Chemical Society, ACS）進行新協議銜接設定，ACS投稿平台將於2026年11月1日（星期日）至11月7日（星期六）暫停服務，造成不便，敬請見諒。\n※重要提醒：\n若您的文章於系統暫停期間獲得接受（Accepted），【請勿】自行支付文章處理費（Article Processing Charge, APC），尤其是投稿至完全開放取用（Gold OA）期刊的作者。\n後續將由出版社及圖書館人工處理，以確保符合資格的文章仍可採OA形式出版，並享有APC優惠。\n！！自行支付的APC，後續將無法退款，敬請留意！！\n※ACS投稿說明：https://libguides.lib.nthu.edu.tw/OA/ACS\n如有相關問題，歡迎與圖書館聯繫：\n學習研究服務組 陳小姐\nEmail：scholar@my.nthu.edu.tw\n校內分機：42239",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261101_LRS_ACS.jpg",
-                "title": "【開放取用】（11/1-11/7）ACS OA期刊論文投稿系統暫停",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
             "guid": "2064",
             "category": "展覽與活動",
             "title": "【專題演講】11/18(三)「自然不需要我們拯救，需要的是我們的尊重」~從自然智慧到生態共生的永續新思維",
@@ -221,20 +221,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/2/20261102_%E5%9C%96%E6%9B%B8%E9%A4%A8%E6%9C%88%E4%B8%BB%E8%A6%96%E8%A6%BA.jpg",
                 "title": "【圖書館月】2026清華大學圖書館月－閱日常．悅永續",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "2051",
-            "category": "服務消息",
-            "title": "【問卷調查】台灣聯大圖書服務滿意度問卷調查",
-            "link": "https://forms.gle/kG7xMi1EqsY2MFUt8",
-            "pubDate": "Mon, 19 Oct 2026 09:35:53 +0800",
-            "description": "為了解讀者對台聯大圖書服務的使用情況與滿意度，並做為未來精進的參考，敬請撥冗填答本問卷，感謝您的協助。\n問卷連結：https://forms.gle/kG7xMi1EqsY2MFUt8\n調查時間：115年10月19日-11月30日",
-            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
-                "title": "【問卷調查】台灣聯大圖書服務滿意度問卷調查",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
@@ -923,20 +909,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/default.jpg",
                 "title": "【電子資源】資安通報！請留意冒用TEJ台灣經濟新報名義之釣魚郵件，勿開啟附件或點擊連結。",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "2065",
-            "category": "電子資源",
-            "title": "【開放取用】（11/1-11/7）ACS OA期刊論文投稿系統暫停",
-            "link": "https://libguides.lib.nthu.edu.tw/OA/ACS",
-            "pubDate": "Thu, 29 Oct 2026 10:42:14 +0800",
-            "description": "因美國化學會（American Chemical Society, ACS）進行新協議銜接設定，ACS投稿平台將於2026年11月1日（星期日）至11月7日（星期六）暫停服務，造成不便，敬請見諒。\n※重要提醒：\n若您的文章於系統暫停期間獲得接受（Accepted），【請勿】自行支付文章處理費（Article Processing Charge, APC），尤其是投稿至完全開放取用（Gold OA）期刊的作者。\n後續將由出版社及圖書館人工處理，以確保符合資格的文章仍可採OA形式出版，並享有APC優惠。\n！！自行支付的APC，後續將無法退款，敬請留意！！\n※ACS投稿說明：https://libguides.lib.nthu.edu.tw/OA/ACS\n如有相關問題，歡迎與圖書館聯繫：\n學習研究服務組 陳小姐\nEmail：scholar@my.nthu.edu.tw\n校內分機：42239",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261101_LRS_ACS.jpg",
-                "title": "【開放取用】（11/1-11/7）ACS OA期刊論文投稿系統暫停",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
