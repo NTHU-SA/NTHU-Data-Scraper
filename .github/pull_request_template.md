@@ -29,5 +29,6 @@ N/A
 - `uv run pytest -q`
 - `uv run ruff check .`
 -->
+N/A
 
 Closes #
