@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-09T22:13:00.378773+08:00",
+        "last_updated": "2026-11-10T00:13:31.191452+08:00",
         "name": "announcements.json",
-        "sha256": "0b31c16bbf402f79235eef3c0d3e488ec3eee520c95b6505a49109688c589969",
-        "version": "0b31c16bbf402f79235eef3c0d3e488ec3eee520c95b6505a49109688c589969"
+        "sha256": "2806eda5aeac9c67e4693c5c8fc33c39b0d41a20aa2d4e71bd7066c23b8bcdac",
+        "version": "2806eda5aeac9c67e4693c5c8fc33c39b0d41a20aa2d4e71bd7066c23b8bcdac"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -858,10 +858,10 @@
         "version": "a44b5a0034dca45588a7f322f1e1d9e9da035b2b402fe0eacc48cbcc93a33633"
       },
       {
-        "last_updated": "2026-11-06T10:17:27.998762+08:00",
+        "last_updated": "2026-11-10T00:13:31.191452+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "9fa39508322641882e5bb42aa0de791090d9e61918b02a8c2f2ac5ec91854e73",
-        "version": "9fa39508322641882e5bb42aa0de791090d9e61918b02a8c2f2ac5ec91854e73"
+        "sha256": "4fa5c56fc5d5ba14b522a850d1bbf5494679eed768a54fd7b5db4b1e100e63c1",
+        "version": "4fa5c56fc5d5ba14b522a850d1bbf5494679eed768a54fd7b5db4b1e100e63c1"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-09T22:13:00.378773+08:00"
+  "last_updated": "2026-11-10T00:13:31.191452+08:00"
 }
