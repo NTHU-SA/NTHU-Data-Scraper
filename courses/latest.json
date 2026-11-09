@@ -102435,12 +102435,12 @@
     "language_code": "zh",
     "lecturers": [
       {
-        "name_zh": "李昆樺",
-        "name_en": "LEE, KUN-HUA"
-      },
-      {
         "name_zh": "許育光",
         "name_en": "HSU, YU-KUANG"
+      },
+      {
+        "name_zh": "李昆樺",
+        "name_en": "LEE, KUN-HUA"
       }
     ],
     "meetings": [
