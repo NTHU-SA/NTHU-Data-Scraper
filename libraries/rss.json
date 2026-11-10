@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2077",
+            "category": "研習課程",
+            "title": "【線上講座】歡迎報名11/26（四）Springer期刊投稿線上講座「學術期刊投稿與AI應用」",
+            "link": "https://live.polyv.cn/watch/8767638",
+            "pubDate": "Tue, 10 Nov 2026 08:45:28 +0800",
+            "description": "※時間：11月26日（四）14:30-15:30\n※報名網址：https://live.polyv.cn/watch/8767638\n※講師：馬菱薇（npj Materials Degradation 副主編）\n※內容：\n選擇合適的學術期刊是研究發表過程中的關鍵一步，將直接影響成果的能見度、學術影響力、職涯發展與經費申請。\n本講座將從期刊編輯的角度，分享學術期刊選擇與投稿的實務策略，包含何時開始規劃投稿、如何評估與選擇目標期刊，以及出版模式、期刊指標、審稿機制與投稿流程等重要考量因素。\n同時，講座亦將介紹人工智慧（AI）工具在期刊遴選、投稿準備及科研工作流程中的應用，協助研究人員提升投稿效率與論文發表成功率。",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261126_LRS_Springer.jpg",
+                "title": "【線上講座】歡迎報名11/26（四）Springer期刊投稿線上講座「學術期刊投稿與AI應用」",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2051",
             "category": "服務消息",
             "title": "【問卷調查】台灣聯大圖書服務滿意度問卷調查",
