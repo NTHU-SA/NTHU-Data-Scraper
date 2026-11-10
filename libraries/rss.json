@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2078",
+            "category": "服務消息",
+            "title": "【服務公告】11/17（二）圖書館三樓視聽中心空間管理系統升級維護",
+            "link": null,
+            "pubDate": "Tue, 10 Nov 2026 17:13:31 +0800",
+            "description": "總圖三樓視聽中心空間管理系統將於 11 月 17 日（二） 進行系統升級維護作業。\n當日聆賞席及紅氣球暫停服務，其餘服務不受影響。\n如有使用需求，敬請提前安排。\n造成不便，敬請見諒。",
+            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
+                "title": "【服務公告】11/17（二）圖書館三樓視聽中心空間管理系統升級維護",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2077",
             "category": "研習課程",
             "title": "【線上講座】歡迎報名11/26（四）Springer期刊投稿線上講座「學術期刊投稿與AI應用」",

@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-10T16:17:10.681339+08:00",
+        "last_updated": "2026-11-10T18:12:37.112033+08:00",
         "name": "announcements.json",
-        "sha256": "b74b0319523f52e28c9ed26330a61f562d7566072302f9b326a4758297dc9cb5",
-        "version": "b74b0319523f52e28c9ed26330a61f562d7566072302f9b326a4758297dc9cb5"
+        "sha256": "66c4db49dfb30cc4704adfe7015ab4eed435696ca7414b6c404082b5e90bff51",
+        "version": "66c4db49dfb30cc4704adfe7015ab4eed435696ca7414b6c404082b5e90bff51"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1710,10 +1710,10 @@
     ],
     "announcements/研究發展處研究倫理辦公室": [
       {
-        "last_updated": "2026-11-04T16:15:40.927264+08:00",
+        "last_updated": "2026-11-10T18:12:37.112033+08:00",
         "name": "IACUC審查事項公告_zh-tw.json",
-        "sha256": "4fb1b0897529409abb0daa2ecedd5795c13a18f6194283be6022d82bdefac8f9",
-        "version": "4fb1b0897529409abb0daa2ecedd5795c13a18f6194283be6022d82bdefac8f9"
+        "sha256": "2ceba3fa0df6b7ae2c764e0f33a70803f905b3d696c2614c6184e0ab50186fb6",
+        "version": "2ceba3fa0df6b7ae2c764e0f33a70803f905b3d696c2614c6184e0ab50186fb6"
       },
       {
         "last_updated": "2026-11-04T22:13:45.999427+08:00",
@@ -2974,10 +2974,10 @@
         "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
       },
       {
-        "last_updated": "2026-11-10T10:16:35.948344+08:00",
+        "last_updated": "2026-11-10T18:12:37.112033+08:00",
         "name": "rss.json",
-        "sha256": "4edf28e2914276d41f57bd2e217bda409ade7b73a78d0d30db412a45b0f4c976",
-        "version": "4edf28e2914276d41f57bd2e217bda409ade7b73a78d0d30db412a45b0f4c976"
+        "sha256": "75decee2373ad167f699b849fff1dee501ff6a11703783309fe5d9818a5628b1",
+        "version": "75decee2373ad167f699b849fff1dee501ff6a11703783309fe5d9818a5628b1"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-10T16:17:10.681339+08:00"
+  "last_updated": "2026-11-10T18:12:37.112033+08:00"
 }
