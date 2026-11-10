@@ -69661,12 +69661,12 @@
     "language_code": "en",
     "lecturers": [
       {
-        "name_zh": "MENOZZI,MARI",
-        "name_en": "MENOZZI,MARINO ANGELO"
-      },
-      {
         "name_zh": "李昀儒",
         "name_en": "LEE, YUN-JU"
+      },
+      {
+        "name_zh": "MENOZZI,MARI",
+        "name_en": "MENOZZI,MARINO ANGELO"
       }
     ],
     "meetings": [
@@ -70360,12 +70360,12 @@
     "language_code": "zh",
     "lecturers": [
       {
-        "name_zh": "張堅琦",
-        "name_en": "CHANG, CHIEN-CHI"
-      },
-      {
         "name_zh": "李昀儒",
         "name_en": "LEE, YUN-JU"
+      },
+      {
+        "name_zh": "張堅琦",
+        "name_en": "CHANG, CHIEN-CHI"
       }
     ],
     "meetings": [
@@ -70474,6 +70474,10 @@
     "language_code": "zh",
     "lecturers": [
       {
+        "name_zh": "李昀儒",
+        "name_en": "LEE, YUN-JU"
+      },
+      {
         "name_zh": "陳子立",
         "name_en": "CHEN, TZU-LI"
       },
@@ -70484,10 +70488,6 @@
       {
         "name_zh": "李雨青",
         "name_en": "LEE, YU-CHING"
-      },
-      {
-        "name_zh": "李昀儒",
-        "name_en": "LEE, YUN-JU"
       },
       {
         "name_zh": "瞿志行",
@@ -92661,6 +92661,10 @@
     "is_cancelled": false,
     "language_code": "zh",
     "lecturers": [
+      {
+        "name_zh": "陳政宇",
+        "name_en": "CHEN，CHENG-YU"
+      },
       {
         "name_zh": "鄭麗媛",
         "name_en": "CHENG, LI-YUAN"
