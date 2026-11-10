@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-10T10:16:35.948344+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "announcements.json",
-        "sha256": "ff3f6084d535640cb09d564ec7269dc350df8088ac02bcc70ff0544f2db6ebab",
-        "version": "ff3f6084d535640cb09d564ec7269dc350df8088ac02bcc70ff0544f2db6ebab"
+        "sha256": "d871b462c0565cc8d437f5d9162363938a3bb39acf852901b84a087b2eb48c17",
+        "version": "d871b462c0565cc8d437f5d9162363938a3bb39acf852901b84a087b2eb48c17"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-10T08:29:33.335486+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "dining.json",
-        "sha256": "cc64050a6e9b7301165a7ac00b7d592f96014c63010a2fc4fd046d43248548d3",
-        "version": "cc64050a6e9b7301165a7ac00b7d592f96014c63010a2fc4fd046d43248548d3"
+        "sha256": "2b2c4bc179713765bdd20da4b05d1653bdbf80dc9ae3d9ed33cd100bde4b79a7",
+        "version": "2b2c4bc179713765bdd20da4b05d1653bdbf80dc9ae3d9ed33cd100bde4b79a7"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1020,10 +1020,10 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_updated": "2026-11-09T16:56:48.679686+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "b07e2708ecf02cd0449c29fdf9f4ea4ce8160a92e88f837ce56172040e087b69",
-        "version": "b07e2708ecf02cd0449c29fdf9f4ea4ce8160a92e88f837ce56172040e087b69"
+        "sha256": "fd4cdc620cdcd4193debac3fe7cbcf4ea558ee4abab3cb095e8f9e84ada6308b",
+        "version": "fd4cdc620cdcd4193debac3fe7cbcf4ea558ee4abab3cb095e8f9e84ada6308b"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -1216,16 +1216,16 @@
         "version": "ed2e380165cdc8d04183d9556d8de1deea5140416d789bdbaf98dc573b6db0fc"
       },
       {
-        "last_updated": "2026-11-06T18:12:27.043302+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "ab115d4506f166c08acd652816f632dda66624662ab87e703bc09bd3997edcba",
-        "version": "ab115d4506f166c08acd652816f632dda66624662ab87e703bc09bd3997edcba"
+        "sha256": "c83e07f83092e3ecf31cf8e83e61cb4516577054ccd18470e251982a5c707257",
+        "version": "c83e07f83092e3ecf31cf8e83e61cb4516577054ccd18470e251982a5c707257"
       },
       {
-        "last_updated": "2026-11-09T16:56:48.679686+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "e18e695057cf955aac1eecfa541bbdf91f74346eeeb6b8624484a8c702b5d1fd",
-        "version": "e18e695057cf955aac1eecfa541bbdf91f74346eeeb6b8624484a8c702b5d1fd"
+        "sha256": "fc20849496cb99631828a697c5ee6562c47caf57e79cd82422e82e4b988831c0",
+        "version": "fc20849496cb99631828a697c5ee6562c47caf57e79cd82422e82e4b988831c0"
       },
       {
         "last_updated": "2026-11-06T16:16:05.104935+08:00",
@@ -2282,10 +2282,10 @@
         "version": "de8d8b7243e33a1cf1185848c0f95a6f655f9a4ffb3eea8859637e03bcdbabfc"
       },
       {
-        "last_updated": "2026-09-27T22:24:37.491896+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "e8631f4bddb4ba67b93d877d8614b8a884e8ee56731132fbecf99369381e5ba4",
-        "version": "e8631f4bddb4ba67b93d877d8614b8a884e8ee56731132fbecf99369381e5ba4"
+        "sha256": "29fc74b0d6c4aac6c4b81cc10f542d82f5c8becf3e89b00720887cbc63a2a9df",
+        "version": "29fc74b0d6c4aac6c4b81cc10f542d82f5c8becf3e89b00720887cbc63a2a9df"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -2422,10 +2422,10 @@
     ],
     "announcements/總務處駐衛警察隊": [
       {
-        "last_updated": "2026-10-16T00:19:52.117012+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "da21d0b035199ff87770ea91e408fa484b41d67aa8ec1161e1fc51d3105cda22",
-        "version": "da21d0b035199ff87770ea91e408fa484b41d67aa8ec1161e1fc51d3105cda22"
+        "sha256": "9bcedde12b145129fc81aa3d9b6af1a669085fe3c26ddc119bac9db382d81003",
+        "version": "9bcedde12b145129fc81aa3d9b6af1a669085fe3c26ddc119bac9db382d81003"
       }
     ],
     "announcements/藝文總中心": [
@@ -2546,10 +2546,10 @@
     ],
     "announcements/電機資訊學院電子工程研究所": [
       {
-        "last_updated": "2026-11-10T10:16:35.948344+08:00",
+        "last_updated": "2026-11-10T12:14:08.337984+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "ac700f5708af17221453e79b9412450597302fefaafcdddfd7ac85e657903e6a",
-        "version": "ac700f5708af17221453e79b9412450597302fefaafcdddfd7ac85e657903e6a"
+        "sha256": "08babb62b565677aaae01bd155210014527a16ff42ad53f38b43bae75b077989",
+        "version": "08babb62b565677aaae01bd155210014527a16ff42ad53f38b43bae75b077989"
       },
       {
         "last_updated": "2026-11-06T12:15:05.530629+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-10T10:16:35.948344+08:00"
+  "last_updated": "2026-11-10T12:14:08.337984+08:00"
 }
