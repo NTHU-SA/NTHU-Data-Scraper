@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-10T18:12:37.112033+08:00",
+        "last_updated": "2026-11-10T20:16:58.678766+08:00",
         "name": "announcements.json",
-        "sha256": "66c4db49dfb30cc4704adfe7015ab4eed435696ca7414b6c404082b5e90bff51",
-        "version": "66c4db49dfb30cc4704adfe7015ab4eed435696ca7414b6c404082b5e90bff51"
+        "sha256": "aa5a3ff59646c49f94f46082928a2e5b8b279cd852ef50e49f2b3de0733ed736",
+        "version": "aa5a3ff59646c49f94f46082928a2e5b8b279cd852ef50e49f2b3de0733ed736"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -226,10 +226,10 @@
         "version": "98ba1b43567c65767b6e0105a80ddae9044ca88738a4820a55b4b996279095cb"
       },
       {
-        "last_updated": "2026-11-04T18:14:03.631527+08:00",
+        "last_updated": "2026-11-10T20:16:58.678766+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "4dd5593dc8ee68f5f2c20975dceae49ca3c99fc1f5d838cb29d5d4907e09e575",
-        "version": "4dd5593dc8ee68f5f2c20975dceae49ca3c99fc1f5d838cb29d5d4907e09e575"
+        "sha256": "78b939ccfa88615cd359cbbbd5e792e1622d79542698850fbd564a7b0e83a110",
+        "version": "78b939ccfa88615cd359cbbbd5e792e1622d79542698850fbd564a7b0e83a110"
       },
       {
         "last_updated": "2026-11-09T16:56:48.679686+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-10T18:12:37.112033+08:00"
+  "last_updated": "2026-11-10T20:16:58.678766+08:00"
 }
