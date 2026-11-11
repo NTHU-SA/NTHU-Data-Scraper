@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-11T10:14:53.818203+08:00",
+        "last_updated": "2026-11-11T12:14:30.265904+08:00",
         "name": "announcements.json",
-        "sha256": "02b3d6f2d03649a7544b56a936fe311350ae1910937d67c51b560bd9db459d86",
-        "version": "02b3d6f2d03649a7544b56a936fe311350ae1910937d67c51b560bd9db459d86"
+        "sha256": "bb851b97e3046b61bd3482fa761e91549028d3b1f54865dfb0787a91a0faeb5d",
+        "version": "bb851b97e3046b61bd3482fa761e91549028d3b1f54865dfb0787a91a0faeb5d"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -672,10 +672,10 @@
         "version": "b379dc74d7a661241796976dfa96b74e744ff9d469431ca62cdab01480b3f484"
       },
       {
-        "last_updated": "2026-10-03T01:18:48.470407+08:00",
+        "last_updated": "2026-11-11T12:14:30.265904+08:00",
         "name": "招生-轉學考試_zh-tw.json",
-        "sha256": "499e6aac52f1de87f25d25a361b9f806b5d06cbebd1c5d8e280f530502051f8f",
-        "version": "499e6aac52f1de87f25d25a361b9f806b5d06cbebd1c5d8e280f530502051f8f"
+        "sha256": "7837b1adc85fcc3d6f8ae0b5964562fd5b776ec6fc751cef6d61b1f4b43957d1",
+        "version": "7837b1adc85fcc3d6f8ae0b5964562fd5b776ec6fc751cef6d61b1f4b43957d1"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1850,16 +1850,16 @@
         "version": "6e5d5824f5f22cddd3a9d76e5699c429e87722150255ca084482c7f81a2a61fa"
       },
       {
-        "last_updated": "2026-11-06T12:15:05.530629+08:00",
+        "last_updated": "2026-11-11T12:14:30.265904+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "b96c1a4aaafe9bf55d3e33e6bb65d0efe7140c421bbec780a7e16d3a9a2d0d31",
-        "version": "b96c1a4aaafe9bf55d3e33e6bb65d0efe7140c421bbec780a7e16d3a9a2d0d31"
+        "sha256": "930cd581a096f1ba72a210fdcf70bd540bc78bef16d4a22ab3f94fb34ae67d47",
+        "version": "930cd581a096f1ba72a210fdcf70bd540bc78bef16d4a22ab3f94fb34ae67d47"
       },
       {
-        "last_updated": "2026-10-27T16:25:59.671520+08:00",
+        "last_updated": "2026-11-11T12:14:30.265904+08:00",
         "name": "活動訊息_zh-tw.json",
-        "sha256": "ff0b0f834a82cac7cc79f122d5406f6fba0ae059acd615945b62af552b3521f5",
-        "version": "ff0b0f834a82cac7cc79f122d5406f6fba0ae059acd615945b62af552b3521f5"
+        "sha256": "d443fd58692e3bbc1fffff0f69010a45ff896e7a76bfac58195f8abf95bfea02",
+        "version": "d443fd58692e3bbc1fffff0f69010a45ff896e7a76bfac58195f8abf95bfea02"
       }
     ],
     "announcements/秘書處校務研究中心": [
@@ -1878,10 +1878,10 @@
         "version": "4f42d5da80b08c6c6051978295f1dfe03c7379285978de7e8c5280714b7a04c1"
       },
       {
-        "last_updated": "2026-11-10T16:17:10.681339+08:00",
+        "last_updated": "2026-11-11T12:14:30.265904+08:00",
         "name": "學院公告 Announcement_zh-tw.json",
-        "sha256": "e87e257241497ee8e522aef5245f55ef4c73e044e8379ed2db3b0e218f0c0ebd",
-        "version": "e87e257241497ee8e522aef5245f55ef4c73e044e8379ed2db3b0e218f0c0ebd"
+        "sha256": "a98ef4fa482213fe87e003e87cdc55371a598ad0f0405a0e2b5358493d022c4a",
+        "version": "a98ef4fa482213fe87e003e87cdc55371a598ad0f0405a0e2b5358493d022c4a"
       },
       {
         "last_updated": "2026-11-06T16:16:05.104935+08:00",
@@ -1890,10 +1890,10 @@
         "version": "8c78a022cb52c18c8187a1e25ba8f87a0dbdc20fb655d2abb21a18b71fa7d414"
       },
       {
-        "last_updated": "2026-11-10T16:17:10.681339+08:00",
+        "last_updated": "2026-11-11T12:14:30.265904+08:00",
         "name": "最新消息 News_zh-tw.json",
-        "sha256": "32cd71d076e2629c7c422860f5ae34b239014734ce8a13fe63ba736409927bf8",
-        "version": "32cd71d076e2629c7c422860f5ae34b239014734ce8a13fe63ba736409927bf8"
+        "sha256": "a53151dd02e6c2e3f73706cc90811e823cdda25aaf80ef70ad52d8779cd48df2",
+        "version": "a53151dd02e6c2e3f73706cc90811e823cdda25aaf80ef70ad52d8779cd48df2"
       },
       {
         "last_updated": "2026-11-06T16:16:05.104935+08:00",
@@ -2968,10 +2968,10 @@
     ],
     "libraries": [
       {
-        "last_updated": "2026-11-11T10:14:53.818203+08:00",
+        "last_updated": "2026-11-11T12:14:30.265904+08:00",
         "name": "calendars.json",
-        "sha256": "7d2c2b936b34e6ec0eabb905b522b150e5dd6db25fd19af51c116a17e0311edf",
-        "version": "7d2c2b936b34e6ec0eabb905b522b150e5dd6db25fd19af51c116a17e0311edf"
+        "sha256": "73f22ed06dc2f20d9c16d6ca08c7aed10660123a70590ddfdeeca825434192c8",
+        "version": "73f22ed06dc2f20d9c16d6ca08c7aed10660123a70590ddfdeeca825434192c8"
       },
       {
         "last_updated": "2026-11-11T00:13:46.125309+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-11T10:14:53.818203+08:00"
+  "last_updated": "2026-11-11T12:14:30.265904+08:00"
 }
