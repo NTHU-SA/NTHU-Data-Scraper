@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-12T00:13:14.366725+08:00",
+        "last_updated": "2026-11-12T02:13:04.647206+08:00",
         "name": "announcements.json",
-        "sha256": "eb685da18fb484f3489c59e8ecb207bdde58a3d9a43c4c8509260413b8e5739c",
-        "version": "eb685da18fb484f3489c59e8ecb207bdde58a3d9a43c4c8509260413b8e5739c"
+        "sha256": "6c54b669cd76aea23bd9f50659d11ae21dc83aa1dedb265bc63c6b6c455e736b",
+        "version": "6c54b669cd76aea23bd9f50659d11ae21dc83aa1dedb265bc63c6b6c455e736b"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1326,10 +1326,10 @@
         "version": "070f9c8df9163e8e22adcb00f081c765dabf7c89f053d0569157058c6cb042db"
       },
       {
-        "last_updated": "2026-11-10T16:17:10.681339+08:00",
+        "last_updated": "2026-11-12T02:13:04.647206+08:00",
         "name": "訊息公告_zh-tw.json",
-        "sha256": "8cb04c6d13248da1fdaa6c2031711c85a440196290d7bf96ef476832f734beae",
-        "version": "8cb04c6d13248da1fdaa6c2031711c85a440196290d7bf96ef476832f734beae"
+        "sha256": "aa2743d87fd285f73263fb80134e31e0d75a548146243cd03748447dd3a632b4",
+        "version": "aa2743d87fd285f73263fb80134e31e0d75a548146243cd03748447dd3a632b4"
       }
     ],
     "announcements/清華學院語文中心": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-12T00:13:14.366725+08:00"
+  "last_updated": "2026-11-12T02:13:04.647206+08:00"
 }
