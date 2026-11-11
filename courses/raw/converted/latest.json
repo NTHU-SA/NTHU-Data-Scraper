@@ -2,7 +2,7 @@
     "schema_version": 1,
     "source_id": "latest",
     "format": "json",
-    "sha256": "7e05ad33c674904e8b71f6c9b03399edf7905c0f1d300fbf9b435d9878c54405",
+    "sha256": "dbcd7fd2ee5cd147c483fcdd1af27e6e30ad62b3ba885ac7fc32d329e283c933",
     "records": [
         {
             "values": {
@@ -79818,7 +79818,7 @@
                 "備註": "必修，學期課，須修過國民小學國語、數學教材教法先修課，「雙語教學次專長課程」。",
                 "停開註記": "",
                 "教室與上課時間": "COE教院117\tT1T2T3T4\n",
-                "授課教師": "詹宜螢\tCHANG,I-YING\n胡齊隆\tHU,CI-LONG\n",
+                "授課教師": "胡齊隆\tHU,CI-LONG\n詹宜螢\tCHANG,I-YING\n",
                 "擋修說明": "<div>\n  擋修對象 : 全校 <br>\n  先修科目 : <BR><BR>國民小學國語教材教法-成績需C-以上<BR>國民小學數學教材教法-成績需C-以上<BR><br>上述條件一定要有，則不擋修。</div>",
                 "課程限制說明": "限國小教育學程生",
                 "第一二專長對應": "",

@@ -165595,12 +165595,12 @@
     "language_code": "en",
     "lecturers": [
       {
-        "name_zh": "詹宜螢",
-        "name_en": "CHANG,I-YING"
-      },
-      {
         "name_zh": "胡齊隆",
         "name_en": "HU,CI-LONG"
+      },
+      {
+        "name_zh": "詹宜螢",
+        "name_en": "CHANG,I-YING"
       }
     ],
     "meetings": [
