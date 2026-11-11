@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-11T08:30:15.869081+08:00",
+        "last_updated": "2026-11-11T10:14:53.818203+08:00",
         "name": "announcements.json",
-        "sha256": "cc69763a5295a92f62640ce2cb039ed63b8fb8305357eb63f280e064300aa93e",
-        "version": "cc69763a5295a92f62640ce2cb039ed63b8fb8305357eb63f280e064300aa93e"
+        "sha256": "02b3d6f2d03649a7544b56a936fe311350ae1910937d67c51b560bd9db459d86",
+        "version": "02b3d6f2d03649a7544b56a936fe311350ae1910937d67c51b560bd9db459d86"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-10T12:14:08.337984+08:00",
+        "last_updated": "2026-11-11T10:14:53.818203+08:00",
         "name": "dining.json",
-        "sha256": "2b2c4bc179713765bdd20da4b05d1653bdbf80dc9ae3d9ed33cd100bde4b79a7",
-        "version": "2b2c4bc179713765bdd20da4b05d1653bdbf80dc9ae3d9ed33cd100bde4b79a7"
+        "sha256": "d0b872f0cafc9cfcd8feac1785bf7f8677d710244a48ede848706e4ea71a23ae",
+        "version": "d0b872f0cafc9cfcd8feac1785bf7f8677d710244a48ede848706e4ea71a23ae"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -2546,10 +2546,10 @@
     ],
     "announcements/電機資訊學院電子工程研究所": [
       {
-        "last_updated": "2026-11-10T16:17:10.681339+08:00",
+        "last_updated": "2026-11-11T10:14:53.818203+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "41b6fc2d556372ad29ef0bec613f0189a01117b4872b97ef766d90c4c3c368ad",
-        "version": "41b6fc2d556372ad29ef0bec613f0189a01117b4872b97ef766d90c4c3c368ad"
+        "sha256": "1fdd21b4dff09ee8c0e183b3e1e85873065911335635310c326c35204309ffe4",
+        "version": "1fdd21b4dff09ee8c0e183b3e1e85873065911335635310c326c35204309ffe4"
       },
       {
         "last_updated": "2026-11-10T16:17:10.681339+08:00",
@@ -2968,10 +2968,10 @@
     ],
     "libraries": [
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-11T10:14:53.818203+08:00",
         "name": "calendars.json",
-        "sha256": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c",
-        "version": "9b4e106fd154ff2b11cdf33aaa0cd40e76ad739bbfff5367c52b6aedef703a0c"
+        "sha256": "7d2c2b936b34e6ec0eabb905b522b150e5dd6db25fd19af51c116a17e0311edf",
+        "version": "7d2c2b936b34e6ec0eabb905b522b150e5dd6db25fd19af51c116a17e0311edf"
       },
       {
         "last_updated": "2026-11-11T00:13:46.125309+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-11T08:30:15.869081+08:00"
+  "last_updated": "2026-11-11T10:14:53.818203+08:00"
 }
