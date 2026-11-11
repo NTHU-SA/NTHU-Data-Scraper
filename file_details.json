@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-11T14:20:43.405145+08:00",
+        "last_updated": "2026-11-11T16:16:25.686373+08:00",
         "name": "announcements.json",
-        "sha256": "94fe53bd6eae3452ea584e6700275293993f9702df8ecef786a7693da5eefa44",
-        "version": "94fe53bd6eae3452ea584e6700275293993f9702df8ecef786a7693da5eefa44"
+        "sha256": "78683f17b33c86dbe6e21be1866ccdf567a768f239f4764b791624fde05f6d24",
+        "version": "78683f17b33c86dbe6e21be1866ccdf567a768f239f4764b791624fde05f6d24"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1632,16 +1632,16 @@
         "version": "5bd6abca6c181356718a6b8c6066ad49365816bc393fd40047b88702a302bf08"
       },
       {
-        "last_updated": "2026-11-10T14:19:35.516475+08:00",
+        "last_updated": "2026-11-11T16:16:25.686373+08:00",
         "name": "最新訊息_zh-tw.json",
-        "sha256": "5b54032c6fc6ff67d06c4fc1b0f84b11fd046196585481667f7f2beae1effa0b",
-        "version": "5b54032c6fc6ff67d06c4fc1b0f84b11fd046196585481667f7f2beae1effa0b"
+        "sha256": "8c1971e463e14e8a62ac04c9028b83edf891f46112c8ff33705a397cf1202d6f",
+        "version": "8c1971e463e14e8a62ac04c9028b83edf891f46112c8ff33705a397cf1202d6f"
       },
       {
-        "last_updated": "2026-10-28T12:17:57.257792+08:00",
+        "last_updated": "2026-11-11T16:16:25.686373+08:00",
         "name": "醫學系：新聞_zh-tw.json",
-        "sha256": "079a15c53e027d003baed7967766c7e6ac2bf2046020daa0c6ea11e0866aa969",
-        "version": "079a15c53e027d003baed7967766c7e6ac2bf2046020daa0c6ea11e0866aa969"
+        "sha256": "2a36a27ae6cd51a179061b47befc0f34d3c9ed92fd1c22182ec33ea73d6b7f45",
+        "version": "2a36a27ae6cd51a179061b47befc0f34d3c9ed92fd1c22182ec33ea73d6b7f45"
       }
     ],
     "announcements/生命科學暨醫學院精準醫療博士學位學程": [
@@ -2068,10 +2068,10 @@
         "version": "385606c42ed80885a72f5f3f6a0e33de9619c58907a1ded3ddf98eae59ad7075"
       },
       {
-        "last_updated": "2026-11-07T16:14:19.690997+08:00",
+        "last_updated": "2026-11-11T16:16:25.686373+08:00",
         "name": "系務公告_zh-tw.json",
-        "sha256": "eab6c6c5a75a508468d62a07a68e21f8764d92417f77f28f94d26d4176cd2c24",
-        "version": "eab6c6c5a75a508468d62a07a68e21f8764d92417f77f28f94d26d4176cd2c24"
+        "sha256": "45f90003dbe4ae9ee5ebf7902090dc6a0558600ce61d042d5a3f19fe90509cd8",
+        "version": "45f90003dbe4ae9ee5ebf7902090dc6a0558600ce61d042d5a3f19fe90509cd8"
       },
       {
         "last_updated": "2026-10-13T20:31:16.453406+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-11T14:20:43.405145+08:00"
+  "last_updated": "2026-11-11T16:16:25.686373+08:00"
 }
