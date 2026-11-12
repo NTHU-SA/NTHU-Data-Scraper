@@ -73183,7 +73183,7 @@
     ],
     "meetings": [
       {
-        "classroom": "TSMC台積120",
+        "classroom": "TSMC台積223",
         "time": "R2R3R4",
         "time_codes": [
           "R2",
@@ -85755,16 +85755,16 @@
     "language_code": "zh",
     "lecturers": [
       {
+        "name_zh": "王濟揚",
+        "name_en": "WANG, CHI-YANG"
+      },
+      {
         "name_zh": "楊璧甄",
         "name_en": "YANG, PI-CHEN"
       },
       {
         "name_zh": "洪千智",
         "name_en": "HUNG,CHIEN-CHIH"
-      },
-      {
-        "name_zh": "王濟揚",
-        "name_en": "WANG, CHI-YANG"
       }
     ],
     "meetings": [
@@ -118207,12 +118207,12 @@
     "language_code": "zh",
     "lecturers": [
       {
-        "name_zh": "陳韋靜",
-        "name_en": "CHEN, WEI-CHING"
-      },
-      {
         "name_zh": "桑自剛",
         "name_en": "SANG, TZU-KANG"
+      },
+      {
+        "name_zh": "陳韋靜",
+        "name_en": "CHEN, WEI-CHING"
       },
       {
         "name_zh": "張慧雲",
@@ -118526,12 +118526,12 @@
     "language_code": "zh",
     "lecturers": [
       {
-        "name_zh": "林亦凡",
-        "name_en": "LIN, YI-FAN"
-      },
-      {
         "name_zh": "黃貞祥",
         "name_en": "NG, CHEN SIANG"
+      },
+      {
+        "name_zh": "林亦凡",
+        "name_en": "LIN, YI-FAN"
       },
       {
         "name_zh": "郭崇涵",
@@ -119510,6 +119510,10 @@
     "language_code": "en",
     "lecturers": [
       {
+        "name_zh": "桑自剛",
+        "name_en": "SANG, TZU-KANG"
+      },
+      {
         "name_zh": "李以如",
         "name_en": "LEE, I-JU"
       },
@@ -119520,10 +119524,6 @@
       {
         "name_zh": "王歐力",
         "name_en": "WANG OU-LI"
-      },
-      {
-        "name_zh": "桑自剛",
-        "name_en": "SANG, TZU-KANG"
       },
       {
         "name_zh": "劉姿吟",
@@ -124896,6 +124896,10 @@
     "language_code": "zh",
     "lecturers": [
       {
+        "name_zh": "桑自剛",
+        "name_en": "SANG, TZU-KANG"
+      },
+      {
         "name_zh": "邱于芯",
         "name_en": "CHIU, YU-HSIN"
       },
@@ -124906,10 +124910,6 @@
       {
         "name_zh": "王歐力",
         "name_en": "WANG OU-LI"
-      },
-      {
-        "name_zh": "桑自剛",
-        "name_en": "SANG, TZU-KANG"
       },
       {
         "name_zh": "廖品超",
@@ -164440,12 +164440,12 @@
     "language_code": "zh",
     "lecturers": [
       {
-        "name_zh": "羅仕龍",
-        "name_en": "LO, SHIH-LUNG"
-      },
-      {
         "name_zh": "林銘亮",
         "name_en": "LIN, MING-LIANG"
+      },
+      {
+        "name_zh": "羅仕龍",
+        "name_en": "LO, SHIH-LUNG"
       }
     ],
     "meetings": [
@@ -170786,6 +170786,10 @@
         "name_en": "LI-CHI HUANG"
       },
       {
+        "name_zh": "郭惟格",
+        "name_en": "KUO, WEI-KE"
+      },
+      {
         "name_zh": "林佳濱",
         "name_en": "CHIA-PIN LIN"
       },
@@ -170800,10 +170804,6 @@
       {
         "name_zh": "王智亮",
         "name_en": "CHIH-LIANG WANG"
-      },
-      {
-        "name_zh": "郭惟格",
-        "name_en": "KUO, WEI-KE"
       },
       {
         "name_zh": "陳益程",
