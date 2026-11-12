@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-12T18:12:36.757025+08:00",
+        "last_updated": "2026-11-12T20:17:43.850635+08:00",
         "name": "announcements.json",
-        "sha256": "19ad71be6846645fadd6bac696a8432623c44e98244783f17db8c1df6e88712c",
-        "version": "19ad71be6846645fadd6bac696a8432623c44e98244783f17db8c1df6e88712c"
+        "sha256": "a95d459783469269839deba54fe2d09c55548e7659e37c1519e1ba650be66100",
+        "version": "a95d459783469269839deba54fe2d09c55548e7659e37c1519e1ba650be66100"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-12T00:13:14.366725+08:00",
+        "last_updated": "2026-11-12T20:17:43.850635+08:00",
         "name": "All seminar_en.json",
-        "sha256": "8ed933beb1df634b316be28255d6e4ae59caa0f4742d2028d199353877aef503",
-        "version": "8ed933beb1df634b316be28255d6e4ae59caa0f4742d2028d199353877aef503"
+        "sha256": "c898a68a14a9dc8788b512e5d267915be1ff42bc7c70d0f25f21c56577d31888",
+        "version": "c898a68a14a9dc8788b512e5d267915be1ff42bc7c70d0f25f21c56577d31888"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-12T00:13:14.366725+08:00",
+        "last_updated": "2026-11-12T20:17:43.850635+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "53a4572d7362f0d2f7d8c8b0e0adc5bd74261a7f02914020787819f10fdd2f44",
-        "version": "53a4572d7362f0d2f7d8c8b0e0adc5bd74261a7f02914020787819f10fdd2f44"
+        "sha256": "12d38f99745a14fc04cf406e46c8a6085a2549ff36ef7ae2fd3342edf36e5c44",
+        "version": "12d38f99745a14fc04cf406e46c8a6085a2549ff36ef7ae2fd3342edf36e5c44"
       },
       {
         "last_updated": "2026-11-02T18:13:07.209909+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-12T18:12:36.757025+08:00"
+  "last_updated": "2026-11-12T20:17:43.850635+08:00"
 }
