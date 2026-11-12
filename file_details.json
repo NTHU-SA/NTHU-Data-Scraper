@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-12T20:17:43.850635+08:00",
+        "last_updated": "2026-11-13T00:13:36.430232+08:00",
         "name": "announcements.json",
-        "sha256": "a95d459783469269839deba54fe2d09c55548e7659e37c1519e1ba650be66100",
-        "version": "a95d459783469269839deba54fe2d09c55548e7659e37c1519e1ba650be66100"
+        "sha256": "4e3abf7962727c68ac13a1814b857137eb433ed87e518b138d80d81eac877802",
+        "version": "4e3abf7962727c68ac13a1814b857137eb433ed87e518b138d80d81eac877802"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -448,10 +448,10 @@
         "version": "3e78ca93f95c9b9279dd1ce277e45c9e81f1d59cccfbb24f8d0c948b54213ac3"
       },
       {
-        "last_updated": "2026-11-04T18:14:03.631527+08:00",
+        "last_updated": "2026-11-13T00:13:36.430232+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "3c6845ac96f05406f38c4804390669349d17f20ef949f68c163d62f5c6741ae8",
-        "version": "3c6845ac96f05406f38c4804390669349d17f20ef949f68c163d62f5c6741ae8"
+        "sha256": "3e4346b2871cbd0634d082430956a3bbb5fbcd2b4a6fd58c9a30b63d7765253a",
+        "version": "3e4346b2871cbd0634d082430956a3bbb5fbcd2b4a6fd58c9a30b63d7765253a"
       }
     ],
     "announcements/學務處生活輔導組(水木生活中心2樓)": [
@@ -1222,10 +1222,10 @@
         "version": "6544fbfe61e31d48010357e47ae377f4453a4f26911582b2b2bac67f275b4081"
       },
       {
-        "last_updated": "2026-11-12T18:12:36.757025+08:00",
+        "last_updated": "2026-11-13T00:13:36.430232+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "157240d69438fa633bd66618ae66b715b0b761f19be2af9d05fbb255e43d367c",
-        "version": "157240d69438fa633bd66618ae66b715b0b761f19be2af9d05fbb255e43d367c"
+        "sha256": "9597adb0733d57dcdde54a4936f606d51a8fe8840e1a21e44d3ed9fbd7f6867b",
+        "version": "9597adb0733d57dcdde54a4936f606d51a8fe8840e1a21e44d3ed9fbd7f6867b"
       },
       {
         "last_updated": "2026-11-06T16:16:05.104935+08:00",
@@ -1268,10 +1268,10 @@
         "version": "f2a1a3724d832cb3b96430d7c8fa7e3ae551cda642b1b2b2f2cf30cd5579e934"
       },
       {
-        "last_updated": "2026-11-12T12:14:22.246417+08:00",
+        "last_updated": "2026-11-13T00:13:36.430232+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "828ad30eb393f0f93291a62bd91a1b2fd52b3883b0e3bdbc8a0bcf29e3eba3aa",
-        "version": "828ad30eb393f0f93291a62bd91a1b2fd52b3883b0e3bdbc8a0bcf29e3eba3aa"
+        "sha256": "2326654fe591748adfaf46f48dc6b27122956779e001291d8ff4dbe5eaf51862",
+        "version": "2326654fe591748adfaf46f48dc6b27122956779e001291d8ff4dbe5eaf51862"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-12T20:17:43.850635+08:00",
+        "last_updated": "2026-11-13T00:13:36.430232+08:00",
         "name": "All seminar_en.json",
-        "sha256": "c898a68a14a9dc8788b512e5d267915be1ff42bc7c70d0f25f21c56577d31888",
-        "version": "c898a68a14a9dc8788b512e5d267915be1ff42bc7c70d0f25f21c56577d31888"
+        "sha256": "27ae38a805bcf719615f25ddfd6b8028bb026ec203919912e9fe8fefc860f6a6",
+        "version": "27ae38a805bcf719615f25ddfd6b8028bb026ec203919912e9fe8fefc860f6a6"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-12T20:17:43.850635+08:00",
+        "last_updated": "2026-11-13T00:13:36.430232+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "12d38f99745a14fc04cf406e46c8a6085a2549ff36ef7ae2fd3342edf36e5c44",
-        "version": "12d38f99745a14fc04cf406e46c8a6085a2549ff36ef7ae2fd3342edf36e5c44"
+        "sha256": "15b103a8e7b4008e9ec0a14baf8ca878e2dc9fbfb36153df85380f5a5c6aaaa0",
+        "version": "15b103a8e7b4008e9ec0a14baf8ca878e2dc9fbfb36153df85380f5a5c6aaaa0"
       },
       {
         "last_updated": "2026-11-02T18:13:07.209909+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-12T20:17:43.850635+08:00"
+  "last_updated": "2026-11-13T00:13:36.430232+08:00"
 }
