@@ -11534,12 +11534,12 @@
     "language_code": "en",
     "lecturers": [
       {
-        "name_zh": "林竣偉",
-        "name_en": "LIN,CHUN-WEI"
-      },
-      {
         "name_zh": "洪嘉呈",
         "name_en": "HORNG, JIA-CHERNG"
+      },
+      {
+        "name_zh": "林竣偉",
+        "name_en": "LIN,CHUN-WEI"
       }
     ],
     "meetings": [
