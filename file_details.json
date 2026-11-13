@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-13T14:20:20.838180+08:00",
+        "last_updated": "2026-11-13T16:15:25.294903+08:00",
         "name": "announcements.json",
-        "sha256": "149ca5f4a3c9f8593041d66bcb7d11f35255f3e2cc6a39f8046078c8d2de120a",
-        "version": "149ca5f4a3c9f8593041d66bcb7d11f35255f3e2cc6a39f8046078c8d2de120a"
+        "sha256": "0178e19adf7b2cea7f12cee14a7701c82750a32e25929f484ee84961ed8a1b88",
+        "version": "0178e19adf7b2cea7f12cee14a7701c82750a32e25929f484ee84961ed8a1b88"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-13T14:20:20.838180+08:00",
+        "last_updated": "2026-11-13T16:15:25.294903+08:00",
         "name": "dining.json",
-        "sha256": "2981fb175cc646f9c984100f3f3e18b72397e06565b67abe23673c0ec9494315",
-        "version": "2981fb175cc646f9c984100f3f3e18b72397e06565b67abe23673c0ec9494315"
+        "sha256": "f2cd6b2eb4ccf6b83d69cfad059ba95bf03ec796bfc31c821ef282083f03839c",
+        "version": "f2cd6b2eb4ccf6b83d69cfad059ba95bf03ec796bfc31c821ef282083f03839c"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -526,10 +526,10 @@
         "version": "ce0fb1be90105c20d3d74ceb608562d513840ed45d123b76764d5376edbb17c3"
       },
       {
-        "last_updated": "2026-11-12T16:16:46.742084+08:00",
+        "last_updated": "2026-11-13T16:15:25.294903+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "1f64cc24d7115aa96b2d40e980bb708b9b40336781466bd57d703025dc4f1f14",
-        "version": "1f64cc24d7115aa96b2d40e980bb708b9b40336781466bd57d703025dc4f1f14"
+        "sha256": "d7648574b96febd3a2bcd8e8855e8546a66b911ee2503363b7642e644f78ffbd",
+        "version": "d7648574b96febd3a2bcd8e8855e8546a66b911ee2503363b7642e644f78ffbd"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -858,10 +858,10 @@
         "version": "a44b5a0034dca45588a7f322f1e1d9e9da035b2b402fe0eacc48cbcc93a33633"
       },
       {
-        "last_updated": "2026-11-13T10:14:37.616172+08:00",
+        "last_updated": "2026-11-13T16:15:25.294903+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "1fba1670fb1430b4066cd7010d81589ae190c8d4f8afbbf4237c2bbf1fb01e08",
-        "version": "1fba1670fb1430b4066cd7010d81589ae190c8d4f8afbbf4237c2bbf1fb01e08"
+        "sha256": "4768b23819556c01897f4833cff31860d3518111781bb39e9151e3c163d1ae2d",
+        "version": "4768b23819556c01897f4833cff31860d3518111781bb39e9151e3c163d1ae2d"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -1722,16 +1722,16 @@
         "version": "e0e94f398634a117318aade7cc169a1d98eb679914c3771f70913558a359e520"
       },
       {
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_updated": "2026-11-13T16:15:25.294903+08:00",
         "name": "REC Review Information_en.json",
-        "sha256": "9574e174b7f4243989791a5080e54a25d0e4030b050cf7b4e15678763194f27a",
-        "version": "9574e174b7f4243989791a5080e54a25d0e4030b050cf7b4e15678763194f27a"
+        "sha256": "d3e92684cbab950194941649d138971a0eb1cb27261c11a6c83390d4d49dbcac",
+        "version": "d3e92684cbab950194941649d138971a0eb1cb27261c11a6c83390d4d49dbcac"
       },
       {
-        "last_updated": "2026-10-03T02:10:13.241185+08:00",
+        "last_updated": "2026-11-13T16:15:25.294903+08:00",
         "name": "最新消息 REC News_en.json",
-        "sha256": "a3eae98ed0a541efb78aa44595814f999085e4c3f00896b4640b1b6e12fee23e",
-        "version": "a3eae98ed0a541efb78aa44595814f999085e4c3f00896b4640b1b6e12fee23e"
+        "sha256": "234ac74a4accf7535edd94e2bbb8b699bf52e42c0e9b2c65bb3a5ab4cc1fbb51",
+        "version": "234ac74a4accf7535edd94e2bbb8b699bf52e42c0e9b2c65bb3a5ab4cc1fbb51"
       },
       {
         "last_updated": "2026-10-19T10:28:09.037809+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-13T14:20:20.838180+08:00"
+  "last_updated": "2026-11-13T16:15:25.294903+08:00"
 }
