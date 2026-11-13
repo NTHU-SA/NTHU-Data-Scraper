@@ -537,6 +537,11 @@
         "department": "教務處招生策略中心",
         "articles": [
             {
+                "title": "116學年度碩士班甄試第二次放榜錄取名單",
+                "link": "https://adms.site.nthu.edu.tw/p/406-1207-317636,r323.php?Lang=zh-tw",
+                "date": "2026-11-13"
+            },
+            {
                 "title": "116碩士班錄取生至境外交換之延遲繳交報到資料切結書",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-317651,r323.php?Lang=zh-tw",
                 "date": "2026-11-10"
@@ -630,11 +635,6 @@
                 "title": "台聯大系統115學年度碩士班招生 第14次備取遞補名單 (含報到須知)",
                 "link": "https://adms.site.nthu.edu.tw/p/406-1207-311147,r323.php?Lang=zh-tw",
                 "date": "2026-06-30"
-            },
-            {
-                "title": "115學年度碩士班考試第16次備取遞補名單(含報到須知)",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-311100,r323.php?Lang=zh-tw",
-                "date": "2026-06-29"
             }
         ]
     },
@@ -1393,6 +1393,11 @@
         "department": "計算機與通訊中心校務資訊組",
         "articles": [
             {
+                "title": "【資安公告】校務資訊系統密碼重設弱點說明",
+                "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-318275,r747.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "計算機與通訊中心資訊系統開發作業要點",
                 "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-262386,r747.php?Lang=zh-tw",
                 "date": ""
@@ -1445,11 +1450,6 @@
             {
                 "title": "【校務系統公告】停機公告",
                 "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-38098,r747.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【程式更新公告】校內獎助學金發放系統執行程式更新",
-                "link": "https://aisccc.site.nthu.edu.tw/p/406-1318-38048,r747.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -5326,7 +5326,12 @@
             },
             {
                 "title": "【博班招生】116學年度博士班甄試第二梯次放榜錄取名單",
-                "link": "https://adms.site.nthu.edu.tw/p/406-1207-318206,r1134.php?Lang=zh-tw",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-318217,r11272.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【碩班招生】116學年度碩士班甄試第二次放榜錄取名單",
+                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-318223,r11272.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -5812,11 +5817,6 @@
             {
                 "title": "【研討會公告】【台灣首次TIARA-IEEE SYW Seminar】輕量化AI技術與半導體應用創新國際研討會",
                 "link": "https://cosr.site.nthu.edu.tw/p/406-1536-296525,r11272.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【博班招生】114學年度第一次辦理逕行修讀半導體研究學院博士學位作業，即日起至114.10.27(星期一)17:00止",
-                "link": "https://cosr.site.nthu.edu.tw/p/406-1536-295589,r11272.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -7094,6 +7094,11 @@
         "department": "總務處經營管理組",
         "articles": [
             {
+                "title": "水木餐廳滿意度調查活動",
+                "link": "https://ddfm.site.nthu.edu.tw/p/406-1494-318212,r8304.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "南大校區陽光魚多元運動中心教職員生優惠方案",
                 "link": "https://ddfm.site.nthu.edu.tw/p/406-1494-307907,r8304.php?Lang=zh-tw",
                 "date": ""
@@ -7146,11 +7151,6 @@
             {
                 "title": "風雲樓二樓「鼎盛蔬食」、「茗釀茶品」滿意度調查報告",
                 "link": "https://ddfm.site.nthu.edu.tw/p/450-1494-306621,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "3/28(六)小吃部停電暨營業公告",
-                "link": "https://ddfm.site.nthu.edu.tw/p/406-1494-305500,r8304.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -9672,6 +9672,21 @@
                 "date": "2026-11-10"
             },
             {
+                "title": "【公告】116碩士班甄試第2梯次錄取名單已公告於招生專區",
+                "link": "https://ene.site.nthu.edu.tw/p/450-1180-318280,c0.php?Lang=zh-tw",
+                "date": "2026-11-13"
+            },
+            {
+                "title": "【公告】【敬邀參加】11/18(三)清華電機TEEN講座｜廖華賢系友：走出實驗室之後，一位光電工程師的創業歷程",
+                "link": "https://ene.site.nthu.edu.tw/p/406-1180-318290,r3119.php?Lang=zh-tw",
+                "date": "2026-11-13"
+            },
+            {
+                "title": "【公告】歡迎報名１１／１７（二）圖書館舉辦的博碩士論文線上說明會",
+                "link": "https://ene.site.nthu.edu.tw/p/406-1180-318285,r3119.php?Lang=zh-tw",
+                "date": "2026-11-13"
+            },
+            {
                 "title": "【公告】歡迎各位同學報名參加 115-1 學期 EMI TA 培訓系列｜第二場 PLAY LAB！",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-318062,r3119.php?Lang=zh-tw",
                 "date": "2026-11-11"
@@ -9695,21 +9710,6 @@
                 "title": "【公告】2027 TSIA半導體獎：博士研究生-電資院截止日11/30",
                 "link": "https://ene.site.nthu.edu.tw/p/406-1180-317923,r3119.php?Lang=zh-tw",
                 "date": "2026-11-10"
-            },
-            {
-                "title": "【重要公告】因應分科測驗放榜延後，115學年度新生選課順延至 8月18日中午開始",
-                "link": "https://ene.site.nthu.edu.tw/p/406-1180-311511,r3119.php?Lang=zh-tw",
-                "date": "2026-07-09"
-            },
-            {
-                "title": "【公告】116學年度碩士班甄試入學正備取考生座談會",
-                "link": "https://ene.site.nthu.edu.tw/p/406-1180-317682,r3119.php?Lang=zh-tw",
-                "date": "2026-11-06"
-            },
-            {
-                "title": "【公告】教育部補助115學年度第1學期大學校院學生出國參加國際性學術技藝能競賽受理申請(敬請於11月11日中午前備齊申請文件送研發處)",
-                "link": "https://ene.site.nthu.edu.tw/p/406-1180-317680,r3119.php?Lang=zh-tw",
-                "date": "2026-11-06"
             }
         ]
     },
@@ -10887,6 +10887,11 @@
         "department": "竹師教育學院幼兒教育學系",
         "articles": [
             {
+                "title": "🆕【115/11/13公告】116學年度碩士班甄試入學錄取名單公告",
+                "link": "https://gdece.site.nthu.edu.tw/p/406-1587-317186,r11.php?Lang=zh-tw",
+                "date": "2026-11-13"
+            },
+            {
                 "title": "🆕國立清華大學116學年度碩士在職專班招生簡章公告(報名日期115/12/8-12/17)",
                 "link": "https://gdece.site.nthu.edu.tw/p/406-1587-298449,r11.php?Lang=zh-tw",
                 "date": "2026-11-06"
@@ -10895,11 +10900,6 @@
                 "title": "🆕國立清華大學116學年度碩士班考試入學招生簡章公告(報名日期115/11/24-12/1)",
                 "link": "https://gdece.site.nthu.edu.tw/p/406-1587-298222,r11.php?Lang=zh-tw",
                 "date": "2026-11-04"
-            },
-            {
-                "title": "🆕116學年度碩士班甄試複試名單公告(含複試注意事項、各梯次報到時間表)",
-                "link": "https://gdece.site.nthu.edu.tw/p/406-1587-317186,r11.php?Lang=zh-tw",
-                "date": "2026-10-30"
             },
             {
                 "title": "📣116級幼兒劇《藝馬當鮮》索票資訊",
@@ -11462,8 +11462,13 @@
         "department": "竹師教育學院數理教育研究所",
         "articles": [
             {
-                "title": "116學年度碩士班推甄初試結果",
-                "link": "https://gimse.site.nthu.edu.tw/p/406-1115-297761,r1.php?Lang=zh-tw",
+                "title": "116學年度碩士班甄試放榜",
+                "link": "https://adms.site.nthu.edu.tw/p/404-1207-317636.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "116學年度招生資訊",
+                "link": "https://gimse.site.nthu.edu.tw/p/406-1115-269414,r1.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -11474,11 +11479,6 @@
             {
                 "title": "115年10月份論文計畫發表暨學位考試場次",
                 "link": "https://gimse.site.nthu.edu.tw/p/406-1115-22964,r1.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "116學年度招生資訊",
-                "link": "https://gimse.site.nthu.edu.tw/p/406-1115-269414,r1.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -13921,6 +13921,11 @@
         "department": "工學院工業工程與工程管理學系",
         "articles": [
             {
+                "title": "恭喜本系信驊講座教授葉維彰當選英國工程技術學會會士（IET Fellow）",
+                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-318303,r3168.php?Lang=zh-tw",
+                "date": "2026-11-13"
+            },
+            {
                 "title": "恭喜本系簡禎富講座教授榮獲教育部第70屆工程及應用科學類學術獎",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-317334,r3168.php?Lang=zh-tw",
                 "date": "2026-11-02"
@@ -13974,11 +13979,6 @@
                 "title": "恭喜本系張國浩特聘教授與陳子立副教授研究團隊於旗艦期刊 JORS 榮獲最佳論文",
                 "link": "https://ieem.site.nthu.edu.tw/p/406-1310-313975,r3168.php?Lang=zh-tw",
                 "date": "2026-09-04"
-            },
-            {
-                "title": "恭喜本系瞿志行教授研究團隊參加 ASME IDETC-CIE 2026 研討會榮獲最佳論文獎",
-                "link": "https://ieem.site.nthu.edu.tw/p/406-1310-313886,r3168.php?Lang=zh-tw",
-                "date": "2026-09-03"
             }
         ]
     },
@@ -21274,6 +21274,11 @@
         "department": "竹師教育學院教育心理與諮商學系",
         "articles": [
             {
+                "title": "【招生】116學年度碩士班甄試入學錄取名單公告",
+                "link": "https://psy.site.nthu.edu.tw/p/406-1135-318278,r1.php?Lang=zh-tw",
+                "date": "2026-11-13"
+            },
+            {
                 "title": "國科會「高中生人文及社會科學營」計畫 誠徵博士生輔導員",
                 "link": "https://psy.site.nthu.edu.tw/p/406-1135-317929,r1.php?Lang=zh-tw",
                 "date": "2026-11-10"
@@ -21317,11 +21322,6 @@
                 "title": "2025清華心諮工商實習成果發表會-「實」踐夢想,「習」築未來",
                 "link": "https://psy.site.nthu.edu.tw/p/406-1135-299293,r1.php?Lang=zh-tw",
                 "date": "2025-11-21"
-            },
-            {
-                "title": "【轉知】2025個人韌性論壇：AI在健康與教育中的共創與挑戰，歡迎踴躍報名參加",
-                "link": "https://docs.google.com/forms/d/e/1FAIpQLSfgt6po59obsgdktEHhToik5v7WDTPuUvxDBpBQzLxB9eRjKg/viewform",
-                "date": "2025-10-07"
             }
         ]
     },
