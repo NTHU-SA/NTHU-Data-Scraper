@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-13T16:15:25.294903+08:00",
+        "last_updated": "2026-11-13T18:12:20.867517+08:00",
         "name": "announcements.json",
-        "sha256": "0178e19adf7b2cea7f12cee14a7701c82750a32e25929f484ee84961ed8a1b88",
-        "version": "0178e19adf7b2cea7f12cee14a7701c82750a32e25929f484ee84961ed8a1b88"
+        "sha256": "70a4d919ab4af0b48c099eb62007f45139a2f1cfb51ca4a6fb0becc79b469da1",
+        "version": "70a4d919ab4af0b48c099eb62007f45139a2f1cfb51ca4a6fb0becc79b469da1"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -72,10 +72,10 @@
     ],
     "announcements/人事室": [
       {
-        "last_updated": "2026-11-13T12:14:32.309057+08:00",
+        "last_updated": "2026-11-13T18:12:20.867517+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "5c552ae803169a16c6e2fc9b038cbc221e9ae180692d2287e851d851559281ba",
-        "version": "5c552ae803169a16c6e2fc9b038cbc221e9ae180692d2287e851d851559281ba"
+        "sha256": "4f3f2546180f2977e50d2b9d5801a81b791e81b74867bf2aca26e8febfdb1f68",
+        "version": "4f3f2546180f2977e50d2b9d5801a81b791e81b74867bf2aca26e8febfdb1f68"
       },
       {
         "last_updated": "2026-11-02T12:15:01.766607+08:00",
@@ -1722,16 +1722,16 @@
         "version": "e0e94f398634a117318aade7cc169a1d98eb679914c3771f70913558a359e520"
       },
       {
-        "last_updated": "2026-11-13T16:15:25.294903+08:00",
+        "last_updated": "2026-11-13T18:12:20.867517+08:00",
         "name": "REC Review Information_en.json",
-        "sha256": "d3e92684cbab950194941649d138971a0eb1cb27261c11a6c83390d4d49dbcac",
-        "version": "d3e92684cbab950194941649d138971a0eb1cb27261c11a6c83390d4d49dbcac"
+        "sha256": "91882411b14332532bb5474afb740336c36e092c55ea06d9913f7ca6f99679ac",
+        "version": "91882411b14332532bb5474afb740336c36e092c55ea06d9913f7ca6f99679ac"
       },
       {
-        "last_updated": "2026-11-13T16:15:25.294903+08:00",
+        "last_updated": "2026-11-13T18:12:20.867517+08:00",
         "name": "最新消息 REC News_en.json",
-        "sha256": "234ac74a4accf7535edd94e2bbb8b699bf52e42c0e9b2c65bb3a5ab4cc1fbb51",
-        "version": "234ac74a4accf7535edd94e2bbb8b699bf52e42c0e9b2c65bb3a5ab4cc1fbb51"
+        "sha256": "43891e8cc451b158e9479af3611a6cb6af82ef7db613796de8e6967051dc57c6",
+        "version": "43891e8cc451b158e9479af3611a6cb6af82ef7db613796de8e6967051dc57c6"
       },
       {
         "last_updated": "2026-10-19T10:28:09.037809+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-13T16:15:25.294903+08:00"
+  "last_updated": "2026-11-13T18:12:20.867517+08:00"
 }
