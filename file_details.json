@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-13T00:13:36.430232+08:00",
+        "last_updated": "2026-11-13T08:30:50.045891+08:00",
         "name": "announcements.json",
-        "sha256": "4e3abf7962727c68ac13a1814b857137eb433ed87e518b138d80d81eac877802",
-        "version": "4e3abf7962727c68ac13a1814b857137eb433ed87e518b138d80d81eac877802"
+        "sha256": "8d10bdcc07cd5e644f4f4398bf2e706ab5dd5c6ef5952268781fca5f710314cc",
+        "version": "8d10bdcc07cd5e644f4f4398bf2e706ab5dd5c6ef5952268781fca5f710314cc"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-13T00:13:36.430232+08:00",
+        "last_updated": "2026-11-13T08:30:50.045891+08:00",
         "name": "All seminar_en.json",
-        "sha256": "27ae38a805bcf719615f25ddfd6b8028bb026ec203919912e9fe8fefc860f6a6",
-        "version": "27ae38a805bcf719615f25ddfd6b8028bb026ec203919912e9fe8fefc860f6a6"
+        "sha256": "11cc35327fda80ddca481ba30db50eb402267258d9c85b2f8d2ca0807703284d",
+        "version": "11cc35327fda80ddca481ba30db50eb402267258d9c85b2f8d2ca0807703284d"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-13T00:13:36.430232+08:00",
+        "last_updated": "2026-11-13T08:30:50.045891+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "15b103a8e7b4008e9ec0a14baf8ca878e2dc9fbfb36153df85380f5a5c6aaaa0",
-        "version": "15b103a8e7b4008e9ec0a14baf8ca878e2dc9fbfb36153df85380f5a5c6aaaa0"
+        "sha256": "70edc4882cbc15e2d1bea58abf10050d96ce014cf1b2ccd82a4481b6e89e802e",
+        "version": "70edc4882cbc15e2d1bea58abf10050d96ce014cf1b2ccd82a4481b6e89e802e"
       },
       {
         "last_updated": "2026-11-02T18:13:07.209909+08:00",
@@ -1652,10 +1652,10 @@
         "version": "1644ec7b67fde1a7cddc4d364002f7fb803d7b63beaff8f4308327964db03438"
       },
       {
-        "last_updated": "2026-10-30T08:37:02.243792+08:00",
+        "last_updated": "2026-11-13T08:30:50.045891+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "251d1716aa9cb0e1d4ce3f508646c2acd54860871b11893782d97a397b790eaf",
-        "version": "251d1716aa9cb0e1d4ce3f508646c2acd54860871b11893782d97a397b790eaf"
+        "sha256": "5fc3549cb21844d036efe76d9ad15f18e14320bc4e3534caba3ef4fbe6583469",
+        "version": "5fc3549cb21844d036efe76d9ad15f18e14320bc4e3534caba3ef4fbe6583469"
       }
     ],
     "announcements/生命科學暨醫學院系統神經科學研究所": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-13T06:10:54.028941+08:00"
+  "last_updated": "2026-11-13T08:30:50.045891+08:00"
 }
