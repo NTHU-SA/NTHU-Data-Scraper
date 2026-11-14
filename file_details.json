@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-14T18:10:42.467347+08:00",
+        "last_updated": "2026-11-15T00:11:46.376781+08:00",
         "name": "announcements.json",
-        "sha256": "550265f665aff546d40875fec8025dad9377dc89c33970c2571e92fe953b14e5",
-        "version": "550265f665aff546d40875fec8025dad9377dc89c33970c2571e92fe953b14e5"
+        "sha256": "c3725e70bf45f063c93d506a57fa573f6341bbd95c3ed075a356d34fed0ecaa3",
+        "version": "c3725e70bf45f063c93d506a57fa573f6341bbd95c3ed075a356d34fed0ecaa3"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -672,10 +672,10 @@
         "version": "b379dc74d7a661241796976dfa96b74e744ff9d469431ca62cdab01480b3f484"
       },
       {
-        "last_updated": "2026-11-11T12:14:30.265904+08:00",
+        "last_updated": "2026-11-15T00:11:46.376781+08:00",
         "name": "招生-轉學考試_zh-tw.json",
-        "sha256": "7837b1adc85fcc3d6f8ae0b5964562fd5b776ec6fc751cef6d61b1f4b43957d1",
-        "version": "7837b1adc85fcc3d6f8ae0b5964562fd5b776ec6fc751cef6d61b1f4b43957d1"
+        "sha256": "b40e674e926d3ff9422fc2ee9940ab1296c6b863a2d85b28c5cc3d2cebd536bb",
+        "version": "b40e674e926d3ff9422fc2ee9940ab1296c6b863a2d85b28c5cc3d2cebd536bb"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-14T18:10:42.467347+08:00"
+  "last_updated": "2026-11-15T00:11:46.376781+08:00"
 }
