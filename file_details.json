@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-15T00:11:46.376781+08:00",
+        "last_updated": "2026-11-15T12:13:55.776776+08:00",
         "name": "announcements.json",
-        "sha256": "c3725e70bf45f063c93d506a57fa573f6341bbd95c3ed075a356d34fed0ecaa3",
-        "version": "c3725e70bf45f063c93d506a57fa573f6341bbd95c3ed075a356d34fed0ecaa3"
+        "sha256": "6150da93ff82e9b8f9b5cb19a52de4f67a2a72020f86da98242045e4459f9bb0",
+        "version": "6150da93ff82e9b8f9b5cb19a52de4f67a2a72020f86da98242045e4459f9bb0"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -2442,10 +2442,10 @@
         "version": "8ed9a3339b16eb8da759f85381f7277c2b40478692e2dc548e4a058afaaced5f"
       },
       {
-        "last_updated": "2026-11-08T02:12:44.775656+08:00",
+        "last_updated": "2026-11-15T12:13:55.776776+08:00",
         "name": "轉知公告_zh-tw.json",
-        "sha256": "5cf01442f0e06e0f70f75b8de05069f6e093d27365c0c6bf439edaf6bfa5be0f",
-        "version": "5cf01442f0e06e0f70f75b8de05069f6e093d27365c0c6bf439edaf6bfa5be0f"
+        "sha256": "ee6df0bd4e8ab0b213a510c2366dac69f285eaa6739dd238dd7b07cc2201f73f",
+        "version": "ee6df0bd4e8ab0b213a510c2366dac69f285eaa6739dd238dd7b07cc2201f73f"
       }
     ],
     "announcements/藝文總中心文物館": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-15T00:11:46.376781+08:00"
+  "last_updated": "2026-11-15T12:13:55.776776+08:00"
 }
