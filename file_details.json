@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-16T18:15:08.419068+08:00",
+        "last_updated": "2026-11-16T22:26:21.958064+08:00",
         "name": "announcements.json",
-        "sha256": "e3d24bb2cdbbfb21d218e266dd0ee4135b8187e3fb581c895cfaf7498a53143c",
-        "version": "e3d24bb2cdbbfb21d218e266dd0ee4135b8187e3fb581c895cfaf7498a53143c"
+        "sha256": "8fc61f58e9cc0fab47155a97ce2c933ebeee707c23142d657f018becb76da442",
+        "version": "8fc61f58e9cc0fab47155a97ce2c933ebeee707c23142d657f018becb76da442"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1928,16 +1928,16 @@
         "version": "f272986418193877a843b416ab2addbfb17bdf12eb8491d09fc119dc5eada29a"
       },
       {
-        "last_updated": "2026-10-03T03:34:39.239957+08:00",
+        "last_updated": "2026-11-16T22:26:21.958064+08:00",
         "name": "所辦公告_zh-tw.json",
-        "sha256": "5695e4c56daac602c01934a8fed5b914aaf7a9cf7a2ba3201abafbb4a22caf2d",
-        "version": "5695e4c56daac602c01934a8fed5b914aaf7a9cf7a2ba3201abafbb4a22caf2d"
+        "sha256": "1dde32dbe478021665993db43e3ed9e76c2de280275303b0d2a23175c5a2df2b",
+        "version": "1dde32dbe478021665993db43e3ed9e76c2de280275303b0d2a23175c5a2df2b"
       },
       {
-        "last_updated": "2026-11-03T12:14:46.455757+08:00",
+        "last_updated": "2026-11-16T22:26:21.958064+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "661e3e6a5b55fc387f80c0ef5ef88f6f2ab32b0ce9b9f82f3892d7c7b21e4238",
-        "version": "661e3e6a5b55fc387f80c0ef5ef88f6f2ab32b0ce9b9f82f3892d7c7b21e4238"
+        "sha256": "9fcc37b18a2cbc678bf935c37d84f7e029432c3a70476273ba971327a2edffcf",
+        "version": "9fcc37b18a2cbc678bf935c37d84f7e029432c3a70476273ba971327a2edffcf"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-16T18:15:08.419068+08:00"
+  "last_updated": "2026-11-16T22:26:21.958064+08:00"
 }
