@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2080",
+            "category": "服務消息",
+            "title": "【服務公告】11/18（三）學科資源導航網站升級維護",
+            "link": null,
+            "pubDate": "Mon, 16 Nov 2026 09:49:53 +0800",
+            "description": "各位讀者好：\n本館學科資源導航網站（https://libguides.lib.nthu.edu.tw/home）將進行升級作業，相關資訊如下：\n❏ 影響時間：11月18 日（三）全天\n❏ 影響範圍：學科資源導航網站（Subject Resources Guide）\n❏ 狀況說明：升級期間可正常瀏覽網站與查詢資料，但部分頁面可能會有畫面跑版的情形。（預計當天調整完畢）\n如遇嚴重影響使用的頁面，請隨時聯繫我們：\n❏ Email：scholar@my.nthu.edu.tw",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261118.jpg",
+                "title": "【服務公告】11/18（三）學科資源導航網站升級維護",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2076",
             "category": "展覽與活動",
             "title": "【活動快訊】11/18(三) 週三響時光｜馬友友：超魅力",

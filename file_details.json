@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-16T08:37:27.865156+08:00",
+        "last_updated": "2026-11-16T10:18:37.865784+08:00",
         "name": "announcements.json",
-        "sha256": "a410033ce46b8a966172beebdf6566559862d439d119ece03bed5d805274b8c1",
-        "version": "a410033ce46b8a966172beebdf6566559862d439d119ece03bed5d805274b8c1"
+        "sha256": "d5ad7d65dc0f8eab4ca84295174329646049c9c304feb27646651d1a2c88d53e",
+        "version": "d5ad7d65dc0f8eab4ca84295174329646049c9c304feb27646651d1a2c88d53e"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -974,10 +974,10 @@
         "version": "2a8a50be5f4799dbdd0ffd7ffd75dbea5d274ba9da9c2c889e5e330b4cc9c5af"
       },
       {
-        "last_updated": "2026-10-15T10:25:10.526191+08:00",
+        "last_updated": "2026-11-16T10:18:37.865784+08:00",
         "name": "新書展示_zh-tw.json",
-        "sha256": "80bfdfd1a82368a5b4bb5e5769c60a12059ad2a7ec0566771c76be15aba2c048",
-        "version": "80bfdfd1a82368a5b4bb5e5769c60a12059ad2a7ec0566771c76be15aba2c048"
+        "sha256": "0d9b54fc9d799d1e7ae9555436de624f4d111125f29d81031c2031a580baa4ed",
+        "version": "0d9b54fc9d799d1e7ae9555436de624f4d111125f29d81031c2031a580baa4ed"
       },
       {
         "last_updated": "2026-10-14T16:25:49.196087+08:00",
@@ -1020,10 +1020,10 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_updated": "2026-11-10T12:14:08.337984+08:00",
+        "last_updated": "2026-11-16T10:18:37.865784+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "fd4cdc620cdcd4193debac3fe7cbcf4ea558ee4abab3cb095e8f9e84ada6308b",
-        "version": "fd4cdc620cdcd4193debac3fe7cbcf4ea558ee4abab3cb095e8f9e84ada6308b"
+        "sha256": "966d2a6ea9bfa6208044161b46f0026e4f494708aff5de1429381266c3ece874",
+        "version": "966d2a6ea9bfa6208044161b46f0026e4f494708aff5de1429381266c3ece874"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -1632,10 +1632,10 @@
         "version": "5bd6abca6c181356718a6b8c6066ad49365816bc393fd40047b88702a302bf08"
       },
       {
-        "last_updated": "2026-11-11T18:12:27.754277+08:00",
+        "last_updated": "2026-11-16T10:18:37.865784+08:00",
         "name": "最新訊息_zh-tw.json",
-        "sha256": "3957a1253d35205078902fe99023b7ebff47d1ac2dfd735d946a6a7b94f541ae",
-        "version": "3957a1253d35205078902fe99023b7ebff47d1ac2dfd735d946a6a7b94f541ae"
+        "sha256": "676e8483b5bdcba75ebfa51d0d6a9b40fbf5d7ed575e8de0547e8c7714bf836c",
+        "version": "676e8483b5bdcba75ebfa51d0d6a9b40fbf5d7ed575e8de0547e8c7714bf836c"
       },
       {
         "last_updated": "2026-11-11T16:16:25.686373+08:00",
@@ -1946,10 +1946,10 @@
         "version": "549885d8329738d122d1bebc6ea550ec28b0281e9582484c43216bcbe898d6b3"
       },
       {
-        "last_updated": "2026-10-23T22:20:55.392488+08:00",
+        "last_updated": "2026-11-16T10:18:37.865784+08:00",
         "name": "演講公告_zh-tw.json",
-        "sha256": "ecfa24035b0b06e4521d213c2063179d797ce9098d7a2bf7bfba29b2e4b1121b",
-        "version": "ecfa24035b0b06e4521d213c2063179d797ce9098d7a2bf7bfba29b2e4b1121b"
+        "sha256": "a3148f3e36e60e6b7ed6b7202ec1ebb9e019d3074896ab7b77ef3d5d92358158",
+        "version": "a3148f3e36e60e6b7ed6b7202ec1ebb9e019d3074896ab7b77ef3d5d92358158"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -2974,10 +2974,10 @@
         "version": "73f22ed06dc2f20d9c16d6ca08c7aed10660123a70590ddfdeeca825434192c8"
       },
       {
-        "last_updated": "2026-11-16T00:11:52.286236+08:00",
+        "last_updated": "2026-11-16T10:18:37.865784+08:00",
         "name": "rss.json",
-        "sha256": "c5e9699049d36ad38d9d2dd9661d59cf928b4957b3b21e9d531085bed69ceafd",
-        "version": "c5e9699049d36ad38d9d2dd9661d59cf928b4957b3b21e9d531085bed69ceafd"
+        "sha256": "1cc057de232b7c547343ee5ff403523ee40b4cb4642c3546a76ae197ca887104",
+        "version": "1cc057de232b7c547343ee5ff403523ee40b4cb4642c3546a76ae197ca887104"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-16T08:37:27.865156+08:00"
+  "last_updated": "2026-11-16T10:18:37.865784+08:00"
 }
