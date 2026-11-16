@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-16T00:11:52.286236+08:00",
+        "last_updated": "2026-11-16T08:37:27.865156+08:00",
         "name": "announcements.json",
-        "sha256": "0f8adf357d2d05cf0d55d249c127f58991a9bef9b295efc5d3bb9bf15d07e80a",
-        "version": "0f8adf357d2d05cf0d55d249c127f58991a9bef9b295efc5d3bb9bf15d07e80a"
+        "sha256": "a410033ce46b8a966172beebdf6566559862d439d119ece03bed5d805274b8c1",
+        "version": "a410033ce46b8a966172beebdf6566559862d439d119ece03bed5d805274b8c1"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-13T16:15:25.294903+08:00",
+        "last_updated": "2026-11-16T08:37:27.865156+08:00",
         "name": "dining.json",
-        "sha256": "f2cd6b2eb4ccf6b83d69cfad059ba95bf03ec796bfc31c821ef282083f03839c",
-        "version": "f2cd6b2eb4ccf6b83d69cfad059ba95bf03ec796bfc31c821ef282083f03839c"
+        "sha256": "02aa019f84a5300780a633620fab1e219cc39de137a4d18b72c61c50c5456eea",
+        "version": "02aa019f84a5300780a633620fab1e219cc39de137a4d18b72c61c50c5456eea"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-14T00:12:54.909721+08:00",
+        "last_updated": "2026-11-16T08:37:27.865156+08:00",
         "name": "All seminar_en.json",
-        "sha256": "1f07fa335e41eed723ffca62f6c3dd382189f3b344c9b2c5276727c6929a5a29",
-        "version": "1f07fa335e41eed723ffca62f6c3dd382189f3b344c9b2c5276727c6929a5a29"
+        "sha256": "a2b5f8486e5a8ab15d1d18e9bdc319977d86fd39a0118146064a9f81dee51401",
+        "version": "a2b5f8486e5a8ab15d1d18e9bdc319977d86fd39a0118146064a9f81dee51401"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-14T00:12:54.909721+08:00",
+        "last_updated": "2026-11-16T08:37:27.865156+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "6ac7490da209b1c43a49c071c26be25819f98563eed3f35efeea0110efd4567c",
-        "version": "6ac7490da209b1c43a49c071c26be25819f98563eed3f35efeea0110efd4567c"
+        "sha256": "923c70d002c6b52e8270cf4e06b1876dd655c88f11d893b0cb6177b458589d15",
+        "version": "923c70d002c6b52e8270cf4e06b1876dd655c88f11d893b0cb6177b458589d15"
       },
       {
         "last_updated": "2026-11-13T14:20:20.838180+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-16T00:11:52.286236+08:00"
+  "last_updated": "2026-11-16T08:37:27.865156+08:00"
 }
