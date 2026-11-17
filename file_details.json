@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-17T00:13:29.898416+08:00",
+        "last_updated": "2026-11-17T08:31:12.039218+08:00",
         "name": "announcements.json",
-        "sha256": "cb08b63bbd0a582101f71f267977d9d966683d30f1e16de9e0e238cf86d4cfbd",
-        "version": "cb08b63bbd0a582101f71f267977d9d966683d30f1e16de9e0e238cf86d4cfbd"
+        "sha256": "9dc95aafd24e3b09adb99f38d7cf10ae240ebaecf3858416a40f0a0188fe6ca3",
+        "version": "9dc95aafd24e3b09adb99f38d7cf10ae240ebaecf3858416a40f0a0188fe6ca3"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -474,10 +474,10 @@
         "version": "e1e972e04c83819fff6ad646c317a2ad9b68ae36127a5f6249110e8cb22ac65f"
       },
       {
-        "last_updated": "2026-11-12T12:14:22.246417+08:00",
+        "last_updated": "2026-11-17T08:31:12.039218+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "94aa0a5b0fc45bbc7a83735516e5d5dc3ebd071abf39e2ba8d4c6df722559a5b",
-        "version": "94aa0a5b0fc45bbc7a83735516e5d5dc3ebd071abf39e2ba8d4c6df722559a5b"
+        "sha256": "9a9d8348e0bdb7c9e62f9c6573b9d1e2c55833384868ab5d4bb5eaad7e8fb7b1",
+        "version": "9a9d8348e0bdb7c9e62f9c6573b9d1e2c55833384868ab5d4bb5eaad7e8fb7b1"
       },
       {
         "last_updated": "2026-11-12T12:14:22.246417+08:00",
@@ -1334,10 +1334,10 @@
     ],
     "announcements/清華學院語文中心": [
       {
-        "last_updated": "2026-11-11T08:30:15.869081+08:00",
+        "last_updated": "2026-11-17T08:31:12.039218+08:00",
         "name": "中心最新消息_zh-tw.json",
-        "sha256": "c2e0581270f312bf40461e934d6c60b7d153258a5905f2f73a5a389c29ef3f91",
-        "version": "c2e0581270f312bf40461e934d6c60b7d153258a5905f2f73a5a389c29ef3f91"
+        "sha256": "22c3d00f573e6bcb659e4c6378df761c30406c10982065da1395af7510511819",
+        "version": "22c3d00f573e6bcb659e4c6378df761c30406c10982065da1395af7510511819"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-17T00:13:29.898416+08:00"
+  "last_updated": "2026-11-17T08:31:12.039218+08:00"
 }
