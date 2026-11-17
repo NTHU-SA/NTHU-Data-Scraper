@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-17T16:16:26.198738+08:00",
+        "last_updated": "2026-11-17T18:12:21.695726+08:00",
         "name": "announcements.json",
-        "sha256": "490b7be9b968d06cbe36fe17d6fe350d41f775e00fe414ef44019478197c62b5",
-        "version": "490b7be9b968d06cbe36fe17d6fe350d41f775e00fe414ef44019478197c62b5"
+        "sha256": "55bbb86675eb0eae19ebe5fe9d0ebca600e71c74c05a44824787e62e28a6f2cb",
+        "version": "55bbb86675eb0eae19ebe5fe9d0ebca600e71c74c05a44824787e62e28a6f2cb"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -526,10 +526,10 @@
         "version": "ce0fb1be90105c20d3d74ceb608562d513840ed45d123b76764d5376edbb17c3"
       },
       {
-        "last_updated": "2026-11-17T16:16:26.198738+08:00",
+        "last_updated": "2026-11-17T18:12:21.695726+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "3836d998ad3b144b325fe5c7c7e3fe476f00bed344fd62d6fcedd88f46f41bce",
-        "version": "3836d998ad3b144b325fe5c7c7e3fe476f00bed344fd62d6fcedd88f46f41bce"
+        "sha256": "df8418d3e875a3a63183af4ac95159b0b5f692a275e7d8287b2e7b69c9617356",
+        "version": "df8418d3e875a3a63183af4ac95159b0b5f692a275e7d8287b2e7b69c9617356"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -1890,10 +1890,10 @@
         "version": "a545cec97b10057a7c72af79d7f16b230bd6dec5fb815cef81ab269feb1e41a1"
       },
       {
-        "last_updated": "2026-11-17T12:14:12.132623+08:00",
+        "last_updated": "2026-11-17T18:12:21.695726+08:00",
         "name": "最新消息 News_zh-tw.json",
-        "sha256": "645c5d1e0bbb23ab2ead1f1043314d775aed8c227d7f0f2d3f027303c0c0d62e",
-        "version": "645c5d1e0bbb23ab2ead1f1043314d775aed8c227d7f0f2d3f027303c0c0d62e"
+        "sha256": "4f3c777f869355ae6fed9e8afbc9ba3c24138cdf52f42c03a38d1bb21562703a",
+        "version": "4f3c777f869355ae6fed9e8afbc9ba3c24138cdf52f42c03a38d1bb21562703a"
       },
       {
         "last_updated": "2026-11-17T12:14:12.132623+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-17T16:16:26.198738+08:00"
+  "last_updated": "2026-11-17T18:12:21.695726+08:00"
 }
