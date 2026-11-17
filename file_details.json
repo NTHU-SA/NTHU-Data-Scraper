@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-17T20:17:10.461003+08:00",
+        "last_updated": "2026-11-18T00:13:50.765908+08:00",
         "name": "announcements.json",
-        "sha256": "16788df7c6d996afcfb7f4d452d8c3413946eaea7e88a6538c916ac3ef1aa075",
-        "version": "16788df7c6d996afcfb7f4d452d8c3413946eaea7e88a6538c916ac3ef1aa075"
+        "sha256": "daa56f7059128ae2b0beff77ec584f262636ce0dad658feb97e822999432fe8d",
+        "version": "daa56f7059128ae2b0beff77ec584f262636ce0dad658feb97e822999432fe8d"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -488,10 +488,10 @@
     ],
     "announcements/學務處衛生保健組(醫輔大樓1樓)": [
       {
-        "last_updated": "2026-11-12T12:14:22.246417+08:00",
+        "last_updated": "2026-11-18T00:13:50.765908+08:00",
         "name": "News_en.json",
-        "sha256": "1f8f8c8e08272da764c500f2aaa1246c01c9e0aeaea1f2deed68d468c6f3ddc1",
-        "version": "1f8f8c8e08272da764c500f2aaa1246c01c9e0aeaea1f2deed68d468c6f3ddc1"
+        "sha256": "ef83d4181493c53a523e3746b56d1ce4ad31065301ac47180e79eff060f9c13a",
+        "version": "ef83d4181493c53a523e3746b56d1ce4ad31065301ac47180e79eff060f9c13a"
       },
       {
         "last_updated": "2026-11-12T14:20:43.394877+08:00",
@@ -2974,10 +2974,10 @@
         "version": "73f22ed06dc2f20d9c16d6ca08c7aed10660123a70590ddfdeeca825434192c8"
       },
       {
-        "last_updated": "2026-11-17T16:16:26.198738+08:00",
+        "last_updated": "2026-11-18T00:13:50.765908+08:00",
         "name": "rss.json",
-        "sha256": "96e1ab1d3efcc48cabea378bae9a6545025bd62947223441c2e9a445795dfdd5",
-        "version": "96e1ab1d3efcc48cabea378bae9a6545025bd62947223441c2e9a445795dfdd5"
+        "sha256": "f872124d7334328302bda2dbea78b8786fff394f6b8652645af2c707f9be4a30",
+        "version": "f872124d7334328302bda2dbea78b8786fff394f6b8652645af2c707f9be4a30"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-17T20:17:10.461003+08:00"
+  "last_updated": "2026-11-18T00:13:50.765908+08:00"
 }

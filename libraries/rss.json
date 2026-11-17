@@ -71,20 +71,6 @@
             }
         },
         {
-            "guid": "2078",
-            "category": "服務消息",
-            "title": "【服務公告】11/17（二）圖書館三樓視聽中心空間管理系統升級維護",
-            "link": null,
-            "pubDate": "Tue, 10 Nov 2026 17:13:31 +0800",
-            "description": "總圖三樓視聽中心空間管理系統將於 11 月 17 日（二） 進行系統升級維護作業。\n當日聆賞席及紅氣球暫停服務，其餘服務不受影響。\n如有使用需求，敬請提前安排。\n造成不便，敬請見諒。",
-            "author": "cir@my.nthu.edu.tw (NTHU Library 典藏閱覽組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/6/services.jpg",
-                "title": "【服務公告】11/17（二）圖書館三樓視聽中心空間管理系統升級維護",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
             "guid": "2077",
             "category": "研習課程",
             "title": "【線上講座】歡迎報名11/26（四）Springer期刊投稿線上講座「學術期刊投稿與AI應用」",
@@ -445,20 +431,6 @@
             "image": {
                 "url": "https://www.lib.nthu.edu.tw/image/news/19/20260807_NTHUScholars.jpg",
                 "title": "【清華學人】讓研究被更多人看見：收錄媒體報導，展現您的研究影響力",
-                "link": "https://www.lib.nthu.edu.tw/"
-            }
-        },
-        {
-            "guid": "2003",
-            "category": "研習課程",
-            "title": "【線上課程】圖書館資源利用說明會，準時上課！",
-            "link": null,
-            "pubDate": "Mon, 07 Sep 2026 10:57:43 +0800",
-            "description": "歡迎報名參加115學年度第1學期圖書館利用說明會課程。\n全課程線上直播，無論你在哪裡，都能輕鬆參與。\n1、09/10（週四）12:10-13:10 掌握最新研究趨勢！EBSCO APA 心理學資料庫｜線上課程\n2、09/17（週四）12:10-14:00 掌握最新研究趨勢！Web of Science（WoS）引文資料庫介紹（含WoS RA功能）｜線上課程\n3、09/23（週三）12:10-13:10 資料檢索的第一步（館藏資源及服務介紹）｜線上課程\n4、10/01（週四）12:10-14:00 掌握最新研究趨勢！Scopus 引文資料庫（含Scopus AI功能）｜線上課程\n5、10/06（週二）13:30-15:00 解鎖科研與生醫新視界：CAS SciFinder Discovery Platform 檢索與BioFinder 藥物研發預測全攻略｜線上課程\n6、10/08（週四）12:10-14:00 論文報告的好幫手！EndNote 基礎課程｜線上課程\n7、10/27（週二）13:30-15:30 掌握最新研究趨勢！Reaxys 化學資料庫｜線上課程\n8、11/05（週四）12:10-14:00 論文報告的好幫手！EndNote 疑難排解課程｜線上課程\n9、11/17（週二）10:00-11:00 清大博碩士論文上傳方式說明會｜線上課程\n❏ 報名網址：http://pesto.lib.nthu.edu.tw/libtour/libtour.php\n❏ 會議連結將於課程前寄送給已報名者，並公告於圖書館臉書粉專。",
-            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
-            "image": {
-                "url": "https://www.lib.nthu.edu.tw/image/news/19/20260907.jpg",
-                "title": "【線上課程】圖書館資源利用說明會，準時上課！",
                 "link": "https://www.lib.nthu.edu.tw/"
             }
         },
