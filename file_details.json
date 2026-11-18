@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-18T14:20:45.170401+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "announcements.json",
-        "sha256": "e35b51f247cf24b5c8cd0dd893a6c28dbc342f759fc99ab4f588ef46ddf7f8c2",
-        "version": "e35b51f247cf24b5c8cd0dd893a6c28dbc342f759fc99ab4f588ef46ddf7f8c2"
+        "sha256": "e347c2b067d07aee27b3aa600cde8bdfc6a2585c9f41291f362f7cc1ca882bf4",
+        "version": "e347c2b067d07aee27b3aa600cde8bdfc6a2585c9f41291f362f7cc1ca882bf4"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -78,10 +78,10 @@
         "version": "c069187a05a1de79df631a47bd25fa08725432f1d4a918bb595d5047ca900191"
       },
       {
-        "last_updated": "2026-11-02T12:15:01.766607+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "法規宣導_zh-tw.json",
-        "sha256": "6639afbeb87e4e6cc11e98bd682059a0a2d4d2b2757929002423ed3aa2b3fcd8",
-        "version": "6639afbeb87e4e6cc11e98bd682059a0a2d4d2b2757929002423ed3aa2b3fcd8"
+        "sha256": "14f40bf10a87f9ebb3de44de6da90a65dff16f3270d7be0c94da382c90456992",
+        "version": "14f40bf10a87f9ebb3de44de6da90a65dff16f3270d7be0c94da382c90456992"
       },
       {
         "last_updated": "2026-11-17T10:17:24.079869+08:00",
@@ -566,10 +566,10 @@
     ],
     "announcements/工學院": [
       {
-        "last_updated": "2026-11-16T18:15:08.419068+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "e6b9430302564f3ad0eb947bd687996862a8ffc248295cc3de0efaf72e916959",
-        "version": "e6b9430302564f3ad0eb947bd687996862a8ffc248295cc3de0efaf72e916959"
+        "sha256": "f77c2f4886d45c0caecf83259895625d71312d2a6aba21516c1954668d43f088",
+        "version": "f77c2f4886d45c0caecf83259895625d71312d2a6aba21516c1954668d43f088"
       },
       {
         "last_updated": "2026-11-06T12:15:05.530629+08:00",
@@ -628,10 +628,10 @@
         "version": "bd38c62aa949ee6ec2e113cba7bd8b2d25c8d29dd6535bda9701eb89ef464635"
       },
       {
-        "last_updated": "2026-10-29T18:14:27.836998+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "cd88486af7cf4891d03acf6d35de7b3743bd934d10268be1058900005d0fea80",
-        "version": "cd88486af7cf4891d03acf6d35de7b3743bd934d10268be1058900005d0fea80"
+        "sha256": "306a0da84251935e13bc00b606b1c96338dbdb7b06032a29a9fa3c1256ad6a7d",
+        "version": "306a0da84251935e13bc00b606b1c96338dbdb7b06032a29a9fa3c1256ad6a7d"
       }
     ],
     "announcements/工學院工學院學士班": [
@@ -690,10 +690,10 @@
         "version": "7f0470f15fa5bfaba1c6314dc317caf62eea586e35e932c8c67ade0538178558"
       },
       {
-        "last_updated": "2026-11-18T12:14:18.813846+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "最新-校園資訊_zh-tw.json",
-        "sha256": "f820093f5d2fe62bc462aaa75457d5bc91bf78b09e13a5b5e31c6e182896c069",
-        "version": "f820093f5d2fe62bc462aaa75457d5bc91bf78b09e13a5b5e31c6e182896c069"
+        "sha256": "321a8ca3722a355626b60e82f7815eb2fe512174f686e5e733937eeab7f171b5",
+        "version": "321a8ca3722a355626b60e82f7815eb2fe512174f686e5e733937eeab7f171b5"
       },
       {
         "last_updated": "2026-11-05T16:17:19.181253+08:00",
@@ -1216,16 +1216,16 @@
         "version": "54040c0bcf649edb043a956edadd864c0094cb5e003903bbc2a44187d206db0d"
       },
       {
-        "last_updated": "2026-11-18T10:16:56.975929+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "958c2599f4d79915a5cb9e1027aaee83100ee9b982d0a7b989592c913d5fbcaf",
-        "version": "958c2599f4d79915a5cb9e1027aaee83100ee9b982d0a7b989592c913d5fbcaf"
+        "sha256": "d07077843678350a703230ccd583de6ef639dea95449993e69bb05a6b26444a4",
+        "version": "d07077843678350a703230ccd583de6ef639dea95449993e69bb05a6b26444a4"
       },
       {
-        "last_updated": "2026-11-18T10:16:56.975929+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "cbd2b212763f72c07e68f442aa84fec6e400751e799332ba713b9887deee9ecf",
-        "version": "cbd2b212763f72c07e68f442aa84fec6e400751e799332ba713b9887deee9ecf"
+        "sha256": "e3aacf113289dba1dcc31ba2d1fec5cbd4d823921d5711d35e8794cc36a28307",
+        "version": "e3aacf113289dba1dcc31ba2d1fec5cbd4d823921d5711d35e8794cc36a28307"
       },
       {
         "last_updated": "2026-11-16T00:11:52.286236+08:00",
@@ -1234,10 +1234,10 @@
         "version": "8f0347353b8e9e2fede2640d818b560ca4929b0ca96e4c35f5aec39469d5015f"
       },
       {
-        "last_updated": "2026-11-18T10:16:56.975929+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "行政公告_zh-tw.json",
-        "sha256": "c81987b594118041fc2dea5ad774ebb814245d7e6de03845f4c1fc0cc4eb09f5",
-        "version": "c81987b594118041fc2dea5ad774ebb814245d7e6de03845f4c1fc0cc4eb09f5"
+        "sha256": "ecb11094392e8e7bf776e7f117e030f6c809fd88c0a2b36a4eb99e019e834582",
+        "version": "ecb11094392e8e7bf776e7f117e030f6c809fd88c0a2b36a4eb99e019e834582"
       }
     ],
     "announcements/清華學院": [
@@ -2974,10 +2974,10 @@
         "version": "73f22ed06dc2f20d9c16d6ca08c7aed10660123a70590ddfdeeca825434192c8"
       },
       {
-        "last_updated": "2026-11-18T10:16:56.975929+08:00",
+        "last_updated": "2026-11-18T16:16:42.936666+08:00",
         "name": "rss.json",
-        "sha256": "5d38aba6143461f7ec07e1fbadba89030bf91ebaf4b62966ee819459cf7b662c",
-        "version": "5d38aba6143461f7ec07e1fbadba89030bf91ebaf4b62966ee819459cf7b662c"
+        "sha256": "82cf5dbe02877533cd1f0184bee0086732576bda0a33f51a15a9bdb827d49018",
+        "version": "82cf5dbe02877533cd1f0184bee0086732576bda0a33f51a15a9bdb827d49018"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-18T14:20:45.170401+08:00"
+  "last_updated": "2026-11-18T16:16:42.936666+08:00"
 }
