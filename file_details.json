@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-18T18:12:28.942211+08:00",
+        "last_updated": "2026-11-19T00:12:29.760959+08:00",
         "name": "announcements.json",
-        "sha256": "1565c9a960c49f3cffed57947143b15b6dd450d7082d156a7f16f141c450cfa0",
-        "version": "1565c9a960c49f3cffed57947143b15b6dd450d7082d156a7f16f141c450cfa0"
+        "sha256": "28ac40e7feeacbcdb9688ef529b7d8624352c61680cd95c2995fa31c0e6fa103",
+        "version": "28ac40e7feeacbcdb9688ef529b7d8624352c61680cd95c2995fa31c0e6fa103"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-17T00:13:29.898416+08:00",
+        "last_updated": "2026-11-19T00:12:29.760959+08:00",
         "name": "All seminar_en.json",
-        "sha256": "aeb19f7bc3788841baeafd2caf38b03f46d87fc0a1143e6f1441e97fb52a98a6",
-        "version": "aeb19f7bc3788841baeafd2caf38b03f46d87fc0a1143e6f1441e97fb52a98a6"
+        "sha256": "476a1c4674d4754d8ae2ea0d1679c0f2db4e3ef0408b96e7459d52f68fe0f172",
+        "version": "476a1c4674d4754d8ae2ea0d1679c0f2db4e3ef0408b96e7459d52f68fe0f172"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-17T00:13:29.898416+08:00",
+        "last_updated": "2026-11-19T00:12:29.760959+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "f31aa8503c3eb099f0060534427ba78af28469a49bca6abd5649f3828c046437",
-        "version": "f31aa8503c3eb099f0060534427ba78af28469a49bca6abd5649f3828c046437"
+        "sha256": "66cf1154ba56b25131272a5f09bc7b2f445cd3d8f80cfb846398682403b1000a",
+        "version": "66cf1154ba56b25131272a5f09bc7b2f445cd3d8f80cfb846398682403b1000a"
       },
       {
         "last_updated": "2026-11-13T14:20:20.838180+08:00",
@@ -2974,10 +2974,10 @@
         "version": "73f22ed06dc2f20d9c16d6ca08c7aed10660123a70590ddfdeeca825434192c8"
       },
       {
-        "last_updated": "2026-11-18T16:16:42.936666+08:00",
+        "last_updated": "2026-11-19T00:12:29.760959+08:00",
         "name": "rss.json",
-        "sha256": "82cf5dbe02877533cd1f0184bee0086732576bda0a33f51a15a9bdb827d49018",
-        "version": "82cf5dbe02877533cd1f0184bee0086732576bda0a33f51a15a9bdb827d49018"
+        "sha256": "dee962d65a7dae2f58600db7cc4d9e302cf667527b0c661cdee90827723ce6ce",
+        "version": "dee962d65a7dae2f58600db7cc4d9e302cf667527b0c661cdee90827723ce6ce"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-18T18:12:28.942211+08:00"
+  "last_updated": "2026-11-19T00:12:29.760959+08:00"
 }
