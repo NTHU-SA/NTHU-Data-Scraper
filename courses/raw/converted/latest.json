@@ -2,7 +2,7 @@
     "schema_version": 1,
     "source_id": "latest",
     "format": "json",
-    "sha256": "3484f1a4c2841c99fec6871d7628bbdb33d364be14ae05cfa40a43dd9e8d5b08",
+    "sha256": "a007a810a6e5ebb20c415f5e69a8a329d3e50d0b1809b466e6147948205846bf",
     "records": [
         {
             "values": {
@@ -39292,7 +39292,7 @@
             "values": {
                 "科號": "11510JITA321000",
                 "課程中文名稱": "科技藝術專題二",
-                "課程英文名稱": "Special Seminar on Techno Art 2",
+                "課程英文名稱": "Special Seminar on Techno Art II",
                 "學分數": "3",
                 "人限": "10",
                 "新生保留人數": "0",
@@ -39348,7 +39348,7 @@
             "values": {
                 "科號": "11510JITA321600",
                 "課程中文名稱": "科技藝術專題一",
-                "課程英文名稱": "Special Seminar on Techno Art 1",
+                "課程英文名稱": "Special Seminar on Techno Art I",
                 "學分數": "3",
                 "人限": "10",
                 "新生保留人數": "0",
