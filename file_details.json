@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-19T16:16:40.324162+08:00",
+        "last_updated": "2026-11-19T18:12:06.714792+08:00",
         "name": "announcements.json",
-        "sha256": "218be003d316e59ce63119a2de0a220e82463ad9aea081fd40e7b26e5cf90a5b",
-        "version": "218be003d316e59ce63119a2de0a220e82463ad9aea081fd40e7b26e5cf90a5b"
+        "sha256": "7c9e10417c25ccfc4ba6a74b007f0b99ed99caf5ad8c8c088bd59b1de4da245f",
+        "version": "7c9e10417c25ccfc4ba6a74b007f0b99ed99caf5ad8c8c088bd59b1de4da245f"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -84,10 +84,10 @@
         "version": "14f40bf10a87f9ebb3de44de6da90a65dff16f3270d7be0c94da382c90456992"
       },
       {
-        "last_updated": "2026-11-17T10:17:24.079869+08:00",
+        "last_updated": "2026-11-19T18:12:06.714792+08:00",
         "name": "活動訊息_zh-tw.json",
-        "sha256": "b74f016f7c0a21d7a369b27a529d381b204722b14e25ff9f71dd1e8f4ab456d4",
-        "version": "b74f016f7c0a21d7a369b27a529d381b204722b14e25ff9f71dd1e8f4ab456d4"
+        "sha256": "0d7d23043bcd700e6a1b32ff7c752ed81aae6f4fd9b27f817b3a418379d6b892",
+        "version": "0d7d23043bcd700e6a1b32ff7c752ed81aae6f4fd9b27f817b3a418379d6b892"
       },
       {
         "last_updated": "2026-11-18T12:14:18.813846+08:00",
@@ -1020,10 +1020,10 @@
         "version": "060c540f75cbb681e125ebb0c357456c135eea0149dbf57d4e9184e9e99f6e84"
       },
       {
-        "last_updated": "2026-11-17T10:17:24.079869+08:00",
+        "last_updated": "2026-11-19T18:12:06.714792+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "4a846382a0492a6ac247330c1008f132b5de89071bf0d77934129ae0c1575c58",
-        "version": "4a846382a0492a6ac247330c1008f132b5de89071bf0d77934129ae0c1575c58"
+        "sha256": "4c188af66a0826caefce983370c6f6f51035ecb1a40b3413f2de9cd3ab9946ad",
+        "version": "4c188af66a0826caefce983370c6f6f51035ecb1a40b3413f2de9cd3ab9946ad"
       }
     ],
     "announcements/教務處藥品與醫材法規科學碩士在職學位學程": [
@@ -1354,10 +1354,10 @@
         "version": "ee0c6573bb34999c157a55fc0b1828543402814cf7848312bb2951af61346a52"
       },
       {
-        "last_updated": "2026-10-20T10:24:46.821027+08:00",
+        "last_updated": "2026-11-19T18:12:06.714792+08:00",
         "name": "NEWS_en.json",
-        "sha256": "fa4c6ea251e75cf9699dbe58df5acd3c57545cfdc269eb68b3f4d8fd335bba9e",
-        "version": "fa4c6ea251e75cf9699dbe58df5acd3c57545cfdc269eb68b3f4d8fd335bba9e"
+        "sha256": "afc9e6f44f6a6cd4655275434b08e90fabe83146cf8b42488bb05de9d88364e0",
+        "version": "afc9e6f44f6a6cd4655275434b08e90fabe83146cf8b42488bb05de9d88364e0"
       },
       {
         "last_updated": "2026-11-19T16:16:40.324162+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-19T16:16:40.324162+08:00"
+  "last_updated": "2026-11-19T18:12:06.714792+08:00"
 }
