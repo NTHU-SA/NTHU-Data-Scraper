@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-19T12:14:15.279002+08:00",
+        "last_updated": "2026-11-19T14:21:20.178457+08:00",
         "name": "announcements.json",
-        "sha256": "593f08686d93e35d6a3fdc79f09ae5e21d59f122290b0407fcdc6fcdf0f6eac9",
-        "version": "593f08686d93e35d6a3fdc79f09ae5e21d59f122290b0407fcdc6fcdf0f6eac9"
+        "sha256": "718ebcf150137f6d5e3d3363df0422cf2b3aeb3327cfac00dc0526088871d200",
+        "version": "718ebcf150137f6d5e3d3363df0422cf2b3aeb3327cfac00dc0526088871d200"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1216,16 +1216,16 @@
         "version": "54040c0bcf649edb043a956edadd864c0094cb5e003903bbc2a44187d206db0d"
       },
       {
-        "last_updated": "2026-11-18T16:16:42.936666+08:00",
+        "last_updated": "2026-11-19T14:21:20.178457+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "d07077843678350a703230ccd583de6ef639dea95449993e69bb05a6b26444a4",
-        "version": "d07077843678350a703230ccd583de6ef639dea95449993e69bb05a6b26444a4"
+        "sha256": "1420c1d3346c9a37a2d116f93a088b4a52094e36d0fa01634186138b3846b6a4",
+        "version": "1420c1d3346c9a37a2d116f93a088b4a52094e36d0fa01634186138b3846b6a4"
       },
       {
-        "last_updated": "2026-11-18T16:16:42.936666+08:00",
+        "last_updated": "2026-11-19T14:21:20.178457+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "e3aacf113289dba1dcc31ba2d1fec5cbd4d823921d5711d35e8794cc36a28307",
-        "version": "e3aacf113289dba1dcc31ba2d1fec5cbd4d823921d5711d35e8794cc36a28307"
+        "sha256": "6d3c1cc6b1c0423f6738521ce110b4169cb41f77b7e88d0aa8d52c294c7cb4a0",
+        "version": "6d3c1cc6b1c0423f6738521ce110b4169cb41f77b7e88d0aa8d52c294c7cb4a0"
       },
       {
         "last_updated": "2026-11-16T00:11:52.286236+08:00",
@@ -1768,10 +1768,10 @@
     ],
     "announcements/研究發展處科技考古與文物鑑定研究中心": [
       {
-        "last_updated": "2026-10-15T11:58:17.083419+08:00",
+        "last_updated": "2026-11-19T14:21:20.178457+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "d41b4c2c9b0d9b2b819cfe6d3f404983ebf4769fedc4108f9b3e225c28c637e8",
-        "version": "d41b4c2c9b0d9b2b819cfe6d3f404983ebf4769fedc4108f9b3e225c28c637e8"
+        "sha256": "b1b746d8d11b66f84fd09697c2cc2c272a1a663e3230e6c62f206ed0e52e02ea",
+        "version": "b1b746d8d11b66f84fd09697c2cc2c272a1a663e3230e6c62f206ed0e52e02ea"
       }
     ],
     "announcements/研究發展處運動事業及政策中心": [
@@ -2400,10 +2400,10 @@
         "version": "1868d3602d25a8043ef7d491b566969994ec4b30e1ae66ecbf5c04abaa45866e"
       },
       {
-        "last_updated": "2026-11-18T18:12:28.942211+08:00",
+        "last_updated": "2026-11-19T14:21:20.178457+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "a635efdede755ccb671b0cbcafd74a905373f7570a7375d2cd9f003ce55c26ef",
-        "version": "a635efdede755ccb671b0cbcafd74a905373f7570a7375d2cd9f003ce55c26ef"
+        "sha256": "54a535f4c22f6588d0a49a26709f5fd9c864f4d5fd2b3a7c9f907c2e2593b42c",
+        "version": "54a535f4c22f6588d0a49a26709f5fd9c864f4d5fd2b3a7c9f907c2e2593b42c"
       }
     ],
     "announcements/總務處經營管理組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-19T12:14:15.279002+08:00"
+  "last_updated": "2026-11-19T14:21:20.178457+08:00"
 }
