@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-19T00:12:29.760959+08:00",
+        "last_updated": "2026-11-19T08:31:16.453327+08:00",
         "name": "announcements.json",
-        "sha256": "28ac40e7feeacbcdb9688ef529b7d8624352c61680cd95c2995fa31c0e6fa103",
-        "version": "28ac40e7feeacbcdb9688ef529b7d8624352c61680cd95c2995fa31c0e6fa103"
+        "sha256": "eadebbf71c5da2ec8199542454c1eda89dc4e34753bbd240acd478943bb5eea3",
+        "version": "eadebbf71c5da2ec8199542454c1eda89dc4e34753bbd240acd478943bb5eea3"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-18T12:14:18.813846+08:00",
+        "last_updated": "2026-11-19T08:31:16.453327+08:00",
         "name": "dining.json",
-        "sha256": "22e3260d0f05ff3af0e0cc31e5836b9707649555e12be9898b663c73c4237e63",
-        "version": "22e3260d0f05ff3af0e0cc31e5836b9707649555e12be9898b663c73c4237e63"
+        "sha256": "33e391d1bc14ff44e464497d055352ee56d3846b0d390bd46453a990b3ae1077",
+        "version": "33e391d1bc14ff44e464497d055352ee56d3846b0d390bd46453a990b3ae1077"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -696,10 +696,10 @@
         "version": "321a8ca3722a355626b60e82f7815eb2fe512174f686e5e733937eeab7f171b5"
       },
       {
-        "last_updated": "2026-11-05T16:17:19.181253+08:00",
+        "last_updated": "2026-11-19T08:31:16.453327+08:00",
         "name": "最新-校外資訊_zh-tw.json",
-        "sha256": "e94b995e3919be6624016fe0a60c3b3cf81e91c4edd7b1ed74757fcb93c3940b",
-        "version": "e94b995e3919be6624016fe0a60c3b3cf81e91c4edd7b1ed74757fcb93c3940b"
+        "sha256": "cf19ed9e4e0a0b5a967aa513f0f9a7d95a5b29245ab37f953e1b39068a415d4c",
+        "version": "cf19ed9e4e0a0b5a967aa513f0f9a7d95a5b29245ab37f953e1b39068a415d4c"
       },
       {
         "last_updated": "2026-11-18T14:20:45.170401+08:00",
@@ -858,10 +858,10 @@
         "version": "a44b5a0034dca45588a7f322f1e1d9e9da035b2b402fe0eacc48cbcc93a33633"
       },
       {
-        "last_updated": "2026-11-13T16:15:25.294903+08:00",
+        "last_updated": "2026-11-19T08:31:16.453327+08:00",
         "name": "碩士班最新公告_zh-tw.json",
-        "sha256": "4768b23819556c01897f4833cff31860d3518111781bb39e9151e3c163d1ae2d",
-        "version": "4768b23819556c01897f4833cff31860d3518111781bb39e9151e3c163d1ae2d"
+        "sha256": "095c537e7e44b5ddc5f5fbcd371e4a6ad54dc92447d61796dcf20761916208d2",
+        "version": "095c537e7e44b5ddc5f5fbcd371e4a6ad54dc92447d61796dcf20761916208d2"
       }
     ],
     "announcements/教務處推廣教育中心": [
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-19T00:12:29.760959+08:00",
+        "last_updated": "2026-11-19T08:31:16.453327+08:00",
         "name": "All seminar_en.json",
-        "sha256": "476a1c4674d4754d8ae2ea0d1679c0f2db4e3ef0408b96e7459d52f68fe0f172",
-        "version": "476a1c4674d4754d8ae2ea0d1679c0f2db4e3ef0408b96e7459d52f68fe0f172"
+        "sha256": "ed6b4334df04fe13854ce8fe94c4eb3ac94b2557a4f2e8087491c2a6da6b3bfb",
+        "version": "ed6b4334df04fe13854ce8fe94c4eb3ac94b2557a4f2e8087491c2a6da6b3bfb"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-19T00:12:29.760959+08:00",
+        "last_updated": "2026-11-19T08:31:16.453327+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "66cf1154ba56b25131272a5f09bc7b2f445cd3d8f80cfb846398682403b1000a",
-        "version": "66cf1154ba56b25131272a5f09bc7b2f445cd3d8f80cfb846398682403b1000a"
+        "sha256": "ce0db3496ba3a9aac9415f84c6e4e8625808fc04a55609f8d2392088a1ab093b",
+        "version": "ce0db3496ba3a9aac9415f84c6e4e8625808fc04a55609f8d2392088a1ab093b"
       },
       {
         "last_updated": "2026-11-13T14:20:20.838180+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-19T06:11:09.875837+08:00"
+  "last_updated": "2026-11-19T08:31:16.453327+08:00"
 }
