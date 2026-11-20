@@ -11255,6 +11255,14 @@
                 "all_day": true
             },
             {
+                "id": "260bac487c8094dc",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-04",
+                "end": "2027-03-05",
+                "all_day": true
+            },
+            {
                 "id": "de88028f544704a9",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
@@ -11263,11 +11271,27 @@
                 "all_day": true
             },
             {
+                "id": "ee8c84cd9c46e3ae",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-03-05",
+                "end": "2027-03-06",
+                "all_day": true
+            },
+            {
                 "id": "6f856dd20e70b935",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
                 "start": "2027-03-05",
                 "end": "2027-03-06",
+                "all_day": true
+            },
+            {
+                "id": "6ae2a3e8837f2a0a",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-03-06",
+                "end": "2027-03-07",
                 "all_day": true
             },
             {
@@ -11292,6 +11316,14 @@
                 "description": null,
                 "start": "2027-03-07",
                 "end": "2027-03-08",
+                "all_day": true
+            },
+            {
+                "id": "e01ad9344e5e7c10",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-08",
+                "end": "2027-03-09",
                 "all_day": true
             },
             {
@@ -11383,11 +11415,27 @@
                 "all_day": true
             },
             {
+                "id": "0ac0d04144901f37",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-14",
+                "end": "2027-03-15",
+                "all_day": true
+            },
+            {
                 "id": "32ef6bada8f287de",
                 "title": "總圖 Main Library 10:00-18:00",
                 "description": null,
                 "start": "2027-03-14",
                 "end": "2027-03-15",
+                "all_day": true
+            },
+            {
+                "id": "e64ad75ae2fbf32d",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-15",
+                "end": "2027-03-16",
                 "all_day": true
             },
             {
@@ -11399,11 +11447,27 @@
                 "all_day": true
             },
             {
+                "id": "7815733a05307a1b",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-16",
+                "end": "2027-03-17",
+                "all_day": true
+            },
+            {
                 "id": "d669e9f60a0a70c6",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
                 "start": "2027-03-16",
                 "end": "2027-03-17",
+                "all_day": true
+            },
+            {
+                "id": "7abc540447ad11ce",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-17",
+                "end": "2027-03-18",
                 "all_day": true
             },
             {
@@ -11415,11 +11479,27 @@
                 "all_day": true
             },
             {
+                "id": "aa3aaf2447b6711f",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-18",
+                "end": "2027-03-19",
+                "all_day": true
+            },
+            {
                 "id": "e2f5e2f1beaa384d",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
                 "start": "2027-03-18",
                 "end": "2027-03-19",
+                "all_day": true
+            },
+            {
+                "id": "b52b379d462d33a5",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-03-19",
+                "end": "2027-03-20",
                 "all_day": true
             },
             {
@@ -11431,11 +11511,27 @@
                 "all_day": true
             },
             {
+                "id": "29548aa851472f76",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-03-20",
+                "end": "2027-03-21",
+                "all_day": true
+            },
+            {
                 "id": "0a8c26937107735c",
                 "title": "總圖 Main Library 10:00-18:00",
                 "description": null,
                 "start": "2027-03-20",
                 "end": "2027-03-21",
+                "all_day": true
+            },
+            {
+                "id": "8400fedd58e49ecd",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-21",
+                "end": "2027-03-22",
                 "all_day": true
             },
             {
@@ -11447,11 +11543,27 @@
                 "all_day": true
             },
             {
+                "id": "231e3b0301bde135",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-22",
+                "end": "2027-03-23",
+                "all_day": true
+            },
+            {
                 "id": "df9e0ceace75bf3c",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
                 "start": "2027-03-22",
                 "end": "2027-03-23",
+                "all_day": true
+            },
+            {
+                "id": "ab08332f0ab37094",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-23",
+                "end": "2027-03-24",
                 "all_day": true
             },
             {
@@ -11463,11 +11575,27 @@
                 "all_day": true
             },
             {
+                "id": "bead1d9d3f615e88",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-24",
+                "end": "2027-03-25",
+                "all_day": true
+            },
+            {
                 "id": "19aef96454649880",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
                 "start": "2027-03-24",
                 "end": "2027-03-25",
+                "all_day": true
+            },
+            {
+                "id": "176a1f2232f64035",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-25",
+                "end": "2027-03-26",
                 "all_day": true
             },
             {
@@ -11479,11 +11607,27 @@
                 "all_day": true
             },
             {
+                "id": "99aa7d50a7abb1cc",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-03-26",
+                "end": "2027-03-27",
+                "all_day": true
+            },
+            {
                 "id": "1102bd0110ed43e0",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
                 "start": "2027-03-26",
                 "end": "2027-03-27",
+                "all_day": true
+            },
+            {
+                "id": "0153353c6ea8c89b",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-03-27",
+                "end": "2027-03-28",
                 "all_day": true
             },
             {
@@ -11495,11 +11639,27 @@
                 "all_day": true
             },
             {
+                "id": "591d3f02eddd7997",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-28",
+                "end": "2027-03-29",
+                "all_day": true
+            },
+            {
                 "id": "c69de554eb23fa80",
                 "title": "總圖 Main Library 10:00-22:00",
                 "description": null,
                 "start": "2027-03-28",
                 "end": "2027-03-29",
+                "all_day": true
+            },
+            {
+                "id": "c1672a897786f2d0",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-29",
+                "end": "2027-03-30",
                 "all_day": true
             },
             {
@@ -11511,6 +11671,14 @@
                 "all_day": true
             },
             {
+                "id": "117fa3dbb884db68",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-30",
+                "end": "2027-03-31",
+                "all_day": true
+            },
+            {
                 "id": "baea5f4b77879188",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
@@ -11519,11 +11687,491 @@
                 "all_day": true
             },
             {
+                "id": "49b480f5a1172705",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-03-31",
+                "end": "2027-04-01",
+                "all_day": true
+            },
+            {
                 "id": "e304c32ba8132cbc",
                 "title": "總圖 Main Library 08:00-22:00",
                 "description": null,
                 "start": "2027-03-31",
                 "end": "2027-04-01",
+                "all_day": true
+            },
+            {
+                "id": "3da20847e9a04831",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-01",
+                "end": "2027-04-02",
+                "all_day": true
+            },
+            {
+                "id": "415f76aafaa542e4",
+                "title": "總圖 Main Library 08:00-22:00",
+                "description": null,
+                "start": "2027-04-01",
+                "end": "2027-04-02",
+                "all_day": true
+            },
+            {
+                "id": "ce02afc18a1be70e",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-04-02",
+                "end": "2027-04-03",
+                "all_day": true
+            },
+            {
+                "id": "edace949c90a66ae",
+                "title": "總圖 Main Library 08:00-22:00",
+                "description": null,
+                "start": "2027-04-02",
+                "end": "2027-04-03",
+                "all_day": true
+            },
+            {
+                "id": "3c7d1c3423556734",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-04-03",
+                "end": "2027-04-04",
+                "all_day": true
+            },
+            {
+                "id": "ab1c4f1adfed0b87",
+                "title": "總圖 Main Library 10:00-18:00",
+                "description": null,
+                "start": "2027-04-03",
+                "end": "2027-04-04",
+                "all_day": true
+            },
+            {
+                "id": "36aae8f4542cab5c",
+                "title": "❌CLOSED兒童節Children's Day",
+                "description": null,
+                "start": "2027-04-04",
+                "end": "2027-04-05",
+                "all_day": true
+            },
+            {
+                "id": "bdfa771cfcc90135",
+                "title": "❌夜讀區 10:00起閉館CLOSED-兒童節Moonlight Study Area - Closed from 10:00 CLOSED (Children's Day)",
+                "description": null,
+                "start": "2027-04-04",
+                "end": "2027-04-05",
+                "all_day": true
+            },
+            {
+                "id": "ff980ce622387c58",
+                "title": "❌CLOSED民族掃墓節Tomb Sweeping Day holiday",
+                "description": null,
+                "start": "2027-04-05",
+                "end": "2027-04-06",
+                "all_day": true
+            },
+            {
+                "id": "166e0430ce702483",
+                "title": "❌CLOSED12:00兒童節-補假Children's Day - Adjusted holiday",
+                "description": null,
+                "start": "2027-04-06",
+                "end": "2027-04-07",
+                "all_day": true
+            },
+            {
+                "id": "53c6e63a3c16fac2",
+                "title": "夜讀區_期中考13:30起恢復服務 Moonlight Study Area Midterm Season : Normal hours resume at 13:30",
+                "description": null,
+                "start": "2027-04-07",
+                "end": "2027-04-08",
+                "all_day": true
+            },
+            {
+                "id": "2012980082d94765",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-07",
+                "end": "2027-04-08",
+                "all_day": true
+            },
+            {
+                "id": "dee8088980935f5b",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-08",
+                "end": "2027-04-09",
+                "all_day": true
+            },
+            {
+                "id": "db39be3cfef0b6f6",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-08",
+                "end": "2027-04-09",
+                "all_day": true
+            },
+            {
+                "id": "76d63829a959f62a",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-09",
+                "end": "2027-04-10",
+                "all_day": true
+            },
+            {
+                "id": "cb7051da70d3c095",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-09",
+                "end": "2027-04-10",
+                "all_day": true
+            },
+            {
+                "id": "acac0d8c4961a2bc",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-10",
+                "end": "2027-04-11",
+                "all_day": true
+            },
+            {
+                "id": "1d223c5cf8d44127",
+                "title": "總圖 Main Library 10:00-18:00",
+                "description": null,
+                "start": "2027-04-10",
+                "end": "2027-04-11",
+                "all_day": true
+            },
+            {
+                "id": "64078283c4933efb",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-11",
+                "end": "2027-04-12",
+                "all_day": true
+            },
+            {
+                "id": "f5e4ae1dbe2f637c",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-11",
+                "end": "2027-04-12",
+                "all_day": true
+            },
+            {
+                "id": "a35b902e7b32edf9",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-12",
+                "end": "2027-04-13",
+                "all_day": true
+            },
+            {
+                "id": "60cdf4be622fcef3",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-12",
+                "end": "2027-04-13",
+                "all_day": true
+            },
+            {
+                "id": "b91767248a719923",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-13",
+                "end": "2027-04-14",
+                "all_day": true
+            },
+            {
+                "id": "2cdadc16b03bc118",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-13",
+                "end": "2027-04-14",
+                "all_day": true
+            },
+            {
+                "id": "6f861e472d089502",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-14",
+                "end": "2027-04-15",
+                "all_day": true
+            },
+            {
+                "id": "033ca3555413b482",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-14",
+                "end": "2027-04-15",
+                "all_day": true
+            },
+            {
+                "id": "4650c0bee54db5ee",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-15",
+                "end": "2027-04-16",
+                "all_day": true
+            },
+            {
+                "id": "2b064a04e252dd5f",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-15",
+                "end": "2027-04-16",
+                "all_day": true
+            },
+            {
+                "id": "186d562824300371",
+                "title": "夜讀區_期中考Moonlight Study Area- Midterm Season: 13:30 ～隔日隔日(Next day)12:00",
+                "description": null,
+                "start": "2027-04-16",
+                "end": "2027-04-17",
+                "all_day": true
+            },
+            {
+                "id": "50024e81921243c5",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-16",
+                "end": "2027-04-17",
+                "all_day": true
+            },
+            {
+                "id": "722c104b52c962c7",
+                "title": "夜讀區_17:00恢復服務Moonlight Study Area-Normal hours resume at 17:00",
+                "description": null,
+                "start": "2027-04-17",
+                "end": "2027-04-18",
+                "all_day": true
+            },
+            {
+                "id": "aa6581a72ae9986f",
+                "title": "總圖 Main Library 10:00-18:00",
+                "description": null,
+                "start": "2027-04-17",
+                "end": "2027-04-18",
+                "all_day": true
+            },
+            {
+                "id": "e12a7b6bd525136a",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-18",
+                "end": "2027-04-19",
+                "all_day": true
+            },
+            {
+                "id": "caf35b6ed02c5d04",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-18",
+                "end": "2027-04-19",
+                "all_day": true
+            },
+            {
+                "id": "9d731adf77206894",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-19",
+                "end": "2027-04-20",
+                "all_day": true
+            },
+            {
+                "id": "c0a166bb396fc500",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-19",
+                "end": "2027-04-20",
+                "all_day": true
+            },
+            {
+                "id": "a0cc71031160dbf1",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-20",
+                "end": "2027-04-21",
+                "all_day": true
+            },
+            {
+                "id": "3de7690a9c5ffa35",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-20",
+                "end": "2027-04-21",
+                "all_day": true
+            },
+            {
+                "id": "4a3beaa2e0c63f4a",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-21",
+                "end": "2027-04-22",
+                "all_day": true
+            },
+            {
+                "id": "477fcdcad49c3663",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-21",
+                "end": "2027-04-22",
+                "all_day": true
+            },
+            {
+                "id": "8fe3368c74e075b2",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-22",
+                "end": "2027-04-23",
+                "all_day": true
+            },
+            {
+                "id": "7d3a85731eaedb70",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-22",
+                "end": "2027-04-23",
+                "all_day": true
+            },
+            {
+                "id": "1b57bb6a6fccb24e",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-04-23",
+                "end": "2027-04-24",
+                "all_day": true
+            },
+            {
+                "id": "5d9c99aad151da22",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-23",
+                "end": "2027-04-24",
+                "all_day": true
+            },
+            {
+                "id": "cbd25106142c6b5e",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)10:00",
+                "description": null,
+                "start": "2027-04-24",
+                "end": "2027-04-25",
+                "all_day": true
+            },
+            {
+                "id": "a3fcd8ce82fa14fa",
+                "title": "總圖 Main Library 10:00-18:00",
+                "description": null,
+                "start": "2027-04-24",
+                "end": "2027-04-25",
+                "all_day": true
+            },
+            {
+                "id": "ad8e217dc3ff81c1",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-25",
+                "end": "2027-04-26",
+                "all_day": true
+            },
+            {
+                "id": "96d94200e89e7de1",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-25",
+                "end": "2027-04-26",
+                "all_day": true
+            },
+            {
+                "id": "0d0f131de4bd2a81",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-26",
+                "end": "2027-04-27",
+                "all_day": true
+            },
+            {
+                "id": "7ff9a66bd583733b",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-26",
+                "end": "2027-04-27",
+                "all_day": true
+            },
+            {
+                "id": "89cc48b04f06e1dc",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-27",
+                "end": "2027-04-28",
+                "all_day": true
+            },
+            {
+                "id": "fb54cc88ea818248",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-27",
+                "end": "2027-04-28",
+                "all_day": true
+            },
+            {
+                "id": "c85ef140c82f4e27",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-28",
+                "end": "2027-04-29",
+                "all_day": true
+            },
+            {
+                "id": "76c545eed223aee8",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-28",
+                "end": "2027-04-29",
+                "all_day": true
+            },
+            {
+                "id": "9fcd17ee72ec9d24",
+                "title": "夜讀區 Moonlight Study Area～隔日(Next Day)09:00",
+                "description": null,
+                "start": "2027-04-29",
+                "end": "2027-04-30",
+                "all_day": true
+            },
+            {
+                "id": "dbcf368ee3c3bdc8",
+                "title": "總圖 Main Library 10:00-22:00",
+                "description": null,
+                "start": "2027-04-29",
+                "end": "2027-04-30",
+                "all_day": true
+            },
+            {
+                "id": "21dcf13ee5d4889c",
+                "title": "❌CLOSED勞動節--補假Labor Day holiday - Adjusted holiday",
+                "description": null,
+                "start": "2027-04-30",
+                "end": "2027-05-01",
+                "all_day": true
+            },
+            {
+                "id": "b5729d04164b2436",
+                "title": "❌夜讀區_09:00起閉館CLOSED-勞動節--補假 Moonlight Study Area - Closed from 09:00 CLOSED (Labor Day holiday - Adjusted holiday)",
+                "description": null,
+                "start": "2027-04-30",
+                "end": "2027-05-01",
+                "all_day": true
+            },
+            {
+                "id": "bd0653ae31807f15",
+                "title": "❌CLOSED勞動節Labor Day holiday",
+                "description": null,
+                "start": "2027-05-01",
+                "end": "2027-05-02",
                 "all_day": true
             }
         ]
