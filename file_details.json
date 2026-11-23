@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-23T14:28:27.690834+08:00",
+        "last_updated": "2026-11-23T16:18:40.117418+08:00",
         "name": "announcements.json",
-        "sha256": "df08dc6a641e5b8af9c033526801e043014bfa55d58803d498bf387665b9cd75",
-        "version": "df08dc6a641e5b8af9c033526801e043014bfa55d58803d498bf387665b9cd75"
+        "sha256": "3db5acd672f889a19c8ee0def9660908e750a9da7ce78e73b6e74ddb6d772655",
+        "version": "3db5acd672f889a19c8ee0def9660908e750a9da7ce78e73b6e74ddb6d772655"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-23T12:16:14.616883+08:00",
+        "last_updated": "2026-11-23T16:18:40.117418+08:00",
         "name": "dining.json",
-        "sha256": "aaf9b8b232acb1fb52b315489f7fd9f732e63b30ccca0a322a75bec58909b5cb",
-        "version": "aaf9b8b232acb1fb52b315489f7fd9f732e63b30ccca0a322a75bec58909b5cb"
+        "sha256": "73773e2043bab9283ebfe4eb53d7862c8972721d376e216db45f6f753a38009e",
+        "version": "73773e2043bab9283ebfe4eb53d7862c8972721d376e216db45f6f753a38009e"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -628,10 +628,10 @@
         "version": "0b4a1efe8374cbe13b4ee2d9260311dd8e7e8d8259eac45b54fc365eb74cb01a"
       },
       {
-        "last_updated": "2026-11-18T16:16:42.936666+08:00",
+        "last_updated": "2026-11-23T16:18:40.117418+08:00",
         "name": "系所公告_zh-tw.json",
-        "sha256": "306a0da84251935e13bc00b606b1c96338dbdb7b06032a29a9fa3c1256ad6a7d",
-        "version": "306a0da84251935e13bc00b606b1c96338dbdb7b06032a29a9fa3c1256ad6a7d"
+        "sha256": "13ffd7e30deda3fd89051020e9792b5afc3e70f53e7eaf3c79e36a738900d8f6",
+        "version": "13ffd7e30deda3fd89051020e9792b5afc3e70f53e7eaf3c79e36a738900d8f6"
       }
     ],
     "announcements/工學院工學院學士班": [
@@ -690,10 +690,10 @@
         "version": "7f0470f15fa5bfaba1c6314dc317caf62eea586e35e932c8c67ade0538178558"
       },
       {
-        "last_updated": "2026-11-20T12:14:38.518134+08:00",
+        "last_updated": "2026-11-23T16:18:40.117418+08:00",
         "name": "最新-校園資訊_zh-tw.json",
-        "sha256": "80fc17197a74f371823b4030d8a40e5a026eb6f57bd253aca2f6512b762b29d8",
-        "version": "80fc17197a74f371823b4030d8a40e5a026eb6f57bd253aca2f6512b762b29d8"
+        "sha256": "ff5b5d1aa7a94d6a4ab9bb86bc50d94b14dd00a38d514c932a44cf76281cfc12",
+        "version": "ff5b5d1aa7a94d6a4ab9bb86bc50d94b14dd00a38d514c932a44cf76281cfc12"
       },
       {
         "last_updated": "2026-11-19T08:31:16.453327+08:00",
@@ -714,10 +714,10 @@
         "version": "888690ac368ed46686c46213e4400149b6f6257d5f1c4d80b997760f6f101c2b"
       },
       {
-        "last_updated": "2026-11-18T14:20:45.170401+08:00",
+        "last_updated": "2026-11-23T16:18:40.117418+08:00",
         "name": "系上資訊_zh-tw.json",
-        "sha256": "fcdb2febde7c71df0c2bee0baa61681a3241f203eb9f2e0339f7d60e6afe1e1c",
-        "version": "fcdb2febde7c71df0c2bee0baa61681a3241f203eb9f2e0339f7d60e6afe1e1c"
+        "sha256": "768f16cbe30b12ef42846459df08b512c983bf6bbb96fd49c1a7f01070e0519a",
+        "version": "768f16cbe30b12ef42846459df08b512c983bf6bbb96fd49c1a7f01070e0519a"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-23T14:28:27.690834+08:00"
+  "last_updated": "2026-11-23T16:18:40.117418+08:00"
 }
