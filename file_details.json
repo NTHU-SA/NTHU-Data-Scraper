@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-23T10:18:45.596564+08:00",
+        "last_updated": "2026-11-23T12:16:14.616883+08:00",
         "name": "announcements.json",
-        "sha256": "63df92c6a6a7a0b35a3e265cfd8328c06491b0cafb6ee5c97407e11b702b804d",
-        "version": "63df92c6a6a7a0b35a3e265cfd8328c06491b0cafb6ee5c97407e11b702b804d"
+        "sha256": "16af429b1c7064517cf4bfaef39daaaa65cef3838c4bf5041e9dc99c29d3ef0a",
+        "version": "16af429b1c7064517cf4bfaef39daaaa65cef3838c4bf5041e9dc99c29d3ef0a"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-20T12:14:38.518134+08:00",
+        "last_updated": "2026-11-23T12:16:14.616883+08:00",
         "name": "dining.json",
-        "sha256": "6fa4a757117eeb26c747ba1177bad939a3cf5f79de845286c999f96f8b28c193",
-        "version": "6fa4a757117eeb26c747ba1177bad939a3cf5f79de845286c999f96f8b28c193"
+        "sha256": "aaf9b8b232acb1fb52b315489f7fd9f732e63b30ccca0a322a75bec58909b5cb",
+        "version": "aaf9b8b232acb1fb52b315489f7fd9f732e63b30ccca0a322a75bec58909b5cb"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -526,10 +526,10 @@
         "version": "ce0fb1be90105c20d3d74ceb608562d513840ed45d123b76764d5376edbb17c3"
       },
       {
-        "last_updated": "2026-11-21T16:14:36.419178+08:00",
+        "last_updated": "2026-11-23T12:16:14.616883+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "124b90ddd251cc605cead631aec46aa3a9c32467b19cd423c3d2fc24800c581e",
-        "version": "124b90ddd251cc605cead631aec46aa3a9c32467b19cd423c3d2fc24800c581e"
+        "sha256": "39c5a3b4a80b83b179affbe505fb39fa45beb57e5fc0c8c56c105a32437511f2",
+        "version": "39c5a3b4a80b83b179affbe505fb39fa45beb57e5fc0c8c56c105a32437511f2"
       },
       {
         "last_updated": "2026-10-03T02:54:31.558374+08:00",
@@ -1068,10 +1068,10 @@
         "version": "24fef92bf18f9f15515c518f5ad512febbb63da5ff04d878e9d0086bb15f612d"
       },
       {
-        "last_updated": "2026-11-10T14:19:35.516475+08:00",
+        "last_updated": "2026-11-23T12:16:14.616883+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "58e9b8c3b4116b2707e2bf682f2f0e55630914795b102750eaeae6aedc23e0f8",
-        "version": "58e9b8c3b4116b2707e2bf682f2f0e55630914795b102750eaeae6aedc23e0f8"
+        "sha256": "0b2d679bbcd72e68759455032df1f377ebe7d28e92ad1252d8e89dad697275cb",
+        "version": "0b2d679bbcd72e68759455032df1f377ebe7d28e92ad1252d8e89dad697275cb"
       },
       {
         "last_updated": "2026-11-05T10:17:23.833990+08:00",
@@ -1392,10 +1392,10 @@
     ],
     "announcements/清華學院體育室": [
       {
-        "last_updated": "2026-11-22T00:12:15.163446+08:00",
+        "last_updated": "2026-11-23T12:16:14.616883+08:00",
         "name": "最新消息 NEWS_zh-tw.json",
-        "sha256": "d3f10e60b2270d11b400ca6d023de8a12852c081d4b0a49675b0e8c373cdb279",
-        "version": "d3f10e60b2270d11b400ca6d023de8a12852c081d4b0a49675b0e8c373cdb279"
+        "sha256": "82c2075dcd0367072dff58f4e1b470eedb37a6e24727a275ae309112120c9223",
+        "version": "82c2075dcd0367072dff58f4e1b470eedb37a6e24727a275ae309112120c9223"
       }
     ],
     "announcements/理學院物理學系": [
@@ -2442,10 +2442,10 @@
         "version": "8ed9a3339b16eb8da759f85381f7277c2b40478692e2dc548e4a058afaaced5f"
       },
       {
-        "last_updated": "2026-11-15T12:13:55.776776+08:00",
+        "last_updated": "2026-11-23T12:16:14.616883+08:00",
         "name": "轉知公告_zh-tw.json",
-        "sha256": "ee6df0bd4e8ab0b213a510c2366dac69f285eaa6739dd238dd7b07cc2201f73f",
-        "version": "ee6df0bd4e8ab0b213a510c2366dac69f285eaa6739dd238dd7b07cc2201f73f"
+        "sha256": "789abd7d2f4b71f041261103f9126b88732d411eba695944f8fcae9806bc912f",
+        "version": "789abd7d2f4b71f041261103f9126b88732d411eba695944f8fcae9806bc912f"
       }
     ],
     "announcements/藝文總中心文物館": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-23T10:18:45.596564+08:00"
+  "last_updated": "2026-11-23T12:16:14.616883+08:00"
 }
