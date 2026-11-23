@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-23T00:11:52.328880+08:00",
+        "last_updated": "2026-11-23T10:18:45.596564+08:00",
         "name": "announcements.json",
-        "sha256": "ebc4e98f013458dd79a3139f645979609dad1ce03368d9acceb75ca64b6ed93f",
-        "version": "ebc4e98f013458dd79a3139f645979609dad1ce03368d9acceb75ca64b6ed93f"
+        "sha256": "63df92c6a6a7a0b35a3e265cfd8328c06491b0cafb6ee5c97407e11b702b804d",
+        "version": "63df92c6a6a7a0b35a3e265cfd8328c06491b0cafb6ee5c97407e11b702b804d"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1320,16 +1320,16 @@
         "version": "b3994b447c45f78be64f4a404b85c69ece4c87228b3290324f4949c48838cc6b"
       },
       {
-        "last_updated": "2026-11-20T10:16:31.383736+08:00",
+        "last_updated": "2026-11-23T10:18:45.596564+08:00",
         "name": "榮譽榜_zh-tw.json",
-        "sha256": "86fe622f9338e119293893c02fbdbdff9afb19f4bd86f0be0a92d26a62cdd0ba",
-        "version": "86fe622f9338e119293893c02fbdbdff9afb19f4bd86f0be0a92d26a62cdd0ba"
+        "sha256": "85694420a1ca734506606e735a745f953d4ffd8258450c81b65bdbbde621e7b2",
+        "version": "85694420a1ca734506606e735a745f953d4ffd8258450c81b65bdbbde621e7b2"
       },
       {
-        "last_updated": "2026-11-18T10:16:56.975929+08:00",
+        "last_updated": "2026-11-23T10:18:45.596564+08:00",
         "name": "訊息公告_zh-tw.json",
-        "sha256": "2f3fbf1ba7a3b1ca0e0dd99f7ffd79a11414a88d89fe5d8526555d35095da32b",
-        "version": "2f3fbf1ba7a3b1ca0e0dd99f7ffd79a11414a88d89fe5d8526555d35095da32b"
+        "sha256": "2bf2f7300b29888d5ced5de6a47bc3d8d5c48fb14eecbc537d94b88db6b56de0",
+        "version": "2bf2f7300b29888d5ced5de6a47bc3d8d5c48fb14eecbc537d94b88db6b56de0"
       }
     ],
     "announcements/清華學院語文中心": [
@@ -2378,10 +2378,10 @@
         "version": "29024819f7db952c9855a81bca24bc2eb8c05f98870bd74889ba83b2b2fd53a6"
       },
       {
-        "last_updated": "2026-10-27T08:48:05.649070+08:00",
+        "last_updated": "2026-11-23T10:18:45.596564+08:00",
         "name": "轉知檔案應用訊息_zh-tw.json",
-        "sha256": "2c37d6fdf95602672d5c6dcbd2006672c68a0d1130dff13504331503b0a92253",
-        "version": "2c37d6fdf95602672d5c6dcbd2006672c68a0d1130dff13504331503b0a92253"
+        "sha256": "d1e74bbceb71a044a36af08f907932033a86b106da22d4e852f1e20310e927ed",
+        "version": "d1e74bbceb71a044a36af08f907932033a86b106da22d4e852f1e20310e927ed"
       }
     ],
     "announcements/總務處校園規劃組": [
@@ -2414,10 +2414,10 @@
         "version": "d4763a0029059b0ce887bcca665ff37078374f86b2db1bad94268f0aa8b4495d"
       },
       {
-        "last_updated": "2026-11-21T00:12:38.695401+08:00",
+        "last_updated": "2026-11-23T10:18:45.596564+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "cec95b0893667b71c0d79fe19caf6436713ffa5c9fff8adbab59a10bb29965d7",
-        "version": "cec95b0893667b71c0d79fe19caf6436713ffa5c9fff8adbab59a10bb29965d7"
+        "sha256": "efcd30f999d5760fba46a3f8b065ad66010288c17090b5e1a8c82778fb5f2b0f",
+        "version": "efcd30f999d5760fba46a3f8b065ad66010288c17090b5e1a8c82778fb5f2b0f"
       }
     ],
     "announcements/總務處駐衛警察隊": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-23T00:11:52.328880+08:00"
+  "last_updated": "2026-11-23T10:18:45.596564+08:00"
 }
