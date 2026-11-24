@@ -5,6 +5,11 @@
     "department": "總務處營繕組",
     "articles": [
         {
+            "title": "[MAINTENANCE NOTICE] National Tsing Hua University Campus-Wide Annual Major Maintenance of Generator Sets (No Power Outage)",
+            "link": "https://construc.site.nthu.edu.tw/p/406-1167-318883,r7725.php?Lang=en",
+            "date": "2026-11-24"
+        },
+        {
             "title": "11/22 Power Outage Notice -Dormitory Hsin, Dormitory Tsing, Dormitory Shiue, Dormitory Ru, Dormitory Li, Dormitory Yi, Dormitory Cheng, Dormitory Hung, Radioisotope Laboratory",
             "link": "https://construc.site.nthu.edu.tw/p/406-1167-318599,r7725.php?Lang=en",
             "date": "2026-11-18"
@@ -58,11 +63,6 @@
             "title": "8/9 Notice regarding power outage and restoration issues at General Building II due to the installation of a new generator",
             "link": "https://construc.site.nthu.edu.tw/p/406-1167-312762,r7725.php?Lang=en",
             "date": "2026-08-07"
-        },
-        {
-            "title": "8/10~9/10 Installation of Traffic Signals near General Building II and Food Court Intersection",
-            "link": "https://construc.site.nthu.edu.tw/p/406-1167-312609,r7725.php?Lang=en",
-            "date": "2026-08-05"
         }
     ]
 }

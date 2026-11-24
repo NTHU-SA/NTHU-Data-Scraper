@@ -5,6 +5,156 @@
     "department": "工學院工業工程與工程管理學系",
     "articles": [
         {
+            "title": "From Sensing to Teaming: Physiological Intelligence for Human–AI Collaboration 演講者：Dr. Yukai Wang (University of Technology Sydney)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-318653,r2715.php?Lang=en",
+            "date": "2026-11-19"
+        },
+        {
+            "title": "設計可信任的人工智慧：偏誤與可解釋性交會下的人智互動 講者：袁千雯 教授(國立臺灣大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-318163,r2715.php?Lang=en",
+            "date": "2026-11-12"
+        },
+        {
+            "title": "待確認 演講者: Edward Huang (Auburn University)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-317407,r2715.php?Lang=en",
+            "date": "2026-11-03"
+        },
+        {
+            "title": "都市運輸系統的資料驅動最佳化:規劃、模擬與即時控制 演講者:洪英超 教授(國立臺灣大學工業工程學研究所)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-317116,r2715.php?Lang=en",
+            "date": "2026-10-29"
+        },
+        {
+            "title": "變局與定錨～AI浪潮下的自處之道 演講者：陳聰敏 副總經理(聯詠科技股份有限公司)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-316310,r2715.php?Lang=en",
+            "date": "2026-10-15"
+        },
+        {
+            "title": "From Clinical Needs to Real-World Solutions 演講者：馬千里 Dr. Charlie C. Ma (國立成功大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-316095,r2715.php?Lang=en",
+            "date": "2026-10-12"
+        },
+        {
+            "title": "AI 時代的軟體開發方法論 演講者：林世鵬 部經理 (台積電)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-315925,r2715.php?Lang=en",
+            "date": "2026-10-08"
+        },
+        {
+            "title": "從智慧載具到智慧交控： 實體AI如何串起感知、決策與移動 演講者：黃志勝 博士(義隆電子股份有限公司)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-315400,r2715.php?Lang=en",
+            "date": "2026-10-01"
+        },
+        {
+            "title": "人因與運輸安全：Human factors in transportation safety 演講人：林瑞豐(元智大學工業工程與管理學系)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-315281,r2715.php?Lang=en",
+            "date": "2026-09-30"
+        },
+        {
+            "title": "生成式AI於智慧製造實務應用 演講者：盧怡君 技術主任(緯創資通股份有限公司)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-315055,r2715.php?Lang=en",
+            "date": "2026-09-24"
+        },
+        {
+            "title": "未來AI科技 演講者：劉宇庭 博士(萊恩智能股份有限公司)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-314635,r2715.php?Lang=en",
+            "date": "2026-09-16"
+        },
+        {
+            "title": "Recent Advancement of Electronics, Instrumentation and Measurement techniques for Smart IoT, Robots and Drones 演講者: Dr. Subhas Chandra Mukhopadhyay (Macquarie University)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-314513,r2715.php?Lang=en",
+            "date": "2026-09-15"
+        },
+        {
+            "title": "Simulation and Agent-Based Modelling for Stochastic-Flow Network Reliability 演講者：張秉宸 教授(國立臺灣科技大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-314133,r2715.php?Lang=en",
+            "date": "2026-09-08"
+        },
+        {
+            "title": "Renewable Energy Procurement and Hydrogen Supply Chain Planning under Uncertainty: A Multi-Objective Compromise Optimization Approach 講者：徐昕煒(國立臺北科技大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-314052,r2715.php?Lang=en",
+            "date": "2026-09-07"
+        },
+        {
+            "title": "Academic Presentation Reinforcement Learning in Transportation Speak：Prof. Dr. Ostap Okhrin/Prof. Dr. Iryna Okhrin",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-312209,r2715.php?Lang=en",
+            "date": "2026-07-27"
+        },
+        {
+            "title": "LLM-basedAnalyticsFramework:From Reasoning to Optimization 演講者:鄧志峰教授(臺灣科技大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-309557,r2715.php?Lang=en",
+            "date": "2026-06-01"
+        },
+        {
+            "title": "智慧物流發展與未來趨勢 演講者: 林傳凱 執行長(泰科動力股份有限公司)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-309188,r2715.php?Lang=en",
+            "date": "2026-05-26"
+        },
+        {
+            "title": "Case Discussion: Production Planning & Inventory Control in Extreme Environments 演講者：張心一 教授(Kansas State University)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-309044,r2715.php?Lang=en",
+            "date": "2026-05-21"
+        },
+        {
+            "title": "How are Industry 4.0, Industry 5.0, and AI reshaping manufacturing?Human-Centric Manufacturing: Re-thinking,Re-justifying, and Re-envisioning”主講人：Dr. Xun W Xu( Fellow of SME | ASME | EngNZ)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-309021,r2715.php?Lang=en",
+            "date": "2026-05-21"
+        },
+        {
+            "title": "工業工程與大健康：善終 演講者: 張博論教授(國立陽明交通大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-308325,r2715.php?Lang=en",
+            "date": "2026-05-12"
+        },
+        {
+            "title": "Pathway to smart maintenance:Integrating Engineering and Economics Modeling 演講者: 田凱文 助理教授(國立陽明交通大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-307778,r2715.php?Lang=en",
+            "date": "2026-05-04"
+        },
+        {
+            "title": "Novel Approaches and Applications of AI in Drug Discovery 演講者: 柯屹又 副組長(工研院)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-307202,r2715.php?Lang=en",
+            "date": "2026-04-23"
+        },
+        {
+            "title": "Engineering the 21st Century Service Economy: A Research and Education Agenda for Service Systems Engineering 演講者: Dr. Vittaldas Prabhu(IME, Penn State University, USA)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-306245,r2715.php?Lang=en",
+            "date": "2026-04-09"
+        },
+        {
+            "title": "Finding all integer-valued generalized Nash equilibrium solutions over a polyhedron using short rational generating functions 講者：王俊涵 助理教授 (成功大學 工業與資訊管理學系)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-305902,r2715.php?Lang=en",
+            "date": "2026-04-02"
+        },
+        {
+            "title": "智能製造智造未來",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-305358,r2715.php?Lang=en",
+            "date": "2026-03-26"
+        },
+        {
+            "title": "Test_1",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-305357,r2715.php?Lang=en",
+            "date": "2026-03-26"
+        },
+        {
+            "title": "人因工程在軍事訓練與後勤之應用-從實驗室到現地",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-304858,r2715.php?Lang=en",
+            "date": "2026-03-18"
+        },
+        {
+            "title": "1_深度強化學習於智慧製造之應用及方法延伸 演講者:洪子晏助理教授(臺北科技大學)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-303807,r2715.php?Lang=en",
+            "date": "2026-03-04"
+        },
+        {
+            "title": "IE + IT 心路歷程 講者：張原銘 資訊長 (中傑鞋業股份有限公司)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-300213,r2715.php?Lang=en",
+            "date": "2025-12-10"
+        },
+        {
+            "title": "Adaptive Intelligence: Combining Digital Twin Precision with AI Foresight for Real-Time Decision Making 演講人：陳俊宏 教授( 喬治梅森⼤學系統⼯程與作業研究學系)",
+            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-300180,r2715.php?Lang=en",
+            "date": "2025-12-09"
+        },
+        {
             "title": "From Just Manufacturing to Intelligent Manufacturing Speaker: Prof. Lan, Jyun-Hong (NTUIE)",
             "link": "https://ieem.site.nthu.edu.tw/p/406-1310-205208,r2715.php?Lang=en",
             "date": "2021-04-21"
@@ -353,156 +503,6 @@
             "title": "Electronics vs. Traditional Industries",
             "link": "https://ieem.site.nthu.edu.tw/p/406-1310-63472,r2715.php?Lang=en",
             "date": "2013-11-21"
-        },
-        {
-            "title": "Ant Colony Optimization: Its Foraging Behavior in Optimization",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-63218,r2715.php?Lang=en",
-            "date": "2013-11-13"
-        },
-        {
-            "title": "Trends in Industrial Engineering & Management Science",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-63180,r2715.php?Lang=en",
-            "date": "2013-11-13"
-        },
-        {
-            "title": "Imported Seafood Supply Chain Management",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62885,r2715.php?Lang=en",
-            "date": "2013-11-06"
-        },
-        {
-            "title": "Quantitative Analysis of Cloud-based Streaming Services – the iPalace Channel of the National Palace Museum",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62790,r2715.php?Lang=en",
-            "date": "2013-11-05"
-        },
-        {
-            "title": "The case about Manufacturing Management and Supply Chain Management - Toyota Way Return to original nature Customer First",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62694,r2715.php?Lang=en",
-            "date": "2013-11-01"
-        },
-        {
-            "title": "Making Decisions with AHP/ANP",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62610,r2715.php?Lang=en",
-            "date": "2013-10-30"
-        },
-        {
-            "title": "Case Sharing about Internal Logistics of Enterprise and Lean Business",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62608,r2715.php?Lang=en",
-            "date": "2013-10-30"
-        },
-        {
-            "title": "Discussion on Negotiation Mechanisms",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62436,r2715.php?Lang=en",
-            "date": "2013-10-24"
-        },
-        {
-            "title": "Internet of Things Innovation: Paradigm Shift for Management",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62387,r2715.php?Lang=en",
-            "date": "2013-10-23"
-        },
-        {
-            "title": "Writing Aviation Maintenance Procedures & 60 years of Fitts’ law",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62210,r2715.php?Lang=en",
-            "date": "2013-10-17"
-        },
-        {
-            "title": "Logistics Strategic about Business Concept- Use of Logistic and Supply Chain Management to enhance the Competitiveness of Enterprise",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62208,r2715.php?Lang=en",
-            "date": "2013-10-17"
-        },
-        {
-            "title": "Wholesale Price Rebate vs. Capacity Expansion: Optimal Strategy for Seasonal Products in a Supply Chain",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-62065,r2715.php?Lang=en",
-            "date": "2013-10-14"
-        },
-        {
-            "title": "Industrial Engineering Practices and application-Taking TSMC for Example",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-61952,r2715.php?Lang=en",
-            "date": "2013-10-09"
-        },
-        {
-            "title": "Lean Management Practices Sharing-The Industrial Logistics Operations and logistics Industry applying Lean Management",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-61596,r2715.php?Lang=en",
-            "date": "2013-10-02"
-        },
-        {
-            "title": "Now and Future – Shoes industry",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-61456,r2715.php?Lang=en",
-            "date": "2013-09-30"
-        },
-        {
-            "title": "Human Factors Issues and Problems in Interacting with Virtual Reality Environments",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-61179,r2715.php?Lang=en",
-            "date": "2013-09-23"
-        },
-        {
-            "title": "Fuzzy Optimization and Decision Making for Intelligent Manufacturing and Logistics",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-57850,r2715.php?Lang=en",
-            "date": "2013-06-17"
-        },
-        {
-            "title": "Predictive Health",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-56803,r2715.php?Lang=en",
-            "date": "2013-05-23"
-        },
-        {
-            "title": "The Rise of IE in East Asia and Challenges in IE Research",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-51599,r2715.php?Lang=en",
-            "date": "2012-12-17"
-        },
-        {
-            "title": "Opportunities and Challenges in mHealth",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-51569,r2715.php?Lang=en",
-            "date": "2012-12-17"
-        },
-        {
-            "title": "Research at School of Mechanical & Aerospace Engineering, Nanyang Technological University, Singapore",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50954,r2715.php?Lang=en",
-            "date": "2012-11-27"
-        },
-        {
-            "title": "The Business Transformation Supported by Innovative Strategies",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50839,r2715.php?Lang=en",
-            "date": "2012-11-22"
-        },
-        {
-            "title": "Green issues in enterprises",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50515,r2715.php?Lang=en",
-            "date": "2012-11-12"
-        },
-        {
-            "title": "Applications of Operations Management to Key Emerging Industries",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50478,r2715.php?Lang=en",
-            "date": "2012-11-08"
-        },
-        {
-            "title": "Engineering Applications of Coupled Nonlinear Resonators",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50272,r2715.php?Lang=en",
-            "date": "2012-11-02"
-        },
-        {
-            "title": "Sustainable Product Design to Improve Efficiency and Sustainability of Green Supply Chain under Uncertainties",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50286,r2715.php?Lang=en",
-            "date": "2012-11-02"
-        },
-        {
-            "title": "The Application of TRIZ to six types of inventions",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50278,r2715.php?Lang=en",
-            "date": "2012-11-02"
-        },
-        {
-            "title": "Evolutionary Algorithms and IE Applications",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50254,r2715.php?Lang=en",
-            "date": "2012-11-01"
-        },
-        {
-            "title": "Genetic Algorithms and Applications",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50090,r2715.php?Lang=en",
-            "date": "2012-10-26"
-        },
-        {
-            "title": "Academic Writing Skills Share",
-            "link": "https://ieem.site.nthu.edu.tw/p/406-1310-50080,r2715.php?Lang=en",
-            "date": "2012-10-25"
         }
     ]
 }
