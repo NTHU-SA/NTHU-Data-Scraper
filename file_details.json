@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-23T20:18:40.873907+08:00",
+        "last_updated": "2026-11-24T08:28:42.929197+08:00",
         "name": "announcements.json",
-        "sha256": "8827b1827839ab327f26bfcb390afc05ab814c95f4bb07220444d3b9f106f5bf",
-        "version": "8827b1827839ab327f26bfcb390afc05ab814c95f4bb07220444d3b9f106f5bf"
+        "sha256": "4db70245222494e52f474d8a3303f0cc7d9c674fa901e83dbc9d3f50ec2ec6a6",
+        "version": "4db70245222494e52f474d8a3303f0cc7d9c674fa901e83dbc9d3f50ec2ec6a6"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "21a683bca8aadd5f0698f8603012f71978a6c04281082c034912fd7f5a7afa30"
       },
       {
-        "last_updated": "2026-11-23T16:18:40.117418+08:00",
+        "last_updated": "2026-11-24T08:28:42.929197+08:00",
         "name": "dining.json",
-        "sha256": "73773e2043bab9283ebfe4eb53d7862c8972721d376e216db45f6f753a38009e",
-        "version": "73773e2043bab9283ebfe4eb53d7862c8972721d376e216db45f6f753a38009e"
+        "sha256": "bf6e602845a1c861cef51ef8300af33e2baa07c02b3c74505ca6311805fcd2df",
+        "version": "bf6e602845a1c861cef51ef8300af33e2baa07c02b3c74505ca6311805fcd2df"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-21T00:12:38.695401+08:00",
+        "last_updated": "2026-11-24T08:28:42.929197+08:00",
         "name": "All seminar_en.json",
-        "sha256": "80b79aa732716fc3e55c5762e0be6cd14fc7b788662d064a047aa333facb71e4",
-        "version": "80b79aa732716fc3e55c5762e0be6cd14fc7b788662d064a047aa333facb71e4"
+        "sha256": "18ca843f2e67275bd3edc4524dbb59981fd4ac112e7d7e7f7e575b54e8a17d04",
+        "version": "18ca843f2e67275bd3edc4524dbb59981fd4ac112e7d7e7f7e575b54e8a17d04"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-21T00:12:38.695401+08:00",
+        "last_updated": "2026-11-24T08:28:42.929197+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "f3d260a5caf700adbcdeeb35e4a34e6825caa7e5ff154f4968f157e436fef4ba",
-        "version": "f3d260a5caf700adbcdeeb35e4a34e6825caa7e5ff154f4968f157e436fef4ba"
+        "sha256": "9b3d5da65f9f603d26b3b027a11d1b2b2190d5bc95c7b2025c9c7979ff6a6443",
+        "version": "9b3d5da65f9f603d26b3b027a11d1b2b2190d5bc95c7b2025c9c7979ff6a6443"
       },
       {
         "last_updated": "2026-11-20T14:20:44.496593+08:00",
@@ -1850,16 +1850,16 @@
         "version": "6e5d5824f5f22cddd3a9d76e5699c429e87722150255ca084482c7f81a2a61fa"
       },
       {
-        "last_updated": "2026-11-19T16:16:40.324162+08:00",
+        "last_updated": "2026-11-24T08:28:42.929197+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "b96f86df08b4a887e833066f041942218d901ebc9f76e0f5186b6db7799ee32f",
-        "version": "b96f86df08b4a887e833066f041942218d901ebc9f76e0f5186b6db7799ee32f"
+        "sha256": "8b224fe21cc30b7e7684da9b18c909699243b09b21d68c3d89c8b24b5cc85fb5",
+        "version": "8b224fe21cc30b7e7684da9b18c909699243b09b21d68c3d89c8b24b5cc85fb5"
       },
       {
-        "last_updated": "2026-11-19T16:16:40.324162+08:00",
+        "last_updated": "2026-11-24T08:28:42.929197+08:00",
         "name": "活動訊息_zh-tw.json",
-        "sha256": "e205502a066df2d7a21383397f87204a9f1b0cd332a11224e7128690728b8416",
-        "version": "e205502a066df2d7a21383397f87204a9f1b0cd332a11224e7128690728b8416"
+        "sha256": "74c8b8427489b927ca9c22f1be14f65635020432eb4fbcd8856a964421e46dca",
+        "version": "74c8b8427489b927ca9c22f1be14f65635020432eb4fbcd8856a964421e46dca"
       }
     ],
     "announcements/秘書處校務研究中心": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-23T20:18:40.873907+08:00"
+  "last_updated": "2026-11-24T08:28:42.929197+08:00"
 }
