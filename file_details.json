@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-24T16:16:47.799709+08:00",
+        "last_updated": "2026-11-24T18:11:44.082801+08:00",
         "name": "announcements.json",
-        "sha256": "e1fc53944d1e4c6f50e8621b99bfac2e0563c30d97d30cc2cfa3b7468cc41934",
-        "version": "e1fc53944d1e4c6f50e8621b99bfac2e0563c30d97d30cc2cfa3b7468cc41934"
+        "sha256": "55320d4bc8be7517a8b37b888aae7c3d2d87dbeb3db7fc3932eb8f89671b5070",
+        "version": "55320d4bc8be7517a8b37b888aae7c3d2d87dbeb3db7fc3932eb8f89671b5070"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -474,10 +474,10 @@
         "version": "e1e972e04c83819fff6ad646c317a2ad9b68ae36127a5f6249110e8cb22ac65f"
       },
       {
-        "last_updated": "2026-11-17T08:31:12.039218+08:00",
+        "last_updated": "2026-11-24T18:11:44.082801+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "9a9d8348e0bdb7c9e62f9c6573b9d1e2c55833384868ab5d4bb5eaad7e8fb7b1",
-        "version": "9a9d8348e0bdb7c9e62f9c6573b9d1e2c55833384868ab5d4bb5eaad7e8fb7b1"
+        "sha256": "01607bf63071ccf416f3258f75591860a0bbbfe686964d1409a8aaadf8b79bbb",
+        "version": "01607bf63071ccf416f3258f75591860a0bbbfe686964d1409a8aaadf8b79bbb"
       },
       {
         "last_updated": "2026-11-12T12:14:22.246417+08:00",
@@ -1216,16 +1216,16 @@
         "version": "54040c0bcf649edb043a956edadd864c0094cb5e003903bbc2a44187d206db0d"
       },
       {
-        "last_updated": "2026-11-24T16:16:47.799709+08:00",
+        "last_updated": "2026-11-24T18:11:44.082801+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "a40613c71b8007f726bcbea29344609f4cf9d089e75e7b7c85122694c24c5e6a",
-        "version": "a40613c71b8007f726bcbea29344609f4cf9d089e75e7b7c85122694c24c5e6a"
+        "sha256": "2faddbd0972dc8a7af487c6ad37a4c55a13eb965a6efb65d0b5e3f924c677c25",
+        "version": "2faddbd0972dc8a7af487c6ad37a4c55a13eb965a6efb65d0b5e3f924c677c25"
       },
       {
-        "last_updated": "2026-11-19T14:21:20.178457+08:00",
+        "last_updated": "2026-11-24T18:11:44.082801+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "6d3c1cc6b1c0423f6738521ce110b4169cb41f77b7e88d0aa8d52c294c7cb4a0",
-        "version": "6d3c1cc6b1c0423f6738521ce110b4169cb41f77b7e88d0aa8d52c294c7cb4a0"
+        "sha256": "a7dcca450c5093735378705d0d819bb64e26eff3509bb42956ac5d9874d821db",
+        "version": "a7dcca450c5093735378705d0d819bb64e26eff3509bb42956ac5d9874d821db"
       },
       {
         "last_updated": "2026-11-23T14:28:27.690834+08:00",
@@ -1234,10 +1234,10 @@
         "version": "074c4e26a66aa6065ac757dd665ca0583bb2816009792e8fe828c5f6b2c25119"
       },
       {
-        "last_updated": "2026-11-24T16:16:47.799709+08:00",
+        "last_updated": "2026-11-24T18:11:44.082801+08:00",
         "name": "行政公告_zh-tw.json",
-        "sha256": "e6327dff7c1b65577d73411f3e75893c94da27ab87a71986533a81f376d6015c",
-        "version": "e6327dff7c1b65577d73411f3e75893c94da27ab87a71986533a81f376d6015c"
+        "sha256": "df618ccac0dd541294a0cd25dbc2881ca147291c2aa7838b01b9c26f63503305",
+        "version": "df618ccac0dd541294a0cd25dbc2881ca147291c2aa7838b01b9c26f63503305"
       }
     ],
     "announcements/清華學院": [
@@ -2546,10 +2546,10 @@
     ],
     "announcements/電機資訊學院電子工程研究所": [
       {
-        "last_updated": "2026-11-24T10:17:00.721633+08:00",
+        "last_updated": "2026-11-24T18:11:44.082801+08:00",
         "name": "一般公告_zh-tw.json",
-        "sha256": "7761b799a2597da761033695cbd84dc8027881c7af2e88621b5f01636ef30a64",
-        "version": "7761b799a2597da761033695cbd84dc8027881c7af2e88621b5f01636ef30a64"
+        "sha256": "8ba169b08677cef4babc7c31d43cb556bf57b24289a590f4fc73952cea916d3d",
+        "version": "8ba169b08677cef4babc7c31d43cb556bf57b24289a590f4fc73952cea916d3d"
       },
       {
         "last_updated": "2026-11-10T16:17:10.681339+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-24T16:16:47.799709+08:00"
+  "last_updated": "2026-11-24T18:11:44.082801+08:00"
 }
