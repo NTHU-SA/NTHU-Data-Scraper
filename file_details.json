@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-25T12:15:09.918685+08:00",
+        "last_updated": "2026-11-25T14:21:18.654193+08:00",
         "name": "announcements.json",
-        "sha256": "48e1d8631af9806c11f3b986358d4c0aa21ac54ce5475d99d053457e233c7128",
-        "version": "48e1d8631af9806c11f3b986358d4c0aa21ac54ce5475d99d053457e233c7128"
+        "sha256": "c3b53f74ebd6a32a878912df1f4e5089f26bdb79ab0c34f285190ae34eaa2cd3",
+        "version": "c3b53f74ebd6a32a878912df1f4e5089f26bdb79ab0c34f285190ae34eaa2cd3"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1216,10 +1216,10 @@
         "version": "de40bac90dbd59399728e77df23b81b59f4b6a91bd48e53c88c5a2af8def395b"
       },
       {
-        "last_updated": "2026-11-25T10:17:26.440433+08:00",
+        "last_updated": "2026-11-25T14:21:18.654193+08:00",
         "name": "校內徵才_zh-tw.json",
-        "sha256": "e41fe316fae989a1577f3896bfa3584d5b50187c0ab5f9b6197f7bcfc494e250",
-        "version": "e41fe316fae989a1577f3896bfa3584d5b50187c0ab5f9b6197f7bcfc494e250"
+        "sha256": "f75a39dff90d9e2046833cd2b4261e01ab16e5eb7f097c969d4947bd53fe9883",
+        "version": "f75a39dff90d9e2046833cd2b4261e01ab16e5eb7f097c969d4947bd53fe9883"
       },
       {
         "last_updated": "2026-11-25T10:17:26.440433+08:00",
@@ -2342,10 +2342,10 @@
         "version": "fbf2c80f8e769c904bdac26071ef484a2c999a3d5230fa670771e3f89aff93a8"
       },
       {
-        "last_updated": "2026-11-13T14:20:20.838180+08:00",
+        "last_updated": "2026-11-25T14:21:18.654193+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "8306fc292d8d8f3bdfe0eb03a0b9fe6d9f66041ee8e93e5b32934c1976db281f",
-        "version": "8306fc292d8d8f3bdfe0eb03a0b9fe6d9f66041ee8e93e5b32934c1976db281f"
+        "sha256": "3eb74792120ca8d3ac9aaa067fa7c514102f568ff260f32e2a3793c0ee4e1193",
+        "version": "3eb74792120ca8d3ac9aaa067fa7c514102f568ff260f32e2a3793c0ee4e1193"
       }
     ],
     "announcements/總務處南大校區 總務行政組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-25T12:15:09.918685+08:00"
+  "last_updated": "2026-11-25T14:21:18.654193+08:00"
 }
