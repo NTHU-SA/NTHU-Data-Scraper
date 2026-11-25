@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-25T16:16:56.049062+08:00",
+        "last_updated": "2026-11-25T18:12:47.290450+08:00",
         "name": "announcements.json",
-        "sha256": "aab651024a971ab27cb5b758d881ac31fbb21fd8987faaa553edd3b6125e33b6",
-        "version": "aab651024a971ab27cb5b758d881ac31fbb21fd8987faaa553edd3b6125e33b6"
+        "sha256": "543927f047aa05d47c1ab0c67b638f775a61fc707acf82d2968297aa39ac8ab1",
+        "version": "543927f047aa05d47c1ab0c67b638f775a61fc707acf82d2968297aa39ac8ab1"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -778,10 +778,10 @@
     ],
     "announcements/師資培育中心": [
       {
-        "last_updated": "2026-11-20T16:16:27.613994+08:00",
+        "last_updated": "2026-11-25T18:12:47.290450+08:00",
         "name": "徵才_研習_zh-tw.json",
-        "sha256": "1c80a9dd8387ec88d1c6ceb6ca613df4c086a54e5a7c546bc117e0f2b9edd6a3",
-        "version": "1c80a9dd8387ec88d1c6ceb6ca613df4c086a54e5a7c546bc117e0f2b9edd6a3"
+        "sha256": "64fc356c0913b84a5d383d94c61d4d323152a04f1a7205be2a51537a7a7d3cba",
+        "version": "64fc356c0913b84a5d383d94c61d4d323152a04f1a7205be2a51537a7a7d3cba"
       },
       {
         "last_updated": "2026-11-24T16:16:47.799709+08:00",
@@ -2968,10 +2968,10 @@
     ],
     "libraries": [
       {
-        "last_updated": "2026-11-20T16:16:27.613994+08:00",
+        "last_updated": "2026-11-25T18:12:47.290450+08:00",
         "name": "calendars.json",
-        "sha256": "67e86ce7955a823de9ebfaf000d2c63c99ee01f34dda5c6eef21239e886868a1",
-        "version": "67e86ce7955a823de9ebfaf000d2c63c99ee01f34dda5c6eef21239e886868a1"
+        "sha256": "0699e5534688d9187bc42d9755b583f0b4043abd2db84c8726fafc1c7ee5e167",
+        "version": "0699e5534688d9187bc42d9755b583f0b4043abd2db84c8726fafc1c7ee5e167"
       },
       {
         "last_updated": "2026-11-25T16:16:56.049062+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-25T16:16:56.049062+08:00"
+  "last_updated": "2026-11-25T18:12:47.290450+08:00"
 }
