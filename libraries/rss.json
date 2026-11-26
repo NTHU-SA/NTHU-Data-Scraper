@@ -1,6 +1,20 @@
 {
     "news": [
         {
+            "guid": "2091",
+            "category": "電子資源",
+            "title": "【試用資源】快刀中文相似度比對系統、中英文AI文章辨識系統、AI事實查核系統，歡迎多多利用！",
+            "link": "https://pass.ppvs.org/papercheck/login",
+            "pubDate": "Thu, 26 Nov 2026 13:39:22 +0800",
+            "description": "※試用網址：https://pass.ppvs.org/papercheck/login\n※試用期間：即日起至2026年12月31日止。\n※試用內容：\n1. 中文相似度比對系統：比對學術資料庫與網路公開來源，快速找出重複段落並提供相似度報告。\n2. 中英文AI文章辨識系統：辨識ChatGPT、Claude等生成內容，提供4級AI濃度分類與句段標註。\n3. AI事實查核系統：整合事實查核、文獻查核與AI幻覺標示，一鍵檢視全文可信度與可疑主張。\n4. 授權試用期間，相似度比對不限篇數(單篇字數上限120,000字)、AI文章辨識30,000字、AI事實查核30,000字(1字=中文1字/英文1單字，含標點符號)。\n※試用方式：使用本校電子郵件信箱(*.nthu.edu.tw)註冊與登入，進入後選擇需使用之功能。比對可直接開始上傳送出比對，AI文章辨識、AI事實查核則於第一次登入後系統自動加值字數。\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261126_LRS_doublemind.jpg",
+                "title": "【試用資源】快刀中文相似度比對系統、中英文AI文章辨識系統、AI事實查核系統，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
+        {
             "guid": "2090",
             "category": "服務消息",
             "title": "【徵才資訊】國立清華大學圖書館綜合館務組誠徵「技術組員」1名",
@@ -800,6 +814,20 @@
         }
     ],
     "eresources": [
+        {
+            "guid": "2091",
+            "category": "電子資源",
+            "title": "【試用資源】快刀中文相似度比對系統、中英文AI文章辨識系統、AI事實查核系統，歡迎多多利用！",
+            "link": "https://pass.ppvs.org/papercheck/login",
+            "pubDate": "Thu, 26 Nov 2026 13:39:22 +0800",
+            "description": "※試用網址：https://pass.ppvs.org/papercheck/login\n※試用期間：即日起至2026年12月31日止。\n※試用內容：\n1. 中文相似度比對系統：比對學術資料庫與網路公開來源，快速找出重複段落並提供相似度報告。\n2. 中英文AI文章辨識系統：辨識ChatGPT、Claude等生成內容，提供4級AI濃度分類與句段標註。\n3. AI事實查核系統：整合事實查核、文獻查核與AI幻覺標示，一鍵檢視全文可信度與可疑主張。\n4. 授權試用期間，相似度比對不限篇數(單篇字數上限120,000字)、AI文章辨識30,000字、AI事實查核30,000字(1字=中文1字/英文1單字，含標點符號)。\n※試用方式：使用本校電子郵件信箱(*.nthu.edu.tw)註冊與登入，進入後選擇需使用之功能。比對可直接開始上傳送出比對，AI文章辨識、AI事實查核則於第一次登入後系統自動加值字數。\n歡迎多多利用並回覆試用問卷調查：https://forms.gle/65YaF7R1z52VU9S19",
+            "author": "shchang@lib.nthu.edu.tw (NTHU Library 學研組)",
+            "image": {
+                "url": "https://www.lib.nthu.edu.tw/image/news/19/20261126_LRS_doublemind.jpg",
+                "title": "【試用資源】快刀中文相似度比對系統、中英文AI文章辨識系統、AI事實查核系統，歡迎多多利用！",
+                "link": "https://www.lib.nthu.edu.tw/"
+            }
+        },
         {
             "guid": "2067",
             "category": "電子資源",
