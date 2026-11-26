@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-26T22:13:17.408703+08:00",
+        "last_updated": "2026-11-27T00:13:51.704438+08:00",
         "name": "announcements.json",
-        "sha256": "1584cfe8bf5d51d47c7013991ca7f8bd2020716cff5c91487ec396cc04e98ff9",
-        "version": "1584cfe8bf5d51d47c7013991ca7f8bd2020716cff5c91487ec396cc04e98ff9"
+        "sha256": "9dec8f52f2a10a0ded0931721f757f09ba28299150a13f250c1c861d69af32bd",
+        "version": "9dec8f52f2a10a0ded0931721f757f09ba28299150a13f250c1c861d69af32bd"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -1400,10 +1400,10 @@
     ],
     "announcements/理學院物理學系": [
       {
-        "last_updated": "2026-11-26T00:15:46.501970+08:00",
+        "last_updated": "2026-11-27T00:13:51.704438+08:00",
         "name": "All seminar_en.json",
-        "sha256": "bfe5f67a4c153cf600f9b95f7ea523b89dd642ee11d6824a14fc53ac8d805f58",
-        "version": "bfe5f67a4c153cf600f9b95f7ea523b89dd642ee11d6824a14fc53ac8d805f58"
+        "sha256": "73812720bf90438e16bdd48f5992214f1a380660ae26b0a7945dca6b7c22281b",
+        "version": "73812720bf90438e16bdd48f5992214f1a380660ae26b0a7945dca6b7c22281b"
       },
       {
         "last_updated": "2026-10-03T02:10:13.241185+08:00",
@@ -1424,10 +1424,10 @@
         "version": "b2543a915259995a541c62af7bee61163e05bd0baeb94edd1b8aabe23100c58a"
       },
       {
-        "last_updated": "2026-11-26T00:15:46.501970+08:00",
+        "last_updated": "2026-11-27T00:13:51.704438+08:00",
         "name": "所有演講_zh-tw.json",
-        "sha256": "9706356fb5409fb622c8ff704593fb59c5a785e47659ae28b9d73c844ac41e7d",
-        "version": "9706356fb5409fb622c8ff704593fb59c5a785e47659ae28b9d73c844ac41e7d"
+        "sha256": "ea16a7a2dde88888545857115eb4c27ad99171ecdc4be70a1ab3964d9abf483e",
+        "version": "ea16a7a2dde88888545857115eb4c27ad99171ecdc4be70a1ab3964d9abf483e"
       },
       {
         "last_updated": "2026-11-20T14:20:44.496593+08:00",
@@ -1518,10 +1518,10 @@
         "version": "164ecf2156ed5d36ac5e844d3f4287ba2d00ff7d031c40a75ea3827d231a7855"
       },
       {
-        "last_updated": "2026-11-26T02:14:20.857458+08:00",
+        "last_updated": "2026-11-27T00:13:51.704438+08:00",
         "name": "banner_zh-tw.json",
-        "sha256": "9260c6961e90de5f0f1a5cce5fc6dc70da8db28ef292a6adf0c6b3ff0b7ca0eb",
-        "version": "9260c6961e90de5f0f1a5cce5fc6dc70da8db28ef292a6adf0c6b3ff0b7ca0eb"
+        "sha256": "d41050f98718cfdbdccff136e4556278e3a6a0657c2419bce2b8fef5e841d794",
+        "version": "d41050f98718cfdbdccff136e4556278e3a6a0657c2419bce2b8fef5e841d794"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1542,10 +1542,10 @@
         "version": "1233b2d922df864c63d198105bc3502cfaf0933dca718db109be8826284fbc75"
       },
       {
-        "last_updated": "2026-11-26T02:14:20.857458+08:00",
+        "last_updated": "2026-11-27T00:13:51.704438+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "72eec52cf793f2bc88a6417f8527bc83633bab2b53289a21a115ec2b5aae97bf",
-        "version": "72eec52cf793f2bc88a6417f8527bc83633bab2b53289a21a115ec2b5aae97bf"
+        "sha256": "54fe902698513974a8023e467eb89236c56c5bae25c7f84159e4c90e18aba9a7",
+        "version": "54fe902698513974a8023e467eb89236c56c5bae25c7f84159e4c90e18aba9a7"
       }
     ],
     "announcements/生命科學暨醫學院分子與細胞生物研究所": [
@@ -2974,10 +2974,10 @@
         "version": "9e703479dd377a6a6bdfaa5bcad872b872fd69e980e69b141dd63579771de924"
       },
       {
-        "last_updated": "2026-11-26T20:17:13.791154+08:00",
+        "last_updated": "2026-11-27T00:13:51.704438+08:00",
         "name": "rss.json",
-        "sha256": "21787252fcb0831295d3e418174b9a1748895cdc47d8430328d1ca4a55472b1b",
-        "version": "21787252fcb0831295d3e418174b9a1748895cdc47d8430328d1ca4a55472b1b"
+        "sha256": "4d28cd631ac54c9ee1f8bc7a53b6e255f2c70859fa6e3a763d1194763e010cf0",
+        "version": "4d28cd631ac54c9ee1f8bc7a53b6e255f2c70859fa6e3a763d1194763e010cf0"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-26T22:13:17.408703+08:00"
+  "last_updated": "2026-11-27T00:13:51.704438+08:00"
 }
