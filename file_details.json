@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-26T20:17:13.791154+08:00",
+        "last_updated": "2026-11-26T22:13:17.408703+08:00",
         "name": "announcements.json",
-        "sha256": "4b3082cdefe6eebbaba0bc6300a58b1fbccc74af043e0df362b84298e7e95dbd",
-        "version": "4b3082cdefe6eebbaba0bc6300a58b1fbccc74af043e0df362b84298e7e95dbd"
+        "sha256": "1584cfe8bf5d51d47c7013991ca7f8bd2020716cff5c91487ec396cc04e98ff9",
+        "version": "1584cfe8bf5d51d47c7013991ca7f8bd2020716cff5c91487ec396cc04e98ff9"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -980,10 +980,10 @@
         "version": "0d9b54fc9d799d1e7ae9555436de624f4d111125f29d81031c2031a580baa4ed"
       },
       {
-        "last_updated": "2026-10-14T16:25:49.196087+08:00",
+        "last_updated": "2026-11-26T22:13:17.408703+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "8b8f7cc50fc048bdadbd9bf0a0038fe5326080f0a7335e4a645ede4c792c8e90",
-        "version": "8b8f7cc50fc048bdadbd9bf0a0038fe5326080f0a7335e4a645ede4c792c8e90"
+        "sha256": "82b504bf6b5019160e3eb339a8c61faeb1335c0784401989d430f3c443ac4dea",
+        "version": "82b504bf6b5019160e3eb339a8c61faeb1335c0784401989d430f3c443ac4dea"
       }
     ],
     "announcements/教務處綜合教務組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-26T20:17:13.791154+08:00"
+  "last_updated": "2026-11-26T22:13:17.408703+08:00"
 }
