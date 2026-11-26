@@ -2,7 +2,7 @@
     "schema_version": 1,
     "source_id": "latest",
     "format": "json",
-    "sha256": "aefa3949c368d97daccd7ff1ef218c3f82b41fa8f97a1b871bd542162bc7beef",
+    "sha256": "1694d695ddcd1862b23dba363a6900d9c85033bc856a7c041f0944f08c6de36b",
     "records": [
         {
             "values": {
@@ -1547,8 +1547,8 @@
         {
             "values": {
                 "科號": "11510BAI 500900",
-                "課程中文名稱": "分子模擬與建模",
-                "課程英文名稱": "Molecular Simulation and Modeling",
+                "課程中文名稱": "分子模擬與建模一",
+                "課程英文名稱": "Molecular Simulation and Modeling (I)",
                 "學分數": "2",
                 "人限": "10",
                 "新生保留人數": "0",
@@ -31227,8 +31227,8 @@
         {
             "values": {
                 "科號": "11510IBP 105100",
-                "課程中文名稱": "程式實作實驗",
-                "課程英文名稱": "Programming Implementation Lab",
+                "課程中文名稱": "程式實作實驗一",
+                "課程英文名稱": "Programming Implementation Lab I",
                 "學分數": "3",
                 "人限": "70",
                 "新生保留人數": "0",
