@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-26T18:12:49.033693+08:00",
+        "last_updated": "2026-11-26T20:17:13.791154+08:00",
         "name": "announcements.json",
-        "sha256": "01bb3828261d0960e394770446e7c096d80e7c7e8147369eb8cf531638420b7e",
-        "version": "01bb3828261d0960e394770446e7c096d80e7c7e8147369eb8cf531638420b7e"
+        "sha256": "4b3082cdefe6eebbaba0bc6300a58b1fbccc74af043e0df362b84298e7e95dbd",
+        "version": "4b3082cdefe6eebbaba0bc6300a58b1fbccc74af043e0df362b84298e7e95dbd"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -78,10 +78,10 @@
         "version": "3e30998e2ceed6daa3a02c390d74241a5a1c95d84c9f277498e546e1122de42a"
       },
       {
-        "last_updated": "2026-11-18T16:16:42.936666+08:00",
+        "last_updated": "2026-11-26T20:17:13.791154+08:00",
         "name": "法規宣導_zh-tw.json",
-        "sha256": "14f40bf10a87f9ebb3de44de6da90a65dff16f3270d7be0c94da382c90456992",
-        "version": "14f40bf10a87f9ebb3de44de6da90a65dff16f3270d7be0c94da382c90456992"
+        "sha256": "f5b2143c22cf40692726bb218cae070898146e9e6bc6fbefafff46f1c336c29b",
+        "version": "f5b2143c22cf40692726bb218cae070898146e9e6bc6fbefafff46f1c336c29b"
       },
       {
         "last_updated": "2026-11-26T10:16:41.001165+08:00",
@@ -1830,10 +1830,10 @@
     ],
     "announcements/科技管理學院安富金融工程研究中心": [
       {
-        "last_updated": "2026-10-29T22:15:14.359780+08:00",
+        "last_updated": "2026-11-26T20:17:13.791154+08:00",
         "name": "中心消息 News_zh-tw.json",
-        "sha256": "beff6dd54eaab7a9bf45e64ad7acc51ce5a2b6589ab46d4aa47af9008a0dc119",
-        "version": "beff6dd54eaab7a9bf45e64ad7acc51ce5a2b6589ab46d4aa47af9008a0dc119"
+        "sha256": "b20a71fd9f5b57b088dc746d6b34421ba84735a3edc75d3883518559595cc557",
+        "version": "b20a71fd9f5b57b088dc746d6b34421ba84735a3edc75d3883518559595cc557"
       }
     ],
     "announcements/秘書處性別平等教育委員會": [
@@ -2974,10 +2974,10 @@
         "version": "9e703479dd377a6a6bdfaa5bcad872b872fd69e980e69b141dd63579771de924"
       },
       {
-        "last_updated": "2026-11-26T16:16:23.239959+08:00",
+        "last_updated": "2026-11-26T20:17:13.791154+08:00",
         "name": "rss.json",
-        "sha256": "fab71322de10819abfe96b0418afbdf7dfb47bb95da679596447c2a125a216d0",
-        "version": "fab71322de10819abfe96b0418afbdf7dfb47bb95da679596447c2a125a216d0"
+        "sha256": "21787252fcb0831295d3e418174b9a1748895cdc47d8430328d1ca4a55472b1b",
+        "version": "21787252fcb0831295d3e418174b9a1748895cdc47d8430328d1ca4a55472b1b"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-26T18:12:49.033693+08:00"
+  "last_updated": "2026-11-26T20:17:13.791154+08:00"
 }
