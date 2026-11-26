@@ -2488,6 +2488,11 @@
         "department": "清華公佈欄",
         "articles": [
             {
+                "title": "【徵才】國立清華大學圖書館綜合館務組誠徵「技術組員」1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-319095,c0.php?Lang=zh-tw",
+                "date": "2026-11-26"
+            },
+            {
                 "title": "【徵才】理學院徵長期工讀生 (12月底開始工讀)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-309916,r5075.php?Lang=zh-tw",
                 "date": "2026-11-25"
@@ -2541,11 +2546,6 @@
                 "title": "【誠徵】國立清華大學師資培育中心誠徵博士後研究員1名(隨到隨審)",
                 "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-311329,c0.php?Lang=zh-tw",
                 "date": "2026-11-17"
-            },
-            {
-                "title": "【電子系同學實習】羅技春季實習找的就是你!",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-318476,c0.php?Lang=zh-tw",
-                "date": "2026-11-16"
             }
         ]
     },
@@ -2555,6 +2555,11 @@
         "language": "zh-tw",
         "department": "清華公佈欄",
         "articles": [
+            {
+                "title": "【徵才】國立清華大學圖書館綜合館務組誠徵「技術組員」1名",
+                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-319095,c0.php?Lang=zh-tw",
+                "date": "2026-11-26"
+            },
             {
                 "title": "【徵才】國立清華大學生態永續研究與治理中心 誠徵行政助理一名",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-319007,r5081.php?Lang=zh-tw",
@@ -2609,11 +2614,6 @@
                 "title": "【徵才】清華大學 國際產學營運總中心智財技轉組 專利技轉助理計畫人員",
                 "link": "https://bulletin.site.nthu.edu.tw/p/406-1086-176967,r5081.php?Lang=zh-tw",
                 "date": "2026-11-10"
-            },
-            {
-                "title": "11/12禮券+抽獎，產業實習-世界先進人資部經理講座",
-                "link": "https://bulletin.site.nthu.edu.tw/p/450-1086-317831,c0.php?Lang=zh-tw",
-                "date": "2026-11-09"
             }
         ]
     },
@@ -4824,6 +4824,11 @@
                 "date": "2026-09-03"
             },
             {
+                "title": "(Colloquium)115.12.3 Prof. Tzong-Yi Lee, Big Data and AI in Precision Medicine: The War against Drug-resistant Pathogens",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-319097,r8084.php?Lang=en",
+                "date": "2026-11-26"
+            },
+            {
                 "title": "(Colloquium)115.11.12 Dr. I-Chun Chen, Tackling ER Positive Metastatic Breast Cancer from Signaling Pathway to Microenvironment: The Road between Bedside and Benchtop",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-317689,r8084.php?Lang=en",
                 "date": "2026-11-06"
@@ -4912,11 +4917,6 @@
                 "title": "(Colloquium)115.4.9 Dr. Jung-Kuei Chen, RNA-Binding Proteins in DNA damage & RNA damage in DNA damaging drug",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-305685,r8084.php?Lang=en",
                 "date": "2026-03-31"
-            },
-            {
-                "title": "(Colloquium)115.3.26 林亦凡Yi-Fan Lin助理教授 Understanding the role of mitochondrial stress response in aging and age-related diseases",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-305043,r8084.php?Lang=en",
-                "date": "2026-03-20"
             }
         ]
     },
@@ -4930,6 +4930,11 @@
                 "title": "115學年度第1學期專題演講時間表",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-313830,r8084.php?Lang=zh-tw",
                 "date": "2026-09-03"
+            },
+            {
+                "title": "(專題演講)115.12.3李宗夷特聘教授 Big Data and AI in Precision Medicine: The War against Drug-resistant Pathogens",
+                "link": "https://cls.site.nthu.edu.tw/p/406-1469-319097,r8084.php?Lang=zh-tw",
+                "date": "2026-11-26"
             },
             {
                 "title": "(專題演講)115.11.19張芳榮教授 Academic and Industrial Cooperation on Research Outcomes of Natural Products",
@@ -5019,11 +5024,6 @@
             {
                 "title": "(特別演講)115.4.27 Dr. David J Craik, Discovery and applications of cyclotides in agriculture and medicine",
                 "link": "https://cls.site.nthu.edu.tw/p/406-1469-306799,r8084.php?Lang=zh-tw",
-                "date": "2026-04-17"
-            },
-            {
-                "title": "(專題演講)115.4.23 椛島健治 Kenji Kabashima 教授 Regulation of immune responses in the skin： from bench to clinic",
-                "link": "https://cls.site.nthu.edu.tw/p/406-1469-306737,r8084.php?Lang=zh-tw",
                 "date": "2026-04-17"
             }
         ]
@@ -8976,18 +8976,18 @@
                 "date": ""
             },
             {
-                "title": "🌏【學院榮耀】本院清鏡弘道講座教授 Ricardo García Mira 於西班牙媒體發表專文",
+                "title": "【學院榮耀】本院清鏡弘道講座教授 Ricardo García Mira 於西班牙媒體發表專文",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-317944,r4.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【國際交流紀實】深化臺比教育合作｜比利時 HOGENT 訪團蒞臨竹師教育學院",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-317835,r4.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "🌏【國際交流紀實】深化臺越教育合作｜越南胡志明國家大學理科大學訪團蒞臨竹師教育學院",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-317840,r4.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "🌏【國際交流紀實】深化臺比教育合作｜比利時 HOGENT 訪團蒞臨竹師教育學院",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-317835,r4.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -9024,6 +9024,11 @@
         "department": "竹師教育學院",
         "articles": [
             {
+                "title": "【學院活動】清華大學竹師教育學院赴日本早稻田大學參與國際教育研究生研討會，深化跨國學術交流與合作",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-319084,r70.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【活動轉知】社會科學與心理研究方法創新探索工作坊：心理經驗與人際互動的測量、計算與再理解",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-319004,r70.php?Lang=zh-tw",
                 "date": ""
@@ -9044,18 +9049,18 @@
                 "date": ""
             },
             {
-                "title": "🌏【學院榮耀】本院清鏡弘道講座教授 Ricardo García Mira 於西班牙媒體發表專文",
+                "title": "【學院榮耀】本院清鏡弘道講座教授 Ricardo García Mira 於西班牙媒體發表專文",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-317944,r70.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
+                "title": "【國際交流紀實】深化臺比教育合作｜比利時 HOGENT 訪團蒞臨竹師教育學院",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-317835,r70.php?Lang=zh-tw",
                 "date": ""
             },
             {
                 "title": "🌏【國際交流紀實】深化臺越教育合作｜越南胡志明國家大學理科大學訪團蒞臨竹師教育學院",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-317840,r70.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "🌏【國際交流紀實】深化臺比教育合作｜比利時 HOGENT 訪團蒞臨竹師教育學院",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-317835,r70.php?Lang=zh-tw",
                 "date": ""
             },
             {
@@ -9076,11 +9081,6 @@
             {
                 "title": "🌏【錄取公告】竹師教育學院第二屆國際交流大使正取暨備取名單",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-317389,r70.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "【學院活動】看展找答案，好禮等你來! (清華合校10周年靜態成果展10/27-11/06)",
-                "link": "https://ec.site.nthu.edu.tw/p/406-1584-317331,r70.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -9160,6 +9160,11 @@
         "department": "竹師教育學院",
         "articles": [
             {
+                "title": "【學院活動】清華大學竹師教育學院赴日本早稻田大學參與國際教育研究生研討會，深化跨國學術交流與合作",
+                "link": "https://ec.site.nthu.edu.tw/p/406-1584-319084,r7580.php?Lang=zh-tw",
+                "date": ""
+            },
+            {
                 "title": "【學院活動】運動科學X人工智慧 2026 ESAI國際研討會於清華大學教育學院圓滿舉行",
                 "link": "https://ec.site.nthu.edu.tw/p/406-1584-317647,r7580.php?Lang=zh-tw",
                 "date": ""
@@ -9212,11 +9217,6 @@
             {
                 "title": "獨家》領先全球！清大、中研院首證實 幼兒記憶力決定階級地位",
                 "link": "https://ec.site.nthu.edu.tw/p/450-1584-232809,c0.php?Lang=zh-tw",
-                "date": ""
-            },
-            {
-                "title": "清大跨物種研究 誰先放棄是人際勝敗關鍵",
-                "link": "https://ec.site.nthu.edu.tw/p/450-1584-232808,c0.php?Lang=zh-tw",
                 "date": ""
             }
         ]
@@ -15973,6 +15973,11 @@
         "department": "教務處跨院國際碩博士班學位學程",
         "articles": [
             {
+                "title": "【恭賀】本學程畢業生邱黃英(Hoang Anh Khau)博士榮獲越南茶榮大學最佳研究者獎",
+                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-319100,r10847.php?Lang=zh-tw",
+                "date": "2026-11-26"
+            },
+            {
                 "title": "【研究補助】賀人工智慧組博士生張晉綸獲國科會補助赴美國波士頓參加國際研討會發表論文",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-318614,r10847.php?Lang=zh-tw",
                 "date": "2026-11-19"
@@ -16066,11 +16071,6 @@
                 "title": "【研究補助】賀人文組博士生董佩瑄獲國科會補助赴香港參加國際研討會發表論文",
                 "link": "https://iphd.site.nthu.edu.tw/p/406-1222-305961,r10847.php?Lang=zh-tw",
                 "date": "2026-04-02"
-            },
-            {
-                "title": "【恭賀】陳鴻文副教授團隊及人工智慧組博士生劉奕獲第三屆2026致茂精密機械與量測技術論文獎優等",
-                "link": "https://iphd.site.nthu.edu.tw/p/406-1222-304995,r10847.php?Lang=zh-tw",
-                "date": "2026-03-20"
             }
         ]
     },
@@ -17518,6 +17518,11 @@
         "department": "清華學院清華學院學士班",
         "articles": [
             {
+                "title": "恭賀！黃文妤同學與團隊榮獲115年新竹縣青春靚點子學生創業挑戰賽冠軍",
+                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-319096,r9728.php",
+                "date": ""
+            },
+            {
                 "title": "恭賀！于璨瑋同學與團隊榮獲115年新竹政策黑客松創意獎",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-319049,r9728.php",
                 "date": ""
@@ -17570,11 +17575,6 @@
             {
                 "title": "恭賀! 蔡念彤同學 榮獲全國韻律體操錦標賽 佳績",
                 "link": "https://ipth.site.nthu.edu.tw/p/406-1462-309794,r9728.php",
-                "date": ""
-            },
-            {
-                "title": "恭賀! 沈利倩同學 榮獲第五屆清華學生永續解方提案首獎",
-                "link": "https://ipth.site.nthu.edu.tw/p/406-1462-307790,r9728.php",
                 "date": ""
             }
         ]
@@ -21662,6 +21662,11 @@
                 "date": "2025-07-01"
             },
             {
+                "title": "行政院公共工程委員會修正「遙控無人機採購作業指引4.0」，請查照。",
+                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-319078,r88.php?Lang=zh-tw",
+                "date": "2026-11-26"
+            },
+            {
                 "title": "116年第1次新創產品及服務需求品項調查，請校內各單位於115年11月20日前將採購需求填報後回傳採購組，請查照。",
                 "link": "https://purchase.site.nthu.edu.tw/p/406-1171-318408,r88.php?Lang=zh-tw",
                 "date": "2026-11-16"
@@ -21705,11 +21710,6 @@
                 "title": "行政院公共工程委員會函示「原住民」之認定及適用範圍，轉請查照。",
                 "link": "https://purchase.site.nthu.edu.tw/p/406-1171-315921,r88.php?Lang=zh-tw",
                 "date": "2026-10-08"
-            },
-            {
-                "title": "中企署辦理115年度「BuyingPower-社會創新產品及服務採購獎勵」，請查照。",
-                "link": "https://purchase.site.nthu.edu.tw/p/406-1171-314201,r88.php?Lang=zh-tw",
-                "date": "2026-09-09"
             }
         ]
     },
@@ -23006,7 +23006,7 @@
                 "date": "2026-11-03"
             },
             {
-                "title": "🎉 115學年度第1學期學士班新生、轉學生、研究生新生註冊須知(115.7.8已更新)",
+                "title": "115學年度第1學期學士班新生、轉學生、研究生新生註冊須知(115.7.8已更新)",
                 "link": "https://registra.site.nthu.edu.tw/p/406-1211-308729,r219.php?Lang=zh-tw",
                 "date": "2026-05-26"
             },
