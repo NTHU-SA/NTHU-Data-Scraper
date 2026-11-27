@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-27T10:16:50.719372+08:00",
+        "last_updated": "2026-11-27T12:14:26.693516+08:00",
         "name": "announcements.json",
-        "sha256": "dfe182d7dba6e8d7094495ffc09ce19e54c0acb6a12603849e40b93ac6d798e7",
-        "version": "dfe182d7dba6e8d7094495ffc09ce19e54c0acb6a12603849e40b93ac6d798e7"
+        "sha256": "b74f91ddb89f64b06372f8a0c2cb6ac99febabf7b4a81a06e47d90b445b5fd9f",
+        "version": "b74f91ddb89f64b06372f8a0c2cb6ac99febabf7b4a81a06e47d90b445b5fd9f"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -72,10 +72,10 @@
     ],
     "announcements/人事室": [
       {
-        "last_updated": "2026-11-26T10:16:41.001165+08:00",
+        "last_updated": "2026-11-27T12:14:26.693516+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "3e30998e2ceed6daa3a02c390d74241a5a1c95d84c9f277498e546e1122de42a",
-        "version": "3e30998e2ceed6daa3a02c390d74241a5a1c95d84c9f277498e546e1122de42a"
+        "sha256": "e1ac255d87ecf25728691715673347d062bb73edc75d7ca1c89e12f62495fd68",
+        "version": "e1ac255d87ecf25728691715673347d062bb73edc75d7ca1c89e12f62495fd68"
       },
       {
         "last_updated": "2026-11-26T20:17:13.791154+08:00",
@@ -784,10 +784,10 @@
         "version": "64fc356c0913b84a5d383d94c61d4d323152a04f1a7205be2a51537a7a7d3cba"
       },
       {
-        "last_updated": "2026-11-24T16:16:47.799709+08:00",
+        "last_updated": "2026-11-27T12:14:26.693516+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "debb394c5fbec77d60a93cafbf85fb62bdbeb4d7004d185a83383242ff8c6848",
-        "version": "debb394c5fbec77d60a93cafbf85fb62bdbeb4d7004d185a83383242ff8c6848"
+        "sha256": "d26403c27e1220eba7b3cc43751375c291a0f18a456d4236dc24dbc18274e192",
+        "version": "d26403c27e1220eba7b3cc43751375c291a0f18a456d4236dc24dbc18274e192"
       }
     ],
     "announcements/師資培育中心特殊教育中心": [
@@ -2012,10 +2012,10 @@
         "version": "a8a5e0db9201e41d5952a44f4399a9fcd3552fbf56747312cff8752df0ebe0f3"
       },
       {
-        "last_updated": "2026-11-24T12:14:45.645816+08:00",
+        "last_updated": "2026-11-27T12:14:26.693516+08:00",
         "name": "徵才訊息_zh-tw.json",
-        "sha256": "dfed2db989a968ec57334b110f39ad66244f4ec8d1526729a567168caf5921cf",
-        "version": "dfed2db989a968ec57334b110f39ad66244f4ec8d1526729a567168caf5921cf"
+        "sha256": "346bad4fa9c0c47375582c2d90a20e52377880211ec59487b76fa3acec67feb2",
+        "version": "346bad4fa9c0c47375582c2d90a20e52377880211ec59487b76fa3acec67feb2"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -2036,10 +2036,10 @@
         "version": "f0d24094932f25ef35f86a2cb412073097a131a8c099a2f7cca24a41e6a296ae"
       },
       {
-        "last_updated": "2026-11-18T14:20:45.170401+08:00",
+        "last_updated": "2026-11-27T12:14:26.693516+08:00",
         "name": "賀榜_zh-tw.json",
-        "sha256": "75a2987c17ae834012440988cace7edca775a22c93110e9745091229ce4d2f8f",
-        "version": "75a2987c17ae834012440988cace7edca775a22c93110e9745091229ce4d2f8f"
+        "sha256": "5236b3c01b0fff27413dc0115e8a2d43c2312afe690f6bee4d41151a6dd76686",
+        "version": "5236b3c01b0fff27413dc0115e8a2d43c2312afe690f6bee4d41151a6dd76686"
       }
     ],
     "announcements/竹師教育學院教育與學習科技學系": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-27T10:16:50.719372+08:00"
+  "last_updated": "2026-11-27T12:14:26.693516+08:00"
 }
