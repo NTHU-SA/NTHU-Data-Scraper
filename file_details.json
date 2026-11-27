@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-27T08:31:41.840732+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "announcements.json",
-        "sha256": "ed53c93c236cb3e48a14b1a0cc212ded89d4cbb6858f15a91a0bb7ab235ef446",
-        "version": "ed53c93c236cb3e48a14b1a0cc212ded89d4cbb6858f15a91a0bb7ab235ef446"
+        "sha256": "dfe182d7dba6e8d7094495ffc09ce19e54c0acb6a12603849e40b93ac6d798e7",
+        "version": "dfe182d7dba6e8d7094495ffc09ce19e54c0acb6a12603849e40b93ac6d798e7"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "6e7f582330f89a0967b549a5b8b0053907e4af03f3df7ed76b90d60aff6bcd81"
       },
       {
-        "last_updated": "2026-11-27T08:31:41.840732+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "dining.json",
-        "sha256": "8895ca6d445086160e1540fb25d6dc97a45a043c7ff8a937fea8f48d0c322777",
-        "version": "8895ca6d445086160e1540fb25d6dc97a45a043c7ff8a937fea8f48d0c322777"
+        "sha256": "bd103e095cece1a292a3916669a7b4eb2df731608ea1dc900f8412ed1f8e9ee3",
+        "version": "bd103e095cece1a292a3916669a7b4eb2df731608ea1dc900f8412ed1f8e9ee3"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -546,10 +546,10 @@
     ],
     "announcements/學務處諮商中心(醫輔大樓2樓)": [
       {
-        "last_updated": "2026-11-09T16:56:48.679686+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "中心公告_zh-tw.json",
-        "sha256": "eea4eb36d231298144ead780b5acf842e1338c94cefee716fcbbcd852cbf1b72",
-        "version": "eea4eb36d231298144ead780b5acf842e1338c94cefee716fcbbcd852cbf1b72"
+        "sha256": "ca7c0fcefe271d003cc346c16e81872f6123b00cad9fef24351027e2ce0c512b",
+        "version": "ca7c0fcefe271d003cc346c16e81872f6123b00cad9fef24351027e2ce0c512b"
       },
       {
         "last_updated": "2026-11-25T12:15:09.918685+08:00",
@@ -846,10 +846,10 @@
         "version": "f0bbf96409405d437195aad00b144e18b34d9a59ee029a2191e7b219d581abcc"
       },
       {
-        "last_updated": "2026-11-10T16:17:10.681339+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "學士班最新公告_zh-tw.json",
-        "sha256": "e59fffcd63ee55456b81db37818bb6cb26535634d28abefade071f794ad06c1d",
-        "version": "e59fffcd63ee55456b81db37818bb6cb26535634d28abefade071f794ad06c1d"
+        "sha256": "12ef263b80aa494fce1e002ed638eefb6bd15d6e35792cd87bdf3ac47860d6f0",
+        "version": "12ef263b80aa494fce1e002ed638eefb6bd15d6e35792cd87bdf3ac47860d6f0"
       },
       {
         "last_updated": "2026-11-06T16:16:05.104935+08:00",
@@ -1360,10 +1360,10 @@
         "version": "afc9e6f44f6a6cd4655275434b08e90fabe83146cf8b42488bb05de9d88364e0"
       },
       {
-        "last_updated": "2026-11-19T16:16:40.324162+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "SPEECHES_en.json",
-        "sha256": "ac1eac563ff32f509077ab94571af3fef19d1f9b978cd0e0cfece3808e6d587e",
-        "version": "ac1eac563ff32f509077ab94571af3fef19d1f9b978cd0e0cfece3808e6d587e"
+        "sha256": "841a592e2addfc5c127d38fef80dfbe69ed2bb357ad15a9ed63495d98a225031",
+        "version": "841a592e2addfc5c127d38fef80dfbe69ed2bb357ad15a9ed63495d98a225031"
       },
       {
         "last_updated": "2026-11-19T10:16:09.404556+08:00",
@@ -1372,10 +1372,10 @@
         "version": "e91bbfcc4cda85c6844ab3a5ed004d50e1918f6644cc62559b9e98c661e7e20b"
       },
       {
-        "last_updated": "2026-11-19T16:16:40.324162+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "演講訊息_zh-tw.json",
-        "sha256": "fb2c94d068230d5eaf4987c9a9e7a60db6840242bd0318281fd5e20ee9b958e0",
-        "version": "fb2c94d068230d5eaf4987c9a9e7a60db6840242bd0318281fd5e20ee9b958e0"
+        "sha256": "0b662c7a0475525aaf10218641c45bdb526aa50de5d619632019eeb98648e463",
+        "version": "0b662c7a0475525aaf10218641c45bdb526aa50de5d619632019eeb98648e463"
       },
       {
         "last_updated": "2026-09-27T22:24:37.491896+08:00",
@@ -1740,16 +1740,16 @@
         "version": "b771625f2913b84c7c63a3f910325aab5065e930fdc010e51e0f8ba1175d4cb1"
       },
       {
-        "last_updated": "2026-10-28T08:37:33.863987+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "研究倫理最新消息公告 REC NEWS_zh-tw.json",
-        "sha256": "ca3cbea6c8fa9eb44e1f50da1cbf557f99ac480418c7d49fc0cd57976fc61dbb",
-        "version": "ca3cbea6c8fa9eb44e1f50da1cbf557f99ac480418c7d49fc0cd57976fc61dbb"
+        "sha256": "d7c506b8d30dcfce8176b3433b2fa7a35a060049f4ad4ccd2332f1c67ebb31f0",
+        "version": "d7c506b8d30dcfce8176b3433b2fa7a35a060049f4ad4ccd2332f1c67ebb31f0"
       },
       {
-        "last_updated": "2026-11-20T12:14:38.518134+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "線上審查系統公告_zh-tw.json",
-        "sha256": "877c85fbc2e33e3d4e6d7fe9f375ac50d5d1d9ae6ab5a70adda782486b8e9cc2",
-        "version": "877c85fbc2e33e3d4e6d7fe9f375ac50d5d1d9ae6ab5a70adda782486b8e9cc2"
+        "sha256": "6475bf0f84449537a06d043003276ec71d5233a552f35d46684ef627347c44b0",
+        "version": "6475bf0f84449537a06d043003276ec71d5233a552f35d46684ef627347c44b0"
       }
     ],
     "announcements/研究發展處硼中子捕獲治療中心": [
@@ -2974,10 +2974,10 @@
         "version": "9e703479dd377a6a6bdfaa5bcad872b872fd69e980e69b141dd63579771de924"
       },
       {
-        "last_updated": "2026-11-27T00:13:51.704438+08:00",
+        "last_updated": "2026-11-27T10:16:50.719372+08:00",
         "name": "rss.json",
-        "sha256": "4d28cd631ac54c9ee1f8bc7a53b6e255f2c70859fa6e3a763d1194763e010cf0",
-        "version": "4d28cd631ac54c9ee1f8bc7a53b6e255f2c70859fa6e3a763d1194763e010cf0"
+        "sha256": "5e4c66ab4d31d636da5d7923932fb85e053082f77c1e8c3300635b24fd426f51",
+        "version": "5e4c66ab4d31d636da5d7923932fb85e053082f77c1e8c3300635b24fd426f51"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-27T08:31:41.840732+08:00"
+  "last_updated": "2026-11-27T10:16:50.719372+08:00"
 }
