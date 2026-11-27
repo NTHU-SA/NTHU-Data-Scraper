@@ -2974,10 +2974,10 @@
         "version": "a6c4f3a90ac778d2a324e7a3c3f185e7cb96c3852f24ae8ed5ea7e0dc53eb3e2"
       },
       {
-        "last_updated": "2026-11-27T14:21:14.750764+08:00",
+        "last_updated": "2026-11-28T00:13:39.902361+08:00",
         "name": "rss.json",
-        "sha256": "3eb8c3c8745606184a9a6845f8450bab036aff403de28c049c80298e7931853a",
-        "version": "3eb8c3c8745606184a9a6845f8450bab036aff403de28c049c80298e7931853a"
+        "sha256": "f5b8468568bb1ae437c5fcf6e18ee85514ca68fbc5f2d2b82cf774a0ed0a0182",
+        "version": "f5b8468568bb1ae437c5fcf6e18ee85514ca68fbc5f2d2b82cf774a0ed0a0182"
       }
     ],
     "maps": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-27T18:12:23.548033+08:00"
+  "last_updated": "2026-11-28T00:13:39.902361+08:00"
 }
