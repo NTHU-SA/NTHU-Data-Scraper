@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-27T00:13:51.704438+08:00",
+        "last_updated": "2026-11-27T08:31:41.840732+08:00",
         "name": "announcements.json",
-        "sha256": "9dec8f52f2a10a0ded0931721f757f09ba28299150a13f250c1c861d69af32bd",
-        "version": "9dec8f52f2a10a0ded0931721f757f09ba28299150a13f250c1c861d69af32bd"
+        "sha256": "ed53c93c236cb3e48a14b1a0cc212ded89d4cbb6858f15a91a0bb7ab235ef446",
+        "version": "ed53c93c236cb3e48a14b1a0cc212ded89d4cbb6858f15a91a0bb7ab235ef446"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -38,10 +38,10 @@
         "version": "6e7f582330f89a0967b549a5b8b0053907e4af03f3df7ed76b90d60aff6bcd81"
       },
       {
-        "last_updated": "2026-11-26T16:16:23.239959+08:00",
+        "last_updated": "2026-11-27T08:31:41.840732+08:00",
         "name": "dining.json",
-        "sha256": "cf19b56fea4118d2e02a73678b947e007690294cf316a2ddf6c1906b652194ed",
-        "version": "cf19b56fea4118d2e02a73678b947e007690294cf316a2ddf6c1906b652194ed"
+        "sha256": "8895ca6d445086160e1540fb25d6dc97a45a043c7ff8a937fea8f48d0c322777",
+        "version": "8895ca6d445086160e1540fb25d6dc97a45a043c7ff8a937fea8f48d0c322777"
       },
       {
         "last_updated": "2026-10-03T01:18:48.470407+08:00",
@@ -1048,10 +1048,10 @@
         "version": "b6d33f04e5c0c92c5cb5453d5a518c53ba22d7e2340315e0921f0d31bcd48a7b"
       },
       {
-        "last_updated": "2026-11-26T12:14:42.396497+08:00",
+        "last_updated": "2026-11-27T08:31:41.840732+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "2e6a2462d9f0cde5c59d2bc038d5880045da7b05d8319b5ffd5bcf1cc09581a7",
-        "version": "2e6a2462d9f0cde5c59d2bc038d5880045da7b05d8319b5ffd5bcf1cc09581a7"
+        "sha256": "1f003c478c811e8d9683bfec3d2baea7d5907137e6e1061550a7185a824c84d2",
+        "version": "1f003c478c811e8d9683bfec3d2baea7d5907137e6e1061550a7185a824c84d2"
       }
     ],
     "announcements/教務處課務組": [
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-27T06:11:24.274016+08:00"
+  "last_updated": "2026-11-27T08:31:41.840732+08:00"
 }
