@@ -2,10 +2,10 @@
   "file_details": {
     "/": [
       {
-        "last_updated": "2026-11-27T14:21:14.750764+08:00",
+        "last_updated": "2026-11-27T16:16:41.714630+08:00",
         "name": "announcements.json",
-        "sha256": "c9f7bfb6459b2ff43b32b69ac921645495feb22d70ffb0045724e5894393fdd3",
-        "version": "c9f7bfb6459b2ff43b32b69ac921645495feb22d70ffb0045724e5894393fdd3"
+        "sha256": "0e62ae32f27da856c40d382cc9f1154221bf74066bc9143fddd31041fb85b9d0",
+        "version": "0e62ae32f27da856c40d382cc9f1154221bf74066bc9143fddd31041fb85b9d0"
       },
       {
         "last_updated": "2026-10-03T03:34:39.239957+08:00",
@@ -378,10 +378,10 @@
         "version": "ae9374beee5637462230a12675029baae6ca706e897fcc59987472b421e7a9f5"
       },
       {
-        "last_updated": "2026-11-14T00:12:54.909721+08:00",
+        "last_updated": "2026-11-27T16:16:41.714630+08:00",
         "name": "最新消息_zh-tw.json",
-        "sha256": "c234685dc189404b7d4d9930a57930a2764f51675ab574179f954cac2ab89c97",
-        "version": "c234685dc189404b7d4d9930a57930a2764f51675ab574179f954cac2ab89c97"
+        "sha256": "da255c16cafc4915f7d736a1361bb3db5597f61aad95e58a3b310fb5435e7326",
+        "version": "da255c16cafc4915f7d736a1361bb3db5597f61aad95e58a3b310fb5435e7326"
       }
     ],
     "announcements/學務處學生住宿組(水木生活中心1樓)": [
@@ -474,10 +474,10 @@
         "version": "e1e972e04c83819fff6ad646c317a2ad9b68ae36127a5f6249110e8cb22ac65f"
       },
       {
-        "last_updated": "2026-11-24T18:11:44.082801+08:00",
+        "last_updated": "2026-11-27T16:16:41.714630+08:00",
         "name": "最新公告_zh-tw.json",
-        "sha256": "01607bf63071ccf416f3258f75591860a0bbbfe686964d1409a8aaadf8b79bbb",
-        "version": "01607bf63071ccf416f3258f75591860a0bbbfe686964d1409a8aaadf8b79bbb"
+        "sha256": "498e8675aad6032c4c92b2a8f012a200053b4f3b477e09413ca2a76d9eed1e4b",
+        "version": "498e8675aad6032c4c92b2a8f012a200053b4f3b477e09413ca2a76d9eed1e4b"
       },
       {
         "last_updated": "2026-11-12T12:14:22.246417+08:00",
@@ -1222,10 +1222,10 @@
         "version": "0b8a2d4da1d37fcbcb92fb3cdf20d647836ec414bc736ce52975e38646b99f8e"
       },
       {
-        "last_updated": "2026-11-26T12:14:42.396497+08:00",
+        "last_updated": "2026-11-27T16:16:41.714630+08:00",
         "name": "校外徵才_zh-tw.json",
-        "sha256": "724b7b4fd53fa2997b69bce535b10f24166d61bce8192b527272ef17732c4a1e",
-        "version": "724b7b4fd53fa2997b69bce535b10f24166d61bce8192b527272ef17732c4a1e"
+        "sha256": "856a174c520cd9ed80cc6c62ba46b17c6c82da204f903d6edec1e06bc31ebb6c",
+        "version": "856a174c520cd9ed80cc6c62ba46b17c6c82da204f903d6edec1e06bc31ebb6c"
       },
       {
         "last_updated": "2026-11-25T00:13:37.370138+08:00",
@@ -2968,10 +2968,10 @@
     ],
     "libraries": [
       {
-        "last_updated": "2026-11-26T12:14:42.396497+08:00",
+        "last_updated": "2026-11-27T16:16:41.714630+08:00",
         "name": "calendars.json",
-        "sha256": "9e703479dd377a6a6bdfaa5bcad872b872fd69e980e69b141dd63579771de924",
-        "version": "9e703479dd377a6a6bdfaa5bcad872b872fd69e980e69b141dd63579771de924"
+        "sha256": "a1ccdd73768945e93154179aec710df44653f87d2bf672d764cc4ccd6294d270",
+        "version": "a1ccdd73768945e93154179aec710df44653f87d2bf672d764cc4ccd6294d270"
       },
       {
         "last_updated": "2026-11-27T14:21:14.750764+08:00",
@@ -3027,5 +3027,5 @@
       }
     ]
   },
-  "last_updated": "2026-11-27T14:21:14.750764+08:00"
+  "last_updated": "2026-11-27T16:16:41.714630+08:00"
 }
